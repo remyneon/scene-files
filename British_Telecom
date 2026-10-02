@@ -1,0 +1,370 @@
+                       BT Basics - by Pharlin J. Hack
+
+OK, this article is to supplement the lack of basic information that seems
+hard to find for people wanting information about the UK fone system. It is
+by no means comprehensive or detailed but more a starting off guide that
+deals with some of the more interesting things that anybody can go off and
+experiment with. Everything is as and please read the credits at the end of
+the phile. This is full of information that is meant for educational use
+only, if you somehow manage to work out a way to defraud BT from it then it
+has nothing to do with me, blah blah blah. Please enjoy.
+
+OK so where do we start?
+
+If you can't be bothered reading the whole whack you can just skip to
+
+  payphones
+  chargecards
+  blue boxing
+  Nostar
+  codes
+  resources
+
+Some basics, in the UK most people are fed by the monopoly giant, British
+Telecom, (BT from here on in) and while there are others (mainly Mercury,
+and now United Artists), BT seem to have the hold, indeed Mercury have to
+rent the lines off of BT in the first place. Come September of 95 however,
+AT&T are arriving and Mercury and BT are crapping their proverbial pants.
+In fact a lot of the technology that BT employs is just 'borrowed' American
+technology from BOC's e.g. some of our digital Xs are based on 5ESS, our
+caller ID is just CLASS technology modified and applied here.
+
+For the financial year of 1994 BT made a pre-tax profit of 2 3/4 billion
+pounds and have sacked over 90 000 employees in the past 4 years. The
+largest profit margin ever recorded was for the 1991 financial year when BT
+made a pre-tax profit of over 3 billion pounds.
+
+There are three kinds of exchanges (OK, smarty pants there are more, but
+three 'types') and these can be categorised as digital (sysX, sysY),
+semi-electronic and electro-mechanical. Around 75% of customers were
+connected to digital exchanges in 1994 (around 26 million exchange lines)
+and BT reckon by 1996 all customers will be served by digital or electronic
+switches. All international calls are handled by 4 dedicated exchanges. The
+digital exchanges, system X and system Y along with the TXE4 exchange are
+connected together using CCITT C7 signalling and provide the method for
+call tracing and CLID.
+
+Houses with fones in the UK are fed by two cables that come from the
+exchange via telephone poles and underground. The two cables (line pair
+called A and B) connect to a junction box somewhere in your house to which
+your fone plugs into. Normally, line A runs at -50V and line B at 0V, don't
+worry about connecting A and B incorrectly because it shouldn't make too
+much difference. Little bit of history here, because of wiring changes and
+depending on how old your house is you may have different wiring. The
+defacto now is the familiar Blue/White, Orange/White and Green/White (with
+reverse, i.e. White/Blue etc. etc.) but before that was a mass of wires
+including orange, brown, green, white, blue, the list goes on....anyway
+things get even more complicated when you strip a BT fone down and find
+red, green, white and blue wires. sheeesh. You'll be pleased to know that
+we are only interested in 2 of these wires, basically the A and B wires
+that we talked of earlier. Here is how they compare;
+
+                   Line A                  Line B
+                   ======                  ======
+
+          Old  ->  orange                  light blue
+          New  ->  white/blue stripes      blue/white stripes
+          fone ->  white                   red
+
+Lost? just remember that the two lines (A+B) can be reversed and it
+shouldn't make that much difference, the table above gives you an idea what
+to do with the mass of cables that you have depending on where you are,
+i.e. if you are playing with your beige box. There is a third wire needed
+for the bell (or shunt) but that is not needed at this stage... but is the
+orange/white wire in the newer wiring system (the green/white, white/green
+do nothing and the white/orange wire is needed in PABX systems ). If
+anybody wants specific wiring plans and schematics then get me on IRC and
+I'll pass some on.
+
+Now, go find those interesting big green boxes (open them with a hex
+wrench) beside the road, shimmy up the poles, find the junction boxes in
+your work, college, schools and experiment with your new found friends. You
+don't need told what uses you can have with them.... just get a beige box
+and experiment. Just remember that A connects to A and B to B.
+
+right, that should cover wiring, now onto
+
+Payfones
+
+In 1994, there were over 120 000 public payfones dotted around the country
+and BT spent a whopping 10 million GBP on the physical security of their
+payfones (and still managed to screw up). BT payfones can be split into two
+main types; the payfones where cash has to be inserted and cardfones where
+disposable bought cards have units on them that are used up, there are now
+variations on that theme with payfones now accepting credit cards and the
+new "Payphone 2000" which accepts cash, credit cards, charge cards (more on
+these later) and fone cards. What you must remember is that payfones are
+for all intents and purposes just regular fones that need a unit of some
+sort to be deposited before a call can be made.
+
+Now for the 10 million that BT managed to spend you'd think that they'd get
+their money's worth but in fact that 'physical security' can be defeated in
+around 5 seconds with a screwdriver and a pair of pliers. For those who are
+inclined toward committing vandalism of the physical kind this one is for
+you;
+
+1: insert the screwdriver into the coin
+     return slot at the bottom and lever it
+     so that the bottom will pop out           | 789    ____ |
+                                               | *0#    |   ||
+                                               |        |   || < coin return
+
+                                               |        --|--|   slot
+                                               ---------- |---
+                                                          |
+                                            screwdriver>  O
+                                                          O
+                                                          O
+
+   2: now the coin return slot should be   |    |
+      like this (side view)                |____o\
+
+
+   3: the o in that diagram represents a round bit of metal. remove it
+      with brute force and the pliers
+
+
+   4: Now you are ready to make free fone calls. put a 20 pence piece in
+      the machine
+
+   5: now put your fingers up the coin return slot (two fingers is best)
+
+   6: Wiggle your fingers around and the 20p should fall into your hands,
+      but still register
+
+   7: the max. is 1:60, but this can be supplemented when it goes down
+
+   8: when leaving, it is sensible to push the slot back in (easy removable
+      by hand again) so that it goes unnoticed
+
+
+
+like I mentioned, this won't work on the newer pay fones or COCOT's, just
+the traditional payfones.
+
+As stated before a payfone is just a fone connected to a standard line. The
+weird things about payfones (these don't cause too many problems - just
+slight nuances) is that the mouth piece on the fone is disabled until your
+call is connected. However a friend of mine who works in exchanges at BT
+reckons these can be switched off with some RF gear. Disabling the
+mouthpiece means no tones can be sent down the fone until the call has been
+connected. One of the reasons for this stems back to a time when BT offered
+"remote control" answering machines whereby you where supplied with a white
+box and you could dial home and by adding the digits 00 or 99 the call went
+through uncharged (because it was routed as an emergency call), people
+sussed out that if it worked for their home calls then it would work for
+other numbers too.
+
+Another thing that is annoying is the fact that you can not DTMF dial on a
+payfone line until the call is connected (this isn't strictly true... in
+some areas DTMF is allowed but that is more the exception) and that is a
+characteristic of the line, not the fone. The fone itself is more than able
+to supply the DTMF tones; to switch the fone to DTMF press the * when your
+call is connected. The final annoying thing about payfones is that for the
+first minute of an incoming call or an outgoing call to an operator an
+annoying bee boop (or cuckoo tone) is generated by the fone.
+
+The reason for this is to 'wake' up the operator, that is, if you try
+making a reverse charge call (call collect) to a payfone, when the handset
+is picked up the operator hears the cuckoo and knows not to connect the
+call. However, if you disconnect or by pass the cuckoo (there is a way) and
+are lucky not to have an alert operator (see later) the operator will
+connect the call. Now originally I thought that the cuckoo tone was the
+only thing that would distinguish a payfone from a regular fone but this is
+not strictly true. In the US for example the operators have a database of
+which numbers don't accept collect calls (202 456 1414 for example) and
+payfones are included in this lot, in the UK however a thing like that
+doesn't exist.
+
+On digital exchanges (sysX only in this case - I think) though, flags can
+be assigned to determine what type of line the caller is on, i.e. business,
+customer, payfone, cardfone. This means that even if you have the cuckoo
+tone disabled and the operator is particularly observant then she will know
+not to connect the call (provided you are served by a digital exchange) -
+however this has only happened to me once. That is, an operator connected a
+collect call and then a few minutes later came back on the line and told us
+what she'd done and disconnected us. What I am trying to say is that an
+operator knows whether you are calling her from a payfone or not but this
+can be reduced significantly by removing the cuckoo (HINT: it is generated
+by the fone, not the line - hook up a beige to the payfone feed and that
+sorts it)
+
+Now, some of you might have already clicked onto something but for the
+slower children in the class - have a think about this. The cuckoo tone
+lets a BT operator know that the fone does not accept collect calls. An
+American, French, Canadian operator hasn't a clue what the hell the cuckoo
+tone is and will quite happily let the call go through collect, in the same
+way the international operator (155) will quite happily connect a reverse
+charge call to an American payfone... it is surprising how many people have
+not thought of this (or maybe it is because I am hanging out with the wrong
+crowd). There was a time when you could call AT&T direct (0800 890 011) and
+ask to make a collect call to a payfone in the UK and the call would be
+connected but alas, times are a changing.
+
+Now a quick note about COCOT's that appear around the place. The typical
+newer ones are white square boxes with grey borders and are made by BT.
+These can be found in pubs, cinemas and on private property and are
+basically installed on residential or business lines. A lot of these (if
+installed by the owner and not BT) are not set-up properly, that is the
+flags aren't set-up i.e. the operator hasn't the flag to tell her whether
+it is a payfone or not, it will just come up as a residential or business
+number. Many of these payfones do not mute the handset, or disallow DTMF
+(there have even been reports that there is no cuckoo - but I have never
+come across it before). However, these are more fun to play with.
+
+I forgot to mention, if you want an ANI from a payfone, just insert a
+credit (don't worry you get it back) and dial either 174 or 175 - wait -
+the exchange will read out your number and then call you back, however most
+of the payfones that you come across will have the number printed anyway.
+
+I think that that is all I can think of to say about Payfones at the
+moment, another thing to point out is that if you fone the operator and
+claim that you lost money through a call, she will credit the amount that
+you lost to your home fone bill (or any number that you give them), but I
+don't really think that "I put in a five pound note" will really cut ice :)
+
+Chargecards
+
+These little babies are a beauty thanks to BT and their great thinking. In
+1994, there were more than 3 million chargecards in use and they could be
+used from over 120 countries around the world. What they allow you to do is
+to call a number (144 in the UK) and enter in your card details, which
+consists of a 10 digit card number and a 4 digit PIN, then you enter the
+number that you want to dial.
+
+BT charge cards come in 3 different flavours, home, national and
+international. Home allows you to only call your home fone number (in which
+case the last 4 digits of the card number is the PIN), national which as
+the name suggests allows only national calls and international, well you
+get the idea.
+
+If you follow the computer prompts all goes well, enter your card number,
+your PIN, fone number and your call is connected at 15% cheaper than a
+regular payfone call. However, thanks to BT's greed, if you fone the
+operator there is a surcharge of around 1.53 GBP BUT she will connect the
+call without even asking for your PIN, that's right get the card number
+from somebody (go on, practice some SE skills) fone the operator and ask to
+make a chargecard call, give the number you want to call, the card number
+and away you go. In fact for international calls, you do the same but you
+use a different number (it's on the bottom of the card). - BT wake up - A
+point to note is that on the cardholders bill, all chargecard bills are
+shown and the number dialled and the number dialled from are clearly shown,
+so don't do this from home kids...
+
+Blue Boxing - The Facts
+
+Ahh, in the beginning, there was the 2280Hz tone - this was the UK
+equivalent of the magic 2600Hz tone and was used in the same way with a
+separate bunch of MF tones, now alas the only place that you can use that
+lot with is in hicksville when you are on a non digital exchange and even
+then there are nasty filters blocking the magic tone soooo.....you start to
+look elsewhere.
+
+Now, we have what is called 0800 numbers which are the UK equivalent of
+1-800 numbers and some of them (especially ones starting 0800 89 XXXX) lead
+you overseas to new and exciting lands which means new and exciting fone
+systems. Here are some listed below, go hunting for others;
+
+0800 890 016 - Canada direct       0800 890 027 - South Africa direct
+0800 890 031 - Netherlands direct  0800 890 032 - Belgium direct
+0800 890 033 - France direct       0800 890 034 - Spain direct
+0800 890 036 - Hungary direct      0800 890 038 - Yugoslavia direct
+0800 890 039 - Italy direct        0800 890 042 - Czechoslovakia direct
+0800 890 043 - Austria direct      0800 890 045 - Denmark direct
+0800 890 046 - Sweden direct       0800 890 047 - Norway direct
+0800 890 049 - Germany direct      0800 890 055 - Brazil direct
+0800 890 056 - Chile direct        0800 890 061 - Australia direct
+0800 890 064 - New Zealand direct  0800 890 065 - Singapore direct
+0800 890 066 - Thailand direct     0800 890 081 - Japan direct
+0800 890 082 - Korea direct        0800 890 123 - Bermuda direct
+0800 890 212 - Morocco direct      0800 890 852 - Hong Kong direct
+
+Right, sift through those (no I'm not telling you which ones) and find one
+that is a CCITT5 line (nice beep when they answer) and grab a copy of
+Bluebeep (courtesy of Mr. Dittmeyer) and do the following...
+
+  1. dial your 0800 number (It must be a CCITT5 line)
+  2. send down 2600/2400Hz together, then 2400Hz on it's own. The length of
+     the tones and the delay between them varies with different lines,
+     experiment boy.
+  3. dial the number you are calling as follows...
+     KP2-CountryCode-AreaCode-Number-ST (you can't use KP on country direct
+     lines, but you can on others)
+  4. as if by magic....
+
+(There is an excellent article on blue boxing in the 20th century in CoTNO
+4 which goes into this whole topic much clearer and better than I do - go
+check it out.)
+
+Note, don't give up if it doesn't work, you have to experiment and play
+around, all things come to those who work....now despite what anybody tells
+you this works, BT have just removed one global route as I type this, so
+get going and find others.
+
+Norstar PBX's
+
+The following are the default codes for the Norstar PABX provided by BT.
+
+They are becoming more and more popular around the country and are popping
+up all over the place. (try new dept. stores, GAP have just bought a whole
+load for some of their stores and ODEON cinema's [the newer ones] all run
+on them) - an easy way to spot the fones that run on Norstar's net is that
+they have a nice big speaker along the top and have a little LCD screen
+which displays instructions and at the bottom of the 1-9 dial pad there is
+a volume bar. The four models in the family are the M7324, M7310, M7208,
+M7100 but the latter can't be programmed. hunt them out and enjoy.
+
+To enter the config set-up do the following;
+
+  1. press the key on the fone
+  2. key in **266344
+  3. prompted for password, key in **266344
+  4. you are then prompted through different settings using the little
+     screen, these are; Line data, Line Access, Call Handling, Change
+     Extensions.
+
+To enter the admin features, key in;
+
+  1. the key
+  2. **23646
+  3. prompted for password, key in **23646
+  4. this feeds you through all sorts of admin features, speed dialling,
+     removing restrictions, permissions, clearing lines, call barring,
+     overriding, changing passwords.
+
+You would be surprised how many offices, stores and business are now
+operating on Norstar's network, again if you want any specific information
+regarding these, feel free to get in contact with me or call the Norstar
+help line on 0800 378 822.
+
+That's all I really have to say for the moment. I just wanted to put out
+some information for those people who know lots about the American fone
+system but who live in the UK and are frustrated. If anybody want some
+specifics then get in touch.
+
+References and Credits
+
+(recommended reading)
+
+uk.telecom FAQ 1/2/3 compiled by James R Grinter (the phone man)
+wiring schematics written by Alan J Flavell
+Screwdriver and Pliers images by Cucumber at UAT
+Big thanks to Noakes for putting me straight on boxing facts
+Pete at Mercury
+Phil at BT exchanges
+British Telecom
+Onkel Dittmeyer for coding Bluebeep
+
+Resources
+
+alt.ph.uk
+alt.2600
+uk.telecom
+ftp.pipex.net /pub/telecom
+
+---------------------------------------------------------------------------
+All information is as and was correct at time of writing. Written and
+compiled by Pharlin J. Hack, take care, wipe feet, clean teeth. enough.
+I'll see you at Access all Areas.
+---------------------------------------------------------------------------
+
