@@ -1,6 +1,6 @@
-$\color{#FF0000}{# **!! WARNING !!**
+# **!! WARNING !!**
 
-**These tools are full of LIVE VIRII!!**)$
+**These tools are full of LIVE VIRII!!**
 
 They are collected and presented here for malware research, analysis, and archival purposes and should not be used for any illegal activities.
 
