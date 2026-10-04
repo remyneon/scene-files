@@ -1,0 +1,420 @@
+Supported Encoding Methods:
+	* URLEncode / URLDecode
+		~ Description: Encode/Decode an String
+		- 'URLEncode' Usage: urlencode(strToEncode)
+		- 'URLDecode' Usage: urldecode(strToDecode)
+		+ Parameters:
+			++ strToEncode: The string/text to be Encoded
+			++ strToDecode: The string/text to be Decoded
+			
+	* Base64 Encode/Decode
+		~ Description: Base64 Encode/Decode an String/Byte Array
+		- 'Base64Encode' Usage: base64encode(ToEncode)
+		- 'Base64Decode' Usage: base64decode(ToDecode)
+		+ Parameters:
+			++ ToEncode: The string/text/byte array to be Encoded
+			++ ToDecode: The string/text/byte array to be Decoded
+			
+	* HTML Encode/Decode
+		~ Description: HTML Encode/Decode an String
+		- 'HTMLEncode' Usage: htmlencode(strToEncode)
+		- 'HTMLDecode' Usage: htmldecode(strToDecode)
+		+ Parameters:
+			++ strToEncode: The string/text to be Encoded
+			++ strToDecode: The string/text to be Decoded
+
+			
+String-related Functions:
+	* Uppercase / Lowercase
+		~ Description: Upper/Lower each char of String/Text/Source
+		- 'Uppercase' Usage: uppercase(strToUpper)
+		- 'Lowercase' Usage: lowercase(strToLower)
+		+ Parameters:
+			++ strToUpper: The string/text to convert each char to Uppercase
+			++ strToLower: The string/text to convert each char to Lowercase
+			
+	* Length
+		~ Description: Gets the number of characters in the provided String/Text/Source
+		- 'Length' Usage: len(Source)
+		+ Parameters:
+			++ Source: The base String/Text/Source to Gets the number of characters in.
+		
+	* Trim / TrimStart / TrimEnd
+		~ Description: Trim And Replace Spaces at Start/End or Both part of an String/Text/Source
+		- 'Trim' Usage: trim(Source)
+		- 'TrimStart' Usage: trimstart(Source)
+		- 'TrimEnd' Usage: trimend(Source)
+		+ Parameters:
+			++ Source: The String/Text or Source to get Trimmed.
+			
+	* Replace
+		~ Description: Replace an string/text/word with an string/text/word
+		- 'Replace' Usage: replace(Source, ToFind, ToReplaceWith, [Optional] StartFrom = 1, [Optional] Count = -1)
+		+ Parameters:
+			++ Source: The base String/Text/Source to Find and Replace the texts in.
+			++ ToFind: An String/Text to search for and replace
+			++ ToReplaceWith: An String/Text To replace with the found String/Text
+			++ StartFrom: [Optional] A Number/Integer to determine the start position of source. Default is 1
+			++ Count: [Optional] Maximum count of allowed matches to be replaced. Default is 1
+		
+	* Substring
+		~ Description: Extract an string/text by providing start index and optionally length to be extracted till.
+		- 'Substring' Usage: substring(Source, StartIndex, [Optional] Length)
+		+ Parameters:
+			++ Source: The base String/Text/Source to extract string/text from
+			++ StartIndex: A Number/Integer that determine the index to start extracting texts from
+			++ Length: [Optional] A Number/Integer that determine the maximum length that the function is allowed to extract, Default is MAX
+			
+	*  CombineText
+		~ Description: Combine/Merge several strings/texts, merge order will be the order of provided arguemnets
+		- 'CombineText' Usage: combinetext(Params strings)
+		+ Parameters:
+			++ strings: Multiple strings/texts/variables to merge them, multiple parameters example: combinetext("Coded By ", "MR.ViPER", "@", "Cracking.Org") and the result will be: "Coded By MR.ViPER@Cracking.Org"
+		
+	* IndexOf
+		~ Description: Return index of an string/text in in base String/Text/Source
+		- 'IndexOf' Usage: indexof(Source, ToFind, [Optional] StartIndex, [Optional] Count)
+		+ Parameters:
+			++ Source: The base String/Text/Source to search for the String/Word/Text in.
+			++ ToFind: The String/Word/Text to search in the Source
+			++ StartIndex: [Optional] A Number/Integer that determine the position to start searching from.
+			++ Count: [Optional] A Number/Integer that determine The number of character positions to examine.
+		
+	* Add
+		~ Description: Add an String/Text to the left provided arguement(s)
+		- 'Add' Usage: source + ToAddValue
+		+ Parameters:
+			++ Source: The first String/Text/Number to add new values in.
+			++ ToAddValue: An String/Text/Number to Add after the Source.
+		
+	* FindTagVal
+		~ Description: Get/Extract text between two strings/word/texts
+		- 'FindTagVal' Usage: findtagval(Source, StartString, [Optional] EndString, [Optional] Delimiter = null)
+		+ Parameters:
+			++ Source: The base String/Text/Source to Extract texts from
+			++ StartString: The start of string that you want to extract text (will not be included in result)
+			++ EndString: [Optional] The End of string that you want to extract text (will not be included in result), by default, will extract to end.
+			++ Delimiter: [Optional] If you want to extract multiple matches, Put a Delimiter like "|" so it will split each match with a "|" between. By Default will only return first match and no delimiters.
+			
+	* RegexMatch
+		~ Description: Get/Extract Text matched by the provided Regex .NET Based Pattern
+		- 'RegexMatch' Usage: regexmatch(Source, Pattern, [Optional] RegexOptions = "im", [Optional] Timeout = "10")
+		+ Parameters:
+			++ Source: The base String/Text/Source to Do Regex on.
+			++ Pattern: A .NET Based Regex Pattern
+			++ RegexOptions: [Optional] Regex Options to set to Regex, Supported Options:
+					> "i" = Ignore Case
+					> "m" = Multi Line
+					> "s" = Single Line
+			++ TimeOut: [Optional] A time-out interval, or "-1" to indicate that the method should not time out
+			
+	* RegexMatches
+		~ Description: Get/Extract All Texts matched by the provided Regex .NET Based Pattern
+		- 'RegexMatches' Usage: regexmatches(Source, Pattern, TextToAddBeforeEachMatch, [Optional] AdditionalExpression = null, [Optional] RegexOptions = "im", [Optional] Timeout = "10")
+		+ Parameters:
+			++ Source: The base String/Text/Source to Do Regex on.
+			++ Pattern: A .NET Based Regex Pattern
+			++ TextToAddBeforeEachMatch: An String/Text to add Before Each Match, put "\n" for new line and nothing else. '_Counter_' will be replaced with the matched item Index (A Counter) like:
+					regexmatches($stage3responsesource#, "(?<=chr(double quotes)keychr(double quotes): chr(double quotes).*[\s]+chr(double quotes)expire_timechr(double quotes): )(\d+)", "\nExpires on #_Counter_: ", unixtimetodate(this))
+			++ AdditionalExpression: Function/Expression to execute for each value, represent the value by 'this', like:
+					regexmatches($stage1responsesource#, "(?<=chr(double quotes)keychr(double quotes): chr(double quotes).*[\s]+chr(double quotes)expire_timechr(double quotes): )(\d+)", "\nExpires on: ", unixtimetodate(this))					
+			++ RegexOptions: [Optional] Regex Options to set to Regex, Supported Options:
+					> "i" = Ignore Case
+					> "m" = Multi Line
+					> "s" = Single Line
+			++ TimeOut: [Optional] A time-out interval, or "-1" to indicate that the method should not time out
+					
+	* RegexReplace
+		~ Description: Replace Texts matched by the provided Regex .NET Based Pattern with provided Replacement string
+		- 'RegexReplace' Usage: regexreplace(Source, Pattern, Replacement, [Optional] RegexOptions = "im", [Optional] Timeout = "10", [Optional] Count)
+		+ Parameters:
+			++ Source: The base String/Text/Source to Do Regex Replace on.
+			++ Pattern: A .NET Based Regex Pattern
+			++ Replacement: The replacement string
+			++ RegexOptions: [Optional] Regex Options to set to Regex, Supported Options:
+					> "i" = Ignore Case
+					> "m" = Multi Line
+					> "s" = Single Line
+			++ TimeOut: [Optional] A time-out interval, or "-1" to indicate that the method should not time out
+			++ Count: [Optional] Maximum number of times the replacement can occur.
+			
+	* RegexEx
+		~ Description: Get/Extract Text matched by the provided Regex .NET Based Pattern, Group Capturing is also supported!
+		- 'RegexEx' Usage: regexex(Source, Pattern, [Optional] Matches = "True", [Optional] RegexOptions = "im", [Optional] Timeout = "10")
+		+ Parameters:
+			++ Source: The base String/Text/Source to Regex on.
+			++ Pattern: A .NET Based Regex Pattern
+			++ Matches: [Optional] Set if you want only ONE (First) Match or all, Set "False" to get ONLY the first Match! Default is "True"
+			++ RegexOptions: [Optional] Regex Options to set to Regex, Supported Options:
+					> "i" = Ignore Case
+					> "m" = Multi Line
+					> "s" = Single Line
+			++ TimeOut: [Optional] A time-out interval, or "-1" to indicate that the method should not time out
+		+ Return Type: MatchEx
+	
+	* RegexExAdd
+		~ Description: Add the new RegexEx function results to the old MatchEx, mostly  being used for Loop Stages.
+		- 'RegexExAdd' Usage: regexexadd(OldMatchExVariable, NewMatchExResult)
+		+ Parameters:
+			++ OldRegexExVariable: The Variable that includes old MatchEx.
+			++ NewRegexExResult: The new MatchEx that you want to add to the Old RegexExVariable
+		+ Example: RegexExAdd($RegexExOrders#, RegexEx(...))
+		
+	
+	* RegexExPropertiesSetter
+		~ Description: Set the Properties of The MatchEx.
+		- 'RegexExPropertiesSetter' Usage: regexexpropertiessetter(MatchEx, [Optional] GroupName = "", [Optional] MatchName = "", [Optional] AdditionalExpression = null)
+		+ Parameters:
+			++ MatchEx: The MatchEx that you want to set it's properties.
+			++ GroupName: The Group name that you want to extract from the MatchEx Captured Groups, Set "" if don't want just an specific captured group value.
+			++ MatchName: The Match Name, The Text that you want to get printed by RegexExPrint before each match! '_Counter_' will be replaced with the matched item Index (A Counter)
+			++ AdditionalExpression: Function/Expression to execute for each value, represent the value by 'this'
+		Example: RegexExPropertiesSetter(RegexEx("STORM is a Magic", "(STORM is a )(?<WhatIsStorm>.*)"), "WhatIsStorm", "STORM is #_Counter_: ", Trim(this))
+	
+	* RegexExPrint
+		~ Description: Prints the MatchEx(s)! Put several MatchEx(s) in the arguments and it will print them all in an Smart way, Take care of the MatchEx(s) order that you put as argument!
+		- 'RegexExPrint' Usage: regexexprint(Params MatchEx)
+		+ Parameters:
+			++ MatchEx: The Properties setted MatchEx(s)
+		Example: RegexExPrint($PSettedOrder#, $PSettedOrderDate#, $PSettedOrderStatus#)
+		
+	* JsonSerialize
+		~ Description: Serialize an String or object to Json
+		- 'JsonSerialize' Usage: jsonserialize(ToSerialize)
+		+ Parameters:
+			++ ToSerialize: The String or Object to Serialize!
+		Example: JsonSerialize("qwerty123chr(double quotes)")
+		
+	* CharCodeAt
+		~ Description: Returns an integer between 0 and 65535 representing the UTF-16 code unit at the given index.
+		- 'CharCodeAt' Usage: charcodeat(Source, CharIndex)
+		+ Parameters:
+			++ Source: The Source/Text/Word to get the char from.
+			++ CharIndex: The Char Index that is placed in the Source.
+			
+	* Count
+		~ Description: Count the number of occurrences of one string in another string!
+		- 'Count' Usage: count(Source, StringToCount)
+		+ Parameters:
+			++ Source: The base String/Text/Source to count the string in.
+			++ StringToCount: The string to count in the source.
+			
+	* Reverse
+		~ Reverse: Reverse an string.
+		- 'Reverse' Usage: reverse(ToReverse)
+		+ Parameters:
+			++ ToReverse: The string to get reversed!
+			
+	* GetBytes
+		~ Description: Get Bytes of an String/Text
+		- 'GetBytes' Usage: getbytes(strToGetBytes, [Optional] sourceEncoding = "UTF-8", [Optional] outputEncoding = "UTF-8", [Optional] Hex = "False")
+		+ Parameters:
+			++ strToGetBytes: The String/Text to get it's Bytes (Byte Array, byte[]).
+			++ sourceEncoding: [Optional] The Source String/Text Encoding, Default is set to "UTF-8", Available Encodings: "UTF-8", "UTF-7", "UTF-16", "UTF-32", "ASCII"
+			++ outputEncoding: [Optional] The Destination String/Text Encoding, Default is set to "UTF-8", Available Encodings: "UTF-8", "UTF-7", "UTF-16", "UTF-32", "ASCII"
+			++ Hex: [Optional] The boolean to determine if the source string is hex and you want to convert Hex String to Byte Array! Default is set to "False"
+		+ Example: GetBytes("STORM", "UTF-8", "UTF-8", "False")
+	
+	* GetString
+		~ Description: Get String of the Byte Array
+		- 'GetString' Usage: getstring(byteArray, [Optional] sourceEncoding = "UTF-8")
+		+ Parameters:
+			++ byteArray: The Byte Array to get the string from.
+			++ sourceEncoding: [Optional] The Source String/Text Encoding, Default is set to "UTF-8", Available Encodings: "UTF-8", "UTF-7", "UTF-16", "UTF-32", "ASCII"
+		+ Example: GetString(GetBytes("STORM", "UTF-8", "UTF-8", "False"), "UTF-8")
+		
+Mathematics:
+	* Addition
+		~ Description: Addition
+		- 'Addition' Usage: Number1 + Number2
+		+ Example:
+			"5" + "5"
+		
+	* Subtraction
+		~ Description: Subtraction
+		- 'Subtraction' Usage: Number1 - Number2
+		+ Example:
+			"5" - "5"
+			
+	* Division 
+		~ Description: Division
+		- 'Division' Usage: Number1 / Number2
+		+ Example:
+			"5" / "5"
+
+	* Modulus 
+		~ Description: The % operator computes the remainder after dividing its first operand by its second
+		- 'Modulus' Usage: Number1 % Number2
+		+ Example:
+			"5" % "5"
+			
+	* Multiplication 
+		~ Description: Multiplication
+		- 'Modulus' Usage: Number1 * Number2
+		+ Example:
+			"5" * "5"
+			
+	* Logical or bitwise XOR 
+		~ Description: Returns a specified number raised to the specified power.
+		- 'Modulus' Usage: Number1 ^ Number2
+		+ Example:
+			"5" ^ "5"	
+			
+	* Abs
+		~ Description: Returns the absolute value of a Decimal number.
+		- 'Abs' Usage: abs(Number)
+		+ Parameters:
+			++ Number: The number do the math on.
+			
+	* Ceil
+		~ Description: Returns the smallest integral value that is greater than or equal to the specified double-precision floating-point number.
+		- 'Ceil' Usage: ceil(Number)
+		+ Parameters:
+			++ Number: The number do the math on.
+			
+	* Floor
+		~ Description: Returns the largest integer less than or equal to the specified double-precision floating-point number.
+		- 'Floor' Usage: floor(Number)
+		+ Parameters:
+			++ Number: The number do the math on.
+			
+	* Round
+		~ Description: Rounds a decimal value to a specified number of fractional digits.
+		- 'Round' Usage: round(Number, Decimals)
+		+ Parameters:
+			++ Number: The number do the math on.
+			++ Decimals: The number of decimal places in the return value.
+			
+			
+Other Functions:
+	* UnixTime
+		~ Description: Return Current Timestamp (like: 1517516792.63398)
+		- 'UnixTime' Usage: unixtime()
+		
+	* UnixTimeToDate
+		~ Description: Converts Unix Timestamp to date, like: 2/28/2018
+		- 'UnixTimeToDate' Usage: unixtimetodate(UnixTimestamp)
+		+ Parameters:
+			++ UnixTimestamp: The Unix Timestamp to get converted to date.
+		
+	* If
+		~ Description: Returns one of two values depending on the value of the Boolean expression
+		- 'If' Usage: if(theBooleanToCheck, Then, Else)
+		+ Parameters:
+			++ theBooleanToCheck: The Boolean expression to check
+			++ Then: If the Boolean expression is true, Return Then value
+			++ Else: If the Boolean expression is false, Return Else value
+		
+	* JSExecute
+		~ Description: Executes Javascript codes
+		- 'JSExecute' Usage: jsexecute(Codes, [Params/UNLIMITED] CodeParameters /or/ VariablesToStore)
+		+ Parameters:
+			++ Codes: The Javascript codes, Can be a file or variable, the javascript file must be located in "Configurations" folder and the path would be like: "file:\\STORM_Hashing.js", the file Extension must be .js
+			++ CodeParameters: The Javascript Code Parameters to Set that made by "JsSetParameter" function
+			++ VariablesToStore: The Variable that you want to Store and Use it's value in the future. e.g: "number"
+			
+	* JsSetParameter
+		~ Description: Set a Parameter to the Javascript code.
+		- 'JsSetParameter' Usage: jssetparameter(VariableName, VariableValue, [Optional] VariableType)
+		+ Parameters:
+			++ VariableName: The name of Variable
+			++ VariableValue: The Value to set to the Variable
+			++ VariableType: [Optional] The Type you want it to be converted into native JavaScript data type, Supported types: "string", "number", "boolean", Default is "string"
+			
+	* JsGetVar
+		~ Description: Get Javascript Variable of the Executed Code result.
+		- 'JsGetVar' Usage: jsgetvar(JSExecuteResult, VariableName)
+		+ Parameters:
+			++ JSExecuteResult: The result of JSExecute function.
+			++ VariableName: The name of the Variable to get it's value, NOTE That you must have this Variable in Codes/CodeParameter AND VariableToStore on JSExecute function.
+		
+	* Generate
+		~ Description: Generate Random GUID/UUID/Device ID!
+		- 'Generate' Usage: generate(Type, [Optional] KeepDashes = True)
+		+ Parameters:
+			++ Type: The type of thing you want to generate, Supported types: "UUID", "DeviceID"
+			++ KeepDashes: [Optional] Set it to "False" if you want your UUID have dashes in. Default is "True"
+			
+	* Sleep
+		~ Description: Suspends the current thread for the specified amount of time in milliseconds.
+		- 'Sleep' Usage: sleep(TimeInMilliseconds)
+		+ Parameters:
+			++ TimeInMilliseconds: The amount of time you want to suspend the thread in milliseconds
+		+ Example: sleep(5000)
+		
+	
+		
+Crypto String Methods:
+	* MD5
+		~ Description: Encrypt an String/Text to MD5
+		- 'MD5' Usage: md5(strToHash)
+		+ Parameters: 
+			++ strToHash: The String/Text to be Hashed as MD5
+			
+	* SHA
+		~ Description: Encrypt an String To SHA-1/SHA-256/SHA-384/SHA-512
+		- 'SHA' Usage: sha(strToHash, ShaVersion, [Optional] Base64 = "False")
+		+ Parameters:
+			++ strToHash: The String/Text to be Hashed as SHA
+			++ ShaVersion: A Number/Integer that determine the SHA Version, can be: "1" / "256" / "384" / "512"
+			++ Base64: [Optional] The Boolean to determine if you want SHA Base64 Hash. "True" or "False"! Default is set to "False"
+			
+	* HMAC
+		~ Description: Encrypt an String to HMAC with several hash types ("MD5" / "RIPEMD160" / "SHA1" / "SHA256" / "SHA384" / "SHA512")
+		- 'HMAC' Usage: hmac(strToHash, HashType, Key, [Optional] Base64 = "False")
+		+ Parameters:
+			++ strToHash: The String/Text to be Hashed as HMAC
+			++ HashType: Hash Type, Supported Hash Types: "MD5" / "RIPEMD160" / "SHA1" / "SHA256" / "SHA384" / "SHA512"
+			++ Key: The key to use in the hash algorithm.
+			++ Base64: [Optional] The Boolean to determine if you want HMAC Base64 Hash. "True" or "False"! Default is set to "False"
+		
+	* PBKDF2-HMAC
+		~ Description: Encrypt an String to PBKDF2-HMAC
+		- 'PBKDF2-HMAC' Usage: pbkdf2hmac(PasswordToHash, Salt, DKLen, IterationCount, ReturnAs, [Optional] HmacBase = "HMACSHA256")
+		+ Parameters:
+			++ PasswordToHash: The String Password To Hash
+			++ Salt: The Salt
+			++ DKLen: Key Length, A Number/Integer
+			++ IterationCount: Iterations, A Number/Integer
+			++ ReturnAs: "hex" or "base64", You choose the return.
+			++ HmacBase: [Optional] The Hmac base, Supports: "HMACSHA1", "HMACSHA256", "HMACSHA384", "HMACMD5" . default is "HMACSHA256".
+
+	* PBKDF2-PKCS5
+		~ Description: Encrypt an String to PBKDF2-PKCS5
+		- 'PBKDF2-PKCS5' Usage: pbkdf2pkcs5(PasswordToHash, Salt, DKLen, IterationCount, ReturnAs)
+		+ Parameters:
+			++ PasswordToHash: The String Password To Hash
+			++ Salt: The Salt
+			++ DKLen: Key Length, A Number/Integer
+			++ IterationCount: Iterations, A Number/Integer
+			++ ReturnAs: "hex" or "base64", You choose the return.
+			
+	* AES
+		~ Description: Encrypt an String to AES
+		- 'AES' Usage: aes(ToHash, Key, [Optional] IV = "", [Optional] CipherMode = "CBC", [Optional] PaddingMode = "NONE", [Optional] ReturnAs = "BASE64")
+		+ Parameters:
+			++ ToHash: The String/Text/Byte Array to Hash.
+			++ Key: The Key, Can be a Byte Array or a Base64 String.
+			++ IV: [Optional] The IV, Can be a Byte Array or a Base64 String. Default is "".
+			++ CipherMode: [Optional] The CipherMode, Default is set to "CBC", Read https://docs.microsoft.com/en-us/dotnet/api/system.security.cryptography.ciphermode?view=netframework-4.7.2 for more info
+			++ PaddingMode: [Optional] The PaddingMode, Default is set to "NONE", Read https://docs.microsoft.com/en-us/dotnet/api/system.security.cryptography.paddingmode?view=netframework-4.7.2 for more info
+			++ ReturnAs: [Optional] Determine the output type of the function, supports "BASE64", "HEX" and "BYTES". Default is "BASE64"
+			
+	* RSAParameters
+		~ Description: Generate an RSAParameters class to use in the RSA function.
+		- 'RSAParameters' Usage: rsaparameters([Optional] Exponent = Default, [Optional] Modulus = Default)
+		+ Parameters:
+			++ Exponent: [Optional] The RSA Parameters Exponent Property, Default is the C# Default value.
+			++ Modulus: [Optional] The RSA Parameters Modulus Property, Default is the C# Default value.
+		+ Example: RSAParameters(GetBytes("010001", "UTF-8", "UTF-8", "True"), GetBytes("b********1", "UTF-8", "UTF-8", "True"))
+	
+	* RSA
+		~ Description: Encrypt an String/Byte Array To AES
+		- 'RSA' Usage: rsa(ToHash, [Optional] RSAParameters = null, [Optional] ReturnAs = "BASE64")
+		+ Parameters:
+			++ ToHash: The String/Text/Byte Array to Hash.
+			++ RSAParameters: [Optional] The RSA Parameters, Default is null (No RSA Parameters will be set)
+			++ ReturnAs: [Optional] Determine the output type of the function, supports "BASE64", "HEX" and "BYTES". Default is "BASE64"
+		+ Example: RSA("STORM", RSAParameters(GetBytes("010001", "UTF-8", "UTF-8", "True"), GetBytes("b********1", "UTF-8", "UTF-8", "True")))
+		
+		

