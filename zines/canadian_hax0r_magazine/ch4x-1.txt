@@ -1,0 +1,1146 @@
+                             "yes, we know we are askee artists.  suck my
+                             left fucking nut if you dont like our styles."
+
+
+
+
+
+
+                    .------------------------------.
+                    |       ch4x - issue one       |
+                    |         canada h4xor         |
+                    |                       [v.1.0]|
+                    |------------------------------|
+                    | chr1stm45 sp3c14l  12/25/1998|
+                    `------------------------------'
+
+
+      +---============================================@
+      | TABLE OF CONTENTS (lame phont, phear.. 8) :  //.
+.[t0p!c) =|_0---''''''''';;;;;;;;......------- .     ......( s3ct10n.]--.
+|                                                                       |
+| Preliminaries                                             /dev/null   |
+| Blue Boxing CCITT5 Trunks - demos                         un          |
+| DATAPAC Tutorial - phaceman                               deux        |
+| Why I'm an Asshole - phacemasta2000                       trois       |
+| How to get 0-day exploits - radead                        quatre      |
+| OHIP, EDT and j00! - phacedu0d0                           cinq        |
+| later skaters - phacewh0r3                                six         |
+`-----------------------------------------------------------------------'
+
+
+
+
+
+
+
+
+
+[ SECTION /dev/null: Preliminaries ]--------------------------------------
+
+... comment est-ce qu'on nous contactez? ...
+
+web page :       http://sdf.lonestar.org/~rounded
+
+IRC :           DALnet : #ch4x
+                 EFnet : #ch4x / #BlueBox / #fosc
+
+ *note "faceman != phaceman.  I am phaceman on irc, not faceman." *
+
+
+.., what the fux0r!!!!!111111!! ,..
+
+     welcome dear friends to ch4x numero 1.  In case you're stupid,
+     we  are a  canadian group.   we've heard enough bullchit  from
+     the  elite  american  groups, now  it's our turn to  rock your
+     socks off.  Only ch4x doesn't regurgitate texts from 1983, and
+     we don't talk about making  drugs with rat poison and  call it
+     h/p.   we're always  looking for  members,  if you've  got the
+     skills to thrills.  You do not qualify if because you can hack
+     ops on irc, or can BO your school network.
+
+     this  issue was  released early.  without warning.  so all our
+     members  did not get a  chance to  contribute.   but  it still
+     kicks the shit out of other magazines (i need not name names).
+     comments are always welcome, enjoy.
+
+                                         phaceman('_')
+                           [your friendly neighbourhood asshole]
+
+
+.., membuhz ,...
+
+    .---------------.----------------------------.-----------------------.
+    |          name |                      email |                 desc. |
+    |---------------+----------------------------+-----------------------|
+    | demos         | demos@sdf.lonestar.org     | big geek              |
+    | phaceman      | faceman@idirect.ca         | has zits on zits      |
+    | rounded       | rounded@idirect.ca         | backne problems       |
+    | mrfly         |          --                | bottle capped glasses |
+    | mojo          |          --                | slack-jawed           |
+    | radead        | radead@shaw.wave.ca        | sackne problems       |
+    `---------------^----------------------------^-----------------------'
+     : failed applicants who couldnt pass the test :                    :
+     ;          - oroku -           - majestic12 -                      ;
+     |                          [better luck next time, d00dicles!!!!!] |
+     `------------------------------------------------------------------'
+
+
+
+
+[ SECTION un : Blue Boxing CCITT5 Trunks ]--------------------------------
+
+
+
+BlueBoxing C5 Trunks (c) demos
+-Turn The Other Cheek And I'll Break Your Fucking Chin-
+ch4x 1998.  Canada h4xor.
+
+[ What Do you Mean? ]-----------------------------------------------------
+
+
+As we do know, Blue Boxing is the proceedure of emitting tones into your
+phone's reciever, in order to sieze a trunk, and gain the status of being
+able to dial out from that trunk.  Whats a trunk?  My definition for a trunk
+is the virtual circuit which connects you to the rest of the CO's /
+telephone networks from your local CO.
+
+>Your Home Phone ---Dialing---> CO1 ---TS---> ---CO2-->
+
+Your Home Phone, is self explanitory.  As you dial, you are put through to
+your local Central Office (CO1), which makes a trunk selection(TS), which
+connects you to the Central Office where your dialed party is located (CO2).
+
+
+
+[ But All My K-RAD Friends At 2600 Meets Say BlueBoxing Don't Work! ]-----
+
+Well, what these elite d00dz are thinking is that you want to be boxing
+trunks off your local CO.  With this being the 1990's, most CO's in Canada
+run DMS-100 (Bell Canada) Switching, and do not allow blueboxing.  With
+under-developed countries running old standards for their switching (CCITT5),
+blueboxing is possible.
+
+
+
+[ I Dont Want To Dial Over-Seas To Bluebox! ]------------------------------
+
+Well, one day, while trying to dial collect over-seas, I could not do so, for
+oversea's calls require a '011' before dialing.  On top of that, to dial
+collect, i had to have another '0' to do so.  The string I was dialing was
+0-011-Country-City-Number, which simply connected me with the local operator.
+I was stumped on how to make a collect call overseas - until one friendly
+Bell Canada operator told me about Home Country Direct lines, which are
+inward WATS (+1-800), which are used to place collect calls.  Most overseas
+countries offer these lines, which are toll free!
+
+
+
+[ So, Now What Do I Do? ]--------------------------------------------------
+
+Now that you understand how overseas collect calls function with inward
+WATS lines, you might want to consider how you can actually box them.
+Most of these Home Country Directs use old sets of standards, known as
+CCITT5, which are boxable.  So, how do you find these HCDs?  Simple, dial
+Toll Free directory (usually 1-800-555-1212), and ask them for the number of
+the Home Country Direct for the country you feel is liable to Blue Boxing.
+Most countries liable for Blue Boxing are those of South American countries
+(from my experience).
+
+
+
+[ How Do I Know If This HCD Is C5?! ]--------------------------------------
+
+Well, as you compile your list of suspectable HCDs for boxing, give them a
+ring.  If you hear a chirp, most likely it is C5.
+
+
+
+[ Lets Sieze These Dirty Foreigners' Trunks! ]-----------------------------
+
+I will tell you now, that I will not release delays and lengths, but I will
+tell you the freq's used to sieze most C5 HCDs' trunks.  From my experience,
+they have been a mixture of 2400 / 2600 hz, then a 2400 hz freq.  Now, if you
+find the lengths and delays, and get a sieze, you will use KP1 to start
+dialing, 0-city-localnumber then ST to stop dialing.  Remember, when dialing
+off a C5 trunk, yur gonna need the C5 dialsets, which have the same function
+of DTMF, but use different frequencies, and work on C5 trunks.
+
+
+
+[ Now, How Do I Generate These Tones? ]------------------------------------
+
+You are going to need a dialer.  I recommend :
+
+Break Machine / Linux / http://c5.hakker.com
+Scavenger     / DOS   / http://???
+
+Both these dialers have the same interface, yet, run off different operating
+systems.  Read their FAQ's for information on running them.  Both these
+dialers offer different signalling dialsets, an HCD list menu, tone player
+(in which you specify frequencies and timings yourself), timing/freq scanner,
+and a dialing list.
+
+
+
+
+[ SECTION deux : datapac for the lame and crippled ]-----------------------
+
+
+the dastardly tucker's guide to haX0ring on datapac (c) phaceman
+-your friendly neighbourhood d00dicle-
+ch4x 1998.  Canada h4xor.
+
+[ prepubescent intros ]----------------------------------------------------
+                                                                 sep.25.98
+
+
+DISCLAIMER: I'm not responsible for anything.  I'm not your babysitter, so
+            don't point to me if you land your ass in jail.  All info that
+            I give to you is for information purposes only.
+
+This is by no means a complete text on Datapac.  I don't claim to be a
+Datapac hacker extraordinaire, and you shouldn't assume that everything
+you read here will be the case in the real world.  Things change, people
+are wrong, so live with it.  This is a short introductory document to help
+datapac haX0r wannabes out.  I wrote this text because there's absolutely
+nothing on Datapac on the net.  I made this as short as possible, because
+everyone knows that the amount of bullshit and the length of a document are
+directly proportional... 8).  Read, learn, explore, and teach.
+
+
+
+[ Why Hack Datapac? ]------------------------------------------------------
+
+Firstly, I realize that Datapac isn't one of the more popular topic
+discussed in the wide world of hacking.  The reason for this is simple.
+People are too lame to use datapac nowadays.  It's all ping of death this,
+nuke to hell that, suck my ass whatnot.  "Hacking" programs are a dime a
+mother fucking dozen, and it takes no skill to use these programs.
+Backdoor Orifice is a simple example.  Sure, it may be fun to load up a
+program that can boot a lamer off irc in a simple keystroke.  But that's
+not all there is to hacking.
+
+Many people forget that the very beginnings of hacking come from the
+discovery of servers and systems penetration.  And if this is why you've
+come here to read my article, then let me be the first to give you a good
+old pat on your damn back.
+
+What is the main difference between haX0ring through the normal means
+(phone line or Internet) and using Datapac?  Simple.  Datapac's a
+packet-switching network that hooks you up to thousands and thousands of
+mad servers.  The beauty of this is that Datapac is, by design, a system
+with less security than that of the Internet or even phone lines.  It's a
+nice place to start hacking and exposing yourself (put your weenie back in
+your pants you dirty-ass mofo!) to as many different servers a possible,
+without leading the pigity-pigs right to your doorstep.
+
+Well, enough with the damn rambling.  I smell a new section...
+
+
+[ Get me on, you mofo!]----------------------------------------------------
+Relax.  Getting on Datapac is easy as passing gas.  There are two methods
+that one uses to connect onto Datapac.  You could use a datapac dial-up, or
+hop in through another PSN like Sprintnet.  Only the first method will be
+described in this document.
+
+There are three things you need in order to dial up to datapac:
+
+1.  a modem: If you don't have one, you suck the bag.
+2.  a phone book: yeah.  you read correctly.
+3.  a terminal program: set to VT100 (or VT102), 8N1.
+
+There should be dialups in all major Canadian cities for datapac.  There's
+no way in hell I'm gonna list them all.  It's not my job to be your ass
+swaddler, so go out and get your own info.  You can get the dialup for
+datapac in your area by grabbing your yellow pages, and looking for
+"datapac".  The "ITI" dialup is the one for you.  Toronto hackers (like me)
+can use this number: (416)868-4498.
+
+Write this number down, because you'll be using it often.  There is no
+charge for calling this number, other than the normal long distance charges,
+if they apply.  I always call with *67 (call block).  It's also a wise idea
+to divert your call through a local extender.  If you're some fancy-ass
+hacker with mad info, divert out of the NPA, and back in.  That'll make
+tracing difficult.
+
+I've never had troubles with dialing datapac.  It's heavy usage makes it
+hard to log all hackers exploring the datapac system.  Just be prepared,
+because you never know when the admins will be watching.  w0000000....
+
+
+[ Logging on is hard to do.  If you suck ass... ]--------------------------
+
+Now dial.  You should see:
+
+          atdt*67,8684498
+          CONNECT 19200/REL
+          DATAPAC: 4680 0019
+
+The first two lines, i trust you are familiar with...8).  However, the third
+line is our ticket to k-raddidity.  This line will not show up until you
+press three periods (...) followed by a carriage return (enter, you dolt).
+This means we've connected to Datapac.  The numbers Datapac spat out indicate
+to us our port address and the nodenumber.  It's format is like so:
+
+          #### ####
+          port node
+
+See?  That's not so hard.  By default, echo to your terminal will be off.  I
+find it helps to turn local echo on for my term proggie, until I connect to
+a server.   Which leads us to our next section...
+
+
+[ Hook me up, G. ]---------------------------------------------------------
+
+Now that you're connected, you can boast to all your friends that you are a
+true hacker.  Unfortunately, if you do this in #416 or any other h/p
+channel, we'll boot your ass faster than you can say "3y3 w4nt w4r3ZZZzzz!".
+The nest logical step on our journey to understanding datapac is to see how
+the system's address system works.
+
+This explanation is simplified because i'm getting tired of all this
+typing.. 8).  Datapac works using (mostly) 8 digit NUAs (Network User
+Address, sometimes called NUIs - Network User Identification).  Once you are
+connected to datapac, it waits for you to enter a vacation destination
+point.  This destination is an NUI, obviously, so therefore you must give
+datapac an 8 digit number.
+
+There are too many valid NUAs to count, so I'm not gonna try.  You can test
+out the datapac help server by typing:
+
+          92100086   [enter]
+
+You should then see:
+
+---[snip]
+
+DATAPAC: call connected to 9210 0086
+         (002) (n, remote charging, packet size: 256)
+WELCOME to the Datapac Information System.
+Your previous session was 1998-09-09  21:28:10  EST
+
+***************************************************************************
+
+                          W E L C O M E   T O   T H E
+
+       D A T A P A C    I N F O R M A T I O N    S Y S T E M    ( D I S )
+
+***************************************************************************
+
+
+The DIS keeps you up on all the latest Datapac news and information free of
+charge.
+
+If you need Datapac assistance,  simply call us on our Datapac Customer
+Assistance hotline 1-800-267-6574.
+
+We operate Monday to Friday from 8:00 a.m. to 5:00 p.m. Eastern Time.
+
+---[snap]
+
+...or something to that effect.  For completeness' sake, this is what the
+top part means.  You'll rarely need it.  8)
+
+          DATAPAC: call connected to 9210 0086
+                                       |
+                                       `- you've connected to this addy.
+
+
+       (002) (n, remote charging, packet size: 256)
+         |    |            |               |
+         |    |            |               `-- 256 chars/packet sent.
+         |    |            |
+         |    |            `-- they're paying for this call.. 8)
+         |    |
+         |    `-- normal call.  can also be a 'p'riority call.  'p'
+         |        increases the cost of the call.
+         |
+         `-- logical channel used for this call.
+
+All this information is bullshit.  The only important thing you need to know
+is about "remote charging", which we'll go into later.
+
+Now then, we know how to get places.  But where are the places to go?
+
+
+[ Places to go, NUAs to see... ]-------------------------------------------
+
+You're not gonna get very far using datapac unless you have a large supply
+of NUAs (and therefore servers) to fiddle with.  This means you're gonna
+need a way to find NUAs, and at mad speeds.  Enter: Datapac NUA Scanners.
+There are two of them.  One sucks.  The other doesn't work.  I suggest you
+write your own scanner.  If a datapac scanner ever comes across my box, I'll
+put info on the program in here.
+
+I know that not having a scanner to find NUAs really sucks.  But if you have
+some friends that also play with datapac, chances are they'll also hold a
+hefty list of NUAs for you to play with.  You could also just punch in
+random 8 digit numbers.  I find this works about 20% of the time, which
+isn't a bad percentile.
+
+Your favorite NUA should be the datapac help line.  Learn it well, because
+it'll teach you things I don't even begin to cover in this text file.  It's
+your own job to find NUAs.  That's one of the fun parts of datapac.
+
+
+[ Why Remote Charging lowers your blood pressure ]-------------------------
+
+Remote Charging is the equivalent of making a "collect call" on datapac.
+This means that the party you are calling gets billed for the call, not you.
+When you are using datapac, there are two types of calls:
+
+        1.  Remote Charging
+        2.  Pay Through Your Ass Charging
+
+Remote charging usually works with large servers.  However, there also
+exists the non-remote charging kind.  We'll call this asshole charging.
+This means that datapac bills the call back to you.
+
+"wait a minute", you ask.  "How can they bill me, if they don't know who I
+am?".  Easy.  They bill you through your NUA, if you have one.  Of course,
+for most purposes you won't need one.  But there are some servers that
+require you to own an NUA in order to functions.  The obvious example are
+the datapac outdials.
+
+To create a Datapac NUA, check out their help system for info.  If you
+happen to come across an NUA and its password by some chaotic mistake, you
+can make a reverse call by typing this at the Datapac prompt (or lack of
+prompt, in dpac's case...):
+
+        NUI <your nui>
+
+It will then ask you for a password.  Then you can connect to a NUA as
+usual, but your NUA will be billed for the call.  You can turn this off by
+typing 'NUI off' at the Datapac prompt.
+
+Prompts is our next topic.
+
+
+[ prompt=$p$g?  not anymore. ]---------------------------------------------
+
+While connected to a session, you can always break out into Datapac 'mode'
+again.  This helps if you want to instantly disconnect from that NUA, set
+parameters, or something along those lines.
+
+The break key is ^p (control-pee).
+
+From there, you can issue the following commands (not a complete list):
+
+CLR : this will disconnect you from the current NUA.
+SET : sets a value for a particular set of parameters.  For example, typing
+      'set 2:0 <enter>' would turn echo off.  There are many other
+      parameters to play with.  None of which are important now, really.. 8)
+      I will put the whole list in the next section.  The first number
+      indicates the parameter the set.  The number following the colon is
+      the parameter's new value.
+INT : sends an 'interrupt' packet to the destination's computer.
+
+There are many more commands.  I'm not gonna go through them all.  It'd bore
+the fuck out of you and me.. 8)
+
+Speaking of fucking boring shit, SETtable parameters are next on the list
+(gag).
+
+
+[ enough parameters to shrivel your asshole ]------------------------------
+
+Param.
+ No.  What it is                           Values               Defaults
+--------------------------------------------------------------------------
+1     Escape to command mode?                0 - not allowed        1
+      (using control-p)                      1 - allowed
+
+2     Echo                                   0 - off                0
+                                             1 - on
+
+3     Data forwarding signal (when           0 - none               2
+      this key is typed, send a              2 - <enter>
+      packet)                              126 - all control keys
+                                                 and <delete>
+
+4     Idle Timer (sends a packet             0 - none               0
+      after this time, if PAD         1 to 255 - delay in
+      buffer is not empty)                       20ths of a second
+
+5     Auxiliary Device Control (^S,          0 - off                0
+      ^Q hand shaking)                       1 - for a.d. control
+                                             2 - for intelligent
+                                                 terminals
+
+6     Suppress network messages              0 - suppress           1
+                                             1 - transmit
+
+7     Action on receipt of a BREAK           0 - nothing            21
+                                             1 - interrupt host
+                                             2 - reset call
+                                             4 - send BREAK
+                                             8 - enter command mode
+                                            16 - discard output
+                                            21 - interrupt, send
+                                                 BREAK indication,
+                                                 discard output.
+
+8     Discard Output (send-only              0 - normal             0
+      terminal)                              1 - discard
+
+9     Padding                         0 to 255 - number of          2
+                                                 pad chars.
+
+10    Line folding                           0 - none               0
+                                     1 to 255 - # chars per         0
+                                                line
+
+11    Transmission Speed (read only)         0 - 110 bps        variable
+                                             2 - 300 bps
+                                             3 - 1200 bps
+                                             4 - 600 bps
+                                            12 - 2400 bps
+                                            13 - 4800 bps
+                                            14 - 9600 bps
+
+12    XON flow control                       0 - off                0
+                                             1 - on
+
+13    Linefeed insertion                     0 - none               4
+                                             1 - add LF to terminal
+                                                 on CR from host
+                                             4 - echo LF to terminal
+                                                 when CR is typed
+                                             5 - echo LF to terminal
+                                                 when typed or
+                                                 received from host
+
+14    Number of padding characters     0 to 31 - number of          0
+      to insert after a linefeed (LF)            NULs to be
+                                                 inserted
+
+15    Enable editing functions for           0 - disable            0
+      parameters 16, 17, 18                  1 - enable
+
+16    Character delete                       0 - none             127 (del)
+                                      1 to 127 - ascii code
+                                                 of signal
+
+17    Line delete                            0 - none              24 (^X)
+                                      1 to 127 - ascii code
+                                                 of signal
+
+18    Line display (retype line)             0 - none              18 (^R)
+                                      1 to 127 - ascii code
+                                                 of signal
+
+19    Editing service signals (what          0 - nothing            2
+      is echoed when editing char.           1 - <bs> for line del
+      is recieved)                           2 - <bs><spc><bs> for
+                                                 each deleted char.
+                                             8 - <bs> for each
+                                                 deleted character
+                                     32 to 126 - send that
+                                                 ascii char.
+
+20    Echo mask: set of characters           0 - all echoed         0
+      not to be echoed to terminal           1 - no echo of <cr>
+                                             2 - no echo of <lf>
+                                             4 - no echo of <vt>,
+                                                 <ht>,<ff>
+                                             8 - no echo of <bel>,
+                                                 <bs>
+                                            16 - no echo of <esc>,
+                                                 <enq>
+                                            32 - no echo of <ack>,
+                                                 <nak>,<stx>,<soh>,
+                                                 <etd>,<etb>,<etx>
+                                            64 - no echo of editing
+                                                 characters
+                                           128 - no echo of control
+                                                 chars. and <del>,
+                                                 except those above
+
+21    Parity detected/checked                0 - no check           3
+                                             2 - generate
+                                             3 - checked
+
+22    Page wait                              0 - no page wait       0
+                                             1 to 255 - size of page
+
+121   Additional data forwarding             0 - none               0
+&     signals (ascii codes to         1 to 127 - ascii code
+122   terminate a packet)                        of signal
+
+125   Output pending timer (when to          0 - no delay           0
+      send a packet if no other       1 to 255 - delay in
+      signal seen)                               seconds
+--------------------------------------------------------------------------
+
+Mother fuck that was a lot to type and format....
+
+Most of you will never (sob) need to above.  But when and if you do, you
+won't find the above information in no LOD technical manual or the
+2600... 8)
+
+If I haven't scared you away yet, let me go on with the some information on
+PADs...
+
+
+[ The Grand ass-PADdling ]-------------------------------------------------
+
+To finish off this longer-than-I-expected textfile, I wanna introduce you
+all to the wonderful world of PADs.  PADs are to datapac what diverters are
+to phone lines.
+
+They will sometimes allow you to reach asshole charging NUAs, by taking in
+the cost of the connection.  Of course, this will require that you find out
+a password or two.  But that's beyond the scope of this document.
+
+How will you know if you've found a PAD and not a simple server?  Here's a
+tip from Faceman.  Most PADs are by GANDALF.  They can be STARMASTERs, XMUX,
+whatever.  If it's by GANDALF, it's probably a PAD.  This isn't always the
+case, though.
+
+PADs will aid your life immensely, and it's in your best interest to get a
+hold of PAD access as soon as possible.  PADs will allow you to make use of
+the datapac OUTDIALS in the next section, as well as a number of other neat
+uses that you can find by playing around with the server.
+
+
+[ Dialing Out with those OutDialing sons of Bitches ]----------------------
+
+This list was taken from a text file printed long ago.  Many still work,
+though I haven't tested them all out.  They should all be asshole chargable,
+because a remote charging outdial would be incredibly stupid.. 8)
+
+OUTDIAL PORT ADDRESSES
+
+
+
+                              OUTDIAL PORT
+
+CITY (PROVINCE)      SPEED      ADDRESS
+
+---------------      -----      -------
+Calgary (ALTA)        300       63300900
+                     1200       63300901
+
+Clarkson (ONT)        300       91900900
+                     1200       91900901
+
+Edmonton (ALTA)       300       58700900
+                     1200       58700901
+
+Halifax (NS)          300       76101900
+                     1200       76101901
+
+Hamilton (ONT)        300       38500900
+                     1200       38500901
+
+Kitchener (ONT)       300       33400900
+                     1200       33400901
+
+London (ONT)          300       35600900
+                     1200       35600901
+
+Montreal (QUE)        300       82700902
+                     1200       82700903
+
+Ottawa (ONT)          300       85700901
+                     1200       85700902
+
+Quebec City (QUE)     300       48400900
+                     1200       48400901
+
+Regina (SASK)         300       72100900
+                     1200       72100901
+
+St-John's (NB)        300       74600900
+                     1200       74600901
+
+Saskatoon (SASK)      300       71100900
+                     1200       71100901
+
+St. John (NFLD)       300       78100900
+                     1200       78100901
+
+St-John's (NB)        300       74600900
+                     1200       74600901
+
+Saskatoon (SASK)      300       71100900
+                     1200       71100901
+
+St. John (NFLD)       300       78100900
+                     1200       78100901
+
+Toronto (ONT)         300       91600901
+                     1200       91600902
+
+Vancouver (BC)        300       67100900
+                     1200       67100901
+
+Windsor (ONT)         300       29500900
+                     1200       29500901
+
+Winnipeg (MAN)        300       69200902
+                     1200       69200901
+
+...notice that the baud rate for these outdials leave something to be
+desired.. 8).  Many of these have been upgraded by now to at least 14.4
+modems.  Outdials provide you to a link to the phone network.  But what
+about other networks, you ask?
+
+Here goes, Mac-Daddy.
+
+
+[ International Connectivity ]---------------------------------------------
+
+Datapac is a Canadian network.  This of course, means that not many people
+from the States or England could call in, without racking up a large bill,
+and vice versa.  Enter: International Access.
+
+The following networks are connected to Datapac.  You connect to an NUA on
+the other networks in the following format:
+
+             1 DNIC ADDRESS
+
+The '1' means international, much like dialing '1' for a long distance call.
+the DNIC (data network identification code) is 4 digits long.  The list of
+valid DNICs are be provided below.  The Address format differs from network
+to network.  They can range from 8 to 10 digits long.  Check up on other
+networks in order to learn how their addressing system works.
+
+.--------DNICS TO (AB)USE:-.
+|                          |   These networks operate much like Datapac, and
+|    Accunet..........3134 |   in many instances use the same technology.
+|ADP Autonet..........3126 |   They will have many of the same types of
+|  BT Tymnet..........3106 |   servers as found on datapac, due to the
+| Bell South..........3143 |   generic usages of PSNs.
+|    Centrel..........3148 |
+|    Express..........3139 |
+|      Fedex..........3138 |
+|      NYNex..........3144 |   There's not much else to learn about the
+|  Sprintnet..........3110 |   datapac.  I've schooled you hardcore, and
+|    US West..........3147 |   cram-styles.  You should be able to work
+`--------------------------'   your way around datapac like you 0wn.
+
+
+[ Capping it all off ]-----------------------------------------------------
+
+I'm not gonna lie to you.  Datapac isn't God's gift to hackers.  Use it
+carefully and you won't be caught.  Use it like a fool and you'll be busted
+in no time.  Datapac's attractive lies mainly is the servers that are
+connected to it:  Many of them pretty much forget they're on datapac,
+because the internet has taken over.... 8).  I've logged onto systems that
+haven't had a datapac connection in 4 years!
+
+Many servers connected to datapac are oldschool.  Old systems tend to have
+many flaws and exploits that you can use to your advantage.  Have fun, use
+datapac wisely.
+
+One more tidbit of information that doesn't fit elsewhere: The datapac
+customer assistance hotline is 1(800)267-6574.  This is an automated
+answering machine.
+
+If you found this text useful, don't hesitate to tell me, because it will
+encourage me to share more information with you.  If you find a mistake,
+error, lie, whatever, mail me.  My e-mail address and web page can be found
+at the top of this document.
+
+
+
+                                Later y'all,
+                            ('_') faceman ('_')
+
+
+
+[ SECTION trois : ch4x assh0les ]------------------------------------------
+
+
+
+Why I'm an Asshole (c) phaceman
+-your friendly neighbourhood d00dicle-
+ch4x 1998.  Canada h4xor.
+
+[ ( * ) ]------------------------------------------------------------------
+                                                                 dec.23.98
+
+There are lots of reasons as to why i'm as asshole.  ask diffrent, people
+and you'll get a lot of different answers.  but let's talk about h/p
+assholes, like me.  whenever i pick up a copy of any zine or ezine, at least
+one letter per publication goes something along the lines of "i'm new and i
+am interested in learning, but everyone always kicks me and bans me and you
+should pity me and i'm a pedo, etc, etc..."  You get the idea.
+
+At first, i used to pity these jerks, and help them out.  I'd school them
+for hours.  I remember i sat down and chatted with this new guy on my old
+bbs about hacking basics for at least 6 hours once, non stop.  I used to be
+a real nice guy.
+
+Then one day i just realized that when i'd been doing was stupid.  like,
+what the fuck.  Why the hell should i help anyone else?  "knowledge is
+power" "information should be shared", i've heard those comments from lamers
+too many times to count.  What the fuck, am i supposed to read those
+societal sayings and go "hey faceman, you were wrong, let's help out
+AOLKidd13 to become a great hacker"?  No, i think not.  I read them and i
+snort loudly because the person who said that is a fucking moron.
+
+no one schooled me, and i don't owe anybody in the h/p scene anything,
+especially new comers.  everything (or, what little, according to some) i've
+learned came from my own experimentation and reading.  Why the fuck should
+it be any different for the next generation of hacker wannabes?
+
+Whoever made the rule of helping those lesser than you was a fucking tool.
+The people that i've schooled have either: i. gone on to become absolutely
+nothing, or  ii. turned into egofilled fucks who spend 20 hours a day on irc
+gloating.  No, i've learned my lesson, and i'm never schooling anyone who
+asks for help again.
+
+To those that are new to the scene: learn from reading.  I don't mean
+reading the 2600, because that's just a load of superficial bullchit that's
+not worth the paper it's printed on.  I'm referring to reading underground
+files, like this zine, keen veracity isn't bad, phrack, b4b0, and others
+like these.  It's where the goldmine of h/p information is kept, and it's
+where you're likely to learn chit.
+
+Sure, i'm a nice du0d0 when it comes down to it.  But my treatment of
+newcomers is always cruel, no matter who they are.  And I believe it's
+justified.  And i don't think people should shit on you for being a dickwad
+to newcomers, because you don't owe them a single fucking thing.
+
+So the next time a newbie asks you how to 'rm -rf /*' a box or something
+stupid like that, go ahead and tell them to fuck the hell off, compliments
+of me.  have a great day.
+
+
+[ SECTION quatre : How to leech 0-day exploits ]---------------------------
+
+
+
+How to leech 0-day exploits (c) radead
+-wit da mad GNU warez, get getz da ladys starez-
+ch4x 1998.  Canada h4xor.
+
+[ ... ]--------------------------------------------------------------------
+
+Well, I know all of you want to gno how I get all my madd 0 day sploitz,  so
+I wrote this text file to help you linx them up for j00rselves.  First of
+all, you
+gotta make a conf or get on a conf.  An 800 one if you want the elitest
+sploitz.  Then you gotta invite some elite people from #phrack or #hack to
+come on.  Make sure they are anti-social and really like attention.  Then
+you act really cool and bring along the subject of haxoring.  e.g.
+
+me on irc
+<radead> yo p-wind0wz get on this conf, its leet
+<p-wind0wz> sure, i have no friends irl
+
+me on conf:
+radead: yo p-windowz sup man
+p-wind0wz: yo man!
+radead: yo, where're you from?  btw, do you have any elite 0 day sploitz?
+p-wind0wz: <insert city name>, yeah sure! i'll just dcc them to you....
+
+At this point p-wind0wz will dcc me the elite exploits.  The basis of this
+method is that on conferences people become amazingly willing to give shit
+out.  Sometimes it takes a bit of work, for example
+
+radead: yo send me that 2 minute old exploit you just coded p-wind0wz
+p-wind0wz: i dunno man, its pretty elite, i can't give it out
+radead: come onnnnnn i won't give it to anyone
+p-wind0wz: ok sure <dccs>
+
+So, basically tahts how you wrack up the madd elite exploitz without having
+to possess any skillz yourself other than being able to get on a conf!  Well
+that about wraps it up, next issue i'll show you how to get quarters out of
+coke machines!
+
+Dj RaDeAdY
+
+
+[ SECTION cinq : ohip, edt and j00! ]--------------------------------------
+
+
+
+the dastardly tucker's guide to OHIP and EDT (c) phaceman
+-your friendly neighbourhood d00dicle-
+ch4x 1998.  Canada h4xor.
+
+[ prepubescent intros ]----------------------------------------------------
+                                                                 oct.18.98
+
+DISCLAIMER: I'm not responsible for anything.  I'm not your babysitter, so
+            don't point to me if you land your ass in jail.  All info that
+            I give to you is for information purposes only.
+
+e-mail faceman: faceman@idirect.ca       (try me first)
+                faceman@sdf.lonestar.org (try me not first)
+
+web page:       http://sdf.lonestar.org/~faceman
+
+This is a document put together from bits and pieces of information gathered
+from my many romps and frollicks into the fun world of OHIP and the MOH.  If
+you don't know what OHIP (Ontario Health Insurance Plan) and MOH (Ministry
+of Health) are, you should probably throw this out.  I'm not calling you an
+idiot (snicker), but it's useless to you unless you *really* do care about
+the MOH and its billing processes.
+
+
+
+[ ... the fuhq is edt? ]---------------------------------------------------
+
+Well, my well-endowed friends, i'm glad you asked.  EDT is an acronym.
+Specifically, it stands for "Eletronic Data Transfer".  Alone, it means
+absolutely diddily-squat.  But teamed up with the powers of the Ontario MOH,
+we're rocking like a bunch of cockrockers from aerosmith (or guns'n roses,
+whichever you prefer to detest).
+
+EDT is a new service which the MOH will bring into play sometime in the near
+future.  It is owned by GONet (Government of Ontario Network), which means,
+hax0r at your own risk...  I know you're all itching in your undies to know
+what EDT will do for you, so let me get to the point:  NOTHING.
+
+"whadafuq?"  yeah, nothing.  EDT will benefit you absolutely 0%.  Get over
+it.  This document is only for those who are really interested in how
+billing takes place for doctors and other medical professionals.  EDT is
+just a new method of billing for doctors and the sort.  They will now be
+able to send in their bi-monthly billing tabulations via a dialup rather
+than on floppy disk.
+
+This document also contains some mad info on OHIP billing formats, in case
+the EDT doesn't tickle your gonads.  Enjoy.
+
+
+[ the meat of the issue ]--------------------------------------------------
+
+EDT greatly reduces stress on the already stressful lives of doctors and
+other various rich bastards.  Through, EDT, medical personnel will now be
+able to:  (ph33r my straight-out-from-pamphlet-skillz.. 8)
+
+   - submit fee-for-service claims in current machine readable input (MRI)
+     format, from your computer system, to the MOH's mainframe claims
+     processing system.
+
+   - recieve reports, such as the Remottance Advice (RA) and the Error
+     Report on yor computer system.
+
+   - Send other files, such as referrals and consultation reports, to other
+     EDT users.
+
+   - Validate groups of health card numbers through an Overnight Batch
+     Eligibility Checking system (OBEC).
+
+   - Receive MOH business communications (e.g., bulletins) electronically in
+     the future.
+
+EDT has been in use in the pharmaceutical business world for some time.
+They use datapac like there's no tomorrow to transfer prescriptions and the
+sort.  As a matter of fact, every single transaction that takes place at the
+pharmacy for prescription drugs is sent through datapac to the main server
+to be processed before medicine can be dispensed.  This differs from say,
+doctors, in that they only need to connect to the MOH server once a day.
+
+
+[ meet the server ]--------------------------------------------------------
+
+The MOH server will most definately be capable of handling several hundred
+logins at once, due to the vast number of doctors in Ontario.  This means,
+no more dialups.  You can be certain that the MOH will choose the more
+cost-effective method to communicate, which is via network, namely, datapac.
+
+How do I know this yet-to-be-publicly-announced-information?  Just because.
+If you are familiar with datapac, then you will find the next tidbit of
+information most ridiculous.  If not, may i suggest you read my datapac
+document, which can be found on my website?
+
+Datapac requires cash.  Either the server pays, or the user pays.
+Unfortunately for doctors, the new EDT service will be paid for by an NUI.
+This means that every doctor in Ontario who wishes to subscribe to the EDT
+system will need to purchase a NUI to which they can bill their calls.  This
+is a great capitalist line of thought, isn't it?  Let's just figure it out,
+for the sake of fun.
+
+     datapac     ----->   owned partly by government
+                (versus)
+     MOH         ----->   owned by government
+
+Hrrmmm..... The slimy bastards sitting in office have it all figured out.
+Why pay the phone company for dialins, when they can get doctors to put
+money in the government's wallets?  Nice deal.
+
+What other shit is there to know?  Hrm.. i dunno.  hell, i dunno who the
+fuck's gonna even read this article anyhow.
+
+
+[ How to Bill ]------------------------------------------------------------
+
+The following may disturb you:
+
+I don't know how billing files work.  Well, I do.  But... well,.... you
+know.  I need to verify a few things because i don't wanna shoot any crap in
+my documents to pretend i'm smarter than I really am.
+
+I will fill this section very soon, i promise.. 8)  However, i do know
+this...
+
+
+[ How to Get Money ]-------------------------------------------------------
+
+Right now, a billing disk is sent to OHIP for claiming money.  This disk
+contains a file.  As i said above, more details to come.. 8) (sorry).  A bit
+later (a month or so), a disk is mailed to the doctor.  On this disk
+contains a file.  This file is numbered as so:
+
+   LL######.001       e.g.,    dg123456.001
+
+Of course, there's an algorithm involved.  But that's not important.  What
+is important, however, is the contents of this file.  Open it up with a file
+viewer, and whadda we got?  TEXT.  PLAIN text.  Silky, smooth, plain text.
+I don't think the MOH could have made it easier for us.
+
+Of course, strictly speaking, you'll never get your hands on a disk like
+this unless a doctor throws them out (rare), you work at a doctors office
+(rare), or you are a doctor (rare).  See a pattern?  8).  Don't worry.  I'll
+just tell you whats on a typical ass-prankin' RA (recieved accounts) disk.
+
+The first line is chock full of heady goodness.  Take time to notice
+conventions, because it's not often that businesses use such a lame way of
+storing data... 8)
+
+ .-- this here HRx defines the heading number.   .- type of doctor (2 digits)
+ |   .--- doctor registration number.            |  .- doc's initals
+ |   |          .--- first initial of name       |  |    .- more of them crazy
+ |   |          |   .- mystery numbers           |  |    |--------. mysterio
+ |   |          |   |    .- doctor's last name   |  |    |        | numbers.
+ | .-+---------.|.--+--. |                       |  | .--+----. .-+----.
+HR10000012345678A1234567FACEMAN                  DA AF000994512 99999999
+
+The second line is less interesting:
+  .-- this is line 2                      .-- address
+HR2                              22 FACELAND AVE.
+     .--- city     .- prov .--- postal code
+HR3TORONTO         ON H0H0H0
+
+After the HR3 (third line, the actual billing begins.  This is always such
+fun.  Let's see how the MOH organized billing for us, shall we?
+
+      .- the mysterious numbers we all know and love.
+      |          .-- doc's reggie number (see above)
+      |          |          .- patient number (on doc's computer)
+      |          |          |                     .- province (2 digits)
+      |          |          |                     |   .- health card no.
+      |          |          |                     |   | .- 2 digit version
+      |          |          |                     |   | |  code (on card)
+      |          |          |                     |   | `------.  .- "health
+    .-+-------..-+----.   .-+-.                   | .-+------. |  |card plan"
+HR4N8912349123412345678   80009                   ON1234567890 FM HCP
+HR5N8123461023467113841V999A   001050001050
+    `-+---------------'`-+-'   `----------'
+      `- more numbers    |         `-------- cost (see below.)
+         from the        ` treatment code.
+         abyss.. 8)        (see below for
+                            more mad info.)
+
+Sheat.... that's how it's done.  This is a list of all patients sent in, and
+how much OHIP pays for the patient's visit to the doctor's office.  The cost
+is simple.  Split the "001050001050" in half.  "001050 001050".  Now, get
+rid of beginning zeros, and add a decimal after 2 digits from the right...
+"10.50 10.50".  This means "you claimed, we paid".  So Dr. A.Faceman treated
+a patient for $10.50, and OHIP paid him $10.50 in return.  Sometimes there
+will be rejected claims due to errors, etc, etc.  That's not my problem, and
+i don't want to discuss that... hehe...
+
+HR4 means "Patient info", essentially.  HR5 means "patient seen by this
+doctor, who used this treatment, that we must pay for."
+
+Treatment codes are another thing that's confusing.  Each code pertains to a
+different treatment.  For example, X0001 could be a penile x-ray, and V1003F
+could be a flu shot to the left asscheek.  In the above example "V999A" was
+a treatment worth $10.50.  Simple, eh?  Jah.  I thought so too.
+
+
+[ summary lists ]----------------------------------------------------------
+
+Summary lists are listed as Header 8.  It's not that interesting, just a
+little text chart for your pleasures.  Data is changed by me so no crazy
+doctor info could be leaked.. 8)
+
+HR8**********************************************************************
+HR8                      UTILIZATION ADJUSTMENTS
+HR8
+HR8PROVIDER #    FISCAL    ELIG FOR  REDUCTION  THIS MONTH'S  FISCAL YTD
+HR8               YEAR    REDUCTIONS   RATE      REDUCTION    REDUCTIONS
+HR8
+HR80000-123456    96/97        $0.00  05.000%       $0.00      $1,500.00-
+HR80000-123456    96/97        $0.00  12.500%       $0.00      $3,500.00-
+HR80000-123456    97/98        $0.00  05.000%       $0.00      $2,000.50-
+HR80000-123456    97/98        $0.00  13.000%       $0.00      $1,500.00-
+HR80000-123456            *95/96 U/A  RECON *       $0.00      $1,000.00
+HR80000-123456            *96/97 U/A  RECON *       $0.00      $1,000.50-
+HR8                     -------------        ------------- --------------
+HR80000-123456                 $0.00                $0.00      $6,500.00-
+HR8**********************************************************************
+HR8 *******************************************************************
+HR8 THE PAYMENT AMOUNT INDICATED MAY BE SUBJECT TO ADJUSTMENT
+HR8 DUE TO THIRD PARTY REQUEST(S).  EG: COURT ORDERS, ASSIGNMENTS, ETC.
+HR8 IF YOUR PAYMENT AMOUNT IS CHANGED, YOU WILL BE NOTIFIED WITHIN
+HR8 FIVE BUSINESS DAYS FROM THE DATE OF THIS REMITTANCE.
+HR8 *******************************************************************
+^Z
+
+As you can see, the file ends with a "ctrl-z".  The "0000-123456" is simply
+the doctor's registration number.  You can see how much has come and go
+through OHIP by looking at this graph.  Interesting... so some doctors
+aren't so rich... 8)
+
+
+[ later skaters ]----------------------------------------------------------
+
+Right now you should be feeling discouraged.  You spent a LONG time studing
+this document for absolutely no reason.. hehe...  It'll come in handy
+though, when you hax0r your own NUI and logon to the EDT system...
+
+If you found this text useful, don't hesitate to tell me, because it will
+encourage me to share more information with you.  If you find a mistake,
+error, lie, whatever, mail me.  My e-mail address and web page can be found
+at the top of this document.
+
+
+
+                                Later y'all,
+                            ('_') faceman ('_')
+
+
+
+[ SECTION six : the REAL later skaters ]-----------------------------------
+
+
+well, my well-endowed friends, so ends another saga of canada hax0r.  We put
+a lot of effort into this magazine, so you'd best enjoy, lest you phear,
+dont you interfere, cause we'll... yeah.. you.. yo... uh... fuck it's late.
+
+anyhow, you can always reach us at :  rounded@idirect.ca .  We will answer
+almost every mail we get.  because we are desperate, we have no girlfriends,
+and we all have acne, backne, and sackne.
+
+Until next time, comrades.
+
+
+                            "sleep tight, and don't let the pedos bite!"
+
+                                        /     |    \
+
+                                     ('_')  [x_X]  <@_A>
+                                      face  demos  radead
+
+                      [your friendly neighbourhood ch4x-1.txt contributors]
+
+
+
+[ In Next Issue ]----------------------------------------------------------
+
+* All about the +1-416-215 NXX - demos
+* Scans From various NXX's in the 416 NPA - demos
+* New articles from Phaceman
+* Tips on jerking from Radead
+* other stuff we can't make up right now
+
+[ *EOF* ]
+
