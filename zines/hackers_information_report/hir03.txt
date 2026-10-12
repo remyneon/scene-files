@@ -1,0 +1,1127 @@
+()-=+-)(*&^%$#@!@#$%^&*()-=+-)(*&^%$#@!@#$%^&*()-=+-)(*&^%$#@!@#$%^&*()-=+-)(
+               /"/    /"/        |"""""""""|       \""""""""\
+             / /    / /          """"[|]""""         \  ()    \
+           / /    / /                [|]               \     .(
+         / -----/ /                  [|]                 \  / \ \
+       / /""""/ /                    [|]                   \ \   \ \
+     / /    / /                  ____[|]____                 \ \    \ \
+   /_/    /_/                    |_________|                   \_\     \_\
+()-=+-)(*&^%$#@!@#$%^&*()-=+-)(*&^%$#@!@#$%^&*()-=+-)(*&^%$#@!@#$%^&*()-=+-)(
+
+   Hackers                       Information                     Report
+                                    THREE  
+
+()-=+-)(*&^%$#@!@#$%^&*()-=+-)(*&^%$#@!@#$%^&*()-=+-)(*&^%$#@!@#$%^&*()-=+-)(
+
+
+                    HIR Release #3, December 1, 1997
+
+        So far, so good.  We've finally made it to HiR 3.  Due to a major
+screw up on the server that the main html files were located at, the distro
+site has been down.  I really don't know if it will be back up by the time
+this issue makes it out.  As usual, there are several outlets for HiR,
+including people who post the mag on their pages, mirror sites, people who
+spread it around, and some bulletin boards.  For those of you just discovering
+HiR, I would recommend tracking down the first two as well.  We seem to be
+getting better and better info each time around, but maybe just keep them for
+collection's sake.  If you need them that bad and can't find them anywhere
+you can email H_I_R@hotmail.com asking for HiR1 and HiR2.
+
+        Furthermore, the major delay in HiR3 has been that Axon's Laptop,
+which was the machine responsible for all of the articles, archiving, etc. was
+down, due to some stupid 8-pin IC on the motherboard sizzling to it's untimely
+death.  Now it only works off battery power, and no way to charge 'em up.
+
+Greetz 2 Asmo, Our newest writer.  Asmodian X, who recently read up on some
+previous releases of ours, and decided to help out.  He really didn't have
+much choice but to run into HiR, as He is friends with tgsnoop and Axon,
+before even realizing they were both HiR writers, editors, etc.  tgsnoop
+introduced it to him, and axon was working on an article in class, and, all
+of a sudden, Asmo, who was in the same class Axon was in, said "Is that HiR?
+I know one of the writers."  His debut article is about his newest (and most
+fascinating) toys, a Palmtop computer.  We're just waiting for him to find
+out how to hack the main password login screen in windows CE. 
+
+Hackers Information Report is an electronic magazine (E-Zine) that is devoted
+to the free flow of information.  We only publish material that has some sort
+of learning value to it, and we do not believe in "Cookbook Hacks".  If you
+are looking for articles such as "How to bring any unix server to it's knees",
+read no further.  (if you want to know how to bring microsoft to its knees,
+we MAY be able accomodate your interests...teehee)  Seriousely, we DO walk
+the reader through steps, but reading HiR alone will not make you a hacker,
+will not give you enough information to pose a serious threat to anyone, and
+surely will not make you "3l33t".  We try to write articles for all groups of
+people, and try to make it easy to understand.  We do assume quite a bit of
+computer literacy, but for the most part, this material can be used as a
+primer, or to add to existing intelligence.  You can direct questions to any
+one of our writers by writing e-mail to our HiR e-mail address posted above.
+
+We are still looking for any article submissions you may have.  We can never
+get too many writers!  We'll also publish any letters you send us.  Send
+letters, questions, and article submissions to H_I_R@Hotmail.com.  Send all
+complaints to bgates@microsoft.com.  Thanx!
+
+()-=+-)(*&^%$#@!@#$%^&*()-=+-)(*&^%$#@!@#$%^&*()-=+-)(*&^%$#@!@#$%^&*()-=+-)(
+_______________________________Writers for HiR_______________________________
+ Axon (Introduction/ToC Layout, compiling articles, writer)
+ Dr. Freeze (Newz Editing/Layout, Product Overviews, Writer)
+ tgsnoop/kminor (kodeine phiend, Ascii God, Writer, did we mention schizo?)
+ Asmodian X (Insane Lunatic, Writer)
+_____________________________________________________________________________
+()-=+-)(*&^%$#@!@#$%^&*()-=+-)(*&^%$#@!@#$%^&*()-=+-)(*&^%$#@!@#$%^&*()-=+-)(
+
+                               This Issue of HiR
+File #          Title of Article                                Writer
+______ _______________________________________________________ ______________
+  1     Introduction/Table of Contentz                           Axon
+  2     Official HiR Guide To The Art Of Social Engineering      Axon
+  3     The Joys of The Personal Computer CMOS                   Axon
+  4     Hijinks With Handheld PC's (Palmtops)                    Asmodian X
+  5     Fun With UNiX Part I                                     Axon
+  6     The IR.966 Box (Infrared Communications Jammer)          Asmodian X
+                                   (Schem By Axon)
+  7     Windows Telnet Daemon: A Hacker's Friend                 Axon
+  8     A Word about Microsoft...                                Asmodian X
+  9     EasyESN	                                                 kminor
+ 10     HiR Hacker NeWZ                                          Axon
+
+-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+        The Official HiR Guide To The Art Of Social Engineering
+                                By: Axon
+-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+
+        First and foremost, I want to thank the Social Engineering Panel at
+2600's Beyond HOPE In August 1997.  I was not able to attend the meeting,
+but, thanx's to Izaac who RealAudio'd Most of the BH stuph, I was able to
+add quite a bit to my SE (Social Engineering) knowledge.  Shoutouts to them
+all!
+
+        As I was mentioning, I gathered most of my information from personal
+experience, THE Social Engineering Panel at BH, and the Social Engineering
+FAQ.
+
+Part 1: What exactly IS social engineering anyway?
+
+Straight from the New Hacker's Dictionary, this is da definition:
+
+social engineering: /n./  Term used among crackers and
+        samurai for cracking techniques that rely on weaknesses in
+        wetware rather than software; the aim is to trick people into
+        revealing passwords or other information that compromises a target
+        system's security.  Classic scams include phoning up a mark who has
+        the required information and posing as a field service tech or a
+        fellow employee with an urgent access problem.  See also the
+        tiger team story in the patch entry.
+
+okay, lingo check.  Some may not be able to understand some of the words in
+there.  (If the above definition seems at all hazy or vague to you, you really
+ought to pick up the Hacker's Jargon File or New Hacker's Dictionary).  I'll
+go over a few less-commonly used words.  Wetware is referring to the human
+brain.  This will be discussed later.  Samurai are hackers who hire themselves
+out for legal hacking jobs.  The above definition does not include phreaks and
+hackers in the scheme.  Matter of fact, social engineering doesn't have to be
+about technology at all (We'll talk about that later, too).
+
+        When you get right down to it, Social engineering is basically the
+same as "Bullshitting", except it is used differently, in a more subtle manner
+than flat-out lying.
+
+
+Part 2: What is SE used for?  What good is learning how to bullshit people?
+
+        Social Engineering is not typically done just for fun.  Usually, it
+is an art reserved for finding out some info about a company, certain computer
+network or server, person, or product.  One might try to use SE to get a
+password out of a person with a standard user-level account on a specific
+server (once a hacker has a user-level account, it's only a matter of time
+before he can get root on the system).  Maybe you want free stuff.  Who knows.
+Knowsing how to SE is a good thing to know, however.  No metter how secure a
+system is, there is always the loser who isn't quite all there in-between the
+ears, and will divulge a password over the phone believing you're a tech.  I
+am sure that you'll find that the computers may not have security holes, but
+the people who run them are the weakest link in the chain.
+
+
+Part 3: How is SE done?
+
+        The first thing you do is gather info.  Research.  Do they have a web
+site?  Go for it.  Look for employee names, extension numbers, product or
+service lists.  Do NOT jump into the situation blind.  Jump into their trash
+bins, without getting caught trespassing, and look for anything and everything
+useful.  You can even go up to them face-to-face, although this is a method I
+would not recommend to anyone.  A more detailed way of getting information on
+your mark is to dial them up on the phone.
+
+        Sometimes you need to make multiple phone calls to your mark to get
+through.  An SE panel member gave a good example that I will outline with my
+own paraphrasing cuz i don't know exact words.  Call up your mark, and ask for
+a certain department, maybe information Services if it's a college, or some
+kind of thing like that.  Ask for the manager/leader/head/etc of that
+department, and see if you can get a name.  If you can't, hang up and call
+later, stating you need to mail something to the head of x department, and
+need the name and mailing address.  Bingo, you have a name.  Later, you can
+call and say "I need to fax John Smith this quote, could i get his Fax number"
+and you have even more info.
+
+        You can call somewhere, pretending to be a different branch (the BH
+people picked on k-mart) that's having some sort of problem, in this case,
+getting the PA system in the store to work.  So the hacker calls up a random
+k-mart, asks for the menswear department, then, once menswear is on the phone,
+requests a manager.  He tells the manager he's from a random k-mart in the
+phone book, and asked if he was having trouble using the PA system.  The
+hacker said that he normally dials 50 to get on the PA but that isn't working,
+then the manager corrected him "50?  I've never heard of that.  Try 613." and
+hung up.  Later he called back and asked for Shoes, then bullshitted about
+sandals for a while, then asked to be transferred to 613.  After a couple of
+seconds, he blared into the phone, deepening his voice, saying "Attention
+K-mart shoppers: Everything in aisle 4 is FREE!" then hung up...
+
+        Another very good technique was utilized in that last scenario.  Note
+that the hacker did not ASK for the extension to the PA system.  He told the
+manager what he thought it was, then proceeded to let himself be corrected.
+this is a tactic that can be used to get passwords easily.  Use research to
+find a mark that is potentially kind of slow, technologically.  Don't pick a
+nerd to SE, pick the technophobe in he bunch, because a good scare will help
+them give you the info.  Tell them that his system had a virus and you just
+cleaned it, and now you're checking everyone's accounts for traces, so it
+won't happen again.  Tell them "according to our records, your password is
+xxxxxxxx (insert some stupid password there)."  Sure as hell if he's really
+as dumb as you thought he was, you'll be corrected by him telling you what his
+password REALLY is.
+
+        SE is not limited to phone conversation, though.  You can use the same
+technique with e-mail (spoofing, too), And in person, as i was dicussing
+toward the beginning.  I'll leave the e-mail up to you, as I have never seen
+it work without using phone SE too (Such as sending an e-mail from <some made
+up company>, and then calling and saying "yah, this is <some name> from <that
+made-up company>, i sent you an email the other day...") you get the picture.
+
+        I've only seen live social engineering work once, when some guy went
+into a company's doors with a huge array of A/V equipment, and fake press
+cards, saying they were putting together a documentary of technology in the
+kansas City area for journalism class as a final project, and wondered if they
+could include this place, talked to the big guy in charge there, who was more
+than happy to have some extra advertisement, and gave them a tour of the whole
+placee (or most of it).  He taped everything.  Things he got on tape were
+codes to unlock doors (they only had 3 different codes that he saw on about 8
+doors), locations of certain rooms containing things of interest, he even got
+a tour of a big room that people were working in, and was fortunate enough to
+tape a guy logging on to a computer (although the last 2 letters of the
+password weren't seen, he knew what side of the keyboard they were on.)  =]
+
+        You can call tech-support lines and SE with techs.  In most companies,
+the technicians are GODS.  They are omniscient, and can get you what you want.
+Be careful, though.  They are usually fairly intelligent, too.  You can try to
+get them to divulge specs on products, or maybe they can fax you a few white
+papers or whatever else they have access to.
+
+Part 4: Extra Tips and helpful SE Hints.
+
+If your mark is a large company (more than 500 people) than find out enough
+about that company to sound like you are with them.  Most company members will
+tell co-workers anything they want to know.
+
+Remember that humans are creatures of habit.  People's habits can be monitored
+and exploited.  Just remember that you, too are human.  Hackers should strive
+to be an exception to the rule.  Do not be a creature of habit, because that
+is how hackers are caught.
+
+Using an accent is helpful.  Make sure you stay on accent.  Try Japanese,
+scottish, etc.  (Note: The most accepted accents in the U.S. are British male
+and Southern Female)
+
+To really throw your mark for a loop, combine SE tactics and SE them more than
+one way at the same time.  Be careful though.
+
+Remember that SE focuses on People as the weak link.  This is because, unlike
+a computer, they respond to other humans and emotions (I.e. anger, kindness,
+rushed, etc).  While you can exploit a seceratary's emotions, you can't make
+a computer sympathize with you.
+
+
+Part 5: Few final ideas
+
+If you want to find someone's unlisted phone number, find out if they have
+cable T.V. or some other service (in a pinch maybe electricity would work).
+Call the cable, electrical, etc company, and SE them into giving you their
+#.  (maybe you are ready to check out their cable and you're 1 and a half
+hours ahead of schedule, and wanted to call them to see if earlier service
+would be okay, whatever floats your boat)  This may also work for addresses
+if you are a serviceman who "lost/forgot" the address...MAYBE.
+
+Part 6: Conclusion
+
+That pretty much sums it up for the HiR Guide to SE.  I hope this information
+helps everyone out.  Most of this is just common sense.
+ /"-_-"-_-"-_-"-_-"-_-"-_-"-_-"-_-"-_-"-_-"-_-"-_-"-_-"-_-"-_-"-_-"-_-"-_-"\
+ \         H A C K E R S   I N F O R M A T I O N   R E P O R T             /
+ /                                                                         \
+ \               The Joys of The Personal Computer CMOS                       /
+  "-_-"-_-"-_-"-_-"-_-"-_-"-_-"-_-"-_-"-_-"-_-"-_-"-_-"-_-"-_-"-_-"-_-"-_-"
+                                By Axon
+
+Ahoy!  Axon here.  I Figured it would be a good thing to teach all you guys
+a few things about the Personal Computer CMOS (Complimentary Metal Oxide
+Semiconductor).  Actually, Complimentary Metal Oxide is what most Integrated
+Circuits are made of, however, when one refers to "THE CMOS", they are either
+Stupid, or they are talking about the Personal Computer's way of storing
+configuration Settings.
+
+The CMOS is part of the modern computer's hardware that saves many things,
+such as the specifications of your hard drive, what floppy drives you have,
+and various other settings like the password used for protected boot-ups.
+
+Potentially, this brings up a lot of cool ideas.  I don't know much about the
+data format of the CMOS memory, but I know that traditionally in the IBM AT
+computers, when the CMOS was introduced, there were 64 bytes of memory on the
+chip.
+
+Before the CMOS was nothing.  There were jumpers, or switches on the mother-
+boards of computers.  These switches PHYSICALLY held setup values such as
+what types of floppy drives, and video settings.  There was no password.  A
+severe drawback to this system was that in order to change these values, one
+needed to pull the case off of the computer, search for the switches, which
+were scarcely ever located in a single place.  Usually they were near the
+device they affected.  If the switches were jumpers, which they usually were,
+you needed small fingers or a pair of tweezers to adjust them.  It was clear
+that there must be a better way of doing things.  With a lot of hard thinking
+and determination, IBM toyed with the idea of using computer memory to store
+the settings that the Jumpers were used for.
+
+Memory is volatile.  When you shut off power, the bits that are stored are
+hosed, lost forever.  The CMOS is no exception.  All computers with a CMOS
+chip also have a battery of some sort that support it while the computer is
+off.  These batteries can be NiCd or Lithium.  Disconnecting the battery from
+the motherboard will erase all settings the CMOS held (sometimes the battery
+needs to stay disconnected for as long as 2 hours for the CMOS data to vapor-
+ize.  Also, there is usually a jumper near the CMOS chip.  I will discuss the
+battery later, right now I will focus on identifying the chip itself.
+
+Usually, the chip has 28 pins. Most of the time it isn't soldered onto the
+motherboard, it actually fits in a DIP socket on the board, and looks like
+a long sandwich to me.  There will usually be a sticker on the top that says
+"AWARD", "Ami, or American MEgatrends", or "Phoenix".  possibly others.  This
+is the chip you are concerned with.  Look for a jumper near it (within 1 inch)
+For those idiots out there, a jumper is a little black...thing, that is about
+1/8" by 1/4" by 1/4" inch (roughly, I don't have one with me to measure,
+unless i take apart the computer i am typing this on.)  It has 2 holes that
+will fit over pins on the motherboard.  chances are, only one hole of the
+jumper is on a pin, and the other hole could fit onto a pin if you pulled it
+off and re-aligned it.  If you do this, and leave it there for a while, it
+shorts out the power connection to the CMOS, casuing it to lose its data.
+
+The battery, which, as i said earlier, can be removed to erase CMOS data, is
+usually found near the CMOS chip, but not always.  It may look like an over-
+size watch battery.  I've seen various other shapes and sizes though.  Some
+look like half of a AA battery, some look like 3 small batteries held
+together with shrink material, and others look like brown boxes that are not
+even mounted on the motherboard, but mounted somewhere else in the case, with
+wires running to a pin connector socket on the motherboard (These are replace-
+ment batteries for the batteries that are soldered directly to the motherboard
+at the factory.  Soldered on batteries are a pain, and clearing the CMOS is
+easiest if you find the jumper.
+
+Why in the world would you want to clear a CMOS?  Well, for one, if you, or
+someone you are working for, happens to forget a startup password, clearing
+the CMOS is a viable option.  If you can get into the setup program, write
+down all the information (memory size, hard drive specs, floppy specs, and
+any other settings there are) before resetting the CMOS.  Of course there are
+some other reasons why a hacker would want to be able to do this, but we shall
+leave that up to your imagination.
+
+Along the way I've come up with a pair of cute little programs in QuickBasic
+that will extract CMOS data from a standard AT machine, and to put it back.
+I'd imagine you could hex edit the data file it saves, or use a program like
+game guru to compare multiple saved CMOS data files.  Who knows, maybe you'll
+find a way to do some cool stuff to the data before you put it back into the
+CMOS.  This may or may not work on your computer, as there has been a lot
+more data stored on the CMOS chips lately.  Call the manufacturer of your
+BIOS and they may be able to tell you where the CMOS data is at (and then
+you can change the source code respectively).
+
+------------[ HiR CMOS DATA EXTRACTION SOURCE CODE BEGINS HERE ]--------------
+
+OPEN "CMOS.DAT" FOR OUTPUT AS #1
+FoR CMOSAddress% = 0 TO 63
+        OUT &H70, CMOSAddress%
+        CMOSByte$ = CHR$(INP(&H71))
+        PRINT #1, CMOSByte$
+NEXT CMOSAddress%
+CLOSE #1
+END
+                                          
+-------------[ HiR CMOS DATA EXTRACTION SOURCE CODE ENDS HERE ]---------------
+
+As you can see, the computer will push the CMOS Address to be read into 70h,
+then reads the byte from 71h.  Note, since there is only 64 bytes, the program
+only pushes addresses 0-63 into 70Hex.  To the best of my knowledge, the CMOS
+data will always be read and written using 70h for the address, and 71h for
+the data.  The only thing that might change is the number of bytes that the
+CMOS Stores.  Find out for sure from your BIOS/CMOS Manufacturer, though, and
+make adjustments to the code as nessecary.
+
+-------------[ HiR CMOS DATA INSERTION SOURCE CODE BEGINS HERE ]--------------
+
+
+OPEN "CMOS.DAT" FOR INPUT AS #1
+FoR CMOSAddress% = 0 TO 63
+        CMOSByte$ = INPUT$(1,1)
+        OUT &H70, CMOSAddress%
+        OUT &H71, ASC(CMOSByte$)
+NEXT CMOSAddress%
+CLOSE #1
+END
+
+--------------[ HiR CMOS DATA INSERTION SOURCE CODE ENDS HERE ]---------------
+
+OBviousely, Both of these programs are just core code, and are by no means
+supposed to be used alone, but can be modified a little and combined to make
+a fully functional CMOS Backup program, CMOS Data Modification program, and
+anything else (Evil or not) that you can think of.  Happy hacking!
+                    H         I         R
+
+           H i j i n k s   w i t h   H / P C ' s
+                       By /|smodian ><
+
+        This is my first article, so I'll begin with a bit about
+my self before we get to the goodies.  I've been screwing
+around with computers for about 5 years now.  So I can still
+remember when windows really sucked.  Yes Windows 3.0...  I
+Have a class or two with Axon, and have kept moderate tabs on
+the underground for a while.  Am I a Hacker?  Not really, sure
+I'm literate with unix and could probably ruin your day if I
+set my mind to it.  But I dont really go out of my way to
+Phuck with anybody or anything.
+
+        But you're probably wondering What the hell can you do
+with a HPC <Handheld Personal Computer>.  For starters, it
+isnt very powerful, you have to wait several seconds for it
+to refresh the screen <especially windows CE>.  It has next
+to no Storage space and yer just phucked if it breaks.  Worse
+yet, trying to get software to do shit with it.  I hope you
+have a deep expense account buddy.  But it is at least an
+order of magnitude cheaper than a really good laptop.  And
+when yer goin fer portable, you take whatever you can get.
+
+        What makes me an expert on this?  Nothing, I would just
+like to point out a few neeto things I found you can do with
+em...
+
+        If you are fortunate, every millennia they have a sale where
+they sell a palmtop for under 100$.  I bought mine for about
+80$ <plus about 10$ in AA batteries and memory backup
+batteries>
+
+I have a Compaq PC Companion  2mb +
+
+which has :
+.—o—...—o—..—o—..—o—..—o—..—o—..—o—..—o—.
+
+o 2mb of mem
+o an included Pcmcia 14.4 phaxmodem
+o Win CE on a ROM + stuph fer yer pc so you can dump stuph to
+and from yer main pc & link up cables
+o Power adapter
+o IRDA IR port
+o 1: Pcmcia slot
+o touch screen and a stylus
+o built in sound kard
+
+.—o—...—o—..—o—..—o—..—o—..—o—..—o—..—o—.
+
+
+-=- Boxing Phun -=-
+
+At one point I had a program called Win Phreak, which
+all it consisted was a Visual basic shell, with a phuck load
+of Box tones like Red, blue...etc  So I dumped the Waves on
+My Palmtop.  They Play ok, but I have not seen the field
+results yet.
+
+-=-Net Werking-=-
+
+        With the assistance of an acoustic coupler and a trusty
+pcmcia Modem <the speed isn't really important, usually all
+you kan squeeze out of the phuckin thing is 1200 baud>.  A
+Hacker would have a concealable jumping point.  The only web
+schit thats out there is Internet Explorer phrum our favorite
+company MicroSloth.  My suggestion though is to get either a
+port of lynx, or a telnet client and a ftp client, and do it
+that way cuz no matter what speed you connect, the grafucks
+will slow everything down to a fuckin crawl.  Not to mention
+you will run out of storage space lickity splat.
+
+        Windows CE, of course, provides the dialup networking
+shit.  But as for the rest of the shit, with exception to
+MSIE CE, your on your own to find em.  All the stuph I've
+seen is commercial
+
+-=-Antidepressents-=-
+
+        There is a freeware Chat chat program out there that
+allows you and yer bud to communicate with the IR port.
+Pretty kewl eh?
+
+        Of course you can dump any BMP in the background on yer
+desktop.. and phuck around with WIN CE... but really phucking
+with the code is kinda hard cuz of windows being totally
+rommed.  Good news is that u kan get a 99$ upgrade to windows
+CE 2.0 and get 2 more megs of ram with the upgrade chip.
+Whee.
+
+
+-=-WISH LIST FER LEETO SOFTWARES FER HPC's-=-
+o    port of internet utilities to hpc
+        o FTP
+        o Telnet
+        o Lynx
+        o Finger
+        o Whois
+o    Remote Control program to emulate universal remote
+     Control, and remote Control jamming with IR port.
+o    memory compression fer disq space
+
+
+<GREETZ>
+Axon, Kminor
+<EOF>
+
+
+
+*-<<{([<{([<{([<{([<{([<{([<{([<{([ H i R ])}>])}>])}>])}>])}>])}>])}>])}>>-*
+|    Fun With UNIX I, The First of a series dealing with neat UNIX tricks   |
+*-<<{([<{([<{([<{([<{([<{([<{([<{([ H i R ])}>])}>])}>])}>])}>])}>])}>])}>>-*
+                                   By Axon
+
+This is the first article in a series of god knows how many that will be
+dealing with some fun, but usually harmless (and always just pure evil)
+tricks that can be performed under various flavors of the UNIX operating
+system.  These tricks may not work on all flavors, and may not even work
+the same with 2 different machines running the same operating system. It
+has a lot to do with how the administrator has configured things. Enough
+with the small talk, I think it's time to go out and have fun with UNIX!
+
+This Article, of course assumes that you have a shell account on a unix
+box, somewhere in the world.  It's also nice if many other people have
+accounts on that box, too, otherwise some of these unix fun tricks wont
+seem very fun, because you'll have no one to screw with or spy on.
+
+Compatability note: I really do not know what flavors these work on.  I tested
+and discovered these fun tricks on an IBM (Incontinent Bowel Movement?)
+RS/6000 Running AiX 4.  The last trick will work on any system on which users
+either by default have terminal writeability enabled, or can turn it on. (some
+systems have it set up so users can't turn their writeability on (or can't do
+it very easily.)) In theory, the second trick should work on almost ANY unix
+machine, unless the admin has the audacity to disallow execution of things
+such as chmod or vi.  
+
+Trick #1: Read other people's sent-mail.
+
+This can be a fun trick.  It relies on the fact that the system admin guy
+has NO clue what he's doing.  Actually, this little nasty has been overlooked
+on many a system, even a few that i have access to, and I know there are more
+of them out there.
+
+Pine, a wonderful text mode e-mail program that is still widely used,
+likes to keep things in "folders".  When a user writes an e-mail, a copy is
+sent to the recipient of the e-mail, and a copy is stored in the "sent-mail"
+folder under pine.  Typically, this "folder" is in the /mail subdirectory
+under the user's home directory.  There are numerous ways of finding out
+usernames that are on that system.  One way is just to run finger.  Jot
+down all the usernames you see, and keep that as a reference.  If you do
+this enough times, you might end up with a few hundred account names.  This
+is all you really need.
+
+Another way to get account names is by trying to list all subdirectories
+sprouting from your parent directory.  Do the following from your home
+directory:
+
+cd
+cd ..
+ls
+
+That might list all usernames.  If the system admin knows what he's doing, it
+may not work.  Stick with things like the  who  and  finger  commmands to
+find usernames.
+
+To read their outgoign e-mail, get to your home directory by typing  cd  alone
+on a line.  Type  pwd  ,which will tell you what directory you are in.  My
+account on my main distro site is called "axon2017".  when i type pwd from my
+home directory i get:
+
+/homea/axon2017
+
+Let's say that you want to read the sent e-mail from a person with the
+username "bjones".  His sent-mail folder will be in the path of:
+
+/homea/bjones/mail
+
+(Just a note: Chances are your system won't have a "homea" directory, it may
+be something like "home", or "usr", something like that possibly.)
+
+The interesting thing about pine's e-mail "folders", is that the folder is
+just all the messages put directly into one file all in a row.  So, you can
+easily use vi, pico (blah), or cat to read the email.  Here is how i would
+read bjones' sent-mail:
+
+cd                                      'gets me back to my home directory
+vi /homea/bjones/mail/sent-mail         'opens his sent-mail folder in vi
+
+if you wanted to use cat, you could substitute the vi line with:
+
+cat /homea/bjones/mail/sent-mail | more
+
+the  | more on the end informs cat that you want the screen to pause when it
+scrolls one screen.  To move to the next screen, just hit the space bar, or
+hit q if you want to quit viewing it.
+
+This bug is made possible because while the permissions on the mail sub-
+directory are usually set to where normal users can't access it, the perms
+on the actual files are not set to restrict viewing.  In most cases, the file
+can't be altered, but you can download it via FTP, or save it to your home
+directory.  of course this may be slightly suspicious.  If your system admin
+likes to view history files, that might be a problem as well.  This makes a
+perfect introduction to my next fun trick.
+
+
+Trick #2: Changing the past!
+
+Changing the past?  What in the world does that mean?  Well everything you
+type under the shell in unix is logged (i DO so hope you know this much, but
+if you didn't, it's time you not only learn, but time you learn how to change
+what that log shows.  This really is a job for the VI editor.  Pico does not
+work on the history file usually.  The file is called .sh_history, in each
+user's home directory.  Since it starts with a dot, it will be hidden from the
+LS command unless you use the -a flag.  I would venture a guess that this
+file began as some sort of security measure, to monitor what people were doing
+on the system, and keeping it somewhat hidden from prying eyes.  The only
+problem with this is the fact that any efforts to edit it will end up being
+appended to the end of the log file once your editor closes the file.  Talk
+about "begging for attention"...that's a way to get it from your admin.
+
+I've always thought shell scripts were useful.  A Shell script is exactly
+the same as a DOS Batch File.  Each command you want to execute in the script
+is put on its own line.  When the script is executed, it will run each line
+sequentially.  We'll make a simple shell script in order to edit our history
+file.  The thing is, we need to name this script the same as a normal unix
+command.  I chose cls, which is not really a normal unix command, but some
+UNIX's have a shell script that does the same thing.  CLEAR is the commmand
+typically used to clear a screen.  Cls might seem like a typical error, when
+an admin sees it in the logs.  This is the source code you need to store in
+the file.  Use vi, Pico, or echo >> to do this.  I just used echo >> here's
+my example.
+
+source code:
+
+#!/bin/ksh
+#This Script Clears The Screen
+vi .sh_history
+
+This is all I did to make the file using echo >>:
+
+echo "#!/bin/ksh" >> cls
+echo "#This Script Clears The Screen" >> cls
+echo "vi .sh_history" >> cls
+
+
+the >> redirects the results of echo out to a file, in this case CLS, adding
+the text to the end of the file.
+
+If you are not very well-versed in UNiX yet, you may not realize that the
+script you just made has to bbe made an executable.  In DOS, if a file has
+a .COM, .EXE, or .BAT extension, it refers to it as executable.  In UNIX,
+there really are no file extensions.  A period can be used in a filename, or
+several periods.  You have to use the change mode command, called CHMOD to
+make this file executable.
+
+chmod 700 cls
+
+No, 700 is not some magic code for "make it executable".  The first digit is
+what access you have to the file, the second and third, you dont need to worry
+about, because those are what access other people have to your file.  We set
+these to 0, which means you are denying them any access.  7 makes the file
+readable, writeable, and executable.
+
+Now, when you type cls, your history file will appear on screen with the vi
+editor.  I will NOT go over the whole vi editor command set with you, but I
+will tell you enough to take lines out of your .sh_history file.
+
+When in vi, use the arrow keys to get to the line(s) you wish to take out.
+to delete a whole line, hit  <d> <d>  yes, that's right...hit the "D" key
+twice.  make sure caps and shift are turned OFF!  Poof! the line is gone.
+you can move to another line and use <d> <d> again and again.  To save the
+file hit <:> <w> <!> <enter>.  Once the file is saved, hit <:> <q> and you
+are back to the prompt.  Easy, huh?
+
+
+Trick #3: Let's mess with someone's terminal!
+
+This is a little more involved, and does not work at all unless someone else
+is on the same system as you are, and has their terminal writeability enabled.
+To see who is writeable, type  "who -w"  You will see a few fields, the only
+ones we care about will be the login-name field, the terminal field, and the
+field containing only + or - symbols.  If there are any + symbols, you are in
+luck, for now you have someone to mess with.
+
+If you want to just test this, then go to a computer lab or library where you
+can use telnet on 2 computers side by side, and log in to the same host 2
+times, once on either machine.  type  mesg y  at both of the unix prompts,
+then find out which virtual terminals you are on (using the terminal field
+of the who -w command) You will be interested mostly in the other one, the
+one that you are next to, not the one that you are sitting and typing at.
+once you find that virtual terminal, you are ready to go.  You will from now
+on refer to that virtual terminal as /dev/pts/2  or whatever it is, even
+though the terminal field only says pts/2, you need to refer to it with the
+/dev/ in front of it.  
+
+Try clearing the other screen.  This is fairly simple.
+
+clear > termpath
+
+termpath will be the /dev/pts/2 or whatnot.  See, the output of any program
+can be sent to any other virtual terminal that is writeable.  the greater-
+than sign is used to REDIRECT the output.  You can run anything, and make the
+other screen look exactly like yours would.  Things to try: redirecting a
+pine session, redirecting output from various unix commands such as finger,
+who, and even telnet.  Another possibility if you want to annoy, use cat to
+read a binary file, then redirect the output to the terminal
+(cat /bin/ksh > /dev/pts/2).  Oh the evil deeds you can persue...
+
+Using this little ability to annoy someone to the point where they will close
+their telnet connection to the host can open up other security holes, for
+instance with proper timing and a lot of hard work, you can capture a log-in
+session and snag passwords, however this is detailed in far too many cookbook
+hacks that are available elsewhere, and begin to stray from the informative
+nature of this publication, as its useage really can not be used for purposes
+aside from obtaining passwords and logins (cool stuff but far outside the
+scope that i wish to cover here)
+
+Look for more Unix fun in future releases of HiR.
+                       T h e   I n f r a r e d   B o x :
+                                By Asmodian X
+                            (Ascii-Schem by Axon)
+
+        Hello this is /|smo again <Reader groans,> coming to you live from
+nowhere important.  It just occurred to me that in this day and age, more
+and more independent computational devices are using infrared transceivers
+to communicate with the world.  Infrared is a cheap, effective, short range
+communications method.  Many people take advantage of this form of
+communication daily.  Only problem is that some times a person, teacher,
+instructor or any sort of host in general doesn't want people to engage in
+such activities for one reason or another.  So, were going to tell you, the
+user out there, how to build a fairly effective Infrared jammer.  Since it is
+difficult to name anything within the visual spectrum that hasn't been taken
+up at least twice, I have chosen "Infrared.966," as the official designation.
+My apologies to any one else who designed an IR.966 Box. 
+        The concept and design have nothing to do with me or any design.  The
+Blame..err .. honor of the design goes to an "insane/ingenious" instructor at
+a certain Unmentionable high school.  The concept is simply this: Infrared
+communications ports just blink out messages to each other, and relies heavily
+on line of sight.  If a person were to create a false garbage signal to the
+two parties, communications would be unintelligable.  The Person did this by
+placing the IR units at each corner of the room, effectively covering the
+whole area with unusable Bogus IR signals.  The end result of that action
+caused enough interference to make IR chatting no longer possible.
+        The Teacher Had essentially hooked up Infrared LED's with 9V
+batteries.  The LED's were on 24/7 of course, which isn't the most efficient
+method, but it was effective.  Axon proposed that we use 555 IC timers
+to pulse the LED.  The end result would be an infrared blinking LED.
+A person Could tweak the resistance's and get a faster or slower blink rate.
+Likewise a person could place in a few Potentiometers(POTS) and add some
+functionality to their new device.
+
+ What you will need to obtain:
+
+                 -Mounts & Accessories-
+1-     Casing for box..
+       preferably able to handle a project board and 9 V Battery
+1-     Project Board
+
+                -Toolz-
+1-      Drill, for making holes for LED's, buttons, Pots, and switches.
+1-      Screwdriver for assembly of box.
+1-      IR Detection Card <See Radio Haq> little card that registers IR so
+        U kan see if it werkz.
+1-      soldering iron
+1-      solder wick
+1-      solder
+1-      Multimeter for tests
+1-      Small unit of hook up wire if needed...
+
+                -Components-
+1-      9V Battery <Alkaline preferred>
+1-      2.2 KiloOhm Resistor
+1-      100 KiloOhm Resistor
+1-      10 Ohm Resistor
+1-      .1 Micro Farad Capacitor
+1-      .22 Micro Farad Capacitor
+1-      TTL NE555 timer IC
+1-      infrared High Output LED
+
+-=-=-=-=- AND NOW FOR AXON'S ASCII-SCHEM -=-=--=-=-=-
+(If you're looking at this in Windows Notepad, Netscape, IE, or any graphical
+environment, you suck, and furthermore, you need to use a REAL Text viewer.
+Try using vi, or even dos EDIT.  To print this article out from dos or
+windows 95's cheesy version of a dos prompt, use the following from the
+C: prompt <or whatever drive and directory you are saving the HiR Text files
+to>      TYPE HIR3-6.TXT > LPT1        If you want to actually see my schems
+correctly, that's the only way to go for you guys  -Axon)
+       
+
+                 ÚÄÄÄ+´|³|ÄÄÄ¿ (9V Batt)     ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+                 ³                          ÃÄÄÄÄÄÄÄÄÄÄLeGeNDÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+                 ³  2.2kê     100kê          ³LED:  |                       ³
+         ÚÄÄÄÄÄÄÄÅÄÄ/\/\/ÄÄÂÄÄ\/\/\¿         ³                             ³
+         ³  ÚÄÄÄÄÁÄÄÄÄ¿    ³       ³         ³                               ³
+   c1    ³  ³    8   7ÃÄÄÄÄÙ       ³         ³Resistor: /\/\/                ³
+ÚÄÄ)|ÄÄÄÄÁÄÄ´4 (555) 2ÃÄÄ¿         ³         ³                               ³
+³ .1æF   ÚÄÄ´3   1   6ÃÄÄÁÄÄÄÄÄÄÄÄÄ´         ³Capacitor: Ä)|Ä                ³
+³        ³  ÀÄÄÄÄÂÄÄÄÄÙ            ³         ³                               ³
+³        ³       ³             ÚÄ)|Ù         ³Power Source: +´|³|Ä           ³
+³        ³10ê    ³             ³.22æF        ³                               ³
+³        \/\/\Ä¿ ³             ³             ³Chassis Ground: ³              ³
+              ³                           ³                              ³
+        ÚÄÄ|ÄÄÙ                             ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+          
+=-_.-=-._.- H A C K E R S   I N F O R M A T I O N   R E P O R T -._.-=-._.-=
+
+	
+	              Windows telnet daemon (WinTD)
+                               by: Axon
+
+
+
+...a word, before i continue...
+
+      This is the first article I'm writing on my new palmtop (yes, that's 
+right...i did it.)  After toying around with Asmodian X's Compaq PC 
+Companion for hours, never finding an end to the intrigue, i gave in, 
+needing at least a part-time replacement for my laptop.  I went with a 
+Hewlett-Packard 300LX, which still uses the Hitachi SH3 processor and 2 
+megs of ram like the Compaq, but sacrifices a backlight.  We'll see how 
+it goes.  I'm sort of using this text file as a test to see how 
+fast/accurate my typing is on this keyboard, and to see how long i can go 
+at it before going crazy...
+
+...on with the show...
+
+	Windows telnet daemon, known as WinTD, usually, is a great 
+crippleware program out there, and i've found nothing else of its breed 
+ever since.  Most of you, just by the name, should be getting a picture 
+in your minds..."allows you to TELNET" into a windows machine?!?!?"  
+Certainly... So what would windows look like if you telnetted in?  As it 
+would come to be, it looks a tad like unix.  It uses some popular unix 
+commands for navigation, and other tasks.  It's kind of like getting a 
+UNIX $ prompt, and using unix commands to navigate a DOS filesystem.  
+Here are a few commands and their purposes.  I do not have them all 
+memorized, but i know most of them that WinTD recognizes.
+
+
+
+ls	list system (dir in DOS)
+ps	process.  Lists all proceses, along with their process id (PID)
+cd	change directory.  Lots like DOS/UNIX cd.  to change drives, use cd x:
+rm	remove file (delete/del)
+kill	kills a task running on the host.  Each task is killed by killing the
+	pid number you got using ps
+who	shows who all is logged on, what tty, and the PID of their shell
+set	allows certain variables to be set.
+man	displays user manual entries for commands (i'll get to this later)
+suue	encrypts any file with uuencode and pumps it to the terminal (this is
+	great for downloading files, hopefully small ones, from the host.)
+ruue	starts expecting a uuencoded file to be sent over the terminal to the
+	host.  Usually one can use copy/paste to upload uuencoded files.  I
+	will explain this is greater detail later
+mkdir	make a directory.
+rmdir	remove a directory.
+exit	quits the session
+exec	Executes a dos command, and places the output to your terminal. (this 
+	part has BIG problems, but I'll talk about them in a sec)
+Winexec  this command executes any command on th host, and displays it on
+	host's monitor.  It is very powerful, so only root, and maybe 1 or 2
+	VERY trusted users should have access to it.  I'll discuss it at the 
+	same time i discuss exec.
+passwd	gee.  i wonder.  Change yer password maybe?
+
+That's about the only ones I ever use, but i know there's more.  Some of
+the commands don't even look like normal unix commands.  Now for the bad
+news: if you recall, i said it's a crippleware program.  You can use it all
+you want without having an obligation to pay, but in order to get the user 
+manual pages that tell what each command does, and the syntax for them, you
+get to pay some ungodly amount of money (less than $100 but if it's more
+than 5, it'll probably wipe me out).  No, i don't know of anyone who has the
+man pages available for download, but if you ever find 'em, e-mail a gzip or
+PKzip of 'em, you'll be a lifesaver.
+
+*--Most of you are probably fearing that this article will be like most of
+the articles about programs that you might see in some good old 80's e-mag,
+or even 2600.  The fact is, most writers just assume that readers can find
+stuff (actually, many writers for 2600 will tell you where to get certain
+things, but some of the newer writers don't...i know it's not Emannuel's
+fault).  Dob't worry, at the end, i'll tell ya where to get it.--*
+
+So what does WinTD allow you to do?  Well, first off, you have to download
+it and configure it.  You can set what port it services, What the log-on
+message is, customize the prompt, and all sorts of other things.  Then you
+have to add users and define permissions.  "permissions" isn't exactly like
+unix.  You can just define what commands each user is allowed to execute.
+There is a list of all the available commands, and you just highlight the 
+ones you want (click on them while holding the ctrl key), then add the
+commands to the user's box.  If you want to make an account for ourself or
+a buddy of yours, and dont want it restricted in access, but don't feel
+like highlighting all the commands, there is a checkbox saying "root".  So
+all root is, is someone who can execute all commands.
+
+Now, to answer your question: Why would anyone really want to telnet into
+a windows machine?  I've found that Wintd is somewhat secure.  I've been
+messing with it for over a year and still never really ben able to hack it
+the outside.  One thing it does that i do not particularly care for is that
+if you enter an invalid login name, you'll know it's invalid, because it
+just asks for a login again, instead of asking for a password.  Possible 
+uses for logging into your own computer remotely would be to download
+homework, cool programs, or something else.  While I've tested the uue send
+and receive features, i'll say they are slow.  I would recommend using 
+WinTD to launch an FTP daemon (which are typically insecure anyways), then
+ftping your files down, and killing off the FTP daemon with ps and kill.
+
+You can also see what's going on on your computer this way, with ps.  Kill
+your screen saver's process, and your screen saver goes away just as if
+someone was messing with the mouse.  With some other commands, you could
+even start the calculator, netscape, a word processor, or whatnot, on your
+computer running WinTD, and kill them off if you wish. 
+
+Time to tell you something cool...WinTD has a cool little feature which 
+allows you to hide it.  No one will know it's running unless they pull up
+the task manager or hit ctrl/alt/delete. Furthermore, it has the option of
+hiding itself upon startup, making it perfect for stealthily keeping an eye
+on someone else's system that's hooked up.  Granted, this works a lot
+better on a system what has static IP, like library computers hooked up to
+the internet, or computer lab systems... Ever downloaded someone's C++
+project right from under their nose?  =]  The imagination is the only limit
+on this one. 
+
+So how about exec & winexec?  Earlier i mentioned some problems with exec.
+It does have problems.  It will execute any dos command, and when it is
+done running, display the output to you.  That's it.  No more.  This means
+you really should run only things such as chkdsk (to show you some stats
+on the host hard drive), Attrib, dir, and a few others that don't require
+any input before relenquishin control back to the command interpreter.  If
+you are a bonehead and forget ths "feature", you may be able to hit ctrl-c
+but sometimes that doesn't even work.  About the only thing you can do then
+is to open another telnet session to it, and, if you didn't crash WinTD,
+log-in and kill the process off that you ried to run, kill the process of
+your other session, and hope the daemon stays stable.  WinTD is not very
+predictable when the exec command is brought in.  I would recommend
+reserving it for root only, or else other accounts could D-o-S (denial of
+service) ya.
+
+Winexec, however, has a lot more respect from me.  With it, you can, on 
+the host computer, execute anything it has on its system (and by the way,
+windows programs still accept cmmand line arguments.  Remember that.) 
+simply seeing calc.exe in the directory you're in doesn't mean you can
+type "calc" or "calc.exe" and it will run.  You must type "winexec calc"
+or if it's a batch file or .com file, you need to include the extension as
+well.
+
+As far as file transfers with suue/ruue, i don't ecommend it unless it's
+in a pinch, and it' a small file.  It works best if you have a good telnet
+client like NetTerm or TeraTerm that supports an ASCII upload feature.
+(i like teraterm 'cuz it installs onto a 1.44MB floppi without complaining 
+about it).  All you need to do to send a file is run it through a uuencoder
+and do an ascii upload of the uuencoded file.  Downloading is fun.  You
+must start logging the session to a file before telling WinTD to start 
+sending the uuencoded stream. Then you have to edit the top and bottom of
+the log file to get rid of the stuff you typed and the $ prompt at the end
+of the file and THEN run it through a uudecoder.  Fun stuff.  Avoid it
+whenever possible.  These are two commands i would also not trust the
+normal user with.
+
+
+...now for the good stuff...
+WinTD is released by Snappy Software (No affiliations with Play, inc, the
+makers of the snappy! video capture kit for the computer) I can't for the
+life of me remember what the heck the URL is to their page, but i do
+recall that i found WinTD on tucows.  Tucows is a great page for anyone
+that wants every single internet related utility for windows 3.1/95/NT.
+go to  http://www.tucows.com  and choose any of the primary affiliates and
+regular updaters (they'll have TWO check marks by them)  I always use the
+first california site with 2 check marks next to it.  When you arrive at 
+that site, you must chose Windows 95.  Then it gives you a huge table of
+TYPES of programs.  Look under Server Daemons, and it will be somewhere in
+there.  If it is npt, go back a page or two till you see a search textbox,
+and just search for WinTD that way.  You'll find it.
+
+Well, that about cover it for WinTD.  I'm hoping that this month-delayed
+issue of HiR doesn't tick too many people off, and i figured we'd better
+have quite a few more articles if wwe were going to be late.  Use your
+imaginations with it...and happy/safe hackin'!
+                                -=- H i R -=-
+           -=- Going for the golden goose, then jacking the bean stalk -=-
+
+                             -=- |\smodian }{ -=-
+
+        During the recient events of the DOJ going at it one on one with
+microsloth, it gave me that warm fuzz feeling.  Maybe the government isn't
+so bad, maybe its found a higher purpose?  Perhaps Bill Clinton isn't such
+a bad guy after all?  Perhaps the FBI and all those other three lettered
+faceless government agencies are just doing their job for life liberity
+and the american way. And maybe kill crazed rabid transvestite monkeys will
+fly out of my ass.....
+        Theres a very simple explanation for these wonderful events.
+Microsoft has grown to immense porportions, they have extended their realms
+into other technical areas, and have continued to grow like the weed they are.
+So why is the government so excited to whip out the axe's and chop mr. Gates's
+dick off.  Money of course, yup.. you thought it was some quest for the
+extermination of evil... yeah right, it's more like extermination of evil, by
+evil..  Well no one likes microsoft any more, just the stupid people.  So
+some enterprising dick who needs to be re-elected so he/she/it can mooch
+some more dough from the tax payers.  "Wow!" he/she/it thinks.  "If I were
+to beat the crap out of Mr. Gates, all those anti microsoft people would just
+love me!"  And, im sure there would be a big reward waiting for me at
+NetScape.  Shoot, it would be like trick or treating for campaign funds in
+silicon valley. 5 G's from Geo's, 10 G's from Sun... shit I could profit
+from this.  From this point everybody knows that if a polititian really wants
+to fuxor some one, they find a way.  Now of course all the polititians jump
+in the band wagon at once so that one persons dream of mooching money has
+proabably been lost by now.  But you get the point right?
+        The moral of this editorial is that if a person makes a big pile of
+money, some one will find a way to get more than his/hers/its fair share of
+the booty.  Once microsoft saw the Doj sharpining their axes, they should
+have split up the company and run while they still had profit.  As it was
+bill just hired a lawyer <a bad move> and going to court <worse move.> Who
+is wining so far... Gates lawyer, and the government... for gates will never
+win when he's up to his neck in americas oldest mafia.
+
+kminor =  snoop
+
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&.kminor's views on.&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+                                   EasyESN
+                                   *******
+
+
+Notice:  I am not the originator of all of this information, I have just
+         gathered bits and peices of what i have found on the internet
+         and what I myself have learned and put them in one file for
+         convenience. I thank  SpoonMan and Radiophone to both of whom have
+         been great sources of information.
+
+
+   EasyESN is a small but growing system that allows a dealer to call up
+and find out the pair of a certain phone.  It is run by Mobilnet and in use
+in many of the major cities of the U.S. including New York, San Fran., Austin
+Texas and i suppose several others although i havent had werd of it being
+in use in our kc area.  Even though it is a fairly new system it is already
+being exploited whenever possible.  Here's how to use it in a nutshell.
+
+
+dial *ESN(see esn prefix's)
+when it asks for validation code type "111111"
+
+heh, silly isnt it.
+
+  here is a list of ESN Prefixes by code.
+
+Dec	Hex	Manufacturer & Brands
+---	---	---------------------
+129	81	Oki (AT&T, Astrotel, Chrysler)
+130	82	Motorola (Pioneer...)
+130	8200	Motorola AMPS
+130	8280	Motorola NAMPS
+130	82A0	Motorola AMPS
+130	82E0	Motorola D-AMPS
+131	83	E. F. Johnson
+132	84	Hitachi (AT&T)
+133	85	Fujitsu
+134	86	Mitsubishi (Diamondtel, MGA, AT&T, General Electric, USA Corp.)
+135	87	NEC (Kenwood)
+136	88	Panasonic (Jaguar)
+137	89	Harris
+138	8A	Toshiba (Audiovox, Tactel)
+139	8B	Kokusai
+140	8C	Clarion
+141	8D	Goldstar
+142	8E	Novatel (Hyundai, Bentley)
+143	8F	Ericsson - GE
+144	90	Murata
+145	91	DI-BAR Electronics
+146	92	General Electric (Antel, ARA,Glenayre)
+147	93	Gateway Telephone
+148	94	R. Bosch (Blaupunkt)
+149	95	Universal Cellular
+150	96	Alpine - Kokusai - Fujitsu
+152	98	Walker (INFA, Technophone, JRC)
+153	99	CM Telecom (Freecomm)
+154	9A	Sony
+155	9B	Tama Denki Co.
+156	9C	Nokia / Technophone (Nokia-Kinex)
+157	9D	Ericsson / General Electric
+158	9E	AT&T Technologies
+159	9F	Qualcomm
+160	A0	Hyundai
+161	A1	Satellite Technology
+162	A2	Technophone (Cellstar)
+163	A3	Citicomm / Yupiteru
+164	A4	Hughes Network Systems
+165	A5	Nokia (Mobira, Technophone, Walker)
+166	A6	Clarion
+167	A7	MEI (Monsor Electronics)
+168	A8	Motorola International
+170	AA	Philips Telecom
+171	AB	Philips Circuit
+172	AC	Uniden America (Radio Shack, Cellstar)
+173	AD	Uniden Japan
+174	AE	Shintom (Colt, Americel, Audiovox)
+175	AF	Sanyo (Antel)
+176	B0	Samsung / Quantum
+178	B2	Sun Moon Star (Antel, GTE)/ Emptel Electronics
+183	B7	Omni
+195	C300	Motorola AMPS
+195	C380	Motorola NAMPS
+204	CC	Ericsson
+212	D4	Motorola after mid-95
+213	D5	Motorola, 1996?
+_____________________________________________________________________________
+if you have any further questions find me on irc as kminor or on a local
+bbs as snoop.  my email address varies every so often, it is currently
+kretro@hotmail.com
+
+
+
+ìììììììììììììììììììììììììììììììììììììììììììììììììììììììììììììììììììììììììììììì
+              °°°°±±±±²²²²ÛÛÛÛ H i R   N e W Z ÛÛÛÛ²²²²±±±±°°°°
+ìììììììììììììììììììììììììììììììììììììììììììììììììììììììììììììììììììììììììììììì
+
+So what happened to HiR?  Various technical problems, as well as losing
+track of a writer for about 3 weeks (more on that in a moment), prevented
+the mag from coming out exactly on time.  Axon is trying to get a newer web
+presence up for HiR for the month-delayed release, which you, the reader,
+probably didn't know about until you picked this up and read it.
+
+Dr. Freeze disappeared from all online activities on November 11th... No one
+heard from him until about a month later when he used a computer at school to
+access our hotmail account and write a message back to it.  It seems that
+somehow his computer got smashed with a baseball bat by some disgruntled
+person who shall remain nameless.  Efforts are underway to repair/replace it.
+
+        Well, as most of you read earlier, Axon's laptop went kaput.
+Currently, he is attempting to find some way to charge his batteries without
+buying a new motherboard (which costs $300 more than the original retail value
+of his laptop when it was brand noo). He's decided to go with one of those
+cool palmtops like Asmo's got...except a different brand.  Will HiR be
+produced on a palmtop now?  Don't look for it any time soon.  Axon's already
+written an article on it (See the article on WinTD this issue), and promises
+not to do that again, or at least until he can hook his palmtop directly up
+to a normal computer...
+
+We've finally decided to post all our e-mail addresses so you can all 
+write to us!
+
+Writer          E-Mail Address (Subject to change)
+~~~~~~~~~~~~~~  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Axon            Axon@compfind.com
+tgsnoop         kretro@hotmail.com
+Dr. Freeze      foodstamp_man@juno.com
+Asmodian X      asmodianx@hotmail.com
+
+
+

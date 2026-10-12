@@ -1,0 +1,1325 @@
+                    HHH   HHH   IIIIIIIII     RRRRRRR 
+                   HHH   HHH       III         RR   RR
+                  HHH   HHH        III          RR   RR
+                 HHH   HHH         III           RR   RR
+                HHHHHHHHH          III            RR RR
+               HHHHHHHHH           III             RRRRRR
+              HHH   HHH            III              RR   RR
+             HHH   HHH             III               RR   RR
+            HHH   HHH           IIIIIIIII             RR   RR 
+
+[ H  a  c  k  e  r  s   I  n  f  o  r  m  a  t  i  o  n    R  e  p  o  r  t ]
+                             [ F  i  v  e ]
+
+                              May 01, 1998
+Here it is... HiR5!  This was the first HiR to be typed up entirely on UNIX
+style systems (Slackware and AIX), Commodore Amigas, and palmtops (Compaq PC 
+Companion and HP 300LX) Boy, are we straying away from mainstream or what? 
+Despite the fact that Axon still added the finishing touches and put the 
+final product together on his palmtop, this was still by far the smoothest 
+production run the mag has seen.
+
+._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-.
+
+HiR is an electronic publication that is written by real hackers and phone
+phreaks that have the desire to share information.  We only publish articles
+related to hacking and hreaking.  We don't cover viruses, stealing, carding,
+or blowing things up.  
+
+As a general rule, we don't do many walk-thru's; occasionally we might, 
+but we almost always focus more on explaining a given aspect in enough 
+depth to help the reader understand why things happen.  With that 
+information, they may learn for themselves and discover many other 
+things related to the article.  
+
+ "If you give a man a fish, he will be full for a day.  If you teach 
+       him to fish, he will be full for the rest of his days."
+
+You have probably heard that many times.  The same holds true for knowledge.
+If you read a little trick, you'll try it, and it will be fun for a while.
+It will eventually get old, and you will grow tired of it.  Many things
+covered in HiR can be like that if you read it without trying to learn.  We
+strongly urge you to look closer at our explanations, so that you can gain
+more knowledge than we could ever attempt to convey in any amount of typing.
+
+ "If you give a man a trick, he is content until it grows old.  If you
+       help him create his own tricks, he is content for life..."
+
+Corny, but true.
+
+********************** N E W   H i R   M E M B E R *************************
+The HiR crew is proud to announce a new member/writer.  Frogman, who has
+been one of Axon's acquaintances for almost 4 years, writes his debut arti-
+cle on RSA encryption.  He has strong interests in Crypto and cellular.
+He's one of the few people who still uses the Amiga (He has a superbly
+modified A2000 as his main system.)
+****************************************************************************
+
+A new regular section has been added.  We are going to include a list
+of "Informative Resources".  We'll try to include one in every issue.
+Basically, this section will contain several URL's, book references,
+telnet things, etc that contain useful information (or a good way to
+FIND it).  We won't ever place the same ones twice, so you have to
+collect 'em all!
+
+Current regular sections:
+Introduction/ToC (Duh...)
+HiR Hacker Newz
+"Informative Resources" (New!)
+
+._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-.
+
+We are always looking for new writers.  If you are (or were) in the H/P
+scene, and consider yourself a decent writer, send us some of your work.
+Our e-mail is h_i_r@hotmail.com.  
+
+._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-.
+                          Current Staff for HiR:
+
+* Axon         (Editor, Official Site Webmaster, Writer)    Axon@compfind.com
+* Asmodian X   (Writer, Editorials, Linux Psycho)       asmodianx@hotmail.com
+* Kminor       (Writer, Ascii g0d)                    pairsnarfer@hotmail.com
+* Dr. Freeze   (Writer, Product reviews)             (Currently Computerless)
+* Frogman      (Writer, Amiga Fiend)                     Frogman@compfind.com
+* The Man in Black (Mirror site webmaster)      The.Man.in.Black@compfind.com 
+
+._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-.
+
+You can find us at the following places (that we know of):
+
+Official HiR Distro Site:               http://students.jccc.net/~axon2017/hir.html
+Official Southwestern U.S. Mirror site:    http://azure.rcn.nmt.edu:2007/HiR/
+
+._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-.
+
+                            HiR 5 Article list
+Num   Article Title                                           Writer
+---- ------------------------------------------------------- ----------------
+ 1   Introduction/Table of Contentz                          Axon
+ 2   Ax-Talk, a shell-script based multi-user chat program   Axon
+ 3   From Asmodians Workbench: Winsock bugs meets Windows    Asmodian X
+      CE 1.0 (Results of Teardrop/Bonk/Nuke/etc vs. Palmtops)    
+ 4   Fun With UNIX Part2: Securing Linux boxes & other fun   Asmodian X
+ 5   HiR5 Informative Resources                              Asmodian X/Axon
+ 6   Credit Bureau and Credit Report Terminals               Axon
+ 7   RSA Public Key Encryption                               Frogman
+ 8   HiR Hacker Newz/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\.
+\                               Ax-Talk                                      /
+/                  A UNIX Shell script chat program                          \
+\                                                                            /
+/                               by: Axon                                     \
+.\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/.
+
+It's always been said that nessecity is the mother of invention.
+Since hackers always seem to come up with crazy little programs, toys, tools,
+and other stuff like that, you'd think they often find themselves in a
+position of nessecity.  I am no different.  When I need something, and need
+it fast, I make it myself.  As I sit here, I'm once again going to type a
+whole article on my palmtop, because my laptop is (again) down, but this time
+I'm prepared.
+
+My favorite computer bit the dust for the 5th time just a few weeks ago,
+and I'm sure that I'll once again resurrect it, it's just a matter of when.
+(for those of you that care, the processor isn't getting any juice.  It's
+not like I FDISK'd my hard drive.)  Since I am in the process of loading up
+my palmtop with toys so that it can almost take the place of my laptop, I
+found that one major problem exists: the lack of a good terminal program
+with TRUE VT-100 emulation, file transfer, and other things.  Well I finally
+got a program with Xmodem (barf).  Nothing with a good vt-100 though.  The 
+only thing I really need vt100 for is  talk  in unix.  it screws up my 
+palmtop screen even when the built-in term program "supports" vt emulation.
+On top of that, unix talk only allows 2 people to chat head to head, and 
+sometimes I want to talk to more people than that at once.  Sounds like a 
+combo between nessecity, boredom, and desire.  A very stimulating mixture of 
+situations for a hacker.  Enter: Ax-Talk.
+
+In 2 days, Ax-Talk went from a 5-minute "read and regurgitate to these 
+terminals" shell script to an advanced, menu-ized, fairly powerful program
+(for a shell script at least).  In its first stages, you had to type the 
+full path to your chat-buddy's terminal (/dev/pts/xxx, or similar), and
+there wasn't even an exit command.  You just ^C to get out.  That's not
+very efficient.  There were eventually 5 slots, so you can talk to 5 other 
+people at once, and if you ended up not using all 5 slots, you wound up
+having to type "/dev/null" in each of them you didn't use.  Let's face it,
+it sucked.
+
+The first things I really noticed that I hated in it was having to look up
+the terminal that you would want to send messages to, and associating that
+with a user.  Along with that, having to type /dev/null 3 times...
+Also, Originally, you couldn't add or cut off any connections without
+quitting and restarting. yuck.
+
+I fixed the "quitting and restarting" mess first.  You could eventually
+add or cut connections (still using /dev/...) while in the program.
+Then I found out that I could write a huge long line of code that could
+parse out a username and come up with what terminal they were on, and put
+the terminal path into a vaiable.  This was a giant step.  The /dev/null
+thing was easy to get rid of after all that.  My baby was growing from 11
+lines to 175 or more.
+
+Commands.  I must have commands.  I added some cool commands to it.  The
+first, which proves to be most useful, is the .quit command.  It's nice to
+be able to quit without having to break out of it.  I then made a .clear
+command, to clear the screen.  Clearing the screen is important, after all.
+I threw in a .action (chat actions), .exec (run a command from within ax-
+talk), and .help to show novices all the commands.  This was in addition
+to the first command, .users, which allows you to change who gets your 
+messages.
+
+It's now quite bulky, but it works.  Thanks to arrays, I was able to shrink
+it down even more.  In the earlier revisions, I was repeating a lot of 
+code.
+
+I eventually brought back the option of using the terminal path, because
+Ax-Talk didn't like it when a person was logged on more than once.  I
+eventually fixed that problem, too.  If a person is logged on more than
+once, it informs you of this condition, then asks which terminal to use.
+I figured I would throw a copy of my script in here (since that was kind
+of the whole point of the article anyways).  I'll warn you that the script
+does NOT conform to HiR article format rules.  Several lines in it had to
+go over 78 characters, so don't miss them!
+
+Ax-Talk has become very large for being a simple shell script, but at the 
+same time, it's also had the chance to be refined and is now extremely
+powerful, if you consider that it's nothing more than a bunch of UNIX
+shell commands strung together end-to-end.  Woven into its rather complex
+web of commands lies the ability to modify it.  It even has a config file.
+
+Note: I have yet to get this to work in linux.  I only have AIX and linux
+to play with.  Works good on AIX.  If you can modify it to run under bash
+on your linux, send me the code at h_i_r@hotmail.com
+
+if you don't mess with unix or the korn shell (or still don't want to read
+the code), At least read the Revision history at the beginning.
+
+
+<---------------------------CUT HERE--------------------------------->
+#!/bin/ksh
+
+# Ax-Talk
+# Version 3.0
+#
+# Written by Axon <Axon@compfind.com>
+#
+# Ax-Talk History Timeline
+#
+# .01                   First edition.  Simply piped input to other terminal.
+#
+# .1                    Added support to pipe input to 5 other terminals.
+#
+# 1.0                   User-definable terminals; List of who is accepting
+#                       messages.
+#
+# 2.0                   Major changes.  All-day coding resulted in an inter-
+#                       active shell script that allowed the user to use the
+#                       name of the person instead of their terminal path.
+#                       added .users, .exec, .action, .help, and .quit
+#                       commands
+#
+# 2.1                   Added support for most any unix platform by using an
+#                       rc file.  Added comminication between actual ax-talk
+#                       clients so that if a user quit ax-talk, the script
+#                       will automatically remove them from the other
+#                       chatters' conference list.
+#
+# 2.2                   Added support for original terminal path.  Still
+#                       unable to fix the bug with multiple instances of
+#                       a username.  The multiple instance username problem
+#                       won't show its ugly face if the users are
+#                       careful and type the terminal path instead of their
+#                       username.  I'll work on trying to sense multiple
+#                       instances so that the script can warn the user, then
+#                       ask which terminal path to use.  Maybe in a later rev.
+#                       In order to use multiple unix setups, I had to make a
+#                       second shell script for configuration purposes.
+#                       Configuration options are held under each user's home
+#                       directory in .ax-talk.rc.  Communication between Ax-
+#                       Talk programs takes place by a world readable file
+#                       called .ax-talk-status under each user's home dir...
+#
+# 2.3                   Made the script manually check for the configuration
+#                       file.  I scrubbed the configuration script, and put
+#                       the code in the main script so it will run automatic-
+#                       ally if the config file is not found.
+#
+# 2.31                  Added --config command line switch to change config
+#                       info.  Not extremely useful yet, but maybe when there
+#                       is more meat to the config.
+#
+# 2.311                 Just a test phase.  took out tons of code and made
+#                       attempts to use arrays to save code space.  This may
+#                       eventually mean a nearly infinite amount of people
+#                       can chat on the same system.  (up to 1025?)
+#
+# 2.4                   Full array architecture.  Now you can define how many
+#                       users, not just limited to 5.  This is changed with
+#                       the --config command line switch.   Note, Ax-Talk 2.4
+#                       is no longer compatable with 2.311 and earlier, due to
+#                       an added field in .ax-talk.rc.
+#
+# 2.5                   Additional feature.  When entering usernames, if a
+#                       period (.) is entered, the script automatically fills
+#                       in the rest of the user slots with ".".  This will
+#                       dramatically speed up the time to enter Ax-Talk.
+#                       Tons of bugs to work out.  The array structure makes
+#                       this feature queasy.
+#
+# 2.8                   I'm practically ready to let this thing out to the
+#                       public, which I'm planning on doing with version 3.
+#                       This is kind of a "bug run", because i've fixed most
+#                       of the annoying things that I've seen.  I also 
+#                       added the ability to look at the source. I'm really 
+#                       happy with it right now, but there still could be a
+#                       plethora of releases between 2.8 and 3.0 if I have
+#                       any last-minute feature additions to toss in.
+#
+# 2.81                  A new command, .adduser was created.  This allows
+#                       people who set a ridiculously low number of maximum
+#                       chatters to redeem themselves.  It temporarily ups
+#                       the number of max chatters (for the current session
+#                       only), and asks for a username or terminal path.
+#
+# 3.0                   Finally added the great stuff.  Senses if the user
+#                       is logged in more than once.  Flawless.
+
+#######################[RELEASE NOTES]##########################
+# Some unixes do not like \n in the echo lines.  This is       #
+# true in slackware linux, and possibly many others.  it's     #
+# not the case in most of the unixes i've tested this on,      #
+# but it can be easily fixed by changing any echo lines that   #
+# contain a \n to  echo -n.  If that doesn't work, i guess     #
+# you could remove all the \n things out of all the echo lines #
+# that contain them.  Substitute with echo ""                  # 
+#                                                              #
+# This script uses the cut command quite often.  On some       #
+# REALLY archaic BSD-derived unixes, this does not exist.      #
+# Honestly, they could be replaced with AWK, but awk commands  #
+# would take up even more space.  Feel free to convert to awk. #
+#                                                              #
+# This script has been tested to run on ksh, bash. sh (bsh)    #
+# all ya gotta do is change the first line of the script that  #
+# has #! /bin/sh to #! /bin/<whatever>.                        #
+################################################################
+
+#
+# Variables used in Ax-Talk
+#
+# $config 	determines whether or not the config runs.  1 = active.
+# $start	config: starting byte of the terminal field.
+# $nding	config: Ending byte of the terminal field.
+# $maxterm	Maximum desired terminals, plus 1.  Used for loops.
+# $maxtrm	A "show" variable.  Depicts actual number of maximum terms.
+# $termstart    Starting byte of terminal field (Read from rc file.)
+# $termend      Ending byte of terminal field   (Read from rc file.)
+# $q		Counter variable for loops/arrays.
+# $comand	What the user types onto the chat line.
+# $actioncmd	What the user types into the action line.
+# $shellcommand	Read and executed with the .exec command.
+# $LOGNAME	Unix standard environment variable that holds the username.
+# $blarf	Temporary variable.  Used for <ENTER> pauses.
+# $uzer		Temporary Variable.  Plays a role in determining length
+#               of a cell in Array $User[x]
+#
+# Arrays used in Ax-Talk
+#
+# $user[x]	Usernames of selected people to chat with.
+# $termpath[x]	Terminal paths corresponding with usernames.
+#
+
+
+
+
+
+#
+# Check for nessecary files.  If missing, run the install process.
+#
+
+if [[ ! -a ~/.ax-talk.rc ]]
+then
+config=1
+fi
+
+if [ $1 = "--config" ]
+then
+config=1
+fi
+
+if [ $config = 1 ]
+then
+
+start=13 #  
+nding=18 # Defaults.  These work on AIX 4.2
+maxtrm=5 # 
+
+clear
+echo "Welcome to Ax-Talk, an interactive shell-script-based unix chat program!"
+echo "It looks like you haven't fully installed Ax-Talk yet, or you" 
+echo "have decided to change your ax-talk configuration."
+echo ""
+echo "If this is the first time you've run Ax-Talk, you should choose #1"
+echo ""
+echo "1) Configure both terminal fields and maximum # of chatters (recommended)." echo "2) Configure terminal fields."
+echo "3) Configure maximum # of chatters."
+read confchoice
+case $confchoice in
+
+1 )
+echo ""
+echo "Look for where the third field is on the chart below.  The field should"
+echo "read something like 'pts/4' or 'tty1'.  You will be asked where this"
+echo "field starts and ends.  We recommend adding 1 to the end of the field"
+echo "for instance if the field ended on number 19, type 20.  it won't hurt."
+echo "the numbers for each column are read from top to bottom.  look closely"
+echo "at the ledger above the list of people on the system."
+echo ""
+echo "         111111111122222222223333333333"
+echo "123456789012345678901234567890123456789"
+who -w
+echo "Terminal field start:"
+read start
+echo "Terminal Field end:"
+read nding
+echo
+echo "Maximum number of chatters at once: Recommend 5"
+read maxtrm
+maxterm=$(( 1 + $maxtrm ))
+echo "$start:$nding:$maxterm" > ~/.ax-talk.rc
+echo "0" > ~/.ax-talk-status
+echo "Ax-Talk Has been configured"
+echo "Press <ENTER> to start Ax-Talk!" ;;
+
+2)
+echo ""
+echo "Look for where the third field is on the chart below.  The field should"
+echo "read something like 'pts/4' or 'tty1'.  You will be asked where this"
+echo "field starts and ends.  We recommend adding 1 to the end of the field"
+echo "for instance if the field ended on number 19, type 20.  it won't hurt."
+echo "the numbers for each column are read from top to bottom.  look closely"
+echo "at the ledger above the list of people on the system."
+echo ""
+echo "         111111111122222222223333333333"
+echo "123456789012345678901234567890123456789"
+who -w
+echo "Terminal field start:"
+read start
+echo "Terminal Field end:"
+read nding
+echo ;;
+
+3)
+echo "Maximum number of chatters at once: Recommend 5"
+read maxtrm
+maxterm=$(( 1 + $maxtrm ))
+echo "$start:$nding:$maxterm" > ~/.ax-talk.rc
+echo "0" > ~/.ax-talk-status ;;
+esac
+
+fi
+#
+# Initialize
+#
+
+echo "1" > ~/.ax-talk-status  #tells the other Ax-Talks that we're alive.
+chmod 655 ~/.ax-talk-status   #make sure other Ax-Talks can read the file.
+termstart=$(cat ~/.ax-talk.rc | cut -f1 -d':') #\
+termend=$(cat ~/.ax-talk.rc | cut -f2 -d':')   # > Reads the 3 fields out
+maxterm=$(cat ~/.ax-talk.rc | cut -f3 -d':')   #/  of the config file.
+maxtrm=$(( maxterm-1 ))
+maxtermlen=$(( 7 ))
+#
+# Introduction and get usernames
+#
+
+clear
+echo "Welcome To Ax-Talk, a Shell Script Based Chat Program"
+echo "Version 3.0 -- By Axon   Axon@compfind.com"
+echo ""
+echo "Please take time to look at the comments in the source code."
+echo ""
+echo "Enter $maxtrm usernames of the users you wish to chat with"
+echo "and hit enter after each name.  If you don't need all"
+echo "$maxtrm, enter a period (.)" 
+echo "If the person you wish to talk with is logged on more than once,"
+echo "you will be asked what terminal you wish to talk with.  If you"
+echo "would rather use the terminal path rather than the username, type a"
+echo "colon (:) followed by their terminal path (which is shown in the"
+echo "list below.)"  echo "Examples:"
+echo ":pts/5"
+echo ":ttyp3"
+echo ":ttyS1"
+echo ":tty8"
+echo ""
+echo "Users Who Are Accepting Messages:"
+who -w | grep "+"
+echo ""
+
+#
+# Get usernames or terminal paths.  Convert usernames<-->Terminal Paths
+#
+q=$(( 1 ))
+while [ $q != $maxterm ]
+do
+echo "User $q"
+read user[$q] 
+termpath[$q]="$(who -w | grep "+" | grep ${user[$q]} | cut -b$termstart-$termend | cut -f1 -d' ')" 
+if [ $(echo ${user[$q]} | cut -b1) = ":" ] 
+then
+termpath[$q]="$(echo ${user[$q]} | cut -b2-)"
+user[$q]="$(who -w | grep "+" | grep ${termpath[$q]} | cut -b-8 | cut -f1 -d' ')"
+fi
+uzer=${user[$q]}
+if [ ${#uzer} = 1 ]
+then
+while [ $q != $maxterm ]
+do
+user[$q]="."
+termpath[$q]="null"
+q=$(( 1+$q ))
+done
+q=$(( $maxtrm ))
+fi 
+trmpath=${termpath[$q]}
+termlen=$(( ${#trmpath} ))
+#
+# Added in Ver 3.0.  Code to sense if a person is logged on more than once.
+#
+
+if [ $termlen -gt $maxtermlen ]
+then
+echo "The user you have selected may be logged into the server"
+echo "more than once.  Please select a terminal from the following"
+echo "list.  Type the name of the terminal.  (I.E. pts/5   ttyp1  etc)."
+echo
+who -w | grep "+" | grep ${user[$q]}
+echo ""
+echo "Terminal Path:"
+read termpath[$q]
+#
+# Code to make sure that the terminal they chose is associated with the
+# user they originally asked for.
+#
+
+blarf=$(who -w | grep ${termpath[$q]} | cut -b1-8 | cut -f1 -d' ')
+if [ $blarf != ${user[$q]} ]
+then
+echo "An error occured while checking the terminal."
+echo "You May be able to try again by typing  .users"
+echo "After you have entered chat."
+user[$q]="."
+termpath[$q]="null"
+fi
+fi
+
+q=$(( 1+$q ))
+done
+
+q=$(( 1 ))
+while [ $q != $maxterm ] 
+do
+echo "\n$LOGNAME is connected to you for an Ax-Talk\n" > /dev/${termpath[$q]}
+q=$(( 1+q ))
+done
+
+
+clear
+echo "Chat Connection Message sent.  To be courteous, please wait to"
+echo "receive chat connection message from other party, before trans-"
+echo "mitting anything."
+echo ""
+echo "Type .action to perform an action message."
+echo "Type .exec to run a single shell command without exiting Ax-Talk."
+echo "Type .quit to end Ax-Talk Session."
+echo "Type .clear to clear your screen during chat."
+echo "Type .users to modify which users the messages go to."
+echo "Type .adduser to temporarily add one more user to your Ax-Talk"
+echo "      session if all of your slots are filled."
+echo "Type .help to see this list of commands and other help messages."
+echo "Type .source to examine the script code for Ax-Talk."
+echo ""
+
+while [ 1=1 ]   # Begins the main loop of the program
+do              #
+
+read comand
+case $comand in
+
+.adduser )      #Adds users to chat list.  See Revision Notes.
+clear
+maxtrm=$(( 1 + $maxtrm ))
+maxterm=$(( 1 + $maxterm ))
+q=$(( $maxtrm ))
+echo "Enter username of the user you wish to chat with, and hit <Enter>"
+echo "If the person you wish to talk with is logged on more than once,"
+echo "you will be asked what terminal you wish to talk with.  If you want"
+echo "to use the terminal path instead of the username, type a colon (:)"
+echo "followed by their terminal path (which is shown in the list below.)"
+echo "Examples:"
+echo ":pts/5"
+echo ":ttyp3"
+echo ":ttyS1"
+echo ":tty8"
+echo ""
+echo "Users Who Are Accepting Messages:"
+who -w | grep "+"
+echo ""
+read user[$q]
+termpath[$q]="$(who -w | grep "+" | grep ${user[$q]} | cut -b$termstart-$termend | cut -f1 -d' ')" 
+if [ $(echo ${user[$q]} | cut -b1) = ":" ]
+then
+termpath[$q]="$(echo ${user[$q]} | cut -b2-)"
+user[$q]="$(who -w | grep "+" | grep ${termpath[$q]} | cut -b-8 | cut -f1 -d' ')"
+fi
+uzer=${user[$q]}
+
+if [ ${#uzer} = 1 ]
+then
+user[$q]="."
+termpath[$q]="null"
+fi
+
+trmpath=${termpath[$q]}
+termlen=$(( ${#trmpath} ))
+#
+# Added in Ver 3.0.  Code to sense if a person is logged on more than once.
+#
+
+if [ $termlen -gt $maxtermlen ]
+then
+echo "The user you have selected may be logged into the server"
+echo "more than once.  Please select a terminal from the following"
+echo "list.  Type the name of the terminal.  (I.E. pts/5   ttyp1  etc)."
+echo
+who -w | grep "+" | grep ${user[$q]}
+echo ""
+echo "Terminal Path:"
+read termpath[$q]
+#
+# Code to make sure that the terminal they chose is associated with the
+# user they originally asked for.
+#
+
+blarf=$(who -w | grep ${termpath[$q]} | cut -b1-8 | cut -f1 -d' ')
+if [ $blarf != ${user[$q]} ]
+then
+echo "An error occured while checking the terminal."
+echo "You May be able to try again by typing  .users"
+echo "After you have entered chat."
+user[$q]="."
+termpath[$q]="null"
+fi
+fi
+
+clear
+echo "Extra user (${user[$q]})was successfully added."
+echo "Back to chatting..." ;;
+
+.source )	# View the source code and comments...woo!
+clear
+echo "This is the script source for Ax-Talk.  Hit <q> at any time to"
+echo "quit viewing the source.  Hit <SPACE> to scroll down."
+echo "Press <Enter> Now to start viewing source."
+read blarf
+cat ax-talk | more
+echo "Press <Enter> to continue chatting"
+read blarf ;;
+
+.action )
+echo "-->The next line you type will show up as an action."
+read actioncmd
+echo "-->$LOGNAME $actioncmd"
+q=$(( 1 ))
+while [ $q != $maxterm ]
+do
+echo "$LOGNAME $actioncmd" > /dev/${termpath[$q]}
+q=$(( 1 + $q ))
+done 
+echo " " ;;
+
+
+.help )		# Show users the commands and general help stuff.
+echo ""
+echo "Type .action to perform an action message."
+echo "Type .exec to run a single shell command without quitting Ax-Talk."
+echo "Type .quit to end Ax-Talk Session."
+echo "Type .clear to clear your screen during chat."
+echo "Type .users to modify which users the messages go to."
+echo "Type .adduser to temporarily add another user to your Ax-Talk session"
+echo "      if all your slots are filled. "
+echo "Type .help to see this list of commands and other help messages."
+echo ""
+echo " .action     When you type .action, you are prompted for an"
+echo " action message.  This message is not much different than a normal"
+echo " message, other than the fact that it shows up to the users without"
+echo " the colon.  Example: if you typed 'is waving to everyone!' at the"
+echo " action message prompt, it would show up like this:"
+echo "     $LOGNAME is waving to everyone!" 
+echo " "
+echo " .exec       When you type .exec, you are prompted for a shell"
+echo " command.  Typical uses are for 'who', 'finger', and 'w', although"
+echo " this works for many other commands.  This is an advanced feature." ;;
+
+.exec )		# Execute a command without quitting or suspending Ax-Talk
+echo "-->Enter a shell command to execute."
+read shellcommand
+$shellcommand
+echo "Back to chatting..." ;;
+
+.clear )	# Clears your screen so no one can see that you're chatting.
+clear ;;
+
+.users )	# View and edit what users are in your conference list.
+clear 
+who -w | grep "+"
+echo 
+echo "User Assignments"
+echo
+q=$(( 1 )) 
+while [ $q != $maxterm ]
+do
+echo "User $q: ${user[$q]}"
+q=$(( 1 + $q ))
+done
+echo
+echo "Edit which user? 1 - $maxtrm, RETURN for no change."
+read q 
+while [ $q != "3210" ] 
+do
+echo "Enter username for User $q.  If you are cutting User$q out of the conference,"
+echo "place a period '.'  Optionaly, you can place a colon ':' followed by"
+echo "their terminal path.  You must use this method if they are logged on"
+echo "more than once."
+read user[$q]
+termpath[$q]="$(who -w | grep "+" |  grep ${user[$q]} | cut -b$termstart-$termend | cut -f1 -d' ')" 
+if [ $(echo ${user[$q]}| cut -b1) = ":" ]
+then
+termpath[$q]="$(echo ${user[$q]} | cut -b2-)"
+user[$q]="$(who -w | grep "+" | grep ${termpath[$q]} | cut -b-8 | cut -f1 -d' ')"
+fi
+uzer=${user[$q]}
+if [ ${#uzer} = 1 ]
+then
+termpath[$q]="null"
+fi 
+echo "user $q changed."
+q=$(( 3210 ))
+done 
+clear
+echo "Back to chatting..." ;;
+
+
+.quit)		# Quits Ax-Talk
+break ;;
+*)		# Communicates with other Ax-Talks, and sends your chat 
+		# message out.
+q=$(( 1 ))
+while [ $q != $maxterm ]
+do
+uzer=${user[$q]}
+if [ ${#uzer} != 1 ]
+then
+if [ $(cat ~${user[$q]}/.ax-talk-status | cut -f1 -d' ') = "0" ]
+then
+user[$q]="."
+termpath[$q]="null"
+fi
+fi
+q=$(( 1+$q ))
+done
+
+
+q=$(( 1 ))
+while [ $q != $maxterm ]
+do
+echo "\n$LOGNAME: $comand" > /dev/${termpath[$q]}
+q=$(( 1+$q ))
+done ;;
+
+
+esac
+done		# End of main program loop.
+
+
+echo "0" > ~/.ax-talk-status	# Tells other Ax-Talks that you've quit.
+q=$(( 1 ))
+while [ $q != $maxterm ]	# Oh, yah.  The actual people might
+do				# want to know you quit, too...
+echo "\n$LOGNAME: has closed Ax-Talk." > /dev/${termpath[$q]}
+q=$(( 1+$q ))
+done
+echo "Closing Ax-Talk."                                                                                    
+
+<-------------------------CUT HERE(END)------------------------------>
+
+				-=- HIR 5 -=-
+			          ASMODIANS
+				  WORKBENCH
+
+RESEARCH PROJECTS:
+-----------------------------------------------------------------------------
+Topic:				Status:		Result:	
+
+Effect of Teardrop attack	Completed	Locks up HPC or other		
+vs. Windows CE 1.x				Device, have to
+						reboot/reset Hpc
+
+Effect of Bonk attack		Completed	No Aparent effect
+vs. Windows CE 1.x				
+
+Effect of WinNuke attack
+on Windows CE 1.x		Completed	WinCE Refuses the
+						connection.
+
+Effect of Newtear
+vs. Windows CE 1.x		Completed	If inactive connection
+						the hpc is un effected.
+						but opening up a telnet
+						or something will lock it
+						up.
+**************************************************************************
+* 	All tests performed on LINUX PPP connection,
+	which simulates internet connection.
+	
+	Sources for teardrop win nuke ...etc procured at
+	www.rootshell.com
+
+	Tests performed on Windows CE 1.0 on a 
+	Compaq PC Companion, w 2mb of ram.
+
+**************************************************************************
+
+Want an answer, send me an E-Mail!
+asmodianx@hotmail.com
+
+			|-|  |  R   5
+                   FUN WITH UNIX PART DEUX
+
+		Asmodians Guide to Securing LINUX
+		By /|smodian ><ius 
+
+**********************************************************
+	1.	Introduction
+	2.	Installation Stuff
+	3.	Permissions after u install
+	4.	Just Say no to root, using the right users
+	5.	Installing software the right way
+	6.	Disk Usage control with Quotas
+**********************************************************
+
+<* Part 1 *>
+Introduction
+
+	Linux is one of the most versatile UNIX type operating systems
+available.  It's also free, making it the choice of poor micro-sloth hating
+hackers everywhere.  So what's the big deal about securing Linux? Why do I
+need to worry about some dick reading my mail?  Is this really necessary? 
+	The answer to all those questions will be covered within this text. 
+
+*NOTE: This article already assumes you have user knowledge with
+UNIX/Linux. If not I suggest you either read some manuals or like read
+the users guide to LINUX.  You can get that from "http://sunsite.unc.edu/LDP" 
+	
+Or if you got 15$ to spare, get the dummies guide to UNIX. 
+
+
+<* Part 2* > 
+Installation
+
+	Setting up Linux is the trickiest thing you will ever run into.  I
+will not cover how to install Linux, but I will cover what distributions
+you should consider. There are 3 major distributions that you will
+encounter, although there are a lot of others. The three major
+distributions you will see are, DEBIAN,REDHAT, and SLACKWARE.  Of the
+three , DEBIAN is usually the most stable and SLACKWARE is close after
+Debian, with REDHAT hauling in dead last. 
+
+	I personally use Slackware v3.4, which contains a bug fix for one
+of the binaries.  For all intents an purposes, all examples will use the
+Second Extended File system or otherwise known as the EXT2 File system. I
+suggest you not use REDHAT because its installation process is some what
+messed up.  REDHAT does not support the UMSDOS filesystem for an install
+which detracts from its usefulness in other applications.  Keep in mind
+the UMSDOS install is TOO slow for running a full LINUX system, however it
+is good for a quick and dirty Linux installation. 
+
+
+Here is a small list of things to get and install for your Linux computer:
+
+o	Quota Support, and utilities <install from distribution>
+o	Network support <from Distribution>
+o	BSD TCPDUMP program, <http://www.sunsite.unc> great for 
+	WINNUKE detection scripts *see below for script
+o	programming stuff like GNU C & C++ .. perl.. etc
+	<from distribution>
+o	agetty <from distribution>
+o	Kernel Package <from distribution>
+o	Sudo, <prog to allow certain users root access to certain programs>
+
+Heres some items that make life easier:
+
+o	The mail reader PINE, which comes with the popular editor PICO. 
+o	X Windows <from Distribution>
+
+
+< * Part 3 * > 
+Permissions after u install
+
+(stuff to run first)
+	After you install make sure to log in as root, and change roots
+password.  After that make sure you run sudo, and su.  You need to do that
+because it will set up the correct permissions on the log files.  NEVER
+LET A USER RUN THOSE PROGRAMS FIRST, ROOT MUST DO IT!  A user can clobber
+<erase> the su and sudo logs if they run the program first. This is
+because when it makes the log file it will still be owned root, but if the
+user has his umask set to 0, the logs will be mode 666 (world writability
+in logs is NOT K-Rad). 
+
+(Device Permissions) 
+	If you install sound support into the Kernel, any user can record
+sounds from the microphone.  Which is kind of a bummer because its not
+just a data security breech, its a physical breech too. 
+
+(control access to devices and data with groups)
+	You can control access to sound or a certain drive or partition by
+altering the group permissions to make only a certain group that can
+access the desired resource. 
+
+(lock up your Dos and windows files)
+	If you want to access your old DOS and windows files and or drives
+mount the drives if any using the UMSDOS file system.  It is slow, and it
+only supports 8 character but you can control permissions much better. 
+
+(XWINDOWS PERMISSIONS PROBLEM)  
+	Xwindows will happily cough out roots encrypted password if told
+to fetch the password list via the "alternate init script switch" feature
+on startx. change it so only root or some other protected account can
+access the startx, xinit and possibly the xdm programs..
+
+<* part 4 * > 
+Just Say no to ROOT, Using the right users
+
+	Your first impulse will be to use the all powerful root account to
+do everything.  Well don't... Root is the first thing people go after to
+compromise your security.  We want to cut root off for people who fish for
+passwords, weather by telnet or a dial- up that you may have.  There's a
+file called "/etc/login.access", inside there are some brief instructions
+on how to restrict certain users and groups from logging in remotely. 
+This will stop most hacks.  Although users can still get ROOT like powers
+from buggy utilities and such.  But I wont go into detail about what you
+should fix.  Instead I suggest you get on the bugtraq mailing list.
+Another good mailing list to be on is the one at <www.rootshell.com>. 
+They will email you security bulletins as soon a s they are reported, as
+well as fixes. 
+	
+<* part 5 *>
+INSTALLING SOFTWARE THE RIGHT WAY
+
+	When you are root, one of the main reasons to be root is to
+install new software, BE CAREFUL, only get software from trusted sources,
+such as the dealers own web page.  NEVER EVER INSTALL SOFTWARE GIVEN TO
+YOU FROM A USER, find out where to get it or make sure it has source
+code, and go over it well!! 
+
+(all TARed up) 
+	When using tar, be sure to check the permissions on the files as
+well as ownership. change it to be owned by a secure account after you've
+verified the content of the package.  Tar will some times allow for files
+installed to be owned by another UID <user ID number> than your own, that
+originated on another system.  This will cause havoc because suddenly some
+random user has rights to that new widget you just compiled, not to
+mention the persons quotas will be wrecked.  <SEE QUOTAS BELOW>
+
+<* PART 6 *>
+Control disk usage with quotas
+
+	Quotas so far only works with the ext2 file system < which is the
+most advanced file system available for use with Linux.> A person will
+also want to consult the MINI-HOWTO regarding installation of quotas. 
+Installation requires a kernel with quotas support and support for the
+ext2 file system.  All you need to do is read the mini HOWTO <the howtos
+are included in most distributions of Linux <at least Slackware does.>
+	From there on you just need to run "edquota" when ever you want to
+alter a users file usage limits.  You can control multiple file systems
+just by attaching all the file systems to the root directory, or
+individually, a device at a time, each with its own quota settings. 
+again, be sure to control access to the quota files and utilities. 
+	One note, some versions of quota, will ignore UID's <user id
+numbers> and in some cases, login names above 65535.  Just the writer 
+forgot to make a variable big enough.  So users with a high UID or a
+login name of "65536" or higher can avoid quota control. When making new 
+users, keep that fact in mind. 
+
+<EOF AGSL>
+
+<ADDENDUM 1>
+
+#!/bin/bash
+
+#NUKE DETECTION SCRIPT
+#****************!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+#This script works best for a stand alone Linux system
+#that IS NOT connected to a WINDOWS 9x computer TCP/ip network .
+#you will get a huge log of WIN 95 trafuck.  But a PPP connection should 
+#not have any win crap.  Thus what ever win shit you get 
+#should be a WINNUKE.. complete with return address :>
+#
+#RETURN TO SENDER BITCH!
+#***********************************************************
+
+#either pipe the output to a terminal, or a file or use "cut" or "awk" and 
+#just have it crank out the senders IP address 
+
+TCPDUMP |grep "wins">> /var/logs/nuke.log
+#<EOF>
+HiR5 Informative Resources
+          by
+Asmodian X and Axon
+From now on, every issue or two, we'll be throwing in some truly wonderful
+resources to get information.  Axon and Asmodian X will work on this section.
+
+Our goal is simple: tell you guys what all is out there to get really awesome
+info.  We'll include book references, internet URL's, and all sorts of other
+resources.  Some of them can be used to find stuff out about other things
+besides computers ad telephones and the like.  Here we go!
+
+To find information on books, magazines, etc...
+
+     Johnson County (Kansas) Public library resources:
+
+        Web Based Stuff:
+
+          o Search for books by Subject/Author/Title/Call Number:
+               http://jclnt2.jcl.lib.ks.us:8088
+          o Search for magazine articles (Lots of full-text articles online!)  
+               http://www.searchbank.com/searchbank/jcl_cen
+                 1. Click on "Proceed" button.
+                 2. Click on "Gen'l Reference Ctr Gold" link.
+                 3. Use a subject or keyword search.
+               This will get a lot of info, and get it fast.  Sometimes it's
+               almost as handy as "grepping" a 10-year-old pile of magazines.
+
+        Terminal Based Stuff:
+
+          o You can get the exact same information above through a telnet
+            session if you like.  I prefer this method.  If you use netscape
+            or IE, type:
+               telnet://jclnt2.jcl.lib.ks.us:5655
+            If you use unix, type:
+               telnet jclnt2.jcl.lib.ks.us 5655
+            If you use something else, try to get your telnet client to open
+            up jclnt2.jcl.lib.ks.us on port 5655 instead of port 23.  Just
+            the way it goes.  It's vt-100 and menu driven.  Supports the
+            "attached-to-ansi" printing, if your term program does...
+
+Web-Pages that are LOADED with information
+
+     Internet Request For Comments (RFC) Archive (And other fun info)
+
+          http://www.cis.ohio-state.edu/htbin/rfc/
+
+          This is THE source of information for those of you who like to
+          study protocols.  All sorts of other stuff is included in the
+          rfc's (such as certain standards, and technical explainations).
+          Overall, it's a bunch of information (mostly related to the 
+          Internet) that's been around for ages.  There are even a few
+          rfc's authored by Bob Metcalfe himself!  There are tons of
+          obsolete RFC's (Many RFC's contain a message at the beginning
+          that states "Obsoletes RFC 822".  Sometimes an RFC obsoletes
+          multiple other RFC's).  If you have good bandwidth, check out
+          the RFC Index (and if you have balls, print it!).  It contains
+          a basic list of what each RFC covers, the author, and the date 
+          of submission.  There are many places to find the RFC's, but
+          the url I gave (At Ohio State University) tends to stay current.
+          There are plenty of new RFC's each month usually.  Visit the 
+          site often.
+
+Mailing Lists
+
+     BUGTRAQ
+        Many hackers, software distributors, programmers, and just plain
+        psychos are subscribed to bugtraq.  In short, subscribing to
+        bugtraq will let you in on bugs and patches for various programs
+        and circumstances on almost any platform.  To get on:
+          o Send an e-mail from your account to listserv@netspace.org
+            Leave the subject of the e-mail blank, and in the message
+            body, include:
+
+            SUBSCRIBE BUGTRAQ <your name>
+
+     Rootshell
+        Rootshell is an entirely unix-focused security group.  They have
+        a website (with quite an archive) as well as a mailing list.
+        This is THE list to get on if you're into unix security and bugs.
+        To get on rootshell:
+          o Go to their website at www.rootshell.com for great files and
+            info (exploits/patches/texts).
+          o Get on their mailing list:  Send mail from your account to
+            majordomo@rootshell.com
+            Leave subject blank, and leave the following text in the body:
+
+            subscribe announce
+     
+Books, mags, etc.
+
+     Books!
+        UNIX For Dummies
+          (Unix)
+            This book is really what you want if you're just trying to get
+            used to unix.  If you look at it as an introduction to unix,
+            it's a lengthy one.  Goes into detail on quite a few things,
+            but if you're really not much of a unix dummy, take a look at
+            the next books.
+          o Author: John R. Levine & Margaret Levine Young
+          o Pages: 392
+          o ISBN: 0-7645-0130-5
+          o Publisher: IDG Books
+          o Publisher URL: http://www.idg.com (do a search for UNIX)
+          o Price: About $20
+          o Level: As long as you know how to get an account on a UNIX
+            machine, and nothing else, that's all that matters.
+
+        Learning the Korn Shell 
+        Learning the BASH Shell
+          (Unix)
+            Axon has a lot of interaction with the Korn Shell, since he 
+            spends a large portion of his time telnetted into an AIX box 
+            (which uses Korn for its default shell).  
+
+            If you want to really learn how to create some of the most
+            awe-inspiring scripts, this is the only way to go.  For you
+            who prefer linux, I would highly recommend Learning the BASH 
+            shell.  Both of these books are published by O'Reilly & Assoc-
+            iates, which produces some of the best computer-related books
+            around.  These guys don't produce "Dummies" books.  They're truly
+            hardcore, but not difficult to understand.  (Their team of tech-
+            nical writers must be phenomenal)
+
+          o Title: Learning the Korn Shell
+          o Author: Bill Rosenblatt
+          o Publisher: O'Reilly & Associates.
+          o Official book web URL: http://www.oreilly.com/catalog/korn/
+            (This page offers online purchase of book for about $30)
+          o ISBN 1-56592-054-6
+          o 363 pages.
+
+          o Title: Learning the BASH Shell, Second Edition
+          o Author: Cameron Newham & Bill Rosenblatt
+          o Publisher: O'Reilly & Associates.
+          o Official book web URL: http://www.oreilly.com/catalog/bash2/
+            (This page offers online purchase of the book for about $30)
+          o ISBN: 1-56592-374-2
+          o 336 Pages.
+
+          o Recommended: go to O'Reilly's page at www.oreilly.com to see
+            some of the best computer related books.
+          o Level: Should have some working knowledge of UNIX first.  This
+            book goes REALLY in-depth about shell scripts and various
+            commands.  If you are less advanced, look at O'Reilly's page under
+            UNIX.  Try "Learning the UNIX operating system".                      Credit Bureau Terminals
+                              by Axon
+What follows is the text off of a sheet of paper I found next 
+to a device that caught my eye while in a used car shop.  The 
+device appeared to be a keyboard at first, just sitting alone 
+on the desk.  After some quick analysis, I knew this was more
+than a normal keyboard.  On the back, it had a small array of
+ports.  The cord that I originally thought was the keyboard 
+cable actually was attached to a connector, very wide.  Oddly
+enough, the port was labeled "Printer".  I noticed 2 RJ-11 
+jacks on the back, as well, labeled "Wall" and "Phone".  This
+was without a doubt some sort of terminal keyboard.  I figured
+maybe it only used the printer for output, but that would be
+absurd.  I boldly approached it.  Taped to the counter was an
+old, tattered piece of paper.  Its contents have been captured
+in HiR 5 forever.  The keyboard had a low-res lcd screen.  
+There was a screen saver playing on it.  It was basically 
+advertising the dealership, moving around and changing font 
+sizes.  Pretty lame stuff.  I didn't try to play with the device.  
+If the instructions on the paper were for the device, I was 
+standing inches away from a credit bureau terminal, which could 
+give me anyone's credit record, if I had enough info on 'em.
+
+<-----begin text on paper----->
+To run credit bureau
+make sure printer is online
+enter
+enter
+enter
+ADD Key
+Down arrow key
+enter
+individual or joint
+enter enter
+last, first, middle init.
+enter
+ssn
+enter
+enter
+(repeat if joint application)
+house # street name
+enter
+city,st,zip
+former house# street name
+former city, st, zip
+enter
+f8
+listen for dialtone
+<------End text on paper------>
+
+Naturally, I would need all of the above info on a person just to
+get their records.  That's a lot of stuff.  After researching the
+topic of credit checks, I realized that the terminal must have
+quite a bit of information about the dealership and their credit
+agent.  No where on the paper did it mention entering a merchant 
+ID number, or the initials of the credit checker, but that is
+mandatory information.  It must be sent, along with the other
+data, in order to receive the credit record information.
+.........,.........,.........,.........,.........,.........,.........,.......|
+[eqAhy3Hu79.Lt0ferW!zP6}  RSA Public Key Encryption  {3islX4bQheu%Lgp1Wfg;Gm2]
+                                 By Frogman
+
+'Tis time you all got a dose of crypto fer your own use.  With this little
+explination, you will get a quick understanding of how simple, yet how
+complex RSA (and with IDEA: PGP) is.
+
+So, this info comes to me from Bruce Bosworths' "Codes, Ciphers, and
+Computers.  An Introduction to Information Security." Copyright 1982
+ISBN 0-8104-45149-2
+Lib. O' Congress Z103.b58
+Dewey Decimal!!! 001.54'36
+
+If you can not find the book with that information, you're screwed.  With
+the big stink the govt. is putting out about crypto being too powerful, I
+felt it was time for an article about a cryptosystem published 15 years ago,
+and designed 20 years ago.  Ronald Rivest, Adi Shamir, and Len Adelman are
+the MIT dudes who wrote "A Method for Obtaining Digital Signatures and
+Public-Key Cyptosystems" in the MIT Technical Memo LCS/TM82, in April, 1977.
+Their combined lastname initials, R. S. A., are how the algorithm got its
+name.  I'll try to skip the plaintext, crytotext blahblahblah, because for
+now, I'm just giving you the algo.  I'm about up to my ears in stuff to do,
+and don't have the time to get much code churned out.  I'll just follow the
+book, and 'splain the algo, and give an example.
+
+The Math Bits:
+We're gonna need some algebra level math, but it's nothing that can't be
+done pretty easily with some programming work.
+
+Prime numbers are the heart of this whole thing!  For those who were asleep
+that day in math class, or each day for each level you took (I had this con-
+cept beat into my head every year from 4th grade division to 12th grade
+calculus) I'll explain.  You may know that division is multiplications tricky
+friend, and that it sometimes (read most of the time) will give you a frac-
+tion or decimal if your numbers don't divide evenly.  A prime number is one
+that can be divided by every number between itsself and one, and no number
+will give you a nice whole answer.
+
+The Greatest Common Divisor is the biggest number that you can divide two
+numbers by, and get a whole answer for both.
+
+Modular Arithmetic is a way of defining that we want the remainder of a pair
+of numbers.  Umm... b (mod a) = c would look like:
+ a / b == d, Remain c
+
+Now, We Start:
+
+Everyone needs three numbers to create a keyset for RSA.  Two must be prime,
+and for a higher level of security, the bigger they must be.  The third is
+a big number.  Pick it at random, though it is recommended to pick either 
+3 or 65536, because that part of the key is in the public key, and doesn't 
+really matter.  
+When you hear about 48-bit, 56-bit, and 64-bit+ encryption, you are hearing 
+about the number of 1s and 0s that are in the binary numbers the crypto 
+programs use (ie. pretty big).  Most systems use a 32-bit address to specify 
+the location of up to four gigs of RAM.  With a 48-bit number, you can 
+address 281,474,976,710,656 locations.  Yes, that is trillions.  And with 
+that many choices, one can find a good number of prime numbers.  Imagine 
+what you can do with a number in the range of a 128-bit number: 340,282,366,
+920,938,463,463,374,607,431,768,211,456 possibilities.  If you want a load of
+choices, w/ a 1000-bit code you got: 107150860718626732094842504906000181056
+14048117055336074437503883703510511249361224931983788156958581275946729175
+53146825187145285692314043598457757469857480393456777482309854210746050623
+71141877954182153046474983581941267398767559165543946077062914571196477686
+542167660429831652624386837205668069376!!!  Fuck it, my fingers are getting 
+sick of it... But it's a bitch of a long number, 302 digits, and I do not
+feel like double checking them either.
+
+To make a keyset we do the math.  The numbers used are labeled as follows:
+p1 = one of the <p>rimes
+p2 = the other
+e = the <e>xtra number 
+
+The public key is the easiest:
+Multiply your two prime numbers and find n.
+p1 * p2 = n
+The public key you give to your buddies is (e,n), though with PGP, your key
+is encrypted with RSA, and the encrypted key is used for IDEA encryption.
+Is know as a KEK, or a Key Encrypting Key.
+
+The secret key is found with:
+d = GCD((p1-1)*(p2-1))*((p1-1)*(p2-1))+1
+    ------------------------------------
+                      e
+
+
+(d,n) will be your secret key.
+
+Now we gotta check and see if the math and all was right (error correction
+rules!)
+Check and see if:
+1 = e * d (mod ((p1-1)*(p2-1)))
+
+Okay, so let's find out how to crypt everything:
+Use a number to represent every character in the message.  Hrm.. what set of
+numbers is an American standard, and is used alot internationally anyway??
+Could it be our old friend, the American Standard Code for Information 
+Interchange??  Gee, lets use a 6-bit number, and assign a character to each
+one, that gets rid of most of those odd chars... look at RFC1113 for the
+pofficial list.
+
+m = char number
+c = char number spit out after formula
+Take your number, use a public key and run it through the formula as such:
+c = m^e (mod n)
+Change all your numbers to letters, send the text to your 
+
+And to get back what you send, your friend would do the same thing, with
+their secret key:
+m = c^d (mod n)
+And change all the numbers back to letters, and read your plans for world
+domination, or the answers to that math quiz he's taking 6th hour, that you 
+took 2nd...
+
+So, with that basic intro to the algo, I'll end.  For another article, I'll
+give some refinements, and show some code.
+HiR Newz
+
+We've again changed our distro site URL (back to what it was before).  It
+took us a while to find out that over the christmas break, the httpd was
+taken down, and replaced with Lotus Notes (Domino) running on port 2500.
+the new url is:
+     http://students.jccc.net:2500/~axon2017/hir.html
+Our mirror site on The Man in Black's server (In New Mexico) is at:
+     http://azure.rcn.nmt.edu:2007/HiR/     (HiR is case sensitive)
+The mirror runs on port 2007 because of a firewall on almost all ports
+0-1024.  2007 is The Man in Black's Fave #, and it's above 1024.
+
+As you all know, Frogman is now writing articles for us!  <CHEER!>
+This issue, he wrote an article describing the general theory behind RSA 
+Cryptography.  In future articles, he may include some source code with
+some very small prime numbers (versus the extremely large ones currently
+used in today's technology (also, if he uses like 4 or 5 bit primes, he
+can't get in any trouble with the government if it gets overseas.)
+
+Axon's Palmtop is officially his new primary system.  This may sound
+strange at first.  He still telnets out to his favorite unix systems
+to do a lot of stuff, but he purchased a PCMCIA Compact flash adapter
+and an 8 meg compact flash card.  He's found all the toys he really 
+needs (including a 186 emulator, with dos 6.22, so he can finally use
+pkzip to compress the magazine).  This issue of HiR was weeded of major
+spelling errors, gathered up, compressed, and uploaded entirely from
+his palmtop (All of Axon's articles were written on it, other members
+used anything from palmtops to Amigas to Linux to do their writing.)
+
+Tentative Release Date for HiR 6: July 1, 1998
+Upcoming articles for HiR 6: 
+Cellular Fun 1 (Programming Motorolas) 
+Amassing Info with FTP Search engines
+Mobile Hacking Part 2

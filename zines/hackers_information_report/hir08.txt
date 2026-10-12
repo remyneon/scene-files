@@ -1,0 +1,965 @@
+                              March 01, 1999
+                                        _
+                       /     / | o |\  ( )     \
+                      <      |-|   |/   X       >
+                       \     \ | | |\  (_)     /
+
+       The First HiR Issue of the last year of the Millenium! 
+                 
+->)(<->)(<->)(<->)(<->)(<->)(<->)(<->)(<->)(<->)(<->)(<->)(<->)(<->)(<->)(<-
+
+We're sorry for taking so long getting our issues out lately.  We're all
+bogged down with a lot of other work right now, and we at least have some
+stuff to show for it.  Our main website (http://axon.jccc.net/hir) is
+where to get HiR.  our old url (hir.home.ml.org) is down for good, as 
+ml.org is kind of broken (out of business), and we have www.hir.cx
+registered.  It may work in the future.  It should be a lot like our
+ml.org address, being on the same machine as axon.jccc.net.
+
+Speaking of webpages, Asmodian and Axon did a MAJOR revamp on the HiR
+Distro site since the last Issue.  Content is almost identical, but the
+navigation is a lot better.  We're adding more and more files (but still a
+fairly selective blend).  We've separated files into Windows and
+UNIX/Linux, and ... well, just check out the site <REPETITION>the URL is
+http://axon.jccc.net/hir</REPETITION>.  heh.
+
+We're really going to let the Zine come out whenever it's ready now (sort
+of like phrack, etc).  We'll post how the next Issue is coming along in
+the very front page of the Distro site, but never be bashful if things
+haven't changed... you never know what lurks around on the site, as it
+gets updates quite often...
+
+->)(<->)(<->)(<->)(<->)(<->)(<->)(<->)(<->)(<->)(<->)(<->)(<->)(<->)(<->)(<-
+
+HiR is an electronic publication that is written by real hackers and phone
+phreaks that have the desire to share information.  We only publish articles
+related to hacking and phreaking.  We don't cover viruses, stealing, carding,
+or blowing things up.
+
+As a general rule, we don't do many walk-thru's; occasionally we might, 
+but we almost always focus more on explaining a given aspect in enough 
+depth to help the reader understand why things happen.  With that 
+information, they may learn for themselves and discover many other 
+things related to the article.  
+
+->)(<->)(<->)(<->)(<->)(<->)(<->)(<->)(<->)(<->)(<->)(<->)(<->)(<->)(<->)(<-
+
+We are always looking for new writers.  If you are (or were) in the H/P
+scene, and consider yourself a decent writer, send us some of your work.
+Our e-mail is h_i_r@hotmail.com or hir@axon.jccc.net.
+
+->)(<->)(<->)(<->)(<->)(<->)(<->)(<->)(<->)(<->)(<->)(<->)(<->)(<->)(<->)(<-
+                          Current Staff for HiR:
+
+* Axon         (Editor, Official Site Webmaster, Writer)    Axon@compfind.com
+* Asmodian X   (Writer, Editorials, Linux Psycho)       asmodianx@hotmail.com
+* Frogman      (Writer, Amiga Feind)                     Frogman@compfind.com
+* The Man in Black (Mirror site webmaster)      The.Man.in.Black@compfind.com 
+
+->)(<->)(<->)(<->)(<->)(<->)(<->)(<->)(<->)(<->)(<->)(<->)(<->)(<->)(<->)(<-
+You can find us at the following places (that we know of):
+
+Official HiR Distro Site:                            http://axon.jccc.net/hir
+Official HiR Distro Site Virtual Domain URL:           http://hir.home.ml.org 
+Official Southwestern U.S. Mirror site:     http://azure.rcn.nmt.edu:2007/HiR
+
+->)(<->)(<->)(<->)(<->)(<->)(<->)(<->)(<->)(<->)(<->)(<->)(<->)(<->)(<->)(<-
+
+                            HiR 8 Article list
+Num   Article Title                                           Writer
+---- ------------------------------------------------------- ----------------
+ 1   Introduction/Table of Contentz                          HiR Crew
+ 2   HiR 7 Informative Resources                             HiR Crew
+ 3   Asmodian's Workbench: Windows CE - Linux Connections    Asmodian X
+ 4   CD-Recordable tips and tricks                           Asmodian X
+ 5   Data Externalization in the Eyes of a Hacker            Frogman
+ 6   Defcon 7 Pre-planning (We should be there!)             Asmodian X
+ 7   Advanced Disks of Death: CD-Roms and Linux Floppies     Axon
+ 8   How To Make a "Hard Drive Clock"                        Axon
+ 9   Packet Sniffing For The Novice User                     Axon
+10   HiR Hacker Newz                                         HiR Crew
+HiR 8 Informative Resources:
+
+Web sites that carry a lot of cool information:
+
+_________________________________________________________________________
+o Overclocker's WorkBench: 	http://overclocking.webking.com
+
+This site contains a lot of information about how to overclock many types
+of motherboards and processors.  It also has a hilarious page on building
+a water-cooling system for Socket 7 processors, out of the heat sink from
+the CPU Fan.  I guess it would work, but it'd take a lot of balls.
+
+_________________________________________________________________________
+o newOrder			http://neworder.box.sk
+
+NewOrder is a hacker site with loads of great information, files and other
+stuff.  They Do have some information on Carding and Virii, which we don't
+really condone, but overall, it's a great little place.
+
+_________________________________________________________________________
+o Overview of media technology
+		   http://www.sel.sony.com/SEL/rmeg/mediatech/overview.html
+
+This page contains some explanatory info on how different media operates
+(magnetic, CD-Rom, and CD-Recordable).  It leaves out CD-Re-writeable,
+which I'm mildly interested in, but all in all, the info is short and to
+the point.  too bad it all ends up being a media fair for Sony.
+
+_________________________________________________________________________
+o CD Standards         http://www.km.philips.com/laseroptics/sdt_001.htm
+
+While it doesn't contain a whole lot of data of it's own, it shows what
+different "books" each standard for CD-Style storage is in.  (CD-Rom,
+photodisk, DVD, etc)
+
+_________________________________________________________________________
+o DefCon 7.0					  http://www.defcon.org
+
+This is the definitive guide to all things DefCon.  Ride share page links,
+graphical Defcon Web page logos (Axon has one in there!), and lists of
+speakers and events are all online.  The Hotel info is also there (and I
+think they're taking reservations!)
+-=-=-
+Asmodians Work Bench, 
+HIR 8
+By, Asmodian X
+-=-=-
+
+New Windows CE PDA wanna-be's released
+
+	As you may be well aware of, 3-com's palm piolets have been
+growing in a niche market of quasi HPC's.  In a brash effort to quell
+3com's success, microsloth developed an version of Windows CE 
+ that adapts the windows CE environment to a PalmPiolet type of PDA. 
+Complete with virtual keyboard and all that jazz.  The two models I have
+seen are the Cassiopeia, and the Phillips Nino.  The Nino has some neat
+features like some rechargeable battery's and stuff, but the Cassiopeia has
+a larger screen. 
+	An advantage of course that the windows PDA implementation is that
+There are a wider assortment of applications available for windows CE. 
+Most of the newer CE PDA's also have sound recording capability's. The
+disadvantages so far is the processors.  Phillips and a few other
+company's are big with the MIPS chipset, where every one else is using a
+HITACHI SH3 Processor.  So when developing software, a person would have
+to make it for both platforms. 
+	Another issue is that I don't care for Microsloths statement about
+"expanding windows ce's communications capability's"  Where in actuality
+the PDA versions lack any PCMCIA slots, or built in modems.  About all the
+PDA version of windows CE good for is just keeping track of phone numbers
+and stuff. If thats All i wanted Id just buy a 10$ PDA and it would be
+over with!  Not to mention there's no browsing capability's or storage
+utility's at all.  All you can add to most of these half ass palm-tops is
+flash ram.
+
+-=-=-=-=-=-=--=-
+Windows CE 1.x Compaq PC companion/Cassiopeia Connectivity Note:
+-=-=-=-=-=-=-=-
+
+I have found that my Wince 1.0 device has some problems disconnecting from
+Linux after 3 minutes.  The problem seems to come from the curious fact
+Linux by default sends LCP ping packets, for some reason, windows CE
+doesn't reply to linux's satisfaction.  This string has worked for me so
+far.  Although on some of the older UART chips it has given me some flaky
+responses.  It helps to have a 16550 Uart.  
+
+pppd /dev/ttyS0 38400 crtscts noauth passive local lcp-echo-interval 0
+
+The first part is the usual port set up. "/dev/ttyS0 38400" being the port
+and the speed.  "crtscts" being the error control, and "noauth" tells
+Linux to not check for a password.  "passive" tells Linux to just sit
+there and wait for a connection.  "local" tells Linux to treat the
+connection like it was on a plain local serial cable.  the
+"lcp-echo-interval 0" tells Linux to never send ping packets to see if the
+connection is still there.  I've tried this with Debian Linux 2.0 with
+favorable results.
+
+As far as I know this is primarily a problem with some of the older
+windows CE devices.  This may apply to other brands other than Casio and
+Compaq.
+
+-=-=-=-=-=-=-
+Hitachi SH3 fun
+-=-=-=-=-=-=-
+The Hitachi corporation, who manufactures the SH series of RISC processors
+kindly displays all the specs <and I do mean all of the specs> at their
+web site at http://www.hitachi.com .  My self and Axon printed them in
+entirety.  Axon has had more experience with Assembly programming that I
+have, and accordingly he said the processor worked amazingly like its
+Intel cousins.  We both surmised that that fact alone is why there could
+be an 8086 emulator written for it so fast.  
+
+Curiously, the newest version of the GNU compiler supports the SH3
+processor, but only in ELF binary format.  Roughly, that means that a
+person could port Linux to the hpc.. although the question of booting into
+Linux from windows CE still looms.  There are several compact Linux
+distributions that will be designed to fit on palm-top computers and
+utilize its true power.  Originally It seemed that the ELKS project would
+work out, however they sound like they are only working with the Intel
+processors.  Right now there is no SH3 Porting project, but keep your
+eyes peeled.
+ -=-=-=-=-
+
+<eof>
+HiR 8
+Asmodians Burning thoughts about Cd-Writables
+
+	My palms itched, my loins ached, I had known of its existence for
+a while, and I planed my attack.  I waited and waited, and It was about
+the right time.  Then, in a whirl of events I came into the possession of a
+CD writer for under 100 dollars.  Yes, now I own a Phillips CDD-2600e,
+capable of writing at a blazing 2x.  Axon scrambled up a SCSI card for me
+out of one of his piles of Miscelanious cards.. And i forked over a pretty
+penny for the cables I needed.  So now comes my review article on
+the smoldering subject of CD-Burning.
+	I got interested in the art of Cd burning after axon roasted a
+CD-OF-DEATH for me.  And later we piled on a few Miscelanious MP3's on
+another CD.  "How neat!", I thought, "I could finally make some half way
+decent back ups of my system." The CD's them selves held around 650
+Megabytes of information, and only cost around 2$ a piece.  Not to mention
+most CD-ROM readers will read the media. The disadvantage is the speed and
+the reliability of the burn.  A person could easily go through 2 or more
+CD's on a failed Burn.  Copying CD's is even Weider, you have to worry
+about speed of the reader and the quality of the original, plus whatever
+the vendor threw in in the way of copy protection.  I ended up doing a 1x
+speed burn and set the format to 520-ish megs instead of the 650 MB
+format.  Another issue, at least for Linux users, is when your mastering
+CD's you have to have enough HD space to image the CD on, and to store
+the information you want to archive.. so at least 1.3 GB should suffice. 
+There are some Win 9x programs out there that I think actually encode the
+CD on the fly W/o needing to make the ISO file system first. 
+	The next problem you may encounter will be the media itself.
+Some brands require hotter burning temperatures than others, and
+consequently will not burn right.  Another factor is what speed the media
+is rated for.  Most media is rated for 4 speed or lower. There's no
+definitive dictionary on what works for what that I know of, so buy a 1
+pack and do a test burn, if it works good, keep buying it.  And of course
+the golden rule of electronics, you get what you pay for.  If its bargain
+basement from a brand you have never herd of, practice caution. 
+	Of course there's some fun stuff you can do with burning cd's. 
+Like the "cd of death" for instance.  There's some extensions in the
+iso9660 standard and a few other De-facto standards where you can boot
+directly off of a CD.  This of course requires a switch in the bios, but
+its a nice way to haul your desktop with you.  Linux could even be
+configured to load straight off of the cd and make a few ram drives to
+just mount stuff off of.  Then there's the autorun fun the axon has
+mentioned in his Windows 9x hacking article.  The autorun feature
+essentially loads the program that the autorun file points to when a cd is
+inserted into the cdrom.  Windows by default probes the cd-rom and sees
+the autorun, and execs the named utility or program.
+
+Brief History of cd-writable features and media:
+The two major company's that were influential with the cd-recordable
+standards were Sony, and Philips.  They coughed out the first couple of
+standards for cd-r's.
+
+CD Standards
+Name:				Topics:
+
+the Yellow book 		Physical Format of CD extended (CD-XA)
+
+The Orange Book 		Standards for CD-MO (magneto Optical)
+				drives, and CD-WO (Write Once) The
+				CD-recording standards
+
+The Red Book			(CD-DA) digital Audio Standard
+
+The Green Book			Interactive cd (CD-I) multimedia CD
+				standards
+
+The White Book			Video CD standards
+
+The Blue Book			Extended Music formats
+
+Of course We now now known how to write stuff onto the cd.  Now the
+question is which language to write all that stuff in.  Everyone knows
+that the file system that cd's usually use, is called iso9660.  But there
+were a few proprietary file systems that were used before the iso cranked
+out that standard.  
+
+file system(s)
+name:				developer:
+
+high sierra format		High Sierra Group
+HFS(Hierarchical File system)	Apple
+iso9660*			(international standard) iso
+Photo CD			Kodak
+
+the iso standard also has some extensions:
+NAME		Developer	Features
+
+Joliet		Microsoft	Uses Unicode character set. has 8.3 file
+				names align with windows long 64 character 
+				file names.
+
+Romeo		Microsoft	file names can be up to 128 characters
+				(no 8.3 file names)
+
+Rock ridge	?		Rock Ridge Inter-change Protocol.  This is
+				uses to further describe the files in the
+				iso9660 file system to a Unix host, and pro-
+       				vides information such as longer filenames, 
+				permissions, and block and character devices.
+
+Bootable CD	?		A bootable cd has an operating system set
+				up to boot off of the cd.  Some 
+				OS's will have a setup which will make a
+				ramdisk then populate the ramdisk with
+				utility's.  Where others will make the root
+				file system on the ramdisk and mount
+				everything else onto the ramdisk. 
+				Most pentium 100+ systems will support
+				this feature.  But some cd-roms will not.
+
+More Extend features:
+	Another neat feature of the newer extended cd-s is the capability
+to do Multi-session CD's.  Ie. adding information to a cd that has been
+already been burned once.  to do that, the burner places some re-direction
+information into the cd, then begins a new track of information.  When
+finished the person will be able to access all of the information (old
+and new.)
+
+	In summary, cd recordables are a handy device to have.  Its cheap
+to operate, works with a wide variety of cd readers, and it makes a handy
+2nd cd reader on a system.  But unfortunately its not stable enough to be
+considered for backup purposes.  So don't throw away your tape drive just
+yet!  
+
+If you have any Insights or just want to ask a question, fire me an e-mail
+at asmodianx@hotmail.com 
+
+
+
+Shout outs to:
+
+Phillips for inadvertently paying homage to 2600.
+Axon and the HIR crew
+and the letters X Y and Z
+-=-=-=-=-
+Data Externalization in the Eyes of a Hacker
+
+By Frogman
+
+
+
+	Winn Schwartau spoke at the Def Con 6.0 conference in Las Vegas 
+in the Summer of 1998.  He also wrote the ground breaking book 
+Information Warfare, the second edition of which was released in 1996.  
+In his book grew the unclassified world's view of Information Warfare 
+and the three class breakdown of types.  Class 1 is personal warfare.  
+Class 2 is corporate.  Class 3 is global.  In each of these is a 
+particular phenomenon known as data externalization.  What this means 
+is that we have reached the point where accumulated knowledge exists 
+in a larger volume outside of our collective human minds than in.  The 
+number of books, manuals, recordings and other media add up to more 
+data than our own brains holdings.  This is a very scary, albeit 
+necessary, consequence of our current proliferation of information 
+systems.  To the enterprising hacker this provides both a distinct 
+advantage and disadvantage.
+
+	Of the advantages, we can look at quite a few.  There are many 
+public and semi-public databases available for searching through 
+personal information.  This information is not exactly sensitive, but 
+can be used to steal an identity, aid guessing weak passwords, 
+compromise communication patterns, and a host of other, formerly more 
+difficult practices.  These databases can be grep'd and a nice precis 
+built.  Family history, employment records, legal records and other 
+types of data can also be found and compiled.  Using this information 
+in a Class 1 attack as a part of a larger Class 2 attack, a list of 
+corporate employees can be built.  This list can be expanded and 
+branched to give address, background, and personality profiles.  This 
+gives rise to identity theft, social engineering, and strait hacking.  
+The attacker can use the likely weak security held by a sub-
+contractor's employees to access the communication network to the 
+larger corporation.  This is essentially piggy-backing into the 
+firewall from the identity of a trusted host.  The advantages to 
+social engineering are obvious, calling into a company, and asking 
+questions that lead to known data, from what should be a blind start.  
+The hacker can also use this data to bug an employee's home, and 
+communications equipment.  A cellular phone can easily have it's ESN 
+copied, and with a scanner and filtering software, a tail can listen 
+in on cellular conversations.  A laptop with a cellular modem suffers 
+the same attack.  The tail may not be necessary, if the attacker can 
+plant a mole or maybe a filter in the computers of the company 
+servicing the phone.  This would also break several security methods 
+used in PCS.
+
+	Hopefully those advantages to the hacker are clear as to how an 
+unimportant Class 1 attack on an executive who works for Acme 
+Specialty Gaskets could be a role in the attack on Boeing and their 
+latest, greatest air superiority fighter, signaling the specter of a 
+Class 3 attack.
+
+	The disadvantages include an added ease for being tracked, the 
+looming prospect of beefed security, and competition.  In most major 
+computing systems there are auditing systems.  Records are kept and 
+examined.  The use of an unexpected auditing system can pose an 
+extreme threat to the anonymity of a hacker.  A passive sniffer, or 
+even an inductive sniffer can be used by the hacker for a distinct 
+advantage, but the security office can place these type of monitors on 
+their own lines and have an invisible eye on the communications 
+systems.  The ease in which a database can be broken into will quickly 
+spread across the underground, and thus the security level will 
+eventually be brought into shape.
+
+	These small insights are not the only prospects for a hack to 
+employ on their quest.  Those with malicious intent can easily bring 
+into fruition an underground TRW type of service for sale to the 
+highest bidding Info. Warrior.
+
+Hir 8
+By Asmodian X
+
+DefCon 7.0: Preparation for the Annual Exodus
+
+	<summary>
+
+	DefCon 6.0 Was held in Las Vegas Nevada august of 1998.  A few
+months earlier, my self Axon and Frogman had planed to come.  Axon and
+Frogman had actually done more planning than I did at that point.  I was
+however still early enough to reserve a room and procure a cheap direct
+plane to Las Vegas Nevada with days to spare.  As I always say, "Never
+Underestimate the power of the last minute."  
+
+	<Objectives>
+
+	As always, it could have gone smoother.  I should have came in
+closer to the actual days of the conference.  I also should have prepared
+better for the events.  Not to mention for room-mates, food ..etc....
+	At DefCon 7.0 I plan to be better equip for the main event, and 
+to compensate for problems that may arise.
+
+	<Information on con>
+
+	DEF CON 7.0 will be July 9-11th, 1999, in Las Vegas, Nevada USA. 
+The con will be held at the Alexis Park Hotel and Resort. Updates on the
+progress of the con will be posted at http://www.defcon.org.  As always,
+The early bird gets the worm. 
+
+	<Steps Taken>
+
+	Some of the problems I ran into were purely biological.  When some
+ones diet changes, some times gastro-intestinal problems arise.  Im
+deffinitly bringing some Pepto with me.  Also, I don't care how cheap the
+food is, buy grocerys.  It is also very dry down there, and very hot. <Duh
+its kinda in the middle of a desert dude> When you go for a walk, drink
+often, and drink water, not beer. 
+	Another issue was maneuvering around the city.  Fortunately Axon and
+company had driven and I could bum a ride off of them.  But Taxi's are not
+cheap, consider going to get supply's en masse. 
+	In the way of cash, Don't use credit, just don't, use cash sparingly
+, travelers cheqs are a safe bet. You usually need 40$ just for the con. Id
+keep 15$ a day for food, keep 50$ for emergency travel cash, 60$ spending
+cash is another one.  Bring about 195$ in cash < maybe 40$ in cash and the
+rest in trailers cheqs> The rooms will cost about 79$ per night possibly
+250ish after taxes.  Then a person can get air fare for around 180ish,
+depending on location.  For the cheapest fare, check out www.cheapfare.com
+to get quotes and even buy the ticket online.  In the way of cash, Pull
+together 600 bucks.
+	In the way of a computer system to bring, Im hauling the new and
+improved AEGIS.ORG.  A 486SX 33 laptop with a 200 Mb HD 20 Mb of ram with
+an external cdrom, zip drive and of course all of the PCMCIA fixins. <ie. 
+NIC card ...etc> This Year AEGIS will hopefully join both Axons and
+Frogmans Laptops.  We will attempt to do a firewall with the laptops under
+one IP address and if there is an attack on the Firewall system, we will
+just INIT into a new configuration where each laptop has its own IP on the
+hacker subnet in the Capture the flag contest. (Divide and conquer) <the
+contest costs 2$ to enter and get an IP>  I will attempt to master a few
+cd's with enough pre-compiled hacks and scripts, not to mention tools,
+toys and utility's to be able to whoop some major arse.  This next
+conference we will also utilize the secured shell for checking e-mail.
+	I also Was concerned about leaving my equipment out un-attended
+whilst I check out a speaker or two.  I suppose If we set up a kind of
+storage locker for holding the equipment whilst we are away that would
+solve that problem.  It would have to be either collapse-able or something
+that could be carried onto the airplane as carry on luggage..
+
+	<conclusion>
+
+	Hopefully with more planning we will be able to actually 
+utilize our time better so that we can get more out of the con.  And
+perhaps tack down a few servers while were at it :)
+
+(eof)
+
+HiR 8
+Advanced Disks of death
+
+----------------------------------------------------------------------------
+	So, you remember the good old "Disk of Death" from HiR 6?  Well, 
+it's time to move on to bigger and better things...
+
+	I've found that there might be a lot more stuff that you wish to
+have access to at any computer you can get your hands on.  I eventually
+found myself running around with a case of floppies, each with their own
+function; All of them were built around the "Disk of death" model: Each
+one was a small toolkit of resources.  Now, it's time to graduate...
+
+	I've graduated in two ways: The first way was the use of bootable
+CD-ROMs, that I Burned myself, which have my tools on them.  This is also
+accompanied by a boot floppy that is bootable and is full of cd-rom
+drivers (so that I can use the CD-ROM With ease when the machine won't
+allow CD-ROM Boot).  The CD-ROM has Autorun data (See HiR6-7.txt for
+information on CD-ROM insecurity with Windows 95) and all of my favorite
+dos and Windows tools, and a few linux tools as well.
+
+	"Linux utilities, eh?" you may be asking.  And it's a valid
+question.  The other way I've advanced my Disk of Death useage is by using
+Linux Disks of Death.  There are several distributions of linux that are
+geared specifically toward Floppy disks; to where you can boot an entire
+linux system using only floppies.  Most of these distributions are
+hand-crafted specifically for networking, instead of data-tampering with
+the local hard drives and filesystems.  Almost all Floppy Linux
+Distributions are distributed in IMG (image file) format, and most of them
+will allow you to use the typical RAWRITE.EXE routine in DOS/Windows or
+dd/cat in unix to create floppies from the image files.  Recently, Axon
+and one of his Co-Workers came across a few Floppy Linuxes that were
+hand-crafted to mess with NTFS volumes; changing data around, scrubbing 
+the SAM database (Accounts and Shared Resource properties are stored
+here), and other evil stuff.
+
+
+Linux on a Floppy, LOAF (http://www.ecks.org/loaf/):
+----------------------------------------------------
+
+	If you haven't had much linux experience yet, but kind of know
+what you're doing, the easiest to use is a distribution known as "Linux on
+a floppy", or "LOAF".  LOAF fits on a single floppy disk, and has separate
+kernels, depending on what network card the machine is using.  Once you
+start, you are given a straight linux prompt.  LOAF 1.1 is using ASH (A
+Shell) for the shell.  It's VERY bare-bones, but it works.  LOAF 1.2 is
+out, but I have not had time to play with it.  IRC'ing with the LOAF
+Author, it sounds more feature rich, and he has intentions to turn it into
+a potential multiple-floppy distribution, naming the advanced supplemental
+disks after popular sandwich elements.  I don't know if this will ever
+happen, but he was thinking about it.  Main things that you can do in LOAF
+1.1: Lynx is used for ftp and http; telnet is used to connect to other
+linux/unix/internetworked machines.  A few games are included. I believe
+loaf 1.2 replaced the games with an ssh client for encrypted connections.
+LOAF 1.1 is not at all easy to customize.  It's best to leave it as-is.
+
+Loaf requires the machine to have about 6 megs of ram.
+
+Trinux: Linux Security Toolkit (http://www.trinux.org):
+-------------------------------------------------------
+
+	My personal favorite floppy linux distribution (currently) is
+Trinux: the Linux Security Toolkit.  Trinux is a bare minimum of 2
+floppies (but I have a Third one full of kernel modules for extended
+hardware support).  Trinux allocates Six Virtual Consoles, and BASH is
+used for the shell (VERY Nice).  Trinux Classic is made specifically for
+network monitoring, mapping, exploration and exploit testing.  A few
+Sniffers and traffic monitors are contained within, and several evil
+denial of service TCP/IP attacks are in there, as well as some network
+mapping/exploration stuff, too. Lynx is not included, but telnet and FTP
+are.
+
+	Trinux is so easily customizeable that one could add lynx without
+much of a problem.  There is the possibility to use an almost unlimited
+number of floppies.  The packages are stored as tarballs on DOS formatted
+floppies, and loaded into ramdisks upon unpacking.  Network setup is
+simple, and the documentation on thier website is thorough.  One major
+advantage to this distribution is the fact that it can be started up on a
+machine somewhere and never messed with again.  It allows the user to
+telnet or ftp in (as root), which is the only default user in /etc/passwd,
+which is fine (most of the programs do raw tcp/ip packets, or other stuff
+that requires root anyways).  Don't worry about the "Insecurity" of
+logging in as root.  (Unless you're on crack and put them there), there
+are no data files that could be irreparably corrupted, and nothing more
+than some man pages, libraries, and binaries in the Trunix filesystem.
+Trinux runs out of ramdisk, so if it gets messed up, put the boot floppy
+back in, restart the computer, and load the second floppy, and you're back
+in business again.
+
+	There are other packages to trinux as well.  Instead of inserting
+a data disk for Monitoring,  Mapping, and exploit testing, you could use a
+data disk with a webserver on it, or a data disk with tools to mislead
+system crackers into attacking trinux machines (using the deception
+toolkit, which makes a machine LOOK *REALLY* Vulnerable, when it's
+actually very secure.  It answers on a lot of ports, and reports version
+numbers of services with known vulnerabilities, and acts like the service
+normally would, and even emulates the exploit working, but it doesn't.
+The sysadmins will know someone's having fun, though, and have time to
+lock down the REAL systems.)  This is guaranteed to keep those little guys
+busy for a while, since it's basically the host of their dreams: It's on
+YOUR network, and it has so many vulnerabilities, they KNOW they have to
+be able to get in!  (But they wont...)
+
+Check out their website for more info.
+
+Trinux Requires the computer you use to have around 12 megs of ram, and
+the more, the merrier.
+
+Trinux also has a Hard-Drive version that fits on a FAT hard drive, and
+can be loaded up with LoadLin (a DOS bootloader that will allow you to
+start in DOS and then boot a linux kernel, wiping out all the memory DOS
+used).
+
+
+
+HAL-91 Linux (http://home.sol.no/~okolaas/hal91.html):
+------------------------------------------------------
+
+HAL-91 is a 2-floppy set that is basically an advanced version of LOAF
+that has geared itself more towards a rescue disk.  It is still helpful,
+and has a lot of neat toys. It includes telnet, ping, pppd (to modem
+connect to the net), chroot (used for rescue work), fdisk, e2fsck (like
+scandisk), and some normal linux binaries for filesystem navigation and
+management.
+
+Requires a computer with 6-8 megs of RAM
+
+
+These are the only floppy linux distributions I've used so far.  Next
+issue I will try to write an article on the others (I know of at least 4
+or 5 more, but these seemed to be the best ones to be used as "Disks of
+Death")
+
+Axon's wacky Hard Drive Clock
+(Considered a hack by some, and insanity by others...)
+
+Okay.  I got REALLY bored one day at work when I figured this one out.
+I called it the "Hard Drive Clock".  It wasn't some strange clock that you
+put on your hard drive or anything.  It was a clock, made mostly out of
+hard drive parts and pieces.
+
+Things you'll need:
+
+A dead hard drive that doesn't work anymore
+Tools that can disassemble the hard drive without destruction
+A tube of cyanoacrillate (super glue)
+A Clock movement (with suitable length hands) from a hobby store.
+  (Make sure it's suitable for a 3/4 inch thick clock face)
+At least one 3.5" floppy disk that you don't want anymore (It'll get ruined)
+A pair of needle-nose pliers
+About an hour of your time for the first one, less time as you get better
+
+Steps:
+
+The hard drive you choose is crucial.  The first thing you will want to do
+is to look at the screws.  Get any tools you need to take the thing apart.
+After that, remove the circuit board from the bottom of the drive, usually
+this exposes the drive motor for the platters of the hard drive.  If the
+drive motor doesn't look like a separate piece of metal, then you might as
+well toss it or something, because it won't make a clock (at least this
+way).  If it looks like it's a separate piece of metal, then you're in
+luck.  Usually the screws are placed through the motor in such a way that
+you need the drive taken all the way apart before removing it.  Leave it
+in for now.
+
+Take off the top cover of the hard drive.  This usually takes a small
+star-shaped (torx) screwdriver, or (rarely) a phillips head.  Make sure
+you take off any of the stickers that were on the drive, and look for
+other screws there, too.  If the drive is equipped with such, savor every
+moment while destroying all of the "Warranty Void if broken" stickers.
+KEEP THE COVER INTACT! (We'll use it later)  
+
+When you get the hard drive open, there will be an arm (read/write heads),
+some circuitry (which I leave inside the drive, it makes the clock look
+cooler), and the platters.  You have to unscrew the screws near the center
+of the platters to take the platters off.  These screws are usually torx
+head screws, and are usuallt way too small for any normal torx bits you
+can buy at the average auto-parts or hardware store.  Sometimes electronic
+supply places will sell the bits, but I just use a REALLY high quality
+Phillips bit (one that comes to a really fine point, and isn't made of
+cheapo-o metal).  If you press down hard enough while turning, the bit
+will catch the torx notches (be careful not to scratch up the platters,
+they need to look nice for the clock).  You may want to have someon help
+you hold the platters still while you unscrew the screws, because the
+platters will rotate freely, making it a pain to take it apart.
+
+After you have the small round metal plate off from the top of the
+platters, they won't come off just yet.  You also need to take out the
+Read/Write heads.  With a knife or scissors, cut the ribbon cable that
+goes to the heads, close to where it meets the armature.  There will be a
+metal plate over the side of the armature farthest from the platters.
+This metal plate houses a set of very strong magnets that are fun to play
+with, but keep them away from monitors, hard drives, floppies or whatnot
+(unless you WANT to ruin them...heh heh).  Take the metal plate(s) off.
+They're held down by two screws, usually.  In the center of where the
+armature pivots, there should be a notch that a nice-sized standard
+screwdriver will fit.  It's like a bearing, but you can unscrew it like a
+normal screw. as you unscrew it and lift it up, pull the platters off at
+the same time so as to not scratch the platters from excessive force from
+the heads.
+
+Now, the screws that hold the drive motor should be in plain sight.
+Usually they are torx or phillips screws, very similar (or identical) to
+the ones that held the top cover on the hard drive.  Take the drive motor
+out after removing the screws.  There should be a hole at least half an
+inch in diameter, all the way through the base of the hard drive now
+(usually bigger, but it needs to be at least half an inch). This is the
+hole we will use to put the clock movement through.  
+
+At this point, we're ready to put the hard drive back together (in a
+totally different way, with loads of spare parts afterwards).  Start by
+super-gluing one platter back where it used to be, without the motor in
+place.  This will be our clock face.  Let it dry for a few minutes while
+you do the next step.
+
+Rip open the floppy disk.  Mangle it, destroy it, whatever.  All that we
+want is the little metal circle from the bottom center of the floppy.
+take off all the media (thin black plastic stuff) from the circle, and
+then make sure it won't fit through the hole in the hard drive platters.
+We will be using this to keep the clock movement in place.  If the hole in
+the platter is too big, use something else.  If the circle is big enough,
+take your needle-nose pliers, and open the small square in the center of
+it, so that it's big enough to barely fit the clock movement's shaft
+through.
+
+Use the needle nose pliers to GENTLY snap two of the arms off of the
+read/write armature.  Try to get as much of the arm as you can.  One of
+them will have to be shorter (it will be the hour hand, and the long one
+will be the minute hand).
+
+Take all the nuts off the clock movement's shaft, and then pass the clock
+movement's shaft through the hole in the back of the hard drive, and then
+line up the floppy disk circle.  Place the circle on the clock movement,
+and fasten it into place with the nuts that you removed.  Make sure it's a
+nice tight fit. 
+
+Usually, the clock movement ships with hands for the clock.  Take the
+minute hand, and superglue the long read-arm on to it.  Make sure that you
+glue it in in such a manner that it covers the tip of the hand, leaving a
+little room on the part of the hand closest to where it will pivot if you
+have to.  Do the same for the hour hand with the shorter read-arm.  Let
+the glue dry.
+
+After the glue has become dry, install the hands onto the clock movement
+(instructions for this part come with the clock movement, and it varies
+between manufacturers).  Make sure that the hands can rotate around the
+clock without catching each other (use the setting mechanism on the back
+of the movement to rotate the clock at least one hour's worth).  Adjust
+arms (bend 'em a bit) if necessary.
+
+Right now, you probably have a working hard drive clock.  I usually find
+some way to attach the top cover of the hard drive in a way so that it
+acts as a stand, to keep the clock upright.  Use your creativity.  Once
+you know how it will stand or hang, you may want to label the clock face
+(permanent marker DOES NOT WORK on most new hard drive platters.  It will
+bead on the surface like water on a waxed car.)  Use adhesive stickers or
+something else.  I prefer to leave the clock face blank.  I can still read
+the time that way, some people can't.  The clock I made for my parents was
+labeled in binary.  =]
+
+For a picture of the first prototype hard drive clock I made, see:
+http://axon.jccc.net/~axon/hdclock.jpg  There is also a link to the
+graphic from my homepage and the HiR site under "Links"
+                                 HiR 8
+-]]])))}}}>>> Packet Sniffing Techniques For The Novice User <<<{{{((([[[-
+                                 by Axon
+
+Ahh, the wonderful world of packet sniffing.  You may or may not have done
+this before...
+
+"Sniffing" is the process of putting your computer's network card into
+what's called "promiscuous mode".  It will read all packets that it sees
+(whereas normally it only reads the packets that have its address on it).
+After the card is placed in this mode, a sniffer will track packets
+(usually parsing the useful data out of the packet and writing it to a log
+file onto the hard disk).  This is a really good way of doing a few things
+on a network:
+
+	o Gathering traffic information, looking for lan stations that are
+	  abusing bandwidth.
+
+	o Actually looking at the data inside the packets to see what
+	  files people are downloading with FTP, watching telnet sessions,
+	  and even watching their usernames and passwords.
+
+	o Getting a general Idea of where most of the packets are coming
+	  from and going to, as a troubleshooting measure.
+
+There are sniffing programs for almost every platform.  My favorite
+platform is linux, as it is already my Operating System of choice, and  
+there are quite a few really easy to use sniffers for it.  These include:
+tcpdump, sniffit, iptraf, and linsniffer.  Those are what I use the most.
+My favorite floppy-linux distribution, Trinux, comes with sniffit, iptraf,
+and linsniffer.  Almost every "big" linux distro (Red Hat, Debian,
+Caldera, etc) comes with tcpdump, although you might have to select a
+special option to have it installed automatically.
+
+Tcpdump is probably the hardest of the three to learn how to use.  It
+mostly dumps raw tcp packets out to standard output (or wherever you
+redirect it to).  It has other options, too, but overall, it's difficult
+to use for the beginner.  I'll focus more on the other two.
+
+Linsniffer is quite possiby the most evil of the sniffers I've mentioned.
+All it does is get passwords.  It looks for http passwords, telnet
+passwords, ftp passwords, and mail passwords.  It does a pretty good job,
+but really lacks an "ethical" use.  You can get linsniffer (or any of
+these sniffers) wherever you can find linux software (places like sunsite,
+which is now metalab.unc.edu).  All you do is run "linsniffer" as root.
+It will not display any output. Everything it finds will be placed in a
+file called "tcp.log" in the directory you were in when you started
+linsniffer.
+
+Sniffit is extremely cute.  It's harder to find passwords with it, but if
+your goal has nothing to do with you finding passwords, and more to do
+with watching who is connected to what, and maybe even watching the actual
+connection, this is for you.  With Sniffit, I have many times been
+successful in watching the exact telnet screen of people that are on my
+segment.  You can redirect the sniffed output to another virual console,
+and that console becomes the telnet screen of the person whom you are
+sniffing.  You see what they type, what they get back, you watch them read
+their e-mail with pine, as if their ghost was sitting there using your
+screen.
+
+Iptraf isn't really a "sniffer" by industry terms, but it still uses
+promiscuous mode to operate, Therefore I call it a "sniffer".  Iptraf will
+break down the traffic stream into chunks for you, so you can see exactly
+what kind of packets are being exchanged, how big they are, and where they
+are coming from and going to.  This proghram is not good for looking at
+the actual data inside the packet, but it's great for finding out who is
+hogging the bandwidth, and what they're hogging it with.
+
+As far as snifgfing on other platforms... For Windows 95 and 98 There is
+also a plugin for the ever-famous back-orifice program that does
+sniffing, called "Butt Sniffer".  There is also a non-plugin version that
+just runs in an MS-Dos window under Windows 95/98.  This is probably the
+best Windows 9x sniffer I've seen, and it's worth looking into.  It's
+available through www.cultdeadcow.com under the backorifice page
+somewhere.  Shoutouts to the author, Mudge (who kicked ass at DefCon) =]
+ 
+------------------------------------------------------------------------------
+
+So, if it's so easy to just watch what's going on on the local network,
+there must be loads of people doing it, right?  Well, the paranoid would
+say so, but in actuality, there isn't probably a whole lot of it going on.
+I'm not saying that there isn't ANY.  So if there's even the possibility
+that it's there, how would one stay protected from the evils of
+sniffing?
+
+Well, the apostols (a spanish hacking group, if memory serves correctly)
+has a few really good products.  (One being QueSO, a remote tcp/ip
+fingerprinter for detecting what OS is being run on a remote machine),
+but the one we focus on here is "NEtwork Promiscuous Ethernet Detector"
+(or "neped").  It only runs on UNIX/Linux (that I know of.  It's not
+directly compileable on windows, but I'm not much of a programmer.  It
+might be easy to do).  I Wrote a small shell script that uses neped as a
+core to take action when promiscuous mode is detected.
+
+sniffdetect.sh is configureable and can run a shell script or a program
+once as soon as sniffing is detected, and will run another program or
+script as soon as it sees the sniffing has stopped.  It can be used to
+stop services on your system, e-mail an administrator, page someone, or
+even to shut down the machine (although I don't know why you would want
+to do such a thing).  I set it up to blast the IP and MAC address of the
+sniffing machine to my pager, and to tell me that sniffing has ceased when
+it stops detecting the runnuing sniffers (I wrote some paging software
+that sends out alpha pages to me from the command line to do this).  In
+theory, It's very possible to make something that will launch a
+counter-attack/Denial of Service against the sniffing machine, but I'm not
+really a believer in that method.  Here's my shell script.
+
+sniffdetect.sh:
+-------------begin-------------------------------------------------------
+#!/bin/sh
+## Cheap-ass promiscuous mode watcher/action-taker
+## Written by axon 
+##
+## Requires "NEtwork Promiscuous Ethernet Detector" (neped.c)
+## ftp://apostols.org/AposTools/snapshots/neped/neped.c
+##
+## This program must be run as root, or neped must be set-uid root.
+##
+#########################################################################
+##
+## Config Options!
+##
+######
+                        # Command or shell script that's run when promisc.
+promisccmd="promisc.sh" # mode card is found.  This might shut down a
+                        # service, or e-mail an administrator.  Up to you.
+                        # (you must write a promisc.sh script or change
+                        # this variable)
+
+                                # Command or shell script that's run when
+nopromisccmd="nopromisc.sh"     # promisc. mode ceases.  This might page
+                                # an administrator or restart a service.
+                                # (you must write a nopromisc.sh script or
+                                # change this variable)
+while true
+do
+while true
+do
+                                # Counts number of lines
+neped=`neped eth0 | wc -l`      # that are returned
+                                # by neped.
+
+if [ $neped -gt 8 ];then        # This runs the command of your
+$promisccmd                     # choice when promisc. mode
+break                           # is detected
+
+neped eth0|grep "*>" >> promisc.log  # appends output of neped to promisc.log
+
+fi
+done
+while true
+do
+                                # Counts number of lines
+neped=`neped eth0 | wc -l`      # that are returned
+                                # by neped.
+
+if [ $neped = 8 ];then          # This runs the command of your
+$nopromisccmd                   # choice when promisc. mode
+break                           # ceases
+fi
+done
+done
+----------------end sniffdetect.sh------------------------------------------
+
+I hope that this gives you the edge that you need.  This was in no way a
+very elaborate "sniffing how-to".  You can go anywhere to get that sort of
+information.  This was focused more on how it works, and what tools are
+used to do it, and how to protect yourself from the world of packet
+sniffers.
+
+HiR 8 - Hacker Newz						3-1-1999
+					      (Look! Y2K Compliant! ^^^^ )
+
+An editorial Comment:
+
+	Sorry for such a huge delay in issues... We still aren't dead,
+just hanging out.  This issue fell victim to many trials and tribulations,
+but we pulled it through.  We discovered that we can't release (reliably)
+every 2 months.  There's just not enough time in a day to think about
+ideas for the 'zine.  Most 'zines actually start to give up after the
+initial burst of ideas wears itself out and they are forced to gain more
+knowledge just so they can continue publication.  I'd like to say for as
+small as the HiR Crew is, the group has perservered rathr nicely and I
+couldn't have kept this 'zine alive by myself.  Asmo and Frogman, as
+writers and friends have kept things going, and our readers send us
+e-mail, keeping our spirits high.  We never really know if anyone is
+actually READING the zine (okay, we kind of do, as we have http access
+logs, and I'm sure HiR has been posted on other BBS's, websites, etc)
+unless we get mail from those who read our works.  Thanks for waiting it
+out till HiR 8, and we'll have HiR 9 out as soon as we have the material
+and writings gathered up (hopefully not 6 months down the road)
+
+	--The Axon
+
+__________________
+
+
+In other news...
+
+	Axon has started messing with various server-tuned OS's and (in
+collaboration with other writers), will be throwing together some
+comparitive articles between each Operating system.  Things included:
+Windows NT (Axon's forced to take an NT Class), Linux (maybe a few
+different Distributions of it), FreeBSD, and (Maybe) OpenBSD and NetBSD.
+We'll try to cover difficulty of installation, set-up, default security,
+and performance (All OS's will be installed on removeable hard drives in a
+Pentium 120 with 64 megs of ram, a machine that should be able to run just
+fine, but obviously will not be performing massive server tasks.)
+
+
+The HiR Crew is also working on some "Linux Inside" Stickers.  A .jpg of
+it will be available under the News page on the HiR Distro Site later.  We
+are coming up with StarOffice and MS Word document files that can be
+printed on Avery Address labels.  This project isn't complete yet, but
+it'll be fun when it's all finished!  The prototypes of these labels are
+already in use on several workstations, rack-mount linux servers, etc.
+
+

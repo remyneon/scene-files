@@ -1,0 +1,776 @@
+                            October 01, 1998
+                                       
+                              |_| | |) '~/
+                              | | | |\  /       
+
+                          Post-Defcon 6.0 Issue
+
+._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-.
+
+Two months ago, 3 HiR Members were thrilled to be a part of Defcon 6.0,
+one of the largest annual Computer Underground conventions held here in
+the U.S. Axon, Asmodian X, and Frogman all attended.  Each member has 
+written an article on the event, what they learned, and how they feel
+about Defcon. This was the fisrt underground convention for all three of
+them, so this should be interesting.  Read and find out, but don't be
+surprised if you read some things more than once...
+
+This issue was delayed by a month.  We aologize for any inconvenience this
+caused.  The delay was caused mostly by a change of jobs for Axon, and
+school starting up again for some of our other writers.  The job change
+brought a new server for the 'zine, however.  It's now running off of
+Axon's workstation, axon.jccc.net.  It's still under a directory.  I hope
+that the personal pages for HiR members will be located there in the near
+future.  Also, the URL we advertise, hir.home.ml.org, still takes you to
+the site, as promised.
+
+._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-.
+
+HiR is an electronic publication that is written by real hackers and phone
+phreaks that have the desire to share information.  We only publish articles
+related to hacking and phreaking.  We don't cover viruses, stealing, carding,
+or blowing things up.
+
+As a general rule, we don't do many walk-thru's; occasionally we might, 
+but we almost always focus more on explaining a given aspect in enough 
+depth to help the reader understand why things happen.  With that 
+information, they may learn for themselves and discover many other 
+things related to the article.  
+
+._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-.
+
+We are always looking for new writers.  If you are (or were) in the H/P
+scene, and consider yourself a decent writer, send us some of your work.
+Our e-mail is h_i_r@hotmail.com or hir@axon.jccc.net.
+
+._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-.
+                          Current Staff for HiR:
+
+* Axon         (Editor, Official Site Webmaster, Writer)    Axon@compfind.com
+* Asmodian X   (Writer, Editorials, Linux Psycho)       asmodianx@hotmail.com
+* Frogman      (Writer, Amiga Feind)                     Frogman@compfind.com
+* The Man in Black (Mirror site webmaster)      The.Man.in.Black@compfind.com 
+
+._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-.
+We changed servers again, this time to Axon's workstation 
+
+You can find us at the following places (that we know of):
+
+Official HiR Distro Site:                            http://axon.jccc.net/hir
+Official HiR Distro Site Virtual Domain URL:           http://hir.home.ml.org 
+Official Southwestern U.S. Mirror site:     http://azure.rcn.nmt.edu:2007/HiR
+
+._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-.
+
+                            HiR 7 Article list
+Num   Article Title                                           Writer
+---- ------------------------------------------------------- ----------------
+ 1   Introduction/Table of Contentz                          HiR Crew
+ 2   HiR 7 Informative Resources                             HiR Crew
+ 3   Mobile Haacking III                                     Asmodian X
+ 4   Asmodian's Workbench (Defcon, and other ramblings)      Asmodian X
+ 5   Axon's Defcon Experience                                Axon
+ 6   Cross-Platform Fun with VNC                             Axon
+ 7   How to not get (physically) noticed                     Frogman
+ 8   Making a 2 phone line adapter                           Frogman
+ 9   HiR Hacker Newz                                         HiR Crew
+                        HiR 7 Informative Resources
+
+This time around, we're going to hand out a few good news sites.  These
+are places whose contents are very dynamic, usually changing several times
+throughout the day (but don't worry, they all archive the past
+god-knows-how-many days.)  These are the places to keep your eye on if you
+want to stay on top of the latest updates and fun toys.  Here we go:
+
+Freshmeat (http://www.freshmeat.net)
+News and software for the Linux user. An awesome Linux news/software
+resource!
+
+Slashdot (http://www.slashdot.org)
+Another techie news site, info about Linux, Win9x, Everything
+else.   Pretty Humorous, usually.  Retains the Informative nature.
+
+Hacker News Network (http://hackernews.com)
+Hacker News Network posts information on the latest web-site hacks with
+lots of technical info.  It has info on Exploits and other fun stuff.  
+Looks like Slashdot with a dark twist.
+
+			Hir 7-3
+			Mobile Hacking part III
+			By Asmodian X
+
+As always, Mobile hacking is an enormous subject so i suggest you read
+up on Mobile Hacking parts one and two.  In this section I hope to cover 
+A bit more on devices, software and go over physical security a bit.
+
+Part 1
+Physical Security
+
+Well to put it simply, the company with the most cash has the best
+security.  So heres a general chart that deals with countermeasures on a
+per location basis.
+
+Location   | Rent-a-pigs | Company Cops | feds | Video Survalence | 
+----------------------------------------------------------------
+Retail
+strip mall    	yes             
+----------
+stand alone	yes		maybe			maybe (*recorded)
+retail
+----------
+small		yes		maybe			maybe (*recorded)
+business
+park
+----------
+warehouse 			yes			yes (CCD)
+----------
+corporate			yes			yes (ccd,recorded) 
+office
+----------
+Corporate			yes			yes (ccd,recorded)
+HQ			(big guys w. guns)
+----------
+Govt. office       			yes		yes, yes, yes
+(*Don't go near
+fed. offices*)
+
+	I can imagine you saying now, "Geez asmo, what are we talking
+about Burglary"  To that I would have to emphatically say NO!  The point
+here it to rummage through what they already don't care about. Ie the
+Garbage cans.  Yes, the entire point of this section is about trashing.
+Taking the saying, "another mans trash is another mans treasure," to
+heart.  You see our government has grown so entangled with laws and
+regulations, that it has become impossible for a company to just GIVE
+stuff away.  There's mountains of paper work to just GIVE stuff away,
+therefore its cheaper to pay Defenbaugh <or whatever trash service the
+company uses> to take everything away for you.. out of sigh out of mind
+right?  
+
+Well Generally, company's still care (*for some dumb reason or another*) 
+about their garbage.  A few company's even feel that it requires armed
+guards to keep those (*evil people*) out of their stuff . So thats the
+main intent of this article, how to avoid trouble when going through some
+one else's garbage.  Legally speaking, if all your doing is trashing, the
+most you will ever run into is tress-passing charges.  Which isn't really
+worth prosecuting so they just tell you never to come back. 
+
+In my table above, I listed some locations and in general terms what
+external security those locations would probably have.  Keep in mind that
+the more important the location, the better the defenses. 
+
+Rent-a-pigs: Privately owned security officers who's job is to
+patrol a large area and keep it free of disturbances.  They usually don't
+make a habit of hanging around the dumpsters.
+
+Company Cops: Security Officers who are hired for the specific purpose of
+patrolling a single company.  They are more common amongst larger
+installations, and are less privy to intruders.  Avoid these people.
+
+Feds: If your dealing with feds.. please format your drive now...
+if your that stupid...  We never met... Happy Nachos to you and say hi
+to Kevin Mitnick for us.
+
+Cameras: Well there's two uses for cameras, 1.) To look at after the fact
+and identify suspects. 2.) To watch everything from a central point and
+then direct your boys to hot spots.  Ie.. there's a bunch of kids
+trashing.. go get 'em J.D.
+
+If your going to go up against some security, don't just run in.  Do some
+planning..
+
+Part 2
+Mobile Electronics.
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Item		Attack platform|Server|dial-out|Term.	|
+TI-Calc*	no		no	 no	yes
+Old Laptop	no		no	 yes	yes
+Palmtop		yes		no	 yes	yes
+Laptop		yes		yes	 yes	yes
+Desktop		yes		yes	 yes	yes
+	
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+If you need gather information, chances are that you need to some kind of
+electronic device to access the net.  Well heres some more thoughts on
+mobile computing.
+
+To start off, id like to give honorable mention to the TI calculators.
+TI calculators have been one of the more popular requirements for
+algebra classes everywhere.  Because of this, there have been more
+programs and doo-dads made available for it than macintosh <not really but
+there's a lot of stuff for it.>  For instance, there is a terminal emulator
+program available for TI-8x series of calculator which turns the
+calculator into a dumb term, of course you would need the serial cable.
+Specs for the Serial cable can be found at HTTP://www.ticalc.org, you will
+also find a large software archive for the TI-8x series of calculators.
+
+It is not too hard to find a cheepo 286 lappie.  Just something with a
+screen, some ram, and form of storage media, and a floppy drive.
+A battery is always a plus, although you can always substitute a UPS.
+Typically this configuration provides an ideal dumb terminal <with some
+form of communications software like Telex > or a dial out if you can get
+ahold of a modem.
+
+If you have the cash, you might even consider an upper end PDA or Palmtop
+computer.  These handy devices are usually self contained with display
+keyboard and battery's, plus some internal storage.  The newer ones use an
+operating system called Microsoft Windows CE v. 1.x or 2.x.  And its
+pretty easy to find utility's for it at HTTP://www.hpc.net
+For more information on HPC's see some of my previous articles on HPC's at 
+HTTP://www.hir.home.ml.org/.   I consider Windows CE as an attack
+platform because Windows CE <both versions> have a TCP stack, and PPP
+dial-out capability's.  Not to mention it has a built in PCMCIA card slot,
+so you can use just about anything on it.  bare in mind that WIN CE 2.0 is
+the only version as of date that supports NIC(*Ethernet*), cards.
+
+Ahh, the laptop!  All the whole-grain goodness of a desktop crammed into 
+an itty bitty proprietary case.  Typically a full powered laptop has about 
+3 hours of un-plugged use before you need to re-charge the battery.  With
+a newer laptop, you will have dual PCMCIA card slots, complete with the
+usually Parallel and serial slots and maybe even an IR port and a USB port.
+Laptops make decent Servers and exelent attack platforms.  
+
+A desktop can run just about anything but simply lacks portability.  So it
+could be considered a Server or an Assault platform. In general, a person
+could hack with a plastic spork and a rubber ducky, but its probably
+easier if you stick to using something technological.
+
+Part 3
+Operating systems
+
+Now you got your Slash Bang 2000 486 laptop, now what do you run on it.
+
+PC (80x86 or pentium) Opperating Systems		
+Device		Dos	Win 3x	Win 9x	Win NT	Linux	BSD	 SCO
+---------------|-------|-------|-------|-------|-------|-------|------
+old Laptop	yes	maybe*	no	no	maybe*	maybe*	no
+newer Laptop	yes	yes	yes	maybe*	yes	yes	yes
+Desktop		yes	yes	yes	yes	yes	yes	yes
+------------------------------------------------------------------------------
+
+Please note the first four entry's are all made by Micro$loth(tm).  There
+are generic versions of Dos, like DR. Dos, Free DOS and a few others. 
+Free DOS is a GNU MS/PC 3.x DOS compatible OS, more information can be
+found at HTTP://www.freedos.org/.  The Latter 3 are Unix derivatives and
+are generally free, except SCO Unix. SCO Unix is a commercial
+implementation however there are free Non-commercial licenses available. 
+Linux and Free BSD are free, and covered under the GNU free software
+policy. 
+
+Free/PC/MS/DR DOS
+
+Plus:
+The version you might want to shoot for is MS-DOS 5.0 compatibility. 
+There are more dos productivity applications available than ANY OTHER
+OPPERATING SYSTEM.  Not to mention dos runs on ANY PC based computer.
+You can find dos drivers for DOS MUCH easier than with the Unixes.  They
+also have much better commercial support in general.
+ 
+cons::
+Dos is a Single user, Single processing operating system.  Any
+Multitasking is done on the application level.  Memory management is
+Horrid, if not non-existent.  Its a 8 bit operating system thats
+impossibly archaic. 
+
+Windows 3.x:
+plus:
+It utilizes the 386 instruction set and performs multitasking.  Has an
+*easy* to use GUI, and there are many applications available for it.  
+It runs on pretty much any 386 class CPU with a video adaptor.
+
+Cons:
+Runs on-top of dos... inherently unstable.  See DOS for rest of
+complaints.
+
+Windows 9x:
+plus:
+Every one uses it now.  much better memory management.  Does not rely on DOS
+to run.  network capability is much better than win 3x.  Much more stable
+than Win 3.x.  has multi user capability and some security features
+
+con:
+Every one uses it now.  Multi user Wanna be.  Marketed to be several
+things it wasn't.  
+
+Windows NT:
+plus:
+Stabler than windows 95, has Multi user, high speed file system.
+Multi user.  Runs windows dos/3x and win 9x programs.  Full 32 bit os with
+multi processing support yadda yadda....
+
+cons:
+In the way of networking and being a *SERVER*, it isn't very secure.  A
+person would need to install a great deal of Patches and bug-fixes before
+I would even bother to use it as a server.  Its protection mechanisms are
+dwarfed by Novell netwares permission setup and file permission setup..
+not to mention that it costs WAY too much.  And when NT says it CAN use up
+to 32 processors it does not mention that you OUGHT to use 32 processors..
+because the Opperating system it self is so huge that it requires a monster
+computer to run it as a server, under a typical network load.
+
+Linux:
+Pros:
+Linux can run on any 386 class Intel compatible processor, you can run it 
+with as much as 4 megabytes of memory, but generally requires a swap file
+to load correctly.  Linux is FULLY POSIX compliant and is SYSTEM V
+compliant.  It is a full FREE implementation of UNIX, and is one of the
+most popular non-Microsoft operating systems.  Is also a full development
+environment.  There is also a plethora of support available on the net.
+A person can even run a GUI, such as XFree86.  When set up right, Linux
+can out gun any NT server in the way of speed and services.  
+
+Cons:
+Unix environment is Complex, and generally more text based.  Because of
+this, only people that have intermediate to expert level of knowlage about
+PC-based computers should consider using Linux.  There is also NO
+commercial backing, if the server crashes, there's no one to sue but your
+self. there are also a limited amount of drivers available for devices and
+virtually no support for proprietary devices such as PDA interfaces, some
+digital cameras and other peripheral devices.   Linux is a MULTI USER
+system which means that it dose not make a very good Home, desktop
+Multimedia PC.  If your looking for an Assault platform and you don't want
+to get into the nitty gritty details of setting up Linux, then forget it
+and use Windows 9x.
+
+BSD:
+pluses:
+BSD is more like a heavy duty UNIX distribution, it has Better memory
+management than Linux and is generally more stable.  The actual code
+under goes more over seeing and is generally cleaner than Linux.  In fact,
+a great deal of Linux software was ported from BSD.  Generally, if your
+going to run a server, do it with BSD.  BSD will also Run some Linux
+binarys.
+
+Cons:  
+Bsd is slower to release new software and drivers, consequently
+hardware drivers are harder to find.  PCMCIA support is known to Lag, and
+for that reason, I don't not recommend BSD for a laptop.  
+
+* Writer note: When I was at las Vegas at DefCon 6.0, the NetBSD people
+had to go around begging for another brand of PCMCIA NIC card because the
+card services were on the Fritz. The Linux people had no problems
+what-so-ever.
+
+SCO UNIX
+pluses:
+SCO Unix is a commercial implementation of Unix which means there's support
+available for it, not to mention that every driver disk I've ever looked at
+has SCO drivers.  In addition you actually have some commercial ports of
+software like MS-WORD and WORKS and stuff for it.
+
+cons:
+SCO does not have the open software background, which means its a bitch to
+patch.  Typically the free Unixes are patched faster then the commercial
+ones because its a huge communal effort versus a centralized commercial
+effort.
+			Asmodians Work bench
+				Hir 7-4
+			by Asmodian X
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+Def-Con 6.0
+
+I could rattle on for a bit on this subject for a while but for now ill 
+send greets to WW, Schemerz, Axon, Frogman, Aramadillo, and Jack the
+techno dragon.  Pardon any handle mangling.  There was an even amount of
+hackers to groupies.  Which was nice because then I can just blend in with
+the crowd and enjoy the surroundings rather than having to deal with
+obnoxious wannabes.  If you check out NY Times for day 2, you will see a
+punkish looking fellow, he was in my group for capture the flag.  A
+reporter also interviewed me but i didn't hear anything about again.  I'm too
+tired at this point to go into much detail about it
+
+I'll just quote from my wanna be web page about that.
+<EXCERPT FROM HTTP://axon.jccc.net/~asmodian/>
+   While attending a massive computer convention called Def. Con 6.0, A
+   writer for the New York Times once scoffed at my choice to deny him my
+   real name.  He said something to the effect of, "no wonder people get
+   the wrong idea about hackers, they wont even give their real name."
+
+   That really made me think.
+
+   At first I felt bad, I wondered if he would put the quote in the
+   paper, and then wondered how my parents would feel if they read the
+   article.  Now that I reflect on the situation, I was right to remain
+   anonymous.
+
+   If you think about it, your name drags a lot of people along with it.
+   Your first name is what every body knows you by.  Your middle name is
+   what your parents know you by.  And then there's your last name which
+   hauls the rest of your family into the picture.  So if you were an
+   actor, you would choose a stage name, something that wouldn't haul the
+   rest of your family with you into the spot light of the world.
+   Some famous stage names are (insert weird symbol here) the artist
+   formerly known as prince, Madonna,
+   Walter Mathau ...etc.
+
+< end EXCERPT>
+
+Any way, I think I made a good choice in remaining anonymous.  If you
+disagree by all means blast me an e-mail at asmodianx@hotmail.com.
+
+I also hooked AEGIS my laptop into the capture the flag network, and it
+survived.  On 4 Mb of ram I would have expected it to die, but it survived
+and was relitivly un-hacked (except for 1 guest account which was captured
+by shoulder surfing because they user was stupid.  not Bad for Slackware
+Eh!?
+
+-=- Window CE -=-
+Something that you might want to keep in mind is to avoid plugging in power
+hogging PC CARDS.  These little dudes tend to over heat when you start
+sucking 1 amp, and thats WITH THE AC CORD!
+
+
+-=-SNAFU-=-
+As for the lateness of my articles, i must apologize, I put Debian 2.0 on
+my home PC and in-advertantly fried my pub directory which houses my
+submission archive... oops!?
+
+-=-Addendum-=-
+
+For those of you looking for some good sites heres a list:
+
+www.freedos.org
+www.linux.org
+www.freebsd.org
+www.sco.com
+www.hpc.net
+www.ticalc.org
+
+and if you wish to embarrass your self:
+www.Microsoft.com
+www.warez.org
+
+
+-=- ALERT! -=-
+
+TALK TO US, SEND EMAIL TO H_I_R@hotmail.com, and ME too at
+asmodianx@hotmail.com!!!
+                                      HiR 7
+                            Axon's Defcon Experience
+                                   Defcon 6.0
+
+I sit here in this bizzarre place surrounded by psychadelic light shows, 
+reflecting upon the past 2 days worth of events.  This is quite possibly the
+best place to start my reflections, as I am totally immersed in techno music
+at the Black & White ball, dressed in a three-peice suit and sunglasses.  When
+we actually arrived in Vegas, it was a day early for the Con.  While lounging
+around in the casino, we heard phone pages for Kevin Mitnick.  That was our
+first clue in that the crew was already arriving.  There were several shady
+figures hanging around the place already, in the pool, casino, in the halls,
+etc.
+
+Friday morning, the HiR crew arrived at the convention center in plenty of
+advance.  We were among the first into the con.  We were all awestruck by
+the amount of hardware for sale, and some pretty good deals.  There were
+shirts for sale, stickers, magazines, modems, hard drives, radar guns,
+geiger counters, tons of cellular phones with "EVIDENCE" stickers adorning
+a good percentage of them.   People were scurrying to apply for an IP
+address, and still more were already attaching the veins of life to their
+laptops and other systems.  They already had techno pumping full force for
+the con in the same room as all the hardware and booths.  
+
+The first thing that actually surprised me was the number of middle-aged
+hackers at the con, and how few of them were actally feds.  After that, I
+was amazed at how many people actually knew their shit.  Sure, I was
+approached by people who were eager to learn.  Newbies, but at least they
+were eager, which makes any newbie worthwhile to talk to.  Most of the
+lesser experienced entities there had a general additude of "So what do
+you have to do to get to hackerdom?  Where can I find more information?  I
+want to know how it works!" instead of the typical "how to i get root with
+sendmail?  How do I screw up my enemy's box?  Damnit I wanna hack!"  I
+really enjoyed the eagerness.
+
+The first day there wasn't a whole hell of a lot of demonstrations.  There
+was an okay demo on lockpicking, and some stuff on casinos.  Not a lot.  For
+me it was more like a time to enlighten myself about what all was out there.
+The scene in Kansas City is not nessecarily reflecting what the rest of the
+underground world is up to.  It turns out that the KC scene is a tad bigger
+than I had expected, as there was  a whole load of 913/816 people there.
+
+As far as what I actually learned, I'm not sure any amount of typing or
+talking will ever summarize it.  I learned so much more than just what was
+demonstrated or talked about.  DefCon is something that one has to actually
+experience to even comprehend.
+
+Of course we weren't the only group there.  It seens that many people were
+hanging out in their own little bands of like-minded hackers.  Some of the
+groups were actually professionals, with a business structure.  Others were
+just kind of there.  Many of these groups covered all their bases when it
+came down to knowledge and skill.
+
+Among the groups which I had quite a bit of contact with was the Hack Sec
+Klahn.  They were selling card readers, barcode scanners, and various other
+items.  Other groups that were there: 2600 (the magazine staff), L0pht
+Heavy Industries, Cult of the Dead Cow, and many others.
+
+One of the most memorable events was the grand release of Back Orifice.
+The official announcement of a final product by the cDc.  There'll be an
+article on it later.  Grandmaster Ratte startled the crowd with chanting,
+screaming, and free M&M's coupons.
+
+One thing to note, though, is the fact that you should never bomb out of
+a seminar that covers a topic that you aren't interested in, just because
+it shounds boring.  After all, it's only an hour of your life, maybe you
+could learn some new ideas.  There were several tech talks that I wasn't
+particularly thrilled about attending at first, but I ended up sticking
+around, and picked up some cool information (like router passwords when
+I was sitting through a mundane talk on how radio works in the Pirate
+Radio thing)
+
+All in all, the con was one of the most enlightening experiences I've had.
+I picked up new tricks, new ideas, and new knowledge about what the rest
+of the hacking, phreaking, underground, hamming psychos of the world are
+up to now.
+
+             Cross-platform fun with Virtual Networking Computing
+
+                                   by Axon
+
+First, I'd like to give you all some background info on a program called
+VNC (Virtual Networking Computing).  It's produced by ORL (www.orl.co.uk).
+VNC is a client-server application, with support for java over the web.
+It was originally designed for the X window environment, allowing users to
+remotely use X through another computer.  like PC Anywhere, for unix.  VNC
+servers already exist for many flavors of unix, Windows 95, and there's an
+alpha VNC server for Macintosh.  Viewers have been ported to many unices as
+well as windows, DOS, Macintosh, OS/2, Palm Pilots, and even Windows CE 2.
+
+I work in an environment which requires use of programs available only for
+Windows 95, but i really prefer using my Linux workstation.  I'm not given
+enough desk space for 2 monitors, keyboards, and mice, and neither one of
+my systems enjoys monitor/keyboard switches.  A colleague of mine pulled up
+Netscape one day, totally taking remote control of his office computer.  I
+was floored. 
+
+Always on the hunt for new information, I asked him what he was using, and
+I could have never been prepared for what was about to come.  "VNC", or
+Virtual Network Computing, was the answer.  It's a totally cross-platform
+remote control program, sort of like PC Anywhere.  VNC Has servers for many
+flavors of unix, Windows 95, and macintosh.  There are viewers for
+*EVERYTHING*, including palmtops, palm pilots, all the OS's that the Server
+can run on, and then some.  Even DOS!  In the X-Window System, VNC creates
+a different display and uses that one, but with Mac and Win9x/NT, the VNC
+server allows the remote client to TAKE OVER the mouse and keyboard of the
+console.  Imagine the fun there... of course for Win9x and Mac, there is a
+"Sit back and Watch" mode for the server, which doesn't allow the client do
+take it over, which makes for a very good helpdesk application, allowing
+remote technicians to watch what's happening as the user on the phone shows
+them the problems, and since VNC uses TCP/IP, it works from anywhere on the
+Internet/Intranet.
+
+With the X-Window system, the VNC Server/Viewer combo can be a free
+replacement for that bulky and expensive X-Server software for Windows,
+Such as Hummingbird EXceed and Reflection X, and when you disconnect from
+VNC and reconnect later, the screen doesn't change.  Your work stays put,
+unlike X servers where applications close when you disconnect. VNC can't
+take over an existing display in X-Window System, though.  It's ability to
+go cross-platform (a viewer for one OS works on servers for any OS) makes
+it even more useful for support technicians.
+                                    HiR 7
+                       How to not get (physically) noticed
+                                 by Frogman
+
+	Here I will explore a few concepts to extend on HiR's "Mobile 
+Hacking" series.  In addition to his ideas, I have a few of my own which 
+may be of help.
+
+I.      Hiding in Plain Sight.
+II.     Frogman's Layered/Morphing Theory of Concealment.
+
+
+=====
+  I.
+=====
+
+Hiding in Plain Sight.
+
+	This is a concept you may have heard about in relation to Ninjas and 
+various government agencies. (the Alphabet Agencies should spring to mind)  
+This involves looking like you are supposed to be there, and that you are 
+not someone worth looking for.  How can you expect to be overlooked by a 
+pursuer in a crowd if you are the only one there in black sweats with a back 
+pack, while everybody else in in a tee-shirt and shorts?  A good idea is to 
+be original enough so that you are not so normal you stand out, while also 
+being forgettable enough not to be recognized.  Don't dress like a Goth and 
+walk into Denny's.  Don't dress in a three-piece suit either.  Wear a tee-
+shirt and jeans, or a polo-shirt.  Make like you're there to study your 
+college material and have some coffee.  Who is going to think of you when 
+the officer pulls by the restaurant slowly, looking in the windows.  If he 
+enters and asks about suspicious characters, the Goth will get pointed to 
+quickly.  The suit has less chance of this, but it would still be the same 
+type of thing.
+
+	One the same note, who would more likely be questioned by mall sec-
+urity for using a coupler on a payphone?  The Goth of course.  Business men 
+are respecable, and have business to do.  Goth's are strange teens who are 
+probably up to no good.  I have had some experiences of this type.  I tend 
+to be a polo-shirted semi-prep.
+
+Scenario:
+	On a payphone next to the restrooms, dialing into your ISP, and 
+FTPing the latest HiR.  People coming and going, and all have some typical 
+reactions.
+     1.  The typical strange look.
+     2.  The crazy woman "Help, help, Hackers!!!"
+     3.  The envious GenX'r "Hey, cool!"
+     4.  The Security Guard "Pardon me, but you aren't allowed to do that 
+	 from mall phones."
+     5.  The interested stare and disbelieving giggle of the girl on the pay
+	 phone next to you, as she explains to Theresa that she is missing 
+	 one of the coolest sites at the mall in a month.
+
+	The Goth would get the security guard and crazed woman almost for 
+sure.  The suit would get the strange looks.  While your average tee/polo-
+shirted Joe would get the envy and respect.
+
+	As Axon explained, carry the least equipment you need to get the 
+job done.  A way to hide that equipment without bulky pockets is a crotch 
+pocket.  Cut a hole in a hip pocket, or try splitting the seam in the inside 
+upper thigh on a pair of loose, but not extremely baggy pants.  Sew in a 
+custom pocket for the piece of equip. you intend to hide, and install either 
+a narrow tooth zipper, or eyelet hooks.  If you are skillful, you could try 
+swappable pockets.  The pockets could simply be attatched with eyelets, and 
+an eyeletted opening.  Snaps may also work, but they need more force, and 
+are noisier.  If the equip. causes a noticeable sag, use a belt, and run 
+support cords to it, or tie the pocket the your thigh with a cord or strap.  
+The main downfall of this is obvious: How and where to get your stuff out.  
+If you are going to use a payphone near a bathroom, make a quick pit stop.  
+If you are in a restraunt, you can take it out under the table.  Just try 
+not to look like you are playing with yourself.
+
+
+=====
+  II
+=====
+
+Frogman's Layered/Morphing Theory of Concealment
+
+	This is a very good way to enter/exit the scene of the target.  Make 
+the entry to the scene in one outfit.  Do some buisness on the scene, then 
+go to the restroom or such and either change clothes with some you brought 
+(ie. in a briefcase), or, wear layered clothes.  A pair of shorts under 
+pants, or two pairs of pants.  A short sleeved shirt under a long sleeved, 
+or the long under the short, with the sleeves pulled out of sight.  If you 
+are using the layered and not completly changing clothes, you can be out of 
+one set and ready to go in less than a minute, and back in the same.  To 
+change clothes, pullovers, and zippered pants are fastest/best.  Hopefully, 
+you could do buisness in one set, then make a bathroom run and change.  Go 
+do your shady biz quickly, change back, and return to the first buisness.  
+If you are quick, all you seemed to do was make a run to the restroom.  A 
+pair of convertable cargo pants works well.  These have zippered legs that 
+can come off to become shorts.  This reduces the need for somewhat baggy 
+pants to cover the shorts/other pants.
+
+Scenario:
+	A person wearing trousers and a long sleeved flannel shirt is seen 
+entering the building.  He goes to a desk, and fills out some dated forms.  
+He thens asks where he can find a restroom.  Someone reports seeing a 
+stranger in shorts and a tee-shirt messing with the phone box.  The flannel 
+and trousers leaves, having completed some other buisness in the building.  
+With an alabi and a different identity, the same person did both.  He imple-
+mented the layered/morphing theory.  He has proof that, yes officer, he was 
+in the building at the time the phone box messing was going on, but he was 
+busy filling forms, the whole time.  Well, except the five mins he was in 
+the rest room.  Plus, what he wore that day doesn't fit with what the sus-
+pect was wearing...
+
+	Now, I'm not advocating running around commiting crimes using these
+methods of concealment, but I have had times where I need to get something
+done, and didn't have a reasonable excuse to just walk in and do it.  If a
+guard saw me doing some things that I know are perfectly legal, I know I 
+would be stopped and be made an embarrasing scene of while he checks with
+his boss.  This is what I am trying to put forth.  If you are going to
+trash a site, but there are alot of people, these methods can be employed
+as a quick way to disappear.
+                                     HiR 7
+                         Making a 2 phone line adapter
+                                  by Frogman   
+
+        Ah, the added wonderment of a second line.  Fax machine, data line,
+Dual modems, three way confrence on each line, five people at once.. <g>
+But wait, how am I going to install all this stuff?  I've got a student
+budget for home improvement of 0 dollars and 0 cents.  I also have no
+flexibility to rewire the phone jacks all the way through the house to
+get two seperate lines.  I have to use a double line cord with equipment
+that recognizes only line one.
+
+        I solved my little dilemma by remembering that I can just cut the
+cord and swap wires.  This a technical kludge and is not all that elegant.
+I started sifting through the piles of obscure equipment I keep on hand for
+just these types of situations.  
+
+Axon has seen some of my wierd junk in the Frog lair:
+
+An ancient amber monochrome text display, great for use as a dumb terminal.
+An original Amiga 1000 system, complete with an IBM emulator Sidecar box.
+Piles of obsure connectors, like several DB-23's, large DIN8's, DIN6's...
+Old, old, old palmtop -- Panasonic's Hand Held Computer (HHC) circa 1983.
+A couple almost useless MFM/RLL/ESDI drives.
+A souped IBM PC-XT -- 286 accell, card slots filled out the wazoo...
+And alot of phone junk.
+
+     And in my various and sundry phone junk pile, I had nothing that simply
+split a four wire line into a pair of single lines.  I resigned to the fate
+of skipping the Radio Shack box for $7 and decided to hack a box of my own
+from spare parts.
+
+        I keep several of those breakout boxes that turn one RJ jack into
+two around, they are invaluable.  I found out how much more when I popped
+one open and looked inside.  They are built with wires running from the
+input side to both outputs.  These magic wires are nicely color coded like
+a standard phone cable!  The first thing you should check is that there are
+eight wires in there.  Yes eight, two wires for each line, two pairs for
+each of the two jacks.  If you only have four, then you are outta luck.
+The only other problem is that sometimes they get the colors for each line 
+backwards, but that doesn't really matter, as long as the pairs match up.
+
+        To do my hack, I had to figure out how to get those wires out,
+swap them around, and get the whole thing back together in the nice beige
+unit.  This means no cutting and soldering/taping the wires.  If you look at
+how your box is built you will see the ways it is held together.  On the
+sides of the box are four square holes, through which you push a pen or
+paper clip to release the prongs that hold the unit together.  Once the two
+parts release, the only things holding them together are the wires.  Where 
+they meet the two jacks, there are some nice, removable inserts that hold
+the wires in the proper order and position.  To get these inserts out, the
+makers, understanding phreaker needs, provided slots on the front, under
+each jack, that if you slide a screw driver or a paper clip in they come
+right out.  For this hack, just take out one insert.  Unbend the wires,
+pull them out of the holes, noting what went where, and swap colors.  Swap 
+red for black, and green for yellow.  Bend the wires back, and replace the 
+insert.  Snap the box together, and you are almost done.  You must remember 
+to label which side has line one, and which side has line two.
+
+        See, it's that easy!  You start out with a $2-$3 box, and hack it in
+five minutes into a $7 box!  Now, just plug it into the wall recpticle.
+Decide what you want for line one use, and jack it up.  Do the same for line
+two.  The magic of this approach is that it is completely reverseable, will
+not get accidentally torn apart (in most calm, non-moshpit type homes), and
+is easily removed and taken with you when you move, unlike rewiring the 
+entire place.
+                            -=-=-=-=-=-=-=-=-
+                            HiR 7 Hacker Newz
+                            -=-=-=-=-=-=-=-=-
+
+Late Issue...
+-=-=-=-=-=-=-
+HiR 7 was REALLY late this time around, due to a lot of really messed up
+stuff.  We're sorry for keeping ya guys on hold for so long.  Axon can't
+write as much as he used to be able to, due to more hours, and a job that
+actually requires some work (rather than sitting there typing articles on
+the job.  =] )  Classes have kicked back in for Frogman and Asmo... But
+HiR will still kick out information.  We aren't dead... just overworked.
+
+NEW URL
+-=-=-=-
+okay, folks... ml.org is broken.  It's *very* broken.  And Axon moved
+again.  This time, to his workstation.  the new URL is:
+
+http://axon.jccc.net/hir/
+
+Just in case you couldn't tell, Axon has full control of this server.
+It'll also be the place to find homepages of HiR members.  Also, the
+articles and software are all available from there via anonymous ftp.
+
+ 

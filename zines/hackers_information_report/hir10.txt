@@ -1,0 +1,1906 @@
+		Hackers Information Report Issue Number Ten
+				Introduction
+-----------------------------------------------------------------------------
+
+	Hackers Information Report is an electronic magazine that's
+distributed free of charge over the Internet and bulletin board systems.
+It is produced by a group of real hackers and phone phreaks, and only
+discusses ethical hacking and phone phreaking techniques and information.
+We never cover steaking, blowing things up, or system cracking directly.
+Some of the information that we publish might be able to be used in a
+negative fashion, but we provide it to be used in an educational, ethical
+manner.   We may publish some "Walk Through" hacks and tricks, but we
+really attempt to describe a given system in enough detail for the reader
+to gain their own information on the topic, rather than just spoon-feeding
+the masses.   Think of it as "Priming the Intellectual Pump".  
+
+-----------------------------------------------------------------------------
+
+	HiR #10 Release notes.
+
+	We've really fallen behind.   We aren't dead, nor will we be for
+some time.  Due to a very unfortunate turn of events, we've had some major
+problems producing good articles and getting them out in any sort of
+timely manner.  First, Axon has been moved around to a position of higher
+responsibility, as well as taking 10 Credit hours of college classes and
+holding down a second job.  This leaves very little time for writing.
+Next, he was also asked to remove the HiR Distro site from his place of
+employment.  It was thought that the material that was presented may
+result in legal problems.  (I really doubt it would have but that's the
+breaks.)   We've had a few other website offers, and we're trying to get
+the site up as fast as possible.  This involves copying archives and
+unpacking them, as well as some other evil stuff.
+
+=============================================================================
+
+Article	  Title							Author
+-------	-------------------------------------------------     -------------
+ 1		HiR 10 Intro/Table of Contentz				HiR Crew
+ 2		HiR 10 Informative Resources				Axon/Frogman
+ 3      	Defcon 7 in a nutshell					Asmodian X	
+ 4		Flying Below The Radar: Avoiding IDS Systems		Axon
+ 5		BeOS Revealed (Yes, another OS Overview)			Axon
+ 6		RISC, CISC and The concept of the Power-PC		Asmodian X
+ 7		Setting up your Home-Net					Axon
+ 8		The Official HiR FAQ, Version 0				Axon
+ 9		HiR 10 Hacker Newz						HiR Crew
+HiR 10 Informative Resources
+
+Books Worth Reading:
+------------------------------------------------------------------------
+<Submitted by Axon>
+
+TCP/IP Illustrated, Volume 2  (by Gary R. Wright & W. Richard Stevens)
+Publisher:        Addison-Wesley Publising Company
+ISBN:             0-201-63354-X
+Reading Level:    Advanced, or able to learn quickly
+Cost:             Unknown.  This book may be out of print.  I Borrowed
+                  this book from a local library system.
+
+Overall Rating:   ### (Three Roots.  Lots of info, but kind of confusing)
+
+TCP/IP Illustrated, Volume 2 is a down-and-dirty look at the BSD UNIX
+TCP/IP stack.  It covers the source code, and adds illustrations, and
+clearly defined explanations of how the different parts interact.  After
+reading this book, I had a very thorough understanding of the TCP/IP
+Protocol Suite (Including TCP/UDP and ICMP).  This book is a MUST read for
+anyone who is serious about programming Internetworking Tool in the C
+language.
+
+After playing with *BSD, I now realize why this book is written around the
+BSD TCP/IP stack, as it has to be one of the most solid implementations of
+TCP/IP that I've ever seen.  It's very rare for bugs to occur in the BSD
+TCP/IP Stack, unlike some other company  that has recently been releasing
+overpriced operating systems... with *BROKEN* TCP/IP Stacks.  =]
+
+------------------------------------------------------------------------
+<Submitted by Axon>
+
+The Complete FreeBSD (Revision 3, Covers FreeBSD 3.2) by Greg Lehey
+Publisher:        Walnut Creek CDROM
+ISBN:             1-57176-246-9
+Reading Level:    Beginner to Veteran
+Cost:             About $70 US Dollars (See below)
+
+Overall Rating:   #### (4 Roots! Completely packed guide to getting
+                  started, and getting used to using UNIX every day,
+                  Lacks information about Laptop/Portable Computers) 
+
+The Complete FreeBSD Revision 3, comes with the entire 4 CD-ROM 
+FreeBSD 3.2 set.  This retails for around $50 US Dollars if you buy the
+Boxed set from Walnut Creek CDROM.  The First CD alone is available for a
+lot cheaper elsewhere, but having all 4 CDROMS is a useful thing, as you
+don't need Internet Connectivity to install Ported software.  
+
+The Book itself is enough to get a UNIX Newbie going strong with FreeBSD,
+or a Veteran Linux (or other UNIX) user Comfortable with FreeBSD.  As
+you've seen in past Articles in HiR, FreeBSD is one of the most stable and
+fast Server-Oriented Operating Systems out there.  This book is one of the
+best I've seen, as far as getting going with FreeBSD.  It teaches you the
+fundamentals of getting your UNIX server up and running, how to use it
+as an every-day Operating System, and how to establish Internet
+Connectivity Via Serial, Modem, or LAN.  It also has a VERY organized and
+well-written guide to compiling a custom kernel for your machine, as well
+as entire chapters outlining Network Troubleshooting and Network
+Firewalling.
+
+*** Late breaking news! ***
+The cost of this book can be dramatically reduced.  It seems that CompUSA
+has gotten ahold of it, and is selling a product called "The FreeBSD Power
+Pak", which contains this book, "The Complete FreeBSD", plus the Four
+FreeBSD 3.2 CD's, ***AND*** A Six-CD set that i386/Intel Release 
+Snapshots, Complete CVS Tree,  more than 1,500 Pre-Compiled packages, and
+more than 2,200 Ports (Source code that's been patched to compile on
+FreeBSD). The total cost at CompUSA last I checked was only $49.99.  The
+Walnut Creek CD-ROM Catalog inside listed the same package for Almost
+$100!  Buying each one of these items alone (The Book, The FreeBSD OS and
+The FreeBSD Toolkit) would total $130, so Either way, it's a good deal.
+***************************
+
+------------------------------------------------------------------------
+<Submitted by Axon>
+
+CGI Programming for the World Wide Web (Examples in Perl)
+Publisher:        O'Reilly & Associates
+ISBN:             
+Reading Level:    Moderately Programmer Minded (Too hard for Newbies
+		  and not advanced enough for coding Gurus)
+Cost:             
+
+Overall Rating:	  ### (Three Roots).  
+
+	This book is one of the most well structured CGI Programming books
+I've read to date.  They tell you everything you need to know to do CGI
+programming in a variety of languages, with some killer examples in perl.
+
+You'll be introduced to setting up Forms in HTML, making it reference a
+CGI backend written in whatever language you choose.  They show all their
+examples in perl.  This isn't really a good book if you've already got a
+lot of programming experience.  I would advise skimming it if you
+know how to program but don't know how CGI works yet.  Total coding
+newbies should stay away from this book unless they have a lot of Advil,
+because, well... perl just doesn't make sense to someone who just learned
+VB.
+
+------------------------------------------------------------------------
+<Submitted by Frogman>
+
+The Ultimate Internet Terrorist: How Hackers, Geeks, and Phreaks Can Ruin 
+Your Trip on the Information Superhighway . . . and What You Can Do To 
+Protect Yourself
+
+Merkle, Robert
+1998 Paladin Press
+ISBN 0-87364-970-2
+141p
+
+	Well, not quite the U.I.T. that you get at the Blackhat meetings 
+at DefCon, but you get an idea of how script kiddies work, and some 
+authorative tips on working the net to your advantage.  Merkle teaches 
+people ideas from the Hackers Manifesto, and he was a part of a hacking 
+group, VCA, under the handle 141.187.  Rather than getting into the meat of 
+the book, I'll just say I liked it and the open, conversational tone in it.  
+
+To give you and idea of what it is about, here are some chapter titles:
+
+Terror Mail in Cyberspace: The Anatomy of the E-Mail Address
+The Wonderful Art, Life, and Science of Downloading
+
+	There are other, more menacing chapters in the book, but I would 
+still call it reccomended reading for anyone who has not spent the past year 
+or two working on learning the kinks of the net.  One thing that stood out 
+in this book though, is the last page:  All hail Bob!
+
+------------------------------------------------------------------------
+<Submitted by Frogman>
+
+Atanasoff: forgotten father of the computer.
+Mollenhoff, Clark R.
+1988 Iowa State University Press
+ISBN 0-8138-0032-3
+274p
+
+	This is good for history buffs, and those who never quite believed 
+the story of ENIAC.  Mollenhoff relates the story of the Atanasoff-Berry 
+Computer at Iowa State University, and how Mauchly visited and studied the 
+machine, eventually turning the ideas into the ENIAC and EDVAC.  It also 
+provides transcripts from the federal investigation and case over the patents 
+held by Sperry Rand based on the ideas Mauchly took from Atanasoff, 
+including base 2 (binary) counting system, condenser (capacitor) memory 
+with "jogging" or regeneration or refreshing cicuits, use direct logical 
+action for computation, and electronic instead of mechanical operation.  
+It's kinda dry in that history book genre, but it makes alot of history 
+clearer that they never quite told you in Intro to Computer Science.
+
+------------------------------------------------------------------------
+<Submitted by Frogman>
+
+
+ANARCHY ONLINE net sex/net crime
+Platt, Charles
+1997 HarperPrism
+ISBN unavailable
+net crime 156p
+net sex 211p
+
+	This is an unusual setup for a book, the two sections are back to 
+back, each rotated 180 degrees so you can read the book from each cover to 
+the center.  Other than that it is a compedium of events and people in each 
+of the sections, basically a modern history for the past two decades.  I 
+liked it, but thats because I like histories and the like.  This one is a 
+much more enjoyable read than the Atanasoff book.
+
+
+TCP/IP: Running a Successful Network
+Washburn, K. and Evans, J.T.
+1993 Addison-Wesley
+ISBN 0-201-62765-5
+537p
+
+	I didn't finish this one, but it is basically a text book on IPv4.  
+It covers every layer of the TCP/IP and ISO OSI models.  It gets down to 
+the bit level structure of the datagrams and explains the use of TCP and 
+IP over many network platforms, esp. Ethernet, X.25, and Token Ring.  It 
+gets a little technical, but hey, it's a textbook.  This is great if you 
+want to know how TCP/IP as a standard works.
+------------------------------------------------------------------------
+
+----
+
+Defcon 7.0 In a Nutshell.
+By Asmodian X
+
+
+	Defcon is a convention held yearly in las Vegas usually in July. 
+It is promoted by Dark Tangent and his Defcon Goons.  For more information
+about Defcon consult: 
+
+http://www.defcon.org
+
+In concept, Defcon is a gathering of computer enthusiasts, paranoid
+people, and people who just want to be in the lime light.  Ironically the
+majority of these people call themselves "Hackers."  Weather any of these
+people can create furniture with an axe I do not know. 
+
+(See Dictionary definition)
+
+The Ride to Las Vegas
+
+My commerads and I boarded the airplane around 11 or 12pm and plopped down
+in our seats.  Axon and Frogman plopped out their new(er) laptops, and
+proceeded to poke around with articles and other projects.  Meanwhilst I
+was playing around with Twiggy (a Cassiopia E-10 Palm-PC).  Twiggy was a
+new acquisition of mine, and I was playing solitaire and setting up a profile
+for myself in the case some one wanted to exchange electronic business
+cards.  Frogman had a similar device which was made by Everex.  Needless
+to say, the ride was un eventful.
+
+-=- Arrival -=-
+
+We arrived at Las Vegas and walked to the luggage area.  After picking out
+our luggage pieces, we walked over to the Taxi area and picked up a Taxi
+over to Alexis Park.  Where we were surprised to find that we had to pay a
+400$ deposit.  After scrimping up enough cash we waddled over to our room. 
+It was a two bed room with a quasi kitchen.  It had an empty refrigerator
+and cabinent with a convenient empty 6 pack of bottles. 
+
+We all hoped into one of the Whirl-pools, and relaxed for a bit before
+heading back to the room.  I crashed on one of the beds, and axon and frog
+man poked around on laptops until about 7ish in the morning when we picked
+our selves up and walked over to the convention center.  Alexis Park was
+really nice, it had rained a few inches a day or so back, so of course
+everything flooded out.  The fountains looked rather polluted, and some of
+the pools were shut down.  After getting some over priced breakfast we
+waited in line until 10am when they actually opened the doors.
+
+During that time, it began to rain, which was a serious problem to those
+who chose to haul their laptop with them.  Las Vegas was rather muddy from
+the floods which had pre-ceded the Defcon crowd.  The ran had made the
+fountains polluted.  The hotel staff scurried around dumping a cleaning
+compound into the murky fountains.  By night fall the fountains were clean
+again. 
+
+The kick off was pretty cool, everybody got metal tags and lanyards, which
+beat the hell out of the lame plastic tags during DC6.  Hordes of Tshirt
+sales tables were there.  If I had any cash left I would have gotten the
+Shell oil spoof shirt (e.g. Shell -> /bin/sh)  We probably would have
+gotten more stuff if it were not for the hotel rapeing us for the deposit.
+400$ is not worth the P.O.S rooms we got, but we were happy enough to be
+there not to complain.
+
+-=- The Speakers -=-
+
+This time it was a bit more compartimentalised than it was a year or so
+back.  It had three tracks, newbie, intermediate and advanced.  My only
+regret was that we could not compete in the Capture the flag contest,
+primarily because everybody wanted to see the speakers.  Not surprisingly
+the ghetto hackers won, purely because of numbers.  (No disrespect of
+course.)  Now a few words on the widely disliked Caraloyn Minel, which I
+can attest that Mrs. Minel is in fact, the closest thing to a true bitch
+that I've ever met.  I could theorize possible causes for MBD (Massive
+Bitchness Disorder), but you probably all know about that.  In-case you
+don't, I suggest you consult "http://www.attrition.org".  (BTW. Carolyn
+got thrown out of defcon due to refusal to provide any services on her CTF
+box, she was under the impression a brick on a rope was an acceptable CTF
+target boxen.) 
+
+I found the Identity theft speaker the most interesting.  His speech made
+me glad my credit rating sucks.  Professor Feedlebom, made his speech
+about pirate radio amidst a hangover.  It was un-interesting, and would
+have been better sans booze.  The how to use nmap similar was boring as
+hell, it didn't get interesting until fydor showed up and answered some
+questions.  The Oracle stuff was power pointed, and thus boring as hell. 
+I noticed a trend.  "Professionals" used lame power point presentations, the
+developers and grey hats were the MOST interesting because they could
+answer anything about the software you wanted to know.  The newbies
+generally were hard to follow, due to lack of planning and shuddering.
+
+As a note to future speakers who read this, be considerate of your
+audience, I don't use Microsoft products, thus ppt presentations are
+pointless, it would be more convenient to me to have something like a text,
+or some Unix friendlier document.
+
+-=- Food and stuff -=- 
+Because of the hotel raping us, we could not
+afford to eat out.  So we made do with some instant Mac&cheese, and some
+PB&J we bought from a grocery store.  Of course the hotel practically
+required a down payment for the food.  We ended up living at a convenience
+store down the street. 
+
+-=- Transit Hell -=-
+30 hours + bus + psycho-driver = hell.
+nuff said.
+
+-=- Epoch -=- 
+It was an enlightening experience, I want to go again, next
+time I am bringing more cash, better laptop, and more people.  And food
+that requires less preparation.  Aegis, my laptop, made it, but it was
+dwarfed.  With luck,By the time DC8 is going on, I will have my new(er)
+laptop, (deacon) and/or something newer.  Axon talked about bringing an
+IBM rs/6000 work station to the con for some extra muscle for crunching
+passwords.  The frogman, will be bringing on his new(er) laptop an IBM
+thinkpad to join in to the fray.  I'm expecting another friend of mine to
+come along and check out some of the speakers. 
+
+<E0F> 
+HiR10			Flying Below The Radar			By: Axon
+            An introduction to not setting off IDS Alarms
+
+	So, you've done your hacking homework, and you're seeing that it's
+getting harder and harder to find a good place to poke around and play,
+because everyone and their CEO has hopped on the "Intrusion Detection
+System (IDS)" Bandwagon.  These systems look for odd activity, or
+"anomalies", as they are often called.  "IDS"'s have been around for a
+dreadfully long time, it's just that they were never categorized as such
+until recently (Just like there have been chevy blazers for a long time,
+but the category "Sport Utility Vehicle" didn't exist until very recently,
+so they just called it a truck until some better title came along).
+
+	Intrusion Detection Systems go back to the days of portscan
+loggers, and scripts that administrators would set up to look at system
+logs for remote and local anomalies.  This could be anything from
+excessive amounts of incorrect password guesses using "su", to having
+pre-compiled software in their directories, or set-uid binaries laying
+around where they shouldn't be.  Basically, any tool that looks for
+bizarre patterns in system useage or network traffic can be called an IDS.
+At this time, I will only be discussing the type that watches for network
+traffic.
+
+	Intrusion Detection Systems may or may not mean that there is a
+firewall in place.  Some system administrators rely only on IDS methods,
+whereas the smarter portion of them still use some method of a firewall.
+If a firewall is in place, the IDS also may communicate with the firewall,
+telling the firewall the attacker's IP Address and letting the firewall
+take care of business.  (Please note that I'm speaking of "firewall" as
+a concept, not a piece of hardware.  It's fully possible that IDS software
+runs on a machine with packet filtering capability as well, and therefore
+only interacts with control structures for the packet filtering subsystem)
+
+	There are a few free Intrusion Detection System programs available
+for UNIX, and plenty of rather inexpensive (but not free) ones as well,
+for UNIX and Windows NT.  There are also plenty of VERY expensive
+Intrusion Detection systems, too.  When you decide to "explore" a network
+that doesn't belong to you, you have to do your homework.  This is a major
+thing!  Remember that hacking is not a hobby, it is a way of life that
+requires hard work, long hours, patience, perserverence, and a healthy
+dose of reading up on your potential target.  The problem is this: most
+IDS's will set off alarms if it sees typical "script kiddie research",
+where most people go for tracerouting, portscans, and TCP OS
+Fingerprinting.  This is not suitable when trying to keep the IDS from
+immediately flagging you.
+
+	The first thing you want to know is what OS they are running.
+This narrows down the choices of IDS they could be running.  We are going
+to operate under the assumption that you have no clue if they have an IDS
+setup, yet you are trying to remain as stealthy as possible, for safety's
+sake.  Once you know what IDS software they are likely running, you will
+have a better idea of what you can and cannot do.  
+
+	TCP Fingerprinting (using things such an NMAP's OS Fingerprinter,
+or "QueSO") sometimes works without seting off any alarms, but it
+requires that you know an open port (NMAP doesn't require an open port,
+but it DOES perform a portscan that WILL set off most IDS's). Usually a
+TCP fingerprint test sends 6 STRANGE packets to an open port.  Certain
+loggers can detect these bizarre patterns of packets, and some IDS's will
+pick up a quick burst of packets as a Denial Of Service Attack, and you're
+nailed.  That's Bad. Don't risk it.  If all else fails, try to setup as
+many IDS's as possible, and see if QueSO sets it off.  More on this
+later...  Even if a lot of the target's stuff is behind a firewall, the
+Web creates an iris of opportunity, where you, the creative hacker, may be
+able to get a little more info.   
+
+	No normally configured IDS will pick up normal web surfing as an
+"Intrusion" unless you try to access restricted pages.  This means to feel
+free to surf around and look for stuff.  Abuse their "Search" website
+feature, if available, and look for a brag session where the company CEO
+puts a page up explaining how he's proud tha they just bought some new X
+brand server running <Blah>, and how it's un-hackable.  If you're lucky
+and they are stupid, they will even tell you what IDS they use, right
+there on the webpage.  If this doesn't work, you may want to attempt
+coaxing a version response out of their web server.  This is a chunk of
+BASH Shell Script (originally called "httpdquery" that my pal Razathorn
+Threw together for me, it picks out HTTPD Server Version numbers from
+error messages.  Running this once against a system with a web server
+running would normally not set off any alarms: it's syntax is:
+
+httpdquery hostname.com	(port 80 is hardcoded into the script)
+
+__________________________CUT HERE_________________________________
+
+#!/bin/sh
+
+NOTE=/tmp/.httpdquery-$$-$RANDOM
+
+export NOTE
+touch $NOTE
+
+(echo -e "http / 1.1\n";while [ -f $NOTE ]; do sleep 1;done) | 
+(telnet $* 80 2> /dev/null| grep '^Server:';rm $NOTE)
+
+__________________________CUT HERE_________________________________
+
+My Fairly basic RedHat 5.2 Workstation gives this response:
+
+Server: Apache/1.2.6 Red Hat
+
+That's kinda bad, Really.  You just got a close look at what OS is most
+likely being run, just by using a standard http get.  This means that it's
+most likely a linux system, or there's someone on the other end that wants
+you to THINK it's a Linux system, and is rather intelligent about changing
+Server Version Responses. There are other ways of trying to figure out
+what OS they are using on the server you wish to play with.  These can
+range from Social Engineering techniques to "Dumpster Diving", or any
+other method you can think of.  Please note that not all web server
+daemons will barf out a version response like this.
+
+If all that fails, you may want to Social Engineer some info out of
+employees or other people.
+
+Once you find out what OS they are most likely using, go to your favorite
+massive search engine (I prefer Dogpile.com and metacrawler.com, myself.  
+These two search tons of different search engines at once), and look for
+IDS software for that OS.  You need a test machine.  Try to set up a
+machine with a similar configuration.  Obviousely it will be hard to know
+exactly what IDS they chose, or the coniguration that was used.  If you
+can disconver this information, your job just got easier.
+
+Like I said before, you need to set up a test machine for your own evil
+purposes.  Give all the IDS software packages a try, and see what features
+it offers. Your goal is to see exactly how far you can push the IDS
+without setting off any alarms.  Don't worry about logs yet.  Most admins
+that use IDS software won't look at the logs unless the IDS pinpoints an
+IP address as one that was attacking, and then they use system logs to see
+exactly what was going on, a little closer.  You need to try portscanning
+it, using QueSO and NMAP OS Detectors, Try different stealth portscanning
+techniques, and anything else you can think of.  See how long of a delay
+you can use between ports on a portscan, and randomize what ports you use.
+Many people will scan just one port every 3 hours or so, in random order.
+By the end of a day. you could have a difinitive answer about 4 or more 
+different services. With a really paranoid sysadmin and the right IDS, 
+even this kind of scan can lead to being scrutinized.
+
+All things considered, once you know what OS they are running, a check on
+just a few services will tell you an awful lot if you know what you're
+doing. If you know it's solaris, then you look only for "buggy" solaris
+services to try to exploit.  You don't go searching a solaris server for a
+linux-specific exploit, do you?
+
+This process is known in the Info-Sec business as a "slow scan", where a
+would-be hacker is really taking their time.  This kind of scan is
+becoming more and more popular, and the IDS industry probably is not far
+behind.  I know some IDS systems can be set to look for slow scans, but
+they only detect a slow scan if it can find a pattern (for instance every
+2 hours and 42 minutes (roughly) it picks up a connection to a different
+port from the same IP Address, and this happens for almost a whole day...
+some IDS can be told to red-flag this type of activity)
+
+There was just a CERT Advisiory released no long ago, about "Distributed
+Scans".  These are relatively new.  Check out SecurityFocus.com, and
+CERT.org for information regarding this type of scanning.  I do believe
+that SecurityFocus's tool archive contains some cool programs for doing a
+Distributed Scan.
+
+Another Variation that sometimes throws off an IDS is using the
+proof-of-concept scan and sniff approach, where you portscan someone with
+a spoofed IP Address of a machine on your local segment.  if you are
+sniffing, you will see the results of the portscan, even though they were
+not destined back to you.  This shows up in system logs and to IDS systems
+as if it were not your machine portscanning, but someone else's...
+sometimes.  If executed properly, it's possible to spoof several machines
+on your network, doing a slow scan, with (apparently to the IDS) different
+IP Addresses.  This approach would normally be inconspicuous enough to fly
+below the IDS' radar.  There is a tool out there that does this, but I
+cannot remember the name.  I think I found it on packetstorm some time ago
+(http://packetstorm.securify.com).
+
+Another option, similar to the aforementioned one, is to use different
+internet access methods.  If you have internet at work, scan one port from
+work.  Once, that's all.  Go home, use your dialup account to do it again,
+just one port.  Go to a friend's house if they use a different ISP, and do
+it there, too.  If you take your time and execute this part very
+carefully, there will be no (or very little) cause for alarm as far as
+your target is concerned.  This can also be executed if you have friends
+on the phone or in IRC, you can say "hey...check to see if port 25 is open
+on yourmomma.com!"
+
+Some things to look out for:
+
+Sysadmins can be real bastards (trust me, I'm one of them!).  At times,
+they do something so unheard-of and unbelieveable that you can't accept
+the fact that you've been had.  One of these many things is setting up a
+hacker trap, where a "trophy" is just laying there, waiting to be taken.
+There are various names for such a setup, but one of the more popular
+jargon terms is "Honey Pots", christened because of their likeness to pots
+of honey that hikers would place far away from their sleeping area (but
+close enough together that a bear would run into one of the honey pots
+before it ran into the weary campers).  It would distract dangerous bears
+from the camp area.  
+
+Sysadmins (being sometimes the sadists that they are), will plop a 486 on
+the network, and make it appear to be running buggy versions of certain
+services.  While these may or may not really be running the services, the
+would-be hacker sees this supposedly "easy rooting" and spends a fair
+amount of time messing with this system, and while this is happening,
+alarms are going off, and people are being e-mailed and paged.  The system
+might be putting firewall rules into place to make sure you are denied
+access to anything more important than the one lowly decoy, too.
+
+Basically, There are only a few types of IDS systems:
+
+Type of IDS  Functionality			     Software that does this:
+-----------  ---------------------------------       ---------------------
+Loggers	     (just keep track of scans, etc)	     tcplogger, scanlogd
+Reactors     (takes action upon scanning, etc)       portsentry, NSW Dragon
+Integrity    (checks integrity of system files)      tripwire
+
+We're really looking at loggers and reactors here.  Once you've obtained
+any access to the machine, the Integrity checkers and system logging
+facilities will have you.  You must determine if these exist and how to
+make sure your tracks aren't seen again.  That is outside the scope of
+this document.  
+
+On many UNIX systems, things like tcplogger and scanlogd are used rather
+often.  These are capable of detecting and logging any portscans
+(including stealth scans).  Their sensitivity can be easily modified, but
+by default, these tools are both rather strict.  These tools might also
+pick up certain types of scans that reactors such as Portsentry might
+miss.
+
+Portsentry is another UNIX portscanning detector, but it is meant to not
+only log the scan, but it can be programmed to deny access to the local
+machine by means of firewall utilities, or by dropping the route to the
+offending IP Address.  It can also run a script that the sysadmin
+configures.  This could be anything from a script that pages the admin, to
+emailing information about the offender to an email address, or even
+creating an automatic retaliation attack against the offender.  Portsentry
+is written in perl and is very configurable.  Chances are with some
+hacking, it would run on Windows NT, but I'm not sure.
+
+All three above utilities are provided under the GNU General Public
+License, so you're more than happy to pick up a free copy and look at or
+modify it to your needs.  As a hacker, I would recommend that you use this
+to your advantange and study these programs to the best of your ability,
+and if you find a way to increase functionality in them, submit the
+changes to the author.
+
+Other IDS tools exist, that don't quite fit into any of these
+categories.  These are ground-breaking programs such as L0pht's AntiSniff.
+Currently, this only works on Windows NT, but they are working on a
+command-line driven one for UNIX that will be open-source.  AntiSniff is
+commercialware, and needs to be licensed after a trial period.  What
+AntiSniff does, is looks for machines on it's local network that are
+sniffing.  Sometimes if a machine is sniffing, it responds a little
+differently to certain packets.  This is the theory behind A tool called
+"Neped" (which encapsulates a broadcast tcp packet inside a
+deformed Ethernet packet). The L0pht went a different direction, however.
+AntiSniff places the machine it resides on in "promiscuous mode" as well,
+turning the machine into a sniffer of sorts.  It then makes false requests
+and phoney IP packets.  Normally, any computer that's not sniffing would
+ignore it, but many sniffers try to resolve IP Addresses, or do other
+things that make reference to the false packet that was sent out.
+AntiSniff quickly determines that something fishy's going on, and flags
+the IP and MAC Address of the sniffing machine.  
+
+There are only three reasons that a machine on the local network would be
+sniffing, and two of them are malevolent:
+
+* Someone has compromised or otherwise obtained access to a port on the
+  local network and is using their own hardware as a sniffer.
+
+* Someone has "rooted", "0wn3d", or otherwise compromised security on a
+  machine on the local network.  This could be a windows 95 machine with
+  buttsniffer, a compromised UNIX server, or anything.  This is not
+  restriced to being a server.  Anyone with point and click skills can
+  setup a sniffer on almost any network-aware OS you can think of.
+
+* Someone is doing legitimate network analysis.  This usually doesn't 
+  happen very often unless the network is in shambles.
+
+On BUGTRAQ, shortly after L0pht's AntiSniff Announcement, people were
+already coming up with sniffers that sould make an attempt to foil
+AntiSniff's efforts.  These sniffers were VERY minimalistic.  Check out
+the archives, as there was some nice code exchanged.  The thread name was
+something to the effect of: "The Anti AntiSniff Sniffer", and you thought
+Recursive Acronyms (GNU's Not Unix, PINE is not Elm, etc) were bad...
+
+This exchange took place quite a while ago, and the latest AntiSniff may
+be a bit better at picking up the stealthier sniffers, but who knows.
+That's up to you to figure out.
+
+Just remember, when you know what your target's defenses are, you have a
+better chance at being able to set up similar defenses for yourself and
+play with it.
+
+On the flip side, any system administrator that leaves something as
+important as an IDS with the default values shouldn't be a sysadmin.
+Unfortunately, there are way too many of these around.  Just a heads up.
+If you stray away from the defaults when setting up an IDS system, you are
+likely to catch more of the activity.  Your modified rule sets will more
+than likely be stricter than default, and the people who think that
+they're undercutting your mechanisms will succumb to the same fate as the
+guy who portscanned you 20 times yesterday.  =]
+
+If that alone isn't enough of a reason to modify your IDS, just consider
+the rest of your machine.  Would you leave everything default?  I'd doubt
+it.  You never leave things stock, so why give your IDS anything less?
+
+
+
+
+-----------------------------------------------------------------------------
+                              - HiR Issue #10 -
+                   - Yet Another Operating System Review -
+             - A look inside The Be Operating System (BeOS 4.5) -
+-----------------------------------------------------------------------------
+
+	So, towards the beginning of Novenber I was walking around Best
+Buy (drooling over the Rio, and looking for some Linux stuff and audio
+equipment) when something takes me by surprise: a BeOS Bundle (The OS and 
+a really great book called "The BeOS Bible").  I'd actually been trying to
+get a copy of BeOS from an acquaintance of mine who had a "Warez" copy of
+it, just to try it out.  (It's $99 from BeDepot.com, and up until
+recently, it was never carried in stores).  I was willing to cough up $100
+for an OS that I like, but I wasn't about to cough up $100 just to
+try something...
+
+The bundle pack was going for $54.99... A Winner in my book.  So I picked
+it up, but I had *NO* idea what was I was getting into...
+
+
+Part I, The Bad News:
+
+BeOS is NOT Unix.  It is not Unix based, and it is NOT built to be secure,
+or to be a massive web/ftp server OS.  It is VERY picky about what
+hardware it supports, and it didn't install on a single one of my
+computers at home.  It is single-user, and offers no form of password
+protection at the console aside from a screen saver password.  Period.
+There is no full screen text mode.
+
+Part II, The good news:
+
+That wasn't a lot of bad news, but those are the ONLY drawbacks I saw.
+You may be thinking "Why would I want to go back to a single user system
+again?"  And I can agree... but consider the following:
+
+BeOS ships with a telnet and ftp server.  When you telnet in (or open a
+"Terminal" window), you use the bash shell to communicate to the kernel.
+Lots of unix commands work on BeOS, because it's striving for POSIX
+compliance, and many UNIX programs compile on BeOS.  Technically though,
+it's not unix.  The fact that it allows you to compile UNIX software and
+use unix commands makes it UNIX based about the same way learning to speak
+spanish makes you a Spaniard. (I.E. it doesn't.)
+
+In network settings, you can specify a username and password for ftp and
+telnet, but only one username and password.  There are several third party
+FTP servers out there for BeOS, and many of them support multiple user
+profiles, and that allows you to toss different users into different parts
+of the system, and keep them from seeing anything else.  
+
+Processing SCREAMS on Be.  Period.  On my lowly Bitch Box (TM) (which, if
+you will recall, is a Pentium 120 with 64 Megs of RAM, and a swappable
+hard drive rack), I was able to run multitudes of number-crunching
+graphical demonstrations at once.  While sometimes things slowed down a
+little, nothing got lagged or choppy.  The BeOS is VERY scaleable from
+what I see.
+
+BeOS also integrates into the Internet rather nicely for the end user, and
+it makes beautiful use of mime-types for files.  The file navigator
+equivalent to MS's "Explorer" (Called "The Tracker"), will open pretty
+much any file on your system.  You can set view preferences on a
+folder-by-folder basis.  When you look at your E-Mail inbox, it's actually
+the Tracker, and it will let you show E-mail attributes of the cached
+files, such as date of arrival, Subject, Who it's from, etc...
+
+NetPositive is the default internet content browser that comes with Be.
+As far as I know, Netscape hasn't been ported to Be yet, but mozilla might
+compile.  NetPositive has no java functions whatsoever, but it usually
+does the job.  The Guys at Be, Inc. have done a lot of hard work on the
+OS, and they are more worried about keeping the Operating system
+feature-rich than they are about making sure it comes with the best toys
+available.  This is to urge the industry to write software for BeOS, and
+it's worked so far. 
+
+There are already hundreds, if not thousands of BeOS applications.  Many
+of them are commercial (must be bought), or crippleware (demo versions
+that get un-crippled when you register).  The packaging program,
+SoftwareValet, contains a mechanism for online registration of software
+(if the author of the software chooses to make the registration
+compatible with it). 
+
+BeOS does have some major advantages over many other OS's though.  For
+instance, it integrates very well with the Internet, as UNIX, but on the
+users' level.  It doesn't start up loads of services that the user has to
+figure out and set-up correctly.  It also uses the "Be FileSystem" or BFS,
+which is a true 64 bit journaled file system.  (Journalling means that it
+don't gotta fsck or scandisk if it suddenly gets shut off.  This is
+because it "journals" all disk transactions as they are made).  Being a 64
+bit filesystem, it also is very unlikely that drives sizes will exceed the
+filesystem capabilities.  64 bits equals an 18,000 petabyte limit.  that's
+about 180 times the estimated used hard drive space on ALL THE DRIVES in
+the world right now... shudder...
+
+I will be honest: I don't see BeOS becoming the next Linux or *BSD (as far
+as being a majority player in the non MS/MacOS market).  It's almost a
+project that I'd like to see eventually  become freely available or even
+Open Source (Through a BSD or GPL license), but who knows.
+
+Who SHOULD try this OS?
+
+	Anyone who's an OS psycho like me
+	Anyone who wants a user-friendly, yet very quick and scaleable OS
+	Anyone who's tired of MacOS and MS, but not nerdy enough for UNIX
+	Anyone who likes to sample the cutting edge
+	Anyone who's prepared to pay small amounts of money for well-
+		written software (BeOS IS commercialware, but in the scheme
+		of things, inexpesive.  Most of the apps written for it are
+		the same way. Unlike M$, you don't spend hundreds of bucks
+		to get the software you need)
+
+Who should NOT try this OS?
+
+	Anyone who adores one OS, and doesn't like dual-booting
+		(not enough software yet...)
+	Anyone that's wanting to keep their parents/roomies out of their
+		files
+	Anyone who wants to run lots of services
+	Anyone who can't live without full-screen textmode 
+	Anyone that expects to have thousands of full-fledged apps
+		ready to run.  More and more programs are being written
+		for BeOS.  It even has it's own site on Tucows.-=- HiR 10 -=-
+RISC, CISC and The concept of the Power-PC
+By. Asmodian X
+
+In this article I plan to outline the Power-PC series processors, and their
+origins.  I also intend to draw out the differences of RISC chips and
+CISC chips.
+
+This article is intended for intermediate audiences who Know the basics on
+how a computer works, and are wondering what the big deal with these
+expensive Workstations and servers that are non-Intel.
+
+............oooooooooOOOOOOOOooooooooooooooo..............ooooooooooOOOOOoo.
+Section 1 ........................ 	Why.
+Section 2 ........................ 	IBM, Apple, and other large faceless
+					corporations.
+Section 3 ........................      Intended uses
+Section 4 ........................      RISC Vs. CISC
+Section 5 ........................      Fact Vs. Fiction (seeing through
+					marketing ploys)
+Section 6 ........................      Summary
+Section 7 ........................      Resources
+
+........ooooOOOOOooooooo.............oooooooooooooooOOOOOOOOOoooooooo.......
+
+-=- Section 1 -=-
+Why?
+
+Why am I writing this article, Intel based designs are cleaning up in
+the PC market, MAC's are still the under dog, what's the point?  
+Well, if you have ever argued with a Mac enthusiast about who's better, and 
+walked away victorious, but secretly wondered what really lies underneath
+the hood of one of the new(er) power Mac's.  Or if you are wondering what
+the real difference between a Desktop and a workstation, then this article
+might be able to shed some light on the subject at hand.  I am primarily
+focusing on Mac's because they are the more popular source of PPC machines.
+
+
+<RANT>
+As a company, apple sucks, their OS suck only if you don't want to conform
+to their standards.  Mac OS's primary attributes is that is has a very
+small learning curve.  The hardware is cool if you don't mind the
+proprietary shit that apple pulls.
+</RANT>
+
+-=- Section 2 -=-
+IBM, Apple and other large faceless corporations.
+
+xx IBM xx
+
+IBM is the leader in High end, workstations, and super computers.
+IBM started out with a processor line called the Power processor
+which was featured in its RS/6000 series of workstations.  The Power
+processor was a Full RISC processor.  The modern Power-PC processor
+is a direct derivative of IBM's Power processor.
+
+IBM has its own chip manufacturing capability's.
+
+xx Apple xx
+
+Apple specializes in consumer grade graphics personal computer.  Apples
+designs have generally featured RISC processors manufactured by Motorola. 
+Apple chose RISC because it is less complex and faster than the CISC
+architecture.  Apple markets to people who are not technically literate.
+Hence why a great percentage of Mac users are scoffed at by their PC
+counterparts.  Typically most Mac users tend to gravitate around graphic
+design, and journalism. 
+
+xx Intel xx
+
+Intel originally started out like IBM, catering to the upper end Server
+market.  Then a couple of engineers designed a processor based on the
+4004 series calculator chip.  The processor series eventually lead to the
+advent of the 8086 chip, which was featured in IBM's new Personal
+computer.  IBM PC's were introduced into an office environment which caused
+growth in business application development, and Engineering.  Because of
+this, IBM computers were slow to adopt a graphical user interface.  Also
+because of the business nature, new computers needed to be backward
+compatible to allow integration with existing PC's.  Because of this,
+Intel's chips grew into CISC chips or (Complex Instruction Set Computing) 
+
+Because Intel and IBM did not take the market seriously, competitors
+flourished, and proprietary architectures withered away due to the advent
+of open standards, and industry standards.
+
+-=- Section 3 -=-
+Intended Uses Of the Power-PC
+
+IBM and several competitors saw that RISC was the technology of the
+future.  The problem was who's version of RISC to go with.  So rather than 
+Re-inventing RISC, They built the standard on top of the existing IBM Power
+Processor.  Power-PC 60x Chips can run IBM power code natively with one or
+two hicups when it tries to run some Buffer Clearing Instructions.  IBM
+compensated for this shortcoming with some emulation code in their AIX
+operating system.  IBM Implemented the Power-PC on their RS/6000
+Workstations in place of the Power Processor.
+
+Apple entered the game wanting to compete with the new Intel Pentium chip. 
+In the Power-PC Apple saw Superior performance and Lower production costs. 
+One little problem, The M68000 series instructions did not work on the
+Power-PC chip.  To compensate for this problem, Apple, included emulation
+for the Motorola based applications and operating system code.  Apple
+(like all of the other attendees) was very proprietary, and on the first
+few batches (Like the Power-Mac 7100) utilized the old NuBus Peripheral
+Bus.  Because of this, and other proprietary problems, the early PowerMACs
+were unable to boot alternative operating systems with out at least some
+form of MacOS assisting it.
+
+I believe Mac OS will continue to emulate the old M68k chips, but for the
+most part the Operating system has slowly been ported over to the PPC
+platform.
+
+-=- Section 4 -=-
+RISC Versus CISC
+
+In concept RISC Provides More speed for less price.  RISC chips use less
+logic circuits to attain the same raw performance of a CISC processor.  A
+CISC chip provides backwards compatibility which eats into performance,
+and cost.  Simply speaking it is more efficient than the CISC platforms. 
+
+However, RISC has some down falls.  Apples choice to emulate its older
+Motorola Processor pointed out its own need for backwards compatibility. 
+Emulating a processor logically is slower than adding that functionality to
+the chip itself.  maintaining software that will work on older processors
+but will not work on newer ones is much more difficult than just dropping a
+new system into an office and have it work seamlessly with existing
+machines.  So CISC computers are much more versatile than their RISC
+counterparts in that they can be implemented with out requiring special
+emulation software, it can run the older programs with out a problem, and
+faster than the older computers can.  The early advent of open standards
+allowed for the porting of Operating system software and Applications to
+the PC platform much easier than most RISC systems which were and in some
+respects are still proprietary in nature.  Simply put CISC is more
+versatile in use, and easier to develop for, and produce, there for it is
+more popular. 
+
+To compare CISC versus RISC, one might compare a VHS to a Beta.
+
+(Note: a while back there was a battle of standards, and industry standard
+called VHS, and Sony's Beta standard VCR.  VHS won because of popularity,
+SONY was a better technology, but was proprietary, and inflexible) 
+
+
+-=- Section 5 -=-
+Fact Vs. Fiction
+
+Fiction: Power-PC's can run PC code natively
+Fact:    Power-PC's must use emulation software, and some times hardware.
+
+Fiction: Mac application software can be run on any kind of macintosh.
+Fact:    Power Mac's emulate their older m68k counterparts 
+	 otherwise running older software would be impossible.
+
+Fiction: A power Mac G4 is over three times as fast as a Pentium.
+Fact:    Thats true from the perspective that a Pentium II 300 is
+	 over three times as fast as a 486 DX4 100.
+	 ( Point being that CISC will always be slower, especially if
+           you testing a 64 bit processor, versus a 128 bit processor.
+           That statement is called a "Red Herring"; A true statement that
+           has nothing to do with the subject at hand. )
+
+-=- Section 6 -=-
+Summary
+
+Indeed, the RISC architecture is better at raw power.  Yet CISC is more
+versatile, and easier to implement.  CISC generally is also easier to
+develop for, because you don't have to re-invent the wheel all over
+again.  The extra instructions you can use save a bit of time in
+compiling . 
+
+Its kind of a trade off.
+
+
+
+-=- Section 7 -=-
+Sources:
+
+White Papers:
+http://www.ibm.com
+(searched for "Power-PC 601" and browsed info from their RS/6000 section)
+
+Sales literature:
+http://www.apple.com/
+(searched for "Power PC", "Power PC 601" and "Power Mac 7100")
+
+Operating system(s):
+http://www.mklinux.org/
+http://www.netbsd.org/
+
+http://www.apple.com/
+(searched in their tech library on "Power PC 601", "Emulation", "ROM",
+"7100")
+
+<EOF>
+-------------------------------------------------------------------------------
+
+				HiR Issue #10
+			  Setting up your home-net
+
+ 				   by Axon
+
+-------------------------------------------------------------------------------
+
+I.	Introduction
+II.	Hardware Requirements
+III.	Software Requirements
+IV.	Intra-Net host setup (getting your server onto the 'net securely)
+V.	Intra-Net workstations setup (getting your computers to talk)
+VI.	Testing
+VII.	Advanced Firewalling
+IIX.	Closing
+
+-------------------------------------------------------------------------------
+
+I.	Introduction:
+
+	This is going to be a general tutorial on how to be *REALLY*
+connected at home.  This article is mostly geared toward the people with
+2-10 (or more) computers at home, or for small businesses with a
+relatively tiny private network.  This isn't guaranteed to work, and is
+based totally from my experience setting this system up in my own home.
+This includes cross-platform ability (We have Win95/98/Linux at my house).
+
+
+----------------------------------------------------------------------------
+
+
+II.	Hardware Requirements:
+
+	You'll need:
+
+* At least 2 computers
+
+* A network card for each computer to be connected together (try to
+     make them the same brand, and make sure they're all the same media.
+     I prefer 10BaseT, but choose your own here)  
+
+* Cables to hook the computers together, and a hub (or a crossover cable
+     if just using 2 computers)
+
+* Maybe a crimping tool and hardware to crimp your own cables
+
+* The Host Machine should be a 486/33 or faster with at least 32 megs of
+     RAM.  It should probably have at least 200 megs of hard drive space,
+     but since it can also be used as the Intra-Net server and a
+     workstation at the same time, it would be to your benefit to make
+     this a more powerful machine.  This will be running Linux. (This example 
+     will be done using Red Hat 5.2, but I've successfully done this with
+     Other UNIX-like OS's such as FreeBSD, which is what I am currently 
+     using.)
+
+* The workstations need to be able to run an OS capable of recognizing the
+     network card and using a TCP/IP stack (Windows/Linux/MAC-OS all work)
+
+
+----------------------------------------------------------------------------
+
+
+III.	Software Requirements
+
+* The Workstations need an OS that can get a tcp/IP stack over a Network 
+     Card.
+
+* The Host machine must be using some version of Linux (Redhat 5.2 works,
+     and I'll be making reference to some tools that only RedHat has, but
+     an experienced Linux user should be able to figure out how to get any
+     other Linux Distro to get this to work.  RedHat was chosen for this
+     article because of it's ease of setup (with GUI tools) and the fact
+     that the kernel was built with the proper options for masquerading.
+     This would just be the "friendliest" way to set things up. I do not
+     support any one distribution over the other as far as which one is
+     "best", as it's all personal preference.  I'm actually using FreeBSD
+     right now (I know, it's not Linux), but it is a little more
+     difficult to configure for this purpose, and requires a kernel
+     recompile among starting and configuring natd (Network Address
+     Translation) services.  It's a different approach, but the results
+     are even better.  E-mail me if you want a copy of my FreeBSD kernel
+     Configuration file.
+
+
+----------------------------------------------------------------------------
+
+
+IV.	Intra-net host setup.
+
+	The goals of our intra-net host will be the following:
+
+* Act as a network management workstation
+
+* Act as a network print server (if desired)
+
+* Act as a network file server (if desired/needed)
+
+* Access the Internet (through a modem/ppp in this example.  Doing this
+     through a cable-modem or DSL can be done, as well, but almost always
+     requires a second Network Card)
+
+* Act as a packet-filtering firewall to isolate intranet from the Internet.
+
+* Act as a gateway, so that all intra-net computers have shared, secure 
+     Internet access when the Host system is online.  Workstations should
+     reside behind this machine as a firewall to prevent network attacks.
+
+* Be as secure as possible, as the Host system will be your only line of
+     defense.  Once someone's compromised your Host, that's pretty much
+     it, and they can do more damage once inside your intra-net.
+
+In order to act as a network management workstation, the Host needs to
+have a few programs installed:
+
+* ipfwadm (if you're using kernel 2.0.x.  This comes with RedHat 5.x and
+     most other kernel 2.0.x based linux distributions)
+
+* ipchains (if you're using kernel 2.2.x.  This comes with RedHat 6.0, and
+     most other 2.2.x based linux distributions.  As a side note, I would 
+     strongly recommend compiling a fairly new version of kernel 2.2.x,
+     even on your RedHat 5.2 installation.  If you don't know how to do
+     this, just stick with RedHat's default kernel.)
+
+* tcp-wrappers (also known as inetd.  This allows us to restrict incoming
+     access from remote networks).  Comes with most distributions.  You
+     may take a serious look at a package called xinetd, as well.  It has quite
+     a few very tasty features (ident lookups on all connections, etc)
+
+* Secure Shell 2.x, which will allow you to make secure connections to the
+     host system from outside, if you must do so.  If you're somewhere
+     else on the Internet (I.E. at work) and you want access to to your
+     home network, You will have to make a connection to the host system
+     before you have access to any other system on your network.
+
+* Some sniffers and analysis tools are nice to have, for troubleshooting
+     the network.  I recommend tcpdump (comes with many distributions) and 
+     iptraf (available all over the web, check around)
+
+* Kernel must be compiled with IP Forwarding enabled, masquerade enabled,
+     etc.  I'm not going to quite get into setting up masquerading in the 
+     kernel. Read the IP-Masquerade mini-HOWTO, which is flawless at
+     describing the basics of setting up masquerade stuff.  We'll get
+     around to some changes you'll make to the examples in a bit.
+
+* "setip" is optional.  It will upload a file called ".ip" to the ftp location
+     of your choice.  This is good if you want to be able to remotely
+     access your network at home from a remote location, but have dynamic
+     IP or DHCP,and therefore have no clue what IP you might have at any
+     given moment.
+
+* I also use the "Deception Finger Daemon" on my firewall/host at home.
+     it can generate false user reports to people who attempt to use
+     finger to determine what users are logged on or exist on your
+     network.  "dfingerd" also can make syslog entries, so that you know
+     when you're someone's taking a peek at you.  It's fairly easy to
+     install, and the documentation that it comes with is very detailed.
+
+	The first thing we want to do is to get the host machine to be
+     able to connect to the Internet.  This can be done with RedHat's
+     "netcfg" utility, used in the X-Window environment, or by manually
+     setting up the chat script and ppp options for your ppp interface
+     (these files are located differently between distributions)  You
+     will need to supply a phone number, user name, password, and you will
+     probably want to make it so "Any user can control this interface",
+     which is a checkbox in netcfg.  This will be so that anyone on your
+     network will be able to get the host system onto the Internet (and
+     when we're done, this fact will mean that your entire network has
+     'Net access).  Test out your Internet Connection.  Telnet to
+     something, or type "lynx hir.chewies.net" and surf the HiR Distro
+     Site.  =]  Once that's working, you may want to add a user account 
+     for all people to use the home-server, or just a single account for
+     the users, that is shared and can bring up and take down the I-Net
+     connection.  After that, you should be ready for the next step: 
+
+	Setting up your ethernet card... Hopefully it's already installed,
+     but if it isn't, halt your Host machine, install it, and power back
+     up.  We need to go back into X and use netcfg again (or whatever it
+     is your distribution uses for setting up Network Cards).  Add an
+     "ethernet" interface (eth0), and set it up like this:
+
+	IP-Address: 	192.168.1.1		(fake IP used for Intra-Nets)
+	Netmask:	255.255.255.0
+	gateway:				(leave blank)
+
+        In netcfg's "routing" tab, select "Network Packet Forwarding"
+     and don't worry about a route, as the ppp interface will become
+     the default route once it's connected.
+
+        You should now have created a class C intranet.  Now to secure the
+     server... The server is your golden goose.  The rest of your machines
+     are hidden from view from the outside world, and your server is the
+     only machine that can be seen both by your side of the network and
+     the rest of the world (Via the Internet connection).  Once your
+     server has been compromised, anyone who knows what they are doing,
+     will see all your other machines, and potentially attack them, using
+     your own server's recources!  Potentially, they could figure out all
+     the passwords that your users use, they could possibly erase all the
+     files on open file shares, and maybe even abuse your paper and
+     toner/ink supply on connected network printers. That's an insult.
+
+	The first thing we're going to do is lock down your open ports
+     with tcp-wrappers.  inetd is the tcp-wrapper program that checks for
+     authorization to use a service.  Not all of your services run through
+     inetd (mostly sendmail, httpd, and secure shell).  Inetd protects
+     services such as telnet, finger,  shell, login, auth, etc.  When
+     someone attempts to use any of these services, inetd checks 
+     /etc/hosts.allow and /etc/hosts.deny (respectively) for a line
+     containing an inclusion for the service name (either the daemon
+     executable name such as "in.telnetd", or "in.fingerd".  "ALL" 
+     includes all service names).
+
+        My home server's hosts.allow file allows all the workstations
+     behind the masquerade to access my hosts full potential, but locks
+     the rest of the internet out, except for dfingerd, that fake finger
+     daemon I was talking about earlier.
+
+	ALL : 192.168.1.0/255.255.255.0
+	dfingerd : ALL
+
+        As soon as anyone connects to my machine, say with telnet, it
+     checks hosts.allow to see if they have been granted access.  If
+     they're on the Internet (not on my intra-net), they aren't on this
+     list, so it checks to see if they have been disallowed in hosts.deny.
+     My hosts.deny file is simple:
+
+	ALL : ALL
+
+        This makes sure that only things granted in hosts.allow will make
+     it to my system.  Note that the deny ALL doesn't cover ssh, so I can
+     still get back in over an encrypted connection if I know my IP
+     address and have a user/password.  Also notice if any remote machine
+     tries to use dfingerd, they will be allowed, because inetd doesn't
+     check hosts.deny if there is a rule in hosts.allow that applies to
+     that connection.
+
+        If you're really in for security, I would advise trying to setup
+     xinetd, which will attempt to find the username of the person who is
+     connecting to the port my making use of their local machine's ident
+     service (if available, which it is on most UNIXes and if they have
+     mIRC running at the time, too).  It's a little more difficult to set
+     up, but it still uses the hosts.[allow|deny] convention.
+
+        Remember, anything that starts up outside of "inetd" is not
+     protected by this modification, so don't rely specifically on it.
+     Some daemons will try to read the hosts.allow/deny files as well, so
+     there are a few exceptions.  In general, you will want to keep things
+     as closed up as possible, allowing telnet and ftp from machines on
+     your private Intra-Net.  Also, TCP-Wrappers are all considerably 
+     more open to attacks involving spoofed packets, and it may be
+     possible for someone to make a packet with a source address of one of
+     your trusted machines, but coming from the outside world.  Since TCP
+     Wrappers only has support for IP Address restrictions, they can't
+     tell if the traffic is coming in from your network card on the
+     trusted side of the firewall, or from a machine on the other end of
+     the ppp connection through the modem link.  This is where packet
+     filters (such as ipfwadm and ipchains) come in.  
+
+        Ipchains and ipfwadm are not the actual filters; but they are
+     programs that control parts of the running kernel.  They tell the
+     kernel what kinds of packets you wish to let through, and what
+     kinds of packets you wish to deny.  Since filtering takes place at
+     the kernel level, the filtering can potentially use any aspect of
+     the networking structure to describe what packets to look for.  
+     This means that you can specify not only what addresses to allow
+     or deny, but also what individual protocols, network interfaces, 
+     and many more things.  This also means that you can manipulate
+     the kernel into "repeating" or "routing" traffic between interfaces,
+     allowing you to force the kernel into being a makeshift router for
+     your home or small business' network.  It looks for traffic that's
+     not meant for any of the local machines, and tries to push it out
+     over the modem link.  If the connection is successful, one of your
+     networked machines suddenly can access stuff THROUGH the server.
+     Then, even more machines can do it at the same time, too.  You
+     could have as many connections as you wanted over one modem link
+     (of course after 3 or 4 connections going at once, the link would
+     become very slow).  The Linux community calls this routing procedure
+     "Masquerading".  The *BSD community calls this "Network Address
+     Translation", but like I said before, NAT is a little more than
+     just kernel work.
+
+	Now, we need to use either ipfwadm or ipchains (Depending on your
+     kernel) to add masqerade rules.  Some people say to add a general
+     policy to masquerade, and that's bad, because it would allow all
+     sorts of evil stuff to happen, including maybe someone being able to
+     hide themselves behind your masqerade and access all of your network
+     resources without authorization.  This is also known as "The Bad
+     Thing".  Also, I prefer to add masqerade rules on a per-machine
+     basis (as in, one ipfwadm/ipchains line that tells the kernel to
+     forward packets from workstation 1, workstation 2, etc... instead of
+     telling it to forward from all hosts in 192.168.1.x.  That's kind of
+     my personal preference, but it's how I would suggest doing things.
+     Ipfwadm or IPChains rules may be typed in at any time, but I would
+     suggest putting the commands into your /etc/rc.d/rc.local file, which
+     is the closest equivalent to an "autoexec.bat" for Linux.
+
+     If you're using IPChains on your Host Machine (with RedHat 6 or any
+     other kernel 2.2.x based Linux system), this example should
+     give your machines with IP Addresses 192.168.1.2 and 192.168.1.8
+     access to the internet when you're connected.  Just add more
+     "ipchains -A forward -s ..." lines to /etc/rc.d/rc.local and change
+     the IP Addresses for each machine you need on the Internet.  (These
+     examples taken right from the IP-Masquerade mini HOWTO, by Ambrose Au
+     and David Ranch)
+
+       ipchains -P forward DENY
+       ipchains -A forward -s 192.168.1.2/32 -j MASQ
+       ipchains -A forward -s 192.168.1.8/32 -j MASQ
+
+     If using ipfwadm (as in with RedHat 5.x, or any kernel 2.0.x based
+     linux), the equivalent to the above ipchains commands, using ipfwadm
+     is:
+
+       ipfwadm -F -p deny
+       ipfwadm -F -a m -S 192.168.1.2/32 -D 0.0.0.0/0
+       ipfwadm -F -a m -S 192.168.1.8/32 -D 0.0.0.0/0
+
+     Again, these should just go at the end of /etc/rc.d/rc.local, and you
+     can just add another "ipfwadm -F -a m -S ..." line for each ip you
+     want to forward.
+
+	You'll also want to add modules for forwarding "interesting"
+     traffic, where applicable.  Strange protocols such as irc, cuseeme,
+     and ftp do not like masquerading very much.  A few kernel modules
+     make the masquerade a little more friendly for these protocols.  I
+     just placed lines in rc.local again, using modprobe for the various
+     modules.  These are masq modules from the 2.2.5 kernel.  I did not
+     actually insert all of these modules.  The title of them is fairly
+     self-explanatory:
+
+	modprobe ip_masq_autofw.o
+	modprobe ip_masq_cuseeme.o
+	modprobe ip_masq_ftp.o
+	modprobe ip_masq_irc.o
+	modprobe ip_masq_mfw.o
+	modprobe ip_masq_portfw.o
+	modprobe ip_masq_quake.o
+	modprobe ip_masq_raudio.o
+	modprobe ip_masq_user.o
+	modprobe ip_masq_vdolive.o
+
+        I'll go over advanced packet filtering toward the end of this
+     article.  There, I'll cover some real firewalling stuff.
+
+
+Setting up a File Server using Session Message Block (SMB) Protocol.
+
+        SMB is the file sharing method used by Windows NT and the old
+     LAN Manager.  It is a fairly resilient protocol, and some advances
+     have taken place in the recent past, that make it a little better
+     (Specifically, the ability to go over TCP/IP instead of NetBEUI).
+     If you use samba on your host, and configure it properly, you will
+     have a nice framework for cross platform file sharing with Windows
+     and many UNIXes.  Also, using some third party software from Thursby 
+     software (www.thursby.com) called "DAVE", you can even use SMB shares
+     from MacOS.
+
+	There's a lot of help docs out there that can help you set up Samba
+     for print/file sharing.  The default /etc/smb.conf file is so
+     bloated and unnecessary, that I can't believe it got put in as an
+     example of what it should look like.  I'm actually running printer
+     sharing off of the Windows 95/Linux dual boot workstation, for the
+     rest of the family's convenience.  This is what the smb.conf file 
+     looks like for my laptop (which shares all users' home dirs, a "public"
+     world-writeable share, and the CD-ROM Drive):
+
+[global]
+    workgroup = WORKGROUP
+    netbios name = ESCAPE_POD
+    server string = NEC Versa 4050C (Red Hat 6.0)
+    log file = /var/log/samba/log.%I
+    max log size = 50
+    security = share
+    socket options = TCP_NODELAY
+    dns proxy = no
+    local master = no
+    lm announce = yes
+    lm interval = 60
+[homes]
+    comment = Home Directories
+    browseable = yes
+    public = no
+    writable = yes
+    create mask = 0755
+    follow symlinks = no
+    wide links = no
+    preserve case = yes
+[public]
+    path = /usr/public
+    public = yes
+    only guest = yes
+    writable = yes
+    printable = no
+    available = yes
+    guest only = no
+    browseable = yes
+    only user = no
+[cdrom]
+    path = /mnt/cdrom
+    public = yes
+    only guest = yes
+    writable = no
+    printable = no
+    available = yes
+    guest only = no
+    browseable = yes
+    only user = no
+
+
+	From this, you should be able to see how shares are made up.
+     Refer to the manpage for "smb.conf", and it will help a lot from
+     here, specifically with setting up a printer, if desired.
+
+	Now would be a great time to install the Ethernet Hub somewhere
+     and plug the cable from your server into it.
+
+
+IV.	Intra-net workstation setup.
+
+	The goals are simple:  Use the resources of your home-server,
+     and use it as a gateway to the 'net when it's connected.  Also, you
+     may want a something that makes it connect.  If you used masqdial on
+     the host machine, then you will need the masqdial client for the
+     workstations.  There's a Java one, one specifically for UNIXes, one
+     for mac, Windows, and whatever else, pretty much.  This is a good 
+     solution, in my opinion.  It's difficult to set up though.
+     Otherwise, you may want a script that telnets over, and launches
+     the ppp connection.
+
+	Make sure that the Ethernet card is installed properly and that
+     you have the drivers installed if necessary.
+
+	We need to set up IP connectivity first.  This is platform
+     dependant, and I don't have the time to tell you how to do it on
+     every platform.  Under RedHat, use netcfg, and Windows, use the
+     "network" item in the control panel.  I sequentially numbered my
+     machines.  The Windows/Linux dual boot machine is 192.168.1.2,
+     my laptop is 192.168.1.3, and the list goes on and on.  While
+     you're setting up the IP over the ethernet card, make sure to include
+     the IP of your host machine (in the example above, Setting up the
+     host machine, we called it 192.168.1.1) as the "Gateway" or "default
+     route", as our server will be functioning as the Internet connection
+     point for all the workstations.
+
+	If you have any additional file sharing needs from the
+     workstations, set them up, as well.  Again, as the workstations can
+     be almost any platform, I can't really help a lot here.
+
+	Network security on each of the workstations
+
+	Now run Ethernet cable from the network cards of each workstation
+     back to the hub, as well.
+
+VI.	Testing.
+
+	Now it's time to test everything.  First, go to your home-server 
+     and try to ping the IP addresses of the workstations.  You should see
+     a response listed in "milliseconds".  IF you see no response, make
+     sure your IP's are correct, and you have solid cable connections.
+     Also, make sure the hub and the remote computer are turned on.
+
+	Next, go to each workstation and ping another workstation (if
+     available) and the server's IP address.  Then try to telnet to your
+     home-server.  IF you can do this, you're good so far.  Start the
+     Internet connection (usually "/sbin/ifup ppp0").  Wait for the
+     home-server to connect.  IF it does not, re-check your dialup
+     settings.  If it DOES connect, try pinging the outside world from the
+     workstation.  ping www.yahoo.com, or some other server out there.  If
+     you get a response, then your home-net works great for sharing an
+     internet connection!  If you can't ping the outside world from a
+     workstation, try it from your home-server.  If you can't, then
+     re-check the internet dialup settings.  If you can see the outside
+     world from the home-server, but you can't see it from workstations,
+     then it's a problem with your forwading rules.  Make sure you're
+     using ipchains if you're running kernels 2.2.x, and make sure you're
+     using ipfwadm for kernels 2.0.xx.
+
+
+VII.	Advanced firewalling
+
+	Sometimes hosts.allow and hosts.deny just don't cut it.  For
+     instance, you already know it usually only covers stuff that runs
+     through tcp-wrappers.  Also, if someone port-scans your home server,
+     or any linux machine you're running, even though hosts.deny says not
+     to allow them a connection, they still see an open port.  ipchains
+     and ipfwadm can eliminate the "look" of open ports on your machine,
+     as well as locking it down even further, as it just blocks ports.
+     This means that any other ports left un-protected by tcp-wrappers
+     (such as SSH and Sendmail), can be protected as well.  Here is a
+     little quick-help guide to ipchains and ipfwadm I put together a
+     while back.  While yer messin with these rules, I suggest you
+     port-scan the machine you're enforcing the rules on, to see how they
+     would look from an outside attacker.  The example that describes
+     denying port to all hosts except the local network will probably be
+     the most useful for you, just put multiple instances of ipchains or
+     ipfwadm into rc.local, and change "23" to some other port that you
+     want to lock down.  My laptop is protected with ipchains.  This is 
+     how I did it:
+
+	First I portscanned my box with nmap (from my other workstation)
+	and I saw that ports 21, 22, 23, 79, 113, and 139 were open.
+
+	Then I went to my laptop, logged in, su'd to root, and began...
+	These are the ipchains rules I entered:
+
+  ipchains -A input -p tcp -d 0/0 21 -s ! 192.168.1.0/255.255.255.0 -j DENY
+  ipchains -A input -p tcp -d 0/0 23 -s ! 192.168.1.0/255.255.255.0 -j DENY
+  ipchains -A input -p tcp -d 0/0 79 -s ! 192.168.1.0/255.255.255.0 -j DENY
+  ipchains -A input -p tcp -d 0/0 113 -s ! 192.168.1.0/255.255.255.0 -j DENY
+  ipchains -A input -p tcp -d 0/0 139 -s ! 192.168.1.0/255.255.255.0 -j DENY
+ 
+-----------------------------------------------------------------------
+Add firewall rules:
+
+  ipchains -A <input|output|all> -p <icmp|udp|tcp|all>
+           -i [!] <Interface-name> 
+	   -s [!] <src-ip/mask> [!] <(low)port:highport>
+	   -d [!] <dest-ip/mask> [!] <(low)port:highport>
+	   -j <DENY|ACCEPT|REJECT|MASQ|REDIRECT|RETURN>
+
+	* Note: when using icmp protocol, ports are replaced with icmp
+		types.  If no port or icmp type is specified, it assumes
+		that you meant "All ports or icmp types".  If no source is
+		specified, it assumes "all", and if no destination is
+		specified, it assumes "all".  Also, if ! is used before an
+                ip or port rule, it means "anything except" the given
+                port/ip. 
+
+   ipfwadm -A <in|out|both> -P <udp|tcp|icmp|all>
+           -W [!] <Interface-name>
+	   -S [!] <src-ip/mask> [!] <port [port] ...>
+	   -D [!] <dest-ip/mask> [!] <port [port] ...>
+	   -a <deny|reject|accept>
+
+Examples:
+ Deny port 23 (telnet) from all hosts not on the 192.168.1.xxx network:
+
+    ipchains -A input -p tcp -d 0/0 23 -s ! 192.168.1.0/255.255.255.0 -j DENY
+    ipfwadm -A in -P tcp -D 0/0 23 -S ! 192.168.1.0/255.255.255.0 -a deny
+
+ Make machine stop responding to ping packets:
+
+    ipchains -A input -p icmp -s 0/0 echo-request -j DENY
+    ipchains -A input -P icmp -S 0/0 echo-request -a deny
+
+ Deny ports 19-23 from the entire 198.248.53.xxx subnet:
+
+    ipchains -A input -p tcp -s 198.248.53.0/255.255.255.0 -d 0/0 19:23 -j DENY
+    ipfwadm -A in -P tcp -S 198.248.53.0/255.255.255.0 -D 0/0 19:23 -a deny
+
+
+ Deny any outgoing icmp packets from your machine (I don't know why, it's
+ just an example):
+
+    ipchains -A input -p icmp -d 0/0 -j DENY
+    ipfwadm -A in -P icmp -D 0/0 -a deny
+	
+ Deny all incoming tcp to port 23 if it's coming over interface "ppp0"
+
+    ipchains -A input -p tcp -D 0/0 23 -I ppp0 -j DENY
+    ipfwadm -A in -P tcp -D 0/0 23 -W ppp0 -a deny
+
+Delete firewall rules:
+
+    ipchains -D <input|output|all> [rulenum]    (deletes one rule)
+    ipchains -F   				(flushes all rules)
+    ipfwadm -A -d [policy]            (deletes the matching policy)
+    ipfwadm -A -f			        (flushes all rules)
+
+------------------------------------------------------------------------------
+
+IIX.	Closing
+
+	Well, I guess that about covers it, as far as I can tell.  If
+nothing else, a quickie lesson about firewall rules for ya all.  Having a
+home network for myself has been a great experience, and has allowed me to
+play with hacking in a new way: in my own home, as much as I want.  I
+control the environment, and I don't have to worry about messing other
+people's connections up when doing it.  I've done a lot of experimentation
+with firewalling rules since I've gotten my home-net up.  Once mastered,
+these skills will aid you in being a very valuable asset to major
+corporations, and will help you understand network security a little more.
+This was by no means a "full attempt" to make people understand
+networking, but is only a primer, to get you guys thinking.  I've found
+that very few things can be as rewarding to a hacker as having their own
+network to play around on as much as they like.  I'd hope that many of you
+will take this information and use it to help you learn a little more.
+Then you might be able to help people with their own security problems.
+
+These are just some basic networking implementations, and they're more
+than enough for the average person, but then again, most hackers aren't
+average... There's plenty more info on this topic, all out there on the
+'net.  If you're interested in this sort of thing, then go out and do it!
+
+--Axon
+		      The Official HiR FAQ - Version 0
+
+0x00.	Introduction/Thesis
+0x01.	How Did HiR Start?
+0x02.	Who are/were the HiR members?
+0x03.	What do HiR members do?
+0x04.	I Want to be an HiR member!  How can I do this?
+0x05.	What all does an article go through before being published?
+0x06.	General Article Information.
+0x07.	What about distributing & copying HiR Articles?
+0x08.	What's with the "Affiliates"?
+0x09.	How popular is HiR?
+0x0A.	Where can HiR Be Found?
+0x0B.	Is there a mailing list to announce new Issues?
+___________________________________________________________________________
+
+0x00.	Introduction/Thesis
+
+	This is just a general FAQ about the HiR Crew and the events that formed what HiR has become today.  This is being put together almost
+soley from the Editor's (Axon's) point of view.  This FAQ is being 
+created so that our readers and the general public can know exactly who
+we are (to an extent), and what it is that we actually do.
+
+For a lot of our readers, this will probably clear up some misconceptions
+that are usually assumed on their part.   We also feel that it is good for
+the people to know what goes into a group such as ours.  This is not going
+to be a hacking FAQ.  If you want that kind of information, read our
+articles, and read all sorts of other stuff.  This is for those who want
+to know our background, and how things all got started...
+
+
+0x01.	How Did HiR Start?
+
+	HiR (Hackers Information Resource, as it was originally called)
+was started in May of 1997.  It was written entirely by Axon.  Most of the
+writing took place on a road trip.  The entire issue was assembled on
+Axon's laptop at the time.  He created HiR as almost an "apology" of
+sorts.  For the previous 2 years, Axon had been a system cracker who had
+taken what he had learned and used it to benefit himself alone.  He was
+learning, but he was not sharing much of his knowledge with the outside
+world.  He teamed up with several other system crackers, and would often
+help them do things hat weren't very nice.  It was a thrill, at the time.
+It was also very, very stupid.  After several of Axon's system cracker
+buddies got busted, he felt the heat and danger.  It was just enough to
+scare him into "being good".  Axon felt that he owed his part to the true
+computer underground: The ones who strive for knowledge and understanding,
+not the greedy people that want power to destroy other people's things.
+So he wrote... and wrote... and came out with HiR Issue #1.  Halfway
+through HiR 1 Axon decided that "Hackers Information Report" would sound
+better, and so it was changed to that instead, but keeping the HiR
+initials.  Axon's main purpose for creating HiR was to share information,
+but he also knew that having to write articles would force him to pick up
+new things to write about, and thus, pick up new skills.
+
+0x02.	Who are/were the HiR Members?
+
+	After the release of HiR 1, a handle-juggling fellow who called
+himself tgsnoop (or kminor), decided to join up.  He put together some
+interesting stuff here and there, but some of his writing topics were
+getting into the dark areas we didn't want to get into.  He was also having
+other problems by the time HiR 4 came out.  Also, right before HiR 2 was
+released, we accepted another writer: Dr. Freeze.  Dr. Freeze wrote 3
+pretty nice rough cuts that could have been turned into decent articles in
+a short matter of time, but his computer was destroyed.  We lost him for a
+few months, and we had no clue what had happened.  Both tgsnoop and Dr.
+Freeze were dormant for a few issues and they were dropped.
+
+	When HiR 3 came around, we aquired another writer, Asmodian X, who
+was a good friend of tgsnoop, and also was in an Information Technology
+class with Axon.  He saw Axon writing an HiR article on his laptop before
+class, and approached Axon, saying he knew someone who wrote in HiR.
+Confused, I told him "yah, you're looking at him.", and he said "which one
+are you?".  "Axon" I replied, and we talked.  It was only a matter of
+time, and Asmodian X was writing some juicy bits for HiR, as well as
+helping Axon take care of the Distro Site.
+
+	The Man In Black is a long-time, very close friend of Axon's, and
+is not really into hacking in the sense of the word.  He does provide a
+well-kept-up mirror of the site back in New Mexico, while he's at school.
+The mirror goes down when he comes back to the midwest with his computer.
+
+	In HiR 6, we had another writer, Frogman.  Frogman was an
+aquaintance of Axon's for quite some time, as they frequented some of the
+same local BBS's in town.  At a 2600 meeting one time, Frogman was there,
+and got to talking with Axon & Asmodian X, and told us about some cool
+cryptography books he was reading.  His articles have carried a mostly
+mathematical and cryptography-based topic. 
+
+	With the release of HiR 9, another writer was introduced to the
+world.  Ixl joined HiR, and is thousands of miles away from the rest of
+the HiR Crowd.  He's situated somewhere in Canada.  Ixl went through the
+typical phase of playing with Windows and the like, and graduated to 
+FreeBSD and Linux quite a while ago.  Ixl's hoping to not only learn more
+from writing for HiR, but to help teach others what he picks up along the
+way.
+
+	Memeber		Membership Span
+	----------	----------------
+	Axon		HiR #1 - Present
+	tgsnoop		HiR #2 - HiR #6
+	Dr. Freeze	HiR #2 - HiR #6
+	Asmodian X	HiR #3 - Present
+	TMIB		HiR #4 - Present
+	Frogman		HiR #6 - Present
+	Ixl		HiR #9 - Present
+
+
+0x03.	What Do HiR Members Do?
+
+	HiR Members, for the most part, function all on their own.  Each
+one of us learns stuff our own way, and we use it in our own ways.  We
+have our own writing styles, and that's about it.  A Common misconception
+about the HiR Crew is that we are an active "hacking group" and that is
+totally wrong.  We are basically just journalists.  Not once have all the
+HiR Members gotten together to "go hack something", and we probably never
+will, either.  I know of two times that 2 HiR members worked together on a
+hack, and it wasn't the same 2 both times.  Axon's mother is an English
+instructor, so he's picked up some halfway decent writing and editing
+skills.  All HiR articles are usually read and fixed up by Axon before
+hitting the shelf.  Major changes that need to be done are referred back
+to the author.  In short: HiR Members just write HiR Articles.  Each one
+of them has their own pasttimes and hobbies.
+
+
+0x04.	I want to be an HiR Member!  How can I do this?
+
+	Easy.  If you're knowledgeable about things in the Hack/Phreak
+scene, and a good writer, then send us some of your writings.  We'll
+determine if we need that kind of material, and if we approve, then you're
+a member!  You can't hack stuff in our name, or anything of the sort.
+You're just a journalist, remember?  The HiR Crew is very proud of their
+ethical standpoint, however.  We only publish articles about hacking and
+phreaking, and we really strive to keep the published material as ethical
+as possible.  We explain systems, not how to break into them.  Examples of
+article titles we would publish: "A Closer Look at NTFS"; "Crossbar
+Switching, up close and personal"; "The inner workings of sendmail" and
+"examining your system for exploits: is YOUR box secure?"
+Things you would NOT see in HiR: "H0w t3w h4x0r w00t 1n t3n 34zy st3pz";
+"Using Teardrop to nuke a class C"; "Mercury Fulminate: The explosive of
+champions" or "Obtaining lots of credit card numbers".  If you want to
+write for us, make sure the article is educational.  If the reader is a
+real hacker, and they want to use your information for evil things, they
+will find it out all on their own after putting some thought into your
+article.  You don't need to feed the 12-year-old "I wanna hack" rebel
+script kiddies.  Note: I know some *REALLY* Good hackers that are 11-14,
+not all 12-year-old "hackers" are script kiddies, but a lot of 'em are...
+
+
+0x05.	What All does an article go through before being published?
+
+	All HiR Members have accounts on the web server that runs the main
+HiR Distro site.  HiR Writers e-mail the other HiR members with
+what they plan on writing on, and usually get some sort of opinion
+from the group, or a few people on the group.  When they write the
+articles, they pretty much do most of the work on their articles on their
+own computers, and upload them to a directory where the Editor can read
+them.  Usually if they need to be touched up, through secure shell, they
+edit it on the web server machine.  The Editor then checks the work,
+and touches up any minor typos he sees.  After re-numbering the articles,
+The Editor creates the ToC file.  Different HiR members send in things for
+HiR Hacker Newz and HiR Informative Resources.  Axon & Asmodian X throw
+together the web work for the new release, including the new HiR Graphic
+for the new release (Axon and Asmo take turns creating these).
+
+
+0x06.	General Article Information.
+
+	HiR Articles are supposed to be no wider than 78 columns, and is
+distributed in text-only format.  This is to accomodate all types of file
+viewers.  (78 column limitation is for MS-DOS EDIT).  Older HiR Articles
+were basically written totally in MS-DOS EDIT, and are in MS-DOS's native
+CR+LF Text format.  The more recent ones have been written mostly
+on some sort of UNIX platform, and are in CR Format.  If you use the DOS
+print command on some of the newer articles, it will stair-step the text,
+which is annoying.  If you print it from MS-DOS Edit, Microsoft Notepad,
+or a few other Dos/Win editors, this will be fixed.  Also, running
+"UNIX2DOS.EXE" on the text files changes them to CR+LF format.  Netscape
+on the UNIX/Mac/Windows platforms prints the articles just fine, and so
+does Internet Explorer on all available platforms.  Anyone who is using
+UNIX (or a derivitive) should be able to print via "lpr" without any
+problems, so long as the printer is configured properly.  HiR Authors are
+required to put their handle on any of their work, and they are strongly
+urged to place "HiR" in some way, shape, or form in the article.  
+
+
+0x07	What about disributing and copying HiR?
+
+	HiR Articles ARE Copyrighted material, but due to our beliefs, you
+are free to distribute it at no cost to the recipients in whole electronic 
+form, or as one un-modified article. If you wish to reference an article of 
+ours, say for an essay, use the same process you would use for any magazine.  
+We have no problem with other people using our information, just give credit 
+to the article's author where it is due.  We would rather you not place HiR
+content in your own E-Zine.  Place links to our site, or something, and 
+recommend reading the article.  The Editor of an E-Zine published in Brazil
+(Brazil's main language is Portugese) wanted to know if he could translate 
+some of our articles and place them in his freely-available E-Zine.  Because 
+he asked, we allowed him to do so, while giving HiR and the Authors of the 
+Articles credit.  This is about the only way we will let HiR be placed in 
+another Zine, as the content will be able to reach across a language barrier 
+in this manner.  If you have any doubts that we would approve of how you are
+copying HiR, contact our E-Mail account (H_i_R@Hotmail.com), and we'll
+talk.  Basically, if you post an unmodified article, or a whole HiR Issue,
+you're going to be safe, as the author's name is in it, and usually so is
+"HiR", somewhere, as well.  We would hate to see what would happen to
+someone that tried to pass off our hard-written words as their own.
+
+Hard-Copy distribution:
+
+As far as distributing hard-copies of HiR, you really must contact us.  If
+distributing one of our articles hard-copy, we require you to distribute
+all articles in that issue as well, in the original order, with credit
+given to the HiR Crew (credit to individual writers is already at the
+beginning of each article).  Depending on if the hard-copies will be
+distributed (especially for a fee), we may, at our option, deny you the
+right to distribute our material, or request royalties.  Printing a copy
+out for yourself for archival purposes or to take with you to sociology class 
+to read while the teacher drones on and on and on,..  You can do that without 
+permission.  That's fine. =]
+
+0x08.	What's with the "Affiliates"?
+
+	HiR is affiliated with a few pretty good sites.  Hacker News
+Network and Packet Storm Security are the 2 heavy hitters.  These 2 news
+sites are devoted completely to NEW hacking information, and
+hacking/network related programs.  The guys at HNN constantly weed through
+newsfeeds and web sites, looking for news that's pertainent to hacking,
+and all the guys at Packet Storm sift through massive amounts of
+hot-off-the-press files and programs for almost all platforms.  We have a
+mild affiliation with Hack Factor X.  HiR Forms affiliations with groups
+or websites that uphold similar ethics and virtues as we do.  With the
+news sites that we are affiliated with, we give back a tiny piece by
+giving them someting to post on their site every 2 or 3 months.  =]
+Packet Storm Security also mirrors just the E-Zine text files that we
+produce.
+
+
+0x09.	How popular is HiR?
+
+	HiR really started to pick up a massive reader base with the
+affiliation of the Hacker News Network (http://www.hackernews.com), who
+have been more than kind to our needs.  Before the affiliation, HiR was a
+fairly small-spread Zine, mostly found on some BBS's, and not very many
+people knew about us.  Later, we also joined up with Packet Storm Security 
+(http://packetstorm.securify.com), which also increased readers by
+quite a bit.  Typically, the main HiR Distro Site alone gets around 2000
+hits per week.  While this isn't much, it's a lot more than we used to
+get.  Within the first week of HiR 9's release, we got over 20,000 web
+hits.  With each release we seem to get a few more hits per week average,
+and the first week or 2 after a new Issue is just phenomenal.  We really
+wouldn't be where we are today if places like Hacker News Network and
+Packet Storm Security weren't around.
+
+
+0x0A.	Where can HiR be Found?
+
+	HiR's current main distro site is currently at:
+	     --> http://hir.chewies.net <--
+This URL has changed many times, and it's subject to change again.
+This distro site contains all sorts of stuff other than the 'Zine, as
+well.  We have a library of cool Windows 95/98/NT and UNIX/Linux programs.
+These programs are usually kept up to date, but not always.  If you cannot 
+find our new URL (for instance if we had to abandon that server for some 
+reason or another), then check out our "HNN Affiliate link" at hackernews.com.
+
+Other places you can find HiR:
+
+	Official Southwestern U.S. Distro Site Mirror:
+	     --> http://azure.rcn.nmt.edu:2007/hir/ <--
+This site is up only when The Man in Black is away at school.  Usually
+it's down in the summer.  This site tries to be an exact replica of the
+HiR Distro Site.
+
+	Packet Storm Security
+	     --> http://packetstorm.securify.com <--
+You'll need to search for "HiR" or E-Zine to find us, because they don't
+let you type in the whole URL, you have to link direct from their site.
+This is to prevent bandwidth theft, so you can't just link directly to
+images or files on their box.  
+
+
+
+0x0B.	Is there a mailing list to announce new Issues?
+
+	Althogh it's crossed our minds a few times, none of us can justify
+maintaining a mailing list.  We're just not popular enough to need one.
+We believe that our readers probably keep up on the news sites, and Packet
+Storm + Hacker News Network publish release announcements for us.  Visit
+the HiR Distro Site often.   If you don't find a new Issue of HiR, you'll
+probably find several new files every week or 2.  
+
+ 
+
+		Hacker Information Report Issue #10
+	Hacker Newz: A Look into the goings-on of the HiR Crew
+
+	Well, we obviousely had some major productional slow-downs this
+time around.  It's been months and months since the last issue, but at
+least we're not trying to release garbage and pass it off as a
+high-quality Text E-Zine.  Defcon 7 was a complete and total blast, and
+much was learned there, both educationally and practically.  There was a
+great amount to be absorbed this year, and we didn't have time to take in
+all aspects of the convention.
+
+	This year, unlike last, all of the HiR Writers that attended
+Defcon were able to bring full-fledged laptops.  Axon purchased a fairly
+nice Pentium 90 with 40 megs of ram and 810 megs of hard drive just before
+the convention.  He took two other laptop hard drives along for the ride.
+(The three drives had different OS's on them).  Frogman bought a newer
+laptop for defcon (a 486/75).  We got quite a bit done at the convention.
+Each of us made some new contacts, picked up some vital information, and
+purchased all sorts of sordid goodies. 
+
+	We bought one copy each of NetBSD, FreeBSD, and OpenBSD.  As a
+whole, It'd be safe to say that the HiR Crew really loves the work that
+all these guys are doing.  The mentality behind the BSD's is quite a bit
+different from the driving force behind Linux (Availability of source
+code and the ability to obtain the OS for free are some similarity), but
+the BSD's are really a tad less glamourous, but usually more stable, and
+more secure.  (The OpenBSD Project, for instance, is proactively focused
+on security, and produces what many people, myself included, would call
+one of the most scure OS's available)
+
+New on the hardware list for DefCon 8:
+
+o Axon picked up an RS/6000 for cheap.  It's a pizza-box style case.
+  Perfect for number crunching.  We'll probably run John the Ripper
+  Under AIX 4.3.2.
+
+o Asmodian's almost got his hands on a new(er) 200 MHz Laptop.  This will
+  replace the one he's currently using (Pentium 120?), which he got
+  shortly after returning from Defcon 7.  He took a 486 to DC6&7.  =]
+
+o Frogman's Parting out his ThinkPad 720.  He'll probably have something
+  better for DC8.
+
+
+On other notes, we changed URL's again.  Changed Servers and everything.
+Mega-Shouts to Razathorn for gracioucely providing the space and bandwidth
+we need.  "Even if you're not in the scene, you rox0r.  (inside joke)" 
+
+Hopefully, we'll be able to pump out s'more goods here in the near future.
+We have some more stuff lined up.  
+
+Oh yah.  I didn't have a really cool hands on project in this issue...
+What to do?  hrm... Ah, well... Maybe next time, guys.
+
+--HiR Crew

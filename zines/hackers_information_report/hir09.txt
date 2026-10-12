@@ -1,0 +1,2139 @@
+                              March 01, 1999
+
+		   <-OO  OO  OOOOOO  OOOOO      OOOO->
+		   <-OO  OO    OO    OO  OO     O  O->
+		   <-OOOOOO    OO    OOOO       OOOO->
+		   <-OO  OO    OO    OO  OO        O->
+		   <-OO  OO  OOOOOO  OO  OO     OOOO->
+                 
+>---------------------------------------------------------------------------<
+This issue, we have a new writer!  Shouts to ixl, who joins us from
+Canada.  Ixl has a background in Windows 95/98, Linux, and FreeBSD.
+
+>---------------------------------------------------------------------------<
+HiR is an electronic publication that is written by real hackers and phone
+phreaks that have the desire to share information.  We only publish articles
+related to hacking and phreaking.  We don't cover viruses, stealing, carding,
+or blowing things up.
+
+As a general rule, we don't do many walk-thru's; occasionally we might, 
+but we almost always focus more on explaining a given aspect in enough 
+depth to help the reader understand why things happen.  With that 
+information, they may learn for themselves and discover many other 
+things related to the article.  
+
+>---------------------------------------------------------------------------<
+
+We are always looking for new writers.  If you are (or were) in the H/P
+scene, and consider yourself a decent writer, send us some of your work.
+Our e-mail is h_i_r@hotmail.com or hir@axon.jccc.net.
+
+>---------------------------------------------------------------------------<
+
+                          Current Staff for HiR:
+
+* Axon         (Editor, Official Site Webmaster, Writer)    Axon@compfind.com
+* Asmodian X   (Writer, Editorials, Linux Psycho)       asmodianx@hotmail.com
+* Frogman      (Writer, Amiga Feind)                     Frogman@compfind.com
+* ixl	       (Writer, FreeBSD/Linux guy)
+* The Man in Black (Mirror site webmaster)      The.Man.in.Black@compfind.com 
+
+You can find us at the following places (that we know of):
+
+Official HiR Distro Site:                            http://axon.jccc.net/hir
+	(Files & Links updated several times per month, check often)
+
+Official Southwestern U.S. Mirror site:     http://azure.rcn.nmt.edu:2007/HiR
+	(Web Site updated with each new HiR Release)
+
+Official HiR E-Zine Mirror (PacketStorm)  http://packetstorm.genocide2600.com
+	(Search for "HiR", the genocide2600 box doesn't like direct links)
+
+Hacker News Network (hackernews.com) posts notices of new HiR Issues, and
+it's also a good place to get a daily look at the latest hacking info.
+>---------------------------------------------------------------------------<
+
+                            HiR 9 Article list
+Num   Article Title                                           Writer
+---- ------------------------------------------------------- ----------------
+ 1   Introduction/Table of Contentz                          HiR Crew
+ 2   HiR 9 Informative Resources                             HiR Crew
+ 3   Tales from the Mailbag (Letters/Questions to HiR)       HiR Readers
+ 4   Network-Tuned OS Overview (FreeBSD/Linux/NT)	     Axon
+ 5   Creating the Coupler: How To Build an Acoustic Coupler  Axon
+ 6   Windows 2000: What is it and why does it matter?        Axon
+ 7   Novell Netware Inside Out				     Asmodian X
+ 8   Some Red Hat Linux 6.0 info                             Axon
+ 9   On Going Digital                                        Frogman
+10   Teach me how to hack !@#                                Ixl
+11   HiR Hacker Newz                                         HiR Crew 
+			The HiR Crew Presents:
+				HiR 9
+			Informative Resources
+
+		-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- 
+
+Webpage: Product Information
+Address: http://www.novell.com
+
+Summary:
+Information on Novell the company and its products.
+
+=-=-=-=-=-=-=-=-=-=-
+Book: Novell Netware
+
+Clarke, James David, IV.  " Novell's CNE Study Guide 
+	 IntranetWare/Netware 4.11" 
+        Novell Press, San Jose 1997
+
+ISBN 0-7645-4512-4
+
+Asmodians Slightly biased Summary: 
+
+Although Jam packed with fruity information on Netware, This book is
+poorly orginised.  The incessant "Words of wisdom" and the authors Flaming
+ego tend to distract your attention from the actual content.  This book
+requires a long attention span, and perhaps some form of Ritalin to fully
+digest it.  Im not suprised if this book was in part sponsored by the
+midwest pulp association, weighing in at a paltry 1570 pages.
+
+Asmodians Slightly biased Rating: 
+
+If your stuck in the wilderness and need to start a fire, do not have any
+qualms about burning this book, you will be missing nothing.. 
+
+Asmodians un-biased Note:
+This book is one of the only resources that covers all materals covered
+in the CNE/CNA exams.  Thus its a necessary Evil.
+=-=-=-=-=-=-=-=-=-=- 
+
+Book: Telecom guide.
+Green, James Harry.  "The Irwin Handbook of Telecommunications 3rd Ed." 
+        Irwin, Chicago 1997 
+
+ISBN 0-7863-0479-0
+
+Summary: 
+
+This book is some what dry, however it is concise and very to the point. 
+I found it easy to read, and it was very factual.  It goes into great
+detail on the telecommunications industry.  A must read if you want to
+feel the telecomunication industry's pain.
+
+-=-=-=-=-=-=-=-=-=-=
+>>>>>>>>>>>>>>>>>>>>>>>> Tales from the HiR Mailbag <<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>> No Gerbils Were Used in The Creation of This Article <<<<<<<<<<<<
+
+Editor's Note: Here at HiR we get quite a bit of mail.  Between our
+personal e-mail and the HiR Group E-Mail Account (H_i_R@hotmail.com), we
+send about 50 messages a day to /dev/null.  About 48 of those trashed
+messages are about how to make a 1500% profit on selling dried cat guts to
+blind children who can't tell it from beef jerky, or about how we just all
+won 30 free days of XXX pr0n if we give them our credit card numbers, or
+some other stuff...
+
+We're grateful that our reders like to respond, though... This is by no
+means a complete list of all the mail, but we tossed in those messages
+that deserved a good response.  We did mail responses back to almost
+everyone who mailed us, and we published both the questions and our
+responses for those messages we put here.  If we keep getting good
+questions/e-mail, you'll probabl see this section in every future release
+of HiR.
+
+__________________________________________________________________________ 
+
+
+Subject: Info Request
+Hi there,
+Im interested in becoming a hacker... im really dummie right now and
+i'd like to know a resource where i can get important information
+about procedures and programs...
+If you can tell me about any resource, website or book it will be very
+helpful.
+Thanks
+__________________________
+Well, it seems you're already more of a hacker than many of the script-kiddies
+that go around flaunting their "elite hax0r" selves.
+The primary essence of a hacker is curiosity and drive to learn, which
+you seem to posess.
+
+To begin hacking, I would suggest focusing WAY down to something specific.
+Most (real) hackers begin by tinkering with their operating system of choice
+(be it Netware, Win95, WinNT, MacOS, DOS, Linux, *BSD, or some other UNIX
+variant), and learning as much about it as possible.
+
+Others decide not to focus on an operating system, but to focus on
+something else such as Networking, telephony, Computer Hardware, Digital
+Electronics, or something else. I am a firm believer that you should try
+to find an operating system you like, and start "hacking" by modifying
+your operating system, its look or feel, finding out how to add
+functionality to it (through 3rd party software or stuff you come up with
+yourself), and things like that.
+
+I would recommend reading the "tech bible", writtem by disc0rd.
+It's available on the links page of our distro site at 
+http://axon.jccc.net/hir
+
+The Tech bible is a GREAT intro to hacking.  It shows how to get started
+on several different operating systems, as well as some general hacker
+subculture help. Read all the HiR Articles. They range from hacking around
+with the Win95 Registry, to having fun with UNIX, all the way through
+securing a linux system and even how to put together some cool electronic
+circuits that do fun stuff.
+
+--The HiR Crew
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Subject: I Want to run UNIX!
+
+i have been experimenting with port scanners and such and have become
+very interested in learning about other systems...but i find that so
+much more could be done if i had unix. now this is my parents computer
+and they get pissed off when i put stuff on here, so getting unix would
+be a problem...so i was wondering if there was software that you know
+of that can, how do i say, simulate a unix enviroment, so that i can do
+more. if you know of any, please send me it or tell me where to get it.
+please write back, thanks.
+
+----------------------------------------------
+
+Well... if you really must know, it's a major pain in the butt to run
+anything unix-like, without installing it.  There are fun ways to
+take up like 500 Megabytes to 1 Gigabyte (or even more) by adding a
+partition, and making it so that Windows (or DOS, whatever your parents
+run) will boot normally... but it gives you a few seconds to choose your
+UNIX of choice.   By far, the easiest to install is RedHat Linux. Version
+5.2 (maybe Redhat 6.0 by the time this gets out) is available in stores
+such as Best Buy, CompUSA, and online stores such as 
+http://www.cheapbytes.com. Linux is one of a few UNIX-Style OS's that will
+run on a normal desktop. RedHat makes it easy to learn more about UNIX.
+Alternatively, there are other companies that release their own versions
+of Linux, each of them has advantages and disadvantages. Debian and
+S.u.S.E are two examples.
+
+After you've gotten better at messing with UNIX, you may want to move
+up to FreeBSD, or play with it.  This is a little more stable (but
+not quite as friendly) as most of the Linux Distributions.
+
+If you don't have the hard drive space to devote to a "Linux" drive,
+then you can try to save up enough cast to get your own computer.
+RedHat 5.2 will run (not very fast) on a 386.  If you can even find
+them at used computer stores, they're pretty cheap. I was running
+it on a 486 with 8 megabytes of ram for a long time, and it never gave
+me any problems. You can probably get a decent 486 and the stuff
+to go with it (Monitor, Keyboard, mouse, and a 1 gigabyte or larger hard
+drive) for less than $300 if you check used computer stores, want ads,
+and garage sales. It's well worth learning how to use some form of
+UNIX, and you're very correct in your assumption that UNIX will set you
+free when it comes to those annoying barriers that Windows gives you, and
+there is a more wide-spread base of hacking/network-analysis tools for
+UNIX and it's derivitives.
+
+To completely answer your question, yes, you can run Linux without
+a major re-partition.  Look on the net for things that utilize "UMSDOS",
+Unix-in-MS-DOS technology.  I believe that Slackware Linux, among others,
+can do this for you.  Read the appropriate documentation for detailed
+instructions on how to implement this.
+
+--HiR Crew
+
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Subject: statement that water-cooling a socket-7 chip would "take a lot of 
+	 balls"
+
+being monetarily deprived, i'm inclined to agree with that.   HOWEVER, i
+(well a couple of friends of mine and i) have succesfully water-cooled a
+socket ah... five, if memory serves me, pentium-66.  we pulled the
+xtal oscillator-in-a-box from the board and connected a Fluke signal
+generator in it's place.  the original xtal was rated at 18.xxxx MHz and
+we got the Fluke up to somewhere around 40 MHz before things got
+flaky.  needless to say, it was damn fast and the chip got pretty
+warm.
+
+the cooling system itself was a 160 gallon/hour aquarium filter pushing water
+over the heatsink on the chip.  it was a big aluminum thing that had
+depended on some sort of airflow in the old case (we assumed this since we
+just got the board and chip) anyway, we used a lot of silicone and some
+plexiglass and some nylon pipe fittings to make it liquid coolable.
+the water was cycled through a little plastic one gallon aquarium (which
+was mostly empty when the system finished self-priming, requiring us to
+refill it after each start) and we started to get steam condensing on it's
+sides, so we would submerge plastic pop bottles filled with water and then
+frozen in the aquarium to keep it at a reasonable temperature. finally one
+night during an endurance test (running a ray tracer [POV-ray, REALLY
+neat]) the heatsink sprung a leak, allowing about two gallons of water to
+be pumped into the case with the computer.   there was no major electrical
+trouble (thankfully), but the system was rendered unusable.
+
+anyway, just thought you might enjoy the story of our little experience.
+
+Aaron xxxxxx (Last name omitted -Ed.)
+___________________________________________________________
+
+Well, thanks for sharing.  I figured that eventually the things HAD to
+leak... Sigh... BUT with how cheap you can get a Pentium 60 and a
+motherboard, it might be worth it to some people.  The way I figure it,
+you were running that Pentium 60 chip somewhere in the 133-150 MHz range,
+which, needless to say, is an AWESOME boost... If you could get the same
+power increase (percentage wise) out of a P-120 chip, you're talking
+better than 350 Megahertz!  I was really interested in hearing some
+results from this.  I, myself, can't afford that kind of experimentation
+unless I went in on it with some other people.  Thanks for getting back to
+us!
+
+--Axon
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+------------------------------------------------------------------------
+Contributions from Asmodian X, 
+
+------------------------------------------------------------------------
+More Info On CD Burning
+
+From: Calvin
+> >Subject: CD Writing
+> >Date: Sat, 20 Mar 1999 03:49:29 +0800
+
+> >Hi,
+> >
+> >After reading through your article (HiR8-4.txt) on CD Writing, I am
+> >still unsure of the procedure of:
+> >
+> >1) Cutting a VCD. (I heard it is not just copying of whatever source
+> >directories of files to the target disc. So what has to be done?)
+> >
+> >2) Making a Bootable Disc. ( I do not know what method or software to
+> >use to create bootable CD for Win95/ WinNT. Currently, I am using
+> >Adaptec Easy CD-Pro 95 CD writing software.)
+> >
+> >Looking forward to your advice.
+> >
+> >Regards
+> >Calvin
+
+Thanks for asking!
+
+ I must admit those are some good questions.
+
+ By a VCD I assume you are talking about a Video CD?  Well The Video CD
+ standard just came out about 1993ish.  Im getting my information from
+ the VideoCD faq. at
+ http://www.geocities.com/Athens/Forum/2496/vcdfaq.html
+
+ According to the faq, to make a VCD you need to first make your movie
+ into an AVI, then convert it using an MPEG 2 encoder <xing technologies
+ has one>, then Using Adapttechs EZ-CD pro software, dump it to a
+ Writable using the VIDEO CD option.
+
+ To answer your question on Bootable CD's, So far I have only seen
+ bootable cd's made in Linux, But Heres some Windoze SW that will also do
+ the task.
+
+http://www.mediastore.com/Specs-HyCD.html      Supports Video CD's too
+ *(Adaptec's Pro edition does not say anything about bootable CD's)
+
+<INSERTION> Adaptec's new version supports Bootable CD's </INSERTION>
+
+ I also Found a Page that kinda is a walk through :
+http://nikko.simplenet.com/goldentime/bootcd01.htm
+
+it has some links to some Windoze based iso9660 imaging software.
+-=- Asmodian >< -=-
+
+-----------------------------------------------------------------
+Drivers for a CD-R
+
+I saw something you wrote about having a Phillips 2600e and I was 
+wondering if you had the drivers or knew where I could get them.  I 
+need drivers for Dos and for Win98.  I couldn't trace them down too 
+good on the site so if you have them or even know the names let me 
+know.  Thanx
+
+
+--Pabst
+
+SCSI Devices are fairly easy to find drivers for..  Phillips has some
+dos drivers for the 2600x (internal or external) on their web page..
+
+http://www.pc.be.philips.com/service/cdr.html
+
+There you will find Some drivers (dos and win98) for the 2x00 series 
+burners.. The ASPI one should work for dos.  The shuttle drivers come 
+with the burner sw package.. but i didnt see it on their tech support 
+page.
+
+The shuttle Parallel port drivers are now supported by linux in the 
+2.2.x series kernel.
+
+Linux also supports quite a few scsi cards, so install support in for 
+the scsi card plus generic scsi device support and the scsi cdrom 
+option and your in business.
+
+-=- asmodian -=-
+
+-----------------------------------------------------------------------
+L0pht Crack Question
+
+Hi,
+
+I would like to get a copy of L0phtCrack. Is there anyway to get it as
+freeware? Or the only way is to buy it from L0pht?
+
+Please advice.
+
+Regards
+Calvin
+
+Take a look at http://www.l0pht.com
+
+I beleve that there is a Version out by l0pht that is crippled, but free
+too use.  Of course l0pht would just love you to purchase it..  I am un
+aware of any versions that are GNU, or Freeware..
+-=- asmodian x -=-
+-----------------------------------------------------------------------
+From: Morgo
+
+>Subject: HiR Article hir8-4.txt
+>Date: Sat, 01 May 1999 01:24:15 -0400
+>
+>Greets !
+>
+>I read your article at
+>http://axon.jccc.net/hir/articles/hir8/hir8-4.txt
+>
+>Have you tried Adaptec Easy CD Creator 3.0 yet ?
+>
+>Hope this helps,  Morgo
+
+According to Adaptec's web site, the newest version they have out is
+version 3.5.  The deluxe-golden-does-everything-un-crippled version offers
+Video disk creation, in addition to all the other stuff like bootable cd's
+and such.  Adaptec is asking 99$ for that.  I cant remember what version i
+got with my CD-R.
+
+-=- Asmodian X -=-
+here's their product page:
+
+http://www.adaptec.com/products/overview/ecdc.html
+-------------------------------------------------------------------------
+_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+			Hackers Information Report 9
+			 Network-Tuned OS Overview
+				 By Axon
+_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+
+	Recently, I've been messing with different Operating Systems.  As
+many people have, I've had my usual Windows 95 experience, and those of us
+who have been around a while have had our fun with MS (or IBM, Free, Dr)
+DOS.  I found Linux, and was instantly lured by its stability, speed and
+lack of hardware requirements (I've been able to run it on some pretty
+minimal systems with good results).  Converting directly from "the OTHER,
+unstable and proprietary operating system" to Linux got me really
+thinking about what a difference the Operating system makes to
+performance.
+
+I'm sorry, but I want an operating system with Services!  Back in the days
+of Windows 95, I would try all sorts of software that added "servers" to
+the system.  I loved them, but they crashed often.  Windows 95 was NOT
+intended to run as a machine with open services.  Being an Information
+Technology Major, I have to take classes that deal with network servers,
+and these classes break into three tracks.  Students MUST take at least
+the "introductory level" class in two of the tracks, and then take the
+"advanced" class in one of those, in order to get the degree.  The Three
+tracks are "Windows NT" (NT4), "UNIX" (Solaris), and "Netware" (Whatver
+version came out this week.  The netware class actually changed what
+version of Netware they were using halfway through the course due to a new
+version coming out...scary).
+
+I'm not touching netware now.  I might later, but netware isn't really a
+contender for the "Internet Services" networks, and is more tuned for File
+and Print sharing.  So, UNIX and NT it is (as far as my degree's concerned)
+
+The UNIX class isn't ever full enough so they keep postponing it, so I
+haven't had a chance to play with Solaris yet.  This semester looks
+promising, as the class actually filled up completely, and I'm one of the
+lucky ones who got in.  At defcon, I was exposed to FreeBSD, and decided
+to give it a try.  It's TRULY different than Linux.  Little differences
+will be pointed out later in this article.
+
+I hope to eventually try almost all of the major OS's for the Intel (x86)
+platform, although I know I can't possibly mess with EVERY little obscure
+OS that was written for x86.  I decided I would do this study on just a
+few of the OS's that were tuned towards being "Servers".  The system I am
+using for this experiment is a Second Generation Classis Pentium system,
+running at 120 MHz, not overclocked.  It's got 64 Megs of RAM.  The
+Operating systems were placed on Wetern Digital Caviar 22000 (2.0 Gig) 
+Drives, placed inside Removeable Cartridges that slide into a Bay
+Receptacle inside the system.  
+
+	As you can see, I took time to make sure all the OS's had a fair
+chance at proving how well they hold their own on a system.  I chose the
+P120 because it's pretty much a "Generic" machine.  It's pretty stripped
+down, having only the hard drive, a 12x IDE CD-Rom Drive, and a 3com
+Etherlink III (3c509) NIC, and of course the floppy drive.  I figured this
+type of machine would be powerful enough to run all the OS's I wanted to
+try.
+
+Here are the contestants:
+
+_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+OS					Reason I tried it
+_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_		-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+Linux (RedHat 5.2) with updates		I'm most familiar with RedHat
+FreeBSD 2.2.8 FTP install		Recognized for security/stability
+FreeBSD 3.1 from CD-ROM			Test the diffs between versions
+Windows NT4 Server, SP4			You think the whole world uses a
+					REAL OS?
+_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+
+What really got me thinking about this "contest" was the fact that I am
+basically being *FORCED* to take a class on Windows NT4 Administration.
+I knew it was more power-hungry and less stable than any UNIX will ever
+be, but I wanted to know HOW they all stacked up... so here is where I
+tried.
+
+The Following Categories are addressed here:
+
+I.	Boot-up time in seconds
+II.	Features that differentiate each OS
+III.	"Processing Power" on a relative scale put together by Axon
+IV.	Ease of administration, Things that make administration easier
+V.	Woes of administration
+VI.	"Out of the box" security
+VII.	Software installation
+IIX.	From the user's standpoint
+IX.	Ease of cross-platform network integration
+X.	Closing Notes
+_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+
+I.	Boot-up time in seconds
+
+	Granted, this may not be a "totally fair" method of testing boot-
+	up time, as there may be more stuff running on one OS than the
+	others.  This isn't meant to be some sort of judging scale, just
+	an estimate of about how long a "server-ized, yet close to
+	default" install will take to boot to a login screen.
+
+		Redhat:	 109 Seconds
+		FBSD228: 117 Seconds
+		FBSD31:	  99 Seconds
+		NT4SP4:	 138 Seconds
+
+_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+
+II.	Run-of-the-mill features that differentiate each OS
+
+	RH52:	Setup is a breeze.  If there was ever such a thing as a
+		"fool proof" Linux install, this would probably go up
+		there.  It's well documented in the manual, however the
+		startup screen never mentions that the manual is on CD, or
+		where it can be found.  It just says "if you have this
+		manual read the section on `foo' before fooing".  Initial
+		setup is basically a "one size fits all" kernel that is
+		slower than a custom-compiled one, but it usually gets the
+		job done nicely.  Linux has tons of freely-available
+		software, and a long list of supported hardware makes this 
+		a REALLY robust Operating system.
+
+	FBSD:	FreeBSD has an interesting package management system
+		that can keep track of your files, and upgrade packages
+		nicely.  Not quite as friendly as RedHat's RPM, but 
+		it does its job nicely.	Both FreeBSD Versions I tried had
+		one thing that I loved at first sight: "Ports".  This is a
+		selling point of FreeBSD.  It has a very unique build 
+		environment in /usr/ports that breaks ported software down
+		into sections such as "security", "shells", "x11-wm"
+		(WindowManagers), etc.  Then each specific ported program
+		has a directory of its own.  There is NO source code by
+		default in any of the program build directories.  You just 
+		type "make install", and it fetches the tarball, applies 
+		some patches to make it work with FreeBSD, configures the
+		Makefile, compiles, and installs.  Like that!  Down-side:
+		installing ports can be tedious on a slow-compiling 
+		machine or if your bandwidth sucks.  On a more positive
+		note: The stuff is compiled on your system, works great,
+		and "make deinstall" is cool!  There is quite a bit for
+		Free Software out that works with FreeBSD, but Hardware 
+		support and major program support lacks behind Linux so far.
+		FreeBSD has an amazing feel of stability, form, and
+		function while using it.
+
+	NT40:	While not being quite the heavy hitters the more UNIX-ish
+		OS's were on the lower-end test system, it's a cinch to
+		admin.  It's somewhat difficult to navigate all the
+		strange menus to do all your sysadmin work, but after
+		using it for a while, you learn where stuff is.  This is
+		a good Server OS for file sharing and the like on a
+		Windows network if you need an easier-to-maintain server.
+		NT can be made to handle modem-dialup connections and
+		establish PPP/TCP-IP/IPX connections over the modem, just
+		like the UNIX-type OS's.  Full remote program execution
+		is limited, however NT can act as a "terminal server",
+		where terminals (Network Computers) feed off the NT box.
+		Software that adds other fun server functionalities is
+		widely available, but most of it is commercial (expensive).
+
+_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+
+III.	"Processing Power" on a relative scale put together by Axon
+
+	FBSD:	FreeBSD 3.1 came in first as far as using the default
+		kernel setup.  It runs more things at once smoother than
+		any of the other OS's tested.  FreeBSD 2.2.8 came in a
+		close second.  This is truly a "Pocket Rocket" OS.
+
+	RH52:	While RedHat Linux really screams on the P120, (compared
+		to other OS's), it was outperformed by Both FreeBSD's.
+		One must compare need for hardware/software support before
+		choosing FreeBSD or Linux.  It WAY outperforms DOS and
+		Windows 95 (which aren't part of this article).  It easily
+		roasts NT4.0 when it comes to processing power.
+
+	NT40:	Bogged down, but useable.  The UI was kind of choppy and
+		crufty on our little 120 MHz box.
+
+_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+
+IV.	Ease of administration, Things that make administration easier
+
+	NT40:	By far, the winner of the "ease of administration" award.
+		If it is possible to sit a monkey at a server to keep it
+		alive, this is the OS that I would choose.  Graphical
+		menus and help systems make it so that anyone can keep the
+		box alive after 2 weeks of experimenting with it. 
+
+	RH52	Redhat is controversial throughout the Linux world.  Some
+		people argue that it's "Too MS-ish".  Redhat comes loaded
+		with goodies.  It's been built around administrative tools
+		that require X-Window System.  These admin tools are kinda
+		MS-ish, but they get the job done.  It would definitely
+		take longer for someone to learn and get comfortable
+		administrating a RedHat box, but the admin tools are good
+		for the beginners.  I like the fact that I can edit the
+		config files with vi, and get the same results without
+		a GUI front-end program.  There are even front-end
+		programs to help you select kernel options before you re-
+		compile your kernel.
+
+	FBSD	FreeBSD 2.2.8 is next in line. There is the added bonus
+		that there are less config files than Linux, and the
+		config files are larger, and control more aspects of the
+		system, resulting in more centralized control of the OS.
+		FreeBSD 3.1 comes in dead last, but not far behind FreeBSD
+		2.2.8.  This is due to even MORE options for the kernel and
+		config files.  FreeBSD's package management will not only 
+		fetch the latest versions of the software you try to
+		install, but will also self-grab/install any other
+		programs or libraries that the program needs (Known as
+		dependencies), resulting in an install-and-go package
+		installation.  The FreeBSD project has done a really
+		good job on their "FreeBSD Handbook" which, when I printed
+		it, took up a whole 3-inch ring binder.
+
+_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+
+V.	Woes of administration
+
+	NT40	It does take real skills and knowledge to use the
+		advanced aspects of NT, including security.  Learning
+		the menu structures is a pain, and I still get lost now
+		and again when going on a clicking rampage.  Any powerful
+		remote administration abilities are non-existant without
+		outside Third-party programs such as VNC (See HiR7,
+		article 6).
+
+	RH52	The graphical admin tools can also be just as confusing
+		as Windows NT's stuff.  Also, RPM (Redhat Package Manager,
+		used for installing programs) makes the Admin get any
+		dependent libraries or programs and install them
+		separately.
+
+	FBSD	Administration's just difficult! FreeBSD totally
+		sacrifices user-friendliness for speed and stability.  
+		There's not really a good administration tool.  Anything
+		you can set during the installation process can be changed
+		with the "sysinstall" tool, but that's about it.  Anything
+		else must be edited in the config files by hand.  Kernel
+		compile options are read from, you guessed it, a config
+		text file that you have to edit by hand, and documented
+		lines in the default config file are scarce.  To really
+		tap the power of the kernel, you have to access the
+		FreeBSD Handbook and see what it has to say.  Kernel
+		options are documented well in there.
+
+_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+
+VI.	"Out of the box" security
+
+	FBSD	FreeBSD 2.2.8 wins out on being most secure out of the box.
+		FreeBSD 3.1 came in second.  FreeBSD just doesn't care
+		about user friendliness.  Bost FreeBSD 2.2.8 and 3.1 came
+		stock with a system known as S/Key, a one-time password
+		system.  All you had to do is run a keyinit program for
+		each user that you want to be authenticated in this
+		manner.  I found no vulnerabilities in 2.2.8 and in
+		FreeBSD 3.1, there was only the Free86 vulnerability out
+		of the box, and it was easily fixed.
+
+	RH52	Out of the box, not horribly secure.  Redhat 5.2 shipped
+		with a lot of little holes, but they were simple to fix
+		with the RPM files from RedHat's site.
+
+	NT40	Okay... Just NT4.0 with no service packs... it's scary,
+		and easily exploitable.  I upgraded to SP4, and it still
+		had some unresolved issues, all the way to allowing a user
+		to add him/her self to the local machine's Administrators
+		group.  This is a VERY bad thing, and the exploits are as
+		simple as running a program.  Point. Click. Admin!
+
+_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+
+VII.	Software installation
+
+	This is REALLY a personal-preference deal.  You'll see.
+
+	FBSD	Both 3.1 and 2.2.8 are the same here.  Ease of software
+		installation is a plus, but it's slow, because it usually
+		involves compiling the program.  It's really a "start
+		installing and switch to another console" situation.  No
+		questions asked, and if it needs another program, it goes
+		and gets it without complaining.
+
+	RH52	RPM (as I said before) will install a binary package in
+		a hurry.  The problem is that IF it needs another program,
+		it requires user interaction to go and get it.  Oh well.
+		Not quite as easy as FreeBSD.  Not all Linux Distributions
+		use "RPM".  Debian GNU/Linux uses a different packaging
+		tool that DOES go-fetch the other packages.
+
+	NT40	If clicking around menus and asking if/where to install
+		stuff is for you, then I guess NT is the OS of champions.
+		Otherwise, I consider it bothersome and time-consuming.
+
+_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+
+IIX.	From the user's standpoint
+
+	NT40	Clicky, clicky!  This is by far the easiest OS for the end
+		users to adapt to.  This technology dates back to when
+		cavemen pointed to objects with sticks (equivalent to the
+		mouse) and made grunting noises (equivalent to clicking
+		mouse buttons).  It's almost natural, or something.
+		Unfortunately, this method of machine interaction requires
+		the computer to do extra work determining what the user is
+		trying to do, and drawing pretty pictures on the screen to
+		ensure that even the most idiotic user knows what's going
+		on.
+
+	RH52	Don't get me wrong, UNIX systems have Graphical User
+		Interfaces, too.  They just aren't as friendly, and the 
+		user still needs to know how to use a keyboard for some
+		practical applications and file manipulation.  Redhat 
+		has tried to make the X window system more friendly, but
+		they haven't gone as far as MS has (yet).
+
+	FBSD	FreeBSD 2.2.8 and 3.1 are both the same here, as well.
+		There aren't as many cool user-geared graphical things
+		distributed with them.  There are a few, but not as many
+		as there are for linux.  This would be the hardest OS for
+		an end-user to get used to.
+
+_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+
+IX.	Ease of cross-platform network integration
+
+	RH52	RedHat made sure they packed their distribution of Linux
+		chock full of networking abilities by default.  Redhat can
+		do Apple Talk, TCP/IP, Netware, and over TCP/IP it can act
+		like a Windows NT file/print server, as well as utilizing
+		resources on an NT Network.  Usually, the protocols can be
+		set into action without so much as a reboot.
+
+	FBSD	FreeBSD can integrate with any network that Linux can, but
+		it's a little more difficult to implement.
+
+	NT40	NT can handle most of the protocols, but I don't think
+		that it does appletalk by default.  Windows 2000 adds this
+		ability, but only as an AppleTalk SERVER.  It can't browse
+		resources on an appletalk network.
+_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+
+X. Closing Notes
+
+Really, it's hard to tell "what's the better OS here?".  That is totally
+based on application of the server.  This article was not designed to
+flaunt one OS over another (okay... just a little), but you probably see
+some definite pros and cons to each OS.  This is meant to be a "Guiding
+Light", so that you know what will be the wise choice.  I do not promote
+OS bashing too much.  Each Operating system is good and bad in it's own
+ways.  100% "BAD" operating systems hat have nothing to offer over other
+operating systems quickly disappear or become scarce in the world (ahem,
+OS/2?, CP/M? what???).  You get my picture.
+
+I'm outta here.  Happy serverizing, guys!
+
+--Axon
+----------------------------=( HiR Issue #9 )=----------------------------
+-----------------------=( Creation of the Coupler )=----------------------
+------------------------------=( By: Axon )=------------------------------
+------------------=( Digital Pictures on the HiR site )=------------------
+
+Creating a coupler, eh?  Well, this is the mammoth that I've been wanting
+for the longest time... An article, with instructions, on how to make the
+acoustic coupler.  Granted, I did not "create" the acoustic coupler...
+But indeed I did come up with a way to make one out of some cheap stuff
+that can be found at any wal-mart and radio shack store... The best part
+is that I spent less than $20 making this beast.  It's not at all
+professional looking, and it's not as "heavy-duty" and rugged looking as
+some of the expensive couplers on today's market, but it makes a decent 
+connection, and that's all ya need.  It's not as compact as the
+production couplers, either; BUT IT'S A COUPLER!  Wow your friends and
+amaze them, cuz you can tell 'em you wired this one up yourself (but 
+tell 'em Axon told you how to do it!) 
+
+This Coupler can only handle about 2400 bps on a good phone.  This is
+plenty for checking e-mail, telnetting to a unix box, or getting on 
+the local Bulletin Boards.  It's sufficient for getting online from a
+payphone.  The reason the connection is slower than a store-bought
+coupler is because the more expensive ones have a lot of fancy stuff,
+anti-echoing filters and the like.  I don't have the expertise to build
+this type of circuit, but this coupler DOES work.  I HAVE tested this on a
+lot of payphones already, and it seems to work great at 1200 bps (which is
+what I usually use on payphones with my high-end coupler, too).  So far,
+I've put about 10 hours on the coupler, and I haven't had to change the
+battery in it yet.  Actual battery runtime might differ according to your
+modem.  ALSO: As with my coupler, there are probably some PCMCIA (laptop)
+modems that this doesn't work with...  It should work with almost any
+external modem.  Test it with an external modem if you have any problems.
+
+------------------------=( Some Background Info! )=-----------------------
+
+The theory behind the coupler is simple: It takes modem sounds from a
+modular jack, and converts them to audio sounds, and forces them into the
+microphone of a telephone handset.  At the same time, it's also listening
+to the handset's speaker, and converting that back to electrical signals,
+and forcing them back into the modem, through the modular jack.  This
+allows one to connect via modem in areas where you can't find a safe 
+modular phone jack to plug into.  This is great for hotels and offices
+with digital phones, at pay phones in the airport, or anywhere.  You just
+strap the coupler to the phone handset, and use the modem normally (after
+inserting change in pay phones, if needed)
+
+I have a store-bought high-end VERY nice acoustic coupler, but the more
+and more I thought about it, the more and more I saw that my coupler is
+just an inside-out telephone... Obviousely, hooking 2 telephones together
+with a phone cord won't allow the 2 phones to talk to each other, there
+has to be a voltage source or something, so I took a chance by slicing one
+of the wires (the green one in this case), and placing a 9-volt battery
+across it, in series.  The 2 phones that were on either end of the cord
+would actually hear the other end.  The 2 phones acted like normal.  
+(NOTE: Hooking 2 modems together with a phone cord that has a 9v battery
+wired in series will allow the 2 modems to communicate without using any
+telco phone lines!)
+
+I plugged one end of the cord into my laptop modem, and held the phone on
+the other end close to our office phone, so the Mics and speakers were
+facing the opposite way (end to end, speaker to microphone), and made a
+real-life 300 BPS internet connection.  This is where it all began for
+me.  I quickly drew up a sketch of what I would have to do to make a
+normal phone into a coupler.  I then went and bought the parts and made my
+first coupler at home in a matter of hours.  When it was done, it worked
+great, just like my store-bought one, but a lot uglier.  For 20 bucks
+worth of parts, I am pleased!
+
+-----------------------=( Some Assembly Required. )=----------------------
+
+This is going to be the official hands-on article for HiR 9.  For those of
+you who still like soldering, and cutting wires, and opening stuff up,
+this is for you.  For you software-only guys: this is NOT an easy project
+to undertake, but feel free to try.  Worst case: you're out about 20 bucks
+of parts.
+
+---------------------------------------------------------------------------
+Parts List:
+
+From Wal-Mart:
+
+$7.97	I bought a cheap Unisonic "Slim Line" (model #6420 FG) from
+	Wal-Mart.
+	But any single-piece phone (doesn't have a cord from the base
+	unit to the handset) will work fine, I'd guess.
+
+$0.96	A 3-pack of medium suction cups (1.5 inches diameter, but we only 
+	need 2 suction cups.  I tried large ones, WAY too big).  These
+	will become cut up and no-longer good for suction cups.  We're
+	using them to keep noise isolated away from the speaker and
+	microphone.
+
+$2.44	30-inch velcro straps.  These are going to hold the phone handset
+	down to the coupler, to maintain as much isolated noise as
+	possible.  If loud noises get picked up by the coupler, it could
+	be mistaken for data, and may even cause you to disconnect.  Most
+	of the modern modem protocols can handle this type of noise
+	without actual data errors, but play it safe.
+
+
+From Radio Shack:
+
+$1.89	Set of five 9-Volt battery terminals.  We just need one, though.
+	This will connect the 9-volt battery to the coupler's phone line.
+
+Opt.	You may want to get a small project case or a battery holder.
+	Determine this after you open your phone up.
+
+---------------------------------------------------------------------------
+
+1.  Open the phone up. Remove screws, snap the case open, whatever.  Try
+	not to damage the phone's outer plastic too much, because if there
+	is enough room for a 9-volt inside there, it saves you from using
+	a project case.  Be CAREFUL with the wires to the Mic and Speaker.
+
+2.  Try to get the guts out of the phone case.  Loosen up the speaker,
+	mic, ringer buzzer, and the circuit boards.  You should be able to
+	get all the stuff out, leaving an (almost) empty shell of the
+	phone.  Try to get just the circuit boards in there, as the
+	speaker and mic will be on the outise of the case at the end of
+	this project.  If there is enough room for a 9-Volt battery to
+	fit inside and close the case, then you should probably stick with
+	this phone shell as the case for the coupler.
+
+3.  Cut the centers out of the suction cups so that they fit the mic and
+	speaker nicely.  They should be fit so that hot-melt-glue can be
+	used to hold them in place.  They should look like this (but DO
+	NOT glue them on yet!):
+
+		speaker			   Microphone
+
+  Suction cup-->\_____/      __________       \__/ <---Suction cup    
+		 |   |      / Circuit /       |__|   
+                 \___======/ Board   /        //
+                           |________/==========     _
+                             \\                    [ |
+                              =====================[_| <-- RJ11 Jack.
+
+
+4.  This is where you may need some soldering skills.  The Speaker wires
+	will probably be really short.  You will probably want to  
+	lengthen them up by adding more wire, like 4 or 5 inches.  Just
+	lengthen it up a bit so that it can be positioned to reach the
+	microphone of almost any handset.
+
+5.  Now, to add the battery.  You need to cut the green wire coming from
+	the RJ-11 Jack on the phone.  Wire the 9-volt battery terminal in
+	series with the green wire... This should be done inside the case
+	or inside the phone if you verified there was enough room for it. 
+	It should look like this:
+
+     _|_               to circuit board... -->
+	|-------------------------------------------------- < Red Wire
+  RJ-11 |
+     ___|--------------_      _---------------------------- < Green Wire
+      |	                \    /
+      \  Inside Phone   _\__/_
+       \                 o__O
+        \_              |    |
+                        | 9v |
+                        |____|
+		
+
+
+6.  I mounted the microphone on the top of the phone case, and placed a
+	Velcro strap by the microphone.  I kept the speaker loose so it
+	could strap onto almost any phone, and I put velcro on it as well.
+	Finished, it looks like this (you may need to drill holes for 
+	wires to run through.  This is roughly what my finished coupler
+	looks like:
+
+                                                           
+	\_____/              ______________________\_/_   <-- Mic (built
+speaker  |   |              /                          \      into case)
+         \___==============|                            |
+           []              |____________________________|=========
+           []                         []            []    ^^^
+velcro --> []                         []            []   Phone cord
+                                      []            []   (to modem)
+                                      [] <--velcro->[]
+
+
+-----------------------=( Using your new coupler )=----------------------
+
+
+I basically strap the speaker of the phone handset to the microphone, and
+strap the coupler's speaker to the handset's microphone, hook it up and
+modemize.  Also, there's no need for an on-off switch for this coupler.
+It only connects the battery when the modem goes off-hook to dial, and
+while connected.  When you disconnect, the battery's not in use anymore.
+
+There was an article earlier, in HiR 1 called "List of hacking
+necessities", and I cover some general useage of the Acoustic coupler in
+there.  I did find some more info on changing what Baud rate your modem is
+using.  You probably have to set your modem for 1200 to 2400 bps for the
+coupler to work.
+
+Table of AT commands to set baud rate limiters.  I've run across 2 sets of
+AT commands.  All of my modems work with one of these or the other, but I
+can't guarantee that either one of these sets will work for your modem.
+I won't go all the way up to 57,600 bps... if you need to limit your
+speed, you'll have to limit it to 9600 or lower (on a commercial coupler).
+Like I said, 2400 is about the best that this home-brew coupler will pull.
+
+	Baud Rate (bps)		AT Command	Alternate AT Command
+	--------------		----------	--------------------
+	300			???		AT&N1
+	1200			ATF4		AT&N2
+	2400			ATF5		AT&N3
+	4800			ATF6		AT&N4
+	7200			ATF7		AT&N5
+	9600			ATF8		AT&N6
+	--------------		----------	--------------------
+
+
+Happy hackin', and the digital photos are going to be linked from the 
+HiR 9 page as soon as I have them sucked off the digi-cam, to show you
+what my coupler really looks like... If you want to download them, They'll
+be downloadable as hir9pics.zip and hir9pics.tar.gz from the HiR 9 page,
+and in the HiR_Archive section of the ftp site...
+-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-
+			Hackers Information Report 9
+
+		Windows 2000: What is it and why does it matter?
+
+			      Written by Axon
+	       ...Guess I'd better give Shouts to MSDN (or else?)
+-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-
+
+	I recently got ahold of a Windows 2000 (Advanced Server) Beta 3 CD
+(Microsoft Developer Network stuff, for beta testers.  My boss just
+happens to be one of them...)  I looked at the system requirements, and
+gasped for air.  This thing was gonna be a BIG HOG!!!  If I had to
+describe it in a single sentence, this would be the one: "Windows 2000 is
+almost nothing more than Windows 98 sitting on top of an NT Kernel, but
+it requires almost enough hard drive to install NT4 AND 98."
+
+	Now, let it be known by all, this is the Advanced Server Version
+of Windows 2K...  From my understanding this is the equivalent of The
+Enterprise NT Server.  If i'm not mistaken, There will be a Windows 2000
+End-user version (Windows 2000 Professional), Windows 2000 Server, and
+Windows 2000 Advanced Server. I am playing with Advanced Server, so don't
+expect all this stuff to be in all versions of Win2K.  
+
+	... I had enough ram in my Bitch Box (tm), you know, the one that
+I used to rank Server-OS's earlier this issue?  The total hardware
+pricetag on the big W2K is a PII 300 or better, with at least 64 megs of
+RAM, and the OS takes up a whopping 250-Megs (or so), making it, I
+believe, the largest hog of all OS's currently known to mankind.  This
+should not bring one glimmer of surprise to any of us, because "hey, it's
+Microsoft we're dealing with here."  It DID run on the P120 though, if
+what it was doing can be qualified as "running".
+
+	Not all is lost, though.  Of all the Microsoft OS's (and i've
+tried them all, even the original OS/2 released by MS), this one FINALLY
+gives some built-in features I like (as well as quite a few that I loathe,
+but I'll get over it).  Let's take a look at some new and cool things that
+W2K has to offer, first... (Some things might show up in both good and bad
+categories)
+
+	* NTFS Filesystem adds per-user, per-file access control
+	* Uses the NT Kernel, making it easier to manage threads
+	* MS Actually lets administrators telnet in, and they added
+	  some new command-line programs that let the admins do some
+	  cool stuff remotely or from a command prompt (I'll cover the
+	  new commands later)
+	* Almost all of the current DoS Windows attacks don't work on it
+	* Network status (connect/disconnect) and things like changing
+	  IP Addresses, adding protocols, etc. no longer require a reboot
+
+And, of course there is some stuff I just don't like (and neither of these
+lists are complete):
+
+	* NTFS Filesystem is slow and can still be read by anyone who
+	  has a linux floppy with NTFS in the kernel, or has NTFSDOS
+	  on a Win95/Dos boot floppy
+	* It likes to use 131 megs of my 64 megs of ram (it likes to swap)
+	* You can no longer create bootable floppies with it
+	* The NT kernel doesn't play games for crap!
+	* It STILL lies about having to reboot (as in, it says reboot and
+	  this will work, you say "no", and it works anyhow, without the
+	  reboot)
+	* 2 Words: Active Desktop.  It looks cool, but MAN it's a HOG!
+	* IE is built RIGHT in, no getting around it...sigh
+	* MS Actually lets Administrators telnet in, so now they can send
+	  thier usernames and passwords in the clear across TCP/IP lines
+	  that are easy to sniff, and have NO password hashing whatsoever
+	  (as if that makes much of a difference)
+
+	So, as you can see, you don't want to be switching back to MS 
+Operating systems from your cool Linux/*BSD/Solaris-Intel Boxes just yet.
+If you have a spare machine that's capable of running this, and you can
+afford it, I would advise playing with it.  It offers quite a few cool
+little features that I'd wish MS would have thought about long ago.  
+
+-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-
+
+Commands, commands, commands...(It's still not all point-and-click, guys!)
+
+	Yah, they added some stuff... some cool stuff, actually.
+Take, for instance, the new command interpreter (now shortened to
+"cmd.exe") has built in functions that make it "kind of" act a little more
+unixy... for instance it now accepts dual-pipes to run the second command
+only of the first command fails, or double-ampersand to only run the
+second command if the first one's successful.  All these commands can be
+run within a command prompt (and a telnet session!) Check this out:
+
+findstr		It's GREP!  it uses regular expressions and works through
+		pipes!  This is amazing...kind of.
+
+assoc		allows administrator to change what file types are
+		associated with what applications
+
+ftype		modifies file type bindings to file extensions (.txt)
+
+cacls		modifies, adds, or views user access permissions for
+		individual files or directories.  Schweet!
+
+at		a command-line interface to the Windows 2000 internal
+		event scheduler.  This is VERY cool stuff!
+
+tlntadmn	"telnet admin", allows admins to change what port telnet
+		service runs on, how many users can be on at a time, 
+		lists current telnet connections, and allows admins to 
+		drop specific connections.  Kinda nice...
+
+start		Start can open up a window on the box itself and run
+		something in it... kinda fun, fairly useless so far as 
+		I've seen.
+
+compact		allows file-by-file compression, decompression, or
+		compression status queries.
+
+* Over a telnet session, "Alt" key combos can be generated by pressing
+  "<CTL>-A" followed by the key you were going to use (I.E. <Alt>-F for
+  the File menu in the Text DOS Editor would be <Ctl>-A, followed by the
+  "F" Key.
+
+-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-
+
+Stability:
+
+	I must say, for being as much of a hog on resources as it is, I 
+haven't really been able to crash it.  Windows 2000 (just the beta
+pre-release) seems DARN stable, which actually took me by surprise.  I
+think MS finally got their act together when it came to the NT kernel.  I
+could always bomb out NT4's kernel, dropping it to it's knees, and making
+it go BSOD (Blue Screen of Death).  Things I've found that BSOD NT4's
+kernel: Trying to spawn processes while the machine is locked (as in,
+waiting for a login or at a password-protected screen-saver), running
+certain Windows 3.x programs, and a handful of other "normal" things that
+just kill NT.  W2K isn't like that.  Some of the old DoS attacks make it
+use a little more CPU (up to 60%, but not 100% like the old ones).  This
+tells me that MS fixed up the TCP stack quite a bit (but not enough, yet).
+The kernel is larger than the NT kernel, but seems to be a lot more stable
+and feature-rich from what I've seen.  
+
+	If you have a spare machine with the power to run this thing
+decently, I would consider it.  No word on how much cash one will shell
+out for it, though.
+
+-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-
+
+Why the heck is Windows 2000 a reality?  Didn't 98 just come out, and
+isn't there already a "second edition" in the works?
+
+	Actually, yes, 98 just came out recently, and they really shafted 
+you guys.  Windows 98 is NOT Y2K compliant as originally proclaimed by the
+MS Empire.  Once upon a time, there was also a whole load of patches and
+stuff for Win98 available from MS's web site mirrors, too.  Those went
+Bye-Bye... MS is going to apply all those patches plus some, and release a
+"Win98 Second edition" thing, that will run you poor guys a pretty chunk
+of change... I mean really...
+
+	So, with all this happening, why is Windows 2000 already in the 
+works?  It all has to do with MS wanting everyone to run Windows NT.  Back
+in the day, before Windows NT 3.51, Bill Gates said that this "New
+Technology" operating system that was under construction would be the way
+of the future.  Everyone would use it.  It would be the end of the days of
+MS-DOS (which is still the primary underlying OS Kernel for 95 and 98.  If
+you want to be honest, not much has changed from the days of MS-DOS 5.x
+with "C:\windows\win" in the autoexec.bat file.)  Why get rid of DOS, you
+ask. Sometimes I wonder the same thing, but I guess MS thinks that NTFS is
+"more secure", which it kind of is, mostly to remote users.
+
+	But Windows NT was "much too difficult for the end users" at first; 
+and it didn't (and still doesn't) play the cool games very well.  It was
+ugly, and had tons of bizarre menus and options that only would make sense
+to a system administrator.  The latter part hasn't changed a whole lot
+either, there are literally TONS upon tons of options, menus and trees to
+expolore, but Windows 2000 looks and feels a lot like a stabilized Windows
+98 box. Windows 2000 makes an attempt to nice up the menus (that is,
+give really verbose menu options so that it's fairly clear what's gonna
+happen when you click on stuff, and believe me, it helps when there are so
+many things to choose from). If you're used to NT 4.X, you're gonna be
+lost for a day or so on your Windows 2000 server box.  Things are in
+different places, and there are less administration programs, and the ones
+that are there do a lot more than their older, NT4 cousins.  If you're
+using (or have seen) Windows 98, it'll be comfortable, but a lot of admin
+stuff you're not really used to seeing.  Windows 95 users will be lost
+even longer than the NT4 users, but they'll manage.
+
+	This is truly the attempt to "make" everyone use NT.  Windows 2000
+is totally based on a revised NT kernel, and is even installed from an
+"i386" directory off the CD, much akin to the Intel NT4 installation.  It
+is installed on a fat16/fat32 drive, and can remain that way if the user
+wishes.  The partition may be changed over to NTFS at any time by the
+admin, but it requires a reboot.  
+
+-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-
+
+NTFS WHAT?!
+
+	Once changed to NTFS, there is no going back.  It's NTFS for good.  
+
+	I would recommend using NTFS only if you want to have multiple users
+(local and remote) that you don't completely trust with the files.  NTFS
+basically only adds user-by-user and group file permissions, which are
+accessible through the "properties" dialog for each file and directory.
+Converting to NTFS adds another folder tab to the dialog, allowing the
+administrator to edit the ACLs (Access Control Lists) for the object.  If
+the permissions are set to allow it, certain users might be able to read
+the ACLs as well, and if misconfigured, users will be able to EDIT the
+ACLs...so be careful.
+
+ACLs have a kind-of pyramid structure.  Possible permissions:  
+
+Full Control
+Modify
+Read/Execute
+List Contents (folders/directories only)
+Read
+Write
+
+Each of these can have three states: Granted, Denied, or Neutral.
+If Denied, all "grants" are nulled, and Deny takes precidence.  This means
+if you give the user "me" read access, and deny the group "Everyone" read
+access, the user "me" who is in the "Everyone" group (all local users are
+in Everyone, and this can't be changed), then the read access you granted
+"me" becomes denied because of the deny rule that also exists.  However,
+if "Everyone" just isn't granted or denied read access, while "me" *IS*
+granted read access, "me" will retain the read access, and the null
+read-denied bit for the "Everyone" group won't overcome "me"'s access
+rights.  Since "Everyone" doesn't have read-access granted, they can't
+read it anyways, and everyone is happy.  If a user is given "Full control"
+over a file or directory, all other access permissions are immediately
+granted unless overcome by a "Deny" due to a group they are residing in.
+Remember this when troubleshooting file access problems.
+
+NTFS can be easily overcome at any time with NTFSDOS (a DOS tool that can  
+be used by a user with a bootable floppy.  It allows reading and writing
+to any file on the NTFS drive) or a linux boot floppy with NTFS in the
+kernel.  This works with all versions of NT that implement NTFS.  (NT 3.51
+used HPFS)  Of course, you realize this relies on a few factors, including
+Physical access, and the BIOS set to be able to boot from floppy or CDROM.
+
+I would recommend password-protecting the BIOS settings area, and turning
+off floppy/cdrom boot, which is a good idea anyways.  This will help
+prevent a malicious user with physical access from compromising your
+system (although psysical access usually means easy admin access anyways,
+but it never hurts to make it harder).  I would also recommend you get a
+copy of NTFSDOS or a crafted linux bootdisk kit that offers NTFS access
+(available on the web).  Try it out, and get comfortable using it, because
+one day, you might need to recover something.  If you ever need to recover
+it, go into the bios settings, enter your password, enable floppy/cdrom 
+booting, and proceed, disabling floppy booting when done.  This practice
+will ensure that you have access to recover files in case of an emergency,
+and will keep most anyone else from doing it the same way you did.
+
+-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-
+ 
+			   Hacking Windows 2000
+
+	Remember all those fun hacks for Windows NT?  You know, like the
+ones where if you had an account and physical access to the box, you could
+add yourself to the administrators group, and all those?  Well, so far as
+I can tell, not a single one of them work against Windows 2000.  I may be
+wrong, but I've tried all the toys I found for NT4, and nothing works.
+About the only thing Windows 2000 seems to be vulnerable to is the boot
+floppy with an NTFS tool (covered in the previous section), and sniffing
+password hashes/raw telnet/ftp sessions.  I would say your best bet is the
+sniffing route.  I have not tried l0phtcrack against Windows 2000, but
+results are welcome by our readers (and I'll post your findings and
+appropriate credits on the News page and in the next issue of HiR).
+
+-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-
+
+			The Windows 2000 Registry
+
+	I'm not even going to TRY to get too specific here, as the Windows
+2000 registry isn't much different from the Windows NT Registry.  I'll
+give ya some pointers on system policies, though...
+
+	First things first... In windows 95/98, it's easy for the end-user
+to change his/her own registry permissions, because there is no defined
+"Superuser" level account... you know as well as I do that anyone with a
+few extra minutes on their hands will eventually be able to gain full
+access on your Win95/98 box, no matter how hard the policies are locked
+down (see "Windows 95: User Friendly means Hacker Friendly", HiR issue 6
+Article 7).  Under the NT environment, there is REALLY an administrator
+account, and that has access to everything, therefore, the need for any
+user to be able to change policies around is depricated (and just plain
+bad).  Normal users can not run registry patches or edit the registry in
+any way that would allow them more access.  Period.
+
+Policies are in a similar location to Windows 95.  Follow the registry
+tree! 
+
+Your policies would be under:
+HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies
+                                      ^^|^^
+					|_--> NOT \WindowsNT\
+
+	Windows 2000 Policies are pretty much Identical to Windows 95 
+Policies (in fact, the policies are Identical to Windows 98, to the best
+of my knowledge). The new policies add a couple of policies to do things
+such as Disabling "Windows Update" (which goes out and tries to grab
+updates from MS, also telling MS what you have on your machine, uploads
+your Windows 2000 serial number, and other evil things).
+
+-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-
+
+Operating-System wise, How does W2K score?
+
+	It's maybe a 6.  It's possibly the best MS Operating system I've
+seen.  If it's not the best, I would have to say it's the most intuitive.
+Will I switch to it from Linux, FreeBSD or some other UNIX-derived OS?
+Not on your life.  It's very cool, but there is still something to be said
+about using too many resources just to make sure the user has an interface
+to run programs.  Windows 2000 doesn't have what it takes just yet; I can
+do cool raw-socket operations for UNIX OS's, and that means I can have a
+lot more network fun.  I can also do more work in less time, because my OS
+isn't wasting gerbil-wheel rotations on drawing cool pictures on the
+screen, and if it IS drawing, it's doing it through X11 or SVGAlib, both
+of which use less resources that whatever MS is doing with their API to
+let pictures onto the screen.  The only real way I can describe what is
+happening is if I relate the operating system to the body of a car, and
+the hardware of the computer to the engine of the car.  Here goes:
+
+If the car's body (the OS) is huge, and bulky, not very streamlined, and
+weighs a lot, the engine (processor, memory, etc) will have to work
+harder, and it will never run as fast as it could with a lightweight,
+sleek, and small body.  
+
+Windows 2000 takes up 250 megs on the CPU for an install.
+I've seen a linux system use 3 megs of ramdisk space to run just fine.
+
+Which do you think is going to let the end-user use the processor (or hard
+drive for that matter) more efficiently?
+
+--Axon
+
+HiR 9
+
+Novell Netware Inside Out
+
+By Asmodian X
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Introduction [-1]:
+	Novell is one of those old school company's that became really
+popular because their Netware server software could run on just about any
+old PC machine, and client with just about anything.  The downfall of
+Novell is that it got old and inflexible, and ignored the Internet and the
+Unices and TCP/IP, until it leapt up and bit them in the ass in the form
+of Windows NT(tm).  Albeit Novell still out guns NT in performance, and
+security, it just lacked a pretty looking server, and the ease of use
+part. That factoid wasn't solved until the advent of Netware 5, which
+draws on TCP/IP and XFree86 for the gui. 
+
+	During this article I will briefly mention some of the ability's
+that Novell Version 4.1x and above has.  And briefly go over how Novell
+works.
+
+Table of Contents:
+
+-1. Intro 
+0	Components of a Novell network
+.5	Overview on The Server
+1	Overview of The client
+1.5	Overview of the Services
+2	Overview of Security
+2.5	Overview of File Rights and Filters
+3	Overview of NDS and NDS permissions
+3.5	Roto-routing
+4	IPX/SPX Sappiness
+4.5	Summary
+5	Netware 5 and Other After thoughts.
+
+
+Section [0]
+What makes a Novell Network?
+
+	Novell networks are usually made up like all other Ethernets (or
+token rings) are.  Network Card, Cable, hub, Server and or routers,
+Brouters and bridges.
+	Novell relys on client software to work, and the server is the
+only point where a person can access the file system, (unless your using
+windows 9x's SMB sharing protocol.) 
+	Job-wise, there's a few CNA's(Novell Certified Network
+Administrator) who actually take care of the users, and some specialized
+CNE's (Cert. Net.  Engineers) that actually perform maintnence and design
+new additions to the system.  The CNA's generally don't know a whole lot
+about anything, and have done a little bit of computer work. To become a
+CNA you must memorize a bunch of lists, protocols and garbage, the
+regurgitate all of it onto the test which costs around 80 to 100$(US). 
+Generally speaking they have to pull up the book to do anything more
+complicated than adding users and managing the print ques.  The CNE's
+however have had ten times that amount of education, and actually know
+something about the system. (I'm not a big fan of Cramming sessions for
+tests, you get nothing out of it). Plus in my opinion its a useless piece
+of paper, but on the other hand, it gets you the money, and in most cases
+the job. So go figure..
+
+The Server, Part [.5]
+
+The server is an x86 (probably Intel) which is crammed into a closet
+somewhere under lock and key.  The server by itself is useless, except for
+the few utility's you can run on it in the form of NLM's (Netware Loadable
+Modules)  Neat stuff like, EDIT, Servman and other stuff like that.  The
+server itself can be locked away for long periods of time with out fear of
+lost productivity because other than being a server, its a useless paper
+weight.  So what if you need to get at the startup files for the server?
+easy.  Most administrators will set up a blurb in one of the startup files
+to load a remote access module <it usually is something to the effect of
+
+<SNIPLET>
+LOAD rspx (spx remote protocol)
+LOAD remote <password>
+</SNIPLET>
+
+This is a text book example of how to load the remote console server. 
+This is also a gaping security hole.  <*See The security section for more
+information.*>
+
+The Console then can be controlled by a client program called "rconsole" 
+which resides on most dos/win, or win9x clients.  Any logged in user can
+run rconsole, but needs to know the password to get console. 
+
+-=-=-=-=-=-=-
+The Client [1]
+
+	At this point we know roughly the place of the server (which I
+plan to get into more of that later.)  But now we must talk about the
+client.
+	A Novell Client, is the very first thing that is run (service
+wise) on your Bill box (dos/win3.1x, win 9x/NT)  It Throws up a login
+screen, and allows you to connect to a certain Novell server, or into a
+user profile which resides on to another branch of the Novell Directory
+Service (NDS).  We will talk more about NDS later, so don't blow a neuron. 
+
+Security Difference Between Novell 3.x/4.1x and Unix type security.
+
+[UNIX]
+A Unix box just sits quietly on the network waiting for some one to
+connect to a service, and use it.  The Unix server (assuming it is
+currently running TCP/IP) has an actual address.  Which means it will
+reside at that logical location on that network, regardless of which
+user is using the Unix box, or what its Physical Address it is using.
+
+A Unix box does not require logins for certain types of services.  Like 
+for instance:
+
+World Wide Web
+Finger
+Time/Date
+Character Generator
+
+These do not require a person to login to the service, they are for the
+most part PUBLIC services.  And relys on the security of the network to
+keep unwanted users from accessing those services.
+
+[Novell Netware]
+A Client has no static address, it just sits there listening for SAP
+(Service Announcement Protocol)  The Client knows what servers are out on
+the network by listening for their services broadcasted by server.  
+example:
+
+	A server broadcasts that it is a server, and is residing at
+	Physical Address xxxxxxxx.
+
+	A client hears this and places the server on its list of servers
+	that the user can access.
+
+Once a user chooses to connect to a server, the user must enter a
+username, and or password for that server/service.  The Server validates
+the user.  Then the client is issued a Connection number made up of their
+NIC card's Physical address, and some of the users information.  The user
+is counted as a connection to the server, and the Administrator can see
+which user is logged in at which machine, just by looking at the
+connection number.  
+
+A great advantage of using Netware 4.1x is that NDS allows a person to
+access resources on multiple servers by logging in just once.
+
+-=--=-==--
+
+
+
+[1.5] The Services
+
+Novell Netware 4.1x provides File sharing, Printing, Software liscencing
+services, email ...blah blah blah...  you get the point.  
+
+Novell Netware even supports TCP/IP.  A person could set up an IPX to IP
+gateway, or just have IPX and IP co-exist on the same network.  Another
+neeto thing is setting up telnet services on the server.  From there a
+person logs in, then gets an XTERM (XFree86 Terminal) that spits out a
+server console.  (Xterm's are usable on Un*x machines, and there's also
+Win9x Xclients that can display the XTERM.  It shows up like remote does.
+Novell also has a slew of Unix like services, like FTP, HTTP and even
+addressing services like DHCP and stuff like that.
+
+in any case, Novell Netware provides the standard snafu services that
+every one else does plus a few proprietary services.
+
+-=-=-=-=--
+
+
+[2.0] 
+
+Security. 
+
+Novell Netware has 4 layers of security.
+
+	1.	Login (session based): the server does not acknolage your
+		existence with out logging in.
+	2.	NDS (Novell Directory Services): Checks what access you
+		have on the entire network.  plus access to database on
+		users
+	3.	File System
+		Rights:		(s)upervisor(r)ead(w)rite(e)race(c)reate
+				(m)odify(f)ile scan(a)ccess Control
+	4.	File Attributes: 	(there are many many many many
+					attributes) ie. read only, don't
+					compress...etc
+ 
+(Novell Security Goofiness)
+	Many administrators will have a guest account that they use
+temporarily for temp workers or new employees.  So that in it self defeats
+the purpose of layer 1. NDS Cant be directly accessed.  But by default you
+have access to the system volume.  If you can get there take a look in the
+etc directory.  Thats where the system stores setup.  Most files you don't
+have read access too, but there's a fun bug in Netware 4.11. If the admin
+setup TCP-IP, the setup proggie puts the rconsole commands in a publicly
+readable config file password and all.  So you skip all four layers
+and have direct access to the console.  The console does not look very
+pretty, but thats where you set up all of the services.. go figure..
+
+	I implore you, be nice to the admin, tell them about this and ask
+them to fix it. It can be fixed by simply removing the world readable
+attribute from the offending file.  It can also be fixed by putting in a
+script file that it self is hidden, but the system can still run it.
+Another note, the actual console shows your every move so your presence is
+not totally invisible.  Another note is that the admin can actually set up
+a screen saver password that would make it more difficult for a person to
+get through.
+
+
+
+[2.5] File rights and Filters (I.R.F)
+
+	File rights are one of the most important features that Novell 
+has.
+
+(File rights)
+R	Read contents of a file
+W	Write Stuff to a file
+C	Create a new file in this directory
+E	Erase file in this directory
+M	Modify File Attributes
+F	File Scan (allows you to see what files are in this directory)
+A	Administrator (the god bit) no matter what they have set up in
+	this directory in the way of permissions, they no longer apply to
+	you.
+
+you can see the permissions using the ndir dos command, or by viewing the
+properitys on the file by right clicking on the file and choosing
+properitys.
+
+The file rights R and F, are by default assigned to all directory's.
+In-order to control what inherited rights a sub folder gets, an
+administrator will set up what is known as an Inherited Rights Filter.
+Also known as an I.R.F. An IRF can block certain rights from being
+inherited from a higher folder.  
+
+<EXAMPLE>
+the Attributes in Brackets "[]" are your users effective rights to that
+folder. the "-" stands for an IRF.
+
+Root+ [RW   MF ]
+    |
+    +Fred+   [RW   MF ]
+         |
+         +Jim+  [R-  -F ](*the W and M attributes have been blocked*)
+             |
+             +Larry   [R     F ] (* The folder Larry inherited only the R
+                                  and F attributes and not the M and W
+				  attributes. *)
+</EXAMPLE>
+
+
+
+
+[3.0] The Novell Directory Service(s) or N.D.S, and its attributes
+
+	NDS was one of the primary features that Novell added to Netware
+4.1x.  It exists in Netware 5 and Has actually been ported to Windows NT
+Server.  With NDS a User can use resources (like files servers and
+printers ... blah blah blah) any where on the novell network that
+he/she/it has been given rights to.  It no longer requires a separate
+login to get to other servers resources.  N.D.S is essentially a big
+database of services and where they are located at on the network.  To
+make a long story short, when you add a computer to a network, you add an
+individule being to a communications medium.  When you add a Novell Server
+to a Novell Network, It is Assimilated into a collective entity, ala Borg. 
+So its a good way to reduce the work of administrating a bunch of servers
+because if you talk to one server, you have talked to them all. 
+	Some of the resources that a person will see on an NDS database
+will be, Users, Orginisational units (something to compartimentalise your
+resources)  Groups, printers, Print ques, mail ques ....Blah blah blah.
+The Database has its own structure and design, and has changed in design a
+wee bit from Netware 4.1x to Netware 5.  
+
+<NDS Stupidity>
+A bug in Netware 5's NDS design will crash the entire NDS database if you
+assimilate it into an existing Un-patched Netware 4.1x network.
+</NDS Stupidity>
+
+The NDS database can be stretched out to reside on multiple servers, just
+in-case a server bombs out, the database will still be some what intact.
+this is done through partitioning.  All or part of a database can reside
+on a server.  This can accomplish several things.  First it keeps server
+traffic down, because multiple servers can take care of business.  Second,
+you can create a logical structure for a network.  By logical I mean that
+it used to be that a large department needed its own server to control
+its own resources.  With NDS people could make a logical branch for the
+department, and utilize resources from all over the building rather than
+investing in redundant equipment.
+ 
+Another Note,  File servers also reside on NDS as an Object.  At only one
+point in NDS you can put an IRF onto an object to stop the administrator
+Right.  And that place is on the file Volume it self.  It is an effective
+road block to separate NDS rights and File Rights.  
+
+(NDS Rights)
+	Slightly more numerous than File rights, NDS rights not only
+control a users access to certain objects, but to NDS data as well.  NDS
+keeps track of attributes to those objects.  Information such as Name age,
+address, phone number, date of birth ... what ever the admin puts into the
+users object.  There are Object Rights(Make news objects delete...etc),
+and there are Property Rights (database info)
+
+Those Object rights are:
+o S	Supervisor (*anything you want to do can be done*)
+o B	Browse(*See what stuff is*)
+o C	Create(*Make New stuff*)
+o D	Delete(*Delete Stuff*)
+o R	Rename(*Rename something*)
+
+The Property Rights are:
+o S	Supervisor (*As above*)
+o C	Compare (*Something to the effect of checking to see if something
+		exists, or yes/no property comparisons and stuff like
+		that. ie.. it can tell you that 75% of the users live at
+		the same address*)
+o R	Read (* Read that objects properitys*)
+o W	Write(* Change properitys on said object*)
+o A     Add Self (* you can manipulate your own properitys and stuff
+	something akin to supervisor rights but not quite as direct*)
+
+IRF's also exist in NDS, and work in pretty much the same manner as the
+File IRF's do.
+
+
+
+[3.5]  Roto-Routing
+
+IPX/SPX is alot faster than TCP/IP on a LAN, but runs into problems when
+it starts being used in a WAN (Wide-Area-Network) environment. Ie. from
+City to City, or country to Country Links.  IPX/SPX can only be bounced
+through three routers before the packet gets lost and dies.  Where as
+TCP/IP can be routed indefinitely.  IPX/SPX typically is most effective on
+a single segment.  Ie every ones using the same medium.  Like for
+instance, an IBM token ring network is nice and spiffy for IPX/SPX
+because all of the computers, and the servers exist on the same piece of
+Wire (so to speak).
+
+What Routing Does Is that takes a packet of information, sees if its for a
+computer locally, and if its not, it sends the packet up to the next
+network layer (usually a MAN(Metropolitan Area Network), or a WAN(Wide
+area network).  Which other routers take a look at the packet and see if
+its for them, and then if it is for a computer on their segment, they
+snarf it, and the process repeats it self. 
+
+Note: Netware 5 uses ONLY TCP/IP now, which solves the routing problem.
+
+
+[4.0]	IPX/SPX SAPPINESS
+
+	Sap not only runs from pine trees, but it runs out of Netware 4.1x
+and Netware 5 servers as well.  SAP stands for Service Announcement
+Protocol.  Sap is how Clients can see what services there are on a Novell
+Network.  The Client just stands there stupid and waits for a server to
+announce its presence to the world.  SAP simply contains the MAC address
+of the resources, and what the resource is.  SAP can run out of clients
+too.  For instance, a person can run the Pserver program to announce to
+the rest of the network that your printer is ready to accept print jobs.
+(of course the server still has to be there to manage the print ques and
+stuff)
+
+Note: Netware 5 makes full use of the TCP/IP broadcast address for SAPing
+purposes.
+
+[4.5]	Summary
+
+	Novell is one of the most popular Network OS's around.  The rumors
+of Novells Demise is greatly exaggerated by everybody's favorite spin
+doctor... Mr. Bill.  Most established company's use Some form of Novell or
+another for their lans.  In the way of security, Novell is pretty good,
+though their target market didn't buy it because of that, and
+have been known to do stupid things with their security.
+
+[5.0]	After thoughts
+
+Information on Novell the company and its products:
+HTTP://www.novell.com
+
+Security Announcements that first pointed out the Config file flaw.
+
+Bugtraq Mailing list archive.
+http://www.geek-girl.com/bugtraq/
+
+The Ugly Red Book that Costs too much for what it actually provides.
+
+Clarke, James David, IV.  " Novell's CNE Study Guide: 
+	IntranetWare/Netware 4.11"
+	Novell Press, San Jose 1997 
+
+ISBN 0-7645-4512-4 
+
+Slightly biased Summary: 
+
+Although Jam packed with fruity information on Netware, This book is
+poorly orginised.  The incessant "Words of wisdom" and the authors Flaming
+ego tend to distract your attention from the actual content.  This book
+requires a long attention span, and perhaps some form of Ritilan to fully
+digest.  Im not suprised if this book was in part sponsored by the midwest
+pulp association, weighing in at a paltry 1570 pages.  
+
+Asmodians Slightly biased Rating: If your stuck in the wilderness and need
+to start a fire, do not have any qualms about burning this book, you will
+be missing nothing..
+
+Telecom guide.
+
+Green, James Harry.  "The Irwin Handbook of Telecommunications 3rd Ed."
+	Irwin, Chicago 1997
+ISBN 0-7863-0479-0
+
+Summary:
+
+This book is some what dry, however it is concise and very to the point.
+I found it easy to read, and it was very factual.  It goes into great
+detail on the telecommunications industry.  A must read if you want to
+feel the telecomunication industrys pain.
+                                  
+//////////////////////////////  /_\ o  |} (\ \\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\  \ / |  ||  / /////////////////////////////
+
+  \\\\\\\\\\\\\\\\\\\\\\\\\\\ More OS Stuffs: ////////////////////////// 
+  ///////////////////////////   Red Hat 6.0   \\\\\\\\\\\\\\\\\\\\\\\\\\
+///////////////////////////      by: Axon       \\\\\\\\\\\\\\\\\\\\\\\\\\
+
+While I didn't get ahold of Red Hat's 6.0 in time for my OS comparison, I
+got it on the 10th of May (The day it was released in stores).  There are
+a LOT of good things, and a lot of bad things about Red Hat's latest crack
+at the "User Friendly" distribution.  If you believe in leaving your linux
+box with stock interfaces, I really hope that you've got a fast machine.
+
+6.0 comes stock with both KDE and Gnome.  While the majority of the setup
+process is still an ncurses based text pseudo-GUI, once you've completed 
+the X-Window System configuration, you're given the option to "Boot in GUI
+mode", instead of having to manually change it over.  If you installed KDE
+or Gnome, Red Hat 6.0 will replace xdm (X Display Manager) with either
+Gnome's gdm (gnome display manager) or kdm (K Display Manager, part of the
+K Desktop Environment package).
+
+Both gdm and kdm offer more than xdm.  Gdm has an options menu that allows
+the user to select a different interface before they login.  It also
+allows the user to select different language sets.  Some of the language
+sets work better than others, and none of them are carried outside the
+window manager and it's applets.  Kdm only has a drop-down menu for the
+user to select what window manager they want to use.  Both gdm and kdm
+have a "shut down or restart" button of some sort on the login screen.
+This can be disabled or controlled with the root password.  Gnome alone is
+just kind of a Window Manager Extension.  A "Gnome" Session is really
+Gnome running on top of the Enlightenment window manager (although it's
+easy to make it run on top of WindowMaker, if you installed it.  This is
+(to me) a much more appealing combo, but still a CPU Hog).
+
+Both KDE and Gnome/Enlightenment, while they make the end-user sigh in
+relief, take up massive amounts of memory and CPU when compared to most
+other window managers such as WindowMaker, fvwm, or icewm.  They look very
+pretty, and they're a snap to get used to, though.
+
+It's my guess that Red Hat 6.0 will become one of the first
+widely-accepted "Desktop Linux Distributions" for corporations or
+universities, because it's really easy to get up and running, and easy to
+use, as well.  It's already being used a lot for these applications, but
+I'm still willing to be that Red Hat 6.0 will increase the widespread use
+of Linux as a "Normal" Desktop OS.
+
+As far as installation changes are concerned, there is an "Authentication"
+screen in the installation process, where you're given options to use NIS
+authentication, shadowed passwords, and MD5 passwords.  The printer setup
+screen allows you to select a NetWare printer if you've installed NetWare
+Connectivity in the packages.  Previousely, no matter if you installed
+netware connectivity or not, you had to add netware printers after the
+system was fully installed.  "Select Individual Packages" now breaks the
+packages down into an "expanded package tree" view, which is kind of
+annoying to those of us who were used to the older method.
+
+Red Hat 6.0 (when bought from the store) also ships with 2 books that are
+very well-written, an "Official Red Hat 6.0 Installation Guide" and an
+"Official Red Hat 6.0 Getting Started Guide".  The manuals, as in past
+versions of Red Hat, are also included on the CD, but only in HTML format,
+not in PostScript.  They are in /usr/doc/rhmanual (install manual) and
+/usr/doc/rhgsg (getting started guide).
+
+When you buy Red Hat 6.0, it comes with 30 days of free phone installation
+support.  Between the getting started guide and phone support, there is no
+reason that almost anyone wouldn't be able to use Red Hat 6.0.  It's THAT
+user-friendly.  Also, when you buy it from the store, you get a CD full
+of mostly RPM-packaged whole applications that basically work right out of
+the box.  This is full of commercial software (I think) and it can't be
+downloaded from official Red Hat sites.
+
+So, is it a waste of $65-$70 at your computer store, or a whole day (or 3)
+of downloading and burning to CD?  I don't think so.  It's easy to
+customize, and not horribly insecure out of the box.  It needs some work
+to be a secure server, but for the desktop user, it's great.  You could
+probably convince your other family members to use it after getting them
+an account and forcing them to play with it for a few minutes (show 'em
+The GIMP!)
+
+I'm not sure I would run out to buy the package from the store (I didn't).
+because I didn't really give a rat's ass about installation support or
+manuals (especially when I've used so many different OS's that I don't
+need installation support and the manuals are on the CD).  My advice is to
+find a friend that has it and burn a copy (or go to cheapbytes and get it
+from them for $1.99.  This one includes only the first CD, not the source
+code CD, and it doesn't include any paper manuals, just the electronic
+on-Disc ones).
+
+It's too soon to tell if there are any new security vulnerabilities
+floating around within the bowels of Red Hat's Latest release.  Keep your
+eyes on BugTraq!
+
+--Axon
+ On Going Digital
+ By Frogman
+
+ (note: Of intrest to some, this article, except for this note and some
+        minor typographical changes has been written on a TI-92 in the
+        text editor.  I transfered it to my 'miggy with Amiga92 and a
+        parallel cable I built.  I just opened the raw variable, found
+        that it contained ASCII and some other nasty control chars and
+        cleaned it up into this.)
+
+   Some time ago I purchased a microcassette recorder.  I've used it to 
+record many things, including some of the DefCon 6.0 presentations (I 
+should have gotten the CDC's BO release on tape!) and my thoughts on 
+certain subjects.  One of them is my initial thoughts on going 
+digital.  In my own words:
+
+ And so it begins.  Heh, Frogman gets personal with an elctromagnetic 
+device.  Who would have thought the day would come?  Digital 
+technology and all it's wonders is no match for an analog recording, 
+except for the fact that one's friggin' permenant and the other erodes 
+away in the dusts of time.  Immortality, that's what it's all about.  
+Overrated media-hype.  The digital immortality, still f***ing analog.  
+In my 90's world, my way of thinking, everything is simplification.  
+What do you do to simplify analog?  What is analog?  High, low.  The 
+difference between is called analog.  When the difference no longer 
+matters, 'cept that there is a difference, that is digital.  Both do 
+erode in the way of time.  The only question is, how fast?  The fact 
+that there is a difference is still discernable.  The fact of how 
+much, that get's fuzzy.  That is the difference.  Like I said, 
+immortality is f***ing overrated.  Who ever wants to be immortal has 
+go something wrong in their head.  Who wants to be the same person for 
+centuries,nothing changing over time?  Nobody else change over time?  
+Who wants to be the same person they were six billion years ago?  
+That's immortality.  Immortality won't last you about three years and 
+go away.  Immortality is f***ing forever.  People want to live 
+forever, they will see their friends, their family, everyone they 
+either knew, hear of, cared about, thought about, considered dating, 
+considered f***ing, whatever.  When they are gone you'll still be 
+around six billion years from now.  Watching ---------- world.  ------
+----- friggin' planet.  Like I said, overrated media-hype.
+
+ <end of that rant>
+
+   Well, for the time being we can ignore the immortality aspects and 
+such.  They stem from a philosophy class I was taking at the time.  
+What I want to focus on is the deal about analog vs. digital and their 
+self refrencing traits.  As I said, digital is a subset of analog, 
+where all that matters is the fact of a difference in states.  
+Converting from analog to digital is not all that hard, simply 
+identify a regular period to meaure from, mark high and low points, 
+and thats about it.
+
+   The conversion of digital to analog is tougher, because of the 
+missing information.  To start, we need a new way to get from analog 
+to digital that describes the wave.  One way to do this is to increase 
+the period to identify not just highs and lows, but the rise and fall 
+values in between.  But digital doesn't allow for anything but two 
+values, right?  Well, we can combine those two values into patterns to 
+represent bigger numbers, like we do in base 10, or decimal.  The old 
+standard of digital to analog conversion in the home market was 8 bit.  
+The analog signal was abstracted into a list of numbers representing 
+the value of the wave at a point in a given period.  Well, by 
+narrowing the time between two gaps, we can get a good approximation of 
+the wave, even to the point that we end up going past the abilities of 
+out 8 bit value set.  In that set we are abstracting the wave in to 
+values of 0 to 255 or from -127 to 128.  The problem with this is that 
+small sublties in the wave are lost if they are between two values 
+available,  The way to correct this is to base the conversions on a 
+larger set, such as 16 bits.  This gives us a range of 0 to 65536 or 
+-32767 to 32768.  This gives a much clearer and accurate abstraction of 
+the wave.  If memory serves, this is about on par with the average 
+quality that the human ear identifies.
+
+   Now, with a much clearer way of going from analog to digital, going 
+in reverse is quite simple, just convince some DAC (digital to analog 
+converter or circuit) to smooth out a few rough edges, and we have our 
+original waves general look back.
+
+   The problem I identified with analog and digital (before heading into 
+the immortality rant) are clear, when you consider the proposals I 
+have just made about conversions.  The analog wave is being 
+approximated and abstaracted into a string of numbers, which can be 
+stored and coppied in an exact form, since they are working in a 
+bounded set, ie. the range allocated by how many bits you use.  The 
+waves exact properties are lost in the conversion, but the only known 
+ways to reproduce analog waves is by approximation.
+
+   So, having found that digital is a subset of analog, and that the 
+subset can be used to represent values larger than the individual 
+digits in the set, we can guess the whole "digital is better" mindset 
+really isn't true.  Digital is what we have to do.  That sounds alomst 
+ominous, but digital is the only way to maintain exact copies of our 
+analog world, only suffering a loss of data in the inital conversion.
+
+   Now that some chunks of theory and analysis are out on the table, if 
+you've read this far, you may be wondering where this is leading.  There 
+are many applications for this whole topic, but in this issue I want 
+to focus on audio, specifically analog to digital and vice versa, 
+especially in the case of data transmission, such as modems. =]  This 
+all brings me around to the coupler Axon built.
+
+   Why don't people use couplers more often, you may wonder?  Well, 
+acoustic couplers convert signal to signal, just like a hardwired modem.
+But they have more conversions, and therefore more room for data loss.  
+A modem converts the digital signal from a souce such as an RS-232, 
+RS-442, PCMCIA, ISA, PCI, or what ever interface goes from the computer 
+to the modem.  It is digital all the way.  From the modem down the phone 
+line to the next modem is an analog connection, which a basic analog signal 
+is sent that the other modem can pull the digital highs and lows out of.  
+From there it gets sent to the other computer throught the whathaveyou 
+interface digitally.  Nice, one conversion to and from analog.
+
+   But what about the acoustic coupler?  We start at the modem this time,
+and the initial digital to analog conversion.  From there it goes through
+the coupler, which blasts the analog signal from a speaker.  That speaker 
+approximates the analog electrical signal, and turns it into moving 
+air.  The air in turn moves the microphone of the handset the
+acoustic coupler is attached to.  The microphone apporoximates the air
+movement into an electrical signal, and sends it merrily on its way
+through the phone line,as in the strait modem to modem example.  What this
+shows is two more analog to analog approximations to the data signal in
+top of what is there to start with.  Those approximations can be royally
+screwed if the speaker on your coupler sucks, the microphone in the handset 
+sucks, or the air movement in between is interefed with, which sucks.
+
+   And what you have learned today, I hope is that approximation is 
+necessary, to a degree.  Too much approximation ruins the abstraction 
+of the analog data, and ruins this whole point of using digital tools 
+to reduce data loss.
+			---------------------------------------
+
+
+			     " Teach me how to hack !@#$ "
+                                     
+				       by Ixl
+			
+			----------------------------------------
+
+      
+       Teach me how to hack ! i wanna be a hacker ! how do i use winnuke ? I'm 
+sure most of you either hear these questions or are the one's asking them. 
+I'm writing this article for the people who are asking them,i've decided that 
+i'm sick of hearing these questions on irc and everywhere else for that matter.
+So load up ms word kiddy's and start reading.
+
+       Now i'm sure most of you wannabe-hackers must think that "hacking" is 
+something glorious and the "in" thing these days,let me fill you in on a little
+secret,it's not ! First off let's define hacking,in my opinion hacking is not 
+defacing websites,it is not launching denial of service attacks against servers
+,it's not running the latest exploit against unpatched boxes. These are all 
+things that *almost* anyone can do,they are not very complicated and do not 
+take much technical ability. What is hacking you ask ? Well depending on whom 
+you ask,you will get a different answers,if your asking me,i would have to say 
+hacking == the pursuit of knowledge ,that is the simplest way i can put it,it's
+not the pursuit of knowing how to run the latest version of winnuke,it's the 
+pursuit of learning how an operating system works,how programs are written,why 
+certain things work the way they do. In all honesty this is not an overnight 
+thing,it is a life long journey which never ends,to be a hacker is to strive 
+day in,day out to educate yourself and move ahead. Now you might be thinking 
+at this point that i'm full of shit because i don't type in l33t hax0r sp3ak ,
+the truth is ,i think it's pointless,and nobody undertands what the fuck your 
+saying,don't do it ! Also i'd like to point out that i'm *not* claiming to be 
+a hacker,nor have i ever made that claim,i simply love computer's,i love 
+hacking my config files,i love shiny new boxes to old 386's,i love seeing 
+something i never have and experiencing the joy's of learning about it. That 
+is what "hacking" is about,creating things and doing things for positive 
+instead of negative.
+
+ 
+
+    Now i'm sure at this point your probably wondering, "when is this guy gonna
+teach us how to be hackers ? " ,well i can't do that,nobody can,only you can do
+that.What i can do is point you in the right direction. I'm sure i've lost 
+about 75% of you reading this becasue i'm not giving out "10 steps to root" or 
+"cracking porn sites",but for the rest of you 25% that are actually interested 
+in moving ahead and actually understanding how that big white box on your desk 
+works,i will help you out. First off if you don't love your computer and enjoy 
+sitting in front of it for endless hours,your probably not gonna get very far,
+learning takes much time and patience,it is not an easy task,but if you are 
+motivated and are willing to put in the time,your already ahead of the 75% of
+the kids who just want to brake into things for no reason. Let's start with the
+machine right next to you,have you ever taken it apart and looked inside ? Do 
+you know how your machine boots up and communicates with your hardware ? If 
+the answers are no then you should definately start there. Go out and look for 
+some text files on the basics of how computer's work,almost any old dos book 
+will cover the boot process,how programs are loaded into memory and why,how the
+operating system is the "shell" between you and your hardware. You must start 
+at the beggining and learn about the basics before you can move on,there are 
+millions of text files out there,more than you could read in a lifetime. 
+Instead of using your internet account to lounge on irc and ask people for
+answers,go out and find them ! If you don't know how to do that,then load up 
+your browser and go to www.yahoo.com , it will be a great help to you. After 
+you've learned about your machine and all the peices inside you will have a 
+better understanding of why your computer behaves the way it does,and why the 
+operating system is so important. I'm assuming the majority of you are running 
+win95,and are comfortable with it,i'm not going to tell you to switch to 
+another one,but i will tell you this,win95 is not the only operating system 
+out there. There are many other's that are much nicer (IMHO),if you want to 
+get into networking and understanding how computer's communicate,start with
+an operating system that has more features and was designed with networking
+capabilities in mind,try freebsd or linux, you'll be amazed at how much more 
+you will understand when your editing all your configuration files by hand,
+instead of some stupid wizard doing it for you . 
+
+    Now at this point i'm hoping your interested and want to go even further 
+to your quest of being a hacker,i'm sure you've realized by now that a unix 
+based operating system is very important and can help you a lot more. Also i 
+would like to point out that if you've installed linux or bsd that there is 
+plenty of documentation that comes with them,and that reading them before you 
+ask questions is the smart thing to do. Next on the list would be learning
+about networking,learn how computer's communicate on a network,there are 
+unlimited texts on this and i'm sure by now you know how to find them. After 
+that move on to a programming language,if your not ready for that start writing
+small shell scripts,then eventually move on to C . After all this you will 
+realize the joy of learning on your own,the thrill of solving a problem all by 
+yourself,i'm not saying don't ask questions,just make sure you've tried to 
+answer them for yourself before asking someone else. 
+
+
+    In conclusion,you've now probably have a good idea of where you can go 
+with all this,the possibility's are endless. No longer will you have to rely 
+on other people to get where you want to go,you will hopefully be self-reliant 
+and eager to push yourself,and this is what *hacking* is about.
+
+
+
+                ------------------------------------------------
+
+				  
+           
+                               --<*>-<|>-<*>--
+                     Hackers Information Report Issue #9
+                                 Hacker Newz
+                               --<*>-<|>-<*>--
+
+Well, the HiR Crew did it once again... We've compiled yet another
+information-packed issue of Hackers Information Report, and we picked up
+another writer along the way!  Axon says this probably one of the funnest
+issues he's been involved with since the whole thing began.  Classes are
+winding down for most of the writers, and everything is turning out pretty
+good so far.  Despite our slow-down in information divulging, HiR is STILL
+healthy and alive, looking for more information and constantly thinking up
+bizarre technologically-focused stuff to give to you, the reader.
+
+Ixl is the newest writer in the HiR Crew.  He joined up with us about a
+month ago, expressing an interest in both gaining information and taking
+what he knows and learns in the future, to share it with those who will
+read it (this means you).  Ixl joins us from Canada, and has recently
+taken interest in Linux & FreeBSD after the typical hacker phase of
+realizing "Windows just doesn't cut it all the time".
+
+Great Newz: Axon finally got into the UNIX Administration class for the
+fall semester, so in a few months, you could expect to see some Solaris
+articles (and hopefully they don't decide to switch to Linux for the
+class. Right now, it looks like Solaris is going to be the platform used,
+and we'll see if they'll let students play with a Sun Ultra 1 or if
+they'll force us to use the Intel Edition of Solaris...)
+
+Also, as things build up before the Ultimate Gathering of Hackers in Vegas
+(AKA DefCon 7), Some of the HiR Crew is again preparing for the sacred
+outing.  There's no stopping us.  Rooms are reserved, and hardware has
+been purchased... It looks like all three of the attending HiR Crew
+Members (Frogman, Axon, Asmodian) are going to be armed with an arsenal of
+one laptop and one palmtop per person.  Teehee... It looks like Frogman
+got a sweet deal on a decent palmtop (in addition to the 486 laptop he's
+always had), and Axon finally picked up a full-size laptop replacement,
+but still uses his palmtop where a full-size laptop isn't practical.
+Asmo's got the laptop and was the HiR Member to start us on the palmtop
+action as well, and a lot of our equipment is gonna be network-ready on
+arrival.  For those of you who make it there, try to find us... We'll
+probably be handing out printed copies of the mag all the way back from
+issue #1.  For those of you who aren't gonna make it: maybe next year.
+Save your nickels and dimes, cuz DAMN it's worth it!  Rest assured, the
+entire HiR crew is good at notetaking (and most of us are damn fast
+typers, too), so there's bound to be some info in HiR 10 or HiR 11 about
+defcon... hopefully we'll squeeze out #10 before defcon, though...
+
+As we were saying earlier: HiR is alive and well, and it looks like HiR 10
+will have some interesting things to offer as well.  The Crew won't ruin
+it for you, but we've got some articles already in draft form, just
+screaming to be expanded on, touched up, and released.  It even looks like
+we'll have another writer, and maybe even a truly bizarre article
+("hacking your car" ?!  That will cover simple "hacks" that give you more
+Horsepower/Acceleration and stuff) but that article isn't written yet, and
+may or may not show up in HiR.  I guess it falls under "ethical hacking".
+
+Shout outs to: Palmtop computers with real QWERTY keyboards, Mountain Dew,
+Barq's, Surge, Dr. Pepper, Payphones everywhere you go (for easy online
+access!), and the Number 42.
+
+This issue took a lot of pulling together from all members, and it's
+probably one of the most informative issues we've released to date in
+terms of the "cool stuff" department (between technical/philosophical
+explanations, taking a closer look at some things, and hands on projects.)
+
+--HiR Crew, Signing off (06/01/1999) -- Yah, We're Y2K Compliant & Stuff.
+

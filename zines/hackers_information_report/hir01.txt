@@ -1,0 +1,406 @@
+                         Hacker's Information Report
+                           I N T R O D U C T I O N
+
+This is the fisrt issue of HIR.  Hopefully this will be a bi-monthly
+publication.  Those of you familiar with such well-known works as the
+Legion of Doom/Legion of Hackers Tech Journals, Phrack Magazine, and the old
+Communications of The New Order Mags might see a stunning resemblance.  The
+goals of this magazine are simple: to continue the spread of knowledge that
+helps keep information free for those who wish to have it (that means you if
+you're reading this)  All articles are completely H/P related.  No death or
+destruction; no credit card phraud or stealing things from stores.  This is
+HACKING and PHREAKING.  Exploring phone networks, pbx's, data structures, and
+contributing to the general spread of...well, Hacker's Intelligence is what
+this mag is about.
+              Our E-Mail account is Halcyon@bbs.compfind.com
+             Writers can be reached via their personal e-mail
+                        addresses (if published).
+
+        The HIR staff is looking for writers.  If you are interested in
+        being listed as one of the writers, e-mail an article to us!
+        Remember this is H/P only.  Of course, not all articles will be
+        Published, but hey, after we've published three of your articles,
+        You're qualified to become a staff member, listed in the members
+        box, instead of the "Guest Writers" one at the end.  Have PHUN...
+
+        
+      Phyle   Title                                   Writer  
+      """"""  """"""""""""""""""""""""""""""""""""""  """"""""""""
+        1       Introduction/Table of Contents          
+        2       List of Hacking nessecities             Axon
+        3       Preparing the Hack                      Axon
+        4       Anonymous Hacking                       Axon
+        5       How to build your own telephone bug     Axon
+ 
+______________________________________________________________________________
+<<<<<<<<<<<<<<<<<<<<<< List of Hacking Nessecities >>>>>>>>>>>>>>>>>>>>>>>>>>>
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>By: Axon<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+        So many people way too often ask me "how do I hack?" or ask me to
+TEACH them how to, as if it was like cooking (add a little this and that and
+bake for 2 hours).  Unfortunately, it's far from being easy to "teach" all
+the skills that are needed, but over the last few years I've come up with
+a list of things that most people don't have, that they either really need,
+or would just be good help if they want to be serious about this sport.
+
+  1) A computer
+        Let me explain this one.  I survived on an 8088 laptop and 2400bps
+        for quite a while.  I wasn't cracking password files with it, but
+        I could have my modem software/scanner, and a slow but useful modem
+        attached.  Most of you will want something with a little bit more
+        power (for games, if nothing else).  Any x86 (386/486/Pentium) based
+        system should work, as long as it can run any popular operating
+        system.  Ideally, I would suggest having at least a cheaper, old
+        laptop that's pcmcia (PC-Card) modem ready, unless you want to find
+        a 120v wall outlet in farmer jones' pasture... (I'll discuss lappies
+        later)
+
+  2) A modem
+        These are very handy.  Pick one, I don't care what kind, no one else
+        will either.  Just don't get a ZOOM series and you're good to go.
+        Now that I got the two basic things out of the way that make people
+        say "DUH!!!  Axon, do you think I'm an idiot?!".  No comment.
+
+  3) A touch of phreaker power
+        Most hackers have learned that they have to, at one time or another
+        borrow some tricks from another popular cyberculture sport, phreaking.
+        My suggestions are to know how to build and use a device called a
+        "Gold Box".  It allows you to hack from home, and it's traced to a
+        different number.
+
+        for those of you that choose to dabble with a laptop, familiarize your-
+        selves with another tool called the "beige box", which allows you to
+        directly tap into someone else's phone system and use their line.  If
+        a trace is run on you, it's not your number, it's the number of the
+        house (corporation etc.) you were using.  Fun, huh?
+
+...and while we are talking about laptops...(a brief tanget by Axon)
+When I first got into computers, the modems were strange...one didn't plug
+something into a phone line and type commands in.  They placed the actual
+handset of the phone onto some rubber cups (that picked up and sent out the
+carrier sounds and translated the sounds into characters for the computer).
+Recently there has been a popularizing of a device similar to the old acoustic
+modems (which were capable of no higher than 1200 bps).  The newer cousin of
+the modems-of-old is called an Acoustic Coupler.  It looks like a whacked up
+telephone.  On the old modems, you didn't need to find a jack to plug into,
+just find a phone, any phone that works.  That's the idea behind the Coupler.
+Usually running off 9v Batteries, the "phone cord" from the coupler plugs into
+your modems "line" jack, and you simply strap a handset down onto the rubber
+cups, and dial.  I recently acquired one of these, and I've gotten speeds up
+to 19,200bps with it.  That brings me to #4...
+(end of taqngent)
+
+  4) Acoustic coupler
+        Just for those of you who might be using a portable computer, palmtop,
+        laptop, or some other strange device to hack with.  (I won't explain
+        this any further, read above if you haven't already.)
+
+  5) Curiosity and Drive
+        Many people who really feel that their destiny is to become a hacker
+        just don't have that drive that makes them want to know more.  This is
+        important.  You MUST be curious; enough so to keep you hooked on
+        hacking.  If you don't have this much, stop reading and go into
+        basket weaving or something.
+
+  6) Decent study skills
+        No, this doesn't mean you should be a straight "A" student.  School is
+        boring and pointless.  I had a 1.6 GPA after i finished High screwl.
+        If you can't stand the thought of sitting down and spending lots of
+        your time observing, writing, brainstorming, programming, and testing,
+        you can forget hacking as well.  Hackers need brains.  (Read the
+        article "Preparing the hack" later this issue.)
+
+  7) Other things that help which are not always needed
+        Know some programming, I don't care if it's assemlber, C++, Pascal,
+        QuickBasic 4.5, or what.  A hacker should be able to at least write
+        small programs, but if you insist that coding is not your thing, it's
+        not really 100% important.  Also, some Hardware knowledge is good (as
+        well as knowing how to use a soldering iron and electrical tape).
+        Most of the quality hacking tools available on the net are good.  Try
+        things like "ToneLoc" and many others.  Also, if you have a printer
+        you should use it.  I have file cabinets FULL of info I've printed
+        on operating systems, companies, networks, and other things.  Remember
+        those study skills!
+
+
+Technically, I guess that's all you really need in order to start hacking.
+Of course some kewl-ass little toys are good to have, such as a multitester
+or Oscilliscope (the oscilliscope's uses for computer hacking are a few and
+far between from my experience) and anything else you can use to help you hack
+into your mark.  (Remember: A hacker is a survivalist who will use whatever
+he can to his advantage)
+
+
+_-~-_-~-_-~-_-~-_-~-_-~-_-~-Preparing the hack-_-~-_-~-_-~-_-~-_-~-_-~-_-~-_-~
+~-_-~-_-~-_-~-_-~-_-~-_-~-_-~-_-By: Axon-_-~-_-~-_-~-_-~-_-~-_-~-_-~-_-~-_-~-_
+
+There's a lot that goes into a really good hack.  Everything, of course
+depends greatly on what you are actually hacking.  Before you think about
+guessing usernames and passwords, Try a few intelligent things.
+
+If the place is local, by ALL MEANS go there!  Sit across the street and
+watch what goes on. Stay there all night even, and see when guards arrive,
+and when they make their rounds.  Look for security cameras and other things.
+Your target: The Dumpster.  That's all you're physically going to do at the
+site of the place you are hacking is wading through a dumpster.  Look for
+papers with phone numbers on them, Printed and discarded e-mail, and anything
+else that looks like it could provide useful information.
+
+If the place you are hacking is on the internet, then try telnetting to it
+first.  IF it asks for a login, print the screen or write the info down, and
+then break the connection.  We aren't going to guess just yet.  Finger the
+host and print that out, too, unless it refuses a finger connection.  You
+may also want to run a port scanning software on the host.  This will tell
+you what services they have enabled for use from the outside world.
+
+If they are internetted AND Local, use BOTH of those above tactics (DUH).
+
+Internet Service providers (ISP's) are easy to mess with.  Call some up and
+ask if they offer shell accounts.  IF they say no, don't waste your time.
+Call the next one.  Once you find a place allowing a shell account, ask if you
+could test a guest account for a day or two.  You can demand this, because
+after all, you don't want to spend your money on a piece of shit ISP. You want
+to know what you're buying first.  You don't buy a car straight off the lot
+after you did no more than peek into the window.  Once you have a guest
+account, Set your terminal software to log the comunications, and type
+"cat /etc/passwd" and hopefully you'll get a list of usernames, and some other
+funky looking stuff (like encrypted passwords and other things).  All the
+different fields in the password file are separated by a colon (:).  The first
+field is always the user name, and the second is (usually) the encrypted
+password.  If the password field is one character (such as x, * or !) then
+the password file is shadowed.  You can read many text files on how to attempt
+to un-shadow the file.  Once you have the passwd file you have 2 things:  A
+list of every username on the system, and an encrypted password list.
+
+If you feel like spending a few days or weeks without using your computer,
+it is easy to crack a password file.  Download any of the password crackers
+you can find on the internet, and find "Dictionary" files (a huge file with
+tens, possibly hundreds of thousands of words, that can be used to crack the
+passwd with) for each password the cracker encounters, it encrypts all the
+dictionary words, and compares them to the encrypted password in the list).
+I would suggest "Star Crak" for this...it's one of the fastest programs I've
+seen.   Along similar lines, is a program called "Guess", which checks for
+those dorks that make their password the same as their username (i've found
+several passwords this way).
+
+If you feel gutsy and try to hack a system/network at your school, be careful.
+Usually these places know they are vulnerable, but don't have enough money to
+go and buy fancy security systems, so they compromise by being extremely harsh
+on hackers.  The people never found me out at the high school because I had
+my laptop hooked into their network and they didn't know where I was
+physically (they had a map of the school and kept track of their computers'
+network ID's so they knew exactly where things were coming from...except for
+me...  Several people got busted at my school.  No expulsions, but a few good
+scares and within 2 months of having the network up they had enough hacks to
+force them to create a poster containing "Internet Usage Guidelines" or some
+bullshit like that.
+
+Colleges are a different story.  As soon as I started there I came in with a
+clean record, but I frequent the computer labs.  If you are going to play
+hacker at a college, act computer dumb in the highest degree.  DON'T be
+found in the computer labs 3 hours a day.  I would suggest going to the labs
+long enough to find out network ID's, IP addresses, Physical locations of any
+servers, and other things like that, doing so over the period of a month.  In
+other words, keep it to a max of 1 hour, and always complain about having to
+type.  You hate typing but all your instructors want typed shit!  ARRGH!!!
+you get the dripht.  Find your info ON campus, Ask who runs the servers maybe
+if you feel like being bold, and do your hacking from OUTSIDE of the campus
+if at all possible.  (about noon-3pm is a good time to do that, and 2am as
+well....the bussiest times and the times where NO ONE is there).  Most Junior
+Colleges, universities, and colleges have no hesitations about expelling a
+rogue computer user.  You can always have a friend at another school get info
+for you about their school, and you give your friend info about your school
+and hack each other's schools till doomsday.  (That trick works sometimes, and
+if you're careful you won't get caught and you don't even need to act stupid
+about computers)
+______________________________________________________________________________
+|\/\/\/\/\/\/\/\/\/\/\/\/\/\|Anonymous Hacking|/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\|
+{[(----------------------------<[By: Axon]>--------------------------------)]}
+
+A hacker's dream...to be able to dial up anything, anywhere, and hack it
+without leaving a traceable path.  Sometimes it becomes nessecary to pay a
+few cents (or bucks) to do this (or a way to "transcend" the cost if that's
+what kind of person you are.  It's riskier to do it that way).  There are a
+few decent ways to make sure your mark never finds you out (via caller ID,
+ANI, or tracing methods).
+
+Some people think that if you snatch a UNIX shell account and telnet all over
+the place to hell and back again a few (hundred) times, It'll be so hard to
+trace you no one will bother.  THIS METHOD IS 100% BULLSHIT.  By checking
+system logs, it's easy to find where the shell acount you dialed up to
+resides.  After that, the system logs will show what line you called in on and
+what time.  Face it.  The phone company knows what number called that line at
+that time.  From there, you might as well bend over and take it like a man,
+because if they want to find you now, you're screwed.  I don't want anyone
+(at least one of our readers) to have that happen to them, which is why I'll
+tell you a few good ways to anonymize your phone calls.
+
+Actually, we aren't anonymizing at all.  That's impossible.  There has to be
+SOME phone number that the call originates from.  The only main LEGAL ways to
+anonymize yourself is to use either a payphone.
+
+Payphone:
+Some of you lesser-educated hackers might be asking "payphone?  Payphones
+don't have rj-11's on them"  This is usually true.  Some, however do.  Of
+course this typically works best if you have a portable system and modem that
+don't require any outside form of power.  Most payphones don't have rj-11's, 
+so this is where the phun part comes in.  Remember in the second phyle?  Yah,
+That's it...the coupler!  Strap it onto the fone, dial up someone else's shell
+account and telnet, or if ya got sum balls, just do a direct dial to yer mark.
+
+Most of the juicy places information loves to hide is dial-up only.  No
+internet, nothing.  A single computer attached to a fone line.  Often, this
+is even protected by intricate passwords and often call-back systems.  On a
+call-back system, a hacker needs to intercept the outbound call.  I will not
+go into this now, because there are many files on hacking call-back systems,
+and this really does not fall into the scope of anonymity.  The point is that
+sometimes, the only way into a system is through the phone.  Learn the ways to
+mislead the origin of the call.
+
+There are obviousely a few non-legal ways to go about making your phone call
+anonymous.  These are ways that, in some way or another, tap into someone
+else's phone line.  
+
+One method is to use a beige box adapted for a modem.  This, again is usually
+a tactic that works better with portables, unless you feel like running the
+phone line underground to your house.  An alternative is the Gold Box.
+Gold boxes at one time were fairly popular, though their use is declining.
+I would suggest reading some of the many phyles on the gold box. It is
+a very fun toy, and will help you sharpen your solderinng skills if nothing
+else.  Note that if law enforcement gets ahold of your new toy, and they can
+prove "intent to use", you get the shaft.  (you don't even have to commit the
+crime to get the book).  The theory behind a gold box is if you can find 2
+phone lines in the same box (Sometimes this is behind a business building) You
+place a device between them so that when you call the first line, it picks up
+the second line and puts it through to you, giving you a dial tone--Someone
+else's dial tone.  The foneco would trace it to the second line, and if you go
+back and take your precious gold box out of that location before they find it,
+chances are you're home free.
+
+There are more technical and fancier ways to make sure the foneco can't find
+out where you are coming from, but that typically takes some very advanceed
+hacking techniques, large amounts of time, and knowledge that originates only
+from years of hardcore phreaking (that i don't have).  This kind of setup
+would be more down the alley of a phreaker that wanted to use a touch of
+hacking for his own uses, rather than a hacker who uses a little phreaking to
+mask his/her activity.  If anyone knows these methods, though, they could
+write an article up on the topic for us.  =]
+                How to build your own telephone bug
+           A Hacker's Information Report Article by Axon
+
+Now, of course, this article is going to display the principle of radio
+transmission, as well as showing how to use an alternative power source;
+therefore this article is completely educational.  You'll even get to
+practice soldering!  Wheee!  (By the way, listening to someone else's
+telephone conversation without their permission is against the law, and
+it's also mean.  Never attempt to bug my telephone.  I'll find it as soon
+as I pick up the phone.  Don't point fingers at me if you get busted for
+doing something non-educational with this info...snicker)
+
+The first thing I would recommend to all you crazy hacks is to scroll to
+the BOTTOM of this text, and ogle at my Ascii-Schem for how to make this
+awesome device.  I may put a Gif version of the schematic up on the HIR
+Distro site later if i get a whole lot of complaints.  Note the parts list
+under the schem...jot all those things down, and go to some place to get
+them.  You may need to special order the transistors, but probably not.
+Radio shack might have them, or an equivalent.  Just ask and they'll look
+through a huge old book to find equivalents.
+
+Now that you have your parts, let's continue... I expect most of you should
+be able to assemble it from the schem.  you will probably want to etch a
+small pc-board (I've fit this project on a board as small as a quarter), or
+something.  This is REALLY simple.
+
+To make the coil, take the 6 inches of enameled 28 gauge wire, and scrape the
+enamel off the ends (1/8 inch is good) and wrap the wire tightly around a
+pencil, and carefully remove it, taking care to keep its shape.  If it gets
+deformed, you are screwed.  Redo it.  
+
+Since this article is educational, I might as well teach you guys how all
+this crap works together to send a fone conversation over the radio waves.
+This device is a combination of a high frequency oscillator, and a voice
+amplifier.  The voice amplifier takes the signal from the phone line, and uses
+it to modulate the oscillator, causing a nice clear FM signal.  Let's take
+a look at what's happening inside out little circuit.
+
+The parts of the bug that makes up the oscillator circuit are Q1, L1, C1, C2,
+C3, C4, R2, and R3, and a power supply, which happens to be the phone line
+(wow!  No batteries or nothing?!) Q1 is Biased into conduction by R2.  The
+collector of Q1 is attached to L1, and C2, 3, and 4. This array of coil and
+capacitors happens to cause an oscillationn ranging between 88MHz and 108 MHz,
+depending on how the trimmer capacitor is adjusted.  This range of frequencies
+is typically known as the FM (frequency Modulation) Band.  That's right, the
+stuff your FM radio can "hear".
+
+Q2 and R1 make up the Voice amplifier, which is used to amplify the audio
+signal, and is then used to modulate the signal that the oscillator is
+generating.
+
+Okay, so how do we hook this up, find what frequency it's on, use it, etc?
+
+Well, ya gotta hook it up first.  Testing this device requires a phone line,
+a phone, and an FM radio that you can have close to the phone.  To hook it
+up, you have to put it between the phone.  This will be hooked up sort of in
+series with the phone, and kinda parallel, too.
+
+Green wire: Hook this up to the green line wire on the FAR side of the fone.
+Gray wire: Hook this up to the green line wire on the NEAR side of the fone.
+Red wire: Attach it to the red wire.  IT just needs to make contact.  Don't
+          Cut the red wire, and if you do, twist all three red wires back
+          together.
+
+green line wire/green bug wire    Gray Bug wire      Green fone wire|""""""| 
+---------------*--------|"""""|---------------------*---------------|      |
+                        | BUG |                                     | FoNE |
+                        |_____|--| <---RED Bug wire                 |      |
+---------------------------------*----------------------------------|______|
+
+To test it, tune to an empty station on your FM radio, one with only static.
+pick up the fone your bug is attached to, and then adjust the Trimmer slowly
+(preferably with something insulated or plastic) until you hear the dial tone
+(or if you wait too long, the "We're Sorry..." message) on the radio.  make
+sure you aren't touching any of the wires (especially the coil) as this will
+slightly change the frequency when you release it.  You now have a working
+bug. IF you just can't seem to tune it in, check to make sure you don't have
+any loose connections or solder bridges.  IF that doesn't work, try using
+a different empty radio channel.
+
+For permanent installation, you may want to mount it inside a project box,
+with one male, and one female RJ-11 jack sticking out so you can just plug
+it straight into any normal fone line, or you may consider mounting it INSIDE
+a telephone.  This device is small enough.  As far as the Antenna, I've tried
+various things.  you may want to make a long wire, or just hook the antenna
+wire up to the yellow modular wire (which is used for a second line.  This
+will not, however, mess up their second line if they have one, just make it
+a huge antenna.  You may be able to pick up the conversations from as far away
+as a quarter mile.  Good luck!
+
+                              
+Ascii-schem for telephone bug                              ÉÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ
+    by Axon                                                º    Legend
+                         Q2ÌÍÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿  ÇÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+gray wire ÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÍ¹            ³               ³  º ééééé = coil
+                ³   R1     Ì»          ³               ³  º  ÌÍÍ
+                ÀÄ\/\/\/ÄÄÄ´ ³    ÚéééééÙ               ³  º Í¹   = transistor
+                   47ê     ³ ³    ³  L1         .___.   ³  º  ÌÍ
+green wireÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ ³    ³              \ /    ³  º
+                        R2   ³    ³               ³     ³  º .___.
+                      Ú\/\/\/Ù    ³               ³     ³  º  \ / = Antenna
+                      ³270Kê      ÃÄÄÄÄÄÂ         ³     ³  º   ³
+                      ³      Q1ÌÍÄÙ   C2ÁVARIABLE ³     ³  º
+                      ÃÄÄÄÄÄÄÄÍ¹5pF-40pFÂ         ³     ³  º \/\/\/ = resistor
+                   C1 Á        ÌÍ¿ÚÄÄÄÄÅÄÄÄÄÄÄÄÄÄÙ     ³  º
+                 100pFÂ   R3      ÃÙ  C3Á               ³  º  Á
+red wire ÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄ\/\/\/ÄÄÄÁ¿47pFÂ               ³  º  Â =Capacitor
+                          680ê     ÀÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ  º
+                                                           ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ
+Resistors               Capacitors                  Transistors
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+R1 = 47 Ohm ¬Watt 5%  ³³C1 100pF Cer.             ³³ Q1 2N3904                 ³
+R2 = 270K Ohm ¬Watt 5%³³C2 Trimmer 5-40pF Variable³³ Q2 MPSA56                 ³
+R3 = 680 Ohm ¬Watt 5% ³³C3 47 pF Cer.             ³ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+                      ³³C4 470 pF Cer.            ³  Coil = 6 inches of 28ga 
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ         enameled wire See 
+Green, red, gray wires are 22ga solid preferably            Previous part of 
+                                                       text for how to make it

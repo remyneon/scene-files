@@ -1,0 +1,1415 @@
+
+                              July 01, 1998
+                           HiR 6.  In the flesh.  
+._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-.
+
+HiR is an electronic publication that is written by real hackers and phone
+phreaks that have the desire to share information.  We only publish articles
+related to hacking and phreaking.  We don't cover viruses, stealing, carding,
+or blowing things up.  
+
+As a general rule, we don't do many walk-thru's; occasionally we might, 
+but we almost always focus more on explaining a given aspect in enough 
+depth to help the reader understand why things happen.  With that 
+information, they may learn for themselves and discover many other 
+things related to the article.  
+._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-.
+
+We are always looking for new writers.  If you are (or were) in the H/P
+scene, and consider yourself a decent writer, send us some of your work.
+Our e-mail is h_i_r@hotmail.com.  
+
+._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-.
+                          Current Staff for HiR:
+
+* Axon         (Editor, Official Site Webmaster, Writer)    Axon@compfind.com
+* Asmodian X   (Writer, Editorials, Linux Psycho)       asmodianx@hotmail.com
+* Kminor       (Writer, Ascii g0d)                    pairsnarfer@hotmail.com
+* Dr. Freeze   (Writer, Product reviews)             (Currently Computerless)
+* Frogman      (Writer, Amiga Feind)                     Frogman@compfind.com
+* The Man in Black (Mirror site webmaster)      The.Man.in.Black@compfind.com 
+
+._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-.
+
+HIR now has a much easier to remember URL, thanks to Monolith Internet.  It's
+just an http redirect, (so the old URL still works) but if we end up shifting
+the mag to another server ever again, this virtual domain name will redirect
+you to the new site (since we have the power to modify the target URL).
+The shorter url is: http://hir.home.ml.org.  Note that you will be redirected
+to the old address transparently.  This is not abnormal. 
+
+Along with the new site, we also have added a links and files page.  If we
+mention any good sites in the mag, you'll probably find a link on the links
+and files page.  There is a subtle link on our main page, but if you like
+to have URLs, it's at http://hir.home.ml.org/hirlinks.html.
+We will also put some useful shareware and freeware files on the page. Also
+we add just plain cool sites, which may be overt hacking related sites, or
+sites that are related to the general hacking subculture (Jolt Cola, etc.)
+
+You can find us at the following places (that we know of):
+
+Official HiR Distro Site Virtual Domain URL:           http://hir.home.ml.org 
+Official Southwestern U.S. Mirror site:     http://azure.rcn.nmt.edu:2007/HiR
+
+._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-.
+
+                            HiR 6 Article list
+Num   Article Title                                           Writer
+---- ------------------------------------------------------- ----------------
+ 1   Introduction/Table of Contentz                          HiR Crew
+ 2   HiR 6 Informative Resources                             Axon/Asmodian X
+ 3   Using FTPSearch for gathering host information          Asmodian X
+ 4   Motorola Cellular fun                                   Axon
+ 5   Mobile Hacking: Part Deux                               Asmodian X
+ 6   Tools of the trade: The Disk o' Death                   Axon
+ 7   Windows: User Friendly means Hacker Friendly            Axon
+ 8   HiR Hacker Newz                                         Axon
+                                                                                               .........,.........,.........,.........,.........,.........,.....67..,......78
+HiR 6 Informative Resources
+          By:
+   Axon & Asmodian X
+
+Useful URL's:
+
+     o FTPSearch (http://ftpsearch.ntnu.no)
+         Ftpsearch is a great internet resource to use.  It is extremely
+         flexible, and makes no sacrifices when it comes to power.  If you
+         have ever used the "advanced mode" of most internet search engines
+         (Like Yahoo or Excite), then this page will look fairly mundane.
+         for others, it's kind of confusing at first, but it eventually
+         makes sense.  Axon showed this gem to Asmodian X one day, and he's
+         used some of axon's ideas blended with quite a few of his own, and
+         wrote an article that will appear later in this issue.  It's a
+         must-read.
+
+     o HTML edition of The New Hackers Dictionary 
+       (http://www.earthspace.net/jargon/)
+         If any of you have ever read "The New Hackers Dictionary", it is
+         a book that is taken up mostly by entries of the "Hacker Jargon
+         File", but also contained within its pages is a healthy amount
+         of information that would help anyone better understand hackers
+         (such as the "Portrait of J. Random Hacker", and some of the
+         grammar usage notes).  This is a site containing the ENTIRE book
+         in HTML format, and you can jump to any part of it through the
+         table of contents.  (Also if you have a favorite word in the
+         jargon section, each word has a tag, so you can link to a single
+         word, not just the page of words starting with "H").  Very good!
+
+Books worth reading:
+     o The Windows 95 Registry: A Survival Guide
+         o ISBN:1-55828-494-X
+         o Author: John Woram (Also a Senior Contributing Editor For
+                   Windows Magazine).
+         o Published Sept. '96.
+         o Publisher: MIS Press
+         o Official Book URL: http://www.mispress.com/Win95Registry.htm
+         o Pages: 350
+         o Price: Around 25 bucks.
+         o Overview:
+           This is THE book to read if you are at all interested in the
+           mysterious Registry.  The information inside can bring a novice
+           up to speed in no time, and give the power-user (that's me) an-
+           other fun toy to mess with.  This book brings to light many
+           helpful registry issues such as security, user preferences, and
+           other handy stuff.  This book was one of 5 books read in order
+           to prepare Axon to write the windows 95 article (later in this
+           issue).  Not only was it the best of the 5, it was good enough
+           for Axon to BUY (instead of hanging out in a bookstore for hours
+           on end, reading it and putting it back, like some books).  This
+           book is not recommended reading for newbies, though.  Some of
+           the stunts they pull require some decent (intimate?) knowledge
+           of how windows handles things...                                            -=- A Tell Tale of the FTP Search Tool -=-
+                                  HIR 6 - 3 
+
+A Short Overview of the FTP search service.
+By Asmodian X
+
+        A while back Axon and my self triped upon a wonderful ftp search
+utility, aptly named "FTP SEARCH," that allowd our wandering eyes to search
+vast numbers of public ftp servers.At a point, for some "Unknown" reason, we
+felt a bit prankish, and searched for some really stupid stuff like..
+passwd, .rhosts and some other nifty things like that.  The FTP search 
+engine dutifully obeyed our requests, and gave us a really nice, really
+long, list of hosts, full pathname to the files, and their permissions. 
+As a credit to the standards of computer security, all the files we 
+found were permissioned to not allow any old user to read them..  
+However this service could provide invaluable information about 
+individual systems as a whole.
+
+        The "FTP search," page is at "http://ftpsearch.ntnu.no" for 
+those of you itching to try it.  Not only can you tell it to bluntly search
+everything. But you can set up sorting parameters.  Such as domain, paths,
+and you can tell it to hide certain types of files, such as software 
+packages...etc.  It may be an interesting test to see how much you can 
+learn about your self using this useful search tool.  
+
+        One interesting note however, this search tool only has a snapshot of
+what a server has available on a anonymous ftp session.    The really secure
+servers will have already removed themselves from the ftp database or have
+made a ls-l R.gz, which the ftp-tool updates itself off of. The ls-lR.gz file
+will be readinto the database insted of making a recursive directory scan.
+Thus the sysadmin can block out whatever directorys they wish, and the ftp
+search database will never know any different.
+        
+        If you have the burning desire for your internet ftp server be
+removed from "FTP search", send an email from your server to
+"remove@ftpsearch.ntnu.no"
+      [ H a c k e r s   I n f o r m a t i o n   R e p o r t   F i v e ]
+                [>>>>>>>>>>>>>> Cell Stuff 1 <<<<<<<<<<<<<<<]
+[The first article in a series of god-knows-how-many, completely dedicated to]
+      [the official toy of the modern Phone Phreak: The Cellular Phone]
+              [This article covers mostly Motorola Cellular]
+
+This is the first article of HIR completely devoted to all that funky cellular
+stuff.  As you may recall, in HiR 3 we mentioned that we found a really kick-
+ass course guide used for employee training with motorola phones. This article
+is the first fruit of the knowledge contained within that book's old tattered
+pages.  I've sort of divided this article into two sections: 
+
+ I. A flowchart of the chain of events that happen inside a cellular phone
+II. user- and test-mode cellular programming introduction
+
+On with the show!
+
+-<=>-<=>-<=>-<=>-<=>-<=>-<=>-<=>-<=>-<=>-<=>-<=>-<=>-<=>-<=>-<=>-<=>-<=>-<=>-
+I. Cellular telephone chain of events
+
+Sometimes it's nice to know what exactly is going on inside something.  Maybe
+you want to troubleshoot it.  Maybe you just want to be reassured that every-
+thing isn't just being powered by rubber bands and springs. Who knows. 
+Regardless, I've finally found a flowchart that describes in detail every
+action that a cellular phone takes after you power it up.  The flow chart
+does NOT cover what happens once you make or receive a call, however.
+
+
+ 1. Power button pressed.  Self Test Occurs.  NoSvc indicator activated.
+ 2. Scan preferred system (A or B).
+ 3. Scan all 21 control channels for that system.
+ 4. Use strongest control channel.
+ 5. If Overhead information is received and decoded, jump to step 8.
+ 6. Tune to second strongest control channel.
+ 7. If overhead info still cannot be recieve d or decoded, jump to step 12. *
+ 8. If the system ID matches the cell phone's home SID, jump to step 10.
+ 9. Activate Roam indicator.
+10. Turn off NoSvc indicator.
+11. Rescan after 5 minutes (Jump to step 2)
+12. Turn on NoSvc Indicator.
+13. Switch to non-preferred system (A or B), then jump to step 3.
+
+* In most phones, only the 2 strongest control channels are scanned, but some
+  phones scan more than 2.
+
+-<=>-<=>-<=>-<=>-<=>-<=>-<=>-<=>-<=>-<=>-<=>-<=>-<=>-<=>-<=>-<=>-<=>-<=>-<=>-
+II. Introduction to user- and test-mode programming on motorola cell phones
+
+There are 2 types of programming on motorola phones.  The easiest of the two
+is called user mode programming.  This method also goes by the name "security
+code programming", because there is a security code that is used when
+entering programming mode.  Once in this mode, it is possible to change the
+security code, which is 6 digits long.  After that, the old security code 
+will no longer let you in to user mode programming.  Take note that there is
+never a need for any special equipment here, as long as all the keys on the
+keypad work normally. 
+
+The other method is called test mode programming.  There is never a way to
+get into test mode with the keypad alone.  Sometimes it takes a whole desktop
+system with special interface cables and custom software, but in some cases,
+it's quite a bit easier than that, and can be done with nothing more than a
+little piece of aluminum foil or a pair of needle-nose pliers.
+
+I will only cover User-Mode programming in this article, but in HiR 7 I'll
+expose some ways of getting into Test Mode, and compare the features that
+make each programming mode diverse.  Some (but far from all) actual
+programming operations will be covered in depth, but since I myself have not
+messed with actual programming to much extent, all that i can provide is
+what I've done.  I will descibe each memory location, and the function of
+each bit or byte, though.
+
+Getting into User programming mode:
+
+This varies quite a bit from model to model.  When it comes to motorola
+phones, there are 6 main user-mode entry sequences.  Some phones may not
+allow user-mode programming, and a very small group of phones have another
+way of accessing user-mode programming which is more complex than I wish to
+cover here.  Below is a table of the 6 user-mode entry key sequences.  Then
+there will be another table of which handsets use which of the 6 sequences
+to get into user-mode programming.  Wherever %CODE% shows up in the sequence,
+you'll have to enter the 6-digit security code twice.  By default, the
+security code is 000000.  So, where %CODE% shows up, you would want to try
+000000000000 first, unless you know the security code is something else.
+if the security code was 852030, then where %CODE% is, you would need to enter
+852030852030.  Simple enough?  Just remember to enter the security code twice.
+
+컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+Table 6-2.II.1: keystroke sequences for entering user-mode programming
+旼컴컫컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴커
+쿙um 쿖ey Sequence                                                           �
+쳐컴컵컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴캑
+� 1  � [FCN] %CODE% [RCL]                                                    �
+쳐컴컵컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴캑
+� 2  � [STO] # %CODE% [RCL]                                                  �
+쳐컴컵컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴캑
+� 3  � [CTL] 0 %CODE% [RCL]                                                  �
+쳐컴컵컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴캑
+� 4  � [CTL] 0 %CODE% [X'ed Diamond thing] (CTL may also be the volume key)  �
+쳐컴컵컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴캑
+� 5  � [FCN] 0 %CODE% [MEM]                                                  �
+쳐컴컵컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴캑
+� 6  � [FCN] 0 %CODE% [RCL]                                                  �
+읕컴컨컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴켸
+
+Once in User-Mode Programming, you can do quite a bit, but not quite enough
+to satisfy the desires of most phreaks.  I'll show you what each value in
+user-mode programming means, and I'll focus on the ones I am familiar with
+(remember, I'm not a HUGE cell phreak, I just study it occasionally).
+If you modify the phone number, an internal counter dubbed the "3-Times"
+counter, will increment by 1.  Once it hits 3, the cellular phone goes nuts
+and will not operate.  According to the manual, you're supposed to turn it
+in to a cellular technician who will then ask why the phone number got
+changed so many times...heh...Well all they have to do is enter test mode,
+and modify the counter (Reset it).  Of course if you can weasel your way
+into test mode, you should be fine.  =]
+
+Pressing the * key steps through each entry in sequence.
+Pressing CLR returns the current data field to the previous value.
+Pressing # will exit the program without saving any changes.  This does not
+   have any affect on the "3-times" counter.
+Pressing the SND key while entering data has no effect.
+Pressing the SND key while on an entry field will save the data.  If the
+telephone number was changed, the "3-times" counter will increment.
+
+Entry   Default   Description
+ 01      00000     System ID.  This is the system ID of your cellular
+                   carrier.
+ 02      111       Cellular Area Code.
+ 03      1110111   Cellular Telephone Number.
+ 04      XX        Station Class Mark.  Varies according to channel access,
+                   VOX capability and power out.  You probably will never
+                   have a need to mess with this one.
+ 05      00        Access Overload Class.  Level of priority for accessing
+                   the system in case of a system overload.
+ 06      00        Group ID Mark.  Specifies how many of the SID bits are
+                   significant.
+ 07      000000    User Security Code.  Code used in accessing user-mode
+                   programming features.  Also used for changing the un-
+                   lock code.
+ 08      123       Unlock Code.  Supplied by the user to allow only those
+                   people who know the code to use the phone.
+ 09      0334      Initial Paging Channel.  0333 for side A SID's,
+                   0334 for side B SID's.
+ 10      011100    Option Programming.  These are toggle bits, read from
+                   Left to right:
+                   1. Internal Speaker disable. Disables the Handset call
+                      processing speaker if using an external speaker.
+                      0=Internal Speaker on, 1=Internal Speaker Disabled.
+                   2. Local use.  If set to 1, the phone responds to local
+                      control orders when the group id is matched.
+                   3. MIN Mark. If set to 1, area code is transmitted on
+                      every call.
+                   4. Auto Recall.  1 enables access to phone numbers
+                      stored in memory locations.  0 disables access.
+                   5. Second Telephone Number Enable.  Allows entry of
+                      telephone data into Second NAM (or into programming
+                      memory if the phone does not support second NAM)
+                   6. Diversity. If the dual-antenna feature is present,
+                      and you want to enable the diversity feature (use
+                      both antennae).  1=Enabled, 0=Disabled.
+ 11      11110     Option Programming 2. This set of option bits is only
+                   available on phones with software version 8735 or
+                   later (Phones with 832 channels).  Some phones only
+                   have 3 or 4 bits instead of 5.  These will always be
+                   the rightermost 3 or 4 bits (the last 3 or 4 of this
+                   table, Failed Page and Enhanced Scan may not be pres-
+                   ent in every phone).
+                   1. Failed Page Indicator.  Informs the user of any 
+                      in-bound call attempt that failed (typically due
+                      to a weak signal) if set to 1.
+                   2. Motorola Enhanced Scan.  Newer high-perfomance
+                      scanning technique is utilized where multiple
+                      signalling channels are present if this bit is
+                      set to 1.  Motorola started implementing this
+                      feature in mid '91.  Phones produced before
+                      this time do not have this feature.
+                   3. Long tone DTMF.  If set to 1, the DTMF tones
+                      are transmitted long enough to make it easier
+                      for certain DTMF-Sensing equipment to pick up
+                      the tones.  This helps when trying to access
+                      voice mail or automated phone menus from a
+                      cellphone.
+                   4. Transportable Internal Ringer/Speaker.
+                      0=Audio routed to external seaker of "Tough
+                      Talker" or Carry Phone.  1=Audio routed to the
+                      handset speaker.
+                   5. Eight Hour Timeout.  If phone remains inactive
+                      for 8 hours straight, it automatically turns
+                      off.  This is mainly for carphones, to keep
+                      them from totally draining your car battery.
+
+If the Second Telephone bit was enabled, the whole process will
+start over again, except with a "2" to the right of the entry 
+number.  Entries 7, 8, and 11 are not repeated.
+
+Keep a lookout for info on getting into test-mode programming, where
+the REAL fun begins.  It should be ready by HiR7, but I want to make
+sure there's concrete info.                                                                                                          m o b i l e   h a c k i n g   p a r t   d e u x . 
+                        equipment, manners and etc. 
+
+                               by Asmodian X
+
+     Hacking is a risky sport at best.  When in the field, it's best to
+look like you're supposed to be there, or better yet, looking like you're
+not there at all. 
+
+You can achieve this in several ways, some of which are:
+
+o costuming 
+o camouflage 
+o equipment 
+o background 
+o social engineering  
+
+I can not cover everything, because what you need will vary drastically as
+per situation.  Some examples of poor preparation are... 
+
+scenario 1:  
+     An employee of wally-mart exits her store at about 10:30pm. She hears
+some loud whooping, and sees several teenagers all dressed in black.  The
+teenagers all hop over a wall into a cell phone company's trash bins. 
+They continue the commotion and then leave the bins <thoroughly trashed>
+and haul away their spoils.  Afterwhich they peel out and leave the area. 
+
+Our person here is left with several options,
+A. call the police and report a disturbance/trespassing.
+B. Go home with the incident on their conscience.
+C. Scream "AHHH! HACKERS!!" really loud and faint.
+
+They will probably do A and C.  chances are that spot is un-trashable for
+the duration of the store's management cycle, until new management comes
+in and wonders why they have armed guards guarding the garbage... 
+
+Some of the things that could be avoided were: Time period, Conduct, gear,
+
+and location. 
+
+* Part 1 * Timing
+     Always survey your destination ahead of time, find out the hours of
+operation of the destination.  Businesses are likely to have professional
+cleaning services after hours.  Find the location of your desired target
+<ie. dumpsters, bell cans, etc.>, and assess any possible security
+measures of the surrounding area.  Stop by one night and see if there's
+night security on days and weekends.  Take note of surrounding areas, fast
+food restaurants will not be vacated until after midnight usually.  Retail
+will close at 8-10pm and will be vacated by 11 usually. Cafe's and
+specialty stores my vary.  Some stores never close.  <ie. Denny's>
+
+     So your ideal time is about 11:30pm to 3am in the way of timing.
+Although the police will be patrolling during those times, some say 4 to 5
+am, but morning crews tend be more active then.  So use your best
+judgment.
+
+* Part 2 * Conduct
+     Attracting attention to your self is generally not a good idea in
+hacking, so its important to blend in.  Don't wear clothing that stands
+out, such as bright colors, odd styles such as tie dye...etc Look like
+everybody else.  Generally favor darker colors for clothing, DO NOT USE
+ALL BLACK.  The important thing is to look and act like your just out for
+a midnight walk.  It's also important to have the same reason for being
+there as the guy standing next to you.  If some one asks and there's a
+difference in everyone's alibi, then y ou're in trouble.  Another item to
+be aware of is shoes, tennis shoes are not a good idea, wear something
+like thick soled boots or some hightops with thick soles, jeans or a good
+idea as well, trashing some times can be dangerous if there are sharp obje
+cts in the bin with you, be careful! 
+
+
+Above all else, LEAVE THINGS THE WAY YOU FOUND THEM!
+
+
+scenario 2: 
+
+Jim: Well officer me and fred and timmy over there were just out on a walk
+and we ... 
+
+Fred: Well me Jim and timmy over there were on our way home from a party
+over on west street. 
+
+Timmy: I was walking back to Fred's house after we checked out some one I
+knew at that coffee shop over there.
+
+Busted...
+
+------------
+
+*The right equipment*
+
+There are several situations that you may or may not face.  
+o Surveillance
+o Gathering 
+o Mobile light weight, hit and run 
+o heavy base station
+
+(surveillance)
+     Generally you will want very few items on you, hauling a laptop
+extension cords...etc tends to make you look suspicious.  Just wear
+something casual, maybe a polo-shirt, with some jeans. Don't look like a
+punk, or a freak, look clean cut.  If checkin g out what a place does,
+pose as a customer <if applicable> or a tourist <when applicable> and
+generally you want to take everything at leisure.  Your equipment should
+simply be cash, only what you need to prove you are who you say you are
+<you probably better off going on foot and not bring ID's>, a small pocket
+
+flash light, maybe a small camera < if necesessary>, a small pocket knife,
+pen, and a notepad, Only 3 or 4 things.  If you only have jeans on, just
+bring a small pocket knife, and a notepad and pen.  Don't have bulging
+pockets that also looks suspicious.  Avoid going in a group, side remarks
+to your cohorts are some what suspici ous. 
+
+     If surveying from afar, avoid the classic "park the car across from
+where the place is" routine, Umm Gee boss are we being watched? Look like
+you're supposed to be there, park farther away if necessary in a less
+conspicuous setting and use binoculars
+ if necessary.
+
+(Gathering)
+     It is important to rehearse the gathering session ahead of time with
+your cohorts.  Go over your <alibi(s)> and if everything goes bad what to
+do.  Your gear should be able to be concealed in an overcoat. Clothing
+should be comparable to your setting , and alibi.  During night time
+operations use darker colored clothing and avoid bulky<loud> equipment. 
+<if you have a large keychain, detatch only what keys you need, and leave
+the rest>.  Bring the only ID's you need, if on location, leave real id's
+behind at home or in the car <somewhere>.  Also pay attention to your
+footwear, don't wear your bright white nike hightops, bring running shoes,
+or something that ma tches the terrain, boots for poor terrain ...etc.
+
+     The equipment you will probably need will be a small pen light <or
+one of those Mini Mag lights> or a clip on light. What ever works, it must
+be small and fit into your pocket with ease.  Good pair of leather gloves
+or rubber gloves, its important to
+ get a good grip w. the gloves with out cutting the finger tips off. ie.
+finger prints.  If your going to be hauling papers or stuff in general,
+have a cloth sack with you.. something stuffable, like into a pocket. 
+Paper and plastic sacks make WAY too much noise.  A small pocket knife and
+what ever tools you need must also be pocket-sized.  Metal tools make
+clanking noises, so wrap them separately from each other.  Or cover them
+with foam tape or electrical tape to reduce the noise.  Be sure to have
+closeable pockets ..ie. Zippers and buttons, so when running nothing
+bounces o ut.
+        
+(Light weight Hit and Run)
+
+     A light weight hit in run will be a will be just as rehearsed as the
+pervious two types of actions.  Same scenario, ie. clothing types
+stories...etc.  You will be using items that can be fit into a backpack.
+Items such as small laptop and or palmtop with necessary tools for your
+goal.  Avoid stuffing a backpack full with books and stuff.  Just the bare
+essentials to get things done.  Around no more than 8 pounds of equipment
+should be put into a backpack.  Anything above that will affect stamina
+and running speed, though if you are physically fit, more weight would be
+acceptable.  Items to be considered would be a Clip on flashlight, with a
+laptop or a palmtop a person would have their hands busy with the computer
+and not have time for fiddling with a flashlight.  Also consider using a
+red lens with a flashlight, it will not affect your night vision as much. 
+I must stress that you have very little equipment, because there is less
+to toss in the backpack and haul ass with.
+
+(Heavy Base station)
+
+     You will only want to use a base station setup if you have access to
+a private area with hook ups for utilities, possibly a telephone, power
+and air-conditioning with shelter.  It is also preferable to not be in
+plain sight (i.e. some utility room, o r closet).  A base station is a
+mobile <luggable> setup that can easily be scraped down in a short time,
+and carried <lugged> away.  An example is Kevin Mitnicks car setup..  He
+found a remote location, had a car battery hookup for a Pentium 90 desktop
+sy stem.  complete with cell-modem.  With a base station setup, a person
+could set up a quick and dirty Dialup server for others to use. Even a CB
+relay setup could be feasible. 
+
+     A person would want to use a laptop or some other IBM PC based all in
+one unit.  Palmtops or Macintoshes are not very flexible unless it can run
+Linux or some other REAL operating system.  DESKTOPS are only to be used
+if you absolutely need the most capacity possible, ie. for like multiple
+modems, special devices...etc.  In all situations it is preferable to
+gather what you need, and then digest it later.  The goal of the base
+station is to have an independent computing center that is self sufficient
+but can tap into external resou rces when available.
+
+     In the way of personnel, 3 people is about all you can get away with,
+any more than that would be un-necessary chatter.  A person could push it
+and bring more than that if in a remote enough area, and there were no
+danger of passer by's being attract ed by the noise.  Posting a lookout
+with a handheld CB-radios, Family band radios or long range walkie-talkies
+may also be a good idea. 
+
+
+*LOCATION*
+     Some places just are not worth going to, to do dirty work.  If there
+are security guards, lots of lights and a fairly busy surroundings, it
+would be wise to look at other ways of obtaining information.  When
+surveying a spot, also take note of meetin g places, like a denny's down
+the road, or the quickie mart across the street.  If anything goes wrong
+have a set meeting place to regroup at.  <also, depending on how bad
+things get, you may want to set a period of time where no one may
+associate with each other, anything over 8 weeks is generally a good idea.
+<but it really depends on how bad things get, 2 weeks may work just as
+well>.  The meeting spot must be in running distance, and far enough away
+from your site so that to not attract any attention.  The location must
+have food, warmth and must be secure.  Talk to your cohorts outside and
+away from listening ears. calm down out side and catch your breath before
+entering, and try to look normal. 
+        
+------------------------------------------------------------
+Addendum 1
+Table of gear for situations
+
+Surveillance:
+
+     Pen Light
+     note pad & pen
+     camera (optional)
+     Pocket Knife
+
+Gathering:
+
+     Good Quality Flashlight (ie. Mini Maglight)
+          * red lens (for night vision)
+          * clip on
+
+     Pocket Utility Knife
+     Gloves <don't cut off finger tips!>
+     Stuff Bag <No paper or Plastic! Cloth Perfered>
+     Misc. Tools <be sure to wrap your tools with tape so                         
+     they don't make any noise!>     
+
+Light Weight, Hit and run:
+
+     <Same as Above>
+
+     Clip Light may be necessary
+     Laptop or 8 Lbs of gear for task
+
+
+Heavy Mobile command station
+
+     All u kan Haul!
+
+     Power - ups, extension cord(s), Batteries o plenty, power strips
+     Computers - Laptops Perefered, IBM compatible(s),
+                 OS- DOS/WIN/W95/LINUX/UN*X
+                 be sure to be able to run the OS w/o problems be sure to
+                 have open ports for peripherals
+     Storage - HD/FD; and or Parallel Zip Drive or equivalent
+     At least 14.4 kbps Modem
+     Acoustic Coupler (on pay phones baud rate is usually 1200 bps :< ) 
+     Extension cords for phone cord
+     Access Tools
+
+     * Be sure to pack for the unexpected <tarps, portable stools>
+     *Bring food as well if yer gonna be there for a while
+------------------------------------------------------------
+                                    HiR 6
+                    Tools of the trade: The disk o' death
+                                   by Axon
+
+A disk of death?  No, we are not speaking of cheapo cardboard-crust pizza.
+I have always carried one or more disks of death on me since I came up with 
+the idea.  So what's ON a disk of death?  How'd it come to earn such a name?
+Soon you will know.
+
+Creating your disk(s)of death:
+------------------------------
+
+A disk of death contains software tools and possibly text files that will
+help you in a given situation.  Basically it's a 3.5" x 3.75" x .2" tool-
+box, filled to maximum capacity with toys, programs, and othet stuff.
+The disk of death acquired its name when I formatted a diskette that
+contained the ANTICMOS Virus.  Someone wrote on the disk: "DEATH TO HE
+THAT PUTS THIS IN A COMPUTER!"  After formatting it, I threw a hex editor
+and saber onto it.  It eventually got more and more toys.  It eventually
+bit the dust (started getting errors and stuff, totally corrupted), 
+so I put the same toys on a fresh disk, and wrote on it: "Axon's Evil
+Disk o' Death".
+
+What toys should you include?  That's entirely up to you.  The disk of
+death that I use most often contains lots of fun stuff to mess with 
+windows 95 (specifically the machines at my old high school and others
+where where people have tried to secure the system).  This is what my
+Win95 disk o' death  contains:
+
+ o The disk is a Windows 95 Formatted Bootable disk
+ o A self-extracting pre-configured version of WinTD (See HiR 3, also, WinTD
+   is available not on the HiR Links and Files page)
+ o A copy of Regedit.exe (Registry Editor)
+ o A hand-made registry patch file that unlocks most security settings that
+   are stored in the registry (restrict on command.com,  printers, 
+   configuration, network stuff, etc.  Read the Windows article later this
+   issue.  It will help you create one of these)
+ o Saber, a great tool to directly read what's in memory 
+ o Hacker View (hiew.exe.  My favorite dos-based hex/text editor, available
+   on the HiR Links and files page)
+ o An OLE-Enriched wordpad document (See Windows Holes in this issue)
+ o A batch file that renames all files on my disk to strange names with
+   .dat extensions, then deletes them (and itself) 
+ o Password Thief (Passthie.exe, as well as a usage tutorial are available
+   on the files/links page at the HiR site), a program that can find out 
+   what those silly asterisks (saved passwords, etc) in a text box REALLY
+   mean...
+ o Hide-It, a simple program that uses the Windows API to cloak a running
+   program.  Also available on the HiR page.  Drawback: it sets up a system
+   tray icon.  sigh.
+ o Windows PS and KILL.  Gives you a nice "UNIX" feel, lets you kill off
+   specific threads, not just a program.  MUCH better than Windows' little
+   Control-Alt-Delete menu.  Also on the site.
+ o ClearURL, a program I wrote that clears the URL list in the Location bar
+   in Netscape Communicator.  (Still being updated.  New updates will be
+   available on the page.)
+
+The registry patch probably will work anywhere that someone had fun
+with the registry to make things more secure.  My wordpad document
+has a OLE link to the registry file. This is because often times I
+cannot open the disk from the desktop, but i can open the document
+with wordpad or Word 97 (the computers allowed people to save and
+open documents to type and print them).  I just used OLE to create
+links to executables and other data files.  If you aren't quite fam-
+iliar with OLE or the registry read the Article on windows that
+appears later in this issue.
+
+For the old machines still running DOS I have a DOS Disk o' Death:
+
+ o Formatted with DOS 6.22 as a bootable diskette.
+ o Hacker View (for text/hex editing)
+ o Central Point's KILL utility
+ o A TSR keystroke logger
+ o TSR Basic (For creating a dirty, memory hungry TSR on the fly)
+ o The DOS Intersvr programs (fast file transfers between 2 systems,
+   laptop, other desktop, etc)
+ o BC.EXE, LINK.EXE, and some of the other files that are necessary 
+   for compiling QuickBasic source code in a pinch.
+
+I'm always coming up with new toys for different environments.  The
+ability to scrub the really incriminating stuff is somewhat import-
+ant, but not a necesity.  Come up with lots of fun stuff to use.
+
+To get some of the programs mentioned here, as well as some other fun
+toys, visit the HiR Links and files page at:
+http://hir.home.ml.org/hirlinks.html
+                                                                       HiR 6
+              Windows 95: User Friendly means Hacker Friendly
+                                   by Axon
+
+Everyone knows that Windows 95 is extremely insecure.  I would argue that if
+you're going to plop Windows 95 on a machine in a public place, you might as
+well put a sticky note on the monitor that proclaims "Hack Me!".  From the
+very genesis of Windows, it's been a huge hacker target.  Microsoft has tried
+their damnedest to make it more secure, but even with the way Windows can use 
+the "magic" registry mechanism for "security", there are still many holes
+that need help.  Even the registry has its holes.  In this article, I'll
+discuss several of the little inner workings that lie under the "gee whiz"
+graphical loser interface that Bill stole from other companies anyway. 
+
+In short: Many things that add power or ease of use to Windows will also
+decrease privacy and security:
+
+I.    The registry
+       a. Why the registry is so good for security
+       b. Registry keys that are used for security
+       c. Why the registry's "security" features mean absolutely nothing
+
+II.   OLE (Object Linking and Embedding)
+       a. OLE features that make the user cheer "OLE!"
+       b. Why OLE opens up some major security holes
+
+III.  Windows 95 Login Screen (Secure?  I'd doubt it.)
+
+IV.   Windows 95 AutoRun
+       a. Advantages
+       b. Problems
+       c. Disabling AutoRun
+
+V.    Help
+       a. Useful applications for Windows Help
+       b. Windows help needs to practice what it preaches
+
+VI.   Find (A great utility, but...)
+
+VII.  Boot Menu
+       a. Explanation of the Boot Menu
+       b. Dangers of the Boot Menu
+       c. Customizing MSDOS.SYS (Contains Boot Menu Information)
+
+Appendix A: Advanced Registry Fun
+
+Appendix B: Some final stuff
+
+Closing Remarks on Windows 95 Security
+
+------------------------------------------------------------------------------
+In long:  I'll expand on that outline, but keep its structure.
+
+I.  The registry
+
+     The registry is a good idea.  It does everything from getting rid of the
+     need for .INI files for Windows programs, to keeping track of what 
+     applications should be used for each file extension type (which was its
+     only function in Windows 3.x).  In windows 95 and NT, it's even an okay
+     security mechanism.  If you find this section interesting, then I'd
+     suggest checking out Appendix A of this article, "Advanced Registry Fun"
+     which covers more complex registry toys.  Note: Due to the power that is
+     held within the registry, I am telling you now: "Back up your registry
+     before you play with it, EACH AND EVERY TIME YOU PLAY WITH IT!!!"  This
+     is easily accomplished by running Regedit.exe, and selecting the file
+     menu, and exporting your registry file.  I usually save it with the
+     date, such as 6-3-98.reg.  if your registry gets messed up, it is easy
+     to blow away and restore it with this backup.  Also, looking at this
+     backup with a text editor will show you a great example of a huge
+     registry patch file (see below).
+
+  a. Why the registry is good for security
+     It would seem like the ideal way to enforce security permissions: Alter 
+     the registry so that it no longer allows certain things to be done 
+     anymore, and then, throw in a registry value that keeps the user from
+     running the registry editor.
+
+  b. A registry patch file is one of several ways to make "Cookie-Cutter"
+     changes to the registry (I will cover a more advanced method of creating
+     registry-editing files, .INF files) in Appendix A, Advanced Registry 
+     Fun).  The first line of any registry patch file is "REGEDIT4".  The 
+     keys are stored in registry patch files in the following format:
+--
+REGEDIT4
+
+      [HKEY_...\PATH\WITHIN\REGISTRY\TREE\TO\KEY1]
+      
+      "NameOfKey1Value1"=dword:xxxxxxxx    (Hexadecimal)
+     
+      [HKEY_...\PATH\WITHIN\REGISTRY\TREE\TO\KEY2]
+
+      "NameOfKey2Value1"="blahblah"        (String value, text)
+      "NameOfKey2Value2"=dword:xxxxxxxx    (Hexadecimal)
+      "NameOfKey2Value3"=hex:ff,00,20,1c...(Hexadecimal Bytes)
+      "NameOfKey2Value4"=dword:xxxxxxxx    (Hexadecimal)
+      "NameOfKey2Value5"=dword:xxxxxxxx    (Hexadecimal)
+ 
+--
+     You get the picture...
+
+     Here are some of the registry keys and values used for security. These
+     values are mostly policy values.  I will explain a LOT more on policies
+     at the end of this article. (values are all DWord.) 00000000 is 
+     basically a "No" and 00000001 is basically a "Yes" for these values. 
+     This is not true with ALL the values in the registry! This is true with
+     the values listed here, though.  All of the following values are DWORDs,
+     not Hex or String. 
+     
+     You can probably figure out what most (or some) of these values do:
+     I'll explain some archaic values in ()'s next to the value.
+
+     HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies
+         \Explorer
+            * NoAddPrinter
+            * NoDeletePrinter
+            * NoSaveSettings
+            * NoRun ("Run" item doesn't show up in Start Menu if 00000001)
+
+     HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies
+         \Network
+            * NoNetSetup (Won't let ya use "Network" from control panel)
+            * NoFileSharingControl
+            * NoPrintSharingControl
+            * NoEntireNetwork (Can't see entire network on Net 'hood)
+            * DisablePwdCaching (stuff you type in Run doesn't stay in the
+                                 list box below.)
+
+     HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies
+         \System (Stuff under System/Display Properties Control panels)
+            * NoDispCPL
+            * NoDispScrSavPage
+            * NoDispSettingsPage
+            * NoSecCPL
+            * NoDevMgrPage
+            * NoConfigPage
+            * NoFileSysPage
+            * NoVirtMemPage
+            * DisableRegistryTools (Keeps regedit from being run...kinda)
+
+  c. Why the registry's security features mean nothing.
+     The registry editor might not allow you to open it and screw with the
+     underlying registry (thanks to the DisableRegistryTools value) but the
+     funny thing is that you can create registry patches (using the format I
+     described above) and name them with a .REG extension.  If you double
+     click on a .REG file, the registry editor reads the registry patch file
+     and des a "merge", or in other words, changes the values contained in
+     the registry to match the ones in the patch file.  This means fun for
+     the little guys!  Here's a snippit from my favorite registry patch file
+     that I keep on my Windows 95 disk o' death (anything in parenthesis 
+     isn't part of the registry patch.  Square brackets ARE a part of the
+     patch!!!).  Here we go:
+
+     ----------------------< Cut Edit-reg.REG >-----------------------
+REGEDIT4
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\System]
+
+"DisableRegistryTools"=dword:00000000  (Lets us use the regedit now)
+
+     ----------------------< Cut >------------------------------------
+
+     If you double click on Edit-Reg.REG (Or double click a link to it via 
+     OLE), you will be able to launch registry editor without the "Registry
+     Editing has been disabled..." message.  The rest of the system is yours
+     once you "adjust" the setting for those other values I listed in section
+     Ib.
+
+     By the same token, replacing the 00000000 with 00000001 in the
+     "DisableRegistryTools" value in the registry itself, or in the patch
+     file (of course you need to run the patch file first) will disallow
+     access to registry-altering tools such as regedit. This is why the
+     registry needs some work.  How do you fix it?
+
+     I would advise giving technicians a copy of regedit.exe (and other stuff
+     like a registry patch file like this one) on a floppy disk, and erase 
+     regedit.exe from the machines.  Regedit accepts command line arguments,
+     running "A:\regedit.exe a:\Edit-Reg.REG" will then allow the technician
+     to run "A:\regedit.exe", then edit the registry for that system.  (Then,
+     before quitting the registry editor, modify the DisbleRegistryTools value
+     again, or run another patch to lock the registry down again.)  Secure? If
+     someone has a copy of regedit.exe on a floppy and can fabricate a patch
+     (not hard to do, as shown above) then you're not much better off.
+
+
+II.  OLE (Object Linking and Embedding)
+
+  a. OLE features that make the user cheer "OLE!"
+     OLE isn't necessarily a bad thing. It allows tons of funky things to be
+     done, such as throwing a digital image into a plain-old text document.
+     Introduced full-force in win3.x, it was very similar to what the people
+     at APPLE had been toying with for a while.  Add sounds to your documents
+     or plop part of your spreadsheet into a fiscal report for your boss, and
+     even attach a whole file to the essay you e-mailed to your English
+     teacher!  OLE handles 2 types of connection methods, Linking and
+     Embedding (imagine that...).  Linking will not place a copy of the
+     linked document into the work in progress.  It merely points to it on
+     the current computer.  Any changes you make to the linked file will be
+     reflected equally in any document that it is linked to. Embedding a file
+     places a copy of the embedded file INTO the work in progress.  Any
+     changes made to the embedded part do not have any effect on the original
+     file, nor do changes to the original have an effect on the embedded one.
+     You use OLE often when doing clipboard operations such as cut, copy and
+     paste.  OLE is not a bad thing...at first glance... 
+
+  b. Why OLE opens some major security holes
+     OLE allows you to attach or link to almost any file that Windows knows
+     how to handle.  One can link to a bitmap file and Windows will access
+     Paintbrush, and use it to show the bitmap as if it were PART of the
+     document.  If an executable file is embedded, it will be handled like
+     Windows normally handles an executable (runs it).  Granted, some times
+     command.com still won't work (This is a registry thing again... See 
+     "Advanced Registry Fun, Appendix A of this article.), but there are still
+     a lot of things you can pull off.  I know of no workaround for problems
+     with OLE, because it's impossible (I think) to disable it.  Frogman is
+     experimenting with the idea of removing OLE from Windows.  This far, he's
+     seeing that apps which do not require OLE to function work fine, but
+     many programs use OLE to ovcmmunicate between modules, as well.  These
+     programs do not run properly, and sometimes not at all.  It is a hypo-
+     thesis that if a secure system is needed, anti-OLE mods can be made, and
+     specially chosen software programs (which don't require OLE).  Perhaps
+     an article on anti-OLE techniques later, if we find a decent way to pull
+     it off...
+
+
+III. Windows 95 Login Screen
+     I really don't have a lot to say about the login screen.  It is an 
+     extremely pathetic (almost worthless) security mechanism.
+     It's basically good for each user having a customized desktop.  By 
+     hitting the Windows key (CTRL-ESC), you can launch the task manager, and
+     go to the file menu, select "RUN", and browse through anything you'd 
+     want to run. A fun thing is to run "explorer.exe", as this is what 
+     creates the desktop environment.  Granted, you still have a login
+     dialog box on-screen, but you have a desktop and start menu.  Often
+     enough, if the system is REALLY insecure, you do not even need to go 
+     through that mess.  Just hit the escape key at the login and it'll give
+     you a desktop.  Fun stuff.  To fix this, there are 2 paths to be taken.
+     If your system does not give a desktop when escape is hit at the login,
+     all you must do is delete taskman.exe out of the C:\Windows folder.  As
+     long as A:\ isn't in your path (so that someone with taskman.exe on a
+     floppy could still use this bug), you should be secure in this aspect.
+     If your login screen gives up the desktop when escape is pressed, then
+     you need to not only erase taskman.exe, but you must either modify the
+     registry to disallow this behavior, or modify the desktop settings so
+     that it is locked down in the registry and nothing can be run from
+     within the default desktop.
+
+
+IV.  Windows AutoRun
+     AutoRun is a feature that was introduced in Windows 95.  It senses when
+     a CD is inserted into the CD-ROM drive, then scans the root directory
+     of the CD for a file called AUTORUN.INF.  This file contains only a
+     file name and an extension.  No path, just a file name.  This is usually
+     (but not limited to being) an executable that is found in the root of
+     the CD-ROM.  If AutoRun is enabled, Windows opens (or runs) the file.
+
+  a. AutoRun is obviously a very handy thing.  Programs that use AutoRun
+     will seem to launch themselves when you insert the CD-ROM.  Some pro-
+     grams will launch a menu that allows you to install the software (in
+     case it isn't installed yet), change installation options, launch the
+     program, or quit.  The original idea behind this feature was to add yet
+     another level of convenience and ease-of-use.  
+
+  b. AutoRun can spell disaster for your dreams of a secure computer.  Not
+     only does it allow people to walk up to your system and install a game
+     they bought down the street somewhere with ease, even if they can't SEE
+     the CD-ROM drive, or run an install program; there are several other 
+     problems that AutoRun introduces.  One that is less obvious than most is
+     that AutoRun is willing and able to bypass the screensaver password (if
+     one exists), bomb out of the screensaver, and run whatever it was that
+     the AUTORUN.INF file points to.  This is an easy way around a screen
+     saver password.  Also, with the advent of CD-ROM Writers (Burners), 
+     and the falling prices of the same, more and more people (hackers,
+     crackers, little kids with rich parents, etc) are getting ahold of 'em.
+     Those who can program worth a darn could easily make their custom
+     program run as soon as they inserted the CD-ROM they just burned, just
+     by making AUTORUN.INF point to it.  Do you REALLY want anyone to be 
+     able to run whatever they can program/copy on your computer?
+
+  c. Disabling AutoRun
+     On my desktop, I leave AutoRun enabled.  It's convenient.  But when I
+     am trying to secure a system, this is not a hole I wish to leave un-
+     scathed.  It takes me all of 30 seconds (or less) to disable AutoRun,
+     and it'll probably be one of the quickest security modifications you
+     will make.  The first step is to get to System Properties.  This is
+     done by right clicking on the "My Computer" icon, and selecting the
+     "Properties" item on the pop-up menu, or by selecting "System" from
+     the Control Panel.   Next, choose the "Device Manager" tab.  Find
+     "CDROM" on the Device Manager tree, and expand it (by clicking the +
+     sign to the left of it).  This shows a list of all CD-ROM devices
+     attached to your system.  Select the CD-ROM that you want to disable
+     AutoRun on, and click the "Properties" button.  Then, click on the
+     "Settings" tab.  The check box labeled "Auto Insert Notification"
+     is the key here.  If it is checked (which it probably is), then
+     AutoRun is enabled.  Uncheck it to disable AutoRun.  This is one
+     of those settings that don't get read in again until the system is
+     restarted.  If you have other modifications to moke, make them
+     before restarting (or else you'll probably reboot 4 or 5 times).
+     If you want to (re) enable AutoRun, it should be fairly obvious how
+     to do it.
+
+
+V.   Help
+  a. Help is a very useful aspect of Windows programs.  It's like having a 
+     personal online quick reference for many of the programs.  When you 
+     select a help screen (or when you press F1 while on the desktop), one of
+     two programs are usually executed: WINHELP.EXE or WINHLP32.EXE in the
+     Windows folder.  Pressing F1 at the desktop will give you a very large
+     and possibly exhaustive database of answers about various user-level
+     Windows stuff.  It has a very powerful find utility that allows the user
+     to quickly seek answers, and to do so with quite a bit of speed.  Very
+     handy, indeed.
+
+  b. Sometimes, however, Windows' help facility can "help" a little too much,
+     for instance it can "help" people circumvent those restrictions that
+     you've worked so hard to fortify.  By searching for the right help 
+     topics, such as help topics on installing software, one might be able to
+     navigate the hard drive, delete files, and even execute any file on the
+     system, including things on floppy disk. This is very bad.  The only way
+     to get around this is by deleting the Windows help executables: 
+     WINHELP.EXE and WINHLP32.EXE in the C:\Windows folder.  Not always the
+     best way, as this will disable Windows' help, and most likely help will
+     not work in many other aplications, either.
+
+
+VI.  Find
+     Find is a great utility for locating those files that get lost in the
+     maze of your hard drive's directory structure.  It can be accessed by
+     pressing the F3 key when you're at the desktop.  Find, similar to help,
+     can also sometimes allow people to run illicit programs, delete files,
+     or copy stuff from your system to a floppy disk.  The only workaround I
+     know of is to remove the find option from the start menu (Another 
+     registry toy I'll discuss in Appendix A), and then rip the F3 key off 
+     of your keyboard.  This can be circumvented by a psycho who brings in
+     a keyboard when trying to take over your machine.
+
+
+VII. Boot Menu
+  a. Explanation of the Boot Menu.
+     The Boot Menu is a menu that is accessed a few different ways.  It is
+     most commonly accessed when Windows Does not start all the way up, and
+     the boot menu prompts for a safe-mode boot, but the user can choose what
+     boot option to proceed with.  This menu is also accessible by pressing
+     the F8 key right when the computer starts to load Windows 95 (if you see
+     the splash screen, it's too late).  This allows access to a normal DOS
+     mode session, which is typically option #6 on the menu.  Sometimes this
+     is a good option if some of your DOS apps just don't like Windows.
+
+  b. Dangers of the Boot Menu
+     Hackers will often try to reboot the computer and use F8 to get into
+     a DOS session (where Windows' petty security settings haven't even been
+     enforced).  This is an extremely dangerous hole, in that any monkey with
+     half a brain could look through anyone else's stuff, and Crackers could
+     format your hard drive or plant viruses with ease.  When Windows 95 is
+     booted into safe mode, ALL policy setting are TOTALLY IGNORED.  This is
+     a Bad Thing, as almost all of your security settings have temporarily
+     (or permanently, assuming the user knows his stuff) bitten the dust.
+
+  c. Modifying MSDOS.SYS (Which contains Boot Menu options)
+     MSDOS.SYS is a hidden system file, usually found in the root directory
+     of the Booting Hard Drive.  You will need to change its attributes in
+     order to edit it.  This is done with the "attrib" command.  If you don't
+     know how to use it, read a DOS manual, and it'll help you out. This is
+     what a typical MSDOS.SYS file looks like:
+
+[Paths]
+UninstallDir=C:\
+WinDir=C:\WINDOWS
+WinBootDir=C:\WINDOWS
+HostWinBootDrv=C
+
+[Options]
+BootGUI=1
+DoubleBuffer=1
+Network=1
+;
+;The following lines are required for compatibility with other programs.
+;Do not remove them (MSDOS.SYS needs to be >1024 bytes).
+;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxa
+...(File continues with xxxxxxxxxx...ending in letters a-s)...
+;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxs
+
+
+     It is not hard to disable the F8 (and other) keys while booting.  All you
+     need to do is to add a line under [Options] saying "BootKeys=0".  It is
+     still possible to induce a Boot Menu by restarting the computer, then
+     pressing the RESET button or turning it off and back on again while the
+     Splash screen is still up (Windows 95 still loading).  You can also add
+     another line saying "BootMenuDelay=1" so that the menu will only appear
+     for 1 second.  If you set this to 0, the boot menu will display for an
+     indefinite period of time.  Below is a full table of all (that i know of)
+     options that can be placed under the [Options] section of MSDOS.SYS.
+
+     BootMulti=         If set to 1, allows booting into previous operating
+                        System with the F4 Key.  Default is 0.
+
+     BootDelay=n        Initial Delay before boot (This Determines how many
+                        Seconds the user is given to hit a Startup Key such
+                        as F4 or F8, before the system boots)  Default is 2.
+
+     BootMenu=          If Set to 1, Boot menu Will appear whenever the
+                        Machine is booted up.  Default is 0.
+
+     BootMenuDefault=   This sets the default menu item on the Boot Menu.
+                        Look at the boot menu if you want to know what all the
+                        options are on your machine.
+
+     BootMenuDelay=n    This sets the number of seconds that the boot menu
+                        will wait for a user to enter an option before using
+                        the default option as set with BootMenuDefault.
+                        Default is 30 seconds.
+
+     BootKeys=          When set to 1, Boot Keys are enabled.  When set to 0,
+                        User cannot use boot keys to access boot menu.
+                        Default is 1.
+
+     BootGUI=           When set to 1, Machine boots into windows mode.  If
+                        Set to 0, machine will always boot into DOS mode.
+                        Default is 1.
+
+     Logo=              If set to 1, The Splash Screen logo will appear while
+                        Machine starts up.  If set to 0, no logo will be
+                        displayed on startup.  Default is 1.
+
+     BootWarn=          Enables starting in SafeMode without warning.  Default
+                        is 1.
+
+     DoubleBuffer=      Enables Double-Buffering driver for SCSI controllers.
+                        Default is 0.
+
+     Network=           Enables Safe Mode with Networking as a Boot Menu
+                        option.  Default is 0.
+------------------------------------------------------------------------------
+Apendix A: Advanced Registry Fun
+
+The registry contains more power than the human mind can comprehend. Through
+it, a lot of very scary things may be accomplished, as well as quite a few
+useful things.  At any rate, This section is not for people who just started
+learning about the registry as they read the first part of this article.  I
+strongly urge you to back up your registry before you do anything here.
+
+The first thing I really must explain is the idea of policies.  Microsoft
+has a "policy editor" called "poledit.exe" which is basically a cheap-ass
+cheesy, user-friendly registry editor that edits a very small and specific
+portion of the registry that contains policy information.  It also creates
+".POL" files, where a handfull of other elusive policies are stored.  I don't
+intend on covering the Policy Editor, though.  In my eyes, the policies are 
+easier to edit with the registry editor (or through patches) than through the
+policy editor.  If you know the locations of each policy key and can remember
+what subkeys and values are under the policies, then you'll be in good shape.
+More likely than not, you'll have to create the policy keys and values in the
+registry editor.  They won't already be in place.  If they are, someone knew
+what they were doing.
+
+The policy key is actually locted in:
+HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies
+There are 4 Subkeys under policies: Explorer, Network (If the computer is
+networked), System, and WinOldApp.  For those of you who still aren't
+getting this, I'll do a little tree thing:
+
+HKEY_CURRENT_USER
+   |
+   Software
+      |
+      Microsoft
+         |
+         Windows
+            |
+            CurrentVersion
+               |
+               Policies
+                  |
+                  Explorer
+                  Network
+                  System
+                  WinOldApp
+
+In this segment, We'll only be dealing with stuff under policies, as this
+alone is a very powerful part of the registry.  There are other parts as
+well, but I would need to write a novel if i were to cover it all.  I
+won't talk about an HKEY path anymore.  I'll just talk about "This and
+that value under the Explorer subkey".  Remember, if the policies key and
+the 4 subkeys under it don't exist, then CREATE THEM in the place I said
+they should be.
+
+Locking Down the default user (When ESCAPE is pressed at login screen).
+  HKEY_USERS contains a list of all users with accounts on the machine.
+  when expanded, there is a list of subkeys that, when the user logs on,
+  will become the structure of HKEY_CUERRENT_USER key.  By editing the
+  .default user under HKEY_USERS, you can lock down the default desktop
+  to allow next to nothing to occur.
+
+Restricting Programs From Being Executed.
+  Restricting the command prompt is somewhat easy, but I'll tell you that
+  restricting executables is extremely messy.  This does not work the
+  way you think it should, though.  You can specify what executables
+  you want to be able to run, and all others will be locked out.  There
+  is no way to lock out a handfull of specific applications.  The value
+  that locks down executables is the "RestrictRun" Value under the
+  Explorer subkey.
+  
+  When RestrictRun is set to 0, no execute restrictions are placed into
+  effect.  If RestrictRun is set to 1, restrictions are placed into
+  effect.  Before you take off and enable this, please be sure to set
+  the names of programs you wish to allow run access.  These are values
+  labeled 1, 2, 3, 4, etc. These are string values under the RestrictRun
+  SUBKEY of the Explorer Subkey.  Do not confuse this with the value by
+  the same name.  I'll do a Mini-Tree (this one just goes back to the
+  policies key, not all the way back to the HKEY)
+              ...
+               Policies
+                  |
+                  Explorer ------------> RestrictRun=0x00000001 (1)
+                     |
+                     RestrictRun ------> 1="Niceprog.exe"
+                                 |       2="Regedit.exe"
+                                 |       3="cdplayer.exe"
+                                 ------> 4="telnet.exe"
+
+  A registry patch that would lock out all software except for regedit,
+  poledit (Policy editor), netscape, wordpad, and explorer would look
+  like this:
+
+(This is a file snippit.  Text may run off the right margin.  Please look
+carefully at this segment)
+----------------------------<Software-lock.reg>-------------------------------
+
+REGEDIT4
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\]
+"RestrictRun"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\RestrictRun]
+
+"1"="REGEDIT.EXE"
+"2"="POLEDIT.EXE"
+"3"="NETSCAPE.EXE"
+"4"="WORDPAD.EXE"
+"5"="EXPLORER.EXE"
+
+----------------------------<END>---------------------------------------------
+  If this has been inserted into the registry, nothing will run except the
+  applications you listed. I believe this modification kicks in after reboot.
+  This is really not an efficient method to go about locking out programs, and
+  I would advise using EXTREME caution when playing with this aspect.
+
+  To disable a command prompt while in windows, you just need to set the value
+  called "Disabled" (under WinOldApp subkey) to dword 1.  The drawback to this
+  is that no dos-based programs or executables will run (due to the poss-
+  ibility that they might induce a shell).  This is good for security unless
+  old DOS-based apps are still being used.
+
+Desktop Effects:
+  Sometimes, a good way to hinder a user's ability to do harm is to make it
+  harder to navigate through the hard drive.  One common trick is to remove
+  all of the desktop icons.  This makes it harder for them to execute 
+  anything that is not in the start menu, and makes it difficult to browse
+  through the hard drive.  If that's too drastic for you, you may just want
+  to hide all the drives under My Computer, and disallow "Entire Network"
+  browsing under Network Neighborhood.  There are many options.  All of
+  the below values are under Explorer unless noted by another subkey (i.e.
+  Network\NoNetHood)
+
+    To do this:                                Set this value to a dword 1
+     Remove all desktop icons                   NoDesktop 
+     Hide all drives in My Computer             NoDrives
+     Hide Network Neighborhood                  Network\NoNetHood
+     Disable "Entire Network" in NetHood        Network\NoEntireNetwork
+
+Start Menu stuff:
+  It's always nice to remove as many intrusive things from the Start Menu as
+  possible.  This is also achieved with policies.  Since the "Start Menu" and
+  taskbar are all handled by EXPLORER.EXE, these values will need to be under
+  the explorer subkey of policies.
+
+    To do this:                                Set this value to a dword 1
+     Remove Run option from Start Menu          NoRun
+     Remove all folders from "Settings"*        NoSetFolders
+     Remove Taskbar Properties from "Settings"* NoSetTaskbar
+     Remove Find option from Start Menu         NoFind
+     Disable Shutdown Command%                  NoClose
+
+  * if both values are set to 1, Settings will not show up on Start Menu
+  % This is not adviseable, as it is no longer possible to "correctly"
+    shut down the machine.
+
+Another way to edit the registry is through an ".INF" file.  These files
+are similar to patch files, except for a few slight differences.
+
+.REG (Patch) files and .INF files compared:
+
+Similarities:
+Both can seriousely mess up a registry file
+Both can add values or edit existing values 
+Neither are restricted via the "DisableRegistryTools" stuff
+
+Differences:
+.INF files are MUCH more difficult to create.
+.INF files can delete registry values and keys.
+.INF files need to be Right-Clicked and the "Install" option selected in
+     order to affect the registry, therefore they are a little safer.
+
+Using .INF files for registry editing:
+
+All .inf files start with:
+--------<CUT>---------
+
+[Version]
+Signature="$Chicago$"
+
+----------------------
+
+After that, you need to make a section called "DefaultInstall", and
+include the names of the sections that will hold registry editing
+Data.  Then you need to create the proper sections (Called Add.Entries
+and Del.Entries in this example).  If you place a semicolon (;) at the
+beginning of a line, it will be ignored, for commenting purposes.  Look
+at the following example:
+------------------------------------------------------------------------
+[DefaultInstall]
+AddReg=Edd.Entries
+DelReg=Del.Entries
+
+[Add.Entries]
+HKCU,Software\Microsoft\,BillShallDie,,"Down With Bill!!!"
+
+;Registry Entries are stored in the following format:
+;Branch (Abbreviated), Key (Path), ValueName, ValueDataType, ValueData
+;
+;There are a few things that need explaining here.  The first is
+;"Branch Abreviations", the next is "DataTypes".  Here We Go...
+;
+;Abbreviations:
+;HKEY_CURRENT_USER   = HKCU
+;HKEY_LOCAL_MACHINE  = HKLM
+;HKEY_CURRENT_CONFIG = HKCC
+;HKEY_USERS          = HKU
+;HKEY_CLASSES_ROOT   = HKCR
+;HKEY_DYN_DATA       = HKDD
+;
+;datatypes:
+;0=string
+;1=hex:01,ff,...
+;2=string (but don't replace value if it already exists)
+;3=hex (but don't replace value if it already exists)
+; Note: As shown in the example, if the DataType value is left blank,
+; A DataType value of "0" is assumed.
+
+[Del.Entries]
+HKCU,Software\Microsoft\,BillShallDie
+;The format for Delete Entries is similar:
+;Branch (Abbreviated), Key (Path), ValueName
+------------------------------------------------------------------------
+
+
+
+Appendix B: Some final stuff
+
+Although you might be able to restrict executables from being run with
+policies, in some cases, the shortcuts in help files will still allow
+an application to be run.
+
+The registry is almost impossible to secure.  As noted in section I,
+it's fairly easy to mess around with the registry restrictions by using
+simple little patch files.  There are also rumors that Norton's Registry
+editor is fully capable and willing to mess with the registry, regard-
+less of the setting contained within the registry that supposedly will
+protect the registry from "Tools" that access the registry.
+
+About policies, if the .POL files are stored on the local computer, and
+not on a network, then it's potentially easy for someone to locate and
+delete these files.  This would ultimately result in a loss of certain
+policiy restrictions.  If your Windows 95 machines are on a network, you
+would be wise to keep the policy files stored on the server, rather than
+on each machine.  Be sure to restrict user access to these files via
+your network's access restrictions.  This will make it more difficult to
+mess with the policies.
+
+
+Closing Remarks on Windows 95 Security
+
+The point of this article was to bring to light some of the major security
+flaws that are associated with Windows 95.  There are some really good 
+3rd party programs that will totally patch some of these holes and many
+others, but the programs themselves might have a few little flaws of their
+own.  Please do not rip any keys off of your keyboard, though.  Most of
+these little modifications do nothing more than keep the newbies and
+wanna-be's from being little destructive punks.  Some examples in here
+were simply to show you that no matter how hard you try, someone will
+almost inevitably find a way in if it means enough to them.  
+                                                                                                 .............................................................................
+       HiR 6 Hacker Newz -
+
+Website Stuph________________________________________________________________
+
+Sorry for getting on the website so late.  We ran into some last-minute
+problems with the Zine (like certain articles not getting finished, and some
+other things.
+
+On a happier note, Axon added a couple of little things to spice the site
+up.  The first thing he did was to add a navbar to the top of most of the
+pages.  Then, Hoolio (an HiR Reader) suggested that we come up with a
+graphical Schem for the goldbox.  Axon spent a few minutes in Photoshop and
+whipped out a schematic.  It's accessible through the HiR Links & Files page
+on the distro site, and it's an excerpt from the Mobile hack/phreak article,
+the entire section dealing with the goldbox, except the ascii schematics
+have been replaced by jpegs, and I also included a picture of what a
+finished goldbox looks like.
+
+Also, Axon was looking at the site in lynx a while back ago, and noticed
+that all the graphics were showing up as [INLINE], meaning that no "ALT"
+properties had been set up on the images.  This has been fixed, and the
+entire page is VERY Lynx friendly.
+
+The new Links & Files page has tons of other cool stuff on it.  Be sure to
+take a peek.
+
+
+HiR 7's Tentative release date is Sept. 1, 1998.  Happy Hackin'!
+
+                                                                 

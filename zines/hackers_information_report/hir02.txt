@@ -1,0 +1,734 @@
+                         Hacker's Information Report
+                           I N T R O D U C T I O N
+
+Well the first issue turned out okay, but it was incredibly short.  Thank
+goodness I can announce a few new writers! Those of you familiar with such
+well-known works as the Legion of Doom/Legion of Hackers Tech Journals,
+Phrack Magazine, and the old Communications of The New Order Mags might see
+a stunning resemblance.  The goals of this magazine are simple: to continue
+the spread of knowledge that helps keep information free for those who wish
+to have it (that means you if you're reading this)  All articles are
+completely H/P related.  No death or destruction; no credit card phraud or
+stealing things from stores.  This is HACKING and PHREAKING.  Exploring phone
+networks, pbx's, data structures, and contributing to the general spread of,
+well, Hacker's Intelligence is what this mag is about.
+
+ תשר.תשר.תשר.תשר.תשר.תשר.תשר.תשר.תשר.תשר.תשר.תשר.תשר.תשר.תשר.תשר.תשר.תשר.תשר.
+                           New Writers for HIR!
+ תשר.תשר.תשר.תשר.תשר.תשר.תשר.תשר.תשר.תשר.תשר.תשר.תשר.תשר.תשר.תשר.תשר.תשר.תשר.
+                                ‏TG Snoop
+                                ‏Dr. Freeze
+ תשר.תשר.תשר.תשר.תשר.תשר.תשר.תשר.תשר.תשר.תשר.תשר.תשר.תשר.תשר.תשר.תשר.תשר.תשר.
+                                
+
+               Our E-Mail account is Axon@bbs.compfind.com
+             Writers can be reached via their personal e-mail
+                        addresses (if published).
+
+-<{[(=-=-=-=-=-=-=- Member's Quotes for this issue of HIR -=-=-=-=-=-=-=-)]}>-
+Dr. Freeze: "Some things are worth DYING for...others are worth LIVING for."
+Axon: "Jumping head first into a dumpster reminds me of my room."
+TG Snoop: "Lack of knowledge burdens the soul."
+-<{[(=-=-=-=-=-=-=- Member's Quotes for this issue of HIR -=-=-=-=-=-=-=-)]}>-
+
+
+
+
+        The HIR staff is still looking for writers.  If you are interested
+        in being listed as one of the writers, e-mail an article to us!
+        Remember this is H/P only.  Of course, not all articles will be
+        Published, because we are looking for quality text.  I hope we can
+        all learn from the boom of text that we saw in the eighties!
+
+                              In this Issue (#2)
+        
+      Phyle   Title                                   Writer  
+      """"""  """"""""""""""""""""""""""""""""""""""  """"""""""""
+        1       Introduction/Table of Contents          
+        2       Using KAM/KPC to hack the cops          TG SNooP
+        3       Revised Fuscia Box                      Axon
+        4       List of portz and their Service         Axon/TG SNooP
+        5       Ins/Outs of Game Guru                   Axon
+        6       HiR Newz
+                       ______
+                      |__HiR:|__
+                         |_using|____
+                           |__KAM/KPC|__________
+                              |_to hack the cops|
+                                |   tgsnoop     |
+                                 """"""""""""""""
+
+  First off I'd just like to mention some of you, you might have read about
+this in the last issue of blacklisted!411, and I cover much of the same
+information but expanded on it quite a bit, Also my writing won't be very much
+of quality now because I'm just struggling to sit down right now, but believe
+me the information is worth your while.  A couple weeks ago I picked up a
+copy of blacklisted and stumbled upon an article that someone wrote in
+about hacking the cops.
+        Basically what it said is as follows:
+
+yah know those nifty little 
+thingies the cops got in their cars that they use to run license plates on
+to find your identity.  And believe me, if a cop has a car he has a laptop
+inside, they've got me twice on that when me and a friend took his dad's car
+out for a stroll.  Anyhow, if they've got the power, why shouldn't we?
+You can run reports for your friends, see whats on their permanent record, 
+find out their phone number, name, social security number, and about
+anything else there is to know about any given person, if they've got a car.
+
+What the thing is, is a little device you hook up between yer laptop(and i say
+laptop for a reason i'll explain later) and your scanner/ham radio. It turns
+ordinary data binary or ascii into a terminal node a scanner or ham radio can send
+to the destination it is trying to reach.
+   Like any other bum I know, I wanted to know more about this device.  It
+especially sparked my interest that the nationwide manufacturers of this thing
+were local, at a place called:
+
+Kantronics
+1202 E. 23rd St.
+Lawrence ks,
+66046
+913-842-7745
+fax: 913-842-2031
+
+I gave them a call and they proved helpful, i talked to a guy named Don Rixon,
+real nice guy, after asking a few questions about the KPC-3 device I asked if
+he could send me a packet of information before purchasing.  Not only did he
+give me that, he gave me numbers to several Radio and Electronic stores around
+my area and catalogs and magazines that might be useful for beginners.
+A few days later I got the information about the device and everything it
+works with. They included a packet which included guidelines and help from
+remote accessing your TNC(terminal node, what the data is sent onto), the
+packet personal mailbox(PBBS), working with a full service BBS to forward
+messages (neet stuff), GPS interfacing, the KA-Node networking system, WEFAX
+(for KPC-3 and KPC-3 plus), the NEW EMWIN mode, KISS mode (for TCP/IP
+operation), and DAMA mode (the European node system mode).   ok..that probably
+sounds a little foreign to you now and i'm not going to go into depth about
+all of this stuff because some of it takes a little bit of background in the
+workings of other protocols and Ham Radio knowledge and such.
+******************************************************************************
+Note to wise: when i said laptop earlier, i meant it, because when you are
+hooked up on ham radio, you can go anywhere you want without being traced (in
+our case the same freq the cops use to run license plates, it shouldn't be
+hard to find.  But when you broadcast something (enter plate number?) you are
+a sitting duck.
+******************************************************************************
+    All the stuff they gave me was very up to date.  The best thing they sent
+me was the information on their software of choice(Host Master II+) for now
+I'll list the units manufactured by Kantronics/RFconcepts and how much they
+cost before I explain them.
+
+
+Retail Price List - Schedule A - U.S. and International page 1 of 2
+Effective Date: May 8th, 1997
+
+Kantronics Units        (modems)        Suggested Retail
+^^^^^^^^^^^^^^^^        ^^^^^^^^        ^^^^^^^^^^^^^^^^
+KPC-3 plus *            (with 128k RAM)         $139.95(this'll do the job fine)
+KPC-9612 Plus           (with 128k RAM)         $289.95
+KAM Plus                (with 128k RAM)         $349.95
+
+Software:              (everythings DOS based)
+^^^^^^^^                                        
+Host Master II Plus(yay)for PCs                 $89.95(I think it comes wif kpc-3 plus device)
+Host Master MAC                                 $89.95
+Pacterm                  for PCs                $29.95
+Superfax II              for PCs                $49.95
+WeatherNode              for PCs for copying EMWIN  $69.95(absolute shit!)
+
+Rfconcepts Units        (VHF and UHF RF power amplifiers)
+^^^^^^^^^^^^^^^^        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Mini-Amp 114             144-148 MHZ
+                         30 watts out for 3 watts in
+Mini-Amp 114P            same as 144 w/preamp
+Mini-Amp 440             438-450 MHZ
+                         20 watts out for 2 watts in
+Mini-Amp 440P            same as 440 w/preamp
+RFC 2/70                 dual band amplifier 2-m/70 cm
+                         30 watts out for 5 watts in, 2-m
+                         20 watts out for 5 watts in, 70-cm
+RFC 2/70G                same as 270 w/preamp
+Max-Amp 10               144-148 MHZ w/peramp
+
+fuck the list goes on and on, ther's another RFC 4-410 a 4-310 and a max amp
+45 but if you want nfos on that mail kantronics.
+Now that I've bored you to death I'll Tell you a lil bout the software pack
+they sent me, on Host Master II+ Simultaneous Multi-Mode Terminal Software,
+and wOOP it's fer pc's yew juss need DOS 3.1 er higher...
+
+   Hostmaster II+ is used to match wif Kantronics KAM, KPC, or Data Engine.
+Multiple windows allow seeral packet connects at the same time, each displayed
+on it's own window.
+
+WHen used with KAM, simultaneous operation on HF is also supported in RTTY,
+ASCII, G-TOR, AMTOR, pactor, or CW. it also is pretty leet kos it provides
+the ability to select non-standard address and interupt vectors for the
+serial ports installed in a komputah, allowin use of com3 and 4, while com1
+and 2 are used fer other activities.  If you want to learn more about
+the KPC-3 or KAM device which i didn't cover as much as I would have liked to
+call up Kantronics 913-842-7745...or ask me...muh inet accounts theese days
+are unstable so just look for me on
+irc as kminor or round 913/816 as tgsnoop/ttysnoop
+lates
+-kmtgtty
+
+
+
+
+            H A C K E R S   I N F O R M A T I O N   R E P O R T
+ תשר.תשר.תשר.תשר.תשר.תשר.תשר.תשר.תשר.תשר.תשר.תשר.תשר.תשר.תשר.תשר.תשר.תשר.תשר.
+                                 Fuscia BoX
+ תשר.תשר.תשר.תשר.תשר.תשר.תשר.תשר.תשר.תשר.תשר.תשר.תשר.תשר.תשר.תשר.תשר.תשר.תשר.
+
+I guess I'll make it a tradition now to include at least one project for
+the guys who just can't keep their hands off the soldering iron.  Pardon
+the cheesiness of this article.  I wrote this about the spring of 1996,
+nearly a year and a half ago.  I modded this article a bit to fix some
+of the bugs.  There are many things you can do with this fuscia box.  I
+have one that has 2 LEDs on it, one green, and one red, with a toggle
+switch instead of a pushbutton.  The Green lite turns off and the red one
+turns on when you bypass the "detection circuit".  Fun.  Anyways, on with
+the show..
+
+        By Axon
+
+
+
+I dunno if there is already a "fuscia box" with some other 
+function than this one has, so if there is, I'm sorry.  Ain't 
+heard of it as of yet.  This is so much easier to make than most 
+boxes.  Almost ANYONE can do it! (Heh.  Look, even *I* can!)
+I based this from an article that I saw in 2600 magazine.  I 
+tweaked it a little, and made it a bit more portable. (The 
+version in 2600 suggested taking apart a FONE and building it 
+INTO the fone...ACK!)  Commends to "No comment" and "Crash 
+Test Idiot" an their skills, to which I owe gratitude (too bad
+they can't even get the part #'s right though). But I think this
+will work a bit better, and a tad more portable (stick it in a
+pocket!)
+
+Heer's a phun device for those late nite boxing raids...
+How would you like a device that alerted you when someone 
+picked up a phone, either in yer house, or if yer beiging, in 
+the house yer borrowing the line from?  Even better, if you 
+attempt to hook up to a house where there's a conversation 
+going on on the fone, it doesn't even let you in, so they have 
+no idea anyone even tried to beige (no click,click)...now, add 
+the ability to override this little device...does it sound good?
+If so, jot down this parts list, an head for radio-haq...
+(make sure u got a soldering iron, a screw driver, electrical 
+tape, a few strands of thin insulated fone wire, and some solder,
+as these will come in handy for this project...)
+
+We'll need only a few inches of 2-wire fone base cord, and all 
+u need is 1 connector, not both, If u need 2 buy a 6" cord at 
+radio haq, I dunno the Cat. #, but I'm sure u can find some...
+
+._.>-*!PaRTS LiST!*-<._.
+-------------------------------------  QTY PeR PKG. ------------
+CaT No.    SHoRT DeSCRiPTioN                 |     aPPRoX. PRiCe
+----------------------------------------------------------------
+279-419     Modular Jack...U want this one   1        $ 2.25
+276-564     15 volt ZENER diode.             2        $ 0.99
+275-1571    Submini spst bushbutton switch   2        $ 2.39
+  (Pushbutton can be replaced by a toggle if you want)
+
+276-041a    Light Emitting Diode (LED)       2        $ 0.99
+276-1161a   Bridge Rectifier                 1        $ 0.99
+----------------------------------------------------------------
+._.>-*!eND oF PaRTS LiST!*-<._.
+
+It's important that you get these specific parts except for the
+switch...just make sure the switch fits inside the box without
+whacking up the stuff inside. You want this specific modular jack
+because It forms a nice, completely closed box, when you assemble
+the wiring plate (included) with the cover, and it has plenty of
+free space inside for this little project.  The rectifier and
+zener diode are fairly specific to this project, due to the load
+and voltage of the phone line.  Take it from me, don't substitute.
+You can use almost any 2 volt LED, and any type of switch you want,
+but I recommend the ones I specified, 'cause I know it'll all fit
+in the box.
+                               
+._.>-*?HoW DoeS iT Werk?*-<._. 
+
+For those of you who know very little about electronix, the 
+whole heart of this toy is the zener diode.  What in da world 
+is a zener diode?  Well, how do I say this?  Okay, it's like a 
+dam, you know, for water.  If there's not enough water to 
+reach the top of the dam, nothing gets through.  Well, with a 
+zener diode, if there aren't enough volts, it don't let any 
+electricity pass through it, and it only works one-way. have 
+you ever seen water go UP a dam? (If so, get a UA...) When a 
+fone is picked up, the telco "sees" it, and sends a 20 er so 
+volt dial tone. If you pick up another fone on the same line, 
+each fone gets only 10 or so volts...see where I'm headed.  
+Remember? Our zener diode is set for 15 volts.  If 2 fones are 
+on the same line, and one of them is going through this 
+device, it won't let you through, and the LED will turn off, 
+saying that someone else is on that line.  That's where the 
+pushbutton switch comes in.  What if you don't give a rat's 
+ass if someone is using the line, like, you wanna scream "GET 
+OFF DA FONE!!!" or something...Easy.  Press the little 
+override button, and talk...you gotta HOLD the override 
+button (unless you get a toggle)...sorry (bad memories of my
+walkie-talkie days...push the button, THEN talk...)  The
+reason this device cuts your line, is so that if you aren't
+looking at the red LED the whole time, you will still know
+that you've been had.  I'd imagine there's a way to work
+around the muting effect of this apparatus, but this is
+easier to make.
+
+After you get good at making these, you may just want to buy 
+2 Boxes and 2 rectifiers, since everything else comes in pairs...
+these DO sell, assuming you know people who would buy them.  
+Don't go ready to make extras your first time, you may need 
+some of those spares, believe me.  Get good at this before 
+mass-producing them.
+
+._.>-*!aSSeMBLY oF THe FuSCia BoX!*-<._.
+ 
+1) Read through all these instructions before you so much as
+   rip open a package.  It'll help you.
+
+2) Open up all the packages, and arrange the parts on an 
+   uncluttered workbench or counter.
+
+3) take the nut off the collar of the switch.
+
+4) Identify the cathode of the zener diode and the LED.
+   a) The Zener diode's cathode is the wire coming from the end 
+      that has the black stripe painted around it.
+   
+   b) The LED's cathode is the SHORTER of the two wires.
+
+5) Solder the two cathodes together, making sure not to get 
+   solder on the main part of the components.  (you may want 
+   to solder as close to the components as possible, and chop 
+   off any extra wire.)
+
+6) Get the Bridge Rectifier.  It has 4 leads coming out of it. 
+   One of them has a + sign next to it, and the other one has 
+   a - sign next to it.  solder the free end of the LED to the
+   lead labeled "+", and the other free wire from the Zener 
+   diode to the lead labeled "-". Notice that you have not
+   done anything with the other two unlabeled leads on the 
+   rectifier, yet.
+
+7) Cut 2 strands of fone wire, about 2" apeice. Solder each of 
+   these to a lead on the switch.  Screw one of the wires down
+   to the red terminal on the wiring block, and solder the other
+   wire from the switch to a place between the LED and zener 
+   diode.  You may just want to join it in to the same place you
+   soldered the LED and zener together.   
+   
+8) Cut off one of the connectors on the short fone cord, and 
+   the outer cover, and then strip the red and green wires.
+
+9) Cut off a few more inches of that fone wire, and strip the two 
+   ends.  Solder one end to the minus sign of the rectifier,
+   yes, the same place the zener diode went... solder the other
+   end onto the red wire on the stripped end of the short fone 
+   cord.
+
+10)Remember the two unscathed leads on the rectifier?  Well, 
+   point to one of them at random.  Now, solder another peice 
+   of fone wire to that lead, and screw the other end down to 
+   the red terminal, with the switch wire.
+
+11)Screw the stripped green wire from the short cord to the 
+   green terminal on the wiring block.  TADAA!  U just 
+   completed the ELECTRONIC part of this thing. 
+
+12)Drill 2 holes in the cover (for the LED and Switch).
+
+13)Before putting the cover on, wrap all loose connections w/ 
+   that electrical tape, so u don't short anything out...
+
+14)stick the switch through the hole in the cover (omitting the
+   lock-washer, and then put the nut back on the collar of the
+   switch.  Push the LED through the other hole, and reassemble
+   the case!
+
+15)There should be a fone wire hanging out of the back of this 
+   thing... plug that wire into a fone jack.  now, plug another
+   fone into the jack on your box.  Pick up the fone.  does the
+   LED light up?  If not, you screwed up. if so, your halfway
+   there.
+
+16)have someone pick up another fone on that same line.  If the
+   LED turns off, and you hear the line go dead, press and hold
+   the button on the box.  If the LED lights back up, and you 
+   hear the line is back to normal, then it's a success!
+
+17)Find many creative ways to use this device, and have fun!
+              
+._.>-*(ASCIIMATIC)*-<._.
+
+No electronix project is any phun w/out a schem. diagram, so here:
+
+                             
+^ = Diode   ^z = Zener Diode   ^L = LED   o = contacts for switch
+
+
+                    _______
+                    |  |  |
+    red wire from   ^  ^L ^   red wire to
+       o------------|  o  |---------------
+     wiring block   ^  ^z ^   short cord
+                    |__|__|
+
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+           H  a  c  k  e  r  s     I  n  f  o  r  m  a  t  i  o  n
+                          R  e  s  o  u  r  c  e
+
+                 PPPPPP  OOOO    RRRRRR  TTTTTTT  ZZZZZZZZ
+                PP  PP  OO  OO  RR  RR     TT         ZZ
+               PPPPPP  OO  OO  RRRRR      TT        ZZ
+              PP      OO  OO  RR  RR     TT       ZZ
+             PP      OO  OO  RR   RR    TT      ZZ
+            PP        OOOO  RR    RR   TT     ZZZZZZZZ
+
+  A  L i s t   o v   h o s t   p o r t z   a n d   t h e i r   s e r v i c e
+
+                                By Axon
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+This article will cover ports.  What are ports?  Well, on most internetted
+computers, especially in the UN*X world, there are MANY programs running at
+once.  Many of them are servers, or daemons (pronounced "demons") as we shall
+call them.  When you telnet to a host, usually you connect via TCP (Transmiss-
+ion Control Protocol) to port 23, which usually services Telnet connections.
+Typically, a program on the remote computer is running called "telnetd", or
+telnet daemon, a program serving telnet connections.  To make this simple, I
+will just list TCP functions of the ports.  (there is also a UDP <User Data-
+gram Protocol> function that is specified for most ports as well.  I won't
+mess with these, because most of them are the same).  I fought with myself on
+exactly how to put this thing together.  "Do I make it short, showing only the
+really nessecary ports, or do i list all of them i have?"  I kind of made this
+a compromise between the two.  This is a list of some of the most popular
+ports, and most of them are all you'll need to either find out more info from
+the server, obtain superuser status on the server, or bring it to its knees.
+Labels marked with a * will be discussed after the list, because they offer
+some interesting points of hacking interest.
+
+Port #  Label           What it does
+------  -------------   ------------------------------------------------------
+1       tcpmux          TCP Multiplexer
+7       echo            repeats whatever you type back to your terminal
+9       discard         /dev/null  it does nothing but absorb your input
+13      daytime         displays the systems date and time...fun!
+15     *netstat         find info about networking structure of remote host
+19      chargen         scrolls a really trippy pattern of characters
+20      ftpdata         ftp data.  it's hard to explain
+21     *ftp             file transfers
+23     *telnet          remote terminal connection
+25     *smtp            Simple Mail Transfer.  Perfect for faking e-mail!
+43      nicname         whois server
+53      domain          Domain Name Service (DNS) Lookup
+70      gopher          Outdated way to find infos on the net.
+79     *finger          Find who is on remote system (other things listed l8r)
+80      http            Web Stuff (web browsers use this port to get HTML)
+110     pop3            Post Office Protocol-Incoming mail
+113     auth            authorization service
+
+Some of these ports are really worth mentioning twice (some of them have 2 or
+more uses!)  I guess I'll start from the top, but first, "How do i connect to
+these ports?!"  As I mentioned earlier, these are all ports that use TCP.  It
+just so happens that Telnet is almost a raw TCP connection, so what better to
+use than telnet.  I'll assume we're dealing with a standard UNiX system here.
+Typically, when we type "telnet somewhere.yermom.com" the telnet client will
+default to port 23.  (how fitting, that's the "telnet" port!)  Well if you
+want to connect to a different port on the same server you can simply type
+"telnet somewhere.yermom.com" followed by a space, and port number such as 25
+if we wanted to mess around with SMTP.  I don't really want to go into the
+"how do i haxor r00t with this inph0?" kind of data in here.  If you are a
+true hacker (that is defined as "not a malicous cracking leech giving the
+people who know what they are doing a bad name" if you care), you will want
+to play with what I have given you.  It isn't really hard to find out what
+makes the box in the back office tick once you find open ports (and possibly
+a good port scanner is in order...search the net, for there are tons of these
+pearls swimming around in the ether out there).  On with the show...
+
+Netstat- This port, if the connection is accepted, will give you multitudes
+of information about network connections being made to and from the host.  It
+shows where people are coming from, and what is going on on the network in
+general.  Be patient with the data here, as it can get very cryptic at times.
+try running netstat on any unix machine and looking at the results, if you
+can't find a host that supports this externally.
+
+FTP- It's a great thing to be able to snag files off of a remote host.  It is
+amazing to me how many hosts allow a user to connect with anonymous FTP, and
+allow them to download /etc/passwd...sometimes not even shadowed!  This has
+often gotten me that little extra bit of data that I want so that I can finish
+off a good hack.  Navigate as much of the system as you can, and look at
+ANYTHING you run across that you can get.  This is a HUGE payoff.
+
+Telnet- This is about as close to the front door of a host as you will ever
+get without setting foot inside the server room (which would be AWESOME!).
+Typically, telnetting to the "Telnet" port gets you some sort of a logon
+screen, where you are prompted for a user name and password (hrm I wonder what
+THAT can be used for...)  It's almost always the place you make your first
+attack, and it's usually also the place you go to do your nasties after you
+have some usernames (but not always)
+
+SMTP- This is where we can do some really fun things that aren't that messy.
+there are various vulnerabilities in SMTP that allow one to execute arbitrary
+commands as if one were root, but I will not get into that.  I think there are
+half a quintillion cookbook hacks for this out on the net, but if you aren't
+lame, you'll just try to figure it out yerself.  I will however, cover how to
+write some pretty kick-ass fake e-mail.
+
+        this requires a "friends" email address, or an enemy, or someone
+        you don't know.  Try it on your own email address if you have one,
+        just to test it out first.
+
+        1) telnet to a host, and make sure you go to port 25  (telnet host 25)
+
+        2) if you get a message like "220 hostname SMTP Solarisx.x; Wed, 1 Aug
+\           1997 10:19" or something like that you are in!
+
+        3) Try this step first: type "MAIL FROM:" and then the e-mail address
+           that you want this to look like it's coming from.  It doesn't have
+           to be a real E-mail address either!  Just make it something phun.
+           (please make sure there is a space between MAIL and TO, but not
+           after the :   example MAIL TO:god@heaven.org).
+
+        4) If you get some complaint about no HELO command, type "HELO " and
+           then the host you are telnetting from.  if not, go to step 5.
+
+        5) Type "RCPT TO:" and then the email address you want this fake mail
+           to go to.  Maybe yours if you are testing it.  Follow the same
+           rules as with the MAIL FROM command.
+
+        6) It should say "Sender is Valid" and "Recipient is valid" after you
+           do these commands.  if this happens, you are ready to spoof mail!
+
+        7) type "DATA" alone on a line and hit enter.  It'll give you a shpeel
+           on how to enter the message.  just remember to hit enter at the end
+           of each line and you're okay.  When you are done typing, hit enter,
+           type a period (.), and hit enter again.  It will then send the
+           e-mail along its way, even if it's on a different host, it will
+           eventually find its way.  type "QUIT" to close the connection.
+
+        If you mailed yourself from god or bill gates or something, check your
+        mail in 5 minutes or so...there it should be.
+
+Some versions of SMTP allow you to type "VRFY " and a username, to see if
+such a user exists on that host.  In example:
+
+VRFY Jsmith
+250 <Jsmith@haxord.com>
+
+had Jsmith NOT existed on the system, it would have gone like this:
+
+VRFY Jsmith
+550 Jsmith... User unknown
+
+This is a good way to see if a user exists on a system before you attempt to
+try cracking their password (like if you found some usernames and no passwords
+somewhere and wanted to know if maybe those users existed on this specific
+system.) This brings us to our next phun port...
+
+Finger- this is very similar.  it is often used for gathering names of users
+on a remote host.  By opening this port and hitting enter, if finger is
+enabled, you get a list of who is logged on, and some other stats about their
+connection.  If you type in a user's name after you connect to port 79, and
+then hit enter, if the username is valid and finger is supported on the host,
+you get some more detailed info on them, including a plan and project, if they
+created one.  This is fairly self explanatory.  Rumor has it, that as well,
+with a finger connection, by confusing the fingerd (daemon) program, it is
+also possible to execute commands as root.  I'm only working on some of the
+lighter duty aspects of hacking.  Like I said earlier, figure it out.
+
+
+Some extra stuff:
+
+some of you may wonder why i don't openly publish cookbook hacks for how to
+swipe root access out from under the nose of unwary sysadmins.  This is a
+simple answer.  if you spend a ton of time figuring it out, you will be more
+careful with using it, knowing that if it is abused and the admin knows about
+it, it will be fixed.  In order to keep all these hacker wanna-be's out of the
+way, i figure I'll just let people know what all's out there, and if they want
+to spend time messing with it, they will learn more and be careful.  I've been
+on both sides of the security issue, and I love a nice equilibrium between the
+two sides.  
+-=נ=-=נ=-=נ=-=נ=-=נ=-=נ=-=נ=-=נ=-=נ=-=ננ=-=נ=-=נ=-=נ=-=נ=-=נ=-=נ=-=נ=-=נ=-=נ=-
+                         Ins and outs of Game Guru
+                            Written by Axon for
+                       Hackers Information Resource
+-=נ=-=נ=-=נ=-=נ=-=נ=-=נ=-=נ=-=נ=-=נ=-=ננ=-=נ=-=נ=-=נ=-=נ=-=נ=-=נ=-=נ=-=נ=-=נ=-
+
+        Shoutouts to the coderz at Studio 3DO who participated in the making
+of what I believe is one of the best programs written for the die-hard data
+freaks out there (more specifically, those who love to screw around in hex
+editors, looking through saved games to try to "transcend" the rules of the
+game).  A retail store I worked at was given a demo copy of Game Guru.  My
+boss told me to just go ahead and keep it, and tell him what exactly it was.
+He read the box, and it looked like something a hacker-type would like.
+Just reading the package, it seemed almost cheesy.  I was unsure how a box
+with a single floppy and a scant 20-page manual would achieve all of the
+results that were flaunted in the product description.  But indeed I know that
+coderz can work miracles, so I gave it a shot.
+
+        I took it home and installed it on my laptop.  I wanted to see what
+all it would do for Duke Nukem 3D, which was about the only game I had
+installed on my laptop at the time (before I got an external CD Drive).  When
+I pulled it up, I was asked to "remove the disk, and un-write-protect it."
+It was strange.  I've never seen an install disk that needed to write to its
+own disk.  Creepy.  It installed fine after that.  It runs in 4GW protected
+mode.  Rather mundane.  When I ran it, I was shocked with a really kick-ass
+graphic of some sort of virtual game-buddha sort of character.  There was
+even a list of dozens upon dozens of games, and several codes for them.
+There were a ton of them for my Duke3D.
+
+        As I read through the instruction manual (Oh yes, I read the manuals
+after i install the software.  I make a religion of it, but i wished I hadn't
+practiced this on this occasion.  It turns out that this software could only
+be installed three times, then, the disk would be useless, much akin to AOL
+dikettes that are mas mailed to our doorsteps to prevent us from needing to
+purchase the media ourselves.  Then it struck me.  This thing was WRITTEN by
+hackers, for hackers.  Of COURSE!  So I played.  I ran a DISKCOPY of the
+install disk.  Nada.  Would not install.  It needed "the ORIGINAL Game Guru
+Install Disk" and wanted me to feed the Floppy drive the genuine disk.  I
+zipped up the installed version, and copied it to a 486 i had.  After I
+uncompressed it on the 486, and attempted to run it, it asked me to install
+it from the install disk, because it wasn't originally installed on that hard
+drive, but another.  I was truly puzzled.  Truly, a work by hackers, for
+hackers, just like the manual said.
+
+        ...and so i hacked...
+
+        What did i find?  I decided to go with my diskcopy theory.  when a
+diskcopy is run, it literally lays everything, or so i thought...Sector by
+sector, the same.  What in the world was it forgetting to copy.  Obviousely,
+the writers of Game Guru knew that something wasn't copied with DiskCopy,
+which I'm sure would be one of the most obvious choices for copying a single
+disk install.  I wanted to know what it wasn't copying.  I made 3 diskcopies
+of the install, none of which installed (surprise, surprise).  I pulled up a
+copy of PC-Tools by Central Point, which is a must for most hackers that rely
+on power tools for the PC.  It shows all kinds of stuff on the disk, even FAT
+layout, serial number, and header info.
+
+(I found out the serial number, which can be seen with a dos DIR command, is
+actually reversed.  It's in hex.  If the Serial number shows up in DIR as
+"5F31-8E4F" it will be in hex on the disk as the characters "O0_" which is
+in hex "4F 8E 31 5F", exactly reversed from the serial number.  As you can
+tell, I tried changing the serial number of the disk to match that of the
+install disk.  No go.  (I did learn that trick about the serial number though.
+I didn't know that until this project.)  This is when I used the header
+viewer.  The OEM ID feild of the illegitimate floppy read "WIN4.0" or
+something like that, because the floppy was formatted on a windows 95 machine,
+my laptop.  Strangely enough, the header veiw of the true install floppy
+revealed that the OEM ID was garbled...horribly so.  It was a mass of strange
+characters, I cant remember which characters.  I did this hack nearly a year
+ago.
+
+        This Really should be done with Central Point's PC tools.  Norton
+Just doesn't cut it.  The industry standard requires the OEM ID feild on the
+diskette to be in ALL CAPS.  Norton wouldn't let me enter a letter lowercase,
+and wouldn't let me insert any higher ascii characters either.  Please for the
+love of hacking use PC Tools.  It rawx.  View the OEM ID of your Game Guru
+disk (which can be purchased for 9 bux or so), and jot it down.  Then, all you
+do is diskcopy the install, and edit the Fake install's header to make the
+OEM ID read the same as the original install.  Voila!  You just hacked Game
+Guru.  Now...you know a TON about Copy protection, as this was one of the most
+challenging schemes I have gone up against.  I wanted a copy because Floppy
+disks shelf lives just suck.  There should be no reason I coudln't make a
+backup. I bought it, and learned a lot while trying to hack it.  It is not
+often that one can hack a program that will help you hack.
+
+-=נ=-=נ=-=נ=-=נ=-=נ=-=נ=-=נ=-=נ=-=נ=-=ננ=-=נ=-=נ=-=נ=-=נ=-=נ=-=נ=-=נ=-=נ=-=נ=-
+        You hacked Game Guru...How do you Hack WITH it now?
+-=נ=-=נ=-=נ=-=נ=-=נ=-=נ=-=נ=-=נ=-=נ=-=ננ=-=נ=-=נ=-=נ=-=נ=-=נ=-=נ=-=נ=-=נ=-=נ=-
+
+        When you first run Game Guru, Go to the "Edit Settings" Menu, and
+activate everything cool.  There are quite a few things there to play with.
+Advanced mode is a must.  This opens up options for a very powerful hex-editor
+to your disposal, as well as a few other things.  The HEx editor has a dual
+window display.  If you load up two files that are the same size in either
+window, you can compare them.  This works well for saved-game files.  It will
+even suggest what possible values the changes represent.  If you like to hex
+out BBS software, like Renegade, you can save the original, and then hex edit
+a copy of the original, reviewing EVERY difference in the two files at any
+time.  If you open an executable in the hex editor, you can launch an edited
+version from within Guru, without saving the file itself.  If the edit works
+the way you want, save it.  if not, you don't need to worry, just exit the
+editor.
+
+        Anyone who has ever messed around with saved-game files also knows
+that sometimes the programmers make Checksums part of the file.  This is a
+very annoying practice, for when you edit the saved game file, the game will
+freak out and say that the file is corrupted, so it's erased...with your hard
+work inside it, as well.  Game Guru contains a really great CRC Calculator.
+
+        When you add these great hacking features, with the ability to add
+special game guru patches to games, (patch codes available all over the net),
+and the "Knowledge base", a list of cheat codes.  The Game Guru File List
+feature doesn't care about hidden files.  They are openly readable, and
+writable, as well, as long as the other file attributes allow such.
+
+        If some of the other many uses for this program are not already
+beginning to form inmm your heads, you may not be able to justify buying this
+program.  If so, go get it.  Search for it on the web if you can't find it in
+stores.  There is a free version (it looks like game guru but doesn't really
+do much of anything.  I think you may be able to get it from Studio3DO direct,
+if you can't get it anywhere else.
+
+        This has pretty much covered the ins and outs of Game Guru.  How to
+hack it, how to hack WITH it.   It is a good quality program, and i hope that
+these methods of hacking are not used for Piracy, which I do not condone in
+any way.  I do encourage the technique described here, in order to make a
+backup of the install, because if my drive crashed, I would probably die if
+I couldn't use it again.  HAppI HAqN!
+
+
+
+
+_.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._ 
+|          H A C K E R S   I N F O R M A T I O N   R E P O R T              |
+|                           H A C K E R   N E W Z                           |
+-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-
+
+        This is a new section that we are incorporating, starting this issue.
+No, Hacker Newz was not in the first issue, but we hope to continue the newz
+in furure issues.  Some obvious news with the HiR crew, is the addition of
+two new members!  Yes, TG SNooP and Dr. Freeze have jumped in to save Axon
+the task of writing the whole thing himself.  <Wild Applause>  However, due
+to some problems, such as a now-formatted hard drive, (no thanks to the powers
+that be) Dr. Freeze couldn't quite get his articles in, but he's got some
+good stuff for HiR 3.  On a much happier note, TG SNooP just got a brand-new
+box up and running (replacing his 386, thank god).
+
+Top 10 weird things found in the trash by HiR members since the last issue:
+
+        A List of all vehicles, including price, assigned driver, and VIN
+          that are currently owned by one kansas city SWB office.
+
+        Landscaping plans for 2 Bell offices, one in Kansas City, the other,
+          somewhere in nevada or something.
+
+        Huge list of pager numbers and PINs for some Southwestern Bell people.
+
+        A lawn sprinkler timer schedule.  
+
+        Estimating Department Quote Schedule
+
+        December 1997 calendar showing the employee review schedule.
+
+        A paper showing 2 different ways to pull a huge concrete slab out
+          of the ground, and the price differences ($82,000-95,000 ???)
+
+        Standard Crew pay rates for 1997, various positions.
+
+        A quote sheet for a project called "One Fountain Square".  Got me.
+
+        A moldy burrito (half eaten...or decayed).
+
+
+WOW!  That's newz!  We found some other mundane things in the garbage as well
+but these were just the weird ones.  Check out the HiR Distribution web page
+at     students.johnco.cc.ks.us/~axon2017/hir.html    Take a look on Dec. 1st,
+the planned release date for HiR 3.  Hopefully the site will have a few links
+and extra files just for fun.
