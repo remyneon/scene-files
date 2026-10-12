@@ -1,0 +1,2236 @@
+k-20-(9)-01
+
+OoO=o=oOO=o=O=OoO=o=oOO=o=O=OoO=o=oOO=o=O=>
+    OoO=o=oOO=o=O=OoO=o=oOO=o=O=OoO=o=oOO=o=O=>
+                             OoO=o=oOO=o=O=>
+:    -`-             -`-      OoO=o=oOO=o=O=>
+;  _|_--oOO--(_)--OOo--_|_      OoO=oOO==OoO=o=oOO=o=O=>
+   |   ¡ K-1ine Zine !   |      OoO=o=oOO=o=O=>
+    ! issue 20, volume 9 ¡      OoO=o=oOO=o=O=OoO=o=oOO=o=O=>
+       ---------O^O----        OoO=o=oOO=o=O=OoO=o=oOO=o=O=>
+;.              |__|__|       OoO=o=oOK-1ine=o=OIsOoO=o=SooOO=o0LDSKOOL!oO=o=oOO=o=O=>
+                  || ||       OoO=o=oOO=o=O=OoO=o=oOO=o=O=OoO=o=oOO=o=O=>
+            ooO Ooo          OoO=o=oOO=o=O= OoO=o=oOO=o=O=OoO=o=oOO=o=O=>
+                          OoO=o=oOO=o=O=OoO=o=oOO=o=O=O=o=ooO=o=>
+   ;`-.> October 2001 <=o=O=o=O=o=O
+
+   
+   'You Make Me [sic]'
+
+
+                 A diplomat's life consists of three things:
+                      protocol, Geritol, and alcohol.
+                            -- Adlai Stevenson
+
+_____________________________________________________________________________
+
+» .- Words from the Editor -. «                                              |
+
+*: [-] Introduction .......................................... The Clone    :*
+*: (-) Contact Information ................................... The Clone    :*
+*: (-) Affiliate Web-Links ................................... Nettwerked   :*
+*: (-) Advertisment .......................................... HackerSalvage:*
+*: (-) Advertisment .......................................... FlipperSmack :*
+*: (-) Link of the Month ..................................... The Clone    :*
+*: (-) K-1ine Mirrors ........................................ The Clone    :*
+*: (-) Nettwerked Movie Mirrors .............................. Nettwerked   :*
+____________________________________________________________________________
+
+» .- Documents -. «                                                          |
+
+*: (x) (PROJECT) 'Hash' ...................................... Phlux        :*
+*: (x) 'An Insightful Look at the GOVnet Network' ............ m4chine      :*
+*: (x) 'The G.E.T.S. (Government Emergency Telephone System)'  m4chine      :*
+*: (x) 'Hiding Messages No One Will Ever See on disc.server' . diabolik     :*
+*: (x) 'How to piss off Telus with your ADSL Modem' .......... sheppard     :*
+*: (x) 'Fun With Bash' ....................................... sheppard     :*
+*: (x) 'Straight From The Underground' ....................... The Clone    :*
+_____________________________________________________________________________
+
+» .- Conclusion -. «                                                         |
+
+*: [-] Credits ............................................... The Clone    :*
+*: [-] Shouts ................................................ The Clone    :*
+_____________________________________________________________________________ 
+
+
+
+  Introduction -
+
+  Wow, this is time to celebrate; K-1ine Issue #20 is out! It's hard to believe
+  I've compiled 20 issues since its beautiful birth in Mid 1999. I have to hand
+  it to myself for the dedication, and to all the contributors who have helped
+  to make K-1ine the largest and most insightful H/P e-zine in Canada!
+
+  I hope you enjoy this issue... see you next month!  
+
+ -->
+
+Contact Information;
+=-=-=-=-=-=-==-=-=-=
+
+Comments/Questions/Submissions: theclone@hackcanada.com
+
+On IRC: irc.2600.net - #hackcanada, #cpu (key)
+
+Check out my site: (Nettwerked) http://www.nettwerked.net
+
+-->
+
+=-=-=-=-=-=-==-=-=-=
+Affiliate Web-Links:
+=-=-=-=-=-=-==-=-=-=
+
+CPU		    http://www.nettwerked.net/cpu *
+Damage Incorporated http://www.freeyellow.com/members6/damage-inc/index.html
+Grass Hopper Unit   http://www.ghu.ca
+Hack Canada         http://www.hackcanada.com
+H410G3N-dot-com     http://www.h410g3n.com
+Phreak BC           http://www.phreakbc.com
+PyroFreak           http://www.multimania.com/pyrozine/index.html
+
+* = featured sites of Nettwerked Incorporated
+
+--
+
+                             -- Advertisment --
+
+          +++              WWW.HACKERSALVAGE.COM               +++
+
+           HackerSalvage.com is a non-profit website dedicated to
+            keeping old hardware in circulation. Many of us have
+           piles of it sitting around but can't just toss it out.
+             Here you can post computer items for sale or post a
+           want ad for items you are looking for. A perfect place
+           to get rid of perfectly good junk.... and get some new
+                         stuff to rebuild the pile.
+          +++                                                  +++ 
+
+--
+
+Flippersmack AD -
+
+"Flippersmack is a culturemag for a penguin generation. What does this
+mean? Articles and reviews from your favorite writers. The low-down on
+what's fresh in tech, comics, movies, and music. Wrapped in a style all
+its own."
+
+"We will strive to release Flippersmack every week; a taste of insanity to
+inspire, inform, and entertain. From the creators of System Failure and
+Avalanche, there's a new zine out on the net: FLIPPERSMACK!"
+
+You can read the first fourteen issues at:
+
+http://www.nettwerked.net/flippersmack001.txt
+http://www.nettwerked.net/flippersmack002.txt
+http://www.nettwerked.net/flippersmack003.txt
+http://www.nettwerked.net/flippersmack004.txt
+http://www.nettwerked.net/flippersmack005.txt
+http://www.nettwerked.net/flippersmack006.txt
+http://www.nettwerked.net/flippersmack007.txt
+http://www.nettwerked.net/flippersmack008.txt
+http://www.nettwerked.net/flippersmack009.txt
+http://www.nettwerked.net/flippersmack010.txt
+http://www.nettwerked.net/flippersmack011.txt
+http://www.nettwerked.net/flippersmack012.txt
+http://www.nettwerked.net/flippersmack013.txt
+http://www.nettwerked.net/flippersmack014.txt
+http://www.nettwerked.net/flippersmack015.txt
+http://www.nettwerked.net/flippersmack016.txt
+http://www.nettwerked.net/flippersmack017.txt
+http://www.nettwerked.net/flippersmack018.txt
+http://www.nettwerked.net/flippersmack019.txt
+http://www.nettwerked.net/flippersmack020.txt
+--
+
+--=[ LINK OF THE MONTH ]=--
+
+ Every month I post one really great "link of the month" on every issue
+of K-1ine magazine. The link can be anything in the technology industry,
+music scene, rave scene, punk scene, or even a good article you read on a
+news site. I'll be taking submissions via e-mail or IRC right away;
+so get your links in and maybe you'll see it in the next issue of K-1ine!
+
+For the month of October, the link of the month is:
+
+		  http://www.hypervivid.com
+                 Great Information Technology and
+           Telecommunications Security Consulting Firm!
+
+[submitted by: The Clone]
+
+--
+
+K-1ine Mirrors:
+
+        http://the.wiretapped.net/security/info/textfiles/k1ine/
+
+
+"Wiretapped.net is an Australian site offering an archive of open
+source software, informational and advisory textfiles and radio/conference
+broadcasts covering the areas of network security, network operations,
+host integrity, cryptography and privacy. We aim to become the largest
+archive of this nature in the Asia/Pacific region through steady growth
+of our archives and regular updates to them (most updated nightly).
+We are proudly telehoused on a 10Mbit/sec connection by Connect.com.au using
+OneGuard hardware donated by eSec Limited. The archive, along with its
+sister site on the same machine, The AusMac Archive, generates between 10
+and 60 gigabytes of outbound traffic daily. Wiretapped.net is hosted in
+                        Sydney, Australia."
+
+--
+
+  Def Con 9 coverage for 'Nettwerked: The Movie' is now online!
+            Please download from the following mirrors:
+
+         Disclaimer: If you're under 18, don't watch this video.
+ Contains scenes of nudity and drunkin' hackers 'n' phreakers acting silly.
+
+     * Mirror #1: http://lumo.eghetto.ca/~theclone/defcon9.wmv
+       (the_p0pe's server, Nova Scotia, Canada, 4Mbps)
+
+     * Mirror #2: http://www.pstis.com/defcon9.wmv (h410g3n's server,
+       Edmonton, Canada, 4Mbps)
+
+     * Mirror #3: http://www.h410g3n.com/defcon9.wmv (h410g3n's
+       server, Leduc, Canada, 4Mbps)
+
+     * Mirror #4: http://www.plappy.com/defcon.wmv (Plappy's server,
+       Edmonton, Canada, 2Mbps)
+
+     * Mirror #5: http://the.wiretapped.net/multimedia/defcon9.wmv
+       (Wiretapped.net server, Sydney, Australia, 10Mbps)
+
+     * Mirror #6: http://sniperwolf.powersurfr.com/~theclone/defcon9.wmv
+       (son4r's server, Edmonton, Canada, 2Mbps)
+
+     * Mirror #7: http://www.nurotek.net/linux/media/defcon9.wmv
+       (Nurotek Networks server, California, USA, via two 45Mbps pipes)
+
+
+ 			   Help mirror my video! 
+
+	32.1MB's, 103 kb's / sec, 43:36 minutes, Windows Media Format;
+	MPEG-4. Send all new mirror URLs to: theclone@hackcanada.com
+
+--
+
+
+
+    ############## #.txt - Introducing Hash ############## 
+########################################################
+############################     #######################
+##########################  ####  ######################
+####################       ######      #################
+###                s#################  #################
+### H###    ####  ##########    ####### ################
+### ####    #### ############    ##### #################
+### ####    #### #       ####    ###  ##################
+### ####    ####   a##### ###    ##  ###################
+### ############  ######## ###      ####################
+### ############ ####  #### ###  #######################
+### ####    #### ###    ### ### ########################
+### ####    #### ##     ### ###  #######################
+### ####    #### #      ### ####  ######################
+### ####  # #### ########### ####                    ###
+##      ### #### ########### ####  ################# ###
+## ### ####            ###### ####   ############## ####
+### ##  ##  ####### ##   ####   ####   #########    ####
+### ###    #######  ####  #### ####### ########  #######
+### ############   ######      #######  ######  ########
+###  ########   ###################### ####### #########
+####  #########      #############     ######  #########
+##### #############   ########    #########  ###########
+#####  ##############   ####   ###########  ############
+######  ######H########  ##  ###########  ##############
+#######    ############# ## ##########   ###############
+##########   ############  #########   #################
+############  #####################  ###################
+#############  ###################  ####################
+############## ################### #####################
+############## #########  ######## #####################
+############## ######## ## ####### #####################
+############## ####### #### ###### #####################
+#############  ######  ####  #####  ####################
+############  #####  ########  ####   ##################
+##########  ####### ########## ######   ################
+########  ######### ########## ########   ##############
+#####   ########### ########## ##########  #############
+#### #############  ##########  ########## #############
+#### ############  ############  ######### #############
+####  ########### #############  ########  #############
+#####             ##############          ##############
+########################################################
+########################################################
+#phlux                              phlux@fucktelus.com#
+
+
+:OVERVIEW:
+So what the fuck is hash?? Hash can refer to the # (pound) key pertaining to
+telecommunications. It can be the slang term for hashish, which refers to the
+purified resinous extract of marijuana. Hash is also a unix command and has
+roots in C aswell. In this txt i will refer to hash as the phreaking related
+database program i will be writing. Right now it is in planning stages
+and hopefuly soon i can begin coding, first i need your comments, suggestions,
+and ideas.
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!Please, read the functions and consider wether such a program is worth your !
+!time, as im sure it will be. For this to become reality all i need is input.!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+-:contact:-
+/msg phlux on irc.2600.net irc.dal.net
+ICQ 11192969, MSN m_s_n_sucksdank@hotmail.com
+E-Mail fraud@verizonmail.com
+
+
+-:intent:-
+The aims of this program will be to provide multiple functions that otherwise
+would otherwise be not easily accessible/available
+
+Main objective: make Hash a simple program, easy to use, providing a wealth of
+information and uses.
+
+
+-:requirements:-
+Because of the nature and simplicity of my my intents, the program will be
+able to function on a 386, idealy, i plan on running Hash constantly, so use
+of a dedicated low end computer is essential.
+
+-:note:-
+Because i am canadian, Hash will be written with a canadian prespective,
+so alot of the functions will be canadian only, or more information will be
+provided to canadians, and therefore more useable. However american users will
+still find value for Hash
+
+-:FUNCTIONS:-
+If your wondering what the big fucking deal is then ill list off the functions
+now;
+
+to be incorporated into Hash:
+
+**NPA lookup, NPA reverse lookup, including a graphical color coded Canadian
+  NPA map(color)
+
+**Numbering Information --user puts in any telephone number in the format of:
+ NXX-XXX-XXXX (N is any digit other then a 1 or 0) this is the proper format
+ for a north american telephone number. Much MUCH information can be told
+ from a telephone number. For instance;
+
+**If the telephone number spells any words (1-900-WET-CUNT) so assuming
+  that number isn't assigned, and you want to buy it, Hash would tell you
+  the 938 exchange in SAC 900 is operated by Federal Transtel, Inc.
+  and to contact Ms. Geri Capri at 800-933-6600 extension 6202.
+
+ \Also reversing of telephone number words should be implemented(tell hash the
+  words and it will tell you the possible phone number combinations)
+  In the meantime check phonespell.org to see exactly what i mean.
+
+-900-NXX-XXXX -is a telephone number where an announced cost to call to
+ such a number is billed to the calling party. 900 again is an SAC, so
+ therefore it is non geographical. Other non geographical NPAs include:
+ 456 - Inbound International
+ 600 - Canadian Services
+ 710 - US Government
+
+
+**So if 900-273-XXXX were entered, Hash would know 273 is assigned to
+  Stentor Canadian Network Management, and additional information would be
+  given, (contact information) in this case you would call Laurie Storm
+  at 519-663-7485 .....
+
+**If your wondering where 519-663-7485 is, Hash's database could further tell
+   you, 519 NPA is assigned to Ontario, CANADA, that it has been inservice
+   since Janruary, 1, 1953, if it is geographic or not(it is), while the 663
+   exchange serves London. Much more information can be incorporated, such as
+   Time Zone for that area, even conversion and comparison as per your
+   timezone.
+
+ \This would be useful if you don't want to be calling your distant phreaking
+  buddies for a conf and end up waking up their mom because its 5am there.
+  --depending on supply(coding)+demand issues, the relief planning stats for
+  the NPA could be displayed, for instance, in 403 (alberta canada) Hash
+  would've given the date of the area code split and the next time the NPA(s)
+  would be in jeopardy for relief planning.
+
+** 8XX-NXX-XXXX a telephone number with this format where the first 2 X's MUST
+  represent like digits (so 800 888 877, 866 etc) are all  tollfree numbers.
+  800 is not technicaly an area code but rather an SAC(service access code).
+  This is an example of an ECR, Easily Recognized Code.
+
+ \The INWATS(Inward Wide Area Telecommunications Service(8XX SACs)) has
+  six bands of service areas.
+    Band 6 -the best, anywhere in North America can reach a band 6 INWATS
+     Band 5 -includes the 48 contiguous states
+      Band 1 -includes only the state contiguous to that one
+   So therefore a band 6 can be most easily reached(bands are responsible for 
+   your american friends being able to dial into that conf, yet if you are
+   canadian you will get an annoying intercept msg.)
+
+!NOTE: This information pertaining to INWATS bands is courtesy of one
+ Mr. Jolly Roger and is outdated, and therefore will be subject to R&D.
+
+  \Intrastate INWATS (can only be called from one state) always has a
+   2 as the last digit in the exchange, so 800-NX2-XXXX. The NXX (exchange)
+   on 800 SACs respresents the area where the business is located.
+   So 800-431 would terminate at a New York CO.
+   (again this information courtey Jolly Roger, subject to further R&D
+   obvisouly, in the meantime does anyone know how he figures 800-431
+   terminates in NY? I sure as hell don't)
+
+ **Now lets say you do a search for 800-855-XXXX The exchange 855 is used
+   to access the PSTN via TTY (TRS/MRS) to and from speech or hearing
+   impaired users, among other things, 800-855 #s are designated for such
+   disabilitied users only. Because 800 is a ERC SAC, it is non geographic.
+   It was implemented on Jan, 1, 1966 Hash will instantly tell you all
+   this information pertaining to the phone number you enter, among whatever
+   other related information is available.
+
+  **Telco related searchable dictionary(still being considered as this
+    function would require words to be submitted from users(credit given))
+    Or im sure i could borrow one from somewhere...
+
+  **ANI II code lookup(+definitions)
+
+  **Calculator(calc.exe can lick my baunch)
+
+  **DTMF decoder is a possibility with an added circuit(using serial/parallel)
+
+  **Morse Code encoder/player(pc speaker --why not Mr Bell was an OK guy)
+
+  **Resistor Encoder/Decoder(i always forget what the colored bands represent)
+
+  **International&Caribbean Country Code Lookup(+reverse)
+
+  **Planned NPAs(all of north america) + Old NPA/Overlay Status, inservice
+    date and the status of the planned NPAs
+
+  **Vertical Service Codes lookup/definitions (your *67, *69, etc)
+
+  **CIC(carrier identification code) lookup(+company name, assignment date,
+    contact information(name, phone #, address)
+    \CICs purpose is to enable routing+billing from the local provider to the
+     specific inter-exchange and other providers in the NANP network.
+     Each CIC is in the format of XXXX, is a service providers identity that
+     has bought either FGB/FGD(feature group B or D) access from the local
+     access carrier.
+
+     FGB CAC 950-XXXX where the XXXX is the CIC that public can use to access
+     a chosen long distance provider.
+
+     FGD CAC local trunk side access to local carrier by another carrier.
+     Allows pre-subscription to a long distance carrier. FGD CAC is accessed
+     with 101XXXX(XXXX=CIC) the user can then place a long distance call using
+     a long distance carrier to which the phone is not pre-subscribed.
+     3D(igit) FGD represents 101XXXX   4D(igit) FGD represents 10XXX
+
+
+  **Personal Communications Services N00 NXX allows "some combination" of
+    personal mobility, terminal mobility+service profile management. May be
+    reffered to as "follow me" PCS. Relief planning will use ECR 533.
+    500-NXX-XXXX prefix indicates service provider, suffix denotes the
+    premium service.
+
+  **GOVnet Dial-In Prefixes, see http://www.hackcanada.com/canadian/other/govnet.txt
+
+  **More(tell me)
+
+Beginner Phreakers to elite phreakers should find Hash a very useful program.
+Alot of the information Hash will use is available at NANPA.com and
+subsidaries involved with number planning, guidelines, and general
+telecommunications.
+
+For instance, cyb0rg/asm has on hackcanada.com/telco/edmontonexchanges.html
+has posted a listing of exchanges in 780 Edmonton, Alberta that originally
+appeared in the phonebook(1998 i believe). The information provided
+is more extensive, whereas an exchange will say function+district. One
+interesthing note is that 780-530 is reserved for Military use.
+Hash could combine this list with an updated list of 780-NXX edmonton
+exchanges, so an updated version would be accessible.
+
+Another interesting thing to note if the government exchanges;
+780-427-XXXX Provincial Government
+780-496-XXXX Edmonton City Government
+780-495-XXXX Edmonton Federal Government
+
+Many telephone numbers using these government prefixes can be dialed with
+310-0000 which must be an extender the government setup for us. yay.
+Phone 310-4455 to give your thanks.(Alberta Connect Gov Comment Hotline :)
+
+So yeah, more OCRing...(id like to know what district a prefix is instead of
+just knowing it is in a big big city)
+
+However the lists do include Plant Test Code NPAs (bust out the war dialer,
+or perhaps i could incorporate one into Hash? that would be KING#@!)
+
+Coding considerations for a war dialer are not out of my reach, as i plan to
+code Hash in Turbo Pascal for DOS.(unix users should have no problems using
+dosemu as the Hash is not a very complex program)
+What would you guys want in Hash's scanner??
+-Carrier Detection(obvisouly)
+-SIT detection? should be fun..
+-Fax detection..  "     "  "
+-Dial tone (PBX) detection(etc etc,busy/reorder/ring counter all the obvisous)
+-Direct modem AT access, scripting? The scanner should be able to work along
+ side such devices as the PowerKey/Toll restrictors (so a pin cracker)
+-you tell me, a scanner would have to be made available after the standard
+ functions are implemented...
+
+Should it be GUI or console based?? GUI would mean a little front end, so
+extra code, larger program(im curious as to how large just the db files will
+take up..though i do have plans to handle this.)
+
+Console would be hardcore, nice and clean:
+
+Hash# get 780. planttest
+Parsing........
+NPA 780 (Northern Alberta) Results for PLANT TEST CODE search:
++-------------------------------------------------------------------+
+: NPA : NXX :   Status   : Rate Center   :       Remarks            :
+:-----+-----+------------+---------------+--------------------------:
+: 780 : 297 : In Service : N/a for PTEST :    Plant Test Code       :
+: 780 : 958 : In Service : N/a for PTEST :    Plant Test Code       :
+: 780 : 959 : In Service : N/a for PTEST :    Plant Test Code       :
++-------------------------------------------------------------------+
+Ring Back: (403/780 AB) 570-PRE-SUFF Flash hook
+ `-DTMF Tone Analyzer: key 1234567890 at dialtone, two 'busy'
+  signals will be heard on accurate DTMF. Ring Back ANI: 1234567890
+
+Local ANI: (403/780 AB) 311
+ `-N11 Service Code
+
+1000hz Test Tone: (403/780 AB) 310-4649 310-8381
+ `-403/780.310-XXXX: 7 digit service, Rate Center: Sherwood Park
+
+Command'get 780. planttest' complete.
+
+Hash# get 780. planttest > C:\780test.txt
+....
+Command'get 780. planttest > C:\780test.txt' complete.
+
+</sample>
+
+Console Hash would not be comprimised with excessive code, screen filler,
+it would be more effecient. Anyone who has ever user DOS/Console unices/MUDs
+should not feel uncomfortable with such a system, an extensive help system
+would obvisouly be implemented, once commands learned, this would be much
+faster then navigating menus with arrow keys.
+However all suggestions welcomed.
+
+Now that you have a taste how Hash may be able to help you i will address
+other issues:
+
+What liscense will the program be released under:
+Seems as im ripping alot of information from nanpa.com, the program will be
+free, i would only expect that if you use the program you tell me what you
+think of it. I am ashamed of my coding, so source will not be releaed.
+
+Why Turbo Pascal?:
+I have not finished "Waite Groups New C Primer Plus" when i do, i will bust
+out Borlands Turbo C, so DOS version will run much faster, and will benefit
+the unix kiddies. Maybe i could write my own mini zip slack distribution
+soley for hash, zip slack rules, Hash would run just find with 100mb parallel
+(how many of you guys have zip drives? would be a good project to help me get
+ to know linux)
+
+System requirements?:
+Hopefully minimal, being 486 8mb ram max, maybe 386 4mb ram.. it would be
+slow though... but i think it would be worth it, just keep the box on 24/7
+i would use that shit so much... like the program would have a clock+date
+forsure...
+
+For tone generation, PC speaker needed, tone generation is to limited single
+frequency tones unless.. sound card implementation?
+
+WAV files would take up abit of space.. but then i could include any/all
+tones, intercept recordings (good fun when your drunk and harassing telus
+TSPS opers)....hmm.. i would have to get like Wolfenstein/DOOM MIDIs too!
+
+Well fuck look at me get all riled up.. might as well go all the way?
+If im boxing a call at a payphone(see my payphone/TTY txt :) with my lappie,
+hax0ring AGNPAC with the acoustic coupler.. fucking rights i'd want to listen
+to DOOM MIDIs... that shit is elite, would be scary as fuck at such a time..
+
+HEHE looking in the phone book theres a nice Postal Code listing in really
+small txt, i could OCR that shit, and have an update package cuz it would
+be a few MB worth of text!
+note from phone book: "This publication contains data under liscense from
+Canada Post Corporation's publication entitled Canada's Postal Code Directory.
+The postal code data may only be copied for the purposes of preparing mail to
+be delivered by Canada Post Corporation or in accordance with a written
+licence from Canada Post Corporation"
+
+Translation: In the future when i OCR that shit the command will be;
+Hash# preparemail
+Preparing Mail to be delivered by Canada Post;
+What PO Box/Route/Street Address? (enter postal code for reverse)
+T4V 4S1
+
+Address Mail To: ELECTRO TEL  48AVE. #3720 T4V 4S1
+
+..
+
+What else is there?:
+Pr0n, yes ofcourse the pr0n...
+
+Because lots of the databased information changes quite frequently(every month
+sometimes..) i would have to make little update programs.. but for that
+i could use pkzip'ed executables... so i do all the fucking work and you
+get to just run a program.
+
+Color coding would be essential, so you could quickly recognize numbers
+Government Telephone=GREEN
+Toll Free Services=TEAL? (what color is teal?)
+Business Exchanges/Suffixes: BLUE
+Residential Exchanges/Suffixes: RED (notice a trend?)
+Test Numbers: blinking teal?
+
+Important numbers (pertaining to canada(priority)) that are business (telus
+business offices, all the important shit..) i should have in another database
+(toll free too.. i dont want the list too big) but common numbers like
+ResPorg, Telus TTY/dialaround, Telus NOC, RCMAC :P, just stuff phreaks
+commonly use, or may be commonly heard would be added to the list...
+
+Many a time have unknown numbers been said on a conf, pasted to irc, etc, so
+I hope this program will clear some shit up so you dont have to look like a
+fool.
+
+uhm oh yeah fuck colors im going to bed
+
+What are your resources for thsi project:
+Public docs from various orginazations;
+NANPA(North American Numer Planning Administration), 
+INC(Indutry Numbering Comittee),
+CNA(Canadian Numbering Administrator),
+CSCN(Canadian Steering Committee On Numbering)
+
+so fucking e-mail phluxy and tell him what you want on your pie
+fraud@verizonmail.com
+
+
+--
+
+
+
+
+		==>  'An Insightful Look at the GOVnet Network'  <==
+
+
+
+ ==> By: m4chine
+ ==> Date: 10/12/01
+ ==> E-mail: m4chine@fucktelus.com
+
+ -
+
+ Description
+
+
+  indeX =>  
+
+   -> Introduction
+
+   -> GOVnet's Purpose
+
+   -> GOVnet's Origin
+
+   -> Dial-In Prefixes
+
+   -> News Article Pertaining to GOVnet
+
+   -> Conclusion
+
+
+ <=>
+
+ 
+    Introduction -
+
+ GOVnet is the name given to the network infrastructure which serves government offices in
+Montpelier and Waterbury as well as district offices in twelve cities and towns statewide. In
+the near future the Whitehouse and the DOD will be adopting this network for nation-wide usage.
+
+The physical backbone consists of fiber optic cable connecting state buildings on the Montpelier
+and Waterbury campuses as well as high-bandwidth digital circuits connecting district offices
+statewide. The wide-area backbone is divided into OSPF regions with at least one alternative
+route for each link. From the backbone nodes, 56 Kbps backfeeds serve other government offices,
+schools, and libraries statewide.
+
+In addition there are dial-in sites located in every local calling area of the state facilitating
+network access with a local phone call from any school or library in the state that elects to have
+dial-in access. SLIP and PPP access, as well as VT100 access, are supported on a dial-in basis.
+
+The network uses the "open" non-proprietary TCP/IP communications protocol which permits connectivity
+throughout the state, the nation and the world.
+
+Network services include Internet access, government-wide e-mail, and WWW access to government
+information and services. See the State of Vermont home page (http://www.state.vt.us/).
+
+ --
+
+  GOVnet's Purpose -
+
+ GOVnet was implemented to meet the twofold network challenge of improved access with reduced costs.
+The network provides for complete inter-agency and inter-departmental information access through a single
+system serving all agencies on a cooperative basis. This eliminates the need for each agency or department
+to provide redundant networks involving duplicate costs.
+
+ --
+
+ GOVnet's Origin -
+
+ The Vermont Information Strategy Plan (VISP) identified the requirement for information sharing and
+networking in two of the critical success factors associated with its objectives. The Information Systems
+Advisory Council (ISAC), which was created by VISP (now called IRMAC), was commissioned by the Telecommun-
+ication Ten-Year Plan to form a network subcommittee to "develop a plan to integrate network services where
+such sharing is valuable for information sharing among government agencies (and) where it is designed and
+implemented with the participation and unanimous approval of ISAC."
+
+For a detailed analysis of GOVnet, including a chronology, see the Legislative Joint Fiscal Office's GOVnet
+System Evaluation and Network Study (http://www.leg.state.vt.us/reports/govnet/govnet.htm).
+
+
+ --
+
+ Dial-In Prefixes -
+
+The list below shows the local dial-in site(s) serving each telephone exchange in the State.
+For the telephone number of a specific GOVnet dial-in site, wardial the motherfuckin' prefix
+or social engineer the technology coordinator of the department.
+
+Dial-In Sites by Telephone Exchange Telephone Exchange Dial-In Site(s):
+ 
+    222 (Bradford) Bradford 
+    223 (Montpelier) Montpelier, Morrisville 
+    226 (Proctor) Springfield 
+    228 (Ludlow) South Londonderry 
+    229 (Montpelier) Montpelier, Morrisville 
+    234 (Bethel) Randolph, Rutland, Woodstock 
+    235 (Middle Town Springs) Rutland, Wells 
+    241, 244 (Waterbury) Montpelier 
+    247 (Brandon) Middlebury, Rutland 
+    253 (Stowe) Montpelier, Morrisville 
+    254, 257, 258 (Brattleboro) Brattleboro 
+    259 (Mount Holly) Rutland, South Londonderry 
+    263 (Perkinsville) Springfield 
+    265 (Fair Haven) Rutland 
+    266 (Canaan) Canaan 
+    273 (Hubbardton) Rutland 
+    276 (Brookfield) Montpelier, Randolph 
+    277 (Lemington) Canaan 
+    285 (Franklin) St. Albans 
+    287 (Poultney) Rutland, Wells 
+    291 (White River Junction) White River Junction, Woodstock 
+    293 (Danby) Rutland, South Londonderry
+    295, 296 (White River Junction) White River Junction, Woodstock 
+    325 (Pawlet) Rutland, Wells 
+    326 (Montgomery) St. Albans 
+    328 (Guildhall) Island Pond 
+    333 (Fairlee) Bradford 
+    334 (Newport) Newport 
+    348 (Williamsville) Brattleboro 
+    352 (Salisbury) Middlebury
+    362 (Manchester) Bennington, South Londonderry 
+    365 (Newfane) Brattleboro 
+    368 (Jacksonville) Brattleboro 
+    371 (Montpelier) Montpelier, Morrisville 
+    372 (Grand Isle) Burlington, St. Albans 
+    375 (Arlington) Bennington, Londonderry 
+    387 (Putney) Brattleboro 
+    388 (Middlebury) Middlebury 
+    394 (Rupert) Bennington, Wells 
+    422 (Sherburne) Rutland, Woodstock 
+    423 (Readsboro) Bennington 
+    425 (Charlotte) Burlington 
+    426 (Marshfield) Montpelier 
+    429 (West Newbury) Bradford 
+    433 (Williamstown) Montpelier, Randolph 
+    434 (Richmond) Burlington 
+    436 (Hartland) White River Junction, Woodstock 
+    438 (West Rutland) Rutland 
+    439 (East Corinth) Bradford 
+    442 (Bennington) Bennington 
+    446 (Wallingford) Rutland 
+    447 (Bennington) Bennington 
+    453 (Bristol) Middlebury 
+    454 (Plainfield) Montpelier 
+    456 (East Calais) Montpelier, Morrisville 
+    457 (Woodstock) White River Junction, Woodstock 
+    459 (Proctor) Rutland 
+    462 (Cornwall) Middlebury 
+    463 (Bellows Falls) Bellows Falls, Springfield 
+    464 (Wilmington) Bennington, Brattleboro 
+    467 (West Burke) Island Pond, St. Johnsbury 
+    468 (Castleton) Rutland 
+    472 (Hardwick) Montpelier, Morrisville, St. Johnsbury 
+    475 (Panton) Middlebury 
+    476, 479 (Barre) Montpelier 
+    482 (Hinesburg) Burlington 
+    483 (Pittsford) Rutland 
+    484 (Reading) Woodstock 
+    485 (Northfield) Montpelier, Randolph 
+    492 (Cuttingsville) Rutland 
+    496 (Waitsfield) Middlebury, Montpelier, Randolph 
+    524 (St. Albans) St. Albans 
+    525 (Barton) Island Pond, Newport 
+    527 (St. Albans) St. Albans 
+    533 (Greensboro) Morrisville, St. Johnsbury 
+    537 (Benson) Rutland 
+    545 (Weybridge) Middlebury 
+    546 (Weathersfield) Springfield 
+    563 (Cabot) Montpelier, St. Johnsbury 
+    583 (Waitsfield) Middlebury, Montpelier, Randolph 
+    584 (Groton) Bradford 
+    586 (Craftsbury) Morrisville 
+    586 (Greensboro) Morrisville, St. Johnsbury 
+    592 (Peacham) St. Johnsbury 
+    623 (Whiting) Middlebury 
+    626 (Lyndonville) St. Johnsbury 
+    633 (Barnet) St. Johnsbury 
+    635 (Johnson) Morrisville 
+    644 (Jeffersonville) Morrisville 
+    645 (Wells) Wells 
+    649 (Norwich) White River Junction, Woodstock 
+    651, 654, 655, 656, 657, 658, 660 (Burlington) Burlington 
+    672 (Bridgewater) Woodstock 
+    674 (Windsor) Springfield, White River Junction, Woodstock 
+    676 (Maidstone) Island Pond 
+    684 (Danville) St. Johnsbury 
+    685 (Chelsea) Randolph 
+    694 (Stamford) Bennington 
+    695 (Concord) St. Johnsbury 
+    722 (Westminster) Bellows Falls 
+    723 (Island Pond) Island Pond, Newport 
+    728 (Randolph) Randolph 
+    744 (Troy) Newport 
+    746 (Pittsfield) Rutland 
+    747 (Rutland) Rutland 
+    748, 751 (St. Johnsbury) St. Johnsbury 
+    754 (Orleans) Island Pond, Newport 
+    755 (Albany) Morrisville, Newport 
+    757 (Wells River) St. Johnsbury 
+    758 (Bridport) Middlebury 
+    759 (Addison) Middlebury 
+    763 (South Royalton) Randolph, White River Junction, Woodstock 
+    765 (South Strafford) White River Junction 
+    766 (Derby) Newport 
+    767 (Rochester) Middlebury, Randolph 
+    769 (Essex Junction) Burlington 
+    770, 772, 773, 775 (Rutland) Rutland 
+    785 (Thetford) White River Junction 
+    786 (Rutland) Rutland 
+    796 (Alburg) St. Albans 
+    822 (Island Pond) Island Pond 
+    822 (Norton) Canaan, Island Pond 
+    823 (Pownal) Bennington 
+    824 (South Londonderry) South Londonderry 
+    827 (East Fairfield) St. Albans 
+    828 (Montpelier) Montpelier, Morrisville 
+    843 (Grafton) Bellows Falls, South Londonderry 
+    848 (Richford) St. Albans 
+    849 (Fairfax) St. Albans 
+    860, 862, 863, 864 (Burlington) Burlington 
+    866 (Newbury) Bradford
+    867 (Dorset) Bennington 
+    868 (Swanton) St. Albans 
+    869 (Saxtons River) Bellows Falls, Springfield 
+    871, 872 (Essex Junction) Burlington 
+    873 (Derby Line) Newport 
+    874 (Jamaica) Brattleboro, South Londonderry 
+    875 (Chester) Bellows Falls, Springfield, South Londonderry 
+    877 (Vergennes) Middlebury 
+    878, 879 (Essex Junction) Burlington 
+    883 (Barre) Montpelier 
+    883 (Washington) Montpelier 
+    885, 886 (Springfield) Bellows Falls, Springfield 
+    888 (Morrisville) Montpelier, Morrisville 
+    889 (Tunbridge) Randolph 
+    899 (Underhill) Burlington 
+    892 (Lunenburg) Guildhall 
+    893 (Milton) Burlington, St. Albans 
+    895 (Morgan) Island Pond, Newport 
+    896 (Wardsboro) Bennington, Brattleboro, South Londonderry 
+    897 (Shoreham) Middlebury 
+    928 (Isle La Motte) St. Albans 
+    933 (Enosburg Falls) St. Albans 
+    948 (Orwell) Middlebury 
+    962 (Bloomfield) Island Pond 
+    988 (North Troy) Newport 
+ 
+  --
+
+    News Article Pertaining to GOVnet -
+
+[NOTE: This article talks like GOVNET doesn't exist, though it's obvious
+its existance and development has been an ongoing process for quite some time] 
+
+  U.S. Seeks to Build Secure Online Network;
+Telecom Firms Asked for Help in Constructing Private 'Govnet' System
+(http://www.washingtonpost.com/wp-dyn/articles/A40092-2001Oct10.html)
+
+By Krissah Williams
+Washington Post Staff Writer
+
+The government's new cyber-security officials yesterday asked telecommunications
+companies for help building a government computer network that would have "no risk
+of outside penetration" -- a task some computer security consultants say is nearly impossible.
+
+Plans for the private network, called Govnet, hinge on whether a reliable network infrastructure
+can be built at an affordable price, officials said. Computer system consultants said they could
+not estimate how much the network would cost because of the government's enormous size and security
+needs.
+
+Richard Clarke, who was appointed special adviser to the president for cyberspace security this week,
+said he believes a more reliable system can be built. Ninety percent of available fiber-optic space is
+unused and fairly inexpensive to obtain, he said.
+
+Govnet is part of a plan Clarke announced earlier this week "to secure our cyberspace from a range of
+possible threats, from hackers to criminals to terrorist groups, to foreign nations, which might use
+cyber-war against us in the future." Govnet would be completely independent from the Internet to help
+keep out hackers and viruses, according to the government's plan.
+
+The request from the General Services Administration asks that telecommunications companies submit
+proposals about how the network could be built, how much it would cost, and how long it would take
+to construct.
+
+"Based upon that we will make a decision. We're waiting to hear from industry right now," Clarke said.
+
+This year, the current network has been breached by hackers, computer worms and viruses.
+In April, government Web sites were manipulated by Chinese hackers angered by the death of a Chinese
+pilot in a collision with an American spy plane. The system was also roughed up by the "Code Red"
+computer worm and an attack program called "ILoveYou." The viruses affected thousands of government
+computers.
+
+Last year a report by the General Accounting Office, an internal government watchdog, found weaknesses
+in the computer network that could allow terrorists or hackers to "severly damage or disrupt national
+defense or vital public operations or steal sensitive data."
+
+Clarke said the government's current virtual private network is vulnerable to viruses and denial of
+service attacks that Govnet would make more difficult to execute.
+
+George Kurtz, co-author of "Hacking Exposed" and chief executive of security consulting firm Foundstone
+Inc., said such a network is feasible but would be costly and difficult to build. It is impossible to
+stave off all attacks, he said.
+
+"The gist of this entire effort is to try to segment critical government computer systems from the
+rest of the Internet," Kurtz said. "You can't guarantee against these sort of attacks. There is always
+going to be a flaw with software, a flaw with hardware or the human element."
+
+Even on Govnet, viruses and attacks could still be spread by floppy disks or connections with trusted
+systems, Kurtz said.
+
+An internal network, such as the Govnet proposal, is worth investigating but will probably fall to
+sophisticated hackers, said Amit Yoran, chief executive of security-services company Riptech Inc.
+and a former information-security program director at the Defense Department.
+
+"It is probably more feasible to implement and strongly enforce global security postures and practices
+rather than go out and purchase new assets," Yoran said. "Once someone is able to get in, they will find
+a weak link. When you have a network the size of the government's there will be weak links. Someone will
+get in."
+
+ --
+
+  Conclusion -
+
+ This is what the US Government gets for publically releasing documentation on the Internet about
+their so-called "secret" and "private" network... I know you'll have a few good laughs about that one
+(I know I did). Love, Peace, And Afro Grease!
+
+--
+
+
+ 	      'The G.E.T.S. (Government Emergency Telephone System) Paper'
+
+
+-
+ Written by: m4chine
+       Date: Tuesday October 02, 2001
+-
+     E-mail: m4chine@fucktelus.com
+
+
+ Disclaimer: This paper has been written to educate the public.
+	     This paper was not written to make terrorists more
+	     creative or make life easier for wannabe phone phreaks.
+	     Don't attempt any of the stuff written about in this paper.
+	     God bless freedom of information...
+
+ =-
+
+  - Disclaimer -
+
+  - G.E.T.S. ACT -
+
+  - Social Engineering -
+
+  - Dial Up Numbers -
+
+  - Conclusion -
+
+ =-
+
+
+	Government Emergency Telephone System ACT --
+
+
+Sec. 0.01.  This Act  shall  be  known  and  may  be  cited  as  the
+"Emergency Telephone System Act".
+(Source: P.A. 85-978.)
+
+    Sec. 1.  The General Assembly finds and declares that it is  in  the
+public  interest  to  shorten the time required for a citizen to request
+and receive emergency aid.  There currently exist thousands of different
+emergency phone numbers throughout  the  state,  and  present  telephone
+exchange  boundaries and central office service areas do not necessarily
+correspond to public safety and political boundaries.   Provision  of  a
+single,  primary  three-digit  emergency  number through which emergency
+services can  be  quickly  and  efficiently  obtained  would  provide  a
+significant  contribution  to  law  enforcement and other public service
+efforts by making it less difficult  to  quickly  notify  public  safety
+personnel.  Such a simplified means of procuring emergency services will
+result  in  the  saving  of  life,  a  reduction  in  the destruction of
+property, quicker apprehension of criminals, and ultimately  the  saving
+of  money.   The  General  Assembly  further finds and declares that the
+establishment of a uniform, statewide emergency number is  a  matter  of
+statewide  concern  and interest to all inhabitants and citizens of this
+State.  It is the purpose of this Act to establish the number "9-1-1" as
+the primary emergency telephone number for use  in  this  State  and  to
+encourage  units  of  local government and combinations of such units to
+develop and improve emergency communication procedures and facilities in
+such a manner as to be able to quickly respond to any person calling the
+telephone number "9-1-1" seeking  police,  fire,  medical,  rescue,  and
+other emergency services.
+(Source: P.A. 85-978.)
+
+    Sec. 2.  As  used  in  this  Act,  the  terms  defined  in  Sections
+following  this  Section  and  preceding  Section  3  have  the meanings
+ascribed to them in those Sections.
+(Source: P.A. 88-497.)
+
+    Sec. 2.01.  "Public agency" means the State, and any unit  of  local
+government  or  special  purpose  district  located  in whole or in part
+within  this  State  which  provides  or  has   authority   to   provide
+firefighting, police, ambulance, medical, or other emergency services.
+(Source: P.A. 79-1092.)
+
+    Sec. 2.02.  "Public safety agency" means a functional division of  a
+public  agency  which  provides  firefighting, police, medical, or other
+emergency services.
+(Source: P.A. 79-1092.)
+
+    Sec. 2.03.  "Direct  dispatch  method"  means  a  telephone  service
+providing for the dispatch of an appropriate emergency service unit upon
+receipt  of  a  telephone request for such services and a decision as to
+the proper action to be taken.
+(Source: P.A. 79-1092.)
+
+    Sec.  2.04.   "Relay  method"  means  a  telephone  service  whereby
+pertinent information is noted by the recipient of a  telephone  request
+for  emergency  services,  and  is  relayed to appropriate public safety
+agencies or other providers of emergency services  for  dispatch  of  an
+emergency service unit.
+(Source: P.A. 79-1092.)
+
+    Sec. 2.05.   "Transfer  method"  means  a  telephone  service  which
+receives   telephone   requests  for  emergency  services  and  directly
+transfers such requests to an appropriate public safety agency or  other
+provider of emergency services.
+(Source: P.A. 79-1092.)
+
+    Sec. 2.06.  "Referral method" means a telephone service which,  upon
+the  receipt of a telephone request for emergency services, provides the
+requesting party with the telephone number  of  the  appropriate  public
+safety agency or other provider of emergency services.
+(Source: P.A. 79-1092.)
+
+    Sec. 2.06a.  System.  "System" means  the  communications  equipment
+required  to  produce  a  response  by  the appropriate emergency public
+safety agency as a result of an emergency call being placed to 9-1-1.
+(Source: P.A. 87-1244; 88-604, eff. 9-1-94.)
+
+    Sec.  2.07.   "Basic  system"  means  a  telephone   service   which
+automatically   connects  a  person  dialing  the  digits  "911"  to  an
+established public  safety  answering  point  through  normal  telephone
+service facilities.
+(Source: P.A. 79-1092.)
+
+    Sec. 2.08.  "Sophisticated system" means a  basic  system  with  the
+additional  capability  of  automatic  identification  of  the  caller's
+number,  holding  the  incoming call, reconnection on the same telephone
+line, clearing a telephone line, or automatic call routing or any  other
+capability   or   features   then  available  or  combinations  of  such
+capabilities.
+(Source: P.A. 85-978.)
+
+    Sec. 2.09.  "Commission" means the Illinois Commerce Commission.
+(Source: P.A. 79-1092.)
+
+    Sec. 2.10.  "Implementation date" means  the  effective  date  of  a
+public  act, other than this amendatory Act of 1987, providing all local
+public agencies affected by this Act with a specific source  or  sources
+of  revenue for payment of the total costs of establishing or upgrading,
+operating and maintaining the emergency telephone  systems  required  by
+this Act.
+(Source: P.A. 85-978.)
+
+    Sec. 2.11.  "Board" means an Emergency Telephone System Board  or  a
+Joint Emergency Telephone System Board created pursuant to Section 15.4.
+(Source: P.A. 85-978.)
+
+    Sec. 2.12.  (a) For the purposes of this Act, "network  connections"
+means the number of voice grade communications channels directly between
+a  subscriber and a telecommunications carrier's public switched network
+without the  intervention  of  any  other  telecommunications  carrier's
+switched  network  which  would  be  required  to carry the subscriber's
+inter-premises traffic,  which  connection  either  (1)  is  capable  of
+providing  access  through  the  public  switched  network  to  a  9-1-1
+Emergency Telephone System if one exists, or, (2) if no system exists at
+the  time  a  surcharge  is  imposed  under  Section 15.3 which would be
+capable of providing access through the public switched network  to  the
+local 9-1-1 Emergency Telephone System if one existed.
+
+(b)  For  the  purposes  of  this Act, no telecommunications carrier
+providing facilities-based  local  exchange  telecommunications  service
+prior  to  January  1,  1986  shall  be  required  to  offer  or provide
+sophisticated 9-1-1 system features such as selective  call  routing  in
+any area where that carrier's local switching facility does not have the
+capability to do so.
+
+(c)  For  the purposes of this Act, "telecommunication carrier" does
+not include a cellular or other mobile communication carrier.
+(Source: P.A. 86-101; 87-167.)
+
+    Sec. 2.13.  "Transmitting messages" shall have the meaning  ascribed
+to the term in Section 8-11-2 of the Illinois Municipal Code.
+(Source: P.A. 85-978.)
+
+    Sec. 2.14. Automatic alarm; automatic alerting  device.   "Automatic
+alarm"  and "automatic alerting device" mean any device that will access
+the 9-1-1 system for emergency services upon activation.
+(Source: P.A. 88-497.)
+
+    Sec. 2.15. Mechanical dialer. "Mechanical dialer" means  any  device
+that either manually or remotely triggers a dialing device to access the
+9-1-1 system.
+(Source: P.A. 88-497.)
+
+    Sec. 2.16.  Private  business  switch  service.   "Private  business
+switch  service"  means  a  telecommunications service including centrex
+type service and private branch exchange service (PBX), even though  key
+telephone  systems  or  equivalent telephone systems registered with the
+FCC under 47 C.F.R. Part 68 are directly connected to centrex  type  and
+PBX systems providing 9-1-1 services equipped for switched local network
+connections  or  9-1-1  system  access  to  business end users through a
+private telephone switch. The term  "private  business  switch  service"
+does  not  include key telephone systems or equivalent telephone systems
+registered with the FCC under  47  C.F.R.  Part  68  when  not  used  in
+conjunction  with centrex type and PBX systems. "Private business switch
+service" typically includes, but is not limited to, private  businesses,
+corporations,  and  industries  where  the telecommunications service is
+primarily for conducting business.
+(Source: P.A. 88-604, eff. 9-1-94; 89-497, eff. 6-27-96.)
+
+    Sec.   2.17.  Private   residential   switch   service.     "Private
+residential switch service" means a telecommunications service including
+centrex  type  service  and private branch exchange service  (PBX), even
+though  key telephone systems or equivalent telephone systems registered
+with the FCC under 47 C.F.R.  Part 68 are directly connected to  centrex
+type  and  PBX  systems  providing  9-1-1 services equipped for switched
+local network connections or 9-1-1  system  access  to  residential  end
+users  through a private telephone switch. The term "private residential
+switch service" does not include key  telephone  systems  or  equivalent
+telephone  systems registered with the FCC under 47 C.F.R.  Part 68 when
+not used in conjunction with centrex type and  PBX  systems. "Private
+residential  switch  service"  typically includes, but is not limited to
+apartment complexes, condominiums, and campus or university environments
+where shared tenant service is provided  and  where  the  usage  of  the
+telecommunications service is primarily residential.
+(Source: P.A. 88-604, eff. 9-1-94; 89-497, eff. 6-27-96.)
+
+    Sec. 2.18.  System provider.  "System provider" means the contracted
+entity providing 9-1-1 network and database services.
+(Source: P.A. 88-604, eff. 9-1-94.)
+
+    Sec. 2.19.  9-1-1 system.  "9-1-1 system" means the geographic  area
+that  has  been  granted  an order of authority by the Commission to use
+"9-1-1" as the primary emergency telephone number.
+(Source: P.A. 88-604, eff. 9-1-94.)
+
+    Sec. 3. Every local public agency in a county having 100,000 or more
+inhabitants, within its respective  jurisdiction,  shall  establish  and
+have  in  operation  within  3 years after the implementation date or by
+December 31, 1985, whichever is later, a basic or  sophisticated  system
+as  specified  in  this Act.  Other public agencies may establish such a
+system, and shall be entitled to participate in any program of grants or
+other State funding of such systems.
+
+    The establishment of such systems shall be centralized to the extent
+feasible.  Nothing in  this  Act  shall  be  construed  to  prohibit  or
+discourage  in  any way the formation of multijurisdictional or regional
+systems, and any system established pursuant to this Act may include the
+territory of more than one public agency or may include a segment of the
+territory of a public agency.
+(Source: P.A. 81-1509.)
+
+    Sec. 4.   Every  system  shall  include  police,  firefighting,  and
+emergency   medical  and  ambulance  services,  and  may  include  other
+emergency services, in the  discretion  of  the  affected  local  public
+agency,  such  as  poison control services, suicide prevention services,
+and  civil  defense  services.   The  system  may  incorporate   private
+ambulance  service.   In  those areas in which a public safety agency of
+the state provides such emergency services,  the  system  shall  include
+such public safety agencies.
+(Source: P.A. 79-1092.)
+
+    Sec. 5.  The digits "9-1-1" shall be the primary emergency telephone
+number within the system, but a public agency or  public  safety  agency
+shall  maintain a separate secondary seven digit emergency backup number
+for at least six months after the "9-1-1" system is established  and  in
+operation,  and  shall  maintain  a  separate  number  for  nonemergency
+telephone calls.
+(Source: P.A. 85-978.)
+
+    Sec. 6.  Capabilities of system; pay telephones.  All systems  shall
+be  designed  to  meet  the  specific requirements of each community and
+public agency served by the  system.  Every  system,  whether  basic  or
+sophisticated,  shall be designed to have the capability of utilizing at
+least 1 of the methods specified in  Sections   2.03  through  2.06,  in
+response  to  emergency  calls.  The General Assembly finds and declares
+that the most critical aspect  of  the  design  of  any  system  is  the
+procedure  established  for  handling  a telephone request for emergency
+services.
+
+    In addition, to maximize efficiency and utilization of  the  system,
+all  pay  telephones  within each system shall, within 3 years after the
+implementation date or by December 31, 1985, whichever is later,  enable
+a caller to dial "9-1-1" for emergency services without the necessity of
+inserting  a  coin.   This  paragraph  does  not apply to pay telephones
+located in penal  institutions,  as  defined  in  Section  2-14  of  the
+Criminal  Code  of 1961, that have been designated for the exclusive use
+of committed persons.
+(Source: P.A. 91-518, eff. 8-13-99.)
+
+    Sec. 6.1.  The Commission shall require that every 9-1-1  system  be
+readily  accessible  to  hearing-impaired and voice-impaired individuals
+through the use of telecommunications  technology  for  hearing-impaired
+and speech-impaired individuals.
+    As used in this Section:
+
+         "Hearing-impaired  individual"  means a person with a permanent
+    hearing  loss  who  can  regularly  and  routinely  communicate   by
+    telephone only through the aid of devices which can send and receive
+    written messages over the telephone network.
+
+         "Voice-impaired  individual"  means  a  person with a permanent
+    speech  disability  which  precludes  oral  communication,  who  can
+    regularly and routinely communicate by telephone  only  through  the
+    aid  of devices which can send and receive written messages over the
+    telephone network.
+
+         "Telecommunications technology" means equipment that  can  send
+    and receive written messages over the telephone network.
+   (Source: P.A. 87-146.)
+
+    Sec. 7.  The General Assembly finds  that,  because  of  overlapping
+jurisdiction  of  public  agencies, public safety agencies and telephone
+service areas, the Commission shall establish a general overview or plan
+to effectuate the purposes of this Act within the time frame provided in
+this Act.  In order to insure that proper preparation and implementation
+of emergency telephone systems are accomplished by all  public  agencies
+in  a county having 100,000 or more inhabitants within 3 years after the
+implementation date or by December 31, 1985,  whichever  is  later,  the
+Commission,  with  the  advice  and  assistance of the Attorney General,
+shall secure compliance by public agencies as provided in this Act.
+(Source: P.A. 81-1122.)
+
+    Sec. 8.  The Commission, with  the  advice  and  assistance  of  the
+Attorney   General,  shall  coordinate  the  implementation  of  systems
+established under  this  Act.   The  Commission,  with  the  advice  and
+assistance  of  the Attorney General, shall assist local public agencies
+and  local  public  safety  agencies  in  obtaining  financial  help  to
+establish emergency telephone service, and shall aid  such  agencies  in
+the  formulation of concepts, methods, and procedures which will improve
+the operation of systems required by this Act and  which  will  increase
+cooperation between public safety agencies.
+(Source: P.A. 79-1092.)
+
+    Sec. 9.  To accomplish the responsibilities specified in  this  Act,
+the  Commission  is  directed  to  consult at regular intervals with the
+State Fire Marshal, the Department of Public Health, the  Department  of
+Transportation,  the  public utilities in this State providing telephone
+service, the Department of State  Police,  and  the  State  Division  of
+Forestry.   Such  agencies  shall  provide  all necessary assistance and
+consultation to the Commission  to  enable  it  to  perform  its  duties
+specified in this Act.
+(Source: P.A. 84-25.)
+
+    Sec. 10.  Technical and operational standards for the development of
+the local agency systems  shall  be  established  and  reviewed  by  the
+Commission  on  or before December 31, 1979, after consultation with all
+agencies specified in Section 9.
+(Source: P.A. 79-1092.)
+
+    Sec. 10.1.  9-1-1 information consisting  of  names,  addresses  and
+telephone   numbers  of  telephone  customers  whose  listings  are  not
+published in directories or listed in Directory  Assistance  Offices  is
+confidential.    Information  shall  be provided on a call-by-call basis
+only for the purpose of responding to emergency calls.
+    Divulging confidential information in violation of this Section is a
+Class A misdemeanor.
+(Source: P.A. 87-146.)
+
+    Sec. 10.2.  The Emergency  Telephone  System  Board  in  any  county
+passing  a referendum under Section 15.3, and the Chairman of the County
+Board in any county implementing a 9-1-1 system shall  ensure  that  all
+areas of the county are included in the system.
+(Source: P.A. 87-146.)
+
+    Sec. 10.3.  Notice  of  address  change.   The  Emergency  Telephone
+System  Board in any county implementing a 9-1-1 system that changes any
+person's address (when the person whose  address  has  changed  has  not
+moved  to  a new residence)  shall notify the person (i) of the person's
+new address and (ii) that the person should contact the  local  election
+authority to determine if the person should re-register to vote.
+(Source: P.A. 90-664, eff. 7-30-98.)
+
+    Sec. 11. Within one year after the implementation date or by January
+31, 1980, whichever is later, all public agencies  in  a  county  having
+100,000  or  more  inhabitants  shall  submit  tentative  plans  of  the
+establishment  of a system required by this Act to the public utility or
+utilities providing  public  telephone  service  within  the  respective
+jurisdiction  of  each public agency.  A copy of each such plan shall be
+filed with the Commission.
+
+    Within 2 years after the implementation date or by January 31, 1982,
+whichever is later, all public agencies in a county  having  100,000  or
+more  inhabitants  shall submit final plans for the establishment of the
+system  to  such  utilities,  and  shall  make  arrangements  with  such
+utilities for the implementation  of  the  planned  emergency  telephone
+system  no  later  than  3  years  after  the  implementation date or by
+December 31, 1985, whichever is later.  A copy of the plan  required  by
+this  subdivision shall be filed with the Commission. In order to secure
+compliance  with  the  standards  promulgated  under  Section  10,   the
+Commission  shall  have  the  power  to approve or disapprove such plan,
+unless such plan was announced before the effective date of this Act.
+
+    If any public agency has implemented  or  is  a  part  of  a  system
+required  by  this  Act  on  a  deadline specified in this Section, such
+public agency shall submit in lieu of the  tentative  or  final  plan  a
+report describing the system and stating its operational date.
+    Plans  filed  under  this Section shall conform to minimum standards
+established pursuant to Section 10.
+(Source: P.A. 81-1122.)
+
+    Sec. 12.  The Attorney General may, in behalf of the  Commission  or
+on   his  own  initiative,  commence  judicial  proceedings  to  enforce
+compliance by any public agency or public  utility  providing  telephone
+service with this Act.
+(Source: P.A. 79-1092.)
+
+    Sec. 13.  On or before February 16, 1979, and  again  on  or  before
+February  16,  1981, the Commission shall report to the General Assembly
+the progress in the implementation of  systems  required  by  this  Act.
+Such   reports   shall   contain   his  recommendations  for  additional
+legislation.
+
+    In December of 1979 and in December of 1980 the Commission, with the
+advice  and  assistance  of   the   Attorney   General,   shall   submit
+recommendations  to  the  Bureau  of  the  Budget  and  to  the Governor
+specifying amounts necessary to further implement  the  organization  of
+telephone  systems  specified  in  this Act during the succeeding fiscal
+year.   The  report  specified  in  this  paragraph  shall  contain,  in
+addition, an estimate of the fiscal  impact  to  local  public  agencies
+which will be caused by implementation of this Act.
+
+    By  March  1  in  1979 and every even-numbered year thereafter, each
+telephone company shall file  a  report  with  the  Commission  and  the
+General  Assembly  specifying,  in  such detail as the Commission has by
+rule or regulation required, the extent to which it  has  implemented  a
+planned   emergency   telephone   system   and   its  projected  further
+implementation of such a system.
+
+    The requirement for reporting  to  the  General  Assembly  shall  be
+satisfied  by filing copies of the report with the Speaker, the Minority
+Leader and the Clerk of the House of Representatives and the  President,
+the  Minority Leader and the Secretary of the Senate and the Legislative
+Research Unit, as required by Section 3.1 of "An Act to revise  the  law
+in  relation  to  the  General Assembly", approved February 25, 1874, as
+amended, and filing such additional copies  with  the  State  Government
+Report Distribution Center for the General Assembly as is required under
+paragraph (t) of Section 7 of the State Library Act.
+(Source: P.A. 84-1438.)
+
+    Sec. 14.  The General Assembly declares  that  a  major  purpose  in
+enacting  this  Act  is  to  eliminate  instances  in which a responding
+emergency service refuses to render aid to  the  requester  because  the
+requester  is  outside of the jurisdictional boundaries of the emergency
+service.  Therefore, in implementing systems under this Act, all  public
+agencies in a single system shall enter into a joint powers agreement or
+any other form of written cooperative agreement which is applicable when
+need  arises  on  a  day-to-day  basis.   Certified  notification of the
+continuation of such agreements shall be made among the involved parties
+on an annual basis.  In addition, such agreements shall be entered  into
+between  public  agencies  and  public safety agencies which are part of
+different systems but whose jurisdictional  boundaries  are  contiguous.
+The  agreements shall provide that, once an emergency unit is dispatched
+in response to a request through the system, such unit shall render  its
+services  to  the requesting party without regard to whether the unit is
+operating outside its normal jurisdictional boundaries.
+(Source: P.A. 86-101.)
+
+    Sec. 15.  Copies of the annual certified notification of  continuing
+agreement  required  by  Section  14  shall  be  filed with the Attorney
+General and the Commission.  Commencing with the  year  1987,  all  such
+agreements  shall  be  so  filed  prior to the 31st day of January.  The
+Attorney  General  shall  commence  judicial  proceedings   to   enforce
+compliance  with  this  Section and Section 14, where a public agency or
+public safety agency has failed to timely enter into such  agreement  or
+file copies thereof.
+(Source: P.A. 86-101.)
+
+    Sec.  15.1.  Public  body;  exemption  from  civil   liability   for
+developing  or  operating emergency telephone system.  No public agency,
+public safety agency, emergency telephone system board, or unit of local
+government assuming the duties of an emergency telephone  system  board,
+nor  any  officer, agent or employee of any public agency, public safety
+agency, emergency telephone system board, or unit  of  local  government
+assuming  the  duties  of  an emergency telephone system board, shall be
+liable for any civil damages as a result of any act or omission,  except
+willful  or  wanton misconduct, in connection with developing, adopting,
+operating or implementing any plan or system required by this Act.
+    Exemption from civil liability  for  emergency  instructions  is  as
+provided in the Good Samaritan Act.
+
+    This  Section  may  not  be  offered  as  a  defense in any judicial
+proceeding brought by the Attorney General under Section  12  to  compel
+compliance with this Act.
+(Source: P.A. 89-403, eff. 1-1-96; 89-607, eff. 1-1-97.)
+
+    Sec. 15.2.  Any person calling the number "911" for the  purpose  of
+making  a  false  alarm  or complaint and reporting false information is
+subject to the provisions of Section 26-1 of the Criminal Code of 1961.
+(Source: P.A. 90-456, eff. 1-1-98.)
+
+    Sec. 15.2a.  The  installation  of  or  connection  to  a  telephone
+company's  network of any automatic alarm, automatic alerting device, or
+mechanical dialer that causes the number 9-1-1 to be dialed in order  to
+directly  access  emergency  services  is  prohibited in a 9-1-1 system.
+Violation of this  Section  is  a  Class  A  misdemeanor.  A  second  or
+subsequent violation of this Section is a Class 4 felony.
+(Source: P.A. 87-146; 88-497.)
+
+    Sec. 15.2b.  Emergency telephone number; advertising.  No person  or
+private  entity may advertise or otherwise publicize the availability of
+services provided by a specific provider and indicate  that  a  consumer
+should  obtain access to services provided by a specific provider by use
+of the emergency telephone number (9-1-1).
+(Source: P.A. 88-497.)
+
+    Sec. 15.3.  (a) The corporate authorities of any municipality or any
+county may, subject to the limitations of subsections (c), (d), and (h),
+and in addition to any tax levied pursuant  to  Section  8-11-2  of  the
+Illinois   Municipal   Code,   impose  a  monthly  surcharge  on  billed
+subscribers of network connection provided by telecommunication carriers
+engaged in the business of transmitting messages by means of electricity
+originating within the corporate limits of the  municipality  or  county
+imposing  the  surcharge  at a rate per network connection determined in
+accordance with subsection  (c).   A  municipality  may  enter  into  an
+intergovernmental  agreement  with  any  county in which it is partially
+located, when the county has adopted an ordinance to impose a  surcharge
+as   provided  in  subsection  (c),  to  include  that  portion  of  the
+municipality  lying  outside  the  county  in  that  county's  surcharge
+referendum.  If the  county's  surcharge  referendum  is  approved,  the
+portion   of   the  municipality  identified  in  the  intergovernmental
+agreement shall automatically be disconnected from the county  in  which
+it  lies  and  connected to the county which approved the referendum for
+purposes of a surcharge on telecommunications carriers.
+
+(b)  For purposes of computing the surcharge imposed  by  subsection
+(a), the network connections to which the surcharge shall apply shall be
+those   in-service   network   connections,  other  than  those  network
+connections assigned to the municipality or county,  where  the  service
+address  for  each  such  network  connection  or connections is located
+within the corporate limits of the municipality or  county  levying  the
+surcharge.  The "service address" shall mean the location of the primary
+use of the network connection or connections. With  respect  to  network
+connections provided for use with pay telephone services for which there
+is  no  billed  subscriber, the telecommunications carrier providing the
+network connection shall be deemed to be its own billed  subscriber  for
+purposes of applying the surcharge.
+
+(c)  Upon  the  passage  of an ordinance to impose a surcharge under
+this Section the clerk of the municipality or county shall  certify  the
+question  of whether the surcharge may be imposed to the proper election
+authority who shall submit the public question to the  electors  of  the
+municipality  or  county  in  accordance  with the general election law;
+provided that such question shall not be  submitted  at  a  consolidated
+primary  election.   The  public  question shall be in substantially the
+following form:
+
+------------------------------------------------------------------------
+    Shall the county (or city, village
+or incorporated town) of.....impose          YES
+a surcharge of up to...¢ per month per
+network connection, which surcharge will
+be added to the monthly bill you receive   -----------------------------
+for telephone or telecommunications
+charges, for the purpose of installing
+(or improving) a 9-1-1 Emergency             NO
+Telephone System?
+------------------------------------------------------------------------
+    If a majority of the votes cast upon  the  public  question  are  in
+favor thereof, the surcharge shall be imposed.
+    However,  if  a  Joint  Emergency  Telephone  System  Board is to be
+created pursuant to an intergovernmental agreement under  Section  15.4,
+the  ordinance  to impose the surcharge shall be subject to the approval
+of a majority of the total number of votes cast upon the public question
+by the electors of all of the municipalities or counties, or combination
+thereof, that are parties to the intergovernmental agreement.
+
+    The referendum requirement of this subsection (c) shall not apply to
+any municipality with a population over 500,000  or  to  any  county  in
+which  a  proposition  as  to  whether  a  sophisticated 9-1-1 Emergency
+Telephone System should be installed in the county, at  a  cost  not  to
+exceed a specified monthly amount per network connection, has previously
+been  approved by a majority of the electors of the county voting on the
+proposition at an election conducted before the effective date  of  this
+amendatory Act of 1987.
+
+    (d)  A  county  may  not  impose  a surcharge, unless requested by a
+municipality, in any incorporated area which has previously  approved  a
+surcharge  as  provided  in  subsection  (c) or in any incorporated area
+where the corporate authorities  of  the  municipality  have  previously
+entered   into   a   binding   contract  or  letter  of  intent  with  a
+telecommunications  carrier  to  provide  sophisticated  9-1-1   service
+through municipal funds.
+
+    (e)  A  municipality  or  county may at any time by ordinance change
+the rate of the surcharge imposed under this Section  if  the  new  rate
+does  not  exceed  the rate specified in the referendum held pursuant to
+subsection (c).
+
+    (f)  The surcharge authorized by this  Section  shall  be  collected
+from  the  subscriber  by  the  telecommunications carrier providing the
+subscriber the network connection as a separately  stated  item  on  the
+subscriber's bill.
+
+    (g)  The  amount  of  surcharge  collected by the telecommunications
+carrier shall be paid to the particular municipality or county or  Joint
+Emergency  Telephone  System  Board  not  later  than  30 days after the
+surcharge  is  collected,  net  of  any  network  or  other   9-1-1   or
+sophisticated   9-1-1   system   charges   then   due   the   particular
+telecommunications   carrier,   as  shown  on  an  itemized  bill.   The
+telecommunications  carrier  collecting  the  surcharge  shall  also  be
+entitled to deduct 3% of the gross  amount  of  surcharge  collected  to
+reimburse  the  telecommunications carrier for the expense of accounting
+and collecting the surcharge.
+
+    (h)  A municipality with a population over 500,000 may not impose  a
+monthly surcharge in excess of $1.25 per network connection.
+
+    (i)  Any  municipality or county or joint emergency telephone system
+board that has imposed a surcharge pursuant to this Section prior to the
+effective date of this amendatory Act of 1990 shall hereafter impose the
+surcharge in accordance with subsection (b) of this Section.
+
+    (j)  The corporate authorities of any  municipality  or  county  may
+issue,   in   accordance  with  Illinois  law,  bonds,  notes  or  other
+obligations secured in whole or in part by the proceeds of the surcharge
+described in this Section.  Notwithstanding any change in law subsequent
+to the issuance of any bonds, notes or other obligations secured by  the
+surcharge,  every  municipality  or  county issuing such bonds, notes or
+other obligations shall be authorized to impose the surcharge as  though
+the  laws  relating  to the imposition of the surcharge in effect at the
+time of issuance of the bonds, notes or other obligations were  in  full
+force and effect until the bonds, notes or other obligations are paid in
+full. The State of Illinois pledges and agrees that it will not limit or
+alter  the  rights  and  powers vested in municipalities and counties by
+this Section to impose the surcharge so as to impair  the  terms  of  or
+affect  the  security  for  bonds, notes or other obligations secured in
+whole or in part with the proceeds of the surcharge  described  in  this
+Section.
+
+    (k)  Any  surcharge  collected by or imposed on a telecommunications
+carrier pursuant to this Section shall be held to be a special  fund  in
+trust  for  the  municipality, county or Joint Emergency Telephone Board
+imposing the  surcharge.   Except  for  the  3%  deduction  provided  in
+subsection  (g)  above,  the  special  fund  shall not be subject to the
+claims of creditors of the telecommunication carrier.
+(Source: P.A. 86-101; 86-1344.)
+
+    Sec. 15.4.  Emergency Telephone System Board; powers.
+    (a)  The corporate authorities of any county  or  municipality  that
+imposes  a  surcharge  under  Section  15.3 shall establish an Emergency
+Telephone System Board.  The corporate authorities shall provide for the
+manner of appointment and the number of members of the  Board,  provided
+that  the  board  shall consist of not fewer than 5 members, one of whom
+may be a public member who is a resident of the local  exchange  service
+territory  included in the 9-1-1 coverage area, one of whom (in counties
+with a population less than 100,000) may  be  a  member  of  the  county
+board,  and  at  least  3  of  whom shall be representative of the 9-1-1
+public safety agencies, including but not limited to police departments,
+fire departments, emergency medical services  providers,  and  emergency
+services  and  disaster  agencies,  and  appointed on the basis of their
+ability or experience.  Elected officials are also eligible to serve  on
+the  board.   Members  of the board shall serve without compensation but
+shall be reimbursed for their actual and necessary expenses.  Any  2  or
+more  municipalities,  counties,  or  combination thereof, that impose a
+surcharge under Section 15.3 may,  instead  of  establishing  individual
+boards,  establish  by  intergovernmental  agreement  a  Joint Emergency
+Telephone  System  Board  pursuant  to  this  Section.   The  manner  of
+appointment of such a joint board shall be prescribed in the agreement.
+
+    (b)  The powers  and  duties  of  the  board  shall  be  defined  by
+ordinance  of  the  municipality  or  county,  or  by  intergovernmental
+agreement  in  the  case  of a joint board.  The powers and duties shall
+include, but need not be limited to the following:
+
+         (1)  Planning a 9-1-1 system.
+
+         (2)  Coordinating   and   supervising    the    implementation,
+    upgrading, or maintenance of the system, including the establishment
+    of equipment specifications and coding systems.
+
+         (3)  Receiving  monies from the surcharge imposed under Section
+    15.3, and from any other source,  for  deposit  into  the  Emergency
+    Telephone System Fund.
+
+         (4)  Authorizing all disbursements from the fund.
+
+         (5)  Hiring  any  staff  necessary  for  the  implementation or
+    upgrade of the system.
+
+    (c)  All monies received by a board pursuant to a surcharge  imposed
+under  Section  15.3 shall be deposited into a separate interest-bearing
+Emergency  Telephone  System  Fund  account.  The   treasurer   of   the
+municipality or county that has established the board or, in the case of
+a  joint  board,  any  municipal  or  county treasurer designated in the
+intergovernmental agreement,  shall  be  custodian  of  the  fund.   All
+interest accruing on the fund shall remain in the fund.  No expenditures
+may  be  made  from  such fund except upon the direction of the board by
+resolution  passed  by  a  majority  of  all  members  of   the   board.
+Expenditures  may  be made only to pay for the costs associated with the
+following:
+
+         (1)  The design of the Emergency Telephone System.
+
+         (2)  The coding of an initial Master Street Address Guide  data
+    base, and update and maintenance thereof.
+
+         (3)  The   repayment   of   any   monies   advanced   for   the
+    implementation of the system.
+
+         (4)  The   charges  for  Automatic  Number  Identification  and
+    Automatic  Location  Identification  equipment,  a  computer   aided
+    dispatch system that records, maintains, and integrates information,
+    mobile  data  transmitters equipped with automatic vehicle locators,
+    and  maintenance,  replacement  and  update  thereof   to   increase
+    operational  efficiency  and  improve  the  provision  of  emergency
+    services.
+
+         (5)  The  non-recurring  charges related to installation of the
+    Emergency Telephone System and the ongoing network charges.
+
+         (6)  The acquisition and installation, or the reimbursement  of
+    costs therefor to other governmental bodies that have incurred those
+    costs,   of   road  or  street  signs  that  are  essential  to  the
+    implementation of the emergency telephone system and  that  are  not
+    duplicative of signs that are the responsibility of the jurisdiction
+    charged with maintaining road and street signs.
+
+         (7)  Other    products   and   services   necessary   for   the
+    implementation, upgrade, and maintenance of the system and any other
+    purpose related to the operation  of  the  system,  including  costs
+    attributable  directly  to the construction, leasing, or maintenance
+    of any buildings or facilities or costs  of  personnel  attributable
+    directly to the operation of the system. Costs attributable directly
+    to the operation of an emergency telephone system do not include the
+    costs  of  public safety agency personnel who are and equipment that
+    is dispatched in response to an emergency call.
+
+    (d)  The board shall complete the data base before implementation of
+the 9-1-1 system.  The error ratio of the data base  shall  not  at  any
+time exceed 1% of the total data base.
+(Source: P.A. 89-568, eff. 1-1-97; 90-698, eff. 8-7-98.)
+
+    Sec. 15.5.  Private residential switch service 9-1-1 service.
+ 
+   (a)  After June 30,  1995,  an  entity  that  provides  or  operates
+private  residential  switch  service  and  provides  telecommunications
+facilities  or  services to residents shall provide to those residential
+end users the same level of 9-1-1 service as the public agency  and  the
+telecommunications  carrier are providing to other residential end users
+of the local 9-1-1 system.  This  service  shall  include,  but  not  be
+limited  to,  the capability to identify the telephone number, extension
+number, and the physical location that is the source of the call to  the
+number designated as the emergency telephone number.
+
+  (b)  The  private  residential  switch  operator  is responsible for
+forwarding end user automatic location identification record information
+to the 9-1-1 system provider according to  the  format,  frequency,  and
+procedures established by that system provider.
+
+  (c)  This  Act  does  not  apply to any PBX telephone extension that
+uses radio transmissions to convey electrical signals  directly  between
+the telephone extension and the serving PBX.
+
+  (d)  An  entity  that  violates this Section is guilty of a business
+offense and shall be fined not  less  than  $1,000  and  not  more  than
+$5,000.
+  
+  (e)  Nothing  in  this  Section  shall  be construed to preclude the
+Attorney General on behalf of the  Commission  or  on  his  or  her  own
+initiative,  or  any  other  interested  person,  from  seeking judicial
+relief, by mandamus, injunction, or otherwise, to compel compliance with
+this Section.
+(Source: P.A. 88-604, eff. 9-1-94; 89-222,  eff.  1-1-96;  89-497,  eff.
+6-27-96.)
+
+    (Text of Section from P.A. 90-819)
+    Sec. 15.6.  Private business switch service 9-1-1 service.
+
+    (a)   After June 30, 1996, an entity that installs or operates a new
+private business switch service or replaces an existing private business
+switch service and provides telecommunications facilities or services to
+businesses shall provide to those business end users the same  level  of
+9-1-1  service  as  the public agency and the telecommunications carrier
+are providing to other business end users of  the  local  9-1-1  system.
+This  service  shall  include,  but not be limited to, the capability to
+identify the  telephone  number,  extension  number,  and  the  physical
+location  that is the source of the call to the number designated as the
+emergency telephone number.  After June 30, 2000, all entities providing
+or operating a private business switch service shall  be  in  compliance
+with this Section.
+
+    (b)  The   private  business  switch  operator  is  responsible  for
+forwarding end user automatic location identification record information
+to the 9-1-1 system provider according to  the  format,  frequency,  and
+procedures established by that system provider.
+
+    (c)  This  Act  does  not  apply to any PBX telephone extension that
+uses radio transmissions to convey electrical signals  directly  between
+the telephone extension and the serving PBX.
+
+    (d)  An  entity  that  violates this Section is guilty of a business
+offense and shall be fined not  less  than  $1,000  and  not  more  than
+$5,000.
+
+    (e)  Nothing  in  this  Section  shall  be construed to preclude the
+Attorney General on behalf of the  Commission  or  on  his  or  her  own
+initiative,  or  any  other  interested  person,  from  seeking judicial
+relief, by mandamus, injunction, or otherwise, to compel compliance with
+this Section.
+(Source: P.A. 88-604, eff. 9-1-94; 89-222,  eff.  1-1-96;  89-497,  eff.
+6-27-96; 90-819, eff. 3-23-99.)
+
+    (Text of Section from P.A. 91-518)
+    Sec. 15.6.  Enhanced 9-1-1 service;  business service.
+
+    (a)  After  June  30, 2000, or within 18 months after enhanced 9-1-1
+service becomes available,  any  entity  that  installs  or  operates  a
+private   business   switch   service  and  provides  telecommunications
+facilities or services to businesses shall assure  that  the  system  is
+connected to the public switched network in a manner that calls to 9-1-1
+result  in  automatic number and location identification.  For buildings
+having their own street  address  and  containing  workspace  of  40,000
+square   feet   or  less,  location  identification  shall  include  the
+building's street address.    For  buildings  having  their  own  street
+address  and  containing  workspace  of  more  than  40,000 square feet,
+location identification shall include the building's street address  and
+one   distinct   location  identification  per  40,000  square  feet  of
+workspace. Separate buildings containing workspace of 40,000 square feet
+or less having a common public street  address  shall  have  a  distinct
+location  identification  for  each  building  in addition to the street
+address.
+
+    (b)  Exemptions.  Buildings containing workspace of more than 40,000
+square  feet  are  exempt  from  the  multiple  location  identification
+requirements of subsection (a) if the building maintains, at all  times,
+alternative   and   adequate   means  of  signaling  and  responding  to
+emergencies.  Those means shall  include,  but  not  be  limited  to,  a
+telephone  system  that  provides  the  physical location of 9-1-1 calls
+coming from within the building.  Health care facilities are presumed to
+meet the requirements of this paragraph if the  facilities  are  staffed
+with medical or nursing personnel 24 hours per day and if an alternative
+means  of  providing  information  about the source of an emergency call
+exists. Buildings under this exemption must provide 9-1-1  service  that
+provides the building's street address.
+
+    Buildings  containing  workspace of more than 40,000 square feet are
+exempt from subsection (a) if the  building  maintains,  at  all  times,
+alternative   and   adequate   means  of  signaling  and  responding  to
+emergencies, including a telephone system that provides the location  of
+a  9-1-1  call  coming  from  within  the  building, and the building is
+serviced by its own medical, fire  and  security  personnel.   Buildings
+under this exemption are subject to emergency phone system certification
+by the Illinois Commerce Commission.
+    Buildings  in communities not serviced by enhanced 9-1-1 service are
+exempt from subsection (a).
+
+    (c)  This Act does not apply to any  PBX  telephone  extension  that
+uses  radio  transmissions to convey electrical signals directly between
+the telephone extension and the serving PBX.
+
+    (d)  An entity that violates this Section is guilty  of  a  business
+offense  and  shall  be  fined  not  less  than $1,000 and not more than
+$5,000.
+
+    (e)  Nothing in this Section shall  be  construed  to  preclude  the
+Attorney  General  on  behalf  of  the  Commission  or on his or her own
+initiative, or  any  other  interested  person,  from  seeking  judicial
+relief, by mandamus, injunction, or otherwise, to compel compliance with
+this Section.
+
+    (f)  The Commission shall promulgate rules for the administration of
+this Section no later than January 1, 2000.
+(Source:  P.A.  88-604,  eff.  9-1-94; 89-222, eff. 1-1-96; 89-497, eff.
+6-27-96; 91-518, eff. 8-13-99.)
+
+    Sec. 16. This Act takes effect July 1, 1975.
+(Source: P.A. 79-1092.)
+
+
+ --
+
+	Social Engineering:
+
+Government Emergency Telephone Systems biggest flaw is not in its physical or
+watts Band 6 network infrastructure, but the fact that all live operators who
+administrate the GETS system more often than not allow themselves to be tricked
+by unauthorized NON-government employees. Because all calls that route through
+the GETS system are thought of as high-priority, operators who are called up won't
+usually think twice about giving the person on the other end of the line a high-
+priority account.
+
+High-priority accounts allow anyone to call any number in most of Canada / USA for free.
+Phone numbers that would normally give you a busy-signal, or an "all circuits busy" recording,
+will allow you to do an Emergency Interrupt with a GETS account - thus allowing you to break
+into the conversation between the called party and the third person on the line.
+
+
+ Scenario between unauthorized person and GETS operator;
+
+ Operator: "Operator services, how may I help you?"
+
+ John Bashcoff: "Yes, hello this is John Bashcoff with the Office of the Commissioner for
+Federal Judicial   Affairs. I'm in Edmonton right now, and I seem to have misplaced
+my GETS pin number. This is an emergency, can you please supply me with a PIN?"
+
+ Operator: "Yes of course Mr.Bashcoff. The pin number is [12 digit number]."
+
+ John Bashcoff: "Thank You."
+
+ Operator: "You're welcome."
+
+ -- CALL ENDS --
+
+Unauthorized caller proceeds to call back the GETS system, and immediately he
+enters the 12 digit pin he was supplied with. Tada... outdial access anywhere
+he wants for free. His caller identification information shows 'Long Distance,
+710-627-4387'. FYI; The area code '710' is a private area code owned by the US
+Government. When you dial up the phone number 710-627-4387, you will connect
+to another GETS system.
+
+--
+
+ Dial-Up Numbers -
+
+  I recommend you do not call the first phone number on this list,
+  and when calling any of these numbers do NOT use them from home or work -
+  use a payphone far away from your home if you can.
+  
+
+     * 1-710-627-4387
+ 
+     * 1-800-257-8373
+ 
+     * 1-800-900-GETS
+
+     * 1-888-288-GETS
+
+
+ --
+
+ Conclusion;
+
+  Have fun and don't get caught. Big brother *IS* watching, and he will rip
+  your balls off and flush them down the toilet if he catches you using his
+  systems.
+
+
+--
+
+Hiding Messages No One Will Ever See on disc.server.com
+
+The disc.server.com CGI webboard allows users to manually choose what 
+message they view by entering it into the URL.  Every message is ordered by 
+its article # - starting at 1 when the message board first opened, moving 
+upwards.  Now, when you send a message the html form sends the author, etc.. 
+  When you reply to a message, it also sends the "parent" variable, which is 
+the article number of the message you are replying to.
+
+Now, go view some message on a a disc.server.com board,  Edit the URL to 
+point to a higher article number.  If it displays another message, then keep 
+increasing the article number until it displays "Wed Dec 31 18:00:00 1969."  
+Remember this number.
+(note: an easier way to find this number is simply to send a message, lok at 
+its article number, and add 1)
+
+Now, reply to a message.. it doesn't matter what.  Edit the HTML so that the 
+"parent" variable is one more than the last valid article number.  Now, when 
+you create this message, the article number will be equal to the parent 
+number.  It doesn't get displayed in the index, but you can manually reach 
+it by entering its article number.  Note: you can't reply to this message 
+either.  Its just there.
+
+Chances of anyone seeing that message? pretty much zero, unless they do what 
+I do.  Instead of looking for updates to the board by searching through the 
+index, I just increment the article number by one until the messages do not 
+exist.
+
+woah that was cool
+
+diabolik
+diabolik@nitric.net
+
+--
+
+How to piss off Telus with your ADSL Modem amongst other things.       09/26/01
+
+Sitting here with nothing better to do, i thought i would write up a little article on what
+information i've gathered on the Telus network in good ol' Edmonton. Also, let it be known
+according to a tier 1 (yes, the godlike teir 1 guys) tech support guy, claiming he works
+for telus (he answered at 310-inet) that telus does NOT, i repeat DOES NOT support the x86
+arch (guess i'll just have to back to using my alpha)
+
+Disclamer: This is for educational purposes only, if you happen to have the police knock
+on your door at 7 AM to exersize a search warrant to obtain all computer related materials
+in your residence because of what you did in this article, then thats too fkn bad, cause
+your the dumb shit who let somone else tell him what to do. btw, only done this with a 
+3com home connect modem, but logic dictates that those damned cisco's should behave the
+same too. Now, down to business.
+
+1) Overview
+
+	The Telus Network is relatively secure, in so far as it doesnt usually spew packets
+all over the network like lovely cable modems do. The only thing ive seen actually travel
+across their dsl network is half life games (lord knows why, im too fucked up to figure it
+out right now). Now for all you little script kiddiots out there that figure they can jack
+their 1.5mbit DSL line up to a 4mbit down 640 kbit up line with windows registry tweaks or
+patches are out of their fucking mind. your bandwidth is setup at your DSLAM at your
+nearest friendly but nicely guarded telus CO.
+
+2) How it works
+	K, when you turn your DSL modem on, you will notice the alert light flash a couple
+times. that means its posting (ive since sold my DSL modem and cant remember what color
+the flases are) it will pause for a few seconds, then start flashing again for about 30sec+
+this is it loading the IOS (Intergrated Operating System (or sumphin)) after this, it will
+attempt to handshake with the DSLAM at the telus CO. if your line is not configured for DSL
+or the line is too noisy, it will turn red, but if fate smiles, it will go green. nuff said.
+
+3) DHCP
+
+	DHCP is an absolutly beautiful thing. it stands for Dynamic Host Configuration
+Protocol. Basically, what happens, is your OS (whatever it may be) sends a broadcast
+message through your ethernet card, which gets routed to Sodium.bctel.net (Primary DHCP Server)
+The server then checks the MAC (Media Access Control) Adress of your ethernet card (remember
+registering your computers with telus when you first got DSL? ) now, telus has implemented
+somwhat of a security feature here, if your MAC Addy is not registered with their server
+you are assigned an ip address on their LAN (always a 10.*.*.* address) but, if you have
+registered, you will automagically be assigned a fully routeable IP address (161.184 if your
+old school DSL or 142.59.*.* for all us newbies) along with your IP address you are given
+the information for your DNS Servers (sodium at it again) and your default Gateway.
+This is all done while your computer is booting (or for us linux people, when dhcpcd kicks
+in). Now for you windows people, somtimes you will notice that windows will just seem to hang
+while its booting, but its just waiting for the DHCP server to respond (more often than not
+its offline or bogged to hell *shakes head*). But the great thing with DHCP, is that it means
+telus can change your IP and move you around all it pleases, because you have a dynamic IP.
+Now if your going to be running a domain, and want to get a static IP (pretty much a pre req)
+your going to have to pay telus an extra $59/mnth (or so) just to have the same ip all the time.
+sounds pretty fucking silly now doesnt it?
+
+4) Security?
+
+	I have a friend on Shaw Cable, in Millwoods (you know who you are) who would give
+his left nut to be able to smurf (yes it still works) from his Cable modem. Shaw has gotten
+somewhat smart, and from what ive seen, they have finally read the paper on smurf and how
+to fix0r the routers so that you cannot send spoofed ICMP Echo Request packets anymore. This
+is why Telus is my personal favourite for a broadband ISP (when its working). Telus doesnt
+filter sweet fuck all. but, be careful dont let this fool you into thinking that they're
+stupid, because the Telus internet security guy watching your packets go by, and red flagging
+your account is far from stupid. Now lets say you happen to smurf somone, and they report the
+logs from their firewall/sniffer/packet logging device to abuse@telus.net, and they check it
+out they will notice that you've been up to somthing and send you a warning. you will get 3
+of these (i got 2 for DDOS'in before i got smart) if you have 3 warning on your account it
+will be terminated for a period of 30 days, and i belive they will also still expect you
+to pay for the service for those 30 days.
+
+5) Having Fun
+
+	A while ago somone named The Gonz (or somthing similar) wrote an article on
+'hard encoding your ip'. Honestly I still laugh to this day when i think about that.
+no twit at telus is going to send the police after you for taking an IP. Now my idea works
+the same way (this is where linux really shines) After you boot your computer, get your
+default Gateway, it will be 142.59.*.1 (i hope =/) now write this down, its important
+and for DNS servers use 199.185.220.36 and 199.185.220.52 since their much faster and
+alot more reliable. Ok, So you've done that, now what? well, now you can set your IP
+to anything you want (well almost) My gateway used to be 142.59.212.1 if memory serves me.
+now this doesnt mean i could set my IP addy to 142.59.0.0 or 142.59.245.69 in my experence
+you have 2 full class B subnets above your routers IP for you to use ex. 142.59.213.5, 
+142.59.214.67 and 142.59.215.30) now, if you choose an IP address, and your net access
+doesnt work period, that means that somone else is currently using that IP address
+(2 machines on the internet cant share the same one) i find IP address's ending in .255
+and .0 are fun to go on IRC from. when I first starting doing this, their were no
+reverse DNS record set for the IP, so it wouldnt resolve. after using a certain IP for about
+a couple weeks, telus would seem to put a reverse name on it (oh well, dont worry, their not
+on to you) But, dont think just taking an IP and not using the one they gave you will let
+you escape being caught. If they were to actually look at the packets your sending
+they would find a nice little thing, that points them right to you. the MAC Address on
+your ethernet card. there are supposed to be no numbers the same but its a lie. now
+if you search on freshmeat.net for ethermac (i belive) you will find a beautiful little
+utility for linux, what it does, is modify how packets are sent (you must be r00t)
+and instead of your real MAC Address being there, its just a random one (put your next door
+neighbours MAC Address in there for extra fun.)
+
+6) Ok, when are we going to have fun?
+
+	With my somwhat limited knowledge of exactly how the telus network is setup and
+what my packets look like on their end, as near as I can figure, unless they go through
+a fuckload of trouble while your sending your packets, it is hard to trace you by just
+looking at the dumped TCP/IP Packets their loggers would pick up. Now, what can you do now?
+well as far as i know, telus has only 1 DHCP server for Alberta, and maybe BC too. and
+also how all the hapless lusers depend on that DHCP server. (after windows reboots,
+or your lease expires, you will always have to get a new IP address) Now, lets say
+what would happen if that DHCP server wasnt there? if it mysteriously got knocked offline
+by a DDOS (namely a smurf attack) because remember, they also do not filter your packets.
+Now, besides making the telus networking techs scream like little babys, there are other
+things you could be doing. Mass scanning, trying to exploit a box etc. now as long as you
+dont say on the same IP too long, and switch your MAC address somtimes, and dont do REALLY
+stupid shit, telus shouldnt notice, or catch you. If they do, well who knows what will
+happen.
+
+7) Other fun things todo (Under linux of course silly)
+
+	Depending on how you set your Broadcast address, and how your particular router
+is setup, it is possible to put your Ethernet card into promiscuous mode and see whats going
+on. (ifconfig eth0 promisc) now, as far as sniffers go, tcpdump is a nice one. it is an easy
+way to find out whats going on in your network and how many subscribers there are and who is
+using their DSL at the moment. their are other sniffing suits you can find kicking around on
+various sites, i think there might be some on freshmeat.net, that will automagically sniff
+passwords and whatnot for you, and convienently dump them into a text file for you to sort
+through after a few hours of sniffing. I found in the ending days of my DSL line, a porn
+site started up, and we shared the same router. now i got real lucky, since this poor SOB
+had never discovered SSH, and loved to share his plain text passwords with me (sniffers are
+beautiful arnt they). Anyway, somtime if your lucky, you might catch a telus tech logging
+into your router to make changes and then youve got a new and very fast toy to play with.
+Other things to piss off the poor people at tech support is alias your ethernet card
+so that it occupies every single IP that your router services (during evening rush of course
+=D, remember only 1 computer can use a IP address at the same time, or else they fight!)
+you can do other things, like run a shitload of eggies off your box, all on diff IPs. Im
+sure you'll find somthing fun todo, just dont make their lifes too difficult.
+
+
+Anyways, I met The Clone at a party for last night, and we played crazy 8's for like 5
+hours straight, and after we talked for a fkn long time, he told me i should write an
+article. This is the first time i've ever written one, so if you dont like it, too bad.
+Keep safe boys and Girls, and life is nothing but 1's and 0's.
+
+						sheppard
+						shep@tr4nce.com
+					    	www.amishrakefight.org/gfy
+
+--
+
+Disclamer: For educational purposes only. if you get in trouble for this, its your own damn
+fault for doing what some wierdo from the internet wrote in a file. do people no longer
+posess any common sense?
+Be good Chillins.								09/26/01
+w00t
+
+	Heres a little secret ive known for a while, and its fun to play this trick on
+shell providers. now, all you need is bash (Bourne Again Shell) (my fav shell btw).
+now, this little trick does not give you root, nor does it give you command over anything.
+its just somthing todo to be a shit disturber. Now, what you need todo is either telnet in
+to your shell provider (maybe go through a wingate first duh!) and make sure your running bash.
+now, all you do is type a bunch of gibberish in, but not just any gibberish. you can only
+put in alpha-numeric characters (trust me on this) and definatly NO '|'s. after about half
+your screen is filled with just plain jibberish, press your enter key. you will see what you
+just typed scroll past your screen again, ending with bash: command not found. now, what
+you do is type in about 40 !'s. thats right, a whole bunch of !!'s. type in like 10, and use
+your mouse to copy and paste them. after you have 40 (or more depending) press enter.
+now if you get somthing like 'bash: event not found'. that means you have an odd number of
+!'s. you must have an even amount. not 39, not 41, 40 exclamation marks. Now for those of you
+who put 40 (or more =D) in will see alot of gibberish fly past your screen. what !! means in
+bash is to repeat the last command. and with every additional !!, the amount of text grows
+exponentally. now, the fun part, is that all this text has to be read by the computer. now
+since youve got all those !! adding on to each other, you can see how a line of maybe 30 
+lines of just plain text, can turn into alot of text. now, if you do this correctly, you will
+see text scroll by, but it will seem like it's locked. if you get returned to a normal bash
+prompt, you need more !!'s. dont worry about putting in 3 pages of !!'s, remember, more is 
+better. now, what happens next, is bash loads ALL this text into memory. i like to fire up
+another login, in a seperate window, and fire up top on the poor unsuspecting shell box
+before i hit enter. ive seen bash take up all the ram on nether.net (768MB system, 1.5GB swap)
+and quite easily lag any other box to hell. bash will keep taking more and more ram, while still
+using 99% of the CPU (even better if theirs multiple cpu's and you do this multiple times).
+now somtimes the box will die, and not even respond to pings, other times, it will just die
+and sit there, and you will not be able to ssh/telnet to it. I suppose you could use this
+on a box thats hosting a bunch of eggdrops, and maybe you could drop them offline since 
+bash is taking up all the available crunching power. now, next time you login, it may take
+quite some time. bash has a wonderful file called .bash_history that remembers everything you
+do to a certain point (thats why the up key works for recalling commands). now, for you
+Admins reading this, and wanting to protect yourselfs, what you need todo is either recompile
+bash from the source, and remove one of the options (RTFM), or enable user quotas which are
+a good idea anyway. just set them up so that if any user is using massive amounts of ram/cpu
+ time for any length of time (1 minute is good), then the pid is killed, and your box is
+saved. its as simple as that. Alot of machines Ive been on show no evidence of having the
+user quota's enabled. but i suppose you could setup maybe a crontab or some evil fork bomb
+using pipes  to just stream random letters into multiple occurences of bash, then shove it a
+bunch of !!'s, and you could have yourself a hayday. Anyways ive know about this for a long
+time now, and havnt seen any mention of it anywhere else. Also make sure you log back in and
+rm -rf .bash_history, because its got everything you typed in there. anyways, this is why
+more people should have a basic understanding of bash, and how truly powerful it is.
+I bet this might even work on shellyeah, and its not like your compiling any source, your
+just using bash, your shell :].
+
+
+
+							/bin/bash 0wns me
+							and no more /usr/local dammit!
+							sheppard
+							shep@tr4nce.com
+
+--
+
+"Straight From The Underground"
+FORMER MOD MEMBER,
+JOHN LEE, IS BACK...
+
+
+Date: Thurs Oct 4, 2001
+
+By: The Clone
+
+URL: www.nettwerked.net
+
+
+John Lee was no ordinary gangster punk-ass kid back in the mid-1980's, livin' it up in the
+Brooklyn area of New York. He was recognized mainly as the famous b-boy named 'Corrupt',
+who had seen it all... or at least he thought so. Spending some time in the penal-system as
+a youth who hadn't even seen his 16th birthday, John Lee decided to trade in his guns, knives,
+and negative lifestyle for something more mentally profitable and thrilling - computer hacking.
+
+Now the computer hacking John Lee involved himself in doesn't paint a picture in any sort of
+typical hacker scenario - no, sir. By the late 1980's, John Lee joined up with what eventually
+became the largest organized computer hacker group on the planet. Straight 
+outta 212, they were known as the Masters of Deception (M.O.D).
+
+To give you an idea about how big the M.O.D were, high profile groups such as the
+Legion of Doom considered the Masters of Deception their biggest online threat.
+
+One night in 1990, five or six hackers in Texas, are hanging out on a telephone
+conference bridge. Suddenly a new voice joins the conference in midsentence.
+The unknown newcomer doesn't sound like a Texan. "Yo, dis is Dope Fiend from MOD,"
+the stranger says in a non-white, non-cow tippin voice. One of the Texans responds:
+"Get that nigger off the line!". Everyone falls silent. A moment later the stranger
+responds to the hackers with a different accent. "Hi. This is Corrupt." Corrupt's
+real name is John Lee. Corrupt lives in Bed-Stuy, New York. Corrupt is well known
+and respected as a "hacker" extraordianaire. Corrupt is African-American. Cyber-War
+has been declared.
+
+Corrupt targets the slur slinger, a member of the rival Cyber Gang LOD (Legion
+of Doom), who later claims he was not on during the incident. Corrupt harasses
+his prey via phone...often. He switches his prey's long distance carrier. 
+His prey retaliates by translating a text file titled "The History of MOD" 
+(Masters of Deception) into street "jive" and places it back on the net. Corrupt's
+prey claims to net observers that he isn't a bigot. He says "I have Black friends
+at work". The on-line cyber war rages on.
+
+"I started breaking into computer networks when I was 16. I did it because I liked
+the thrill of it - you get all tingly. It was euphoric, like a runner's high.
+We were MOD, we came out of nowhere. We were badasses who could crush anyone and
+break into anything. There was a lot of stuff that, even now, I'm just like, Wow.
+I've seen some stuff that could make you shit green.
+
+"These days, most of the guys from MOD work in the tech field - security, mostly.
+Yeah, I talk to them still. Why not? We had that life experience together. I'm sure
+if some people crashed a plane in the Andes, then the people that survived would
+still call each other from time to time. MOD was kind of like that - but we didn't
+eat anybody. I think people know we got the raw end of the deal. I don't want to
+minimize it, but there are people who stab people and get less time than I did."
+
+MOD were like this creepy void that existed in cyberspace; in the BBS', packet
+switching networks, private networks, and on the Internet. MOD were big and powerful
+and people, specifically other hackers, knew it. Rumour has it the Masters of
+Deception controlled everything - the New York City powergrid, the entire U.S
+phone system, and DMV to name a few.
+
+FBI steps in. You see, the members of MOD have been under investigation since 1989.
+The indictment against the members of MOD is announced in July of 1992. The FBI
+charges Corrupt with "illegal computer intrusion". Corrupt gets six months.
+
+Today John Lee, the twenty-nine year old African-American who sort of resembles
+"IceCube", is working on two Internet spinoffs: FellOff.com (coming this fall)
+and MediaThreat.com (unknown release date). FellOff.com will be about celebrities
+that have fallen off, put to rest with the nail in the coffin in regards to their
+careers.
+
+And finally, John Lee is in the process of writing a book, ironically called
+"Why I Hate Computers".
+
+John: "It delves into the psyche of a man whose life depends on computers, but
+he's grown to despise them at the same time."
+
+"At the end of that I'm not just a hacker. And you'll realize computers suck,
+because beneath this veneer there's a deep dark side that no one knows."
+
+Now you ask yourself: "What side of that?"
+
+"Of course," John explains,
+
+"you'll have to read the book to find out why." 
+
+John Lee currently lives in New York City,
+where he plans to move to California to better his life and career...
+
+Literature:
+Masters of Deception: The Gang That Ruled Cyberspace by Michelle Slatta and Joshua Quittner.
+HarperCollins, 10 East 53d Street, New York 10022-5299, 1995, 256 pages, $23.00.
+
+--
+
+  -- Credits
+
+    Without the following contributions this zine issue would be fairly
+      delayed or not released, so thank you to the following people:
+
+	    diabolik, m4chine, Phlux, The Clone (dats me!), and sheppard
+
+
+  -- Shouts:
+
+  Hack Canada (#HackCanada), Canadian Phreakers Union (#cpu), #PhreakBC,
+ Blackened @ Damage Inc., The Grasshopper Unit, Flippersmack, Pyrofreak,
+ plappy, soap, krys, Kybo_ren, Flopik, and lastly to everyone and anyone
+		  who contributes to the Canadian H/P scene.
+
+
+                             ;.  .;..  ; ;. ;..
+                           ;..   .;..; .;.; .;; ;..
+                      .;..;. .;..;  .;.;...; ;..;..
+                         .;.         A         .;. .;.
+                       ;..   N E T T W E R K E D  ;..
+                        ;..;.. P R O D U C T   ;..;..
+                          .;..;               ;..;..
+                     ;  .;..;.;..   .; .  .;. ..;..
+                    .;..   . .;  ..;..;..;.. .;
+                ;..;.   .;.. . .;.. .;.;.
+              ..;. ..;.. .;.   ;.;..;;..;.;
+                ;.;;..;..      ;.;.; .; .
+                   ;.;..;. .;. ;.;:.;.
+                     ,;....;.
+               .;.;. .;.;
+              .;.;.;
+            .;.;
+            ;..;.
+           .;.;;.; .;. ..; ;. > > > > > > cowabunga dude!

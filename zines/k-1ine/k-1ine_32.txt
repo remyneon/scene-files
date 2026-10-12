@@ -1,0 +1,1276 @@
+
+
+
+
+
+     __             _____  __            ___ _            ______ __ _        _
+       __      ___ / _   __                                        ____ _   ( )
+              ___)\ /______   ______
+ _________       \  / ___  _____ ___)\    ___   __.
+       _____     |   /_             \ |  /_    /  |
+           ___\  |  (/               || //  _   | |   _   __  __      _  
+     _       _\\ |  |     _______    |:(/  ( )  | |  ( )  ) \/_ \   /( )\
+    ( )        \\|  |   /_ ____      ||\\       | |  | |  | |  ) ) /  ___)
+                \\  |  //__          || \\      | |  | |  | |  | | \ (___ __ _
+                 \) | //             ||  \\_  __| |__| |__| |  | |_ \_______ __
+                 |  |//      ____ __/ |   \___    ____   _ _    _    _      _
+    __ ______)   |  (/      / __ __ )/
+              \ \|  |      / /
+               \ \ (\_____/ /___  _                                         ___ _
+      ____      \ ) \____ _____ __ __ 	   	Die Another Day 	    _ _
+     ( 32 )      |  |
+
+
+         c/a   10.2002.
+
+
+_____________________________________________________________________________
+
+ » .- Words from the Editor -. «                                              |
+
+ *: [-] Introduction .......................................... The Clone    :*
+ *: (-) Contact Information ................................... The Clone    :*
+ *: (-) Nettwerked Discussion Board ........................... Nettwerked   :*
+ *: (-) Link of the Month ..................................... The Clone    :*
+ *: (-) K-1ine Mirrors ........................................ The Clone    :*
+ ____________________________________________________________________________
+
+ » .- Documents -. «                                                          |
+
+*: (x) 'The Canadian Military (DSN) Alberta Number Compilation' The Clone    :*
+*: (x) 'A Canadian Pager Carrier Billing Flaw' ................ The Clone    :*
+*: (x) 'Technical Depantsing of The Samsung SCH-3500 PCS Phone' Kodin        :*
+*: (x) 'The Forth Programming Language' ....................... Fractal      :*
+*: (x) 'The Great Canadian Scam of 2002' ...................... Fractal      :*
+ ____________________________________________________________________________
+
+ » .- Conclusion -. «                                                         |
+
+ *: [-] Credits ............................................... The Clone    :*
+ *: [-] Shouts ................................................ The Clone    :*
+ _____________________________________________________________________________ 
+
+
+   Introduction -
+
+Welcome to the latest issue of K-1ine #32 'Die Another Day'. I would like to
+thank everyone who submitted articles to me, you guys rule. Enjoy this issue
+of K-1ine zine, and if you forget to send me more articles in the future,
+I'll curl up in a ball and cry in a corner whilst sucking my thumb. Yeeehaw!
+
+ -->
+
+ Contact Information;
+ 
+ Comments/Questions/Submissions: theclone@hackcanada.com
+
+ Check out my site: (Nettwerked) http://www.nettwerked.net
+
+ -
+
+ Nettwerked Discussion Board;
+
+ "Fuck the system? Nah, you might catch something..."
+
+ POST YOUR NEWS, AND POST YOUR THOUGHTS FREELY ON:
+
+ www.nettwerked.net/PHPBB
+
+ -->
+
+
+-----------------------------------------------------------------------
+
+
+  --=[ LINK OF THE MONTH ]=--
+
+ Every month I post one really great "link of the month" on every issue
+ of K-1ine magazine. The link can be anything in the technology industry,
+ music scene, rave scene, punk scene, or even a good article you read on
+ a news site. I'll be taking submissions via e-mail or IRC right away; so
+ get your links in and maybe you'll see it in the next issue of K-1ine!
+
+  For the month of October, the link of the month is:
+
+  http://www.endtheusa.com/
+
+  'Teaching world citizens and governments about what
+   being ignorant, self-destructive, and limiting
+       personal freedoms can do to society."
+
+
+  [submitted by: The Clone]
+
+ --
+
+
+	  K-1ine Mirrors:
+
+
+ http://www.mirrors.wiretapped.net/security/info/textfiles/k1ine/
+
+  (Now mirrored in two places, one in Belgium and another in Sydney)
+
+ "Wiretapped.net is an archive of open source software, informational
+ textfiles and radio/conference broadcasts covering the areas of network
+ and information security, network operations, host integrity, cryptography
+ and privacy, among others. We believe we are now the largest archive of
+ this type of software & information, hosting in excess of 20 gigabytes of
+ information mirrored from around the world."
+
+ --
+ 
+ http://www.hackcanada.com/canadian/zines/index.html#K-1ine
+
+ Hack Canada - Canadian H/P - E-Zines
+
+ --==================================================================--
+
+
+         \  \   \ \  \  \ /    |  /    /    /    /   /  /
+        \    \  \   \  \   \   /  / / | /    /   /           /
+          \    \ \      \    |  /    / /   /       / /  / /
+        \    \     \  \   \        /    /   | /    /   /    /
+          \  \ \  \     |    |   /  / |  / /    /    /  / /
+           \       \   \   \   /   /    /  /   /   / /
+             \ \ \  _\_______________________/_ / /    /
+               \  ............................... / /
+ ...BLING BLING!...................................
+              _....................................._ 
+             /.........'  |_\ "|" ,_   _   `.........\
+            |...........  | \ _|_ | | |_;  ...........|
+            ;...........               _,  ...........;
+
+           ______    ______   ______    ______    ______
+          [      ]  [      ] [      ]  [      ]  [      ]
+
+             ______    ______    ______    ______
+            [      ]  [      ]  [      ]  [      ]
+
+          ______    ______   ______    ______    ______
+         [      ]  [      ] [      ]  [      ]  [      ]
+
+            _________________________________________
+           '                                         '
+            ._______________________________________. 
+                                         _
+                          ],/  ~|~ ;, ; [ '_
+		          ]"\   |  ; \: [__/
+                               ~`~
+			____________________ ____
+                        | ||   "T||T"   |  |Y// |
+			| ||   | || |   |  |//  |
+			.\||   | || |   | ///   |
+			|\\|   | || |   |///   /`ing
+			| \    | || |    //   /all the
+			|  \   | || |   //   /  fucking way
+			| \ \  | || |  //   /  to Bejing
+                        |  \_\_| || |_//   /
+			;________________,/
+			        \||/
+
+				- phlux
+
+
+ --
+ <Steelethan> I have a gurlfrend now.]
+ <Steelethan> She's got a weenie :'(
+ --
+
+
+   
+		The Canadian Military (DSN) Alberta Number Compilation
+
+
+  * Compiled by: The Clone
+  * Date: Monday, September 23, 2002
+
+  -
+
+    Disclaimer: This documentation contains phone numbers for the interest of
+		telecom enthusiasts and the general public. If you do anything
+	        that involves prank calling or social engineering of military
+	        staff, you will deal with the consequences (not me). If you don't
+		agree to this, please close your browser, turn off your computer
+		and go back to your television.
+
+         Notes: This list is for the Alberta Region. All the information on this file
+	        is based on public documents that I found on various public web-sites.
+
+
+ 	Neat Pattern(s): Suffixes that end in "00" and "11" are Operator Assistance.
+ 
+
+
+	[ Phone Number ]    [ Details ]
+	
+        319-252-8211       CFB, COMOX (Operator Assistance)
+
+	319-520-4011       CFB SUFFIELD (Operator Assistance)
+
+	319-520-4101       BRITISH ARMY TRAINING UNIT (BATUS) - SUFFIELD
+
+	319-520-4416       742nd COMM DET - SUFFIELD
+
+	319-520-4623       DEFENCE RESEARCH EST - DRES - SUFFIELD
+
+	319-528-3827       1st CDN BRIGADE GP HQ - CFB EDMONTON
+
+	319-528-4011       74th COMM GP - EDMONTON (Operator Assistance)
+
+        319-528-4011       CFB EDMONTON LANCASTER PARK (Operator Assistance)
+
+        319-528-4011       CFB EDMONTON OPS (Operator Assistance)
+
+	319-528-4011       MACS EDMONTON (COMMERCIAL # 780-472-2539) (Operator Assistance)
+
+	319-528-4398       408th HEL SQN OPS - EDMONTON
+
+ 	319-528-5808       CFB EDMONTON OPS
+
+	319-528-6703       742nd COMM SQN - EDMONTON
+
+	319-530-1011       WAINRIGHT TRAINING CENTRE (Operator Assistance)
+
+ 	319-530-1584       PPCLI BSL - WAINWRIGHT
+
+ 	319-530-1747       742ND COMM DET - WAINWRIGHT
+
+        319-530-3511       CFB CALGARY (Operator Assistance)
+
+ 	319-530-4011       CFB SUFFIELD (Operator Assistance)
+
+ 	319-530-4381	   408TH HEL SQN OPS - CFB
+
+ 	319-530-7011       CFB SUFFIELD (Operator Assistance)
+
+ 	319-530-7161       742ND C0MM DET - CALGARY
+
+ 	319-530-8822       742ND COMM SQN - EDMONTON
+
+ 	319-530-8897       CFB, Edmonton Ops
+
+ 	319-690-8011       CFB, COLD LAKE (Operator Assistance)
+
+	319-690-8011       4th WING - COLD LAKE (Operator Assistance)
+
+	319-690-8562       742nd COMM DET - COLD LAKE / NOW = 4 TIS
+
+	319-690-8562       4 TIS - COLD LAKE
+
+        - -
+
+        
+  Research: http://www.hackcanada.com/canadian/phreaking/canadamil.html
+
+  Credits: Coercion (thanks for the additional research papers)
+
+  Shouts: Hack Canada, Nettwerked666, The Department of National Defence.
+
+
+  Have more Alberta DSN #'s you'd like to see in this file?
+
+  E-mail: theclone@hackcanada.com
+
+
+ --
+ <dec0de> yeah, you look like Scott Baio
+ <theclone> hahaha
+ <theclone> yeah a little
+ <dec0de> haha.  you finally admit it.
+ --
+
+
+ 
+           A Canadian Pager Carrier Billing Flaw
+
+
+	   Monday, October 7, 2002
+
+           Written by: The Clone
+
+           Contribution by: Colt45
+
+	   Shouts: Hack Canada, Nettwerked666, PacketNinja.ca
+
+           -
+
+  Disclaimer: This documentation is for entertainment and informational purposes
+              only. In no way do I recommend you try any of these things, because
+              it may get you in trouble with your phone company. However, if you
+              do choose to attempt to exploit this little Canadian pager
+              vulnerability; use a payphone, an automated divertor, op divert,
+              use an outdial, or beige box someone's phone line. Oh yeah, and
+              I'm not responsible for anything you do with this information. If
+              you get caught defrauding the telco, it is because you're a fucking
+              idiot who didn't take the precautions to stay anonymous.
+          -
+
+  Introduction: Pagers have brought many people together through a variety of
+                signaling format protocols - POCSAG, FLEX, GOLAY - transmission
+                speeds of 512, 1200, 2400 bps?! Standard Numeric, Alpha-Numeric,
+                Tone Pagers? Oh the variety, oh the fun!
+
+                Word on the street says that American and Canadian carriers are
+                looking into phasing out pagers in the next couple of years.
+                Hell, I even received some promotional material from Telus
+                Mobility offering me cheap CDMA service if I cancelled my pager
+                service through them! Apparently pager systems cost a lot to
+                maintain, and over the last few years, less people even bother
+                to use pagers due to the simple fact that wireless phones offer
+                so many great features - Two Way Communication, Voice Mail,
+                Short Message Service, Games, High Speed Data Transfers (GPRS
+                and 1X), E-mail, Internet, and more. No freaking wonder pagers
+                are on their way out, and cell phones continue to grow in
+                popularity. However, until pagers are completely wiped out,
+                this paper will still be very relevant.
+
+	 FACT: Wireless Carriers in Canada do not want customers to know the
+               low-tech and high-tech tricks / exploits that let people abuse
+               their service and use it to make free calls.
+
+	-
+
+	    The Canadian Pager Carrier Billing Flaw:
+
+    As you may or may not be aware, Bell Mobility and Telus Mobility do not
+    have any type of billing system set up that logs direct or third party
+    billing to their residential / business customers -- I have verified this
+    claim with over 5 different customer service agents for both wireless
+    carriers.
+
+    Since Bell and Telus do not log any billing, they have come up with a
+    simple and effective way to stop people from billing pagers; all major
+    carriers in Canada share an "access list" of exchanges, prefixes and
+    suffixes that block all Canadian long distance carriers from billing to
+    any Canadian pagers.
+
+    To test this flaw out for yourself, call up Telus' "Canada Direct" number
+    at 1-800-646-0000 and enter any random pager number; you'll likely hear a
+    message saying something to the effect of: "The number you have dialed
+    cannot accept direct/3rd party billing." However with a little
+    experimenting, I noticed that many American long distance carriers do not
+    block a Canadian pager from receiving a direct or third-party charge. The
+    reason for this is because these companies don't have any of our updated
+    access lists.
+
+    ! An unrelated note to Bell Mobility and Telus Mobility: Duh, stay outta
+      Riverdale!
+
+    -
+
+
+    How to set this up:
+
+
+   Before you do anything, you need to set yourself up a pager that allows you
+   to record a voice-greeting.
+ 
+   There are a few ways in which you can do this...
+
+   1. Use your own pager or a friends pager. In understandable English, set the
+      voice greeting to say "yes" for approximately 25 to 30 seconds. Speak
+      slowly and pause for about half a second between each "yes".
+
+   2. Hack into a pager. Most users have their remote admin pager pins set as
+      "1234", "9999", "5555", the current year (2002), or the last four digits
+      of their pager phone number. For most Telus Mobility pagers, the default
+      password is the last four digits of the customer's unique 'capcode'. The
+      capcode is a series of numbers at the bottom of the label, below the
+      Model, Serial Number, Country Code, and ISC code.
+
+   
+   The "Fun" part:
+
+   Once you have successfully set up the pager greeting, you'll need to test
+   out this billing flaw. Make sure you don't get a live operator to authorize
+   your billing. Instead, use a service that has an automated billing operator.
+   A good resource to utilize is Yahoo!'s 'Business and Economy' web-page which
+   has a great alphabetical listing of various American long-distance carriers
+   that you can exploit. The address for that listing is:
+
+http://dir.yahoo.com/Business_and_Economy/Business_to_Business/Communications_and_Networking/Telecommunications/Long_Distance_Telephone/
+
+   --
+  
+
+  Conclusion:
+
+  Although this trick was fairly simple and this file wasn't the most technical
+  of articles I've ever written, the fact of the matter is: everyone assumes
+  that pagers (like cellular phones) are never vulnerable to fraud, or that
+  pager billing systems are not without their major billing flaws. This file
+  certainly changed all of that, now didn't it? :)
+
+  --
+
+
+  Decent Pager Research Web-sites:
+
+  Here are some URL's for all the technology enthusiasts out
+  there who might want to learn a thing or two about pagers:
+
+ 
+  *  Black Crawling Systems Archives: Pager Programming, Monitoring, & Applications
+     http://www.hackcanada.com/blackcrawl/cell/pager/pager.html
+
+  *  Nettwerked - FLEX Technology: Paging Protocol
+     http://www.nettwerked.net/FLEX_Technologies.html
+
+
+ [dot-e-0h-eph]
+
+
+
+--
+<caesium> theclone is only like canada's fucking largest phreak... he is more inventive than your ass.. but you just 
+enjoy knockin ppl...
+<NTOSKRNL> oooooh  guns guns guns
+<dec0de> yeah
+<dec0de> i don't think i'd want to knock theclone.  he's a powerful guy
+<dec0de> plus we are friends, so...
+<NTOSKRNL> powerful like a school janitor?
+<NTOSKRNL> rofl
+<dec0de> you'd be surpised
+--
+
+
+ 
+
+  A Technical Depantsing of The Samsung SCH-3500 PCS Phone
+
+
+ Compiled by Kodin for Nettwerked 12-Oct-2002
+
+	*	*	*
+
+ 
+ DISCLAIMER
+
+ It is possible to disable or otherwise damage your phone using the information
+ contained in this document. The author accepts no responsibility for the actions
+ of those who would choose to abuse the knowledge here in.
+
+	*	*	*
+
+ LINKS
+
+ Samsung's user guide for the SCH-3500 can be found in Acrobat PDF format at:
+
+	www.samsungwirelesscanada.com/owners_manual/sch-3500-en.pdf
+
+	*	*	*
+
+ THE SVC MENU
+
+ The Svc Menu can be accessed in one of 2 ways:
+
+ 1) Enter:
+
+	[MENU] 6 0
+
+   You will then be asked to enter the 6 digit service code for your phone.
+
+ If you do not know the service code, you will have to use the backdoor sequence below.
+
+ 2) Enter the following as if it were a phone number:
+
+	47*869#08#9
+
+ It may be possible to render your phone inoperable by changing the values below so proceed
+ with caution and at your own risk.
+
+ In the Svc Menu, [OK] is used to accept or scroll through current values. [CLR] is used to
+ return you to the previous menu from the current menu. Pressing [CLR] while viewing a value
+ will erase that value so use caution. Pressing the [END] key will exit the Svc Menu and reboot
+ the phone.
+
+ >From the Svc Menu, you have 4 options:
+
+	Phone#		View or change phone and ID number for either of 2 available NAMS
+			* The above will reset your 4 digit lock code to the last 4 digits of
+			your phone number
+	General		View or change various values such as your ESN and 4 digit lock code
+	NAM1		View or change values for NAM1 (see next section: NAM PROGRAMMING)
+	NAM2		View or change values for NAM2 (see next section: NAM PROGRAMMING)
+
+	*	*	*
+
+ NAM PROGRAMMING
+
+ Procedure:
+
+ 1) If using a battery, check to ensure battery is fully charged.
+
+ 2) Enter the Svc Menu by using one of the 2 methods described in the preceding section.
+
+ 3) Phone displays:
+
+	Svc Menu
+	1:Phone#
+	2:General
+	3:NAM1
+	4:NAM2
+
+ 4) Press [1] to enter Phone Number programming.
+
+ 5) Phone displays:
+
+	Phone#
+	1: NAM1
+	2: NAM2
+
+ 6) Select 1 for NAM 1 programming or 2 for NAM 2 programming.
+
+ 7) Enter area code and wireless phone number (10 digits).
+
+ 8) Press [OK]. Mobile ID will display (Same as wireless phone number).
+
+ 9) Press [OK]. The unit will then return to the Svc Menu.
+
+10) Press 2 for General and the ESN is displayed.
+
+11) Press [OK]. The CAI version (1, 2, or 3) will be displayed.
+
+13) Press [OK]. To set the phone to either EVRC or 13K, press the [*] or [#] key to
+    toggle the available options.  Phone displays: SO_VOICE_EVRC or
+    SO_VOICE_13K.
+
+14) Press [OK]. SCM will be displayed: 10101010.
+
+15) Press [OK]. The lock code can be changed now if desired (default is
+    last 4 digits of MIN).
+
+16) Press [OK]. Slot mode should be YES.
+
+17) Press [OK]. Slot index should be 2.
+
+18) Press [OK]. The unit will then return to the Svc Menu.
+
+19) Press [3] for NAM1 or [4] for NAM2.
+
+20) Phone displays: IMSI_MCC (The phone should display 302 for a Canadian
+    Subscriber number, 310 for a U.S. Subscriber number.  If not,
+    enter the correct number at this time).
+
+21) Press [OK].
+
+22) Phone displays: IMSI_MNC 3.
+
+23) Press [OK].
+
+24) Phone displays: CDMA ACCOLC (CDMA Access overload class) (Last digit
+    of phone number displayed here).  This is a "read only" number.  The
+    access overload number is automatically set to the last digit of the
+    MIN and can not be changed.
+
+25) Press [OK].
+
+26) Phone displays: CDMA Home SID (CDMA Home System ID option).  Yes.
+
+27) Press [OK].
+
+28) Phone displays: CDMA fSID (CDMA foreign SID).  Yes.
+
+29) Press [OK].
+
+30) Phone displays: CDMA fNID (foreign network ID).  Yes.
+
+31) Press [OK].
+
+32) Phone displays: Home SID #1.
+
+33) Enter Home SID (system identification) number from your Network
+    Service Provider.
+
+34) Press [OK].
+
+35) Phone displays: NID #1.
+
+36) Enter NID number from your Network Service Provider (Default from the
+    factory is 65535).
+
+37) Press [OK].
+
+    Note: Unless multiple SIDs are used, the following values will be 0.
+
+38) Phone displays: Home SID #2.  0.
+
+39) Press [OK].
+
+40) Phone displays: NID #2.  0.
+
+41) Press [OK].
+
+42) Phone displays: Home SID #3.  0.
+
+43) Press [OK].
+
+44) Phone displays: NID #3.  0.
+
+45) Press [OK].
+
+46) Phone displays: Home SID #4.  0.
+
+47) Press [OK].
+
+48) Phone displays: NID #4.  0.
+
+49) Press [OK], phone returns to SVC Menu.
+
+50) If the second NAM will be used, Press 4 to program NAM 2 and repeat
+    the above steps.
+
+51) Press [END].
+
+52) Phone will cycle power off then back on.
+
+
+ Programming Complete
+
+ To activate your phone under your current service provider, contact their
+ activations department and give them your phone's 10 digit electronic serial
+ number (ESN) to add to your account. The ESN is usually found on the bar code
+ sticker on the back of the phone under the battery.
+
+	*	*	*
+
+ THE DEBUG MENU
+
+ To access the debug menu, enter:
+
+	[MENU] 9 0
+
+ You will then be asked to enter the 6 digit service code for your phone.
+
+ If you do not know your service code, I can't help you. I do not know the back
+ door sequence for the Debug Menu.
+
+ >From the Debug Menu, you have 4 options:
+
+  Screen	Displays information about the PCS network 
+  TestCalls  	4 different numbers that test the phone's reception of the signal 
+  Errors	Displays the last 20 errors that the phone has recorded 
+  EraseError  	Clears the above list 
+
+	*	*	*
+
+ THE BROWSER MENU
+
+ To access the Browser Menu, enter
+ 
+	[MENU] 9 
+
+ You then have to hold down the # key for 2 seconds and then you will be asked to
+ enter your 4 digit lock code.
+ 
+ >From the Browser Menu you can view or change the IP addresses for any of the 3 gateways.
+
+	*	*	*
+
+ THE TEST MENU
+
+ Access to the test menu is obtained by entering as a phone number:
+
+	47*869#1235
+
+ I have listed the available 2 digit commands below but I can not claim understanding of
+ what most of them do. It may be possible to render your phone inoperable by changing the
+ values below so proceed with caution and at your own risk.
+
+ Selections with the C> before them are changeable values. To avoid changing the value,
+ press #. To change the value, make  note of the old value, enter the new value and then
+ press #.
+
+ Selections with the S> before them are scrollable values. To scroll through the data,
+ repeatedly press *.
+
+ Selections with the V> before them are variable values. These values are gauges and change
+ automatically to reflect different conditions of your phone such as current battery life.
+ To stop the gauge and enter another command, press #.
+
+ Please be aware that some of the variables given in the list below are unique to my phone
+ and are not necessarily correct for any other.
+
+	01	Suspend
+	02	Reset		(exit test mode and reboot phone)
+	04	PCS mode
+	07	Carrier On
+	08	Carrier Off
+C>	09	Chan____1025
+C>	10	Pwr level__2
+	11	Rx mute
+	12	Rx unmute
+	13	Tx mute
+	14	Tx unmute
+	16	ST on
+	17	ST off
+C>	18	LCD_CONT: 11
+C>	20	TEST_S:00000
+S>	22	Send NAM
+S>	23	Send S/W Ver
+S>	24	Send ESN
+	25	Backlight ON
+	26	BacklightOFF
+	27	LAMP ON
+	28	LAMP OFF
+S>	30	Product Info
+C>	32	SAT on_____0
+	33	SAT off
+	34	CDATA
+C>	37	SDT LEVEL 00
+	38	SIDETONE ON
+	39	SIDETONE OFF
+C>	40	CD RXagc_230
+C>	41	Ext.Audio? 1
+C>	42	DTMF on____0
+	43	DTMF off
+	44	Compand   On
+	45	Compand  Off
+	46	Voice state
+C>	47	AUD lvl__040
+	48	Vibrator On
+	49	Vibrator Off
+V>	50	Btype=171(6)
+C>	51	BBASIC_____2
+C>	52	H/W:3500.07Q
+C>	53	MIC LEVEL 00
+C>	54	SPK LEVEL 13
+C>	55	MIC Path   1
+C>	56	SPK Path   1
+	57	MIC unmute
+	58	MIC mute
+	59	Unmute all
+C>	60	Tx Gain__034
+C>	61	Rx Gain__069
+C>	62	DTMF vol_075
+C>	63	TxLimit__070
+C>	64	SAT lvl__188
+C>	65	FreqGain_031
+C>	66	ST lvl___045
+S>	67	RD Batt Val
+V>	68	StbyBatt_222
+V>	69	TaklBatt_222
+C>	70	WR Batt__180
+C>	71	CD TXagc_000
+C>	72	FM TXagc_230
+C>	73	Set R1/R0__0
+C>	74	 30.0dBm[00]
+		TXRAS[00]399
+V>	75	RD Rssi__033
+C>	76	WR Rssi__148
+V>	77	RD TEMP__126
+V>	78	RD HDET_____
+C>	79	Buzzer On_ 0
+	80	Buzzer Off
+	81	PCM loop On
+	82	PCM loop Off
+V>	83	100.7dBm[01]
+		RXRAS[01]100
+C>	84	-EVRC TEST-
+		EVRC CMD: 00
+	85	Speaker on
+	86	Speaker off
+	87	FM_LOOP_BACK
+C>	88	TRK adj _270
+C>	89	CdTk adj_131
+C>	90	 HW CHANFLAT
+		HW ChNo:0000
+C>	91	 SW CHANFLAT
+		SW ChNo:0000
+C>	92	< 25.50 dBm>
+		TXpwr[02]393
+C>	93	< Chan 991 >
+		ChNo[01]_316
+C>	94	106.0dBm[00]
+		RXRAS :__096
+C>	95	pHW CHANFLAT
+		Chan No_0991
+C>	96	pSW CHANFLAT
+		Chan No_0991
+C>	97	< pCH  050>
+		CHAN[01]_409
+	98	 DATASVC ON
+	99	 DATASVC OFF
+
+
+
+--
+<phlux> fuck
+<phlux> closest thing i got is some jewish x files anime alien sex porn where scully is being raped by aliens
+--
+
+
+The Forth Programming Language - Why YOU should learn it
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The forth programming language is radically different from conventional
+programming languages. It bears little resemblance to C, Java, Pascal,
+Lisp, Python, etc. This short article will not attempt to teach you the forth
+language, but instead give you a taste of what forth has to offer, give
+you a general idea of what the language is, and point you in the direction
+of various forth resources.
+
+The forth programming language was originally formalized in the early
+70s by Chuck Moore, but it's beginnings predate that by several years,
+mostly as a small, specialized programming platform for various systems.
+After forth began to become more well known, 2 driving forces instantiated
+to promote forth use: Forth, Inc. and the non-profit Forth Interest Group
+(FIG). Forth had a brief stint with popularity after microcomputers
+were introduced, often being the first language to support the new
+microprocessors, but soon fell into relative obscurity in mainstream
+programming.
+
+Forth is unique in that the evolution and acceptance of it has
+proceeded as an entirely grassroots effort. Large industry has never
+backed or supported forth, and has always driven the development and
+use of more "conventional" programming languages, such as C.
+
+With a few exceptions, forth is also unique in how diversified the language
+is. Unlike, say LISP, though, there seems to be a common thread among
+forths giving the community a particular unity. However, forth is the
+only programming language that has a strong, vocal user community that is
+actively against the ANSI standard of it's language, and chooses not to
+upport it. There are many reasons for this viewpoint, none of which a
+beginner will notice until they become better acquainted with the language.
+
+Forth is built upon the belief that every implementation aspect of the
+language should be as simple as possible, and that all complexity should
+be built upon this base of simplicity. Forth philosphy also insists that
+in extreme flexibility. This flexibility is overwhelming to many new
+forth users, and often gives them a bad taste for the language.
+
+Because of this philosophy forth programs are known for their small
+codesize, low memory usage, powerful flexibility, and difficulty to
+understand. :)
+
+Forth is, at heart, a system programmer's programming language because
+of it's remarkable flexibility. An endless stream of people have extended
+forth to support their preferred programming and usage preferences.
+Forth was, interestingly, a very early language to support Object
+Oriented programming. People have added GOTO statements to forth. 
+Transparent support for C structures has been added. "Local variables"
+have been developped for forth (this is a hot topic in the Forth communities,
+by the way). People have developed sophisticated GUIs in forth. Forth code
+has run on the space shuttle.
+
+Forth is usually considered much more than a programming language though.
+It's also (sometimes) an operating system, an Integrated Development
+Environment, a debugger, a run-time environment, an interpreter, and a
+programming methodology.
+
+At the heart of forth is a variable called "state". Generally, state
+represents either interpret mode or compile mode, and this variable
+will influence almost everything done by the system. Most forth
+introductions don't find it necessary to introduce state until much
+later in the learning period, but I think that the ability to flip
+between compilation and interpretation mode (execution semantics)
+is the most important defining feature of forth.
+
+More visibly, forth provides the user with 2 stacks of small, fixed
+cell size (typically 32 or 64 bits on modern computers). Forth provides
+direct access to these stacks. This is in marked contrast to most languages.
+Most languages, like C, use 1 stack of large "stack frames" that the user
+is not permitted to directly access.
+
+One interesting result of this design decision that I like to point out
+to new forth programmers is that your functions (called "words" in forth
+- I'll get to them) are no longer limited to returning one item.
+
+For instance, in C, your functions may look like this:
+
+int my_func(int x, int y) {
+  ...
+  return 10;
+}
+
+As you can see, this function accepts 2 arguments and returns 1.
+In C, there is no way to directly return 2 or more arguments without
+allocating memory and passing pointers - a procedure that can get very
+messy.
+
+In forth, you have no such restrictions. If you want to return 2
+items, go ahead. If you want to return 10 items, feel free. You're even
+allowed to return 3 items sometimes, and 39 items other times. It's up
+to the programmer.
+
+
+Forth is generally said to be an "RPN" language. RPN stands for
+"Reverse Polish Notation". RPN was originally invented by a, you guessed
+it, polish professor, and is an effective way of expressing arithmetical
+expressions without using parenthesis.
+
+Everything is done on a stack. Numbers are pushed down, and operators
+pop the numbers and preform operations on them.
+
+For instance, the expression
+
+(1+3)-2
+
+would be written like this in RPN:
+
+1 3 + 2 -
+
+All programming in forth is done like this. If you want to program in
+forth you have to learn to "think on the stack". Meaning, you have to
+keep track of the "stack effects" of your functions as well as their
+purpose.
+
+
+The "dictionary" is the name of the append-oriented heap where your
+forth "words" are stored. A word in forth is, simply, any combination
+of displayable, non-whitespace characters that represents a location in
+memory, and may have certain user-defined attributes.
+
+"Everything in forth is a word or a number". This is almost true.
+
+The word "+" takes the top 2 values off the stack, adds them, and pushes
+the result onto the stack.
+
+You can define your own words using the word ":". For instance, if you
+wanted to make a word that would take the top number off the stack, add
+42 to it, and press the result back onto the stack, you might write it
+like so:
+
+: add-42 42 + ;
+
+When ":" is executed, it puts the "state" variable into compile mode.
+Anything encountered now will be compiled into the add-42 definition.
+When it sees 42, it recognizes it as a number, but since the forth
+system is in compile mode, it compiles 42 into the definition. Next it
+compiles "+". Then it encounters the word ";" which it executes. ";"
+closes the add-42 definition, and returns "state" to interpret mode.
+
+Astute readers will be wondering why ";" was executed instead of compiled.
+This is because ";" is an immediate word. Immediate words are executed
+no matter what the value of state is. Immediacy is a very powerful feature
+in forth. Once you understand how immediate words are used to build up
+everything in the language, you will have understood the most important part
+of forth, that which I will not even try to describe here.
+
+You can, in turn, use "add-42" in interpret mode, or compile it into
+other definitions:
+
+Ex:
+4 add-42 .
+44   ok
+
+: add-40 add-42 -2 + ;
+  ok
+
+
+Here is a good point to note the stack effects of add-42. Notice how it
+takes 1 argument and returns 1 argument? This may be relatively
+obvious in this function, but as your words become more complex
+you will want to keep track of the stack effects. Forth programmers
+often do that like so:
+
+: add-42 ( n -- n' ) 42 + ;
+
+The word "(" is an immediate word that will force forth to ignore everything
+until a ")" is encountered. Not that ")" is NOT a word. Nor is anything
+between the parens. IMPORTANT: Note that "(" is followed by a space.
+This is vital. The word is "(", not "(n". So, as you can see, parens
+function similarly to C's /* and */. The word "\" in forth is analogous
+to C++'s "//".
+
+The contents of the comment is what's signifigant. The text before the
+"--" indicates the arguments passed to the function, and the text after 
+indicates the values returned on the stack. The convention is that
+the numbers closest to the left are higher on the stack.
+
+
+Be careful using ":" though. If you add words that already exist in the
+dictionary, the "redefined" words will not be readily accessible. Experienced
+forth programmers will take advantage of this for a number of reasons, but
+a beginner should be careful to avoid this.
+
+As stated before, a word can be any combination of non-whitespace,
+displayable ASCII characters. There is nothing stopping a number (called
+a "literal" in forth) from being a word either.
+
+This is perfectly valid:
+
+: 1 2 ;
+
+Now 1 is effectively 2, so be careful. :)
+Incidentally, most forth systems define words called "0" and "1". This
+is because a compiled word takes less memory than a compiled literal, and
+0 and 1 are numbers used so often that signifigant memory can be saved using
+this technique.
+
+
+I mentioned that forth had 2 stacks. The data stack (aka paramater stack)
+is the one we've been focusing on so far. The return stack is the second
+kind of stack, and is used to store addresses so that after a word is
+executed, forth knows where to resume execution. You can move data to
+and from the return stack and the data stack with the words ">r" and "r>".1
+I wouldn't suggest doing this until you understand forth more thouroughly
+though.
+
+An experienced C programmer will be able to tell you that a return address
+and a function's "local variables" are stored in the same stackframe,
+making it trivial to write over the return address. This particular
+attribute of C has resulted in decades of insecure systems open to
+anyone with enough audacity to overflow a buffer. Forth greatly
+complicates this particular attack. Also, forth stores strings not
+as arrays of characters terminated by a "NULL byte", but as an array
+of unterminated characters and a "count" of the length of said array.
+As such, there are no such equivalents to C's strcpy() and gets() in forth.
+These 2 attributes make forth particularly resilient to buffer overflow
+attacks. Format strings also do not exist in Forth, ruling out another
+very popular attack.
+
+
+The last core feature of forth is the "parse buffer". It's where your
+text goes when you type stuff into forth. Normally forth parses a word
+delimited by white space, moves the parse pointer ahead to the next word,
+and executes the parsed word, and this continues indefinitley. When
+there is no more data available, it goes into interactive mode and
+accepts the words from stdin.
+
+Words can, however, modify the parse buffer. One common word for this
+is "'", pronounced "tick", which parses the next word in the buffer,
+looks up that word in the dictionary, presses this address onto the stack,
+and advances the parse buffer pointer. This is very useful in forth,
+although I won't explain why here.
+
+
+I hope this brief introduction to forth has been enough to tickle your
+curiosity. Just for fun, here's a listing of the words in a fully stocked
+"system" dictionary in my forth.
+
+HardCore SoftWare's FORTH system: FRUGAL   V0.9.8
+
+  ok
+words
+( 250 WORDS  - 18361 BYTES )
+intro bye iset> icreate choose rand reseed rand-num dump-line 8c. 8h. c. h.
+abort see procprint words bytes-and-words 'print print-word forget forget-addr
+.s term-clear-to-bot term-clear-to-top term-clear-line term-clear-to-sol
+term-clear-to-eol term-scroll-up term-scroll-down term-enable-scroll
+term-unsave term-save term-backward term-forward term-down term-up term-xy
+term-home term-cur-off term-cur-on term-wrap-off term-wrap-on term-cls
+term-attr term-bg term-fg hidden reverse blink underscore dim bright restore
+white cyan magenta blue yellow green red black emesc emchar rawkey key accept
+.( ." s" ," cmove movechar char, char type spaces space bl cr unlink num'
+move movecell depth ? +! hex decimal octal binary abs max min 2/ 2* 1- 1+
+negate . printnum recurse; recurse leave loop +loop do until while again
+begin then else if isunseeable unseeable exit postpone compile cmp ] [
+?branch branch #, 1 0 HEADER_LEN VM_IFBRANCH VM_BRANCH VM_NUMBER VM_PRIMITIVE
+UNSEEABLE COMPILE-ONLY IMMEDIATE READ-WRITE WRITE-ONLY READ-ONLY STDOUT
+STDIN 2@ 2! chars char+ cells cell+ 2variable variable var const constant
+allot here ms j' j i' i >= <= <> 0= 2dup 2over 2drop 2swap tuck nip rot swap
+over dup #! ( \ quit acceptconn openlistener openconn iptodns dnstoip poll
+close write read chdir open fork gettime time@ usleep flush term-raw-off
+term-raw-on ver include" l base die pad xor or and urshift ulshift rshift
+lshift c, c! c@ rp sp r0 s0 qpnum emit state r> >r mod / * - + @ ! roll pick
+drop = > < source >in ' '-addr ; : create create-addr parse , reset
+compile-only immediate h query interpret number compile-exit
+  ok
+
+
+Here's where you can download my forth implementation:
+
+http://www.hcsw.org/frugal/
+
+It comes included with a pong game, 2 encryption implementations,
+1 cryptographically secure random number generator, a powerful forth
+debugger, a basic webserver, and more!
+
+There's a more comprehensive tutorial included in the file docs/USING
+in the latest frugal download.
+
+For online forth help, visit irc.freenode.net  #forth
+There are many helpful people there who will help you get started with forth.
+
+
+Forth is not an especially easy language to learn when compared to
+other languages, simply because it gives you complete access and control
+over every aspect of the programming system. Chuck Moore once described
+other languages as dampeners, and forth as an amplifier. What he meant
+was that in most languages, the programming techniques are sufficiently
+abstracted and set at the "lowest common denominator" that good programmers
+will not do a signifigantly better job than bad programmers. Perl code is
+always between "kinda good" and "kinda bad". Forth on the other hand,
+amplifies the programmer's skill. A good programmer can write incredible
+forth code. A bad programmer can write absolutely stinking terrible forth
+code.
+
+Regardless of your programming skill, forth is useful to learn just for
+the feeling of enlightenment you'll feel when you finally "get it". I
+encourage you to investigate forth further even if it just to realize that
+there are other ways of programming besides C and it's derivatives.
+
+
+Fractal
+www.hcsw.org/frugal/
+
+
+--
+<khemfusion> Now there is nothing wrong with a terabyte of hardcore pornography every now and then
+--
+
+
+The Great Canadian Scam of 2002
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Behind closed doors, the government of Alberta must be meeting with the
+large oil companies. Indeed, I can think of no other reason why a government
+would act so quickly, venemously, and without concern for the well-being
+of it's citizens and the environment, simply in order to protect
+a private interest. Certainly, and I don't think this can be questioned by
+any reasonably unbiased objective thinking, the various Albertan petroleum
+corporations are in direct control of Ralph Klien and the Albertan government.
+
+Alberta is in the middle of one of the worst droughts in recorded history,
+yet the oil companies insist that implementing the Kyoto accord would be
+disastrous to the economy. Ironically, *not implementing* the Kyoto
+protocol could potentially result in vast amounts of long-term damage to the
+Albertan economy by devasting the (sustainable) Albertan farming industry
+while temporarily protecting the (unsustainable) petroleum mining industry.
+
+The Kyoto accord may cause a change in the economy. This is true.
+Wealth may be distributed from oil companies to solar or wind energy companies.
+Either way, there is no real evidence to suggest that Alberta's economy will
+be harmed from this agreement. 
+
+Putting aside the economic arguments for a moment, burning fosil fuels for
+energy is expensive, inefficient, polluting, and non-renewable. This energy
+source could have, and should have, been entirely replaced decades ago.
+
+This is not what I intend to talk about now, however. I intend to talk
+about how the oil companies are consciously and determininately lying,
+spreading fear/uncertainty/doubt, "financially influencing" public officials,
+etc. with the sole goal of protecting their financial interests by molding
+public opinion - with the public's own money! I don't know where you come
+from, but where I come from, this is called "fraud". This incredibly audacious
+scam may seem unbelievable to most. I know that I, for one, was shocked
+that something like this would be allowed to happen in a relatively
+free country like Canada. I intend to try to open the reader's eyes up
+to what actually is happening, but I am sure that I have no real idea of the
+raw power wielded by these international corporations.
+
+The Alberta government has spent $1.5 million dollars of the public's money
+in a massive television, newspaper, and radio campaign. Is it any suprise
+that Albertans have undergone a "radical change of opinion" on the subject
+of the Kyoto Accord? I think not. This is clearly the calculated result of
+the scare campgain led by the oil companies, who (just as clearly) have
+financial control over said government.
+
+Is it any more of a suprise that an Albertan doctor was fired by the
+Albertan government for speaking out for the Kyoto Protocol? Not really,
+Having a public health official discuss the imminent threats that are posed
+to our health if global warming continues unchecked could be very thought
+provoking to a section of the population.
+
+
+THE TACTIC
+~~~~~~~~~~
+
+    Since governments are the most influential institutions in lawmaking
+    (by definition) ensure that lose control of the government is maintained
+    at all levels. Preserve the appearance of a public controlled government
+    to provide "legitimacy" to your actions.
+
+    Ensure that the public's available information reads as is necessary for
+    maintaining control over the relevant governments. Accomplish this by
+    any means possible, especially by using the media's public-influence
+    "services".
+
+
+
+It's a relatively straightforward idea, and one that, understandably, gets
+very little support in the mainstream media: The free market is not driven
+by competition. Since competition results in lower prices, more expensive
+manufacturing processes, longer lasting products, and more selective
+consumers, it does not benefit any corporation's interests. Authentic
+competition only results when it is mutually beneficial to the corporations.
+
+In order to optimize this lack of competition, corporations are intimitatley
+linked together at all levels of operation, and since all of them are
+interested in maintaining the status quo, they cooperate in manipulating
+the publics opinion to do so. 
+
+Earlier in history, corporations would use physical coersion to enforce
+ideas upon the people (think coffee trade). After the American civil war,
+America began a slow and steady process of incorporation. After WWII, there
+was no sector of the economy, media, or government that wasn't directly
+controlled by wealthy private interests. This new era demanded a different
+method of controlling people's opinions: Restriction of information. The radio
+stations, television stations, book publishers, magazine/newspaper publishers,
+and children's textbook publishers were all (and still are) controlled almost
+exclusively by corporations. By carefully omitting pieces of information
+the status quo can effectively erase facts and opinions from the public's
+memory. Since all the corporations are linked together, vital pieces of
+information relating to consumer information, foreign issues, and even
+public health is influenced by this massive information censorship
+program (think tobacco companies). 
+
+This relates quite directly to the Kyoto issue:
+The US' system of controlling public opinion has recently been taken up
+by the large Canadian corporations (think Canwest). This is particularly
+noticable in Alberta, where almost all services have been privatized, and
+the government clearly does NOT represent the interests of the people.
+
+Now you know the motive and the method. It's up to. Is this expensive
+brainwashing campaign justified?
+
+
+I urge the hacker community not to embrace corporate "culture" like the
+majority of western generations before ours. The plot to kill the
+Kyoto accord is just one example of how these incredibly powerful entities
+are influencing your future (and the future of our planet). These entities
+are not affected by borders, have no ethics, suffer virtually no
+accountability for their actions, and have more money than they know what
+to do with. Do you really want to trust them to choose your future?
+
+Fractal
+www.hcsw.org
+
+--
+
+
+
+	       		    -- Credits
+
+    Without the following contributions, this zine issue would be
+  fairly delayed or not released. So thank you to the following people:
+
+        
+       	CYB0RG/ASM, Fractal, Kodin, Phlux, The Clone
+		     
+
+  -- Shouts:
+
+    CYB0RG/ASM, Wildman, H410g3n, warVamp, The Question, plappy, Phlux,
+    rt, Magma, Hack Canada, The Grasshopper Unit, Flippersmack, soapie, 
+    littleyellowdot, Breanne, Flopik, dwr, Azriel J. Knight, Coercion,
+    dec0de, caesium, oz0n3, Kris, all the cool to2600.org ppl, and lastly
+    to everyone and anyone who contributes to the Canadian H/P scene.
+
+
+                             ;.  .;..  ; ;. ;..
+                           ;..   .;..; .;.; .;; ;..
+                      .;..;. .;..;  .;.;...; ;..;..
+                         .;.         A         .;. .;.
+                       ;..   N E T T W E R K E D  ;..
+                        ;..;.. P R O D U C T   ;..;..
+                          .;..;               ;..;..
+                     ;  .;..;.;..   .; .  .;. ..;..
+                    .;..   . .;  ..;..;..;.. .;
+                ;..;.   .;.. . .;.. .;.;.
+              ..;. ..;.. .;.   ;.;..;;..;.;
+                ;.;;..;..      ;.;.; .; .
+                   ;.;..;. .;. ;.;:.;.
+                     ,;....;.
+               .;.;. .;.;
+              .;.;.;
+            .;.;
+            ;..;.
+           .;.;;.; .;. ..; ;. > > > > > > ... To all the Pop-Tarts out there doing crazy dances for
+					      	     ravers and thugs, we salute you with:
+
+							           "PewwwwuuuuuuT!"
+
+							     <dec0de> results may vary

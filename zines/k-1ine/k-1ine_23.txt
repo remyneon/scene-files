@@ -1,0 +1,929 @@
+  k-23-(11)-02
+
+  OoO=o=oOO=o=O=OoO=o=oOO=o=O=OoO=o=oOO=o=O=>
+      OoO=o=oOO=o=O=OoO=o=oOO=o=O=OoO=o=oOO=o=O=>
+                               OoO=o=oOO=o=O=>
+  :    -`-             -`-      OoO=o=oOO=o=O=>
+  ;  _|_--oOO--(_)--OOo--_|_      OoO=oOO==OoO=o=oOO=o=O=>
+     |   ¡ K-1ine Zine !   |      OoO=o=oOO=o=O=>
+      ! issue 23, volume 11¡      OoO=o=oOO=o=O=OoO=o=oOO=o=O=>
+         ---------O^O----        OoO=o=oOO=o=O=OoO=o=oOO=o=O=>
+  ;.              |__|__|       oOYourO=oO=oOO=Telstra=oSucks=o=O=>
+                    || ||       OoO=o=oOO=o=O=OoO<FIDO>OO=<Is>o=O=<Dying>o=o=O=>
+              ooO Ooo          OoO=o=oOO=o=O=OoO=o=oOO=o=O=OoO=o=oOO=o=O=>
+                          OoO=o=oOO=o=O=OoO=o=oOO=o=O=O=o=ooO=o=>
+  
+     ;`-.> January 2002 <=o=O=o=O=o=O
+
+   
+      'Heaps and Heaps of DTMF Beeps'
+
+
+     "People demand freedom of speech to make up
+      for the freedom of thought which they avoid." 
+          
+         - Soren Aabye Kierkegaard (1813-1855)
+
+ _____________________________________________________________________________
+
+ » .- Words from the Editor -. «                                              |
+
+ *: [-] Introduction .......................................... The Clone    :*
+ *: (-) Contact Information ................................... The Clone    :*
+ *: (-) Advertisment .......................................... HackerSalvage:*
+ *: (-) Link of the Month ..................................... The Clone    :*
+ *: (-) K-1ine Mirrors ........................................ The Clone    :*
+ *: (-) New Album Recommendation: Aphex Twin 'Drukqs' ......... Nettwerked   :*
+ ____________________________________________________________________________
+
+ » .- Documents -. «                                                          |
+
+ *: (x) 'Canadian Packet Switching Networks' .................. The Clone    :*
+ *: (x) 'Bell Express View... The Rest of The Story' .......... Absinth      :*
+ *: (x) 'The GSM Security Technical Whitepaper for 2002' ...... The Clone/RT :*
+ *: (x) 'How to rip off your local bookstore monopoly' ........ Diabolik
+ _____________________________________________________________________________
+
+ » .- Conclusion -. «                                                         |
+
+ *: [-] Credits ............................................... The Clone    :*
+ *: [-] Shouts ................................................ The Clone    :*
+ _____________________________________________________________________________ 
+
+
+
+  Introduction -
+
+  Welcome to the newest issue of K-1ine... issue #23, volume number 11.
+  We have a bunch of "great" article compilations for your liking. Take the
+  time to read through them, and don't forget to submit something (relevant)
+  - you might just be in the next issue (unlikely).
+  
+  I hope you enjoy this issue (you better)... see you next month (unlikely).
+
+ -->
+
+ Contact Information;
+ =-=-=-=-=-=-==-=-=-=
+
+ Comments/Questions/Submissions: theclone@hackcanada.com
+
+ On IRC: irc.2600.net - #hackcanada, #cpu (key)
+
+ Check out my site: (Nettwerked) http://www.nettwerked.net
+
+ -->
+
+                             -- Advertisment --
+
+          +++              WWW.HACKERSALVAGE.COM               +++
+
+           HackerSalvage.com is a non-profit website dedicated to
+            keeping old hardware in circulation. Many of us have
+           piles of it sitting around but can't just toss it out.
+             Here you can post computer items for sale or post a
+           want ad for items you are looking for. A perfect place
+           to get rid of perfectly good junk.... and get some new
+                         stuff to rebuild the pile.
+          +++                                                  +++ 
+
+ --
+
+
+ --=[ LINK OF THE MONTH ]=--
+
+ Every month I post one really great "link of the month" on every issue
+ of K-1ine magazine. The link can be anything in the technology industry,
+ music scene, rave scene, punk scene, or even a good article you read on a
+ news site. I'll be taking submissions via e-mail or IRC right away;
+ so get your links in and maybe you'll see it in the next issue of K-1ine!
+
+ For the month of January, the link of the month is:
+
+	    http://www.prisonangels.com/main.html
+	  This is a free service for all inmates and
+         penpals wanting to correspond with each other.
+
+        
+
+ [submitted by: The Clone]
+
+--
+
+ K-1ine Mirrors:
+
+        http://the.wiretapped.net/security/info/textfiles/k1ine/
+
+
+ "Wiretapped.net is an Australian site offering an archive of open
+ source software, informational and advisory textfiles and radio/conference
+ broadcasts covering the areas of network security, network operations,
+ host integrity, cryptography and privacy. We aim to become the largest
+ archive of this nature in the Asia/Pacific region through steady growth
+ of our archives and regular updates to them (most updated nightly).
+ We are proudly telehoused on a 10Mbit/sec connection by Connect.com.au using
+ OneGuard hardware donated by eSec Limited. The archive, along with its
+ sister site on the same machine, The AusMac Archive, generates between 10
+ and 60 gigabytes of outbound traffic daily. Wiretapped.net is hosted in
+                            Sydney, Australia."
+
+ --
+
+
+		  New Album Recommendation: Aphex Twin 'Drukqs'
+
+
+    If you like experimental music, you'll like this album.
+    Stuffed with all the experimental/classical/breakbeats
+    you could ever want in your lonely pathetic lives.
+
+    Buy it NOW: http://www.warprecords.com/mart/music/release.php?cat=WARP92
+ 
+
+  --
+
+				  Canadian Packet Switching Networks
+
+ 
+     Last Updated: 01/15/02
+     Compiled By: The Clone
+
+     theclone@hackcanada.com
+     http://www.nettwerked.net
+
+     The following is a list of the currently
+     known Packet Switching Networks in Canada.
+
+
+   NAME:                     DEFINED:                              DNIC:        PROTOCOL:
+
+   AGNPAC                    Government of Alberta                              X.25
+
+   AT&T CANADA               Long Distance Services FasPac         3026         X.121
+
+   AT&T CANADA               Packet Switched Public Data Network   3028         X.121
+
+   CNCP PACKET NET           Unitel/AT&T Network                   3028         X.25
+
+   CNCP INFO SWITCH          Unitel/AT&T Network                   3029         X.25
+
+   DATAPAC                   Links Computers                       3020         X.25
+
+   DATAROUTE                 Large Users
+
+   DATALINK                  Small Users
+
+   DIALCOM                   Worldwide Messaging
+
+   ENVOY100                  Messaging
+
+   EXTEN                     Voice Messaging
+
+   FACSROUTE                 Facsimile
+
+   FASPAC                    Links Computers                       3026         X.25
+
+   FAXCOM                    Facsimile
+
+   GLOBEDAT                  *UNKNOWN*                             3025         X.25
+
+   GLOBEDAT-P                *UNKNOWN*                             3025         X.25
+
+   GLOBEFAX                  Overseas Facsimile
+
+   INET 2000                 Databases
+
+   INFOGRAM                  *UNKNOWN*                             3028
+
+   INFOSWITCH                *UNKNOWN*
+
+   NORTH AMERICAN GATEWAY    ATM/Frame Relay Network               3035
+
+   POSTPAC                   Canada Post                           3038         X.25
+
+   SPRINT CANADA             Frame Relay Service                   3036         X.121
+
+   STENTOR                   Data Network Gateway                  3022         X.121
+
+   STENTOR                   Stentor ISDN Identification           3023         X.121
+
+   TELECOM CANADA            Datapak Network                       3020         X.121
+
+   TELECOM CANADA            PSTN Access                           3021         X.121
+
+   TELEGLOBE CANADA          Globedat-C Circuit Switched Network   3024         X.121
+
+   TELEGLOBE CANADA          Globedat-P Packed Switched            3025
+
+   TELEPOST                  Messages At The Post Office
+
+   TELESAT CANADA            Anikom 200                            3039         X.121
+
+   TELETEX                   Text                                  2861
+
+   TMI Communications        Mobile Data Service (MDS)             3037         X.25
+
+   TRADEROUTE                Electronic Data Interchange
+
+   TYMNET CANADA             WorldCom                              3106         X.25
+
+   WPMAIL                    E-mail
+
+  -
+
+  .end
+
+ -
+
+ <Flopik> Why I have stupid quote on all klined.. sniff
+
+ -
+
+
+  Bell Express View... The Rest of The Story
+
+  Hey just in case you wanted to know for the BEV hack on your page
+  (http://www.hackcanada.com/canadian/scams/bell_xpress_vu.txt)
+  most of it is right but, some people might get surprises...
+  Small corrections/updates to apply :
+
+ * Disclamer: I pass this to you for informational purposes only as it was
+              passed to me.  Whatever you do with is your own responsibility *
+
+ * Password is required only if system has been locked by user
+   default password is 1234, if you don't know, err remember, password
+   you're fucked, almost ( see later)
+
+ * The phone line test is required everytime you want to order a pay per view
+   whether it be a movie or an event like boxing or whatever.
+
+ * All the information about pay per view is included on the smartcard. This
+   information is written only when movie is watched, if you don't watch it,
+   you don't pay for it.  Be careful however cuz if you order something you
+   don't want and go channel surfing, even if you have the channel only for 1
+   second it is as if you watched the whole thing.
+
+ * That also means that if you loose signal (rain/snow fade) before ppv, change
+   the channel and don't go back on it, order it again when everything is back
+   up ok, cuz they don't credit anything in that way, even if you're a very
+   lucrative customer.
+
+ * If all receivers in same account order same ppv on same day at same time, it
+   will only be billed once.
+
+ * Smartcard has a built-in pay per view limit, should be around 50$ or
+   something like 10 movies.  When you plug your phone line, all this is dumped
+   to your bill and smartcard counter is reset to zero so you can order again.
+   Yes that means you can be billed for stuff ordered over a year ago.
+
+ * To know what is currently stored on your smartcard use remote and go to
+   "menu - system setup - purchase info" (menu-6-5<4 if receiver is 1000>)
+
+  Ok that's all good stuff to know you'll say but what about passwords ?
+  It would be pretty dumb to have to buy a whole new receiver just cuz you or
+  your friend lost a password and can't order pr0n anymore !!  Well you'll be
+  happy to know that techies over there don't do it for nothing.  They ask you
+  a bunch of questions like PIN (yeah they have that now on some accounts), full
+  address, last bill ammount, programming, etc.  That's a lot of info and you
+  probably don't remember it... but if you do they'll fix you up, set up a new
+  pass and write it down in your file over there... But it's so much trouble.
+  Now, they're not gods and can't control your receiver or your tv set over the
+  phone so how do they reset they password ?  They don't !  They show you how
+  and 98% of the time you'll forget how to do it again so it's not a big deal.
+  Technically speaking, you don't reset the password, you "corrupt non volatile
+  memory" which basically crashes the system and asks you to reboot it,
+  restoring factory defaults. That means system is unlocked, password is 1!
+  234, favorites lists and timers have been lost and the remote adress is back
+  to 01 (now if you changed that before and you can't control the receiver
+  anymore, remove the smartcard and press "record" on the remote (in sat mode
+  of course) while on the "important system info" screen. putting the smartcard
+  back in will just have the receiver reboot again). Now since most of this info
+  is stored on the smartcard, I don't know if it clears the ppv list as well
+  (feedback anyone ?). Yeah that's all good but "HOW" can you do this ????
+
+ * Go in "menu - system setup - diagnostics" (menu-5 if 1000, menu 6-3 for all
+   other receivers).  Now look at your remote, locate "info" "browse" "themes",
+   see them ? no ?  info is under the "big circle" browse is to the right of
+   select "small circle", theme is to the left. Now that you know where they
+   are, press them in this order : info browse theme, withing 5 seconds. This
+   should bring you to "memory dump & device status" window.  Check the 3rd box
+   from the left in the top row, they call it "watchdog" and it is the number
+   of times your system crashed or had a glitch.  If it is over 6 or has
+   letters in it, you might considering replacing the receiver.  Now causing
+   that memory crash causes some permanent damage to your receiver/card so do
+   it at your own risk.  Ok so while you're on that same screen, press
+   "tv/video", it will give you a message asking you to reboot.  Power off the
+   receiver from the front pannel, it will turn back on by itself.  If you're
+   stuck with a 1000, pull the plug, wait 30 secs and plug it back.  Voila !
+
+   Hope this helps you all with your Bell Express View
+ 
+   _Absinth_
+
+   p.s. Did you know that they have over a million customers ? WOW ...
+
+   12/20/2001
+
+ -
+
+
+			The GSM Security Technical Whitepaper for 2002
+
+
+ Thursday January 10, 2002
+
+ Researched, Written,
+ and Compiled by:
+
+       The Clone - theclone@hackcanada.com
+              RT - r_t@mac.com
+
+     Web-site: www.nettwerked.net
+
+
+ A Brief Introduction to GSM
+
+ The purpose of GSM Security
+
+ GSM Encryption Algorithms
+
+ GSM's Security Limitations
+
+ A5 - Encryption Implementation
+
+ GSM Security News Articles
+
+ GSM Security Technical Papers
+
+ Conclusion
+
+
+   A Brief Introduction to GSM:
+
+ Global System for Mobile communication (GSM) is a globally accepted standard for
+ digital cellular communication. GSM is the name of a standardization group that was
+ established in 1982 in an effort to create a common European mobile telephone standard
+ that would formulate specifications for a pan-European mobile cellular radio system
+ operating at 900 MHz. Today over 400 million people worldwide use GSM mobile phones
+ to communicate with each other, via voice and short-message-service (SMS) text.
+
+ This papers purpose was written to teach the masses currently known GSM Security
+ Vulnerabilities, and to address concerns over some recently talked about (theoretical)
+ GSM security vulnerabilities. We feel we need to address all security concerns in good faith,
+ therefore this white paper was written to enlighten wireless carriers and end users. Please
+ feel free to send all updates, questions, and concerns to The Clone and RT at their e-mail
+ addresses (located on the top of the page).
+
+
+   The purpose of GSM Security:
+
+ Since all cases of GSM fraud against a specific wireless carrier will result in a
+ substantial loss to the operator. This substantial loss may include the following:
+
+ · No direct financial loss, where the result is lost customers and
+   increase in use of the system with no revenue.
+
+ · Direct financial loss, where money is paid out to others, such as
+   other networks, carriers and operators of 'Value Added Networks'
+   such as Premium Rate service lines.
+
+ · Potential embarrassment, where customers may move to another
+   service because of the lack of security.
+
+ · Failure to meet legal and regulatory requirements, such as
+   License conditions, Companies Acts or Data Protection Legislation.
+
+    GSM Encryption Algorithms:
+
+     A3 - The GSM authentication algorithm "placeholders" used in the GSM system.
+
+     A5 - GSM stream cipher algorithm (GSM) / There are a series of implementations
+          named A5/1, A5/2, ... The A5/1 is known as the strong over-the-air voice-
+          privacy algorithm. A5/x (A5/2 ...) are weaker implementations targeted at
+          foreign markets out side of Europe. There is also an A5/0 algorithm, which
+          encloses no encryption at all. The A5 algorithm used for encrypting the
+          over-the-air transmission channel is vulnerable against known-plain-text
+          and divide-and-conquer attacks and the intentionally reduced key space is
+          small enough to make a brute-force attack feasible as well.
+
+COMP128 - one-way function that is currently used in most GSM networks for A3 and A8.
+          Unfortunately the COMP128 algorithm is broken so that it gives away information
+          about its arguments when queried appropriately. The COMP128 algorithm used in
+          most GSM networks as the A3/A8 algorithm has been proved faulty so that the
+          secret key Ki can be reverse-engineered at the SIM level (2^19 queries),
+          and over-the-air in approximately eight hours.
+
+
+COMP128-2 COMP128-2 algorithm out (revised A3/A8 reference algorithm)
+
+  
+    GSM's Security Limitations:
+
+ Existing cellular systems have a number of potential weaknesses
+ that were considered in the security requirements for GSM. 
+
+ The security for GSM has to be appropriate for the system operator and customer:
+
+ · The operators of the system wish to ensure that they could issue bills to the right
+   people, and that the services cannot be compromised.
+
+ · The customer requires some privacy against traffic being overheard.
+
+
+  The countermeasures are designed to:
+
+ · make the radio path as secure as the fixed network, which implies anonymity and
+   confidentiality to protect against eavesdropping;
+
+ · have strong authentication, to protect the operator against billing fraud;
+
+ · prevent operators from compromising each others' security, whether inadvertently
+   or because of competitive pressures.
+
+
+  The security processes must not:
+
+
+ · significantly add to the delay of the initial call set up or subsequent communication;
+
+ · increase the bandwidth of the channel,
+
+ · allow for increased error rates, or error propagation;
+
+ · add excessive complexity to the rest of the system,
+
+ · must be cost effective.
+
+  The designs of an operator's GSM system should take into account,
+  the environment and have secure procedures such as: 
+
+ 
+ · the generation and distribution of keys, 
+
+ · exchange of information between operators, 
+
+ · the confidentiality of the algorithms. 
+
+ 
+   Descriptions of the functions of the services:
+
+  The security services provided by GSM are:
+
+ · Anonymity So that it is not easy to identify the user of the system.
+
+ · Authentication So the operator knows who is using the system for billing purposes.
+
+ · Signaling Protection So that sensitive information on the signaling channel,
+   such as telephone numbers, is protected over the radio path.
+
+ · User Data Protection So that user data passing over the radio path is protected.
+
+
+   Anonymity
+
+ Anonymity is provided by using temporary identifiers. When a user first switches on
+ his/her radio set, the real identity is used, and a temporary identifier is then issued.
+ From then on the temporary identifier is used. Only by tracking the user is it possible
+ to determine the temporary identity being used.
+
+   Authentication
+
+ Authentication is used to identify the user (or holder of a Smart Card) to the network
+ operator. It uses a technique that can be described as a "Challenge and Response", based
+ on encryption. Authentication is performed by a challenge and response mechanism. A random
+ challenge is issued to the mobile, the mobile encrypts the challenge using the authentication
+ algorithm (A3) and the key assigned to the mobile, and sends a response back. The operator
+ can check that, given the key of the mobile, the response to the challenge is correct. 
+
+ Eavesdropping the radio channel reveals no useful information, as the next time a new random
+ challenge will be used. Authentication can be provided using this process. A random number is
+ generated by the network and sent to the mobile. The mobile use the Random number R as the
+ input (Plaintext) to the encryption, and, using a secret key unique to the mobile Ki, transforms
+ this into a response Signed RESponse (SRES) (Ciphertext) which is sent back to the network.
+
+ The network can check that the mobile really has the secret key by performing the same SRES
+ process and comparing the responses with what it receives from the mobile.
+
+  Implementation and Roaming
+
+ The authentication algorithm A3 is an operator option, and is implemented within the smart card
+ (known as the Subscriber Interface Module or SIM). So that the operators may inter-work without
+ revealing the authentication algorithms and mobile keys (Ki) to each other, GSM allows triplets
+ of challenges (R), responses (SRES) and communication keys (Kc) to be sent between operators over
+ the connecting networks. The A5 series algorithms are contained within the mobile equipment, as
+ they have to be sufficiently fast and are therefore hardware. There are two defined algorithms
+ used in GSM known as A5/1 and A5/2. The enhanced Phase 1 specifications developed by ETSI allows
+ for inter-working between mobiles containing A5/1, A5/2 and unencrypted networks. These algorithms
+ can all be built using a few thousand transistors, and usually takes a small area of a chip within
+ the mobile.
+
+  World-wide use of the algorithms
+
+ There are now three different possibilities for GSM, unencrypted, and use of the A5/1 algorithm or
+ the A5/2 algorithm to secure the data. This arose because the GSM standard was designed for Western
+ Europe, and export regulations did not allow the use of the original technology outside Europe.
+ The uses of the algorithms in the network operator's infrastructure are controlled by the GSM
+ Memorandum of Understanding Group (MoU) according to the formula below:
+
+ · The present A5/1 algorithm can be used by countries which are members of CEPT.
+
+ · The algorithm A5/2 is intended for any operators in countries that do not fall into the above category.
+
+ Export controls on mobiles are minimal, and the next generation of mobiles will support A5/1, A5/2
+ and no encryption. The protocols to support the various forms of A5 (up to seven) are available in GSM.
+
+  Loss areas
+
+ There are a number of areas that can be exploited, the most likely intention
+ of all the techniques is the ability to make money at the lowest cost possible.
+
+  Technical fraud
+
+ Technical fraud is where a weakness of the system is exploited to make free calls.
+ For example, Call Forwarding or Conference Call facilities may be used to give reduced
+ price services to customers from a stolen mobile. These are often known as 'Call Sales Offices'.
+ Hackers and phreakers are often able to gain access and exploit a weakness in the switching or
+ billing system and gain the ability to make calls or financial advantage. In some cases hackers
+ and phreakers can take over the entire billing system and routing system; thus causing convenience
+ for customers and carriers.
+
+  Procedural fraud
+
+ Procedural fraud results from the exploitation of business processes, where a flaw or weakness can
+ be used to gain money. It may be possible for example to get free calls from a stolen mobile, and
+ sell the calls on for a lower cost than any legitimate network operator. This can be minimized by
+ designing processes so that losses can be stopped by the use of correct and up to date policies,
+ and by taking the opportunity to create a fraud away from the attacker or employee.
+
+ Comparison with other frauds
+
+ Many of the techniques that can be used to commit fraud on telecommunications networks can also
+ be used for a mobile network. Analogue mobile phone systems (AMPS) were subject to being eaves-
+ dropped (with conventional RF-Scanners available at electronics shops and Radio Shack), and the
+ phones could be cloned (ESN snarfing over thin-air) so that bills were paid by the owner of the
+ original mobile phone. Existing cellular systems have a number of potential weaknesses that were
+ considered in the security requirements for GSM. Networks such as GSM, with international roaming
+ and interactions with other operators (carriers), offer other opportunities for exploitation. GSM
+ has been designed to offer various technical solutions to prevent misuse, such as strong authenti-
+ cation, together with anonymity and encryption of the signaling and data over the radio. However,
+ all systems are dependent on secure management deployment and special procedures; lapses in these
+ areas have severe impact on the resilience of the business process to fraud. For example; many
+ carriers still make use of the COMP128 encryption algorithm for both A3 (the authentication algorithm
+ to prevent phone cloning) and A8 (the voice-privacy key-generation algorithm), which is fine for
+ securing against simple over-the-air attacks. However we have determined, that the COMP128's voice-
+ encryption algorithms only encrypt voice between the GSM wireless phone and the base station.
+ It does not encrypt voice within the phone network, nor does it encrypt end to end. It only encrypts
+ the over-the-air portion of the transmission. The attack on COMP128 takes just 2^19 queries to the GSM
+ smart-card chip, which takes approximately 8 hours over the air. This attack can be tested on as many
+ simultaneous phones in radio range as your rogue base station has channels.
+
+  A5 - Encryption Implementation
+
+ The documentation we have, which arrived anonymously in two brown envelopes,
+ is incomplete; we do not know the feedback taps of registers 2 and 3, but we
+ do know from the chip's gate count that they have at most 6 feedback taps
+ between them. The following implementation of A5 is due to Mike Roe, and all
+ comments and queries should be sent to him.
+
+
+/*
+ * In writing this program, I've had to guess a few pices of information:
+ *
+ * 1. Which bits of the key are loaded into which bits of the shift register
+ * 2. Which order the frame sequence number is shifted into the SR (MSB
+ *    first or LSB first)
+ * 3. The position of the feedback taps on R2 and R3 (R1 is known).
+ * 4. The position of the clock control taps. These are on the `middle' one, 
+ *    I've assumed to be 9 on R1, 11 on R2, 11 on R3.
+ */
+
+/*
+ * Look at the `middle' stage of each of the 3 shift registers.
+ * Either 0, 1, 2 or 3 of these 3 taps will be set high.
+ * If 0 or 1 or one of them are high, return true. This will cause each of
+ * the middle taps to be inverted before being used as a clock control. In
+ * all cases either 2 or 3 of the clock enable lines will be active. Thus,
+ * at least two shift registers change on every clock-tick and the system
+ * never becomes stuck.
+ */
+
+static int threshold(r1, r2, r3)
+unsigned int r1;
+unsigned int r2;
+unsigned int r3;
+{
+int total;
+
+  total = (((r1 >>  9) & 0x1) == 1) +
+          (((r2 >> 11) & 0x1) == 1) +
+          (((r3 >> 11) & 0x1) == 1);
+
+  if (total > 1)
+    return (0);
+  else
+    return (1);
+}
+
+unsigned long clock_r1(ctl, r1)
+int ctl;
+unsigned long r1;
+{
+unsigned long feedback;
+
+ /*
+  * Primitive polynomial x**19 + x**5 + x**2 + x + 1
+  */
+
+  ctl ^= ((r1 >> 9) & 0x1);
+  if (ctl)
+  {
+    feedback = (r1 >> 18) ^ (r1 >> 17) ^ (r1 >> 16) ^ (r1 >> 13);
+    r1 = (r1 << 1) & 0x7ffff;
+    if (feedback & 0x01)
+      r1 ^= 0x01;
+  }
+  return (r1);
+}
+
+unsigned long clock_r2(ctl, r2)
+int ctl;
+unsigned long r2;
+{
+unsigned long feedback;
+
+  
+ /*
+  * Primitive polynomial x**22 + x**9 + x**5 + x + 1
+  */   
+
+  ctl ^= ((r2 >> 11) & 0x1);
+  if (ctl)
+  {
+    feedback = (r2 >> 21) ^ (r2 >> 20) ^ (r2 >> 16) ^ (r2 >> 12);
+    r2 = (r2 << 1) & 0x3fffff;
+    if (feedback & 0x01)
+      r2 ^= 0x01;
+  }
+  return (r2);
+}
+
+unsigned long clock_r3(ctl, r3)
+int ctl;
+unsigned long r3;
+{
+unsigned long feedback;
+
+ /*
+  * Primitive polynomial x**23 + x**5 + x**4 + x + 1
+  */
+
+  ctl ^= ((r3 >> 11) & 0x1);
+  if (ctl)
+  {
+    feedback = (r3 >> 22) ^ (r3 >> 21) ^ (r3 >> 18) ^ (r3 >> 17);
+    r3 = (r3 << 1) & 0x7fffff;
+    if (feedback & 0x01)
+      r3 ^= 0x01;
+  }
+  return (r3);
+}
+
+int keystream(key, frame, alice, bob)
+unsigned char *key;   /* 64 bit session key              */
+unsigned long frame;  /* 22 bit frame sequence number    */
+unsigned char *alice; /* 114 bit Alice to Bob key stream */
+unsigned char *bob;   /* 114 bit Bob to Alice key stream */
+{
+unsigned long r1;   /* 19 bit shift register */
+unsigned long r2;   /* 22 bit shift register */
+unsigned long r3;   /* 23 bit shift register */
+int i;              /* counter for loops     */
+int clock_ctl;      /* xored with clock enable on each shift register */
+unsigned char *ptr; /* current position in keystream */
+unsigned char byte; /* byte of keystream being assembled */
+unsigned int bits;  /* number of bits of keystream in byte */
+unsigned int bit;   /* bit output from keystream generator */
+
+  /* Initialise shift registers from session key */
+
+  r1 = (key[0] | (key[1] << 8) | (key[2] << 16) ) & 0x7ffff;
+  r2 = ((key[2] >> 3) | (key[3] << 5) | (key[4] << 13) | (key[5] << 21)) & 0x3fffff;
+  r3 = ((key[5] >> 1) | (key[6] << 7) | (key[7] << 15) ) & 0x7fffff;
+
+
+  /* Merge frame sequence number into shift register state, by xor'ing it
+   * into the feedback path
+   */
+
+  for (i=0;i> 1;
+  }
+
+  /* Run shift registers for 100 clock ticks to allow frame number to
+   * be diffused into all the bits of the shift registers
+   */
+
+  for (i=0;iBob key stream */
+
+  ptr = alice;
+  bits = 0;
+  byte = 0;
+  for (i=0;i> 18) ^ (r2 >> 21) ^ (r3 >> 22)) & 0x01;
+    byte = (byte << 1) | bit;
+    bits++;
+    if (bits == 8)
+    {
+      *ptr = byte;
+      ptr++;
+      bits = 0;
+      byte = 0;
+    }
+  }
+  if (bits)
+    *ptr = byte;
+
+  /* Run shift registers for another 100 bits to hide relationship between
+   * Alice->Bob key stream and Bob->Alice key stream.
+   */
+
+  for (i=0;iAlice key stream */
+
+  ptr = bob;
+  bits = 0;
+  byte = 0;
+  for (i=0;i> 18) ^ (r2 >> 21) ^ (r3 >> 22)) & 0x01;
+    byte = (byte << 1) | bit;
+    bits++;
+    if (bits == 8)
+    {
+      *ptr = byte;
+      ptr++;
+      bits = 0;
+      byte = 0;
+    }
+  }
+  if (bits)
+    *ptr = byte;
+ 
+  return (0);
+
+}
+
+
+
+ GSM Security News Articles:
+
+ 'Cracking GSM's Security Code (date unknown)' (Mobile Computing Online)
+  http://www.mobilecomputing.com/showarchives.cgi?3:2
+
+ 'ZDNet News: Cell phone flaw opens security hole' (Sept 18, 2000)
+  http://www.zdnet.com/zdnn/stories/news/0,4586,2628754,00.html
+
+
+ GSM Security Technical Papers:
+
+  Miscellaneous:
+
+  Berkeley Website: GSM Cloning
+  http://www.isaac.cs.berkeley.edu/isaac/gsm-faq.html
+
+  Department of Computer Science and Engineering: GSM Interception
+  http://www.dia.unisa.it/ads.dir/corso-security/www/CORSO-9900/a5/Netsec/netsec.html
+
+ SIM Card Technology:
+
+  SIM Cards: At the Heart of Digital Wireless Security (.pdf / 1,842 KB)
+  http://www.uwcc.org/pdfs/smart_cards.pdf
+
+
+  Conclusion:
+
+ We have contacted several people from the GSM Association
+ (www.gsm.org) and asked about receiving spec and source
+ for the updated COMP128-2 encryption algorithm. We are
+ now awaiting approval, and will post all relevant info about
+ COMP128-2 in later releases of this GSM security paper.
+
+ Also, we're doing extensive research involving security
+ vulnerabilities with EIR databases the contain all known
+ IMEIs (International Mobile Equipment Identity) numbers,
+ as well as physical vulnerabilities that allow software
+ and hardware IMEI cloning. This information will be made
+ available on the next release of this GSM paper as well.
+
+   This document is Copyright (c) 2002 by Nettwerked.
+      And by the other respective owners.
+
+ -
+
+ <emmanuel> it's a fucking irc server and you're on fucking irc so fucking fuck the fuck off
+
+ -
+
+ -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+ How to rip off your local bookstore monopoly
+ =-=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+                                    2001 diabolik
+                                    -=-=-=-=-=-=-
+
+
+ disclaimer : I wrote this to bring to light a rather glaring hole.  I wrote it in
+ a howto-ish sort of form to display how the system could possibly be abused, not with
+ the intent that the actions below would ever be enacted.  Do not do this.  It is
+ most likely fraud, and more importantly, morally wrong.  Upon acting out these steps,
+ you take full responsibility for your actions and release me, diabolik, from any
+ responsibility.  Yeah.
+
+ So.  Indigo owns Chapters.  Chapters owns Coles.  Until later 2002 when Barnes&Noble
+ cross the border, nearly every major bookstore in Canada is owned by the same company.
+ Not cool.
+
+ Wait, it really is actually.  Once Indigo bought Chapters, Heather Reisman decided to 
+ amalgamate a bunch of things.  Firstly, the annoying discount card program is now the
+ same at chapters, coles, indigo, etc.. irewards program.
+
+ So what.  Save 10% off of regular priced books.  Yeah.
+
+ Now, Chapters and Coles, and presumably Indigo, have a very jolly Canadian return policy.
+ Bring back an undamaged book without a receipt and exchange the book or get gift 
+ certificates back.  You can probably see where this is going.  Make a $100 purchase with
+ a iRewards card (pay $90) at Coles.  Bring the books back to Chapters and get $100 in 
+ gift certificates.  Make a $111 purchase ($100/0.9) at chapters (or coles), paying $100,
+ and bring the books back to either place and receive the full $111, which buys you $123 
+ worth of books.
+
+ You don't need both a Coles and a Chapters, but it helps - the more entities you can
+ return the books, the less times you have to frequent either.  And you can be funny
+ about it - buy all the copies of a certain book from Chapters and return them all to
+ Coles (they'll catch on to this, the SIMS computer system at Coles will show a return
+ of larger quantity than ever ordered, however that won't be noticed until days later.
+
+ I'm not sure if Chapters' tills would notice the erroneous return sooner - however, just
+ buy common books so that you're not the only sales of the title and therefore won't cause
+ panic in the bookgeeks.  Be warned - Coles usually only employs around 10 people in their
+ mall stores, and these people do have the mental capacity to remember people.  It would
+ be suggested to do this ploy with multiple people, so that its less obvious.  Use New
+ Release hardcover titles - about $50 apeice and are popular enough.  I'd suggest use
+ audio cassetes but you wouldn't save 10% so it'd be useless.
+
+ NOTE - register your iRewards card with fake info - they keep that in a main database and
+ if they somehow correlated these returns without receipts with your purchases you would
+ be in trouble.
+
+ So, You've done this 7 times and doubled your money.  You still have only gift
+ certificates, not real dough.  You can get the money out of this by -
+
+ - buying books for people who were otherwise going to pay for them anyways.  You don't
+ have to tell them your plan, you could just tell them granny gave you gift certificates
+ and you wanna get rid of them.  However, this still forces you to involve more people.
+
+ - when you order a book from Chapters, you have to often prepay for the book if its
+ a rare title.  If this book cannot be ordered, you can go back and receive money for 
+ the title because the computer doesn't keep track of if the book was prepaid with
+ gift certificates or not.
+
+ fuck corporations, eh?
+
+ diabolik
+ http://th.oughtpolice.net
+
+ greetz - clox, hackcanada, nettwerked, heather herself, roy fans.
+
+ flames - tron - stop killing me in LORD you bitch
+
+ 01/03/2002
+
+-->
+
+ -- Credits
+
+    Without the following contributions this zine issue would be fairly
+      delayed or not released, so thank you to the following people:
+
+	    		 Absinth, Diabolik, RT, The Clone
+
+  -- Shouts:
+
+    Hack Canada (#HackCanada), Canadian Phreakers Union (#cpu), The Grasshopper Unit,
+      Flippersmack, Pyrofreak, soapie, Françoise, `enjoy, Kybo_ren, Flopik, Pinguino,
+       and lastly to everyone and anyone who contributes to the Canadian H/P scene.
+
+
+                             ;.  .;..  ; ;. ;..
+                           ;..   .;..; .;.; .;; ;..
+                      .;..;. .;..;  .;.;...; ;..;..
+                         .;.         A         .;. .;.
+                       ;..   N E T T W E R K E D  ;..
+                        ;..;.. P R O D U C T   ;..;..
+                          .;..;               ;..;..
+                     ;  .;..;.;..   .; .  .;. ..;..
+                    .;..   . .;  ..;..;..;.. .;
+                ;..;.   .;.. . .;.. .;.;.
+              ..;. ..;.. .;.   ;.;..;;..;.;
+                ;.;;..;..      ;.;.; .; .
+                   ;.;..;. .;. ;.;:.;.
+                     ,;....;.
+               .;.;. .;.;
+              .;.;.;
+            .;.;
+            ;..;.
+           .;.;;.; .;. ..; ;. > > > > > > ... carpet beetles taste like chicken

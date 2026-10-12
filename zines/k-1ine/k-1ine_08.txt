@@ -1,0 +1,738 @@
+
+   .;..;.  .;..;.    . ;. . . .;;   .  ... .; ;...;
+  .'                                             . ; ;..   .;. ..
+ .;;.     .;..;.                  ttt        ttt      .;..;.   .;...
+ ..;       NNN    NNNN .;..;.  ttttttttt  ttttttttt             .;.
+ .         NNNN   NNNN            ttt        ttt  .;..;..;..;.   ...;
+  ;.       NNNNN  NNNN            ttt .;..;. ttt     .;..;.         ..;
+    ..;    NNNNNN NNNN eeeeeeee   ttt        ttt                     .;
+     ..    NNNNNNNNNNN eee  eee   ttt        ttt  _---_---_---     .;
+  .;       NNNN NNNNNN eeeeeeee   ttt .;.    ttt  W E R K E D  >>>   .;;;.
+   .       NNNN  NNNNN eee        ttt        ttt  _---_---_---    . ;
+  . ;.;    NNNN    NNN eeeeeeee   ttt        ttt   .;..; . .;.;. .;;;.
+..;
+
+       --/-/-///--- _--   [ K - 1 i n e #8 ]    --_ ---\\\-\-\-\--
+
+                          'Call and Response'
+
+_)##vol.3####$.;..;..;..;. .;..;.    .;..;. .;..;..;..;. .;..;. .;..;.   .;..;.
+::#issue.8#$)$                                                                ::
+`:==--::--==--::--==--::--==--::--==--::--==--::--===?:--::--==--::--==--::--=:
+
+^                                                                            ^
+
+^                            October 2000                                    ^
+^                                                                            ^
+
+*:                                                                          :*
+*:                                                                          :*
+*: [-] Introduction .......................................... The Clone    :*
+*: (-) Contact Information ................................... The Clone    :*
+*:-=><=--=><=--=><=--=><=--=><=--=><=--=><=--=><=--=><=--=><=--=><=--=>y4y<=:*
+
+[ Da 0-Day WarEz ;]
+
+*: (x) 'Surveillance Possibilities on the ECS' ............... Seuss        :*
+*: (x) 'CLEARNET PCS - "PAY & TALK",...' ..................... The Clone    :*
+*: (x) 'Canadian University Dialup List' ..................... The Clone    :*
+*: (x) 'Assaulting Payfones' ................................. Anonymous    :*
+
+   [-] Credits ............................................... The Clone    :*
+*: [-] Shouts ................................................ The Clone    :*
+*:                                                                          :*
+*:                                                                          :*
+*:                                                                          :*
+*:                                                                          :* 
+
+.
+.
+.
+			A little tinkling in the night
+                    Just to check your line's are alright,
+                          A little tinkle in the day
+                       just to listen to what you say... 
+=-=-
+==
+-=           -    .              -=                 =               =- -=  -
+.;. .;..;..;..;.  .;. ;;;; .;.;..;.. .;..;.    .;..;. .;..;. .;..;.  .;..;.
+.;..;..;..;..;..;..;..;.   .;..;.  .;..;..;..;. .;..;.  .;..;. .;..;.     
+    -     -      =  -           -= =  -     .,.      ,.          -=         =-
+ =       =    -     .,.          ,  -    ,    ,.       ,           =- -=        
+
+
+
+ Introduction;
+
+  Welcome to the 8th issue, 3rd volume October edition of K-1ine zine.
+Well do I ever have a nice bunch of files for you fone-pholks out there...
+my associates and I have been in hyper think-tank mode, churning out some
+very wicked telecom-related technical releases that'll make your heads spin.
+
+ 
+
+	 What do I have in store for you this month?
+
+ - A detailed and interesting perspective on Lucent Technologies
+   "Definity ECS" PBX's
+
+ - A Clearnet PCS 'Pay & Talk' programming guide, useful for Clearnet/Telus
+   'Pay & Talk' subscribers (duh) and telecom enthusiasts
+
+ - A file listing the known modem carrier numbers for major Canadian 
+   Universities
+
+ - A file written specifically on physically exploiting payphones
+
+
+Lock up your wives, lock up your daughters, 'cause K-1ine is here...
+
+-:
+
+Contact Information;
+
+Comments/Questions/Submissions: theclone@haxordogs.net
+Check out my site: (Nettwerked) http://www.nettwerked.net
+Shoot me an ICQ message: (UIN) 79198218
+
+-
+
+-:
+
+Surveillance Possibilities on the ECS
+
+Disclaimer: Your mileage may vary.
+
+[- Seuss, 10/04/00 -]
+
+
+PBXs invariably offer a rich set of surveillance options to a skilled
+eavesdropper, from soft wiretaps to commands that allow bugging rooms through
+the handsets. Lucent's enterprise phone systems provide an eavesdropper with
+an even greater wealth of possibilities, particularly the Definity ECS. This
+article only touches on hostile programming of the switch. NIST
+<csrc.nist.gov> has an excellent report on PBX security that discusses
+hardware attacks thoroughly. 
+
+- Hostile Features
+
+* Bugging Attacks
+
+	You can bug a room through a telephone. Surprise. Typically this will
+require some modification to the handset so the phone is never really on hook,
+i.e. shorting the hook-switch contacts with a capacitor. Attach an audio
+amplifier to the line, and room audio will be heard pretty clearly. On a POTS
+line this sort of attack can be countered by either using a handset with a
+push to talk button, or connecting a listen-down amplifier to the line and
+monitoring it for room audio. On a PBX however a few commands and a flipped
+switch can be used to accomplish the same.
+
+	Auto answer is a feature used by many people who have their hands
+busy, i.e. secretaries and receptionists. After giving a ring or two the phone
+will automatically go off-hook. By itself auto-answer is of little
+consequence. However it can be coupled with an anti-disturbance feature that
+allows callers to mute their phone's ringing. These two features together will
+allow for the phone to go off-hook without any warning and allow an
+eavesdropper to receive clear room audio. A bit of hardware intervention will
+be needed here. To engage auto answer the user will have to move a slide
+switch on their phone from ring to auto answer. If long term surveillance is
+planned its possible to either replace the existing phone with one that has
+the answer selection switch disabled, or to have a rectifier wired into the
+line to suppress ringing.
+
+Lucent platforms include a feature that permits only internal calls to be auto
+answered, with external calls ringing audibly. Making intercom calls via
+remote access will create less suspicion than a station that never ever rang.
+
+* Soft wiretaps
+
+	Analog station sets allow any user to pick up an extension and monitor
+the content of a call. Due to the more complex signaling used by digital
+station sets, just picking up an extension phone will yield very little in the
+way of usable eavesdropping data. However there are several features available
+on the ECS that allow multiple people to add themselves into a call to a
+digital set by simply picking up the receiver. 
+
+Call bridging is the most obvious technique for adding oneself to an ongoing
+call. Call bridging allows a particular phone to answer (and incidentally
+monitor) calls on another extension. This method of eavesdropping is rather
+impractical as it allows rings sent to either phone to ring both phones. This
+possibility can be reduced by assigning the phone used to eavesdrop an unused
+number or VDN, or forwarding all calls to that number. Temporary bridged
+appearances, which create a roving bridged appearance are another possibility.
+
+Pickup groups are a feature provided by several manufacturers, in order to
+provide for a smaller but more flexible alternative to ACDs. This feature
+allows a call to simultaneously ring a group of phones, but allows them all
+to enter into the call. Any set in the pickup group can be used to monitor a
+call from anyone else in the group. Adding yourself to a pickup group appears
+to be a good way to monitor calls from on site. Creating a pickup group will
+become very obvious under examination during a switch audit.
+
+The Busy Verification feature allows privileged users to add themselves to
+ongoing calls as an additional party. Busy verification isn't as sexy as it
+appears, though. Usually there is an alerting tone used in conjunction with
+override functions to alert the caller and called parties that another person
+has joined the conversation; after the first long tone it will sound off again
+every 12 seconds. Verifying a number that's on a multi-line station will
+generate a priority call (and an irritating special ring) to any available
+line on the station.
+
+The Definity incorporates a special function that will monitor ongoing
+conversations without any notification at all. This is called 'service
+observation'. Service observation does not include an alerting tone. Service
+observation is the most attractive choice for ongoing soft wiretaps, because
+it can be easily accessed remotely.
+
+Service observation can best be dealt with via a call vector.
+
+Type: change vector x (make sure x isn't a currently assigned vector) and
+press return.
+
+1. wait-time 0 secs hearing ringback
+2. collect 4 digits after announcement 9876 (make sure there's an announcement
+   that works here. Adding more requires adding a module to the switch)
+3. route-to digits with coverage n
+4. stop
+
+Now create a vector directory number that will route to this vector. 
+
+Type: add VDN 1234 and press return
+
+	You'll be presented with the Vector Directory Number screen. Assign an
+unused extension and an innocuous name. Make sure the associated COR allows
+for service observation.
+
+When the VDN is called, the vector will initiate, spout off some meaningless
+crap, and wait for the caller to dial an extension. The vector will then
+connect the user to the requested extension. 
+
+
+Appendix A: Default ECS Logins
+
+cust
+rcust
+bcms
+browse
+NMS
+
+-:
+<Alan> Come into city and share some with us...
+<PhluX> i so fucking would Alan but i got no ride
+<PhluX> if you wanna drive my ass then sure  
+-
+
+-:
+
+
+	
+  CLEARNET PCS - "PAY & TALK" ACTIVATION/NAM PROGRAMMING FOR SERIAL
+
+
+By: The Clone
+Date: Monday September 11, 2000
+
+
+Note: In August 2000, Telus Mobility made public the acquisition of
+      Clearnet. All services that were once will Clearnet will still exist,
+      except all Clearnet customers will be under Telus ruling with access
+      to current Telus Mobility services.
+
+<--OCR Snip-->
+
+Why is Clearnet's Pay & Talk better?
+
+` we have .com ready phones so you'll be able to surf the net
+` we include all the extras, like caller ID, voice mail and call waiting
+` we have dual mode coverage, which means your Pay & Talk phone works
+  in Clearnet's digital and analouge service areas
+
+You will need your activation code (below) and your $50 Pay & Talk card
+(attached) to activate on Clearnet's Pay & Talk service.
+
+activiation code: XXXX XXXX XXX
+
+To get going, please refer to the Getting Started section in your Pay & Talk
+Starter Kit for instructions.
+
+</--OCR Snip-->
+
+Serial Number: XXXX XX XX XXX
+
+--
+
+Programming the NAM for the Serial Number:
+
+`- Firstly Enter: 739 939
+
+`- Secondly: Power Down Phone
+
+`- Thirdly Enter: * 8 3 7 8 
+
+
+- END-
+
+
+Contact:
+
+E-MAIL: theclone@haxordogs.net
+URL: http://www.nettwerked.net
+
+-:
+<crumbs> I don't wanna have sex today my pussy hurts
+-
+
+-:
+
+<--
+		   Canadian University Dialup List
+
+
+Updated on: 09/30/00
+By: The Clone
+
+E-mail: theclone@haxordogs.net
+URL: http://www.nettwerked.net
+
+
+Comments: Originally Posted on Phrack Magazine 
+          Volume Five, Issue Forty-Six, File 13 of 28   
+
+-->
+
+-=
+
+Alberta;
+
+University of Alberta (Edmonton) - 780-492-3110 
+                                 - 780-492-3214
+
+www.ualberta.ca
+
+-=
+
+British Columbia;
+
+Simon Fraser University (Vancouver) - 604-291-1457 [Temporary 28.8k Dial-up]
+				    - 604-291-4700 [10-minute "Express"]
+				    - 604-291-4721 [Registered Students]
+				    - 604-291-5947 [Faculty and Staff]
+				    - 604-291-9514 [Premium Modem]
+www.sfu.ca
+
+University of British Columbia (Vancouver) - 604-822-1331 [Interchange Account]
+                                           - 604-822-4477 [Netinfo Account]
+www.ubc.ca
+
+-=	
+
+Manitoba;
+
+University of Manitoba (Winnipeg) - 204-275-6100
+		                  - 204-275-6132
+        			  - 204-275-6150
+				  - 204-275-7771
+				  - 204-946-8100
+www.umanitoba.ca
+
+-=
+
+Newfoundland;
+
+Memorial University of Newfoundland (St.John's) - 709-737-8302 
+www.mun.ca
+
+-=
+
+Nova Scotia;
+
+Dalhousie University (Halifax) - 902-494-2500
+                               - 902-494-8000
+www.dal.ca
+
+Saint Mary's University (Halifax) - 902-429-8270
+www.stmarys.ca
+
+-=
+
+Ontario;
+
+McMaster University (Hamilton) - 905-570-1889
+www.mcmaster.ca
+
+Trent University (Oshawa) - 705-741-3350
+			  - 705-741-3351
+			  - 705-741-4637
+www.trentu.ca
+
+University of Ottawa/Université d'Ottawa (Ottawa) - 613-564-3225
+			                          - 613-564-5926
+www.uottawa.ca
+
+University of Waterloo (Waterloo) - 519-725-5100
+		                  - 519-725-1392
+www.uwaterloo.ca
+
+University of Western Ontario (London) - 519-661-3513
+
+www.uwo.ca
+
+-=
+
+Saskatchewan;
+
+University of Regina (Regina) - 306-586-5550
+www.uregina.ca
+
+-=
+
+Québec
+
+Bishop's University/Université Bishop's (Lennoxville) - 819-822-9723
+http://www.ubishops.ca
+
+Concordia University/Université Concordia (Montréal) - 514-848-4585
+					             - 514-848-8800
+www.concordia.ca
+
+Laval University/Université Laval (Québec) - 418-656-7700
+					   - 418-656-3131
+www.ulaval.ca
+
+McGill University/Université McGill (Montréal) - 514-398-8111
+					       - 514-398-8211
+www.mcgill.ca
+
+University of Montréal/Université de Montréal (Montréal) - 514-733-2394
+							 - 514-343-2411
+www.umontreal.ca
+
+University of Quebec/Université du Québec (Québec) - 514-285-6401
+www.uquebec.ca
+
+-=
+
+- END -
+
+
+-:
+<RJack-45> I want to start screwing a chick, and be all like "oh god, I'm
+           coming!!" and start pissing inside of her, and she'll be like
+           "ohh.. there's so much! You're so warm... er.. wait a minute!" 
+-
+
+-:
+
+          +++              WWW.HACKERSALVAGE.NET               +++
+
+           HackerSalvage.net is a non-profit website dedicated to
+            keeping old hardware in circulation. Many of us have
+           piles of it sitting around but can't just toss it out.
+             Here you can post computer items for sale or post a
+           want ad for items you are looking for. A perfect place
+           to get rid of perfectly good junk.... and get some new
+                         stuff to rebuild the pile.
+          +++                                                  +++
+
+
+
+
+--------------------------.
+ Assaulting Payfones  1.o  \
+----------------------------`-----------------------------------------------.
+                                                                             '
+------------.                                    * * *    c/a    1o-17-oo    :
+ Disclaimah  \                                                               .
+--------------`-------------------------------------------------------------.'
+                                                                             '
+This material is presented for informational and entertainment purposes      :
+only, and to satisfy the curious. Any activities described in this file      .
+which involve vandalism, theft, or any other illegal activities are          .
+recounted from third-party conversations. I do not condone or encourage
+vandalism or theft. I do not accept any liability for anything anyone        .
+does with this information. So, don't shoot the messenger. Remember:
+Looking is one thing, but busting up payfones is ILLEGAL.
+                                                                             .
+
+-------------------.
+ Table of Contents  \
+---------------------`------------------------------------------------------.
+                                                                             '
+                                                                             :
+   [  Removing the Cover  . . . . . . . . . . . . . . . . .  line  32  ]     .
+                                                                             .
+   [  Accessing the Lines   . . . . . . . . . . . . . . . . .     11o  ]
+                                                                             .
+   [  Removing the Card Reader  . . . . . . . . . . . . . . . .   157  ]
+
+                                                                             .
+--------------------.
+ Removing the Cover  \
+----------------------`-----------------------------------------------------.
+                                                                             '
+This is so easy it's almost not worth going into, but people always ask.     :
+I figured this out when I was about thirteen years old and I used a coat     .
+hanger. I'll present the coat hanger method, as well as how to fabricate     .
+a proper key.
+                                                                             .
+= Method #1 =
+
+Take a coat hanger made from very stiff wire and unbend it. You don't        .
+have to do a very nice job of it, you just need a stiff piece of wire to
+work with. I suggested a coat hanger because everybody has one, and also
+for nostalgic purposes.
+
+Bend the coat hanger and pull it across itself, right side in front of
+left, so it forms a little loop at the bottom of the bend. Pull it tight
+until the loop is about 8mm in diameter.
+
+Now form the ends sticking out into a handle of sorts. Be creative. Break
+off any excess wire by bending it back and forth with pliers.
+
+Done. The following diagram may help you, but probably not since it sucks
+to an extreme degree. This is sort of what it looks like anyway.
+
+
+  wire crossed over and       _____  ______
+   formed into a handle -->        \/
+                                   /\
+                                  /  \
+                                 /    \
+                                /      \                *blink*
+                               (        )
+                                \      /                   *blink*
+                                 \    /
+                                  \  /
+                                   \/
+                little loop -->    ()
+
+
+= Method #2 =
+
+Making an actual key is pretty easy too. Get a small sheet of metal that
+is easy to work with and rigid enough to handle some torque. Now cut it
+according to the diagram below. Yeah, this is what shop class is for.
+Important dimensions are noted.
+
+                               _________
+                  handle -->  [___   ___]
+                                  | |
+                5mm wide -->      | |
+                                 _| |_
+    10mm wide x 5mm high -->    |_____|
+
+
+= Doo-be-doo =
+
+Well, that is that. Someone could simply stick their homemade key into
+the hole that looks like this...   _   ..., give it a twist, and pull
+the cover off.                    | |
+                                  | |
+The little loop in the "Coat     (   )
+Hanger Method" is the part        | |
+one would stick in the hole.      |_|
+
+This works on Centurians and the slot is located on the top. Millenniums
+and Fortress Phones both have this slot located on a small panel on the
+front of the payfone, in front of the coin box. I haven't been able to open
+them with the coat hanger method, just twists the hanger up. Perhaps with
+a strong fabricated key and a wide handle for lot's of torque. Or maybe
+you need to unlock the lock located on the side of the payfone first.
+These locks require a real key. Who knows.
+
+When you are finished nosing around, make sure to replace the cover and
+lock it back up.
+
+
+---------------------.
+ Accessing the Lines  \
+-----------------------`----------------------------------------------------.
+                                                                             '
+Again, this is easy stuff. Accessing a payfone's lines really depends on     :
+the payfone and installation. Sometimes you will see the fone-line running   .
+right out of the payfone and across the wall. With pillar-mounted payfones   .
+there is usually a panel on the pole beneath the fone that can be easily
+opened with the appropriate tools. In payfone booths you will also find      .
+panels that can be removed to reveal the line, above or beneath the fone.
+And of course, if you can see the wiring coming out of the top of the
+booth and going up to a pole, it can be accessed there. Regardless of the    .
+installation, if you take a look you will see that a payfone's fone-line
+can almost always be accessed.
+
+Note: Many of the panels spoken of are fastened with "security screws."
+You know those odd shaped screw-driver heads that most people don't have.
+Here in Canada you can find sets of these odd-shaped bits at Princess Auto.
+Scour your local tool and automotive supply stores and you can probably
+find some.
+
+Warning: There are also high-voltage lines running into payfone booths to
+power the booth-light. When messing with electrical lines it is always wise
+to exercise extreme caution. Or better yet, don't mess with them at all.
+
+So, what can be done with a payfone's fone-line? Well, it is possible to
+beige box from at least some of them. Generally works on Paytel COCOTs,
+Millenniums, and probably other COCOTs. Just hook up to the red and green
+wires. (duh) If you don't know what a beige box is... well, it's just a
+regular fone-set with some alligator clips on the red and green wires
+that you can use to patch into a fone-line. Also known as a linemans
+handset. If you still don't get it just do a search for "beige box" on
+the web. It's one of the oldest boxes and the information is everywhere.
+
+Now, a payfone line has four wires in it. Red, green, black, and yellow.
+We know red and green (ring and tip respectively) are used for the voice
+communications, and can be exploited for beige boxing as mentioned above.
+The black and yellow wires are used to control the coin mechanism relays
+and solenoids. If you cut these wires no coins will be returned on calls
+that can not be completed. If the wires are reconnected, and the handset
+is lifted and put back down, the coins will be released. Neat-o. However,
+it sounds far cooler in theory than in practice. This is an old scam and
+your telco likely knows all about it. It is obviously illegal and doing
+this habitually will surely lead to your arrest. Oh, and as far as I
+know this only works on Centurians.
+
+
+--------------------------.
+ Removing the Card Reader  \
+----------------------------`-----------------------------------------------.
+                                                                             '
+     And the Lord said, "let there be little yellow cardreaders upon         :
+     every fone so that the people may go out and harvest the bounty         .
+     wrought of the telcos..." -- XX                                         .
+
+The method covered here applies to Millennium payfones. Now, you really      .
+shouldn't be doing this. Millennium payfones cost several thousand bucks.
+If you are caught vandalizing one, the penalty will be quite heavy. Fone
+companies do not look kindly on people messing up their equipment. And       .
+again, this is all third-hand information. Don't look at me.
+
+A payfone is usually a heavily armored unit with secure mountings and
+impenetrable housings to disuade peoples thoughts of emptying them of
+their silver booty. The Millennium payfone card readers, however, are a
+soft-spot indeed.
+
+Tools required:
+
+   *  Hammer
+   *  Big flat-head screwdriver
+   *  Knife
+   *  A desire to commit a criminal act
+
+Place the head of the screwdriver against the slit at the top edge of the
+card reader. Pound it in a few inches with the hammer. Apply downward force
+on the handle of the screwdriver until you create a large enough gap to fit
+the claw of the hammer in there. Insert the claw of the hammer into the gap
+with the hammerhead facing up. Yank hard on the hammer in an upward dir-
+ection using the front of the fone as a fulcrum under the head of the
+hammer. The yellow faceplate will come off, either with or without the card
+reader attached. If it's not still attached to the yellow part you can just
+reach into the hole and pull it out. Use the knife to slash the ribbon
+cable or just yank really hard until it disengages from either the reader
+or the mainboard in the payfone.
+
+At this point the payfone might be quietly going beedley-boop-beedley-boop
+and displaying some message on the screen about re-inserting your card or
+something. Not an alarm, just an error notification. It is not known if
+this causes the payfone to fone home for help. Probably not, since the
+error on the screen seems to indicate that the fone thinks there is simply
+something wrong with a card in its slot... which it no longer even has. Go
+figure.
+
+It has also been noticed that when missing card readers are replaced by
+the telco, reinforcements are often added to prevent them from being
+emancipated again.
+
+The card reader is an American Magnetics (www.magstripe.com) Model # 171.
+It has both a magstripe reader and a smartcard reader/writer. Exactly how    .
+these card readers can be interfaced with a PC is a story for another day.
+
+Play safe. And if you ever happen to catch yourself vandalizing payfones,    .
+call Crime-Stoppers at 1-800-222-TIPS... That's wun-aight-zee-row-zee-row-
+too-too-too-aight-phore-sebbin-sebbin. Jeah.                                 .
+                                                                             .
+                                                                             ;
+----------------------------------------------------------------------------'
+
+
+                                                           .   '
+                                                        .    .   '  `
+        ,;;%$$$%%%&;,.                             '  (   .         , )
+     ,&$$$&$&$$L.`'"4%%&,.                       . .   `       *   ,    )
+    &$$&$&$&$$$$$$&;, `"&%%&,.                 .  (       .          . ,
+   &$&$&$$&$$$$$$$$$$$%, `"&%%%&.             (    (   '           *     `
+   %&$&$&$$$$$$$$$$$$$$$&;, `"&%%%&.           ` .  `(    . * `  *, ` '   )
+   $$&$&$&$$$$$$$$$$$$$$$$$$&, `"&%%%&.         (     ` .          )    )'
+   `$$&$&$&$$$$$$$$$$$$$$$$$$$$&,  `"&%%&.       `(    (    .*  `  ` ) '
+    `$$&$&$&$&$$$$$$$$$$$$$$$$$$$$%;, `"&%%&.      `   .   (      * ' .
+      `$$$&$$$$$&$$$$$$$$$$$$$$$$$$$$$&, `"&%%&.      `     `   @  * '
+        `&$$&$&$$$$&$$$$$$$$$$$$$$$$$$$$$&, `"&%%&.     `(  @ *  *  .
+          `"$$$&$&$$$&$&$$$$$$$$$$$$$$$$$$$$&, `"&%%&.     *   . @ *
+             `:$$$$$&$&$$&$&$$$$$$$$$$$$$$$$$$$&, `"&%%&.   ` @ *  )
+                `"&$$$$$&$&$&$$&$$$$$$$$$$$$$$$$$$&, `"&%&.    . @.
+                    `"&$$$$&$&$$&$$&$$$$$$$$$$$$$$$$$&, `"&%&.  `*`'
+                        `"%$&$$&$&$$$&$$&$$$$$$$$$$$$$$$&, `"&&. '" _
+                            `"&$$$$$&$&$$$&$&$$$$$$$$$$$$$$&, `"&.'/ :
+                                 `"&$$$$$&$&$&$&$&$$$$$$$$$$$$&, `'. :
+                                      `"&$$$$$$$&$&$&$$$$$$$$$$$$&, `\
+                                           `'"&$$$$$$&$&$$©$H$C$$$$$&;
+                                                 `'"&$$$$$$$$$&$$&$&$$
+    CRA$HING DOWN THE TELEC0M INDU$TRY                  ``'"&%$$$$$$%'
+                                                               ``\``:
+         { one payfone @ a time }                                 \_:
+
+ 
+
+--:
+
+
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+                               Credits:
+
+I would like to give credit to the following people for helping with this
+issue of K-1ine - if it wasn't for you guys I don't think this issue would
+                        of been released...
+
+   Anonymous, Seuss, and of course myself... what, can't
+   a guy give himself a pat on the back for hard work? ;-)
+
+And how... 
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+
+Articles are ALWAYS welcomed. If you have something you'd like to
+see on this zine, feel free to send me an e-mail. Even if you're worried
+that the article is "lame" or "isn't technical" or something like that,
+send it anyways. Remember; everyone has something to offer to the scene.
+			   Show your support.
+
+-:
+
+Shouts:
+
+Hack Canada and Haxordogs, #CPU, k-rad-bob @ b0g, Blackened @ Damage Inc.,
+The Grasshopper Unit, Pyrofreak, and lastly to everyone and anyone who
+        	   contributes to the Canadian H/P scene.
+
+
+                              ;.  .;..  ; ;. ;..
+                           ;..   .;..; .;.; .;; ;..
+                      .;..;. .;..;  .;.;...; ;..;..
+                         .;.         A         .;. .;.
+                       ;..   N E T T W E R K E D  ;..
+                        ;..;.. P R O D U C T   ;..;..
+                          .;..;               ;..;..
+                     ;  .;..;.;..   .; .  .;. ..;..
+                    .;..   . .;  ..;..;..;.. .;
+                ;..;.   .;.. . .;.. .;.;.
+              ..;. ..;.. .;.   ;.;..;;..;.;
+		;.;;..;..      ;.;.; .; .
+		   ;.;..;. .;. ;.;:.;.
+		     ,;....;.
+               .;.;. .;.;
+              .;.;.;
+            .;.;
+            ;..;.
+             .;.;
+               ;.; .;. ..; ;. > > > blip blip blip...

@@ -1,0 +1,1082 @@
+  k-22-(10)-01
+
+  OoO=o=oOO=o=O=OoO=o=oOO=o=O=OoO=o=oOO=o=O=>
+      OoO=o=oOO=o=O=OoO=o=oOO=o=O=OoO=o=oOO=o=O=>
+                               OoO=o=oOO=o=O=>
+  :    -`-             -`-      OoO=o=oOO=o=O=>
+  ;  _|_--oOO--(_)--OOo--_|_      OoO=oOO==OoO=o=oOO=o=O=>
+     |   ¡ K-1ine Zine !   |      OoO=o=oOO=o=O=>
+      ! issue 22, volume 10¡      OoO=o=oOO=o=O=OoO=o=oOO=o=O=>
+         ---------O^O----        OoO=o=oOO=o=O=OoO=o=oOO=o=O=>
+  ;.              |__|__|       oOYourO=oO=oOO=MotherooOWas=oA=o=O=>
+                    || ||       OoO=o=oOO=oBullfrog!=O=OoOOO=o=O=OoO=o=oOO=o=O=>
+              ooO Ooo          OoO=o=oOO=o=O=OoO=o=oOO=o=O=OoO=o=oOO=o=O=>
+                          OoO=o=oOO=o=O=OoO=o=oOO=o=O=O=o=ooO=o=>
+  
+     ;`-.> December 2001 <=o=O=o=O=o=O
+
+   
+         'Give Us A Break'
+
+
+     Das machine is nicht fur gerfingerpoken und mittengrabben.
+     Ist easy schnappen der Sprinngwerk, blowenfusen und
+             poppencorken mit spitzensparken.
+    Ist nicht fur gewerken by das Dummkopfen. Das rubbernecken
+            sightseeren keepen hands in das Pockets.
+             Relaxen und watch das blinkenlights...
+
+_____________________________________________________________________________
+
+» .- Words from the Editor -. «                                              |
+
+*: [-] Introduction .......................................... The Clone    :*
+*: (-) Contact Information ................................... The Clone    :*
+*: (-) Advertisment .......................................... HackerSalvage:*
+*: (-) Link of the Month ..................................... The Clone    :*
+*: (-) K-1ine Mirrors ........................................ The Clone    :*
+*: (^) NEWS: For All Hack Canada Writers ..................... The Clone    :*
+____________________________________________________________________________
+
+» .- Documents -. «                                                          |
+
+*: (x) 'Exploration of Wireless Networks' .................... Magma/TheP0pe:*
+*: (x) 'Advanced Loop Line Analysis' ......................... Phlux        :*
+*: (x) 'TTY.TXT (canadian (telus, namely) prespective)' ...... Phlux        :*
+*: (x) 'OFFICIAL DATU DOCUMENTATION' ......................... The Clone    :*
+*: (x) 'The Canadian Test Number Compilation' ................ The Clone    :*
+_____________________________________________________________________________
+
+» .- Conclusion -. «                                                         |
+
+*: [-] Credits ............................................... The Clone    :*
+*: [-] Shouts ................................................ The Clone    :*
+_____________________________________________________________________________ 
+
+
+
+  Introduction -
+
+  Welcome to the newest issue of K-1ine... issue #22. We have a bunch of great
+  article compilations for your liking. Take the time to read through them,
+  and don't forget to submit something - you might just be in the next issue.
+  
+  I hope you enjoy this issue... see you next month, see you in 2002!  
+
+ -->
+
+Contact Information;
+=-=-=-=-=-=-==-=-=-=
+
+Comments/Questions/Submissions: theclone@hackcanada.com
+
+On IRC: irc.2600.net - #hackcanada, #cpu (key)
+
+Check out my site: (Nettwerked) http://www.nettwerked.net
+
+-->
+--
+
+                             -- Advertisment --
+
+          +++              WWW.HACKERSALVAGE.COM               +++
+
+           HackerSalvage.com is a non-profit website dedicated to
+            keeping old hardware in circulation. Many of us have
+           piles of it sitting around but can't just toss it out.
+             Here you can post computer items for sale or post a
+           want ad for items you are looking for. A perfect place
+           to get rid of perfectly good junk.... and get some new
+                         stuff to rebuild the pile.
+          +++                                                  +++ 
+
+ --
+
+
+--=[ LINK OF THE MONTH ]=--
+
+ Every month I post one really great "link of the month" on every issue
+ of K-1ine magazine. The link can be anything in the technology industry,
+ music scene, rave scene, punk scene, or even a good article you read on a
+ news site. I'll be taking submissions via e-mail or IRC right away;
+ so get your links in and maybe you'll see it in the next issue of K-1ine!
+
+ For the month of December, the link of the month is:
+
+	    https://www.nsacom.net:1952/txt/Website_Mirrors/
+         Mirrors of L0pht, Nettwerked, and other neato sites!
+
+[submitted by: The Clone]
+
+--
+
+K-1ine Mirrors:
+
+        http://the.wiretapped.net/security/info/textfiles/k1ine/
+
+
+"Wiretapped.net is an Australian site offering an archive of open
+source software, informational and advisory textfiles and radio/conference
+broadcasts covering the areas of network security, network operations,
+host integrity, cryptography and privacy. We aim to become the largest
+archive of this nature in the Asia/Pacific region through steady growth
+of our archives and regular updates to them (most updated nightly).
+We are proudly telehoused on a 10Mbit/sec connection by Connect.com.au using
+OneGuard hardware donated by eSec Limited. The archive, along with its
+sister site on the same machine, The AusMac Archive, generates between 10
+and 60 gigabytes of outbound traffic daily. Wiretapped.net is hosted in
+                        Sydney, Australia."
+
+--
+
+  NEWS: For All Hack Canada Writers
+
+
+ I thought I'd advertise this in my zine, just incase you haven't already read this on
+ Hack Canada. A crook by the name of Dale K. Kubin has outright stolen every file from
+ Hack Canada (files that have been written by a dozen or so authors) and put them in a
+ couple of "hacking" books. This isn't about information sharing, or helping to get the
+ word out about talented hackers/phreakers. This is just a case of some greedy asshole
+ who decided he could make money by stealing files that WE (the underground community)
+ have worked countless hours on.
+
+ If you want more information, please read what Cyb0rg/ASM had to say:
+
+                   http://www.hackcanada.com/hackcanada/mistake.html
+
+--
+<Flopik> im a drunk pony
+--
+
+
+          Exploration of Wireless Networks Using the 802.11b protocol
+
+ It seems that the new thing in the underground is breaking into various systems via a
+ wireless connection. This is so because the wired equivalent protocol (WEP) has, especially
+ recently, been shown to be flawed. What WEP attempts to do is deliver an infrastructure that
+ makes it harder to "plug in" to the wireless network. Picture a corporate LAN with ethernet
+ jacks every meter along the walls. This is what WEP actually accomplishes :) Also remember
+ that wireless networks reach beyond the area they are meant to service, so not only are there
+ ethernet jacks every meter along the walls, they go down the street a few blocks as well.
+
+ WEP protects a network using a 40/64-bit or 128bit key. When wireless network was still in
+ diapers security was not a priority, walking was. Some of WEP's problems stem from mistakes
+ in the algorithm. WEP has addresses that can be forged. /* here, it's not WEP that's at fault.
+ 802.11 emulates a standard ethernet in a wire-free form, and as part of the 802.foo specs,
+ there are MAC addresses that are a part of the level 2 protocol. these are in theory spoofable,
+ but in practice it's not always as easy. There are genuinely few cards that allow you to change
+ the mac address, and out of those that do, sometimes (this is the case with wavelan based cards,
+ such as the AIRport and Lucent cards) at the -hardware- level it get's blocked by the card itself.
+ For the wavelan based cards, there exists a firmware patch that lucent will only release under strict
+ NDA and licensing that will enable the cards to broadcast level-2 packets that contain source addresses
+ -other- than their hard coded address. */and lastly, the encryption key or keys must be shared by all
+ the users on the same network. This most of all reduces the security level of the network, as the -same-
+ key get sent out repeatedly and once you get the key, there is nothing in the way except for possible
+ encryption at level's 3 or 4.  
+
+ When a wireless network is being created most people either do not test the placement of the base
+ station(s), or do not take into account such things as brick walls that block the signals, or large
+ metal plates that may reflect the signal Or the park bench down the street that for some reason, the
+ packets fly by.
+
+ Now that you are interested in this subject you first need to know how to access these magical wireless
+ networks. The first thing you will need is a computer with 802.11 compatibility. Laptops are always
+ preferred, for the obvious reasons, and keep in mind that there are different revisions of the 802.11
+ specification. The original spec called for 2mb/s and no WEP. The next level, 802.11c introduced WEP and
+ 11mb/s, and with 802.11b we saw 128 bit keys for WEP. There is a new spec coming online now, 802.11a.
+ This will allow 54mbs sans-fils, although I believe it offers no improvements to the WEP feature.
+ As of this writing (fall 2001) there is just one company producing these new cards, with others promised
+ for the near future.
+
+ Before we get into the fun parts, there are a few things that I think you should know about if you want
+ to have FWNW (Fun With No Wires, watch out, it's addictive), and that is simply a little about the structure
+ of the layer-1 802.11 packets. These packets are remarkably similar to low-level ethernet packets, but with
+ additions for ESSID (Extended Service Session ID), encryption (by WEP), and Station names, which are different
+ than MAC addresses in that they are strings, as opposed to a series of hex digits. These an also be duplicate,
+ and quite often base stations (or access points, whatever) have the Station name set the as the ESSID, for
+ simplicities sake. So, you have to remember that each network broadcasts using the same Session ID, and that
+ each station is assigned a Station ID. Normally ESSID's are manually assigned, using whatever tool your OS
+ supports. One neat thing though is that the 802.11 spec says that if there is no ESSID set and the interface
+ transmits or receives a packet, then the card is to use whichever ESSID it finds first. If the card gets reset
+ (you can force resets via software), then it looks for another ESSID, and failing that, falls back on the old one.
+ At this point light bulbs should be going off in your head, as this is the basis of wireless network scanning.
+
+ There are multiple ways you can go about looking for these networks, either by using one of the pre-made pieces
+ of software such as AP Scanner, which runs on Apple (used and recommended by Magma). I know there are a few of
+ these on freshmeat, graphical and/or console. Or,if you are like me then you could just write your own in perl.
+ I'll give you some tips and a simple script at the end of the file. Lots of the wardriving (or warbiking, or
+ warwalking) sites stress that you need an external antenna, and I'd like to say that while helpful, they are
+ hardly necessary. Most of the time when I'm scanning, I'll be walking around with my laptop in my backpack,
+ and a headphone running to my ear for output from the scanner. I personally own an iBook, and these have an
+ omni directional antenna which has some front-back tendencies (the signal goes more forward and backwards than
+ side to side), and it works fine. Now, if you are in a car, it's a bit different, as you are traveling at a
+ higher velocity, and (in most cases) farther from the buildings. Although I must say that I have used my laptop
+ sans antenna from a moving car, and it does work, just requires a bit more planning in the placement of the laptop.
+
+ For the most part, to get online via an 802.11 it's quite easy for the simple reason that most people either
+ forget or forgo a WEP password for whatever their reason may be. If this is the case you can simply assign the
+ discovered ESSID or have it automatically set for you, and then your card will begin catching the desired packets.
+
+ /* I don't know about this section as much, as I haven't done too much with wep
+    cracking. I'm just rewriting this part for clarity :) */
+
+ If there is WEP in the picture, things change somewhat. Some of the more advanced scanners (I'm not sure if there
+ are any free ones that do this, I know the scripts' I've written and seen don't do this) will report ESSID's for
+ networks that have WEP enabled. If this is the case, then you can just make a brute force cracker, but this can
+ take a while as passwords can run into quite a few characters long. Fortunately, as we know, WEP is insecure.
+ The theories for cracking it have been around for quite some time, and in the past few months people have released
+ software (some commercial, some freeware/GPL with names like Airsnort and WEPcrack) that does it at the click of a
+ button. The only prerequisite for most of these pieces of software is large amounts of data to fool with. You need
+ to gather packets at the site in question for periods of time ranging from minutes to hours. Also, most of the already-
+ written crackers are dependent on specific wireless chipsets, like the prism2 chipset. Depending on your situation,
+ this may or not be a problem. If the target network is located at a public library or a coffee shop, then you would
+ have no problem staying there for hours at a time. If the network is located on a busy downtown street, then your
+ options are more restricted to things such as walking back and forth multiple times a day, compiling the packet logs
+ over a period of weeks, or even months, or even just sitting in there stairwell for a few hours. The software will
+ then analyze the packet logs and try to guess which packets have encoding problems, that is, the sources of randomness
+ (SYN numbers, TCP flags) weren't computed as well as they could have been. I don't have much experience with this
+ personally, because none of the networks I've found so far have had WEP activated :). And never forget of course the
+ time honored traditions of brute forcing and guessing. It's easy, just use perl, and apply the same steps as mentioned
+ for collecting data. The key is for these things is that you don't have to be connected all the time, you could, for
+ example, take a detour on the way to work each morning and wander around the building the target network is located.
+ Or even just walk past it. If it's a busy network, there will be plenty of traffic, even for the few minutes it takes
+ you to walk past. And remember that 802.11 is a level 2 protocol, so all the dns queries, arp queries, WOL (wake on lan),
+ things like that are always floating around out there, just waiting for an antenna.
+
+ There are many opinions on the ways you can actually go out and find networks, and I'm going to go over a few just to
+ give you some inspiration. First off, humans have been graced with two feet. They are very useful. Personally, I prefer
+ to do all my packet hunting on foot, as this allows you to get the closest to the networks themselves, or to go inside
+ and hide in a stairwell at a moments notice. As far as user interface goes, my scripts so far have used audio output,
+ and I wear a headphone in one ear while I'm scanning. Using speech synthesis, the scripts let me know what's going on.
+ There are of course numerous disadvantages to this. It's slow, you can't cover nearly as much ground as most other methods,
+ and it can be suspicious looking (try walking downtown with one headphone in your ear and holding a directional antenna
+ made from a tomato juice tin and an old nintendo zapper, with it's lead running into your backpack, and you'll know what
+ I mean). But if you don't own a car, and you don't always carry around external antennas (*wink*) then this method is
+ pretty much the most anonymous of them all. You're just another monkey with a backpack, one of hundreds out there...
+ The next most popular method (and the one with a catchy media term) is using a car. In your car, you can be warm, and
+ you can interactively use the computer while you comfortably sit down, not exerting your legs at all. One thing I've
+ noticed is that it really really helps to have an external antenna while doing this, as you are traveling at a higher
+ velocity and the networks are in general farther away. This isn't to say that you won't pick up any networks, you just
+ won't pick up as many.
+
+ Sniffing packets as they go by or using software to find Base stations is a passive attack meaning that you don't leave
+ a trial. This also means that the admin on a system cannot what you are doing. However, once you connect to a network you
+ leave behind the MAC (same as on a wired LAN)address of your wireless card. In theory if you cause substantial amounts of
+ damage you could be tracked down through it (buy your 802.11 card using cash, kids). You've been warned but do keep in mind
+ that this scenario is not very likely to happen, as it's quite resource intensive.
+
+ /* :( dos is silly.*/
+
+ Just when you thought you have heard the last of Denial Of Service attacks. Yes, you can do such a thing to a wireless
+ network. Due to the nature of radio transmission wireless networks are very prone to denial of service attacks. If you
+ really wanted to crash a network and had a powerful enough transceiver you could easily create enough interference that 
+ the wireless network would be unable to communicate. This kind of attack can be done from a somewhat remote location for
+ example in an apartment on the same block as the network. If you are or know someone that is well versed in short-wave 
+ radio you should have no problem in creating such a mess. At a reasonable price too. There is a much simpler way to cause
+ the same effect of a somewhat smaller scale. I'll use my ibook as an example. The software that was shipped with my ibook
+ allows me to use my ibook or another computer with a wireless card as a software base station. What this means is that 
+ I can use it as an access point without buying a base station. This is an option for some people that only have two wireless
+ cards but lack a hardware base station. So now you know why Apple ships this software. The wonderful thing is that when
+ I activate my ibook as a software base station and walk into any area that has a wireless network, I'll use a university for
+ this example. It causes everyone within 150 feet (the distance increases when you can an antenna) to try to connect to me
+ rather then the network the university has. This is done because most people will connect to the access point with the
+ strongest signal. Of course my signal will be stronger if I'm right beside you. As you can see this will cause people to not
+ be able to access the information they are seeking. As soon as I leave the area all will be fine.
+
+ This large gap in security may not be around for too much longer. Under development are new versions of both WEP and 802.11b
+ protocols that will include stronger security features such as personal password. This may mean new hardware for those
+ currently operation wireless networks, or it may come in the form of software patches. However, these features will not be
+ released until mid-2002 at best.
+
+ In the meantime, there are other options out there, ranging from IPsec to other things involving dynamic interactive
+ firewalls, to only using ssh and remote X on your machine :)
+
+  - Magma (www.ghu.ca)
+  - The_p0pe
+
+  11/26/2001
+
+
+ --
+
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+ Advanced Loop Line Analysis
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+by phlux : phlux@fucktelus.com
+
+
+__________
+Disclaimer: If you perform any of the acts described in this text you
+            may die. (and i will not be held responsible)
+
+
+   ______________________________________________________________________
+  /        _____________                                                '
+           Introduction;                                               /
+/                       
+_____________________________________________________________________/
+
+This file pertains to Loops in the form of wiring, commonly called 
+a pair, the twisted pair, or just the "line" and/or "phone line".
+
+Normally Analyzing a loop requires a 250$ multimeter from Radio Shack
+with a serial cable(phlux style anyways), or a toner/probe set, 
+and other tools, which are usually expensive.
+
+One can easily overcome this with a telephone patch cable, or even just
+an RJ-11 mod(female) jack(jill?) on your wall.
+
+By simply touching the ring(red) and tip(green) wires on your tongue,
+a short is created, and your tongue is the load in some sense. If the
+pair that you analyzed is onhook, you will feel a zap, and the area of 
+your tongue that you electrocuted will be numb for a bit.
+
+When a line is idle (onhook) there is generaly 40~volts across ring and 
+tip, and you will learn to 'taste' this.
+
+If an extension on the pair is off hook, there will generaly be around
+9~ volts on the pair. There is only a mild sensation (on my pair anyways)
+much like licking a 9 volt battery at full capacity.
+
+You will easily be able to tell the difference as to wether or not your
+line is idle or not, by the self inflicted electrocution. With a powerful
+short, your reflexes act faster then your hand, and your head will pull
+back as you remove the wires/mod jack from your tongue. Keep this in mind
+when licking raw terminals from an open baseboard style mod jack setup.
+(with 2 lines and 4 terminals in those little plastic boxes, this can
+ be a challenge.)
+
+This technique is also good for testing the integrity of Radio Shacks
+"WebLock Phone Lock" part #279-8511 where there is a single female mod
+jack on a surface wall mount plate with a physical key lock as the
+on/off switch. If it is determined that there is no current, one can 
+quickly unscrew the cover and rewire.
+
+I find this technique a lot faster then most conventional methods, and 
+therefore it is suited for the field.
+
+One thing you need to keep in mind is that the voltage across the pair
+when the line is being rung, it is around 90volts. If you were just
+touching a pair with 90 volts going through, i'm sure you would be fine,
+however your tongue is a better conducter then your skin.
+
+ASCII diagram of a tongue and the taste buds(guideline):
+(grade 7 science rules!)
+ 
+ |xx         xx|
+ |xx         xx|
+ |xx         xx|
+ |##         ##|
+ |###       ###|
+ 'S#         #S
+  'SSSSSSSSSS'
+      ' - '
+Legend:
+the "x" 's denote taste buds that are sensitive to sourness
+the "#" 's denote taste buds that are sensitive to saltyness
+the "S" 's denote taste buds that are sensitive to sweetness
+
+The middle portion of the tongue (Fillform papillae) are sensitive to
+sour flavors. 
+
+Personally i found the # region of the tongue to be the best portion to 
+electrocute as it's not as sensitive as the very tip or frontal portion of 
+the tongue. Keep this in mind if you don't want your tongue numbed...
+(it really isn't that bad) A spare 9v can serve as practice.
+
+
+   ______________________________________________________________________
+  /        ___________                                                  '
+           Conclusion;                                                 /
+/                       
+_____________________________________________________________________/
+
+Licking a twisted pair and not a mod jack(if you do, make sure it's a
+male one fag) allows for more control over the electrocution.
+When you get good you will be able to grab any pair/patch/mod
+and check its state and you may wonder how you did without.
+
+_____
+Notes:
+-Avoid analyzing mod jacks, as it's harder to press your tongue into
+ the slits, stay away from female mod connectors(resist!)
+
+-Avoid analyzing foreign pairs as a ring could be fatal.
+
+-During analysis, always avoid using the tip of the tongue.
+
+-Stay away from digital lines, if in doubt the multimeter ye shall
+ bust out.
+
+_______________
+Extra Curicular: 
+-Lick a toll stations pair
+-Lick your girlfriends pair
+-Lick a pair while pulse dialing
+
+
+12/01/2001
+
+
+-
+
+
+	TTY.TXT by phlux (canadian (telus, namely) perspective)
+
+phlux@fucktelus.com
+
+-=TTY Basics
+  -Your First TTY call
+  -Using a TRS payphone
+
+-=TTY Payphone Locations
+  -Alberta
+  -British Columbia
+
+-=TTY Benefits
+
+TTY isn't something every phreak needs to concern themselves with, its quite
+simple, but at the same time it can definately be useful to know how to use
+one, as there are Telus millennium payphones equiped with TTY keyboards.
+This will save you lots of money if your constantly paging the fuck out of
+someone because they dont know how to turn on theyre fucking cellphone.
+
+Local TTY calls placed through TRS (711) are free.
+Long distance is charged 50% off the regular rates.
+
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+                                                ;
+I'll let Telus explain they're TTY relay service;
+                                                ;
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,'
+
+A person who is deaf, hard of hearing or speech disabled uses a TTY to type
+his / her conversation to a Relay Operator who then reads the typed
+conversation to a hearing person. The TELUS Relay Operator then types the
+hearing person's spoken words back to the TTY user. 
+
+So an operator relays what you type, pretty much. You can use your modem and
+a terminal program (i recomend Super Terminal by super voice for windows,
+minicom for linux) and use the service, or you can purchase TTY hardware
+(a tele-typewriter) which can be acoustical. Check ebay.
+
+-
+Important TTY terms+definitions.
+TRS=Telus Relay Service
+TTY=Teletypewriter
+TDD=Telecommunications Device for the Deaf (now defunct, use TTY)
+CA=Communications Assistant
+GA=Go Ahead
+SK or SKSK (stop keying, do this before you disconnect)
+q=? Due to incompatability issues, the letter q is used to denote a question
+    mark.
+
+VCO=Voice Carry Over(VCO enables you to speak directly to the person you are
+calling, for hearing impaired people who can speak clearly. When you connect
+to a CA, just say 'requesting VCO, GA' or equivelant to use this feature) VCO
+can only be turned on when the call is answered, to which she will announce
+'VCO on GA' or something.
+
+HCO=Hearing Carry Over(you can hear but can't talk, same as above but reverse.)
+
+When using the service, common abbreviations will be understood by the CA:
+PLS=Please
+GA=Go Ahead
+NBR=Number
+OPR=Operator (or CA)
+DA=Directory Assistance
+ASAP=As Soon As Possible
+MSG or MSGE=Message
+PPL=People
+-
+
+,,,,,,,,,,,,,,,,,,,
+Your first TTY call:
+Any old modem will do, use SuperVoice for windows(it can transmit baudot i
+believe) of you can just use minicom in linux, all you need is a minidistro,
+so you can dedicate a vintage computer to the task of TTYing quite well.
+
+Use the modem string: ATDT711
+This will dial 711 using DTMF.
+
+If you want, you could set your modem to auto answer incoming calls, and if
+any are TTY you can connect and talk...
+Extra Fun: setup a baudot TTY BBS :P
+
+With most TTY devices there is an LED on them somewheres that blinks to
+signify ringing/busy.
+
+,,,,,,,,,,,,,,,,,,,,
+Using a TRS payphone:
+
+The only TTY payphones i have seen are Telus Millenniums, which have a keyboard
+mounted under the booth where the phone book would normaly be. You will most
+likely only find TTY payphones indoors for obvious reasons. Keep reading for
+Alberta/BC TTY payphone locations or just goto an airport, bus depot, or any
+other place that caters to lots of people.
+
+There is 2 wires coming out of the TTY keyboard, one white, one black.
+This most likely means the TTY keyboard is non dependant of the millennium,
+to test, try splicing into these 2 wires and hooking up your test set.
+If you get a dialtone, you can unscrew the 6 screws holding the keyboard
+to the booth for a free TTY. Do not do this.
+
+When a TTY call is inititated on a TTY payphone, the keyboard will open,
+watch the LED to see ringing. The keyboard will close upon disconnect unless
+a key is pressed to keep it open.
+
+If you want to annoy someone during a voice call, press the * key 3 times and
+the payphones voice will say 'TTY call, use text telephone' 
+Anyone know how to change the TTY call alert message?
+
+
+If you are from a standard payphone, or any phone for that matter, you can
+call 1 800 855 0511 and a TRS CA will ask the number of the TTY user you wish
+to call.
+
+Avoid speaking after the operator has said 'go ahead'. TTY operators are just
+there to relay, you cannot talk to them(trust me).
+Also they MUST relay everything you say. You can instruct them to spell stuff
+like fear 'ph33r'. You can talk about phreaking telus, or whatever, they just
+relay it all... Don't talk too fast because remember the op has to type it all
+
+If you've used CB or any kinda radio you shouldn't have a problem with the
+relay service. It's just half duplex, so remember to tell the CA GA when you
+are done.
+
+_____________________________________
+
+Locations of TDD payphones (Alberta):
+_____________________________________
+
+EDMONTON 
+
+Alberta Vocational College 
+10215 - 108 Street 
+5th Floor 
+
+Bonnie Doon Mall 
+East Entrance 
+
+Capilano Mall 
+North Entrance 
+
+City Hall 
+Main Entrance 
+
+Law Courts 
+Main Floor 
+
+Edmonton Centre 
+Food Court 
+
+Edmonton Transit 
+University LRT Station
+Hub Mall Transit Entrance 
+
+Grant MacEwan Community College 
+Millwoods Campus 
+
+Greyhound Bus Depot 
+10324 - 103 Street 
+South by A & W 
+^-look for the blue and white TTY signs depicting a handset
+  ontop of a keyboard.
+
+International Airport - Terminal 
+Departure area, North 
+Arrival area, by elevators 
+North Holdroom 
+South Holdroom 
+Transborder 
+International Holdroom 
+Canada Customs 
+
+
+NAIT 
+Main Entrance 
+
+University of Alberta 
+SUB by elevators, across from bookstore 
+
+CALGARY 
+
+International Airport 
+Departures 
+
+Canada Customs, Arrivals 
+Concourse A by Duty Free Shop 
+Concourse D 
+Concourse D 
+Concourse D 
+Arrivals, Main Terminal 
+Concourse C 
+Concourse B 
+Greyhound Bus Depot 
+Public Waiting Area 
+BANFF 
+
+Brewster Banff 
+100 Gopher Street 
+
+_________________________________
+
+And for BC TTY payphone locations:
+_________________________________
+Kamloops
+Airport 
+
+Near ticket counter 
+Kelowna
+Airport 
+
+Departure area 
+Port Hardy
+Port Hardy Airport 
+
+Prince George
+Airport 
+
+LH Side of main front doors 
+Vancouver
+Vancouver International Airport 
+
+International Terminal - Level 3 East Chevron, Gate EC2 
+International Terminal - Level 3 East Chevron, Gate EC3 
+International Terminal - Level 3 East Chevron Gate EC5 
+International Terminal - Level 3 East Chevron Gate EC8 
+International Terminal - Level 3 East Chevron Gate EC9 
+International Terminal - Level 3 East Chevron Gate EC10 
+International Terminal - Level 3 East Chevron Gate ECII 
+International Terminal - Level 3 by Gate D56 
+International Terminal - Level 3 by Gate E91 
+International Terminal - Level 3 by Gate E75 
+Domestic Terminal Level 3 Wall by Gate 34 
+International Terminal - Level 3 Inside North entrance 
+Domestic Terminal - Level 3 Opposite Gate C37 
+Domestic Terminal - Level 3 Pillar centre 
+Domestic Terminal - Level 3 South end by bank ATM 
+South Terminal Building - Level 1 Arrivals at rear 
+International Terminal - Level 3 Inside hotel entry East 
+International Terminal - Level 3 Inside hotel entry West 
+Domestic Terminal - Level 2 escalator North side 
+International Terminal - Level 3 By Gate D54 
+International Terminal - Level 3 Int’l check-in by staff elevator 
+Domestic Terminal - Level 3 link by washrooms 
+Domestic Terminal - Level 3 by washrooms Gate B16 
+Domestic Terminal - Level 3 by washrooms at Gate A5 
+International Terminal - Level 2 behind escalator 
+International Terminal - Level 3 by Gate D52 
+Victoria
+University of Victoria 
+
+University Centre – Lobby 
+McPherson Library – Lower level 
+Business and Commerce – Level 2 
+Human and Social Development – 2nd Floor 
+Camosun College 
+
+Landsdowne Campus: Parking lot – Lansdowne entrance; Fisher Building – Lobby 
+Interurban Campus: Parking Lot #6; Campus Centre – Lower level 
+Royal Roads University 
+
+Adult Ed Centre – Building 2 
+Victoria International Airport 
+
+Lobby 
+BC Ferry Corp – Swartz Bay 
+
+Coffee Shop - North entrance 
+
+Note: TDD Payphone Locations are subject to change.
+
+
+I don't know how updated that list is... you could probably phone 711 and ask
+if theres one in your area.
+
+______________________________________
+So what are the benefits of using TRS?
+
+I have verified that local TTY calls through TRS are toll free, even from
+payphones. For extra curicular: Use a computer, a 386 with minicom+2 modems
+is all you need. Have 2 TTY ops talk to eachother on a loop. The TTY ops will
+know theyre relaying to one another, and they must wonder why the two TTY users
+ aren't just calling eachother direct. The joy of this is obvious.
+ (telus lesbian TTY phone sexor!)
+
+ TTY can be very anonymous, your voice cannot be used in biometrics and that
+ shit. You can specify male or female operators if you really want.
+
+ This is good for having a TTY op set your voice mail/pager greeting, or
+ whatever else.
+
+ I would like to try having TRS dialup a simple text only BBS.
+ Perhaps as a little service for phone phreaks, one could make a TTY
+ on a spare line accept calls that would announce recieved ANI/Caller ID,
+ it would perform line tests, anything.. could be fun.
+
+TTY is somewhat secure, if its your mom trying to listen in on your call
+and she hears modem like tones and thinks your on the internet or something..
+Could also be fun, but REMEMBER (baudot is carrierless.. no more NO CARRIER)
+
+TTY is a service intended for the hard of hearing and speech impaired.
+There isn't as many TTY ops as there is TSPS. Do not abuse this service.
+By all means experiment with it, but don't do anything malicious.
+
+TTY supports Baudot code, ASCII and in some places turbocode.
+Approx. 95% of calls through relay services are in Baudot. 
+
+According to a .html i had backed up on a CD, the speed for baudot
+is 45.45baud (north america) speeds and protocols vary if your foreign.
+
+Questions about the telus relay service? Direct them to telus.relay@telus.com
+
+Keep on the lookout for future TTY projects..
+I am working on some simple code to emulate baudot, perhaps an add-on to
+the Hash project; www.hackcanada.com/hash.txt
+
+-phlux
+ phlux@fucktelus.com
+SKSK.
+
+11/30/2001
+
+
+--
+
+
+			 	OFFICIAL DATU DOCUMENTATION
+
+
+  Date: Fri, Nov 23, 2001
+  Typed Up By: The Clone
+
+  E-MAIL: theclone@hackcanada.com
+     URL: www.nettwerked.net
+  
+ --
+
+  Reference Image: http://www.nettwerked.net/DATU/DATU1.jpg
+
+ 1  DIAL DATU ACCESS NUMBER
+
+ 2  ENTER PASSWORD   1234
+
+ 3  DIAL SEVEN DIGIT SUBSCRIBER NUMBER
+
+ 4  DATU will respond "CONNECTED TO
+    XXX-XXXX," "OK," or "CONNECTED TO
+    XXX-XXXX, BUSY LINE, AUDIO MONITOR"
+    Non pair gain lines proceed to step 7
+    Note: If Busy Line, DATU will not access the
+    DC By-Pass Pair or the Metallic Access Unit.
+
+ 5  SLC lines: If line is idle DATU will respond
+    "PAIR GAIN LINE" followed by "Processing"
+    ("Processing" may be repeated for up to 25
+    seconds.) DATU will voice message:
+
+      Single Party Line }     {Good}
+      Multi-Party Line  }     Followed by
+      Coin Line               "ENTER RT NUMBER"
+      Channel Not Available   (No/Bad Channel test Results)
+      PGTC Failure/By-Pass    If same recording is heard
+        Pair Busy             repeatedly, alert supervisor
+      Pair Gain System Alarm  {Alter Supervisor}
+
+ 6   If Good (or Bad) Channel test results, enter the
+     RT number, Dial "*" to end ("**" toggles on
+     or off the Alpha mode). Enter Pair Number,
+     dial "*" to end.
+     Dial "0 *" to use existing DC TEST Pair.
+     DATU will connect to the By-Pass Pair or
+     call the Metallic Access Unit in the RT, except
+     when By-Pass is busy or Pair Gain system is
+     in Alarm.
+
+     See step 7 after connection to the remote site
+
+ --
+
+ Reference Image: http://www.nettwerked.net/DATU/DATU2.jpg
+
+
+ 7   LINE PREPARATION FUNCTION DIAL CODES:
+  
+  2  "  Audio Monitor
+ 33  =  Short Tip and Ring to ground
+ 37  =  Short Ring to groun (Tip open)
+ 38  =  Short Tip to group (Ring open)
+ 44  =  High Level Tone on Tip and Ring
+ 47  =  High Level Tone on Ring (Tip grounded)
+ 48  =  High Level Tone on Tip (Ring grounded)
+  5  =  Low Level Tone
+  6  =  Open Line
+  9  =  Permanent Signal Release
+  #  =  New Subscriber Line
+ ##  =  Force Disconnect
+  *  =  Confirmation preparation function after dis-
+        connect (system programmable from 1 to 99
+        minutes); enter number of minutes after "*"
+
+ Single Line Access:
+
+ 1.     Dial the DATU access number
+ 2.     Enter the user password
+ 3.     Enter the "*" and subscriber number for non-
+        pair gain lines or Enter "**" and subscriber's
+        number for pair gain lines and then enter RT
+        number. Dial "*" to end. Enter Pair Number. Dial
+        "*" to end.
+ 4.     Enter Function Desired
+ 5.     Enter number of minutes to apply condition
+ 6.     Hang up and wait 30 seconds for DATU
+        to access and condition line, (90 seconds for
+        RT connection).
+
+ Alpha Character Codes:
+
+ [space] = 11  A = 21  F = 33  K = 52  P = 71  U = 82  Z= 94
+
+      =  = 12  B = 22  G = 41  L = 53  Q = 74  V = 83
+    
+      ,  = 13  C = 23  H = 42  M = 61  R = 72  W = 91
+
+      -  = 14  D = 31  I = 43  N = 62  S = 73  X = 92
+
+      /  = 15  E = 32  J = 51  O = 63  T = 81  Y = 93
+
+    [H] HARRIS
+       DRACON DIVISION
+
+  DATU(tm) RT USER GUIDE
+  __________________________________________________________________
+ |                       |                           |              |
+ | Central Office Name   | DATU Access Number        | Password     |
+ |-------------------------------------------------------------------
+ |                       |                           |              |
+ | Bayside               | 224-0852-0958-1145        | 2345         |
+ |-------------------------------------------------------------------
+ |			 |    			     |	            |
+ |-------------------------------------------------------------------
+ |                       |                           |              |
+ | Flushing              | 520 1207 1320 151807      |              |
+ |-------------------------------------------------------------------
+ |                       |          1553             |              |
+ |-------------------------------------------------------------------
+ |                       |                           |              |
+ |-------------------------------------------------------------------
+ |                       |                           |              |
+ | Corona                | 699-0016 - 1053           |              |
+ |-------------------------------------------------------------------
+ |                       |                           |              |
+ |-------------------------------------------------------------------
+ |			 |			     |		    |
+ |-------------------------------------------------------------------
+ |		         |                           |              |
+ |-------------------------------------------------------------------
+ |		         |                           |              |
+ |-------------------------------------------------------------------
+ |		         |                           |              |
+  -------------------------------------------------------------------
+ --
+
+ Reference Image: http://www.nettwerked.net/DATU/DATU3.jpg
+	
+  						   Password 2545
+  ____________________________________________________________________
+ |			 |			     |		      |
+ | Central Office Name	 | DATU Access Number        | Password	      |
+ |---------------------------------------------------------------------
+ | BELLE HABOR           | 945-1650-1651             |                |
+ |---------------------------------------------------------------------
+ | CORONA                | 699-0016-1053             |                |
+ |---------------------------------------------------------------------
+ | FAR ROCKAWAY          | 327-7762-7766             |                |
+ |---------------------------------------------------------------------
+ | HOLLIS                | 468-3647-3648             |                |
+ |---------------------------------------------------------------------
+ | J. F. K.              | 632-1213-1228             |                |
+ |---------------------------------------------------------------------
+ | RICHMOND HILL         | 805-6597-6598             |                |
+ |---------------------------------------------------------------------
+ | 115 AVE./OZONE PARK   | 641-1644-0489             |                |
+ |---------------------------------------------------------------------
+ | NORTH JAMAICA         | 969-1018-1055             |                |
+ |---------------------------------------------------------------------
+ | JAMAICA               | 658-1963-1899-5699        |                |
+ |---------------------------------------------------------------------
+ | BAYSIDE               | 224-0853-0958-1145        |                |
+ |---------------------------------------------------------------------
+ | LAURELTON             | 528-8374-8375-8376        |                |
+  ---------------------------------------------------------------------
+   L. I. C.                472-0567-0572-0576
+
+
+  ____________________________________________________________________
+ |			 |			     |		      |
+ | Central Office Name	 | DATU Access Number        | Password	      |
+ |---------------------------------------------------------------------
+ | FLUSHING              | 460-2775-4055-2861-4155   |                |
+ |---------------------------------------------------------------------
+ | FOREST HILLS          | 520-1207-1320-1518-1553   |                |
+ |---------------------------------------------------------------------
+ | ASTORIA    (FOR NNX'S | 278-728-626-204-956-267)  |                |
+ |---------------------------------------------------------------------
+ |                  DIAL | 626-2432-2422             |                |
+ |---------------------------------------------------------------------
+ | ASTORIA    (FOR NNX'S |726-274-932-721-545-777-546|                |
+ |---------------------------------------------------------------------
+ |                  DIAL | 721-2722-2822             |                |
+ |---------------------------------------------------------------------
+ | NEWTOWN    (FOR NNX'S |335-899-446-898-458-457-397|                |
+ |---------------------------------------------------------------------
+ | 760-533-396)     DIAL | 335-7715-7810-7832        |                |
+ |---------------------------------------------------------------------
+ | NEWTOWN    (FOR NNX'S | 651-672-478-779-334-205)  |                |
+ |---------------------------------------------------------------------
+ |                  DIAL | 779-9129-9136-3308        |                |
+ |---------------------------------------------------------------------
+ | NEWTOWN    (FOR NNX'S | 424-429-639-426-476-565-  |                |
+ |---------------------------------------------------------------------
+  507-936-803)     DIAL  | 424-0157-0173
+
+
+ .END.
+
+
+ --
+
+			The Canadian Test Number Compilation
+
+
+
+ >> Date: Fri, Nov 23, 2001
+ >> By: The Clone
+ 
+   Disclaimer: The content within this file is for informational and
+               entertainment purposes only. Unauthorized access of the
+               test systems spoken about in this file may get you in
+               trouble with local and/or national law enforcement.
+               By reading this, you agree not to try any of this.
+
+     Audience: The Telecom Enthusiast Community
+
+
+ -
+
+   Alberta Terminating Test Line #:
+
+   780-459-2325
+
+  (see: 'An Introduction to Telus' Terminating Test Lines'
+  http://www.hackcanada.com/canadian/phreaking/albertatest.txt)
+
+ -
+    
+   1000Hz / 1004Hz Test Tone #'s:
+
+   (Requirement: Loop Analyzer for 1000Hz / 1004Hz test tones)
+
+   780-458-2304
+   780-458-2307
+   780-459-2304
+   780-459-2307
+   780-459-2308
+   780-460-2304
+   780-460-2307
+   800-387-0023 (toll-phree)
+
+ -
+
+   Edmonton Region Plant Test Prefix:
+
+   780-297-XXXX
+
+   suffixes you can try on this prefix are:
+
+   297-ANAC (2622)
+   297-4TEL (4835) - Relevant for Alberta and British Columbia
+   297-LMOS (5667) (same as 297-LOOP)
+   297-DATU (3288)
+   297-RNCC (7622)
+
+ -
+
+   National Listing of Area-Code and Prefixes for Test #'s:
+
+        (Taken from the CANADIAN PLANT TEST PREFIXES file:
+   http://www.hackcanada.com/canadian/phreaking/planttst.txt)
+
+	    .-----.----------------------------------------.
+            | NPA | Listed Plant Test CO Codes             |
+            |-----|----------------------------------------|
+            | 204 | 590, 591, 959, 970, 971, 972, 973, 974 |
+            | 250 | 958, 959                               |
+            | 306 | 958, 959, 970, 993                     |
+            | 403 | 958, 959                               |
+            | 416 | 958, 959, 970, 997                     |
+            | 418 | 320, 958, 959                          |
+            | 450 | 320, 958, 959                          |
+            | 506 | 572, 958, 959, 963, 964                |
+            | 514 | 320, 958, 959                          |
+            | 519 | 320, 958, 959, 970, 997, 999           |
+            | 604 | 958, 959                               |
+            | 613 | 320, 958, 959, 970, 999                |
+            | 647 | 340, 810, 958, 959                     |
+            | 705 | 320, 958, 959, 999                     |
+            | 709 | 958, 959, 992, 993, 994, 995           |
+            | 780 | 958, 959                               |
+            | 807 | 320, 958, 959, 997, 999                |
+            | 819 | 320, 958, 959                          |
+            | 867 | 958, 959                               |
+            | 902 | 811, 958, 959, 999                     |
+            | 905 | 958, 959, 997, 999                     |
+            `-----"----------------------------------------'
+
+ -
+
+ If you have any other test numbers to add, contact me.
+ 
+ Shouts: The Canadian Phreakers Union, Alan, Phlux, RT.
+
+ >> URL: www.nettwerked.net
+ >> E-MAIL: theclone@hackcanada.com
+
+
+-- Credits
+
+    Without the following contributions this zine issue would be fairly
+      delayed or not released, so thank you to the following people:
+
+	    		 Magma, Phlux, The Clone, The P0pe
+
+  -- Shouts:
+
+  Hack Canada (#HackCanada), Canadian Phreakers Union (#cpu), The Grasshopper Unit,
+    Flippersmack, Pyrofreak, soapie (*muah*), Melanie, Kybo_ren, Flopik, Pinguino,
+       and lastly to everyone and anyone who contributes to the Canadian H/P scene.
+
+
+                             ;.  .;..  ; ;. ;..
+                           ;..   .;..; .;.; .;; ;..
+                      .;..;. .;..;  .;.;...; ;..;..
+                         .;.         A         .;. .;.
+                       ;..   N E T T W E R K E D  ;..
+                        ;..;.. P R O D U C T   ;..;..
+                          .;..;               ;..;..
+                     ;  .;..;.;..   .; .  .;. ..;..
+                    .;..   . .;  ..;..;..;.. .;
+                ;..;.   .;.. . .;.. .;.;.
+              ..;. ..;.. .;.   ;.;..;;..;.;
+                ;.;;..;..      ;.;.; .; .
+                   ;.;..;. .;. ;.;:.;.
+                     ,;....;.
+               .;.;. .;.;
+              .;.;.;
+            .;.;
+            ;..;.
+           .;.;;.; .;. ..; ;. > > > > > > I LIKE ALL SORTS OF ASTRONOMY...
+

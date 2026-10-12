@@ -1,0 +1,2295 @@
+
+     __             _____  __            ___ _            ______ __ _        _
+       __      ___ / _   __                                        ____ _   ( )
+              ___)\ /______   ______
+ _________       \  / ___  _____ ___)\    ___   __.
+       _____     |   /_             \ |  /_    /  |
+           ___\  |  (/               || //  _   | |   _   __  __      _  
+     _       _\\ |  |     _______    |:(/  ( )  | |  ( )  ) \/_ \   /( )\
+    ( )        \\|  |   /_ ____      ||\\       | |  | |  | |  ) ) /  ___)
+                \\  |  //__          || \\      | |  | |  | |  | | \ (___ __ _
+                 \) | //             ||  \\_  __| |__| |__| |  | |_ \_______ __
+                 |  |//      ____ __/ |   \___    ____   _ _    _    _      _
+    __ ______)   |  (/      / __ __ )/
+              \ \|  |      / /
+               \ \ (\_____/ /___  _                                         ___ _
+      ____      \ ) \____ _____ __ __ 	  There is no ()fork                _ _
+     ( 39 )      |  |
+
+
+         c/a   5.2003.
+
+
+		   ... Celebrating 4 Years of Canadian H/P Goodness ...
+_________________________________________________________________________________
+
+ » .- Words from the Editor -. «                                                |
+
+ *: [-] Introduction ............................................ The Clone    :*
+ *: (-) Contact Information ..................................... The Clone    :*
+ *: (-) Link of the Month ....................................... The Clone    :*
+ *: (-) K-1ine Mirrors .......................................... The Clone    :*
+ ________________________________________________________________________________
+
+ » .- Documents -. «                                                            |
+
+*: (x) 'Password Miscelleania' .................................. Fractal      :*
+*: (x) 'Mobile Communication, 3rd Generation Wireless Networks' . Dec0de       :*
+*: (x) 'Idiots & Customer Service' .............................. Wizbone      :*
+*: (x) 'Surrounded but Alone' ................................... TreePhrog    :*
+*: (x) 'Launchcast' ............................................. Wizbone      :*
+*: (x) 'Rootscan Palm (Port scanner)' ........................... Shaun        :*
+*: (x) 'Hand skanning information and source code' .............. Phlux        :*
+*: (x) 'Hand Skan - 666 Numbers' ................................ Phlux        :*
+*: (x) 'ANI and Caller ID spoofing' ............................. Lucky225     :*
+_________________________________________________________________________________
+
+ » .- K-1ine News Bytes -. «							|
+
+*: (x) 'Phreaks threaten voice IP security' ..................... News.com.au  :*
+*: (x) 'We've got your number' .................................. Sarah Staples:*
+_________________________________________________________________________________
+
+ » .- Stupid E-mail of the Century Award -. «				        |
+
+*: (x) 'I want to write a book on hackers, but I'm an idiot'..... Indee        :*
+_________________________________________________________________________________
+
+ » .- Conclusion -. «                                                           |
+
+ *: [-] Credits ................................................. The Clone    :*
+ *: [-] Shouts .................................................. The Clone    :*
+_________________________________________________________________________________
+
+
+Welcome to the latest issue of K-1ine #39 'There is no ()fork'. I would like to
+thank everyone who submitted articles to me - you sent me so many! Enjoy this issue
+of K-1ine zine, it should be a fairly good read as it is celebrating its four year
+anniversary on the Internet. It's hard to imagine that I'd actually keep this H/P
+magazine around for such a length of time, considering how most magazines of hacking
+and/or phreaking nature tend to have a very short life span of less than one year.
+
+Look forward to more K-1ine issues in the future. But in order to do so, people will
+need to contribute their original articles to K-1ine. Because this magazine is really
+all about sharing vast amounts of information on computer and telecom technologies.
+But most importantly this electronic magazine gives an expressionist the ability to
+share his or her unfettered insight on a wide variety of enthralling subjects. Dig?
+
+Enjoy this K-1ine issue, and be sure to send your file(s) to the e-mail address below.
+
+
+ -`
+
+ -->
+
+ Contact Information;
+ 
+ Comments/Questions/Submissions: theclone@hackcanada.com
+
+ Check out my site: (Nettwerked) http://www.nettwerked.net
+
+ -
+
+ -----------------------------------------------------------------------
+
+
+  --=[ LINK OF THE MONTH ]=--
+
+ Every month I post one really great "link of the month" on every issue
+ of K-1ine magazine. The link can be anything in the technology industry,
+ music scene, rave scene, punk scene, or even a good article you read on
+ a news site. I'll be taking submissions via e-mail or IRC right away; so
+ get your links in and maybe you'll see it in the next issue of K-1ine!
+
+  For the month of May, the link of the month is:
+
+  http://www.gsmsecurity.com/papers.shtml
+
+  "GSM Security - Documentation for masses."
+
+  It even includes RT and The Clone's file.
+
+  [submitted by: The Clone]
+
+ --
+
+
+	  K-1ine Mirrors:
+
+
+ http://www.mirrors.wiretapped.net/security/info/textfiles/k1ine/
+
+  (Now mirrored in two places, one in Belgium and another in Sydney)
+
+ "Wiretapped.net is an archive of open source software, informational
+ textfiles and radio/conference broadcasts covering the areas of network
+ and information security, network operations, host integrity, cryptography
+ and privacy, among others. We believe we are now the largest archive of
+ this type of software & information, hosting in excess of 20 gigabytes of
+ information mirrored from around the world."
+
+ --
+ 
+ http://www.hackcanada.com/canadian/zines/index.html#K-1ine
+
+ Hack Canada - Canadian H/P - E-Zines
+
+ --
+
+
+ http://www.stealthiscomputer.org/k-1ine.html
+
+ Steal This Computer - K-1ine Archive
+
+ --
+
+ http://www.to2600.org
+
+ Toronto 2600 - K-1ine Archive
+
+ --
+
+
+                    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+                    >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+                    Penrose's impossible 3D triangle; 1958
+                    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+                    >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+                                     ____
+                                    /    \
+                                   /    / \
+                                  /    /   \
+                                 /    / \   \
+                                /    /   \   \
+                               /    /   / \   \
+                              /    /   /   \   \
+                             /    /   /\    \   \
+                            /    /   /  \    \   \
+                           /    /   /    \    \   \
+                          /    /   /      \    \   \
+                         /    /   /        \    \   \
+                        /    /   /          \    \   \
+                       /    /   /            \    \   \
+                      /    /   /              \    \   \
+                     /    /   /                \    \   \
+                    /    /   /                  \    \   \
+                   /    /   /                    \    \   \
+                  /    /   /                      \    \   \
+                 /    /   /                        \    \   \
+                /    /   /                          \    \   \
+               /    /   /                            \    \   \
+              /    /   /                              \    \   \
+             /    /   /                                \    \   \
+            /    /   /                                  \    \   \
+           /    /   /                                    \    \   \
+          /    /   /                                      \    \   \
+         /    /   /                                        \    \   \
+        /    /   /                                          \    \   \
+       /    /   /                                            \    \   \
+      /    /   /                                              \    \   \
+     /    /   /                                                \    \   \
+    /    /   /                                                  \    \   \
+   /    /___/____________________________________________________\    \  /\
+  /____/__________________________________________________________\____\/  \
+  \                                                                     \  /
+   \_____________________________________________________________________\/
+
+
+
+<l0rd_hex> The bible says ugly people don't have feelings
+
+
+ 
+Password Miscelleania
+~~~~~~~~~~~~~~~~~~~~~
+
+
+Salting
+~~~~~~~
+
+If you've ever looked in a unix password file, you already know that passwords
+are not stored in as plaintext on your system. They are stored as a hashed version
+of your password, specifically a one-way, cryptographically secure hash.
+
+In other words, if your password is "pwnz", it might be stored on a system
+using an md5 password file as
+
+"pwnz" -> 1b81df735c9b374439647f3ebed3457a
+
+This prohibits an attacker from finding out your password, but enables the system
+to verify you when you enter your password.
+
+When you enter "pwnz" into the login screen, the system hashes what you typed and
+compares it against the md5 stored in the password file. What could be simpler?
+
+This system is weak, however. The three main attacks are:
+
+* If 2 users both have the same password, it will become immediatley obvious to
+  anybody browsing the password file.
+
+* When an attacker is using a dictionary cracking system, (s)he only needs to calculate
+  the hash of a dictionary word once, and is able to compare it against all the users
+  in the password file.
+
+* An organization of attackers could create a masssive database of md5 sums/password
+  pairs, and simply preform a lookup of a password, not requiring any computation on the
+  part of the attacker.
+
+The method used to prevent these attacks is known as "salting" the password. A piece
+of random data, the salt, is chosen along with the password when it is generated, or
+along with the user when his/her account is created.
+
+A hash might then look like this:
+
+"pwnz 28937" -> d38dca847a71d7585703278729b9cb08
+
+But how does the system know what to use as a salt when validating a user? Well,
+quite simply, the salt is stored in plaintext along with the hash. So the
+entry in the password file might look like
+
+d38dca847a71d7585703278729b9cb08,28937
+
+Is this secure? Yes, because if the hash function you choose is really cryptographically
+secure (which md5 is believed to be (by most people ;))) [1], knowing part of the text to be
+hashed gets you no closer to knowing the entire text.
+
+So what kind of values should be used for a salt? In truth, it doesn't really matter
+so long as the randomness is large enough so that it's unlikely that two or more users
+will be using the same salt. In other words, a few times more possible salts than local
+users should be sufficient.
+
+Some people have suggested using the username as the salt. While this seems reasonable,
+it is not as secure as it could be. It would still enable an attacker to build a
+large database of hashes for the "root" user or any other commonly used user name.
+"john", etc...
+
+Some people have suggested using the system's hostname as a salt. Under no
+circumstances should you listen to these people. Doing this completely defeats
+the first 2 stated purposes of a salt.
+
+A username/hostname combination would probably be OK security wise, but is not
+practical: If you changed your hostname you would invalidate your entire
+password file.
+
+The best bet is simply a randomly chosen number, the current time, etc. Understand
+that a salt doesn't need to be truley random, it just needs to be unique enough
+among users that it highly reduces the practicallity of performing any of the
+3 aforementioned attacks.
+
+
+
+Using Block Ciphers For Password Files
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Commonly you see block ciphers used for password protection instead of a one-way
+hash. DES was long the defacto password hashing standard, but now it is common
+to see, AES, Blowfish, etc used for password files.
+
+Thanks to D.J. Bernstein we know that cryptographically secure hash functions
+can be used as cryptographically secure block ciphers and vice versa.
+
+How does this work? Well, remember that with a secure block cipher it is impossible
+to recover the key without resorting to (expensive) exhaustive keyspace searches.
+This applies even if the attacker knows the plaintext and the ciphertext.
+
+So, in order to use a block cipher as password protection, we would choose the
+password to be the key and a known string to be the plaintext, and then
+store the ciphertext in the password file.
+
+So, if our block cipher is defined as
+
+B(key, plaintext) = ciphertext
+
+We might calculate a password entry like so
+
+B("pwnz", "this is a publicly known string") = dkjhgksfjhgjf
+
+Now, where should we put the password salt when using this scheme? Well, we
+could append it to the password as we did with the hash function, or, as it
+turns out, you could use the salt instead of the publicly known string, so:
+
+B("pwnz", "my_salt") = wioqwuiebhfob
+
+And store the password in the file as
+
+wioqwuiebhfob,my_salt
+
+
+I hope this file has been informative.
+
+
+Fractal
+
+
+[1] Actually, MD5 has been show to *NOT* be cryptographically secure in a number of
+    cases, but is probably secure enough for most purposes: certainly password hashing.
+
+
+---
+
+<theclone> don't worry msVi in a few years we'll have super cloning machines, successors of
+	   my old school machine creator-ma-bob, and then we'll have thousands of tigers..
+	   taking over the planet... eating our children
+<wizbone>  that will be cute
+<theclone> yeah... little jamie mcforskin is on his way to school... and out of the bushes
+	   comes a white tiger... *chuckles* and it-eats-him-alive. awwwww
+
+---
+
+
+
+Mobile Communication and Third Generation Wireless Networks
+by dec0de
+dec0de@to2600.org
+
+	So yeah, it's 1:35AM on May 7th and I'm finally getting around to writing a file
+for The Clone, who has been on my ass for the past few months to hurry up and finally write
+him some files.  I could blame the fact I was in school working to earn a telecommunications 
+degree, but let it be known that I am just one lazy motherfucker.  I don't know if this 
+article is going to be any good, but I hope someone gets something out of it.
+
+[--1.0--  Traditional Access Methods]
+
+	First off, let's start from stratch.  Before we can understand these new protocols
+used in 3G, we need to understand the older traditional methods of accessing the mobile 
+phone system.
+	
+	- AMPS (Advanced Mobile Phone Service)
+		Developed in the early 1980s by AT&T, AMPS is the older analog system that
+		operates in the 800MHz band.  In the US and Canada, two 25MHz bands are 
+		allocated to AMPS, one for transmission to the base station (869-894MHz) 
+		and one for the base station to transmit to the mobile (824-849MHz).  
+		Channels are spaced 30kHz apart which gives room for 832 of them, however
+		21 of these channels are used for control which operates at 10 kbps.  How
+		the 832 channels are divided up is negotiated between the mobile providers.
+		Still used today in more remote parts of the world, AMPS is the old 
+		bastard of the mobile phone community.  With the growing number of 
+		subscribers, the analog system can not keep up with today's growing 
+		demands.
+
+	- TDMA (Time-Division Multiple Access)
+		One of the first digital systems used to replace the AMPS system.  TDMA 
+		provided up to 3 times the number of calls a standard AMPS system could  
+		by using a time-sharing protocol giving a 3:1 improvement ratio over AMPS.
+		This is done by a combination of dividing AMPS' 30kHz channels into 
+		subchannels and dividing those radio frequencies into time slots and then
+		allocating these slots to multiple calls.  Multiple calls can be made
+		on the same frequency.  TDMA has a data rate of 8 kbps - enough for voice, 
+		but slow for data (WAP).  The majority of Rogers' digital network is TDMA.
+
+	- CDMA (Code-Division Multiple Access)
+		A successor to TDMA, CDMA allows up to 10 times for capacity as an AMPS 
+		system by using Spread Spectrum technology, a technology that was previously
+		reserved for military use where it was immune to jamming.  It can also be
+		used as a way of hiding and encrypting signals.  Let's make sense of how
+		this works.  We start with the data bit rate, and we break each bit into 
+		additional bits (k chips) which is a specific code to each user.  For this
+		example, we'll use 6-bit chip codes.
+
+		User A - < 1, 0, 0, 1, 0, 1>
+		User B - < 1, 1, 0, 0, 1, 1>
+
+		Let's say User B wants to transmit a 1 bit.  To transmit a 1 bit, his mobile
+		will transmit <1, 1, 0, 0, 1, 1>.  Now wait a minute, what happens if User
+		B wants to transmit a 0 bit?  You take the complement of the chip code, 
+		therefore, to transmit a 0 bit, the mobile will send < 0, 0, 1, 1, 0, 0,>.
+		How does this allow for more calls you ask?  Well, channels can be more 
+		tightly squished because the base station will be looking for the correct
+		chip code to distinguish the calls.  So even if signals cross into each 
+		other, the base station will know which user to filter out of the channel.
+		The 6-bit code we used in this example is not effective enough to do this
+		though, and that's why most practical systems use 100-bit or greater codes.
+		In this case, the ability of the filter to remove unwanted codes can be
+		quite effective.  All this bandwidth comes at a price though, and CDMA 
+		requires a 19.2 kbps data rate.  CDMA is used by Telus and Bell Canada and  
+		was developed by Qualcomm.		
+
+	- GSM (Global Standard Mobile for Communications)
+	        The idea of GSM was to develop a standard many companies could adopt all 
+		over the world, thus creating a world wide network any GSM compliant phone 
+		could use.  It is a combination of TDMA and FDMA (Frequency Division 
+		Multiple Access) with the use of strong security and voice codecs.  It's 
+		spectral allocation is 25MHz for base transmission (935-960MHz) and 25MHz 
+		for mobile transmission (890-915MHz), but there are additional systems 
+		which use 1800MHz and 1900MHz (DCS-1800 and DCS-1900 respectively).  
+		There are frequency carriers every 200kHz, which provide 124 full-duplex 
+		channels.  These channels are modulated at 270.833 kbps.  GSM subchannels 
+		have a data rate of 13 kbps, so 270.833/13 is 90 calls per channel.  
+		Microcell (Fido) and Rogers use GSM.  
+
+		For more information in GSM Security, I suggest you read the "The 
+		GSM Security Technical Whitepaper for 2002" by RT and The Clone.  
+		http://www.hackcanada.com/blackcrawl/cell/gsm/gsm_security.html
+
+[--2.0--  What is Third Generation Wireless Communication?]
+
+	Well, unless you've been living under a rock for the past year (or in Edmonton)
+you'd know that the initiative called "Third Generation Wireless" (3G for short) is the 
+idea to provide fairly high speed wireless communication to support multimedia, data and 
+video in addition to the normal voice service. The ITU's definition of 3G is as follows:
+	
+	- Voice quality comparable to the Public Switched Telephone Network (PSTN)
+	- 144 kbps service to large areas (country)
+	- 384 kbps to 2.048 Mbps service to smaller areas (cities)
+	- Support for both packet switched and circuit switched data services
+	- More efficient use of the radio spectrum in general
+	- A crap load of bandwidth
+
+	Basically, the movement towards a global 3G infrastructure is as follows;
+	
+		1G		2G		2.5G			3G
+		voice	 ->	voice/data  ->	fast voice/data	  ->	data
+		-----		----------	---------------		------
+		cdma		cdma		cdma2000		w-cdma
+		tdma		tdma		gprs                    cdma2000 3X
+		gsm		gsm		edge
+		amps	           (a combination)
+
+
+[--2.1--  2.5 & 3G Protocols]
+
+	- GPRS (General Packet Radio Service)
+		GPRS is a new non-voice data option being added to existing TDMA and GSM
+		networks as a 2.5G solution to bring the Internet to cell phones.  GPRS
+		takes advantage of the short-bursty nature of IP packets by grabbing 
+		up time slots usually allocated to voice channels to move data.  Because
+		most data sessions do not involve being connected to the network
+		continuously, GPRS is a very viable solution. Each voice channel is 
+		divided up into 8 time slots, thus providing 13.4 kbps bandwidth.
+		Currently, there are three types of GPRS enabled mobile phones:
+			Type 2+1 - 2 slots download, 1 slot upload
+			Type 3+1 - 3 slots download, 1 slot upload
+			Type 4+1 - 4 slots download, 1 slot upload
+
+		Theoritically GPRS has a maximum data rate of 171.2 kbps per channel
+		but today a user could expect a maximum of 53.6 kbps (4 x 13.4 kbps).
+		GPRS is a 2.5G solution that will eventually move over to CDMA.	
+
+	- CDMA2000 (Code Division Multiple Access 2000) a.k.a. 1X
+		CDMA2000 is the evolution of the current CDMA standard, cdmaOne.  1X 
+		(Phase One) offers approximately twice the voice capacity of cdmaOne, 
+		average data rates of 144 kbps and backward compatibility with cdmaOne 
+		networks.  This is accomplished by using the current 1.25MHz channel
+		with a more efficient modulisation scheme to double to number of 
+		voice and data channels.
+
+		Phase Two of CDMA2000 called 1XEV-DO is the implentation of a true data
+		channel.  1XEV-DO (Data Only) will provide data rates up to 2.048 MBps, 
+		but it will not be until 1XEV-DV (Data & Voice) that users will have 
+		a complete multimedia experience.  1X is a 2.5G solution.
+
+		3X is the next step in CDMA evolution.  Instead of using the old IS-95
+		standard of 1.25MHz channels, 3X will use 3.75MHz a channel in the 5MHz
+		frequency range.  The remaining 1.25MHz will be used as buffer zones for
+		the lower and upper bands.  3X is a 3G solution.
+
+	- Wideband CDMA (Wideband Code Division Multple Access)
+		W-CDMA is the final step in CDMA evolution.  Unfortunately as of right 
+		now, CDMA2000 and W-CDMA are not compatible as they use different 
+		channel codes and synchonization procedures.  W-CDMA will use the 
+		entire 5MHz channel providing up to 2.048 MBps.  W-CDMA is a 3G
+		solution.
+
+	- EDGE (Enhanced Data Rates for GSM Evolution)
+	 	This technology works over existing TDMA channels providing up to 
+		384 kbps data rate ONLY if the quality of TDMA channels inproves 
+		in the future.  It uses the same 200kHz channels with 8 timeslots with
+		a more effective modulation scheme - instead of 14.4 kbps, EDGE can
+		do 48 kbps.  EDGE is a 2.5G solution that I believe failed to meet up
+		GPRS and CDMA2000 quickly enough.
+
+[--3.0--  Outro]
+	There you have it, a brief rundown on 1 - 3G protocols we're going to be seeing
+in the future.  So I hope someone out there got something out of this article, and I 
+promise to write more technical papers rather then this type.  I'd really like your
+comments on this seeing it's my first real file...  so please shoot me an email.
+
+[--3.1--  Shouts]
+
+	..::: shouts to The Clone, Magma, caesium, Kris, asher, coercion, hackcanada, 
+	      all my friends from toronto.2600 and my friends in the t-com massive.
+
+	..::: www.to2600.org - irc.to2600.org #to2600
+	..::: www.nettwerked.net
+	..::: www.hackcanada.com
+	..::: www.uecanada.ca
+
+	..::: <Grinthock>: Inf with a Key.
+
+
+---
+
+<theclone> I hope I never give birth... my pee hole is too small
+
+---
+
+
+
+Idiots & Customer Service.
+  ___
+ /   \   ___ 
+|  (0)| /   \
+|     ||     |
+ \___/ |(0)  |
+        \___/    (o) Daah.... (o)
+      /0\      /
+    ________  /
+   /        \
+   \/\/\/\/\/
+
+
+A Rant by Wizbone which is almost as needless as it is senseless.
+                                                              ((2003))
+I'm fed up. It feels as though I'm surrounded more and more by idiots. 
+Idiots ruin our world, every aspect of it. Something has to be done 
+about all the foolishness that goes on in this world or sooner or later 
+something very bad is going to happen... probably by accident. 
+
+As if it weren't bad enough that you and I are forced to encounter 
+ignorant and childish people all day, but we have to be poorer because 
+of them too. How? Lots of ways. Too many to get into, but let's look at 
+one of the biggest culprits.
+
+Two words: customer support. Once upon a time, if you bought a product or 
+a service from a company and there was a problem with it, you could call 
+Customer Service and have them replace/repair said product/service. 
+"Customer Service" was never really that big of a deal. Many companies 
+even required you to call a long-distance number to get help, it 
+wasn't so bad.
+
+Then came the technology revolution. Now every redneck yokel and his dog 
+have a computer, a cellular phone, and an internet connection. There's no 
+reason for the average Joe, or the average Joe Inc, to have these things, 
+but they do -- that's for another rant however. 
+
+The sudden popularity of computers caused the consumer public to demand 
+customer service -- see: "the customer is always right" (see: "bullshit"). 
+Why? 
+
+In the early days of any revolutionary technology, only geeks or 
+determined individuals will make any attempt to utilize it. These 
+individuals are used to cutting-edge technology. They know it's new, they  
+know it's unreliable, and most importantly, they know they must do ALOT 
+of reading and research  before they expect they'll be able to get any use 
+out of something.
+
+The average idiot does not have the mental capacity to understand these 
+simple things. They want it for free or cheap, they want it now, and they 
+are unwilling to take any effort towards educating themselves about 
+anything they become dependant upon.
+
+Customer Service has ballooned from a simple courtesy extended to 
+end-users who encounter problems beyond their control to a grossly abused 
+and mismanaged entity that usually serves little or no useful purpose at 
+all.
+
+Huge call centres receive hundreds of thousands of calls a day from angry, 
+bitchy customers who are unhappy with a product or service and usually 
+it's because they don't understand it, can't use it, or have broken it 
+somehow.
+
+These call centres become so huge and unmanageable, many corporations opt 
+to utilize a whole new industry which has grown from this mess -- Customer 
+Care Servces. Everyone knows about Convergys. Everyone probably knows 
+someone who has worked there, or atleast one of the many other customer 
+care management companies that exist. This person more than likely worked 
+there a short time and then quit, coming away with nothing but stress, 
+grief, bruised self-confidence, and numerous horror stories about 
+some sort of abuse or otherwise unfair treatment.
+
+Rather than well-trained, experienced technicians and knowledgeable 
+company staff taking calls, due to the large volumes of useless queries, 
+companies have been forced to forego quality, with quantity and employ 
+thousands and thousands of $10/hour, poorly trained, under-appreciated 
+individuals who dislike their jobs. 
+
+Though, in all fairness, given the disproportionate ratio of idiots to 
+non-idiots in the world, there's a pretty good chance that these employees 
+are just as dumb as the end-users they're taking calls for.
+
+This causes a vicious cycle of the incompetent screwing up the even more 
+incompetent. All the while, the small handful of intelligent people like 
+yourself who simply want to use a service and never talk to anyone get 
+shafted by high costs and poor service which results from the enormous 
+expense companies must fork over to their customer service divisions.
+
+What can be done? Well, you can't do anything. You can make yourself feel 
+better and NEVER call customer service until you've exhausted every 
+resource available to you to solve a problem, or answer a question.
+
+If you're an average idiot, and somehow you've read this far through the 
+file without falling asleep, realize this: You do not need a wireless 
+phone. You do not need to get on the internet. There is nothing there. You 
+do not need to check your email. You're not important, no one needs you to 
+be readily available so stop believing you can be by purchasing the newest 
+and greatest services.
+
+If you NEED to be on the internet, and you NEED to be available on a cell 
+phone, get two. No, get three. Three cell phones, three different internet 
+connections and learn how to fix your computer for fucksakes. These things 
+are garbage, don't expect them to work for you, and just because a company 
+brags about 24 hour customer service, expect that "customer service" to be 
+of no use to you what-so-ever.
+
+Hopefully one day there will be a company which will provide products and 
+services without customer service, just reliability. Looking at recent 
+trends, I believe this may never happen. So, in the meantime, punch an 
+idiot, don't use customer service, and expect to pay alot more for a 
+service than you should simply because there are ALOT of idiots spending 
+time on the phone, talking to eachother and wiping their noses on YOUR 
+dollar.
+
+
+Special thanks to The Clone for
+not being pissed off that I was
+too  slow  to  finish  this for 
+K-1ine #38.
+
+AND Big Fat Shouts to:
+The rest of the HackCanada Crew           <---- (my lazy, no 
+& all of our close friends! Yay!                   effort sh0uts)
+
+
+Thank you.
+
+---
+
+<dec0de> back
+<caesium> and the people rejoice
+<dec0de> you know it
+
+---
+
+
+Surrounded but Alone
+
+Submitted by Treephrog
+
+"... and if things keep going this way, I just might break something tonight."
+ - Limp Bizkit
+
+I live in the middle of nowhere, and it's no ones' fault but my own.
+
+I live just outside of a town with a grand total population of approx. 2000
+people. If you've ever seen postcards from the east coast with pictures of
+fishing boats and forests, that's where I live.
+
+It's nice. It's quiet. And there is exactly one other human being here that
+I can relate to on any kind of technical level.
+
+My conversations with this other individual are infrequent, because their job
+demands that they are away for extend periods of time. When we do converse,
+it is usually for hours at a time, and I walk away mentally, physically and
+emotionally drained. These conversations seem deeply surreal both during and
+after. Discussion topics range accross the full spectrum, but mainly focus on
+technology.
+
+To put in perspective for you, most of my other "arms-length" aqauintences in
+this, my own little personal little hell, consider excellent Friday night
+entertainment to be heading down to the local bar, getting blind drunk,
+getting in a fist-fight, and then finding someone or something to beat to
+death on the stagger home. My conversations with these people usually consist
+of, "Hey, can you get me into one of those porn sites for free?", or "Can you
+erase that speeding ticket off my file?"
+
+The mind is a terrible thing to taste.
+
+My days consist of copious amounts of coffee and long drives (if the weather
+is fine), or copious amounts of coffee and reading (if the weather is bad). My
+nights consist of more reading, chatting online, or the occasional computer
+game. Sleep rarely comes easy, and it never lasts long. My mind is in constant
+turmoil. I lack the funds to move away, and as well I have other obligations
+(family related, no I'm not married or divorced, and have no children) that
+tie me here.
+
+There are sickenly few people here in my age group, less than half a dozen.
+The people younger than me are beyond idiocy, drunk and/or stoned in the
+classroom being the norm. The people older than me more tolerable, although
+spousal abuse runs amuck here, 55% or something. There are a few potentials
+among the younger crowd, but when last I was approached for knowledge, it
+lasted less than a week. His friends beat the shit out of him when they found
+out he was hanging around with me, learning about computers. On two other
+occasions I was befriended by older people who dabbled in the computer field,
+but both of those were put to a quick end when their significant others got
+together and made issues of spending too much time with me and not enough with
+them.
+
+The only way to have a girlfriend here is to make $40,000 plus a year, which
+is easy if you don't mind fishing, and can get a seat on a boat. Women here
+have one priorety in choosing a boyfriend/husband, and that is income. If you
+can't afford to give them the lifestyle they want to live, don't bother
+approaching them.
+
+There is not much for me to do. Read. Think. Learn. Repeat.
+
+As my knowledge grows, so does my loneliness.
+
+Sometimes, not very often and very briefly, I think it would be better to be
+one of them. To be perfectly happy having the IQ of a trained chimp. To beat
+my wife, after all, it's what my daddy did to all four of his wives, God rest
+'em. To think that anyone who doesn't enjoy getting in a fist fight every
+Friday and Saturday night every weekend of every year must be queer or
+something, after all, only queers don't like to fight. To think that it's okay
+to fish four months out of the year, draw unemployment the rest of the year,
+and then plead poverty at every opportunity.
+
+Then I take a deep breath, shake my head, and read some more.
+
+The purpose of this expose' into my life is twofold.
+
+First, if anyone reads this and sees similarities in their life, I have a
+message. Don't give up. When you stop reading, you become one of them. When
+you stop thinking, you become one of them. When you stop learning, you become
+one of them. You cannot let this happen, because you're not meant to be one of
+them. If you were, you would have become one of them by now.
+
+Second, if anyone reads this and sees few or no similarities in their life,
+good for you. For all the hardships you endure, you are still luckier than you
+can imagine. There are those of us for whom a friendly voice is more than a
+phone call or short walk away. Do not take it for granted.
+
+Lastly, as a sidenote, I didn't write this phile for sympathy. I wrote it so
+that the next time you sit down at a 2600 meeting or a computer club meeting
+or with a bunch of your close, like-minded friends, maybe you'll pause for a
+moment to consider what life would be like if they suddenly weren't there
+anymore. Or worse, had never been there at all.
+
+The community is bigger than you think. For those of us on the geograpical
+frontiers, things come a little harder.
+
+But the alternative is unthinkable. Pun intended.
+
+Treephrog
+05/08/03
+
+Note: This article (or rant, if you prefer) was loosely inspired by Wizbone's
+article, "Idiots & Customer Service". It was also inspired to a lesser (but
+not much) degree by the HackCanada Crew and all associated parties, many of
+whom, although they probably don't realize it, have helped me keep my sanity.
+By keeping my sanity, I mean that literally, NOT as a figure of speech. Thank
+you, even though that doesn't even begin to cover it.
+
+
+---
+
+<Flopik> wizbone: im still connected to the net with a 2600 baups external gray
+         modem :( via a hacked cellphone sniff
+<Flopik> hehe
+
+---
+
+
+Launchcast - Ropey jets of Music streaming down your cheeks.
+
+~wizbone May '03
+
+I don't feel like explaining to you the history of  Launch, or how it 
+works behind-the-scenes, you can figure that out on your  own. Launch has 
+a great streaming music service, though it requires you have a  yahoo 
+account, and some phat bandwidth. 
+
+____       ____
+ \ \       / /
+   \ \___/ /
+     \   /           
+      | |apoo    
+     _| |_      
+    |_____|         
+
+
+
+Launch has an extensive collection of nearly every song by nearly every 
+band you can think of. It allows you to rate songs you enjoy, and downrate 
+songs you do not - best of all down-rating to 0 keeps the song from ever 
+being played ever again (EVER!). The service also lets you rate bands and 
+albums in the same way. If you like a song but don't feel like listening 
+to it, you can even skip it and listen to it another day. 
+
+The coolest thing about the rating system is that it also collects the 
+listening habits of other launchcast listeners and compares them to yours. 
+If you've rated songs by the band NOFX and there's some other user out 
+there who has done the same, Launch will compare other rated music and 
+suggest new music for you to listen to. It isn't fool-proof ofcourse, you 
+may end up hearing alot of crappy hip-hop just because you listened to a 
+Chris Rock skit and rated it well, for example.
+
+I've been using this music service for some time now, and I really enjoyed 
+it up until now. I didn't mind when the ads went from a maximum length of 
+30 seconds to 1 minute, and I didn't even mind when they seemed to occur 
+more frequently than they used to several months ago.
+
+What I did mind, however, was when I opened launch and received this 
+message:
+
+"wizbone, THANK YOU for being a loyal LAUNCHcast listener. Your heavy 
+use has resulted in very high costs for our service that cannot be covered 
+from advertising alone."
+
+
+                ___
+           |   |
+           |___|___
+               |   |
+            ___|   |
+
+
+So, maybe they're just trying real hard to get all the cheap-skates to 
+stop leeching off their service and use the pay-version, Launchcast Plus, 
+which is okay. I would have signed up for it myself already, but 
+when you try, it says this:
+
+"Due to music licensing and billing restrictions, LAUNCHcast Plus is 
+currently available only in the United States. We are working to make 
+LAUNCHcast Plus available in other territories as soon as possible. Thank 
+you for your patience. "
+
+What a load of BS. I really, REALLY hope corporations and reigning 
+entities will soon start to understand that territoritial boundaries have 
+very little to do with the internet. Buuut... I'm sure they never will... 
+they'll probably just continue to butcher the internet and laws 
+surrounding it until they have a nice, big, expensive, unusable mess that 
+they like.
+
+So, now what the fuck am I supposed to do? The obvious answer is: "Go 
+away, leave yahoo alone you bastard."
+
+No! They started this shit, offering me free music. They should have known 
+better. With 1,803 songs rated at the time of writing this, I think I've 
+done a pretty good job at building Yahoo and probably the music industry, 
+a whole new demographic audience with my eclectic tastes in punk and 
+techno and hatred for everything else. Now they know what WE like. (sorry 
+everyone)
+
+Besides, it's Yahoo, for fucksakes. Yahoo is POOR all of a sudden? Fuck 
+that.
+
+I've continued to use launchcast. I ignore their petty griping about my 
+"heavy usage" of their service. I think it's just that they don't like me. 
+Afterall, the public description of my radio station is:
+
+"I hate all kinds of music. If you hate all kinds of music but like the 
+few kinds of music I do (some punk, some techno, some other bad stuff) 
+then listen. Otherwise, go away. 
+
+This is the best goddamn station on this godforsaken radio service. 
+
+If you disagree, you're a fuckface. Go listen to Celine Dion and eat your 
+cookie-dough icecream, you panty-whipped piece of pop culture."
+
+Maybe it offended someone. 
+
+In any case, this new "Limited Launch" that I'm supposedly using now 
+disallows you from skipping ahead on songs you like, but ofcourse there 
+are ways around this. We'll just see how long they last.
+
+Give my station a listen, maybe you'll even like it, but best of all 
+you'll be using some of yahoo's precious bandwidth. Fuckers.
+
+http://launch.yahoo.com/lc/?rt=0&rp1=0&rp2=1220149415
+
+
+
+PS - Press 'esc'
+
+
+~Endz
+
+
+---
+
+<theclone> k-1ine made you a celebrity over night
+<Flopik> I should not talk when you are here clone
+<theclone> hehe
+<Flopik> Im not sure about my celibrity sucess
+<Flopik> -i +e
+<theclone> ok village idiot
+<theclone> sorry :)
+<wizbone> hehe
+
+---
+
+
+Rootscan Palm (Port scanner)
+
+-------------CUT-----------------
+# Rootscan-1.6.bas
+# Rootscan Palm/PalmOS Port scanner.
+# Written by shaunige@yahoo.co.uk
+s$(0) = "About"
+s$(1) = "Rootscan 1.6"
+s$(2) = "PalmOS port scanner"
+s$(3) = "This software is FREEWARE"
+s$(4) = "Free under the terms of the GNU"
+s$(5) = "General Public License"
+s$(6) = "Author: shaunige@yahoo.co.uk"
+x = fn myabout()
+input "Enter IP address/host to scan:", h$
+input "Enter start port:", p
+input "Enter end port:", e
+let t$ = "scanlog"
+let i = p
+open new "memo", t$ as #4
+while(i <= e)
+c = fn tcp(1, h$, i)
+if(c = 0)
+sound 1000, 200, 5
+print "Port ", i, "- Open"
+fn tcp(-1, "", 0)
+print #4, "Port ", i, "- Open."
+else
+fn tcp(-1, "", 0)
+print #4, "Port ", i, "- Closed."
+endif
+let i = i+1
+wend
+close #4
+-------------CUT-----------------
+
+
+<Magma> i'm gonna smuggle diamonds into canada from south
+	africa in the small intestines of horses.
+
+---
+
+
+handskan.txt
+Hand skanning information and source code
+..................................................................
+
+I wrote handjob.bas for personal use. As such it is a very simple
+program to aid in hand skanning sequentally, saving output as
+handskan.txt
+
+Features:
+-"Blind Mode"; Re-maps numeric keypad, DTMF style.
+ (idealy, for use with brainwave machine, see;
+  hackcanada.com/homegrown/wetware/brainwave
+-Logs the time spent scanning
+
+Considering........................................................
+A modem routine would aid speed, assuming you have headphones
+to plug into your modem. Then random scanning could then be
+implemented. I have read some txt's mentioning random scanning as
+being safer, this is no longer true.
+
+An SS#7 node enroute will detect random or sequential scanning
+as a killer trunk, and a switchman will get a trouble ticket.
+Killer trunks are dysfunctional in that they will terminate
+properly, but not maintain a connection. Usually they just 'fix
+themselves', but extended scanning/wardialing sessions will be
+cause for attention.
+
+Response time or the priority of such a trouble ticket to a
+particular switchman is irrelevant. In Alberta Canada--according
+to my phonebook-- you have nothing to fear.
+
+Now, if you are selling anything, you need a telemarketing permit.
+If you phone abunch of people and just hangup to see whats on the
+other end, that will get you in trouble. You must have intent
+to communicate. If you use handjob.bas to aid you in logging,
+spend the time to say hi or whatever, and apologize for misdialing.
+
+Even if Mr. Telco does give you a ring ring, you can then say, hey,
+ain't no thing. You merely forgot your friends number, and thought
+it would be faster to dial X amount of numbers to get ahold
+of him/her. (be sure and tell them you have yet to reach your
+imaginary friend so you are not giving up yet.
+(no dont really tell them he/she/they are/is imaginary))
+
+The math says 10,000 numbers could be dialed @20sec per number in
+2days 4hrs 30min if completed without breaks. One day, i am going
+to scan some toll free prefix in under 3 days, and see if Telus
+leaves for me some funny voice mails. Anyone want to race?
+First one to 5000 wins the other persons 0hday!
+(after they've finished their half, ofcourse)
+
+Long distance scanning can be a cake walk if you ask your mom to
+buy you a phone card that supports the *** or some king of 'backup'
+command to place another call, so you are saved redialing the
+extender. I imagine the carrier would frown upon this, so go with
+a larger company.
+
+
+
+Props to the Canadians for tolerating my antics.
+Shouts to the HackCanada crew and associates for support.
+
+Tips for extended periods of scanning................................
+
+Blind mode mnemonics: Using the following mnemonics as a legend for
+the output you can use the numeric keypad, DTMF style to specify
+what was reached.
+
+
+[A]utomated Attendant(answer machine)
+[B]usy
+[C]arrier
+
+
+[D]isconnected
+[E]xtender
+[F]ax
+
+
+[H]uman
+
+
+[L]ong distance
+
+
+[M]obile
+[N]IS(not in service)
+[O]ut of area(N/A from your loc)
+
+
+[P]BX
+[R]ings out
+
+
+[S]IT
+[T]one(s)
+[U]navailable at this time
+
+[V]oice Mail
+
+
+e[X]tender
+[W]ARE[Z]
+
+The pseudo re-mapping is compliant with ITU-T Recomendations(E-Series):
+
+  1     2      3
+       ABC    DEF
+
+  4     5      6
+ GHI   JKL    MNO
+
+  7     8      9
+PQRS   TUV    WXYZ
+
+  *     0      #
+
+This will save some time in the long run when you encounter
+a block of numbers that are not in use.
+You might consider reefing a keypad from a telephone to replace the
+numeric keypad. Voice recognition is another fun idea.
+
+I recomend reading the book;
+The Power Of Concentration available from guttenberg.org [Etext #1570]
+
+While you might not get to talk to many people in scanning after hours,
+i find this is a good time to develop my female voice. Now, i have a
+very deep voice, with practise i have been able to pull off a convincing
+chick instead of just a granny. This is obviously beneficial for social
+engineering. You might start by humming at a higher pitch till you find
+the correct modulation, you will then be able to keep any manhood out of
+your feminized voice while expressing female laughter and emotion.
+The difference between the average male voice and the average female voice
+is only about 1/2 octave. Its not the pitch, but the resonance.
+Reference;
+I concur with http://heartcorps.com/journeys/voice.htm for the most part,
+but with practise you should not need to pay for such lessons.
+
+As you may already know, sitting in one position for too long is not
+comfortable. You can develop a Repititive Strain Injury from hacking
+and in this case, phreaking.
+
+You may not feel the pain/strain as your mind is inundated by other,
+more important datum. Here is a url with simple pictures and descriptions
+of some integral stretches to prevent RSI and prolong comfort;
+
+http://web.mit.edu/atic/www/rsi/RSIMIT/exercise.html
+
+
+<3
+Love phlux
+
+
+
+------------------handjob.bas-----------8<-----------handjob.bas---------------
+
+REM phlux's handjob.bas(apart of handskan.txt)
+DECLARE SUB copout ()
+
+INPUT "AHOY! What was the last # inputted to handskan.txt?(enter 0 for 0hday)?", scanrange%
+INPUT "Stop scanning at what # ?", stopscan%
+PRINT "If you would like to stop the handjob prematurely, key in 31337 then whack Enter"
+OPEN "handskan.txt" FOR APPEND AS #1
+PRINT #1, TIME$
+CLOSE #1
+DO
+scanrange% = scanrange% + 1
+PRINT scanrange%
+INPUT "whats on tha blower?!", alpha$
+IF alpha$ = "1" THEN alpha$ = "[P]"
+IF alpha$ = "11" THEN alpha$ = "[Q]"
+IF alpha$ = "111" THEN alpha$ = "[R]"
+IF alpha$ = "1111" THEN alpha$ = "[S]"
+IF alpha$ = "2" THEN alpha$ = "[T]"
+IF alpha$ = "22" THEN alpha$ = "[U]"
+IF alpha$ = "222" THEN alpha$ = "[V]"
+IF alpha$ = "3" THEN alpha$ = "[W]"
+IF alpha$ = "33" THEN alpha$ = "[X]"
+IF alpha$ = "333" THEN alpha$ = "[Y]"
+IF alpha$ = "3333" THEN alpha$ = "[Z]"
+IF alpha$ = "4" THEN alpha$ = "[G]"
+IF alpha$ = "44" THEN alpha$ = "[H]"
+IF alpha$ = "444" THEN alpha$ = "[I]"
+IF alpha$ = "5" THEN alpha$ = "[J]"
+IF alpha$ = "55" THEN alpha$ = "[K]"
+IF alpha$ = "555" THEN alpha$ = "[L]"
+IF alpha$ = "6" THEN alpha$ = "[M]"
+IF alpha$ = "66" THEN alpha$ = "[N]"
+IF alpha$ = "666" THEN alpha$ = "[O]"
+IF alpha$ = "8" THEN alpha$ = "[A]"
+IF alpha$ = "88" THEN alpha$ = "[B]"
+IF alpha$ = "888" THEN alpha$ = "[C]"
+IF alpha$ = "9" THEN alpha$ = "[D]"
+IF alpha$ = "99" THEN alpha$ = "[E]"
+IF alpha$ = "999" THEN alpha$ = "[F]"
+IF alpha$ = "0" THEN alpha$ = "[ ]"
+IF alpha$ = "31337" THEN CALL copout
+IF alpha$ = "97991" THEN CALL copout
+
+INPUT "good on ya, anything else to add?"; comments$
+ OPEN "handskan.txt" FOR APPEND AS #1
+ PRINT #1, scanrange%; SPC(-1); alpha$; SPC(1); comments$
+ CLOSE #1
+REM SHELL backup.bat
+REM backup.bat conains the command: copy handskan.txt X:\ /Y
+LOOP WHILE scanrange% <= stopscan% - 1
+CALL copout
+
+SUB copout
+OPEN "handskan.txt" FOR APPEND AS #1
+PRINT #1, TIME$
+CLOSE #1
+PRINT "A drunk indian once said: you're only queer if you're on the bottom"
+SYSTEM
+END SUB
+
+------------------handjob.bas-----------8<-----------handjob.bas---------------
+
+
+<jimmiejaz> dammit, thunder and lightening out here now. :(
+<question> are you prone to seizures caused by flashing light?
+
+--
+
+
+This scan has been brought to you by phlux with no help from devil.
+Props to intel 666mhz processors, dawson, jesus christ, canadians,
+handjob.bas, and MaBelle for the long nights we have spent together.
+I love you.
+
+ 667 numbers dialed in 6hrs 10min from 780(Alberta, Canada)
+
+ 1 [R] rings out
+ 2 [A] rockwell automation
+
+ 4 [X] funflex (?) enter pin to call party(has voice recognition)
+
+ 6 [H] parker assistance ?
+
+ 9 [C] Enter Login...
+
+ 11 [A] oxford health plans
+
+ 16 [A] scuba diving magazine automated
+
+ 20 [H] a secretary will be with you shortly...
+ 21 [B] ro(reorder)
+ 22 [F] 
+ 23 [A] this is carol(friendly answermachine)
+ 24 [B] leveler home finishings(yankee)
+ 25 [B] office of traveler.com or some shit
+ 26 [A] universal traveler american express
+
+ 33 [B] hunting fishing shit(automated annoying fuck)
+ 34 [V] forwarded to VMS user 3180
+
+ 39 [A] US gas
+ 40 [R] ro
+
+ 46 [V] meridian vms
+ 47 [H] reroutes to some dude
+ 48 [O] 
+ 49 [A] american express 1(press 1 for emergency assistance costs 16 bones)
+ 50 [O] 
+ 51 [H] pop 1 communication center
+
+ 65 [A] voice mail for some dude
+ 66 [O] 
+ 67 [A] sweat+crawford VMS
+ 68 [R] 
+ 69 [O] 
+ 70 [A] better case? verizon VMS
+
+ 76 [A] lame international VMS
+ 77 [W] hey sexy(sexy voice, lesbians say they want me!)
+ 78 [H] CCIT this is tanya
+
+ 81 [V] VMB trippy ringing
+ 82 [O] 
+ 83 [X] att easy reach(123=pin)
+
+ 88 [A] robert james something audix VMS
+ 89 [V] some VMB trippy ringing
+
+ 100 [A] tomar lawfirm audix vms
+ 101 [O] 
+ 102 [A] some office * asks for user ID
+ 103 [O] 
+ 104 [V] en francais
+ 105 [C] ascii smut
+ 106 [O] 
+ 107 [A] telmar lawfirm hit
+ 108 [A] telmar lawfirm hit 9 asks for mailbox (meridian)
+ 109 [O] something growers
+ 112 [A] larry gordon office 9 for office directory
+
+ 116 [A] funky music then some dude
+ 117 [O] 
+ 118 [C] hummmmm
+ 119 [O] 
+ 120 [R] 
+ 121 [C] sounds like a m0dem
+ 122 [N] att due to a billing emergency call canot be completed
+
+ 125 [H] asshole
+
+ 130 [A] nebraska truck center
+ 131 [O] 
+ 132 [X] att easy reach 800
+
+ 136 [C] you tell me
+
+ 140 [H] jon
+ 141 [O] 
+ 142 [A] roider benefits VMS
+
+ 147 [A] initial security VMS
+ 148 [R] ro
+ 149 [O] 
+ 150 [H] popcenter control?
+
+ 154 [A] some anser machine
+ 155 [X] att easy reach 800
+
+ 160 [A] machanar visitors bureau system
+
+ 168 [A] nobert group?
+ 169 [A] easy reach 800
+ 170 [O] ro
+
+ 173 [A] ednewmar with something VMS
+ 174 [O] 
+ 175 [H] some dude
+ 176 [A] powel comnpany
+ 177 [O] 
+ 178 [X] easy reach 800
+ 179 [R] 
+ 180 [H] nobline controls
+ 181 [O] 
+ 182 [C] modem
+
+ 185 [H] some dude
+ 186 [O] 
+ 187 [X] att easy reach
+
+ 191 [A] citadel credit
+ 192 [X] att easy reach 800
+
+ 201 [T] tone
+
+ 206 [A] water environment federal fucked options
+
+ 209 [A] micro software services
+ 210 [O] 
+ 211 [C] another modem
+
+ 214 [A] the replay of the ibm confrence call hosted by chad comepnhanger (now expired)
+ 215 [A] the phone mail system
+
+ 219 [H] my leonards office(secretary)
+ 220 [O] reorder
+ 221 [H] qualcomm paging services
+
+ 224 [A] super fair travel
+
+ 230 [F] 
+ 231 [C] dunno
+
+ 236 [A] some supply blam
+ 237 [Z] 2 rings then discos called back and silence
+
+ 240 [A] JDs voice mail
+
+ 243 [A] RMS and vari soft also en francais VMS
+ 244 [X] extends to some dude
+ 245 [C] mmmm
+ 246 [A] office of henry stevens
+
+ 250 [A] lory mcdonalds financial
+ 251 [C] dunno
+
+ 254 [X] some dude
+ 255 [A] hagards? VMS
+ 256 [M] the mobile sattelite number is NIS
+ 257 [A] randy johnson something service system blah
+ 258 [A] some engineers pager hit * then # for VMS
+
+ 262 [H] some chick
+ 263 [O] 
+ 264 [C] sounds like a fuckin analog switch
+ 265 [O] 
+ 266 [A] I2c audix enter 710 for emergency
+
+ 269 [A] some system
+
+ 272 [A] att easy reach 800
+ 273 [C] smut
+ 274 [O] 
+ 275 [C] ...
+ 276 [A] stan sanards answer machine
+ 277 [O] 
+ 278 [U] the mobile sattelite customer i dialed is NA
+
+ 281 [A] beaver village in colorado
+ 282 [C] peek-a-boo
+
+ 286 [A] remote serive bureao of something sounds like tech
+ 287 [N] 
+ 288 [V] tatenalaogy? VMS
+ 289 [C] waka
+
+ 292 [C] well kiss my grits i thought we came here to compute
+
+ 295 [V] eddi sanchez pager
+ 296 [V] eddy sanchez pager
+ 297 [ ] silence
+
+ 303 [B] tipper technologies
+ 304 [O] 
+ 305 [X] easy reach 800
+
+ 310 [A] miller professional VMS
+ 311 [O] 
+ 312 [A] western culinary institute# for directory
+ 313 [A] reliable parts
+
+ 317 [H] homecare answering service
+
+ 320 [R] rings out
+ 321 [R] ...
+
+ 331 [A] motorola in glenrock new jersey audix
+
+ 334 [R] rings out
+ 335 [V] audix 
+ 336 [B] ro
+
+ 341 [R] ring ring ring
+ 342 [C] modem
+
+ 345 [F] 
+ 346 [O] 
+ 347 [H] person
+
+ 356 [B] something enterprises(anser machine)
+
+ 360 [B] rimada inn miama airport north
+ 361 [A] janice.com
+ 362 [A] midwest ferry replacements VMS
+ 363 [A] koala corp audix
+ 364 [O] 
+ 365 [U] loud ass tone
+
+ 369 [U] loud ass tone
+
+ 382 [R] rings out
+
+ 386 [H] 
+
+ 393 [H] "doctors exchange what doctors office are you calling?"
+
+ 400 [A] J and B importers
+
+ 410 [A] massmarkets reserve 800 hotline *click*disco'd
+ 411 [O] MCI, reads back ani for customer care
+
+ 415 [A] california closets VMS
+
+ 425 [A] *boop* "that service is not available now plz make another choice" reorder follows
+
+ 433 [A] att easy reach 800
+ 442 [A] att easy reach
+ 443 [F] 
+ 444 [A] riverside brick and supply
+
+ 449 [A] marty simnethunbgs voice mail
+ 450 [A] first investors corp
+
+ 454 [A] dr gilberts office VMS
+
+ 457 [A] MCI worldwide customer care
+
+ 461 [A] global crossings speedlink what pin call? 4digi(voice rec)
+ 462 [A] easy reach 800
+
+ 469 [A] att easy reach
+
+ 472 [C]
+ 473 [L] ring..ring..silence
+
+ 476 [F] 
+ 477 [R] ring ring ring...........
+ 478 [A] thank you for calling central
+ 479 [R] ...
+
+ 481 [N] the mobile sattelite customer is currently unavailable
+
+ 483 [A] my card is inactive and i should contact customer assistance
+ 484 [A] thank you for calling customer assistance..
+
+ 486 [A] all agents unavailable
+
+ 489 [A] my card is inactive and i should contact customer assistance
+
+ 492 [B] reorder
+
+ 494 [A] funcare flex 800 what pin would you like to call?
+
+ 496 [A] funcare flex what pin would you like to call?
+ 497 [A] funcare flex what pin would you like to call?
+
+ 499 [H] tristate signal?
+ 500 [F] 
+
+ 503 [B] busy
+ 504 [A] something seas transport 
+ 505 [V] VMS 3 digit boxs
+
+ 507 [X] att easy reach
+
+ 515 [A] office quin t corp VMS
+
+ 518 [O] ro
+
+ 520 [O] ro
+
+ 524 [O] ro
+
+ 529 [B] reorder
+
+ 531 [B] reorder
+
+ 533 [X] funcare flex 800 enter pin....
+
+ 541 [A] to contact an individual enter telephone #
+ 542 [A] enter your 4 digit pin
+
+ 545 [A] enter your 4 digit pin(enter 0000 for directory assistance, any state)
+ 546 [A] wellquestproduct order line
+ 547 [O] silence then RO
+ 548 [X] funcare flex 800...
+
+ 550 [F] 
+
+ 554 [F] 
+
+ 557 [A] funcare flex 800...
+ 558 [B] busy
+
+ 562 [A] funcare flex 800...
+
+ 564 [A] my card is inactive and i should contact customer assistance
+
+ 568 [A] denmark something something auto attendant * for directory
+
+ 575 [O] ro
+
+ 578 [B] busy
+
+ 579 [B] all circuits are busy now
+ 580 [O] 
+ 581 [A] marshal truck bidness
+ 582 [B] all circuits busy... CO .. BS ... ZER0
+ 583 [O] 
+ 584 [B] all circuits busy... CO .. BS ... ZER0
+ 585 [O] 
+ 586 [B] all circuits busy... CO .. BS ... ZER0
+ 587 [X] att easy reach 800
+ 588 [B] ro
+ 589 [B] all circuits busy... CO .. BS ... ZER0
+
+ 591 [B] all circuits busy... CO .. BS ... ZER0
+ 592 [B] all circuits busy... CO .. BS ... ZER0
+ 593 [B] all circuits busy... CO .. BS ... ZER0
+
+ 596 [H] hotline service
+
+ 599 [N] ro
+
+ 606 [R] rings out...
+
+ 609 [H] "sorry wrong number" 'Oh! thats ok i have to be up in 9 minutes anyways, good morning'
+
+ 612 [N] the mobile sattelite number is no longer in service
+ 613 [O] 
+ 614 [A] carolina patio.com request a catalog yo  vms
+
+ 622 [A] ronhall associates VMS
+
+ 625 [B] busy
+
+ 632 [A] office of ubs pane weather
+ 633 [A] thank you for contacting janice. janice.com(no options)
+ 634 [A] construction equipment parts
+ 635 [O] 
+ 636 [R] rings out..
+ 637 [A] janice.com
+
+ 641 [H] carlas
+
+ 645 [X] att easy reach
+
+ 651 [R] rings out...
+
+ 653 [A] im the personal assistant
+ 654 [X] funcare flex 800
+
+ 656 [R] rings out...
+ 657 [O] 
+ 658 [H] i think he said he is dick tracy
+
+ 662 [A] totaly 1 communications corp sales divison
+
+ 664 [A] POS answer machine
+
+ 666 [O] cowabunga!
+
+
+ ---
+
+<theclone> umm dec0de
+<nach0> dec0de is the man with the massive dong or going to write a file on how
+	illiterate Coercion is.  and I'll stick that up in the "fiels sekshun"
+
+ ---
+
+
+ANI and Caller ID spoofing
+By LUCKY225 
+Lucky225@2600.COM
+www.verizonfears.com
+
+UPDATE 5/12/2003: AT&T's AUTOMATED OPERATOR(10-10-288-0) has BLOCKED 
+800-646-0000 from being called through AT&T! ALL OTHER 800 numbers go 
+through fine, but 800-646-0000 says 'were sorry the number you have
+dialed is either incomplete or not valid, please enter the number you
+wish to call again.' I guess AT&T really does read 2600 
+
+PLEASE NOTE THE ARTICLE THAT APEARED IN 2600 MAGAZINE(20:1, spring 2003) 
+has some clerical errors that have been corrected in this text!
+
+This article will explain many methods of caller ID and ANI spoofing that 
+can still be used as of today. I have also included a brief FAQ for those
+of you who may not be familiar with the terminology and should help you
+understand this article more. I hope that this article will make many of
+you aware that Caller ID and ANI, though often can be used as great tools,
+can also be a waste of your time and money. Please don't confuse this
+article with past's articles I've wrote, though this article does mention
+techniques I have used in the past it does include up to date accurate
+information and is meant to be a reference article on how caller ID and
+ANI can be spoofed and has been spoofed in the past so that all of those
+telco techs out there that claim it can't be done have definite proof that
+it has been. You will also find some useful links at the end of this article,
+enjoy.
+
+
+First some FAQs
+
+So, just what is ANI?
+
+ANI stands for Automatic Number Identification. ANI is a service feature 
+that transmits a directory number or Billing Telephone Number (BTN) to be
+obtained automatically. In other words your number is sent directly to
+wherever you are calling to automatically. Unlike Caller ID you can not
+block this feature from happening.
+
+What is flex ANI?
+
+Flexible ANI provides "II" (identification indicator) digits that identify 
+the class of service of the phone you are calling from. Flex ANI is trans-
+mitted as II digits + directory number.
+
+What is the directory number, or 'DN'? This is the number the switch associates
+with your line for services like caller ID, call return, etc. it is the number 
+that is displayed on caller ID or flex ANI when you call someone, but it is not
+your billing number, and sometimes not even the number where you receive phone
+calls!
+
+What are ANI "II" digits? Identification Indicator digits describe the class of
+service of the telephone.
+
+Some examples are:
+
+00 "POTS"(plain old telephone service) or home phone
+07 Restricted line
+27 ACTS payphone
+29 Prison phones
+62 Cellular phones
+70 Cocot Payphone
+
+What is an ANAC?
+
+ANAC stands for Automatic Number Anouncement Circuit. This is a phone number you
+can call that will ring into a circuit that anounces the ANI number you are calling
+from. An example of an ANAC is 800-555-1140 and 800-555-1180. When you call this
+number you will get an ARU (Audio Response Unit) this is the circuit that anounces
+your ANI. When you call 800-555-1140 or 800-555-1180 the ARU will give you this 
+information:
+
+"The ARU ID is [id], Your line number is [trunk number], the DNIS is [DNIS number]
+the ANI is [II digits followed by ANI]"
+
+ARU ID: Audio Response Unit ID number, this identifies which ARU in a group of ARUs
+you reached.
+
+Line number: The trunk you came in on.
+
+DNIS: Dialed Number Identification Service -- Tells you which number YOU called.
+(i.e. 800-555-1140 is 03123, 800-555-1180 is 03125)
+
+ANI: II digits followed by ANI.
+
+What is a BTN (Billing telephone number)?
+
+BTN is a phone number for which charges are to be billed to. It is not necessarily
+the phone number of the line you are calling from.  
+
+What is Psuedo ANI?
+ 
+Psuedo ANI or PANI is a unique non-dialable number used to route cellular calls.
+PANI is used by 911 operators to find the cell site and sector from which the
+cellphone is calling.
+
+What is an ANI fail?
+
+An ANI fail is when no ANI is sent. Usually the area code of the tandem office
+completing the call will be sent. (i.e. if the tandem office is in 213 the ANI
+will be sent as II digits+213.)
+
+How do ANI fails occur?
+
+ANI fails can occur when the tandem office completing a call didn't receive ANI
+from the central office originating the call. ANI fails can also be caused when
+ANI is intentionally not sent, this can happen by using a method called op diverting.
+Another way you can cause ANI fails is through the use of the AT&T long distance
+network. Simply dial 10-10-288-0 or dial 0 and ask your operator for AT&T. When
+AT&T comes on the line simply touch tone in a toll free number and the call will
+be completed with no ANI.  Note however that this method is dependent on the AT&T
+center you reach, some AT&T centers still forward ANI, others send an AT&T BTN as
+ANI, but most AT&T centers currently don't forward ANI.
+
+What is op diverting?
+
+Op diverting is a term that describes the process of intentionally causing an ANI fail
+by having your local operator dial thenumber you wish to reach. Most operator centers
+are not equipped to forward ANI and so they complete the call with no ANI.
+
+What's the difference between ANI and Caller ID?
+
+ANI is the BTN associated with the telephone and is the direct number from where you
+are calling from. Caller ID is usually the BTN but occasionally can be incorrect, i.e.
+the main number of a business instead of the actual number being called from. Another
+difference in ANI is that it shows the class of service of the phone number while Caller
+ID just shows the name and number.
+
+
+Now that you have an idea of what ANI is and how it differs from Caller ID I will explain
+some methods for spoofing both of them. 
+
+Spoofing Caller ID
+
+Method #1 Using a PRI line.
+
+Major companies that have a PBX with many hundreds of lines hooked up to a Primary Rate
+ISDN (PRI) line can spoof caller id by setting the caller ID number to whatever number
+you want for a given extension on that PBX by typing a simple command on the PBX's terminal.
+
+NOTE: In my 2600 article I was talking about how this method also spoofs ANI, I'm actually
+wrong about this, it spoofs Flex ANI, not ANI! hah maybe I should read my own FAQs! Anyways,
+flex ANI is the Directory Number on the switch, it is not the BTN! The real ANI is the BTN.
+Most 800 numbers use Flex ANI, not real ANI, so I thought ANI was being spoofed but in actu-
+ality it was only the caller ID and flex ANI being spoofed.
+
+Method #2 Orangeboxing
+
+Orangeboxing is Caller ID signal emulation through the use of a bell 202 modem, sound card
+software, or a recording of a Caller ID transmission. Orangeboxing is not very effective
+because you have to send the signal AFTER the caller has answered their phone. However
+through the magic of social engineering you could have one friend call a number and pretend
+he has reached a wrong number while sending a Callwaiting Caller ID signal fooling the victim
+into believing he is receiving another incoming call from the name and number spoofed and
+when the victim "flashes over" have your friend hand you the phone nand continue with your
+social engineer.
+
+Method #3 Calling Cards
+
+I learned this method from some phone phreaks on a party line a long time ago. I can't recall
+the name of the calling card company but all one had to do was provide a credit card as a
+method of payment to obtain a pin number. Once you had the pin number you just op divert or
+cause an ANI fail to the 800 number for the calling card and it would ask you to please enter
+the number you are calling from, you touch tone in ANY number you want, then it would ask for
+your pin number and then what number you wanted to call. The person you called would see the
+number you touched tone in as the caller ID for that call, if the number was in the same area
+as the caller it would also show the name associated with the phone number.
+
+Spoofing ANI
+
+Spoofing ANI is a little more difficult than spoofing Caller ID unless you have access to a
+central office switch.
+
+A few years ago when Verizon was still GTE here in California, the local verizon '0' operator
+center was located locally to me and they did have the ability to send ANI without ANI fails.  
+However I found a test number on a DMS-100 Switch in Ontario that would give me a local '0'
+operator only she'd see an ANI fail and have to ask me for what number I was calling from,
+any number I gave her would be used as ANI for any call I had her place. A while ago AT&T
+used to send ANI when you placed calls to toll free numbers through the AT&T network and you
+could only call 800 numbers that were hosted by AT&T, after publishing an article about how
+to spoof ANI by op diverting to 800-call-att AT&T had their networked changed within a month
+of publication.  Their new network however just made it easier to cause ANI fails to toll free
+numbers. On the new network you could call any toll free number, not just AT&T hosted numbers,
+and their would be no ANI on the call, unless you were calling 800-call-att or a few other 
+numbers that are internal numbers hosted by the call center it's self. All you have to do to
+cause ANI fails to toll free numbers now is dial 10-10-288-0 and touch tone the 800 number in
+when AT&T comes on the line. This method of causing ANI fails is great because you don't have
+to speak to a live operator and you can even have your modem wardial 800 numbers without fear
+of your ANI being logged.
+
+However there are some AT&T call centers that still forward ANI, and you may be able to reach
+them even if the call centers aren't in your area, try op diverting to an AT&T language assis-
+tance operator since it is not likely that your call center will have a Tagalog speaking oper-
+ator so you will get routed to a different AT&T center that does, possibly an AT&T center that
+still forwards ANI. If you get an AT&T center that still forwards ANI you can spoof ANI by
+simply giving the operator the number you want to spoof as where you are calling from and social 
+engineering her into placing a call to the toll free number you wish to call. Here are some AT&T
+language assistance numbers:
+
+
+1 800 833-1288 Cantonese
+1 800 233-7003 Hindi
+1 800 233-8006 Japanese
+1 800 233-8923 Korean
+1 800 233-1823 Mandarin
+1 800 233-8622 Polish
+1 800 233-2394 Russian
+1 800 233-9008 Spanish
+1 800 233-9118 Tagalog
+1 800 233-1388 Vietnamese
+ 
+The best method for spoofing ANI and Caller ID is social engineering a Telus operator to do it for
+you. I stumbled upon this method when I was testing out a theory. In my previous 2600 article about
+spoofing ANI through AT&T I mentioned something known as the 710 trick.  This was a method of making 
+collect calls that the called party wouldn't be billed for. The way the 710 trick worked in the past
+was you'd op divert to 800-call-att and give the operator a 710 number as where you are calling from
+and have her place a collect call to the number you want to call. The called party would never get a
+bill because 710 is a non-existant area code. AT&T does its billing rates by where the call is being
+placed from and to and because you used a 710 number there were undetermined rates. I was testing to
+see if the 710 trick also worked with a canadian phone company called Telus. After testing it out my
+friend in canada dialed *69 and it read back the 710 number I gave the operator, this is how I disc-
+overed Caller ID spoofing was possible through Telus and I began to come up with a social engineer to
+get them to place a call for me without selecting a billing method. I now know that it is also possible
+to spoof ANI through Telus.
+
+Telus' toll-free "dial-around" is 800-646-0000, by simply calling this number with an ANI-fail you can
+give the operator any number as where you are calling from. As of January 2003, Telus can now place
+calls to many toll free numbers and the ANI will show up as whatever number you say you're calling
+from. So by simply causing an ANI-fail to Telus dial-around service you can spoof Caller ID AND ANI
+to anyone you want to call, not only that if the person you are calling is in the same area as the
+number you are spoofing, the NAME and number shows up on the caller ID display. To cause an ANI fail
+to Telus all you have to do is op-divert to 800-646-0000 or dial 10-10-288-0 and touch tone 800-646-0000
+when AT&T comes on the line.
+
+You can social engineer the Telus operator to place "test calls" for you which is a free call with no
+billing, you simply tell the Telus operator at the beginning of the call that you are a "Telus technician"
+calling from [number to spoof] and need her to place a "Test call" to [number to call].
+
+The social engineer pretext looks like this:
+
+You pick up the phone, at dialtone 10102880 AT&T Automated Operator: "AT&T, to place a call" Touch tone
+800-646-0000
+
+AT&T Automated Operator: "Thank you for using AT&T"
+
+<RING>
+
+Telus: This is the Telus operator, Lisa speaking. (or, This is the telus operator, what number are you
+calling from?)
+
+You: Hi Lisa, This is the Telus technician, you should see an ANI failure on your screen, I'm calling
+from [number to spoof] I need you to place a test call to [number to call]
+
+Telus: Thank you from Telus
+
+What just happened was AT&T sent an ANI fail to Telus, you told the operator to key in your new number
+calling from, Telus then places the call and uses the number you gave as both ANI and CALLER ID! NOTE
+about spoofing ANI to Toll freee numbers: Not all US toll free numbers are accessable from Canadian
+trunks, so even though you are spoofing a US number the call will not be able to be routed through Telus.
+
+Of course, the social engineer will probably become ineffective soon, though I've demonstrated it at
+H2K2 in July 2002 and It's now 2003 and is still working. The spoofed caller ID also shows up on collect
+calls (though I think you can only call people in Canada collect with this service), third party billing 
+(would you accept a third party bill call if the caller ID said your girlfriends number and the op said
+she was the one placing the call? :)), and calling card calls, so you could even legitamatily spoof Caller
+ID if you had a Telus calling card, however the rates are pretty expensive, though you can get one if you
+have Telus as your local phone company or if you live outside Canada you can pay with a credit card (you
+need a Canada billing address though!), call 1-800-308-2222 to order one.
+
+The sad thing is that ANI spoofing and Caller ID spoofing is so easy, yet many companies use ANI and
+Caller ID as a security feature -- Kevin Mitnick even stated in his book "Art of Deception" that Caller
+ID was easy to spoof with ISDN PRI lines but that you can't spoof ANI (even though on some certain
+switches it will spoof ANI.) here you can spoof Caller ID and ANI using a simple social engineer that
+is very effective. T-mobile allows you to check your voicemail without entering your password if the
+Caller ID shows your cellphone number, credit Card companies allow you to activate credit cards simply
+by calling their toll free number with the ANI of the "home phone" number you put on their application,
+Some calling card companies allow you to access your calling card by simply calling from 'your number',
+some utility companies including the phone company allow you to set up online billing using only a call
+to one of their toll free numbers that use ANI to verify that you are calling from the phone number listed
+on the account and activate your online billing with no further verification. ANI and Caller ID can be nice
+tools for verification, but you should also verify other identifying information such as a social security
+number or pin before letting just anyone calling from a certain number access your services.
+
+
+Links:
+
+http://www.verizonfears.com - Verizown
+
+http://lab.digitol.net/callerid.html - Spoob Open Source Orangebox perl script and online CGI
+
+http://www.artofhacking.com/orange.html - Shareware 'Software Orange Box' for Windows.
+
+http://www.codegods.net/cidmage - CIDMAGE Caller ID tone generator and FSK analyst.
+
+http://www.testmark.com/develop/tml_callerid_cnt.html - Everything you ever wanted to know about caller ID.
+
+
+--
+
+<theclone> You keep lubing that ass, steelethan and I'll keep pushing the sheesh in
+
+--
+
+
+ 	
+			    [  K-1ine News Bytes  ]
+
+
+	       	          "The Most Trusted Name In News"
+
+
+  --
+
+
+		Phreaks threaten voice IP security
+
+
+ Kate Mackenzie
+ May 6, 2003
+
+ URL: http://www.news.com.au/common/story_page/0,4057,6385811%255E15321,00.html
+
+
+INCREASING use of voice-over-IP technology could result in a return to
+"phreaking" - hacking of telephony systems to make free calls.
+
+Security expert Matt Barrie said VoIP was cheap and increasingly popular,
+but it introduced many vulnerabilities of traditional Internet Protocol
+networking to voice telephony. 
+
+Mr Barrie, a lecturer in security at the University of Sydney and former
+manager of the Packetstorm security portal, said telephone network operators
+had spent years coming to terms with security issues in voice transmission,
+which could re-emerge as VoIP grew. 
+
+Internet security centre CERT found a vulnerability in the fledgling IP
+Session Initiation Protocol (SIP) in February. Among other things, the
+vulnerability could be used to cause denial of service attacks.
+
+Mr Barrie said DoS was a potential problem, along with other typical IP
+network attacks, such as traffic monitoring, packet sniffing, and hijacking
+traffic. 
+
+There were encryption and authentication protocols in place, but these created
+additional burdens that made them less attractive to users.
+
+"The problem with authentication and encryption protocols is a latency in setting
+up connection because you need to do a key exchange," he said.
+
+"If you are encrypting a key in real time, that burdens a whole layer of processing
+overhead on the conversation, which can affect the call quality." 
+
+He said VoIP was already being used in some international calls - such as those sold
+as cheap calling cards - without the user's knowledge. "As a user, you're not always
+aware it's VoIP." 
+
+IP equipment vendor Cisco, one of the largest advocates of VoIP, has made security a
+priority.
+
+Cisco senior engineer Alan Radford said no technology was perfect, but VoIP had some
+security advantages over old-style telephony.
+
+The other issues were specific to IP, he said. 
+
+"It's a new focus because people are looking at it in a slightly different way - there
+are some specifics that appear to make it a bit special, but a lot of the stuff has been
+looked at before," Mr Radford said. 
+
+A classic phreaking trick in the US was to use a plastic whistle included in Cap'n Crunch
+breakfast cereal boxes, which generated the tone needed to interfere with billing information,
+rendering the phone call free.
+
+"One of the limitations of old telephony systems was that they did signalling in-band - so
+the signalling for accounting and billing went along the same band as the voice band," Mr
+Radford said. 
+
+"The nice thing about VoIP is we have separated out those parts of the network. The impli-
+cation is that it makes security a bit easier." 
+
+Mr Radford said Cisco began working on a new security strategy in 2001 after security
+threats such as Code Red, which attacked using several different methods, began to emerge.
+
+"It tries to address all of those sorts of threats," he said. 
+
+Virtual LANs could be used to improve VoIP security in large corporate networks. 
+
+"One of the big things you can do in an enterprise to mitigate those threats is separate the
+voice infrastructure from the data infrastructure using VLAN infrastructure," he said.
+
+"With most security things it's an ongoing problem. 
+
+"It's an evolutionary approach - you never get the magic formula where you can say this is it
+for the next 10 years."
+
+The Australian
+
+
+--
+
+
+			We've got your number
+
+Sarah Staples
+May 12, 2003
+
+URL: http://www.hackcanada.com/telco/pipeda.html
+
+The first plaintiff under a new privacy act takes Telus to court It's only a toonie. But if Mathew
+Englander wins his battle in court, the lowly coin could end up costing Canadian companies billions.
+In May, Englander--a nonpractising graduate of UBC's law school--will square off against Telus Corp. 
+(TSX: T) over the legality of a two-buck monthly charge on his phone bill. Under new federal privacy
+rules, Englander argues, Telus shouldn't be allowed to charge a fee to keep his name, number and
+address out of the phone book. And he says the telco doesn't ask for explicit enough consent to sell
+his personal details to telemarketers, charities and political parties. "Your information belongs to
+you, not to a company, and if they want to use it, they need your permission," he says. "It's incons-
+istent with that principle to say, 'We're going to allow your number to be published all over the place
+unless you pay us.'"
+
+Telus has some 250,000 customers who pay for unlisted numbers, and victory for Englander could cost the
+company millions in lost revenue. Businesses across Canada could feel the impact as well. Englander's
+three-day hearing, starting May 21, is the first-ever judicial reckoning of the Personal Information
+Protection and Electronic Documents Act, or PIPEDA, which took effect in January 2001. The legislation
+gives consumers, among other things, the right to access any information typed about them by customer
+service reps, squirreled away in computerized cash registers, or revealed to creditors, doctors and
+employers.
+
+So far, PIPEDA covers only federally regulated companies, as well as enterprises that do business across
+provincial borders. But as of Jan. 1, 2004, the law will apply to every company engaged in commercial
+activity in Canada. Big-box retailers and local corner stores alike will have to record whom they share
+your personal information with and provide proof that the data are encrypted for maximum secrecy.
+Englander's case--which was deemed not well founded by Canada's privacy commissioner in 2001--will
+establish just how far companies must go to protect customers' privacy and to secure permission to
+collect and use personal information.
+
+"This is a watershed case because it allows individuals to challenge practices that were in place before
+the advent of privacy rights," says Stephanie Perrin, a member of the Industry Canada task force that
+crafted PIPEDA. Lawmakers, she adds, have been scrambling to control technology's reach since the 1970s,
+when mainframe computers enabled governments to cross-reference massive amounts of data. Now, in the
+post-9/11 era, says Perrin, law enforcement agencies are gaining unprecedented access to personal files.
+"It's a fundamental erosion of your ability to go through life anonymously, without people knowing what
+you're buying, seeing, saying or doing," says Perrin, president of Montreal-based privacy consultant
+Digital Discretion. "And yet, once these things are brought in, it seems like they've always been there."
+
+Complying with PIPEDA won't be easy. "If a bank asks to share your data internally," says Perrin, "it might
+go through quite a circuitous route. And there can come a point where you begin to lose track of which
+department or affiliate it's been sent to." Companies may have to invest in costly encryption software or
+remove sensitive databases from computer networks. They may also have to add staffers to pore over complaints
+and requests, and mail every stitch of information they've collected within 60 days.
+
+Businesses that rely on tracking customers' spending habits--like retailers--will take an especially hard
+hit, as they find themselves having to convince consumers that tracking what, where and how much they buy
+is somehow in their best interests. "Once companies start using personal information, it becomes embedded
+in their revenue cycle," says Perrin. "It's hard to step back from that because it means a potential loss
+of profit."
+
+Two other PIPEDA cases will go to court later this year. Nancy Carter has filed a complaint against Inter.net
+Canada after the Montreal ISP withheld her personal e-mail--including a job offer--because of a dispute over
+payment. Ronald Maheu, president of Markham, Ont.-based marketing firm Pharma Communications Group, is taking
+IMS Health Canada to court; if he wins, companies will have to ask doctors' permission before buying prescr-
+iption records and reselling them to pharmaceutical makers.
+
+As for Englander v. Telus, the telco wants the court to uphold a 1998 ruling by the CRTC that said phone books
+are a public service (the regulator subsequently set the $2 maximum fee). Englander, of course, disagrees.
+"When you value privacy in one scenario, it increases the value of privacy in all others," he says. "And when
+you lose some of your privacy in one context, you risk devaluing it in others. There's a slippery slope there.
+It would be nice to have a strong statement from the courts to reinforce some of those principles."
+
+
+---
+
+		[ Stupid E-mail of the Century Award ]
+
+ Every century, K-1ine magazine awards the most idiotic people in the world
+ the prestigious "Stupid E-mail of the Century Award". Since none of us will
+ live to see the next century, you can expect this to be the only award K-1ine
+ magazine will ever give out to an individual for extreme and utter ignorance.
+
+ And now, without further delay I bring you 'Indee' from Singapore...
+
+
+	 "I want to write a book on hackers, but I'm an idiot"
+
+
+ (Warning: This e-mail was *so* hilarious that I was forced to change several
+	   pairs of my favorite underwear the first time I read this e-mail.)
+
+
+
+Date: Fri, 18 Apr 2003 13:46:44 -0700 (PDT)
+From: indeevar <indeeblues@yahoo.com>
+Subject: hi there!
+To: theclone@hackcanada.com
+
+
+Dear Respected Sir,
+
+This is Indee from Singapore. Basically I write screenplay stories. Currently I wish to write short
+story about hackers and their culture. Over the past 12months I have been struggling to get relevant
+information on Hacking and about hackers for my story input. But unfortunately so far I have not much
+information hence I am in the mid crisis of not completing my story. Hence I kindly request your help
+in providing me some tips, personnel experiences and knowledge to me questions stated below which could
+be very helpful to finish my story. Any form of help in this regard would be highly appreciated. Thanking
+you.
+
+
+Sincerely yours,
+
+Indee
+
+
+FRANKLY I WANT TO WRITE AN INTRESTING FAST PACE THRILLER STORY SOME THING LIKE THIS  a hacker is run into
+problem by a cracker. Ever since the hacker look out for him Couple of years later they meet up again in
+another country. where the hacker settles the score by tracing the cracker and making him caught. But both
+are in that country for personnel reasons. For instance the hacker is in that country to meet the parents
+of his girlfriend. But the cracker is in that country to carry out a new plan which is he tries to hack FTP
+(file transfer protocols) of a multinational company and try to extort for a 500,000 EFT (electronic file
+transfer )
+
+1. For instance if two hackers , each from different country or from the same country hack on to a common
+   server or network can they identify each other presence or can numerous hackers at once hack on to a same
+   server or network
+
+2. Are networks and server the same . What type of networks are there,
+   and what exactly are networks. Is Internet a network.
+
+3. Can a power surge delay hackers plans and also what other consequences it could lead them while they are
+   hacking or in the process of hacking.
+
+4. If two hackers have simultaneously hacked into a system that controls the security system of a building.
+   Assume that if hacker A gives commands to the security system to unlock all the doors , and hacker B gives
+   commands to the security system to lock all the door . In such an event can both hackers toy with the system
+   with their own commands. Can that cause a malfunction to the system. Is such a scenario called a simultaneous
+   hack of two hackers interception ????.
+
+5. If suppose two hackers have logged into a same system ,and  both fighting each other to get rid either one of
+   that system by placing virus or worm . I mean how do a hacker kick another hacker out of a system.
+
+
+6. Basically a hacker is barred from using Internet. His parents removes the connection to his room . If such a
+   situation should arise can a hacker use wireless connection by using laptop and get connected to networks and 
+   Internet. Or is there any other way of connection to the web or networks  Currently what type of connection is
+   used besides ph line ,cable and wireless. How do network card come in for wireless Internet and what are they
+   commonly called as.
+
+7. If both persons are chatting with one another , suddenly one person is challenged by another person to find out
+   her ph no. Is it possible for that hacker to find out her ph no while she is online.
+
+8. What exactly is a system and what common systems are used.
+
+9. A worm that was to steal 25 million bucks. The password for this hungry little sucker belongs to Margo Wallace,
+   Do worm and virus need passwords to login . Also in order to steal transactions do they need worm and virus.
+
+10. After Jack probation ends. With the hope of further not getting into trouble his parents immediately send him
+    to another country . Currently during his stay in that country he meets a guy martin who is from the background
+    of computers and programming. Jack suppose with personnel intentions if he ask martin a favor , what favor could
+    it be eg: burn a software cd,or virus, or another technical stuff??.Mark can you kindly suggest from hacker point
+   of view what would you think a hacker seeks for from a guy with computer background especially in another country.
+
+11. Generally what favors or help do hackers seek help from fellow hackers.
+
+12. Are all hackers good programmers. And generally most hackers who do they do on their PCs if they are not hacking.
+    I mean mostly they are on the outlook of what. e.g. technology , creating something like virus or worm etc??
+
+13. serial numbers and other numeric codes??..what exactly are these and are they both the same.
+
+14. what is e bussiness
+
+15. ?? Recent virus epidemics around the world and attempts to extract money or data from major corporations have
+    demonstrated just how much damage such attacks can cause??  ?? conspiring to cause an illegal $150,000 wire 
+    transfer. From all these is this a wire transfer. And what exactly is a wire transfer.
+
+16. ?? The MOD and LOD squads in 1993 The masters of deception (MOD) were the first crackers ever to get busted via
+    +wiretaps.?? Are wire taps same as wire transfer. What exactly is a wiretap.
+
+17. ?? When virus is created its first programmed and then coded .The programming creates the virus but it cannot
+    be run on any computer before it is coded ?? from this if a hacker is good in programming must he be good in
+    coding also. I mean if he makes a virus does he need to do coding with the help of some expert hacker who is
+    good in coding.
+
+18. Do most of hackers or crackers are skilled in one particular field of computing or multiple skills. If not does
+    it depends from person to person.
+
+19. What is hybrid virus means??.For instance if a cracker plots a virus into a system can a programmer or hacker
+    stop virus from being infected or could it be deleted or perhaps being uploaded.
+
+20. Do they create virus first and then make a plan or in accordance to a plan they create virus or hybrid virus.
+
+21. ?? Two young hackers were on charges they broke into us.air force rome laboratory. They planted eavesdropping
+    software that allowed them to monitor e-mails and other sensitive information ?? From this what is eavesdropping 
+    means , And can you tell me a rough description of it or a brief description of how it works.
+
+22. Are most hackers moody or temperamental.
+
+23. Do they listen to music when crackers or hackers are busy accomplishing an illegal task.
+
+24. Script kiddie #8211; wannabie hackers without skills to write their own program codes.
+    From the above can anyone between 27 and 35 yrs can be descried as script kiddies.
+
+25. ?? A manual hack takes long time ,several days or weeks so naturally a bit shuffler is usually necessary??
+    Apart from this what other possible reason could be for a hacker or cracker to delay in his hack.
+
+26. What exactly are protcols.
+
+27. ??For instance if a group of hackers living in a country X and decide to hack in  country X .But instead
+    unexpectedly they decide to go to another country Y and hack into country  X from country Y.?? If so what
+    possible reason could there be for them to go to country Y e.g.: technical drawbacks/security/unsophisticated
+    networks.
+
+28. Lets assume that two companies ,one in USA and another one in Britain. Both these companies do wire transfers
+    on regular basis... If one of their systems is infected or hacked on the either side , can it be possible to
+    do the hack or infect virus from another country rather than the respective country.
+
+29. Are most hackers loud mouthed , calm or patient.
+
+30. Are coders or virus writer hacker or crackers.
+
+31. ?? If lets say a hacker has completed his probation for his cyber crimes. Currently he lye??s low so during
+    his low period what would such hackers or crackers generally do . e.g. upgrade his skills, learn new programs,
+    upgrade his PC or read books.
+
+32. Usually what is the duration for a cracker to hack into foreign sites from his country to another country
+
+33. Anonymous hackers from different countries who chat with each other over irc channels??.Is it possible for them
+    to meet in person after months of chatting for any kind of plan.
+
+34. Also Is it possible to find out phone no of a person who has been chatting with me for a while on the IRC.
+    How can we find it out (this question is in regard to a scene from my script)
+
+Below are two different short stories that I have conceived .Please tell me if they sound good from the aspect of
+your computing knowledge and technical standard in these stories. Are they appealing and gritty. Please feel free
+to pose any sort of question for the below stories.
+
+
+ STORY ONE.
+
+A guy living in usa discovers a flaw in a system , Before the company fixes the flaw this guy breaks into the
+system and plants eaves dropping software that allowed him to monitor emails and other sensitive information .
+
+This guy after few days of his regular monitoring he discovers some information through which he conceives an
+idea and makes a plan. In regard to the information and his plan he sends an email to his cousin in Poland.
+After months of planning, he and his cousin team up in poland to hack into an mnc company in poland that does
+FTP and EFT between its head office in usa. Reference : FTP (file transfer protocol) A command used to transfer
+files to and from remote computers using the file transfer protocol, You can use FTP to log on an Internet
+computer and transfer text and binary files. When you use FTP you start a client program in your computer that
+connect to a server program on the Internet computer ,The command that you give to FTP are translated into
+instructions that the server programmes executes for you. FTP is also built into major web browser
+
+
+STORY TWO
+
+
+Two guys from usa who are from different nationalities but with a  common plan head to a Prague (chez republic)
+to meet a gang of crackers or hackers who give them the access to the zoos network.
+
+Reference : Its learnt that coder and virus writers they have a lot of programming background  and write code but
+wont use it themselves. They have their own networks to experiment which they call the ??zoos ?? They leave it to
+others to introduce their codes into the wild or the Internet.
+
+A zoo is probably some kind of large test networks most likely from china or korea where all these insidious
+programs are hatched.
+
+The wild means #8211; public Internet.
+
+Please pose some questions or extend your additional knowlegde for the above two stories if some thing sounds odd.
+Thank You. Lastly do you mind to share a few interesting true stories that you have heard or seen in the world of
+hackers.
+
+
+----  END OF THE STUPID E-MAIL ---
+ 
+
+<theclone> you heard about the two sars cases in newfoundland?
+<theclone> One had a SAR throat, the other had a SAR mouth.
+
+
+--
+
+
+                       -- Credits
+
+    Without the following contributions, this zine issue would be
+  fairly delayed or not released. So thank you to the following people:
+
+		CYB0RG/ASM, Dec0de, Fractal, Lucky225, Phlux,
+                   Shaun, The Clone, TreePhrog, Wizbone
+
+
+  -- Shouts:
+
+    CYB0RG/ASM, Wildman, H410g3n, warVamp, The Question, plappy, Phlux,
+    rt, Magma, Hack Canada, The Grasshopper Unit, Flippersmack, soapie,
+    Breanne, Flopik, dec0de, caesium, oz0n3, Kris, to2600.org, and lastly
+     to everyone and anyone who contributes to the Canadian H/P scene.
+
+
+                             ;.  .;..  ; ;. ;..
+                           ;..   .;..; .;.; .;; ;..
+                      .;..;. .;..;  .;.;...; ;..;..
+                         .;.         A         .;. .;.
+                       ;..   N E T T W E R K E D  ;..
+                        ;..;.. P R O D U C T   ;..;..
+                          .;..;               ;..;..
+                     ;  .;..;.;..   .; .  .;. ..;..
+                    .;..   . .;  ..;..;..;.. .;
+                ;..;.   .;.. . .;.. .;.;.
+              ..;. ..;.. .;.   ;.;..;;..;.;
+                ;.;;..;..      ;.;.; .; .
+                   ;.;..;. .;. ;.;:.;.
+                     ,;....;.
+               .;.;. .;.;
+              .;.;.;
+            .;.;
+            ;..;.
+           .;.;;.; .;. ..; ;. > > > I can do it, put your ass into it!

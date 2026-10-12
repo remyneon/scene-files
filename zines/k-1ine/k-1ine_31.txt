@@ -1,0 +1,3242 @@
+
+
+
+
+
+     __             _____  __            ___ _            ______ __ _        _
+       __      ___ / _   __                                        ____ _   ( )
+              ___)\ /______   ______
+ _________       \  / ___  _____ ___)\    ___   __.
+       _____     |   /_             \ |  /_    /  |
+           ___\  |  (/               || //  _   | |   _   __  __      _  
+     _       _\\ |  |     _______    |:(/  ( )  | |  ( )  ) \/_ \   /( )\
+    ( )        \\|  |   /_ ____      ||\\       | |  | |  | |  ) ) /  ___)
+                \\  |  //__          || \\      | |  | |  | |  | | \ (___ __ _
+                 \) | //             ||  \\_  __| |__| |__| |  | |_ \_______ __
+                 |  |//      ____ __/ |   \___    ____   _ _    _    _      _
+    __ ______)   |  (/      / __ __ )/
+              \ \|  |      / /
+               \ \ (\_____/ /___  _                                         ___ _
+      ____      \ ) \____ _____ __ __ YOU WANTS A PIECE OF MY PANCAKES!? _ _
+     ( 31 )      |  |
+
+
+         c/a   9.2002.
+
+
+_____________________________________________________________________________
+
+ » .- Words from the Editor -. «                                              |
+
+ *: [-] Introduction .......................................... The Clone    :*
+ *: (-) Contact Information ................................... The Clone    :*
+ *: (-) Nettwerked Discussion Board ........................... Nettwerked   :*
+ *: (-) Link of the Month ..................................... The Clone    :*
+ *: (-) K-1ine Mirrors ........................................ The Clone    :*
+ *: (+) NEWS: HASH PROJECT PAGE HAS MOVED ..................... The Clone    :*
+ *: (+) NEWS: Legalize Marijuana Now Says Canadian Senate ..... Nettwerked   :*
+ ____________________________________________________________________________
+
+ » .- Documents -. «                                                          |
+
+*: (x) 'Intercepting & re-transmitting data over phone lines' . Captain B    :*
+*: (x) 'FREE LONG DISTANCE ON TELUS PAY AND TALK!' ............ S.Sidekick   :*
+*: (x) 'Handheld scanner police frequencies' [update] ......... Colt45       :*
+*: (x) 'Hand Scan: 1-800-200-03XX' ............................ Axion        :*
+*: (x) 'My Mushroom Trip' ..................................... Anonymous    :*
+*: (x) 'PADcodes.txt' ......................................... Phlux        :*
+ ____________________________________________________________________________
+
+ » .- Conclusion -. «                                                         |
+
+ *: [-] Credits ............................................... The Clone    :*
+ *: [-] Shouts ................................................ The Clone    :*
+ _____________________________________________________________________________ 
+
+
+   Introduction -
+
+Welcome to the latest issue of K-1ine #31 'YOU WANTS A PIECE OF MY PANCAKES!?'.
+Thanks to everyone who submitted articles. Enjoy this issue of K-1ine zine, and if
+you forget to send me more articles in the future, I'll kick your fucking ass! :)
+
+ -->
+
+ Contact Information;
+ 
+ Comments/Questions/Submissions: theclone@hackcanada.com
+
+ Check out my site: (Nettwerked) http://www.nettwerked.net
+
+ -
+
+ Nettwerked Discussion Board;
+
+ "Fuck the system? Nah, you might catch something..."
+
+ POST YOUR NEWS, AND POST YOUR THOUGHTS FREELY ON:
+
+ www.nettwerked.net/PHPBB
+
+ -->
+
+--
+
+-----------------------------------------------------------------------
+
+
+  --=[ LINK OF THE MONTH ]=--
+
+ Every month I post one really great "link of the month" on every issue
+ of K-1ine magazine. The link can be anything in the technology industry,
+ music scene, rave scene, punk scene, or even a good article you read on
+ a news site. I'll be taking submissions via e-mail or IRC right away; so
+ get your links in and maybe you'll see it in the next issue of K-1ine!
+
+  For the month of September, the link of the month is:
+
+  http://www.ics.uci.edu/~atm/adhoc/paper-collection/papers.html    
+
+  'Papers on Ad-hoc Multihop Wireless Networks'
+
+
+  [submitted by: The Clone]
+
+
+
+
+	  K-1ine Mirrors:
+
+
+ http://www.mirrors.wiretapped.net/security/info/textfiles/k1ine/
+
+  (Now mirrored in two places, one in Belgium and another in Sydney)
+
+ "Wiretapped.net is an archive of open source software, informational
+ textfiles and radio/conference broadcasts covering the areas of network
+ and information security, network operations, host integrity, cryptography
+ and privacy, among others. We believe we are now the largest archive of
+ this type of software & information, hosting in excess of 20 gigabytes of
+ information mirrored from around the world."
+
+ --
+ 
+ http://www.hackcanada.com/canadian/zines/index.html#K-1ine
+
+ Hack Canada - Canadian H/P - E-Zines
+
+ --==================================================================--
+
+
+ NEWS: HASH PROJECT PAGE HAS MOVED
+
+ Phlux's HASH page is now officially moved to: http://lisa.luddites.ca/phlux/.
+ Thanks to the Luddites for hosting it after HackTel Corporation died. Oh and
+ don't worry Phlux, I'll still contribute what I can... - The Clone
+
+ -
+
+ NEWS: Legalize Marijuana Now Says Canadian Senate
+
+ "Marijuana is less harmful than alcohol and should be governed by the same
+ sort of regulations", says the Canadian Senate Committee.
+
+ Read more at: http://www.medicalmarihuana.ca/legalize.html
+
+
+ --------============================================================--
+ 
+
+ 
+  Intercepting & re-transmitting data over phone lines** - By Captain B
+
+
+Fax machines, modems, CID (Caller ID) units, and even TTY/TDD machines all
+transmit data over landline phone lines. And, of course, all data is sent
+over phone lines in the form of sounds. So, just as you can record a string
+of DTMF (touch tones), and play it back after recorded to dial that same
+number, or voice mailbox passcode, or whatever, so too could you also record
+a fax transmition, then play back that transmition over a phone line connected
+to a fax machine. Thereby retransmitting the same fax document. Much the same
+thing is the case for TTY/TDD machines. You could record an entire conversation
+between 2 people using a TTY/TDD on each end of the line, or even between a relay
+operator and a person using a TTY/TDD. After recording the TTY/TDD conversation,
+simply play it back while a TTY/TDD is on the other end of the line to re-transmit
+all the data (the TTY/TDD conversation) again. Recording CID data transmitions will,
+of course, enable you to spoof sent caller ID. (Orange box) But since that's already
+been covered in 2600 Magazine, and on the Internet, I won't bother going into that.
+
+With modems and computer networks however, things aren't as straightforward.
+Since you have such security features as the 3 way handshake with TCP/IP, things
+get more complex than they do with fax and TTY/TDD machines. I'll leave that sort
+of thing alone, and continue on about recording methods. The most common method is
+to use a cassette or micro cassette recorder. Radio Hack sells a "Phone cassette
+recorder" (Cat# 43-473 Cost: $99.99) but, any cassette recorder with either a mic
+input jack, or left/right channel "audio in" RCA phono jacks will work. You'll need
+to buy one of Radio Shack's recorder controls. 2 of which (Cats. #43-228 and 43-1236)
+connect between your phone and phone jack. Another, (Cat# 43-1237) connects between
+your phone and the handset. And the last one (Cat# 44-533) is nothing more than a
+suction cup mic that attaches near the receiver (earpiece) of your handset. The price
+range for these is between $24.99 for the deluxe recorder control, to $4.49 for the
+telephone pickup suction cup mic. All use a 1/8 plug for connecting to 1/8 jacks.
+But, with the countless audio plug adapters availible, you can adapt the 1/8 plug to
+an RCA phono plug, 1/4 plug, even the more obscure 3/32 plug. By using these adapters,
+you can connect up your phone line via a recorder to various types of equipment for
+audio monitoring or recording purposes. For instance, you could connect up to a stereo
+amp for monitoring, or a stereo amp with a cassette deck connected to the amp for recor-
+ding purposes. You could also connect up to standard cassette or micro cassette dictation-
+type recorders, and tapeless digital dictation-type recorders. With certain tapeless digital
+recorders, you can even upload the audio to your PC as a .wav file. 2 phone recorders that
+connect to your PC can be found at http://www.ahernstore.com/phonerecorders.html
+
+And, they also sell standard phone recorders, too. And, Radio Shack sells 2 digital
+tapeless dictation-type recorders you could use with a recorder control to connect it to
+your phone line, and then connect to a PC for uploading the audio. Or, you could just
+connect up the recorder control directly to the sound card on your PC, and run a program
+that records the audio as a .wav file. You could even connect up to a DJ stereo mixer, or
+CD recorder (burner). As long as you use the proper audio plug adapters, you can connect up
+to many different types of audio equipment. There's lots of possibilities. For example,
+when connecting to a single (Mono) RCA phono plug, use a 1/8 jack-to-RCA phono plug adapter.
+In the case of any stereo audio equipment with seperate L/R audio inputs, attach the 1/8
+jack-to-RCA phono plug adapter to a RCA phono jack-to-dual RCA phono plugs "Y adapter". Ask
+them at Radio Shack about other adapters if you need to. It'll give them something else to
+do besides asking for your name/address/phone number when making purchases. Have phun.
+
+
+--
+
+<Flopik> Haha You know all the movie quote you little poney's head
+
+--
+
+
+FREE LONG DISTANCE ON TELUS PAY AND TALK!
+
+BY
+
+Stalins Sidekick
+
+Please note that I will not be held responsible for anything that happens out
+of the use or inability to use this information. This is for educational use
+only, and should be used accordingly. I'm just sharing what I learned. No, I'm
+not paying your bills, or paying you because some Telus asshole came and
+decided to make a punching bag out of you, or, knowing their employ, out of
+your ass. And no, if you fuck up and use this wrong or it doesn't work for
+you, you can't make a punching bag out of me or my ass either, no matter how
+much you might like it. And erase the thought from your mind you sick fuck!!!
+
+
+INTRODUCTION:
+
+I'm sure everyone who owns a phone (land line or cellular) would be very happy
+to be able to make long distance phone calls where the phone company gets stuck
+with their billing system's thumb up it's ass because someone learned how to
+confuse it. Well, it just so happens that I found a way to do just that. I will
+detail what you need below, and then I will describe how exactly I figured it
+out, and what you need to do to do it yourself. It's actually very easy, I
+can't believe that Telus fucked up so badly with their system.
+
+
+WHAT YOU NEED:
+
+1. A cell phone would be nice, (digital is probably best, it might work with
+   analogue phones but I don't have one so couldn't tell ya if it will or not)
+
+2. Being signed up with Telus's Pay and Talk plan. (Please note that I am in
+   southern Alberta, so I can't tell ya if this works elsewhere. Try it and
+   find out.)
+
+3. Having Evenings and Weekends (one of the add-on features available for $25
+   a month on Pay and Talk) Remember, that Pay and Talk means that the plan is
+   totally flexable. That means that you don't need to lock into a constant
+   evenings and weekends plan. If you don't buy it for the month, you just
+   don't have it until you add it, and it's valid for 30 days after you add it
+   on.
+
+4. Was there something else, nope, thats all. A mouth to talk with and an ear
+   to listen, and maybe a finger to punch buttons and you're set.
+
+
+HOW I FIGURED THIS ONE OUT:
+
+It all started when I was dating this bitch long distance. The opposite sex
+seems to have a way of making one do almost anything. Well, this was an issue
+of (pay big ass bills to those bastards at Telus so that I could be on the
+phone with my EX-GF (something which can't be avoided without serious female
+bitching because of the lack of communication), or indirectly still talking to
+a very bitchy EX-GF, but at the same time, kindly telling Telus to go fuck
+themselves while I make several hours free use out of their system.
+
+I discovered it by accident really, and when I found it I couldn't believe what
+I had going. I'd phoned her for the usual big bill of the day, but I decided to
+block my number before calling. At this time I restricted the call times to
+about 10 minutes max.  At the end of the call I hung up first, and she hung up
+after. I checked my minutes and "WHAT THE FUCK!!! I DIDN'T GET CHARGED FOR THAT
+CALL!" So lets just say that Telus lost about on average of 1 or 2, sometimes 3
+hours a day to my little exploit, which must not have made them happy at all.
+And, if you're lucky, and she'll give ya it, you might even get some free phone
+action!!! For anyone that has to sink to that, hey, it beats $5 a minute to
+listen to some whore tell it to ya over the phone. Not that this bitch wasn't a
+whore, I mean, I put the phone down one time to go and get a drink, and I guess
+she decided to kiss the phone, and she was kissing it for probably 5 or 10
+minutes while I was gone, because when I picked up the phone again when I got
+back, she was still at it. Ok, so I don't know why you'd want to know that,
+just sayin that the pros aren't always the best.
+
+Ok, enough chatter, heres how you can do it. Really, you can.
+
+1. Punch in the number like this "*671403xxxxxxx" (No dumbass, you don't put
+   the quotes "" in it, just whats inside them and yes yes, the xxxxxxx part
+   is the phone number, not real x's.)
+
+2. Press talk or send or whatever the hell your cell's call button is.
+
+3. "blah blah blah" away as long as you want.
+
+4.  Make sure that you hang up before your other person does.
+
+And thats it, a free call, courtesy of Telus. Make sure you test it first
+before you try making any extravagant calls with it. Remember that the number
+has to be blocked with *67 and you have to hang up first for it to work. On a
+land line, you have to dial *67 and wait for a dial tone to dial the number,
+but not on a cellular phone. It's all one string, and call blocking is free.
+Oh ya, one other thing, it does not work to phone another cell phone. It only
+works to phone land lines. I found this out the hard way.
+
+
+Have fun and happy freaking!
+
+Stalins Sidekick
+stalins_sidekick@hotmail.com
+
+August 27, 2002
+
+
+---
+<phlux> i have to work on pulling my pud
+<phlux> full time job you know
+---
+
+
+		Handheld scanner police frequencies
+
+
+Frequencies for the police departments of Ontario and others.
+By  **Colt45**
+21/08/02
+
+The most paranoid phreak should have a scanner in hand while doing what
+he/she does best, so I’ve compiled a list of, but certainly not completed,
+police scanner frequencies for Ontario. I hope they are of use to you.
+
+
+The most common province wide frequency =142.7700 mhz., is used for inter-city
+communication.
+
+
+Frequencies used by police listed by city:
+
+Some cities only a few frequencies listed for each city as there are loads of
+cities and lots of frequencies for each. Some cities only have one frequency.
+If there is only one frequency for your city listed, that does not mean that
+there are not more.
+
+
+
+142.5150-Alexandria
+141.5850-Aliston
+142.3350-Anderdon Twp
+142.7700-Atikokan
+141.5850-Barrie
+139.5300-Belleville
+139.6500-Belleville
+140.1150-Belleville
+140.1300-Belleville
+142.0350-Belleville
+142.6650-Blind river
+138.1650-Bowmansville
+142.4850-Bracebridge
+141.5850-Bradford
+142.1100-Bradford
+140.1300-Brantford
+141.5850-Brockville
+142.4250-Burlington
+142.5150-Carlton place
+142.1700-Caledonia
+142.1850-Cambridge
+142.6200-Cambridge
+142.1700-Cayuga
+141.5850-Chatham
+142.9800-Chesley
+142.5750-Churchhill
+142.1700-Clinton
+139.8000-Cobourg
+142.5150-Collingwood
+141.5850-Cornwall
+142.0350-Cornwall
+142.7400-Delhi
+142.1850-Desoronto
+142.0650-Dresden
+142.0650-Dryden
+142.1700-Dunnville
+142.1850-Durham region
+142.9650-Elliott Lake
+142.5450-Espanola
+142.4400-Essex
+142.9650-Exeter
+141.5850-Fergus
+142.5150-Finmark
+141.7350-Fort Erie
+143.1750-Franktown
+142.6950-Gananoque
+139.7700-Gloucester
+142.0250-Gloucester
+142.0650-Goderich
+142.5750-Grimsby
+141.5850-Guelph
+138.7500-Guelph
+142.1700-Hagersville
+142.1450-Haldimand Norf
+141.5850-Halton region
+139.6500-Hamilton
+142.3350-Hanover
+142.3350-Harrow
+142.2450-Hawkesbury
+142.0650-Ingersoll
+142.5750-Innisfil Twp
+143.1300-Kapuskasing
+142.4550-Kapuskasing
+139.8000-Kenora
+142.7250-Kincardine
+139.8000-Kingston
+142.0650-Kingston
+142.2150-Kirkland Lake
+140.0400-Kitchener
+139.5300-Kitchener 
+142.3350-Lasalle
+142.3950-Lemington
+142.5750-Lincoln
+142.0950-Lindsay
+142.3950-Listowel
+139.6500-London
+141.5850-London
+142.0350-London
+142.1400-Marathon
+142.1100-Meaford
+142.1250-Metcalfe
+142.4250-Michipicoten
+142.4850-Midland
+142.9950-Mitchell
+142.6650-Mississauga
+142.5300-Milverton
+142.1400-Mount Forest
+142.5150-Myrt Lake
+142.0350-Napanee
+139.8000-Nepean
+142.3350-Nepean
+139.8000-New Market
+142.5450-Niagara falls
+138.3600-Niagara region
+141.5800-Niagara region
+141.7350-Niagara region
+142.7700-North Bay
+142.8300-Orangeville
+139.6800-Orillia
+138.6150-Ottawa
+139.5300-Ottawa
+139.5450-Ottawa
+142.1550-Owen sound
+143.3350-Owen sound
+142.2300-Palmerston
+142.0450-Paris
+141.5800-Peel region
+139.0500-Peel region
+142.1250-Perth
+141.5800-Peterborough
+140.1150-Peterborough
+139.6800-Petrolia
+139.8000-Pembroke
+142.7500-Point Edward
+142.1550-Port Elgin
+142.1700-Port Dover
+142.8750-Prescott
+139.4700-Rainy river
+142.9350-Red rock
+142.3500-Renfrew
+142.7700-Sault Ste Marie
+142.2450-Sarnia
+142.8450-Seaforth
+142.8300-Shelburne
+142.1700-Simcoe
+142.3050-Smithfalls
+142.1550-Southampton
+142.0950-St Clair Beach
+142.1850-Stirling
+142.0950-Stratford
+142.5300-Stratford
+142.3350-Strathroy
+142.5750-Stroud
+142.1250-St Thomas
+139.8000-Sudbury
+142.0350-Sudbury
+142.4250-Tavistock
+142.2150-Teck Twp
+142.5150-Thornbury
+139.0350-Thunderbay
+142.8150-Tilbury
+143.0100-Tillsonburg
+142.4850-Timmons
+138.3150-Toronto
+142.5600-Toronto
+142.7700-Trenton
+141.5800-Wallaceburg
+142.4850-Walkerton
+142.1700-Waterford
+142.1850-Waterloo region
+141.5800-Waterloo region
+142.8000-Wawa
+142.2300-Welland
+142.6650-West Mcgillvray
+140.1300-Windsor
+142.0350-Windsor
+142.8000-Wingham
+142.8300-Whitby
+142.9050-Wiarton
+139.8000-Woodstock
+
+This is a small set of Ontario provincial police (OPP) frequencies.
+There are just WAY too many to list:
+
+138.3450
+138.6450
+138.7500
+139.0650
+139.0800
+139.0950
+139.1100
+139.1400
+139.1550
+139.1750
+139.1850
+139.2000
+139.2150
+139.2600
+139.2900
+139.3050
+139.3950
+139.4400
+139.4550
+139.4850
+139.5000
+139.5300
+139.5300
+139.5600
+139.5900
+139.6200
+139.6500
+139.6800
+139.7100
+139.7400
+139.7700
+139.8000
+
+
+This is a set of frequencies used by the Royal Canadian Mounted Police (RCMP):
+
+139.7400-Brockville
+139.8900-Brockville 
+139.7400-Cornwall 
+139.0000-Cornwall 
+140.1900-Cornwall
+142.0350-Cornwall
+142.0650-Kingston
+139.7400-Kingston 
+139.8000-Kingston 
+139.8900-Kingston
+139.7400-Ottawa 
+139.8900-Ottawa
+140.1900-Ottawa
+139.0350-Ontario A division
+
+This set of frequencies are used for police pagers:
+
+138.000 to 143.000
+
+This set of frequencies are for RCMP pagers:
+
+423.000 to 426.000
+
+If you know how to use a scanner well and know how to skip,
+here are a couple U.S. frequencies to try out:
+
+39.280 - Sausalito city police
+39.580 - Brown county, Arkansas police
+42.060 - Missouri state troopers
+42.120 - Las Angeles state troopers
+42.500 - San Diego state troopers
+42.560 - Artesia, california troopers
+42.840 - Chicago troopers
+
+A fun little trick to play at your local fast food restaurant.
+
+If you have a hand held transceiver you can play some pranks at Mcdonalds
+drive thrus. You can turn your handheld to these frequencies and you'll be
+tapped in to the drive thru ordering system. For ontario only:
+
+30.5800-Mcdonalds
+30.8400-Mcdonalds
+33.4000-Mcdonalds
+35.8800-Mcdonalds
+30.5400-Burger king
+30.8400-Burger king
+33.4000-Burger king
+33.8800-Burger king
+30.5800-Wendys
+30.8400-Wendys
+33.4000-Wendys
+30.5800-Tim hortons
+30.8400-Tim hortons
+33.4000-Tim hortons
+35.8800-Tim hortons
+30.5800-Harveys
+30.8400-Harveys
+33.4000-Harveys
+33.8800-Harveys
+30.5800-KFC
+30.8400-KFC
+33.4000-KFC
+30.8400-Mr Submarine
+30.8400-Taco bell
+30.8400-Long John Silver
+
+If one frequency doesn't work, try another. Have fun!
+
+
+---
+
+<theclone> if PGP stands for Pretty Good Privacy,
+           what does PHP stand for? Pretty Hip Privacy?
+---
+
+
+/=============================\
+((  Hand Scan: 1-800-200-03XX  ))
+||         by Axion            ||
+||  axionrising@hotmail.com    ||
+((     http://axiontel.tk      ))
+\=============================/
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+00 - No answer
+01 - Dialtone
+02 - No answer
+03 - "This is Devon..." (hillbilly)
+04 - "There is a problem in completing your call"
+05 - "There is a problem in completing your call"
+06 - " 1-4 The number you have dialed in not valid, or is blocked from
+     your area code."
+07 - "... cannot be reached from your calling area. 2-C-K..."
+08 - "There is a problem in completing your call"
+09 - "There is a problem in completing your call"
+10 - (...2-C-K)
+11 - (...2-C-K)
+12 - "There is a problem in completing your call"
+13 - Someone's voicemail; he's mumbling too much to tell who, though.
+14 - Carrier tones
+15 - (...2-C-K)
+16 - "The mobile satelite customer you are calling is unavailable."
+17 - (...2-C-K)
+18 - (...2-C-K)
+19 - (...2-C-K)
+20 - "There is a problem in completing your call"
+21 - (...2-C-K)
+22 - AT&T Easy Reach 800 (asks for access code)
+23 - "There is a problem in completing your call"
+24 - "There is a problem in completing your call"
+25 - (...2-C-K)
+26 - (...2-C-K)
+27 - "There is a problem in completing your call"
+28 - Strange NIS message
+29 - Carrier tones
+30 - AT&T Easy Reach 800
+31 - "There is a problem in completing your call"
+32 - (...2-C-K)
+33 - (...2-C-K)
+34 - "Thank you for calling (mumbles)"
+35 - Strange 2-C-K
+36 - "There is a problem in completing your call"
+37 - "There is a problem in completing your call"
+38 - AT&T Easy Reach 800
+39 - (...2-C-K)
+40 - "There is a problem in completing your call"
+41 - (...2-C-K)
+42 - "There is a problem in completing your call"
+43 - (...2-C-K)
+44 - (...2-C-K)
+45 - "12-4... The number you have dialed..."
+46 - "I'm sorry, this number is blocked from this area code."
+47 - (...2-C-K)
+48 - Some arab guy... He's rather angry.
+49 - "I'm sorry, this number is blocked from this area code."
+50 - (...2-C-K)
+51 - "There is a problem in completing your call"
+52 - "There is a problem in completing your call"
+53 - (...2-C-K)
+54 - "There is a problem in completing your call"
+55 - VMB: Perry Vegas
+56 - "There is a problem in completing your call"
+57 - "There is a problem in completing your call"
+58 - "There is a problem in completing your call"
+59 - Not in service
+60 - (tones), "Your call did not go through..."
+61 - (...2-C-K)
+62 - Strange ring, "Welcome! Please press the # key after each entry.
+     Enter the PIN number you wish."
+63 - (...2-C-K)
+64 - (...2-C-K)
+65 - "There is a problem in completing your call"
+66 - "Thank you for calling Source Packaging (mumbles) and Source
+     Technology Group."
+67 - VMB: Stephanie Roth (she's a coach!), and some center for
+     adolecent self-esteem.
+68 - (...2-C-K)
+69 - (...2-C-K)
+70 - "There is a problem in completing your call"
+71 - "There is a problem in completing your call"
+72 - "There is a problem in completing your call"
+73 - (...2-C-K)
+74 - VMB: "Nefta-neft (?!?) Realtors in Middletown"
+75 - (...2-C-K)
+76 - SkyTel 2-way VMB for Steve Litt.
+77 - PBX: "Electronic Record Keeping Services" (very perky/happy girl's
+voice)
+78 - (...2-C-K)
+79 - (some mumbling girl) "ahslagbvahiza Administration!"
+80 - (...2-C-K)
+81 - "Enter area code and telephone number, or numeric message. BEEP!"
+82 - (...2-C-K)
+83 - "There is a problem in completing your call"
+84 - (...2-C-K)
+85 - (...2-C-K)
+86 - (...2-C-K)
+87 - "There is a problem in completing your call"
+88 - (...2-C-K)
+89 - Wierd ring, same message as 1-800-200-0362.
+90 - "There is a problem in completing your call"
+91 - PBX: Wire Packaging "Your source for recycled reels & spools."
+92 - Ameriplan Virtual Office
+93 - Same as 1-800-200-0389 & 1-800-200-0362.
+94 - "Personal" VMB of Crystal (mumbles)
+95 - (...2-C-K)
+96 - (...2-C-K)
+97 - "There is a problem in completing your call"
+98 - (...2-C-K)
+99 - "There is a problem in completing your call"
+
+
+So what have I learned while I performed this hand scan? Well, lots of
+things. First of all, I've learnt that the most annoying person in the
+world is *not* Rosie O'Donnell, but the woman who recorded the "There
+is a problem in completing your call" message. Secondly, I've learnt
+that most people mumble a lot on the phone, especially if it's really
+important that people leave them messages. Lastly, and most importantly,
+I've learnt the value of a good old fashioned hand-scan. There are some
+really cool and useful numbers in this scan; and I'm sure you'll find tons
+more if you perform a scan of your own. C'mon, people! PBXs & VMBs aren't
+exactly advertised, you have to find them yourselves.
+
+09.12.02
+
+---
+<transcend> i suckz cox ph0r codez
+<psyko_laptop> hahaha
+<transcend> gib me gib me
+<transcend> codez
+---
+
+
+My Mushroom Trip - anonymous
+For k-1ine and my bad lad theclone.
+
+Exotic mushrooms containing psilocybin fuck you up because your poisoning yourself.
+The effects last some time, and mushrooms are most known for the fucked up open eye
+visuals. I just ate 4(+?) grams of mushrooms. There have been no deaths caused by
+overdosing on mushrooms. However 4 grams is a good dose considering it only takes
+1 gram to have a real bad fucking trip, visuals/audible halucinations included.
+When i ate the caps i even had some messed up body sensations... yup this should
+be good.
+
+I like text files that have a bit of a story to them, so thats all this, i will 
+try and update this txt as the trip is endured. Note that this file is being written
+by an avid phone phreaker and computer hax0rer.
+
+12:33pm
+
+Well I just got home from a graveyard shift, where 3 shifts earlier i had purchased
+these apparently rude fucking shrooms of a cute couple. Got the chicks number too(!)
+I have chicken fingers and coffee in my stomach so im wondering how that will effect
+things. When i first got the shroomies i was eating the caps and when i got home i was
+fuckin wigging so this should be an interesting text. Note it will remain unedited.
+
+Just now iwondered what it would be like to masturebate on mushrooms, ive taken them 
+many times before, along with lots of pot, but i have never wanked it. I do not do
+any other drugs then herbs(cocaine doesn't count as an herb in my mind foo).
+
+I am alone in my bedroom with two apple scented candles burning and im listening to 
+some cheesy techno. What to do before it hits me?
+
+Lets find my pussy books...
+
+1:01pm
+i was just under the covers and i thought a neat trick would be to stick a magnet 
+up a coin return chamber for some easy change. I think i feel the mushrooms digesting
+
+___
+EOF
+(date unknown)
+
+--
+
+PADcodes.txt
+7/17/2002
+by phlux - fraud@verizonmail.com
+
+Props to some lame shareware updater for FINDCIS.EXE which basically finds
+all dialup networks that can access CompuServe, and keeps this wares stored
+in plain ASCII.
+
+Now now, there are many packet based networks that can access compuserve around
+the globe, and here are the ones this compilation covers:(as ripped from the
+help file, includes approximations on 'access fees')
+
+   Net Code	Network					Charges per Hour
+
+   AKN		AlaskaNet				$4.00
+   CHL		ChilePac				$15.00
+   CPS          Compuserve 800                  	$6.00
+   U.S.         $20.00 Canada
+		
+            Direct Dial Charges:
+	    Africa					$7.00-$11.00/$25.00-$40.00
+	    Hong Kong					$4.00
+	    Hungary					$4.00-$7.00/$12.00-$16.00
+	    Japan					$6.00
+	    Mexico					$1.55
+	    Mexico 800 Call				$15.00
+	    Sweden(020)					$5.00
+
+   CPN	    Compuserve Pacific Network
+	    Australia					$4.00
+	    New Zealand					$4.00
+	       		
+   CSR	    CSirNet					$7.00-$11.00/$25.00-$40.00
+ # DPC      Canadian Datapac	                	$4.00
+
+   DXJ	    Germany-Connect (Datex-J)	      		$1.00	
+   DXP	    Germany-Connect (Datex-P)			$21.00-$35.00
+   EIR	    Ireland-Connect				$5.50
+   FAL	    Australia-Connect (FalNet)			$6.00/$10.00
+   FEN	    CompuPass (Fenics2)		      		$12.00
+   FTE	    France Telecom			 	Free
+   FTE 	    Australia					$2.00
+   GNS	    GNS Dialplus	 		      	$4.20
+   HAN	    Hanjin-Net (S.Korea)			$10.00
+   INF	    Info-Net - Europe		   		$4.50
+  	    Info-Net - World				$10.00
+	    Info-Net - CPS				$10.00
+
+   ISR	    Israkav	 				$8.00
+   MER	    Mercury 5000			        Free
+   PAC	    Guam-Connect (PacNet)			$20.00
+   POS	    ATEL (Pos-serve)				$15.00
+   EQT	    Equant Network
+	    AfricaNet					$10.00
+	    EuropeNet					$6.00
+	    LatinNet					$10.00
+	    PacificNet					$10.00
+	    Hungary					$10.00
+	    WorldNet					$10.00
+	    All Others					$49.70
+
+   SEV	    SEVA Net-Italy				$8.00
+   SPR	    SprintNet 
+	    Singapore					$20.00
+	    Eastern Europe				$35.00
+	    Latin America	  		        $35.00
+	    Indonesia      				$33.00
+	    Hungary				        $35.00
+	    Bulgaria					$20.00
+	    Kuwait	 			      	$43.00
+		    All Others				$49.70
+
+ # TEL      SprintNet (Domestic-U.S.)       		$1.70/$11.70
+   TLP	    Swiss-Connect (TelePac)	      	        $4.50/$9.20 - 18.00/$30.00(9600)
+   TPC	    France-Connect (TransPac) 	 		Free
+   TRN	    Trendline					$8.00
+   TTN	    Taiwan-Connect				$3.95/$9.95
+
+ # TYM      Tymnet Network (U.S.)  	                $1.70/$11.70
+   	    Tymnet Network (AK,HI,CAN)			$11.70
+	    Tymnet Network (All others)			$37.00 or $49.70
+
+   VNZ	    Venezuela Connect			      	$7.20/$ 9.00
+
+Now I support the the shareware concept (only after i read the excerpt in the
+FindCIS.HLP) However the help file and its Disclaimer made no mention of
+ripping their shit being a no-no so hack the system! (besides im sure they just
+stole it as well)
+
+I present this information to the underground community, knowing other such
+compilations must exist(never really searched) and having verified the
+integrity of some of the canadian dial-ups. If anyone has a more useful list
+please contact me.
+
+I recomend using this information to explore foreign networks, also to cover
+your ass when haxing locally, one can bounce their call effectively when a
+list of dialup numbers such as this is made convient. It is for this reason
+that the information contained herein will be formatted into a HASH package
+as a database to be accessed by the HASH Client program:: go to
+http://www.nettwerked.net/phlux/hash and contribute data to the effort!
+Until then you will have to rely on your wits, and your text editors
+Search function, and on that note..
+
+I apologize for my laziness as this information has not been reformatted.
+Also note that from the time this data was collected (?) many area code
+changes have taken place, just check nanpa.com for the new one as the prefix
+and suffix are most likely still valid.
+
+            PHONE        CITY           ST        BAUD        NET  TYPE
+            -----        ----           -- ------------------ ---  ----
+        201/567-8951   Englewood        NJ 300-2400           TYM 224MNP
+        201/816-1642   Englewood        NJ 9600               TYM V32
+        201/488-1726   Hackensack       NJ 300-14,400         TEL V32
+        201/388-5288   Rahway           NJ 300-14,400         TEL V32
+        201/251-7865   Ridgewood        NJ 300-33,600         CPS V34
+        201/712-0479   Rochelle Park    NJ 300-33,600         CPS V34
+        201/227-6722   Roseland         NJ 300-2400           TEL 224MNP
+        201/864-8468   Union City       NJ 300-2400           TYM 224MNP
+        201/617-9069   Union City       NJ 9600               TYM V32
+        202/547-0103   Washington       DC 300-33,600         CPS V34
+        202/429-0956   Washington       DC 300-2400           TEL 224MNP
+        203/929-4918   Bridgeport       CT 300-33,600         CPS V34
+        203/744-4640   Danbury          CT 300-33,600         CPS V34
+        203/397-0512   East Haven       CT 300-33,600         CPS V34
+        203/454-2129   Fairfield        CT 1200-2400          TYM 224MNP
+        203/686-1238   Meriden          CT 300-2400           TYM 224MNP
+        203/686-1238   Middletown       CT 300-2400           TYM 224MNP
+        203/225-7027   New Britain      CT 300-2400           TEL 224MNP
+        203/865-5770   New Haven        CT 1200-2400          TYM 224MNP
+        203/789-1848   New Haven        CT 9600-14,400        TYM V32
+        203/866-7404   Norwalk          CT 300-2400           TEL 224MNP
+        203/444-7030   Norwich          CT 1200-2400          TYM 224MNP
+        203/324-1115   Stamford         CT 300-33,600         CPS V34
+        203/756-6368   Waterbury        CT 300-33,600         CPS V34
+        203/454-7935   Westport         CT 300-33,600         CPS V34
+        204/489-9747   Winnipeg         MB 300-33,600         CPS V34
+        205/933-6212   Birmingham       AL 300-33,600         CPS V34
+        205/750-8524   Northport        AL 9600               TYM V32
+        205/562-0062   Tuscaloosa       AL 300-33,600         CPS V34
+        206/515-6000   Seattle          WA 300-33,600         CPS V34
+        206/623-9951   Seattle          WA 2400               TEL 224MNP
+        206/269-0538   Seattle-ISDN     WA 57,600             CPS V120
+        207/795-6013   Auburn           ME 300-2400           TYM 224MNP
+        207/782-4195   Auburn           ME 9600               TYM V32
+        207/622-3083   Augusta          ME 300-2400           TYM 224MNP
+        207/623-9590   Augusta          ME 9600               TYM V32
+        207/622-7364   Augusta          ME 300-2400           TEL 224MNP
+        207/941-9904   Bangor           ME 300-33,600         CPS V34
+        207/990-9001   Bangor           ME 9600               TYM V32
+        207/989-3081   Brewer           ME 300-2400           TEL 224MNP
+        207/795-6013   Lewiston         ME 300-2400           TYM 224MNP
+        207/784-0105   Lewiston         ME 300-2400           TEL 224MNP
+        207/775-6249   Portland         ME 300-33,600         CPS V34
+        207/764-4167   Presque Isle     ME 300-2400           TYM 224MNP
+        208/386-9712   Boise            ID 300-33,600         CPS V34
+        208/765-1465   Coeur D'Alene    ID 300-2400           TYM 224MNP
+        208/522-3624   Idaho Falls      ID 300-2400           TYM 224MNP
+        208/529-0053   Idaho Falls      ID 9600               TYM V32
+        208/788-3433   Ketchum          ID 300-33,600         CPS V34
+        208/743-5885   Lewiston         ID 300-2400           TEL 224MNP
+        208/232-0123   Pocatello        ID 300-33,600         CPS V34
+        208/734-0221   Twin Falls       ID 300-2400           TYM 224MNP
+        209/383-7593   Merced           CA 300-2400           TYM 224MNP
+        209/726-0960   Merced           CA 9600               TYM V32
+        209/383-2557   Merced           CA 300-2400           TEL 224MNP
+        209/578-6524   Modesto          CA 300-33,600         CPS V34
+        209/475-6000   Stockton         CA 300-33,600         CPS V34
+        210/736-8645   San Antonio      TX 300-33,600         CPS V34
+        212/766-2080   New York         NY 300-33,600         CPS V34
+        212/812-7373   New York         NY 56,000             CPS X2-USR
+        213/624-3730   Los Angeles      CA 300-33,600         CPS V34
+        213/688-7363   Los Angeles      CA 56,000             CPS X2-USR
+        214/720-9183   Dallas           TX 300-33,600         CPS V34
+        214/953-1152   Dallas-ISDN      TX 57,600             CPS V120
+        215/943-3700   Levittown        PA 300-2400           TYM 224MNP
+        215/561-1634   Philadelphia     PA 300-33,600         CPS V34
+        215/343-6010   Warrington       PA 300-2400           TEL 224MNP
+        216/781-7598   Cleveland        OH 300-33,600         CPS V34
+        216/861-6709   Cleveland        OH 300-2400           TYM 224MNP
+        216/771-6480   Cleveland        OH 300-2400           TEL 224MNP
+        217/356-1082   Champaign        IL 300-33,600         CPS V34
+        217/442-1452   Danville         IL 300-2400           TYM 224MNP
+        217/422-3026   Decatur          IL 300-33,600         CPS V34
+        217/223-9531   Quincy           IL 300-2400           TYM 224MNP
+        217/789-9412   Springfield      IL 300-33,600         CPS V34
+        217/344-3400   Urbana           IL 1200-2400          TYM 224MNP
+        217/344-4466   Urbana           IL 9600-14,400        TYM V32
+        218/722-0017   Duluth           MN 300-33,600         CPS V34
+        218/262-3824   Hibbing          MN 300-2400           TYM 224MNP
+        219/522-6127   Elkhart          IN 300-33,600         CPS V34
+        219/447-9258   Ft. Wayne        IN 300-33,600         CPS V34
+        219/981-5200   Gary             IN 300-33,600         CPS V34
+        219/234-6410   Mishawaka        IN 1200-2400          TYM 224MNP
+        219/271-0016   South Bend       IN 300-33,600         CPS V34
+        219/267-1463   Warsaw           IN 300-33,600         CPS V34
+        225/383-9998   Baton Rouge      LA 300-33,600         CPS V34
+        228/863-1368   Gulfport         MS 300-33,600         CPS V34
+        228/769-0121   Pascagoula       MS 300-2400           TYM 224MNP
+        228/762-0436   Pascagoula       MS 9600               TYM V32
+        248/335-2680   Pontiac          MI 300-33,600         CPS V34
+        248/424-8024   Southfield       MI 300-2400           TYM 224MNP
+        248/557-2106   Southfield       MI 9600               TYM V32
+        248/827-4710   Southfield       MI 300-14,400         TEL V32
+        248/244-8740   Troy             MI 300-33,600         CPS V34
+        250/479-9452   Victoria         BC 300-33,600         CPS V34
+        252/758-0102   Greenville       NC 300-2400           TYM 224MNP
+        252/757-2168   Greenville       NC 9600               TYM V32
+        252/937-4828   Rocky Mount      NC 300-2400           TYM 224MNP
+        252/937-4202   Rocky Mount      NC 9600               TYM V32
+        252/823-7459   Tarboro          NC 300-2400           TEL 224MNP
+        253/735-3975   Auburn           WA 300-2400           TYM 224MNP
+        253/939-9982   Auburn           WA 300-14,400         TEL V32
+        253/922-1246   Tacoma           WA 300-33,600         CPS V34
+        254/690-6702   Killeen          TX 300-33,600         CPS V34
+        254/773-2545   Temple           TX 300-2400           TYM 224MNP
+        254/778-8801   Temple           TX 9600               TYM V32
+        254/773-9723   Temple           TX 300-2400           TEL 224MNP
+        254/751-9590   Waco             TX 300-33,600         CPS V34
+        256/236-3342   Anniston         AL 300-2400           TYM 224MNP
+        256/231-5600   Anniston         AL 9600               TYM V32
+        256/236-9711   Anniston         AL 300-2400           TEL 224MNP
+        256/355-0206   Decatur          AL 300-2400           TEL 224MNP
+        256/760-8580   Florence         AL 300-33,600         CPS V34
+        256/543-3550   Gadsden          AL 300-2400           TYM 224MNP
+        256/543-4200   Gadsden          AL 9600               TYM V32
+        256/533-0196   Huntsville       AL 300-33,600         CPS V34
+        256/882-9199   Huntsville       AL 9600               TYM V32
+        281/420-3389   Baytown          TX 1200-2400          TYM 224MNP
+        281/420-3283   Baytown          TX 9600               TYM V32
+        301/777-9320   Cumberland       MD 300-2400           TYM 224MNP
+        301/682-3260   Frederick        MD 300-33,600         CPS V34
+        301/869-4191   Gaithersburg     MD 300-14,400         TEL V32
+        301/403-1687   Hyattsville      MD 300-33,600         CPS V34
+        301/293-9504   Meyersville      MD 300-2400           TYM 224MNP
+        301/293-2460   Meyersville      MD 9600               TYM V32
+        301/294-4522   Rockville        MD 300-2400           TYM 224MNP
+        301/309-1501   Rockville        MD 9600               TYM V32
+        302/678-3569   Dover            DE 300-2400           TYM 224MNP
+        302/734-5018   Dover            DE 9600               TYM V32
+        302/856-1788   Georgetown       DE 300-2400           TYM 224MNP
+        302/856-2056   Georgetown       DE 9600               TYM V32
+        302/292-0114   Newark           DE 300-14,400         TEL V32
+        302/945-5207   Rehoboth Beach   DE 300-33,600         CPS V34
+        302/452-1448   Wilmington       DE 300-33,600         CPS V34
+        303/595-0123   Denver           CO 300-33,600         CPS V34
+        303/684-9225   Longmont         CO 300-33,600         CPS V34
+        304/325-0517   Bluefield        WV 300-2400           TYM 224MNP
+        304/342-0153   Charleston       WV 300-33,600         CPS V34
+        304/624-1451   Clarksburg       WV 300-2400           TYM 224MNP
+        304/733-0026   Huntington       WV 300-33,600         CPS V34
+        304/529-0339   Huntington       WV 9600               TYM V32
+        304/291-6783   Morgantown       WV 300-33,600         CPS V34
+        304/424-6003   Parkersburg      WV 300-33,600         CPS V34
+        304/292-3092   Westover         WV 300-2400           TYM 224MNP
+        304/233-9508   Wheeling         WV 300-33,600         CPS V34
+        305/294-5979   Key West         FL 300-33,600         CPS V34
+        305/262-9325   Miami            FL 300-33,600         CPS V34
+        306/352-7168   Regina           SK 300-33,600         CPS V34
+        306/242-4660   Saskatoon        SK 300-33,600         CPS V34
+        307/266-2392   Casper           WY 300-33,600         CPS V34
+        307/235-1260   Casper           WY 9600               TYM V32
+        307/632-0486   Cheyenne         WY 300-33,600         CPS V34
+        307/739-2280   Jackson          WY 300-33,600         CPS V34
+        307/742-2320   Laramie          WY 300-33,600         CPS V34
+        308/382-3176   Grand Island     NE 300-2400           TYM 224MNP
+        309/829-0156   Bloomington      IL 300-33,600         CPS V34
+        309/688-9500   Peoria           IL 300-33,600         CPS V34
+        309/788-3713   Rock Island      IL 300-2400           TYM 224MNP
+        309/788-0892   Rock Island      IL 9600               TYM V32
+        310/516-1007   Compton          CA 300-2400           TEL 224MNP
+        310/643-4228   El Segundo       CA 1200-2400          TYM 224MNP
+        310/536-0657   El Segundo       CA 9600               TYM V32
+        310/370-2831   Lawndale         CA 300-33,600         CPS V34
+        310/306-3450   Marina Del Rey   CA 300-14,400         TEL V32
+        310/548-7146   San Pedro        CA 300-14,400         TEL V32
+        310/390-4188   Santa Monica     CA 300-33,600         CPS V34
+        312/201-0711   Chicago          IL 300-33,600         CPS V34
+        312/895-7373   Chicago          IL 56,000-57,600      CPS X2/ISDN
+        313/535-1466   Detroit          MI 300-33,600         CPS V34
+        314/291-0067   Bridgeton        MO 1200-2400          TYM 224MNP
+        314/291-6744   Bridgeton        MO 9600-14,400        TYM V32
+        314/925-3924   St. Charles      MO 300-33,600         CPS V34
+        314/421-5651   St. Louis        MO 300-33,600         CPS V34
+        314/622-0900   St. Louis        MO 300-2400           TYM 224MNP
+        315/451-8093   Syracuse         NY 300-33,600         CPS V34
+        315/737-0114   Utica            NY 300-33,600         CPS V34
+        315/788-1816   Watertown        NY 1200-2400          TYM 224MNP
+        315/786-3394   Watertown        NY 9600-14,400        TYM V32
+        316/663-2192   Hutchinson       KS 300-2400           TYM 224MNP
+        316/269-3625   Wichita          KS 300-33,600         CPS V34
+        317/638-8129   Indianapolis     IN 300-33,600         CPS V34
+        318/445-0020   Alexandria       LA 300-33,600         CPS V34
+        318/234-0416   Lafayette        LA 300-33,600         CPS V34
+        318/433-6737   Lake Charles     LA 300-33,600         CPS V34
+        318/322-0412   Monroe           LA 300-33,600         CPS V34
+        318/327-3200   Monroe           LA 9600               TYM V32
+        318/861-0158   Shreveport       LA 300-33,600         CPS V34
+        319/752-2516   Burlington       IA 300-2400           TEL 224MNP
+        319/236-9020   Cedar Falls      IA 300-2400           TYM 224MNP
+        319/362-4075   Cedar Rapids     IA 300-33,600         CPS V34
+        319/365-0063   Cedar Rapids     IA 9600               TYM V32
+        319/322-6898   Davenport        IA 300-33,600         CPS V34
+        319/582-3599   Dubuque          IA 300-2400           TYM 224MNP
+        319/556-0783   Dubuque          IA 300-2400           TEL 224MNP
+        319/337-9844   Iowa City        IA 300-33,600         CPS V34
+        319/236-9020   Waterloo         IA 300-2400           TYM 224MNP
+        319/232-0990   Waterloo         IA 9600               TYM V32
+        319/232-0195   Waterloo         IA 300-2400           TEL 224MNP
+        320/202-6500   St. Cloud        MN 300-33,600         CPS V34
+        323/588-8128   Inglewood        CA 9600-14,400        TYM V32
+        323/587-7514   Inglewood        CA 1200-2400          TYM 224MNP
+        323/587-7514   Vernon           CA 1200-2400          TYM 224MNP
+        323/588-8128   Vernon           CA 9600-14,400        TYM V32
+        330/836-0679   Akron            OH 300-33,600         CPS V34
+        330/454-1155   Canton           OH 300-33,600         CPS V34
+        330/678-8330   Kent             OH 300-14,400         TEL V32
+        330/677-7780   Ravenna          OH 300-33,600         CPS V34
+        330/392-2555   Warren           OH 300-2400           TYM 224MNP
+        330/393-4006   Warren           OH 9600               TYM V32
+        330/856-7265   Warren           OH 300-14,400         TEL V32
+        330/345-1023   Wooster          OH 300-14,400         TEL V32
+        330/965-6800   Youngstown       OH 300-33,600         CPS V34
+        334/702-8257   Dothan           AL 300-33,600         CPS V34
+        334/712-6967   Dothan           AL 9600               TYM V32
+        334/660-6948   Mobile           AL 300-33,600         CPS V34
+        334/270-5845   Montgomery       AL 300-33,600         CPS V34
+        334/742-9040   Opelika          AL 300-2400           TYM 224MNP
+        334/705-8000   Opelika          AL 9600               TYM V32
+        336/584-5823   Burlington       NC 300-33,600         CPS V34
+        336/292-3461   Greensboro       NC 300-33,600         CPS V34
+        336/883-6121   High Point       NC 300-2400           TYM 224MNP
+        336/883-6106   High Point       NC 9600               TYM V32
+        336/889-7494   High Point       NC 300-2400           TEL 224MNP
+        336/838-1663   N. Wilkesboro    NC 300-2400           TEL 224MNP
+        336/724-9748   Winston-Salem    NC 300-33,600         CPS V34
+        352/371-0661   Gainesville      FL 300-33,600         CPS V34
+        352/360-1110   Leesburg         FL 300-2400           TYM 224MNP
+        352/360-1068   Leesburg         FL 9600               TYM V32
+        352/787-0799   Leesburg         FL 300-2400           TEL 224MNP
+        352/732-3707   Ocala            FL 300-2400           TYM 224MNP
+        352/840-5900   Ocala            FL 9600               TYM V32
+        352/351-3790   Ocala            FL 300-14,400         TEL V32
+        360/671-7750   Bellingham       WA 300-2400           TYM 224MNP
+        360/647-8544   Bellingham       WA 9600               TYM V32
+        360/733-2873   Bellingham       WA 300-14,400         TEL V32
+        360/332-2134   Blaine           WA 300-33,600         CPS V34
+        360/377-2792   Bremerton        WA 300-2400           TYM 224MNP
+        360/377-5640   Bremerton        WA 9600               TYM V32
+        360/423-9072   Longview         WA 300-2400           TYM 224MNP
+        360/423-0233   Longview         WA 9600               TYM V32
+        360/577-3992   Longview         WA 300-2400           TEL 224MNP
+        360/352-0335   Olympia          WA 300-33,600         CPS V34
+        360/452-6800   Port Angeles     WA 300-2400           TYM 224MNP
+        360/457-1863   Port Angeles     WA 9600               TYM V32
+        360/604-6016   Vancouver        WA 300-33,600         CPS V34
+        360/574-0427   Vancouver        WA 300-2400           TYM 224MNP
+        360/576-6830   Vancouver        WA 9600               TYM V32
+        360/693-6914   Vancouver        WA 300-2400           TEL 224MNP
+        401/849-1660   Middletown       RI 300-2400           TYM 224MNP
+        401/846-8088   Middletown       RI 9600               TYM V32
+        401/849-1660   Newport          RI 300-2400           TYM 224MNP
+        401/849-0229   Newport          RI 300-14,400         TEL V32
+        401/295-7100   North Kingston   RI 300-14,400         TEL V32
+        401/435-1100   Providence       RI 300-33,600         CPS V34
+        401/766-2000   Woonsocket       RI 300-2400           TYM 224MNP
+        401/765-0326   Woonsocket       RI 9600               TYM V32
+        401/765-0019   Woonsocket       RI 300-14,400         TEL V32
+        402/474-2316   Lincoln          NE 300-33,600         CPS V34
+        402/343-2042   Omaha            NE 300-33,600         CPS V34
+        403/294-9120   Calgary          AB 300-33,600         CPS V34
+        403/440-2744   Edmonton         AB 300-33,600         CPS V34
+        404/841-0578   Atlanta          GA 300-33,600         CPS V34
+        404/261-2944   Atlanta          GA 56,000             CPS X2-USR
+        404/814-9138   Atlanta-ISDN     GA 57,600             CPS V120
+        404/532-9880   Gainsville       GA 300-2400           TEL 224MNP
+        405/942-7278   Oklahoma City    OK 300-33,600         CPS V34
+        405/742-4600   Stillwater       OK 300-33,600         CPS V34
+        406/259-0299   Billings         MT 300-33,600         CPS V34
+        406/585-9719   Bozeman          MT 300-2400           TYM 224MNP
+        406/586-0596   Bozeman          MT 9600               TYM V32
+        406/494-6682   Butte            MT 300-2400           TYM 224MNP
+        406/494-1038   Butte            MT 9600               TYM V32
+        406/727-9510   Great Falls      MT 300-2400           TYM 224MNP
+        406/453-0529   Great Falls      MT 9600               TYM V32
+        406/771-0067   Great Falls      MT 300-2400           TEL 224MNP
+        406/449-0083   Helena           MT 300-33,600         CPS V34
+        406/542-0472   Missoula         MT 300-2400           TYM 224MNP
+        406/721-0737   Missoula         MT 9600               TYM V32
+        406/543-5575   Missoula         MT 300-2400           TEL 224MNP
+        407/633-0149   Cocoa Beach      FL 300-33,600         CPS V34
+        407/267-0800   Cocoa Beach      FL 300-14,400         TEL V32
+        407/932-0018   Kissimmee        FL 300-33,600         CPS V34
+        407/870-7419   Kissimmee        FL 9600               TYM V32
+        407/639-3022   Merrit Isle      FL 1200-2400          TYM 224MNP
+        407/896-6122   Orlando          FL 300-33,600         CPS V34
+        408/432-8618   Los Altos        CA 1200-2400          TYM 224MNP
+        408/432-0804   Los Altos        CA 9600               TYM V32
+        408/356-1818   Los Gatos        CA 300-2400           TYM 224MNP
+        408/432-8618   San Jose         CA 1200-2400          TYM 224MNP
+        408/432-0804   San Jose         CA 9600               TYM V32
+        408/294-9067   San Jose         CA 300-14,400         TEL V32
+        408/980-1044   Santa Clara      CA 300-33,600         CPS V34
+        409/835-0397   Beaumont         TX 300-33,600         CPS V34
+        409/823-1090   Bryan            TX 300-2400           TYM 224MNP
+        409/823-4900   Bryan            TX 9600               TYM V32
+        409/779-0713   Bryan            TX 300-2400           TEL 224MNP
+        409/696-4488   College Station  TX 300-33,600         CPS V34
+        409/756-8219   Conroe           TX 300-33,600         CPS V34
+        409/766-1133   Galveston        TX 300-33,600         CPS V34
+        409/633-0001   Lufkin           TX 300-33,600         CPS V34
+        409/722-7162   Nederland        TX 300-14,400         TEL V32
+        409/721-3400   Port Arthur      TX 300-2400           TYM 224MNP
+        409/729-3517   Port Arthur      TX 9600               TYM V32
+        410/273-0872   Aberdeen         MD 300-2400           TYM 224MNP
+        410/273-9600   Aberdeen         MD 9600               TYM V32
+        410/266-9547   Annapolis        MD 300-33,600         CPS V34
+        410/494-8403   Baltimore        MD 300-33,600         CPS V34
+        410/749-2484   Salisbury        MD 300-33,600         CPS V34
+        410/543-8575   Salisbury        MD 9600               TYM V32
+        412/856-1330   Monroeville      PA 300-2400           TEL 224MNP
+        412/471-6417   Pittsburgh       PA 300-33,600         CPS V34
+        413/549-6024   Amherst          MA 300-33,600         CPS V34
+        413/787-0048   Holyoke          MA 1200-2400          TYM 224MNP
+        413/732-2118   Holyoke          MA 9600-14,400        TYM V32
+        413/586-0510   Northampton      MA 300-2400           TEL 224MNP
+        413/442-2008   Pittsfield       MA 300-33,600         CPS V34
+        413/499-0971   Pittsfield       MA 300-2400           TYM 224MNP
+        413/442-9841   Pittsfield       MA 9600               TYM V32
+        413/499-7741   Pittsfield       MA 300-2400           TEL 224MNP
+        413/747-4460   Springfield      MA 300-33,600         CPS V34
+        414/785-0630   Brookfield       WI 1200-2400          TYM 224MNP
+        414/796-1087   Brookfield       WI 9600-14,400        TYM V32
+        414/553-9044   Kenosha          WI 300-2400           TYM 224MNP
+        414/553-9603   Kenosha          WI 9600               TYM V32
+        414/552-9242   Kenosha          WI 300-2400           TEL 224MNP
+        414/453-3010   Milwaukee        WI 300-33,600         CPS V34
+        414/632-2174   Racine           WI 2400               TEL 224MNP
+        414/334-1755   West Bend        WI 300-2400           TYM 224MNP
+        414/334-2206   West Bend        WI 300-2400           TEL 224MNP
+        415/956-0290   San Fran-ISDN    CA 57,600             CPS V120
+        415/434-1580   San Francisco    CA 300-33,600         CPS V34
+        415/956-0290   San Francisco    CA 56,000             CPS X2-USR
+        415/444-5200   San Rafael       CA 300-33,600         CPS V34
+        416/367-8122   Toronto          ON 300-33,600         CPS V34
+        417/339-3550   Branson          MO 300-33,600         CPS V34
+        417/781-8718   Joplin           MO 300-2400           TYM 224MNP
+        417/887-8767   Springfield      MO 300-33,600         CPS V34
+        418/649-7082   Quebec City      QC 300-33,600         CPS V34
+        419/420-7200   Findlay          OH 300-33,600         CPS V34
+        419/427-1600   Findlay          OH 300-2400           TYM 224MNP
+        419/422-8188   Findlay          OH 300-2400           TEL 224MNP
+        419/228-6343   Lima             OH 300-2400           TYM 224MNP
+        419/747-6200   Mansfield        OH 300-2400           TYM 224MNP
+        419/747-9068   Mansfield        OH 9600               TYM V32
+        419/589-0276   Mansfield        OH 300-14,400         TEL V32
+        419/627-0050   Sandusky         OH 300-2400           TEL 224MNP
+        419/242-5706   Toledo           OH 300-33,600         CPS V34
+        423/323-1962   Blountville      TN 300-2400           TYM 224MNP
+        423/968-2480   Bristol          TN 300-2400           TEL 224MNP
+        423/892-7064   Chattanooga      TN 300-33,600         CPS V34
+        423/434-0590   Johnson City     TN 300-33,600         CPS V34
+        423/975-9184   Johnson City     TN 9600               TYM V32
+        423/239-0052   Kingsport        TN 300-33,600         CPS V34
+        423/378-5746   Kingsport        TN 300-2400           TYM 224MNP
+        423/558-8180   Knoxville        TN 300-33,600         CPS V34
+        423/482-1466   Oak Ridge        TN 300-2400           TYM 224MNP
+        423/481-3590   Oak Ridge        TN 300-14,400         TEL V32
+        423/453-0401   Sevierville      TN 300-2400           TYM 224MNP
+        425/303-8377   Everett          WA 300-33,600         CPS V34
+        425/774-7466   Lynnwood         WA 300-2400           TEL 224MNP
+        435/752-3421   Logan            UT 300-2400           TEL 224MNP
+        435/649-0121   Park City        UT 300-33,600         CPS V34
+        440/324-7156   Elyria           OH 300-2400           TYM 224MNP
+        440/322-8645   Elyria           OH 300-2400           TEL 224MNP
+        440/960-1771   Lorain           OH 300-2400           TEL 224MNP
+        501/273-7747   Bentonville      AR 300-33,600         CPS V34
+        501/521-3774   Fayetteville     AR 300-33,600         CPS V34
+        501/442-0234   Fayetteville     AR 300-2400           TYM 224MNP
+        501/442-3742   Fayetteville     AR 9600               TYM V32
+        501/785-0047   Ft. Smith        AR 300-33,600         CPS V34
+        501/623-3576   Hot Springs      AR 300-2400           TYM 224MNP
+        501/623-0129   Hot Springs      AR 9600               TYM V32
+        501/376-8544   Little Rock      AR 300-33,600         CPS V34
+        501/442-0234   Springdale       AR 1200-2400          TYM 224MNP
+        502/781-5711   Bowling Green    KY 300-2400           TYM 224MNP
+        502/796-2958   Bowling Green    KY 9600               TYM V32
+        502/843-0632   Bowling Green    KY 300-14,400         TEL V32
+        502/223-0724   Frankfort        KY 300-2400           TYM 224MNP
+        502/223-3532   Frankfort        KY 9600               TYM V32
+        502/875-2911   Frankfort        KY 300-14,400         TEL V32
+        502/568-6250   Louisville       KY 300-33,600         CPS V34
+        502/691-0011   Owensboro        KY 300-33,600         CPS V34
+        502/683-4319   Owensboro        KY 9600               TYM V32
+        502/443-1086   Paducah          KY 300-2400           TYM 224MNP
+        503/274-6400   Portland         OR 300-33,600         CPS V34
+        503/362-0358   Salem            OR 300-33,600         CPS V34
+        504/585-1120   New Orleans      LA 300-33,600         CPS V34
+        504/646-2900   Slidell          LA 300-2400           TYM 224MNP
+        504/641-6668   Slidell          LA 9600               TYM V32
+        505/268-8748   Albuquerque      NM 300-33,600         CPS V34
+        505/326-5338   Farmington       NM 300-33,600         CPS V34
+        505/541-4549   Las Cruces       NM 300-33,600         CPS V34
+        505/662-6971   Los Alamos       NM 300-33,600         CPS V34
+        505/623-3591   Roswell          NM 300-2400           TYM 224MNP
+        505/995-0068   Santa Fe         NM 300-33,600         CPS V34
+        505/471-0606   Santa Fe         NM 300-2400           TYM 224MNP
+        505/473-2181   Santa Fe         NM 9600               TYM V32
+        507/388-4240   Mankato          MN 300-33,600         CPS V34
+        507/252-9800   Rochester        MN 300-33,600         CPS V34
+        508/226-6441   Attleboro        MA 300-2400           TYM 224MNP
+        508/226-5200   Attleboro        MA 9600               TYM V32
+        508/226-8956   Attleboro        MA 300-14,400         TEL V32
+        508/588-3585   Brockton         MA 300-33,600         CPS V34
+        508/674-1377   Fall River       MA 300-33,600         CPS V34
+        508/628-9439   Framingham       MA 300-33,600         CPS V34
+        508/541-8300   Franklin         MA 300-2400           TYM 224MNP
+        508/541-7400   Franklin         MA 9600               TYM V32
+        508/481-0026   Marlborough      MA 300-2400           TYM 224MNP
+        508/229-0041   Marlborough      MA 9600               TYM V32
+        508/359-7603   Medfield         MA 300-33,600         CPS V34
+        508/533-2722   Medway           MA 300-33,600         CPS V34
+        508/478-0653   Mendon           MA 300-33,600         CPS V34
+        508/634-0449   Milford          MA 1200-2400          TYM 224MNP
+        508/999-1860   New Bedford      MA 300-2400           TYM 224MNP
+        508/999-0322   New Bedford      MA 9600               TYM V32
+        508/990-3300   New Bedford      MA 300-14,400         TEL V32
+        508/676-3087   Somerset         MA 300-2400           TYM 224MNP
+        508/824-3816   Taunton          MA 300-2400           TYM 224MNP
+        508/880-6125   Taunton          MA 9600               TYM V32
+        508/366-2617   Westborough      MA 300-33,600         CPS V34
+        508/540-4085   Woods Hole       MA 300-14,400         TEL V32
+        508/849-1000   Worcester        MA 300-33,600         CPS V34
+        509/783-1315   Kennewick        WA 300-2400           TYM 224MNP
+        509/783-2201   Kennewick        WA 9600               TYM V32
+        509/332-3760   Pullman          WA 300-2400           TYM 224MNP
+        509/332-6205   Pullman          WA 9600               TYM V32
+        509/943-6117   Richland         WA 300-14,400         TEL V32
+        509/326-0318   Spokane          WA 300-33,600         CPS V34
+        509/663-9482   Wenatchee        WA 300-14,400         TEL V32
+        509/248-1462   Yakima           WA 300-2400           TYM 224MNP
+        509/452-1824   Yakima           WA 9600               TYM V32
+        509/575-1060   Yakima           WA 300-14,400         TEL V32
+        510/490-7366   Fremont          CA 300-2400           TYM 224MNP
+        510/498-4400   Fremont          CA 9600               TYM V32
+        510/249-9220   Fremont          CA 300-14,400         TEL V32
+        510/889-6009   Hayward          CA 300-33,600         CPS V34
+        510/251-8304   Oakland          CA 300-33,600         CPS V34
+        510/724-0271   Pinole           CA 300-14,400         TEL V32
+        512/326-1155   Austin           TX 300-33,600         CPS V34
+        512/887-2891   Corpus Christi   TX 300-33,600         CPS V34
+        512/576-9200   Victoria         TX 300-2400           TYM 224MNP
+        512/572-0158   Victoria         TX 9600               TYM V32
+        512/572-3197   Victoria         TX 300-2400           TEL 224MNP
+        513/771-0592   Cincinnati       OH 300-33,600         CPS V34
+        513/874-1744   Hamilton         OH 300-2400           TYM 224MNP
+        513/863-4116   Hamilton         OH 300-2400           TEL 224MNP
+        514/879-5826   Montreal         QC 300-33,600         CPS V34
+        515/232-0157   Ames             IA 300-2400           TYM 224MNP
+        515/233-2603   Ames             IA 300-14,400         TEL V32
+        515/276-7231   Des Moines       IA 300-33,600         CPS V34
+        515/753-0670   Marshalltown     IA 300-2400           TYM 224MNP
+        515/682-0857   Ottumwa          IA 300-2400           TYM 224MNP
+        515/683-8254   Ottumwa          IA 9600               TYM V32
+        516/471-6080   Centereach       NY 1200-2400          TYM 224MNP
+        516/254-6021   Deer Park        NY 300-14,400         TEL V32
+        516/485-7422   Hempstead        NY 300-2400           TYM 224MNP
+        516/565-0111   Hempstead        NY 9600               TYM V32
+        516/292-2820   Hempstead        NY 300-14,400         TEL V32
+        516/932-3198   Jericho          NY 300-33,600         CPS V34
+        516/471-6080   Lake Grove       NY 1200-2400          TYM 224MNP
+        516/471-4020   Lake Grove       NY 9600-14,400        TYM V32
+        516/981-0029   Lake Ronkonkoma  NY 300-33,600         CPS V34
+        516/420-4579   Melville         NY 300-2400           TYM 224MNP
+        516/420-4190   Melville         NY 9600               TYM V32
+        516/222-8050   Williston Park   NY 300-33,600         CPS V34
+        517/695-6751   Freeland         MI 1200-2400          TYM 224MNP
+        517/695-9766   Freeland         MI 9600-14,400        TYM V32
+        517/780-9025   Jackson          MI 300-33,600         CPS V34
+        517/332-7141   Lansing          MI 300-33,600         CPS V34
+        517/832-7068   Midland          MI 300-14,400         TEL V32
+        517/753-5100   Saginaw          MI 300-33,600         CPS V34
+        518/464-5457   Albany           NY 300-33,600         CPS V34
+        518/562-1890   Plattsburgh      NY 300-2400           TEL 224MNP
+        519/741-1100   Kitchener        ON 300-33,600         CPS V34
+        519/663-1880   London           ON 300-33,600         CPS V34
+        520/774-3857   Flagstaff        AZ 300-2400           TYM 224MNP
+        520/779-9775   Flagstaff        AZ 9600               TYM V32
+        520/773-0588   Flagstaff        AZ 300-14,400         TEL V32
+        520/459-5955   Sierra Vista     AZ 300-33,600         CPS V34
+        520/571-0207   Tucson           AZ 300-33,600         CPS V34
+        520/539-0019   Yuma             AZ 300-33,600         CPS V34
+        520/329-0098   Yuma             AZ 9600               TYM V32
+        530/897-5900   Chico            CA 300-33,600         CPS V34
+        530/343-4401   Chico            CA 300-2400           TYM 224MNP
+        530/342-2007   Chico            CA 9600               TYM V32
+        530/758-3551   Davis            CA 1200-2400          TYM 224MNP
+        530/749-8015   Marysville       CA 300-2400           TYM 224MNP
+        530/749-0171   Marysville       CA 9600               TYM V32
+        530/222-0298   Redding          CA 300-33,600         CPS V34
+        530/245-0308   Redding          CA 9600               TYM V32
+        530/541-0151   So. Lake Tahoe   CA 300-33,600         CPS V34
+        530/544-1347   So. Lake Tahoe   CA 9600               TYM V32
+        530/661-9296   Woodland         CA 300-33,600         CPS V34
+        530/758-3551   Woodland         CA 300-2400           TYM 224MNP
+        540/552-9181   Blacksburg       VA 300-14,400         TEL V32
+        540/962-2217   Covington        VA 300-14,400         TEL V32
+        540/374-5115   Fredericksburg   VA 300-33,600         CPS V34
+        540/371-0188   Fredericksburg   VA 300-2400           TEL 224MNP
+        540/433-6333   Harrisonburg     VA 300-2400           TYM 224MNP
+        540/432-7921   Harrisonburg     VA 9600               TYM V32
+        540/434-0374   Harrisonburg     VA 300-2400           TEL 224MNP
+        540/338-6900   Purcellville     VA 300-33,600         CPS V34
+        540/633-6000   Radford          VA 300-33,600         CPS V34
+        540/362-1126   Roanoke          VA 300-33,600         CPS V34
+        540/851-1700   Staunton         VA 300-33,600         CPS V34
+        541/924-9486   Albany           OR 300-33,600         CPS V34
+        541/389-0146   Bend             OR 300-2400           TYM 224MNP
+        541/757-6341   Corvallis        OR 300-2400           TYM 224MNP
+        541/758-0056   Corvallis        OR 9600               TYM V32
+        541/754-0559   Corvallis        OR 300-2400           TEL 224MNP
+        541/689-6031   Eugene           OR 300-33,600         CPS V34
+        541/386-4405   Hood River       OR 300-14,400         TEL V32
+        541/882-6282   Klamath Falls    OR 300-2400           TEL 224MNP
+        541/857-2917   Medford          OR 300-33,600         CPS V34
+        559/453-1487   Fresno           CA 300-33,600         CPS V34
+        559/625-4891   Visalia          CA 300-2400           TYM 224MNP
+        559/635-4289   Visalia          CA 9600               TYM V32
+        559/627-1201   Visalia          CA 300-2400           TEL 224MNP
+        561/367-0732   Boca Raton       FL 300-14,400         TEL V32
+        561/471-9310   Boyntn Beach     FL 1200-2400          TYM 224MNP
+        561/272-7900   Delray Beach     FL 300-2400           TYM 224MNP
+        561/278-1636   Delray Beach     FL 9600               TYM V32
+        561/466-5661   Ft. Pierce       FL 300-2400           TYM 224MNP
+        561/337-1992   Port St. Lucie   FL 300-2400           TYM 224MNP
+        561/337-0254   Port St. Lucie   FL 9600               TYM V32
+        561/567-1588   Vero Beach       FL 300-33,600         CPS V34
+        561/624-7451   West Palm Beach  FL 300-33,600         CPS V34
+        562/989-7012   Long Beach       CA 300-33,600         CPS V34
+        562/802-2275   Norwalk          CA 300-2400           TEL 224MNP
+        562/436-6033   San Pedro        CA 1200-2400          TYM 224MNP
+        562/945-1984   Whittier         CA 300-2400           TYM 224MNP
+        562/698-4281   Whittier         CA 9600               TYM V32
+        570/271-0102   Danville         PA 300-2400           TEL 224MNP
+        570/961-2759   Scranton         PA 300-33,600         CPS V34
+        570/822-3315   Wilkes Barre     PA 300-33,600         CPS V34
+        570/321-8520   Williamsport     PA 300-2400           TYM 224MNP
+        570/320-0420   Williamsport     PA 9600               TYM V32
+        570/494-1796   Williamsport     PA 300-2400           TEL 224MNP
+        573/335-1518   Cape Girardeau   MO 300-2400           TYM 224MNP
+        573/339-5995   Cape Girardeau   MO 9600               TYM V32
+        573/499-9540   Columbia         MO 300-33,600         CPS V34
+        573/761-5625   Jefferson City   MO 300-33,600         CPS V34
+        573/635-0035   Jefferson City   MO 9600               TYM V32
+        573/364-2084   Rolla            MO 300-2400           TYM 224MNP
+        580/226-1260   Ardmore          OK 300-2400           TYM 224MNP
+        580/242-0113   Enid             OK 300-2400           TYM 224MNP
+        580/355-8118   Lawton           OK 300-33,600         CPS V34
+        601/582-0286   Hattiesburg      MS 300-2400           TYM 224MNP
+        601/582-3051   Hattiesburg      MS 9600               TYM V32
+        601/352-5182   Jackson          MS 300-33,600         CPS V34
+        601/482-4335   Meridian         MS 300-2400           TYM 224MNP
+        601/437-8916   Port Gibson      MS 300-2400           TEL 224MNP
+        601/324-2155   Starkville       MS 300-2400           TEL 224MNP
+        601/841-0090   Tupelo           MS 300-2400           TYM 224MNP
+        601/841-0184   Tupelo           MS 9600               TYM V32
+        601/638-1551   Vicksburg        MS 300-2400           TYM 224MNP
+        601/636-0114   Vicksburg        MS 9600               TYM V32
+        602/468-0285   Phoenix          AZ 300-56,000         CPS V34/X2
+        603/225-7322   Concord          NH 300-33,600         CPS V34
+        603/868-1502   Durham           NH 300-2400           TYM 224MNP
+        603/868-1440   Durham           NH 9600               TYM V32
+        603/643-7666   Hanover          NH 300-2400           TYM 224MNP
+        603/666-4266   Manchester       NH 300-33,600         CPS V34
+        603/886-6080   Nashua           NH 300-33,600         CPS V34
+        603/964-7779   North Hampton    NH 300-2400           TYM 224MNP
+        603/964-4929   North Hampton    NH 9600               TYM V32
+        603/924-7090   Peterborough     NH 300-2400           TYM 224MNP
+        603/924-7829   Peterborough     NH 9600               TYM V32
+        603/431-7984   Portsmouth       NH 300-14,400         TEL V32
+        603/643-7474   West Lebanon     NH 9600               TYM V32
+        604/739-8194   Vancouver        BC 300-33,600         CPS V34
+        605/224-7700   Pierre           SD 300-2400           TYM 224MNP
+        605/224-0931   Pierre           SD 9600               TYM V32
+        605/224-2257   Pierre           SD 300-2400           TEL 224MNP
+        605/348-1664   Rapid City       SD 300-33,600         CPS V34
+        605/334-0085   Sioux Falls      SD 300-2400           TYM 224MNP
+        605/331-6467   Sioux Falls      SD 9600               TYM V32
+        605/334-4953   Sioux Falls      SD 300-14,400         TEL V32
+        606/254-6557   Lexington        KY 300-33,600         CPS V34
+        607/773-3111   Binghamton       NY 300-33,600         CPS V34
+        607/962-4481   Corning          NY 300-2400           TYM 224MNP
+        607/962-4898   Corning          NY 9600               TYM V32
+        607/737-9065   Elmira           NY 300-2400           TYM 224MNP
+        607/735-0621   Elmira           NY 9600               TYM V32
+        607/257-4264   Ithaca           NY 300-33,600         CPS V34
+        608/362-4655   Beloit           WI 300-2400           TYM 224MNP
+        608/363-0912   Beloit           WI 9600               TYM V32
+        608/362-2433   Beloit           WI 300-2400           TEL 224MNP
+        608/784-9466   La Crosse        WI 300-33,600         CPS V34
+        608/256-6716   Madison          WI 300-33,600         CPS V34
+        609/641-1460   Atlantic City    NJ 300-33,600         CPS V34
+        609/753-4700   Berlin           NJ 300-33,600         CPS V34
+        609/667-8865   Cherry Hill      NJ 300-33,600         CPS V34
+        609/988-7800   Marlton          NJ 300-14,400         TEL V32
+        609/663-7730   Merchantville    NJ 300-14,400         TEL V32
+        609/327-2898   Millville        NJ 300-33,600         CPS V34
+        609/665-5902   Pennsauken       NJ 1200-2400          TYM 224MNP
+        609/665-0637   Pennsauken       NJ 9600-14,400        TYM V32
+        609/497-2384   Princeton        NJ 300-33,600         CPS V34
+        609/452-9529   South Brunswick  NJ 1200-2400          TYM 224MNP
+        609/452-8388   South Brunswick  NJ 9600-14,400        TYM V32
+        609/530-1517   Trenton          NJ 300-33,600         CPS V34
+        609/692-8943   Vineland         NJ 300-2400           TYM 224MNP
+        609/692-8337   Vineland         NJ 9600               TYM V32
+        609/696-3883   Vineland         NJ 300-14,400         TEL V32
+        610/530-4032   Allentown        PA 300-33,600         CPS V34
+        610/865-6978   Bethlehem        PA 1200-2400          TYM 224MNP
+        610/882-3883   Bethlehem        PA 9600-14,400        TYM V32
+        610/383-0440   Coatesville      PA 300-2400           TYM 224MNP
+        610/384-0852   Coatesville      PA 9600               TYM V32
+        610/265-2812   King of Prussia  PA 300-14,400         TEL V32
+        610/277-1301   Norristown       PA 300-33,600         CPS V34
+        610/374-4450   Reading          PA 300-33,600         CPS V34
+        610/328-9002   Springfield      PA 300-2400           TYM 224MNP
+        610/604-9884   Springfield      PA 9600               TYM V32
+        610/666-9190   Valley           PA 1200-2400          TYM 224MNP
+        610/436-7406   West Chester     PA 300-2400           TEL 224MNP
+        612/339-1805   Minneapolis      MN 300-33,600         CPS V34
+        613/237-0400   Ottawa           ON 300-33,600         CPS V34
+        614/461-9044   Columbus         OH 300-2400           TEL 224MNP
+        614/764-2957   Dublin           OH 300-33,600         CPS V34
+        614/717-9700   Dublin-ISDN      OH 57,600             CPS V120
+        615/367-0014   Nashville        TN 300-33,600         CPS V34
+        616/964-9303   Battle Creek     MI 300-2400           TYM 224MNP
+        616/964-7733   Battle Creek     MI 9600               TYM V32
+        616/961-9927   Battle Creek     MI 300-14,400         TEL V32
+        616/927-0003   Benton Harbor    MI 300-33,600         CPS V34
+        616/465-3248   Bridgman         MI 300-14,400         TEL V32
+        616/775-9242   Cadillac         MI 300-2400           TYM 224MNP
+        616/956-0075   Grand Rapids     MI 300-33,600         CPS V34
+        616/355-5600   Holland          MI 300-33,600         CPS V34
+        616/373-3750   Kalamazoo        MI 300-33,600         CPS V34
+        616/739-3453   Muskegon         MI 300-2400           TYM 224MNP
+        616/726-5723   Muskegon         MI 300-14,400         TEL V32
+        616/933-3400   Traverse City    MI 300-33,600         CPS V34
+        617/426-9295   Boston           MA 300-33,600         CPS V34
+        617/338-0093   Boston-ISDN      MA 57,600             CPS V120
+        617/661-7071   Cambridge        MA 300-33,600         CPS V34
+        618/277-9551   Belleville       IL 300-14,400         TEL V32
+        618/529-4300   Carbondale       IL 300-2400           TYM 224MNP
+        618/529-1769   Carbondale       IL 9600               TYM V32
+        618/874-4311   East St. Louis   IL 300-33,600         CPS V34
+        618/632-3993   O'Fallon         IL 300-2400           TYM 224MNP
+        618/628-4758   O'Fallon         IL 9600               TYM V32
+        619/585-0309   Chula Vista      CA 300-33,600         CPS V34
+        619/679-0200   Poway            CA 300-2400           TYM 224MNP
+        619/679-2024   Poway            CA 9600               TYM V32
+        619/467-9508   San Diego        CA 300-33,600         CPS V34
+        626/308-1800   Alhambra         CA 1200-2400          TYM 224MNP
+        626/289-1035   Alhambra         CA 9600-14,400        TYM V32
+        626/303-3869   Monrovia         CA 300-33,600         CPS V34
+        626/308-1800   Pasadena         CA 1200-2400          TYM 224MNP
+        626/331-6611   W. Covina        CA 300-14,400         TEL V32
+        630/801-9468   Aurora           IL 300-33,600         CPS V34
+        630/345-9100   Forest           IL 1200-2400          TYM 224MNP
+        630/790-4955   Glen Ellyn       IL 300-2400           TYM 224MNP
+        630/469-2694   Glen Ellyn       IL 9600               TYM V32
+        630/261-0040   Lombard          IL 300-33,600         CPS V34
+        630/345-9100   Maywood          IL 300-2400           TYM 224MNP
+        630/844-0700   St. Charles      IL 1200-2400          TYM 224MNP
+        650/361-8701   Belmont          CA 1200-2400          TYM 224MNP
+        650/367-0334   Belmont          CA 9600-14,400        TYM V32
+        650/588-3043   Burlingame       CA 1200-2400          TYM 224MNP
+        650/361-8701   Palo Alto        CA 1200-2400          TYM 224MNP
+        650/367-0334   Palo Alto        CA 9600-14,400        TYM V32
+        650/361-8701   Redwood City     CA 1200-2400          TYM 224MNP
+        650/367-0334   Redwood City     CA 9600-14,400        TYM V32
+        650/591-8578   San Carlos       CA 300-14,400         TEL V32
+        650/802-0130   San Mateo        CA 300-33,600         CPS V34
+        701/223-5165   Bismark          ND 300-2400           TYM 224MNP
+        701/223-9365   Bismark          ND 9600               TYM V32
+        701/241-4457   Fargo            ND 300-33,600         CPS V34
+        701/237-0337   Fargo            ND 9600               TYM V32
+        701/746-0344   Grand Forks      ND 300-2400           TYM 224MNP
+        701/775-7813   Grand Forks      ND 300-2400           TEL 224MNP
+        701/663-6339   Mandan           ND 300-14,400         TEL V32
+        701/838-2140   Minot            ND 300-2400           TYM 224MNP
+        701/839-7670   Minot            ND 9600               TYM V32
+        702/796-4877   Las Vegas        NV 300-33,600         CPS V34
+        703/352-3136   Bethesda         MD 300-2400           TYM 224MNP
+        703/385-7587   Bethesda         MD 9600               TYM V32
+        703/591-0461   Fairfax          VA 300-33,600         CPS V34
+        703/359-3916   Fairfax-ISDN     VA 57,600             CPS V120
+        703/787-6719   Herndon          VA 300-14,400         TEL V32
+        703/335-1259   Manassas         VA 300-33,600         CPS V34
+        703/494-0836   Occoquan         VA 300-14,400         TEL V32
+        703/934-2267   Reston           VA 300-33,600         CPS V34
+        704/358-8991   Charlotte        NC 300-33,600         CPS V34
+        704/867-2203   Gastonia         NC 300-2400           TYM 224MNP
+        704/867-0046   Gastonia         NC 9600               TYM V32
+        704/865-4708   Gastonia         NC 300-2400           TEL 224MNP
+        704/932-4131   Kannapolis       NC 300-2400           TYM 224MNP
+        704/933-4532   Kannapolis       NC 9600               TYM V32
+        706/353-6120   Athens           GA 300-33,600         CPS V34
+        706/722-3361   Augusta          GA 300-33,600         CPS V34
+        706/321-8805   Columbus         GA 300-33,600         CPS V34
+        706/327-4214   Columbus         GA 9600               TYM V32
+        706/855-0442   Martinez         GA 300-2400           TYM 224MNP
+        706/650-0207   Martinez         GA 9600               TYM V32
+        706/234-0102   Rome             GA 300-2400           TYM 224MNP
+        706/234-1428   Rome             GA 300-2400           TEL 224MNP
+        707/445-3021   Eureka           CA 300-2400           TYM 224MNP
+        707/445-2458   Eureka           CA 9600               TYM V32
+        707/444-3091   Eureka           CA 300-2400           TEL 224MNP
+        707/427-5600   Fairfield        CA 300-33,600         CPS V34
+        707/421-0106   Fairfield        CA 300-2400           TYM 224MNP
+        707/434-1040   Fairfield        CA 9600               TYM V32
+        707/426-3860   Fairfield        CA 300-14,400         TEL V32
+        707/257-0234   Napa             CA 300-33,600         CPS V34
+        707/579-1588   Santa Rosa       CA 300-33,600         CPS V34
+        707/645-1534   Vallejo          CA 300-33,600         CPS V34
+        707/553-2616   Vallejo          CA 9600               TYM V32
+        708/474-1422   Lansing          IL 300-2400           TYM 224MNP
+        708/355-2910   Naperville       IL 300-14,400         TEL V32
+        712/258-8432   Sioux City       IA 300-33,600         CPS V34
+        713/650-5143   Houston          TX 300-33,600         CPS V34
+        713/970-4250   Houston          TX 56,000             CPS X2-USR
+        713/718-9541   Houston-ISDN     TX 57,600             CPS V120
+        714/563-9431   Anaheim          CA 300-33,600         CPS V34
+        714/379-1728   Garden Grove     CA 300-2400           TYM 224MNP
+        714/379-7400   Garden Grove     CA 300-14,400         TEL V32
+        714/558-1501   Santa Ana        CA 300-2400           TEL 224MNP
+        715/833-0121   Eau Claire       WI 300-2400           TYM 224MNP
+        715/833-7608   Eau Claire       WI 9600               TYM V32
+        715/836-0097   Eau Claire       WI 300-2400           TEL 224MNP
+        715/359-5959   Wausau           WI 300-33,600         CPS V34
+        715/848-6171   Wausau           WI 300-2400           TYM 224MNP
+        715/845-9589   Wausau           WI 300-2400           TEL 224MNP
+        716/633-0562   Buffalo          NY 300-33,600         CPS V34
+        716/488-0794   Jamestown        NY 300-2400           TYM 224MNP
+        716/488-9984   Jamestown        NY 9600               TYM V32
+        716/925-7351   Limestone        NY 300-33,600         CPS V34
+        716/278-3600   Niagara Falls    NY 300-33,600         CPS V34
+        716/385-5710   Perinton         NY 1200-2400          TYM 224MNP
+        716/586-4100   Perinton         NY 9600-14,400        TYM V32
+        716/385-5710   Pittsford        NY 1200-2400          TYM 224MNP
+        716/586-4100   Pittsford        NY 9600-14,400        TYM V32
+        716/254-1390   Rochester        NY 300-33,600         CPS V34
+        716/694-5551   Tonawanda        NY 300-33,600         CPS V34
+        717/243-6477   Carlisle         PA 300-33,600         CPS V34
+        717/541-0210   Harrisburg       PA 300-33,600         CPS V34
+        717/581-9500   Lancaster        PA 300-33,600         CPS V34
+        717/975-9881   Lemoyne          PA 1200-2400          TYM 224MNP
+        717/975-8168   Lemoyne          PA 9600-14,400        TYM V32
+        717/755-5060   York             PA 300-33,600         CPS V34
+        718/210-0599   New York         NY 300-33,600         CPS V34
+        719/522-1049   Colorado Sprngs  CO 300-33,600         CPS V34
+        719/546-1574   Pueblo           CO 300-33,600         CPS V34
+        724/285-2194   Butler           PA 300-33,600         CPS V34
+        724/838-1920   Greensburg       PA 300-2400           TYM 224MNP
+        724/830-0580   Greensburg       PA 9600               TYM V32
+        724/658-5056   New Castle       PA 300-2400           TYM 224MNP
+        724/657-1802   New Castle       PA 9600               TYM V32
+        727/441-1621   Clearwater       FL 300-2400           TYM 224MNP
+        727/896-8007   St. Petersburg   FL 300-33,600         CPS V34
+        732/764-0925   Bound Brook      NJ 300-33,600         CPS V34
+        732/935-0137   Eatontown        NJ 300-33,600         CPS V34
+        732/780-2680   Freehold         NJ 300-14,400         TEL V32
+        732/220-0405   New Brunswick    NJ 300-14,400         TEL V32
+        732/562-8550   Piscataway       NJ 300-2400           TYM 224MNP
+        732/562-0570   Piscataway       NJ 9600               TYM V32
+        732/396-8550   Rahway           NJ 300-2400           TYM 224MNP
+        732/574-9278   Rahway           NJ 9600               TYM V32
+        732/758-0337   Red Bank         NJ 300-2400           TYM 224MNP
+        732/224-0873   Red Bank         NJ 9600               TYM V32
+        732/571-0003   Red Bank         NJ 300-14,400         TEL V32
+        732/525-9507   Sayreville       NJ 300-14,400         TEL V32
+        732/914-1954   Toms River       NJ 300-33,600         CPS V34
+        732/632-9384   Woodbridge       NJ 300-33,600         CPS V34
+        734/761-9300   Ann Arbor        MI 300-33,600         CPS V34
+        734/451-2400   Plymouth         MI 300-2400           TYM 224MNP
+        734/455-1441   Plymouth         MI 9600               TYM V32
+        734/326-4210   Wayne            MI 300-2400           TEL 224MNP
+        740/594-7800   Athens           OH 300-33,600         CPS V34
+        740/439-3032   Cambridge        OH 300-33,600         CPS V34
+        740/363-9395   Delaware         OH 300-33,600         CPS V34
+        740/689-4400   Lancaster        OH 300-33,600         CPS V34
+        740/376-5700   Marietta         OH 300-33,600         CPS V34
+        740/349-1000   Newark           OH 300-33,600         CPS V34
+        740/284-0020   Steubenville     OH 300-2400           TYM 224MNP
+        740/284-0020   Wintersville     OH 300-2400           TYM 224MNP
+        740/454-2893   Zanesville       OH 300-2400           TYM 224MNP
+        757/723-0277   Hampton          VA 9600               TYM V32
+        757/596-0898   Newport News     VA 300-2400           TYM 224MNP
+        757/595-7180   Newport News     VA 9600               TYM V32
+        757/596-9232   Newport News     VA 300-14,400         TEL V32
+        757/855-6499   Norfolk          VA 300-33,600         CPS V34
+        760/324-0728   Cathedral City   CA 9600-14,400        TYM V32
+        760/324-0920   Cathedral City   CA 1200-2400          TYM 224MNP
+        760/352-5823   El Centro        CA 300-2400           TYM 224MNP
+        760/352-8114   El Centro        CA 9600               TYM V32
+        760/753-0235   Encinitas        CA 300-33,600         CPS V34
+        760/738-0203   Escondido        CA 300-14,400         TEL V32
+        760/430-0613   Oceanside        CA 300-2400           TEL 224MNP
+        760/778-3524   Palm Springs     CA 300-33,600         CPS V34
+        760/471-5268   San Marcos       CA 300-33,600         CPS V34
+        760/955-7050   Victorville      CA 300-2400           TYM 224MNP
+        760/241-3580   Victorville      CA 9600               TYM V32
+        760/951-2612   Victorville      CA 300-14,400         TEL V32
+        760/941-6700   Vista            CA 300-2400           TYM 224MNP
+        760/941-9793   Vista            CA 9600               TYM V32
+        765/864-6500   Kokomo           IN 300-33,600         CPS V34
+        765/456-1305   Kokomo           IN 9600               TYM V32
+        765/452-0073   Kokomo           IN 300-2400           TEL 224MNP
+        765/476-5300   Lafayette        IN 300-33,600         CPS V34
+        765/662-1928   Marion           IN 300-2400           TYM 224MNP
+        765/668-0969   Marion           IN 9600               TYM V32
+        765/281-0095   Muncie           IN 300-33,600         CPS V34
+        765/935-3590   Richmond         IN 300-33,600         CPS V34
+        770/451-3362   Doraville        GA 1200-2400          TYM 224MNP
+        770/451-1546   Doraville        GA 9600-14,400        TYM V32
+        773/693-4100   Chicago          IL 300-33,600         CPS V34
+        775/885-8411   Carson City      NV 1200-2400          TYM 224MNP
+        775/885-0188   Carson City      NV 9600-14,400        TYM V32
+        775/322-8968   Reno             NV 300-33,600         CPS V34
+        781/271-0420   Bedford          MA 300-2400           TYM 224MNP
+        781/275-5077   Bedford          MA 9600               TYM V32
+        781/326-4064   Dedham           MA 300-14,400         TEL V32
+        781/582-1200   Kingston         MA 300-2400           TYM 224MNP
+        781/585-0300   Kingston         MA 9600               TYM V32
+        781/862-9124   Lexington        MA 300-14,400         TEL V32
+        781/592-0207   Lynn             MA 300-2400           TYM 224MNP
+        781/592-5424   Lynn             MA 9600               TYM V32
+        781/986-0500   Randolph         MA 300-2400           TYM 224MNP
+        781/961-4809   Randolph         MA 9600               TYM V32
+        781/642-9050   Waltham          MA 300-2400           TYM 224MNP
+        781/642-9074   Waltham          MA 9600               TYM V32
+        785/749-2900   Lawrence         KS 300-33,600         CPS V34
+        785/776-9665   Manhattan        KS 300-33,600         CPS V34
+        785/776-9803   Manhattan        KS 300-2400           TYM 224MNP
+        785/825-4845   Salina           KS 300-2400           TYM 224MNP
+        785/825-1338   Salina           KS 9600               TYM V32
+        785/825-7900   Salina           KS 300-14,400         TEL V32
+        785/232-1317   Topeka           KS 300-33,600         CPS V34
+        787/722-0995   San Juan         PR 300-33,600         CPS V34
+        800/848-4480   WATS 800         OH 300-2400           CPS 224MNP
+        800/331-7166   WATS 800         OH 9600-33,600        CPS V34
+        800/473-6282   WATS ISDN        OH 57,600             CPS V120
+        800/333-4474   WATS ISDN/IP     OH 64,000-128,000     CPS ISDN/IP
+        800/572-1959   WATS X2          OH 56,000             CPS X2-USR
+        800/843-0378   WATS/Canada      ON 300-33,600         CPS V34
+        801/544-3791   Kaysville        UT 300-33,600         CPS V34
+        801/393-5280   Ogden            UT 300-2400           TYM 224MNP
+        801/393-9924   Ogden            UT 9600               TYM V32
+        801/627-1640   Ogden            UT 300-14,400         TEL V32
+        801/375-1748   Provo            UT 300-33,600         CPS V34
+        801/521-9777   Salt Lake City   UT 300-33,600         CPS V34
+        802/229-4508   Barre            VT 300-2400           TYM 224MNP
+        802/860-0550   Burlington       VT 300-33,600         CPS V34
+        802/864-5485   Burlington       VT 9600               TEL V32
+        802/362-2264   Manchester Ctr   VT 300-33,600         CPS V34
+        802/229-4508   Montpelier       VT 300-2400           TYM 224MNP
+        802/229-0722   Montpelier       VT 9600               TYM V32
+        802/223-0758   Montpelier       VT 300-14,400         TEL V32
+        802/775-1676   Rutland          VT 300-2400           TEL 224MNP
+        802/295-7631   White River      VT 300-2400           TEL 224MNP
+        803/648-0237   Aiken            SC 300-2400           TYM 224MNP
+        803/776-2229   Columbia         SC 300-33,600         CPS V34
+        804/295-2846   Charlottesville  VA 300-33,600         CPS V34
+        804/727-0572   Hampton          VA 300-2400           TYM 224MNP
+        804/847-2501   Lynchburg        VA 300-33,600         CPS V34
+        804/861-1788   Petersburg       VA 300-2400           TYM 224MNP
+        804/863-0180   Petersburg       VA 9600               TYM V32
+        804/287-8566   Richmond         VA 300-33,600         CPS V34
+        805/324-4303   Bakersfield      CA 300-33,600         CPS V34
+        805/948-7298   Lancaster        CA 300-33,600         CPS V34
+        805/922-3308   Los Alamos       CA 1200-2400          TYM 224MNP
+        805/531-9840   Moorpark         CA 9600               TYM V32
+        805/523-0203   Moorpark         CA 300-2400           TYM 224MNP
+        805/985-2514   Oxnard           CA 300-33,600         CPS V34
+        805/985-7843   Port Hueneme     CA 1200-2400          TYM 224MNP
+        805/984-5636   Port Hueneme     CA 9600-14,400        TYM V32
+        805/544-0137   San Luis Obispo  CA 300-33,600         CPS V34
+        805/549-7811   San Luis Obispo  CA 9600               TYM V32
+        805/968-8210   Santa Barbara    CA 300-33,600         CPS V34
+        805/297-0546   Santa Clarita    CA 300-33,600         CPS V34
+        805/937-5490   Santa Maria      CA 300-33,600         CPS V34
+        805/499-6110   Thousand Oaks    CA 300-33,600         CPS V34
+        805/644-7860   Ventura          CA 300-33,600         CPS V34
+        806/345-2782   Amarillo         TX 300-33,600         CPS V34
+        806/359-1124   Amarillo         TX 9600               TYM V32
+        806/355-7088   Amarillo         TX 300-2400           TYM 224MNP
+        806/797-0479   Lubbock          TX 300-33,600         CPS V34
+        808/934-0406   Hilo             HI 300-33,600         CPS V34
+        808/935-5717   Hilo             HI 300-2400           TYM 224MNP
+        808/528-0430   Honolulu         HI 300-33,600         CPS V34
+        808/667-7591   Lahaina          HI 9600               TYM V32
+        808/246-2651   Lihue            HI 300-33,600         CPS V34
+        808/877-6041   Maui             HI 300-33,600         CPS V34
+        808/661-7688   Maui             HI 300-2400           TYM 224MNP
+        808/536-3886   Oahu             HI 300-9600           TEL V32
+        810/743-8350   Burton           MI 300-2400           TYM 224MNP
+        810/743-5396   Burton           MI 9600               TYM V32
+        810/238-8555   Flint            MI 300-33,600         CPS V34
+        810/468-1301   Mt. Clemens      MI 300-33,600         CPS V34
+        810/982-0301   Port Huron       MI 300-2400           TYM 224MNP
+        810/987-1560   Port Huron       MI 9600               TYM V32
+        810/982-8364   Port Huron       MI 300-2400           TEL 224MNP
+        810/774-1000   Roseville        MI 300-2400           TYM 224MNP
+        810/573-7300   Warren           MI 300-14,400         TEL V32
+        812/330-1424   Bloomington      IN 300-33,600         CPS V34
+        812/348-7000   Columbus         IN 300-33,600         CPS V34
+        812/426-7112   Evansville       IN 300-33,600         CPS V34
+        812/235-1800   Terre Haute      IN 300-33,600         CPS V34
+        813/229-3200   Tampa            FL 300-33,600         CPS V34
+        814/941-2852   Altoona          PA 300-2400           TYM 224MNP
+        814/941-8548   Altoona          PA 9600               TYM V32
+        814/949-0310   Altoona          PA 300-14,400         TEL V32
+        814/864-5184   Erie             PA 300-33,600         CPS V34
+        814/459-0307   Erie             PA 9600               TYM V32
+        814/539-5059   Johnstown        PA 300-2400           TYM 224MNP
+        814/535-3356   Johnstown        PA 300-14,400         TEL V32
+        814/443-1477   Somerset         PA 300-33,600         CPS V34
+        814/231-0252   State College    PA 300-33,600         CPS V34
+        815/748-2705   Dekalb           IL 300-33,600         CPS V34
+        815/232-7111   Freeport         IL 300-2400           TYM 224MNP
+        815/723-0167   Joliet           IL 300-33,600         CPS V34
+        815/939-0129   Kankakee         IL 300-33,600         CPS V34
+        815/877-8759   Loves Park       IL 9600               TYM V32
+        815/633-2080   Loves Park       IL 300-2400           TYM 224MNP
+        815/226-9871   Rockford         IL 300-33,600         CPS V34
+        816/221-3817   Kansas City      MO 300-56,000         CPS X2
+        816/232-1455   St. Joseph       MO 300-2400           TYM 224MNP
+        816/279-4797   St. Joseph       MO 300-2400           TEL 224MNP
+        817/685-2737   Ft. Worth        TX 300-33,600         CPS V34
+        818/789-9557   Beverly Hills    CA 1200-2400          TYM 224MNP
+        818/841-4795   Burbank          CA 300-2400           TYM 224MNP
+        818/558-1508   Burbank          CA 9600               TYM V32
+        818/789-9557   Canoga Park      CA 1200-2400          TYM 224MNP
+        818/507-0511   Glendale         CA 300-14,400         TEL V32
+        818/752-8045   N. Hollywood     CA 300-33,600         CPS V34
+        818/789-9557   San Fernando     CA 1200-2400          TYM 224MNP
+        818/789-9557   Sherman Oaks     CA 1200-2400          TYM 224MNP
+        818/995-0517   Sherman Oaks     CA 9600-14,400        TYM V32
+        818/988-9791   Van Nuys         CA 300-33,600         CPS V34
+        818/887-7420   Woodland Hills   CA 300-14,400         TEL V32
+        828/684-0773   Asheville        NC 300-33,600         CPS V34
+        828/326-9860   Hickory          NC 300-14,400         TEL V32
+        831/648-0139   Monterey         CA 300-33,600         CPS V34
+        831/754-1858   Salinas          CA 300-33,600         CPS V34
+        831/462-9666   Santa Cruz       CA 300-33,600         CPS V34
+        843/763-3423   Charleston       SC 300-33,600         CPS V34
+        843/664-0550   Florence         SC 300-2400           TYM 224MNP
+        843/669-0042   Florence         SC 9600-14,400        TEL V32
+        843/842-7007   Hilton Head      SC 300-33,600         CPS V34
+        843/448-4350   Myrtle Beach     SC 300-33,600         CPS V34
+        847/670-9522   Arlington Hghts  IL 300-14,400         TEL V32
+        847/267-9120   Deerfield        IL 300-33,600         CPS V34
+        847/888-8113   Elgin            IL 300-2400           TYM 224MNP
+        847/556-7373   Evanston         IL 300-56,000         CPS X2-USR
+        847/835-1143   Glencoe          IL 300-14,400         TEL V32
+        847/295-7075   Lake Bluff       IL 300-2400           TYM 224MNP
+        847/549-0309   Libertyville     IL 300-33,600         CPS V34
+        847/501-4536   Northfield       IL 300-2400           TYM 224MNP
+        847/991-7171   Palatine         IL 300-2400           TYM 224MNP
+        847/991-0303   Palatine         IL 9600               TYM V32
+        847/698-9800   Rosemont         IL 300-2400           TYM 224MNP
+        847/781-6962   Schaumburg       IL 300-33,600         CPS V34
+        850/243-1644   Ft.Walton Beach  FL 300-2400           TYM 224MNP
+        850/243-2921   Ft.Walton Beach  FL 9600               TYM V32
+        850/763-2907   Panama City      FL 300-33,600         CPS V34
+        850/433-1828   Pensacola        FL 300-33,600         CPS V34
+        850/474-9283   Pensacola        FL 9600               TYM V32
+        850/422-9604   Tallahassee      FL 300-33,600         CPS V34
+        850/897-3421   Valparaiso       FL 300-14,400         TEL V32
+        860/242-1986   Bloomfield       CT 1200-2400          TYM 224MNP
+        860/243-9446   Bloomfield       CT 9600-14,400        TYM V32
+        860/526-8600   Deep River       CT 300-33,600         CPS V34
+        860/727-8708   Hartford         CT 300-33,600         CPS V34
+        860/435-4020   Lakeville        CT 300-33,600         CPS V34
+        860/437-5100   New London       CT 300-33,600         CPS V34
+        860/763-3521   Somers           CT 300-2400           TYM 224MNP
+        860/684-8800   Stafford         CT 300-33,600         CPS V34
+        864/676-9228   Greenville       SC 300-33,600         CPS V34
+        864/585-0337   Spartanburg      SC 300-33,600         CPS V34
+        864/579-9087   Spartanburg      SC 9600               TYM V32
+        870/935-7957   Jonesboro        AR 300-2400           TYM 224MNP
+        870/535-2629   Pine Bluff       AR 300-2400           TYM 224MNP
+        870/535-2595   Pine Bluff       AR 9600               TYM V32
+        901/661-0904   Jackson          TN 300-2400           TYM 224MNP
+        901/661-0153   Jackson          TN 9600               TYM V32
+        901/454-6851   Memphis          TN 300-33,600         CPS V34
+        902/457-0669   Halifax          NS 300-33,600         CPS V34
+        903/677-1712   Athens           TX 300-2400           TEL 224MNP
+        903/753-0596   Longview         TX 300-33,600         CPS V34
+        903/868-0089   Sherman          TX 300-2400           TYM 224MNP
+        903/893-4995   Sherman          TX 300-2400           TEL 224MNP
+        903/832-1066   Texarkana        TX 300-33,600         CPS V34
+        903/792-4521   Texarkana        TX 300-2400           TYM 224MNP
+        903/509-0680   Tyler            TX 300-33,600         CPS V34
+        904/238-5354   Daytona Beach    FL 300-33,600         CPS V34
+        904/252-1609   Holly Hill       FL 9600-14,400        TEL V32
+        904/257-4770   Holly Hill       FL 300-2400           TEL 224MNP
+        904/730-0046   Jacksonville     FL 300-33,600         CPS V34
+        904/673-0034   Ormond Beach     FL 300-2400           TYM 224MNP
+        904/673-6237   Ormond Beach     FL 9600               TYM V32
+        905/529-4601   Hamilton         ON 300-33,600         CPS V34
+        906/228-3780   Marquette        MI 300-2400           TYM 224MNP
+        906/228-4622   Marquette        MI 300-14,400         TEL V32
+        907/562-3835   Anchorage        AK 300-33,600         CPS V34
+        907/458-8988   Fairbanks        AK 300-33,600         CPS V34
+        908/852-0303   Hackettstown     NJ 300-33,600         CPS V34
+        909/824-5571   Colton           CA 300-14,400         TEL V32
+        909/737-5510   Corona           CA 300-2400           TYM 224MNP
+        909/278-1211   Corona           CA 300-14,400         TEL V32
+        909/860-0057   Diamond Bar      CA 1200-2400          TYM 224MNP
+        909/860-2881   Diamond Bar      CA 9600-14,400        TYM V32
+        909/860-0057   Ontario          CA 1200-2400          TYM 224MNP
+        909/865-0553   Pomona           CA 300-33,600         CPS V34
+        909/358-0205   Riverside        CA 300-33,600         CPS V34
+        909/882-6646   San Bernardino   CA 300-33,600         CPS V34
+        909/985-1153   Upland           CA 300-2400           TYM 224MNP
+        909/946-7676   Upland           CA 9600               TYM V32
+        910/860-8600   Fayetteville     NC 300-33,600         CPS V34
+        910/423-0576   Fayetteville     NC 9600               TYM V32
+        910/323-4148   Fayetteville     NC 300-2400           TEL 224MNP
+        910/392-5543   Wilmington       NC 300-33,600         CPS V34
+        912/435-1540   Albany           GA 300-33,600         CPS V34
+        912/888-0154   Albany           GA 9600               TYM V32
+        912/265-0527   Brunswick        GA 300-33,600         CPS V34
+        912/741-2108   Macon            GA 300-2400           TEL 224MNP
+        912/353-8559   Savannah         GA 300-33,600         CPS V34
+        912/226-6822   Thomasville      GA 300-33,600         CPS V34
+        912/922-2179   Warner Robins    GA 300-33,600         CPS V34
+        913/651-8094   Leavenworth      KS 300-2400           TYM 224MNP
+        913/651-2543   Leavenworth      KS 9600               TYM V32
+        913/651-0015   Leavenworth      KS 300-14,400         TEL V32
+        913/384-5012   Mission          KS 300-2400           TYM 224MNP
+        913/384-0071   Mission          KS 9600               TYM V32
+        914/339-1463   Kingston         NY 300-2400           TYM 224MNP
+        914/339-0210   Kingston         NY 9600               TYM V32
+        914/343-4646   Middletown       NY 300-33,600         CPS V34
+        914/634-0388   New City         NY 300-2400           TYM 224MNP
+        914/485-1203   Poughkeepsie     NY 300-33,600         CPS V34
+        914/761-9780   White Plains     NY 300-33,600         CPS V34
+        914/561-9103   Windsor          NY 300-2400           TYM 224MNP
+        915/698-9650   Abilene          TX 300-33,600         CPS V34
+        915/771-9669   El Paso          TX 300-33,600         CPS V34
+        915/563-0009   Midland          TX 300-33,600         CPS V34
+        915/561-8108   Midland          TX 9600               TYM V32
+        915/561-8401   Odessa           TX 1200-2400          TYM 224MNP
+        915/942-6680   San Angelo       TX 300-33,600         CPS V34
+        915/658-4590   San Angelo       TX 300-2400           TYM 224MNP
+        915/653-3300   San Angelo       TX 9600               TYM V32
+        916/568-0241   Sacramento       CA 300-33,600         CPS V34
+        918/336-5283   Bartlesville     OK 300-33,600         CPS V34
+        918/621-1036   Tulsa            OK 300-33,600         CPS V34
+        919/929-0443   Chapel Hill      NC 300-33,600         CPS V34
+        919/309-7100   Durham           NC 300-33,600         CPS V34
+        919/751-3200   Goldsboro        NC 300-33,600         CPS V34
+        919/664-5848   Raleigh          NC 300-33,600         CPS V34
+        919/549-0542   Research TriPrk  NC 300-14,400         TEL V32
+        920/830-8352   Appleton         WI 300-33,600         CPS V34
+        920/733-4195   Appleton         WI 9600               TYM V32
+        920/498-8874   Green Bay        WI 300-33,600         CPS V34
+        920/432-0293   Green Bay        WI 9600               TYM V32
+        920/731-1560   Neenah           WI 9600-14,400        TEL V32
+        920/731-9687   Neenah           WI 300-2400           TEL 224MNP
+        920/235-7473   Oshkosh          WI 300-2400           TYM 224MNP
+        920/451-1832   Sheboygan        WI 300-33,600         CPS V34
+        925/754-8222   Antioch          CA 300-2400           TYM 224MNP
+        925/778-0982   Antioch          CA 9600               TYM V32
+        925/935-1507   Concord          CA 1200-2400          TYM 224
+        925/687-0216   Concord          CA 300-14,400         TEL V32
+        925/606-9460   Livermore        CA 300-33,600         CPS V34
+        925/935-1507   Pacheco          CA 1200-2400          TYM 224MNP
+        925/682-2055   Pleasant Hill    CA 300-33,600         CPS V34
+        925/462-2101   Pleasanton       CA 300-2400           TYM 224MNP
+        925/484-1025   Pleasanton       CA 9600               TYM V32
+        925/829-6705   San Ramon        CA 300-2400           TEL 224MNP
+        925/935-1507   Walnut Creek     CA 1200-2400          TYM 224MNP
+        925/935-9806   Walnut Creek     CA 9600-14,400        TYM V32
+        931/647-2859   Clarksville      TN 300-33,600         CPS V34
+        931/645-8877   Clarksville      TN 300-2400           TYM 224MNP
+        931/552-0032   Clarksville      TN 300-2400           TEL 224MNP
+        937/224-4576   Dayton           OH 300-33,600         CPS V34
+        937/642-3940   Marysville       OH 300-33,600         CPS V34
+        937/322-8855   Springfield      OH 300-2400           TYM 224MNP
+        937/325-8871   Springfield      OH 9600               TYM V32
+        937/324-1520   Springfield      OH 300-14,400         TEL V32
+        940/484-0037   Denton           TX 300-33,600         CPS V34
+        940/723-2386   Wichita Falls    TX 300-2400           TYM 224MNP
+        940/723-6248   Wichita Falls    TX 9600               TYM V32
+        940/322-3774   Wichita Falls    TX 300-14,400         TEL V32
+        941/334-0071   Cape Coral       FL 300-14,400         TEL V32
+        941/334-9270   Ft. Myers        FL 300-33,600         CPS V34
+        941/646-0239   Lakeland         FL 300-33,600         CPS V34
+        941/566-7015   Naples           FL 300-33,600         CPS V34
+        941/951-6755   Sarasota         FL 300-33,600         CPS V34
+        941/365-8089   Sarasota         FL 9600               TYM V32
+        941/291-4038   Winter Haven     FL 300-33,600         CPS V34
+        949/252-1131   Irvine           CA 300-33,600         CPS V34
+        949/261-0583   Irvine-ISDN      CA 57,600             CPS V120
+        949/752-1493   Newport Beach    CA 9600-14,400        TYM V32
+        949/852-8141   Newport Beach    CA 1200-2400          TYM 224MNP
+        949/458-0811   Saddle Brook     CA 300-2400           TEL 224MNP
+        949/240-9424   San Clemente     CA 300-2400           TYM 224MNP
+        949/489-0986   San Clemente     CA 9600               TYM V32
+        949/852-8141   Santa Ana        CA 1200-2400          TYM 224MNP
+        949/752-1493   Santa Ana        CA 9600-14,400        TYM V32
+        954/426-0228   Deerfield Beach  FL 300-33,600         CPS V34
+        954/489-0001   Ft. Lauderdale   FL 300-33,600         CPS V34
+        954/467-1870   Hollywood        FL 1200-2400          TYM 224MNP
+        954/779-3445   Hollywood        FL 9600-14,400        TYM V32
+        954/941-5545   Pompano Beach    FL 300-2400           TEL 224MNP
+        956/233-1241   Brownsville      TX 300-33,600         CPS V34
+        956/928-1222   Edinburg         TX 300-33,600         CPS V34
+        956/423-0051   Harlingen        TX 300-2400           TYM 224MNP
+        956/725-9163   Laredo           TX 300-33,600         CPS V34
+        956/618-0320   McAllen          TX 300-2400           TYM 224MNP
+        956/631-8967   McAllen          TX 300-14,400         TEL V32
+        970/920-4565   Aspen            CO 300-33,600         CPS V34
+        970/668-3384   Dillon           CO 300-33,600         CPS V34
+        970/259-3017   Durango          CO 300-33,600         CPS V34
+        970/229-0246   Ft. Collins      CO 300-33,600         CPS V34
+        970/221-5154   Ft. Collins      CO 9600               TYM V32
+        970/928-0507   Glenwood Spring  CO 300-33,600         CPS V34
+        970/241-5116   Grand Junction   CO 300-33,600         CPS V34
+        970/356-6538   Greeley          CO 300-33,600         CPS V34
+        970/667-7681   Loveland         CO 300-33,600         CPS V34
+        970/870-0501   Steamboat Spngs  CO 300-33,600         CPS V34
+        970/949-4614   Vail             CO 300-33,600         CPS V34
+        972/542-2641   McKinney         TX 300-2400           TYM 224MNP
+        973/276-8088   Caldwell         NJ 300-33,600         CPS V34
+        973/827-0636   Franklin         NJ 300-33,600         CPS V34
+        973/984-5113   Morristown       NJ 300-33,600         CPS V34
+        973/623-5666   Newark           NJ 300-33,600         CPS V34
+        973/777-2700   Passaic          NJ 300-14,400         TEL V32
+        973/742-0752   Paterson         NJ 1200-2400          TYM 224MNP
+        973/523-8622   Paterson         NJ 9600-14,400        TYM V32
+        973/701-0767   Summit           NJ 300-14,400         TEL V32
+        973/872-9576   Wayne            NJ 300-33,600         CPS V34
+        978/667-1765   Billerica        MA 300-33,600         CPS V34
+        978/371-0354   Concord          MA 300-33,600         CPS V34
+        978/630-1002   Gardner          MA 300-33,600         CPS V34
+        978/448-8616   Groton           MA 300-33,600         CPS V34
+        978/568-8019   Hudson           MA 300-33,600         CPS V34
+        978/725-0155   Lawrence         MA 300-33,600         CPS V34
+        978/537-6451   Leominster       MA 300-2400           TYM 224MNP
+        978/840-0342   Leominster       MA 9600               TYM V32
+        978/452-5112   Lowell           MA 300-2400           TYM 224MNP
+        978/458-0623   Lowell           MA 9600               TYM V32
+        978/459-2350   Lowell           MA 300-14,400         TEL V32
+        978/526-1506   Manchester       MA 300-2400           TYM 224MNP
+        978/526-1444   Manchester       MA 9600               TYM V32
+        978/897-4746   Maynard          MA 300-33,600         CPS V34
+        978/897-5559   Maynard          MA 9600               TYM V32
+        978/499-0062   Newburyport      MA 300-33,600         CPS V34
+        978/744-1559   Salem            MA 300-2400           TEL 224MNP
+        978/939-4459   Templeton        MA 9600               TYM V32
+        978/939-4849   Templeton        MA 300-2400           TYM 224MNP
+        907/592-2557   Adak             AK 300-9600           AKN V32uds
+        907/258-7222   Anchorage        AK 300-9600           AKN V32uds
+        907/852-2425   Barrow           AK 300-9600           AKN V32uds
+        907/543-2411   Bethel           AK 300-9600           AKN V32uds
+        907/768-2700   Cantwell         AK 300-9600           AKN V32uds
+        907/424-3744   Cordova          AK 300-9600           AKN V32uds
+        907/826-2948   Craig            AK 300-9600           AKN V32uds
+        907/659-2777   Dead Horse       AK 300-9600           AKN V32uds
+        907/895-5070   Delta Junction   AK 300-9600           AKN V32uds
+        907/842-2688   Dillingham       AK 300-9600           AKN V32uds
+        907/456-3282   Fairbanks        AK 300-9600           AKN V32uds
+        907/822-5231   Glennallen       AK 300-9600           AKN V32uds
+        907/766-2171   Haines           AK 300-9600           AKN V32uds
+        907/683-1350   Healy            AK 300-9600           AKN V32uds
+        907/235-5230   Homer            AK 300-9600           AKN V32uds
+        907/789-7009   Juneau           AK 300-9600           AKN V32uds
+        907/225-1871   Ketchikan        AK 300-9600           AKN V32uds
+        907/246-3049   King Salmon      AK 300-9600           AKN V32uds
+        907/486-4061   Kodiak           AK 300-9600           AKN V32uds
+        907/442-2602   Kotzebue         AK 300-9600           AKN V32uds
+        907/524-3256   McGrath          AK 300-9600           AKN V32uds
+        907/746-2121   Neklasson Lake   AK 300-9600           AKN V32uds
+        907/832-5214   Nenana           AK 300-9600           AKN V32uds
+        907/443-2256   Nome             AK 300-9600           AKN V32uds
+        907/778-2301   Northway         AK 300-9600           AKN V32uds
+        907/745-0200   Palmer           AK 300-9600           AKN V32uds
+        907/772-3878   Petersberg       AK 300-9600           AKN V32uds
+        907/224-3126   Seward           AK 300-9600           AKN V32uds
+        907/747-5887   Sitka            AK 300-9600           AKN V32uds
+        907/983-2170   Skagway          AK 300-9600           AKN V32uds
+        907/262-1990   Soldotna         AK 300-9600           AKN V32uds
+        907/546-2320   St. Paul         AK 300-9600           AKN V32uds
+        907/366-7167   Tanana           AK 300-9600           AKN V32uds
+        907/883-4747   Tok              AK 300-9600           AKN V32uds
+        907/581-1820   Unalaska         AK 300-9600           AKN V32uds
+        907/835-4987   Valdez           AK 300-9600           AKN V32uds
+        907/472-2467   Whittier         AK 300-9600           AKN V32uds
+        907/874-2394   Wrangle          AK 300-9600           AKN V32uds
+        907/784-3453   Yakutat          AK 300-9600           AKN V32uds
+        204/725-0593   Brandon          MB 300-9600           DPC MTRLA
+        204/638-3025   Dauphin          MB 300-9600           DPC MTRLA
+        204/687-7986   Flin Flon        MB 300-9600           DPC MTRLA
+        204/822-6824   Morden           MB 300-9600           DPC MTRLA
+        204/239-0355   Portage La Prai  MB 300-9600           DPC MTRLA
+        204/482-7050   Selkirk          MB 300-9600           DPC MTRLA
+        204/326-2972   Steinbach        MB 300-9600           DPC MTRLA
+        204/623-4543   The Pas          MB 300-9600           DPC MTRLA
+        204/677-2376   Thompson         MB 300-9600           DPC MTRLA
+        250/287-9583   Campbell River   BC 300-9600           DPC MTRLA
+        250/334-9702   Courtenay        BC 300-9600           DPC MTRLA
+        250/489-5371   Cranbrook        BC 300-9600           DPC MTRLA
+        250/782-8964   Dawson Creek     BC 300-9600           DPC MTRLA
+        250/748-9993   Duncan           BC 300-9600           DPC MTRLA
+        250/774-4096   Fort Nelson      BC 300-9600           DPC MTRLA
+        250/785-9483   Fort St. John    BC 300-9600           DPC MTRLA
+        250/374-7852   Kamloops         BC 300-9600           DPC MTRLA
+        250/868-9658   Kelowna          BC 300-9600           DPC MTRLA
+        250/753-5729   Nanaimo          BC 300-9600           DPC MTRLA
+        250/354-1246   Nelson           BC 300-9600           DPC MTRLA
+        250/954-3891   Parksville       BC 300-9600           DPC MTRLA
+        250/493-7596   Penticton        BC 300-9600           DPC MTRLA
+        250/724-7329   Port Alberni     BC 300-9600           DPC MTRLA
+        250/949-8976   Port Hardy       BC 300-9600           DPC MTRLA
+        250/564-9246   Prince George    BC 300-9600           DPC MTRLA
+        250/627-4346   Prince Rupert    BC 9600               DPC MTRLA
+        250/992-9084   Quesnel          BC 300-9600           DPC MTRLA
+        250/832-7825   Salmon Arms      BC 300-9600           DPC MTRLA
+        250/847-8859   Smithers         BC 300-9600           DPC MTRLA
+        250/638-8908   Terrace          BC 300-9600           DPC MTRLA
+        250/364-0928   Trail            BC 300-9600           DPC MTRLA
+        250/549-5187   Vernon           BC 300-9600           DPC MTRLA
+        250/392-3090   Williams Lake    BC 300-9600           DPC MTRLA
+        306/634-1916   Estevan          SK 300-9600           DPC MTRLA
+        306/752-4899   Melfort          SK 300-2400           DPC 224
+        306/692-1026   Moose Jaw        SK 300-9600           DPC MTRLA
+        306/445-5673   N. Battleford    SK 300-9600           DPC MTRLA
+        306/763-6441   Prince Albert    SK 300-9600           DPC MTRLA
+        306/773-2966   Swift Current    SK 300-9600           DPC MTRLA
+        306/842-0441   Weyburn          SK 300-9600           DPC MTRLA
+        306/786-7734   Yorkton          SK 300-9600           DPC MTRLA
+        403/234-7740   Airdrie          AB 300-1200           DPC 212
+        403/762-9475   Banff            AB 300-9600           DPC MTRLA
+        403/674-2575   Barrhead         AB 300-9600           DPC MTRLA
+        403/826-4726   Bonnyville       AB 300-9600           DPC MTRLA
+        403/362-0452   Brooks           AB 300-9600           DPC MTRLA
+        403/672-0003   Camrose          AB 300-9600           DPC MTRLA
+        403/542-6022   Drayton Valley   AB 300-9600           DPC MTRLA
+        403/823-5055   Drumheller       AB 300-9600           DPC MTRLA
+        403/743-4226   Fort McMurray    AB 300-9600           DPC MTRLA
+        403/532-4527   Grand Prairie    AB 300-9600           DPC MTRLA
+        403/594-0108   Grande Centre    AB 300-9600           DPC MTRLA
+        403/926-2341   High Level       AB 300-9600           DPC MTRLA
+        403/865-1477   Hinton           AB 300-9600           DPC MTRLA
+        403/421-0250   Leduc            AB 300-1200           DPC 212
+        403/320-6294   Lethbridge       AB 300-9600           DPC MTRLA
+        403/875-0121   Lloydminster     AB 300-9600           DPC MTRLA
+        403/526-8721   Medicine Hat     AB 300-9600           DPC MTRLA
+        403/624-2552   Peace River      AB 300-9600           DPC MTRLA
+        403/346-6660   Red Deer         AB 300-9600           DPC MTRLA
+        403/421-0268   Sherwood Park    AB 300-1200           DPC 212
+        403/421-0280   St. Albert       AB 300-1200           DPC 212
+        403/645-1831   St. Paul         AB 300-9600           DPC MTRLA
+        403/421-0236   Stony Plain      AB 300-1200           DPC 212
+        403/223-8299   Taber            AB 300-9600           DPC MTRLA
+        403/632-4002   Vegreville       AB 300-9600           DPC MTRLA
+        403/842-6700   Wainwright       AB 300-9600           DPC MTRLA
+        418/668-6911   Alma             QC 300-9600           DPC MTRLA
+        418/629-6451   Amqui            QC 300-9600           DPC MTRLA
+        418/296-8927   Baie-Comeau      QC 300-9600           DPC MTRLA
+        418/689-5581   Chandler         QC 300-9600           DPC MTRLA
+        418/748-8151   Chibougameau     QC 300-9600           DPC MTRLA
+        418/698-0097   Chicoutimi       QC 300-9600           DPC MTRLA
+        418/679-8499   Dolbeau          QC 300-9600           DPC MTRLA
+        418/285-3852   Donnaconna       QC 300-9600           DPC MTRLA
+        418/368-4251   Gaspe            QC 300-9600           DPC MTRLA
+        418/589-2911   Hauterive        QC 1200               DPC 212
+        418/698-0097   Jonqui/Chicouti  QC 300-9600           DPC MTRLA
+        418/665-7561   La Malbaie       QC 300-9600           DPC MTRLA
+        418/387-7635   Marie de Beauce  QC 300-9600           DPC MTRLA
+        418/562-7800   Matane           QC 300-9600           DPC MTRLA
+        418/248-3555   Montmagny        QC 300-9600           DPC MTRLA
+        418/752-6048   New Carlisle     QC 300-9600           DPC MTRLA
+        418/722-7519   Rimouski         QC 300-9600           DPC MTRLA
+        418/867-3566   Riviere du Loup  QC 300-9600           DPC MTRLA
+        418/275-1252   Roberval         QC 300-9600           DPC MTRLA
+        418/962-7517   Sept-Iles        QC 300-9600           DPC MTRLA
+        418/679-8499   St. Felicien     QC 300-9600           DPC MTRLA
+        418/227-3282   St. George Beau  QC 300-9600           DPC MTRLA
+        418/338-0183   Thetford Mines   QC 300-9600           DPC MTRLA
+        418/851-4259   Trois Pistoles   QC 300-9600           DPC MTRLA
+        450/699-0396   Chateauguay      QC 300-9600           DPC MTRLA
+        450/378-3916   Granby           QC 300-9600           DPC MTRLA
+        450/752-5360   Joliette         QC 300-9600           DPC MTRLA
+        450/562-2403   Lachute          QC 300-9600           DPC MTRLA
+        450/746-1799   Sorel            QC 300-9600           DPC MTRLA
+        450/358-2570   St. Jean         QC 300-9600           DPC MTRLA
+        450/565-4871   St. Jerome       QC 300-9600           DPC MTRLA
+        450/227-4532   St. Sauveur      QC 300-9600           DPC MTRLA
+        450/796-5178   St. Thomas       QC 300-9600           DPC MTRLA
+        506/547-0114   Bathurst         NB 300-9600           DPC MTRLA
+        506/753-3297   Campbellton      NB 300-9600           DPC MTRLA
+        506/727-6630   Caraquet         NB 300-9600           DPC MTRLA
+        506/684-1819   Dalhousie        NB 300-9600           DPC MTRLA
+        506/739-0889   Edmunston        NB 300-9600           DPC MTRLA
+        506/392-5995   Florenceville    NB 300-9600           DPC MTRLA
+        506/457-0491   Fredericton      NB 300-9600           DPC MTRLA
+        506/473-4337   Grand Falls      NB 300-9600           DPC MTRLA
+        506/375-4639   Hartland         NB 300-9600           DPC MTRLA
+        506/622-0120   Miramichi        NB 300-9600           DPC MTRLA
+        506/852-3041   Moncton          NB 300-9600           DPC MTRLA
+        506/622-0120   New Castle       NB 300-9600           DPC MTRLA
+        506/523-6408   Richibucto       NB 300-9600           DPC MTRLA
+        506/536-1879   Sackville        NB 300-9600           DPC MTRLA
+        506/633-0105   Saint John       NB 300-9600           DPC MTRLA
+        506/533-3180   Shediac          NB 300-9600           DPC MTRLA
+        506/336-1085   Shippagan        NB 300-9600           DPC MTRLA
+        506/529-3920   St. Andrew       NB 300-9600           DPC MTRLA
+        506/235-2079   St. Quentin      NB 300-9600           DPC MTRLA
+        506/465-0996   St. Stephen      NB 300-9600           DPC MTRLA
+        506/433-1625   Sussex           NB 300-9600           DPC MTRLA
+        506/395-9748   Tracadie         NB 300-9600           DPC MTRLA
+        506/325-2937   Woodstock        NB 300-9600           DPC MTRLA
+        514/774-9532   Ste Hyacinthe    QC 300-9600           DPC MTRLA
+        514/377-2907   Valleyfield      QC 300-9600           DPC MTRLA
+        519/758-5161   Brantford        ON 300-9600           DPC MTRLA
+        519/351-8948   Chatham          ON 300-9600           DPC MTRLA
+        519/482-5496   Clinton          ON 300-9600           DPC MTRLA
+        519/235-4709   Exeter           ON 300-9600           DPC MTRLA
+        519/524-1149   Goderich         ON 300-9600           DPC MTRLA
+        519/763-3690   Guelph           ON 300-9600           DPC MTRLA
+        519/364-3240   Hanover          ON 300-9600           DPC MTRLA
+        519/291-3300   Listowel         ON 300-9600           DPC MTRLA
+        519/432-3201   London           ON 300-9600           DPC MTRLA
+        519/973-3909   Maidstone        ON 300-9600           DPC MTRLA
+        519/942-4526   Orangeville      ON 300-9600           DPC MTRLA
+        519/371-8317   Owen Sound       ON 300-9600           DPC MTRLA
+        519/339-9134   Sarnia           ON 300-9600           DPC MTRLA
+        519/428-8018   Simcoe           ON 300-9600           DPC MTRLA
+        519/633-5593   St. Thomas       ON 300-9600           DPC MTRLA
+        519/272-2001   Stratford        ON 300-9600           DPC MTRLA
+        519/688-3117   Tillsonburg      ON 300-9600           DPC MTRLA
+        519/881-3070   Walkerton        ON 300-9600           DPC MTRLA
+        519/825-9391   Wheatley         ON 300-9600           DPC MTRLA
+        519/973-3909   Windsor          ON 300-9600           DPC MTRLA
+        519/421-2550   Woodstock        ON 300-9600           DPC MTRLA
+        604/850-8413   Abbottsford      BC 300-9600           DPC MTRLA
+        604/795-4589   Chilliwack       BC 300-9600           DPC MTRLA
+        604/485-9457   Powell River     BC 300-9600           DPC MTRLA
+        604/892-5173   Squamish         BC 300-9600           DPC MTRLA
+        604/932-4293   Whistler         BC 300-9600           DPC MTRLA
+        613/623-5748   Arnprior         ON 300-9600           DPC MTRLA
+        613/969-8888   Belleville       ON 300-9600           DPC MTRLA
+        613/498-1441   Brockville       ON 300-9600           DPC MTRLA
+        613/584-1557   Chalk River      ON 300-9600           DPC MTRLA
+        613/936-2215   Cornwall         ON 300-9600           DPC MTRLA
+        613/584-1557   Deep River       ON 9600               DPC MTRLA
+        613/632-1207   Hawkesbury       ON 300-9600           DPC MTRLA
+        613/547-0051   Kingston         ON 300-9600           DPC MTRLA
+        613/567-4537   Ottawa           ON 300-9600           DPC MTRLA
+        613/789-1483   Ottawa           ON 300-9600           DPC MTRLA
+        613/735-7026   Pembroke         ON 300-9600           DPC MTRLA
+        613/267-7019   Perth            ON 300-9600           DPC MTRLA
+        613/432-9098   Renfrew          ON 300-9600           DPC MTRLA
+        613/284-1702   Smiths Falls     ON 300-9600           DPC MTRLA
+        705/435-5104   Alliston         ON 300-9600           DPC MTRLA
+        705/737-9311   Barrie           ON 300-9600           DPC MTRLA
+        705/645-6789   Bracebridge      ON 300-9600           DPC MTRLA
+        705/444-5656   Collingwood      ON 300-9600           DPC MTRLA
+        705/789-4383   Huntsville       ON 300-9600           DPC MTRLA
+        705/324-3544   Lindsay          ON 300-9600           DPC MTRLA
+        705/527-5745   Midland          ON 300-9600           DPC MTRLA
+        705/497-9877   North Bay        ON 300-9600           DPC MTRLA
+        705/329-2862   Orillia          ON 300-9600           DPC MTRLA
+        705/746-9057   Parry Sound      ON 300-9600           DPC MTRLA
+        705/876-0884   Peterborough     ON 300-9600           DPC MTRLA
+        705/946-0213   Sault Ste Marie  ON 300-9600           DPC MTRLA
+        705/671-1127   Sudbury          ON 300-9600           DPC MTRLA
+        705/268-9540   Timmins          ON 300-9600           DPC MTRLA
+        709/463-2483   Arnolds Cove     NF 300-9600           DPC MTRLA
+        709/786-0946   Bay Roberts      NF 300-9600           DPC MTRLA
+        709/596-0576   Carbonear        NF 300-9600           DPC MTRLA
+        709/466-1457   Clarenville      NF 300-9600           DPC MTRLA
+        709/634-0384   Cornerbrook      NF 300-9600           DPC MTRLA
+        709/635-4407   Deer Lake        NF 300-9600           DPC MTRLA
+        709/256-8216   Gander           NF 300-9600           DPC MTRLA
+        709/489-4656   Grand Falls      NF 300-9600           DPC MTRLA
+        709/896-3381   Happy Valley     NF 300-9600           DPC MTRLA
+        709/944-2602   Labrador         NF 300-9600           DPC MTRLA
+        709/535-0475   Lewisporte       NF 300-9600           DPC MTRLA
+        709/279-1310   Marystown-Burin  NF 300-9600           DPC MTRLA
+        709/695-9771   Port Aux Basque  NF 300-9600           DPC MTRLA
+        709/673-2782   Springdale       NF 300-9600           DPC MTRLA
+        709/454-2634   St. Anthony      NF 300-9600           DPC MTRLA
+        709/739-0357   St. John's       NF 300-9600           DPC MTRLA
+        709/643-2035   Stephenville     NF 300-9600           DPC MTRLA
+        807/223-7172   Dryden           ON 300-2400           DPC 224
+        807/467-3480   Kenora           ON 300-9600           DPC MTRLA
+        807/623-5762   Thunder Bay      ON 300-9600           DPC MTRLA
+        819/732-0503   Amos             QC 300-9600           DPC MTRLA
+        819/357-9436   Arthabaska       QC 300-9600           DPC MTRLA
+        819/562-2725   Deauville        QC 300-9600           DPC MTRLA
+        819/475-0080   Drummondville    QC 300-9600           DPC MTRLA
+        819/298-4306   Gentilly         QC 300-9600           DPC MTRLA
+        819/275-2723   L'Annonciation   QC 300-9600           DPC MTRLA
+        819/333-1099   La Sarre         QC 300-9600           DPC MTRLA
+        819/583-5193   Lac Drolet       QC 300-9600           DPC MTRLA
+        819/583-5193   Lac Megantic     QC 300-9600           DPC MTRLA
+        819/523-5651   Latuque          QC 300-9600           DPC MTRLA
+        819/228-8417   Louiseville      QC 300-9600           DPC MTRLA
+        819/449-3544   Maniwaki         QC 300-9600           DPC MTRLA
+        819/739-2300   Matagami         QC 300-9600           DPC MTRLA
+        819/623-6986   Mont Laurier     QC 300-9600           DPC MTRLA
+        819/797-2915   Rouyn/Noranda    QC 300-9600           DPC MTRLA
+        819/537-9330   Shawinigan       QC 300-9600           DPC MTRLA
+        819/647-6301   Shawville        ON 300-9600           DPC MTRLA
+        819/562-2725   Sherbrooke       QC 300-9600           DPC MTRLA
+        819/326-9414   Ste Agathe       QC 300-9600           DPC MTRLA
+        819/425-9841   Ste Jovite       QC 300-9600           DPC MTRLA
+        819/693-7946   Trois Rivieres   QC 300-9600           DPC MTRLA
+        819/874-1156   Val D'Or         QC 300-9600           DPC MTRLA
+        819/752-3079   Victoriaville    QC 300-9600           DPC MTRLA
+        867/983-8870   Cambridge Bay    NT 300-2400           DPC 224
+        867/695-8870   Fort Simpson     NT 300-2400           DPC 224
+        867/872-8870   Fort Smith       NT 300-2400           DPC 224
+        867/874-8870   Hay River        NT 300-2400           DPC 224
+        867/777-8870   Inuvik           NT 300-2400           DPC 224
+        867/979-3282   Iqaluit          NT 300-9600           DPC MTRLA
+        867/587-8870   Norman Wells     NT 300-2400           DPC 224
+        867/668-9600   Whitehorse       YT 300-9600           DPC MTRLA
+        867/920-9600   Yellowknife      NT 300-9600           DPC MTRLA
+        902/667-4524   Amherst          NS 300-9600           DPC MTRLA
+        902/863-1977   Antigonish       NS 300-9600           DPC MTRLA
+        902/437-6548   Borden           PE 300-9600           DPC MTRLA
+        902/543-5699   Bridgewater      NS 300-9600           DPC MTRLA
+        902/628-8701   Charlottetown    PE 300-9600           DPC MTRLA
+        902/679-1943   Kentville        NS 300-9600           DPC MTRLA
+        902/765-3003   Kingston         NS 300-9600           DPC MTRLA
+        902/755-9170   New Glasgow      NS 300-9600           DPC MTRLA
+        902/625-5430   Port Hawksbury   NS 300-9600           DPC MTRLA
+        902/888-2247   Summerside       PE 300-9600           DPC MTRLA
+        902/567-1460   Sydney           NS 300-9600           DPC MTRLA
+        902/895-9348   Truro            NS 300-9600           DPC MTRLA
+        902/257-2108   Wallace          NS 300-9600           DPC MTRLA
+        902/798-0614   Windsor          NS 300-9600           DPC MTRLA
+        902/742-3003   Yarmouth         NS 300-9600           DPC MTRLA
+        905/428-3207   Ajax-Pickering   ON 300-9600           DPC MTRLA
+        905/727-7172   Aurora           ON 300-9600           DPC MTRLA
+        905/453-4844   Bolton           ON 300-9600           DPC MTRLA
+        905/453-4844   Brampton         ON 300-9600           DPC MTRLA
+        905/854-1952   Campbellville    ON 300-9600           DPC MTRLA
+        905/372-8378   Cobourg          ON 300-9600           DPC MTRLA
+        905/871-4748   Fort Erie        ON 300-9600           DPC MTRLA
+        905/875-3327   Milton           ON 300-9600           DPC MTRLA
+        905/836-1706   Newmarket        ON 300-9600           DPC MTRLA
+        905/357-4872   Niagara Falls    ON 300-9600           DPC MTRLA
+        905/404-2095   Oshawa           ON 300-9600           DPC MTRLA
+        905/688-4824   St. Catharines   ON 300-9600           DPC MTRLA
+        905/852-4502   Uxbridge         ON 300-9600           DPC MTRLA
+        905/788-2001   Welland          ON 300-9600           DPC MTRLA
+        905/430-9880   Whitby           ON 300-9600           DPC MTRLA
+
+
+
+
+COUNTRY  AREA
+CITY                  CODE   CODE     PHONE NUMBER NETWORK BAUD RATE
+------------------- ------- ------    ------------ ------- -------------------
+<<Angola
+Luanda                  244      2          397445     EQT 1200-9600
+<<Argentina
+Buenos Aires             54      1         3451818     EQT 300-28,800
+Cordoba                  54     51          246654     EQT 300-9600
+La Plata                 54     21          240856     EQT 300-9600
+Mar Del Plata            54     23          959579     EQT 300-9600
+Mendoza                  54     61          297411     EQT 300-9600
+Rosario                  54     41          498853     EQT 300-9600
+<<Armenia
+Yerevan                 374      2           06146     EQT 300-9600
+<<Aruba
+Aruba                   297      8           31980     EQT 1200-9600
+<<Australia
+Adelaide                 61     08       8338 2499     CPN 300-28,800
+Brisbane                 61     07       3210 0180     CPN 300-33,600
+Canberra                 61     02       6249 8496     CPN 300-28,800
+Darwin                   61     08       8932 6610     CPN 300-33,600
+Gold Coast               61     07       5574 1580     CPN 300-33,600
+Hobart                   61     03       6234-4504     CPN 300-33,600
+Melbourne                61     03       9501 0288     CPN 300-33,600
+Newcastle                61     02       4965 4412     CPN 300-33,600
+Perth                    61     08       9321 5233     CPN 300-33,600
+Sydney (V90/ISDN)        61     02       9465 9600     CPN 300-33,600
+<<Austria
+Bludenz                  43  05552           33882     GBF 300-28,800
+Graz                     43   0316          773950     GBF 300-28,800
+Innsbruck                43   0512          571540     GBF 300-28,800
+Linz                     43   0732          653199     GBF 300-28,800
+Salzburg                 43   0662            4678     CPS 300-33,600
+Salzburg                     07189           15161     CPS 300-33,600
+Salzburg-ISDN            43   0662            4676     CPS 64000
+Salzburg-ISDN                07189           15160     CPS 64000
+Vienna                   43      1         5056178     CPS 1200-33,600
+Vienna                       07189           15161     CPS 300-33,600
+Vienna-ISDN              43      1           51608     CPS 64000
+Vienna-ISDN                  07189           15160     CPS 64000
+Villach                  43  04242           25580     GBF 300-28,800
+<<Azerbaijan
+Baku                    994     12          934546     EQT 300-9600
+<<Bangldsh
+Dhaka                   880      2         9567723     EQT 9600
+<<Belarus
+Minsk                   375    172          294416     EQT 300-9600
+<<Belgium
+Antwerp                  32     03       206 20 11     CPS 300-33,600
+Brussels (V90/ISDN)      32     02       726 88 30     CPS 1200-33,600
+Charleroi                32    071        32 25 05     GBF 300-28,800
+Gent                     32     09       221 53 69     GBF 300-28,800
+Kortrijk                 32     05       625 60 48     GBF 300-28,800
+Liege                    32     04       230 37 11     CPS 300-33,600
+<<Bolivia
+La Paz                  591               2-316339     EQT 1200-9600
+La Paz (Within Only)    591                  30030     INW 300-2400
+La Paz (Within/Outside  591               2-315876     INW 28,800
+Santa Cruz              591               3-322422     EQT 300-9600
+<<Brazil
+Belo Horizonte           55     31         2717036     EQT 300-9600
+Brasilia                 55     61         3210874     EQT 300-9600
+Porto Alegre             55     51         2124999     EQT 300-9600
+Rio de Janeiro           55     21         2965323     EQT 300-28,800
+Sao Paulo                55     11        55852411     EQT 300-28,800
+Sao Paulo                55     11         1081212     INW 300-2400
+Sao Paulo                55     11        38244900     INW 9600-28,800
+<<Burk.Faso
+Ouagadougou             226                 312434     EQT 9600
+<<Cameroon
+Douala                  237                 424291     EQT 1200-9600
+<<Cape V.Isl.
+Praia                   238                 612023     EQT 300-28,800
+<<Chile
+Concepcion               56     41          239514     EQT 300-9600
+Iquique                  56     57          423619     EQT 300-9600
+Punta Arenas             56     61          229400     EQT 300-9600
+Santiago                 56     02         6973081     EQT 1200-28,800
+Santiago                 56     02         3610099     INW 300-28,800
+<<Colombia
+Bogota                   57     01        622-4111     EQT 300-28,800
+Bogota                   57     01        410-8953     INW 300-2400
+Bogota                   57     01        410-3986     INW 300-2400
+Bogota                   57     01        410-3987     INW 300-2400
+Bogota                   57     01        410-8492     INW 300-2400
+Bogota                   57     01        410-3988     INW 300-28,800
+Bogota                   57     01        317-6550     VNZ 300-33,600
+Bogota                   57     01        347-0600     VNZ 300-33,600
+Cali                     57      2        660-3900     VNZ 300-33,600
+Medellin                 57     04        513-9393     EQT 300-28,800
+<<Costa Rica
+San Jose                506                2870800     EQT 300-9600
+<<Cote d'lv.
+Cote d'lvoire           225                 328855     EQT 300-9600
+<<Croatia
+Dubrovnik               385               20413710     EQT 300-9600
+Rieka                   385               51227664     EQT 300-9600
+Split                   385               21355410     EQT 300-9600
+Zagreb                  385               16117055     EQT 1200-28,800
+<<Czech Rp.
+Prague                  420      2        24815281     EQT 1200-28,800
+Ruzyne Prague Airport   420      2        20113739     EQT 300-9600
+<<Denmark
+Copenhagen               45               36445464     CPS 1200-33,600
+<<Domin.Rp.
+Santo Domingo                  809         5339181     EQT 1200-9600
+<<Ecuador
+Guayaquil               593      4          511000     EQT 300-28,800
+Quito                   593      2          505000     EQT 1200-28,800
+<<Egypt
+Alexandria               20     03         4843175     EQT 300-9600
+Cairo                    20     02         4560100     EQT 1200-9600
+Cairo                    20     02         3311833     INE 28,800
+Hurghada                 20     65          445044     EQT 300-9600
+Sharm El Sheikh          20     62          601636     EQT 300-9600
+<<England
+National Local Call      44   0845        080 1000     CPS 300-33,600
+National Local ISDN      44   0845        080 1100     CPS 64000
+UK Local Call X2         44   0845        080 2000     CPS
+<<Estonia
+Tallinn                 372     06          410730     EQT 300-9600
+<<Finland
+Helsinki                358      9          615235     CPS 300-33,600
+Nationwide              358                  92919     INE 300-2400
+Nationwide              358                  92917     INE 1200-2400
+Nationwide              358               02029271     INE 28,800
+<<France
+Monaco                   33             0492150203     FTT 300-33,600
+Monaco-RNIS              33             0492150203     FTT 64000
+National                 33             0836061319     FTT 300-33,600
+National-RNIS            33             0836061319     FTT 64000
+Paris (V90/RNIS)         33             0141880840     CPS 300-33,600
+Paris (V90/RNIS)         33             0141020304     CPS 300-33,600
+<<Fr. Guiana
+Cayenne                  59      4          358588     EQT 300-9600
+<<Germany
+AAachen                  49   0241         4740624     UUN 300-33,600
+Aalen                    49  07365          961724     UUN 300-33,600
+Augsburg                 49   0821         5096824     UUN 300-33,600
+Bamberg                  49   0951         9860124     UUN 300-33,600
+Berlin                   49    030          691000     CPS 1200-33,600
+Berlin-ISDN              49    030          690820     CPS 64000
+Bielefeld                49   0521         9141524     UUN 300-33,600
+Bonn                     49   0228         9838224     UUN 300-33,600
+Braunschweig             49   0531         2207624     UUN 300-33,600
+Bremen                   49   0421         2024524     UUN 300-33,600
+Chemnitz                 49  03723          694824     UUN 300-33,600
+Cologne                  49   0221         2406202     CPS 1200-33,600
+Cologne-ISDN             49   0221          924350     CPS 64000
+Darmstadt                49  06151         3895624     UUN 300-33,600
+Dortmund                 49   0231         4461032     CPS 1200-33,600
+Dortmund-ISDN            49   0231           44950     CPS 64000
+Dresden                  49   0351         8800000     CPS 300-33,600
+Dresden-ISDN             49   0351           88270     CPS 64000
+Duesseldorf (V90/ISDN)   49   0211         4792424     CPS 1200-33,600
+Duisburg                 49   0203         9366524     UUN 300-33,600
+Erfurt                   49   0361         4427424     UUN 300-33,600
+Essen                    49   0201          760424     UUN 300-33,600
+Frankfurt (V90/ISDN)     49    069        73998611     CPS 1200-33,600
+Freiburg                 49   0761         2074724     UUN 300-33,600
+Fulda                    49   0661         9694624     UUN 300-33,600
+Giessen                  49  06033          880424     UUN 300-33,600
+Goettingen               49   0551         9991824     UUN 300-33,600
+Halle                    49   0345         2118924     UUN 300-33,600
+Hamburg                  49    040         6913666     CPS 1200-33,600
+Hamburg-ISDN             49    040          611410     CPS 64000
+Hamm                     49  02381         9194924     UUN 300-33,600
+Hannover (V90/ISDN)      49   0511         7242909     CPS 1200-33,600
+Herten                   49  02366          185024     UUN 300-33,600
+Ingolstadt               49   0841         9748724     UUN 300-33,600
+Jena                     49  03641          291624     UUN 300-33,600
+Kaiserslautern           49  06301          713024     UUN 300-33,600
+Karlsruhe                49   0721          859818     CPS 300-33,600
+Karlsruhe-ISDN           49   0721           98010     CPS 64000
+Kassel                   49   0561         3181924     UUN 300-33,600
+Kiel                     49   0431         3192924     UUN 300-33,600
+Koeln                    49   0221         2406202     CPS 1200-33,600
+Koeln-ISDN               49   0221          924350     CPS 64000
+Kuenzelsau               49  07940           93624     UUN 300-33,600
+Leipzig                  49   0341         1416624     UUN 300-33,600
+Luebeck                  49   0451         8727024     UUN 300-33,600
+Magdeburg                49  03928          484624     UUN 300-33,600
+Mannheim                 49   0621         1569000     CPS 1200-33,600
+Mannheim-ISDN            49   0621           16840     CPS 64000
+Minden                   49   0571         9462724     UUN 300-33,600
+Moenchen-Gladbach        49  02161         4089524     UUN 300-33,600
+Muenster                 49   0251         6096124     UUN 300-33,600
+Munich (V90/ISDN)        49    089        66559393     CPS 1200-33,600
+Nuremberg                49   0911         5191500     CPS 1200-33,600
+Nuremberg-ISDN           49   0911           95120     CPS 64000
+Offenburg                49   0781         9696724     UUN 300-33,600
+Paderborn                49  05251         6909124     UUN 300-33,600
+Pforzheim                49  07231          956724     UUN 300-33,600
+Ravensburg               49   0751         5618724     UUN 300-33,600
+Regensburg               49   0941         5857224     UUN 300-33,600
+Rostock                  49   0381         8018324     UUN 300-33,600
+Saarbruecken             49   0681         9928324     UUN 300-33,600
+Schwerin                 49   0385         6478024     UUN 300-33,600
+Siegen                   49   0271          880424     UUN 300-33,600
+Stuttgart (V90/ISDN)     49   0711         2261699     CPS 1200-33,600
+Trier                    49   0651         1467324     UUN 300-33,600
+Tuebingen                49  07071          750424     UUN 300-33,600
+Ulm                      49   0731         9621324     UUN 300-33,600
+Unna                     49  02304          947424     UUN 300-33,600
+Villingen                49  07721          847724     UUN 300-33,600
+Wiesbaden                49   0611         9732324     UUN 300-33,600
+Wuerzburg                49   0931         6000124     UUN 300-33,600
+Wuppertal                49   0202         2803924     UUN 300-33,600
+<<Ghana
+Accra                   233     21          233643     EQT 300-9600
+<<Gibraltar
+Gibraltar               350                  51893     EQT 300-9600
+<<Gr.Britain
+National Local Call      44   0845        080 1000     CPS 300-33,600
+National Local ISDN      44   0845        080 1100     CPS 64000
+UK Local Call X2         44   0845        080 2000     CPS
+<<Greece
+Athens                   30      1         9647707     EQT 1200-28,800
+Athens                   30      1         3302499     INE 300-28,800
+Corfu                    30    661           36445     EQT 300-9600
+Heraklion                30     81          324495     EQT 1200-28,800
+Ioannina                 30    651           66801     EQT 300-9600
+Kavala                   30     51          227545     EQT 300-9600
+Patras                   30     61          270074     EQT 300-28,800
+Rhodes                   30    241           39875     EQT 300-9600
+Thessaloniki             30     31          242043     EQT 1200-28,800
+<<Guadelp.
+Point a Pitre           590                 915834     EQT 300-9600
+<<Guam
+Guam                      1    671        477-6871     EQT 1200-28,800
+<<Guatemala
+Guatemala City          502      2          300931     EQT 300-9600
+<<Guinea
+Conakry                 224                 415546     EQT 300-9600
+<<Haiti
+Port-au-Prince          509                 237489     EQT 300-9600
+<<Hong Kong
+Hong Kong (V90/ISDN)    852              3002-3333     CPS 300-33,600
+<<Hungary
+Budapest                 36      1        291 9999     CPS 300-33,600
+<<Iceland
+Rejkjavik               354                5511666     EQT 1200-9600
+<<Indonesia
+Denpasar Bali            62    361          289652     EQT 300-9600
+Jakarta                  62     21        386-4550     EQT 300-28,800
+Jakarta                  62     21        522-9252     INW 300-2400
+Jakarta                  62     21        526-0800     INW 9600-14,400
+Jakarta Airport          62     21        550-2925     EQT 300-9600
+Surabaya                 62     31        545-5952     EQT 300-9600
+<<Ireland
+Cork                    353     21         278-273     EQT 300-9600
+Dublin                  353     01        406-0100     CPS 300-33,600
+Nationwide              353              1511-0300     EIR 300
+Nationwide              353              1511-1200     EIR 1200
+Nationwide              353              1511-2400     EIR 2400
+Nationwide              353              1511-1920     EIR 9600
+Shannon                 353     61         474-503     EQT 300-9600
+<<Israel
+Haifa                   972      4         8629160     TRN 9600-28,800
+Jerusalem               972      2         6738917     TRN 9600-28,800
+Raanana                 972      9         7712034     TRN 9600-28,800
+Tel Aviv                972      3         6393332     TRN 9600-14,400
+Tel Aviv                972      3         6393308     TRN 9600-33,600
+<<Italy
+Agrigento                39   0922          604199     SEV 2400-9600
+Ancona                   39    071         2804597     EQT 300-9600
+Ancona                   39    071         2900685     SEV 2400-14,400
+Arezzo                   39   0575          907903     SEV 2400-14,400
+Bari                     39    080         5316139     EQT 300-9600
+Bari                     39    080         5743342     SEV 2400-14,400
+Bergamo                  39    035          231786     EQT 300-9600
+Bergamo                  39    035         4120090     SEV 2400-14,400
+Bologna                  39    051          735665     SEV 2400-14,400
+Bologna                  39    051          285811     SEV 2400-14,400
+Bolzano                  39   0471          981783     EQT 300-9600
+Brescia                  39     30         2420587     EQT 300-9600
+Brescia                  39    030         2689901     SEV 2400-14,400
+Cagliari                 39    070          655163     SEV 2400-14,400
+Catania                  39    095          532557     EQT 300-9600
+Catania                  39    095          243365     SEV 2400-14,400
+Cesena                   39   0547          610796     SEV 2400-14,400
+Cosenza                  39   0984          466487     SEV 2400-14,400
+Faenza                   39   0546          680267     SEV 2400-14,400
+Firenze                  39    055         4364942     SEV 2400-14,400
+Florence                 39    055         5015540     EQT 300-28,800
+Florence                 39    055         5000480     SEV 2400-9600
+Forli                    39   0543          773011     SEV 2400-14,400
+Genoa                    39    010          588162     EQT 300-28,800
+Genova                   39    010         3762904     SEV 2400-14,400
+Imola                    39   0542           30119     SEV 2400-14,400
+Ivrea                    39   0125          523741     SEV 2400
+Ivrea                    39   0125          644040     SEV 2400-9600
+Mantova                  39   0376          276301     SEV 2400-14,400
+Messina                  39    090         2930007     SEV 2400-14,400
+Milan                    39     02        22479532     CPS 1200-33,600
+Milano                   39     02           41313     SEV 2400-14,400
+Modena                   39    059          881911     SEV 2400-14,400
+Naples                   39    081         5512011     EQT 300-28,800
+Naples                   39    081         7644326     SEV 2400-9600
+Napoli                   39    081         2258281     SEV 2400-14,400
+Olbia                    39   0789           67613     EQT 300-9600
+Padova                   39    049         7801086     SEV 2400-14,400
+Padua                    39    049         8076801     EQT 300-28,800
+Palermo                  39    091         6574525     SEV 2400-14,400
+Parma                    39   0521          238460     EQT 300-9600
+Parma                    39   0521          909511     SEV 2400-14,400
+Perugia                  39    075         5272840     SEV 2400-14,400
+Pesaro                   39   0721           21648     SEV 2400-14,400
+Pescara                  39    085         4324102     SEV 2400-14,400
+Piacenza                 39   0523          393511     SEV 2400-14,400
+R. Emilia                39   0522          586193     SEV 2400-9600
+Ravenna                  39   0544          297211     SEV 2400-14,400
+Reggio E.                39   0522          495112     SEV 2400-14,400
+Rimini                   39   0541           53031     EQT 300-9600
+Rimini                   39   0541          364031     SEV 2400-14,400
+Roma                     39     06        54224920     SEV 2400-14,400
+Rome                     39     06        51957347     CPS 1200-33,600
+Siena                    39   0577          589902     SEV 2400-14,400
+Siracusa                 39   0931          441892     SEV 2400-9600
+Torino                   39    011         7427004     SEV 2400-14,400
+Trapani                  39   0923          553222     SEV 2400-9600
+Trento                   39   0461          363150     SEV 2400-14,400
+Turin                    39    011          533554     EQT 300-28,800
+Udine                    39   0432          295260     EQT 300-9600
+Udine                    39   0432          608015     SEV 2400-14,400
+Venezia                  39    041         2580140     SEV 2400-14,400
+Venice                   39    041         5340331     EQT 300-28,800
+Verona                   39    045         8002387     EQT 300-28,800
+Verona                   39    045         8205745     SEV 2400-14,400
+Vicenza                  39   0444          327935     SEV 2400-14,400
+<<Ivory Cst.
+Abidjan                 225                 328855     EQT 1200-9600
+<<Japan
+Akita                    81   0188         37-7211     FEN 9600-14,400
+Aomori                   81   0177         29-1505     FEN 9600-14,400
+Atsugi                   81   0462         27-0102     FEN 28,800
+Chiba                    81    043        229-3350     FEN 9600-14,400
+Chiba                    81    043        299-3821     FEN 28,800
+Chofu                    81   0424         41-6551     FEN 9600-14,400
+Chofumitaka              81   0422         76-5500     FEN 9600-14,400
+Chofumitaka              81   0422         72-2100     FEN 28,800
+Fujisawa                 81   0466         24-0150     FEN 9600-14,400
+Fujisawa                 81   0466         24-4221     FEN 28,800
+Fukuchiyama              81   0773         24-6070     FEN 9600-14,400
+Fukui                    81   0776         67-5921     FEN 9600-14,400
+Fukuoka                  81    092        852-2040     FEN 9600
+Fukuoka                  81    092        852-6200     FEN 9600-14,400
+Fukuoka                  81    092        852-6100     FEN 28,800
+Fukushima                81   0245         75-3001     FEN 28,800
+Funabashi                81   0474         35-8041     FEN 9600-14,400
+Gihu                     81    058        253-8419     FEN 9600-14,400
+Gihu                     81    058        255-0036     FEN 9600
+Hachinohe                81   0178         45-0078     FEN 9600-14,400
+Hachioji                 81   0426         45-4441     FEN 9600-14,400
+Hachioji                 81   0426         45-4700     FEN 28,800
+Hakodate                 81   0138         32-8380     FEN 9600-14,400
+Hakodate                 81   0138         56-8671     FEN 28,800
+Hamamatsu                81    053        458-4388     FEN 9600-14,400
+Hamamatsu                81    053        451-3121     FEN 28,800
+Higashi Hiroshi          81   0824         21-2600     FEN 9600-14,400
+Hikone                   81   0749         27-4003     FEN 28,800
+Himeji                   81   0792         88-7740     FEN 9600-14,400
+Himeji                   81   0792         83-0219     FEN 28,800
+Hirakata                 81   0720         45-1911     FEN 9600-14,400
+Hiratsuka                81   0463         24-4822     FEN 9600-14,400
+Hiratsuka                81   0463         24-8080     FEN 28,800
+Hirosaki                 81   0172         38-7110     FEN 28,800
+Hiroshima                81    082        502-0284     FEN 9600
+Hiroshima                81    082        221-0991     FEN 9600-14,400
+Hiroshima                81    082        228-5153     FEN 28,800
+Ibaraki                  81   0726         24-9862     FEN 9600-14,400
+Ibaraki                  81   0726         24-8540     FEN 28,800
+Ikeda                    81   0727         30-5500     FEN 9600-14,400
+Ikeda                    81   0727         27-9570     FEN 28,800
+Inagi                    81   0423         78-9642     FEN 9600-14,400
+Inagi                    81   0423         79-1211     FEN 28,800
+Isesaki                  81   0270         21-0136     FEN 9600-14,400
+Iwaki                    81   0246         36-1422     FEN 9600-14,400
+Izumisano                81   0724         64-0353     FEN 9600-14,400
+Kagoshima                81    099        224-8420     FEN 9600-14,400
+Kakogawa                 81   0794         35-3400     FEN 9600-14,400
+Kanazawa                 81   0762         62-5154     FEN 9600-14,400
+Kanazawa                 81   0762         65-4300     FEN 28,800
+Kanazawa                 81   0762         33-8456     FEN 9600
+Kariya                   81   0566         28-6181     FEN 9600-14,400
+Kashihara                81  07442          9-6001     FEN 9600-14,400
+Kashihara                81  07442          4-9158     FEN 28,800
+Kashiwa                  81   0471         40-1470     FEN 9600-14,400
+Kasugai                  81   0568         52-3111     FEN 9600-14,400
+Kawagoe                  81   0492         28-1690     FEN 28,800
+Kawaguchi                81    048        470-1400     FEN 9600-14,400
+Kawasaki                 81    044        740-1069     FEN 9600
+Kawasaki                 81    044        798-7000     FEN 9600-14,400
+Kawasaki                 81    044        798-6500     FEN 28,800
+Kimitsu                  81   0439         55-2181     FEN 9600-14,400
+Kitakyusyu               81    093        541-7850     FEN 9600-14,400
+Kobe/Akashi              81    078        936-9890     FEN 9600-14,400
+Kobe/Akashi              81    078        936-4042     FEN 28,800
+Kofu                     81   0552         35-9300     FEN 9600-14,400
+Kofu                     81   0552         26-9071     FEN 28,800
+Koriyama                 81   0249         33-6662     FEN 9600-14,400
+Koriyama                 81   0249         31-1802     FEN 28,800
+Koshigaya                81   0489         66-9020     FEN 9600-14,400
+Kouchi                   81   0888         71-6611     FEN 9600-14,400
+Kumagaya                 81   0485         26-5260     FEN 9600-14,400
+Kumamoto                 81    096        289-2261     FEN 9600-14,400
+Kumamoto                 81    096        289-2091     FEN 28,800
+Kurashiki                81    086        462-9151     FEN 9600-14,400
+Kure                     81   0823         26-8710     FEN 9600-14,400
+Kure                     81   0823         25-2203     FEN 28,800
+Kushiro                  81   0154         25-3151     FEN 9600-14,400
+Kushiro                  81   0154         22-8151     FEN 28,800
+Kyoto                    81    075        213-5720     FEN 9600-14,400
+Kyoto                    81    075        213-5268     FEN 28,800
+Machida                  81   0427         99-5595     FEN 9600-14,400
+Machida                  81   0427         99-7309     FEN 28,800
+Maebashi                 81   0272         55-5212     FEN 9600-14,400
+Matsudo                  81    047        360-2201     FEN 9600-14,400
+Matsue                   81   0852         24-6672     FEN 9600-14,400
+Matsue                   81   0852         27-4245     FEN 28,800
+Matsumoto                81   0263         39-3170     FEN 9600-14,400
+Matsuyama                81    089        941-8241     FEN 28,800
+Mito                     81    029        228-5521     FEN 9600-14,400
+Mito                     81    029        224-1108     FEN 28,800
+Miyazaki                 81   0985         24-9500     FEN 9600-14,400
+Morioka                  81    019        651-9143     FEN 9600-14,400
+Muroran                  81   0143         43-6005     FEN 9600-14,400
+Nagano                   81    026        243-1733     FEN 9600-14,400
+Nagasaki                 81   0958         29-0301     FEN 9600-14,400
+Nagoya                   81    052        229-1475     FEN 9600
+Nagoya                   81    052        232-4540     FEN 9600-14,400
+Nagoya                   81    052        223-3636     FEN 28,800
+Naha                     81    098        867-9220     FEN 9600-14,400
+Nara                     81   0742         26-4886     FEN 9600-14,400
+Niigata                  81    025        244-4671     FEN 9600-14,400
+Niigata                  81    025        243-0618     FEN 28,800
+Nishinomiya              81   0798         66-9066     FEN 9600-14,400
+Numazu                   81   0559         25-2226     FEN 9600-14,400
+Numazu                   81   0559         25-6191     FEN 28,800
+Obihiro                  81   0155         26-3601     FEN 9600-14,400
+Odawara                  81   0465         24-4700     FEN 9600-14,400
+Oita                     81   0975         33-0462     FEN 9600-14,400
+Oita                     81   0975         34-8005     FEN 28,800
+Okayama                  81    086        221-4956     FEN 9600-14,400
+Okayama                  81    086        226-6811     FEN 28,800
+Okayama                  81    086        234-7230     FEN 9600
+Okazaki                  81   0564         25-2231     FEN 9600-14,400
+Okinawa                  81     98        861-2844     EQT 300-28,800
+Ome                      81   0428         33-5890     FEN 28,800
+Osaka                    81     06        920-2137     FEN 9600
+Osaka                    81     06        944-4660     FEN 9600-14,400
+Osaka                    81     06        944-3620     FEN 28,800
+Otaru                    81   0134         24-5031     FEN 9600-14,400
+Otsu                     81   0775         27-3500     FEN 9600-14,400
+Oyama                    81   0285         21-4040     FEN 9600-14,400
+Saga                     81   0952         28-6901     FEN 9600-14,400
+Sakai                    81   0722         27-0624     FEN 9600-14,400
+Sakai                    81   0722         25-2732     FEN 9600
+Sapporo                  81    011        809-2026     FEN 9600
+Sapporo                  81    011        898-9425     FEN 9600-14,400
+Sapporo                  81    011        898-7670     FEN 28,800
+Sawara                   81   0478         54-0084     FEN 9600-14,400
+Sendai                   81    022        287-9990     FEN 9600-14,400
+Sendai                   81    022        390-1681     FEN 9600
+Sendai                   81    022        287-9900     FEN 28,800
+Shizuoka                 81    054        202-2270     FEN 9600-14,400
+Suwa                     81   0266         53-8700     FEN 9600-14,400
+Suwa                     81   0266         57-0599     FEN 28,800
+Tachikawa                81   0425         28-0017     FEN 9600-14,400
+Tachikawa                81   0425         28-4600     FEN 28,800
+Takamatsu                81   0878         26-1507     FEN 9600
+Takamatsu                81   0878         26-2096     FEN 9600-14,400
+Takamatsu                81   0878         23-5701     FEN 28,800
+Takasaki                 81   0273         27-4090     FEN 9600-14,400
+Takigawa                 81   0125         23-0339     FEN 9600-14,400
+Tatebayashi              81   0276         73-7611     FEN 9600-14,400
+Tatebayashi              81   0276         74-8035     FEN 28,800
+Tokorozawa               81   0429         20-1190     FEN 9600
+Tokorozawa               81   0429         39-5237     FEN 9600-14,400
+Tokorozawa               81   0429         21-5061     FEN 28,800
+Tokushima                81   0886         56-9910     FEN 1200
+Tokushima                81   0886         56-9931     FEN 9600-14,400
+Tokyo                    81     03       5471 4790     CPS 1200-33,600
+Tokyo                    81     03       5471 7650     CPS 1200-33,600
+Tokyo                    81     03       5764 2466     CPS 1200-33,600
+Tokyo                    81     03       5710-5300     FEN 9600-14,400
+Tokyo                    81     03       5710-6400     FEN 9600-14,400
+Tokyo                    81     03       5703-2918     FEN 9600-14,400
+Tokyo                    81     03       5711-3911     FEN 9600-14,400
+Tokyo                    81     03       3737-9000     FEN 28,800
+Tokyo                    81     03       5710-6222     FEN 28,800
+Tokyo                    81     03       5711-2966     FEN 28,800
+Tokyo                    81     03       5703-7276     FEN 9600
+Tomakomai                81   0144         36-6105     FEN 9600-14,400
+Toyama                   81   0764         55-9005     FEN 9600
+Toyama                   81   0764         54-4826     FEN 9600-14,400
+Toyama                   81   0764         55-3901     FEN 28,800
+Toyohashi                81   0532         53-8905     FEN 9600-14,400
+Toyota                   81   0565         26-9811     FEN 9600-14,400
+Tsu                      81    059        223-7971     FEN 9600-14,400
+Tsukuba                  81   0298         55-2826     FEN 9600-14,400
+Tsukuba                  81   0298         59-0112     FEN 28,800
+Tsuruga                  81   0770         23-4411     FEN 28,800
+Tsuyama                  81   0868         31-1721     FEN 28,800
+Uji                      81   0774         45-4555     FEN 9600-14,400
+Urawa                    81    048        830-1437     FEN 9600
+Urawa                    81    048        825-4981     FEN 9600-14,400
+Urawa                    81    048        825-5350     FEN 28,800
+Utsunomiya               81    028        638-9942     FEN 9600-14,400
+Utsunomiya               81    028        651-2120     FEN 9600
+Wakayama                 81   0734         74-7009     FEN 9600-14,400
+Wakayama                 81   0734         74-8378     FEN 28,800
+Yamagata                 81   0236         41-1301     FEN 9600-14,400
+Yamaguchi                81   0839         89-6296     FEN 9600-14,400
+Yao                      81   0729         95-5710     FEN 9600-14,400
+Yokkaichi                81   0593         54-9043     FEN 9600-14,400
+Yokkaichi                81   0593         56-1130     FEN 28,800
+Yokohama                 81    045        320-7470     FEN 9600-14,400
+Yokohama                 81    045        411-0121     FEN 28,800
+Yokosuka                 81   0468         25-9811     FEN 9600-14,400
+<<Kazakstn.
+Alma-Ata                  7   3272         50-7179     EQT 300-9600
+<<Latvia
+Riga                    371    724            2457     EQT 300-9600
+<<Lebanon
+Beirut                  961      1          655955     EQT 9600
+Jal El Dib              961      4          406187     EQT 9600
+Jal El Dib              961      4          405932     EQT 9600
+<<Luxembrg.
+Luxembourg              352                 349933     CPS 1200-33,600
+<<Macau
+Macau                   853                 861441     EQT 300-28,800
+<<Macedonia
+Skopje                  389     91          134244     EQT 9600
+<<Malaysia
+Johor Bahru              60     07         2229849     EQT 300-9600
+Johor Bahru              60     07         2230953     EQT 300-9600
+Kota Kinabalu            60     88          256079     EQT 300-9600
+Kuala Lumpur             60     03         6345407     EQT 300-28,800
+Kuala Lumpur             60     03         2736566     INW 300-28,800
+Kuching                  60     82          230757     EQT 300-9600
+Penang                   60     04         2635198     EQT 300-9600
+<<Malta
+Valetta                 356                 241005     EQT 1200-28,800
+<<Martinique
+Forte de France         596                 421111     EQT 300-28,800
+<<Mexico
+Ciudad Juarez            52     16         230-204     CPS 300-33,600
+Cuernavaca               52      7        322-5002     CPS 300-33,600
+Guadalajara              52      3        122-1818     CPS 300-33,600
+Guadalajara              52      3        134-1000     CPS
+Leon                     52      4        773-5710     CPS 300-33,600
+Mexico City              52      5        262-0000     CPS 300-33,600
+Mexico City-X2           52      5        262-4500     CPS
+Monterrey                52      8        369-4880     CPS 300-33,600
+Monterrey                52      8        155-4000     CPS
+Nationwide               91    800         7200000     CPS 300-33,600
+Puebla                   52     22         37-2600     CPS 300-33,600
+Veracruz                 52      2        922-5800     CPS 300-33,600
+<<Moldova
+Kishinev                373      2          529990     EQT 300-9600
+<<N. Mar. Isl.
+Saipan                  670                2354137     EQT 300-28,800
+<<Nepal
+Kathmandu               977      1          241025     EQT 300-9600
+<<Neth.Ant.
+Curacao                 599      9         8693201     EQT 1200-9600
+St. Maarten             599      5           53172     EQT 1200-9600
+<<Netherlds.
+Amersfoort               31    033        711 0510     CPS 300-33,600
+Amersfoort-ISDN          31    033        711 0510     CPS 64000
+Amersfoort-V.90          31    033        711 0510     CPS
+Amsterdam                31    020        688 0085     CPS 300-33,600
+Amsterdam-ISDN           31    020        684 7547     CPS 64000
+Apeldoorn                31    055        711 0510     CPS 300-33,600
+Apeldoorn-ISDN           31    055        711 0510     CPS 64000
+Apeldoorn-V.90           31    055        711 0510     CPS
+Arnhem                   31    026        711 0510     CPS 300-33,600
+Arnhem-ISDN              31    026        711 0510     CPS 64000
+Arnhem-V.90              31    026        711 0510     CPS
+Breda                    31    076        711 0510     CPS 300-33,600
+Breda-ISDN               31    076        711 0510     CPS 64000
+Breda-V.90               31    076        711 0510     CPS
+Den Bosch                31    073        711 0510     CPS 300-33,600
+Den Bosch-ISDN           31    073        711 0510     CPS 64000
+Den Bosch-V.90           31    073        711 0510     CPS
+Den Haag                 31    070        711 0510     CPS 300-33,600
+Den Haag-ISDN            31    070        711 0510     CPS 64000
+Den Haag-V.90            31    070        711 0510     CPS
+Den Helder               31   0223         711 510     CPS 300-33,600
+Den Helder-ISDN          31   0223         711 510     CPS 64000
+Den Helder-V.90          31   0223         711 510     CPS
+Deventer                 31   0570         711 510     CPS 300-33,600
+Deventer-ISDN            31   0570         711 510     CPS 64000
+Deventer-V.90            31   0570         711 510     CPS
+Eindhoven                31    040        711 0510     CPS 300-33,600
+Eindhoven-ISDN           31    040        711 0510     CPS 64000
+Eindhoven-V.90           31    040        711 0510     CPS
+Goes                     31   0113         711 510     CPS 300-33,600
+Goes-ISDN                31   0113         711 510     CPS 64000
+Goes-V.90                31   0113         711 510     CPS
+Groningen                31    050        711 0510     CPS 300-33,600
+Groningen-ISDN           31    050        711 0510     CPS 64000
+Groningen-V.90           31    050        711 0510     CPS
+Haarlem                  31    023        711 0510     CPS 300-33,600
+Haarlem-ISDN             31    023        711 0510     CPS 64000
+Haarlem-V.90             31    023        711 0510     CPS
+Heerenveen               31   0513         711 510     CPS 300-33,600
+Heerenveen-ISDN          31   0513         711 510     CPS 64000
+Heerenveen-V.90          31   0513         711 510     CPS
+Hengelo                  31    074        711 0510     CPS 300-33,600
+Hengelo-ISDN             31    074        711 0510     CPS 64000
+Hengelo-V.90             31    074        711 0510     CPS
+Hoogeveen                31   0528         711 510     CPS 300-33,600
+Hoogeveen-ISDN           31   0528         711 510     CPS 64000
+Hoogeveen-V.90           31   0528         711 510     CPS
+Hoorn                    31   0229         711 510     CPS 300-33,600
+Hoorn-ISDN               31   0229         711 510     CPS 64000
+Hoorn-V.90               31   0229         711 510     CPS
+Leeuwarden               31    058        711 0510     CPS 300-33,600
+Leeuwarden-ISDN          31    058        711 0510     CPS 64000
+Leeuwarden-V.90          31    058        711 0510     CPS
+Leiden                   31    071        711 0510     CPS 300-33,600
+Leiden-ISDN              31    071        711 0510     CPS 64000
+Leiden-V.90              31    071        711 0510     CPS
+Lelystad                 31   0320         711 510     CPS 300-33,600
+Lelystad-ISDN            31   0320         711 510     CPS 64000
+Lelystad-V.90            31   0320         711 510     CPS
+Maastricht               31    043        711 0510     CPS 300-33,600
+Maastricht-ISDN          31    043        711 0510     CPS 64000
+Maastricht-V.90          31    043        711 0510     CPS
+Nijmegen                 31    024        711 0510     CPS 300-33,600
+Nijmegen-ISDN            31    024        711 0510     CPS 64000
+Nijmegen-V.90            31    024        711 0510     CPS
+Rotterdam                31    010        711 0510     CPS 300-33,600
+Rotterdam-ISDN           31    010        711 0510     CPS 64000
+Rotterdam-V.90           31    010        711 0510     CPS
+Sliedrecht               31   0184         711 510     CPS 300-33,600
+Sliedrecht-ISDN          31   0184         711 510     CPS 64000
+Sliedrecht-V.90          31   0184         711 510     CPS
+Stadskanaal              31   0599         711 510     CPS 300-33,600
+Stadskanaal-ISDN         31   0599         711 510     CPS 64000
+Stadskanaal-V.90         31   0599         711 510     CPS
+Steenbergen              31   0167         711 510     CPS 300-33,600
+Steenbergen-ISDN         31   0167         711 510     CPS 64000
+Steenbergen-V.90         31   0167         711 510     CPS
+Terborg                  31   0315         711 510     CPS 300-33,600
+Terborg-ISDN             31   0315         711 510     CPS 64000
+Terborg-V.90             31   0315         711 510     CPS
+Tiel                     31   0344         711 510     CPS 300-33,600
+Tiel-ISDN                31   0344         711 510     CPS 64000
+Tiel-V.90                31   0344         711 510     CPS
+Tilburg                  31    013        711 0510     CPS 300-33,600
+Tilburg-ISDN             31    013        711 0510     CPS 64000
+Tilburg-V.90             31    013        711 0510     CPS
+Utrecht                  31    030        711 0510     CPS 300-33,600
+Utrecht-ISDN             31    030        711 0510     CPS 64000
+Utrecht-V.90             31    030        711 0510     CPS
+Venlo                    31    077        711 0510     CPS 300-33,600
+Venlo-ISDN               31    077        711 0510     CPS 64000
+Venlo-V.90               31    077        711 0510     CPS
+Zwolle                   31    038        711 0510     CPS 300-33,600
+Zwolle-ISDN              31    038        711 0510     CPS 64000
+Zwolle-V.90              31    038        711 0510     CPS
+<<N.Zealand
+Auckland                 64     09        357 6642     CPN 300-28,800
+Christchurch             64     03        338 9387     CPN 300-28,800
+Dunedin                  64     03        477 8839     CPN 300-28,800
+Hamilton                 64     07        838 9966     CPN 300-28,800
+Wellington               64     04        473 7949     CPN 300-28,800
+<<Nicaragua
+Managua                 505      2          669786     EQT 1200-28,800
+<<Niger
+Niamey                  227                 732780     EQT 9600
+<<Nigeria
+Kano                    234     64          648183     EQT 300-9600
+Lagos                   234      1         2647778     EQT 1200-9600
+<<N.Ireland
+UK Local Call X2         44   0845        080 2000     CPS
+UK National Local Call   44   0845        080 1000     CPS 1200-33,600
+UK National Local ISDN   44   0845        080 1100     CPS 64000
+<<Norway
+Bergen                   47      5        522-7105     EQT 300-9600
+Oslo                     47      2        200-8900     CPS 300-33,600
+Stavanger                47      5        169-9914     EQT 300-9600
+<<Oman
+Muscat                  968                 799455     TYM 300-2400
+Muscat                  968                 791548     TYM 9600
+<<Pakistan
+Karachi                  92     21         5672141     EQT 9600
+Karachi                  92     21         5672144     EQT 300-9600
+Karachi                  92     21         5672142     EQT 300-9600
+Karachi                  92     21         5672143     EQT 300-9600
+Lahore                   92     42         6310961     EQT 300-9600
+<<Peru
+Lima                     51      1        421-1560     EQT 1200-28,800
+<<Philippines
+Manila                   63      2        843-4977     EQT 300-28,800
+Manila                   63      2        843-0702     INW 300-28,800
+<<Poland
+Bialystok                48     85        6537 220     EQT 300-9600
+Bydgoszcz                48     52        3400 728     EQT 300-9600
+Gdansk                   48     58        305 4040     EQT 300-9600
+Katowice                 48     32          518481     EQT 300-9600
+Krakow                   48     12        4239 363     EQT 300-9600
+Lodz                     48     42        6300 601     EQT 300-9600
+Lublin                   48     81        740 0250     EQT 300-9600
+Olsztyn                  48     89        534 7647     EQT 300-9600
+Poznan                   48     61        8553 409     EQT 300-9600
+Rzeszow                  48     17        8521 579     EQT 300-9600
+Szczecin                 48     91        4888 180     EQT 300-9600
+Warsaw                   48     22        630 6245     EQT 300-28,800
+Warsaw                   48     22        650 4832     EQT 300-28,800
+Wroclaw                  48     71        341 9351     EQT 1200-9600
+<<Portugal
+Faro                    351      8         9817034     EQT 300-9600
+Funchal                 351     91          223398     EQT 300-9600
+Lisbon                  351      1         4172935     EQT 1200-28,800
+Lisbon                  351      1         3540477     INE 300-28,800
+Porto                   351      2         6002946     EQT 1200-28,800
+<<Scotland
+UK Local Call X2         44   0845        080 2000     CPS
+UK National Local Call   44   0845        080 1000     CPS 1200-33,600
+UK National Local ISDN   44   0845        080 1100     CPS 64000
+<<Serbia
+Belgrade                381     11         3115255     EQT 300-28,800
+<<Sierra L.
+Freetown                232     22          228850     EQT 300-9600
+<<Singapore
+Singapore (V90/ISDN)     65                8731378     CPS 300-33,600
+<<Slovakia
+Bratislava              421      7         5665773     EQT 300-9600
+Kosice                  421     95         6230440     EQT 300-9600
+<<Slovenia
+Koper                   386     66          392115     EQT 300-9600
+Ljubljana               386     61         1339275     EQT 300-9600
+Maribor                 386     62          307380     EQT 300-9600
+Nova Gorica             386     65          202080     EQT 300-9600
+<<S.Africa
+Cape Town                27    021        461-6928     EQT 1200-28,800
+Cape Town                27    021        419-9603     INW 300-2400
+Cape Town                27    021        419-9739     INW 9600
+Cape Town                27    021        419-9665     INW 9600
+Durban                   27    031        307-2203     EQT 1200-9600
+Durban                   27    031        904-3732     INW 300-2400
+Johannesburg             27    011        833-2145     EQT 1200-28,800
+Johannesburg             27    011        454-2878     INW 300-28,800
+<<S.Korea
+Pusan                    82     51        462-5408     EQT 300-28,800
+Seoul                    82     02        775-6647     EQT 300-28,800
+Seoul                    82     02        725-1003     INW 300-28,800
+<<Spain
+Alicante                 34     96        691-9464     EQT 300-28,800
+Barcelona                34     93        487-3888     CPS 1200-33,600
+Bilbao                   34     94        415-9933     EQT 300-9600
+Las Palmas               34    928         385-154     EQT 300-28,800
+Madrid                   34     91        577-0686     CPS 300-33,600
+Madrid                   34     91        575-9030     CPS 300-33,600
+Malaga                   34     95        204-8589     EQT 300-28,800
+Palma                    34    971         719-568     EQT 300-28,800
+San Sebastian            34    943         212-700     EQT 300-9600
+Seville                  34     95        442-5311     EQT 300-9600
+Tenerife                 34    922         759-025     EQT 300-28,800
+Valencia                 34     96        351-0133     CPS 300-33,600
+Zaragoza                 34    976         565-142     EQT 300-9600
+<<Sri Lanka
+Colombo                  94      1          345467     EQT 1200-9600
+Colombo                  94      1          347420     INW 2400-9600
+<<Sweden
+Gothenburg               46     31         946-475     EQT 300-28,800
+Malmo                    46     40         303-068     EQT 300-28,800
+N. Stockholm (V90/ISDN   46      8       566-12000     CPS 300-33,600
+S. Stockholm (V90/ISDN   46      8       506-12000     CPS 300-33,600
+<<Switzerland
+Nationwide (V90/ISDN)    41   0842         111 092     CPS 300-33,600
+<<Taiwan
+Kaohsiung               886      7         3234977     EQT 300-9600
+Taichung                886      4         3284290     EQT 300-9600
+Tainan                  886      6         2203523     EQT 300-9600
+Taipei                  886      2        23560786     EQT 300-28,800
+<<Tanzania
+Arusha                  255     57            6419     EQT 300-9600
+Dar es Salaam           255     51          118729     EQT 300-9600
+<<Togo
+Lome                    228                 211494     EQT 300-9600
+<<Trin.+ Tob.
+Port of Spain             1    868        627-0093     EQT 300-28,800
+<<Turkey
+Ankara                   90    312        468-8042     EQT 1200-28,800
+Ankara                   90    312        266-6800     INE 300-28,800
+Istanbul                 90    212        234-5168     EQT 1200-28,800
+Istanbul                 90    212        293-2191     INE 300-28,800
+Izmir                    90    232        446-2034     EQT 300-9600
+<<Turkmnstn.
+Ashkhabad               993     12          350580     EQT 300-9600
+Ashkhabad               993     12          350581     EQT 300-9600
+Ashkhabad               993     12          350582     EQT 300-28,800
+<<Uganda
+Kampala                 256     41          343775     EQT 300-9600
+<<Ukraine
+Kiev                    380     44        246-5220     EQT 300-28,800
+<<U. K.
+National Local Call      44   0845        080 1000     CPS 300-33,600
+National Local ISDN      44   0845        080 1100     CPS 64000
+National Local X2        44   0845        080 2000     CPS
+<<Uzbekistan
+Tashkent                998     71        13-62647     EQT 9600-28,800
+<<Venezuela
+Caracas                  58      2        237-4633     EQT 1200-28,800
+Caracas                  58      2        793-0222     VNZ 1200-33,600
+Caracas                  58      2        793-6544     VNZ 1200-33,600
+Caracas                  58      2        794-0544     VNZ 1200-33,600
+Caracas                  58      2        709-1000     VNZ 300-33,600
+Cumana                   58     93         31-5321     VNZ 300-33,600
+Maracaibo                58     61         59-1922     VNZ 1200-33,600
+Maracaibo                58     61         59-0444     VNZ 300-33,600
+Maracaibo                58     61         50-1111     VNZ 300-33,600
+Maturin                  58     91         43-3611     VNZ 300-33,600
+Maturin                  58     91         43-4311     VNZ 300-33,600
+Puerto Ordaz             58     86         23-3022     VNZ 300-33,600
+Valencia                 58     41         25-0011     VNZ 1200-33,600
+Valencia                 58     41         20-2111     VNZ 300-33,600
+<<Wales
+UK Local Call X2         44   0845        080 2000     CPS
+UK National Local Call   44   0845        080 1000     CPS 1200-33,600
+UK National Local ISDN   44   0845        080 1100     CPS 64000
+<<W. Samoa
+Apia                    685                  25025     EQT 300-9600
+<<Zaire
+Kinsasha                243     12           21999     EQT 300-9600
+<<Zambia
+Ndola                   260      2          620950     EQT 300-9600
+
+
+---
+
+<psyko_laptop> but at least I'm not a bastard.
+<psyko_laptop> I enjoy being a bastard.
+
+---
+
+
+	       		    -- Credits
+
+    Without the following contributions, this zine issue would be
+  fairly delayed or not released. So thank you to the following people:
+
+       	Anonymous, Axion, Captain B, Colt45, CYB0RG/ASM,
+	Oprah Jemima, Phlux, Stalins Sidekick, The Clone
+		     
+
+  -- Shouts:
+
+    CYB0RG/ASM, Wildman, H410g3n, warVamp, The Question, plappy, Phlux,
+    rt, Magma, Hack Canada, The Grasshopper Unit, Flippersmack, Nettwerked666,
+    soapie, littleyellowdot, Breanne, Flopik, and lastly to everyone and
+	     anyone who contributes to the Canadian H/P scene.
+
+
+                             ;.  .;..  ; ;. ;..
+                           ;..   .;..; .;.; .;; ;..
+                      .;..;. .;..;  .;.;...; ;..;..
+                         .;.         A         .;. .;.
+                       ;..   N E T T W E R K E D  ;..
+                        ;..;.. P R O D U C T   ;..;..
+                          .;..;               ;..;..
+                     ;  .;..;.;..   .; .  .;. ..;..
+                    .;..   . .;  ..;..;..;.. .;
+                ;..;.   .;.. . .;.. .;.;.
+              ..;. ..;.. .;.   ;.;..;;..;.;
+                ;.;;..;..      ;.;.; .; .
+                   ;.;..;. .;. ;.;:.;.
+                     ,;....;.
+               .;.;. .;.;
+              .;.;.;
+            .;.;
+            ;..;.
+           .;.;;.; .;. ..; ;. > > > > > > ... Son of a gun, a simple equation.

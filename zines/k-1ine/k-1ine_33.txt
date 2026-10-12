@@ -1,0 +1,943 @@
+
+
+
+
+
+     __             _____  __            ___ _            ______ __ _        _
+       __      ___ / _   __                                        ____ _   ( )
+              ___)\ /______   ______
+ _________       \  / ___  _____ ___)\    ___   __.
+       _____     |   /_             \ |  /_    /  |
+           ___\  |  (/               || //  _   | |   _   __  __      _  
+     _       _\\ |  |     _______    |:(/  ( )  | |  ( )  ) \/_ \   /( )\
+    ( )        \\|  |   /_ ____      ||\\       | |  | |  | |  ) ) /  ___)
+                \\  |  //__          || \\      | |  | |  | |  | | \ (___ __ _
+                 \) | //             ||  \\_  __| |__| |__| |  | |_ \_______ __
+                 |  |//      ____ __/ |   \___    ____   _ _    _    _      _
+    __ ______)   |  (/      / __ __ )/
+              \ \|  |      / /
+               \ \ (\_____/ /___  _                                         ___ _
+      ____      \ ) \____ _____ __ __ 	  Bay Street After Hours Casual     _ _
+     ( 33 )      |  |
+
+
+         c/a   11.2002.
+
+
+_____________________________________________________________________________
+
+ » .- Words from the Editor -. «                                              |
+
+ *: [-] Introduction .......................................... The Clone    :*
+ *: (-) Contact Information ................................... The Clone    :*
+ *: (-) Nettwerked Discussion Board ........................... Nettwerked   :*
+ *: (-) Link of the Month ..................................... The Clone    :*
+ *: (-) K-1ine Mirrors ........................................ The Clone    :*
+ ____________________________________________________________________________
+
+ » .- Documents -. «                                                          |
+
+*: (x) 'Rogers AT&T: Ericsson A1228dsi Programming' ........... The Clone    :*
+*: (x) 'Hacking in the Snow' .................................. Phlux        :*
+*: (x) 'Digital and Analog Audio Representation' .............. Fractal      :*
+*: (x) 'Situated Automotive Precipitation Exploit' ............ Diabolik     :*
+*: (x) 'Sprints System Access Fee' ............................ Alan         :*
+ ____________________________________________________________________________
+
+ » .- Conclusion -. «                                                         |
+
+ *: [-] Credits ............................................... The Clone    :*
+ *: [-] Shouts ................................................ The Clone    :*
+ _____________________________________________________________________________ 
+
+
+   Introduction -
+
+Welcome to the latest issue of K-1ine #33 'Bay Street After Hours Casual'. I would
+like to thank everyone who submitted articles to me, you guys rule. Enjoy this issue
+of K-1ine zine, and if you forget to send me more articles in the future, I'll run
+for the Republican party in the next upcoming election. :)
+
+ -->
+
+ Contact Information;
+ 
+ Comments/Questions/Submissions: theclone@hackcanada.com
+
+ Check out my site: (Nettwerked) http://www.nettwerked.net
+
+ -
+
+ Nettwerked Discussion Board;
+
+ "Fuck the system? Nah, you might catch something..."
+
+ POST YOUR NEWS, AND POST YOUR THOUGHTS FREELY ON:
+
+ www.nettwerked.net/PHPBB
+
+ -->
+
+
+-----------------------------------------------------------------------
+
+
+  --=[ LINK OF THE MONTH ]=--
+
+ Every month I post one really great "link of the month" on every issue
+ of K-1ine magazine. The link can be anything in the technology industry,
+ music scene, rave scene, punk scene, or even a good article you read on
+ a news site. I'll be taking submissions via e-mail or IRC right away; so
+ get your links in and maybe you'll see it in the next issue of K-1ine!
+
+  For the month of November, the link of the month is:
+
+  http://zetatalk.com/
+
+  'Alien to Human Communications'
+
+  [submitted by: Phlux]
+
+ --
+
+
+	  K-1ine Mirrors:
+
+
+ http://www.mirrors.wiretapped.net/security/info/textfiles/k1ine/
+
+  (Now mirrored in two places, one in Belgium and another in Sydney)
+
+ "Wiretapped.net is an archive of open source software, informational
+ textfiles and radio/conference broadcasts covering the areas of network
+ and information security, network operations, host integrity, cryptography
+ and privacy, among others. We believe we are now the largest archive of
+ this type of software & information, hosting in excess of 20 gigabytes of
+ information mirrored from around the world."
+
+ --
+ 
+ http://www.hackcanada.com/canadian/zines/index.html#K-1ine
+
+ Hack Canada - Canadian H/P - E-Zines
+
+ --==================================================================--
+
+ --
+
+<theclone> GrassMunk(y), you Funk(y) Munk(y). 
+<GrassMunk> i can be 
+<theclone> You can be anything your heart desires if you just put in effort
+and determination, Timmy. 
+<GrassMunk> thanks uncle 
+<theclone> You're welcome. Now ride on my lap with your knickers down to your ankles. 
+<theclone> And don't tell your parents. 
+<Xeron> I was at bar called 'funkey munkey' last night 
+<GrassMunk> clone, im not falling for that one again, you dirty old phreak 
+<GrassMunk> i know i dont want to touch the roll of quarters in your pocket either 
+<theclone> :D
+
+ --
+
+
+			Rogers AT&T: Ericsson A1228dsi Programming
+
+
+   Wednesday, November 6, 2002
+
+   Written by: The Clone
+
+   theclone@hackcanada.com
+
+   Notes: For informational purposes only. Do not abuse this information.
+
+   * Manufacturer: Ericsson
+   * Phone Model: A1228dsi
+   * Programmer: Keypad
+   * Phone Type: TDMA
+   * NAM Type: EEPROM
+   * Transceiver: KRC 113 412/10M R1A
+
+   Programming Sequence:  Power On ("No" Button)
+                          After phone initialized, Ericsson logo will appear,
+			  followed by a Rogers AT&T logo, then main screen.
+
+
+   NAM Re-Programming: Press 987 and then the 'Menu' (or right arrow) button.
+
+   Once you enter the proper codes in, you will be taken to the main menu (image below).
+   You have three options to choose from...
+
+   Menu 0 -- Change your "Mobile ID 0" by replacing the ten '0's with any random number;
+   it doesn't appear to do much but cause your phone to become temporarily disabled. Hit
+   the down arrow to be entered into the "Band Order 0" screen. I tried entering a series
+   of buttons, but there seems to be no way to modify your Band Order 0.
+
+   Press the down arrow again to enter into the "Neut. A-Tag 0" screen. Press the buttons
+   on your keypad to add your own text. Press the down arrow to enter into the "Fav. A-Tag
+   0" screen. Press the buttons on your keypad to add your own text. Press the down arrow
+   to enter into the "Home A - Tag 0" screen. Press the down arrow to enter into the "SO
+   0" (Scroll to Operator Code) screen. You should see '0000' - this can be modified by
+   pressing the buttons on your keypad. Press the down arrow to enter into the "SID 0"
+   screen. You can modify the "System Identification" number by entering any valid SID
+   for your area. For Rogers AT&T, the SID for their TDMA phones is 6391. Note: All of
+   "Menu 0" appears to be a testing NAM menu for Ericsson /  Rogers AT&T techs. The
+   useful stuff seems to be in Menu 1 and 2 (below).
+
+   Menu 1 -- Change your "Mobile ID 1" by replacing the ten digit telephone number (your
+   wireless phone's area code + local number). You can essentially change this to anything
+   you want. Don't bother trying to steal service from other Rogers AT&T mobile phones
+   ("cloning") as that requires you to have the victim's ESN, MIN, special EEPROM (NAM)
+   reflashing software, and a cable to transfer the data. Press the down arrow to be entered
+   into the "Band Order 1" screen -- I tried entering a series of buttons, but there seems
+   to be no way to modify your Band Order 1.
+
+   Press the down arrow again to enter into the "Neut. A-Tag 1" screen. Press the buttons on
+   your keypad to add your own text. Press the down arrow to enter into the "Fav. A-Tag 1"
+   screen. Press the buttons on your keypad to add your own text. Press the down arrow to enter
+   into the "Home A - Tag 0" screen. Press the down arrow to enter into the "SOC 1" (Scroll to
+   Operator Code) screen. You should see a special four digit number such as '2600' - this can
+   be modified by pressing the buttons on your keypad. Remember; Menu 1 on all Ericsson phones
+   is the main NAM for cell service. You can modify the "System Identification" number by enter-
+   ing any valid SID for your area. For Rogers AT&T, the SID for their TDMA phones is 16391.
+
+   Menu 2 -- Same options as above. Except on this NAM Menu, you can add another valid Rogers
+   AT&T telephone number - hence why the Ericsson A1228dsi is called a "dual NAM phone." If
+   your phone is not locked onto the Rogers AT&T network, you may be able to use service from
+   another TDMA carrier (no others in Canada besides Rogers AT&T unfortunately), or an analog /
+   AMPS wireless service provider.
+
+   
+   COOL PICTURES - WOW!
+
+
+  IMAGE: MAIN NAM PROGRAMMING MAIN MENU
+
+  http://www.nettwerked.net/ericsson1.jpg
+
+
+  IMAGE: NAM PROGRAMMING MENU 0.
+
+  http://www.nettwerked.net/ericsson2.jpg
+
+
+  IMAGE: NAM PROGRAMMING MENU 1 (area code + phone number)
+
+  http://www.nettwerked.net/ericsson3.jpg
+
+  
+  Long NAM Re-Programming: Press 923885 and then the 'Menu' (or right arrow) button.
+  
+  Long NAM Re-Programming has similar options to regular 'NAM Re-Programming', but it offers
+  the user a deeper level of options. This can be considered the "root level" access in wire-
+  less phone programming.
+
+
+  What are the features of Long NAM Re-Programming?
+
+  
+  You have three options to choose from: NAM 0, 1, 2.
+
+  (Note: NAM 0 is a "test menu", and isn't used for anything important.)
+
+  NAM 0: First screen lists your unique ESN number; this cannot be changed without reflashing
+  the EEPROM. If you press 'YES' or 'NO', it will bring you to a screen which says: *** EXIT
+  *** YES = Save ALL NO = Abort ALL. Either option will reset your phone.
+
+  NAM 0: Press the 'down arrow' twice and you'll be taken to the Go To Level 5 (SMS - Short
+  Message Service). Press the 'YES' button and you'll have the option of entering in the "Tele.
+  Srvr" (Telephone Server?) address. After you enter text into it, press 'YES' and you'll be
+  prompted to Save or Abort. Press the 'down arrow' twice and you'll be taken to the E-mail
+  Gtwy (Electronic Mail Gateway). After you enter text into it, press 'YES' and you'll be 
+  prompted to Save or Abort.
+ 
+  NAM 0: To access the next menu, press the 'NO' button on your Ericsson, and press your 'down
+  arrow'. Once you're on the Go to Level 4 (Other DCC) option, press 'YES'. Now you can change
+  the encoding of your Ericsson from "TBCD" to "IA5". Press any key (besides Yes, No, Clr, Menu,
+  Up and Down) to switch between encoding modes. Press down twice to get to the 'Dom.Usr Grp'
+  menu - it says "NOT IMPLEMENTED!". Press down once and you'll see 'Intern.Usr Grp' menu - it
+  says "NOT IMPLEMENTED!". Next menu down is 'EMERGENCY 3' - you can enter any number here and
+  *SHOULD* be free (along with EMERGENCY 2, 1 for the next two options). Press down - you'll
+  see 'IMSI NOT IMPLEMENTED' (IMSI = International Mobile Subscriber Identity). Press down,
+  next option is 'PFC NOT IMPLEMENTED'. After you choose your option, press 'YES' and you'll
+  be prompted to Save or Abort.
+
+  NAM 0: To access the next menu, press the 'NO' button on our Ericsson, and press your 'down
+  arrow'. Once you are on the Go to Level 3 (PSID/RSIDs) option, press 'YES'. You will see
+  'Edit NAM' PSID/RSIDs -  you cannot edit this option. Press down twice to View Reg Accept
+  PSID/RSIDs, press down to View TestReg PSID/RSIDs - none are available to edit.
+
+  NAM 0: To access the next menu, press the 'NO' button on our Ericsson, and press your 'down
+  arrow'. Once you're on the Go to Level 2 (Scan, etc.) option, press 'YES'. You will see a
+  screen that says 'System B'. There doesn't seem to be a way to edit this.
+
+  NAM 0: The rest of the options are 'Band Order 0', 'Lock Code', 'Neut.A-Tag 0', 'Fav.A-Tag 0',
+  Home A-Tag 0', 'SOC 0', 'SID 0', 'A-Key 0', 'Mobile ID 0' - which were explained earlier. Hit
+  'No' twice or 'Yes' twice to reset the phone.
+
+  NAM 1 & 2: (ESN) Same as above.
+
+  NAM 1 & 2: (Level 5) Same as above.
+
+  NAM 1 & 2: (Level 4) Same as above - except 'EMERGENCY 1' which has '911' displayed instead of
+  a blank space.
+
+  NAM 1 & 2: (Level 3) Same as above.
+
+  NAM 1 & 2: (Level 2) Same as above.
+
+  NAM 1 & 2: (Many Options) Same as above.
+
+  
+  More NAM Re-Programming: Press # SID # * and then the 'YES' button.
+
+  Once you enter this menu, you will be taken to an alert screen which says "Danger! Enter NAM? Yes
+  or No". Choosing 'No' will reset your Ericsson phone. If you choose 'Yes', you will be taken to a
+  screen which says "ESN [3 digit ESN prefix]" and 8 unique ESN #'s. Hitting 'YES' again will prompt
+  you: "Enter Phone Number". After you enter the phone number associated with the ESN, your phone
+  will reset. If you enter the wrong phone number, the phone will say 'Try Again!'. Be careful; if
+  you do this too many times, you may lock the phone! For reference, here are a list of known ESN
+  prefixes and their hex-values that work on Ericsson's: 143  8F, 146  92, 157  9D, 204  CC, 215  D7,
+  231  E7, 240  F0.
+
+  Field-Test Mode: Press 904090 and then the 'Menu' (or right arrow) button. This mode brings up a
+  few menus - which displays various data about the network, the signal strength, etc.
+
+  --
+
+  Conclusion: TDMA Wireless Phone Re-Programming is phun. Unfortunately TDMA is on its way out. GSM
+  and CDMA are the two biggest mobile standards in the industry. Rogers AT&T started offering GSM
+  services around a year ago, and will eventually throw away the standard that Ericsson once held so
+  dear. Now go buy an Ericsson and hack away!
+
+  Credits: Wizbone for sharing the "# SID # * SND" command.
+
+  Shouts: Hack Canada, Nettwerked, Toronto 2600, and dec0de.
+
+
+          The images in this file are Copyright (c) 2002, by End THE USA. All Rights Reserved.
+
+
+
+ --
+   <GrassMunk> i am a catholic school girl ninja
+ --
+
+
+    . .        . .  .  .   .  
+   .  .       .       .   .  .
+   .   .      .           .     
+   .___  _    ._  ___     ._   _.
+ <-|    \ \ <-|      | |<-|   \ \.
+   . ..  \ \  .  . ..|_|  .    \ \ 
+   |   .  \ \ |           |  .. \ \.  ```                 '''
+- <.--- . / /<.-- -  -.  <.--   -.--REÐ-> three.30.three
+   |   \ \_/  |       _   |    ./ /     + six.sixtey.six +
+   .    \ .   .  . ..| |  .  . / /     bitch'z ain't nuthin'
+ <-|     \_\<-|___  _| |<-|  _/_/         but hoes+trix. 
+                                      ...                 ,,,
+ 
+
+ snowhack.txt
+--------------------------------------------------------------------
+			Hacking in the Snow
+		      phlux - fraud@telust.com
+
+		Just in time for Christmas! HEIL MABELLE
+
+--------------------------------------------------------------------
+
+For Canadian Hackers, winter is the time to overclock your computer,
+and a time to carry on the age old tradition of igloo hacking.
+
+The inuit originally built shelters in the white plains so they
+could hack in stealth. Here are the basics to have with you:
+
+- Laptops with overclocked CPUs
+
+- A good length of insulated phone line for a remote shelter
+
+- 2 White duvets (possibly more)
+
+- Blow torch & extra tanks ($10~ from Canadian Tire)
+
+- Bottled oxygen (needed for mountain hacking, else just some tubing)
+
+- Duffle Bag to put it all in, plus a pillow.
+
+- Duct Tape
+
+- A good knife
+
+- Fishing line, hooks, and bait if ice fishing
+
+- Small shovels(spade)
+
+ Food:
+
+- Beer (bottled)
+
+- Packets of Cup 'o Noodle
+
+- Hot cocoa
+
+- Skillet (if ice fishing)
+
+- Kettle
+
+- Condements
+
+Clothing(white):
+
+Mittens+gloves
+
+Ninja stye ski-masks, also a good tuque with pom-pom removed.
+
+Snowshoes(where applicable)
+
+
+Prep:
+
+You will want to wear layers, and keep your laptop duct taped to your
+torso so the LCD doesn't freeze. You will need a friend to drop you
+off at the site, and you will need a partner in crime to cuddle for
+warmth. You may want to bring heat packs filled with soup for the hike.
+
+The ideal site will be rural, where the shelter can be erected around
+a telephone can, RSU, etc. For security you may want to scope for a
+can near a lake so you can ice fish. The lock/hinges on the cabinet
+may easily be compromised with the shovel depending on the temperature.
+
+Now if your taking effective measures, you should be safe to hack right
+from the telephone bridging can, otherwise run a length of wire buried
+in the snow to a tree or something. Conceal your tap, and jack in.
+Ideally the setup should be done while it is snowing.
+
+Cut-Away view of the partial igloo snow hacking cabinet bridge shelter:
+
+  *   *   *    *   *      *     *<-Snow Flakes *    *
+*  *    *   *   * *  * *     * *   *   *  * *     *  *    * *
+  *  *    *  -----==============--- <-duvet    * *       *
+Snow    ### /     |            |   \ ###     *      *      *
+ Wall->### /fookin|            |    \ ###       *      *  *
+      ##  /  eh!  |            |     \  ## * *     *         * 
+ *   ##  /    '   |  Cabinet   |.*.   \  ##     *   *   *   * 
+    ##  /      (^)|            |( )    \  ## *    *   *    *
+*  ##  /   \__`-| |            | |-, /  \  ##   *    *   *    *
+__###_/   ._/ \_| |____________| |_==__. \_###_________________
+###### =================================<-duvet  ##############
+###############################################################
+########################Snow###################################
+
+This set up can be built around a remote pay telephone for one hacker.
+
+You do not want to build a roof for the igloo; this takes too long and
+unless you're an inuit, it is fucking hard! The white blanket serves for
+an easy exit, and still conceals you from black helicopters. 
+
+This set up leaves just enough room for each hacker to sit against the
+cabinet, using the dufflebag/pillow/duvet as insulation from the ground,
+also allowing for bedding.
+
+Each hacker should always have their blow torch on low to medium flame
+to prevent LCD freezing. This will burn all the air in the shelter, 
+so you must puncture a hole in the duvet for the air tube, which is duct
+taped to your laptop where the fan exhaust is. You may need to drill 
+small holes in the casing of your laptop for the oxygen feed.
+
+Before rations can be prepared, a six pack must be consumed.
+The duvet is pulled back so the bottles can be setted into the snow,
+and a hole dug in the middle of the arangement for the torch, effecively
+forming a stove as shown; (NOTE: melted snow = water)
+
+    (B) <-Bottle
+(B)     (B)  
+     X <-Torch
+ (B)    (B)
+     (B)
+
+The bottles can also be used as urinals so the heat seal is not broken.
+While the cabinet shelter allows for a tepee setup using the blanket, 
+and easy access to lines, it is harder to hotbox.
+
+For ice fishing, the setup is the same - except the hackers use one anothers
+backs to lean against. For a remote set up, ideally you should find a nice
+pine tree with plenty of snow around it.
+
+
+Here is how the pine tree dug out looks:
+
+                __                  ______ ______ 
+ *  *  * *   * _==_ *   *    *  *  *  * __+__ *  ** * 
+              _====_  *   **   *  * *  ( ___ ) *
+*    *  * *  _======_    come out with- \___/*   *  *
+            _========_ *  j00r hands up!/   \   *       
+  * *  *   _==========_     *    *    *  * *   *   * *
+          _====pine====_*      *  * *   *     *  *  *
+ *   *  *_=====tree=====_  *  *       *   * *     *
+       *_================_   *  * * *   *      *    *
+   * * _==================_ *         *    * *   *    *
+  *   _====================_  *  *  *   *      *    *  
+____  ========_________=====,its the feds!#@___________
+####\duvet-->/   ||   \\\()__ /########################
+#####\      /    ||      /   /###Snow##################
+......\    /     ||     /   /..........................
+..soil.|  /      ||    /_. |.....soil..................
+-------| /       ||     /()|---Permafrost-ends-here----
+.......|/     __/||    /___|...........................
+.soil..|         ||   |    |...........................
+.......| \       ||  / \   |........soil...............
+........\_==_____||_/   \__/...........................
+.......................................................
+.......................................................
+
+Despite the depiction, the dug out is by far the safest,
+and warmest shelter compared to the effort needed.
+NOTE: sizing ratios may vary!
+
+The pine tree dug out is best suited for a longterm stay, whereby it
+can hold more people, and is very space efficient if laptops and
+blowtorches are duct taped to the trunk of the tree.
+
+Conclusion:
+
+I hope this file accurately portrays canadian style field phreaking.
+If you visit canada, this file should prove invaluable!
+
+You may want to visit the following websites for more canadian hacking
+text files:
+
+www.hackcanada.com
+
+www.telust.net
+
+www.nettwerked.net
+
+www.packetninja.ca
+
+
+ --
+<MiMiC> but there are a lot of nice, innocent girls out there
+<MiMiC> and hell, if you come across a hoe thats still good
+<MiMiC> they love to fuck :P
+<theclone> You need to get laid
+<theclone> badly.
+ --
+
+
+Digital and Analog Audio Representation
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+Analog Representations
+~~~~~~~~~~~~~~~~~~~~~~
+
+Air
+~~~
+
+Most fundamentally, sound exists as fluctuations of air pressure in
+our atmosphere. These fluctuations are commonly graphed as functions of
+time, producing the wave images we are accustomed to viewing. The wave's
+amplitude is reflective of the current level of air pressure at a fixed
+point over time, where 0 amplitude refers to the "normal" atmosphere's
+pressure.
+
+As the amplitude increases, our ears interpret a louder signal. There is
+theoretically no limit to the volume of sound, but our minds stop measuring
+volume after a certain level has been reached.
+
+It is important to realize that there is never any signal representing
+"pitch": This is all a manifestation of our minds. The pitch of a signal
+is directly related to the frequency of fluctuations in amplitude.
+Understand that at any given instant, no particular tone is being played.
+Tones only exist over (potentially very short) periods of time.
+
+
+Wire
+~~~~
+
+Audio can be transmitted across 2 wires fairly easily. A microphone
+has a carbon diaphragm that changes in resitance as it distorts. It will
+distort from the fluctuations in air pressure that make up sound.
+
+When the audio is transmitted across the wire, the amount of current
+flowing through the wire corresponds to the change in air pressure.
+In order to represent both sides of the wave, the speaker uses AC current.
+This also means that there is no polarity requirements for speakers. They
+can be plugged in backward, with the only consequence that they may be
+"out of phase" with other speakers, potentially cancelling out certain
+frequencies of the sound.
+
+Since microphones use the same carbon diaphragm setup as headphones, both
+work as recording *and* playback devices, and can be used interchangably
+in most situations. So, if you're ever stuck without a microphone, just
+pop in your headphones instead.
+
+
+Radio Waves
+~~~~~~~~~~~
+
+When transmitting electric signals through the air, it is generally
+not practical to transmit at audio frequencies for various reasons.
+One, you could only transmit 1 audio signal at a time without interfering
+with another one, and two, the wavelengths for such low frequencies
+would require massive antennas for effective broadcasting.
+
+There are many techniques for broadcasting audio over the airwaves.
+I will briefly discuss 2 techniques: AM and FM.
+
+
+AM
+~~
+
+Amplitude Modulation is fairly self explicit. Essentially, a "carrier
+wave" is generated. This is generated at, say, 800,000 cycles per second,
+and is nothing more than a sine wave oscillation at this frequency.
+Often, this is expressed as 800 kHz. Next, the amplitude of the carrier
+signal is mapped to correspond to the air pressure currently being
+detected at the microphone. Notice that the frequency of the carrier
+signal does not change, only the "height" of its waves.
+
+This signal is then radiated into the air. A person who wants to decode
+a signal on 800 kHz generates his/her own carrier wave of 800 kHz,
+and subtracts that from the signal in the air and are left with a signal
+that will be filtered, amplified, and sent straight to a speaker.
+
+
+FM
+~~
+
+Frequency Modulation is slightly more complicated than AM, but generally
+makes for better quality sound. Since the standard commercial bands for
+FM are of a lot higher frequencies than AM, a much smaller antenna is needed
+for broadcasting. Because of this, FM has become the pirate radio station's
+modulation of choice.
+
+FM works by modulating the frequency instead of the amplitude (duh).
+The potential amount of frequency that is taken up using this method
+is called the signal's "bandwidth". For commercial FM broadcasts,
+the bandwidth is 150 kHz.
+
+Since an FM signal's amplitude remains constant, it is less susceptible
+to RF interference (creating fuzz, clicks, and pops) than AM.
+
+On commercial FM frequencies, the bands are spaced 200 kHz apart and
+start at 87.5 MHz. This is why commercial FM stations always use
+odd 100-kHz digits.
+
+FM is also able to transmit stereo signals. A 19 kHz tone is produced
+when stereo is being broadcast, which lights up an LED on many radios
+to indicate stereo. On the normal band, the radio recieves the left
+signal added to the right signal: L+R. This is so that mono radios
+will play both channels mixed together. On another channel, the FM
+station broadcasts L-R. So, when the reciever wants to play stereo,
+it adds the 2 channels together:
+
+L+R + L-R = L+L+R-R = L+L = 2L
+
+And, it subtracts the 2 channels:
+
+L+R - L-R = L+R - (L-R) = L+R -L+R = L-L + R+R = 2R
+
+It then has 2L and 2R, which it sends to the appropriate speakers
+at half volume.
+
+
+Telephone
+~~~~~~~~~
+
+A telephone works similarly to a normal speaker wire, except that the
+telephone is a full-duplex device (meaning you can talk and recieve at
+the same time). It does this by both sides modulating amplitude.
+
+The telephone also takes some of the signal from your microphone and adds
+it's inverse to the signal fed into your speaker. In effect, this cancels
+out some of the "feedback" from your own microphone. This is called a
+"sidetone". This is, essentially, to quiet people down. If the sidetone is
+too loud, the calling party will generally start shouting into the phone, and
+if the the sidetone is a perfect copy of the original, it will cancel out all
+of the party's voice and the phone will appear dead.
+
+Although there is no technical requirement for it, the telephone company
+usually does not transmit frequencies below 400 hertz or frequencies
+above 3400 hertz. The main advantage in this is that they can transmit
+more calls at once through long distance lines than would be possible
+if a full frequency spectrum had to be maintained. 
+
+A telephone is unique because it draws it's power from the recieved
+audio signal. The telephone company uses large lead-acid power supplies
+in order to provide this power. This ensures phone operation during
+power outages and a "hum-free" power signal necessary for audio signal
+transmission.
+
+
+Misc
+~~~~
+
+Aside from being transmitted, analog encoding methods are also popular
+for storage of sound. A phonograph uses etchings on a vinyl disc.
+A tape uses a long strip of magnetic tape, etc.
+
+However, analog encoding is not the encoding method of choice for all
+applications. This brings us to digital representations:
+
+
+
+Digital Representation
+~~~~~~~~~~~~~~~~~~~~~~
+
+I'll discuss 4 digital audio representations: PCM, FM synthesis compressed
+PCM, and misc.
+
+
+PCM
+~~~
+
+Pulse Code Modulation is perhaps the most common form of digital audio
+representation. PCM works by taking samples of the air pressure at the
+microphone at certain consecutive points in time, and recording them as
+digital numbers.
+
+Generally, these measurements are taken according to a clock. The clock
+ticks at a certain rate: the sample rate. For CD quality audio, this
+sample rate is 44100 samples/second. 8000 samples/second is usually good
+enough for human speech, however.
+
+The amount of space used for each sample is called the "sample width".
+CD quality audio uses 16 bits per sample. Most human speech systems use
+only 8 bits. Often, inside a computer, the sound is represented in 32
+bits even though it was recorded at 16 bits (or 24 with modern soundcards).
+This is to prevent "clipping" of the audio during effects processing.
+
+So, the amount of space that a PCM recording takes can easily be calculated
+using these 2 values. For instance, a 10 second stereo clip at CD quality
+would take:
+44100*16*10*2 = 14112000 bits, or 1764000 bytes.
+
+About 1.7 megs. This is about the size a CD quality stereo wave file takes
+too, for good reason: A wave file is no more than a a large PCM file
+(plus headers).
+
+An interesting property of PCM audio is that it is impossible to represent
+frequencies higher than half of the sample rate. This is because both
+the bottom and the top half of the signal need to be recorded, so one
+cycle of a wave needs at least 2 samples. So, a CD's maximum frequency
+rating is 44100/2 = 22050 hertz.
+
+Note that most sound cards work exclusively in PCM for both their input
+and their output, so that usually you'll always have to convert any type
+of digital audio to PCM by hand in order to play it.
+
+
+FM Synthesis
+~~~~~~~~~~~~
+
+Frequency Modulation Synthesis was a rather poorly chosen name for this
+type of representation, because it is quite confusing with FM radio
+representation. FM Synthesis has nothing to do with FM radio.
+
+FM Synthesis essentially represents the sounds as a series of sine waves.
+The frequency of the wave and it's duration are stored. Some sound cards
+directly support this, but it has almost completely been replaced by PCM.
+
+FM Synthesis's main advantage is that the size of the audio was much smaller.
+FM Synthesis requires more computation than PCM for playback, but the main
+disadvantage was that the sound quality was poor. Sounds generally sound
+"tinny".
+
+
+Compressed PCM
+~~~~~~~~~~~~~~
+
+Compressed PCM representation is becomming more and more popular.
+I won't go into how compressed PCM works, but essentially, it's a
+compression method that, when uncompressed, generates PCM audio.
+
+There are 2 types of compressed PCM: lossy and lossless. Lossless
+compression guarantees that when the audio is uncompressed you will have
+an exact copy of the original PCM file. Lossy compression throws out some of
+the PCM data in order to conserve space. MP3/OGG/etc. are examples of
+lossy compression. FLAC is an example of lossless audio compression.
+
+
+Other
+~~~~~
+
+One other method of storing digital audio is to store a list of particular
+wave files to play, or particular notes and volumes, etc. MIDI is a good
+example of this. It stores particular music data, and the MIDI player
+is responsible for generating the PCM wave forms it sends to the soundcard.
+As a consquence, MIDI files are very small, but can't represent sound
+in the same sense that PCM or even FM synthesis can.
+
+
+As you can see, there are quite a few ways to represent sound. This is
+really only the tip of the iceberg, too. There are dozens more ways of
+representing audio in both analog and digital forms. This was only a
+quick summary of them.
+
+
+Fractal
+HardCore SoftWare - Research Division
+www.hcsw.org
+
+
+ --
+
+ Kris/#to2600 sighs and takes off the goat costume rubbing his bum
+
+ --
+
+
+// -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- //
+Situated Automotive Precipitation Exploit
+// =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= //
+                       (c) diabolik 2002
+                    //-=-=-=-=-=-=-=-=-=-//
+
+
+Preface:  This file explains in detail how to exploit the laziness of 
+traffic attendants in the majority of canadian cities.
+
+Equipment Required:
+
+- Car. Preferably yours.
+- Shovel.
+- Adequate snowfall (at least a couple recent centimeters).
+
+Exploit: (1) Park your car in a seasonal/monthly outdoor parking lot. Any
+lot which requires no payment but only a valid sticker for the current
+month/ year will do. The idea, obviously, is that you don't have one of
+these tickets.
+
+(2) Exit car, shovel in hand.
+
+(3) Lift and as natural-looking as possible, affix a uniform layer of snow 
+onto your windshield using your shovel.  (Side note: if you wake up that
+morning and there's already a layer of snow on your car, to save the risk
+of not layering the snow properly, drive to the parking lot with your head
+out your window, leaving the perfect layer of snow on the windshield.)
+
+(4) If no snowfall has happened in recent times, do not fret.  Its snowy as 
+hell in most canadian cities and if you affix a layer of snow to a couple
+cars parked on either side of yours, the attendant won't think twice about
+removing the snow to check sticker validity. Be sure to not get caught throw-
+ing snow on someone elses windshield, mind you.  This is also good because if
+your car is the only one with snow on it, passerby will presume your car
+hasn't moved for quite some time and therefore it becomes the subject of
+suspicion.  Make sure your car doesn't stand out.  If its obvious that the
+snow applied to your windshield was placed with a shovel, then do a sloppier
+job on the neighbouring cars, and also affix a layer of snow to random vehi-
+cles in the parking lot.
+
+(5) If worried about the attendant removing the snow to check the sticker,
+bring along a thermos (tm) full of water.  Prior to leaving your vehicle,
+pour a thin layer of water on the layer of snow.  When done properly, even
+if the attendant presumes you haven't paid he won't be able to attach the
+parking violation ticket to your wiper and you go scot free.  Remember to
+bring a portable hair dryer to remove the layer of ice before driving (unless
+your destination is another parking lot, in which case make reference to the
+latter half of (3).  If you don't want to purchase a hair dryer for fear of
+being made fun of by the drop-out cashiers at walmart, buy a couple toasters,
+remove the elements, and install them to the underside of the windsheild. Wire
+to car battery.  A switch might be a good idea, as is not touching the coils.
+
+(6) Replace shovel in car.  Bitch about snow while passing traffic attendant's
+booth.
+
+Side Note:
+
+- In more temperate climates, a can of fake snow one buys to spray on fake 
+christmas trees works wonder.
+
+DON'T SPRAY THIS ON YOUR WINDSHIELD!!  Instead, layer your windshield with 
+saran (tm, I believe) wrap, then spray on the fake snow.  Removing the fake
+snow won't require a razor blade, this way.
+
+- Underground parking garages are a little more suspicious to this act. Then
+again most underground parking garages are gated and require id verification or
+a card-access system to gain entry, and therefore are outside the scope of this
+article and the exploit within.
+
+ --
+
+<caesium> i do masturbation in a basement...
+<caesium> want to see my credentials?
+
+ --
+
+			Sprint's System Access Fee
+
+ November 2002
+
+ By: Alan
+
+ I have three month billing ($15.00 or three months, whichever is first) so I
+ didn't know what happened in July until October. A new fee called a "System
+ Access Fee" was on my bill, 2.95 x 3 + tax. When I called to ask what this was
+ because I never authorized any fee I was told I it was a "mandatory" fee for
+ all customers. I was told I was on a plan with a higher per minute rate. The
+ rep told me there existed no plan without this fee. A request for a supervisor
+ was denied. I said to close my account and zero the balance, expecting a come
+ on to make me reconsider, only to have the response, "Certainly, your account
+ is closed, balance is zero, is there anything else I can help you with today?". 
+ I again asked for a supervisor. I was told there were none available. Subsequent
+ calls were the same and I must have heard a different lie why I couldn't talk to
+ a supervisor. I work in an inbound call center myself and I know, first hand,
+ how the lack of supervisors would result in a scene resembling a bad schoolyard
+ at recess in which a teacher is nowhere to be seen. Only two reps whom I spoke
+ with would tell me something resembling truth. Any complaint had to be made to
+ a snail mail address or e-mail address. Reps refused to give me a phone number
+ to call or gave me the very number I already dialed. 
+
+ $9.48 that was zeroed isn't important. It is the barrage of lies that this company
+ has spewed out over the years that burns me, and I really don't think I should let
+ them wash their hands of me this easily.
+
+ --
+
+<o3|idle> fuck i hate e-mail... all i get is porn, when i was 13 i couldn't find it..
+now i can't get rid of it... fux
+<theclone> oh the irony
+
+--
+
+
+ 	       		    -- Credits
+
+    Without the following contributions, this zine issue would be
+  fairly delayed or not released. So thank you to the following people:
+
+        
+       	Alan, CYB0RG/ASM, Diabolik, Fractal, Magma, Phlux, The Clone
+
+
+  -- Shouts:
+
+    CYB0RG/ASM, Wildman, H410g3n, warVamp, The Question, plappy, Phlux,
+    rt, Magma, Hack Canada, The Grasshopper Unit, Flippersmack, soapie, 
+    Breanne, Flopik, dec0de, caesium, oz0n3, Kris, to2600.org, and lastly
+     to everyone and anyone who contributes to the Canadian H/P scene.
+
+
+                             ;.  .;..  ; ;. ;..
+                           ;..   .;..; .;.; .;; ;..
+                      .;..;. .;..;  .;.;...; ;..;..
+                         .;.         A         .;. .;.
+                       ;..   N E T T W E R K E D  ;..
+                        ;..;.. P R O D U C T   ;..;..
+                          .;..;               ;..;..
+                     ;  .;..;.;..   .; .  .;. ..;..
+                    .;..   . .;  ..;..;..;.. .;
+                ;..;.   .;.. . .;.. .;.;.
+              ..;. ..;.. .;.   ;.;..;;..;.;
+                ;.;;..;..      ;.;.; .; .
+                   ;.;..;. .;. ;.;:.;.
+                     ,;....;.
+               .;.;. .;.;
+              .;.;.;
+            .;.;
+            ;..;.
+           .;.;;.; .;. ..; ;. > > > ... If you don't know me and my crew,
+				      we're going to be at a telco near you!
+
