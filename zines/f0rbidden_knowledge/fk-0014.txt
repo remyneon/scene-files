@@ -1,0 +1,715 @@
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==::
+::                   f 0 r b 1 d d e n   k n 0 w l 3 d g e                    ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==::
+::        g o 0 d  p h r 1 d a y  t h 3  t h 1 r t e 3 n t h  i s h 0 o       ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==::
+
+          Volume 3.33 - Issue 14 - Good Friday the 13th, April, 2001 AD
+
+Man with the stick, Editor, Lord and Master of nothing-in-particular: Wizdumb
+The guy with the genital warts, Co-Editting Main-Man, Insane Pervert: Pneuma
+Spanker of Monkeys, Kourier of the 0h-day, Spreader of Ph34r: Jus
+
+Krew this Ishoo: Wizdumb, afx, Pneuma, plunk3tt, acid
+
+ 				  Shout Outz
+				 +=-=--=-=-=+
+#hack @ blabber.net; afx; JC; Kokey; Jus; Pneuma (who is this guy??); Pneuma's
+mom (for an old chiq, she's quite fine); Olmec; k-rad-bob; plunk3tt; d0tslash;
+aKt0r; Aragon; acid; xanex; Gevil; DrSmoke; Opium; Ethereal; Vortexia; Sigma
+
+				  Fuck Youz
+				 +=-=-=-=-=+
+The Letter X; The Colour Yellow; and The Word "zany"
+
+FK14 Soundtraq: Deftones: Around the fur
+		System of a Down: Suite-Pee
+        	Nine Inch Nails: Complication
+                I-F: I do because I couldn't care less
+
+Most demonic music ever: Happy Hardcore. Marilyn Manson cannot compete.
+
+Movies of the Month: "The Big Lobowski", "Suicide Kings", "Happy Gilmore"
+
+Lamest Movie Ever: "The Skulls" - I've heard *so* many people saying it's
+                   cool, and having watched it myself recently, I can only
+                   conclude that every one of them was completely braindead.
+
+Book of the Month: "Operating Systems - Design and Implementation" by
+		   Andrew Tanenbaum & Albert Woodhull (ISBN 0-13-630195-9).
+		   I'm learning a lot from it, probably coz I don't know
+ 		   anything, but if you read FK you're probably a fuqn
+		   cl00bag too, so read the goddamn book. :-)
+
+
+ -//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//-
+                            .o (( Contentz )) o.
+ -//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//-
+
+     <-*-> The Kredz
+     <-*-> Contentz
+     <-*-> Editorial
+     <-*-> Byteware
+
+     <-*-> Reconstructing serialized Java objects from sniffer logs by afx
+     <-*-> Blackhole TCP/UDP behaviour and its effect of nmap by Wizdumb
+     <-*-> More fun with CyberXpress Internet Kiosks by plunk3tt
+     <-*-> The lazy man's "PGPDisk for BSD" by Wizdumb
+     <-*-> More fun with Nedbank ATMs by Wizdumb
+     <-*-> Dumb Motorola T2288 Trick by Wizdumb
+     <-*-> "Privacy and other myths of the 21st century" by Pneuma
+
+     <-*-> Mailbag
+     <-*-> Outro
+
+     -+< b0NuS pHr3e w4reZ!@#$ >+-
+
+     <-x-> Pestilence (SYN Broadcast Toy) by Wizdumb
+     <-x-> Sentinel (Java Exploit Honeypot) by d0tslash
+     <-x-> IIS Hax0ring junk by acid and cartman
+
+ -//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//-
+
+
+ -//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//-
+                       .o (( Editorial by Wizdumb )) o.
+ -//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//-
+
+Yo.
+
+This is, like, the really intellectual and philosophical part of the zine,
+where I, like, explain to y'all my deep and fervent desire to make
+passionate love to a goat's butt and how it makes me feel as a person that
+I have not yet fufilled it.
+
+Let's start from the grassroots. There are two things that make a man:
+
+1) A phallus
+2) The rectum of a goat *on* one's phallus
+
+Unless you have *both* of these - you will never, *never* be a REAL MAN!
+
+While I can't say that I'm completely certain *why* a man is made up of
+these two particular things, as far as philosophical "what makes a man?"
+theories go, I figure it makes as much sense as any.
+
+And, now, dear readers, you can understand the trauma that is my life. The
+neverending suffering that hounds me day and night, the knowledge that I
+am but *half* a man without access to a goat.
+
+Ummmmm... yeap...
+
+Hi all, and welcome to the super-special Good Friday the Thirteenth
+edition of Forbidden Knowledge. I promised you a good issue for release on
+this date and I lied. Get over it.
+
+Umm, like, enjoy the zine, or something.
+Wizdumb.
+
+ -//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//-
+
+
+ -//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//-
+                       .o (( Byteware by Who-ever )) o.
+ -//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//-
+
+[[ Byteware from Wizdumb... ]]
+
+< Things I said I'd do last issue that I didn't  >
+
+Oops. I still haven't gotten that info together for mdma.za.net/dialup or
+done the survey. Gah, I have a full-time job now, leave me alone. I'll do it
+sometime.
+
+-
+
+< The complete ugliness of the ICMP protocol >
+
+ICMP redirects are Satan's tool, and they are *way* too fun to allow on
+your network. fBSD users can sysctl -w net.inet.icmp.drop_redirect to 1 to
+quickly disallow redirects. If you're protecting a whole network, I
+suggest you firewall out all ICMP packets except types 0 (echo reply), 3
+(destination unreachable) and 8 (echo request), as well as imposing a
+bandwidth limit on ICMP (fBSD: sysctl -w net.inet.icmp.icmplim=pps). If you're
+hardcore, just firewall out ICMP completely, because it's an ugly, ugly
+protocol and an insult to your leetness.
+
+-
+
+< What FK wants from you by Wizdumb  >
+
+I don't get paid to make FK or anything, I'm just a loser with nothing better
+to do, so please, any support you can offer the zine is much appreciated.
+We need two things
+
+<*> Articles :(
+
+I get a lot of people asking me "Wizdumb, can I write an article on blah
+blah blah" and I don't get many articles. :-/ You do *not* need to clear
+your ideas with me first - you may write an article on any insane shit you
+like and if it's good/funny/terrible-but-fine-for-FK then we'll publish it.
+
+I like getting articles in vanilla .txt's coz if you give me Word documents
+I just run them through strings to humanize them anyway.
+
+We're dumb as hell, and can't code for shit, so if you want to submit any
+appys we'll publish them if they're even *vaguely* interesting. Programming
+tutorials are also very welcome as long as it's not a "How to write your
+first program in X" type-tutorial, try for something a bit more in-depth.
+
+Fuq, guys, you know we have no standards - just send in your stuff damnit. :)
+
+<*> An ASCII Artist :(
+
+Like, that Cyberphreak guy, like, doesn't love us anymore or something. We
+need some-one who's decent at ASCII art to design us some logos and/or an
+interface for the zine. Anyone?
+
+ -//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//-
+
+
+ -//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//-
+ .o (( Reconstructing Serialized Java Objects from Sniffer logs by afx  )) o.
+ -//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//-
+
+[Introduction]
+
+Firstly, this isn't about instant, root-in-one-pass, breaking and
+entering. This isn't going to let you run out and crack a hundred
+machines the minute you've finished reading... in fact, unless
+you're doing security consulting, or have a specific target in
+mind, it's unlikely that you'll find this of much use.
+
+Still interested? Good.
+
+Briefly, what I'm going to touch on is the potential that the
+widespread use of Java has offered to those of you that find
+themselves on the one of the many corporate nets that use custom,
+networked Java software. Specifically, you'll find a brief
+overview of the reconstruction of serialized Java objects from
+sniffer logs, along with some necessary references.
+
+[Details]
+
+One of the really nice features of Java for developers, is that
+it supports object serialization, allowing you do such funky
+things as saving objects to disk, passing them around the network
+between different machines and generally making a programmers
+life that little bit more simple.
+
+As with any new technology, the potential pitfalls of poorly
+implemented systems are not well known. The end result of this
+is that you may find on some, otherwise secure, networks, that
+this might provide an alternative method of access to company
+systems, or information.
+
+Additionally, the serialization of Java objects also allows
+one to run complex network applications over firewalls and the
+like, by enabling one to send serialized objects via HTTP back
+and forth between various clients, servers, and peers. Again,
+this can occur over the HTTP protocol (NOT just TCP/80), enabling 
+these applications to work over even proxy-level application aware
+firewalls, making this a great method for developing software
+for large corporate networks.
+
+What I'd like to do first, is point you to a reference that will
+describe, in detail, the specifications for the serialization of
+Java objects: 
+http://java.sun.com/j2se/1.3/docs/guide/serialization/spec/serialTOC.doc.html
+
+The packets below were captured and printed using Ethereal. If you
+don't already have it, get it! You'll find it more than useful
+in learning about low-level implementation details for just about
+*ANY* network protocol.
+
+Ok, now that you have the info, here's an example of a Java client/
+server application that uses message objects, and, surprise surprise,
+one of the uses of these objects is to send login requests to the
+server.
+
+The first packet (several deleted for brevity):
+
+Frame 5 (691 on wire, 691 captured)
+Ethernet II
+Internet Protocol
+Transmission Control Protocol, Src Port: 3311 (3311), Dst Port: 80 (80),
+Seq: 1498601, Ack: 410092836
+Hypertext Transfer Protocol
+
+   0  0050 8b62 4dda 00d0 b717 47a1 0800 4500   .P.bM.....G...E. 
+  10  02a5 dfce 4000 8006 1ae2 c0a8 3e33 c0a8   ....@.......>3.. 
+  20  3e1e 0cef 0050 0016 dde9 1871 8524 5018   >....P.....q.$P. 
+  30  2238 df65 0000 aced 0005 7372 0029 6e65   "8.e......sr.)ne 
+  40  742e 6579 6532 6579 652e 6469 7374 696c   t.eye2eye.distil 
+  50  6c65 7230 382e 636f 7265 2e75 6473 632e   ler08.core.udsc. 
+  60  4d65 7373 6167 6501 7182 0d8b 4ff1 2202   Message.q...O.". 
+  70  0004 4900 0b69 6e73 7472 7563 7469 6f6e   ..I..instruction 
+  80  4c00 0269 6474 0012 4c6a 6176 612f 6c61   L..idt..Ljava/la 
+  90  6e67 2f53 7472 696e 673b 4c00 036f 626a   ng/String;L..obj 
+  a0  7400 124c 6a61 7661 2f6c 616e 672f 4f62   t..Ljava/lang/Ob 
+  b0  6a65 6374 3b4c 000b 7365 7373 696f 6e49   ject;L..sessionI 
+  c0  6e66 6f74 002b 4c6e 6574 2f65 7965 3265   nfot.+Lnet/eye2e 
+  d0  7965 2f64 6973 7469 6c6c 6572 3038 2f63   ye/distiller08/c 
+  e0  6f72 652f 7564 7363 2f53 6573 7369 6f6e   ore/udsc/Session 
+  f0  3b78 7000 0000 0474 000e 2331 4c6f 6769   ;xp....t..#1Logi 
+ 100  6e41 7474 656d 7074 7372 0027 6e65 742e   nAttemptsr.'net. 
+ 110  6579 6532 6579 652e 6469 7374 696c 6c65   eye2eye.distille 
+ 120  7230 382e 636f 7265 2e75 6473 632e 4c6f   r08.core.udsc.Lo 
+ 130  6769 6ec3 f739 41c9 f15e 1a02 0005 4900   gin..9A..^....I. 
+ 140  0973 6573 7369 6f6e 4964 4900 0675 7365   .sessionIdI..use 
+ 150  7249 644c 0004 7061 7373 7100 7e00 014c   rIdL..passq.~..L 
+ 160  0006 7365 7276 6572 7400 2a4c 6e65 742f   ..servert.*Lnet/ 
+ 170  6579 6532 6579 652f 6469 7374 696c 6c65   eye2eye/distille 
+ 180  7230 382f 636f 7265 2f75 6473 632f 5365   r08/core/udsc/Se 
+ 190  7276 6572 3b4c 0008 7573 6572 4e61 6d65   rver;L..userName 
+ 1a0  7100 7e00 0178 7000 0000 0000 0000 0074   q.~..xp........t 
+ 1b0  000d 6576 696c 3132 3864 6831 3264 3773   ..evil128dh12d7s 
+ 1c0  7200 286e 6574 2e65 7965 3265 7965 2e64   r.(net.eye2eye.d 
+ 1d0  6973 7469 6c6c 6572 3038 2e63 6f72 652e   istiller08.core. 
+ 1e0  7564 7363 2e53 6572 7665 72e6 3356 4223   udsc.Server.3VB# 
+ 1f0  c12c dc02 0005 4300 0c64 6576 6c5f 6f72   .,....C..devl_or 
+ 200  5f70 726f 645a 0008 6973 5f6c 6f63 616c   _prodZ..is_local 
+ 210  4900 0d73 6572 7665 725f 6e75 6d62 6572   I..server_number 
+ 220  4c00 0761 6464 7265 7373 7100 7e00 014c   L..addressq.~..L 
+ 230  000c 6469 7370 6c61 795f 6e61 6d65 7100   ..display_nameq. 
+ 240  7e00 0178 7000 6401 ffff ffff 7400 3c68   ~..xp.d.....t.<h 
+ 250  7474 703a 2f2f 6465 7673 6572 766c 6574   ttp://devservlet 
+ 260  2e65 7965 3265 7965 2e6e 6574 2f73 6572   .eye2eye.net/ser 
+ 270  766c 6574 2f47 6f6c 6465 6e44 6973 7469   vlet/GoldenDisti 
+ 280  6c6c 6564 5365 7276 6c65 7474 0014 476f   lledServlett..Go 
+ 290  6c64 656e 2048 616e 6473 6861 6b65 2044   lden Handshake D 
+ 2a0  6576 7400 0d61 646d 696e 6973 7472 6174   evt..administrat 
+ 2b0  6f72 70                                   orp              
+
+Ok, the first thing you are going to look for is 0xACED. This
+is the magic stream indicator. In most cases, the proceding word
+will be 0x0005, which is the version number.
+
+Following this will be the serialized object, which in basic
+format, is usually a description of the object, followed by the
+associated data.
+
+The first bye of interest is 73, which is the object indicator.
+(Java supports the serialization of simple data types, in
+addition to complex classes).
+
+This is followed by 72, the CLASSDESC marker, and a 16 bit int
+indicating the length of the description to follow, in this case
+0x0029.
+
+The next 0x0029 bytes will contain the descriptor, in this case
+"net.eye2eye.distiller08.core.udsc.Message".
+
+After this we have a flag byte, indicating whether the object
+in question is serializable, externalizable or none of the above.
+In this case we have 0x01, SC_WRITE_METHOD set.
+
+Now the basic format of each element is a marker ('L' for object,
+'I' for integer, 'B' for byte, etc), followed by the 16bit length
+indicator of the description of that element, and so on and so
+forth until we reach the TC_NULL indicator (0x70).
+
+Noticing some interesting elements in this object: sessionId,
+userId, pass, userName... anything looking interesting yet?
+
+Ok, now proceding out the actual data associated with this object,
+we start seeing some data. The 0x74 (t) that occurs at 0x01AF marks
+the beginning of a string. We see that the string is 0x0d long, and
+can grab out the string 'evil128dh12d7'. Noting back to the beginning,
+this is the string associated with 'pass'.
+
+Carrying on after this we hit 0x73 's' - indicating another object.
+This is followed by 0x72 'r' - the classdescription, and same format
+of data as for the class that we are already disecting.
+
+We can quickly build up a list of elements and their associated entities
+for this nested object, and then carry on with the elements of the
+parent object.
+
+If you noted above, the last object to be referenced prior to the 
+TC_NULL marker, was userName (see 0x0195 to 0x01A4). By the way, object
+references are usually created from 0x007E0000, so if you notice
+the bytes 0x007E????, chances are you've spotted an object reference.
+
+Well, rather than scanning through everything, we look to the end of
+the object, noting to 0x70 'p' TC_NULL terminator, and work our way
+back to spot the string associated with userName - 'administrator'.
+Yay! :)
+
+Unfortunately for us, if we bothered capturing the two way communication,
+the response below from the server would show us that that particular
+login attempt had failed:
+
+Frame 5 (283 on wire, 283 captured)
+Ethernet II
+Internet Protocol
+Transmission Control Protocol, Src Port: 80 (80), Dst Port: 3306 (3306),
+Seq: 410086118, Ack: 1499199
+Hypertext Transfer Protocol
+
+   0  00d0 b717 47a1 0050 8b62 4dda 0800 4500   ....G..P.bM...E. 
+  10  010d 3a47 4000 8006 c201 c0a8 3e1e c0a8   ..:G@.......>... 
+  20  3e33 0050 0cea 1871 6ae6 0016 e03f 5019   >3.P...qj....?P. 
+  30  1e8f 283d 0000 aced 0005 7372 0029 6e65   ..(=......sr.)ne 
+  40  742e 6579 6532 6579 652e 6469 7374 696c   t.eye2eye.distil 
+  50  6c65 7230 382e 636f 7265 2e75 6473 632e   ler08.core.udsc. 
+  60  4d65 7373 6167 6501 7182 0d8b 4ff1 2202   Message.q...O.". 
+  70  0004 4900 0b69 6e73 7472 7563 7469 6f6e   ..I..instruction 
+  80  4c00 0269 6474 0012 4c6a 6176 612f 6c61   L..idt..Ljava/la 
+  90  6e67 2f53 7472 696e 673b 4c00 036f 626a   ng/String;L..obj 
+  a0  7400 124c 6a61 7661 2f6c 616e 672f 4f62   t..Ljava/lang/Ob 
+  b0  6a65 6374 3b4c 000b 7365 7373 696f 6e49   ject;L..sessionI 
+  c0  6e66 6f74 002b 4c6e 6574 2f65 7965 3265   nfot.+Lnet/eye2e 
+  d0  7965 2f64 6973 7469 6c6c 6572 3038 2f63   ye/distiller08/c 
+  e0  6f72 652f 7564 7363 2f53 6573 7369 6f6e   ore/udsc/Session 
+  f0  3b78 7000 0007 e574 000e 236c 6f67 696e   ;xp....t..#login 
+ 100  5265 6a65 6374 6564 7400 0f4c 6f67 696e   Rejectedt..Login 
+ 110  2052 656a 6563 7465 642e 70                Rejected.p      
+
+
+Appendix A of the specifications should give you other ideas of
+the dangers inherent in this protocol, e.g. modification of
+in-transit data, session hijacking (at a Java application level as
+well as TCP level), sending objects containing your own code
+spoofed so as to be from a 'trusted' source, et al. If you can get
+a system to use you as a transparent proxy, a nice tool to play
+with is ELZA from http://www.stoev.org.
+
+Have fun ;)
+
+ laterness
+  -=afx=-
+
+ -//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//-
+
+
+ -//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//-
+  .o (( Blackhole TCP/UDP behaviour and its effect on nmap by Wizdumb )) o.
+ -//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//-
+
+FreeBSD has certain variables in the kernel which can be modified by the
+super-user with sysctl (I have not been able to check other BSDs yet, but
+it's likely that they have similar functionality).
+
+The net.inet.tcp.blackhole and net.inet.udp.blackhole values determine wether
+the machine should send RSTs to SYNs sent to closed ports (TCP) and wether it
+should send ICMP error messages to UDP packets sent to closed ports (UDP).
+
+We turn our machine into a blackhole like so...
+
+# Now
+[root@pentacle]# sysctl -w net.inet.tcp.blackhole=2
+net.inet.tcp.blackhole: 0 -> 2
+[root@pentacle]# sysctl -w net.inet.udp.blackhole=1
+net.inet.udp.blackhole: 0 -> 1
+# And forever
+[root@pentacle]# echo net.inet.tcp.blackhole=2 >> /etc/sysctl.conf
+[root@pentacle]# echo net.inet.udp.blackhole=1 >> /etc/sysctl.conf
+
+This breaks nmap quite nastily.
+
+First of all, this changes your OS fingerprint, and nmap doesn't recognise
+your OS. Only SYN scans work (and they work really slowly), UDP scans get
+slower and slower, FIN, NUL, and XMAS scans report all TCP ports as filtered
+or closed, and OSScans whine for ages, and then print each line of the OS
+fingerprint 2 or 3 times, or only print a fragment of the print.
+
+Neat, eh?
+See `man blackhole` for more details of this functionality.
+
+ -//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//-
+
+
+ -//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//-
+      .o (( More fun with CyberXpress Internet Kiosks by plunk3tt )) o.
+ -//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//-
+
+Steps to get root and extend time limit:
+
+1. get R5 and deposit it (we must still pay the initial amount <DAMN>)
+2. find a site that requires basic authentication
+    - i used the official fk site, how ironic! :) -
+    [Wizdumb: You said "ironic". I now have no choice but to kill you :P ]
+3. click on the site and it will open a new internet explorer! without
+   cyberXpress modifications! just press cancel and stop.
+4. in address bar type c:\  and voila! Ro0t <wo0p>!
+5. you are automatically logged in as a administrator! DUMB
+6. open regedit.exe goto HKEY_CURRENT_USER\software\CyberXpress\time
+   and in the timelimit entry field you will see somtn like 320
+7. wait till your time runs out, that means timelimit = 1.
+   you will notice that the keyboard has been locked...
+   but you will still be in explorer.
+   now find a number somewhere (preferably a high # like 5 or so)
+   and copy it.
+   paste it numerous times in the timelimit field in the regestry!
+   somtn like 555555 this means 55hours 55min 55sec!
+8. now goto taskmngr.exe in c:\winnt\system32\ and you will
+   see cyberXpress running
+   end task cyberXpress and wait a minute or two...
+   the system should reboot by itself! :P
+   and when it has started enjoy your 55 hours of free internet.
+9. as you will notice anyting can be done like
+   telnet,ftp,free printing :P
+10. the cyberXpress will pop up so every 20min...
+    to make sure your still online
+    because your not using their browser.
+    if this happens simply click on the auth site
+    a number of times to get it at the top again. :)
+
+there are a few other things i've also discovered.
+if you are in the cyberXpress browser.
+
+press:
+ctrl+shift+F6  .... cyberXpress debug logon
+ctrl+shift+F10 .... cyberXpress cashUp restart
+ctrl+shift+F11 .... cyberXpress cashUp logon
+ctrl+shift+F12 .... cyberXpress administrator logon
+
+i've found some passwords in c:\cyberXpress\text\cashuppw.txt and in
+HKEY_CURRENT_USER\software\cyberXpress\admin
+but i phEaR it Is Ele3t0 xor encryption or smtn uncrackable :P
+
+the password field in the dialup is saved in so with any tool like
+snadboy or smtn you could easily get it! <whoop>
+
+if you decide to publish this lame exploitation of goverment and corporate
+shit that try to rob us of our basic neccesities and even letting us pay for
+it... then i would appreciate it if you could just mention my name (Plunk3tt).
+
+;p cheers!
+
+[ Amendment by Wizdumb:
+
+I'm not sure about the "//" bug I described last issue, but CyberXpress
+definately haven't fixed the HTTP basic authentication bug described by
+plunk3tt in this article. What they have done is blocked www.mdma.za.net/* on
+their kiosks because it's what plunk3tt used to cause the error. Of course,
+CyberXpress are forgetting the other few million sites that will cause the
+same error, but I don't care, the fact that my domain is already banned on
+ZA's first internet kiosks secretly makes me feel cool. ;-P ]
+
+ -//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//-
+
+
+ -//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//-
+         .o (( The lazy man's "PGPDisk for FreeBSD" by Wizdumb )) o.
+ -//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//-
+
+I wanted to have a small cryptographic filesystem on my BSD box, so I
+could feel all leet n stuff, but I hadn't seen any kernel hacks for crypto
+fs's for fBSD anywhere, and even if *could* find one, it seemed a bit gay to
+bloat my kernel for a crypto-fs that I'm not gonna use that often, and I
+fuqn hate modules.
+
+So this is the dodgy stupid hack I did using PGP and the VNode pseudo-device.
+You can do it too, coz you probably don't know better either... ;-P
+
+# (First make sure you have pseudo-device vn configured in yer kernel)
+# Create a Empty 1MB (or whudeva size) file
+dd if=/dev/zero of=whatever bs=1k count=1k
+# Configure the VNode pseudo-device
+vnconfig -s labels -c vn0
+# Give it a label
+disklabel -r -w vn0 auto
+# Make a filesysten
+newfs vn0c
+# Unconfigure the device (the script will do it next time)
+vnconfig -u
+# Encrypt the file
+pgp -c whatever -o whatever
+
+Now adapt the two shell scripts below to have the right paths and
+filenames n stuff and get going... (/usr/overdrive is the mount point,
+/usr/.od.crypt is the encrypted fs and /usr/.od.nocrypt is what it is when
+it's mounted. I figure it doesn't matter that the filesystem is
+unencrypted when open coz only the owner (root) can read it anyway and
+it's securely wiped afterwards.)
+
+#cmount.sh
+#!/usr/local/bin/bash
+pgp -d /usr/.od.crypt -o /usr/.od.nocrypt
+rm -f /usr/.od.crypt
+vnconfig -s labels -c vn0 /usr/.od.nocrypt
+mount /dev/vn0c /usr/overdrive
+#eof
+
+#cumount.sh
+#!/usr/local/bin/bash
+umount /usr/overdrive
+vnconfig -u vn0
+pgp -c /usr/.od.nocrypt -o /usr/.od.crypt
+pgp -w /usr/.od.nocrypt
+#eof
+
+I change filenames coz PGP prompts to ask if it should overwrite otherwise,
+which is annoying, and for some reason if I echo'd "y" and |'d it thru it
+didn't listen. This is far from the ideal or most sophisticated
+cryptographic fs solution, but it's probably the one that took the shortest
+amount of time to implement, and thats a hack in its own right. ;)
+
+PS. Sorry guys, woulda used GPG, but I don't have it on this box. But if you
+    have half a brain you should be able to port this in under 30 seconds 
+    and if you have more than half a brain you'll realise this is stupid and
+    you don't want to do it, so I don't care. :)
+
+ -//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//-
+
+
+ -//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//-
+     .o (( More fun with Nedbank's Nedassist Terminals by Wizdumb )) o.
+ -//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//-
+
+This is a bug which Vortexia pointed out to me recently, and told me not
+to release because it's like, his sekrut leet0 hax0r triq or summing.
+However, since I remembered Gevil showing me this same trick back in 1998,
+and since intellectual property is a lie (esp. with something like this),
+I'm publishing it anyway. My apologies Vorty. Alo Gevil! Erm. *Ahem*
+
+There are two unmarked buttons on the Nedassist terminal - obviously these
+have to do something. Tap the middle of the screen twice, then the left
+unmarked button, then the right unmarked button. You should be thrown into
+a menu that looks like this...
+
+() Card Encoding
+() Print Journal
+() Save Journal to Disk
+
+The card encoding option is particularly interesting, and I've seen a *lot*
+of *very* non-standard behaviour from these terminals in the few years
+they've been out so I'm sure you freaks can find something fun to do. Just
+don't be an idiot, okay?
+
+ -//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//-
+
+
+ -//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//-
+               .o (( Dumb Motorola T2288 Trick by Wizdumb )) o.
+ -//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//-
+
+The Motorola T2288's phonebook has a "Prevent Access" feature which, given
+the security code, will prevent viewing or modifying the phonebook, reporting
+"No Names Stored" and "Unavailable" respectively, until you turn the
+feature off.
+
+If you don't have the security code, but you have the PIN2 code, you can
+get this exact same behaviour by setting up a fixed dialling entry to a
+number between 1-10. The phonebook magically disappears, and then
+reappears when you turn fixed dialling off.
+
+ -//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//-
+
+
+ -//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//-
+      .o (( "Privacy and other myths of the 21st century" by Pneuma )) o.
+ -//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//-
+
+By the end of 2001 the South African banks, under the governments suggestion,
+will no longer accept cash cheques. The reasons given for this new system is
+that not only is the payer at risk from fraudulent cheques and the theft of a
+cash cheque is untraceable, but also the payee will carry large amounts of
+money on them, which is not a very good idea if you live in South Africa.
+
+The solution, all salaries and other money being paid out will now only be in
+cash or non-transferable cheques. The fore yet again presents the problem of
+carrying large amounts of money around, an average sized company of 500 people
+(say like one of the many mines dotted around South Africa) getting paid R3500
+(about $450 US, the minimum wage in South Africa) will have to have
+approximately R1,750,000 ($ 218,750 US) a month, this times the amount of
+companies in South Africa is quite substantial.
+
+The alternative, non-transferable cheques, means that you need a bank account.
+Now perhaps a few of you are wondering what my point is, I mean, don't we all
+have bank accounts? Fact is, less than a third of South Africa's population
+have bank accounts, for a person working in a rural area a bank account is
+unthinkable.
+
+Also consider that every transaction through a bank account is taxed thrice,
+Deposit Tax, Interest Tax and Withdrawal Tax. Another factor to take into
+account is Privacy, the big P word that many people tend to ignore, in every
+decent country, and that includes South Africa - believe it or not - gives
+citizens the basic right to privacy. Not many people pay attention to this
+right, as they feel that either there is nothing they as an individual can do
+as everything we do or say is monitored anyway or that if they have nothing
+to hide why should they care. If you feel either of these 2 ways about
+privacy, please stop reading this article for now and do homework assignment
+one found at the bottom of this article.
+
+For those of you who advocate privacy and respect and protect your right to
+it, you may continue reading for now, there is no need to punish yourself :P
+
+Consider now, that if you have a bank account your entire transaction history
+will have been recorded, giving the government the tool to monitor all
+citizens of the country, and infringing our right to privacy. For an example
+of the power that banks control, try buying anything on long term whilst in
+debt to a single bank, all the banks are connected, ie. centralised account
+information pooling. Your entire life is documented in some basement facility,
+every item of clothing you pay for by card, how much cash you spend a month,
+where you eat out. Consider that insurance and medical aid companies are also
+bank controlled, this means that every illness you have had is in the same
+records, every burglary, every accident. The trail of paper you leave behind
+while you live your life is all being nicely documented by some government
+clerks who spread your gynaecologists history around that basement for
+anecdotes, who delve in your personal life like some rat sniffing out food in
+a trash can. One thing is for certain, you are no longer a Private Person, you
+are now a state controlled entity.
+
+This entire article would be wasted if I did not offer a solution, no mater
+how flawed my advice may be, I will bestow it upon you anyway, for the Privacy
+conscious, the fighters of freedom and the people who don't want others to
+know how many donuts they consume, homework assignment 2 is for you.
+
+Homework Assignment One:
+
+Firstly go to your system admin at your work place and ask if he/she reads
+your personal e-mail. Either way your admin answers, the answer is really yes,
+[Wizdumb: Uuummmm. ] now consider that this person is reading your e-mail and
+ask if you are comfortable with this. Now send an e-mail to your own address
+from your work, describing your sex life in sordid detail, your every fear and
+thought that you feel about your sex life, and your entire sexual past. Now
+print out the e-mail, take it to the photostat machine, make a few hundred
+copies and hand it out to all your colleagues and associates, your parents and
+siblings, your extended family and your significant other. Next install a
+glass bathroom facing your street and only use that. Photostat your bank
+records every month and hand them out to the above people, include how much
+debt you are in, how much money you spend on drugs, alcohol, pleasure, sweets
+and every other habit you may have. Get a copy of your medical history,
+including psychological, and staple these photostats to the others whilst
+handing them out. Next record every telephone conversation you have and send
+copies of these tapes to everyone who also got the Photostat from above.
+Finally I want you to set up webcams in every part of your house and stream
+them over the internet. Send me copies of all these things as well as the
+internet address where I can view your everyday pitiful existence. Now claim
+that privacy isn't an issue, if you get through this assignment and still
+think you have nothing to hide than you are a sorry excuse for a human being
+and scum exhibitionist. [Wizdumb: ;p ]
+
+Homework Assignment Two:
+
+Open up an offshore bank account, I suggest Swiss or another neutral country,
+it is fairly simple to do these days what with the internet and all, and not
+that expensive for privacy. Next transfer all your current money to this bank
+account and close the local bank accounts with a letter explaining that you
+are doing this as banks don't ensure privacy. Next speak to your employer
+about making direct account transfers online or telephonically into your
+offshore account. Please also try find the time to right to the constitutional
+court detailing your disagreement with the infringement of our basic human
+rights. Lastly, congratulate yourself for advocating your rights.
+
+ -//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//-
+
+
+ -//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//-
+                              .o (( Outro )) o.
+ -//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//-
+
+Kill the girl. Bring me the wookie.
+
+ -  -  - -  - -- - - -
+- - - - - - - - - - - - - - - -
+mailto:subz@emi.za.net     - - - -- - - - phear.
+http://www.mdma.za.net/fk  - - - - - - - - - ruzpek.
+- - - - - - - - - - - - - - - - - -
+
+ -//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//-
+         Forbidden Knowledge: Mass Distraction World-Wide since 1998
+ -//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//-

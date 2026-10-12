@@ -1,0 +1,404 @@
+<html>
+<body bgcolor="#000000" text="#CCCCCC">
+<pre>
+
+.:==--::--==--::--==--::--==--::--==--::--==--::--==--::--==--::--==--::--==:.
+::                     f0rbidden knowledge issue one                        ::
+`:==--::--==--::--==--::--==--::--==--::--==--::--==--::--==--::--==--::--==:'
+
+.:--==--==--==--==--==--==--==-->> Contents of This Issue <<--==--==--==--==:.
+::                                                                          ::
+:: -=>Welcome<=-                                                            ::
+::						                            ::
+:: (x) Introduction .......................................... The Editor   ::
+:: (x) Disclaimer ............................................ The Editor   ::
+:: (x) Mail to f0rbidden knowledge ........................... The Readers  ::
+::									    ::
+:: -=>Phreaking Inpho<=-                                                    ::
+::									    ::
+:: (x) Vodacom Voicemail Hacking ............................. Wyzewun      ::
+:: (x) Phree calls on South African Coin Phones .............. Gevil        ::
+:: (x) Call Fowarding Restriction Workaround ................. Wyzewun      ::
+::									    ::
+:: -=>Hacking Inpho<=-							    ::
+::									    ::
+:: (x) How to Hack an Access Database ........................ Wyzewun      ::
+:: (x) Hacking Nedbank is Phun ............................... Gevil        ::
+:: (x) How to hack a Geocities-type Web Page ................. Wyzewun      ::
+::									    ::
+:: -=>Misc Inpho<=-							    ::
+::									    ::
+:: (x) Phun with Windoze and ASCII ........................... Marc Satur9  ::
+:: (x) Fundamentals of Electronic Lockpicking ................ Wyzewun      ::
+:: (x) Phucking over SABC is Phun ............................ Wyzewun      ::
+:: (x) How to steal a bus .................................... Wyzewun      ::
+::									    ::
+:: -=(Parting Words and Credits)=-		      			    ::
+::                                                                          ::
+`:==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==:'
+
+
+.:--==--==--==--==--==--==-->> Introduction by the Editor <<--==--==--==--==:.
+::                                                                          ::
+:: Greetings Earthling...                                                   ::
+::                                                                          ::
+:: We've started f0rbidden knowledge as an attempt at an E-Zine that covers ::
+:: all aspects of today's underground culture, primarily hacking, phreaking ::
+:: and mindless anarchy. ;-)                                                ::
+::                                                                          ::
+:: The SoS (Sons of Satan/Saviours of Systems) are the primary force behind ::
+:: this Zine and I would not have been able to make this without having such::
+:: a brilliant team supporting me.					    ::
+::                                                                          ::
+:: The project is still in the experimental phase, but after this issue I   ::
+:: should have a good idea of what the future of the zine is gonna be like. ::
+:: I would've liked to include *much* more in this issue, but I figured     ::
+:: that I should rather release thise one, so as to get more awareness of   ::
+:: the zine and possibly, a few articles for Issue Two.			    ::
+::								            ::
+:: Of course, it's hard to work on a zine all by yourself, without the      ::
+:: help of the readers. Anybody who can offer articles or distribution      ::
+:: sites, please mail me at wyze1@syrex.co.za - I need all the help that    ::
+:: I can get. As yet, I don't know when Issue Two will be released, but it  ::
+:: will *definately* arrive. It will just come faster if the readers help   ::
+:: out in any way they can. ;-)                                             ::
+::                                                                          ::
+:: Until next time...                                                       ::
+:: Wyzewun                                                                  ::
+::                                                                          ::
+:: wyze1@syrex.co.za                                                        ::
+:: www.posthuman.za.net                                                     ::
+::                                                                          ::
+`:==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==:'
+
+
+.:--==--==--==--==--==--==--==--==>> Disclaimer <<--==--==--==--==--==--==--:.
+::									    ::
+:: The SoS take no responsibility for how the information contained within  ::
+:: this document is used. It is intended purely for educational purposes    ::
+:: only and we do not endorse any illegal activity which could be inspired  ::
+:: by this material. It is worthy of note for this issue that we do not     ::
+:: bear *any* grudges against Nedbank, Vodacom or *any* Free Web Space      ::
+:: Providers and that all information contained within which could harm     ::
+:: these companies was intended to be purely theoretical and not ever used. ::
+::									    ::
+`:==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==:'
+
+
+.:--==--==--==--==--==--==--==--=>> Mail from the Readers <<--==-==--==--==-:.
+::                                                                          ::
+:: Erm... yeh, this section is kinda pointless, considering that this is    ::
+:: issue number one and we obviously have no mail, but I just wanted to be  ::
+:: sure that you ppl know that this section _is_ here and _will_ contain    ::
+:: all (interesting) mail from the readers. ;-)                             ::
+::                                                                          ::
+`:==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==:'
+
+
+\\..........................................................................//
+::==--::--==--::--==--::--==--::--==--::--==--::--==--::--==--::--==--::--==::
+::                           Phreaking Stuff                                ::
+::==--::--==--::--==--::--==--::--==--::--==--::--==--::--==--::--==--::--==::
+//..........................................................................\\
+
+
+.:--==--==--==--==--==-->> Vodacom VMB Hacking by Wyzewun <<--==--==--==--==:.
+::                                                                          ::
+:: Chapter One: Sending Free Voice mail                                     ::
+::                                                                          ::
+:: A while ago, some-one discovered a bug which would allow you to send     ::
+:: free voice mail from any vodacom phone. Let's say you wanted to send     ::
+:: mail to (082) 123-4567, you would dial "0821211234" and when connected,  ::
+:: press "0821234567" and you would be put through to their mailbox for     ::
+:: free! You could also press "#" and their number to remotely access their ::
+:: VMB for free (If you knew the password)                                  ::
+::                                                                          ::
+:: Vodacom, unfortunately fixed this bug, so we can't send free voice mail  ::
+:: anymore, right? Wrong. Wyzewun discovered a workaround for this... Stop  ::
+:: using your Voice Mail for 28 days - it will expire. Now, dial 121,       ::
+:: press # to access anybodys VMB for phree - and then hack yourself a VMB  ::
+:: that can *send* VoiceMail. Yes, it is easy, and VMB's with these         ::
+:: privaleges are common. You will see as soon as you get in2 VMB hacking   ::
+::                                                                          ::
+:: Chapter Two: Hacking any VoiceMailBox                                    ::
+::                                                                          ::
+:: Right, so how do I hack a Voice Mail Box? There are lots of ways that    ::
+:: you can, a brief list follows...                                         ::
+::                                                                          ::
+:: 1) The best way is to enable the VMB of someone who isn't using their    ::
+::    voicemail and has caused their box to expire                          ::
+::                                                                          ::
+:: 2) The default password is "1111" - most idiots will not change this.    ::
+::    Also, try stupid things like "1234" and stuff ;-)                     ::
+::                                                                          ::
+:: 3) Phone up Vodacom and ask them to reset that VMB because you forgot    ::
+::    your password. Then get in, and make everything back to normal before ::
+::    the user notices. This is easier than it sounds, and it's the         ::
+::    method I used to get in2 a VMB with administrative privileges over    ::
+::    the Vodacom VMB system!                                               ::
+::                                                                          ::
+:: Chapter Three: Fare Ye Well                                              ::
+::                                                                          ::
+:: Thats all for this installation of the VodaPhreak Philez, but as soon as ::
+:: Vodacom fix all these bugs and I find new ones I'll create a second      ::
+:: edition. ;-) I might also include a crack for the Vodago Algorythym.     ::
+::                                                                          ::
+:: All comments, phreaks or just mail to say hi should be addressed to me   ::
+:: at wyze1@syrex.co.za - Have Phun Kidzz                                   ::
+::                                                                          ::
+`:==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==:'
+
+
+.:--==--==--==--==>> Unnamed SA Phreaking Teqneek by Gevil <<--==--==--==--=:.
+::                                                                          ::
+:: Right, this phreak is based on a German Phreaking Teqneek, but has much  ::
+:: more effect. Right, now here's how to do it in step-by-step form...      ::
+::                                                                          ::
+:: 1) Find an Old Public Coin Phone on the Oldest exchange you can (It will ::
+::    not work on new exchanges - or new phones for that matter)            ::
+::                                                                          ::
+:: 2) Phone the public phone from the public phone next to it or your cell  ::
+::    phone. Hang up the phone that's calling and quickly answer the other  ::
+::    one. It will say "Incoming Call: 10 minutes left" or whatever even    ::
+::    though you are not connected.                                         ::
+::                                                                          ::
+:: 3) Using a Tone Dialer, dial whatever number you want to call. On a new  ::
+::    exchange, or a card phone, it will ring, but disconnect as soon as    ::
+::    they pick up. On an old exchange... phone anyone in the world ;-)     ::
+::                                                                          ::
+:: All comments should be mailed to Gevil of the SoS at gevil@hotmail.com   ::
+::                                                                          ::
+`:==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==:'
+
+
+.:--==--==>> Vodago Call Fowarding Restrictions go b00m by Wyzewun <<--==--=:.
+::									    ::
+:: Well, Vodacom have done it again. Because Vodago subscribers use the     ::
+:: lame, cheap, pay-as-you-go system, they do not allow calls to be fowarded::
+:: to anywhere other than your VMB on the Vodamail system. I have a Vodago  ::
+:: phone and this annoyed me, but fortunately, I found a very quick, very   ::
+:: easy workaround for this call fowarding tyranny. ;-)                     ::
+::									    ::
+:: Let's say I want to foward my calls to (011) 435-1740 when my phone is   ::
+:: engaged. Instead of typing in "0114351740" like Vodacom wants me to,     ::
+:: I'll type in "+27114351740" - And there you are - The network accepts it ::
+::									    ::
+:: Unfortunately, it won't let you foward *all* your calls. If you want     ::
+:: them to all be fowarded, you'll have to set it as conditional and turn   ::
+:: your phone off. Still, it's a nifty little trick which may come in handy ::
+:: one of these days...							    ::
+::									    ::
+`:==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==:'
+
+
+\\..........................................................................//
+::==--::--==--::--==--::--==--::--==--::--==--::--==--::--==--::--==--::--==::
+::                            Hacking Stuff                                 ::
+::==--::--==--::--==--::--==--::--==--::--==--::--==--::--==--::--==--::--==::
+//..........................................................................\\
+
+
+.:--==--==--==--==>> Hacking an Access Database by Wyzewun <<==--==--==--==-:.
+::                                                                          ::
+:: A friend of mine, Shaddow Skinhead, recently had to create an Access     ::
+:: Database for his University and we played around quite a bit with the    ::
+:: Security Issue, only to find that it is near to impossible to have a     ::
+:: Secure Access Database. Here is a list of the three major security flaws ::
+:: in the MS Access system...                                               ::
+::                                                                          ::
+:: 1) MS Access automatically creates a guest-guest logon which cannot be   ::
+::    deleted. Note that although it cannot be deleted, it can have a       ::
+::    password set for it.                                                  ::
+::                                                                          ::
+:: 2) You will find settings like "PasswordRequired" in the .ini files for  ::
+::    Access. Create your own .ini file without these settings and then run ::
+::    msaccess /ini myphile.ini - Look Mom! No Password!                    ::
+::                                                                          ::
+:: 3) If you can run WrkGrp.Exe you can specify new Security Settings :-)   ::
+::                                                                          ::
+:: Anybody else know of any wholes in MS-Access Security? If you do, mail   ::
+:: me at wyze1@syrex.co.za                                                  ::
+::                                                                          ::
+`:==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==:'
+
+
+.:--==--==--==--==--==-->> How to Hack Nedbank by Gevil <<==--==--==--==--==:.
+::                                                                          ::
+:: >Yes, Gevil, I know you didn't want me to include this article in the    ::
+::  first issue of FK, but I needed some more articles coz what we had at   ::
+::  the moment was pretty sad. So here it is... The Nedbank ATM Hack!<      ::
+::									    ::
+:: Ever seen one of those Nedbank ATM's with the Touch Screen Terminals and ::
+:: the 3D sequence of the card going in2 the machine? Did You know that they::
+:: run Windoze NT? And anything running Windoze, is waiting to be fuct with,::
+:: right? So here it is... The Code to get into the Employee menu of one of ::
+:: those ATM's...							    ::
+::									    ::
+:: Press Cancel Once							    ::
+:: Press Proceed Twice							    ::
+:: Enter Ten Random Digits						    ::
+::									    ::
+:: And that's all there is to it. You'll have a couple of options which are ::
+:: pretty kewil, but the SoS are hoping to release ways to get in2 other,   ::
+:: cooler options. Oh yeh, and don't mess around too much, it's possible to ::
+:: cause a Windows NT Blue Screen Of Death, which doesn't look good in a    ::
+:: crowded place. ;-)							    ::
+::                                                                          ::
+`:==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==:'
+
+
+.:--==-->> How to hack a Geocities-type Web Page by Wyzewun <<--==--==--==--:.
+::                                                                          ::
+:: Do you ever wish you could hack those stupid, self-gratifying Web pages  ::
+:: at places like Angelfire, Geocities and Tripod. Well you can, through    ::
+:: social engineering - and it's easier than you would think. I thought of  ::
+:: this method and tested it out on my own Angelfire page, and it worked    ::
+:: fine, and should work at other places too.                               ::
+::                                                                          ::
+:: Right, so let's say there's a lame page which we would really like to    ::
+:: kill at www.angelfire.com/ok/daniel-is-so-cool that looks something like ::
+:: this...                                                                  ::
+::                                                                          ::
+:: "Hi, my name is Daniel and I am a computer genius. All sexy women who    ::
+::  want my body can e-mail me at daniel@aol.com"                           ::
+::                                                                          ::
+:: Needless to say, Daniel deserves to die. So, we fire up our anonymous    ::
+:: mailer and send mail to webmaster@angelfire.com that appears to be from  ::
+:: daniel@aol.com reading something like this...                            ::
+::                                                                          ::
+:: "Hi, I have an e-mail only account at present, so I can't get onto the   ::
+::  web to change the e-mail address for my account. My Angelfire page is   ::
+::  www.angelfire.com/ok/daniel-is-so-cool, could you please change my      ::
+::  e-mail address to daniel@beer.com"                                      ::
+::                                                                          ::
+:: And as you've guessed by now, we've signed up for daniel@beer.com to     ::
+:: foward to *our* e-mail address. Now, we sit and wait until they change   ::
+:: the address, at which point we will be mailed our *new* password - thank ::
+:: you very much, Angelfire! :-)                                            ::
+::                                                                          ::
+:: But please, guys, don't hack too many pages this way, lest it stop       ::
+:: working. Just nail lame people who won't know what the phuck hit them    ::
+:: and will never say anything.                                             ::
+::                                                                          ::
+`:==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==:'
+
+
+\\..........................................................................//
+::==--::--==--::--==--::--==--::--==--::--==--::--==--::--==--::--==--::--==::
+::                         Misc. Stuffenhauzen    		            ::
+::==--::--==--::--==--::--==--::--==--::--==--::--==--::--==--::--==--::--==::
+//..........................................................................\\
+
+
+.:--==--==--==--==--==>> Phun with Windoze by Marc Satur9 <<--==--==--==--==:.
+::                                                                          ::
+:: Neither Windows nor DOS can handle a long file name that ends in the     ::
+:: carraige return character. It refuses to read or write to them. Here is  ::
+:: a brief overview of the Carraige Return Character...                     ::
+::                                                                          ::
+:: ASCII Value: CR                                                          ::
+:: Terminal Value: Ctrl+M                                                   ::
+:: Hex Value: 0D                                                            ::
+::                                                                          ::
+:: So if you make a nice little C++ proggy to create 200 meg files on       ::
+:: some-ones HD with names like "slugpigyak" they are pretty much phuct.    ::
+::                                                                          ::
+:: Other ASCII characters which Windoze cannot handle are Alt+254 and       ::
+:: Alt+255 - If you created a directory with these ASCII characters Windoze ::
+:: would not allow any attempts to read or write to that directory because  ::
+:: it "does not exist" - When you want to get back in, just rename the      ::
+:: directory under DOS with the right ASCII sequence. ;-)                   ::
+::                                                                          ::
+:: Any questions or comments about the first teqneek should be mailed to    ::
+:: Wyzewun of the SoS at wyze1@syrex.co.za / Queries about the second       ::
+:: teqneek should be mailed to Marc Satur9 of the SoS at satur9@beer.com    ::
+::                                                                          ::
+`:==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==:'
+
+
+.:--=>> Fundamentals of Electronic Lockpicking by Wyzewun <<--==--==--==--==:.
+::                                                                          ::
+:: Allryte, first of all, this won't work on any High-Security doors, but   ::
+:: will easily take down your average suburban electronic lock. Now, when   ::
+:: people design doors with electronic locks, they want to take precautions ::
+:: against the door malfunctioning and leaving people locked in or out.     ::
+::                                                                          ::
+:: This can be very simply expolited if the wires are not completely covered::
+:: in metal, by simply cutting into the wire, crossing the wires, and       ::
+:: causing a short-circuit. Most doors will work in such a way that this    ::
+:: will cause the door to unlock and swing open. ;-)                        ::
+::                                                                          ::
+:: Have phun, and remember... Be Good! (efg)                                ::
+::                                                                          ::
+`:==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==:'
+
+
+.:--==--==--==--==--==--=>> Phucking over SABC by Wyzewun <<=--==--==--==--=:.
+::                                                                          ::
+:: For those of you who saw the South African Broadcasting Corporation's    ::
+:: recent coverage of the Johannesburg 2600 meetings and the attempt by     ::
+:: Telkom to crush the Za-Hacking scene, I'm sure you are pretty pissed off.::
+:: They had "technical difficulties" which led them only to be able to show ::
+:: it in the normal news, only in the phucking *Xhosa* news and that version::
+:: had been drastically cut, notably the stuff about ethics just wasn't     ::
+:: there. Hmmm... is someone trying to give us a bad image? Naah.           ::
+::							                    ::
+:: So... Next time you need to send a letter to some-one, don't re-read     ::
+:: that file in The Anarchist's cookbook. Just write "Business Answering    ::
+:: Service" and "Freepost No JHZ153K" on the envelope and send it off for   ::
+:: phree... courtesy of the SABC TV Licenses Department! ;-)                ::
+::                                                                          ::
+`:==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==:'
+
+
+.:--==--==--==--==--==--=>> How to Steal a Bus by Wyzewun <<=--==--==--==--=:.
+::                                                                          ::
+:: You may notice that South Africa has a brand new range of municipal buses::
+:: which would be really great to steal. You may also notice a small silver ::
+:: knob that can be loc8d just above the little plate on the side of the bus::
+:: that gives the maximum weight it can carry. Sometimes they break the knob::
+:: off, so it might just be a hole.                                         ::
+::                                                                          ::
+:: Now, lift the knob, insert a common ball point pen and give it a little  ::
+:: push. The doors will swing open! Have phun and be good kidzzz!           ::
+::                                                                          ::
+:: I would like to know if this works in other countries. Anyone wanna try? ::
+:: Mail all comments to Wyzewun of the SoS at wyze1@syrex.co.za             ::
+::                                                                          ::
+`:==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==:'
+
+
+.:--==--==--==--==--==--==--==--==--=>> Thanks and Greets <<=--==--==--==--=:.
+::									    ::
+:: Aleph1, cDc, Commander Crash, Corrupt SYN, CrazyGuy, Cyclotron, daemon9  ::
+:: Hitsquad, km, Kool4Katz, Line Noise, Nucto, Nux, Pri$m, Psycho Bob, r00t ::
+:: SATTI, Shaddow Skinhead, Vortexia and Zipy                               ::
+::									    ::
+`:==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==:'
+
+
+.:--==--==--==--==--==--==--==--==--==--=>> Parting Words <<--==--==--==--==:.
+::                                                                          ::
+:: Well, unfortunately, that's all for now from the f0rbidden knowledge     ::
+:: Team, but we'll be back soon with more quality philez in no time. Please ::
+:: remember that all comments, articles and subscription requests are       ::
+:: welcome to be sent to any member of the SoS. The SoS are...              ::
+::                                                                          ::
+::           ::-=-=-=-=-=-=-=-=-=::=-=-=-=-=-=-=-=-=-=-=-=-::               ::
+::           :: Marc Satur9      :: satur9@syrex.co.za     ::               ::
+::           :: Wyzewun          :: wyze1@syrex.co.za      ::               ::
+::           :: Gevil            :: gevil@hotmail.com      ::               ::
+::           :: Sn|PeR           :: sniper@syrex.co.za     ::               ::
+::           ::=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-::               ::
+::                                                                          ::
+:: Oh yeh, and we *are* looking to recruit new members, so if any           ::
+:: experienced hackers or phreaks in the Gauteng area would like to apply,  ::
+:: or just want more info, mail Wyzewun or Marc Satur9 at the addys         ::
+:: supplied above. ;-)                                                      ::
+::                                                                          ::
+:: Unteel next time, be good you feelthy leetle munkeez...                  ::
+::                                                                          ::
+`:==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--(EOF)--==-:'
+
+</pre>
+</html>

@@ -1,0 +1,732 @@
+                                                                  [18/12/2002]
+
+HELLO AND WELCOME TO KOOL EFFKAY NUMB0R 18- BUNG- BUT FIRST IS SUM WORDS FROM
+0UR KOOL EFFKAY MASKOT, MR PLUNKETT..
+
+i was fsckn b0red ok! @#%@#%
+and santa makes me think of satan
+and satan makes me think of wizdump
+and wizdump makes me think of julia roberts's lips
+and julia roberts's lips makes me think of barcodes
+and barcodes make me think of triple six0r
+triple six0r make me think of devil
+and devil makes me think of vladimir putin
+and vladimir putin makes me think of strawberries
+and strawberries makes me think of fertility hormones
+and fertility hormones makes me feel like felicia mabusa suttle
+and felicia bambusa suttle makes me think of bumbfluff
+and bumbfluff makes me think of search for extra-terrestrial intelligence
+and seti makes me think of internet porn
+and internet porn makes me think of rally driver assistants
+and rally driver assistants makes me think of yogert
+and yogert makes my tummy run
+
+this is why christmas IS A PIECE OF SHIT @#%@#%@#!! 
+here is santa/satan pr0n
+
+                                                                 
+                                                       (_(____   
+                                                       /~ ~   \
+                                                       ******\ )
+f   ff  f ff                                          /~   |  \)
+ ff f  ff                                        ___ ::::  /   0
+   ffffff                                 ______:._  \;:/  \
+     ffffff                   __________/ kkkkk_/  \______  |   kkk
+     00f  ffff   ffffffffffff(ffff_______kkkkk/    /*       \   kkkk
+   fffff fffff fffffffffffffffff(ff     kkkkkkk   |*         | kkkkkk
+   Ufff     fffffffffffffffffffffff     kkkkkkkkkkkkkkkkkkkkkkkkkkkkkk  
+            ffffffffffffffffffffff      kkkkkkkkkkkkkkkkkkkkkkkkkkkkkk_  
+              fffffffffffffffffff      |666-GP|kkkkkkkkkkkkkkkkkkkkkkk_/.;:'
+               ff ff        ff ff         kkkkkkkkkkkkkkkkkkkkkkkkkkkk_/':.:;'
+               ff ff        ff ff           kkkkkkkkkkkkkkkkkkkkkkkk    ';:'
+               kk  kk .:    kk  kk..;
+
+   . 
+ .:.h03 H03 ho... M4rry FK'n x-m4s.::.
+.::.3fFk4y iz br|ng'n d4h sh|tz str4it fr0m dah p0le, t0 y0r do0rstep.::.
+.'::.h|d3 d0ze k|dDi3'z, s4nta iz h3re w|ff dah V12 d34th sl3d.::.  
+.`:::.S4nta ... S4tan ... ?.::.
+
+
+WOA0OH0H0HAHOEAOHOHO- THAT WOZ FUXIN STOOPID, SO NOW MEWVING ON WITH THA SHOW-
+WE GOT SUM LE3T SH0T L1N3D UP FO U DIS ISH, INCLO0DING, BUT N0T LIMIT3D T0:
+''SUM V3RY 'L8 STUF''!!OK
+
+S0 SIT BAK.. KRAQK OPEN A BREWSKI, MAYBE HAV S3CKZ W1TH YE0R M0M IF THAT'Z
+W0T U LIKE (W3 @ THA EFFKAY RUSP3KT U!!$). UBZ0RB, LIKE, THA DEV0L XMIS SAT4N
+SPYR1T, BR33TH3, L0IK, THA AHRE. SEE! THISZ MAGAZINE.. ..!@#$!@ ;0
+
+
+     ________,,,...........                 .........______
+$$$$$$$$$슬슬슬�^^^^^                                      '''''"""???zz.   $$
+   ^?$$$                                                                `?; $$
+     '$$     MR PLUNKETT'S K-R4D SMART CARD/GSM HACKING ARTICLE          $;$$$
+      ?;                                                              ,,?;I$$$
+     ,"________________________________________________________..,,##슬�',  $$
+  _.+                                                                     +.,;
+
+
+.:f0reword:.
+
+this is just some arb info about smart cards and a slight disz to um... jo0l
+see. the GSM article will follow with software to use with the smart card
+reader design. but please read this before that, because there seems to be
+some misconception about smart card technology, as you will see next.
+
+.:stupidity:.
+
+on reading fk16 i was totally disgusted :P~ fk is known for *some* of its
+inaccuracies and that explains 'fix up' issues like fk17 and such. but the
+following is just too much, i just had to write this. now the reason i was so
+disgusted is with the particular article by um... Ph0enix91. um the mnet/dstv
+thingy. now i'm not sure about the mnet thing but for the dstv smart card
+part, that is total bullshit, TOTAL BULLSHIT! [Ed: shush! ] the reason why
+smart cards were developed was to replace magstripe cards to prevent
+tampering, cloning, and to provide advanced data IO. now smart cards have been
+around a while and there are some serious security features implemented. to
+'copy' the card as stated by Ph0enix91 is impossible. first of all, there are
+registers and memory locations that are totally unreadable, and they are
+accessed only via encryption algorithms that manipulate the data and the
+result is used for authorization. and the device that is supposedly so
+expensive is just proof that absolutely no thought was given in writing that
+article. you can design your own smart card reader with just a serial port (9
+pin) cable and some scooby-doo wire, 4,7K resistor and a 2,2K resistor. or a
+more advanced one with some cheap TTL adapters and voltage regulators. 
+
+
+for basic memory card and older type smart cards
+------------------------------------------------
+
+                         | +5V
+                         |       C=200uF; R=2.2k (or less)
+ Serial                    /           ____
+   Port                  ,/        ,--|____|--,
+                         *---------*----||----*--------------,
+              the card   |    ,-------------+-------------,  |
+Pin10 (Ack)   --<--------*----|   1         |         5   |--*--,
+               R/W | RST      +-------\     |     /-------+     |
+Pin4 (d2)     -->-------------|   2    +----+    +    6   |-----|--*-- Vcc
+               Clock          +--------|         |--------+     |  |
+Pin3 (d1)     -->-------------|   3    +----+----+    7   |--,  |  -
+               RAZ | RFU      +-------/     |     \-------+  |  | | | 4.7K
+Pin2 (d0)     -->-------------|   4         |         8   |--|--* | |
+                              '-------------+-------------'  |  |  -
+               I/O                                           |  |  |
+Pin 11 (Busy) --<--------------------------------------------'--|--'
+               Gnd                                              |
+Pin 25        --------------------------------------------------'
+
+
+here is a design that can be used to write/read smart cards. newer cards that
+require parallel connection and TTL adapter with the MAX232 chip. the MAX643
+is used as 12v controller for programming the eeproms that are usually pic
+based. the 3.686 MHz is the oscillator used for timing in smart card
+standards, this can also be modified to support the higher timings of
+nonstandard smart cards. like 5.4MHz.
+
+i have one of these personally, and it is what i use to do the gsm software
+decryption with. this will also read the dstv cards but you cannot copy a
+whole card. this is also a writer and data can be read or written with the sio
+package. the MAX232 chip is available in any south african electronics store
+as well as the MAX643. the smart card connector can be bought at electronic
+stores as well, or rip it out of an old cell phone.
+
+newer smart card writer/reader
+------------------------------
+
+                     +5V o
+                         |
+                         *-----------------,
+                         |                 |
+                  ,-------------,          |
+               +  |     Vcc     |  +       |
+SUBD25         ,--|C1+       C2+|--,       |       K
+RS 232    1F  === |             | === 1F   |        /                Smartcard
+               '--|C1-   M   C2-|--'       |       /                 Connector
+   RX             |      A      |          '-----o'   o----*---------------o 1
+3 o---------------|TX1   X   In1|----------------*---------|---------------o 7
+   TX             |             |                | ,-------|---------------o 4
+2 o----------,   -|TX2   2   In2|-   1/3 7406    | | ,-----|---------------o 2
+   Gnd       |    |      3      |  ,---,  ,---,  | | | ,---|---------------o 8
+7 o-,        '----|RX1   2  Out1|--| 1 |o-| 1 |o-* | | | ,-|---------------o 3
+    |             |             |  '---'  '---'  | | | | | *---|>|-*-------o 6
+   """           -|RX2      Out2|-               | | | | | | ,-|>|-'   ,---o 5
+                  |             |                | | | | | | | 2xD     |
+          +5V   + |             |    +           | | | | | *-|----||---*
+            o-||--|CV+  Gnd  CV-|--||-,          | | | | | | |   100nF |
+             1F   '-------------' 1F  |          | | | | | | |        """
+                         |            |          | | | | | | |
+  SUBD 25               """          """         | | | | | | |c
+PRINTER Port                                     | | | | | |  \ | PNP
+                                                 | | | | | |   >|---,
+   D0 - (4) RFU (RAZ)                            | | | | | |  / |  ,-,
+2 o----------------------------------------------|-' | | | | |e    | | 10k
+   D1 - (3) CLK       ,---,   ,---, 1/3 7406     |   | | | | |     | |
+3 o-------------------| 1 |o--| 1 |o-------------|---|-|-* | |     '-'
+   D2 - (2) RST (W)   '---'   '---'              |   | | | | |      |
+4 o----------------------------------------------|---' | | | |     c \ | NPN
+   D3 - (8) RFU (FUS)                            |     | | | |        >|----,
+5 o----------------------------------------------|-----' | | |     e / |   ,-,
+   D4 - (7) I/O                ,---, 1/6 7406    |       | | |      |      | |
+6 o----------------------------| 1 |o--*---------'       | | |     """     | |
+   D5 (Desativate Oscillator)  '---'   |    2xD   ,---,  | | |         10k '-'
+7 o------------------------------------|----|<|-*-| 1 |o-' | |              |
+   D6 (Vpp Command)                    |  ,-|<|-' '---'    | |              |
+8 o------------------------------------|--|----------------|-|--------------'
+   D7                                  |  |                *-|--------,
+9 o------x                             |  |                | |  ,-----'------,
+   ACK (Presence of the card)          |  '----------------|-|--|Oscillator F|
+10o------------------------------------|-------------------' |  '------------'
+   BUSY (Synchronous Data Output)      |                     |        |
+11o------------------------------------'                     |       """
+   GND                                                       |    F=3.6864MHz
+25o-----,                                                    |
+        |       100uH            1N4935                      |
+       """    ,-@@@@@--*-----------|>|--------*----*---------* +21V
+              |        |                      |    |         |
+              |        '---||  BUZ11 or       |    |         |
+              |        ,->-||   IRF14         |    |         |
+              |        |---|'--,             ,-,   | 1nF     |
+              |        |       |         330k| |  ===        |
+              |       """      |             | |   |         |
+              |                |6            '-'   |         |
+              |       ,------------------,    |    |        +| 220<E6>F
+              |      5| Vcut   Ext   Vfb |7   |    |        ===
++12V >--------*-------|      MAX 643     |----*----'         |
+              |       | LB1   GND   COMP |    |              |
+              |       '------------------'   ,-,             |
+              |   +      |1    |3    |8      | |22k          |
+              *----||----*-----*-----'       '-'             |
+              |   10F             |           |              |
+              |                  """         """            """
+              |
+              |       ,---------,
+              '----*--|   7805  |--*----> +5V
+                   |  '---------'  |
+            100nF ===      |      === 100nF
+                   '-------*-------'
+                           |
+                          """
+
+                          Component List
+                          ~~~~~~~~~~~~~~
+
+   Integrated Circuits
+   --------------------
+1xMAX232 (RS232<-->TTL Adapter)
+1xMAX643 (12-->21V Converter Controller)
+1x74LS06 (6 inverters)
+1x7805   (5V regulator)
+
+     Transistors                      Diodes
+     -----------                      ------
+1xBUZ11 or IRF14                 4x1N4148 or other
+1xBC107 or antoher NPN           1x1N4935 or other fast commutation diode
+1xBC177 or another PNP
+
+
+    Compensators        Resistors          Misc
+    ------------        ---------          ----
+     3x100nF              2x10k          100uH self
+     1x1nF                1x330k         1xSmartcard connector
+     1x10<E6>F            1x22k          1xSUBD25 Female
+     1x220<E6>F                          1xSUBD25 Male
+     4x1<E6>F
+
+(END) 
+
+and for the part where
+ph0nip0o states, 
+
+' Use your smart card reader/writer to copy
+the smart card u borrowed from your friend slap that into your decoder and
+piggy back off of his account... while you are at it use your smart card
+reader/writer to create a few new telephone cards too.... I am sure telkom
+won't mind..... ;-)'  
+
+-- this is just so fucking dumb that i almost puked, telephone cards in SA is
+from the german model which is based on telecard, here are some specs:
+
+                  ,------------+------------,
+                  |  1         |         5  |
+                  +------\     |     /------+
+                  |  2    +----+    +    6  |
+                  +-------|         |-------+
+                  |  3    +----,----+    7  |
+                  '------------'------------'
+
+1. Vcc 5v   5. Gnd
+2. reset    6. Vpp 5v 
+3. clock    7. i/o
+4. RAS      8. fus
+ 
+      features:
+
+       - Synchronous protocol.
+       - N-MOS technology or CMOS for the new ones.
+       - 256x1 bit organization.
+       - 96 written protected by a lock-out fuse.
+       - Low power 85mW in read mode.
+       - 21 V programming voltage.
+       - Access time: 500ns
+       - Operating range: -10\xf8C +70\xf8C
+       - Ten year data retention.
+
+      memory allocation:
+
+Byte (Bit)      Hexa
+
+               +-----+-----+-----+-----+
+0-3 (0..31)    | $92 | $3B | $FF | $06 | --> South Africa (G+D)
+               |     |     |     | $09 | --> South Africa (G+D)
+               | $98 | $28 | $FF | $x4 | --> South Africa (???)
+               |     | $3E |     |     | --> South Africa (G+D)
+               +-----+-----+-----+-----+
+4 (32..39)     |     | --> [TBD]
+5 (40..47)     |  ss | --> Serial Number
+6 (48..55)     |  ss |
+7 (56..63)     |  ss |
+               +-----+-----+-----+-----+-----+
+8..12 (64..103)|c4096|c512 | c64 | c8  | c1  | --> 5 stage octal counter
+               +-----+-----+-----+-----+-----+
+13 (104..111)  | $FF |
+14 (112..119)  | $FF |
+15 (120..127)  | $FF |
+               +-----+
+
+
+now where Ph0ni@#%@% had it all wrong is how the whole process works.the phone
+card has octal counters in a one way gate, that means only units can be
+decremented. to actually 'recharge' the card you will need to erase the card
+with a UV light, but that is not possible either, since the card is UV
+protected and to remove the protection would trigger the lock-out fuse same as
+trying to rewrite the eeprom. now there are other means of accessing the data
+where the card implements anti-tearing methods, these are flags that are used
+when the card is abruptly removed, then the user does not loose any credits
+during the process. they can maybe be used to fool the actual decrementing
+routine to disallow the current operation. but still to write to them requires
+some serious reversing technology. the cards also have certificates and
+checksums that prevent cloning of a phone card. this is a one way function
+that is done on the header of the card and the operator's secret key (telkom), thus to clone a phone card you must first get the key
+and then one way hash it with the secret algorithm and the header of a valid
+card. so instead of hacking telkom, stealing the key, reverse enginering the
+secret algorithm, why not just buy a fucking R20 PHONECARD @#%#%@#%@#%???!! 
+the cards are also authenticated via the inserting process at the public
+phone. this is a random sequence that is sent to the card and the card
+computes a response that is sent to the central network, this is then verified
+and then the transaction can go forth. 
+
+now dstv smart cards are even better in security, there are means of hacking
+these things yes, for example, it is still an eeprom so it works by voltage
+differences and logical gates. so the old tactics of side channeling is
+possible. these are methods that uses different voltages to make the processor behave
+differently. example: a satellite tv smart card may do the authentication via
+some rundown version of DES, now if you use a oscilloscope you can see
+precisely when there is big encryption block table lookups for creating the
+encryption s-boxes. now when you know when the encryption is done, you can
+find out what command initiates the encryption, then see the actual voltages
+that are required in obtaining the specific command.
+
+example:
+
++21V                               _____________
++5V ______________________________|             |_________________ VPP
+                                  :             :
++5V              _________________:_____________:_________________ 
+0V  ____________|                 :             :                  RST
+                :                 :             :
++5V   ____      :      ____       :       ______:______
+0V  _|    |_____:_____|    |______:______|      :      |__________ CLK
+     :    :     :     :    :      :      :      :      :
++5V  :    :     :     :    :      :______:______:      :           
+0V  _:____:_____:_____:____:______|      :      |______:__________ R/W^M
+     :    :     :     :    :      :      :      :      :
++5V  :    :     :_____:    :______:      :      :      :__________
+0V  XXXXXXXXXXXXX_____XXXXXX______XXXXXXXXXXXXXXXXXXXXXX__________ OUT
+     :    :     :     :    :      :<-----><---->:      :
+     :    :     :     :    :      :10 to   10 to       :
+     :    :     :     :    :      :50 ms   50ms        :
+      Reset        Bit0       Bit1                         Bit2
+      card        reading     reading  Bit1 writing to 1   reading
+
+now if you know the voltages, you can try to figure out different commands
+like jump functions, now if you can 'fool' the card by initiating a command
+with different voltages, you can for example jump past the authentication sub
+routine and there is your free dstv. but believe me, this is high tech stuff
+that not even a skilled electronics expert might pull off. and the attack that
+i outlined was successfully done in the US but i know for a fact that dstv has
+protected their smart cards with differentiated lookups in tables or even some
+aggressive command limitations.
+
+so P0neixi@#%@#% and erm... the editors ;) please try to test or just maybe do
+some research before you decide on publishing such crap!
+
+ps- no hard feelings, ph0nizah, we all just want lubb ;)
+ but for the editorz especially daht gay one wiff the goat
+ TOTALLY UNEXCUSABLE!! I WANT A PUBLIC APOLOGY AND SOME 
+ DONUGHTS SENT TO MY HOUSE.
+
+ Flat 999
+ Santa's street
+ North p0le
+
+[Ed: Ahaha dood, I try to send u doughnorts, but people at Post Office say I
+     am a delusional and don't take box? :( Apologies to Mr Plunkett, and to
+     every1 in the damn werld ;p for the DSTV artickle- we r hav knew twos
+     bullocks, but published it for the attached M-Net article, which may or
+     may not have bn? ;p We generally haven't been particularly concerned
+     about the accuracy of other people's articles, but I suppose we could
+     be, from now on.. ;p Please note all previous issues are currently
+     deprecated and you are encouraged not to read them, and w3 are un4ble t0
+     pr0vide technic4l supp0rt for these issues.. Errata begins fresh as of
+     next issue.. ;p]
+
+thanks
+-plunkett- 
+
+
+====== PART : THA SEC0ND: GSM HAQKING, LE3T.. ========||
+
+
+.:intro:.
+
+hopefully you have read some info about smart cards and have some knowledge
+how gsm works. (read the smart card article before this) now gsm technology
+was implemented to provide better everything compared the analogue system.
+this includes reception, security, anti-fraud, privacy and a whole lot more
+services.
+
+as you might know the analogue system was very insecure privacy wise and in
+terms of security to prevent fraud. since everything was done unencrypted, and
+cell phones were issued with one chip that did all the authentication and
+unique identity stuff, it opened the door for millions of ways to exploit the
+system. this included ESN grabbers, that could grab the identity of other
+users in a current cell and clone the cell phone and/or monitor their
+conversations or even track their positions.
+
+south africa was never that hot on the cell phone scene until gsm rolled out.
+this was totally different system because it was digital and used TDMA, that
+is Time Division Multiple Access. this is system where the whole spectrum of
+gsm conversation and signaling is broken up in timeslots and sequenced in a
+whole timeframe all on one or a couple of frequencies. each user that 'logs'
+on to the network, is then given a timeframe for where he/she can communicate
+on.
+
+i will not discuss the whole TDMA frame structure because there is a gazillion
+documents out there on it. but here is how SA's frequencies are laid out,
+Cell C might be thrown in there somewhere.
+
+MS  = mobile station (phone)
+BTS = base station (those pretty trees and large erect towers)
+
+MS -> BTS               BTS -> MS
+uplink                  downlink
+  ______                  ______
+ |890mhz|                |935mhz| 
+ |  :   |  GSM CHANNELS  |  :   |
+ |  :   |- 1 to 55      -|  :   |
+ |  :   |  vodacom       |  :   |
+ |900mhz|                |945mhz|
+ |  :   |                |  :   |
+ |  :   |- GSM CHANNELS -|  :   |
+ |  :   |  57 to 112     |  :   |
+ |10mhz |  mtn           |50mhz |
+ |  :   |                |  :   |
+ |  :   |                |  :   |
+ |  :   |- GSM CHANNELS -|  :   |
+ |5mhz  |  112 to 124    |60mhz |
+ |______|  not used      |______|
+
+the whole system is connected to the MSC's and in turn to telkom's PSTN via
+SS7, but that is a whole document altogether. what is important is the way gsm
+handles user records. this is via the Home Location Register (HLR). this is a
+very big and valuable database that houses all the user info that will be 
+discussed later. the HLR is kept at the Mobile Switching Centers (MSC) and is
+accessed via the various SS7 protocols. BSC's (base station controllers) will
+usually have a Visiting location register that houses the given users data in
+their cell's. The database is the backbone of gsm security.
+
+gsm also had the SIM card introduced, which meant that the actual MS, Mobile
+Station (phone), could be interchanged as whished and the user and network
+could still communicate transparently. there is also the numerous security
+enhancements that was implemented to prevent fraud. this includes registers
+that register stolen or suspect equipment, this is the 'black list' you all
+know. this is done via IMEI number. more later on that.
+
+
+.:hacking it already!! #@@#%:.
+
+the SIM was tamper proofed and a specific encryption system was implemented to
+do authentication, voice encryption, location info protection and other. how
+the system works:
+
+in sim card is a algorithm named COMP128
+as well in the MSC (this is the Mobile Switching network)
+look at COMP128.h for the algorithm.
+for voice in south africa, A5/1 is used and is a stream cipher
+that uses the SRES response (later) and tdma frame number to
+encrypt each 156.25 bits or 0.577 milliseconds of conversation.
+
+now what happens when you insert the sim in phone and switch it on is this: 
+
+MS sends a request RACH (random access channel) via the uplink broadcasting
+frequency and is in turn received by the BTS and is relayed to the Base
+station controller node. It checks to see if it has this user in its VLR
+(visiting location reg). if not, then it requests the user data from the MSC
+via SS7 protocols. the data is relayed back to the base station which contains
+the user triplet. this is:
+
+rand:   128 bit random for authorization and session key generation 
+ki:     user's private secret key
+sres:   response expected from user after COMP128 and Ki + RAND 
+
+now the base station sends the user the rand challenge, and this is received
+by your phone. then the phone gives the challenge as an argument to the sim
+that then uses the built in algorithm COMP128 to compute the SRES, which is
+the response to the challenge, this is then sent back and the base station
+compare this to the sres it has computed via the user's key. note that the key
+never crosses the air.
+
+now the sres is also used with the current frame number and consecutive frame
+numbers after that with the encryption algorithm A5/1 to encrypt the voice
+conversation, yes, SA uses the strong over-air encryption and not A5/2 which
+is the weaker one issued by NSA to spy on middle eastern countries. that use
+A5/2 or A5/x and other variants. this is how your conversation is kept secret
+from ppl like us :)
+
+now as you see the whole system relies on one key, Ki this is the user's
+secret key that is mapped to user international mobile subscriber id (imsi)
+and it is also in the sim. but as you know the data in the sim is tamper
+proof. thus you cannot just 'read' the Ki from there.
+
+but there is a flaw in the COMP128 algorithm that can be used to deduce a
+user's Ki. it takes about 508000 queries to the simcard and about 4 hours to
+extract the key. the details of the flaw was discovered by Marc Briceno, Ian
+Goldberg and David Wagner. it is the lack of diffusion in the way the
+algorithm uses data from the previous round. with this article is comp128.h
+the algorithm, disect.c which i wrote to see exactly what is happening during
+encryption. and then gsm-hack.c the actual cracking of the algorithm. the
+details of precisely what is happening is a bit of mathematics and statistics
+and loads of other crud, and its not what this paper is intended for. the
+software queries the simcard with random values that stay the same except bits
+i+8 are changed until a collision in results are found, this then can be
+reversed and the actual key value for that bit is revealed. this is repeated
+until the whole key is revealed. gsm-hack.c in emulate mode does not require
+a sim reader or anything and shows how it all works.
+
+now to hax0r or clone a sim, get somebody's sim card, and make sure he won't
+need it for 4 hours or so. best place for this is the rent-A-f0ne place at
+airports and shit, rent it for the day. now use the simcard reader and
+software to extract Ki. read the imsi on the sim, which is done via gsm-hack
+-s function. now that you have Ki and imsi, get asim4 or any other sim
+emulator. there are also plans how to make a sim emulator, check emulator.txt
+[ APPENDICKZ 'A', LE3T ] of this article or just buy one from any decent
+electronic store in SA. they're about R120. now just create a clone.dat file
+with your newly acquired Ki and imsi and then you can plug the emulator in
+your phone. now you have a cloned gsm phone.
+
+i can say confidently :) that a cloned cell phone can operate at the same time
+as the original. the only problem comes in when both try to initiate a call.
+you will also receive the sms's for the original party and voicemail and
+everything like that. and of course, your calls are billed to that party ;)
+it would be pointless to clone a prepaid sim for obvious reasons.
+
+for security, get a nokia/motorola phone where you can change the IMEI number whenever you use a cloned sim, this prevents them
+from blocking your cellphone and slows down tracing ;) yes, they track you,
+they have triggers that check whenever two of the same imsi's are initiated
+and logged on in two different locations. you can change the IMEI with
+software like pc-locals or nokiahack and soon to be released, my new gsm-hack
+;)
+
+the new version of my gsm-hack software is much more advanced. it is first of
+all threaded and uses selective random selection for faster decryption of the
+Ki, in worst case scenario, it can retrieve Ki in 1 hour. it also has save and
+load functions to pause decryption. it comes with automatic IMEI changing via
+nokia data cable. and im working on some other elite stuff that could invade
+some privacy ;) or to see where your wife hangs around when your out.
+
+watch out for these future articles from dah skankett
+
+- gsm tracking (Magda at porn store????) 
+- A5/1 security and real-time GSM interception
+- SS7 signaling vulnerabilities
+- Home location register security
+- operations maintenance center security (1 in vodacom)
+- gprs and location based services, still same problems
+
+funny:
+quote from vodacom technical press release:
+
+"Vodacards incorporates sophisticated anti-tamper technology
+ to secure internal data and to prevent it from being read
+ or altered. Voltage, current and UV sensing are all incorporated
+ into the vodacard protection system which will render the card
+ useless when triggered." 
+
+strange. my original and cloned sim don't seem that useless ;p
+
+thats it.
+-plunkett-
+
+
+====== APPEND1X 'A': SMART K4RD EMULATOR ========||
+
+
+note: you can buy these for about R120 in South Africa
+
+(Markus Kuhn original design for decoders, edited by plunkett for gsm)
+
+According to ISO, a chip card is 85.60 mm long, 53.98 mm high, 0.76 mm thick
+and the edges are rounded with a radius of 3.18 mm. It has eight defined
+contact areas (C1 - C8 in the diagram below), each of which is at least 2mm
+wide and 1.7 mm high:
+
+
+	   ______________________________________
+	 /                                        \
+	|                                          |
+	|                                          |
+	|    C1   C5                               |
+	|    C2   C6                               |
+	|    C3   C7                               |
+	|    C4   C8                               |
+	|                                          |
+	|                                          |
+	|                                          |
+	 \________________________________________/
+
+
+These contacts have the following purpose:
+
+	C1	VCC	Supply voltage (+5 V, max. 200 mA)
+	C2	RST	Reset signal
+	C3	CLK	Clock signal
+	C4	-	reserved
+	C5	GND	Ground
+	C6	VPP	Programming voltage (5-25 V)
+	C7	I/O	Data input/output
+	C8	-	reserved
+
+The following table gives the precise location of the contact areas.
+These areas are only minimum areas, the actual contacts might be larger
+but must of course be properly isolated from each other.
+
+In the following table,
+
+	A	represents the maximum distance between the card's left
+		edge and the contact area's left edge,
+	B	represents the minimum distance between the card's left
+		edge and the contact area's right edge,
+	C	represents the maximum distance between the card's top
+		edge and the contact area's upper edge,
+	D	represents the minimum distance between the card's top
+		edge and the contact area's lower edge.
+
+		  A	  B	  C	  D
+      -----------------------------------------
+	C1	10.25	12.25	19.23	20.93
+	C2	10.25	12.25	21.77	23.47
+	C3	10.25	12.25	24.31	26.01
+	C4	10.25	12.25	26.85	28.55
+	C5	17.87	19.87	19.23	20.93
+	C6	17.87	19.87	21.77	23.47
+	C7	17.87	19.87	24.31	26.01
+	C8	17.87	19.87	26.85	28.55
+
+The adapter will only need the card contacts I/O, GND, RST and VCC. On
+the RS-232 side, the following contacts will be used:
+
+		   Sub-D 25-pin	   Sub-D 9-pin
+      ---------------------------------------------------------
+	TxD		2		3	transmit data
+	RxD		3		2	receive data
+	RTS		4		7	request to send
+	CTS		5		8	clear to send
+	DSR		6		6	data set ready
+	GND		7		5	ground
+	DCD		8		1	carrier detect (here: reset)
+	DTR		20		4	data terminal ready
+
+The pins DTR, DSR and CTS are not actually needed, they are just connected
+together in the adapter, so that defined levels are available on them because
+some software might need this.
+
+The following components are necessary for the adapter
+
+	1 x	0.5-0.8 mm PCB single sided or test card
+	1 x	IC Maxim MAX232CPE (or Linear Technology LT1081CN)
+	1 x	IC 74LS07 (or 7407)
+	5 x	capacitors 1 uF (or higher), 16 V
+	1 x	female Sub-D connector (9 or 25-pin)
+	1 x	card slot (optional)
+
+The MAX232 converts the RS-232 levels (about +10 and -10 V) to TTL voltage (0
+and +5 V) and vice versa without requiring anything else than +5 V power
+supply. This chip contains two TTL->RS-232 and two RS-232->TTL drivers and
+needs four external 1 uF capacitors in order to generate the RS-232 voltage
+internally. The I/O line is a bidirectional half-duplex asynchronous TTL level
+serial port that is operated in a Videocrypt system with 9600 bits/s. We can
+connect this line to a MAX232 TTL input driver (which is connected to RxD and
+sends bytes to the PC) in order to receive data from the phone. The TxD signal
+is converted in the MAX232 to TTL level and is connected with an open
+collector TTL driver to I/O. This open collector driver (one of six in the
+74LS07) has a high impedance output during idle state and 1 and is connected
+to GND during a 0 on it's input. As there is already a pull-up resistor to +5V
+on I/O in the phone, this circuitry guarantees, that the adapter is in high
+impedance state if the TxD line is idle and delivers the correct voltage if
+the PC sends bytes and the phone is in reception mode. As we don't connect
+totem-pole or tristate outputs to I/O, a short circuit should be impossible in
+the adapter.
+
+The following diagram describes the whole interface:
+
+
+              +-------------+  +             
+  +-----------|1     V    16|---+---o +5V (VCC)
+ +|          +|             |  ===
+ === +5V o-||-|2  MAX232  15|---+---o GND (card & RS-232)
+  |           |             |
+  +-----------|3      +---14|----o DCD                    +-<-o DTR
+           +  |       |     |                             |
+     +---||---|4      | +-13|----o RTS                    +->-o DSR
+     |        |       | v   |                             |
+     +--------|5      | +-12|- (unused TTL output)        +->-o CTS
+          +   |       |     |
+     GND o-||-|6      +-<-11|----o RST
+              |             |
+     RxD o----|7  ---<--- 10|-------------------+----o I/O
+              |             |              |\   |
+     TxD o----|8  --->---  9|--------------| |--+
+              +-------------+             1|/ 2
+                                          74LS07
+    At the MAX232, pin 2 delivers
+    +10 V and pin 6 delivers -10 V.        (also connected to 74LS07:
+                                           pin 7=GND, pin 14=VCC)
+
+Pay attention to the polarity of the capacitors (marked with a + in the
+diagram next to each capacitor)! The -->-- symbols in the MAX232 diagram above
+indicate the voltage converters inside the chip. You might want to add an LED
+and a resistor (between 220 and 1k ohm) between VCC and GND so that you can
+see when the phone activates the interface. If you can't live without blinking
+bits, then add a LED and a resistor from VCC to I/O. The capacitor between VCC
+and GND is not absolutely necessary, but recommended especially if you add
+other circuitry on the board.
+
+[APPENDIX: 'THA `B`'] IZ THA gsmhack.tgz IN THA ./W4R3Z
+
+[ AND DON'T FORGET TO man ./W4R3Z/poes.gz ]
+
+,?'
+$$;
+$$$QQQ####,,,,________________________________           _________    ______ _
+^^^^^^^^^""""""
+
+thankyew f0r re3ding thisz fuaqk1ng exc3llent isSue 0f the eFFkay. Mad pr0pz
+to Plunk3tt for like making it for us. we will be loik trying to make more of
+theez magazine-thingyz loik sewn- niggaz gotz to understand loik *tha
+sircumstance*z y'n0wh!#$
+
+but y0u c0uldn't d0 thaht now cld y0u????.. ;o @<F2>$
+
+Pfe3r and Ruspak.
+Tha ed.

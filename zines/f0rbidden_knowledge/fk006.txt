@@ -1,0 +1,1311 @@
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+::                                                                          ::
+::                             ___      _,q$                               ::
+::                           ;$$$$$;.®óW$$$:$                               ::   
+::                         ;$$''  "$i,."$$$:$           .                   ::   
+::                        i$$      ;$Si.;$$:$           :                   ::   
+::                       ;$$        I$;::$$:$          ;:                   ::   
+::                       Ç$;        ;$ii.$$.$         ;$'                   ::   
+::                     . $$:         $$iiI$ $       ,$$'                    ::   
+::                       $$          $$ii;$:$   _,<$$;                      ::   
+::                     ; $$__            ;$.$  $$$$P'                       ::   
+::                ;;;;;$ $$%$$$$$;       .$ $ ,__                           ::   
+::                 ''''$ $$<'''          .$ ; "$$QQÒ                        ::   
+::                     $ I$               $      "È$S,                      ::   
+::                    ;% ;$              .$ :.      ?$,                     ::   
+::                    ii :$               $ ;|       ;$,                    ::   
+::                    ::.l                l  $        :$                    ::   
+::                                        ;  ^        .;/                   ::   
+::                                                      .                   ::   
+::                 ..[Forbidden Knowledge Issue Six]..                      ::
+::            ..[Smells like chicken, Tastes like borg]..                   ::
+::                                                                          ::
+:: Forbidden Knowledge is an independant project brought to you by the      ::
+:: following team of imbeciles with nothing better to do...                 ::
+::                                                                          ::
+::--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--::
+:: [ Wyzewun ]            [ Chief Loser ]       [ wyze1@g0v.za.org ]        ::
+::                                                                          ::
+:: [ Pneuma ]             [ Assistant Loser ]   [ satur9@beer.com ]         ::
+:: [ Vortexia ]           [ Assistant Loser ]   [ vortexia@psyche.za.org ]  ::
+::                                                                          ::
+:: [ Moe1 ]               [ General Slut ]      [ moe1@codiez.za.org ]      ::
+:: [ Cyberphrk ]          [ Ascii Wh0re ]       [ phuman@icon.co.za ]       ::
+::                                                                          ::
+:: [ Sniper ]             [ Webpimp ]           [ sniper@h4x0rz.za.org ]    ::
+::--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--::
+::                                                                          ::
+:: Guest Contributors: Cyberware, Corrupt SYN, Terabyte and jus             ::
+::                                                                          ::
+:: Group Greetz: b4b0, cDc, Darkcyde, EHAP, HNN, L0pht, LoU, Rhino9         ::
+:: Individual Greetz: Badspirit, Corrupt SYN, Cache, Crazyguy, Cyberware,   ::
+::                    Cyclotron, icesk, jus, kM, kokey, Lothos, m0f0,       ::
+::                    Mnemonic, optiklenz, Terabyte, Tattooman, Ultima      ::
+::                                                                          ::
+:: Disses to: FAT PE0PLE!#@#$ j00 aRe aLL gR0sS!%@#                         ::
+:: Disgustingly Obese: JP from AntiOnline, Carolyn Meinel, Roseanne Barr    ::
+::                                                                          ::
+:: Oh: And Greets to the SAPS Computer Crime Unit. Since you've been kind   ::
+::     enough not to laugh while listening to my personal phone calls, I    ::
+::     thought I'd be kind enough to send you sh0ut 0utz. You guyz 0wn.     ::
+::                                                                          ::
+:: Its a Fact: The head of the CCU's daughter has been raped by Pneuma at   ::
+::             least nine times, and is finally beginning to enjoy it.      ::
+::                                                                          ::
+:: Pimp Phat Tunez: NIN, Marilyn Manson, White Zombie, RATM, Korn, Prodigy, ::
+::                  Chemical Brothers, Garbage, Eminem, Bloodhound Gang,    ::
+::                  Placebo, Offspring, Beastie Boys                        ::
+::                                                                          ::
+:: Pimp Wack Tunez: Spice Girls, B-Witched, Steps, Faithless, 2Pac, Puff    ::
+::                  Daddy, Any South African band                           ::
+::                                                                          ::
+:: Question: How long are you going to take before you realise that *BSD    ::
+::           0wnz Linux's pathetic ass?                                     ::
+::                                                                          ::
+:: No sense of humour: Sektorgrl - I recall her kicking me at least 9 times ::
+::                     for saying I was going to sacrifice the puppy her    ::
+::                     parents brought her to Satan. What a weirdo. ;)      ::
+::                                                                          ::
+:: Other stuff in dis Issue: Uuuh, I can't remember coz it sucks so much.   ::
+::                           Just look around at stuff, or something ;P     ::   
+::                                                                          ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+
+
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+::                   .ooO Contents of This Issue Ooo.                       ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+::                                                                          ::
+:: -/- Introduction by The Editor                                           ::
+:: -/- Pathetic mail of the month                                           ::
+::                                                                          ::
+:: -/- Memory and Addressing Protection Part Two                            ::
+:: -/- Silly PGPDisk Bug                                                    ::
+:: -/- Playing with Nokia and Ericsson Cellphones                           ::
+:: -/- Securing RedHat Linux 6.0                                            ::
+:: -/- RedHat 6.0 LILO PAM Filter workaround                                ::
+:: -/- Java Personal Webserver 0.9 DoS                                      ::
+:: -/- Ripping off Arcade Machines                                          ::
+:: -/- A guide to Linux/FreeBSD IP Firewalling                              ::
+:: -/- Windows backdoor Stupidity                                           ::
+:: -/- A Study of the CyberTrade Extranet                                   ::
+:: -/- Telkom Identicall Glitches                                           ::
+:: -/- Making free calls from Blue Payphones                                ::
+::                                                                          ::
+:: -/- Laterz and udder Bullsh!t                                            ::
+::                                                                          ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+
+
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+::                 .ooO Introduction by The Editor Ooo.                     ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+::                                                                          ::
+:: FK are back in action with even more drugs in their bloodstream than     ::
+:: ever before and although FK *still* sucks - we've got this leet new      ::
+:: layout for the zine! Werd! Mail all women, vodka and article submissions ::
+:: to wyze1@g0v.za.org - sorry about the website being down for so long,    ::
+:: the 12GB SCSI Apache was on died and Vort chose to just lament over the  ::
+:: loss of all of his lame warez instead of reinstalling. Sheesh. ;)        ::
+:: I will get Sniper to put it up on his box soon. It kinda pisses me off   ::
+:: that they have been too lazy to put the domain up in two months. :(      ::
+::                                                                          ::
+:: Enjoy the e-zine - its still getting better - but it's developing quite  ::
+:: nicely over time. Just pretend that this is the first issue and then it  ::
+:: will seem less lame. ;P                                                  ::
+::                                                                          ::
+:: Seriously though, past issues have been pretty damned awful, and things  ::
+:: always went wrong - like me writing an article on trojaning su only to   ::
+:: find out that some-one had already thought of the same idea... about 20  ::
+:: years ago! (Guess its my fault for not reading all doze uber-ereet       ::
+:: old-skool texts, huh?) ;P But I still feel that FK will slowly get       ::
+:: better over time and perhaps eventually grow to be quite good. Maybe.    ::
+:: I wouldn't put money on it - I know how dumb I am. ;)                    ::
+::                                                                          ::
+:: Thanks to all the people who have supported us from the beginning even   ::
+:: though we suck - we couldn't have gotten this far without you. Although  ::
+:: you still suck for thinking it was cool in the first place. ;P           ::
+::                                                                          ::
+:: Cheers,                                                                  ::
+:: Wyzewun                                                                  ::
+::                                                                          ::
+:: PS. I asked Cyberphrk to draw neato ascii of a goat, which I was going   ::
+::     to put here, but he told me that his "g0at r3m3mb3r1ng sk1LLz"       ::
+::     aren't what they used to be and asked me to send him a pic of one... ::
+::                                                                          ::
+::     That's when I decided I didn't want a goat that much.                ::
+::                                                                          ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+
+
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+::             .ooO Completely Pathetic Mail of the Month Ooo.              ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+::                                                                          ::
+:: Well, originally I decided not to publish any mail I recieve in FK, but  ::
+:: since I have recently gotten a large influx of immensely lame e-mail, I  ::
+:: decided to set up this section, where I will publish the most idiotic    ::
+:: mail I get every month in a vain effort to cut down on the stupid mail   ::
+:: I get. *Ahem* Please note that I am *more* than happy to help with       ::
+:: anything vaguely intelligent, and I really like the stuff that many      ::
+:: readers have mailed me, just not stuff like... this...                   ::
+::                                                                          ::
+:: From: the_extremist@iname.com                                            :: 
+:: To: wyze1@g0v.za.org                                                     ::
+:: Date: Fri, 23 Jul 1999 10:34:55 -0400 (EDT)                              ::           
+:: Subject: Unspecified                                                     ::
+::                                                                          ::
+:: Hi!                                                                      ::
+::                                                                          ::
+:: I'm working on 194.225.24.65, [as well as wyze1s nerves] and it's my     ::
+:: first case of cracking. it's the IP address of "Shahid Beheshti          ::
+:: University" in Iran. [sounds like a really secure system, sure you will  ::
+:: be able to cut it?]                                                      ::
+::                                                                          ::
+:: I've tried the PHF technique [elite] but I got no results and I also     ::
+:: tried to FTP to their site but that way wasn't possible either. now I    ::
+:: don't know what to do, [hmmm. me neither. phf didn't work? ftp'ing in    ::
+:: and trying to get /etc/passwd didn't work? fuckit, this system must be   ::
+:: sewper dewper locked down. i suggest you just give up and get better at  ::
+:: tekken] so I decided to write a mail and request for help from you.      ::
+::                                                                          ::
+:: if it's possible for you then please tell me how can I hack that page,   ::
+:: and if it's not possible for you then tell me that matter too, so that   ::
+:: I don't wait too much for your reply, Thanx! ;) [if its possible that    ::
+:: you have an IQ above that of my left nipple then i would reply within    ::
+:: a few days, but you may have trouble qualifying for this. perhaps you    ::
+:: should try for an armpit hair. good luck. ]                              ::
+::                                                                          ::
+:: John.                                                                    ::
+::                                                                          ::
+:: [end fantastically dumb e-mail. lets get on with the zine already]       ::
+::                                                                          ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+
+
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+::        .ooO Memory and Addressing Protection Part Two by wyze1 Ooo.      ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+::                                                                          ::
+:: In Part One I covered the use of Fence and Bounds Registers, as well as  ::
+:: Tagged architecture. In this Issue, I will be covering Segmentation,     ::
+:: Paging, and sucessfully combining the two schemes.                       ::
+::                                                                          ::
+:: Segmentation is simply the idea of dividing a program into seperate      ::
+:: pieces in memory. Each piece has a logical unity, a relationship among   ::
+:: all of its data or code values and a completely unique name. They are    ::
+:: also all different sizes. So our program would be divided into pieces    ::
+:: that look something like this...                                         ::
+::                                                                          ::
+::                   ._______________                                       ::
+::                   | MAIN          |                                      ::
+::                   |---------------|                                      ::
+::                   |               |                                      ::
+::                   | SUB_ROUTN_A   |                                      ::
+::                   |               |                                      ::
+::                   |---------------|                                      ::
+::                   | DATA_SEG_B    |                                      ::
+::                   |               |                                      ::
+::                   `---------------'                                      ::
+::                                                                          ::
+:: The Operating System maintains a table of segment names and their true   ::
+:: addresses in memory. A Program that is trying to access a piece of its   ::
+:: data, a code segment, or whatever it's accessing, will look it up not    ::
+:: as a real memory address, but as a <Name, Offset> pair. Name, of course, ::
+:: being the name of the segment, and Offset being how many bytes whatever  ::
+:: we want is from the beginning of the segment. (Eg. SUB_ROUTN_A, 150).    ::
+:: For efficiency sake, there is often one address table for each user      ::
+:: process in execution.                                                    ::
+::                                                                          ::
+:: And so, a users program does not know where it *really* is in memory.    ::
+:: It is impossible for it to change a <Name, Offset> pair into a real      ::
+:: memory address. There are three advantages of this for the OS...         ::
+::                                                                          ::
+:: 1. A Segment can be removed from main memory and stored somewhere else   ::
+::    if it is not currently in use.                                        ::
+::                                                                          ::
+:: 2. The OS can place any segment in any location, and can move it around  ::
+::    as it pleases, even after execution, because all it needs to do is    ::
+::    modify the address table after it has moved the memory.               ::
+::                                                                          ::
+:: 3. Every address reference passes through the Operating System, so we    ::
+::    can check for protection. (Eg. Read Only Segment etc)                 ::
+::                                                                          ::
+:: Let's look a bit at this last point. Because everything goes through the ::
+:: OS, it is easy for us to store values of what users may or may not do to ::
+:: specific pieces of memory. One user could be able to access a certain    ::
+:: segment of another user's memory if deemed necessary, but still not be   ::
+:: able to touch anything else of theirs. There is a much greater potential ::
+:: for versatile protection using this method than any we have looked at    ::
+:: in Part One.                                                             ::
+::                                                                          ::
+:: BUT... This system has a gaping security flaw (which can be fixed with   ::
+:: a bit of extra work) which you may have seen by now. What happens if our ::
+:: segment is 200 bytes long and we give a 400 byte offset? Oops. Quick and ::
+:: easy access to other people's memory - Not good.                         ::
+::                                                                          ::
+:: This system also causes memory fragmentation, because segments are of    ::
+:: varying sizes and after awhile, unused fragments of space can lead to    ::
+:: really shit memory utilization. Ugh. That just about kills it for me,    ::
+:: lets move on to Paging.                                                  ::
+::                                                                          ::
+:: Paging is fairly similar to Segmentation, in that each address is still  ::
+:: a two part object, this time consisting of <Page, Offset>. Programs are  ::
+:: divided into EQUAL-sized pieces called Pages and memory is divided into  ::
+:: units of the same size, called Page Frames. So our program, once divided ::
+:: will look like this...                                                   ::
+::                                                                          ::
+::                   ._______________                                       ::
+::                   | PAGE 0        |                                      ::
+::                   |---------------|                                      ::
+::                   | PAGE 1        |                                      ::
+::                   |---------------|                                      ::
+::                   | PAGE 2        |                                      ::
+::                   |---------------|                                      ::
+::                   | PAGE 3        |                                      ::
+::                   `---------------'                                      ::
+::                                                                          ::
+:: Because Pages are the same size, we don't have memory fragmentation      ::
+:: problems like we have with Segmentation. Also, we don't have to worry    ::
+:: about users setting huge offsets. For example, lets say we have a page   ::
+:: size of 1024 bytes. 10 bits are allocated for the offset portion of each ::
+:: address. A program cannot generate a offset value larger than 1023 in    ::
+:: ten bits! ;)                                                             ::
+::                                                                          ::
+:: Moving to the the next location after <x, 1023> causes a carry into the  ::
+:: page portion, thereby moving translation to the next page. During the    ::
+:: translation, there is a check to make sure that this program has not     ::
+:: gone over the amount of pages it has been assigned.                      ::
+::                                                                          ::
+:: BUT... because there is no unity to the items on a page, there is no way ::
+:: to flag all values on a page as execute-only or read-only, or whatever   ::
+:: we are trying to do. We don't have the sharing and restricting           ::
+:: capabilities segmentation offered us. :(                                 ::
+::                                                                          ::
+:: So, what do we do? We combine the two! The program is divided into       ::
+:: logical segments, like in Segmentation, and then each segment is broken  ::
+:: down into pages of equal size. Easy as that! And the flaws of each       ::
+:: scheme are fixed! This is in fact the exact memory scheme that they used ::
+:: in Multics.                                                              ::
+::                                                                          ::
+:: <Newbie Note: Multics was an early operating system made by AT&T, Bell   ::
+::  Labs, and a whole bunch of other really big companies. One programmer   ::
+::  was developing a space travel game for Multics which he was very        ::
+::  excited about, but ended up not having a OS to run it on when Multics   ::
+::  was found to be the slowest, crappest OS on earth. So, he was forced to ::
+::  program his OWN OS for his space travel game, and he called it UNIX, a  ::
+::  pun on the "Multi" of Multics. The rest is history.>                    ::
+::                                                                          ::
+:: Well, that's all for now. If anyone found this interesting and bugs me   ::
+:: enough I will continue giving more modern examples of memory protection. ::
+:: But until then - Adios!                                                  ::
+::                                                                          ::
+::                               --=====--                                  ::
+:: * Bambi (sdfg@ndf53-02-p61.gt.saix.net) has joined #hack                 ::
+:: * Bambi was kicked by ugh (Run home - I think some-one shot your mother) ::
+::                               --=====--                                  ::
+::                                                                          ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+
+
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+::                .ooO Creating Trojan PGPDisks by wyze1 Ooo.               ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+::                                                                          ::
+:: Well, Network Associates have gone out and added PGP to their list of    ::
+:: products to ruin and commercialize and they made their debut with PGP 6  ::
+:: for Windows some time ago - the first PGP made by NAI.                   ::
+::                                                                          ::
+:: A friends PC of mine had the new PGP on it (PGP 6.0.2i) and I was very   ::
+:: impressed with the PGPDisk utility distributed with it... until I found  ::
+:: out just how evil it was. Basically, PGPDisk creates a filesystem within ::
+:: a filesystem within a file on your HardDrive, then encrypts it with a    ::
+:: pretty damn secure algorythym. When you open the file, it decrypts it    ::
+:: with the password specified and if it was right, makes the PGPDisk a     ::
+:: Virtual Drive on E: or F: or wherever you want to put it.                ::
+::                                                                          ::
+:: Sounds simple enough, so where's the problem? The problem is not in the  ::
+:: creation or encryption of the volumes, it's in the driver that they use  ::
+:: to create the virtual drive. It looks like what they're using is a       ::
+:: ripped version of Microsoft's own CD drivers, and what do we know about  ::
+:: CDs under Windows? They Autorun! Stupid! Stupid! Stupid! Stupid!         ::
+::                                                                          ::
+:: So, we just create a PGPDisk with some loser's public key, containing    ::
+:: some or other fake information which we want to pretend to be sending    ::
+:: along with Evil.Exe, which lets say is a backdoor of some sort that will ::
+:: delete itself and Autorun.inf as soon as it is run on the target machine.::
+:: We then put an Autorun.inf file on the PGPDisk that looks something like ::
+::                                                                          ::
+:: [autorun]                                                                ::
+:: OPEN=EVIL.EXE                                                            ::
+::                                                                          ::
+:: And there we have it - A Nice Trojan PGPDisk just waiting for your local ::
+:: Windoze kidlet. Have fun with this one - And be good. ;)                 ::
+::                                                                          ::
+::                               --=====--                                  ::
+::                      * KewtAngel was kicked by wyze1                     ::
+::              (Why are all chiqz that come to #hack so DUMB?!)            ::
+::                               --=====--                                  ::
+::                                                                          ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+
+
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+::          .ooO Playing with the Nokia and the Ericsson by Moe1 Ooo.       ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+::                                                                          ::
+:: The following are useful codes for the Nokia 6110 (and in some cases,    ::
+:: other versions as well)                                                  ::
+::                                                                          ::
+:: *#0000#      -       This gives you the Software Version. The display is ::
+::                      something like:                                     ::
+::                                                                          ::
+::                              V 4.73                                      ::
+::                              22-04-98                                    ::
+::                              NSE-3                                       ::
+::                                                                          ::
+:: The top line is the software version. (Check Nokia Software Version Info ::
+:: section)                                                                 ::
+::                                                                          ::
+:: *#war0anty#  -       Gives a Menu which has the following options        ::
+::                                                                          ::
+:: 1: Displays Serial Number.                                               ::
+:: 2: Displays the date of manufacture.                                     ::
+:: 3: Displays the date where the phone was purchased (MMYY) you can here   ::
+::    set the Purchasing Date.                                              ::
+:: 4: Displays the date of the last repairment - if found (0000)            ::
+:: 5: Displays the Transfer user data option.                               ::
+::                                                                          ::
+::                                                                          ::
+:: ----------------------------------------                                 ::
+:: Nokia Software Version Info                                              ::
+:: ----------------------------------------                                 ::
+::                                                                          ::
+:: Version 3.14                                                             ::
+:: 28-11-1997                                                               ::
+:: First shipping version of the software.                                  ::
+::                                                                          ::
+:: Version 4.33                                                             :: 
+:: 11-03-1998                                                               ::
+:: Improved reception quality                                               ::
+:: Renamed 'Long and Loud' SMS alert to 'Ascending'                         :: 
+:: Renamed 'Warning Tones' to 'Warning and Game Tones'                      :: 
+:: SMS message alert volume now linked to ringing volume                    :: 
+:: Time taken to log onto new cell reduced                                  :: 
+:: Desktop charger now works correctly when the phone is inserted with the  ::
+:: battery connected                                                        ::
+:: Minor changes in the profiles menu                                       ::
+::                                                                          ::
+:: Version 4.73                                                             ::
+:: 22-04-1998                                                               ::
+:: Half Rate settings can no longer be changed via the keypad               ::
+:: Reception of CCH blocks after cell reselection in weak field has been    ::
+:: improved.                                                                ::
+:: Corrected the problem of the battery indicator bar flickering between    ::
+:: one and two bars when using a Li-ion battery Improved the maintenance    ::
+:: charging when using the ACP-7 charger                                    ::
+:: More frequent battery low warning beeps added during a call made with a  ::
+:: Li-ion battery                                                           ::
+:: Improved SMS stoage time handling. If the user has not selected a storage::
+:: time, the phone uses the maximum storage time set by the network the     ::
+:: phone is connected to.                                                   ::
+:: Improved audio quality when using the EFR (Enhanced Full Rate) Speech    ::
+:: Codec Improved recovery of SIM card in error situations                  ::
+:: Fixed bug in SMS editing screen where the cursor is one character to far ::
+:: right                                                                    ::
+::                                                                          ::
+:: Version 5.24                                                             :: 
+:: 14-09-1998                                                               ::
+:: Implemented code *#746025625# which shows whether the SIM card inserted  ::
+:: supports SIM-clock-stop-mode                                             :: 
+::                                                                          ::
+:: ---------------------------------------                                  ::
+:: Nokia Phone Quality Rates                                                ::
+:: ---------------------------------------                                  ::
+::                                                                          ::
+:: Enhanced Full Rate Codec (EFR):                                          ::
+:: On: Enter *3370# and EFR will be activated after a reboot of the phone   ::
+::     (consumes more power )                                               ::
+:: Off: Enter #3370# and EFR will be switched off after a reboot of the     ::
+::      phone.                                                              ::
+::                                                                          ::
+:: Half Rate Codec:                                                         ::
+:: On: Enter *4720# and Half Rate coded will be activated after a reboot of ::
+:: the phone (better standby time)                                          ::
+:: Off: Enter #4720# and Half Rate coded will be de-activated after a       ::
+:: reboot of the phone                                                      ::
+::                                                                          ::
+:: Enhanced Full Rate will give you much better sound quality when you      ::
+:: enable it. The new Enhanced Full Rate CODEC adopted by GSM uses the      ::
+:: ASELP (AlgebraicCode Excitation Linear Prediction) compression           ::
+:: technology. This technology allows for much great voice quality in the   ::
+:: same number of bits as the older Full Rate CODEC. The older technology   ::
+:: was called LPC-RPE (Linear Prediction Coding with Regular Pulse          ::
+:: Excitation). Both operate at 13 kilobits.(but you take up more space on  ::
+:: the network, so they can charge you more) - Talk-time is reduced with    ::
+:: about 5%                                                                 ::
+::                                                                          ::
+:: Half Rate will give you bad soundquality, which gives the service        ::
+:: provider the opportunity to have more calls on the network, and you      ::
+:: might get a lower charge from them. - Will give you 30% longer talk-time.::
+::                                                                          ::
+:: -------------------------------------------------                        ::
+:: Nokia GSM Codes (Most will work on any GSM phone)                        ::
+:: -------------------------------------------------                        ::
+::                                                                          ::
+::     Call Diverting                                                       ::
+::     ALL CALLS                                                            :: 
+::      To Activate: * * 21 * NUMBER # [SEND]                               ::
+::      To Cancel: # # 21 # [SEND]                                          ::
+::      To Check: * # 21 # [SEND]                                           ::
+::                                                                          ::
+::      Time Delay                                                          ::
+::      To Activate: * * 002 * NUMBER   * * (Wait 5 to 30 Secs) # [SEND]    ::
+::      To Cancel: # # 002 # [SEND]                                         ::
+::      To Check: * # 002 # [SEND]                                          :: 
+::                                                                          ::
+::      Conditional                                                         ::
+::      To Activate: * * 004 * NUMBER   * * (Time 5 to 30 Seconds) # [SEND] ::
+::      To Cancel: # # 004 # [SEND]                                         ::
+::      To Check: * # 004 # [SEND]                                          ::
+::                                                                          ::
+::      NO ANSWER                                                           ::
+::      To Activate: * * 61 * NUMBER * * (Time 5 to 30 Seconds) # [SEND]    ::
+::      To Cancel: # # 61 # [SEND]                                          ::
+::      To Check: * # 61 # [SEND]                                           ::
+::                                                                          ::
+::      UNREACHABLE                                                         ::
+::      To Activate: * * 62 * NUMBER   # [SEND]                             ::
+::      To Cancel: # # 62 # [SEND]                                          :: 
+::      To Check: * # 62 # [SEND]                                           ::
+::                                                                          ::
+::      ENGAGED                                                             ::
+::      To Activate: * * 67 * NUMBER   # [SEND]                             ::
+::      To Cancel: # # 67 # [SEND]                                          :: 
+::      To Check: * # 67 # [SEND]                                           :: 
+::                                                                          ::
+::      TO CANCEL ALL CALL FORWARDING                                       ::
+::      # # 002 # [SEND]                                                    ::
+::                                                                          ::
+::                                                                          ::
+::     Call Barring                                                         ::
+::                                                                          ::
+::      BARRING ALL OUTGOING CALLS                                          ::
+::      To Activate: * 33 * BARRING CODE# [SEND]                            :: 
+::      To Cancel: # 33 * BARRING CODE # [SEND]                             ::
+::      To Check: * # 33 # [SEND]                                           ::
+::                                                                          ::
+::      BARRING ALL OUTGOING INTERNATIONAL CALLS                            ::
+::      To Activate: * 331 * BARRING CODE# [SEND]                           ::
+::      To Cancel: # 331 * BARRING CODE # [SEND]                            ::
+::      To Check: * # 331 # [SEND]                                          ::
+::                                                                          ::
+::      BARRING ALL OUTGOING INTERNATIONAL (except to home country) CALLS   ::
+::      To Activate: * 332 * BARRING CODE# [SEND]                           :: 
+::      To Cancel: # 332 * BARRING CODE # [SEND]                            :: 
+::      To Check: * # 332 # [SEND]                                          ::
+::                                                                          ::
+::      BARRING ALL INCOMING CALLS                                          ::
+::      To Activate: * 35 * BARRING CODE # [SEND]                           :: 
+::      To Cancel: # 35 * BARRING CODE # [SEND]                             ::
+::      To Check: * # 35 # [SEND]                                           ::
+::                                                                          ::
+::      BARRING ALL INCOMING CALLS WHILST OUTSIDE HOME COUNTRY              ::
+::      To Activate: * 351 * BARRING CODE # [SEND]                          ::
+::      To Cancel: # 351 * BARRING CODE # [SEND]                            ::
+::      To Check: * # 351 # [SEND]                                          ::
+::                                                                          ::
+::      BARRING ALL CALLS                                                   ::
+::      To Activate: * 330 * BARRING CODE # [SEND]                          ::
+::      To Cancel: # 330 * BARRING CODE # [SEND]                            ::
+::      To Check: * # 330 # [SEND]                                          ::
+::                                                                          ::
+::      BARRING ALL OUTGOING CALLS                                          ::
+::      To Activate: * 333 * BARRING CODE # [SEND]                          ::
+::      To Cancel: # 333 * BARRING CODE # [SEND]                            ::
+::      To Check: * # 333 # [SEND]                                          ::
+::                                                                          ::
+::      BARRING ALL INCOMING CALLS                                          ::
+::      To Activate: * 353 * BARRING CODE # [SEND]                          ::
+::      To Cancel: # 353 * BARRING CODE # [SEND]                            ::
+::      To Check: * # 353 # [SEND]                                          ::
+::                                                                          ::
+::      CANCELLING ALL CALL BARRING                                         ::
+::      # 330 * BARRING CODE # [SEND]                                       ::
+::                                                                          ::
+::     Call wait/hold                                                       ::
+::                                                                          ::
+::      To Activate: * 43 # [SEND]                                          ::
+::      To Deactivate: # 43 # [SEND]                                        ::
+::      To Check: * # 43 # [SEND]                                           ::
+::                                                                          ::
+::     Call Line Identity (CLI)                                             ::
+::      OUTGOING                                                            ::
+::      To Activate: * 31 # [SEND]                                          ::
+::      To Deactivate: # 31 # [SEND]                                        ::
+::      To Check: * # 31 # [SEND]                                           ::
+::                                                                          ::
+::      INCOMING                                                            ::
+::      To Activate: * 30 # [SEND]                                          ::
+::      To Deactivate: # 30 # [SEND]                                        ::
+::      To Check: * # 30 # [SEND]                                           ::
+::                                                                          ::
+::     Diverting fax/data calls                                             ::
+::     Data Calls                                                           ::
+::     No Reply                                                             ::
+::     To Activate: * * 61 * NUMBER * 25 # [SEND]                           :: 
+::     To Cancel: # # 61 * 25 # [SEND]                                      ::
+::     To Check Status: * # 61 # * 25 # [SEND]                              ::
+::                                                                          ::
+::     Time Delay                                                           ::
+::     To Activate: * * 61 * NUMBER * 25 * (Time 5 to 30 seconds) # [SEND]  ::
+::     To Cancel: # # 61 # * 25 # [SEND]                                    ::
+::     To Check Status: * # 61 # * 25 # [SEND]                              ::
+::                                                                          ::
+::     Unreachable                                                          ::
+::     To Activate: * * 62 * NUMBER * 25 # [SEND]                           ::
+::     To Cancel: # # 62 # * 25 # [SEND]                                    ::
+::     To Check Status: * # 62 # * 25 # [SEND]                              ::
+::                                                                          ::
+::     BUSY                                                                 ::
+::     To Ativate: * * 67 * NUMBER * 25 # [SEND]                            ::
+::     To Cancel: # # 67 # * 25 # [SEND]                                    ::
+::     To Check Status: * # 67 # * 24 # [SEND]                              ::
+::                                                                          ::
+::     Unconditional                                                        ::
+::     To Activate: * * 21 * NUMBER * 25 # [SEND]                           ::
+::     To Cancel: # # 21 # * 25 [SEND]                                      ::
+::     To Check Status: * # 21 # * 25 # [SEND]                              ::
+::                                                                          ::
+::                                                                          ::
+::     FAX                                                                  ::
+::     No Reply                                                             ::
+::     To Activate: * * 61 * NUMBER * 13 # [SEND]                           ::
+::     To Cancel: # # 61 * 13 # [SEND]                                      ::
+::     To Check Status: * # 61 # * 13 # [SEND]                              ::
+::                                                                          ::
+::     Time Delay                                                           ::
+::     To Activate: * * 61 * NUMBER * 13 * (5 to 30 seconds) # [SEND]       ::
+::     To Cancel: # # 61 # * 13 # [SEND]                                    ::
+::     To Check Status: * # 61 # * 13 # [SEND]                              ::
+::                                                                          ::
+::     Unreachable                                                          ::
+::     To Activate: * * 62 * NUMBER * 13 # [SEND]                           ::
+::     To Cancel: # # 62 # * 13 # [SEND]                                    ::
+::     To Check Status: * # 62 # * 13 # [SEND]                              ::
+::                                                                          ::
+::     Busy                                                                 ::
+::     To Activate: * * 67 * NUMBER * 13 # [SEND]                           ::
+::     To Cancel: # # 67 # * 13 # [SEND]                                    ::
+::     To Check Status: * # 67 # * 13 #[SEND]                               ::
+::                                                                          ::
+::     Unconditional                                                        ::
+::     To Activate: * * 21 * NUMBER * 13 #[SEND]                            ::
+::     To Cancel: # # 21 # * 13 # [SEND]                                    ::
+::     To Check Status: * # 21 # * 13 # [SEND]                              ::
+::                                                                          ::
+::     Retrieve IMEI:                                                       ::
+::     *#06#                                                                ::
+::                                                                          ::
+:: -------------------------------------------------                        ::
+:: Nokia Service Provider Fone Lock                                         ::
+:: -------------------------------------------------                        ::
+:: SP Lock is used by Service Providers who want to lock the cellular phone ::
+:: to a specific network .. The reason for doing this is so that the phone  ::
+:: will only be used on their network and hence they make more money out of ::
+:: you.                                                                     ::
+::                                                                          ::
+:: How to check for SP Lock and remove it if you know your master code:     ::
+:: --------------------------------------------------------------------     ::
+:: All Nokia phones (2110 and newer) have four different SIM locks which can::
+:: be used to lock the phone for upto 4 different providers. But most phones::
+:: with restriction only have one lock activated. ( lock 1)                 ::
+::                                                                          ::
+:: Note: To get the "p" and "w" symbols, simply push the "*" key 3 and 4    ::
+:: times respectively.                                                      ::
+::                                                                          ::
+:: #pw+(master code)+Y#                                                     ::
+::                                                                          ::
+:: #pw+1234567890+1# for Provider-Lock status                               ::
+:: #pw+1234567890+2# for Network-Lock status                                ::
+:: #pw+1234567890+3# for Provider(???)-Lock status                          ::
+:: #pw+1234567890+4# for SimCard-Lock status                                :: 
+::                                                                          ::
+:: (master code) is a 10 digit code, based on the phones IMEI and the       ::
+:: service provider number.                                                 ::
+::                                                                          ::
+:: Warning:  If you use another code other than the mastercode "1234567890" ::
+:: the phone will report an error.  If you do this more than 10 times you   ::
+:: will get a display reading "Not Allowed"  If you get this there appears  ::
+:: to be no way to get rid of it, and you must take your phone to a Nokia   ::
+:: repair centre.  Your phone will still work, it just cannot be unlocked   ::
+:: from that network provider.                                              ::
+::                                                                          ::
+:: Allrighty then. Thats enough of the Nokia...                             ::
+::                                                                          ::
+:: Ericsson 337/388                                                         ::
+:: ----------------                                                         ::
+:: Press Right then * then Left Left * and Left * one more time. (This lets ::
+:: you view the software version,date etc.)                                 ::
+::                                                                          ::
+:: Ericsson 628                                                             ::
+:: ------------                                                             ::
+:: *#0000# (Resets Menu Language to English)                                ::
+:: Press Right * Left Left * Left * (This lets you view the Software Ver)   ::
+:: Press Right * Left Left * Left * Right (This lets you read all the       ::
+::                                         programmed texts)                ::
+:: Press  Left * * Left then wait for 3 seconds (This lets you view the     ::
+:: phone network lock status)                                               ::
+::                                                                          ::
+:: Ericsson 688                                                             ::
+:: ------------                                                             ::
+:: Press Right * Left Left * Left *  CLR (This views the Software Ver)      ::
+:: Press Right * Left Left * Left * Right                                   ::
+:: (This lets you check the phones 1-row text programming)                  ::
+:: Press Right * Left Left * Left * Right Right (This lets you check the    ::
+:: phones n-row text programming)                                           ::
+::                                                                          ::
+:: Ericsson 788                                                             ::
+:: ------------                                                             ::
+:: Press * Right * Left Left * Left * (This views the Software Version)     ::
+:: Press * Left Left * (This gives you the Service Provider Lock)           ::
+::                                                                          ::
+:: Ericsson 888                                                             ::
+:: ------------                                                             ::
+:: *#06# (This gives you the IMEI)                                          ::
+:: Press * Right * Left Left * Left * (This views the Software Version)     ::
+:: Note: This code also shows version of Infrared driver software and text  ::
+:: labels)                                                                  ::
+::                                                                          ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+
+
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+::          .ooO A Guide to Securing RedHat Linux 6.0 by wyze1 Ooo.         ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+::                                                                          ::
+:: A lot of people out there are raving about RH6, why exactly, I don't     ::
+:: know, but they seem to think it's just great. ;P So, for lack of any     ::
+:: hope of getting these people to start using *BSD or Solaris, I have      ::
+:: designed a guide to securing Red Hat Linux 6.0 which covers all known    ::
+:: problems up to date, although it doesn't really tackle other issues.     ::
+::                                                                          ::
+:: Now, go to ftp://update.redhat.com and download the source for the new   ::
+:: kernel supplied by RedHat for RH6 systems (2.2.5-22). Then, go and       ::
+:: download the information on the Linux 2.2.x ICMP DoS that causes Kernel  ::
+:: Panic - search Geek-Girl's BugTraq archive for it. <http://geek-girl.com>::
+:: Apply the patch to fix this vulnerability. Now, recompile the Kernel,    ::
+:: look in /usr/doc/HOWTO/Kernel-HOWTO if you don't know how.               ::
+::                                                                          ::
+:: Now there haven't been any SUID vulnerabilities discovered in RH6 yet,   ::
+:: but you probably don't want any just in case. You can nuke the lot of    ::
+:: them simply by typing "chmod a-s -R / &". You may find some you want     ::
+:: to re-SUID, like mount, but you probably won't need that many.           ::
+::                                                                          ::
+:: Now, lets play with the Alt+SysRq Kernel hack, one of the nicest things  ::
+:: about the new 2.2.x Kernel series. This hack allows you to press Alt,    ::
+:: SysRq (Print Screen) and a Hotkey to perform various different tasks     ::
+:: even when the system is not responding. You can press Alt+SysRq+K to     ::
+:: kill all processes on the vterm you are using, or Alt+SysRq+M to dump    ::
+:: memory information onto the screen and a whole bunch of other really     ::
+:: neat things - none of which we are looking at in detail now, except for  ::
+:: the one that makes the difference for security - Alt+SysRq+1-9. This     ::
+:: hack determines how much of the kernel mumblings are logged. Having a    ::
+:: lot of mumblings logged is generally quite nice, or, you can keep it at  ::
+:: 1 or something and just jack it up when you need to. ;)                  ::
+::                                                                          ::
+:: Ugh. RedHat 6.0 has a stupid PAM'erized su. If you give the correct      ::
+:: password to it, you become superuser immediately, and if you give the    ::
+:: wrong password, there is a full one second delay before it tells you the ::
+:: attempt failed and logs the attempt. During this period, you can press   ::
+:: Ctrl+Break to stop su and nothing will be logged, making it easy for     ::
+:: some-one to brute-force the root password. Nuke su. It's a dumb program  ::
+:: and I don't like it anywayz. ;)                                          ::
+::                                                                          ::
+:: I hope you're not running X-Windows, but if you are, be sure to fix a    ::
+:: few critical permissions in the UNIX 98 PTYs which could give you        ::
+:: trouble by typing chmod 600 /dev/pts/*                                   ::
+::                                                                          ::
+:: RedHat 6.0 also fucks up the permissions on the CD-ROM drive. A minor    ::
+:: problem, but worth fixing anyway - Think of backups. Cat your /etc/fstab ::
+:: to see where your cdrom drive is and then chmod 600 /dev/whatever        ::
+::                                                                          ::
+:: If you use KDE, and more specifically if you use K-Mail, then you are    ::
+:: vulnerable to a silly symlink problem. Nuke K-Mail, Don't use K-Mail, or ::
+:: if you are a COMPLETE loser and you *really* want it, d/l the fix from   ::
+:: ftp.kde.org/pub/kde/security_patches/kmail-security-patch.diff           ::
+::                                                                          ::
+:: I think the ipop2d on RH6 in vulnerable to a remote buffer overflow      ::
+:: exploit that produces a shell as user "nobody". I'm not sure, but if yer ::
+:: running an ipop2d yer a loser anyway, so who cares. ;)                   ::
+::                                                                          ::
+:: Now you should have a quasi-secure lame Linux box that is hopefully a    ::
+:: bit less lame than when you started. This text only really covers what   ::
+:: silly security problems need to be fixed, not common sense stuff. If     ::
+:: you are new to *nix then you should get the Linux Administrators         ::
+:: Security Guide from www.seifried.org/lasg - but not even that can        ::
+:: completely teach you common sense. Make sure to close unwanted ports by  ::
+:: checking your /etc/inetd.conf and preparing user's home directories      ::
+:: properly, ie. like this...                                               ::
+::                                                                          ::
+:: cd /home/redneck                 # Go to the home directory              ::
+:: chattr +a .bash_history          # Make history append only              ::
+:: chown root.root .bash_profile    # Make profile unmodifiable             ::
+:: chown root.root .bash_logout     # Make logout unmodifiable              ::
+:: chown root.root .bashrc          # Make bashrc unmodifiable              ::
+::                                                                          ::
+:: There is a wealth of stuff you can do to make your system much more      ::
+:: secure, but I'm not going to go into any of that right now. There are    ::
+:: already too many lame guides to generic Linux security, and I don't      ::
+:: feel like making another one. Later.                                     ::
+::                                                                          ::
+::                               --=====--                                  ::
+:: * Kat (guy@inside.thematrix.za.net) has joined #hack                     ::
+:: <wyze1> Guy... do you want to know... what... the matrix is?             ::
+:: <wyze1> WELL I WONT TELL YOU, YA DUMB LITTLE FUCK!#%!$^%! THEY SAID I    ::
+:: COULD HAVE A TALK SHOW, BUT NOOOOOOOOO, I HAVE TO BE IN A SCI-FI AND     ::
+:: WEAR THIS G00FY TRENCHCOAT!^%$#^$!#%$ I HATE YOU ALL DAMNIT!#%@%^$#      ::
+:: <wyze1> *sigh*                                                           ::
+:: * wyze1 sets mode: +o Kat                                                ::
+::                               --=====--                                  ::
+::                                                                          ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+
+
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+::              .ooO RedHat 6.0 LILO PAM Filter Workaround Ooo.             ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+::                                                                          ::
+:: OK well I suppose I've put off writing this for long enough.             ::
+::                                                                          ::
+:: Background:                                                              ::
+:: ===========                                                              ::
+::                                                                          ::
+:: The most commonly known hack on the planet has just gotten interesting.  ::
+:: It seems that Redhat 6.0 has become uncommon in the stability of previous::
+:: versions. Please note that this is not a hack in the script kiddy sense  ::
+:: of the word. It will not gain you access to your best friends porn       ::
+:: files, it will not let you read some girl you likes e-mail, and it will  ::
+:: not let you pass school (Thank God, I think you guys should stay off the ::
+:: streets, its safer for you.)                                             ::
+::                                                                          ::
+:: Technical Background:                                                    ::
+:: =====================                                                    ::
+::                                                                          ::
+:: Linux uses a boot loader called Lilo. Lilo, if you read the man page     ::
+:: you will notice this, actually has many other options over the regular   ::
+:: "boot dos/linux" option. An easy hack on the system could be acomplished ::
+:: by having hands on access to the machine you want to break. Reboot the   ::
+:: machine and at the lilo prompt type "$linux s" where $linux is your      ::
+:: kernel name. This logs you in as a single user, from here you can edit   ::
+:: the /etc/passwd file at will, and then log in properly.                  ::
+::                                                                          ::
+:: PAM Workaround in RH 6.0:                                                ::
+:: =========================                                                ::
+::                                                                          ::
+:: It seems that there is some instabillity in PAM in RH6, either           ::
+:: intentionally, or totally stupidly. All attempts to simply remove the    ::
+:: root password will fail. To get around this:                             ::
+::                                                                          ::
+:: 1) Adduser r00t                                                          ::
+:: 2) Change pid and gid of r00t to 0:0                                     ::
+:: 3) Change passwd                                                         ::
+::                                                                          ::
+:: Exit single user mode, and login as r00t.                                ::
+::                                                                          ::
+:: Note: You must do it like this, because if you just try to get rid of    ::
+:: the root passw, PAM GOES WILD. Its so easy it scares me.                 ::
+::                                                                          ::
+:: Bitches and gripes:                                                      ::
+:: ===================                                                      ::
+::                                                                          ::
+:: I finally understand the exponential growth in scripties. It struck me   ::
+:: the other day. The Old Skool of hacker grew up on DOS/UNIX/etc....       ::
+:: playing around with demo's etc... They learnt the hack. Now we have this ::
+:: front end Win hanging around 90% of households, and stagnating education.::
+:: The front-end will be the death of real hackers....Beware, the next      ::
+:: generation will be the HaX0r........I am not a scripty, I just wanted    ::
+:: others to understand them.                                               ::
+::                                                                          ::
+:: <Notes from Wyzewun: Remember that if you setup your /etc/lilo.conf      ::
+::  securely, this isn't a problem. To find out how to do this if you don't ::
+::  know already, get the LASG from www.seifried.org/lasg>                  ::
+::                                                                          ::
+::                               --=====--                                  ::
+::                  <fred> sektorgrl, no one likes you                      ::
+::                             <fred> leave.                                ::
+::                             <sektie> no.                                 ::
+::                      <sektie> jsbach likes me :(                         ::
+::                             <jsbach> brb.                                ::
+::                             <sektie> SEE                                 ::
+::                      <sektie> that's one person                          ::
+::                           <sektie> so nyah                               ::
+::                               --=====--                                  ::
+::                                                                          ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+
+
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+::     .ooO Java Personal Webserver 0.9 Denial of Service by wyze1 Ooo.     ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+::                                                                          ::
+:: The Java Personal Webserver 0.9 by Clay Lenhart (Available from Tucows)  ::
+:: is a freeware webserver written entirely in Java. It features on-screen  ::
+:: logging and implements only the GET and HEAD functions. (HTTP 0.9)       ::
+::                                                                          ::
+:: This bug was tested on a Windows 98 box with JDK 1.1.1 and it worked     ::
+:: fine. I was going to test it on another Win98 box with JDK 1.2.1, but    ::
+:: the fucking program decided to break - (The author hasn't ported it to   ::
+:: Java 1.2 yet). It has not been tested on a Unix box because we refuse to ::
+:: run Japan's Secret Weapon, aka. XFree86 on any box we wouldn't want      ::
+:: Satan to posses. If some-one else wants to test it and tell us what      ::
+:: happens, feel free.                                                      ::
+::                                                                          ::
+:: Okay, so whats the problem? By connecting and typing GET followed by a   ::
+:: couple of thousand characters (3000 for every 32mb of RAM on the system  ::
+:: sounds about right) the system will become low on memory and the Java    ::
+:: Virtual Machine will start whining about stuff like..                    ::
+::                                                                          ::
+:: java.lang.OutOfMemoryError: <== Type of error that occurs when           ::
+::         at ConnectionThread.readCommands(wyze1.java:521) <== Reading GET ::
+::         at ConnectionThread.run(wyze1.java:344) <== And Executing GET    ::
+::                                                                          ::
+:: Right, so the VM has decided the system is low on memory. Thus the VM    ::
+:: Garbage Collector will run on a thread with full priority. Okay, a bit   ::
+:: of background for non-Java coders is required: Unlike other languages,   ::
+:: you don't have to kill objects once you are finished with them, the      ::
+:: Garbage Collector does it for you when there are no further references   ::
+:: to the object. The GC can be called manually, and will also run          ::
+:: automatically when it feels like it, and with full priority if the       ::
+:: system is low on memory - like it is now. ;)                             ::
+::                                                                          ::
+:: So, the Garbage Collector looks around for threads to kill, and alas, it ::
+:: can't find any, so it just stops anything more being written to the      ::
+:: editable textbox in the centre of the window, regardless of the fact     ::
+:: that thats where our logging would be if it still worked. =P             ::
+::                                                                          ::
+:: Fixing the error should be fairly simple - the only reason I didn't do   ::
+:: it myself is because that would require porting the app to Java 1.2 and  ::
+:: that is just TOO much work. ;) However, should the app be ported to Java ::
+:: 1.2, the bug could be fixed by using JFC/Swing instead of AWT and        ::
+:: making the Textbox a Label. Then, the user input should be limited to    ::
+:: a certain number of characters, and errors caused by too many chars in   ::
+:: the user input should be catched.                                        ::
+::                                                                          ::
+:: You will find the exploit for this vulnerability in the lame-java-c0de   ::
+:: directory of this issue if you want. Have fun!                           ::
+::                                                                          ::
+::                               --=====--                                  ::
+::                    <wyze1> g1bb0r mE s1bb0rs3ckz                         ::
+::                        <Eth`Real> Okay. *uNf*                            ::
+::                              <wyze1> ta                                  ::
+::                               --=====--                                  ::
+::                                                                          ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+
+
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+::            .ooO Ripping off your local Aracde by Terabyte Ooo.           ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+::                                                                          ::
+:: Ever wondered why arcades try and rip you off? Cause they suck thats why.::
+:: Well if your lucky enough to have a few pinball machines at the next     ::
+:: arcade, try this and yer sure to have loads of fun.                      ::
+::                                                                          ::
+:: On the right hand side under the pinball machine, there should be a      ::
+:: little switch(scratch around for it), next flick the switch, dont be     ::
+:: alarmed the machine will turn off but turn it back on again(by flicking  ::
+:: the switch again) holding both the flickers and voila a test credit      ::
+:: hehe, enjoy!                                                             ::
+::                                                                          ::
+:: Another bug which came up with some machines is: you remember that ball  ::
+:: game where u throw the balls into certain hoop like places and got       ::
+:: tickets weeeelllll, here is how you can get those wooden balles without  ::
+:: dishing out that cash. First check if any cameras or guards are nearby,  ::
+:: if there are any dont do it this is way to risky, on the right hand side ::
+:: if you put your hand underneath the machine you should feel some wires,  ::
+:: then not long after you should feel a hook like thingy, pull it and keep ::
+:: it down and voila bout 6 balls will come down like magic!!               ::
+::                                                                          ::
+:: One more trick that might come in handy when u have none of those        ::
+:: precious tokenz left, First of all find a Ridge Racer type game, Hence   ::
+:: it must be a 1 player only, second a gun type game like Time crises,     ::
+:: under each of theses machines lies at least 5-10 tokenz per machine as   ::
+:: there is sumthing wrong with the design and magic company tokenz tend to ::
+:: fall out when it gets full, so scratch around and hopefully be lucky     ::
+:: today.                                                                   ::
+::                                                                          ::
+:: Till next time,                                                          ::           
+:: TeRaByTe                                                                 ::
+::                                                                          ::
+:: Tera Sends Greetz to: Hen-i, Depach and Ukj                              ::
+::                                                                          ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+
+
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+::              .ooO Linux/FreeBSD IP Firewalling by jus Ooo.               ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+::                                                                          ::
+:: In FK3 Vortexia described "the poor man's firewall", that is tcp         ::
+:: wrappers, and how to set them up and use them as basic protection against::
+:: unwanted connections. The next step is to make use of Linux's ipfwadm or ::
+:: fBSD's ipfw to setup a proper firewall to automatically block out        ::
+:: potential attackers and keep certain services only available to your LAN ::
+:: (i.e. SQUID).                                                            ::
+::                                                                          ::
+:: Most generic or standard *nix kernels should have firewalling compiled,  ::
+:: if not you will get errors when trying to use ipfw/ipfwadm. Just rebuild ::
+:: your kernel to include firewalling.                                      ::
+::                                                                          ::
+:: OK, to setup firewall rules under linux "ipfwadm" is used. "man ipfwadm" ::
+:: will give some further insight as to what can be done with this tool,    ::
+:: we're gunna focus on just keeping incoming connections where we want em  ::
+::                                                                          ::
+:: Typing ipfwadm -I -l will give you a list of current firewall rules in   ::
+:: their order, you will most likely have nothing there. Lets try something ::
+:: simple first, like block off your ftpd to all but yourself :)            ::
+::                                                                          ::
+:: ipfwadm -I -i deny -P tcp -S 0.0.0.0/0 -D yourip 21 will disallow all    ::
+:: connections from anywhere to port 21. Even from 127.0.0.1, so if you     ::
+:: want to be able to connect to your own ftpd you need to add a rule to    ::
+:: allow 127.0.0.1 though. If you are on dialup and get a dynamic IP, fill  ::
+:: in 0.0.0.0/0 in place of "yourip".                                       ::
+::                                                                          ::
+:: Note, if you are working on a machine remotely and firewalling it, you   ::
+:: could lock yourself out accidently. Then your screwed, so place a rule   ::
+:: in your firewall to allow connections from a trusted host at all times,  ::
+:: ie ipfwadm -I -i accept -P ip -S 196.23.2.14 -D yourip. That will allow  ::
+:: all types of connection to all ports from host 196.23.2.14. Note that it ::
+:: is not always good security practice for your firewall to explicity trust::
+:: any box!                                                                 ::
+::                                                                          ::
+:: Remember that the firewall runs down the list of rules until it meets a  ::
+:: match with any connection attempt, so rule 1 will have preference over   ::
+:: rule 2, etc. Place your rules accordingly. Lets say you wanted to allow  ::
+:: access to SQUID on 3128 to only your LAN (which owns 196.34.23.*) but    ::
+:: not to any else out there.                                               ::
+::                                                                          ::
+:: ipfwadm -I -i deny -P tcp -S 0.0.0.0/0 -D yourip 3128                    ::
+:: ipfwadm -I -i accept -P tcp -S 196.34.23.0/24 -D yourip 3128             ::
+::                                                                          ::
+:: Easy huh? Use -a instead of -i to add a rule at the end of the rules     ::
+:: chain instead of at the front.                                           ::
+::                                                                          ::
+:: Under fBSD its even simpler using ipfw. "ipfw list" will give you a list ::
+:: of currently existing rules. More than likely there is nothing except    ::
+:: the last rule which allows all traffic through. ipfw allows us to specify::
+:: a number for each rule thats created, making it easier to work with      ::
+:: rules' order of preference. To add a rule like above for the ftpd, type  ::
+:: ipfw add 1000 deny tcp from any to youripgoeshere 21 That will disallow  ::
+:: any connections to your ftpd. The "1000" is the rule number, use ipfw    ::
+:: list to decide an appropriate number, but remember you have all the      ::
+:: numbers available down to approx 65k :)                                  ::
+::                                                                          ::
+:: Similarily, the SQUID setup as above is done by using a rule to block    ::
+:: all access to port 3128, an then a rule before that to allow access from ::
+:: our subnet. ipfw add 500 deny tcp from any to youripgoeshere 3128        ::
+:: disallows all connections, and ipfw add 450 allow tcp from 196.34.23.0/24::
+:: to youripgoeshere 3128 will allow connections from our subnet            ::
+:: 196.34.23.0/24.                                                          ::
+::                                                                          ::
+:: RTFM for more. -jus                                                      ::
+::                                                                          ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+
+
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+::               .ooO Windows Backdoor Stupidity by wyze1 Ooo.              ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+::                                                                          ::
+:: In this issue, for humours sake if nothing else, I thought I'd look at   ::
+:: some of the hardk0re things we have to do to detect a new wave of ereet  ::
+:: Windoze backdoors. Yes, inspired by 'doze kiddie backdoor mentality and  ::
+:: fueled by the urge to spread the stupidity even further, there are now a ::
+:: whole bunch of really phjeerphull new tr0janZ available! w00p!           ::
+::                                                                          ::
+:: Let us start by looking at Masters Paradise Trojan by Overlord. As       ::
+:: always, like gewd kiddies we view the README first. Comments in <>       ::
+::                                                                          ::
+:: ----------------------------- shnip ------------------------------------ ::
+:: ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                           ::
+:: MASTERS PARADISE TROJAN v.1.2                                            ::
+::     (WIN 95/98)                                                          ::
+:: ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                           ::
+::                                                                          ::
+:: (c) Overlord 7/18/1998                                                   ::
+::                                                                          ::
+:: OVERVIEW: This is an add on for Masters Paradise (MP). MP lets you       ::
+:: control someone elses computer when they're on line: see whats on their  ::
+:: screen, download their files, get their passwords all secretly. But      ::
+:: therez a catch....                                                       ::
+::                                                                          ::
+:: You gotta know their IP <Phew. I dont gn0 if I iz leet enuf> (easy enuf, ::
+:: thru ICQ, IRC, recent emails, etc.). You also gotta have them running a  ::
+:: TSR ('the agent') on their computer (more difficult).                    ::
+::                                                                          ::
+:: This is where Masters Paradise Trojan comes in. This is what it does:    ::
+::                                                                          ::
+:: WHAT THE TROJAN DOES: Helps you get the agent to their computa, while    ::
+:: lookin real innocent. <Really?!!#@#@ I Phj34r!@@#@>                      ::
+::                                                                          ::
+:: WHAT THEY SEE: You just send them the icqcrk.zip (the trojan) file,      ::
+:: saying its a cool ICQ utility. They run it - but it just comes up with a ::
+:: heap of errors and drops out. Dang! Isn't it always the way with good    ::
+:: games.                                                                   ::
+::                                                                          ::
+:: WHAT REALLY HAPPENZ: Unknowingly to them, there were no real error - just::
+:: looked like that. The trojan has copied the agent over to their          ::
+:: /windows/system directory. Executed itself, so it is running. Set its    ::
+:: attributes so it can't be found. Set up stealth protections so it can't  ::
+:: be deleted. <Woah! Stop right there! I think I saw that "Stealth" when I ::
+:: was looking through the strings in the program. I do believe that it was ::
+:: something like "attrib +h c:\windows\system\explorer.exe" - Sheesh. Dat  ::
+:: iz pretty damn stealthy. I wish I had skillz like that> And last and     ::
+:: most importantly, modified win.ini so that it loads whenever they turn   ::
+:: on their computa any time in the future. Now, whenever they are on the   ::
+:: net, they are YOURS!                                                     ::
+::                                                                          ::
+:: STEALTHINESS: The trojan will not show up anywhere as loading, not in the::
+:: in box, not the startup menu, not anywhere! The only way you can see if  ::
+:: it is running is if you go CNTRL-ALT-DEL, you will see two copies of     ::
+:: 'Explorer' running. One of these is the backdoor to their computer. The  ::
+:: only other way they could find it is by checking through their win.ini   ::
+:: file, and seeing 'explorer' getting auto loaded. But that looks innocent ::
+:: enuff, i bet???? <Shure, Two expl0rerz iz n0t sushpishus at all!>        ::
+::                                                                          ::
+:: KNOWN PROBLEMS:                                                          ::
+::                                                                          ::
+:: 1/ If you got the trojan on your computa, it is VERY hard to get it out. ::
+:: You would have to edit win.ini and remove any refs to explorer.exe, then ::
+:: reboot and then delete explorer from windows/system. <Huh?! Start again! ::
+:: I cant handle thiz uber-eleet unhax0ring method>                         ::
+::                                                                          ::
+:: 2/ This will only work if they have set up Windows in the default        ::
+:: directory (/Windows). <Coz we're too dumb to look in the registry to     ::
+:: find out what it is. Pheer us.>                                          ::
+::                                                                          ::
+:: 3/ Will not work in Win 3.1, etc. Only Win 95 and greater.               ::
+::                                                                          ::
+:: 4/ I notice sometimez the trojan works real slow (about 10 seconds to do ::
+:: its job). But still probably believable enough. <I've been trying to     ::
+:: figure out why It's so slow for a while. Could be coz I code like a      ::
+:: trained chimpanzee, but... NAAAAH>                                       ::
+::                                                                          ::
+:: VERSIONS                                                                 ::
+:: v.1.2 Now pretends to be an ICQ utility. Works even from floppy drive    ::
+:: now, <Because I only learnt how to identify the current path in Pascal   ::
+:: once I'd got to version 1.2> and wipes itself out after installing.      ::
+::                                                                          ::
+:: v.1.1.1                                                                  ::
+:: -Now installs to c:\windows\system rather than \windows in drive where   ::
+:: go.exe is located.                                                       ::
+::                                                                          ::
+:: v.1.1                                                                    ::
+:: - More Stealthy. Does not just send the agent to startup menu, but       ::
+:: modifies win.ini to load itself real invisibly. <OMG! YoU fOuNd a WaY    ::
+:: tO LoAd PrOgrAmZ wItHoUt tHe sTarTuP mEnU?! eYe pHjEeR!>                 ::
+::                                                                          ::
+:: - No longer pretends to be a Tic Tac Toe program. Now, you can send it   ::
+:: to someone saying it is anything (you can change the name from gamer.exe ::
+:: to hackutil.exe if you want). Just comes up with a fake error anyway.    ::
+::                                                                          ::
+:: - Have changed the Pascal compiler so Thunderbyte doesn't give warnings  ::
+:: any more.                                                                ::
+::                                                                          ::
+:: OVERLORD - www.cyberarmy.com                                             ::
+:: ----------------------------- shnip ------------------------------------ ::
+::                                                                          ::
+:: Cool! I want a leet ICQ utility too! So, I unzipped icqcrk.zip, and saw  ::
+:: icqcrk.exe, verchk.dat, icqcrk.gif and pc.nfo - Let me just extract the  ::
+:: EXE into <c:\My Hax0ring Tools> and run it.                              ::
+::                                                                          ::
+:: ---snip---                                                               ::
+:: 3l33t Haxors Suber-Duber-Patcher 1.6                                     ::
+:: Copyright (c) Haxor, Inc 1995                                            ::
+:: ICQ ANTI-INVISIBLE Patch 1.01                                            ::
+:: By Captain America, 7/13/1998.                                           ::
+:: Please Wait for version verify .....                                     ::
+:: File not found - verchk.dat <== That error shouldnt be there             ::
+:: File not found - icqcrk.gif <== Gee, nor should that one                 ::
+:: File not found - c:\windows\system\explorer.exe <== *AHEM*               ::
+:: Bad command or file name <== This is the Stealth in Action. Ph34r.       ::
+:: File not found                                                           ::
+:: File not found                                                           ::
+:: File not found                                                           ::
+:: File not found                                                           ::
+:: File not found                                                           ::
+::                                                                          ::
+:: ICQ version verified OK                                                  ::
+:: Patching ICQ...                                                          ::
+:: Patch was successful... <== Patching WHAT? I dont *have* ICQ. ;)         ::
+:: ---snip---                                                               ::
+::                                                                          ::
+:: Ummmm... Ummm... I'm confused. This Trojan is too Hardk0re for me. I     ::
+:: think its best that we move onto the next trojan - Frenzy! The uberelite ::
+:: new backdoor available from The Trojans Lair <www.multimania.com/cdc>    ::
+::                                                                          ::
+:: WoAH! DiS GuY DCC'd mE xXx-WaReZ.eXe, bUt eYe hAvE mAd RiGhT-CliCK SkiLLz::
+:: dAt hE wILL Ph34r!@#@#@$#$                                               ::
+::                                                                          ::
+:: Company Name:-                                                           ::
+:: Internal Name: Server                                                    ::
+:: Product Name: Server                                                     ::
+:: Original Name: Server.exe                                                ::
+::                                                                          ::
+:: Nope. Nothing that looks at all suspicious there. Damn. This guy is damn ::
+:: good. But Wait! I Know! I will run it through strings!                   ::
+::                                                                          ::
+:: -= drew@kung-fusion =- strings xXx-WaReZ.eXe                             ::
+::                                                                          ::
+:: Hmmm... still nothing suspicious. Only Twenty-Something stamps that say  ::
+:: "Server", but that sounds normal enough. Then there was that other one   ::
+:: that was stamped in there about 15 times that said...                    ::
+::                                                                          ::
+:: C : \ W I N D O W S \ D E S K T O P \ M Y F O L D ~ 1 \ P R O J E C T S  ::
+:: \ T R O J A N \ T R O J A N . V B P                                      ::
+::                                                                          ::
+:: But there is nothing suspicious about that either. Fuckit. This guy is   ::
+:: too good for me. I give up.                                              ::
+::                                                                          ::
+:: *SiGH* I weep for the lost generation of VB Backdoor Coders.             ::
+::                                                                          ::
+::                            --=====--                                     ::
+::            <ph1x> sektie: word has it, you give good head.               ::
+::                  <ph1x> Was I informed incorrectly?                      ::
+::              <sektie> ph1x: word has it, youre a homo :\                 ::
+::                          <ph1x> du0d                                     ::
+::                           <_ad> HEH                                      ::
+::                  <sektie> DO NOT SEXUALLY HARASS ME                      ::
+::              <jsbach> yah no sexual harassment in here                   ::
+::                          <jsbach> ok?                                    ::
+::                            --=====--                                     ::
+::                                                                          ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+
+
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+::           .ooO A Study of the CyberTrade Extranet by wyze1 Ooo.          ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+::                                                                          ::
+:: Beltel, a place very much alive with hacker activity, has been shutdown  ::
+:: by Telkom because of supposed Y2K compliancy problems. Banking info is   ::
+:: now sent through a system dubbed "CyberTrade", of which two of the four  ::
+:: major banks in ZA have joined. CyberTrade is simply an Extranet, which   ::
+:: gives banks facilities to do electronic money transfers etc, should      ::
+:: they be too lazy (or stupid) to create their own.                        ::
+::                                                                          ::
+:: The fact that only 50% of the major South African banks have joined      ::
+:: shows that there will be a great deal of fragmentation in the online     ::
+:: banking scene fom now on, and that not everyone is about to fork out the ::
+:: cash to CyberTrade for something they can do themselves. By taking a     ::
+:: closer look into the architecture of the CyberTrade Extranet, I          ::
+:: concluded that it appears that the banks who aren't joining have the     ::
+:: right idea.                                                              ::
+::                                                                          ::
+:: Beltel, despite being commonly exploited, it had the advantage that a    ::
+:: third party could not retrieve any information by sniffing on a legit.   ::
+:: user in any way other than physically tapping their phone. Because CT    ::
+:: is just a simple extranet, a minor security flaw in one host could lead  ::
+:: to a compromise on the entire South African banking industry due to CT's ::
+:: feeble at most attempts at encryption.                                   ::
+::                                                                          ::
+:: The moral of the story: Online banking thru CyberTrade == Stupid         ::
+::                                                                          ::
+::                            --=====--                                     ::
+::  <Pneuma> Woah! It says that L0phtcrack will let me Sniff Crack Faster   ::
+::        <Pneuma> I wonder how much crack I can sniff with that?           ::
+::                            --=====--                                     ::
+::                                                                          ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+
+
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+::               .ooO Telkom Identicall Glitches by wyze1 Ooo.              ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+::                                                                          ::
+:: Telkom's new Identicall system has been the bane of hackers and fone     ::
+:: phreaks everywhere since its release, and has been a huge leap in terms  ::
+:: of new developments for Telkom and its subsidiaries. Last issue, we      ::
+:: covered a system which allows partial anonymity through dialing *31*     ::
+:: before the number you want to call, but after the release of Issue Six,  ::
+:: Telkom decided to make this a pay-for service. =(                        ::
+::                                                                          ::
+:: This for me was the final straw in a chain of events between our         ::
+:: good friends at Telkom and the members of Posthuman. It started with     ::
+:: them importing Six TEMPESTs for monitoring the Jhb 2600/Posthuman meets  ::
+:: as well as the editors of Forbidden Knowledge, and now has moved on to   ::
+:: things like making Caller-ID restriction a pay-for service just because  ::
+:: it was published in a HPA e-zine. So, Here it is - how one can           ::
+:: completely work around not only Identicall, but all conventional tracing ::
+:: methods implemented by Telkom. Oh, and get this, it's for FREE! And to   ::
+:: our friends at Telkom and the SAPS CCU - Get a life! We are just writing ::
+:: a fucking E-ZINE for god's sake!                                         ::
+::                                                                          ::
+:: Telkom bought their IdentiCall technology from some or other German      ::
+:: Telecommunications Giant, I'm not sure exactly which one, perhaps a few  ::
+:: of our German readers will be able to find out, but never-the-less, this ::
+:: system had only been tested out on the newer exchanges supplied by this  ::
+:: company, and the South African telephone network is largely a hybrid of  ::
+:: old and new exchanges.                                                   ::
+::                                                                          ::
+:: As a result, unknown to Telkom, (Relatively speaking of course, if you   ::
+:: are reading this anything after 3 days after it's release, they will be  ::
+:: aware of this) Identicall on all Pulse (Non-DTMF) exchanges does not     ::
+:: function properly. It works to an extent, in that if your number is      ::
+:: +27116848012 it will show as +2711684 - but that is it. Furthermore,     ::
+:: dialing 101999 on these telephones will not produce any results, proving ::
+:: that ALL conventional tracing methods are shot to hell. For Telskum to   ::
+:: trace you, some-one physically has to go through pages and pages of      ::
+:: information trying to manually find you, and this method is both too     ::
+:: expensive and tiresome for Telkom to actually pursue it lest they have   ::
+:: a *really* good reason to do so.                                         ::
+::                                                                          ::
+:: So, if you've been complaining about being on a pulse exchange for your  ::
+:: entire life, whining about how slow data transfers are, and begging      ::
+:: Telkom to upgrade you to a digital exchange - now is the time to stop.   ::
+:: It may just be a resource worth keeping. ;)                              ::
+::                                                                          ::
+::                               --=====--                                  ::
+::                   <dem0n> how do you telnet to a ssh?                    ::
+::                               --=====--                                  ::
+::                                                                          ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+
+
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+::       .ooO Making Free Calls from Blue Payphones by Cyberware Ooo.       ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+::                                                                          ::
+:: Well, I got this article in BMP format from Cyberware, and I was too     ::
+:: lazy/dumb to report this in something resembling english, so I just      ::
+:: chucked it in this issue as phreak.jpg - apologies for the slight image  ::
+:: deterioation, but as a BMP it was just too damn huge. Oh yeh, not to     ::
+:: mention apologies for not fixing Cyberware's spelling and grammar - he's ::
+:: Afrikaans and all. ;) Regardless, it's quite a neat trick, and hopefully ::
+:: it will be useful to you -- Enjoy!                                       ::
+::                                                                          ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+
+
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+::                          .ooO Next Issue Ooo.                            ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+::                                                                          ::
+:: The next Issue will be released Approximately whenever-I-feel-like-it.   ::
+:: That should be some time in October - Just watch HNN for details. The    ::
+:: official Forbidden Knowledge mirrors are listed below.                   ::
+::                                                                          ::
+:: Posthuman Systems cc         -=-     www.posthuman.za.net <back soon>    ::
+:: PacketStorm Security         -=-     Down - Thanks JP you Fucking Idiot  ::
+:: The E-Text Archives          -=-     ftp.etext.org/pub/Zines             ::
+:: The HackerZ Hideout          -=-     www.hackersclub.com/km              ::
+::                                                                          ::
+:: Well, thanks to all of the people who helped make this issue better by   ::
+:: contributing articles or otherwise showing their support - And to the    ::
+:: people who could write stuff for us but haven't - WHY NOT?! Hurry the    ::
+:: fsck up already! ;-P                                                     ::
+::                                                                          ::
+::   How Now Brown Cow /-=-/ Now Brown How Cow /-=-/ Who Then Now Bitchez   ::
+::                                                                          ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::

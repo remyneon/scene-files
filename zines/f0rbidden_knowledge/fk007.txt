@@ -1,0 +1,1030 @@
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+::                                  ::                                      ::
+::                      $$$;       iii                                      ::
+::                      $$$$$,    ZZZZ           ____                       ::
+::                      $$$$$$.   $$$$       .%$$$$$`                       ::
+::                      $$$?$$$,  $$$$        i$$$$`                        ::
+::            -------// $$$ `$$$.  $$$------- I$$$'---------/ / << <        ::
+::                      $$$  `$$$, ;$$       ;$$$:                          ::
+::                      $$$   ;$$$ j$$      ,$$$;   ..forbidden             ::
+::                      $$$    ^^" $$$ __ÒÒ$$$$'      knowledge..           ::
+::                      $$$        $$$ $$$$$½'                              ::
+::            ----- $$QQ###zzzzz   $$$ _        ----------< < ------        ::
+::                  ^^"'?$$$$$$$   $$$ ?$$$·                                ::
+::                      I$$        $$$  '?$$$,                              ::
+::                     .I$$        $$$    '$$$,                             ::
+::                     ;$$$                '$$$,                            ::
+::                     L$$$                 ;$$$                            ::
+::                    ,"  $                 :$$$;                           ::
+::                       :                $$$$$$$'                         ::
+::                   `    .                 ?$$$P                           ::
+::                                           '$'                            ::
+::                                            ;                             ::
+::                                                                          ::
+::                 ..[Forbidden Knowledge Issue Seven]..                    ::
+::         ..[Released Saturday, the Second of October, 1999]..             ::
+::                                                                          ::
+:: Forbidden Knowledge is an independant project brought to you by the      ::
+:: following team of cleverly trained chimpanzees...                        ::
+::                                                                          ::
+::--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--::
+:: [ Wyzewun ]              [ Editor ]             [ w1@macroshaft.org ]    ::
+::                                                                          ::
+:: [ Pneuma ]               [ Co-Editor ]          [ satur9@punkass.com ]   ::
+:: [ Vortexia ]             [ Co-Editor ]          [ andrew@idle.za.org ]   ::
+::                                                                          ::
+:: [ Moe1 ]                 [ Articles ]           [ moe1@codiez.za.org ]   ::
+:: [ Scarz ]                [ Not much ]           [ sniper@werd.leet.org ] ::
+::                                                                          ::
+:: [ Cyberphrk ]            [ Assumed Dead ]       [ phuman@icon.co.za ]    ::
+::--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--::
+::                                                                          ::
+:: Guest contributer this ish: CoLdBLood, jus                               ::
+::                                                                          ::
+:: Group Greetz: b4b0, cDc, Darkcyde, eEye, gH, HNN, HWA, KeyRoot, L0pht    ::
+:: Individual Greetz: Axess, CoLdBLood, Corrupt SYN, Cruciphux, Cyber Demon,::
+::                    DrSmok[e], gr1p, f0bic, icesk, jus, kokey, lusta,     ::
+::                    Mnemonic, NtWaK0, secto0r, Timewiz, vision, w3stside, ::
+::                    UglyKidJoe                                            ::
+::                                                                          ::
+:: Fuck Youz: Oprah Windfrey (y3r sh0w f$ck1ng sUcKz d1cK b!tch !@#$%^)     ::
+::                                                                          ::
+:: This issue: Was made in EDIT.COM on a DOS 386 with no hard-drive. Gee,   ::
+::             eam so retro. :] Anyway - it should look great either in     ::
+::             edit.com, pico, mcedit or whatever. Especially mcedit. Coz   ::
+::             it's written by a South African. Pheer. :>                   ::
+::                                                                          ::
+:: Apologies: For leaving the number for the Shiva LANRover in carriers.txt ::
+::            as 0800-I-FORGOT last issue, I meant to put in the real       ::
+::            number, but was too drunk. :( Ironically, I have forgotten    ::
+::            the number for that Shiva now anywayz. ;P                     ::
+::                                                                          ::
+:: Further apologies: For any errors left in this issue. We released it     ::
+::                    while very stoned. As with last issue. And the issue  ::
+::                    before. :>                                            ::
+::                                                                          ::
+:: Inexcusably Lame: All those neato elito hax0rz who think that changing   ::
+::                   index.html's is hardcore - You suck anal dick.         ::
+::                                                                          ::
+:: Elite: Hotmetal aka. gov-boi from Hack.Co.Za rooting one of the lame     ::
+::        Linux boxes at Vortexia's company, modifying the log files, and   ::
+::        leaving full backups of the original ones in /root                ::
+::                                                                          ::
+:: Phear: Vortexia's code in this Issue                                     ::
+:: Do not Phear: Wyzewun's Wang - It is your friend                         ::
+::                                                                          ::
+:: Well done: To Microsoft who *finally* got a new customer support number. ::
+::            I noticed this one isn't toll free - it just charges local    ::
+::            rates. Hmm. I wonder why. ;) (See Forbidden Knowledge #2)     ::
+::                                                                          ::
+:: Warning: Still planning to root that .gov.za box you've been playing     ::
+::          with for so long? Do it now! It's only 3 months before the new  ::
+::          Computer Crime Act comes into place and hacking finally becomes ::
+::          illegal in South Africa. :(                                     ::
+::                                                                          ::
+:: Nice Proxy: intruder.deepsouth.co.za -- the open SQUID proxy of Bretton  ::
+::             Vine aka. Kool4Katz - ZA Security consultant elite. Kinda    ::
+::             fun to scan for CGI vulnerabilities through.                 ::
+::                                                                          ::
+:: Official Soundtrack for this Issue: Eminem - Brain Damage                ::
+::                                                                          ::
+::                         .ooO b0nus juarez Ooo.                           ::
+::                                                                          ::
+:: Trusted Windows RFC                     [ Pneuma and Wyzewun ]           ::
+:: Mass Fake Portscanner                   [ Vortexia ]                     ::
+:: Leet Windows/Linux Benchmark            [ Microsoft and Wyzewun ]        ::
+:: Port Sentry Killer                      [ Vortexia ]                     ::
+:: Guide to learning how to hack           [ Pneuma ]                       ::
+:: Mass CGI Vulnerability Scanner          [ Wyzewun ]                      ::
+:: DOS/Win9x Keylogger in ASM              [ CoLdBLooD ]                    ::
+::                                                                          ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+
+
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+::                   .ooO Contents of This Issue Ooo.                       ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+::                                                                          ::
+:: -/- Introduction by The Co-Editor                                        ::
+::                                                                          ::
+:: -/- Some Windows NT junk                                                 ::
+:: -/- Offline Internet access services                                     ::
+:: -/- Playing with gawk                                                    ::
+:: -/- ZA ID Bitchingz                                                      ::
+:: -/- Defeating Portscan detection                                         ::
+:: -/- Whats going down wit dem oinks                                       ::
+:: -/- Socket programming in Perl                                           ::
+:: -/- Hackers and the media                                                ::
+::                                                                          ::
+:: -/- Laterz and udder Bullsh!t                                            ::
+::                                                                          ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+
+
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+::               .ooO Introduction from the (Co)Editor Ooo.                 ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+::                                                                          ::
+:: I have been keeping in the background alot when it came to this E-zine,  ::
+:: and finally decided to use my power of sub editorship to do something    ::
+:: useful, so it appears I got stuck with the Introduction from the         ::
+:: (Assistant) Editor this edition.                                         ::
+::                                                                          ::
+:: Firstly, please bare with the FK team, we are NOT getting enough *good*  ::
+:: quality submissions from you peepz, if you have *anything* to contribute,::
+:: send it thru and we may put it right <HERE> or there abouts, and give    ::
+:: you propz, and please, no more e-mails asking when the next issue will be::
+:: out, it is now bi-monthly, which means that it comes out ever TWO        ::
+:: months, on the first friday of that month to co-incide with the          ::
+:: 2600/PHaSM meetings at Sandton (details on our page), this issue came    ::
+:: out the 1st of october, you do the maths to find when issue 8 comes out. ::
+::                                                                          ::
+:: Well done to Packetstorm for getting back up, we just hope that your     ::
+:: commercialisation does not inhibit your ability to produce a good FK     ::
+:: mirror (What? Packetstorm isn't only an FK mirror? What is this world    ::
+:: coming to? :)                                                            ::
+::                                                                          ::
+:: A bigazz fuckyou goes to all the South African "professional" security   ::
+:: agencies who spend vast time busting white hate hackers who e-mail them  ::
+:: reports on their security and allowed that disgruntled employee from a   ::
+:: rather large mining firm to sell information of their entire corporation ::
+:: to a competitor. She was a secatary btw who gained access to the server  ::
+:: using a password she was not meant to have and got  R120,000 while       ::
+:: costing the company over R45,700,000. I would like you dicks to explain  ::
+:: once again who the real threat is?                                       ::
+::                                                                          ::
+:: We got some really good shit flowing into this mag, even if we are       ::
+:: understaffed and have no reliable contributers, and I take this          ::
+:: oppurtunity to thank Wyzewun for producing the best (and only?) South    ::
+:: African e-zine worth reading.                                            ::
+::                                                                          ::
+:: Peace out, keep the love and 'E' flowing...                              ::
+:: Pneuma                                                                   ::
+::                                                                          ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+
+
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+::                 .ooO Some Windows NT Junk by Wyzewun Ooo.                ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+::                                                                          ::
+:: Ugh, I was gonna continue my memory management articles with Windows NT  ::
+:: stuff and it kinda got off the point, so in this article I'll be talking ::
+:: about Windows NT Security features and how they interoperate with        ::
+:: process management and virtual memory. Lets go...                        ::
+::                                                                          ::
+:: Right, some aarb user logs in with their username and password. NT gives ::
+:: them an access token, which I will be covering in more detail soon.      ::
+:: Basically, it serves two purposes - keeping all security information     ::
+:: together in one place to make validation faster and allowing each        ::
+:: process to modify its security characteristics (in limited ways) without ::
+:: affecting the user's other processes, because each process inherits its  ::
+:: own copy of the access token.                                            ::
+::                                                                          ::
+:: Generally, the token has all privaleges disabled, and just attempts to   ::
+:: enable the ones it needs when it needs to. This is also a good reason    ::
+:: for having an access token for each process, because otherwise all other ::
+:: processes owned by that user would recieve that privalege.               ::
+::                                                                          ::
+:: If the process requires interprocess communication, it will have a       ::
+:: security descriptor which consists mostly of an access control list that ::
+:: specifies access rights for various users and user groups for the        ::
+:: object. When another process attempts to access it, the SID (Security    ::
+:: ID) of the process is matched against the access control list.           ::
+::                                                                          ::
+:: Right, now lets look at that Access Token in detail now. It consists of  ::
+:: the following properties...                                              ::
+::                                                                          ::
+:: Security ID          -       Used to identify the user uniquely across   ::
+::                              the network. Normally the username.         ::
+::                                                                          ::
+:: Group SID            -       A list of the groups to which the user      ::
+::                              belongs. Each group has its own SID.        ::
+::                                                                          ::
+:: Privileges           -       Wether or not the user has weird privileges ::
+::                              like "create token", or "backup privilege"  ::
+::                              which allows them to backup files they      ::
+::                              wouldn't be able to read normally. Most     ::
+::                              users have no privileges.                   ::
+::                                                                          ::
+:: Default Owner        -       If this process generates another object,   ::
+::                              what group does it go to? But the user can  ::
+::                              specify it to be run under any Group SID to ::
+::                              which they belong.                          ::
+::                                                                          ::
+:: Default ACL          -       This is an initial list of protections      ::
+::                              that is applied to objects the user creates.::
+::                              These can be changed later.                 ::
+::                                                                          ::
+:: Allright, that does it for the Access Tokens. So lets take a look at the ::
+:: stuff we can find in the security descriptors...                         ::
+::                                                                          ::
+:: SACL                 -       Specifies what kind of operations on the    ::
+:: (System Access               object should cause audit messages, so it   ::
+::  Control List)               can bitch about users trying to mess it     ::
+::                              around or whatever. The Access Token has    ::
+::                              to verify Read/Write access to the SACL, so ::
+::                              that attackers can't find out what they     ::
+::                              shouldn't do to avoid audit messages. ;)    ::
+::                                                                          ::
+:: DACL                 -       Determines which users and objects can      ::
+:: (Discretionary               access this object for which operations.    ::
+::  Access Control List)        Basically, just a list of ACE's. (Access    ::
+::                              Control Lists)                              ::
+::                                                                          ::
+:: Owner                -       Can be individual or group SID and decides  ::
+::                              who has ability to change DACL.             ::
+::                                                                          ::
+:: Flags                -       Defines type and contents of the security   ::
+::                              descriptor - wether or not the DACL and the ::
+::                              SACL are present, wether or not they were   ::
+::                              placed in the object by a defaulting        ::
+::                              mechanism, and wether the pointers in the   ::
+::                              descriptor use absolute or relative         ::
+::                              addressing. Relative descriptors are needed ::
+::                              for objects that are transmitted over a     ::
+::                              network.                                    ::
+::                                                                          ::
+:: When a process attempts to access an object, it scans through the        ::
+:: object's DACL. If a match is found, ie. if if a ACE is found with a SID  ::
+:: that matches one of the ones in the token, then the process has the      ::
+:: rights over that process specified by the access mask in that ACE.       ::
+::                                                                          ::
+:: So what does an access mask look like anyway? Well, the first 16 bits    ::
+:: contain access rights that apply to a particular file or object. The     ::
+:: other 16 bits contains masks that apply to all objects. The five of      ::
+:: these that are reffered to as standard object types are...               ::
+::                                                                          ::
+:: Write_Owner: Allows the program to change the owner of the object        ::
+::                                                                          ::
+:: Synchronize: Gives permission to synchronize object with some other      ::
+::              process, like used in a sleep()                             ::
+::                                                                          ::
+:: Write_DAC: Allows the application to modify the DACL and hence the       ::
+::            protection of this object.                                    ::
+::                                                                          ::
+:: Read_Control: Allows the app to query the owner and DACL fields of the   ::
+::               security descriptor in that object                         ::
+::                                                                          ::
+:: Delete: Duh. You have to guess this one. ;)                              ::
+::                                                                          ::
+:: Now, there are the four "generic" access types. Right, say that an app   ::
+:: has to create several different object types and ensure that the user    ::
+:: had "read" access to all of them, even though "read" means something     ::
+:: somewhat different in each case. Now, instead of having to create a      ::
+:: different ACE for every object type, it uses the generic bits, which     ::
+:: consist of...                                                            ::
+::                                                                          ::
+:: Generic_all: Allow all access                                            ::
+::                                                                          ::
+:: Generic_execute: Allows execution if executable                          ::
+::                                                                          ::
+:: Generic_write: Allows write access                                       ::
+::                                                                          ::
+:: Generic_read: Allow read-only access                                     ::
+::                                                                          ::
+:: The generic bits also have an affect on the standard access types. For   ::
+:: example, for a file object, Generic_read maps to the standard bits       ::
+:: Read_Control and Synchronize and to other object specific bits           ::
+:: File_Read_Data, File_Read_Attributes and File_Read_EA. Placing an ACE on ::
+:: a file object that has a SID Generic_Read granted would be the same as   ::
+:: specifying all 5 of the aformentioned File_* rights.                     ::
+::                                                                          ::
+:: The remaining two bits in the ACE that we haven't looked at yet have     ::
+:: special meanings. The Access_System_Security bit allows modifying audit  ::
+:: and alarm control for this object. However, not only must this bit be    ::
+:: set for a SID, but the access token for the process with that SID must   ::
+:: have the corresponding privilege enabled.                                ::
+::                                                                          ::
+:: Lastly, the Maximum_Allowed bit is not really and access bit, but a bit  ::
+:: used by NT to determine how to scan the DACL for the SID. Normally, NT   ::
+:: will scan through the DACL until it reaches an ACE that specifically     ::
+:: grants or denies the access requested by the coresponding object. The    ::
+:: Maximum_Allow bit specifies the maximum rights that the object will      ::
+:: allow for any given user. The three options for this are...              ::
+::                                                                          ::
+::   1. Attempt to open the object for any kind of access. The disadvantage ::
+::      of this is that access may be denied even though the application may::
+::      have all of the access rights actually required for this action.    ::
+::                                                                          ::
+::   2. Only open the object when a specific access is required, and open a ::
+::      new handle to the object for each different type of request. This   ::
+::      is generally the method favoured by most because it won't           ::
+::      unnecessarily deny access nor will it allow more access than needed.::
+::                                                                          ::
+::   3. Attempt to play with the object as much as the object will allow    ::
+::      this SID. The advantage is that the user will not be artificially   ::
+::      denied access, but the app itself may have more access than it      ::
+::      needs. Bad idea.                                                    ::
+::                                                                          ::
+:: Right, now that we've covered the basic security mechanisms of Win NT,   ::
+:: lets head on to take a look at process management. Probably the biggest  ::
+:: factor that has affected Windows NT threading and process management,    ::
+:: has been the need to support binaries from several different             ::
+:: environments, including Win 9x, OS/2, POSIX and, obviously enough, WinNT ::
+:: itself. :]								    ::
+::                                                                          ::
+:: So each OS subset would become a single process on the WinNT native      ::
+:: process management system, which is fairly simple and has the following  ::
+:: important characteristics...					            ::
+::                                                                          ::
+::   * NT processes are implemented as objects			            ::
+::   * An executable process may contain one or more threads		    ::
+::   * Process and thread objects have built-in synchronization abilities   ::
+::   * The NT kernel maintains no relationships among the processes         ::
+::									    ::
+:: The access token controls wether or not the process can change its own   ::
+:: attributes. Wether or not the process may have a handle to the access    ::
+:: token is determined by the security system. Also, related to the process ::
+:: are a series of blocks which define the virtual address space assigned   ::
+:: to this process. No process, no matter what privaleges it has, will be   ::
+:: permitted to change these blocks. It must rely on the virtual memory     ::
+:: manager to do that for it.                                               ::
+::                                                                          ::
+:: Mmmm. I have to be honest, I don't feel like finishing this article and  ::
+:: because it's just a corny H/P zine and nothing which affects my life I   ::
+:: hearby end it, coz I feel like doing so. :) Hehehe, don't worry, I'll    ::
+:: carry on with our study of Windows NT next issue, if enough people are   ::
+:: interested in it. If you are, mail me and let me know. 8)                ::
+::                                                                          ::
+::                               --=====--                                  ::
+::                   <lusta> im doin' route now, heh                        ::
+::                            <Pneuma> wyze1                                ::
+::                       <Pneuma> isn't it weird                            ::
+::            <Pneuma> that "lusta" is an anagram for "aslut"               ::
+::                               --=====--                                  ::
+::                                                                          ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+
+
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+::        .ooO (Ab)using Offline HTTP/FTP services by Wyzewun Ooo.          ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+::                                                                          ::
+:: Hmmm, way back in yonder BBS days (which wasn't actually that long ago   ::
+:: for me - I only bothered moving to the Internet about two years ago) I   ::
+:: learnt how to access WWW, Gopher, FTP, etc. through e-mail. Apparently   ::
+:: people don't know how to do this. =) So, I decided to write a little     ::
+:: article on how to use and abuse of these services.                       ::
+::                                                                          ::
+:: Let's start with taking a look at accessing the web, because it is the   ::
+:: most common use for the Internet, and because Agora, the software most   ::
+:: commonly used to access it offline, is quite commonplace. Right, so how  ::
+:: does one use an Agora server? Here's the explanation for the impatient.. ::
+::                                                                          ::
+:: Send mail to the Agora server (eg. agora@dna.affrc.co.jp) with a message ::
+:: body that looks something like...                                        ::
+::                                                                          ::
+:: www                                                                      ::
+:: send http://www.antionline.com/hello-jp-you-dumb-fag.html                ::
+::                                                                          ::
+:: And thats it. Simple enough, huh? The rsend command is used in a similar ::
+:: way, except that you can specify the return address, so it will send to  ::
+:: whoever you want. Like so: "rsend gaypee@antionline.com URL". However,   ::
+:: because this command is commonly abused, most places disable it. Like    ::
+:: that really helps. :) But anyway, FTP is much better to abuse if yer     ::
+:: gonna do something lame, because 30MB files are always more impressive   ::
+:: than small little text-only webpages. :)                                 ::
+::                                                                          ::
+:: Right, go forth and... errr... Waste your time on the web. =P These are  ::
+:: some good Agora servers. Send a message with "help" in the subject line  ::
+:: and they should cough up some decent information...                      ::
+::                                                                          ::
+:: agora@dna.affrc.go.jp                                                    ::
+:: agora@kamakura.mss.co.jp                                                 ::
+:: agora@info.lanic.utexas.edu                                              ::
+::                                                                          ::
+:: Other non-agora HTTP through e-mail servers available can be found at    ::
+:: webmail@www.ucc.ie and w3mail@bagheera.gmb.de which use GO and GET       ::
+:: respectively instead of SEND.                                            ::
+::                                                                          ::
+:: Now, FTPMail is pretty much exactly like using the UNIX ftp client. Only ::
+:: remotely. :) The following is example usage of an ftpmail server (this   ::
+:: would be the body of the message)                                        ::
+::                                                                          ::
+:: open ftp.technotronic.com                                                ::
+:: dir                                                                      ::
+:: quit                                                                     ::
+::                                                                          ::
+:: That would just log into the appropriate FTP site, get a directory       ::
+:: listing and mail it back to you. Should we want a file, for example, the ::
+:: very popular Legion NetBIOS Scanner, we would type...                    ::
+::                                                                          ::
+:: open ftp.technotronic.com                                                ::
+:: chdir /rhino9-products                                                   ::
+:: binary                                                                   ::
+:: get legion.zip                                                           ::
+:: quit                                                                     ::
+::                                                                          ::
+:: And the file will come to you through e-mail UUEncoded. :) Once again,   ::
+:: sending "help" in the subject line for the server you are using will     ::
+:: help a lot. :) The following are some FTPMail daemons...                 ::
+::                                                                          ::
+::   bitftp@vm.gmd.de                                                       ::
+::   ftpmail@ftp.uni-stuttgart.de                                           ::
+::   ftpmail@ieunet.ie                                                      ::
+::   bitftp@plearn.edu.pl                                                   ::
+::   ftpmail@archie.inesc.pt                                                ::
+::   ftpmail@ftp.sun.ac.za                                                  ::
+::   ftpmail@ftp.sunet.se                                                   ::
+::   ftpmail@ftp.luth.se                                                    ::
+::   ftpmail@NCTUCCCA.edu.tw                                                ::
+::   ftpmail@oak.oakland.edu                                                ::
+::   ftpmail@sunsite.unc.edu                                                ::
+::   ftpmail@decwrl.dec.com                                                 ::
+::   bitftp@pucc.princeton.edu                                              ::
+::   ftpmail@ftp.Dartmouth.EDU                                              ::
+::   ftpmail@census.gov                                                     ::
+::   ftp-request@netcom.com                                                 ::
+::   ftpmail@src.doc.ic.ac.uk                                               ::
+::                                                                          ::
+:: Right, I could go on and on and on, but this was a last minute article   ::
+:: and I don't have time to explain Gopher, Usenet etc. access offline. Any ::
+:: questions or comments -- don't hesitate to mail me at w1@antioffline.com ::
+::                                                                          ::
+::                               --=====--                                  ::
+::                               --=====--                                  ::
+::                                                                          ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+
+
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+::              .ooO A Guide to playing with gawk by Wyzewun Ooo.           ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+::                                                                          ::
+:: I was shocked at the number of people who don't know how to use (g)awk   ::
+:: properly, so I decided to write up a guide to getting starting with gawk ::
+:: for text formatting or whatever. Oh, I generally refer to gawk, but if   ::
+:: you have an ancient *nix then you may have another version, but awk will ::
+:: probably symlink to it anyway. Here's a little chart of the evolution of ::
+:: the awk utility...                                                       ::
+::                                                                          ::
+::             awk ------> nawk ------> POSIXawk ------> gawk               ::
+::                                                                          ::
+:: Right, so lets try some simple stuff with awk first. Probably the most   ::
+:: commonly known thing that one can do with awk is format coloums. For     ::
+:: example, the output of a command like host -l gov.za would have an       ::
+:: output that looks like this...                                           ::
+::                                                                          ::
+:: <stuff cut out>                                                          ::
+:: gp.gov.za has address 196.254.66.6                                       ::
+:: <stuff cut out>                                                          ::
+::                                                                          ::
+:: Now, we want to format the output of our host command and save the IP    ::
+:: addresses to a file called lame. We would type something to the effect   ::
+:: of host -l gov.za | gawk '{print $4}' > lame                             ::
+::                                                                          ::
+:: We are telling awk to print the fourth coloum only, thus the $4, and so  ::
+:: we will end up with a list of all the IPs with .gov.za hostnames. ;)     ::
+::                                                                          ::
+:: Obviously, the above is used by script kiddies a helluva lot, so they    ::
+:: can use their l33t0 mscan across a third of the internet, in the hope    ::
+:: that they'll find some lame .edu host that they can root and feel elite. ::
+:: *Sigh* So lets look at some more useful stuff, shall we? It won't help   ::
+:: you pointlessly compromise machines, but it may help you become a        ::
+:: proficient Unix user (imagine that).                                     ::
+::                                                                          ::
+:: Okey Dokey, awk can count the number of coloums as well. We could've     ::
+:: done this with the previous example by typing something like             ::
+:: host -l gov.za | gawk '{print NF ": " $0}'                               ::
+::                                                                          ::
+:: We are telling awk to print the number of fields (print NF), followed by ::
+:: a colon and a space (": "), right at the beginning of each line of text  ::
+:: ($0), so we get an output that will look like...                         ::
+::                                                                          ::
+:: 4: gp.gov.za has address 196.254.66.6                                    ::
+::                                                                          ::
+:: You can use *awk for counting lines as well, instead of wc -l, by using  ::
+:: NR instead of NF.                                                        ::
+::                                                                          ::
+:: I also find gawk useful for finding strings in files, when grep can't    ::
+:: quite cut it. I could do something like gawk '/wyze1/' /etc/passwd and   ::
+:: I would get an output like this...                                       ::
+::                                                                          ::
+:: wyze1:x:2005:12:wyze1:/home/wyze1:/bin/tcsh                              ::
+:: drew:x:2006:13:wyze1:/home/drew:/bin/tcsh                                ::
+::                                                                          ::
+:: So, I hear you saying "So What? I can do that with grep!" Sure. You can. ::
+:: But say you were only looking for the username wyze1 and not that drew   ::
+:: account which has wyze1 as the real name and not the username, you can't ::
+:: do that with grep, can you? So, we use awk and do something like         ::
+:: gawk -F: '$1 ~ /wyze1/' /etc/passwd then I will only get the wyze1       ::
+:: account. Easy, huh? =)                                                   ::
+::                                                                          ::
+:: Say I have given myself 500 pointless accounts on my box, and have       ::
+:: specified "Wyzewun" as the Real Name for some & "Wyze1" for others. Now, ::
+:: to make things more difficult, the Real Name for some other accounts     ::
+:: which I DON'T want have been set as "NotSoWyze1" and "AnythingButWyze1", ::
+:: so grep will find all sorts of accounts I don't want. So, I decided to   ::
+:: do something like gawk -F: '$5 ~ /Wyze*/' /etc/passwd and I only find    ::
+:: the accounts that I want because I specified that the field must begin   ::
+:: with "Wyze" and end with anything.                                       ::
+::                                                                          ::
+:: Now, you can also write *awk programs using BEGIN and END blocks, and it ::
+:: becomes in many places much like a proper programming language. BEGIN    ::
+:: blocks are used for initializing variables and END blocks are used for   ::
+:: things that are input dependant, like totals. Lets make an example       ::
+:: program to find all users on the system with the username or real name   ::
+:: "drew" on our machine...                                                 ::
+::                                                                          ::
+:: BEGIN {                                                                  ::
+::  FS = ":" # /etc/passwd seperates stuff with colons, remember?           ::
+::  OFS = "     " # tab                                                     ::
+::  print "Username", "Real Name"                                           ::
+::  }                                                                       ::
+:: /drew/       {print $1, $5}                                              ::
+::                                                                          ::
+:: We then save this file as fk_is_lame.awk and then invoke it by typing    ::
+:: gawk -f fk_is_lame.awk /etc/passwd and get an output like...             ::
+::                                                                          ::
+:: Username     Real Name                                                   ::
+:: wizdumb      drew                                                        ::
+:: drew         wyze1                                                       ::
+::                                                                          ::
+:: Easy enough. :) If we wanted to do something with an end tag we could    ::
+:: rewrite the program like this...                                         ::
+::                                                                          ::
+:: BEGIN {                                                                  ::
+::  FS = ":" # /etc/passwd seperates stuff with colons, remember?           ::
+::  OFS = "     " # set output to a tab                                     ::
+::  print "Username", "Real Name"                                           ::
+::  }                                                                       ::
+:: /drew/       {print $1, $5 ; counts++}                                   ::
+:: END                                                                      ::
+::   {print counts " accounts found."}                                      ::
+::                                                                          ::
+:: So our output will then look something like...                           ::
+::                                                                          ::
+:: Username     Real Name                                                   ::
+:: wizdumb      drew                                                        ::
+:: drew         wyze1                                                       ::
+:: 2 accounts found.                                                        ::
+::                                                                          ::
+:: You can also do comparisons in awk, with the same operators you use in   ::
+:: C, C++, Java, whatever. (==, <, >, <=, >=, !=, ~, ~!). The only          ::
+:: unfamiliar stuff there should be ~ and ~! which represent matched by and ::
+:: not matched by respectively. And if that other stuff isn't familiar, I   ::
+:: highly recommend that you start learning to code, not only is it an      ::
+:: extrememly rewarding experience, but it is damn useful, wether you're    ::
+:: involved in the computer underground or not.                             ::
+::                                                                          ::
+:: Another really powerful feature of awk, are Range Patterns. Say I have   ::
+:: access to an employee record sheet which follows a pattern something like::
+:: Name:Employee ID:Salary that looks like...                               ::
+::                                                                          ::
+:: Drew:666000:14000                                                        ::
+:: Koos:231876:100                                                          ::
+:: John:967123:18000                                                        ::
+:: Marc:000666:16000                                                        ::
+::                                                                          ::
+:: I want to view all employees with a salary between 13000 and 17000 per   ::
+:: month, so I type...                                                      ::
+::                                                                          ::
+:: cat list | gawk -F: '$3 == 13000, $3 == 17000 {print $1, $3}'            ::
+::                                                                          ::
+:: And my result is...                                                      ::
+::                                                                          ::
+:: Drew 14000                                                               ::
+:: Marc 16000                                                               ::
+::                                                                          ::
+:: I could also do something simpler like printing all people with a salary ::
+:: less than R1000 with standard operators, like $3 < 1000 would only       ::
+:: print Koos's details.                                                    ::
+::                                                                          ::
+:: We could do that using if statement, like so...                          ::
+::                                                                          ::
+:: { if $3 < 1000                                                           ::
+::   print $1 " is such a loser"                                            ::
+:: else                                                                     ::
+::   print $1 " is such a pimp" }                                           ::
+::                                                                          ::
+:: Drew is such a pimp                                                      ::
+:: Koos is such a loser                                                     ::
+:: John is such a pimp                                                      ::
+:: Marc is such a pimp                                                      ::
+::                                                                          ::
+:: You can also use the shorthand ? : style if then else statement as used  ::
+:: in C/C++ and Java, which I personally prefer.                            ::
+::                                                                          ::
+:: Errr... I really don't have time to finish this article and there's a    ::
+:: whole bunch of stuff that I haven't covered. Hrmm. I'll make a sequel    ::
+:: some time, okay? ;)                                                      ::
+::                                                                          ::
+::                               --=====--                                  ::
+::                      <WGM> Don't code Java man!!!                        ::
+::                       <WGM> Total MS-run Crap!!                          ::
+::                <WGM> Code Delphi instead, less MS-based                  ::
+::                               --=====--                                  ::
+::                                                                          ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+
+
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+::   .ooO The South African Identity Document Number System by Pneuma Ooo.  ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+::                                                                          ::
+:: Every so often, i see some kiddie is busted for fraud, and it is proven  ::
+:: that the most frequent cause of this is entering a wrong id number.This  ::
+:: information does not endorse fraud and the user of this information is   ::
+:: liable for all misuse. The id number consists of 13 numerical digits and ::
+:: is divided into 4 groups of numbers, namely the first 6 digits, the next ::
+:: four digits, the next 2 digits and the last digit. The groups of digits  ::
+:: each mean something that should be taken into account.                   ::
+::                                                                          ::
+::Structure of ID number:                                                   ::
+::                             YYMMDD SSSS PP C                             ::
+::                             111111 2222 33 4                             ::
+::            Date of Birth______|      |  |  |_____ Control Digit          ::
+::                              Sex ___ |  |____Population Group            ::
+::                                                                          ::
+:: 1) The first six digits represent the date of birth of the number holder ::
+:: in the order YYMMDD, first two digits indicating yeat, next two month and::
+:: last two day.                                                            ::
+::                                                                          ::
+:: 2) The following four digits is a serial number and indicates sex of the ::
+:: number holder. If the nummers is between 0001 and 4999, the holder is    ::
+:: female, if the number is above 5000 then he is male.                     ::
+::                                                                          ::
+:: 3) The third group of represents the population group and citezenship of ::
+:: the holder and is a fixed number, as shown in the following:             ::
+::                                                                          ::
+:: Population group      S.A. Citizen    Non-S.A. Citizen                   ::
+:: ^^^^^^^^^^^^^^^^      ^^^^^^^^^^^^    ^^^^^^^^^^^^^^^^                   ::
+:: i)    White           00              10                                 ::
+:: ii)   Cape Coloured   01              11                                 ::
+:: iii)  Malay           02              12                                 ::
+:: iv)   Griqua          03              13                                 ::
+:: v)    Chinese         04              14                                 ::
+:: vi)   Indian          05              15                                 ::
+:: vii)  Other Asian     06              16                                 ::
+:: viii) Other Coloured  07              17                                 ::
+::                                                                          ::
+::4) The last (13th) digit is a control digit forming part of the number.   ::
+::                                                                          ::
+:: [ Note from Wyzewun: Nobody is told what the function of the "control    ::
+::   digit is. It's simpy there. :/ It's my assumption that its used to     ::
+::   store information such as Code 9 == political activist, be sure to tap ::
+::   his phone or something. This would also make sense as my ID number was ::
+::   changed recently :> ]                                                  ::
+::                                                                          ::
+:: Notes:                                                                   ::
+:: ^^^^^^                                                                   ::
+:: 1) Make sure your Date of Birth and the first four digits correlate.     ::
+::                                                                          ::
+:: 2) Make sure your sex and name correlate to the second group and do not  ::
+:: use 0000. The best option is to use an random number such as 6483 etc.   ::
+::                                                                          ::
+:: 3) Make sure your surname correlates to your cultural group.             ::
+::                                                                          ::
+:: 4) Be wary of using 0 or 9 for the control digit as these are uncommon,  ::
+:: good numbers are 4,5,6 or 7                                              ::
+::                                                                          ::
+:: Digression:                                                              ::
+:: ^^^^^^^^^^^                                                              ::
+:: 1) The format of the Date offers an interesting debate on Y2K issues.    ::
+:: For instance, what will happen to people, who are born after 2000, will  ::
+:: they receive a pension for being over 100 years old from the day they are::
+:: born?  Will people born in 1900 stop receiving their pensions as they are::
+:: newly born? Perhaps the government should re-evaluate this numbering     ::
+:: system and soon. :P                                                      ::
+::                                                                          ::
+:: 2&3) This is racism and sexism florishing in the new South Africa, even  ::
+:: worse, it happens to be the old era kind. Why is there no African or     ::
+:: Black population group? Why do we even classify a person's race? The same::
+:: goes for sex. Is this form of Big Brother classification and surveilance ::
+:: neccassary?                                                              ::
+::                                                                          ::
+:: 3) The format restricts the amount of people who can be born in one day  ::
+:: to 5000 per sex and cultural group. What happens if more are born on one ::
+:: day?                                                                     ::
+::                                                                          ::
+:: Conclusion:                                                              ::
+:: ^^^^^^^^^^^                                                              ::
+:: As you can see, this format is straight forward, albeit extremely flawed.::
+:: Perhaps in time some polititions will change this system and I will be   ::
+:: able to revise this article.                                             ::
+::                                                                          ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+
+
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+::             .ooO Defeating Portscan Detection by Wyzewun Ooo.            ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+::                                                                          ::
+:: There are a variety of tools available for detecting Portscans on Unix   ::
+:: systems, the most popular of which are probably Port Sentry by Psionic   ::
+:: <http://www.psionic.com/tools> and scanlogd by Solar Designer which can  ::
+:: be found somewhere on ftp.technotronic.com/unix                          ::
+::                                                                          ::
+:: This article will focus on defeating these utilities, but you may very   ::
+:: well benefit from being familiar with them yourself. If you haven't      ::
+:: looked at scanlogd or port sentry then I suggest you read T0uchT0ne's    ::
+:: article in Issue Eight of Keen Veracity.                                 ::
+::                                                                          ::
+:: Basically, detecting a portscan done by some-one with a brain is pretty  ::
+:: hard unless you have a brain as well. ;) All portscan detection tools    ::
+:: work on the same principle of just detecting SYN's FIN's or whatever,    ::
+:: going to ports too fast. Look at this for example, from Solar Designer's ::
+:: scanlogd 1.3 for Linux...                                                ::
+::                                                                          ::
+:: #define SCAN_COUNT_THRESHOLD            10                               ::
+:: #define SCAN_DELAY_THRESHOLD            (CLK_TCK * 3)                    ::
+::                                                                          ::
+:: Most people won't modify this. Basically, it means that for the alarm to ::
+:: be triggered, at least 10 ports must be scanned with no longer than      ::
+:: SCAN_DELAY_THRESHOLD between each port.                                  ::
+::                                                                          ::
+:: So, we could abuse that time-out function quite easily if we were to     ::
+:: modify our portscanner (I'll take my own Portscan.java as an example     ::
+:: because it is very simplistic and easy for some-one with next to no      ::
+:: knowledge of coding to understand ;P) to have just over that delay       ::
+:: inbetween ports. (eg. we hack the code of ScanThread.java)               ::
+::                                                                          ::
+::    for (;;) {             // Endless loop                                ::
+::      port=sync.take();    // Get Port Number to scan                     ::
+::                                                                          ::
+::    for (;;i++) {          // Endless loop + Increment instance variable  ::
+::      if (i = 9) {         // If this is the 9th Port                     ::
+::      sleep(10000);        // Wait 10 seconds                             ::
+::      i = 0; }             // And reset instance variable                 ::
+::      port=sync.take();    // Get Port Number to scan                     ::
+::                                                                          ::
+:: And so our scan doesn't show up. ;P Of course, because this is a lame    ::
+:: TCP/Connect Portscanner it will show up in files like /var/log/secure    ::
+:: but not in the actual scanlogd logs. Were we to modify a SYN, FIN, XMAS  ::
+:: or NULL portscanner, this would completely evade detection. Also note    ::
+:: that this will only work if you run my scanner with *one* thread. The    ::
+:: default of 20 will fuck things up. Bigtime. ;)                           ::
+::                                                                          ::
+:: Port Sentry is quite nice (And quite evil) in that it not only logs the  ::
+:: scan, but adds the portscanner to /etc/hosts.deny so they cannot connect ::
+:: to any further ports. It allows you to make a file called hosts.ignore   ::
+:: so that people cannot spoof a scan as your upstream router and thus      ::
+:: block your connection. BUT, you're not going to put the whole damn       ::
+:: internet into your hosts.ignore, right? That's why we have killsentry.c  ::
+:: by Vortexia in this issue - To show that automatic firewalling is a      ::
+:: really dumb idea. :)                                                     ::
+::                                                                          ::
+:: As a rule of thumb, the longer you wait, the safer you are. Got time?    ::
+:: Put in a fucking 2 minute delay, screen it, and log out. Also, TCP       ::
+:: portscanners like Portscan.java or any Winblows portscanner won't be     ::
+:: useful against hosts that have been actively secured. Why? Well, they    ::
+:: could make a script that adds all connecters to Port 1 to hosts.deny     ::
+:: with a few alterations to their /etc/inetd.conf (Don't know how to do    ::
+:: this? Read Vortexia's article in FK3) Also, please note that a system    ::
+:: like this is more secure than Port Sentry or whatever because connect()  ::
+:: portscans can't be spoofed. (Well, there are other ways to mask them,    ::
+:: such as abusing WinNT's bad TCP/IP sequencing or at least spoofing DNS   ::
+:: but those are completely different stories)                              ::
+::                                                                          ::
+:: So, finally, the conclusion. You *cannot* stop people from portscanning  ::
+:: you. You can get in their way, block them, send them abuse mail, do      ::
+:: whatever the hell you like. But you cannot stop them. So, my suggestion  ::
+:: would be to not bother chasing after portscanners as actively, and       ::
+:: spending your extra time making sure your system is secure to all those  ::
+:: who actually managed to get their scans through. ;)                      ::
+::                                                                          ::
+::                               --=====--                                  ::
+::                <walla_walla> whos elete?????????                         ::
+::                <walla_walla> whos elete?????????                         ::
+::                <walla_walla> whos elete?????????                         ::
+::                         <M-|A> sowwy not me                              ::
+::       <Pneuma> walla, no-one on this channel is called elete             ::
+::       <Pneuma> we have an enoxier, thats probably the closest            ::
+::         <Pneuma> but if there is, shame du0d, what a name                ::
+::                            <M-|A> yeah                                   ::
+::         <walla_walla> anyone a fairly good hacker here???                ::
+::                               --=====--                                  ::
+::                                                                          ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+
+
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+::        .ooO "Martha, The pigs are restless again" by Wyzewun Ooo.        ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+::                                                                          ::
+:: Well, I've been associating with evil syndicate people again, and have   ::
+:: found out some pretty shocking stuff, which I figured I should put here  ::
+:: as it is in direct breech of all which hackers stand for.                ::
+::                                                                          ::
+:: As you may (not) know, a group codenamed "The Scorpions" has been formed ::
+:: lately. These people, although government run, are independant of the    ::
+:: SAPS, and thus really the South African equivalent of the FBI. And in    ::
+:: fact have very strong connections in the FBI itself (*gulp*). They will  ::
+:: be handling mostly intelligence related stuff, and probably will be the  ::
+:: people we will see raiding half of the ZA hacking scene in the           ::
+:: not-so-distant future. They're also the same people who have been        ::
+:: listening to the private phonecalls of most of the FK staff long before  ::
+:: they even "existed".                                                     ::
+::                                                                          ::
+:: Ever read 1984? It seems the Scorpions have. Big brother is alive and    ::
+:: well in South Africa, under our new "enlightened" government. Now, next  ::
+:: time you are driving on the highway (and especially at the turnoffs),    ::
+:: look at the street lights, near-ish the top, about .75 of a meter from   ::
+:: the top. Then wave hello to the camera.                                  ::
+::                                                                          ::
+:: Next time you walk into a large office building, look at the surveilance ::
+:: cameras - you will notice some of them are different. Why? Because they  ::
+:: weren't put there by security! Another item of handywork by the          ::
+:: Scorpions.                                                               ::
+::                                                                          ::
+:: Basically, the gist of it is that by filming next to everything, when    ::
+:: an individual is suspected of something, the evidence is right at hand.  ::
+:: There are video and audio records of next to everything.                 ::
+::                                                                          ::
+:: Well, it's all good and well that the government is wasting their money  ::
+:: on something other than cocaine, but I for one find things like this     ::
+:: completely unacceptable. I feel it to be an invasion on the privacy of   ::
+:: others, and an infringement on the rights of those who are watched       ::
+:: without them knowing.                                                    ::
+::                                                                          ::
+:: Thus, I resolve to smash the camera that films the Johannesburg 2600     ::
+:: meetings (2600Za/Posthuman) every month, until they decide to go and     ::
+:: spend their money on something else - like hospitals. And if that means  ::
+:: I have to smash it 24 times over 2 years, so be it - but I will not      ::
+:: tolerate this invasion of my privacy. And you shouldn't tolerate the     ::
+:: invasion on yours either.                                                ::
+::                                                                          ::
+::                               --=====--                                  ::
+::                               --=====--                                  ::
+::                                                                          ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+
+
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+::              .ooO Coding simple Sockets in Perl by jus Ooo.              ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+::                                                                          ::
+:: This article assumes that you already know a little perl, and it's not   ::
+:: difficult at all to to read a few doc's and pick it up. I suggest        ::
+:: www.perl.com/www.cpan.org for a large resource of information.           ::
+::                                                                          ::
+:: <Wyzewun: You may also have NoU Issue Two or f41th Issue Seven which     ::
+::  both have introductions to perl in them. Read those.>                   ::
+::                                                                          ::
+::  - Sockets? -                                                            ::
+:: Sockets are the de facto standard for making network connections over    ::
+:: TCP/IP, they work by connecting a socket on the local machine to a socket::
+:: on a remote machine, and then swapping information. This short article   ::
+:: explains simple use of the IO::Sockets socket interface included with    ::
+:: perl on most unix type systems, it assumes a basic understanding of      ::
+:: networking.                                                              ::
+::                                                                          ::
+::  - Opening/Closing a Socket -                                            ::
+:: The syntax to create a socket is as follows :-                           ::
+::                                                                          ::
+:: use IO::Socket;                                                          ::
+:: $varname =IO::Socket::INET->new(Parameters) or die "Can't open socket\n";::
+:: close $varname;                                                          ::
+::                                                                          ::
+:: The parameters is a combination of the following :-                      ::
+::                                                                          ::
+:: PeerAddr - Remote Host Address                                           ::
+:: PeerPort - Remote Host Port                                              ::
+:: LocalAddr - Local Host bind address                                      ::
+:: LocalPort - Local Host bind port                                         ::
+:: Proto - Protocol to use (TCP, UDP..)                                     ::
+:: Type - Socket Type(SOCK_STREAM, SOCK_DGRAM..)                            ::
+:: Listen - Queue for listen                                                ::
+:: Timeout - Timeout value for various operations                           ::
+::                                                                          ::
+:: Its not necesary to pass them all though, it does depend on the type of  ::
+:: socket you are creating, client or server. Client makes a connection to  ::
+:: a remote socket, whereas Server waits for incoming connections from      ::
+:: remote machines.                                                         ::
+::                                                                          ::
+:: - Using Sockets -                                                        ::
+:: The requirements for a Server socket are "Proto" - the protocol to use,  ::
+::  "LocalPort" - the port to wait on for a connection and "Listen" - the   ::
+:: amount of connections to queue before refusing more.                     ::
+::                                                                          ::
+:: For a client "Proto" - the protocol, "PeerAddr" - the remote machine's IP::
+:: address, and "PeerPort" - the remote port to connect to, must be given.  ::
+::                                                                          ::
+:: Here's an example :-                                                     ::
+::                                                                          ::
+:: #!/usr/bin/perl                                                          ::
+:: #Perl Socket Coding Demonstration by jus                                 ::
+::                                                                          ::
+:: use IO::Socket;                                                          ::
+::                                                                          ::
+:: #Make Client connection to localhost port 21 and display output          ::
+:: $socket = IO::Socket::INET->new(Proto=>"tcp", PeerAddr=>"127.0.0.1",     ::
+:: PeerPort=>"21") or die "Failed to open socket\n";                        ::
+:: #Print output, note that the output has to be globbed. If you are running::
+:: #an ftpd on your machine you should see something like FTPD VERSION x    ::
+:: #READY.                                                                  ::
+:: print $crud=<$socket>;                                                   ::
+:: close $socket;                                                           ::
+::                                                                          ::
+:: #Make Server waiting on port 12345 and display input received            ::
+:: $socket = IO::Socket::INET->new(Proto=>"tcp", LocalPort=>"12345",        ::
+:: Listen=>"1");                                                            ::
+:: #We call the accept function of the socket to put it into wait mode.     ::
+:: $connection = $socket->accept;                                           ::
+:: #The following is just to auto flush the buffer for compatibility with   ::
+:: #older perl versions.                                                    ::
+:: $connection->autoflush(1);                                               ::
+:: #Loop waiting for input, when found print. Note globbing is required.    ::
+:: while (<$connection>)                                                    ::
+:: {                                                                        ::
+::         print                                                            ::
+:: }                                                                        ::
+:: close $socket, $connection;                                              ::
+:: #This will loop infinitely waiting for input to display to screen, just  ::
+:: #kill it with ^C when you get bored of watching 12345 :) A easy way to   ::
+:: #test is just to telnet localhost 12345 and type a few lines...          ::
+:: #EOF                                                                     ::
+::                                                                          ::
+:: There's a simple example, you now know enough to send data from one      ::
+:: machine to another using the very portable and simple perl. If you would ::
+:: like to make the code into a binary instead of having to use the perl    ::
+:: interpreter when running, "perlcc" is used to compile perl. Don't forget ::
+:: to chmod u+x programname.pl to allow it to be executed.                  ::
+::                                                                          ::
+:: - jus(jus@blabber.net)                                                   ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+
+
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+::                .ooO Hackers and the Media by Wyzewun Ooo.                ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+::                                                                          ::
+:: I just finished watching a short documentary celebrating the 30th        ::
+:: birthday of the Internet in which the creator of the Internet talked     ::
+:: about how he was "unhappy with the dark side of the Internet - porn and  ::
+:: hacking" which I, personally, found extremely offensive.                 ::
+::                                                                          ::
+:: To think that "hacking" is shoved alongside with pornography and         ::
+:: all the other cracked up shit that happens on the internet saddens me    ::
+:: deeply. Why is it that we are given this image by the media? As much as  ::
+:: I would like to say that it is due to the fact that they are bored out   ::
+:: of their minds and have nothing better to do than to feed the public a   ::
+:: pack of lies, it is not. Their opinions are in fact very well founded.   ::
+::                                                                          ::
+:: Think about it - what are the hacks that they'll see? The ones that have ::
+:: been defaced by clueless kiddies, desperate to prove their eliteness to  ::
+:: all of their dumb, RedHat-toting friends. And it is this type of         ::
+:: behaviour, which is tearing the hacking scene apart at the seams. It     ::
+:: shows nothing more than a complete lack of maturity, moral integrity, or ::
+:: respect for the internet. It is *NOT* what hacking is all about.         ::
+::                                                                          ::
+:: Call me old-school, call me archaic, call me what you like - but I       ::
+:: firmly believe in never defacing a webpage with mindless garbage,        ::
+:: advertising to the world how fantastically elite me and my crew are. And ::
+:: when push comes to shove, the people who get caught are the people who   ::
+:: defaced websites. (The name "mindphasr" ring a bell?)                    ::
+::                                                                          ::
+:: Many people argue that they just want to get a message to the admin and  ::
+:: don't want to mail them, to prevent being traced. *Ahem* Ever heard of   ::
+:: an anonymous remailer? Fuck that, want to be completely sure? Change     ::
+:: the fucking /etc/motd! It's Windows? Put a file called "READ THIS NOW    ::
+:: YOU FUCKHEAD.TXT" on the desktop, just don't go off and deface their     ::
+:: webpage. The only thing you are defacing is the media's image of the     ::
+:: hacking community as a whole and that is stupid as hell. I suggest you   ::
+:: think about this very seriously. Thankyou.                               ::
+::                                                                          ::
+::                               --=====--                                  ::
+:: <JaWs> if i write my own script for mirc can i make it so i becum an op  ::
+::                    without someone makeing me one                        ::
+::                               --=====--                                  ::
+::                                                                          ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+
+
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+::                          .ooO Next Issue Ooo.                            ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+::                                                                          ::
+:: The next Issue will be released sometime in December. Guess that means   ::
+:: it'll be the neato elito birthday issue then. Hmm, in a year, we have    ::
+:: gotten pretty good. Heh, I should be proud of me. Mmm. Still not good    ::
+:: enough though - but it shouldn't be too long before it is. ;-)           ::
+::                                                                          ::
+:: Anyway, since it's our birthday - I expect you to mail me lots of beer,  ::
+:: birthday presents, MDMA, article submissions and any other dumb stuff    ::
+:: you feel like sending me at w1@macroshaft.org                            ::
+::                                                                          ::
+:: Strangely enough, December 1999 will be a first birthday month for FK,   ::
+:: HWA.hax0r.news *and* f41th. Guess the December of 1998 was a good time   ::
+:: for starting e-zines, eh? Props to D4rkcyde and HWA for picking such a   ::
+:: leet time to start an e-zine!@#$ :>                                      ::          
+::                                                                          ::
+:: The official Forbidden Knowledge mirrors are...                          ::
+::                                                                          ::
+:: Attrition                    -=-     www.attrition.org                   ::
+:: PacketStorm Security         -=-     packetstorm.securify.com            ::
+:: The E-Text Archives          -=-     ftp.etext.org                       ::
+:: Posthuman Systems            -=-     Down Again (You suck Scarz :P)      ::
+::                                                                          ::
+:: Hmm. Appears that there are distro sites which we just don't know about. ::
+:: Please, if you run a distro site, please tell us, so that we can keep    ::
+:: you up-to-date with the latest issue - Thanks.                           ::
+::                                                                          ::
+:: Oh yeh, and I can't stress how much I need articles enuff. I'm a fscking ::
+:: one-man zine team here. That's why it sucks so much. Werd. So give me    ::
+:: articles, and I'll, like, be eternally grateful or something. Peace out. ::
+::                                                                          ::
+::               www.posthuman.za.net /-=-/ w1@macroshaft.org               ::
+::                                                                          ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::

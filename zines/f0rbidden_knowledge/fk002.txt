@@ -1,0 +1,419 @@
+<html>
+<body bgcolor="#000000" text="#CCCCCC">
+<pre>
+
+.:==--::--==--::--==--::--==--::--==--::--==--::--==--::--==--::--==--::--==:.
+::                     f0rbidden knowledge issue two                        ::
+`:==--::--==--::--==--::--==--::--==--::--==--::--==--::--==--::--==--::--==:'
+ 
+.:--==--==--==--==--==--==--==-->> Contents of This Issue <<--==--==--==--==:.
+::                                                                          ::
+:: -=>Welcome<=-                                                            ::
+::                                                                          ::
+:: (x) Disclaimer ............................................ The Editor   ::
+:: (x) Introduction .......................................... The Editor   ::
+:: (x) Weird of the Month .................................... The Editor   ::
+:: (x) Feedback and Stuff .................................... The Readers  ::
+::									    ::
+:: -=>Phreaking Stuff<=-                                                    ::
+::                                                                          ::
+:: (x) MTN Voicemail Hacking ................................. Wyzewun      ::
+:: (x) Microsoft South Africa looses R3500 ................... Wyze1+Satur9 ::
+:: (x) South Africa's answer to ANI .......................... Line Noise   ::
+:: (x) Telkom Voicemail Hacking .............................. Marc Satur9  ::
+:: (x) Beigeboxing in South Africa ........................... Wyzewun      ::
+::                                                                          ::
+:: -=>Hacking Stuff<=-                                                      ::
+::                                                                          ::
+:: (x) Hacking through Windows 95 Plus! Security ............. Wyzewun      ::
+:: (x) Update on the Nedbank Windoze NT Hack ................. Gevil+Wyze1  ::
+:: (x) How to get a unrestricted shell on Nedbank ............ Wyzewun      ::
+:: (x) Windows 95/98/NT Backdoor ............................. Marc Satur9  ::
+::                                                                          ::
+:: -=>Misc Stuff<=-                                                         ::
+::                                                                          ::
+:: (x) Ripping off Arcade Machines ........................... Wyzewun      ::
+:: (x) Compact Disc Theft .................................... Cyberdave    ::
+::                                                                          ::
+:: -=>Parting Words and Credits<=-		      			    ::
+::                                                                          ::
+`:==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==:'
+
+
+.:--==--==--==--==--==--==--==--==>> Disclaimer <<--==--==--==--==--==--==--:.
+::									    ::
+:: Telkom are solely responsible for this file. This file was at one stage  ::
+:: an article on the evils of Masturbation that a 10-year old was attempting::
+:: 2 upload 2 Christian Network BBS. Due to the bad quality of Telkom's     ::
+:: lines, the file became corrupted and turned into this. All complaints    ::
+:: can be addressed to telkom@telkom.co.za :-)                              ::
+::									    ::
+`:==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==:'
+
+
+.:--==--==--==--==--==--==-->> Introduction by the Editor <<--==--==--==--==:.
+::                                                                          ::
+:: Greetings Earthling...                                                   ::
+::                                                                          ::
+:: The response to Issue one of f0rbidden knowledge was very encouraging    ::
+:: and we are glad to say that FK is without doubt, a success. The e-zine   ::
+:: will be published monthly and distributed at the following sites...      ::
+::                                                                          ::
+:: www.posthuman.za.net					                    ::
+::                                                                          ::
+:: I would like to extend my thanks to Coffee, Alcohol, Columbian Cola,     ::
+:: Marilyn Manson, Beck, Pop Will Eat Itself and vast amounts of sugar for  ::
+:: helping me so much with the construction of this issue. Oh yes, and I    ::
+:: almost forgot - Cache asked me to publically thank him for phoning me    ::
+:: at the most awkward times possible - So Cache, thank you for being such  ::
+:: a Butthead. :)                                                           ::
+::                                                                          ::
+:: Well, that's pretty much it from me. Hope you enjoy the zine - The       ::
+:: two articles which are this month's highlights are without a doubt our   ::
+:: new Nedbank exploit which lets you into an unrestricted shell and our    ::
+:: completely original Windows 95/98/NT backdoor.                           ::
+::                                                                          ::
+:: All comments, questions, article submissions and subscription requests   ::
+:: can be mailed to the Editor at wyze1@syrex.co.za                         ::
+::                                                                          ::
+:: Cheers                                                                   ::
+:: Wyzewun                                                                  ::
+::                                                                          ::
+`:==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==:'
+
+
+.:--==--==--==--==--==--==->> Weird of the Month <<=--==--==--==--==--==--==:.
+::                                                                          ::
+:: We were Neurophobic and Perfect                                          ::
+:: The day we lost our souls                                                ::
+:: Maybe we weren't so human                                                ::
+:: But if we cry, We will rust                                              ::
+::                                                                          ::
+:: And I was a hand grenade                                                 ::
+:: That never stopped exploding                                             ::
+:: You were automatic                                                       ::
+:: And as hollow as the "O" in God                                          ::
+::                                   - Marilyn Manson, Mechanical Animals   ::
+`:==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==:'
+
+
+.:--==--==--==--==--==--==--==--==--==--==-->> Feedback <<--==-==--==--==--=:.
+::                                                                          ::
+:: Bah, we got about 3 megs of mail, so I figured including it all would be ::
+:: a bad idea, but please, you are still feel free to mail us any comments, ::
+:: questions, suggestions, subscription requests and article submissions.   ::
+::                                                                          ::
+`:==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==:'
+
+
+\\..........................................................................//
+::==--::--==--::--==--::--==--::--==--::--==--::--==--::--==--::--==--::--==::
+::                           Phreaking Stuff                                ::
+::==--::--==--::--==--::--==--::--==--::--==--::--==--::--==--::--==--::--==::
+//..........................................................................\\
+
+
+.:--==--==--==--==--==--=>> MTN Voicemail Hacking by Wyzewun <<=--==--==--==:.
+::                                                                          ::
+:: Despite the MTN Voicemail system now being relatively free of Software   ::
+:: bugs, it is still ridden with security flaws caused by MTN's lack of     ::
+:: proper explanation of how exactly the Voicemail system works. The        ::
+:: following is quoted from an MTN instruction manual...                    ::
+::                                                                          ::
+:: "You may want to set a password for your mailbox. Make it something easy ::
+::  to remember, like the first 4 digits of your phone number."             ::
+::                                                                          ::
+:: What they *dont* explain is that anyone who knows this password can axs  ::
+:: your vmb and that a default password of "1234" will be present if you    ::
+:: neglect to set one. The general security on the MTN Voicemail system is  ::
+:: incredibly slack, save the MTN employee VMB's.                           ::
+::                                                                          ::
+:: There are fewer unused VMB's than on the Vodacom system and the VMB's    ::
+:: usually have fewer privaleges, but security in general is far inferior   ::
+:: to the security on Vodacom VMB's and social engineering is easier too,   ::
+:: these guys don't ask why, they just reset the VMB. ;-)                   ::
+::                                                                          ::
+:: Oh, and one last thing, try as *hard* as you can to hack the VMB of any  ::
+:: number that starts with (083) 2121 because these are phones with MTN     ::
+:: employee privaleges. Find some-one with a really high status and you     ::
+:: could take over MTN comlpletely. =)                                      ::
+::                                                                          ::
+:: Don't do anything I wouldn't do. (evil fucking grin)                     ::
+::                                                                          ::
+`:==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==:'
+
+
+.:--==-->> Microsoft SA Looses R3500 because of Wyze1 and Marc Satur9 <<==--:.
+::                                                                          ::
+:: Oh dear. Looks like Microsoft South Africa ran into a bit of a problem   ::
+:: with their phone account. You see, MS are money-grabbing idiots who want ::
+:: to earn as much as possible, whilst still spending as little as possible ::
+::                                                                          ::
+:: It is worth noting that they decided to select a cheaper Toll Free       ::
+:: service from Telkom in which they would pay per call they recieve. It is ::
+:: also worth noting that they invested in a cheap, bad PBX system. So,     ::
+:: what happens when two sick, twisted children (Wyzewun and Marc Satur9)   ::
+:: find a way to keep ten public phones billing Microsoft every night for   ::
+:: a week, because their stupid, Microsoft Made Answering machine system    ::
+:: doesn't know how the fuck to ATH0 ;-)                                    ::
+::                                                                          ::
+:: Unfortunately, Microsoft are abandoning their Toll Free Number for       ::
+:: reasons which they are not announcing to the public. Ag, yeh, they know  ::
+:: it was us... we phoned in responsibility (grin)                          ::
+::                                                                          ::
+:: This article was dedicated to the memory of 0802111104 - Rest in Peace   ::
+::                                                                          ::
+`:==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==:'
+
+
+.:==--==--==--==--==--==--==--==>> Telkom VMB Hackin by Marc Satur9 <<==--==:.
+::									    ::
+:: >Note from the Editor: Due to the sensitivity of this system at present  ::
+:: it is in our best interests to not release this information until FK3    ::
+:: considering that we are already publishing highly sensitive info on      ::
+:: Nedbank in this issue<						    ::
+::									    ::
+`:--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--:'
+
+
+.:==--==--==--==--==-->> South Africa's Answer to ANI by Line Noise <<==--==:.
+::                                                                          ::
+:: Well, yeh, Wyzewun is writing this, but it's info I got from Line Noise. ::
+:: Now, if you dial 101999 (Toll Free Call) it will tell you the number of  ::
+:: the phone you are dialing from! Unfortunately, this number only has one  ::
+:: line, so it's pretty hard 2 get through during the day, but keeping      ::
+:: trying  coz it is worth it. For those of you with little phreaking       ::
+:: experience who don't understand what exactly one would use this number   ::
+:: for, you are free to mail any member of the SoS and ask. =)              ::
+::                                                                          ::
+`:--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--:'
+
+
+.:--==--==--==--==--==>> Beigeboxing in SA according to Wyzewun <<==--==--==:.
+::                                                                          ::
+:: Allright, this wont cover the construction of a Beige Box or any of that ::
+:: junk coz f0rbidden knowledge prides itself in its simplicity. This will  ::
+:: just cover use of a Beigebox in South Africa Now, take a stroll down to  ::
+:: that nice big blue box that says Telkom on it just down the road from    ::
+:: your house. yes, the one that looks like this...                         ::
+::              _____________                                               ::
+::             (XXXXXXXXXXXXX)                                              ::
+::              |.---------,|                                               ::
+::              ||        (o|   >> ascii art stolen from kokey <<           ::
+::              ||         >|                                               ::
+::              ||========(o|                                               ::
+::              ||         >|                                               ::
+::              ||        (o|                                               ::
+::              |`---------'|                                               ::
+::  ____________`+---------+'______________                                 ::
+::  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX                                 ::
+::                                                                          ::
+:: Right, now there are several methods which Telkom use to keep us out of  ::
+:: their precious little boxes...                                           ::
+::                                                                          ::
+:: 1) A Handle - Yes, in the rural areas there will be a single handle      ::
+::               which will open the door.                                  ::
+::                                                                          ::
+:: 2) Three triangular bolts - The most commonly used method, will open     ::
+::                             with the proper tool                         ::
+::                                                                          ::
+:: 3) Three or One Circular Bolt - This is a wierd system which is also     ::
+::                                 common. Saw a little line in a piece of  ::
+::                                 hollow pipe and use it 2 open these      ::
+::                                                                          ::
+:: 4) A Lock - Bah! Telkom cheats! I've never been good with lock picking   ::
+::             but I've found that bolt cutters also work :)                ::
+::                                                                          ::
+:: Right, now let's say that you are in the box. What will you see, well,   ::
+:: there are two possibilities. You may see a big mess of black and white   ::
+:: wires. Find a black and white wire that originate from the same terminal ::
+:: and strip them. Then connect your box. I've often found that Telkom have ::
+:: already stripped quite a lot of the wires on these boxes, which makes    ::
+:: things go considerably faster.                                           ::
+::                                                                          ::
+:: Alternatively, you may see little black and white terminals like the     ::
+:: ones that connect your speakers to your Hi-Fi. Strip your wires, slide   ::
+:: them in, and press down to make it snap into a secure connection.        ::
+::                                                                          ::
+:: Once you've got a line, have fun! Phone your friends overseas, do        ::
+:: whatever. And if you want data, I would suggest getting your hands on a  ::
+:: Compaq C-Series PDA, tiny and secure, it's the ultimate hacking tool.    ::
+::                                                                          ::
+:: Later... If you have any trouble with this stuff you can mail me at      ::
+:: wyze1@syrex.co.za for a bit more detail                                  ::
+::                                                                          ::
+`:==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==:'
+
+
+\\..........................................................................//
+::==--::--==--::--==--::--==--::--==--::--==--::--==--::--==--::--==--::--==::
+::                            Hacking Stuff                                 ::
+::==--::--==--::--==--::--==--::--==--::--==--::--==--::--==--::--==--::--==::
+//..........................................................................\\
+
+
+.:--==--==--==> Win95 Plus! Security package Vulnerability by Wyze1 <<--==--:.
+::									    ::
+:: Wow, I want to make my Windows boxes secure with the 31337 Security      ::
+:: package by MS for Windows 95 Plus! No-one will be able to get in - look, ::
+:: I have no start button, or desktop, they're helpless! Now, what was the  ::
+:: key to re-login again? Was it Ctrl+R? No, that looks like a RUN menu.    ::
+:: Damn, What could it have been... ???                                     ::
+::									    ::
+`:==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==:'
+
+
+.:--==->> Update on the SoS Nedbank Windows NT Exploit by Wyze1 & Gevil <<--:.
+::                                                                          ::
+:: Yeh, the code doesn't work anymore. :( And yeh, we cracked root on this  ::
+:: piece of machinery too now, but we'll share that with you later, or when ::
+:: Nedbank fixes the root exploit included in *this* ish. Gevil and I might ::
+:: also stop publishing this stuff at one point, because very soon, the SoS ::
+:: will have a very bad name with Vodacom, Telkom, MTN and Nedbank          ::
+::                                                                          ::
+:: We may find some other victims for next month, (Gevil and myself are kind::
+:: of bored of Touch Screen hacking now, and want to try new, but equally   ::
+:: supposedly impossible things) Or, we may just continue fucking over our  ::
+:: favourite enemies. Bah, who cares? No-one in the SoS has been arrested   ::
+:: yet. We're fine... Right?!! =)                                           ::
+::                                                                          ::
+`:==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==:'
+
+
+.:--==--==--==->> How to get a Rootshell on Nedbank by Wyzewun <<--==--==--=:.
+::                                                                          ::
+:: Yes, our old Nedbank hack doesn't work anymore. Bah, I was bored of the  ::
+:: employee menu anyway. Unrestricted shell sounds good to me. Yeh, think   ::
+:: I'll get myself one of those. =)                                         ::
+::                                                                          ::
+:: Allright, y'know those old Nedbank ATM's with the full keyboards? Well   ::
+:: go find one! Right, so you found your target - this machine is running   ::
+:: Windows 3.11 for Workgroups with TCP/IP                                  ::
+::                                                                          ::
+:: Press the second Green Button on the Right and Yes at the same time      ::
+:: Press the Help/Tab button                                                ::
+::                                                                          ::
+:: Now, you are chucked in2 some lame proggy called Nedshell. It's some     ::
+:: sort of a taskmanager-type-thing. Bah, it's boring. Press "e" to end all ::
+:: current tasks and close all Windows. The Screen will go black and then   ::
+:: go into a Normal Windows 3.11 Interface for your hacking pleasure.       ::
+::									    ::
+:: But please guys, don't change anything, lest you get caught. I don't     ::
+:: want to be responsible for the arrest of 500 ZA-Hackerz. Just look       ::
+:: around, explore the system, cruise the net (yip, some of dem have i-net  ::
+:: access) and tinker intelligently, making sure not to break things        ::
+::									    ::
+:: Most importantly, have phun, but don't do *anything* stupid. The less    ::
+:: stupid everyone is, the longer Nedbank will take to fix this bug, and    ::
+:: the longer you will all have axs to Nedbank's server and free i-net.     ::
+::									    ::
+:: Enjoy Kidzzz... 							    ::
+::                                                                          ::
+`:==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==:'
+
+
+.:--==--==--==--==-->> Windows 95/98/NT Backdoor by Marc Satur9 <<==--==--==:.
+::                                                                          ::
+:: Windows 95/98/NT appears to be full of undocumented extras (efg). While  ::
+:: running my BSD box on a windows' network, i noticed that all the remote  ::
+:: administration was coming from a "user" called ADMIN$.                   ::
+::                                                                          ::
+:: I then experimented a little and found that sharing any folder as ADMIN$ ::
+:: is the equivalent of enabling remote administration, only it's not that  ::
+:: easy to find out if the box is "infected". You can share any folder, the ::
+:: best results usually come from a subfolder deep within the "windows"     ::
+:: directory, one that they won't look in. The only way the user is likely  ::
+:: to detect he is "infected" is to run Netwatcher at the same time that you::
+:: are accessing his box. >Editors Comments: Or by using the netstat program::
+:: in his Windows Directory<                                                ::
+::                                                                          ::
+:: The only way he can "clean" it off is to enable and then disable remote  ::
+:: administration. If you hide the shared folder well enough, you should    ::
+:: not get caught at all - The shared folder will also not show as a share  ::
+:: in Netwatcher if it is named ADMIN$ and somewhere within the Windows     ::
+:: directory.                                                               ::
+::                                                                          ::
+:: >Editors Comments: If there is any demand for it, the SoS would be happy ::
+:: to write a program to install this backdoor on a host. Of course, we     ::
+:: won't bother if nobody asks<                                             ::
+::                                                                          ::
+`:==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==:'
+                                                                      
+
+\\..........................................................................//
+::==--::--==--::--==--::--==--::--==--::--==--::--==--::--==--::--==--::--==::
+::                         Misc. Stuffenhauzen    		            ::
+::==--::--==--::--==--::--==--::--==--::--==--::--==--::--==--::--==--::--==::
+//..........................................................................\\
+
+
+.:--==--==--==--==-->> Ripping off Arcade Machines by Wyzewun <<==--==--==--:.
+::                                                                          ::
+:: This method was originally thought up by Vortexia, but he is too busy to ::
+:: write a file like this and probably wouldn't admit to thinking this up   ::
+:: anyway, having thought up much more amazing stuff than this before, so I ::
+:: wrote it myself. ;)                                                      ::
+::							                    ::
+:: If you've ever been to an arcade that uses a card system, you've         ::
+:: probably seen the card thats just a piece of cardboard, with a line of   ::
+:: tape in it, a lot like the tape you'll find on an audio casette.         ::
+::                                                                          ::
+:: Get about 20 of these cards, or however many you'll need before you can  ::
+:: spool them inside an audio casette. Then play this sound to your PC,     ::
+:: record it in WAV format and loop 90 minutes of this sound onto another   ::
+:: audio casette. Then, whenever you need a card, cut a piece off this tape,::
+:: stick it on a piece of card, and you're fully recharged. If you ever     ::
+:: play e-nuff games to finish the 90-minute tape, then just make another   ::
+:: one with the WAV file you still have on your HD.                         ::
+::                                                                          ::
+`:==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==:'
+
+
+.:--==--==--==--==--==--==->> Stealing CD's by Cyberdave <<==--==--==--==--=:.
+::                                                                          ::
+:: Yeh, steal some CD's, why not? They're smaller than buses. :) >Comment   ::
+:: from Wyze1 - Stealing buses is cool! You can run over ppl who laugh at   ::
+:: you for writing articles on bus theft :P> K, wait at a CD shop until     ::
+:: some-one buys the CD that you want. Then, walk out with the same CD in   ::
+:: your pocket before he does - The alarm won't go off - it only will when  ::
+:: he goes out. Ag, yeh, I would explain how it works, but that would take  ::
+:: time and if you can't figure out why this works, you suck :)             ::
+::                                                                          ::
+`:==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==:'
+
+
+.:--==--==--==--==--==--==--==--==--==> Thanks and Greets <<=--==--==--==--=:.
+::									    ::
+:: Aleph1, Balin, Cache, Caliburn, cDc, Corrupt SYN, CrazyG*y, Cyber Demon  ::
+:: Cyclotron, daemon9, Emmanuel Goldstien, Hex Acid, HFG, HNN, Informant-X  ::
+:: kokey, Kool4Katz, L0pht, Line Noise, LOU, Mudge, Pavlov, Pri$m, r00t     ::
+:: Radix, Sector12, Shaddow Skinhead, Sledge, Snadboy, so1o, Team CodeZero  ::
+:: THC, The Guild, Vortexia                                                 ::
+::									    ::
+`:==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==:'
+
+
+.:--==--==--==--==--==--==--==--==--==--=>> Parting Words <<--==--==--==--==:.
+::                                                                          ::
+:: Well, guess I can safely say that the SoS have done it again - We have   ::
+:: released more *quality* textware to the public. We were going to wait    ::
+:: a bit longer and include more in this issue, but we wanted to release    ::
+:: our new Nedbank hack asap coz the old one stopped working and we had     ::
+:: told it to a few ppl already anyway.                                     ::
+::                                                                          ::
+:: Whatever we include in FK3, you can rest assured that it will be just as ::
+:: groundshattering, if not more so, than FK2.                              ::
+::                                                                          ::
+:: The Sons of Satan / Saviours of Systems are...                           ::
+::                                                                          ::
+::           ::-=-=-=-=-=-=-=-=-=-=::=-=-=-=-=-=-=-=-=-=-=-=-::             ::
+::           :: Wyzewun            :: wyze1@syrex.co.za      ::             ::
+::           :: Marc Satur9        :: satur9@syrex.co.za     ::             ::
+::           :: SN|PeR             :: sniper@noise.co.za     ::             ::
+::           :: Gevil              :: gevil@hotmail.com      ::             ::
+::           ::=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-::             ::
+::                                                                          ::
+`:==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--(EOF)--==-:'
+
+</pre>
+</html>

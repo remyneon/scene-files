@@ -1,0 +1,1225 @@
+                                ::                                      
+                    $$$;       iii                                      
+                    $$$$$,    ZZZZ           ____                       
+                    $$$$$$.   $$$$       .%$$$$$`                       
+                    $$$?$$$,  $$$$        i$$$$`                        
+          -------// $$$ `$$$.  $$$------- I$$$'---------/ / << <        
+                    $$$  `$$$, ;$$       ;$$$:                          
+                    $$$   ;$$$ j$$      ,$$$;  .. volume 3             
+                    $$$    ^^" $$$ __ÒÒ$$$$'         issue 13 ..              
+                    $$$        $$$ $$$$$½'                              
+          ----- $$QQ###zzzzz   $$$ _        ----------< < ------        
+                ^^"'?$$$$$$$   $$$ ?$$$·                                
+                    I$$        $$$  '?$$$,                              
+                   .I$$        $$$    '$$$,                             
+                   ;$$$                '$$$,                            
+                   L$$$                 ;$$$                            
+                  ,"  $                 :$$$;                           
+                    :                $$$$$$$'                         
+                 `    .                 ?$$$P                           
+                                         '$'                           
+                ;  
+
+ -//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//-
+                             .o (( The Kredz )) o.
+ -//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//-
+
+Issue: 13
+Volume: 3.33
+Release Date: Tue Feb 13 13:33:19 SAST 2001
+
+Lazy Editor, Big Kahuna, The man with no shame: Wizdumb
+Lazy Co-Editor, Conspiracy Theorist, The guy with the shades: Pneuma
+Ereet k0urier of the 0h-d4y, and, like, totally coastal dude, man: Jus
+
+Ereet Lazy afrikaans guy we know who sez he'll write summing sometime: Kokey
+
+Krew this Ish: Wizdumb, Pneuma, Jus, Olmec, Sigma, Moe1
+
+Shout Outz To: Gevil, Kokey, Jus, JC, Aragon, Olmec, DrSmoke, Shaddow,
+               Cyberphreak, afx, k-rad-bob, b0g, Rabbit, Ethy, Sigma,
+               aKt0r, d0tslash, b10z, Vortexia, Phrack
+
+Special Propz: to the netsluts that populate hacking-related IRC channels
+               around the world. We can't say we'd do what you're doing
+               personally, but we feel it to be a great thing for the
+               ego's of deprived hax0rz everywhere -- well done and keep
+               up the good work! ;-)
+
+Fuck Youz To: Pneuma's mom; for never giving me sexx0r, Anyone who likes
+              a sport, The First World, Everyone with more bandwidth than me,
+              Kids, Babies, Parents, Families, And the South African
+              Police service for being the losers who couldn't find any
+              better jobs ;-P
+
+Oh: Yea. I've been completely computer-less and out of the scene for the past 
+    8 months or so. I would explain the why's and what's of it all, but it'z 
+    fuqn b0ring. ;-P I still don't have a PC, but I'm working on getting one,
+    and Pneuma was kind enough to lend me his fBSD boxlet.
+
+The cops: Stole my cellphone. My new one is @ +27 (72) 210-4850 (GMT+2). I'd
+          dig to start getting calls from random overseas weirdo's again. :-)
+
+FK Subscriptions: Send mail to minimalist@security.za.net with the subject
+                  "subscribe fk" to get new issues of FK e-mailed to you
+                  as they are released.
+
+Book of the month: Fight Club by Chuck Palahniuk (ISBN 0-099-28333-6)
+Site of the Month: http://www.projectmayo.com
+
+ -//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//-
+
+
+ -//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//-
+                            .o (( Contentz )) o.
+ -//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//-
+
+     <-*-> The Kredz
+     <-*-> Contentz
+     <-*-> Editorial
+
+     <-*-> Hacking the Cyber Xpress Internet Kiosk by Wizdumb
+     <-*-> Hacking in Switched Environments by Olmec
+     <-*-> mIRC 5.41 DoS by Moe1
+     <-*-> M-Web Dialup Hostname Reference by Sigma
+     <-*-> Just how stupid Diana PABXs are by Wizdumb
+     <-*-> More Vodacom VMB hacking nonsense by Wizdumb
+     <-*-> Fun with Windoze Networking by Wizdumb
+     <-*-> "The Blob", And other true tales of stupidity by Wizdumb
+
+     <-*-> Big Ugly Bloated Mailbag
+     <-*-> Forthcoming Attraqshunz
+     <-*-> Outro
+
+     -+< pHr3e k0dEz!@#$ >+-
+
+     <-x-> Re-modelled Java TCP Socket API by Wizdumb
+     <-x-> FK Survey by Wizdumb & Jus
+     
+ -//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//-
+
+
+ -//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//-
+                       .o (( Editorial by Wizdumb )) o.
+ -//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//-
+
+Okay! Okay. I'm a lazy fucking shmoe. But I haven't had a computer of my
+own for the last 8 months (I'm not a rich kiddie like yall, I fish my
+hardware out of office trash cans mostly), so it's been difficult. Pneuma
+was kind enough to lend me his BSD boxlet, and I had a few days free, so I
+made this issue of FK from scratch.
+
+There have been many FK drafts which were never released between this one
+and the last, because of my lack of hardware and time. I slapped this
+issue together in 4 days, just to have something to release to tell y'all
+that we're around n stuff, heh. Yeah, I know FK was s'posed to be dead,
+but Kokey is a lazy shmoe, so EMI didn't happen.
+
+I have, however, had a lot of time to think away from my computer, and I
+now believe I have the strategy which will grant me complete world domination.
+
+EMI will be playing with some different media, and FK will continue as
+before regularly (and maybe even with an article or two from Kokey if he
+stops being a lazy bastich :-P). I'll spend some time on this upcoming
+issue of FK, and release an issue that hopefully doesn't suck too badly
+this Good Friday the 13th.
+
+Many other exciting projects that may, but probably won't, interest you
+are on their way. :-)
+
+Peace,
+Wizdumb <wizdumb@leet.org>
+
+ -//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//-
+
+
+ -//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//-
+       .o (( Hacking the CyberXpress Internet Kiosk by Wizdumb )) o.
+ -//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//-
+
+I was quite excited to see a CyberXpress Internet Kiosk nearby my house,
+this being the first "internet booth" I had seen deployed in SA (The Post
+Office's PIT (Public Information Terminal) thingymabobbies are on their
+way but aren't really around yet I think).
+
+The machine runs Windows NT, and has this goofy web-browser written by
+CyberXpress - or so at least, they claimed on their website. Truth be
+told, they wrote a GUI, and imbedded Internet Explorer 5 into their
+application el-elito VB k0der style.
+
+And although they don't allow URL's with things like "file://", they do
+seem to allow URL's with just "//".
+
+Oh dear. I'd best shut my mouth now before it all just gets too easy.
+
+ -//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//-
+
+
+ -//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//-
+                      .o (( mIRC 5.41 DoS from Moe1 )) o.
+ -//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//-
+
+Setting a channel key with 435 characters or more would cause all mIRC
+5.41 clients to crash. However some IRCD's restrict the amount of
+characters allowed for the +k command.
+
+Windows NT:
+Exception access violation (0xc0000005), Address 0x0048821a
+
+Windows 98:
+MIRC32 caused an invalid page fault
+in module MIRC32.EXE at 015f:0048821a.
+
+Registers:
+EAX=78787878 CS=015f EIP=0048821a EFLGS=00010206
+EBX=004dcfa4 SS=0167 ESP=0087fbe4 EBP=0087fbf0
+ECX=00000000 DS=0167 ESI=004dd140 FS=18e7
+EDX=00000cbc ES=0167 EDI=004dcfa0 GS=0000
+
+Bytes at CS:EIP:
+83 78 38 00 74 3c 68 f4 c4 4d 00 8b 45 0c 50 e8 
+
+Stack dump:
+004d9920 004d9ec4 00000005 0087fc10
+00467b47 00000cbc 004d9ec4 00000003
+00000001 004e4779 004d9934 00da9218
+00469576 00000003 004e4779 00000001 
+
+thats all from me...
+moe1@mailbox.co.za
+
+ -//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//-
+
+
+ -//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//-
+             .o (( Hacking in Switched Environments By Olmec )) o.
+ -//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//-
+
+-[Contents:]
+
+Introduction.
+Switched Environments: Definition and Examples.
+Common sense.
+
+-[This article serves to explain the problems switched environments can
+pose to common techniques employed on networks.]
+
+-[Introduction:]
+
+Today LAN environments are evolving to support their increased load, and
+need for security. The easiest way to achieve both is to move to a
+switched network; herein conversations become private and load on each
+node's NIC is reduced. Essentially each node is only aware of
+conversations it's implicitly involved in. The complexity of the switched
+network depends on what solution the LAN needs. Different Layered switches
+are used here.
+
+-[Switched Environments:]
+
+Switches route (yes, yes wrong word) packets based on various levels of
+information. Each level consists of a unique set (to those levels below
+it) and each level above it has a unique set:
+
+	Layer 1:        This is the underlying network medium [Ed: Physical 
+			Layer] usually Ethernet, but can be Token-Ring etc.
+	Layer 2:        This is the Data-link layer.  This is the level
+			that devices using the Layer 1 medium use to
+			communicate.  Datagrams here have a unique physical
+			address that they use it identify themselves.
+			Each datagram transmitted from a node has both the
+			source and destination address (MAC address)
+			present.
+	Layer 3:        This is the Network layer.  Essentially the
+			protocol used to communicate on top of Layer 2
+			datagrams.  For instance packets have unique 
+			IP addresses and TOS fields (IPX and IP).
+	Layer 4:        This is the Transport layer.  Sockets and Layer 3
+			packet contents are unique to this layer.
+
+[Ed: For the sake of making things a bit clearer, these are the three OSI
+     layers that don't apply to switching...
+
+     Layer 5: The Session Layer. This layer manages communication sessions -
+	      service requests and responses and all that junk.
+     Layer 6: The Presentation Layer - coding and conversion functions for the
+	      application layer - like ASCII or MPEG or whatever.
+     Layer 7: The Application Layer - Provides services directly to
+	      applications.
+
+     Okay. Now I've confused you even more than Olmec has. That wasn't my
+     intention. I just wanted to get the full picture intact for yall so I can 
+     show you how it fits together, so Olmec's terminology makes a bit more
+     sense to yall dumbasses :) Aight...
+
+     User information from the Application layer is converted to data
+     That data is then converted into segments
+     Segments are converted to packets or datagrams
+     Those are converted to frames
+     And frames are converted to bits
+
+  -------------------------------------------------------------------------
+  |                 |                 | Application     |                 |
+  -------------------------------------------------------------------------
+  |                 |                 | Presentation    |                 |
+  -------------------------------------------------------------------------
+  |                 | Upper Layer Data| Session         | PDU             |
+  -------------------------------------------------------------------------
+  | TCP Header      | Upper Layer Data| Transport       | Segment         |
+  -------------------------------------------------------------------------
+  | IP Header       | Data            | Network         | Packet          |
+  -------------------------------------------------------------------------
+  | LLC Header      | Data            | Data-Link       | Frame           |
+  -------------------------------------------------------------------------
+  | MAC Header      | Data            | Physical        | Bits            |
+  -------------------------------------------------------------------------
+  |                 | 101110101       |                 |	          |
+  -------------------------------------------------------------------------
+
+  You dig? Hokay, back to Olmec... ]
+
+For example a Layer 2 switch can switch packets based on source and
+destination physical address. Layer 3 switches can switch on protocol
+information, protocol type and socket addresses. Layer 4 switches can
+switch based on connections i.e. complete sockets, as well as switch side
+ports, rules can also be applied on top of this further limiting
+conversations.
+
+There are essentially two types of conversations, direct and broadcast.  
+Direct conversations are those that sender knows the exact address of the
+receiver and needs only to communicate with it.  Broadcast conversations
+are those that hosts, either lacking higher level config (IP address
+assigned over DHCP for example). The use of various switches depends on
+the need of the network.  For instance, refer to [Figure 1] here direct
+conversations between PC 1 and PC 2 are private from both the Layer 4
+switch and any other network device, except the Layer 2 switch they both
+are connected to.
+
++------+                     +------+                       +-----+
+| PC 1 |                     | PC 2 |   ..............      | YOU |
++------+                     +------+                       +-----+
+	\                   /
+	 +----------------+
+	 | Layer 2 Switch |     +----------------------------+
+	 +----------------+     | PC 3 (central DHCP server) |
+			   \    +----------------------------+
+			    \       |
+			     +----------------+         +----------+
+			     | Layer 4 Switch |=========| Internet |
+			     | With rule set  |         +----------+
+			     +----------------+
+		-[Figure 1]
+
+A layer four switch has the ability to route packets based on physical
+addresses, IP addresses and ports. This allows rule-sets to be established
+in order to further increase network security (i.e. sales cant get to
+accounts etc). The problem is that each of these implementations has several 
+drawbacks these will be discussed later.
+
+-[Network Enumeration in switched environments:]
+
+Note: please refer to the LAN detailed in Figure One
+
+Ok, so you have plugged into the LAN (into the layer 2 switch) and you
+need to know what's what and where. Here are your detailed options:
+
+1.      You can send out an IP packet that is corrupt, in the sense that the
+	IP address is (255.255.255.255) or send to a lower level physical
+	address (FF-FF-FF-FF-FF-FF).  One of two things is going to happen:
+
+1.1     The Layer 2 switch is going to drop the packet (this is bad) and/or
+	kill the port for a period. However, the MAC (FF-FF-FF-FF-FF-FF) is a
+	broadcast address, so it will most probably be sent to all active
+	ports on the switch (see below). The Layer 2 switch is going to
+	broadcast that packet to all PCs on the LAN (this is better).
+	Information regarding PCs on the LAN can be determined from the
+	resulting packets. However due to the nature of the packet, most PCs
+	are likely to drop it. The beauty of MS LANs is that they essentially
+	run on several broadcast protocols, NetBEUI and their Samba.
+	
+2.      You can send various DHCP/BOOTP requests out, however for this to
+	work, you need to know the IP of the DHCP server.  However I
+	have found that MS's DHCP seems to respond (at least in part) to
+	requests with invalid source and destination IPs. The response is
+	sufficient to gain the DHCP servers IP.
+
+2.1     There are several protocols that are broadcast over the LAN, (WINS
+	and ARP are excellent examples). These are too complex to explain
+	now but ICMP errors and ARP requests are magic.
+	[Wizdumb: Connectionless protocols in WAN environments is just asking
+	for it.] BOOTP is also another excellent example. BOOTP servers respond
+	to some of the most mundane requests. Its broadcast, and very easy to
+	gain information.
+
+3.      One can use directional broadcast pings, this does however require
+	knowledge of subnets i.e. the first 24 bits of the IP address. Thus
+	all machines on that subnet will respond:
+
+3.1     ping 192.168.1.255 
+	all machines on 192.168.1.0/24 will respond.
+
+4.      Another method, similar to that described in 3 above, developed in
+	co-operation with Aragon, is a SYN-BROADCAST. Herein a TCP packet,
+	with the SYN flag set is sent to a broadcast address.
+
+4.1     The resulting responses are very interesting. 99% of the time, windows
+	boxes will respond with a RST/ACK. Thus detection of M$ boxes (NT
+	and 98 inc.) can be reliably done without much LAN noise being
+	generated (see article on SZN with regards to logging SYN scans).
+        [Ed: SZN is @ www.security.za.net]
+
+ -//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//-
+
+
+ -//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//-
+                  M-Web Dialup Hostname Reference by Sigma
+ -//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//-
+
+Wyzewun's Wordz of Wizdumb...
+
+Okay. I officialy suck. I accidentaly deleted Sigma's article and I don't
+really have time to get it again before release of FK. But this would be
+the second article on a topic like this in FK anyway, and although it's
+cool, it's not really the place for it. I'll hack up some PHP3 code to
+cough up info about M-Web and SAIX dialup hostnames and put it up @
+www.mdma.za.net/dialup
+
+If any of y'all other niggaz wanna contribute info regarding the dynamically
+assigned hostnames at your ISP it'd rock - send them off to wizdumb@leet.org
+and I'll add them to the page.
+
+ -//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//-
+
+
+ -//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//-
+           .o (( Just how stupid Diana PABX's are by Wizdumb )) o.
+ -//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//-
+
+I worked somewhere where we had Diana installed, and a PC with TelTrace,
+the goofy Win16 proggy that Telkom use for monitoring and logging calls on
+their PABX systems. The idea is that each employee has their own personal
+three-digit phone code for gaining access to an outside line. An employee
+dials 0, then their personal phone code, and then the number they want to
+dial. Or, they dial 0, Press "Redial" to dial the phone code of the last
+person who used the phone, and call away. Ummm. Okay. This is cool.
+
+I don't know why more South African phreaks don't start abusing PABXs.
+It's not like they log failed phone code entries or anything, and they
+have them installed at all of the places that deserve to have
+international phone calls billed to them.
+
+ -//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//-
+
+
+ -//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//-
+          .o (( More Vodacom VMB Hacking Nonsense by Wizdumb )) o.
+ -//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//-
+
+Vodago Customer Support (082114) is now largely self-service. You phone it
+up and press 1 for help /w voice mail, 2 for help /w sms, etc. etc.
+
+Should you get hold of some-one's cellphone physically, you can reset
+their VMB without any need of operator assistance by dialling 114,
+pressing 1, and then 2 - to reset the VMB. Hmmm. :-/
+
+ -//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//-
+
+
+ -//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//-
+               .o (( Fun with Windoze Networking by Wizdumb )) o.
+ -//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//-
+
+Windoze will not allow certain characters in your NetBIOS name when setting it
+through the control panel, but does allow you to use those same characters
+quite happily if you just set it in the registry. I played with a few values
+and got some interesting error messages...
+
+,----------------------------------------------------------------------------.
+| NetBIOS Name | NT4 | W98 | Error Message (Parsed NetBIOS Name)             |
+|--------------+-----+-----+-------------------------------------------------|
+| FOO          | Yes | Yes | None (FOO)                                      |
+|--------------+-----+-----+-------------------------------------------------|
+| ..           | No  | Yes | NT4 - The parameter is incorrect (..)           |
+|--------------+-----+-----+-------------------------------------------------|
+| .\FO.\O      | No  | No  | NT4 - The parameter is incorrect (FO.\O)        |
+|              |     |     | W98 - Cannot enumerate a non-container (O)      |
+|--------------+-----+-----+-------------------------------------------------|
+| FOO.\        | No  | No  | NT4 - The parameter is incorrect (none shown)   |
+|              |     |     | W98 - Standard error message (none shown)       |
+|--------------+-----+-----+-------------------------------------------------|
+| FOO.\BAR     | No  | No  | NT4 - The parameter is incorrect (BAR)          |
+|              |     |     | W98 - Cannot enumerate a non-container (BAR)    |
+|--------------+-----+-----+-------------------------------------------------|
+| .\\FOO       | No  | No  | NT4 - The parameter is incorrect (\FOO)         |
+|              |     |     | W98 - Cannot enumerate a non-container (FOO)    |
+|--------------+-----+-----+-------------------------------------------------|
+| .\\\\FOO     | No  | No  | NT4 - The parameter is incorrect (\\\FOO)       |
+|              |     |     | W98 - Cannot enumerate a non-container (FOO)    |
+`----------------------------------------------------------------------------'
+
+There can be no doubt that there's some very buggy parsing being done on these
+somewhere, and chances are there's something interesting to be found with
+this. I only had a day to play around with this, and I don't have a computer
+of my own, let alone a network of my own, so don't expect me to take this any
+further, for now at least.
+
+Windoze will happily cough up a list of characters which are not allowed -
+start playing with those. And be careful of having an overly long computer
+name coz VNetSup will freak out and you'll get recurring general protection
+faults in Explorer.Exe when you boot up.
+
+That's all from now. Some more interesting Win32 trix on their way from
+yours truly next issue. Booyakasha.
+
+ -//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//-
+
+
+ -//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//-
+     .o (( "The Blob", And other true tales of stupidity by Wizdumb )) o.
+ -//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//-
+
+It's 4AM. Pneuma, myself, and our pet jew, Gary, are walking back to
+Pneuma's place from a party. Yeah, Yeah, I know. We're losers. But Pneuma
+hasn't gotten a car yet, and Gary got his license revoked for slamming his
+car into a policeman on a motorbike while stoned. And me? Well, I, uuuh, I
+am, uuuuh, uhm, irrelevant to this story.
+
+A voice coming out of the bushes at the side of the road.
+"Weit! Weit foh me!"
+
+It sounds kinda scary, but high-pitched enough for it to be a 5 year old
+girl or summing, so we stop. And then from god-knows-where, this, like,
+30-something year old black chick waddles out holding a quart of castle
+lager in one hand.
+
+And she waddles all the way up to us.
+And she stops.
+
+And we look at her.
+And she looks at us.
+
+.
+
+We start walking again.
+
+And she's walking with us, and we're starting to get just a little
+worried, and I'm about to open my mouth to say something when she whines
+
+"Help me!"
+In the same super-scary high pitched voice as before.
+
+So we stop.
+And turn to her.
+
+"What?"
+
+"Weit! Weit foh me!"
+
+We start walking again.
+
+Pneuma & Gary are starting to walk at a brisker pace.
+"Uuuuuh, I'm gonna catch up with my friends now"
+"No! No! No!"
+"Uuuh, yes yes yes."
+"NO! NO! NO!"
+
+And then we had to outrun the hideous drunken blob-woman, which basically
+required us to walk at a quasi-brisk pace, while she wobbled along
+unbelievably slowly behind us. But she didn't fucking *stop* waddling
+after us until she lost sight of us completely.
+
+We never saw her again and for that we are immensely thankful.
+
+Those particular parties always tend to get kinda strange though. Next one
+I go to, some guy crawls across to where I'm sitting from the other side
+of the chillroom and starts feeling my beanbag. Slowly, he raises his eyes
+to meet mine, which are watching him in horror, looks at me and murmors:
+
+"... Where do you plug it in?"
+
+"... What, the beanbag?"
+
+And he nods.
+
+I'm speechless, and he's on god-knows-how-much-of-what, so he's just
+staring at me. But fortunately enough, he resolved his (rather odd) little
+dilemna for himself:
+
+"... We need the extension cord."
+
+And he crawls across to the other chillroom looking for it.
+
+I never saw him again personally, but a friend of mine says he saw him in
+the other chill room humping a beanbag against the wall and screaming
+
+"I'm plugging it in!!! I'm plugging it in!!!"
+
+Sometimes I think I'm crazy. But it's usually not long before I realise
+that the rest of the world is even worse. Thought I'd better include these
+experiences in this issue so y'all stay aware that I could be
+much, much worse. :-P
+
+ -//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//-
+
+
+ -//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//-
+                      .o (( Big Ugly Bloated Mailbag )) o.
+ -//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//-
+
+From: "Riaan van der linde" <riaan@lantic.net>
+To: <wizdumb@leet.org>
+Subject: Fw: About a note
+Date: Mon, 14 Aug 2000 20:04:04 +0200
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_0017_01C0062A.CBB984E0"
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 5.00.2615.200
+X-MimeOLE: Produced By Microsoft MimeOLE V5.00.2615.200
+
+Hi, my name is Riaan van der linde
+
+[ Hi, my name is Andrew Lewis ]
+
+I want to know something please.
+
+[ Pneuma has a genital wart. He showed me.
+  Or did you mean you want to know something else? ]
+
+I saw in issue 9 of FK that you (or someone) described how a credit card works
+I want to buy myself a notebook with a credit card number.
+
+[ I would also quite like to buy myself a notebook with a credit card
+  number. I hear the banks give you those. Maybe you should try them. ]
+
+Could you please tell me if it will work if i create my own number and name.
+And what the chances are in being cought.
+
+[ Oh god. ]
+
+Thanx in advance
+Riaan
+
+---------------------------------
+
+From: "Riaan van der linde" <riaan@lantic.net>
+To: <wizdumb@leet.org>
+Subject: Tried
+Date: Mon, 14 Aug 2000 20:17:44 +0200
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_001A_01C0062C.B4EE07C0"
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 5.00.2615.200
+X-MimeOLE: Produced By Microsoft MimeOLE V5.00.2615.200
+
+Dear wizdumb...
+
+I've tried to buy a notebook from incredible connection but i can get
+through the autorization, can you tell me what is wrong and mabe give me a
+cc number that works
+
+[ Oh my god, I ignored him and he still tried to do it. The bit I can't
+  figure out is why just because he's proved he's a *complete* caveman, I
+  should give him illegaly acquired credit card numbers. ]
+
+although i have 24 numbers and all the programs say they work the websites
+don't accept them.
+
+[ Life just isn't fair. ]
+
+Please help me in this concern.
+Thanx in advance
+Riaan
+
+---------------------------------
+
+From: "k-rad-bob" <k-rad-bob@b0g.org>
+To: <wizdumb@leet.org>
+Subject: h0h0!
+Date: Tue, 3 Oct 2000 23:18:50 +0200
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="iso-8859-1"
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 4.72.3110.5
+X-MimeOLE: Produced By Microsoft MimeOLE V4.72.3110.3
+
+thanks for the great and the first in a long series of articles for b0g
+
+[ Yah, I'm sorry, I'll try to submit you some better stuff sometime
+  soon. Been busy n stuf. :) ]
+
+im sorry i didnt reply earlier but the email was actually sent to my boss
+cuz i forgot to delete the account at the end of the day HEH i also got
+him some nice cybersex0r believe it or not but im actually getting fired
+haha needless to say im blaming you!
+
+[ Well I'd say thats a cred for us in the FK/b0g cyberwar. :) FK Editor
+  get's b0g editor fired!@#$ Booya!@#$ Take that bi0tch!@#$%$ ]
+
+and you should publish all good articles in b0g as well in your new stinky
+zine.
+
+[ I hate articles that are in multiple zines. I'll keep my articles for
+  b0g as articles exclusively for b0g - you're not gonna steal some real
+  content for your zine that way you lazy fuqn punk. :P ]
+
+love you!!!!
+
+[ you too bobby-dearest!!!!! ]
+
+---------------------------------
+
+From: Prasanth Kumar <saanthu@excite.com>
+To: marc@EEYE.COM
+Subject: from a new bee..
+Cc: webster@pis.com.au, wizdumb@leet.org, ejsteven@cs.millerserv.edu,
+   zillion@SAFEMODE.ORG
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-Mailer: Excite Inbox
+X-Sender-Ip: 202.53.78.34
+
+Hi ..
+
+    I had completed my graduation study in Computer Science. These days i
+came to know that although i completed my graduate study in Computer Science
+i was very lag behind in real world computing while i was watching sites.
+
+[ Help! I spent all my time at college looking at porn and now I don't
+  know anything! What do I do?! ]
+
+As i want to become a good programmer in networks i need information about
+hacking in grounds of networks and mobile phones, so if you know about the
+thing please send me details.
+
+[ I wouldn't know *how* to help this guy even if I wanted to. ]
+
+		     waiting for ur reply...
+
+[ Keep waiting... ]
+
+---------------------------------
+
+From: "ProtZkroG" <protzkrog@gmx.de>
+To: <wizdumb@leet.org>
+References: <200008291309.PAA22201@syrex.imagine.co.za>
+Subject: 3'd mail
+Date: Tue, 29 Aug 2000 19:09:06 +0200
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 5.00.2919.6600
+X-MimeOLE: Produced By Microsoft MimeOLE V5.00.2919.6600
+
+if i try to join #b10z on EFNET i get this error = #b10z can't join channel
+(need correct key)
+how do i fixx0r it ?
+
+[ Fuck, I dunno, that's broken hardcore. Personally, I'd just hit the
+  monitor repeatedly and mash ice cream into my forehead - I'm afraid I
+  won't be able to help you with that one. :( ]
+
+   <-=-{ ProtZkroG }-=->
+
+   IRC - irc.bubblenet.org.za #warez
+   ICQ - 41227092
+   e-mail - protzkrog@gmx.de
+
+---------------------------------
+
+From: 123 <slym50@xsinet.co.za>
+To: <wizdumb@leet.org>
+X-Mailer: Poco, v1.2 (601) - EXPIRED EVALUATION VERSION
+Date: Sat, 23 Dec 2000 17:08:48 +0200
+X-URL: http://www.pocomail.com/
+Subject: Need some help
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="72442205"
+
+Hi , can you please help me , unblock my blacklisted cellphone that i got
+from a friend , so i can start using it.
+ 
+I read the forbidden knowledge , but can't get it wright. 
+
+thanks 
+-- 123, slym50@xsinet.co.za
+
+[ Something told me that just ripping this dude off all el8'ly in my
+  e-zine wasn't enough. I'd been recieving *tons* of stupid mail lately,
+  mostly about axz.java (all that mail follows just now), and although I
+  think my response was a bit overly dramatic, it was also quite
+  amusing... ]
+
+---------------------------------
+
+From: 123 <redrose@mweb.co.za>
+Subject: Re: Need some help
+To: wizdumb@leet.org
+Message-id: <0G6P005YGD91LZ@jhb-proxy.mweb.co.za>
+MIME-version: 1.0
+X-Mailer: Poco, v1.2 (601) - EXPIRED EVALUATION VERSION
+Content-type: multipart/alternative; boundary="86277148"
+
+On Tue, 26 Dec 100 13:46:23 +0000, wizdumb@leet.org wrote: 
+
+> Excuse me, but what the fuck exactly do you think I am? A free cellphone
+> hacking service? If your friend's phone is blacklisted it is blacklisted
+> for a reason and you can suck my fucking dick.
+
+> E-mail me again and I will have your legs broken. Believe me I can and
+> will have this arranged if you insist on being such a nuisance.
+
+> Kindest regards,
+> Wizdumb
+
+[ Yeah, I think that might have been a little bit of an over-reaction. ]
+
+You're an ass, who the hell do you think you are. I asked you
+nicely...
+
+[ It *was* an over-reaction, but this guy is still a dumbass. I would send
+  Pneuma over to his house to rape his dog or something, but, oh, you know, 
+  it's such a mission :-P ]
+
+-- 123, redrose@mweb.co.za
+
+---------------------------------
+
+From: julian.castle@bt.com
+To: wizdumb@leet.org
+Subject: Access
+Date: Mon, 17 Jul 2000 15:22:11 +0100
+X-Mailer: Internet Mail Service (5.5.2651.88)
+MIME-version: 1.0
+Content-type: text/plain; charset="iso-8859-1"
+
+Hiya,
+Your password cracker is really impressive, do you know how you recover
+which groups/users a database was last opened with?
+Say for example if a database was opened and then saved by an exclusive user
+so that no-one else could open the database, how would you recover which
+user had locked the database?
+Any help greatly appreciated,
+Julian Castle
+
+[ I dunno, everyone figures since I wrote a script to crack Access97
+  databases that I'm some kinda expert. Fuq, I don't care - Access is the
+  most boring useless piece of shit out and I'm not greatly concerned
+  about it. Sorry bud, you're on your own.
+
+  But thanks for not being a retard. It makes me really happy when I get
+  mail from people I don't know who aren't retards. I get even happier
+  when non-retards that I know of and admire e-mail me, but that's only
+  happened once. :( *Sigh* Oh well. Hi rwx! :P ]
+
+---------------------------------
+
+From: "- SL" <fubaro@hotmail.com>
+To: wizdumb@leet.org
+Date: Mon, 24 Jul 2000 05:08:27 GMT
+Mime-Version: 1.0
+Content-Type: text/plain; format=flowed
+Message-ID: <F126mTVtnmjEKhA9hb400005557@hotmail.com>
+X-OriginalArrivalTime: 24 Jul 2000 05:08:27.0351 (UTC) FILETIME=[3359A670:01BFF52D]
+
+HI , i am writing regarding that program you submitted to the neworder site 
+which will remove passwords from access. May i ask how i use it? i tried to 
+complie it with jdk 1.3 but got 6 errors....can you help me please? thanks
+
+SL
+
+[ I will admit to only testing it with JDK 1.2, but how is "6 errors" supposed
+  to help me figure out what you're doing wrong. *Oh*, it must be *those*
+  6 errors. I see. Try rm'ing the code, selling your computer and buying a
+  hotdog stand. That should fix it. ]
+
+---------------------------------
+
+From: "Alex" <alex.kid@freesbee.fr>
+To: <wizdumb@leet.org>
+Subject: Microsoft Access
+Date: Tue, 25 Jul 2000 14:59:25 +0200
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_0005_01BFF648.EC3D9400"
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 5.00.2314.1300
+X-MimeOLE: Produced By Microsoft MimeOLE V5.00.2314.1300
+
+hi
+
+[ hi. ]
+
+can you send me by mail your Ms Access Pass remover?
+
+[ no. ]
+
+thanks
+
+[ anytime. ]
+
+bye
+
+[ bye now.]
+
+---------------------------------
+
+From: AlbatroZ24@aol.com
+Subject: access database window
+Sender: uucp <uucp@leet.org>
+To: wizdumb@leet.org
+Message-id: <29.a090217.26eed7ff@aol.com>
+MIME-version: 1.0
+X-Mailer: AOL 4.0 for Windows 95 sub 111
+Content-type: text/plain; charset="US-ASCII"
+Content-transfer-encoding: 7bit
+
+Boss:
+
+How can I access the database window of an installed application running in 
+MS Access platform.
+
+thanks in advance.
+
+Al
+
+[ Wha? Which way was up again? ]
+
+---------------------------------
+
+From: Andrew Worster <unix_cube@yahoo.co.uk>
+Subject: microsoft acess
+To: wizdumb@leet.org
+MIME-Version: 1.0
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+Sender: uucp <uucp@leet.org>
+
+HI
+
+if i have the tool for romoving the passwords what do
+i do with it?
+
+[ Run it. ]
+
+can you help me?
+
+[ Probably not. ]
+
+Andrew
+
+unix_cube@yahoo.co.uk
+
+---------------------------------
+
+[ And they go on.... ]
+
+From: Josie Love <josielove69@yahoo.com>
+Subject: access password remover
+To: wizdumb@leet.org
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="0-2103318776-971387208=:10513"
+
+hi, I found your password remover info but had a question: Where do I
+enter this programming info? In a certain directory? Please let me know I
+am very interested.
+
+[ Aaah... Interesting... So what exactly do these funny squiggles mean? ]
+
+Thanks,
+Josie
+
+---------------------------------
+
+To: wizdumb@leet.org
+Date: Thu, 9 Nov 2000 14:21:03 +0100
+MIME-Version: 1.0
+Content-type: text/plain; charset=ISO-8859-1
+Subject: Need your help...
+Priority: normal
+X-mailer: Pegasus Mail for Win32 (v3.12aDE)
+
+Hi!
+
+I read your post @ http://neworder.box.sk and i want to ask you for 
+your help. I got a Access-DB with a passwort, and i forget it. Can 
+you help me in any way like send me your prog. or explain it to 
+me? And works your progam also @ Access 2000 ?
+
+[Huh?]
+
+Thanks you a lot....i think you did great....
+
+[No, no, thanks you.]
+
+Bye Chaosphysik
+
+P.s.: The URL for your Post:
+
+http://neworder.box.sk/showme.php3?id=2312 
+
+[ My post? *I* didn't put it there. I guess that's where everyone got it
+  though. Oh dear, oh dear. ]
+
+---------------------------------
+
+From: "Bill Vernon Vernon" <cc_is@hotmail.com>
+To: wizdumb@leet.org
+Subject: Access
+Date: Wed, 15 Nov 2000 17:20:47 GMT
+Mime-Version: 1.0
+Content-Type: text/plain; format=flowed
+Message-ID: <F311c0D543TuylJc0xv0000284a@hotmail.com>
+X-OriginalArrivalTime: 15 Nov 2000 17:20:48.0222 (UTC) FILETIME=[653DF7E0:01C04F28]
+
+RE: your script for removing a password from a access database.
+
+As I am a technician and not a programmer how exactly do I use this script 
+to remove the password.Sorry if its a stupid question but I have a database 
+that took ten years for a friend of mine to compile and if I can break the 
+password on this he would be extremely appreciative, as I would if you can 
+explain how to use this. Thanks in advance for any reply you send my way.
+
+Bill Vernon
+
+[ It's hard to say something witty in response to the same gay banter
+  over and over again. I'm not even gonna try this time round. I forfiet,
+  okay?! The ereet A+ guy wins. ]
+
+---------------------------------
+
+From: "Thomas Poelmans" <thomas.poelmans@worldonline.be>
+To: <wizdumb@leet.org>
+Subject: MS Access 97 hacking program
+Date: Fri, 17 Nov 2000 19:07:43 +0100
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_0009_01C050C9.AB99B600"
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 5.00.2314.1300
+X-MimeOLE: Produced By Microsoft MimeOLE V5.00.2314.1300
+
+My name's Thomas and I'm a beginning hacker. Could you send the program to
+nuke an Access 97 password?
+
+[ This part I don't understand. How people get my e-mail address and the
+  knowledge that I wrote a program to crack Access97 passwords, but not
+  the actual code. I dunno. I'm stumped. ]
+
+Thanks
+Thomas
+
+---------------------------------
+
+From: "Helpdesk World Online" <helpdesk@wol.be>
+To: <wizdumb@leet.org>
+Subject: MS Access 97
+Date: Fri, 17 Nov 2000 19:09:36 +0100
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_0013_01C050C9.ED244680"
+X-Priority: 1
+X-MSMail-Priority: High
+X-Mailer: Microsoft Outlook Express 5.00.2314.1300
+X-MimeOLE: Produced By Microsoft MimeOLE V5.00.2314.1300
+
+Hi,
+
+My name's Thomas and I'm a beginning hacker. Could you send the program to
+nuke an Access 97 password?
+
+[ Woah. Dude. Deja Vu. Hectic. ]
+
+---------------------------------
+
+From: Sven Reising <sven.reising@gmx.net>
+To: wizdumb@leet.org
+MIME-Version: 1.0
+Subject: Crack Access PW
+X-Priority: 3 (Normal)
+X-Authenticated-Sender: #0000593155@gmx.net
+X-Authenticated-IP: [212.185.252.66]
+Message-ID: <23818.974715643@www25.gmx.net>
+X-Mailer: WWW-Mail 1.5 (Global Message Exchange)
+X-Flags: 0001
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Hi!
+
+Found your java class to remove Access 97 PW check. Do you know an
+application or program to remove PW from any Office program, mostly Access
+2000.
+
+[ Why would I know anything about Access? And would you prefer an
+  application or a program? Give me specifics damnit!!!@#$ :-P ]
+
+THX,
+Sven
+
+---------------------------------
+
+From: "MRIUS SADS" <gatekeeper2009@webmail.co.za>
+To: wizdumb@leet.org
+X-Mailer: WebMail v2.24R8
+X-Sender-Ip: 196.7.178.85
+X-Account: 90865
+MIME-Version: 1.0
+Content-Type: text/plain
+
+hi im a big fan of your mag. Problem is i cant find the fucken new
+issues of it all the sites i know are out of date, last issue i have
+is fk10 so please could you tell me were to get the latest copy
+
+[ Yea, finding FK will prob always be a mission. If you really care
+  enuff, subscribe to our ghay mailing list or summing - details in the
+  kreditz n stuff. ]
+
+thanks
+
+---------------------------------
+
+From: Lee Moon <LeeMoon1@excite.com>
+Reply-To: <LeeMoon1@excite.com>
+To: wizdumb@leet.org
+Subject: Re: Access 97 Password Script
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-Mailer: Excite Inbox
+X-Sender-Ip: 65.32.29.205
+
+HELP!
+
+I found your script but i have no idea what to do with it. I hope this
+reaches someone. Please repond to this email address. Thank you!
+
+[ It reached no-one. You will recieve no response. Forget everything you
+  ever heard about MS Access. *Jedi Hand Wave*. ]
+
+Lee
+
+---------------------------------
+
+From: "Johnny Chow" <johnny.chow@aastocks.com>
+To: <wizdumb@leet.org>
+Subject: Access password crack.
+Date: Tue, 19 Dec 2000 18:58:30 -0000
+Message-ID: <NEBBLHBFOMLBIHIPIKFECEHMCGAA.johnny.chow@aastocks.com>
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="big5"
+X-Priority: 3 (Normal)
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook IMO, Build 9.0.2416 (9.0.2910.0)
+X-MimeOLE: Produced By Microsoft MimeOLE V5.00.2919.6600
+Importance: Normal
+
+Sir,
+
+I saw your post about cracking access 97 file password.
+It is something like a java code.
+
+[ Yes, you could say it is something like that. ]
+
+I put it into a dot java file and try to compile it but it throw an exception.
+
+Is there an easy way for me to crack my access file please ?
+
+[ Probably. But that doesn't mean I'm gonna waste my own time crawling
+  around the net for you looking for MS-Access-Craq-For-Retards.Exe
+  because you're too dumb to compile my code. :) ]
+
+Thanks for your knowledge very much.
+
+[ No no no, thank *you* for *your* knowledge. If everyone wasn't as dumb
+  as you, no-one would even *read* my e-zine! ]
+
+Johnny.
+
+---------------------------------
+
+From: Bao Vu <baovu2000@yahoo.com>
+Subject: member
+To: wizdumb@leet.org
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+
+Hello!
+I would like to become a member, can you tell me how
+to join. Thank you
+
+[ Uuuh, join what? I think you may be a "member" already. ]
+
+ -//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//-
+
+
+ -//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//-
+                .o (( Forthcoming Attractions - Next Ish )) o.
+ -//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//-
+
+ -/- Sentinel by d0tslash
+ -/- Even More Gay Useless Win32 Trix from Wizdumb
+ -/- Dictionary.java library by Wizdumb
+ -/- More inane mindless blabber from Wizdumb
+ -/- Nude Pix of Opium's mom
+ -/- All New "Scratch 'n Sniff" section
+
+ <*> I dunno, fuq, I'll get some stuff - sorry this issue sucked so much. :)
+
+ <*> Volume 3, Issue 14 due for release April, Good Friday the 13th, 2001.
+
+ -//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//-
+
+
+ -//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//-
+                              .o (( Outro )) o.
+ -//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//-
+
+You are going to die. Fragments of you will live on in the things you left
+behind and in minds of those who you touched. And then, those too will be gone.
+
+Entropy is such a bitch.
+
+Before civilization, the human population would be culled and kept strong
+as a species just by having to survive the primitive world they lived
+in. Simple natural selection  I suppose most people
+would say that in an advanced civilization, natural selection should
+depend on intelligence. But how can this be so when each individual is
+born into a completely random socio-economical environment which is gonna
+fuck all progress. If you're super-smart, and you're born in Somalia - too
+fucking bad for you. If you're a complete retard and have a rich family,
+or live in a country which will afford you decent educational & work
+facilities, well, that's great.
+
+Mankind cannot progress as a species fast enough to beat the rate of
+entropy if the collective human resources of the planet are being wasted
+at such an alarming rate. Our civilization rapidly loses resources, while
+it grows bloated and stupid. The species goes nowhere, trying to get
+somewhere, to somehow evolve.
+
+The problem is that evolution worked before because only the most
+efficient members of a species would survive to copy their genetic
+material. This doesn't happen in modern society. Noted evolutions in man
+since modern times include only dropping of redundancies like wisdom teeth
+and appendixes - our species is *not* positively evolving.
+
+Mankind is slowly dying, and nothing could be sadder than the fact that
+it's still gurgling on, dying the horribly over-dramatic death of a thing 
+that was never really any good anyway.
+
+The time has come for you to realise that civilization *wants* you to
+subvert it. At this stage in the game, it really is the only possible way
+you could do it any good.
+
+ -//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//--xx--//--**--//-

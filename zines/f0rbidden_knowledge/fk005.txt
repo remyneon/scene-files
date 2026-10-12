@@ -1,0 +1,475 @@
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--=---::
+::                                                                          ::
+::                                  ::                                      ::
+::                      $$$;       iii                                      ::
+::                      $$$$$,    ZZZZ           ____                       ::
+::                      $$$$$$.   $$$$       .%$$$$$`                       ::
+::                      $$$?$$$,  $$$$        i$$$$`                        ::
+::            -------// $$$ `$$$.  $$$------- I$$$'---------/ / << <        ::
+::                      $$$  `$$$, ;$$       ;$$$:                          ::
+::                      $$$   ;$$$ j$$      ,$$$;   ..forbidden             ::
+::                      $$$    ^^" $$$ __ÒÒ$$$$'      knowledge..           ::
+::                      $$$        $$$ $$$$$½'                              ::
+::            ----- $$QQ###zzzzz   $$$ _        ----------< < ------        ::
+::                  ^^"'?$$$$$$$   $$$ ?$$$·                                ::
+::                      I$$        $$$  '?$$$,                              ::
+::                     .I$$        $$$    '$$$,                             ::
+::                     ;$$$                '$$$,                            ::
+::                     L$$$                 ;$$$                            ::
+::                    ,"  $                 :$$$;                           ::
+::                       :                $$$$$$$'                         ::
+::                   `    .                 ?$$$P                           ::
+::                                           '$'                            ::
+::                                            ;                             ::
+::                                                                          ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--=---::
+
+
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-=::
+::                   ..ooO Contents of This Issue Ooo..                     ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-=::
+::                                                                          ::
+:: -/- Introduction by The Editor                                           ::
+::                                                                          ::
+:: -/- Protecting Memory and Addressing Part One by wyze1                   ::
+:: -/- Defeating Telkom Caller ID by Nakamura                               ::
+:: -/- Social Insurance Number Checksums by Moe1                            ::
+:: -/- Implications of Unsrestricted Port Binding under NT by wyze1         ::
+:: -/- A Lesson in Lactural thinking by wyze1                               ::
+:: -/- Hacking Dockside Internet Accounts by Moe1                           ::
+:: -/- Hacking Standard Bank by wyze1                                       ::
+::                                                                          ::
+:: -/- Conclusion, Greets, All that other stuff that wastes space           ::
+::                                                                          ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-=::
+
+
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-=::
+::             ..ooO Bright Idea of the Week from Wyzewun Ooo..             ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-=::
+::									    ::
+:: If your name is sektorgrl and you're a slut -- kill yourself.            ::
+::									    ::
+:: If your name is not sektorgrl and you think that people called sektorgrl ::
+:: are sluts -- Perhaps you should tell that to her mother. Just /msg her   ::
+:: on EFNet. Her nick is jojobean. I'm sure she won't mind. :)              ::
+::									    ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-=::
+
+
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-=::
+::                  ..ooO Introduction by The Editor Ooo..                  ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-=::
+::                                                                          ::
+:: Due to an administrative error by the (marvelously efficient) South      ::
+:: African government, Ecstascy, Cocaine and Morphine (amongst others)      ::
+:: became legal in South Africa for a period of 5 weeks - much to the joy   ::
+:: of Marc Satur9 and various other members of the Forbidden Knowledge      ::
+:: Production Team. And so a special celebratory anti-computer month was    ::
+:: proclaimed to celebrate the fantastic intelligence of our government     ::
+:: (besides, both Marc and I had critical hardware failures - my video card ::
+:: and his cpu), so why not have a little holiday? ;P                       ::
+::                                                                          ::
+:: So, needless to say, this issue was a bit setback, but it is still here, ::
+:: right on schedule and pretty damn kickass, if I do say so myself. Being  ::
+:: the Editor of a Zine is something you get better at with practice, and   ::
+:: I'm grateful to have had the opportunity to fuck up a lot of things in   ::
+:: the zine, or to just not improve things that should be improved, and     ::
+:: STILL get recognised as a good zine. Heh. Must be my good looks or       ::
+:: something.  <Marc Satur9: Yeh Right>                                     ::
+::                                                                          ::
+:: We have been under a lot of pressure lately, but things are beginning to ::
+:: slow down again. Vortexia is back from the USA, for now at least, and    ::
+:: the rest of us will remain here for some time. Well... Assuming Marc     ::
+:: Satur9 doesn't get drafted by the German Army like they want him to be.  ::
+:: Maybe if we told them about his habits of blowing up dog kennels and     ::
+:: attacking toddlers with blowtorches he would get out of it. Hmmm. :)     ::
+::                                                                          ::
+::-==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--=::
+:: Editor:                 Wyzewun         wyze1@g0v.za.org                 ::
+::                                                                          ::
+:: Co-Editors:             Marc Satur9     satur9@beer.com                  ::
+::                         Vortexia        vortexia@psyche.za.org           ::
+::                                                                          ::
+:: Writes Stuff:           Moe1            moe1@h4x0rz.za.org               ::
+:: Makes ASCII Art:        CyberPhrk       phuman@icon.co.za                ::
+::								            ::
+:: Never does Anything:    Sniper          sniper@h4x0rz.za.org             ::
+::==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==::
+::									    ::
+:: Other Stuff in this Issue of Forbidden Knowledge...                      ::
+::                                                                          ::
+:: phjeer.txt ===========> IRC Lawgs dat joo will Ph34r                     ::
+:: unix.txt =============> Why Unix Users are Perverts                      ::
+:: carriers.txt =========> Carriers for ZA Scum                             ::
+::									    ::
+:: Mail comments, questions and article submissions to fk@posthuman.za.net  ::
+:: Subscription requests can be sent to fk@posthuman.za.net with the        ::
+:: Subject line "FK Subscribe". We hope you enjoy the zine as much as we    ::
+:: have enjoyed making it. <Marc Satur9: After all dem pillz, who wouldnt   ::
+:: enjoy making FK?>                                                        ::
+::									    ::
+:: Cheers,								    ::
+:: Wyzewun                                                                  ::
+::									    ::
+:: PS. Sorry if this issue is a bit thin, but nobody sent me articles       ::
+::     except for Nakamura and Moe1, so I had very little to work with. And ::
+::     we pay a lot of attention to deadlines. ;)                           :: 
+::									    ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-=::
+
+
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-=::
+::       ..ooO Protecting Memory and Addressing Part One by wyze1 Ooo..     ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-=::
+::                                                                          ::
+:: This is the first of a wave of technical articles which I am going to be ::
+:: publishing in FK. I am making a conscious decision to get the zine more  ::
+:: technically orientated and to have some serious articles for the         ::
+:: intermediate hacker.                                                     ::
+::                                                                          ::
+:: I toyed with the idea of writing an article on Buffer Overflow but after ::
+:: having seen this in Phrack, b4b0 and THC Magazine, decided that the idea ::
+:: was tired out by now, and by now (hopefully) everyone knows what it is.  ::
+:: And so, I decided to look into an area less commonly exploited and less  ::
+:: well-known, memory protection. In this issue I will be covering some     ::
+:: fairly primitive methods of memory protection and will move on to more   ::
+:: commonly used systems in Part Two. It is intended to be simple, concise  ::
+:: and to explain exactly what memory protection is from the ground up.     ::
+::                                                                          ::
+:: In multiuser environments (Like Windows NT and UNIX), it is important    ::
+:: that the memory assigned to one user cannot be accessed in any way by    ::
+:: another user -- not only for security reasons, but also obviously so     ::
+:: that if one user's program crashes, the whole system won't go down. Lets ::
+:: start by looking at the most basic form of memory protection - protecting::
+:: only the Operating System itself in a singleuser environment. This uses  ::
+:: the Fence Register method.                                               ::
+::                                                                          ::
+::                              ____________________                        ::
+::                             |                    |    The Memory         ::
+::                             |  Operating System  |                       ::
+::                             |                    |                       ::
+::                             |--------------------|                       ::
+::                         ,-  |                    |                       ::
+::                         |   |  User Program      |                       ::
+::                         |   |    Space           |                       ::
+::     Addressing Range ---|   |                    |                       ::
+::                         |   |                    |                       ::
+::                         `-  |                    |                       ::
+::                              --------------------                        ::
+::                                                                          ::
+:: This is achieved by using a Hardware register called a Fence Register.   ::
+:: The Fence Register is a lower level memory address that indicates that   ::
+:: nothing above this should be modified. We would then say that the        ::
+:: Relocation Factor for this example is the amount of memory blocks a      ::
+:: program written as if it would be resident at the beginning of the RAM   ::
+:: would have to move down so as not to interfere with the Operating System.::
+::                                                                          ::
+:: Now, in a multiuser environment we don't want our users to be able to    ::
+:: cause any trouble for eachother whatsoever and we can't achieve that     ::
+:: with just our one Fence Register. This is where we bring in Bounds       ::
+:: Registers. Like how Fence Registers are lower level memory addresses,    ::
+:: Bounds Registers are higher level memory addresses, and show that all    ::
+:: memory below it belongs to them. (Until it hits another Bounds Register).::
+:: So an example would look something like...                               ::
+::                                                                          ::
+::                          ____________________                            ::
+::                         |                    |                           ::
+::                         |  Operating System  |                           ::
+::                         |                    |                           ::
+::     Base Register --->> |--------------------|                           ::
+::                         |                    |  -,                       ::
+::                         | Bobs Program Space |   |                       ::
+::                         |                    |   |                       ::
+::   Bounds Register --->> |------------------- |   |-- User Program Space  ::
+::                         |                    |   |                       ::
+::                         | Sods Program Space |   |                       ::
+::                         |                    |  -'                       ::
+::                          --------------------                            ::
+::                                                                          ::
+:: However there is still a big problem with this form of memory protection.::
+:: Because there is no definition between executable and data areas, and    ::
+:: because each user has full control over memory in their assigned piece   ::
+:: of memory, they can write over things and cause crashes and different    ::
+:: things happening in the execution of their programs. Sure, its only      ::
+:: their programs, but what if this was a SUID program? ;)                  ::
+::                                                                          ::
+:: So, what we may want to do, is seperate the users data from their        ::
+:: program space to avoid security threats like the one mentioned above. So ::
+:: our memory will look something like this...                              ::
+::                                                                          ::
+::                          ____________________                            ::
+::                         |                    |                           ::
+::                         |  Operating System  |                           ::
+::                         |                    |                           ::
+::     Base Register --->> |--------------------|                           ::
+::                         | Bobs Data Space    |  -,                       ::
+::   Bounds Register --->> |--------------------|   |                       ::
+::                         | Bobs Program Space |   |                       ::
+::   Bounds Register --->> |------------------- |   |-- User Memory         ::
+::                         | Sods Data Space    |   |                       ::
+::   Bounds Register --->> |--------------------|   |                       ::
+::                         | Sods Program Space |  -'                       ::
+::                          --------------------                            ::
+
+::                                                                          ::
+:: Needless to say, this type of memory protection will not work if we want ::
+:: a truly secure Operating System. And that is where Tagged Architecture   ::
+:: comes in, another alternate method of memory protection. This sytem is   ::
+:: just really the idea of having a few bits after every Memory location    ::
+:: that cannot be modified containing flags such as R, W & X, to represent  ::
+:: what the user may and may not do with this piece of memory, for example  ::
+:: R - Read, W - Write, X - Execute - like in UNIX.                         ::
+::                                                                          ::
+:: This system is used on the Burroughs B6500-7500 systems and the IBM      ::
+:: System/38 also uses a similar method. In next issue I will discuss other ::
+:: memory management techniques, including Paging, Segmentation, And a      ::
+:: hybrid of the two. Please let me know what you think of this article,    ::
+:: it is my vision of the type of articles which will be in future issues   ::
+:: of Forbidden Knowledge.                                                  ::
+::                                                                          ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-=::
+
+
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-=::
+::               ..ooO Some Telkom Info from Nakamura Ooo..                 ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-=::
+::                                                                          ::
+:: <Comments from wyze1: This information is specific to Telkom, the bunch  ::
+::  who have the monopoly over the South African telecommunications         ::
+::  industry. Werd.>                                                        ::
+::                                                                          ::
+:: Big Brother is watching.						    ::
+::									    ::
+:: Telkom has rolled out its IdentiCall system now; it is already           ::
+:: operational in almost all of South Africa and parts that haven't got it  ::
+:: yet will get it soon enough. The system they are selling can log the     ::
+:: last 99 incoming numbers and that is the residential unit. Commercial    ::
+:: units with higher throughput that can log several thousand numbers are   ::
+:: being discussed.                                                         ::
+::									    ::
+:: What are the implications? Well, ISP's can use it to make dial-in        ::
+:: accounts far more secure, simply by dedicating a server to ID each       ::
+:: incoming call. If the call is not from the listed users' number, the     ::
+:: number can be traced and the ISP informed. There is some speculation that::
+:: such a system is already being tested. There is also an obvious danger   ::
+:: for anyone phreaking with a beige box. 				    ::
+::									    ::
+:: There are two good points. Telkom will be charging for the service. Not  ::
+:: a hell of a lot, but it will cost money anyway. <Wyze1: If you call R14  ::
+:: money. ;) More expensive for commercial versions though and R100 for the ::
+:: unit that displays the number if you want it> Some corporate types may   ::
+:: decide not to shell out for the added security. Telkom also told everyone::
+:: that was concerned about privacy that the dialing party can disable the  ::
+:: service by punching *31* (star, three, one, star) before dialing the     ::
+:: number. There will be no identification then. There is no way to know if ::
+:: this is really the case, and if they  will be selling some kind of       ::
+:: "identify anyone" package at a huge price. They also say that they will  ::
+:: have no record of the dialing numbers and that they will be stored only  ::
+:: on the unit attached to the receiving phone. Again there is no way to    ::
+:: know if this is true. 						    ::
+::									    ::
+:: Moral of the story - watch out. Big Brother now has the technology to    ::
+:: watch you. It is a good idea to append *31* before any number you dial in::
+:: future, INCLUDING your modem auto-dial. Don't say you weren't warned, and::
+:: don't get caught. Brought to you by Nakamura.                            ::
+::                                                                          ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-=::
+
+
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-=::
+::           ..ooO Social Insurance Number Checksums by Moe1 Ooo..          ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-=::
+::                                                                          ::
+:: Social Insurance Numbers are validated by a simple checksum process.     ::
+::                                                                          ::
+:: Example using a valid Social Insurance Number:                           ::
+::                                                                          ::
+::         236 454 286   (Social Insurance Number)                          ::
+::                                                                          ::
+::         236 454 286  \  Multiply each top number                         ::
+::         121 212 121  /  by the number below it                           ::
+::         -----------                                                      ::
+::         266 858 276     and get this.                                    ::
+::                  ^                                                       ::
+::                  ^                                                       ::
+::                  Notice here that 8*2=16, add the 1 and                  ::
+::                  the 6 together from 16 and get 7. If you get a          ::
+::                  2 digit number always add the digits together.          ::
+::                                                                          ::
+::        2+6+6+8+5+8+2+7+6=50   (Now Add all the digits together)          ::
+::                          ^^                                              ::
+::                          ^^                                              ::
+::                          If the Social Insurance Number is valid this    ::
+::                          number will be evenly divisible by 10.          ::
+::                                                                          ::
+:: Since 50 is a multiple of 10 our example is a valid Social Insurance No. ::
+::                                                                          ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-=::
+
+
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-=::
+::  ..ooO Implications of User-level Port Binding under NT by wyze1 Ooo..   ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-=::
+::                                                                          ::
+:: Unlike other multi-user Operating Systems, Windows NT 4 (I am not sure   ::
+:: if Windows 2000 behaves the same way) allows users to run daemons on any ::
+:: port that the user feels like running them on. Why is this the stupidest ::
+:: thing I have ever seen in my life? Well, the biggest problem I can think ::
+:: of would be...                                                           ::
+::                                                                          ::
+:: Any user can easily get the Administrator Password. Because NetBIOS is   ::
+:: not bound to a specific IP, should a user run his own daemon on the      ::
+:: NetBIOS ports and bind it to a *specific* IP, his daemon will field      ::
+:: incoming connections before NetBIOS does, making it easy for him to set  ::
+:: up some or other utility to steal the passwords of whoever tries to      ::
+:: login remotely. Ewww.                                                    ::
+::                                                                          ::
+:: Regardless of this major threat, there are many obvious minor threats.   ::
+:: How would you like to be woken up by the cops one day because your users ::
+:: decided to set up a leeto warez ftp?                                     ::
+::                                                                          ::
+:: Gee, Windows is pretty funky... But I dont think I'll be giving up *BSD  ::
+:: just yet. ;)                                                             ::
+::                                                                          ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-=::
+
+
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-=::
+::            ..ooO A Lesson in lactural thinking by wyze1 Ooo..            ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-=::
+::									    ::
+:: In todays hacking scene many people are so overly concerned about buffer ::
+:: overflows and the like, that they forget about possible ways to hack     ::
+:: into a system with "no" vunerabilities. Hacking is not about finding all ::
+:: the latest kiddie scripts, scanning for vunerable hosts and exploiting   ::
+:: all of them - It's about using your brain and thinking of NEW ways to do ::
+:: things when other things fail.                                           ::
+::									    ::
+:: Allright, I am going to use a real example from a situation that I was   ::
+:: in. I had user access on a completely secure FreeBSD box and wanted to   ::
+:: gain root access. The box didnt run X, had no SUID executables and did   ::
+:: not have ANY known security flaws. The conclusion most people would make ::
+:: here (and that no hacker ever should) is that this box is pretty much    ::
+:: completely secure. But it is the ever-questioning mind of the hacker     ::
+:: that says: "There has to be a way." And there always is.                 ::
+::									    ::
+:: I catted the .bash_history, and by the number of su entries I saw, I     ::
+:: concluded that this account must either be the Admin's user account, or  ::
+:: it is used by him frequently. Then, I started to look around for things  ::
+:: that I had been given write access to, but found absolutely nothing,     ::
+:: save for the configuration script my shell. (.bashrc etc)                ::
+::									    ::
+:: Then it hit me - Using my write access to .bashrc, I can create aliases! ::
+:: So, I quickly wrote a fake su program that mails the password to me and  ::
+:: saved it in /home/whatever/.ncftp/.blah, then added a line into .bashrc  ::
+:: saying: alias su='~/.ncftp/.blah' and logged out, only to find the root  ::
+:: password in plaintext in my mail the very next day.                      ::
+::									    ::
+:: This is not so much a hacking tip, as it is a plea to think DIFFERENTLY. ::
+:: To explore your OWN ideas and concepts and not follow the ones of others ::
+:: and most importantly, to think for yourself and not to rely on others.   ::
+::									    ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-=:: 
+
+
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-=::
+::     ..ooO Hacking Dockside Temporary Internet Accounts by Moe1 Ooo..     ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-=::
+::									    ::
+:: Credits go out to: syc{King} and cuzziez for helping me test. <w1: For   ::
+:: all the foreign readers, cuzziez is a stupid South-African-ism for       ::
+:: cousins. We're dumb and cant speak English. So Shoot us.>                ::
+::									    ::
+:: Dockside Internet provides first time users with temporary trial         ::
+:: accounts, all you have to do is apply for one is phone them up and tell  ::
+:: them that you wanna try this Internet thingy out and you will be supplied::
+:: with a temporary username and password.			            ::
+::									    ::
+:: So why is this useful? It only works for 48 Hours! Well... when that 48  ::
+:: hours is finished, we decide to take a look at that assigned username    ::
+:: and password one more time...					    ::
+::									    ::
+:: My username is X11195 and my password is 9715. I wonder if the password  ::
+:: for X11196 is 9716. Well, lo and behold it is! What a coincedence!       ::
+::									    ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-=::
+
+
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-=::
+::                ..ooO Hacking Standard Bank by wyze1 Ooo..                ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-=::
+::                                                                          ::
+:: Let me start by saying: d1s 1z d4 l33t3st d1sc0verY eYe h4vE eV3r m4de!! ::
+:: Honestly, the ppl at Standard Bank should be fucking ashamed for having  ::
+:: such fantastically stupid vunerabilities. But anyway, on with the show,  ::
+:: or something...                                                          ::
+::                                                                          ::
+:: Standard Bank have these nice little terminals to promote online banking.::
+:: All it is, is a Windows Box, with no Hard-drive, permanently stuck in a  ::
+:: modified version of Netscape to browse the company's webpage through the ::
+:: Intranet. Although they have remembered to block all sorts of uber-ereet ::
+:: things like pressing the start button, or jamming ctrl+s, if you press   ::
+:: alt+tab you get chucked back into a command prompt. Oh dear. =)          ::
+::                                                                          ::
+:: Have some-one to stand near you while you explore their system, and      ::
+:: press Alt+Tab again to go back into Netscape when anyone walks by.       ::
+::                                                                          ::
+:: While in this command prompt, you can locate and mount the shares of     ::
+:: any other machine on the network. You can get into all sorts of evil     ::
+:: little shares that you shouldnt be in, and you can even get onto the     ::
+:: the internet if you really know what you're doing. (Heaven knows why you ::
+:: would want to do this, though)                                           ::
+::                                                                          ::
+:: But I won't cover any of that, you can figure it out yourself. And with  ::
+:: a hack this stupid I think asking that you learn about the internal      ::
+:: workings of the system on your own is pretty much justified, dont you?   ::
+:: HEH. Alt+Tab Hax0rs of the Werld Unite! Alt+Tab the Planet! *Sigh* I     ::
+:: cant wait to go back to England where people have brains.                ::
+::                                                                          ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-=::
+
+
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+::                       .ooO Thanks and Greets Ooo.                        ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+::                                                                          ::
+::                              Group Greets:                               ::
+::          b4b0, cDc, EHAP, gH, HNN, L0pht, LoU, Posthuman, Rhino9         ::
+::                                                                          ::
+::                            Personal Greets:                              ::
+::  Badspirit, Crazyguy, Cyclotron, Halflife, Kool4Katz, Lothos, Mnemonic   ::
+::                  m0f0, ph1x, Tattooman, ultima, xmagii                   ::
+::                                                                          ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+
+
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+::                         .ooO Next Issue Ooo.                             ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
+::                                                                          ::
+:: The next Issue will be released at Midnight (SAST) on the 6th of August, ::
+:: and will be available at Posthuman Systems, Packet Storm Security and    ::
+:: the E-Text Archives.                                                     ::
+::                                                                          ::
+::                                                                          ::
+::                           :    ____                                      ::
+::                         i..?W$$$$$$$          __                         ::
+::                        ;Q$$P"    $$$        ;$$$                         ::
+::                      .$$$;'      $$$        I$$$                         ::
+::                     I$$. :       $$$        $$$;                         ::
+::                    ;$I?  .       $$$    _..$$$;                          ::
+::                    $$$;          $$$y#Q$$$$$P'                           ::
+::                    $$$           $$$P""^^                                ::
+::               _____$$$           $$$;                                    ::
+::               $$$$$$$$$$$$$$     `$$$y,                                  ::
+::               ''^""$$$^^""""     ;,"?$$$#,                               ::
+::                    $$$           I$#  ^$$$$,                             ::
+::                    $$y,          $$$    ?$$$;                            ::
+::                    $$$;          $$$    ;$$$I                            ::
+::                       :          $$$     $$$$                            ::
+::                       .                  $$$$                            ::
+::                                                                          ::
+::    #posthuman, EFNet -=- www.posthuman.za.net -=- fk@posthuman.za.net    ::
+::                                                                          ::
+::--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--::
