@@ -1,0 +1,2745 @@
+    [ 28 63 29 20 31 39 39 39 20 63 72 75 63 69 70 68 75 78 20 68 77 61 ]
+  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=
+  ==========================================================================
+  =                     <=-[ HWA.hax0r.news ]-=>                           =
+  ==========================================================================
+   ¯`·>[=©HWA'99=]<·´¯                                Number 4 Volume 1 1999
+  ==========================================================================
+
+      
+   "stoners make the best cryptologists, I know because i've written some
+   kick ass shit and the next day, no way could I figure out wtf I did
+   man I have stuff from like the 80's that to this day, I still have no
+   idea what it is and whole teams at the NSA have worked on it for me
+   stoners man, thats how to do real strong crypto...DES? no! LSD? yes!"
+
+ 	      - Stu Shimoruma (off the record at a wild party in Denver)
+   
+
+   Synopsis
+   --------     
+   
+   The purpose of this newsletter is to 'digest' current events of interest
+   that affect the online underground and netizens in general. This includes
+   coverage of general security issues, hacks, exploits, underground news
+   and anything else I think is worthy of a look see.
+
+    This list is NOT meant as a replacement for, nor to compete with, the
+   likes of publications such as CuD or PHRACK or with news sites such as
+   AntiOnline, the Hacker News Network (HNN) or mailing lists such as
+   BUGTRAQ or ISN nor could any other 'digest' of this type do so.
+
+    It *is* intended  however, to  compliment such material and provide a
+   reference to those who follow the culture by keeping tabs on as many
+   sources as possible and providing links to further info, its a labour
+   of love and will be continued for as long as I feel like it, i'm not
+   motivated by dollars or the illusion of fame, did you ever notice how
+   the most famous/infamous hackers are the ones that get caught? there's
+   a lot to be said for remaining just outside the circle... <g>
+
+
+   @HWA
+   
+   
+  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=
+                     Welcome to HWA.hax0r.news ... #4
+  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=
+  Issue #4						           Got root?
+  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=
+
+    "For a company to delay a shipment for a month just means they are 
+     doing the product quality work. If it is put off six months then they 
+     probably have a problem." 
+
+      -- Giga Information Group analyst Merv Adrian to Computer Reseller 
+         News, comparing the one-month delay of Oracle's 8i database to the
+         delays of Windows 2000 Server.                                         
+  
+   
+  _____/[ INDEX ]\__________________________________________________________           
+  ------=========-----------------------------------------------------------
+  
+   "The LoU cyberwar issue"
+  
+   Keys: use the keys to search for start of each section rather than using
+   regular numbers ... this may change but dats the way its at now so tfs.
+   
+  ------+--+----------------------------------------------------------------   
+    Key     Content
+  ------+--+----------------------------------------------------------------     
+  
+    0.0  .. COPYRIGHTS 
+    0.1  .. CONTACT INFORMATION & SNAIL MAIL DROP ETC
+    0.2  .. SOURCES        
+    0.3  .. THIS IS WHO WE ARE
+    0.4  .. WHAT'S IN A NAME? why `HWA.hax0r.news'?
+    0.5  .. INTRODUCTIONS TO STAFF AND BIO'S
+    0.6  .. THE HWA_FAQ V1.0 
+    
+  ------+--+----------------------------------------------------------------     
+  
+    1.0  .. Greets (!?!?!?)
+    1.1  .. Last minute stuff, rumours, newsbytes, mailbag
+    2.0  .. From the editor
+    2.1  .. Raza-Mexicana responds to hacks reported in issue #3
+    2.2  .. Think CERT is a joke? well now you can use HERT instead. 
+    2.3  .. Crypto: Cypherpunks list update
+    3.0  .. Canc0n'99/2k
+    4.0  .. Qubik's ruminations from bikkel's webboard
+    4.1  .. The hacker; Sex symbol of the Millenium 
+    5.0  .. LoU vs China: Legions Of The Underground cyber war hardon goes limp.
+    5.1  .. Spies in the wires 9e99, bugs of another manner in your PC?
+    5.2  .. Schoolgirl's can hax0r too
+    5.3  .. Phraudulant Philth
+    5.4  .. "Co-co" and several other Chinese NSA infiltrators have been 
+            detained for questioning in startling 'James Bond style' real-life
+            spy drama.
+    6.0  .. l0phtcrack 2.5 and Windows 95/98 sekurity issues        
+    6.1  .. The l0pht produces a /tmp dir security monitoring tool and advisory.
+    6.2  .. The l0pht's 'Tan' does a 'Cyberspace Underwriters Labs' dissertation.    
+    6.3  .. Wireless PBX phreaking at your local hospital?
+    H.W  .. Hacked Websites 
+    A.0  .. APPENDICES  
+    A.1  .. PHACVW linx and references 
+
+  ------+--+----------------------------------------------------------------
+
+     @HWA'98/99                 
+             
+
+         
+0.0  (C) COPYRIGHT, (K)OPYWRONG, COPYLEFT? V2.0
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     
+     THE OPINIONS OF THE WRITERS DO NOT NECESSARILY REFLECT THE
+     OPINIONS OF THE PUBLISHERS AND VICE VERSA IN FACT WE DUNNO
+     WTF IS GONNA TAKE RESPONSIBILITY FOR THIS, I'M NOT DOING IT
+     (LOTS OF ME EITHER'S RESOUND IN THE BACKGROUND) SO UHM JUST
+     READ IT AND IF IT BUGS YOU WELL TFS (SEE FAQ).
+     
+     Important semi-legalese and license to redistribute:
+     
+     YOU MAY DISTRIBUTE THIS ZINE WITHOUT PERMISSION FROM MYSELF 
+     AND ARE GRANTED THE RIGHT TO QUOTE ME OR THE CONTENTS OF THE
+     ZINE SO LONG AS Cruciphux AND/OR HWA.hax0r.news ARE MENTIONED 
+     IN YOUR WRITING. LINK'S ARE NOT NECESSARY OR EXPECTED BUT ARE 
+     APPRECIATED the current link is http://welcome.to/HWA.hax0r.news
+     IT IS NOT MY INTENTION TO VIOLATE ANYONE'S COPYRIGHTS OR BREAK
+     ANY NETIQUETTE IN ANY WAY IF YOU FEEL I'VE DONE THAT PLEASE EMAIL
+     ME PRIVATELY current email cruciphux@dok.org 
+     
+     THIS DOES NOT CONSTITUTE ANY LEGAL RIGHTS, IN THIS COUNTRY ALL
+     WORKS ARE (C) AS SOON AS COMMITTED TO PAPER OR DISK, IF ORIGINAL
+     THE LAYOUT AND COMMENTARIES ARE THEREFORE (C) WHICH MEANS:
+     
+     I RETAIN ALL RIGHTS, BUT I GIVE YOU THE RIGHT TO READ, QUOTE
+     AND REDISTRIBUTE/MIRROR. - EoD
+   
+    
+     Although this file and all future issues are now copyright, some of
+    the content holds its  own copyright and these are printed and 
+    respected. News is news so i'll print any and all news but will quote 
+    sources when the source is known, if its good enough for CNN its good
+    enough for me. And i'm doing it for free on my own time so pfffft. :) 
+    
+    No monies are made or sought through the distribution of this material.
+    If you have a problem or concern email me and we'll discuss it.
+    
+    cruciphux@dok.org
+    
+    Cruciphux [C*:.]
+
+      
+     
+0.1  CONTACT INFORMATION AND MAIL DROP
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     
+     Wahoo, we now have a mail-drop, if you are outside of the U.S.A or 
+    Canada / North America (hell even if you are inside ..) and wish to
+    send printed matter like newspaper clippings a subscription to your
+    cool foreign hacking zine or photos, small non-explosive packages
+    or sensitive information etc etc well, now you can. (w00t)
+    
+    Send all goodies to:
+    
+	    HWA NEWS
+	    P.O BOX 44118
+	    370 MAIN ST. NORTH
+	    BRAMPTON, ONTARIO
+	    CANADA
+	    L6V 4H5
+	    
+    Dying to send something but want some recompense or don't know what
+    to mail? well everyone who mails something in will be mentioned in a
+    issue (man does this sound like a fucking DC/Marvel comic book or 
+    what?) you won't get a secret decoder ring in return but you *will*
+    get a 'secret' url that will have a 'present' for you (and only you)
+    to show our appreciation (wanna know what it is? you'll have to send
+    something to find out, and yeah picture postcards also count).
+    
+    Ideas for interesting 'stuff' to send in apart from news:
+    
+    - Photo copies of old system manual front pages (signed by you) ;-)
+    - Photos of yourself, your mom, sister, dog and or cat in a NON
+      compromising position plz I don't want pr0n. <g>
+    - Picture postcards
+    - CD's 3.5" disks, Zip disks, 5.25" or 8" floppies, Qic40/80/100-250
+      tapes with hack/security related archives, logs, irc logs etc on em.
+    - audio or video cassettes of yourself/others etc of interesting phone
+      fun or social engineering examples or transcripts thereof.
+    
+    If you still can't think of anything you're probably not that interesting
+    a person after all so don't worry about it <BeG>  
+    
+    Our current email:
+    
+    Submissions/zine gossip.....: hwa@press.usmc.net
+    Private email to editor.....: cruciphux@dok.org
+    Distribution/Website........: sas72@usa.net
+
+    @HWA
+
+        "Kill the police, kill the whole force, destroy the  
+                 system and trash the courts." 
+                                            - G.G.Allin    
+
+    
+    
+0.2  Sources ***
+     ~~~~~~~~~~~     
+
+     Sources can be some, all, or none of the following (by no means complete
+    nor listed in any degree of importance) Unless otherwise noted, like msgs
+    from lists or news from other sites, articles and information is compiled
+    and or sourced by Cruciphux no copyright claimed.
+
+    HiR:Hackers Information Report... http://axon.jccc.net/hir/
+    News & I/O zine ................. http://www.antionline.com/
+    News/Hacker site................. http://www.bikkel.com/~demoniz/
+    News (New site unconfirmed).......http://cnewz98.hypermart.net/
+    Back Orifice/cDc..................http://www.cultdeadcow.com/
+    News site (HNN/l0pht),............http://www.hackernews.com/
+    Help Net Security.................http://help.ims.hr
+    News,Advisories,++ ...............http://www.l0pht.com/
+    NewsTrolls (HNN)..................http://www.newstrolls.com/
+    News + Exploit archive ...........http://www.rootshell.com/beta/news.html
+    CuD ..............................http://www.soci.niu.edu/~cudigest
+    News site+........................http://www.zdnet.com/
+
+    +Various mailing lists and some newsgroups, such as ...
+
+    http://www.the-project.org/ .. IRC list/admin archives
+    http://www.anchordesk.com/  .. Jesse Berst's AnchorDesk
+    
+    alt.hackers.malicious
+    alt.hackers
+    alt.2600
+    BUGTRAQ
+    ISN security mailing list
+    ntbugtraq
+    <+others>
+
+    NEWS Agencies, News search engines etc:
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    http://www.cnn.com/SEARCH/
+    http://www.foxnews.com/search/cgi-bin/search.cgi?query=cracker&days=0&wires=0&startwire=0
+    http://www.news.com/Searching/Results/1,18,1,00.html?querystr=cracker
+    http://www.ottawacitizen.com/business/
+    http://search.yahoo.com.sg/search/news_sg?p=cracker
+    http://www.washingtonpost.com/cgi-bin/search?DB_NAME=WPlate&TOTAL_HITLIST=20&DEFAULT_OPERATOR=AND&headline=&WITHIN_FIELD_NAME=.lt.event_date&WITHIN_DAYS=0&description=cracker
+    http://www.zdnet.com/zdtv/cybercrime/
+    http://www.zdnet.com/zdtv/cybercrime/chaostheory/ (Kevin Poulsen's Column)
+
+    NOTE: See appendices for details on other links.
+    
+    Referenced news links
+    ~~~~~~~~~~~~~~~~~~~~~
+       
+    http://news.bbc.co.uk/hi/english/sci/tech/newsid_254000/254236.stm
+    http://freespeech.org/eua/ Electronic Underground Affiliation
+    http://www.l0pht.com/cyberul.html     
+    http://www.hackernews.com/archive.html?122998.html
+
+    ...
+    
+    
+    Submissions/Hints/Tips/Etc
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~
+    All submissions that are `published' are printed with the credits
+    you provide, if no response is received by a week or two it is assumed
+    that you don't care wether the article/email is to be used in an issue
+    or not and may be used at my discretion.
+    
+    Looking for:
+    
+    Good news sites that are not already listed here OR on the HNN affiliates
+    page at http://www.hackernews.com/affiliates.html
+    
+    Magazines (complete or just the articles) of breaking sekurity or hacker
+    activity in your region, this includes telephone phraud and any other
+    technological use, abuse hole or cool thingy. ;-) cut em out and send it
+    to the drop box. Hell even a postcard would be cool, i'll scan em in and
+    stick em in a postcard section on the site heh. I like mail. It is your
+    friend. Spammers will be bumfucked by my pet doberman though. Or digitally
+    destroyed. so be warned.  <sic>
+    
+    
+    - Ed
+    
+
+
+    @HWA
+    
+     
+0.3  THIS IS WHO WE ARE 
+     ~~~~~~~~~~~~~~~~~~
+
+      sas72@usa.net ............. currently active
+      cruciphux@dok.org.......... currently active 
+      
+     * Formerly "Who am we?" otherwise unchanged since last issue. see the
+       mini-bio on Cruciphux in issue #3 for details on the editor. - Ed 
+       
+   
+    :-p  
+    
+    
+    1. We do NOT work for the government in any shape or form.
+     
+    2. Unchanged since issue #1, I'm still me apparently:
+        
+    "Ok i'm still a noone and a nobody, but yeah I *was* a hacker, been
+    a cracker, ran a warez board (and a PD board) done some phone phun
+    etc .. but all in my teens and i've since started wearing a "white
+    hat" (but it has little grey specks on it I must admit) and I am in
+    no way a "master hacker/phreaker" not "leet". I'm just me, take it or
+    leave it, didn't want it, didn't need it, been there, done that ...
+    you guys have the reigns now and i'm deadly curious as to what you're
+    doing with them. Hell mail me for advice and shit if you want, i'll
+    help if I can. I'll respond to all verifiable emails."
+    
+    C*:.
+    
+    
+
+0.4  Whats in a name? why HWA.hax0r.news??
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     
+      Well what does HWA stand for? never mind if you ever find out I may
+     have to get those hax0rs from 'Hackers' or the Pretorians after you.
+     
+     In case you couldn't figure it out hax0r is "new skewl" and although
+     it is laughed at, shunned, or even pidgeon holed with those 'dumb
+     leet (l33t?) dewds' <see article later in this issue) this is the state
+     of affairs. It ain't Stephen Levy's HACKERS anymore. BTW to all you up
+     and comers, i'd highly recommend you get that book. Its almost like
+     buying a clue. Anyway..on with the show .. - Editorial staff
+     
+
+0.5  Intros to new staff members
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+      I'd like to take this opportunity to welcome on board some new *ppl
+     that have endeavoured to take on the responsibilities of foreign
+     correspondants to the zine. These people may not contribute to each 
+     and every issue but they will be keeping us appraised of goings on
+     within their geographic areas welcome aboard ppl!
+     
+     They are in no order of importance, its alphabetic ;^,     
+     
+       N0Portz ..........................: Australia
+       Qubik ............................: United Kingdom
+       system error .....................: Indonesia
+       Wile (wile coyote) ...............: Japan/the East 
+       
+      Qubik has submitted a funny article found further on in this release
+     and other intros are to be found in section 2.7
+     
+     * correspondants are not officially "HWA group".members, but are 
+       considered newsletter "staff"       
+
+
+     Cruciphux's bio.¥ Dec 1998
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~
+     
+     This was 'released' in issue #3. Check that if you're interested.
+
+    * The bio of at least one other staff member will be forthcoming
+      in future issues...
+      
+     @HWA 
+   
+
+0.6  HWA FAQ v1.0 Dec 31st 1998/1999 (Abridged)
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Also released in issue #3. (unchanged) check that issue for the faq
+    it won't be reprinted unless changed in a big way with the exception
+    of the following excerpt from the FAQ, included to assist first time
+    readers:
+
+    Some of the stuff related to personal useage and use in this zine are
+    listed below: Some are very useful, others attempt to deny the any possible
+    attempts at eschewing obfuscation by obsucuring their actual definitions.
+      
+    !=   - Mathematical notation "is not equal to" or "does not equal"
+           ASC(247)  "wavey equals" sign means "almost equal" to. If written
+           an =/= (equals sign with a slash thru it) also means !=, =< is Equal
+           to or less than and =>  is equal to or greater than (etc, this aint 
+           fucking grade school, cripes, don't believe I just typed all that..)      
+    AAM  - Ask a minor (someone under age of adulthood, usually <16, <18 or <21)
+   *AOL  - A great deal of people that got ripped off for net access by a huge
+           clueless isp with seckurity that you can drive buses through, we're
+           not talking Kung-Fu being no good here, Buy-A-Kloo maybe?
+    EoC  - End of Commentary
+    EoA  - End of Article 
+    EoF  - End of file
+    EoD  - End of diatribe (AOL'ers: look it up)
+    CC   - Credit Card phraud
+    CCC  - Chaos Computer Club (Germany)
+    NFC  - Depends on context: No Further Comment or No Fucking Comment
+    NFR  - Network Flight Recorder (Do a websearch)
+    PHAC - And variations of same <coff> 
+           Phreaking, Hacking, Anarchy, Cracking, Carding (CC) Groups Virus, Warfare
+          
+          Alternates: H - hacking, hacktivist
+                      C - Cracking <software>
+                      C - Cracking <systems hacking>
+                      W - Warfare <cyberwarfare usually as in Jihad>
+                      CT - Cyber Terrorism
+    TBC - To Be Continued also 2bc (usually followed by ellipses...) :^0
+    TBA - To Be Arranged/To Be Announced also 2ba
+    TFS - Tough fucking shit.
+    
+    
+        "At least we know for sure which *century* Windows 2000 
+         (aka NT Workstation 5.0) will ship in.." 
+	                                          - Ed     
+
+
+1.0  Greets!?!?! yeah greets! w0w huh. - Ed
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     
+     Thanks to all in the community for their support and interest but i'd
+     like to see more reader input, help me out here, whats good, what sucks
+     etc, not that I guarantee i'll take any notice mind you, but send in 
+     your thoughts anyway.
+     
+     
+     Shouts to:
+
+       * Kevin Mitnick       * demoniz          * The l0pht crew
+       * tattooman           * Dicentra         * Pyra          
+       * Vexxation           * FProphet         * TwistedP      
+       * NeMstah
+     
+       * all the people who sent in cool emails and support
+       * our new 'staff' members.
+     
+  
+     kewl sites:
+     
+     + http://www.l0pht.com/
+     + http://www.2600.com/
+     + http://hacknews.bikkel.com/ (http://www.bikkel.com/~demoniz/)
+    !+ http://www.legions.org/
+     + http://www.genocide2600.com/      
+     + http://www.genocide2600.com/~tattooman/     
+     + http://www.hackernews.com/ (Went online same time we started issue 1!)          
+    
+    
+    !+ Don't run picture.exe! ;-) they're everywhere damn spies in the wires.
+    
+     @HWA
+     
+
+1.1  Last minute stuff, rumours and newsbytes
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     
+     "InfoFreako, there isn't a thing that I don't wanna know" 
+     					- Jesus Jones
+     
+     +++ sorry its late, information overload.
+     
+     +++ We could use some feedback. Our current complaint tends to be 
+         "give us more" in fact issue #5 is in progress already. I've decided
+         that since some articles have a limited life-span on the net to 
+         include them within the text rather than to  provide just links. I
+         archive these articles for my own use anyway but indexing them in a
+         database for future retrieval would be quite the task. I'd like to be
+         able to publish weekly but at this time that seems somewhat unfeasible
+         if the recent activity is any indication of the future.  Any input, 
+         ideas, or comments are welcomed. More help in sorting out some of the 
+         mass of stories may be needed after all... -Ed
+         
+     -+- WANTED!: Info / contributors from all countries and locales for news
+         sources/clippings newsbytes, virus and trojan information, new techno
+         logical abuse issues etc check issue #3 if interested. Non profit, for
+         fun only so no $$... no hassles/no pressures/no bs and full credit. -Ed
+
+         
+     +++ Jan 9th: 13 yr old Chinese cracker arrested by Police: 
+         From Bikkel Contributed to Bikkel by Deepcase
+     
+         A kid from Inner Mongalia was busted after he illegally accessed an
+         information service network using his father's name. The teen-ager 
+         connected to an information network and set up a page called 'Hacker.
+         He also took control of some managers' accounts of a multimedia 
+         telecommunications system. Because of his age the authorities couldn't
+         prosecute him. (they didn't kill him??) Instead they ordered his 
+         parents to keep a closer eye on him. This story is picked up by 
+         The NewYork Times.
+     
+     +++ The Furby is reportedly banned from the NSA building due to it's 
+         ability to repeat words and phrases that it hears. (From HNN & BBC)
+     
+     +++ We have some new 'foreign correspondants' introduced elsewhere
+         in this newsletter, we're still looking for people that can submit
+         in English or have stuff translated to something resembling english
+         from "everywhere else".
+     
+     +++ A new con is in the works for Asia and the East, no details yet
+         Submitted by Wile our 'man in the East' webpage and further info
+         is forthcoming - wile
+         
+     +++ Legistlation changes are in the works for HK, according to wile
+         currently there are no laws re: cracking in Japan, this is due to
+         change in the next month apparently, we'll keep you posted on this
+         as it develops.. - wile
+     
+     +++ Yes people from HWA.hax0r.news are hosting Canc0n'99/2k (site under
+         development as of this writing by sAs72) and NO it is not a cash
+         grab, (has anyone ever made money at a con!?!? heh.) assuming it
+         even flies...
+         
+     +++ Defcon7 is in July (Fri Jul 9th - Sun Jul 11th) Las Vegas.
+           - http://www.defcon.org/
+           - http://www.hfactorx.org/defcon7.html 
+           - http://www.defcon.org/html/other-conventions.html
+           
+     +++ Kevin Mitnick is still in prison.
+     
+     +++ Justin Petersen (Agent Steal) is sentenced to 5 months in jail(???)
+     
+     +++ We're still here and evolving...
+     
+     
+     
+     "Love comes in spurts" - Richard Hell & The Voidoids (NYC circa 1977)
+     
+
+2.0  From the editor.
+     ~~~~~~~~~~~~~~~~
+
+      Issue #4! well we made it to #4, (ok show of hands, how many ppl 
+     didn't think we'd get this far? oh just you ok you can sit down 
+     now, thanks.)
+     
+    
+     <snip>
+     
+     #include <stdio.h>
+     #include <interesting411.h>
+     #include <wit.h>
+     
+     main()
+     {
+      printf ("Read commented source!\n\n");
+      
+     /*             
+      * Security and testing security, sometimes there is a thin line between
+      * hacking/cracking and plain general network troubleshooting and detective
+      * work, Just as a hammer can be used to build or to destroy, so security 
+      *should be scrutinised closely and publicly in order to enhance our net
+      *experience, and maintain its' usefulness as an open web.
+      *
+      * Radar detectors are usually ahead of the Police, crackers will
+      *generally be turncoat sysadmins or crackers-for-phun and as sysadmins
+      *can become hackers so can hackers become sysadmins... ad infinitum ad
+      *nauseum...don't immediately assume that a cracker is 'bad' or a criminal
+      *a legitimate sysadmin could just as easily be reading your info and 
+      *abusing his power of position. It pays to be more than a little paranoid
+      *since no one "sees" your crime meek men become warriors and strong men
+      *and their networks can be flatlined with a smurf or synflood attack...
+     */
+      printf ("EoF.\n");
+      }
+     
+     <snip>
+     
+      Congrats, thanks, articles, news submissions and kudos to us at the
+     main address: hwa@press.usmc.net complaints and all nastygrams and 
+     mailbombs can go to /dev/nul nukes, synfloods and papasmurfs to 
+     127.0.0.1, Furby (1st/2nd generation) mods to our email or snail
+     mail addy... :)
+
+     danke.
+
+     C*:.
+
+
+     @HWA
+     
+2.1  Raza-Mexicana responds to hacks reported in issue #3
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+***  In response to the report in issue #3 (see section H.W on hacked web
+     sites) Raza-Mexicana had this to say:          
+  
+     
+     From: Raza-Mexicana@xxxxxx.xxxx
+     Delivered-To: cruciphux@dok.org				
+     Date: Sat, 2 Jan 1999 23:40:51 -0800 (PST)
+     To: cruciphux@dok.org
+     Subject: Newer hacks (Dec 28th) ¿?
+     Reply-To: Raza-Mexicana@xxxx.xx
+     X-Mailer: -[ Raza Mexicana Team ]-
+
+     -----BEGIN PGP SIGNED MESSAGE-----
+  
+     In answer to the December 28th hack's news Raza Mexicana
+     DO NOT claim any responsability, the Raza Mexicana members were
+     the AUTHORS of the Hacks made on DECEMBER 24th, and Bikkel
+     and HNN post the message about the hacks on december 25th, the
+     servers were been hacked 2 days and on December 26th the
+     Finisterra and Cabo-architects servers were fixed, Cabolinda and
+     Apibajasur were disconected and Villamex removed the hacked page
+     and by the way the hacks that you couldn't see. That's why we
+     want you to put this clear, because you thought that we didn't
+     make those hacks.
+
+     Thanks.
+     Raza Mexicana Team
+     - - --
+
+     En respuesta a las noticias sobre los nuevos hacks del 28 de diciembre
+     Raza Mexicana NO clama responsabilidad, los integrantes del grupo
+     Raza Mexicanason los autores de los hacks llevados a cabo el dia 24
+     DE DICIEMBRE y que bikkel y hackernews notificaron en la fecha 25
+     de diciembre los servidores estuvieron hackeados por 2 dias y el 26
+     de diciembre fue removido el hack de las paginas en finisterra y
+     cabo-architects cabolinda y apibajasur fueron desconetados,
+     villamex removio la pagina para poner un estado de pagina en
+     construccion, estos hacks fueron notificados por diferentes medios
+     en Mexico a pesar del dia festivo en ke se ejecutaron y por lo visto,
+     no los lograron ver uds. por lo que keremos ke aklaren lo referente
+     a este asunto.
+
+     Gracias.
+     Raza Mexicana Team
+
+
+     Printed unedited other than the removal of the pgp sig and the email
+     address. - Ed
+      
+     @HWA
+     
+2.2  The latest big thing in security
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     
+     X-Authentication-Warning: enigma.repsec.com: majordomo set sender to owner-isn@repsec.com using -f
+     Date: Mon, 11 Jan 1999 03:44:40 -0700 (MST)
+     From: mea culpa <jericho@dimensional.com>
+     To: InfoSec News <isn@repsec.com>
+     Subject: [ISN] HERT formed as alternative to CERT
+     X-NoSpam: Pursuant to US Code; Title 47; Chapter 5; Subchapter II; 227
+     X-NoSpam: any and all nonsolicited commercial E-mail sent to this address
+     X-NoSpam: is subject to a download and archival fee in the amount of $500 US.
+     X-NoSpam: E-mailing to this address denotes acceptance of these terms.
+     X-Copyright: This e-mail copyright 1998 by jericho@dimensional.com
+     Sender: owner-isn@repsec.com
+     Reply-To: mea culpa <jericho@dimensional.com>
+     x-unsubscribe: echo "unsubscribe isn" | mail majordomo@repsec.com
+     x-infosecnews: x-loop, procmail, etc
+     
+     
+     http://linuxtoday.com/stories/2196.html
+     
+     Creation of HERT
+     HERT - January 10th 1999, 09:12 EST
+     
+     HERT stands for Hacker Emergency Response Team and is an international
+     non-profit organization based in France.
+     
+     Exactly like CERT, our US counterpart, our first goal is to provide
+     accurate information about computer security vulnerabilities, provide
+     incident response services to sites that have been the victims of attacks,
+     publish security alerts and find new vulnerabilities. Our next goal is to
+     represent concerned computer users and organizations as an advocacy
+     league.
+     
+     Why HERT is a better alternative to CERT?
+     
+     National Computer Security Center, a sub-branch of the National Security
+     Agency initiated the creation of the Computer Emergency Response Team and
+     was funded by the Defense Advanced Research Agency (DARPA).
+     
+     A majority of people think CERT is doing a brilliant job, but when you
+     examine CERT more closely, one could believe CERT is a bit corrupted.
+     
+     Just take a look at the CERT statistics, since 1995, for 1027
+     vulnerabilities reported, they have published only 55 advisories
+     bulletins. Is this a joke, did they count duplicate vulnerability reports?
+     Was there 1000 cert initiated vendor advisories?
+     
+     >From an organization directed by US Military Intelligence, you must
+     assume the worst especially when they brag about their Information
+     Superiority.
+     
+     We decided to create HERT, when system administrators of highly sensitive
+     US networks informed us that they were supplied with official vendor
+     patches months before public announcement were made by vendors, CERT or
+     full-disclosure mailing lists like Bugtraq.
+     
+     -o-
+     Subscribe: mail majordomo@repsec.com with "subscribe isn".
+     Today's ISN Sponsor: Internet Security Institute [www.isi-sec.com]
+     
+     Hrm, it's French, what else do I have to say about this? you can't beat 
+     those wacky french bastages for funny names... - Ed
+     
+     @HWA
+     
+2.3  Crypto: Cypherpunks list announcements
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     
+     X-Authentication-Warning: toad.com: Host localhost [127.0.0.1] didn't use HELO protocol
+     To: cypherpunks-announce@toad.com, cryptography@c2.net, gnu@toad.com
+     Subject: Watch the gov't discuss crypto policy Friday in Cupertino: PECSENC
+     Date: Wed, 13 Jan 1999 02:21:45 -0800
+     From: John Gilmore <gnu@toad.com>
+     
+     PECSENC is a hard-to-parse acronym for the President's Export Council,
+     Subcommittee on Encryption.  The Council is a group of assorted
+     citizens appointed by the President of the US under Executive Order
+     12991 to advise him on US trade issues.  Since crypto policy is so
+     complex and painful, they pushed it into a subcommittee of its own.
+     That subcommittee is meeting this Friday at HP in Cupertino.  They
+     usually meet on the East Coast, far from most people affected by the
+     crypto regulations, so I thought it would be friendly of us to show up
+     and welcome them to Silicon Valley.
+     
+     I will be speaking at the meeting about the Wassenaar Arrangement, but
+     that isn't why you should come.  You should come because this is one
+     of the few public fora in which government and selected citizens
+     actually discuss crypto policy.  Officially, and to advise the President.
+     
+     They faxed me 6 pages of maps and directions, but it all boils down
+     to: Take I-280 to Cupertino, exit on Wolfe Road going north/east, turn
+     right at the second light on Pruneridge Ave, turn left at the first
+     light into the HP complex, go 200 feet and turn right at the "T"
+     intersection, and follow to the last building on the left, Building
+     46.  Park in the visitor lot in front, register at the reception desk
+     and get a badge.  The room can hold about 60 people (of which about 30
+     will be PECSENC and invited speakers.)
+     
+     There won't be an opportunity to rant, like there was a few years ago
+     when the National Research Council invited public comments at the CFP
+     conference.  (Perhaps they'll set one up for a future meeting -- I
+     think it would be informative for them.)  But it's a chance to see the
+     alice-in-wonderland workings of the government as they try to
+     manipulate a supposedly independent advisory group into overlooking
+     the emperor's nudity.  We may get a chance to make a few short, polite
+     comments, though they've arranged the agenda so the public gets to
+     comment *before* the government or the subcommittee says anything
+     worth commenting about.
+     
+     Some of the people on the subcommittee should be well known to 
+     cypherpunks:
+     
+     	Stewart Baker, lawyer, ex-General Counsel of NSA, GAK cheerleader
+     	Kevin McCurley, cryptographer, IBM Research, President of IACR
+     		(IACR was established by Diffie, Chaum, Rivest, etc in the
+     		 '70s to protect and foster crypto research -- www.iacr.org)
+     	Esther Dyson, business philosopher & author, EFF, ICANN Interim Chair
+     	John Liebman, lawyer, author of major export control law tome
+     	  (I'm leaving out ten or twenty people, mostly because the list
+     	   isn't published anywhere online that I can find)
+     
+     As part of their role in "supporting" the subcommittee's work, the
+     government has published the driest and least fun-looking "Notice of
+     Open Meeting" that the law will let them get away with:
+     	http://www.bxa.doc.gov/tacs/PECSENCMtg.html
+     However there is a juicier agenda which I received as a speaker:
+     
+       We have revised the schedule in light of certain timing constraints.  So,
+       please note that the private sector discussion of Wassenaar will take
+       place in the afternoon.  In addition to John Gilmore, PECSENC member Ira
+       Rubenstein will address this topic.  (Lynn McNulty of RSA has been
+       asked to offer remarks on RSA's experiences, too.)  Also, Whit Diffie will
+       let us know shortly whether he will speak before the group.
+     
+       Here is the updated agenda:
+     
+       President's Export Council
+       Subcommittee on Encryption
+       January 15, 1998
+       Pacific Ocean Room, Bldg. 46
+       19447 Pruneridge Avenue
+       Cupertino, California 95014
+     
+     9:00	Opening Comments/ 	Stewart Baker, Acting PECSENC Chairman
+     	Discussion of List Server/
+     	PECSENC's Role
+     
+     9:45	Public Comments
+     
+     10:00 	BXA Update	William A. Reinsch
+     			Under Secretary for Export Administration
+     
+     10:30	Congressional Presentation	Representative Zoe Lofgren
+     
+     11:00	Briefings	The Wassenaar Arrangement and Ambassador Aaron's
+      			Initiatives
+     			James A. Lewis, Director
+     			Office of Strategic Trade and Foreign Policy Controls
+     			Bureau of Export Administration (BXA)
+     			Michelle O'Neill
+     			Executive Director to Ambassador David Aaron
+     			International Trade Administration (ITA)
+     
+     12:00	Lunch for Members
+     
+     1:15	Briefings	Private Sector Perspective on the Wassenaar Arrangement
+     			John Gilmore, Co-Founder, EFF
+     			Ira Rubenstein, Senior Corporate Attorney, Microsoft
+     
+     2:00			Foreign Availability of Encryption Technology
+     			Kevin McCurley, Ph.D., IBM
+     
+     2:30			What's New In Commercial Crypto
+     			Dr. Taher Elgamal, CEO, Securify, Inc.
+     			Dr. John Atalla, Chairman, Tristrata, Inc.
+     
+     4:00			Adjourn
+     
+     I encourage anyone from the Bay Area crypto community who cares about
+     export controls on crypto to come observe the meeting, and participate
+     in the discussions in the hallways.  Like attending hearings of the
+     Bernstein case, open your costume box and pull out the business drag
+     (suits & whatever businesswomen enjoy wearing these days).  Our role
+     will be less to inform the meeting of anything in particular, and more
+     to inform them by our quiet presence that lots of significant people
+     care to watch exactly what they're doing with our civil rights.
+     
+     After watching how it operates and thinking for a bit, you might have
+     some informed suggestions for the subcommittee, which can be sent to
+     them by email.  As Thomas Pynchon said, "If they can get you to ask
+     the wrong questions, they don't have to worry about the answers."  The
+     Commerce Dept may have been all too successful at getting the
+     subcommittee to focus on the wrong questions.  (E.g. before the DES
+     Cracker announcement, they were debating whether to ask the President
+     to decontrol DES -- a useless and counterproductive action which of
+     course the government has just done.)  Just as the cypherpunks came up
+     with some great questions to inform the Clipper debate, I'm sure we
+     can come up with some meaty questions for the subcommittee to chew on,
+     rather than the pap the gov't feeds them.
+     
+     If you have any further questions about PECSENC or the meeting, please
+     contact:
+     
+     	Jason Gomberg
+     	Encryption Policy Controls Division
+     	Bureau of Export Administration
+     	+1 202 482 1368
+     	<JGOMBERG@bxa.doc.gov>
+     
+     I hope to see you-all there.
+     
+     	John Gilmore, Electronic Frontier Foundation
+     
+     PS:  Also, don't forget the cypherpunks meeting the following day, in
+     rooms B1-B2 of the San Jose Convention Center, noon-6PM, Saturday 16Jan99.
+ 
+     
+     Related url to check out:
+     http://
+          
+3.0  Canc0n'99/2k The North American Hacker/Security Con.
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     
+     `Canc0n'99/2k Niagara Falls Canada/U.S.A'
+
+     Full Details: 
+     =-=-=-=-=-=-=
+     
+     TBA
+     
+     Time and Place: 
+     =-=-=-=-=-=-=-=
+     
+     On the border of Canada and U.S.A (Canadian side) - Niagara Falls
+          
+     The time and place are to be determined and announced at this site or on 
+     the canc0n mailing list, (TBA)
+
+     Features: 
+     =-=-=-=-=
+     
+       ...are mostly TBA but generally, Videos, Speakers, Games and fun for 
+     all also an equipment swap and the usual get together type stuff, this is 
+     an informal con but suits won't be turned away, in fact we're hoping some 
+     industry ppl will join us to speak on various topics if they can fit it
+     into their diaries, hence the open date/venue plans.
+
+     To sign up or get more info when it is available use the Canc0n99 mailing list
+     or send mail to cruciphux@dok.org with "canc0n99" as your subject and message
+     body. Your msg will be sent to our con mailbox.
+
+     Places to stay: 
+     =-=-=-=-=-=-=-=
+     
+      We plan on booking rooms at various locations but you can also make your own
+     arrangements and maybe save a few bucks, we'll post names and numbers here as
+     the time gets nearer and clearer. Ditto for rides/transportation.
+
+
+     Our snail mail address is:    
+    
+        HWA NEWS  
+        Canc0n99
+        P.O BOX 44118
+        370 MAIN ST. NORTH
+        BRAMPTON, ONTARIO
+        CANADA
+        L6V 4H5
+        
+        
+     @HWA   
+     
+
+4.0  Hackers and Crackers...ok we know the difference but what kind of dip?
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     By Qubik
+     Originally posted on Bikkel's webboard
+     reprinted here coz I thought it was kewl. ;)
+     
+     Posted by: qubik [webcache07p.cache.pol.co.uk] at 17:29:32 01/06/99
+
+
+     I often hear people saying things like, "Stupid fucking media, they don't
+     know the meaning of the word hacker!", and "Cracker you whore, hackers are
+     the good guys!" Well, I'm going to start writing, and we'll see what I come
+     up with.
+     
+     -
+     
+     In this day and age, we rely upon those who dedicate their lives to
+     distributing information among the masses. Our world would not be the way it
+     is today, without our constant supply of news and entertainment. Yet,
+     whenever they, the suppliers of this information, make a mistake, we launch
+     into an almighty rage.
+     One of the most common 'mistakes' made by the media, is the printing of
+     hacker, instead of cracker. We, the hackers, love to flame and complain at
+     the media for that mistake, yet I ask myself, why?
+     Did you know, that there are hundreds of thousands of 'hackers' out there
+     that would love to get their hands on us, the computer hackers? A long time
+     ago, probably before many of you 'hackers' were born (including myself), the
+     term hacker was used to describe someone who not craved information, but
+     craved understanding. We weren't hackers of computer systems, we were
+     hackers of the system. A system which can be anything that has some form of
+     input, process and output. The body for example, it's a system of systems,
+     including the nervous system, the digestive system and others. The solar
+     system, it again consists of many systems. And so, you can be a (system-)
+     hacker of anything from computers, to astronomy. So, as much as many of you
+     may dislike it, the cracker is never the less, a hacker just as much as you
+     or I. A cracker is a hacker of hacked knowledge. (Imagine this too, if your
+     annoyed of being on the same plain as crackers, what must crackers, hackers
+     of the cryptographic code, feel like!?)
+     I really don't think it's very mature of us to consider the term hacker as
+     solely ours, it's hard for the media to use the right terms, when in fact
+     they are the wrong term. We don't give the media enough slack, how many
+     times have any of you spoken to a reporter and tried to explain that there
+     are differences between hackers that obtain knowledge, and hackers that
+     exploit it!? How many people here have written texts to help a reporter
+     and/or editor to understand what being a computer hacker means? I'm willing
+     to bet, not many. Don't blame the media for something they can't understand,
+     something that we, the computer hackers, wont even help teach them about.
+     (Freedom of information my ass, you'd gladly help if you were true hackers!)
+     
+     -
+     
+     Hmm, I know, it could have been better, but in the twenty-odd minutes I
+     spent writing it, I'm pleased. I'd love to hear some feedback, who agrees,
+     who disagrees? And non of that shit trying to stop me from expressing my
+     point of view, because I'll only look at you and see an exploiter of the
+     hacker ethic.
+     
+     -Qube
+
+     
+     @HWA     
+     
+          
+4.1  "The Hacker; Sex symbol of the Millenium" 
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     
+     By Qubik 
+     (c) 1999 Qubik/HWA    
+    
+     We all know that it's cool to be a hacker. The attention we get from the
+     media and from our fellow associates is satisfying to say the least, but how
+     many of us actually use this to our advantage? I take a shit, a shave and
+     wash under my armpits and I'm ready to put my ability to the test..
+     
+     At a recent party I was able to experience first-hand how being a hacker can
+     get the girls groping (literally) for your attention. In fact, you don't
+     even need to be a hacker to take advantage of this great exploit of the
+     opposite sex, you just need to be able to sound convincing and act cool.
+     
+     How does it work then, what do you have to do? Well, you don't really have
+     to do anything, in fact it's best if you try not to do anything at all. It's
+     as easy as one, two, three..
+     
+     First, your going to need to make sure you've got some non-hacker friends,
+     that means breaking out of your standard routine of sitting in front of a PC
+     all day with stacks of books on either side of you. You need to get out in
+     the real world, now I know that a lot of the readers will already have
+     real-world friends, so their already a third of the way there! Hell, you can
+     even use your computer knowledge to help out a couple of the really 'cool'
+     guys or gals at your school, college or uni, there's always someone who
+     hasn't got a clue. Help them out, go on, even if it means talking slowly
+     like a complete lamer and explaining things in layman terms. (I have faith
+     in you, you can do it.) Now, get to knows these outsiders, start to spend
+     some time with them and act like them. (Hey, you can hack during the
+     weekdays, try relaxing at the weekends.)
+     
+     Now, you've got some real friends, sooner or later there's going to be a
+     party. Get yourself invited, it'll be easier than you think, trust me. And
+     there you have it, stage two completed, you've got cool friends and your
+     going to a cool party, now lets start pulling the girls. (Or boys, if your a
+     female reader.)
+     
+     Your at the party, now what do you do!? Sit back, relax and have a drink!
+     People always fear that no one will talk to them, they will, especially if
+     you act like your having a bad time! I use this tactic a lot, girls just
+     can't help saying something. Sooner or later, someone will say that your
+     good with computers, or that your a hacker, they'll naturally be interested
+     and this'll be your key. Stage three, just wait and see. You could of
+     course, if your more sure of yourself, go up to someone. (Not recommended
+     for newbies. Heh.)
+     
+     And when the girls/boys come, talk some shit about how you hacked into a
+     government server using a Sendmail exploit, or you know some a elite hacker
+     who used the SSHD exploit to transfer $100,000 from one bank account to
+     another!
+     
+     So just how successful is this exploit? Well, I'm your stereotypical old
+     school hacker, with scruffy looks and too much on my mind, in one night,
+     three girls got to grips (ahem) with my abilities.
+     
+     Just give it a go, from my experience hackers really turn the opposite (or
+     even same, if your into that kind of thing) sex on. And if you don't trust
+     me, think about this.. Don't other hackers turn you on!?
+     
+     Qubik
+     
+     (All you girly hackers out there, feel free to mail me at qubik@bikkel.com,
+     and send a picture.)
+     
+     -EOF
+     
+     @HWA
+     
+         
+5.0  LoU vs China/Iraq: Legions Of The Underground cyber war
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     
+      This is in three parts and consists of 1) the IRC transcript
+     of the press conference held for HNN 2) the response to the
+     press conference by a global hacker coalition and 3) LoU's response
+     to the coalition. The story doesn't end here however and coverage
+     will continue in issue #5. - Ed
+     
+     Irc Transcript 
+     ~~~~~~~~~~~~~~
+     
+     (included with kind permission of hackernews.com)
+     
+     * spacerog is the HNN representative in this transcript.
+     
+     {start} 
+     LoU Press Conferance IRC Transcript
+
+     This is a transcript of the press conferance held by LoU to
+     which HNN was invited. This transcript has been edited.
+
+     Server messages, and comments not relating to the topic
+     have been removed. No alterations have been made to
+     anyones statements.
+     
+     Log file opened at: 12/28/98 19:08:31EST
+     *** Topic for #legions: The Meeting is now in session
+     *** Topic for #legions set by optiklenz on Monday,
+     December 28, 1998 20:03:08
+     #legions: spacerog @rootbot @NeatHack +Big|Feet +Zyk|on +barby__ 
+      +LordPsY +nawk @lothos +t3q @dethl0k +XeXeN +ShadoWalk @blakcloud
+      @kInGbOnG @datapleX  +optiklenz @sreality +bronc_ @UnixP1mp @[havoc]
+     +headflux +_rash +m0f0 @dyslexia +elux_ +LordVaXen @DigiEbola +parkay
+     @DataShark 
+     *** End of /NAMES list.
+     *** Mode is +pmtn 
+     *** Channel created at Monday, December 7, 1998
+     6:30:08
+     optiklenz: is anyone logging?
+     DigiEbola: yes
+     dyslexia: yes
+     lothos: yeah
+     optiklenz: ok
+     optiklenz: at anyrate
+     DataShark: so am I.
+     Big|Feet: same here
+     NeatHack: log is on 
+     [havoc]: shut the fuck up ppl
+     LordPsY: yup
+     blakcloud: go on 
+     lothos: ssshhhhhh
+     optiklenz: today the news reported that two crackers were
+                being sentanced to death
+     optiklenz: i'll wait for everyone to finish their conversation..
+     NeatHack: sentanced to death ?? what press any link on
+               that info ?
+     DataShark: PUT to death.
+     dethl0k: that
+     DigiEbola: from what i saw, some guy mailed my ccmail at
+                work, from cnn
+     optiklenz: Well it's covered by HNN if you want to read an
+                article about it cnn wrote something
+     DataShark: I heard they were PUT to death.
+     dethl0k: s cruel
+     dethl0k: erm
+     DigiEbola: for 31000 dollars at that.
+     DigiEbola: china.
+     LordPsY: ok
+     optiklenz: What they did is wrong with out a doubt, but it was no more a
+                crime than what our President committed by perjuring himself 
+                before the grand jury of the United States of America.
+     optiklenz: . It does not deserve the death penalty. The death penalty is
+                something that should be heldFor only those who commit the 
+                most gruesome crimes that of murder, child rape,
+     optiklenz: and Being a Benedict Arnold
+     DataShark: There is a VERY big differance between putting two ppl to 
+                death and lying to some ppl.
+     NeatHack: agree with optik
+     optiklenz: China's actions has shown superficial, and
+     damaging, and Iraq follows behind.
+     optiklenz: Iraq has treated human rights issues as poorly as China has.
+     DigiEbola: look at both of their goverments
+     optiklenz: A nation made up of starving people While their leader rest in
+                one of his 14 palaces taunting and parading his country men, 
+                and above all Involving other countries in his sick escapades.
+     dyslexia: chine is estimated to have murdered approx 100 million ppl 
+               internally since the communists came to power
+     optiklenz: . The Iraqi military has access to hydrogen bombs. What in the
+                world do they need hydrogen bombs for?
+     optiklenz: I don't think Something 2+ times the power of an atomic bomb 
+               should be operated by anyone for whatever prospect.
+     NeatHack: ok but what is our realtion with them and thier miss governed
+               govrment ?
+     optiklenz: i'm getting to that
+     ShadoWalk: kan the man go on a dialog? please?
+     DataShark: WMD. they whant other countrys to fear them. same as the US.
+     NeatHack: koll
+     [havoc]: human rights!
+     optiklenz: We need to carry out what the government won't, and can't do.
+     NeatHack: optiklenz I agree.. We need to carry out what the government 
+               won't, and can't do.
+     lothos: i agree optik
+     DigiEbola: burn them.
+     kInGbOnG: preach on brother optik
+     optiklenz: The government has made threats over China's current human 
+               rights standing. They're cutting trade deals or they have in
+               the past.
+     optiklenz: Is it good enough?
+     DataShark: no.
+     optiklenz: to put it simply.. no it's not
+     DataShark: it is fucking sad
+     NeatHack: no
+     optiklenz: China doesn't give a fuck if we trade with them or not.
+     NeatHack: right
+     DataShark: erm..
+     optiklenz: They dont but we sure do
+     DigiEbola: thats the way we are.
+     optiklenz: We get most of our imports from china in the first place. Look 
+                at the tag of Your shirt or any one of your household appliances
+                and tell me differently
+     NeatHack: cuase is shipper to produce their and ship to here... 
+     NeatHack: that is one point.
+     LordPsY: sure its cheaper when children make ur shirts
+     optiklenz: What is a threat with out some sort of whacked out maneuver to
+               accommodate It, and bring intimidation The Chinese are all to 
+               familiar with "intimidation"
+     ShadoWalk: ok optik.. so what are we going to do about it?
+     lothos: optik
+     lothos: my shirt was made in mexico
+     lothos: heh
+     optiklenz: The Chinese kill people when they want their point heard and
+               when it Comes down to it we all ultimately do that with out as 
+               much as the pull Of a trigger or the push of a button. The U.S 
+               cant say they've dealt a Fair hand either
+     optiklenz: There are enough problems in Washington as it is now.
+     zortin8r: shit
+     zortin8r: the meeting star?
+     DigiEbola: not to jump ahead, but can anyone be extrodited for screwing
+               with them?
+     optiklenz: When half the government officials perform on a pants down 
+               agenda
+     dyslexia: wit the trial of the person who is accused of trying to start a 
+               democratic party
+     dyslexia: Digi, there is no extradition agreement between the US and china
+               for computer crime
+     optiklenz: some action has to be taken by an outside group
+     NeatHack: outside group? like
+     optiklenz: not the FBI, the NSA (donut shortage? Not on your life)
+     optiklenz: and no not the fucken A Team
+     optiklenz: I'm sure they know who we are.
+     DigiEbola: well, if we are so hip to trade with them, they could pressure.
+     optiklenz: and if some compliance is not met I'm sure they'll know on a 
+                first hand basis. I know what some of you are thinking at the
+                moment "has optik gone mad?! is optik on  another one of his week
+                long drinking spree's?!" Answer: "No"
+     DataShark: well (playing the devils advocate) what GOOD can come of some
+                intravention buy a group already involved.. what about getting
+                some other ppl involved.. maybe the l0pht or HDF..
+     optiklenz: other people have been involved
+     zortin8r: someone bring me up-to-date what are we talking about?
+     optiklenz: look at the cdc, and the hongkong blondes..
+     optiklenz: zort you know the routine
+     optiklenz: pick up a log on your way out
+     zortin8r: k..
+     DataShark: the cDc no offence will not get involved.. (will they)?
+     bronc_: cDc + HKB = 0
+     DataShark: thats what I figured.
+     optiklenz: At anyrate I'm damn serious if we don't act against our nations
+               rights policies, and the nations of others we may not have the 
+               right to do so as time progresses. Many years ago our Countries
+               four fathers wrote, "Governments are instituted among Men, Deriving
+               their powers from the consent of the governed; That whenever any 
+               Form of Government becomes destructive of these ends it is the 
+               "Right of The "People" to alter or to abolish it, and to institute
+               new Gove
+     DataShark: werd.. (no offense:) )
+     optiklenz: THEY GOVERN WHAT WE PUT IN OUR MOUTHS!
+     optiklenz: ! DAMMIT LETS NOT LET THEM DO THE SAME TO WHAT COMES OUT OF
+               OUR MOUTHS!
+     DataShark: optiklenz: are you saying we should act agenst the US govnt?
+     DFalcon: hey bola
+     DigiEbola: i do not like the fact that somewhere in this world, someone can
+               be put to death for something we do freely.
+     LordPsY: he
+     optiklenz: I bring up Popular Sovereignty this Is the basis that government
+               can exist and function only with the consent Of the governed (well
+               guess what. That's us). It is the people who holdpower it is the 
+               people who are sovereign!
+     DataShark: I agree with lerfty.
+     optiklenz: Data> and if we do nothing it makes things better?
+     DigiEbola: it is about power, and who can wield it.
+     DataShark: I did not say that.
+     ShadoWalk: optiklenz:.. so we act against who? 
+     DataShark: I cannot as a person sit idly by and watch someone be persicuted 
+               for somthing that in reality IS NOT A CRIME
+     ShadoWalk: or whom
+     optiklenz: It is certainly seem'd like what you were  insinuating
+     DigiEbola: we as a country are not going to shake up china, because we want
+               their shit
+     optiklenz: it rather
+     NeatHack: optiklenz you know I done the war in lebanon and I saw political
+               people going up and going down... I know in my opinion when $$$ 
+               come to play it is hard to  stand but you can stand with nice 
+               understanding .... I lived the situation for year POLICATAL WAR 
+               AND REAL WAR ...
+     optiklenz: I'm very aware of that
+     zortin8r: 8
+     zortin8r: ack
+     NeatHack: when u can stop the $$$ game you win 
+     DataShark: so what can we do? do we openly protest? do
+     we *laff* write our congressmen?
+     DigiEbola: and that does what?
+     DigiEbola: show me a straight congressman
+     [havoc]: true.
+     DigiEbola: ill take you to hell to ice skate.
+     NeatHack: ture 
+     DataShark: heh
+     ShadoWalk: i think i know where he's goin with this.. i'm just waitin to
+                see if i'm right
+     [havoc]: mass hack.
+     optiklenz: I say this to you LoU members.It is our right our duty, and our
+               justice to pull through with a strike against Iraqi data systems 
+               to do so we not only aid the people of those countries, but we 
+               bring light to the subject at hand to nations everywhere. So I
+               ask you this if you are with me then we must act now, and we must
+               act fierce. We develop the hardware, and software they Utilize. We
+               code the security tools that they use we can just as easily
+               disassemble
+     DigiEbola: name the target.
+     blakcloud: i cant say much about this cuz im not inthe states but personally
+                i dont think it is right what is going on over there and that it 
+                should stop... i dunno...
+     ShadoWalk: he said it
+     optiklenz: They've been fucking shit up for years well guess what? It's our 
+                turn.
+     DataShark: WERD!
+     ShadoWalk: optik.. lemme get a modem and i'm in
+     NeatHack with you optik
+     [havoc]: damn straight.
+     DataShark: optiklenz: lets kick some ass.
+     dyslexia: ppl, the bottom line issue is human rights, that is something we
+               all must fight for
+     optiklenz: One serve deserves another, and I plan on playing to win. If one
+               official looks at things, and thinks to himself what he stands for
+               is wrong, and things do need to change then we not only dominate 
+               the war, but we've already won the war. Even if things stay the 
+               same if we could bring the awareness to people who are otherwise
+               dense in cameraperson with their actions then we're that much closer
+     kInGbOnG: wh00p!
+     DigiEbola: we have fought for it in that past.
+     optiklenz: Yeah but we are giving it a new twist
+     optiklenz: our idea of war is blowing shit up
+     NeatHack: optik what about our gov how they will act toward this ???
+     optiklenz: nothing good ever came out of killing someone
+     NeatHack: talking canada and US giv
+     [havoc]: information warfare!
+     optiklenz: we have nothing to do with the u.s government
+     ShadoWalk: so we take down iraq's databases
+     optiklenz: thats the plan
+     LordPsY: hmmm
+     _defiant: haxor iraqxor?
+     NeatHack: I know ... but when u do stuff to iraq they will take it as US
+              attacking iraq 
+     DigiEbola: rm / -Rf and dont look back?
+     LordPsY: Thats a big thing
+     optiklenz: We have the right, and power not to kill, but to speak out, and
+              with our actions cripple an otherwise already broken enconomy. With
+              the trigger they use to kill innocent people I use the same trigger
+              to shut them down, and not only denounce one man, but the entire 
+              communist government of china, and fascist rule of Iraq.
+     ShadoWalk: and therefor erase all their amassed knowladge of biochemical
+              warfare.. and deliver a message at the sdame time
+     dyslexia: optik, you have considered that if we become pain enuff to iraq or
+              china, they may choose direct intervention with ourselves as the 
+              targets
+     lothos: iraq == .iq i think
+     DigiEbola: yah
+     DigiEbola: they are not beyond hitmen.
+     optiklenz: Dyslexia> yes
+     dyslexia: beyond, that is their only recourse
+     NeatHack: ok optik imagine we are able to shut all IRAQ system what will affect
+              the ECOnomy ,, ?? or the political  GAmE ... or the Shit War ??
+     rootbot: [sreality] rootbot! rootbot! gimme sum! gimme sum, sh1zz!
+     DataShark: erm.
+     NeatHack: how the damage will affect them ?
+     DigiEbola: how good can a iraqi admin be?
+     optiklenz: haha
+     optiklenz: Thats what Im saying
+     ShadoWalk: bet i could take him..heh
+     [havoc]: so optik
+     optiklenz: We need to make it clear that killing people (innocent lives) is
+                not the only resolve.
+     DataShark: keep in mind we HAVE troops over there (the US) I have friends 
+               there.lets walk lightly and carry and BIG FUCKING STICK if we do
+               this.
+     [havoc]: the plan for an attack.
+     spacerog: Are you going to operate under the LoU name or form a new group?
+     dyslexia: Digi, most of the arab countries and israel have much experience
+              at dealing with hostile attacks, both politacally, physical and 
+              data wise
+     DigiEbola: their systems are reputably old
+     optiklenz: Data> that's the plan
+     [havoc]: should we hop over to europe somewhere and launch ? or from within
+             the us
+     datapleX: lothos!
+     datapleX: bah
+     DigiEbola: dys
+     datapleX: oh
+     DigiEbola: true
+     ShadoWalk: so optik.. are we going to wait until this rash thing is over?
+     NeatHack: Well guy I think you are missing the TARGET here... buy shutting 
+              couple of server of ALL the net in iraq they will not understand I
+              think ?
+     DigiEbola: they use propoganda like wild fire
+     XeXeN: yes
+     ShadoWalk: so as not to piss off all the other muslim nations?
+     NeatHack: U must affact them at ecomiy level
+     NeatHack: or political level
+     dyslexia: neathack, the unfortunate reality of economic sanctions etc are
+              lost on the leaders, they dont suffer, only the people do
+     DigiEbola: it would be nice if we had loyal iraqi hackers
+     DigiEbola: working for us
+     ShadoWalk: i saw we take out every military database we kan find.. rm / -rf
+               it 
+     NeatHack: that is true dysl
+     NeatHack: then how to affect them ?
+     lothos: spacerogue brings up a good point
+     lothos: do we do this as LoU or what?
+     dyslexia: bring them to the attention of the world, simply as otik says
+     bronc_: sheesh..
+     NeatHack: that is an idea that can affect the, u see.
+     .ShadoWalk> i saw we take out every military database we kan find.. rm / 
+      -rf it 
+     dyslexia: optik at least
+     Big|Feet: hrm.. on the defcon mailing list a while back someone brought up
+             the idea "why not attack their systems" and it was argued that they
+             don't have much connection to the net (if any) so what systems are
+             you attacking?
+     DataShark: what is iraqi's top level?
+     DigiEbola: well, you know nobody likes a smart ass, and as soon as one of 
+              us walks thru one of their servers and posts, they are going to be
+              PISSED.
+     lothos: .iq i believe
+     dyslexia: heh, they will have links allright, but the majority will be
+              through sympathetic arab countries in the case of iraq
+     _defiant: SOMEONE EXPLAIN TO ME WHATS GOING ON
+     _defiant: heh
+     DigiEbola: defiant
+     DigiEbola: we are going to war.
+     ShadoWalk: shyt
+     DigiEbola: heh.
+     DataShark: DO we do this as LoU or what?
+     LordPsY: hehe
+     DataShark: DO we do this as LoU or what?
+     LordPsY: ah hes back
+     DigiEbola: i want china.
+     optiklenz: no
+     optiklenz: we dont do this as anyone
+     LordPsY: so
+     DataShark: anonymous?
+     optiklenz: no names will be left no handles or affiliations
+     optiklenz: the chinese embassy has us under investigation
+     DataShark: what a supprise.
+     ShadoWalk: whooooooohooooooo
+     datapleX: heh
+     ShadoWalk: lets get rowdy
+     _defiant: werd
+     [havoc]: information warfare at its best.
+     _defiant: heh
+     NeatHack: _defiant :the Big image is :optik come up with the idea to 
+             attack iraq and china since they are soing shit with them 
+             population....
+     datapleX: uhm...that is really messin' w/ some shit
+     _defiant: NeatHack: didn't everyone say that before heh
+     DigiEbola: oh great
+     dyslexia: ppl, action against governments who ignore the rights of and
+             pretty much enslave their ppl is good in my book, buts it's not
+             just limited to iraq and china
+     NeatHack: and we kind agreed what we are trying to figure out what damage
+             can be cuased ...
+     DigiEbola: some ninja fucker is going to hunt us all down
+     ShadoWalk: 6.4 gigz of kiq azz
+     datapleX: heh
+     optiklenz: one thing I want everyone to know is that we only operate if we
+              can do so without risk
+     _defiant: ok, lets talk about something in a public chan, then try and be
+             anonomous
+     _defiant: makes sense
+     optiklenz: as i said i have no problem working with a client on his network
+              while blasting on chinese communist
+     NeatHack: make sence...
+     DigiEbola: defiant, nothing on irc is anonymous
+     _defiant: Digi: i was pointing out the irony in it
+     DigiEbola: _defiant: yes yes
+     dyslexia: heh, indeed digi, that is true
+     optiklenz: but I would not want to indulge any member into something that
+              would end up ruining his/her life
+     zortin8r: its not like irc is encrypted or anthing..
+     DataShark: HAHA
+     optiklenz: If we attack Chinese systems the attacks need to originate from
+               china. Same goes for Iraqi networks.
+     DigiEbola: well, efnet has services specially for the purpose of watching
+     optiklenz: heh
+     ShadoWalk: optiklenz: i may be a bit lame.. but i learn hella quik and i'll
+               do it reguardless of consequences
+     NeatHack: and how u do so originate the attack from china??
+     zortin8r: has anyone here _ever_ encountered and Iraqi
+     network? cause i have never seen one before..
+     NeatHack: u mean physicaly in china ?
+     optiklenz: do the damage from a chinese network
+     spacerog: I assume that HNN was mailed because you wanted this publiciced,
+              yes?
+     Big|Feet: [optiklenz]: i never even knew iraq had access to
+     the net.. what systems to you plan go nailing so to speak
+     optiklenz: spacerog it's your call
+     optiklenz: Big> iraqi has networks
+     DigiEbola: everyone has networks
+     optiklenz: just because a majority are internal does not mean they are
+               sasfe
+     d4hp: herm ...
+     optiklenz: safe rather
+     Big|Feet: yes
+     DataShark: optiklenz: do we REALLY want alot of attention draw to this 
+               before we do some damage?
+     zortin8r: i think me and BigFeet are feeling the same thing here.. where 
+              the hell are the iraqi networks?
+     spacerog: opti: cool
+     Big|Feet: like i was saying before
+     _defiant hides and had nothing to do with it ;)
+     dyslexia: optik, for access to iraq we will likely need to look in
+              sympathetic arab nations
+     Big|Feet: the public is not allowed access to the internet in iraq
+     DigiEbola: Big|Feet: not so
+     optiklenz: yeah
+     DigiEbola: Big|Feet: there are a few
+     blakcloud: very few
+     optiklenz: whatever we can do to keep sadaam from going on the net for his
+               daily dose of kiddy porn
+     DigiEbola: matter of fact
+     Big|Feet: probly.. but censored
+     DigiEbola: during the bombings, there was some on
+     datapleX: heh
+     NeatHack agree with that optik
+     NeatHack: roflllll daily dose of kiddy porn
+     Big|Feet: hrm.. saddam's pron stash
+     DataShark: haha
+     DigiEbola: hmm, ya know, if we upload a shitload of kiddie
+     pr0n to his servers
+     datapleX: hahaha
+     dyslexia: thats whta they are hiding from the arms
+     inspectors, lol
+     zortin8r: haha
+     DataShark: ok..
+     DigiEbola: i guess the government will have to arrest him
+     ShadoWalk: heh
+     _defiant: optik: i agree with it all again, but like, i don't
+     want to get arrested again
+     DigiEbola: yah, my new years resolution is that i dont have to mess with
+              any kind of law enforcement this year
+     [havoc]: cover your ass and the chances of you getting caught are reduced.
+     optiklenz: If they want to fight we stand steadfast with what we believe in,
+              and are ready To strap on our armor and take defense. LoU was 
+              established over 7 years ago As a research team, and we also called
+              ourselves mercenaries. "We are ready to Commence, and take partition
+              in electronic warfare if ever requested . The attack will go on for 
+              one Week. The time will be extended if needed . If anyone disagrees 
+              on the actions We are about to take let me know why. I
+     DigiEbola: you hit a server, you better root it
+     _defiant: havoc: i was arrested for something i never did before, make no sense
+     optiklenz: hshs
+     optiklenz: def> yeah that happens a lot around here
+     _defiant: optiklenz: i'm still down with it as long as we cause no wars etc
+     DigiEbola: lets tear them a new electronic asshole.
+     optiklenz: it's common to hair "what network? computer? huh whats that?"
+              over here at the office
+     optiklenz: s/hair/hear
+     sreality: #1.. I doubt iraq actually has military databases
+     optiklenz: geez maybe i am drunk and just dont know it yet
+     [havoc]: :)
+     Big|Feet: they have to have something
+     zortin8r: if iraq does have military databases and networks, how do we go 
+              about finding them?
+     _defiant: DataShark: hah, no, they were serious about it
+     DigiEbola: if it wears a turban, and crawls in sand, root it.
+     sreality: well
+     _defiant: it was like
+     _defiant: YOUR UDNER ARREST
+     sreality: best thing to start with
+     _defiant: heh
+     DataShark: ohhh I have one question.. can some teach me howto hack? Im 
+              running into truble when it says to press the any key...
+     sreality: is the iraq tld
+     sreality: scan the shizz outa that
+     _defiant: and some police woman was frisking me
+     optiklenz: this is just recreation
+     optiklenz: heh
+     sreality: then hand probe the boxes
+     sreality: there cant be many
+     DigiEbola: DataShark: i removed the any key long time ago....
+     DataShark: DAMNIT lerfty.
+     headflux is idle, automatically dead [bX(l/on p/off)]
+     optiklenz: never once have they sent a chick down here
+     optiklenz: basterds.
+     sreality: then goto any nations that surround iraq
+     Big|Feet: what any any chinese governet buildings in the us i bet they
+              have some info
+     DataShark: optiklenz: haha
+     _defiant: optiklenz: yeah, ccu guy and 2 chicks
+     Big|Feet: or iraq or that matter
+     sreality: hey.
+     sreality: umm you forgot something
+     d4hp: tee hee
+     sreality: the iraq databases are gonna be in their language
+     sreality: and umm
+     DataShark: sreality: HAHAH oops..
+     sreality: none of use has charater support for that
+     optiklenz: sreality> thats what altavista translator's for
+     optiklenz: heh
+     sreality: so how are we gonna know what that is
+     Big|Feet: altavista
+     d4hp: yeh ..
+     Big|Feet: hehehe
+     ShadoWalk: oh yea.. i learn hella quik
+     d4hp: ok there bud
+     optiklenz: haha
+     sreality: the altavista translater doesnt do middle-eastern
+              languages
+     ShadoWalk: ok zort..heh
+     _defiant: zortin8r: YOU TELL HIM HEH
+     NeatHack: sreality> so how are we gonna know what that
+     is NO PROBLEM 
+     datapleX: uhm...me to. I would like to try to get into LoU at
+     this time to.
+     sreality: becuz those languages are like
+     NeatHack: I SPEAK ARABIC
+     DataShark: sreality: heh well that is somein we will havta
+     work on..
+     sreality: scribbles
+     d4hp: Im from Iraq
+     DigiEbola: optiklenz: how would you like this done? hunting
+              parties or completely independent?
+     spacerog: Any objections with using the LoU name in a
+             story for HNN? If I say "A bunch of hackers declared
+             war..." no one will listen.
+     DataShark: anyone speek raganise?
+     NeatHack: sreality> so how are we gonna know what that is I am 
+              orginaly LEbanon 
+     sreality: BLAHDALKHDAKHJD DIAHIASHIDHA OJIEIAUIDE
+     MBDOMADIJWE!
+     sreality: hahaa
+     optiklenz: ok will if anyone has any objections they have
+              until 8:00 pm pst
+     d4hp: as a matter of fact, Im from the iraq military
+     NeatHack u have a BIG arabic resource.,. GUYS ..
+     DataShark: IM in.
+     DigiEbola: data says he is in.
+     sreality: its a semi good idea
+     d4hp: boooo!
+     sreality: but it has some faults
+     DigiEbola: so thats 2 ppl, and a shitload of terminals
+     blakcloud: hehe
+     DFalcon: what ya guys talking about ?
+     t3q: datapleX: w3rd.
+     sreality: #1.. we need FIRST OFF some iraqie translators
+     DigiEbola: we also have osu here, so we can work anonymously 
+     datapleX: werd
+     sreality: #2.. we need to probe the shit outa all middle-eastern
+             countries
+     NeatHack: DAM read what I said sreality> #1.. we need FIRST OFF some
+             iraqie translators
+     DigiEbola: i want lists
+     optiklenz: ok well
+     [havoc]: if we are going to do this with a serious mind, we need to
+        gather together and find specific targets, and take them out.. in a
+        team effort.
+     *zortin8r* wow.
+     optiklenz: I'll be going through possible targets
+     DigiEbola: if its buried in the sand, i will set up a mail
+     somewhere for it to be sent to
+     sreality: NeatHack: so like what, your gonna translate it all,
+     lebanon is partially french speaking too
+     [havoc]: this ballz out attack wont work without a plan.
+     LordPsY: #3 We should get some more infos bout the Iraqi networks
+     NeatHack: sreality don;lt worry I will handle this part
+     bronc_: so we are going at attack Iraqi networks?
+     NeatHack: translation is ON ME>..
+     optiklenz: havoc> yeah this was just to see if we should go
+              through with something
+     DataShark: NeatHack: ok.. you deal with the translater and
+              the char set..
+     optiklenz: I'm not playing cat and mouse here so if we go in
+              we go in prepared without risk
+     ShadoWalk: i'm following dtatplex
+     optiklenz: or we all go back to our jobs and coding
+     sreality: grr
+     DigiEbola: all i know is, one character i understand of the
+              iraqi alphabet is #
+     Big|Feet: i should would like to see the whole plan .. should
+             be beautiful
+     NeatHack: I cna have window in arabic linux I do not know ?? 
+     dethl0k: jobs and coding ;p
+     sreality: its not safe to rely on ONE person
+     DigiEbola: if i see a #, its all good.
+     [havoc]: we need to make a key'd channel just for this
+     purpose. so we can concentrate on the attacks.
+     dethl0k: j/k
+     sreality: we need two
+     sreality: what if theres alot of shit to translate
+     spacerog: Any plans to cordinate with the Hong kong
+     Blondes? They are supposed to still be in operation.
+     d4hp: tee hee
+     datapleX: _defiant: I was told to bring it up at the meeting...
+     d4hp: erm..
+     d4hp: like...
+     NeatHack: I can have resource .. sreality
+     optiklenz: spacerog> As of now I have not been in contact with any
+               of the HKB members
+     NeatHack: well let us not put this as WALL
+     _defiant: spacerog: not a bad idea, we should also talk to cDc to see
+              if theres anything we can do more "legal"  together
+     optiklenz: but I've talked to a few before
+     lothos: we have #!LoU
+     DigiEbola: well, it would be nice to have some help
+     sreality: fuckg
+     sreality: okay
+     sreality: #1
+     sreality: anyone whos not a meber
+     sreality: err member
+     optiklenz: bronc> i'll email you something I got from a supposed "HKB" member
+     sreality: should get the fuck outa here
+     sreality: grr
+     DataShark: optiklenz: cc that to me..
+     bronc_: o i h
+     optiklenz: i dont plan on taking long with this attack
+     _defiant: optiklenz: sort fucking legions.org out as well i
+     can't get ssh to login
+     bronc_: I was told this by a reporter
+     spacerog: Ok, I'm gone. Thanks for the info. I should have a story up
+              tomorrow morning
+     bronc_: dunno if it was true
+     optiklenz: defiant> what version are you using?
+     spacerog: If anyone has anything to ad send me mail at contact@hackernews.com
+     DigiEbola: i lub j00 spacerog
+     DataShark: spacerog: later.
+     optiklenz: talk to you later space..
+     Log file closed at: 12/28/98 19:53:08EST
+     {end}
+
+      Jan 9th 12:00 GMT a global hackers coalition released this joint
+     press release:
+     
+     ***//
+  
+     LoU STRIKE OUT WITH INTERNATIONAL COALITION OF HACKERS: 
+
+     A JOINT STATEMENT BY 2600, THE CHAOS COMPUTER
+     CLUB, THE CULT OF THE DEAD COW, !HISPAHACK, L0PHT
+     HEAVY INDUSTRIES, PHRACK AND PULHAS 
+
+     Date: 7.1.1999 
+
+     An international coalition of hackers strongly condemns the
+     Legion of the Underground's (LoU) recent "declaration of
+     war" against the governments of Iraq and the People's
+     Republic of China. Citing human rights violations and other
+     repressive measures the LoU declared their intention to
+     disrupt and disable Internet infrastructures in Iraq and
+     China. In a decision that was more rash than wise, the LoU
+     will do little to alter existing conditions and much to
+     endanger the rights of hackers around the world. 
+
+     We - the undersigned - strongly oppose any attempt to use
+     the power of hacking to threaten or destroy the information
+     infrastructure of a country, for any reason. Declaring "war"
+     against a country is the most irresponsible thing a hacker
+     group could do. This has nothing to do with hacktivism or
+     hacker ethics and is nothing a hacker could be proud of. 
+
+     Frank Rieger of the CCC said, "Many hacker groups don't
+     have a problem with Web hacks that raise public awareness
+     about human rights violations. But we are very sensitive to
+     people damaging networks and critical systems in repressive
+     regimes or anywhere else. The police and intelligence
+     communities regard hacking as seditious. It is quite possible
+     now that hackers - not only in totalitarian states - could be
+     jailed or executed as 'cyberterrorists' for the slightest
+     infraction of the law." 
+
+     "It is shortsighted and potentially counterproductive,"
+     added Reid Fleming of the cDc. "One cannot legitimately
+     hope to improve a nation's free access to information by
+     working to disable its data networks." 
+
+     "Though we may agree with LoU that the atrocities in China
+     and Iraq have got to stop, we do not agree with the
+     methods they are advocating," said Space Rogue of the
+     L0pht. 
+
+     Emmanuel Goldstein of 2600 said: "This kind of threat, even
+     if made idly, can only serve to further alienate hackers from
+     mainstream society and help to spread the misperceptions
+     we're constantly battling. And what happens when someone
+     in another country decides that the United States needs to
+     be punished for its human rights record? This is one door
+     that will be very hard to close if we allow it to be opened." 
+
+     Governments worldwide are seeking to establish cyberspace
+     as a new battleground for their artificial conflicts. The LoU
+     has inadvertently legitimized this alarmist propaganda. With
+     its dramatic announcement the LoU played into the hands
+     of policy makers who want complete control over the
+     Internet and are looking for reasons to seize it. If hackers
+     solicit recognition as paramilitary factions then hacking in
+     general will be seen as an act of war. Ergo, hackers will be
+     viewed as legitimate targets of warring states. 
+
+     Strategic combat planning in the United States and among
+     other nations has reached the point where real-world cases
+     are needed to justify assigned budgets. The LoU is
+     providing this real-world case now. We believe that the LoU
+     should carefully investigate the idea of declaring "war"
+     against China and Iraq. Was it planted with them by
+     someone with different interests in mind other than
+     advancing human rights considerations? 
+
+     The signatories to this statement are asking hackers to
+     reject all actions that seek to damage the information
+     infrastructure of any country. DO NOT support any acts of
+     "Cyberwar." Keep the networks of communication alive.
+     They are the nervous system for human progress. 
+
+     Signed (7.1.1999): 
+
+     2600 (http://www.2600.com)
+     Chaos Computer Club (http://www.ccc.de)
+     Cult of the Dead Cow (http://www.cultdeadcow.com)
+     !Hispahack (http://hispahack.ccc.de)
+     L0pht (http://www.l0pht.com)
+     Phrack (http://www.phrack.com)
+     Pulhas (http://p.ulh.as/)
+     several members of the Dutch Hackers Community (contact
+     Rop Gonggrijp, rop@xs4all.nll)
+     Toxyn (http://www.toxyn.org/)
+     
+     ***//
+
+     Supporting documents:
+     http://www.hackernews.com/archive.html?122998.html -
+     
+     ***//
+     
+     The original declaration of war by LoU    
+     Legion of Underground's response 
+     LoU - Legions of the Underground
+     Joint Statement 7 Jan 1999 
+     
+     The Legions of the Underground (LoU) group was
+     established some seven years ago as a group who
+     researched, explored and learned about technology. LoU
+     has always believed in sharing what they have learned with
+     the general public, which is why we release our e-zine Keen
+     Veracity, and which is why we try and promote a positive
+     image towards the general public. 
+
+     As of late, some of our members have taken it upon
+     themselves to express their opinions on the state of
+     conditions in China by some high profile 'cracks' and the
+     defacing of some Chinese government run web servers. 
+
+     While the LoU supports and stands by their members
+     actions and, as the rest of the hacking community, agree
+     that there are serious problems that need to be addressed
+     in China, the statement that "the LoU wishes to declare
+     'war' on China or Iraq's internal information networks in
+     order to destroy, damage or harm their computers,
+     systems, or networks" is totally false. The LoU does not
+     support the damaging of other nations computers, networks
+     or systems in any way, nor will the LoU use their skills,
+     abilities or connections to take any actions against the
+     systems, networks or computers in China or Iraq which may
+     damage or hinder in any way their operations. 
+
+     Although this may sound contrary to what the popular
+     media has been presenting, this is a united declaration from
+     the LoU and this is the groups standing on this matter. If
+     you refer to the second Wired.com article on the second
+     series of penetrations into Chinas Internet/Intranet, you
+     can clearly see that an LoU member, in an interview with
+     Niall McKay, clearly states that the second series of
+     penetrations were done independently, and were not done
+     as part of any LoU effort. After a series of meetings, LoU
+     decided it "may, in the future, take actions against other
+     Chinese systems" if other actions, like the one against Lin
+     Hai, continued, but then they may only be actions along
+     the same line as the simple protests taken by others in the
+     past. 
+
+     From this point, the LoU has been, for the most part, silent.
+     We have taken no further actions against China, or any
+     direct actions against Iraq. 
+
+     With the size of LoU, numbering some 20 plus members, and
+     our loose organization, we realize it may be hard to verify if
+     someone is in fact a member, which is what may of lead to
+     the rash of LoU imposters who have been issuing false
+     statements regarding us and our actions. There have been
+     several well known, national publications, as well as online
+     and hacker culture sites that have been getting a flood of
+     reports from people who say they are in LoU claiming to
+     have taken 'such and such' actions, or giving interviews, or
+     even saying they have allied them selves with the LoU.
+     These are all false. There are also new groups who are
+     'cracking' innocent sites in China, then reporting these and
+     claming they are doing this in "conjuncture with" or for the
+     "LoU effort". We are in no way associated with these
+     groups what-so-ever. 
+
+     In summary, on behalf of all LoU members, let me state that
+     we (LoU) have taken no harmful or damaging actions
+     against either Chinese or Iraqi networks or systems, or any
+     other system or network in any location across the world,
+     and we have no plans to do so. In addition, the LoU has not
+     allied with, and is currently not working or affiliated with
+     any other group or activity. We in the LoU hold strong
+     integrity and a strong code of ethics, and wish nothing
+     more then for fair, equal treatment for all people, and want
+     nothing but a positive light shed upon this for the entire
+     hacking community in general. 
+
+     The Legions of the Underground (LoU): 
+
+     Bah, DataShark, Debussy, dethl0k, DigiEbola, dyslexia,
+     [havoc], IsolationX, Kanuchsa, KingbOng, Lothos,
+     MetalTongue, m0f0, NeatHack, OptikLenz, Sreality, Zortin8r,
+     Zyklon, nawk, Mnemonic, and Bronc Buster (some members
+     wished to go unnamed or anonymous) 
+
+     www.legions.org 
+
+     EOF
+     
+     ***//        
+     
+     @HWA
+     
+5.1  Spies in the wires 9e99
+     ~~~~~~~~~~~~~~~~~~~~~~~
+     
+     [From the ISN list.]
+     
+     Forwarded From: William Knowles <erehwon@kizmiaz.dis.org>
+     Originally From: Julian Assange <proff@iq.org>
+     Originally To: aucrypto@suburbia.net
+     
+     Secret plan for spies to bug PCs
+     By DAN TEBBUTT [The Australian]
+     13-jan-99
+     
+     PERSONAL computers would become police spy stations under secret proposals
+     put to the Federal Government by a former deputy director of ASIO. 
+     
+     The Australian Federal Police, ASIO and the National Crime Authority would
+     be empowered to alter software to turn PCs into covert listening devices,
+     according to the 1996 report by one-time spy chief Gerald Walsh. 
+     
+     The report also recommends changes to the Commonwealth Crimes Act to allow
+     police and government investigators to hack into computer systems for
+     evidence. 
+     
+     While Mr Walsh called for public discussion of his proposals, the report
+     was withdrawn by the Attorney-General's Department. But a copy of the
+     96-page document was obtained last week by Internet privacy campaigners
+     Electronic Frontiers Australia and released to The Australian. 
+     
+     A spokesman for Attorney-General Daryl Williams confirmed last night that
+     Mr Walsh's recommendations were under discussion but the report was "just
+     one element" of policy being considered. 
+     
+     He would not say whether the controversial recommendations would be acted
+     on through legislation. 
+     
+     Mr Walsh warns that widespread use of PC-based data scrambling is a big
+     concern for law enforcement. 
+     
+     Criminals were already using computer encryption - programs that encode
+     data so it cannot be intercepted - to prevent police from monitoring phone
+     calls and e-mail. 
+     
+     Widespread encryption to scramble sensitive data would make crimes harder
+     to prove in court, Mr Walsh warns. 
+     
+     "The principle of non self-incrimination may well represent the polite end
+     of the possible range of responses," the report says. 
+     
+     Mr Walsh's plan would clear the way for police to eavesdrop on computer
+     conversations at the source. 
+     
+     A "target computer may be converted into a listening device" that could
+     seek out passwords and other private communications without the PC owner's
+     knowledge. 
+     
+     EFA spokesman Greg Taylor said authorities might set up Trojan horse
+     software that would record all PC activity, including passwords and
+     e-mail, before encryption. 
+     
+     "If you have access to someone's PC and you change their software you can
+     do anything you want," said Mr Taylor. 
+     
+     "If it's connected to a network such as the Internet the PC could transmit
+     data to another site." 
+     
+     Australian Council for Civil Liberties president Terry O'Gorman said the
+     proposals would be a worrying extension to police wiretap powers which
+     were already over-used. 
+     
+     "We are concerned about the low level of protection in relation to current
+     judicial warrants for telephone eavesdropping," Mr O'Gorman said. 
+     
+     Labor information technology spokeswoman Senator Kate Lundy said "the
+     whole issue of encryption is being used as a lever to justify further
+     invasions of privacy". 
+     
+     
+     
+     -o-
+     Subscribe: mail majordomo@repsec.com with "subscribe isn".
+     Today's ISN Sponsor: Internet Security Institute [www.isi-sec.com]
+     
+     ***//
+   
+     By Gerard Knapp
+     InternetNews.com Australia Correspondent
+
+     [January 4, 1999--SYDNEY] Law enforcement agencies in Australia
+     ought to be able to "hack" into corporate computer systems and
+     change proprietary software to enable monitoring of
+     communications, according to a 1996 report which had been
+     censored by the Australian government but recently uncovered by a
+     university student.
+
+     The report also suggested that technology vendors could also be
+     recruited to help modify software or hardware that they installed
+     at a company's premises.
+
+     However, Australian police agencies have not taken the advice,
+     opting instead to concentrate their energies on interception of
+     telecommunications by tapping into the systems of Internet
+     service providers (ISPs).
+
+     The report, entitled "Review of Policy relating to Encryption
+     Technologies," was prepared for the Federal Attorney-General's
+     Department by Gerard Walsh, a former deputy director-general of
+     the Australian Security and Intelligence Organisation (ASIO). It
+     had been released in 1997 with some passages omitted after a
+     request by civil liberties group Electronic Freedom Australia.
+
+     Greg Taylor, chair of the EFA's Crypto Committee, said a
+     university student in Hobart had discovered an archival copy of
+     the so-called "Walsh report" with the censored material intact.
+
+     Censored recommendations included giving police and espionage
+     agencies "the authority to 'hack,' under warrant, into a
+     nominated computer system as a necessary search power," and "the
+     authority to alter proprietary software so that it may provide
+     additional and unspecified features." These additional features
+     might include "the introduction of other commands, such as
+     diversion, copy, send, [or to] dump memory to a specified site,"
+     the report said.
+
+     The agencies might need to obtain the "cooperation of
+     manufacturers or suppliers" to help with the insertion of these
+     extra software agents.
+
+     "When manufacturers or suppliers are satisfied the modification
+     has no discernible effect on function, they may consent to assist
+     or acquiesce in its installation," Walsh said in the report.
+
+     The establishment of a separate agency to perform such work would
+     approach AUS$500 million, Walsh estimated, but could be performed
+     by the existing Defence Signals Directorate.
+
+     The report recommended changes to the 1914 Crimes Act and the
+     1979 Australian Federal Police Act, but the only legislative
+     changes in this area were made over a year ago in the
+     Telecommunication Legislation Amendment Act 1997.
+
+     This act enabled law enforcement agencies to access
+     communications directly from ISPs, and for the resulting cost to
+     be incurred by the ISPs. The non-censored version of the report
+     is available on the EFA's Web site.
+
+     
+     @HWA
+     
+          
+     
+5.2  Schoolgirl's can hax0r too
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+     [From the ISN list.]
+  
+     Forwarded From: Adam Bisaro <adbisaro@dg.dgtech.com>
+     
+     http://news.bbc.co.uk/hi/english/sci/tech/newsid_254000/254236.stm
+     
+     Making your email secret is now 30 times faster, but the innovation has
+     come not from a multinational computer computer but a schoolgirl from
+     Blarney, Ireland. 
+     
+     Sarah Flannery, 16, has developed a brand new mathematical procedure for
+     encrypting internet communication. 
+     
+     "The algorithm is based on matrices," her father told BBC News Online. Dr
+     David Flannery is a mathematics lecturer at Cork Institute of Technology,
+     Ireland. 
+     
+     "Sarah has a very good understanding of the mathematical principles
+     involved, but to call her a genius or a prodigy is overstated and she
+     doesn't want that herself. 
+     
+     "She's a normal young girl, who likes basketball and going out with her
+     friends." 
+     
+     International job offers
+     
+     But her number-crunching feat is undoubtedly remarkable and won her the
+     top prize at the Irish Young Scientists and Technology Exhibition. 
+     International job and scholarship offers have flooded in, said Dr
+     Flannery.  Last year, Ms Flannery's cryptography skill took her to Fort
+     Worth, Texas, as the winner of an Intel prize. 
+     
+     Even when high security levels are required, her code can encrypt a letter
+     in just one minute - a widely used encryption standard called RSA would
+     take 30 minutes.  "But she has also proven that her code is as secure as
+     RSA," says Dr Flannery. "It wouldn't be worth a hat of straw if it was
+     not." 
+     
+     Ms Flannery currently has a bad cold and has not had time to consider the
+     advice of the judges to patent the code. "She wouldn't mind being rich but
+     she wants to stress the great joy that the project has given her," says Dr
+     Flannery. She may publish the work to make it freely available to all. 
+     
+     Her code is called Cayley-Purser after Arthur Cayley, a 19th century
+     Cambridge expert on matrices, and Michael Purser, a cryptographer from
+     Trinity College, Dublin, who provided inspiration for Ms Flannery. 
+     
+     
+     
+     -o-
+     Subscribe: mail majordomo@repsec.com with "subscribe isn".
+     Today's ISN Sponsor: Internet Security Institute [www.isi-sec.com]
+     
+     @HWA
+
+5.3  Phraudulant Philth
+     ~~~~~~~~~~~~~~~~~~
+     
+     Forwarded From: jeradonah lives <jeradonah@juno.com>
+
+     http://www.newscientist.com/cgi-bin/pageserver.cgi?/ns/990109/newsstory2.html
+     Filthy business
+     Jeff Hecht
+     
+     Fraudsters are exploiting a security loophole in banking systems that lets
+     them charge credit card users for fictitious visits to pay-per-view
+     Internet sites. The scam leaves victims having to explain themselves to
+     spouses who wrongly believe they have been visiting pornographic sites.
+      
+     The swindlers bill their victims' credit cards a small monthly amount,
+     typically $19.95, for visits to sites they've never seen, according to
+     John Faughnan, a software developer in St Paul, Minnesota, who
+     investigated the scam after falling prey to it.  Since Faughnan set up a
+     website to publicise the fraud, more than 200 other victims have contacted
+     him from countries including Japan, Britain, Australia, Brazil, Sweden,
+     South Korea and France.
+      
+     Credit card verification is supposed to require a valid name, a valid card
+     number and a corresponding expiry date, says Don Zimmerman of the Boston
+     office of the Secret Service, which investigates credit card fraud in the
+     US. Mail-order firms may also check if the delivery address matches that
+     of the account.
+     
+     However, a spokeswoman for US Bank of Minneapolis says that firms who make
+     small recurrent charges ask banks to waive these steps because repeatedly
+     asking for expiry dates takes time and annoys customers. But this opens
+     the door to crooks who can obtain valid card numbers.
+     
+     Card numbers alone provide some security because the digits must pass a
+     numeric test, called a checksum, but software that generates valid numbers
+     is also available on the Net. Most numbers generated don't match valid
+     accounts, but those that do can be used to make charges that show up on
+     the victim's bill. Racketeers can also steal card numbers used in valid
+     transactions, and some lists have been posted on the Net. Extra validation
+     steps can block these fraudulent charges, but Zimmerman says that
+     additional security " does cost money, and there's always a bottom line"
+     for banks, card processors and vendors.
+     
+     Faughnan blames the fraud on companies that process charges for viewing
+     online pornography. Because many people who browse for porn give fake card
+     numbers, processors expect high credit charge reject rates and fail to
+     investigate. Most fraudulent charges list the same few vendor names, and
+     he suspects they come from just one card processing group. The fraudsters
+     must generate some numbers randomly, because charges have appeared on
+     unused accounts, but they may also have stolen customer card numbers from
+     pornographers.
+     
+     A spokeswoman for US Bank, where Faughnan holds the account that the
+     fraudsters billed, says: "If we know a merchant has a lot of fraudulent
+     transactions, we immediately report it to the proper authorities." She
+     added that customers are not liable for fraudulent transactions.
+     
+     [From New Scientist, 9 January 1999]
+     
+     @HWA 
+     
+5.4  Co-Co gets busted. "NSA is Mee mee boh bay" (Furbish for 'very worried')
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     
+     "u-nye will noh-lah with noo-loo but this is no loo-loo." (you will dance
+      with joy but this is no joke)  - Ed 
+     
+      Never heard of Co-co? sure you have, hell I own one, didn't you check
+     out the 'Hacking the furby' page yet?? who knows what great secrets lurk
+     in these cute but lethal little furballs. 
+      
+     http://news.bbc.co.uk/hi/english/world/americas/newsid%5F254000/254094.stm
+     
+     World: Americas
+
+     Furby toy or Furby spy? 
+     BBC Webnews Jan 13th'99
+
+     Furbies - their lips aren't sealed 
+
+      Thousands of families across the United States could be harbouring 
+     potentially dangerous double agents - also known as Furbies. 
+
+     The Furby, a highly sought-after Christmas toy in 1998, is now a 
+     high-ranking public enemy and has been banned from National Security Agency 
+     premises in Maryland. 
+
+     Anyone at the NSA coming across a Furby, or a crack team of Furbies 
+     infiltrating the building has been asked to "contact their Staff Security 
+     Office for guidance".
+
+     Immediate and real danger 
+
+     An allegedly classified NSA internal memo alerted other agents to 
+     the Furby's secret embedded computer chip which allows every Furby 
+     to utter 200 words - 100 in English and 100 in "Furbish." 
+
+
+     Because of its ability to repeat what it hears, Security Agency officials
+     were worried "that people would take them home and they'd start talking
+     classified,'' according to one anonymous Capitol Hill source. 
+
+     Photographic, video and audio recording equipment are all prohibited items 
+     for employees at the NSA. 
+
+     "This includes toys, such as 'Furbys,' with built-in recorders that 
+     repeat the audio with synthesized sound to mimic the original signal," the
+     Furby Alert read. 
+
+     Furbys have ears 
+
+     A Furby can be recognised immediately by its huge pink ears separated by
+     tufts of hair. It otherwise resembles an owl, with a beak and big, round eyes. 
+
+     But the furry, cute exterior is merely a shrewd cover for more 
+     covert activities. 
+
+     Thought to have come into circulation in May last year, the elusive 
+     creatures dodged thousands of weary parents over Christmas, desperately
+     scouring shop shelves to find one to take home. 
+
+     Now, the 13-cm gremlin-like operatives are wanted again, this time for spying. 
+
+     The fate of any Furbys uncovered at the NSA is as yet unknown, 
+     presumed top secret. 
+     
+     Related links:
+     
+     http://www.phobe.com/furby/ The Furby Autopsy 
+       A captured furby is dissected ...
+     http://www.phobe.com/furby/hacking.html 
+       And hacking the Furby ...;) r/c anyone?
+
+     
+     @HWA
+
+6.0  l0phtcrack 2.5 exposes weaknesses in Windows95/98 authentication scheme
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+      "During testing of the L0phtCrack 2.5 SMB packet capture tool to capture
+      SMB challenge/response authentication, it became apparent to the
+      L0phtCrack development team that Windows 95/98 issues the exact same
+      challenge for each authentication for a period of approximately 15
+      minutes.  During this time an attacker can connect to a network share
+      as the user whose authentication was captured."
+      
+      
+      Check it out at the l0pht.
+   
+       http://www.l0pht.com/
+      
+      @HWA
+
+6.1 l0pht security tool monitors the *nix /tmp directory
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    
+     Mudge releases tool for auditing unix temporary directories 
+
+
+     1.8.1999  
+     Having noticed a plethora of problems in temporary holding and
+     scratch areas on various unix platforms, Dr. Mudge releases a tool
+     to help analyze and log these problems. As usual, it has definate
+     white-hat, grey-hat, and black-hat uses. The source and tool are
+     free. 
+     
+     http://www.l0pht.com/advisories/tmp-advisory.txt     
+     
+     L0pht Security Tool and (mini)Advisory
+
+     Advisory released Jan 8 1999
+
+     Application: A tool designed to monitor directory  activity, copy
+     transient files based upon regular expression matching, syslog upon
+     seeing links created, etc. etc.
+
+     Severity: Just about every OS out there is replete with programs that
+     insecurely handle files in publicly accesible temporary directories.
+
+     Author: mudge@l0pht.com
+     http://www.l0pht.com/advisories.html
+
+
+     
+6.2  Cyberspace Underwriter's Labs
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+     Great piece, check it out (excerpt is included here from the wrap-up -Ed)
+    
+    "... As a hacker, is the relationship between the hot-shot safe crackers
+    and the UL an attractive one you would be interested in? Is the UL listing
+    process for installations sufficient? Will it encounter problems unforeseen
+    by this article? As an insurer, am I missing part of the picture; are 
+    companies actually insuring their computer systems and data to mitigate 
+    Loss or liability? As a manufacturer do you foresee problems with the UL
+    model being imposed on computer security products? As an end user do you
+    feel that computer security is important? ..."
+    
+      http://www.l0pht.com/cyberul.html          
+
+    @HWA 
+
+6.3  Local hospital makes the jump to wireless PBX integration
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     
+     By sAs72
+     
+      I was in a local hospital and picked up a copy of their zine to leaf
+     through while waiting for my replacement Jarvex7 heart valve and came
+     across the following article, quite interesting I thought, so i'm 
+     sharing it with you;
+     
+    
+      The article explains the new system and it does sound like a great idea
+     although it isn't anything new. The problem I have with it is that being
+     open like this the Spectralink telephones may be subject to interferance
+     or possibly tampering (malicious) from outside sources. 
+     
+      Local ham ops have already seen previously open auto-patches on repeaters
+     closed down and entire smart-repeaters rendered dumb due to abuse of the 
+     auto-patches  with repeated false 911 calls etc.      
+     
+     <snip>
+     
+     From 'Vital Signs' 1998, Issue 3 'Innovation' section 
+     
+     Enhanced Communication Methods
+     Support Patient Focused Care.
+     By Brigida Callaghan
+     
+     (high-lights)     
+     
+      "An exciting communication technology will be launched at the PMH Campus
+     in the new year. Wireless in-house telephone technology will provide a
+     streamlined voice communication process, with quicker customer access and
+     response to enhance service delivery"
+     
+          
+     "Unlike cellular phones, the in-house devices are safe for use in a 
+     hospital environment. Operating on radio technology, the in-house
+     wireless phones respond to transmission signals from base stations
+     strategically placed throughout the facility. The system integrates with
+     the hospitals telephone switch or PBX which allows the wireless phones to
+     have all the functionality currently available with a desk telephone"
+     
+     <snip>
+     
+      The hospital could be opening up a can of worms with the new system if it
+     is not properly implemented with coded signals and intermod filtering. I've
+     provided links to the co and product specs for your perusal and to satisfy
+     the curious. if anyone has any follow ups i'll be pleased to hear about
+     them and will follow up here.
+          
+     - sAs72
+     
+     Related links
+     
+     The company providing the Spectralink TWS system.
+     
+     http://www.spectralink.com/
+     
+     Product literature and specs in .pdf format.
+     
+     http://www.spectralink.com/products/literature.html  
+     
+     @HWA     
+
+    
+H.W  Hacked Web Sites (8.0)
+     ~~~~~~~~~~~~~~~~~~~~~~
+   
+     There were literally screenfuls of sites that were hacked over the xmas
+     "holidays" I guess some people had some time on their hands and when 
+     grandma said "you'd better get cracking if you expect to be ready for
+     xmas!" the words were misread and this hack flood was the result. 
+     
+     Is it just me or is anyone else wondering wether the web cracks go beyond
+     simple defacing of sites? ... rootkits? sniffers? major carnage could be
+     done but it seems mostly people scramble to 'get the site back online' and
+     only report the defacing of the web site but what else? ... --- ... oh the
+     humanity.
+     
+     Cracking tip: You don't have to be a genius to crack a site, got a login
+     to an MP3 site? (usually mp3/mp3) or a warez site (usually something
+     like oh I dunno... hrm warez/warez) yeah?? wow! ok so forget for one minute
+     the mindless collecting of mp3's and warez and wander instead... gee whats
+     this? a passwd file hrm, and gosh a master.passwd file etc etc etc don't
+     believe it could be this easy? well not that long ago people were pulling
+     passwd files over the web with the phf exploit until it got hammered into
+     sysadmins skulls that they were vulnerable (and some sites are STILL open
+     to this and many other well known holes). No it ain't that difficult. - Ed
+     
+     Open query to HcVorg:
+     
+     >HcV HcVorg:
+     >-[ Sysadmin quote of the Day ] 
+     >
+     >" Fucking A !! , why cant it be that damn Puff Daddy or The Spice girls " 
+     >           -Joe your Favorite  Paranoid Schitzophrenic Sysadmin
+     >
+     >- " We did no harm blame it on the drugs , on a serious note we are not trying 
+     >  to prove anything to anyone  but  "security weakness" - I-L  
+
+      1. why these guys? did they just happened to be open'n'easy?
+      2. why no link to the index.html ("We did no harm...") was it saved offline or 
+         overwritten?
+      3. what was the point other than self aggrandization?     
+     
+     
+     Anways some of the carnage follows:
+     
+     
+     What was I saying about 'just defacing web sites and doing nothing else'?
+     seems someone decided to take things a step further... the black hats must
+     be loving this one. -Ed
+     
+     Jan 12th - tucows hacked (from HNN)
+     
+     Someone calling themselves "UC3n1wVWGSnAk" cracked www.tucows.com early
+     this morning. While the cracked site may not have been much to look at 
+     it definitely was worth reading. The source that is. The source included
+     URLs to various web sites and what appeared to be tucows /etc/passwd file.
+     The only image on the main page was linked to SORM, a Russian Web site
+     attempting to build awareness about the FSB's (Federal Security Service,
+     the successor to the KGB) wiretapping program. 
+
+
+      From Bikkel;
+      update by demoniz at Jan 12 , 12:22 CET
+
+      "Rumours are that the Web site of one of the worlds largest Internet
+      software library's, Tucows, got cracked today. We got several emails
+      about the not so usual mainpage of Tucows, which appears to be
+      defaced by a Russian Linux users group. The hackers replaced the
+      front door with their own version. "Long ago we have infected all the
+      programs on this site (and it's mirrors ofcourse :)) by troyan-viruses,
+      and that is why we were able to get access to information on many
+      thousands of computers all over the net. Happy New Year ppl !!! :)" 
+
+      The alleged Russian hackers published in the source of the cracked
+      page a password file which most likely is the one they used to gain
+      access to the Tucows server. The large picture of the Linux penguin
+      linked to a Web site dealing with a Russian Internet Wiretapping
+      Project.
+
+      Tucows Web site http://www.tucows.com/
+      Archive of hacked site http://hacknews.bikkel.com/
+      SORM: http://www.fe.msk.ru/libertarium/eng/sorm/index.html 
+      (Tip by numerous, special thanks to Cosmio and `Shinobi for a copy of
+      the defaced site)"
+     
+     Here;s a sample, (sorry ppl I removed the passwords jic)
+     
+     
+     The Tucows.com passwd file.
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~
+     <snip>    
+     
+      
+     root:!:0:0:root:/root:/bin/bash
+     bin:*:1:1:bin:/bin:
+     daemon:*:2:2:daemon:/sbin:
+     adm:*:3:4:adm:/var/adm:
+     lp:*:4:7:lp:/var/spool/lpd:
+     sync:*:5:0:sync:/sbin:/bin/sync
+     shutdown:*:6:11:shutdown:/sbin:/sbin/shutdown
+     halt:*:7:0:halt:/sbin:/sbin/halt
+     mail:*:8:12:mail:/var/spool/mail:
+     news:*:9:13:news:/var/spool/news:
+     uucp:*:10:14:uucp:/var/spool/uucp:
+     operator:*:11:0:operator:/root:
+     games:*:12:100:games:/usr/games:
+     man:*:15:15:Manuals Owner:/:
+     nobody:*:65534:65534:Nobody:/:/bin/false
+     col:!:100:100:Caldera OpenLinux User:/home/col:/bin/bash
+     tucows:!:500:500:Caldera OpenLinux User:/home/tucows:/bin/bash
+     jlixfeld:!:501:501:Caldera OpenLinux User:/home/jlixfeld:/bin/bash
+     gweir:!Ww:502:502:Caldera OpenLinux User:/home/gweir:/bin/bash
+     santosd:!JF1g:503:503:Caldera OpenLinux User:/home/santosd:/bin/bash
+     adrian:!6jo:504:504:Caldera OpenLinux User:/home/adrian:/bin/bash
+     erics:!KGE:505:505:Caldera OpenLinux User:/home/erics:/bin/bash
+     bill:!kWU:506:506:Caldera OpenLinux User:/home/bill:/bin/bash
+     listserv:!ZUQY:508:508:Caldera OpenLinux User:/home/listserv:/bin/bash
+     toddb:!3QEa.AUg:510:510:Caldera OpenLinux User:/home/toddb:/bin/bash
+     argo:!Q4Q:511:502:RHS Linux User:/home/argo:/bin/bash
+     richg:!8HKM:512:503:RHS Linux User:/home/richg:/bin/bash
+     colin:!FCQTI2:513:504:RHS Linux User:/home/colin:/bin/bash
+     danny:!dGyY:514:506:RHS Linux User:/home/danny:/bin/bash
+     enoss:!FKuY:509:507:RHS Linux User:/home/enoss:/bin/bash
+     katc:!I:507:508:hehe! try this password ;-)))):/home/katc:/bin/bash
+     jrocha:!GCUk:515:509:Jerry Rocha:/home/jrocha:/bin/bash
+     president:!I2s:516:510:RHS Linux User:/home/president:/bin/bash
+     bck:!Q6:517:510:Backup program:/home/bck:/bin/bash
+     robbins:!ychf.:518:511:RHS Linux User:/home/robbins:/bin/bash
+     nsabo:!dgU:519:512:RHS Linux User:/home/nsabo:/bin/bash
+                                     2korovi. [http://www.tucows.com]
+     */
+     /*
+     For newbies
+                                     HackZone. [http://www.hackzone.ru]
+     */
+     /*
+     Secure Linux
+                                     Solar Designer [http://www.false.com/security/linux/index.html]
+                                     FreeBSD [http://www.freebsd.org]
+     */
+     /*
+     Spat'
+     */
+     -->
+
+     <snip> 
+     
+     Jan 11th - (reported by HNN & bikkel etc, this list from HNN)
+     
+     http://www.cyberjack3.com/              http://www.starwars.com
+     http://www.china-window.com/            http://www.aeudf.br
+     http://flute.gen.com                    http://alphaassault.com
+     http://streetlightcafe.org              http://www.baghdad-iraq.org
+     http://www.ba.com/                      http://www.gor.com
+     http://cnnetsvr1.ccmnet.com             http://linux.cnic.net
+     http://www.arclp.com/                   http://alphaassault.com
+     http://www.xxxteenworld.co              http://www.humanrights-china.org
+                                              pcpowerups.com 
+
+     And spotted by photon via HNN: (85 domains) some listed here.
+
+     tools.co.kr                          printingshop.com 
+     silkprint.com                        bigmart.com 
+     dcmart.com                           powersale.com 
+     familymart.com                       seoulstudio.co.kr 
+     icard.com 
+     
+
+     Jan 8th - Reported on 100% Pure Bikkel via a tip by Deepcase
+     
+     Star Wars.com cracked? update by demoniz at Jan 8 , 17:24 CET
+     [ it was fixed when I checked it at 5:04pm EST - Ed ]
+    
+      `We lost all our faith in the Star Wars crew. Luke and his friends are
+     supposed to protect the universe from evil alien creatures, but as it
+     turns out, they can't even defend their homebase. Today the official
+     Star Wars site of Lucasfilm Ltd was slightly modified by an evil (alien?)
+     hacker. 
+     
+       The hacker changed some words on the mainpage. "The Evil empire is 
+     watching you! hello to digit, crazy-b, luke skyw, tmoggie, gaius, cisco9,
+     f11ex, angrignon, ttyp0, xcsh..." '   (is this real of a sysadmin having
+     some fun?) it wouldn't be the first time a site has been party to a fake
+     hack for publicity...- Ed )
+
+     http://www.starwars.com/ 
+     (Interesting site btw, check out the animatronics section <g>)
+
+     Vu|Ture of HcV is 'credited' with hacking the Batman2000 site.
+     
+     http://www.Batman2000.com Web site
+     
+     Jan 7th - Reported on 100% Pure Bikkel (demoniz/CrawlX/Dirty Jew/others)      
+     
+     Iron-Lungs of HcV cracked leia.com and thegalleryno1.com which we've seen
+     before on the 'hacked' lists.          
+     
+     http://www.leia.com 
+     http://www.thegalleryno1.com 
+     
+     Jan 5th - Reported by HNN
+     
+     http://www.lod.com/ - Zyklon allegedly cracked LOD communications site
+     
+     -=- Old News revisited (with an update) -=-
+
+     Sites listed in issue#3    
+
+     From hnn dec23
+     rumours section
+
+
+     These sites have been hacked Dec23rd'98:
+
+     www.fractals.com ...........: Still hacked as of Dec 23rd
+     www.ambientcorp.com.........: Still hacked as of Dec 23rd 
+     www.lindasy.com.............: Fixed
+     www.paulsonpress.com........: Fixed	
+     www.uomini-photography.com..: Fixed
+     www.pagnol.com..............: Still hacked as of Dec 23rd
+     
+     
+     {
+     Extract from issue #3
+     
+     Newer hacks (Dec 28th)
+     ~~~~~~~~~~~~~~~~~~~~~~
+     Checked 1:55p EST this msg was posted (and reported) on Bikkel
+     the "Still hacked" sites remained hacked for up to one week after
+     the initial intrusion. Bad, very bad.
+     
+     More sites in protest of high telecom rates:
+     
+     Checked at 12:13 EST by Cruciphux:
+     
+     www.cabolinda.com  .....: Server down/not responding
+     www.apibajasur.com.mx ..: Server down/not responding
+     www.doring.com  ........: Raw directory with /logs displayed
+     www.villamex.com.mx ....:"Pagina en Construccion !!!!" message
+     www.cabo-architects.com.: Fixed
+     www.finisterra.com......: Fixed
+     
+     
+ *** According to Bikkel RaZa-MeXiCaNa is claiming responsibility,
+  |  }
+  +->check elsewhere in this ish for Raza-Mexicana's response to this claim    
+
+
+    @HWA
+
+
+A.0  APPENDICES
+     ~~~~~~~~~~
+     
+     Planning on tidying things up a bit around here, make it more uhm
+     hrm, accessible... index and shit, maybe even a PDF version. we'll
+     see.
+     
+     @HWA'98
+     
+
+A.1  PHACVW, sekurity, security, cyberwar links
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     
+     The links are no longer maintained in this file, there is now a 
+    links section on the http://welcome.to/HWA.hax0r.news/ url so check
+    there for current links etc.
+    
+    Hacker's FAQ (The #hack/alt.2600 faq)
+    http://www-personal.engin.umich.edu/~jgotts/underground/hack-faq.html
+    
+    Hacker's Jargon File (aka "The quote file")
+    http://www.lysator.liu.se/hackdict/split2/main_index.html
+    
+   
+
+    
+    Site quotable:
+    ~~~~~~~~~~~~~~
+    http://www.hacksec.org
+    
+    #home;^\
+
+    "Knowledge is Power! The pursuit and use of knowledge is a noble
+     vocation. Prudent use of power requires wisdom, balance and courage.
+     In an information age, the ignorant will be subjugated and manipulated.
+     Governments, city-states and corporations exist to serve themselves.
+     We will not abdicate our sovereign rights as sentinel beings. Our sect
+     is a collective of like-minded individuals, dedicated to diversity and
+     perfecting our 'arts'. As digital shamen in a technocratic world, we will
+     defend the WAY!" 
+
+    - HSK, 1998
+
+    A few international links:(TBC)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Netherlands...: http://security.pine.nl/
+    Russia........: http://www.tsu.ru/~eugene/
+    Indonesia.....: http://www.k-elektronik.org/index2.html
+                    http://members.xoom.com/neblonica/
+    Brasil........: http://www.psynet.net/ka0z
+                    http://www.elementais.cjb.net           
+
+    
+    
+A.A  Why I love Microsoft
+     ~~~~~~~~~~~~~~~~~~~~
+     
+      Read it and weep, I recently subbed to this list recently and had the
+     tremendous pleasure of reading this novel on sign-up when a few lines
+     would have sufficed, reprinted here in its entirety not merely to take
+     up space and infuriate people (i'd have put it in the main body if it
+     was to meant to annoy) but as a model for others to follow. Let MS lead
+     you on your way to the future, gh0d bless...Thanks Bill. we all have 
+     giga-quad bandwidth straight to our asses.
+     
+     Date:         Sun, 3 Jan 1999 06:00:14 -0500
+     From: "L-Soft list server at Microsoft \(1.8d\)" <LISTSERV@ANNOUNCE.MICROSOFT.COM>
+     Subject:      Subscription probe for MICROSOFT_SECURITY - please ignore
+     To: myass@HZ.NOW
+     X-LSV-ListID: MICROSOFT_SECURITY
+     
+     Sun, 3 Jan 1999 06:00:14
+     
+     This message is  only a "probe" to  test that the email  address for your
+     subscription to  the MICROSOFT_SECURITY list is  still working correctly.
+     You do not need to take any  action to remain subscribed to the list, and
+     in particular  you should NOT  reply to  this message. Simply  discard it
+     now, or  read on if you  would like to  know more about how  this probing
+     mechanism works.
+                                *******************
+     A  "probe"  is a  message  like  the one  you  are  reading, sent  to  an
+     individual subscriber  and tagged  with a  special signature  to uniquely
+     identify  this  particular  subscriber  (you can  probably  not  see  the
+     signature because it is in the  mail headers). If the subscriber's e-mail
+     address is no longer valid, the  message will be returned to LISTSERV and
+     the faulty  address will be  removed from  the list. If  the subscriber's
+     address is still valid, the message will not bounce and the user will not
+     be deleted.
+     
+     The main advantage  of this technique is that it  can be fully automated;
+     the list owner does not need to read a single delivery error. For a large
+     or active  list, the manpower  savings can  be tremendous. In  fact, some
+     lists are  so large that it  is virtually impossible to  process delivery
+     errors manually. Another advantage is that the special, unique signatures
+     make it possible to accurately process delivery errors that are otherwise
+     unintelligible, even to an experienced technical person.
+     
+     The  drawback,  however,  is  that  this  method  lacks  flexibility  and
+     forgiveness. Since the Internet does not provide a reliable mechanism for
+     probing an  e-mail address without  actually delivering a message  to the
+     human  recipient, the  subscribers  need to  be  inconvenienced with  yet
+     another "junk message". And, unlike  a human list owner, LISTSERV follows
+     a number of  simple rules in determining when and  whether to terminate a
+     subscription. In  particular, a common  problem with automatic  probes is
+     mail gateways  that return a delivery  error, but do deliver  the message
+     anyway.  LISTSERV  has no  way  to  know that  the  message  was in  fact
+     delivered, and in most cases the subscriber is not aware of the existence
+     of these  "false" error reports.  If this  happens to you,  LISTSERV will
+     send you  another message with a  copy of the delivery  error returned by
+     your mail system, so that you can show it to your technical people.
+  
+  
+  
+     "Well. There it is." - Ed
+     
+     @HWA           
+
+  -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-  
+    --EoF-HWA-EoF--EoF-HWA-EoF--EoF-HWA-EoF--EoF-HWA-EoF--EoF-HWA-EoF--
+   
+
+    @HWA C*:.'99
+    
+    (C) Cruciphux/HWA.hax0r.news
+    (r) Cruciphux is a trade mark of humpty wigger attitudez ink.
+    
+
+     --EoF-HWA-EoF--EoF-HWA-EoF--EoF-HWA-EoF--EoF-HWA-EoF--EoF-HWA-EoF--
+  -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-
+   [ 28 63 29 20 31 39 39 39 20 63 72 75 63 69 70 68 75 78 20 68 77 61 ]
+       [45:6E:64]-[28:63:29:31:39:39:38:20:68:77:61:20:73:74:65:76:65]       

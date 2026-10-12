@@ -1,0 +1,537 @@
+ ==========================================================================
+ =                    <=-[ HWA.hax0r.news ]-=>                            =
+ ==========================================================================
+  HWA.hax0r.news                        Number 1 Volume 1 November 13, 1998
+ ==========================================================================
+         Hacker and hacking related news for the general public
+ ==========================================================================
+
+   "If it was any bigger, it would be much larger than this" 	- f1uffy
+
+ First released November, Friday the 13th around 10:30pm after Millennium
+ then again a few hours later after SouthPark and finally again sometime
+ Saturday night or early Sunday when I got bored of the tv. <sic>
+
+ 
+ Synopsis
+ --------
+ 
+  The purpose of this list is to 'digest' current events of interest that
+ affect the online underground and netizens in general. This includes
+ coverage of general security issues, hacks, exploits, underground news
+ and anything else I think is worthy of a look see. 
+ 
+  This list is NOT meant as a replacement for, nor to compete with, the 
+ likes of publications such as CuD or PHRACK or with news sites such as
+ AntiOnline, the Hacker News Network (HNN) or mailing lists such as 
+ BUGTRAQ or ISN nor could any other 'digest' of this type do so. 
+ 
+  It *is* intended  however, to  compliment such material and provide a
+ reference to those who follow the culture by keeping tabs on as many
+ sources as possible and providing links to further info, its a labour
+ of love and will be continued for as long as I feel like it, i'm not
+ motivated by dollars or the illusion of fame, did you ever notice how
+ the most famous/infamous hackers are the ones that get caught? there's
+ a lot to be said for remaining just outside the circle... <g>
+
+ Welcome to HWA.hax0r.news ... 
+
+ Issue #1, premiere ish!
+
+ Send all submissions (news, articles, humour etc) to hwa@press.usmc.net
+ 
+ Section  Content
+ ------- ------------------------------------------------------------------
+  0.0 ... Who am we? 
+  1.0 ... Sources
+  2.0 ... From the editor 
+  2.1 ... Where's the WaReZ?
+  3.0 ... Cash cOw? the hacker gold rush is on!
+  3.1 ... WWWHACK   
+  3.2 ... Back Orifice
+  3.2b .. NetBus
+  3.3 ... AOL kicked off EFNET
+  3.4 ... Using wingate's to hide on IRC
+  3.5 ... Exploiting windows shares  
+  3.6 ... The RootShell.com hack
+  3.7 ... Carolyn P. Meinel, A not so happy "hacker"?
+  3.8 ... "Hong Kong Blondes" take on the Chinese Government
+  4.0 ... Tagline of the month
+  5.0 ... Kewl unix file link(s) 
+  6.0 ... Kewl windoze file link(s) 
+  7.0 ... "Stuff to do when its raining in your head" 
+  7.1 ... The SAR project: Security awareness or fastracking network abuse.
+  8.0 ... PHACVW linx
+
+ -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-
+
+0 - Who is the editor and why is (s)he writing this?
+
+    Who cares?
+
+    I am noone, a nobody, I am not a phed or a narq, I could be you. I do
+    this for myself and some friends, you get something out of it too? 
+    'whump, there it is'. Thats all there is to it, nothing more, Neither 
+    am I a "hax0r" or a "cracker" and hell if I were, you think i'd 
+    broadcast it all over some crummy news sheet? heh, get over it, this 
+    is meant to be a fun read, nothing more, so get reading. and if you ain't
+    smiling, you're taking things much too seriously. Keep hacking and stay
+    free ... w00t.
+    
+    C*:.
+
+  -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-
+  
+1 - Sources can be some, all, or none of the following (by no means complete
+    nor listed in any degree of importance)
+
+  News/Hacker site........ http://www.bikkel.com/~demoniz/ 
+  News site+I/O zine ..... http://www.antionline.com/
+  News + Exploit archive ..http://www.rootshell.com/beta/news.html
+  News,Advisories,++ ......http://www.l0pht.com/
+  News site (HNN/l0pht),...http://www.hackernews.com/
+  Back Orifice/cDc.........http://www.cultdeadcow.com/
+  News site+...............http://www.zdnet.com/
+  IRC list/admin archives..http://www.the-project.org/
+
+  +Various mailing lists and some newsgroups, such as ...
+  
+  alt.hackers.malicious
+  alt.hackers
+  alt.2600
+  BUGTRAQ
+  ntbugtraq
+  ISN security mailing list
+  http://www.anchordesk.com/ Jesse Berst's AnchorDesk 
+
+  +Various known and unknown or anonymous netizens ;)
+
+  http://www.savage.net/ Annaliza Savage's home page
+  http://www.kevinpoulsen.com/ Kevin Poulsen's home page
+  http://catalog.com/kevin/ KP's mirror site (aka The Switch Room)
+  http://home.pacbell.net/sysadm/ Agent Steal's home page
+  
+  * Feel free to send in sources of information that you feel provide good
+  coverage or archives of hacker material and i'll add it to the list.
+
+2 - From the editor:
+
+  START
+  ~~~~~
+    Ok, so there has been a lot of interesting stuff going on out there
+  and i've had to wheedle out all kinds of stuff in order to keep this 
+  mailing a reasonable size. I won't yack on and on but rather jump right
+  into the content.. have at it and enjoy. 
+
+  Congrats, thanks, and kudos to cruciphux@mobsters.com complaints and all 
+  nastygrams and mailbombs can go to /dev/nul or if you're really upset you
+  might want to look at section 7 ... danke.
+  
+  Last minute stuff:
+
+  Justin Petersen (aka Agent Steal) crawls out from under a rock..   
+  Home page ...http://home.pacbell.net/sysadm/ 
+  ZDNET story..http://www.zdnet.com/zdnn/stories/news/0,4586,2164061,00.html   
+
+ Yet another MSIE bug
+ ~~~~~~~~~~~~~~~~~~~~
+ 
+  IE bug: restart Windows
+  By: demoniz Nov 9,22:16
+  From: http://www.bikkel.com/~demoniz/
+
+ A new and very serious Internet Explorer bug has been found. A
+ special Java applet which uses the 'modified' Microsoft DirectDraw
+ Java classes is able to crash not only MS Internet Explorer 4.* or 5, but
+ the whole Windows 9* system. On a Windows NT system Internet
+ Explorer crashes, but the operating system is in most cases still
+ usable.
+
+ According to Fabio Ciucc, who discovered the major flaw, the applet
+ will not run in true and 100% pure Java environments, such as
+ Netscape Navigator, Sun's HotJava or using the Java Plugin. The bug
+ is only present in non standard Java modifications done by Microsoft
+ in its Internet Explorer 4/5 on Windows systems.
+
+ Fabio Ciucc hasn't released the information required to re-create the
+ bug because of the potential danger of a huge DoS flood. Microsoft
+ acknowledged the problem with its DirectDraw Java foundation
+ classes that causes computers to crash. A patch will be released
+ soon.
+
+ A test is available at Fabio Ciucc's website. 
+ http://www.anfyjava.com/iebug/
+ (IE users: please note that your entire system will crash!)
+
+
+2.1 Where's the WaReZ?
+    ~~~~~~~~~~~~~~~~~~
+     There is no information in this list pertaining to 'warez' that scene
+    is covered quite adequately by others and has no place here.'nuff said.
+
+  -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-
+    	
+3.0 HACKER CASH GRAB? 
+    ~~~~~~~~~~~~~~~~~
+
+   Bow to the Cash cOw:
+    
+   Hey Cartman, did the |<r4d Back Orifice<tm> watch come yet???
+
+    http://www.cultdeadcow.com/merchandise/watch.html
+    
+   At least we know where the cDc guys are coming from, ;-)
+     
+    Gimme your money:
+    ----------------
+    
+    It seems the old hacker gold rush is on, I don't care what anyone
+   says, HACKING sells, and it sells big, I'm actually surprised it
+   has taken this long for some people to realize this and begin to 
+   cash in on it, but it is readily apparent to me that the 'golden
+   age of hacking' <sic> is far from over.
+        
+   AntiOnline, run by 19yr old John Vranesvich seems to have struck
+   the mother lode. Already a commercial entity offering shell accounts 
+   to the wannabes the site now proclaims the following: 
+    
+     "AntiOnline Forms Partnership With  Zarite Inc.Sunday 10:00am, 
+     November 08, 1998 - Venture Capitalists see a future in AntiOnline,
+     and decide to invest."
+
+   uh, yeah, hey maybe someone will invest in us too some day <guffaw>.
+    
+   http://www.antionline.com/SpecialReports/zarite-partnership/
+   
+    "Under the terms of the agreement, Vranesevich will retain a majority
+     70% stake in AntiOnline, and will maintain sole managerial control"
+     
+     
+   From the press release:
+     
+     In exchange for 30% control of AntiOnline "Zarite Inc. has provided
+     an undisclosed amount of investment capital, which is set to be used
+     to launch a second generation site.
+     
+                                 ... which is expected to span over some 8
+     separate domains, will collectively be dubbed "AntiOnline - The 
+     Internet's Information Security Super Center". Along with the latest
+     InfoSec news updated 3 times a day, AntiOnline will also run weekly
+     columns and interviews from and by some of the biggest names in the
+     computer security and hack scene. Another domain will host Bub,
+     AntiOnline's artificial intelligence bot, 6 months in the making, that
+     will be able to interactively answer questions about computer security
+     issues posed to it by web surfers. One of the domains will host a
+     virtual store front that will be a one stop shop for security products
+     and hacker memorabilia, and yet another one will serve as a high
+     power search portal to information security related sites, based on
+     technology being leased from InfoSeek. Another of the domains will
+     serve as the world's most extensive web companion to IRC, the form
+     of real time type written communication used by thousands of hackers
+     around the world."
+     
+    
+3.1 WWWHACK 
+    ~~~~~~~
+    "Hacking" XXX sites for fun and profit. If it isn't trojaned
+    then you have just another password brute force hacker?
+    http://members.xoom.com/jimrand/
+ 
+3.2 BackOrifice 
+    ~~~~~~~~~~~
+     Note: I debated wether or not to include info on this as it has been
+    around for quite some time (first unleashed at DefCon in July 1998) 
+    but since it is still so prevelant and people are STILL unclued as to
+    what it is and where to get it etc here's the info...
+    
+     People are still in awe over this, and with good reason, its use
+    has spread like wildfire among hackers and crackers alike with many
+    netizens (especially warez pups) being completely unaware that their
+    systems have been compromised. In a nutshell back orifice consists of
+    two pieces, the server which runs in the background of an 'infected'
+    Windows95 machine and a client program that allows the attacker to do
+    "anything" he or she wishes with the compromised box. Clients exist 
+    for both Windows9x and unix environments, the standard port that the
+    server runs on is 31337 but it can be configured to run on any port
+    and even connect to irc and announce that it is 'owned'.    
+    
+    You can get it and all the info you can stand here:
+    http://www.cultdeadcow.com/tools/
+    Or see who's currently 'owned' on the EFNET channel #bo_owned
+    
+    Related items: 
+    
+3.2b NetBus - A Windows trojan similar in operation to Back Orifice but
+     ~~~~~~   not as widely disseminated. The home page seems to be on 
+    the run but it was last spotted at the following url:
+
+    Current location Nov 13th 1998:
+ ** http://come.to/netbus (A redirector, redirects to tripod) 
+    http://members.tripod.com/newkzone/__Download__/patch.exe
+
+    Past locations:
+    http://netbus.hypermart.net/index.html "under construction/moved"
+    http://surf.to/netbus "deleted/moved"    
+    
+
+3.3 AOL kicked out of EFNET 
+    ~~~~~~~~~~~~~~~~~~~~~~~
+    Follow the sad thread here (quite amusing).
+    http://www.the-project.org/admins/1098/maillist.html
+
+3.4-5 Are you using wingates on IRC or exploiting windows shares? 
+      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    These people are looking to educate those plebes and shut you out.
+        
+    LockDown2000 (aka Hacker98)
+    http://lockdown2000.com/demo/start.html
+
+3.6 RootShell hacked 
+    ~~~~~~~~~~~~~~~~
+    Possible bug in SSHD (a confirmed buffer overflow condition) 
+    The archived hack and Rootshell's story are available at their
+    site.
+
+    http://www.rootshell.com/hacked_sites/www.rootshell.com/
+
+3.7 Carolyn P. Meinel, A not so happy "hacker"?
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ From the ISN mailing list, included for review purposes, no permission
+ for inclusion sought.
+
+ Date: Sat, 7 Nov 1998 10:00:09 -0700 (MST)
+ From: mea culpa <jericho@dimensional.com>
+ To: InfoSec News <isn@repsec.com>
+ Subject: [ISN] Carolyn Meinel --- Debunking the myth.
+ X-Copyright: This e-mail copyright 1998 by jericho@dimensional.com
+ Sender: owner-isn@repsec.com
+ Reply-To: mea culpa <jericho@dimensional.com>
+
+
+ From: Ralph Logan <rlogan@medusa.blackops.org>
+
+ Approximately a year and a half ago, I attended Defcon V.  Information
+ Security professionals attend Defcon regularly to see old friends, form
+ new relationships, and generally relax in an environment where we can
+ speak about familiar topics without having to stop and explain years of
+ computer knowledge to the general public, managers, clients or our bosses. 
+  
+ According to the Official Defcon V page there was a panel discussion
+ moderated by:
+ 
+ Carolyn P. Meinel - Moderator of the Happy Hacker Digest and mailing
+                     lists.  She will preside over a seperate[sic] Happy
+		     Hacker discussion pannel[sic] that 
+                     will cover the topics of wether[sic] or not "newbies"
+                     should hav[sic] information handed to them, or should
+                     they learn for themselves?  
+ 
+ Having established relationships previously with other Information
+ Security Professionals, I was surprised her name had never been mentioned,
+ so I decided to sit in on the panel.  Understanding that this was an
+ informal convention, I was not expecting strict guidelines or 'stuffy'
+ behavior from any of the panel members, but the complete ignorance and
+ irrelevance of Ms. Meinel's statements, retorts and reactions to open
+ questions amazed me.  I left the panel discussion early. 
+  
+ Over the last year, I have kept a watchful eye on this person, Ms. 
+ Meinel.  I researched her history, read her list, watched other mailing
+ lists, and attempted to understand how and when she became a 'Security
+ Professional'.  Knowing the experience and educational backgrounds of
+ other Information Security Professionals, I could not grasp how the
+ moderation of a mailing list qualified her as a 'Security Professional.'
+  
+ I received a document sent to Mike Bellus of the FBI outlining Ms. 
+ Meinel's services as a consultant.  In the description of the "3-day
+ Beginner Hacking Course" she was proposing to the Federal Bureau of
+ Investigation, Ms. Meinel roughly portrays one of her services as
+ "...designed to go far enough in these three days to teach serious
+ proficiency at catching email criminals such as mail bombers." 
+  
+ Such are the 'skills' that Ms. Meinel encourages in her followers on the
+ "Happy Hacker" mailing list and journal, although the 'skills' Ms. Meinel
+ teaches on her list are just sufficient to get a new computer enthusiast
+ in enough hot water to send them to prison.  She of course throws in an
+ occasional 'Don't do this or you will go to jail' comment, but let's
+ compare that to setting the cookie jar in front of the hungry child, shall
+ we? 
+ 
+ Questions began to form in my mind: 'Is Ms. Meinel attempting to generate
+ business for herself?', 'Is her skillset really this limited, or is she
+ teaching new computer enthusiasts just enough to set off the warning
+ signals with potential clients?'
+ 
+ I watched at a distance as Ms. Meinel continuously poked and prodded her
+ way around the underground scene with inflammatory accusations, ridiculous
+ claims, and pious retorts to intelligent queries.  Taunting the
+ underground personalities with challenges, then turning to Federal
+ Officials and accusing innocent people of terrorizing her, Ms. Meinel has
+ unjustly accused many people of criminal activities, with not the
+ slightest bit of evidence. 
+ 
+ It was obvious to me that Ms. Meinel had an agenda other than simply
+ helping the uninformed in her 'Happy Hacker' mailing list.  Sure enough,
+ in early 1998 her book 'The Happy Hacker' was published. 
+  
+ Interest waned after the book was released, as myself and other security
+ professional associates realized that she was a harmless charlatan. 
+ 
+ At Defcon VI Ms. Meinel was amazingly quiet. 
+ 
+ A few months later, my current military client and I attended NISSC
+ (National Information Systems Security Conference). 
+  
+ One session of the conference concerned 'The Future of Information
+ Security'.  Included in this session's audience were professionals from
+ the Department of Justice, National Security Agency, Federal Bureau of
+ Investigation, Secret Service, security professionals from the 'Big Five'
+ accounting firms, Microsoft, and INFOSEC Professionals in the private
+ industry.  The panel discussion soon moved to 'How are we as INFOSEC
+ professionals going to police the integrity of our profession?' When
+ someone mentioned the content of Ms. Meinel's recent 'Scientific American'
+ article, the entire audience burst into laughter.  It was a satisfying
+ moment for those of us following Ms. Meinel's less than illustrious
+ career: to finally see that our fellow PROFESSIONALS see her for what she
+ is, and not what she purports to be.  I returned home from that conference
+ with a sense of satisfaction, knowing that other INFOSEC professionals see
+ through the charade that Ms. Meinel is creating. 
+ 
+ The most disturbing part of this last year and a half of watching Ms. 
+ Meinel, is her uncanny ability to pull the wool over the eyes of the press
+ and the limited amount of the public that listen to her.  I am afraid we
+ are going to see more people in our industry playing these games with
+ potential clients and the public, and we must constantly guard the
+ integrity of INFOSEC, for integrity is a mainstay of any INFOSEC
+ professional. 
+
+ It was with shame that I read your article after my boss pointed it out to
+ me, asking if I was familiar with Ms. Meinel. 
+
+ This letter is not for publication, only to ask you to please research
+ your publicized writers before publication in the future. 
+
+ This is not a letter to taunt Ms. Meinel, for I have no desire to respond
+ to her, correspond with her, or even give her an attempt to justify her
+ ever downward spiralling 'career' as a 'Security Expert'. 
+
+  
+ Ralph Logan
+ Senior Information Management Specialist
+ Affiliated Computer Services, Inc.
+
+ The opinions stated in this correspondance are in no way representative of
+ my employers.  
+
+ -o-
+ Subscribe: mail majordomo@repsec.com with "subscribe isn".
+ Today's ISN Sponsor: Repent Security Incorporated [www.repsec.com]
+
+3.8 The "Hong Kong Blondes" take on the Chinese Government.
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    ZDNET's Wired online news picks up this story:
+
+  http://www.wired.com/news/news/politics/story/13693.html
+  http://www.wired.com/news/news/email/explode-infobeat/politics/story/15857.html
+
+4.0  Tagline of The month/week/year.
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     Seen on a msg in BUGTRAQ:
+
+     "software industry, the: unique industry where selling substandard goods is
+     legal and you can charge extra for fixing the problems."
+
+5.0  Kewl (Unix) Software:
+     ~~~~~~~~~~~~~~~~~~~~
+     ksh (korn shell) and programming environment for *nix 
+     
+     http://members.tripod.com/~dfrench/
+     
+     "The U/WIN package provides a mechanism for building and running UNIX
+     applications on Windows NT, Windows 98, and Windows 95 with few, if any,
+     changes necessary. "
+ 
+     http://www.research.att.com/sw/tools/uwin/
+
+6.0  Kewl (Windoze) Software:
+     ~~~~~~~~~~~~~~~~~~~~~~~
+     Windows Administrator (free) - all'round utility for registry and other
+     internals for Windows95,98 and NT. 
+     
+     http://hotfiles.zdnet.com/cgi-bin/texis/swlib/hotfiles/info.html?fcode=000U5C
+
+7.0  "Stuff to do when its raining in your head" 
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      So, you have some frustrations you need to work out? a little pissed
+     off at the world, the "scene", life, your bf/gf? Maybe Windows9x blue 
+     screened in the middle of that new killer app download?
+     
+      Here's a few suggestions to keep yourself busy, if not out of trouble
+     
+      
+    [------------------------]           [-----------------------------]
+    [        ( A )           ]           [          ( B )              ] 
+    [Have you installed unix?]           [Have you installed Windows 9x]
+    [------------------------]      +--->[or NT and dual booted it with]
+           /       \               /     [unix and a 32 bit fat?       ] 
+        [YES]      [NO]           /      [-----------------------------]
+         /            \----------/         /                       \
+ [DO YOU FEEL 'LEET?]                   [YES]                     [NO]
+      /   \                              /                          I 
+   [YES]  [NO]                  [DO YOU FEEL 'LEET?]        {Are you using someone
+   /         \                      /       \                   else's machine?}
+{Go to (B)}  {Can you code in }   [YES]     [NO]-{Go to (C)}      /       \
+              c or write shell      \                          [YES]      [NO]
+              (perl) scripts? } {Did you do it to              /           /
+               /       \         an existing system          /      {you're using
+              /        [NO]     w/o reformatting?}         /        a mac or imac!
+            [YES]        \            I                   I         seek professional
+             /       {Go to (C)}      I                   I         help!}
+            /                        /           { Are you using a
+     {Do you have                   /             a hacked account?}
+      a keen sense                /                  /       \
+      of humour? }      {w00t go to (C)          [YES]      [NO]
+      /     \               ;-) }                  I          I 
+     /     [NACK]                             {Go to (C)}  {Go to (A)}  
+   [ACK]      \
+     I         \-{congrats, you could be
+     I             the next Bill Gates.}
+      \
+[-------------------]
+[       (D)         ] 
+[Write a humorous   ]                [-------------------------------]
+[flowchart and send ]                [             (C)               ]
+[it to me, I need it]                [ You're bored, but not stupid  ]
+[more than you do.  ]                [                               ] 
+[                   ]                [ continue with section 8.0     ]
+[-------------------]                [-------------------------------]
+
+
+7.1  SAR Project
+     ~~~~~~~~~~~
+     Like so many other things in the security field, this is a double
+    edged sword... this site lists the current top 10 smurf amplifier
+    networks. The idea is that by revealing which networks are "broken"
+    (allowing the broadcast attack packets through) it will shame the
+    NOCs into fixing their networks. Another idea may come to mind for
+    people that like to play dirty though.
+     
+    http://www.powertech.no/smurf/
+
+
+
+8.0  PHACVW Links 
+     ~~~~~~~~~~~~
+     
+    http://lockdown2000.com/demo/start.html
+    http://www.hitbox.com/wc/world.100.HackingPhreaking.html
+    http://www.tazzone.com/top500/tally.cgi?section1=Hacking_Phreaking
+    http://www.cyberarmy.com/
+    http://www.webfringe.com/top100?
+    http://www.splitinfinity.com/~top55/
+    http://www.linkz.net/cgi-bin/top250/
+  
+
+  -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-
+     --EoF-HWA-EoF--EoF-HWA-EoF--EoF-HWA-EoF--EoF-HWA-EoF--EoF-HWA-EoF--
+  -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-

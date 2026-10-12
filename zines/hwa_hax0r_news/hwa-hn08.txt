@@ -1,0 +1,3277 @@
+    [ 28 63 29 20 31 39 39 39 20 63 72 75 63 69 70 68 75 78 20 68 77 61 ]
+  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=
+  ==========================================================================
+  =                     <=-[ HWA.hax0r.news ]-=>                           =
+  ==========================================================================
+    [=HWA'99=]                         Number 8 Volume 1 1999 Feb 27th 99
+  ==========================================================================
+
+
+   "I got the teenage depression, thats all i'm talkin about, if you dunno
+     what i mean then you better look out, look out!" 
+                                      
+                                            - Eddie & The Hotrods
+     
+
+   * This issue is a bit of a mess and i've missed some important news i'm
+     running behind and playing catchup with the move to a weekly release
+     schedule, i'm trying the best I can bear with me as we try and get our shit
+     together.
+
+     Only a mediocre zine is always at its best - Ed
+
+
+   
+   Synopsis
+   --------     
+   
+   The purpose of this newsletter is to 'digest' current events of interest
+   that affect the online underground and netizens in general. This includes
+   coverage of general security issues, hacks, exploits, underground news
+   and anything else I think is worthy of a look see.
+
+    This list is NOT meant as a replacement for, nor to compete with, the
+   likes of publications such as CuD or PHRACK or with news sites such as
+   AntiOnline, the Hacker News Network (HNN) or mailing lists such as
+   BUGTRAQ or ISN nor could any other 'digest' of this type do so.
+
+    It *is* intended  however, to  compliment such material and provide a
+   reference to those who follow the culture by keeping tabs on as many
+   sources as possible and providing links to further info, its a labour
+   of love and will be continued for as long as I feel like it, i'm not
+   motivated by dollars or the illusion of fame, did you ever notice how
+   the most famous/infamous hackers are the ones that get caught? there's
+   a lot to be said for remaining just outside the circle... <g>
+
+
+   @HWA
+   
+   =-----------------------------------------------------------------------= 
+  
+                     Welcome to HWA.hax0r.news ... #8 
+                     
+   =-----------------------------------------------------------------------=                      
+                     
+          "I dunno what i'm doing, but i'm damn good at it" 
+                     
+                                    - Seen on a button worn by `Ed'..                  
+    
+    
+    *******************************************************************    
+    ***      /join #HWA.hax0r.news on EFnet the key is `zwen'       ***
+    ***                                                             ***
+    *** please join to discuss or impart news on techno/phac scene  ***
+    *** stuff or just to hang out ... someone is usually around 24/7***
+    *******************************************************************
+                                             
+                         
+  =-------------------------------------------------------------------------= 
+   
+  Issue #8 big endian release, Feb 27th 1999      Empirical knowledge is power
+  
+  
+  =--------------------------------------------------------------------------= 
+  
+  inet.d THIS b1lly the llammah 
+  
+  ________ ------- ___________________________________________________________
+ |\____\_/[ INDEX ]__________________________________________________________/|         
+ | |                                                                         ||
+ | | Key     Content                                                         ||
+  \|_________________________________________________________________________/    
+  
+   00.0  .. COPYRIGHTS 
+   00.1  .. CONTACT INFORMATION & SNAIL MAIL DROP ETC
+   00.2  .. SOURCES        
+   00.3  .. THIS IS WHO WE ARE
+   00.4  .. WHAT'S IN A NAME? why `HWA.hax0r.news'?
+   00.5  .. THE HWA_FAQ V1.0 
+    
+   \__________________________________________________________________________/
+    
+   01.0  .. Greets
+   01.1  .. Last minute stuff, rumours, newsbytes
+   01.2  .. Mailbag
+   02.0  .. From the editor
+   02.1  .. Canc0n99/2k still on schedule ...
+   02.2  .. ShadowCon 99
+   02.3  .. Another gem from Phiregod
+   03.0  .. News from the UK by Qubik
+   03.1  .. Hackers Reportedly Seize British Military Satellite 
+   04.0  .. Cracker makes off with $100K
+   04.1  .. SANS WEB BRIEFING ;WHAT THE HACKERS KNOW ABOUT YOUR SITE III;  
+   05.0  .. Copyrights on security advisories?
+   06.0  .. Book review: "Top Secret Intranet", Fredrick Thomas Martin, 1999, 0-13-080898-9,
+   07.0  .. MCI Worldcom joins security force  
+   08.0  .. New EFnet server? ex 'packet kiddie' 15 yr old sez sure, and why not?
+   09.0  .. DISA WEB RISK ASSESSMENT TEAM
+   10.0  .. Wanna try a ping -f at 10-Gbps from your home box?
+   11.0  .. Thieves Trick Crackers Into Attacking Networks
+   12.0  .. How Nokia Guards Against Crackers
+   13.0  .. BILL H.R 514 COULD BAN PERSONAL "ACTION" FREQUENCY MONITORING
+   14.0  .. Linux autofs overflow in 2.0.36+
+   15.0  .. Linux RedHat sysklogd vulnerability
+   16.0  .. Microsoft Security Bulletin (MS99-007) Taskpads Scripting Vulnerability 
+   17.0  .. Security risk with Computer Associates' (CA) ARCserveIT backup software
+   
+   EF.F  .. Effluent: (misc shit that doesn't fit elsewhere, and humour etc)
+   AD.S  .. Post your site ads or etc here, if you can offer something in return
+            thats tres cool, if not we'll consider ur ad anyways so send it in.
+   
+    H.W  .. Hacked Websites www.l0pht.com and www.hackernews.com hacked??   
+    A.0  .. APPENDICES  
+    A.1  .. PHACVW linx and references 
+  ____________________________________________________________________________
+ |\__________________________________________________________________________/|
+ | |                                                                         ||
+ | |    pHEAR                                                                ||
+ | |                                                                         ||
+ | |    Do you phear the script kiddie? do you know him? check out this      ||
+ | |    HNN article .... http://www.hackernews.com/orig/buffero.html         ||
+ | |                                                                         ||  
+ | |                                                                         ||
+  \|_________________________________________________________________________|/
+       
+
+     @HWA'99                 
+     
+     
+  
+         
+  00.0  (C) COPYRIGHT, (K)OPYWRONG, COPYLEFT? V2.0
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     
+     THE OPINIONS OF THE WRITERS DO NOT NECESSARILY REFLECT THE
+     OPINIONS OF THE PUBLISHERS AND VICE VERSA IN FACT WE DUNNO
+     WTF IS GONNA TAKE RESPONSIBILITY FOR THIS, I'M NOT DOING IT
+     (LOTS OF ME EITHER'S RESOUND IN THE BACKGROUND) SO UHM JUST
+     READ IT AND IF IT BUGS YOU WELL TFS (SEE FAQ).
+     
+     Important semi-legalese and license to redistribute:
+     
+     YOU MAY DISTRIBUTE THIS ZINE WITHOUT PERMISSION FROM MYSELF 
+     AND ARE GRANTED THE RIGHT TO QUOTE ME OR THE CONTENTS OF THE
+     ZINE SO LONG AS Cruciphux AND/OR HWA.hax0r.news ARE MENTIONED 
+     IN YOUR WRITING. LINK'S ARE NOT NECESSARY OR EXPECTED BUT ARE 
+     APPRECIATED the current link is http://welcome.to/HWA.hax0r.news
+     IT IS NOT MY INTENTION TO VIOLATE ANYONE'S COPYRIGHTS OR BREAK
+     ANY NETIQUETTE IN ANY WAY IF YOU FEEL I'VE DONE THAT PLEASE EMAIL
+     ME PRIVATELY current email cruciphux@dok.org 
+     
+     THIS DOES NOT CONSTITUTE ANY LEGAL RIGHTS, IN THIS COUNTRY ALL
+     WORKS ARE (C) AS SOON AS COMMITTED TO PAPER OR DISK, IF ORIGINAL
+     THE LAYOUT AND COMMENTARIES ARE THEREFORE (C) WHICH MEANS:
+     
+     I RETAIN ALL RIGHTS, BUT I GIVE YOU THE RIGHT TO READ, QUOTE
+     AND REDISTRIBUTE/MIRROR. - EoD
+   
+    
+     Although this file and all future issues are now copyright, some of
+    the content holds its  own copyright and these are printed and 
+    respected. News is news so i'll print any and all news but will quote 
+    sources when the source is known, if its good enough for CNN its good
+    enough for me. And i'm doing it for free on my own time so pfffft. :) 
+    
+    No monies are made or sought through the distribution of this material.
+    If you have a problem or concern email me and we'll discuss it.
+    
+    cruciphux@dok.org
+    
+    Cruciphux [C*:.]
+
+      
+     
+  00.1  CONTACT INFORMATION AND MAIL DROP
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+       
+       Has it occurred to anybody that "AOL for Dummies" is an extremely
+       redundant name for a book? 
+                                      - unknown
+       
+           
+     Wahoo, we now have a mail-drop, if you are outside of the U.S.A or 
+    Canada / North America (hell even if you are inside ..) and wish to
+    send printed matter like newspaper clippings a subscription to your
+    cool foreign hacking zine or photos, small non-explosive packages
+    or sensitive information etc etc well, now you can. (w00t) please
+    no more inflatable sheep or plastic dog droppings, or fake vomit
+    thanks.
+    
+    Send all goodies to:
+    
+	    HWA NEWS
+	    P.O BOX 44118
+	    370 MAIN ST. NORTH
+	    BRAMPTON, ONTARIO
+	    CANADA
+	    L6V 4H5
+	    
+    WANTED!: POSTCARDS! YESH! POSTCARDS, I COLLECT EM so I know a lot of you are
+    ~~~~~~~  reading this from some interesting places, make my day and get a 
+             mention in the zine, send in a postcard, I realize that some places 
+             it is cost prohibitive but if you have the time and money be a cool 
+             dude / gal and send a poor guy a postcard preferably one that has some
+             scenery from your place of residence for my collection, I collect stamps
+             too so you kill two birds with one stone by being cool and mailing in a 
+             postcard, return address not necessary, just a  "hey dude being cool in 
+             Bahrain, take it easy" will do ... ;-) thanx.
+    	    
+	    
+	    
+    Ideas for interesting 'stuff' to send in apart from news:
+    
+    - Photo copies of old system manual front pages (optionally signed by you) ;-)
+    - Photos of yourself, your mom, sister, dog and or cat in a NON
+      compromising position plz I don't want pr0n. <g>
+    - Picture postcards
+    - CD's 3.5" disks, Zip disks, 5.25" or 8" floppies, Qic40/80/100-250
+      tapes with hack/security related archives, logs, irc logs etc on em.
+    - audio or video cassettes of yourself/others etc of interesting phone
+      fun or social engineering examples or transcripts thereof.
+    
+    If you still can't think of anything you're probably not that interesting
+    a person after all so don't worry about it <BeG>  
+    
+    Our current email:
+    
+    Submissions/zine gossip.....: hwa@press.usmc.net
+    Private email to editor.....: cruciphux@dok.org
+    Distribution/Website........: sas72@usa.net
+
+    @HWA
+
+           
+    
+  00.2  Sources ***
+        ~~~~~~~~~~~     
+
+     Sources can be some, all, or none of the following (by no means complete
+    nor listed in any degree of importance) Unless otherwise noted, like msgs
+    from lists or news from other sites, articles and information is compiled
+    and or sourced by Cruciphux no copyright claimed.
+
+    HiR:Hackers Information Report... http://axon.jccc.net/hir/
+    News & I/O zine ................. http://www.antionline.com/
+   *News/Hacker site................. http://www.bikkel.com/~demoniz/ *DOWN!*
+    News (New site unconfirmed).......http://cnewz98.hypermart.net/
+    Back Orifice/cDc..................http://www.cultdeadcow.com/
+    News site (HNN) .....,............http://www.hackernews.com/
+    Help Net Security.................http://net-security.org/  
+    News,Advisories,++ ...............http://www.l0pht.com/
+    NewsTrolls (HNN)..................http://www.newstrolls.com/
+    News + Exploit archive ...........http://www.rootshell.com/beta/news.html
+    CuD ..............................http://www.soci.niu.edu/~cudigest
+    News site+........................http://www.zdnet.com/
+
+    +Various mailing lists and some newsgroups, such as ...
+    +other sites available on the HNN affiliates page, please see
+     http://www.hackernews.com/affiliates.html as they seem to be popping up
+     rather frequently ...
+
+    * Yes demoniz is now officially retired, if you go to that site though the
+     Bikkel web board (as of this writing) is STILL ACTIVE, www.hwa-iwa.org will
+     also be hosting a webboard as soon as that site comes online perhaps you can
+     visit it and check us out if I can get some decent wwwboard code running I
+     don't really want to write my own, another alternative being considered is a
+     telnet bbs that will be semi-open to all, you will be kept posted. - cruciphux
+    
+    http://www.the-project.org/ .. IRC list/admin archives
+    http://www.anchordesk.com/  .. Jesse Berst's AnchorDesk
+    
+    alt.hackers.malicious
+    alt.hackers
+    alt.2600
+    BUGTRAQ
+    ISN security mailing list
+    ntbugtraq
+    <+others>
+
+    NEWS Agencies, News search engines etc:
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    http://www.cnn.com/SEARCH/
+    http://www.foxnews.com/search/cgi-bin/search.cgi?query=cracker&days=0&wires=0&startwire=0
+    http://www.news.com/Searching/Results/1,18,1,00.html?querystr=cracker
+    http://www.ottawacitizen.com/business/
+    http://search.yahoo.com.sg/search/news_sg?p=cracker
+    http://www.washingtonpost.com/cgi-bin/search?DB_NAME=WPlate&TOTAL_HITLIST=20&DEFAULT_OPERATOR=AND&headline=&WITHIN_FIELD_NAME=.lt.event_date&WITHIN_DAYS=0&description=cracker
+    http://www.zdnet.com/zdtv/cybercrime/
+    http://www.zdnet.com/zdtv/cybercrime/chaostheory/ (Kevin Poulsen's Column)
+
+    NOTE: See appendices for details on other links.
+    
+    Referenced news links
+    ~~~~~~~~~~~~~~~~~~~~~
+       
+    http://news.bbc.co.uk/hi/english/sci/tech/newsid_254000/254236.stm
+    http://freespeech.org/eua/ Electronic Underground Affiliation
+    http://www.l0pht.com/cyberul.html     
+    http://www.hackernews.com/archive.html?122998.html
+    http://ech0.cjb.net ech0 Security
+    http://net-security.org Net Security  
+
+    ...
+    
+    
+    Submissions/Hints/Tips/Etc
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~
+    
+             "silly faggot, dix are for chix" 
+             
+                                     - from irc ... by unknown ;-)
+    
+    
+    All submissions that are `published' are printed with the credits
+    you provide, if no response is received by a week or two it is assumed
+    that you don't care wether the article/email is to be used in an issue
+    or not and may be used at my discretion.
+    
+    Looking for:
+    
+    Good news sites that are not already listed here OR on the HNN affiliates
+    page at http://www.hackernews.com/affiliates.html
+    
+    Magazines (complete or just the articles) of breaking sekurity or hacker
+    activity in your region, this includes telephone phraud and any other
+    technological use, abuse hole or cool thingy. ;-) cut em out and send it
+    to the drop box.
+    
+    
+    - Ed
+    
+    Mailing List Subscription Info   (Far from complete)         Feb 1999
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   ~~~~~~~~~~~~~~~~~~~         ~~~~~~~~	
+        
+    ISS Security mailing list faq : http://www.iss.net/iss/maillist.html
+    
+    
+    THE MOST READ:
+    
+    BUGTRAQ - Subscription info
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    
+    What is Bugtraq?     
+
+    Bugtraq is a full-disclosure UNIX security mailing list, (see the info
+    file) started by Scott Chasin <chasin@crimelab.com>. To subscribe to 
+    bugtraq, send mail to listserv@netspace.org containing the message body
+    subscribe bugtraq. I've been archiving this list on the web since late 
+    1993. It is searchable with glimpse and archived on-the-fly with hypermail.
+    
+    Searchable Hypermail Index;
+         
+          http://www.eecs.nwu.edu/~jmyers/bugtraq/index.html
+    
+    
+        
+    About the Bugtraq mailing list
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    
+    The following comes from Bugtraq's info file: 
+
+    This list is for *detailed* discussion of UNIX security holes: what they are,
+    how to exploit, and what to do to fix them. 
+
+    This list is not intended to be about cracking systems or exploiting their 
+    vulnerabilities. It is about defining, recognizing, and preventing use of 
+    security holes and risks. 
+
+    Please refrain from posting one-line messages or messages that do not contain
+    any substance that can relate to this list`s charter. 
+
+    I will allow certain informational posts regarding updates to security tools,
+    documents, etc. But I will not tolerate any unnecessary or nonessential "noise"
+    on this list. 
+
+    Please follow the below guidelines on what kind of information should be posted
+    to the Bugtraq list: 
+
+    + Information on Unix related security holes/backdoors (past and present) 
+    + Exploit programs, scripts or detailed processes about the above 
+    + Patches, workarounds, fixes 
+    + Announcements, advisories or warnings 
+    + Ideas, future plans or current works dealing with Unix security 
+    + Information material regarding vendor contacts and procedures 
+    + Individual experiences in dealing with above vendors or security organizations 
+    + Incident advisories or informational reporting 
+
+    Any non-essential replies should not be directed to the list but to the originator of the message. Please do not "CC" the bugtraq
+    reflector address if the response does not meet the above criteria. 
+
+    Remember: YOYOW. 
+
+    You own your own words. This means that you are responsible for the words that you post on this list and that reproduction of
+    those words without your permission in any medium outside the distribution of this list may be challenged by you, the author. 
+
+    For questions or comments, please mail me: 
+    chasin@crimelab.com (Scott Chasin) 
+
+    
+    BEST-OF-SECURITY Subscription Info.
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+           
+    
+                    _/_/_/          _/_/          _/_/_/
+                   _/    _/      _/    _/      _/
+                  _/_/_/        _/    _/        _/_/
+                 _/    _/      _/    _/            _/
+                _/_/_/          _/_/        _/_/_/
+
+                Best            Of          Security
+
+    "echo subscribe|mail best-of-security-request@suburbia.net"
+
+                                or
+
+    "echo subscribe|mail best-of-security-request-d@suburbia.net"
+
+                          (weekly digest)
+
+    For those of you that just don't get the above, try sending a message to
+    best-of-security-request@suburbia.net with a subject and body of subscribe
+    and you will get added to the list (maybe, if the admin likes your email).  
+    
+    Crypto-Gram
+    ~~~~~~~~~~~
+    
+       CRYPTO-GRAM is a free monthly newsletter providing summaries, analyses,
+      insights, and commentaries on cryptography and computer security.
+
+      To subscribe, visit http://www.counterpane.com/crypto-gram.html or send a
+      blank message to crypto-gram-subscribe@chaparraltree.com.  To unsubscribe,
+      visit http://www.counterpane.com/unsubform.html.  Back issues are available
+      on http://www.counterpane.com.
+      
+       CRYPTO-GRAM is written by Bruce Schneier.  Schneier is president of
+      Counterpane Systems, the author of "Applied Cryptography," and an inventor
+      of the Blowfish, Twofish, and Yarrow algorithms.  He served on the board of
+      the International Association for Cryptologic Research, EPIC, and VTW.  He
+      is a frequent writer and lecturer on cryptography.
+  
+
+    CUD Computer Underground Digest
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    This info directly from their latest ish:
+    
+    Computer underground Digest    Sun  14 Feb, 1999   Volume 11 : Issue 09
+     
+                      ISSN  1004-042X
+
+       Editor: Jim Thomas (cudigest@sun.soci.niu.edu)
+       News Editor: Gordon Meyer (gmeyer@sun.soci.niu.edu)
+       Archivist: Brendan Kehoe
+       Poof Reader:   Etaion Shrdlu, Jr.
+       Shadow-Archivists: Dan Carosone / Paul Southworth
+                          Ralph Sims / Jyrki Kuoppala
+                          Ian Dickinson
+       Cu Digest Homepage: http://www.soci.niu.edu/~cudigest
+
+    
+
+    [ISN] Security list
+    ~~~~~~~~~~~~~~~~~~~
+    This is a low volume list with lots of informative articles, if I had my
+    way i'd reproduce them ALL here, well almost all .... ;-) - Ed
+    
+    
+    Subscribe: mail majordomo@repsec.com with "subscribe isn".
+
+
+
+    @HWA
+    
+     
+  00.3  THIS IS WHO WE ARE 
+        ~~~~~~~~~~~~~~~~~~
+      
+      'A "thug" was once the name for a ritual strangler, and is taken from
+       the Hindu word Thag... ' - Ed
+      
+      
+      Some HWA members and Legacy staff
+      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~    
+      cruciphux@dok.org.........: currently active/editorial
+      darkshadez@ThePentagon.com: currently active/man in black
+      fprophet@dok.org..........: currently active/IRC+ man in black
+      sas72@usa.net ............. currently active/IRC+ distribution
+      vexxation@usa.net ........: currently active/IRC+ proof reader/grrl in black
+      dicentra...(email withheld): IRC+ grrl in black
+      
+      
+      Foreign Correspondants/affiliate members
+      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      ATTENTION: All foreign correspondants please check in or be removed by next
+      issue  I need  your current emails since contact info was recently lost in a 
+      HD mishap and i'm not carrying any deadweight. Plus we need more people sending
+      in info, my apologies for not getting back to you if you sent in January I lost
+      it, please resend. 
+      
+      
+               
+       N0Portz ..........................: Australia      
+       Qubik ............................: United Kingdom 
+       system error .....................: Indonesia      
+       Wile (wile coyote) ...............: Japan/the East 
+       Ruffneck  ........................: Netherlands/Holland
+       
+       And unofficially yet contributing too much to ignore ;)
+       
+       Spikeman .........................: World media 
+       
+       Please send in your sites for inclusion here if you haven't already
+       also if you want your emails listed send me a note ... - Ed
+       
+      http://www.genocide2600.com/~spikeman/  .. Spikeman's DoS and protection site
+        
+       
+     Contributors to this issue:
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+       liquid phire......................: underground prose
+     
+       Qubik ............................: Hacking in Germany+     
+     
+       Spikeman .........................: daily news updates+       
+     
+       *******************************************************************    
+       ***      /join #HWA.hax0r.news on EFnet the key is `zwen'       ***
+       *******************************************************************
+    
+    :-p  
+    
+    
+    1. We do NOT work for the government in any shape or form.Unless you count paying
+       taxes ... in which case we work for the gov't in a BIG WAY. :-/
+     
+    2. MOSTLY Unchanged since issue #1, although issues are a digest of recent news
+       events its a good idea to check out issue #1 at least and possibly also the
+       Xmas issue for a good feel of what we're all about otherwise enjoy - Ed ...
+        
+    
+    @HWA
+    
+    
+
+  00.4  Whats in a name? why HWA.hax0r.news??
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     
+      Well what does HWA stand for? never mind if you ever find out I may
+     have to get those hax0rs from 'Hackers' or the Pretorians after you.
+     
+     In case you couldn't figure it out hax0r is "new skewl" and although
+     it is laughed at, shunned, or even pidgeon holed with those 'dumb
+     leet (l33t?) dewds' <see article in issue #4> this is the state
+     of affairs. It ain't Stephen Levy's HACKERS anymore. BTW to all you 
+     up  and comers, i'd highly recommend you get that book. Its almost 
+     like  buying a clue. Anyway..on with the show .. - Editorial staff
+     
+
+   
+
+  00.5  HWA FAQ v1.0 Feb 13th 1999 (Abridged & slightly updated again)
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+       
+    Also released in issue #3. (revised) check that issue for the faq
+    it won't be reprinted unless changed in a big way with the exception
+    of the following excerpt from the FAQ, included to assist first time
+    readers:
+
+    Some of the stuff related to personal useage and use in this zine are
+    listed below: Some are very useful, others attempt to deny the any possible
+    attempts at eschewing obfuscation by obsucuring their actual definitions.
+    
+    @HWA   - see EoA  ;-)
+    
+    !=     - Mathematical notation "is not equal to" or "does not equal"
+             ASC(247)  "wavey equals" sign means "almost equal" to. If written
+             an =/= (equals sign with a slash thru it) also means !=, =< is Equal
+             to or less than and =>  is equal to or greater than (etc, this aint 
+             fucking grade school, cripes, don't believe I just typed all that..)      
+             
+    AAM    - Ask a minor (someone under age of adulthood, usually <16, <18 or <21)
+    
+    AOL    - A great deal of people that got ripped off for net access by a huge
+             clueless isp with sekurity that you can drive buses through, we're
+             not talking Kung-Fu being none too good here, Buy-A-Kloo maybe at the
+             least they could try leasing one??
+             
+   *CC     - 1 - Credit Card (as in phraud)
+             2 - .cc is COCOS (Keeling) ISLANDS butthey probably accept cc's
+    
+    CCC    - Chaos Computer Club (Germany)               
+    
+   *CON    - Conference, a place hackers crackers and hax0rs among others go to swap
+             ideas, get drunk, swap new mad inphoz, get drunk, swap gear, get drunk
+             watch videos and seminars, get drunk, listen to speakers, and last but
+             not least, get drunk.
+   *CRACKER - 1 . Someone who cracks games, encryption or codes, in popular hacker
+                 speak he's the guy that breaks into systems and is often (but by no
+                 means always) a "script kiddie" see pheer
+              2 . An edible biscuit usually crappy tasting without a nice dip, I like
+                  jalapeno pepper dip or chives sour cream and onion, yum - Ed
+    
+    Ebonics - speaking like a rastafarian or hip dude of colour <sic> also wigger
+              Vanilla Ice is a wigger, The Beastie Boys and rappers speak using
+              ebonics, speaking in a dark tongue ... being ereet, see pheer
+                              
+    EoC    - End of Commentary
+    
+    EoA    - End of Article or more commonly @HWA
+    
+    EoF    - End of file
+    
+    EoD    - End of diatribe (AOL'ers: look it up)
+    
+    FUD    - Coined by Unknown and made famous by HNN <g> - "Fear uncertainty and doubt",
+            usually in general media articles not high brow articles such as ours or other
+            HNN affiliates ;)
+            
+    du0d   - a small furry animal that scurries over keyboards causing people to type
+             wierd crap on irc, hence when someone says something stupid or off topic
+             'du0d wtf are you talkin about' may be used.        
+            
+   *HACKER - Read Stephen Levy's HACKERS for the true definition, then see HAX0R
+            
+   *HAX0R - 1 - Cracker, hacker wannabe, in some cases a true hacker, this is difficult to
+            define, I think it is best defined as pop culture's view on The Hacker ala
+            movies such as well erhm "Hackers" and The Net etc... usually used by "real"
+            hackers or crackers in a derogatory or slang humorous way, like 'hax0r me 
+            some coffee?' or can you hax0r some bread on the way to the table please?'          
+            
+            2 - A tool for cutting sheet metal.
+            
+    HHN    - Maybe a bit confusing with HNN but we did spring to life around the same
+             time too, HWA Hax0r News.... HHN is a part of HNN .. and HNN as a proper
+             noun means the hackernews site proper. k? k. ;&
+             
+    HNN    - Hacker News Network and its affiliates http://www.hackernews.com/affiliates.html       
+    
+    J00    - "you"(as in j00 are OWN3D du0d) - see 0wn3d 
+    
+    MFI/MOI- Missing on/from IRC
+    
+    NFC   - Depends on context: No Further Comment or No Fucking Comment
+    
+    NFR   - Network Flight Recorder (Do a websearch) see 0wn3d
+    
+    NFW   - No fuckin'way 
+    
+   *0WN3D - You are cracked and owned by an elite entity see pheer 
+   *OFCS  - Oh for christ's sakes
+       
+    PHACV - And variations of same <coff> 
+            Phreaking, Hacking, Anarchy, Cracking, Carding (CC) Groups Virus, Warfare
+          
+          Alternates: H - hacking, hacktivist
+                      C - Cracking <software>
+                      C - Cracking <systems hacking>
+                      V - Virus 
+                      W - Warfare <cyberwarfare usually as in Jihad>
+                     CT - Cyber Terrorism
+   
+   *PHEER -  This is what you do when an ereet or elite person is in your presence
+            see 0wn3d 
+                       
+   *RTFM  - Read the fucking manual - not always applicable since some manuals are
+            pure shit but if the answer you seek is indeed in the manual then you
+            should have RTFM you dumb ass.
+    
+    TBC   - To Be Continued also 2bc (usually followed by ellipses...) :^0
+    
+    TBA   - To Be Arranged/To Be Announced also 2ba
+    
+    TFS   - Tough fucking shit.
+    
+   *w00t  - 1 - Reserved for the uber ereet, noone can say this without severe repercussions
+            from the underground masses. also "w00ten" <sic>
+            
+            2 - Cruciphux and sAs72's second favourite word (they're both shit stirrers)
+            
+    *wtf  - what the fuck       
+    
+    *ZEN  - The state you reach when you *think* you know everything (but really don't)
+            usually shortly after reaching the ZEN like state something will break that
+            you just 'fixed' or tweaked.
+        
+  01.0  Greets!?!?! yeah greets! w0w huh. - Ed
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     
+     Thanks to all in the community for their support and interest but i'd
+     like to see more reader input, help me out here, whats good, what sucks
+     etc, not that I guarantee i'll take any notice mind you, but send in 
+     your thoughts anyway.
+     
+     
+     Shouts to:
+
+       * Kevin Mitnick       * demoniz          * The l0pht crew
+       * tattooman           * Dicentra         * Pyra          
+       * Vexxation           * FProphet         * TwistedP      
+       * NeMstah             * the readers      * mj
+       * Kokey               * ypwitch          * kimmie
+       * tsal                * spikeman         * YOU.
+
+       * #leetchans ppl, you know who you are...
+       
+       * all the people who sent in cool emails and support
+       * our new 'staff' members.
+
+
+  
+     kewl sites:
+     
+     + http://www.freshmeat.net/
+     + http://www.slashdot.org/
+     + http://www.l0pht.com/
+     + http://www.2600.com/
+     + http://hacknews.bikkel.com/ (http://www.bikkel.com/~demoniz/)
+     + http://www.legions.org/
+     + http://www.genocide2600.com/      
+     + http://www.genocide2600.com/~spikeman/
+     + http://www.genocide2600.com/~tattooman/     
+     + http://www.hackernews.com/ (Went online same time we started issue 1!)          
+   
+     @HWA
+     
+
+  01.1  Last minute stuff, rumours and newsbytes
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+       
+       "What is popular isn't always right, and what is right isn't
+         always popular..." 
+                           - FProphet '99
+
+    +++ When was the last time you backed up your important data?     
+
+
+    ++  CRACKER SENTENCED TO 1 YEAR PRISON 
+        by deepcase, Wednesday 24th Feb 1999 on 3:42 pm ; via help net security
+        Sean Trifero, a 21 year old cracker from Rhode Island, has been sentenced to 1
+        year prison and $32,650 payment for the damage he did to serval universities he 
+        hacked . Between 1996 and 1997 he broke into Harvard University and Amherst 
+        College. - Wired
+
+
+    ++  CROATIAN TROJAN USER CAUGHT 
+        by BHZ, Wednesday 24th Feb 1999 on 12:31 pm ; via help net security
+        Another trojan user caught by the police. This time Croatian police caught young
+        "hacker", who used NetBus and Back orifice to enter remote computers, and to delete
+        some files. He was spreading trojan servers over ICQ. Well stupid thing to do, 
+        cause HiNet, ISP in Croatia (strange but Croatia has only one major ISP), has been
+        monitoring for 31337 port sweepers for couple of months. "Hacker" is juvenile, so 
+        no prison sentence for him. Original article was posted in Croatian daily newspaper
+        Vecernji List.
+
+
+
+
+    ++ Big Three Telecom Carriers Make Big Promises
+      
+       The Big Three carriers all said they have end-to-end services that
+       integrate voice, data, and video traffic. But a closer look reveals
+       AT&T, MCI WorldCom, and Sprint may be a little further from full
+       rollouts than they're letting on. 
+       http://www.techweb.com/wire/story/TWB19990224S0009
+
+
+    
+    
+    
+
+     ++ ALASKA ISPS CLAIM TELCO SNOW JOB (BUS. 3:00 am)
+        http://www.wired.com/news/news/email/explode-infobeat/business/story/18082.html
+
+        The Last Frontier's Net service providers are battling a telco that is offering
+        free access and owns the link to the Lower 48. By Polly Sprenger.
+        
+    
+    ++ WANTED!: POSTCARDS! YESH! POSTCARDS, I COLLECT EM so I know a lot of you are
+       ~~~~~~~  reading this from some interesting places, make my day and get a 
+                mention in the zine, send in a postcard, I realize that some places 
+                it is cost prohibitive but if you have the time and money be a cool 
+                dude / gal and send a poor guy a postcard preferably one that has some
+                scenery from your place of residence for my collection, I collect stamps
+                too so you kill two birds with one stone by being cool and mailing in a 
+                postcard, return address not necessary, just a  "hey dude being cool in 
+                Bahrain, take it easy" will do ... ;-) thanx. you know where to look for
+                the address it appears earlier in this file ...
+    
+    
+    
+     ++  PRIVACY HACK ON PENTIUM III (TECH. Tuesday)
+         http://www.wired.com/news/news/email/explode-infobeat/technology/story/18078.html
+
+         The editors at a German computer magazine have discovered a hack for the
+         controversial Pentium III serial number. Is it as safe as Intel claims? 
+         (the short answer is no, the long answer is no but what use is it in the end?)
+         By Leander Kahney.
+ 
+     ++  NEW CELL PHONE 'GETS' THE WEB (TECH. Tuesday)
+         http://www.wired.com/news/news/email/explode-infobeat/technology/story/18076.html
+
+         Nokia is the first to roll out a cell phone based on a protocol meant to
+         shuttle data originating on the Internet to users on the go.
+    
+     
+
+    ++  RUBIK'S CUBE AND Y2K (TECH. Tuesday)
+        http://www.wired.com/news/news/email/explode-infobeat/technology/story/18075.html
+
+        What's the connection? The same kid who solved that darned
+        puzzle at age 12 has resurfaced to pitch a solution for the
+        millennium bug.
+
+     
+     
+     ++ FCC CLOSING NET CALL LOOPHOLE (BUS. Tuesday)
+        http://www.wired.com/news/news/email/explode-infobeat/business/story/18077.html
+
+        The agency is expected to approve a measure to keep new local
+        phone companies from cashing in on Net calls. Also: US West
+        sees slower growth.... Broadcast.com gets better flicks....
+        and more.
+
+
+
+     ++ 'MY NEW JOB DOESN'T SUCK.'
+  
+        FIRED MED EDITOR LANDS ON NET (CULT. 7:35 am)
+        http://www.wired.com/news/news/email/explode-infobeat/culture/story/18098.html
+ 
+        George Lundberg, canned by a major medical journal for running an oral-sex
+        survey article during the impeachment trial, is named editor in chief of 
+        Medscape.
+
+
+     ++ VIRGINIA PASSES ANTI-SPAM BILL (Feb 26th POL. 7:35 am)
+        http://www.wired.com/news/news/email/explode-infobeat/politics/story/18097.html
+
+        The governor says he'll sign the legislation, which would make sending junk
+        email a crime and include stiff punitive penalties. AOL likes it; 
+        the ACLU doesn't.
+
+    
+
+
+
+     ++  THINNER, SEXIER PALMPILOTS (Feb 22nd TECH. 9:30 am)
+         http://www.wired.com/news/news/email/explode-infobeat/technology/story/18045.html
+         
+         The world's most successful handheld organizer gets lighter
+         and sleeker with the introduction of a couple of cousins.
+         Say hello to the Palm V and the Palm IIIx. By Chris Oakes.
+         
+
+
+     ++  WHOLE FOODS GOING ONLINE (Feb 22nd BUS. 7:30 am)
+         http://www.wired.com/news/news/email/explode-infobeat/business/story/18042.html
+
+
+         The natural-foods grocer establishes an e-commerce
+         subsidiary. It hopes to offer 6,000 products online this
+         spring, and become profitable within two years.
+         
+         
+
+     ++  MP3 PLAYS SILICON ALLEY (Feb 22nd CULT. 3:00 am)
+         http://www.wired.com/news/news/email/explode-infobeat/culture/story/18027.html
+
+
+         Two big names in MP3, Chuck D and Michael Robertson, spread
+         the word about digital download at the annual Silicon Alley
+         conference. David Kushner reports from New York.
+         . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+
+     ++  A NEW CHIP OFF AN OLD BLOCK (Feb 22nd TECH. 3:00 am)
+         http://www.wired.com/news/news/email/explode-infobeat/technology/story/18035.html
+
+
+         Pioneer chipmaker Advanced Micro Devices unveils its K6-3
+         microprocessor, a product aimed squarely at Intel's new
+         Pentium III. Analysts are ready with buckets of cold water.
+         . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+         
+         
+      ++ Train Technology at Center of Patent Action
+
+
+         A joint venture that includes industrial giant General Electric Co. has
+         sued a company founded by the inventor of the air brake for allegedly
+         infringing on two patents for locomotive remote controls. The suit,
+         filed in Delaware federal court by GE Harris Railway Electronics LLC, a
+         joint venture between GE and Harris Corp., said that Westinghouse Air
+         Brake Co. employs technology licensed to GE Harris. The technology at
+         issue is used in systems that enable engineers in a front locomotive to
+         remotely control several locomotives placed throughout a winding train.
+         (Delaware Law Weekly -- For complete story, see
+         http://www.lawnewsnetwork.com/stories/feb/e022399d.html)
+       
+         
+     ++  Microsoft begins embedded NT beta
+         http://www.news.com/News/Item/0%2C4%2C32687%2C00.html?dd.ne.txt.0222.15
+       
+       
+     ++ MCI WorldCom Accelerates Academic Backbone
+        MCI WorldCom quadruples the capacity of its research and
+        academic high-speed network with the installation of an OC-48
+        link between L.A. and San Francisco.
+        http://www.techweb.com/wire/story/TWB19990222S0004
+
+    ++ IBM Plans System-On-Chip Products
+       Big Blue announces it will start designing custom semiconductors
+       that will hold both memory and logic functions.
+       http://www.techweb.com/wire/story/TWB19990222S0003
+
+    ++ Judge Clarifies Microsoft Injunction
+       The software giant is free to sell Java tools that it built itself
+       without help from Sun's Java code.
+       http://www.techweb.com/wire/story/msftdoj/TWB19990219S0026
+
+    ++ This is cool i've been waiting for this to take hold for years - Ed
+    
+        E-Book Poised To Eclipse 10,000 Units Sold
+        Booksellers and publishers are converting hundreds of book titles
+        to the e-book format.
+        http://www.techweb.com/wire/story/TWB19990219S0025
+
+
+     ++ WHERE THE BIG BOYS ARE (Feb 22nd CULT. 3:00 am)
+        http://www.wired.com/news/news/email/explode-infobeat/culture/story/18039.html
+
+
+        Players in the videogame industry are big and getting bigger.
+        Consolidation is their only defense against the Net and
+        software piracy.
+         . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+
+     ++ TAKING THE STAND AT ANTITRUST II (Feb 22nd POL. 3:00 am)
+        http://www.wired.com/news/news/email/explode-infobeat/politics/story/18036.html
+
+
+        Computer industry leaders are expected to testify as the
+        government prepares for another high-profile antitrust case.
+        This time the target is Intel Corp.
+
+
+
+ 01.2 MAILBAG - and more last minute newsbytes from SPikeman
+      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      
+                                . . . . . . .
+     
+   
+    Date: Mon, 22 Feb 1999 19:02:59 +0100 (CET) 
+    From: Dariusz Zmokly <ak8735@box43.gnet.pl> 
+    Subject: zine 
+    
+     
+     hi !
+     
+     
+     I would like to subscribe and get your zine via email.
+     
+     
+     see ya
+     globi
+     /  I am linux enthusiast / globi on irc channels #plug #coders  /
+         
+                               . . . . . . .
+                               
+    
+    !>We don't currently have majordomo up and running but we're planning on doing
+      this in the not so distant future, at that time the zine will be mailed out
+      to all subscribers so you don't have to keep hitting the site for your copy
+      we'll keep you posted on this in the zine or on the site... -Ed
+     
+                               . . . . . . .
+                               
+     
+    From: "steve" <orders@hempbc.com> 
+    To: <hwa@press.usmc.net> 
+    Subject: Question -- 
+    Date: Sun, 21 Feb 1999 12:53:45 -0800 
+   
+
+    If this is a Canadian Con why are you asking ofr US funds?  It seems odd to me.  
+    
+    - cvt
+ 
+    !>This is a good point and you'll notice on the updated con page which has its
+      own redirector now http://come.to/canc0n99/ that this has been changed to $15
+      cdn or $10 us. thanks for the input. - Ed
+    
+                              . . . . . . .
+    
+    
+    
+      Date: Sun, 28 Feb 1999 10:33:54 -0800 
+      From: Spikeman <spikeman@myself.com> 
+      Reply-To: spikeman@myself.com 
+      X-Mailer: Mozilla 3.03 (Win16; U) 
+      MIME-Version: 1.0 
+      To: cruciphux@dok.org 
+      Subject: (no subject) 
+      Content-Type: text/plain; charset=us-ascii 
+      Content-Transfer-Encoding: 7bit 
+      
+      
+      E-caveat emptor
+      An eBay spokesman said he could not give any more details on the
+      type of transactions involved, which agency had contacted the company,
+      or why the statement had been delayed almost a month. The company
+      did say the inquiry is unrelated to Microsoft's stepping up its scrutiny
+      of
+      pirated software trading on the service.
+      http://www.news.com/News/Item/0%2C4%2C33001%2C00.html?dd.ne.txt.wr
+      
+      
+      eBay also also made the news for temporarily blocking an ad from
+      EarthLink that it didn't think complied with the rules of personal
+      online trading. By week's end, Earthlink agreed to play by the rules
+      and its offer was restored.
+      http://www.news.com/News/Item/0%2C4%2C32957%2C00.html?dd.ne.txt.wr
+      http://www.news.com/News/Item/0%2C4%2C32992%2C00.html?dd.ne.txt.wr
+      
+      
+      Elsewhere, Compaq temporarily suspended sales agreements with
+      as many as ten companies, including Buy.com, Cyberian Outpost,
+      and even its own Shopping.com. Analysts said Compaq is worried
+      about losing control of the distribution channel. Microsoft too
+      wrestled with the problem of managing resellers in relaunching its
+      online store.
+      http://www.news.com/News/Item/0%2C4%2C32929%2C00.html?dd.ne.txt.wr
+      http://www.news.com/News/Item/0%2C4%2C32990%2C00.html?dd.ne.txt.wr
+      
+      
+      For some, the challenge is simply keeping the Web site up and
+      running. Charles Schwab's site for online investors crashed for
+      about an hour an one half on Wednesday, a glitch the brokerage
+      firm blamed on a "mainframe problem." Schwab is not the first
+      e-trader to suffer during a boom in online trading.
+      http://www.news.com/News/Item/0%2C4%2C32847%2C00.html?dd.ne.txt.wr
+      
+      
+      Undaunted, the highly anticipated Drugstore.com launched this week,
+      and e-commerce giant Amazon.com--also backed by venture
+      capitalist Kleiner Perkins--said it would buy a major stake. Both
+      companies face stiff competition, both from e-tailers and brick-and-
+      morter providers. Home Depot also said it expected to get into the
+      online business later this year.
+      http://www.news.com/News/Item/0%2C4%2C32838%2C00.html?dd.ne.txt.wr
+      http://www.news.com/SpecialFeatures/0%2C5%2C32538%2C00.html?dd.ne.txt.wr
+      
+      
+      Though e-commerce stocks are down between a third to
+      one-half of the 52-week highs reached late last year, some
+      analysts discern buying opportunities. One reason: the e-tailers
+      are seen as acquisition targets.
+      http://www.news.com/News/Item/0%2C4%2C32805%2C00.html?dd.ne.txt.wr
+      
+      
+      Marketing headaches
+      Intel launched its long-awaited Pentium III chip, but continued to
+      encounter marketing headaches caused by an ID feature meant to
+      facilitate, of all things, e-commerce. Privacy advocates worry it
+      could used for nefarious purposes. IBM, Dell, and Gateway said
+      they will ship computers with a secure method of turning the feature
+      off.
+      http://www.news.com/News/Item/0%2C4%2C32969%2C00.html?dd.ne.txt.wr
+      
+      
+      At a developer's conference, Intel  claimed a speed record for
+      desktop processors in demonstrating a chip that reached 1002
+      Mhz. But much of the conference was devoted to plans for
+      notebooks, including the company's "Geyserville" technology,
+      which allows portables to operate at a lower power state when
+      running on batteries.
+      http://www.news.com/News/Item/0%2C4%2C32845%2C00.html?dd.ne.txt.wr
+      http://www.news.com/News/Item/0%2C4%2C32894%2C00.html?dd.ne.txt.wr
+      
+      
+      Advanced Micro Devices countered by unveiling its 400-Mhz
+      K6-III, and announced K6-2 and K6-III design wins with IBM,
+      Compaq, and Gateway, the latter for the first time. The K6-III
+      costs significantly less than the Pentium III.
+      http://www.news.com/News/Item/0%2C4%2C32664%2C00.html?dd.ne.txt.wr
+      http://www.news.com/News/Item/0%2C4%2C32962%2C00.html?dd.ne.txt.wr
+      
+      
+      Palm Computing launched its newest handheld devices, the Palm
+      IIIx and the Palm V, at a critical juncture for the company--even
+      though Palm is the established leader in the handheld space. Systems
+      based on Microsoft's Windows CE operating system, which feature
+      color displays, are expected to make serious gains in the near future.
+      http://www.news.com/News/Item/0%2C4%2C32679%2C00.html?dd.ne.txt.wr
+      
+      
+      Be chief executive Jean-Louis Gassee said he would offer PC
+      makers the company's operating system software for free,
+      providing they configured the machine so that the BeOS is an
+      initial interface choice a user sees when he or she fires up the
+      computer.
+      http://www.news.com/News/Item/0%2C4%2C32952%2C00.html?dd.ne.txt.wr
+      
+      
+      Phone home
+      The Federal Communications Commission ruled that a call to an
+      Internet service provider should be treated as long distance, but
+      promised it won't impact the flat-rate charges users now pay for
+      dial-up access. The ruling applies only to contracts between
+      individual phone companies.
+      http://www.news.com/News/Item/0%2C4%2C32955%2C00.html?dd.ne.txt.wr
+      http://www.news.com/News/Item/0%2C4%2C32789%2C00.html?dd.ne.txt.wr
+      
+      
+      The FTC's case against Intel will boil down to motive, FTC director
+      William Baer said in an interview. At a hearing set to start on March 9,
+      the agency will try to prove that Intel unfairly withheld products and
+      product plans from customers in good standing to force them to give
+      up intellectual property claims against the chipmaker.
+      http://www.news.com/News/Item/0%2C4%2C32719%2C00.html?dd.ne.txt.wr
+      
+      
+      As its federal antitrust trial recessed, Microsoft appeared down
+      after a week in which manager Dan Rosen's testimony about a
+      key meeting with Netscape was badly undermined and his assertions
+      that the Microsoft didn't view Netscape as a threat were contradicted
+      by email. Additionally, the judge hearing the case challenged senior
+      vice president Joachim Kempin's assertion that consumers aren't
+      likely to use the browser that comes with their personal computers,
+      preferring instead to seek out another one.
+      http://www.news.com/SpecialFeatures/0%2C5%2C27528%2C00.html?dd.ne.txt.wr
+      
+      
+      Nearly two years after would-be Internet registrar PGMedia
+      accused Network Solutions of violating antitrust laws, the suit
+      appears stalled over weighty legal issues and procedural hurdles
+      raised by the government's recent attempts to privatize Internet
+      administration. Bogging down the case is whether the government-
+      appointed monopoly registrar for the most popular forms of
+      Internet addresses can even be sued.
+      http://www.news.com/News/Item/0%2C4%2C32865%2C00.html?dd.ne.txt.wr
+      
+      
+      Extending reach
+      America Online unveiled the latest test version of ICQ, a popular
+      software client that allows users to chat and send instant messages
+      to each other. AOL has set out to establish the client as a key
+      property in its multibranded portal strategy.
+      http://www.news.com/News/Item/0%2C4%2C32798%2C00.html?dd.ne.txt.wr
+      
+      
+      Viacom revealed a major online push involving two projects: one
+      aimed at music fans and another at children. The online music
+      "destination" site, which bears the working title the "Buggles
+      Project" and is scheduled to launch in June, involves the acquisition
+      of Imagine Radio. The children's site, with the working title "Project
+      Nozzle," comes out of Viacom's Nickelodeon unit and is expected
+      to launch in September. The company will provide the new sites
+      with at least $250 million in marketing support, executives said.
+      http://www.news.com/News/Item/0%2C4%2C32779%2C00.html?dd.ne.txt.wr
+      
+      
+      Cisco Systems inked a number of deals and partnerships in the
+      wireless and telecommunications arena, trying to promote data-
+      based technology as a means to implement converged voice,
+      video, and data services across a single network. The company
+      announced an expanded partnership with Bosch Telecom, a new
+      alliance with telecom software provider Illuminet, and new deals
+      for equipment from WIC Connexus and France Telecom.
+      http://www.news.com/News/Item/0%2C4%2C32713%2C00.html?dd.ne.txt.wr
+      
+      
+      Bell Atlantic said it has opened up its high-speed Internet services to
+      many in the Macintosh community, but some Apple Computer users
+      say they still can't sign up. Until earlier this month, the company's
+      Infospeed DSL service had supported most PC-compatible
+      computers, but only the colorful iMacs from among Apple's
+      lineup.
+      http://www.news.com/News/Item/0%2C4%2C32804%2C00.html?dd.ne.txt.wr
+      
+      
+      IBM Global Services has begun piloting new financial applications
+      with database giant Oracle and German software giant SAP, testing
+      outsourced SAP R/3 applications for the auto industry in Brazil and
+      Oracle financials applications with companies in Denmark. The
+      company currently works with two main partners--J.D. Edwards
+      and Great Plains Software--to provide financial applications hosting
+      to small to mid-sized customers with 1,000 seats or less.
+      http://www.news.com/News/Item/0%2C4%2C32862%2C00.html?dd.ne.txt.wr
+      
+      
+      Tackling financial troubles, a tarnished reputation, and the possibility
+      of yet another round of layoffs, the Dutch business software firm
+      has cancelled its BaanWorld annual user meetings, which had been
+      planned for this May in Nashville and later this year in Europe. Baan
+      also was a no-show at this week's key Microsoft manufacturing
+      industry press conference, according to attendees.
+      http://www.news.com/News/Item/0%2C4%2C32918%2C00.html?dd.ne.txt.wr
+      
+      
+      Going live
+      The Internet2 and Abilene projects went live, promising to enhance
+      and speed up Web surfing through the fruits of academic and
+      corporate research conducted over the private network.
+      http://www.news.com/News/Item/0%2C4%2C32822%2C00.html?dd.ne.txt.wr
+      
+      
+      The Nuremberg Files, an anti-abortion site that gained notoriety
+      during a federal lawsuit, was once again shut down by its service
+      provider.
+      http://www.news.com/News/Item/0%2C4%2C32948%2C00.html?dd.ne.txt.wr
+      
+      
+      Lawmakers in Virginia adopted a bill that would make it a crime to
+      spam. The legislation, which Gov. James Gilmore has promised to
+      sign, makes illegal spamming a misdemeanor punishable by fines
+      of up to $500. "Malicious" spamming, defined as causing more
+      than $2,500 in losses for the victim, could be prosecuted as a
+      felony.
+      http://www.news.com/News/Item/0%2C4%2C32830%2C00.html?dd.ne.txt.wr
+      
+      
+      Sony joined the swelling ranks of companies offering technologies
+      designed to deliver music securely online, saying it is developing
+      copyright-management software for secure download to portable
+      devices and PC hard drives. The company will propose its
+      technologies to the Secure Digital Music Initiative, an industry
+      undertaking.
+      http://www.news.com/News/Item/0%2C4%2C32941%2C00.html?dd.ne.txt.wr
+      
+      
+      Also of note
+      EDS  named James Daley, a veteran Price Waterhouse board
+      member, as its new executive vice president and chief financial
+      officer ... The New York Times Company will invest $15 million
+      in cash and services for a minority stake in TheStreet.com ... So
+      many AOL subscribers are trying to use the online giant's Web
+      page publishing system that service has slowed to a crawl or,
+      in some cases, a complete halt ... AMD's K6 family of desktop
+      processors outsold all Intel-based desktop PCs in the U.S.
+      retail market for the first time, according to PC Data's January
+      Retail Hardware Report ... Free-PC says it hopes to ship 1
+      million free personal computers within a year, having already
+      received 1.2 million applications ...Gateway bought a 20
+      percent stake in NECX, a closely held online seller of
+      computers and other electronic products, and said it will
+      begin offering a year's free online access with its PCs.
+      http://www.news.com/News/Item/0%2C4%2C32878%2C00.html?dd.ne.txt.wr
+
+
+
+     Mucho thanks to Spikeman for directing his efforts to our cause of bringing
+     you the news we want to read about in a timely manner ... - Ed
+     
+     
+                               . . . . . . .
+     
+     
+     @HWA
+     
+     
+  02.0  From the editor.#8
+        ~~~~~~~~~~~~~~~~~~
+
+     #include <stdio.h>
+     #include <thoughts.h>
+     #include <backup.h>
+
+     main()
+     {
+      printf ("Read commented source!\n\n");
+      
+     /*             
+      *Well i screwed up this section in #7 it has the same as #6 in it! wonder
+      *if anyone noticed ;-)
+      *
+      *#HWA.hax0r.news is keyed. why u may ask? thats a good question, the answer
+      *is to make sure that ppl don't see the word 'hax0r' and think its some hax0r
+      *channel, the idea being they have at least read an issue or two and know what
+      *to expect. The channel is AFAIK one of (if not the) the first realtime news
+      *channels that takes its news from the online ppl via irc its hosted on EFnet
+      *coz thats where I hang, if anyone wants to bother with one of the other nets
+      *they can ask me and so long as news is passed along I'll allow it to go ahead
+      *thats about all for this issue, dig in and stay free! (and secure) ...
+      *
+      *Moving right along, thanks for the continued support everyone and tty next time...
+      */
+      printf ("EoF.\n");
+      }
+
+
+      * www.hwa-iwa.org is now 'almost' online but not ready for primetime if you go
+      there you will just be presented with a link to the HWA.hax0r.news mirrors
+      the site is under major development and will be announced here when it goes
+      "online for primetime" with webboard and file archives etc etc, stay tuned
+      for more as it becomes available ie: as I get it done ... ;) 
+      
+            
+      w00t w00t w00t! ... 
+      
+      w00t! /`wu:t n & v w00ten /`wu:ten n & v Eng. Unk.
+        1. A transcursion or transcendance into joy from an otherwise inert state
+        2. Something Cruciphux can't go a day without typing on Efnet
+     
+      Congrats, thanks, articles, news submissions and kudos to us at the
+     main address: hwa@press.usmc.net complaints and all nastygrams and 
+     mailbombs can go to /dev/nul nukes, synfloods and papasmurfs to 
+     127.0.0.1, private mail to cruciphux@dok.org
+
+     danke.
+
+     C*:.
+
+
+     @HWA
+
+
+ 02.1 Canc0n99 moves ahead
+      ~~~~~~~~~~~~~~~~~~~~
+      
+      The tentative dates are now Aug 19th to 22nd and if any problems come up with
+      venues then the con will be held in a public park. Planned events include a
+      gamescon with t-shirts as prizes, we hope to have some vendors show up with
+      door prizes etc also there will be a dj and band with some 'special guests'
+      showing up if all goes well. If not it should still be a fun event so keep your
+      calendar clear for those dates and watch this spot for further news on whats
+      happening : http://come.to/canc0n99/ its a small grassroots con and there will
+      be some interesting people there... come check it out.
+      
+     
+     @HWA
+     
+      
+ 02.2 ShadowCon 99
+      ~~~~~~~~~~~~
+      Contributed by Ken Williams
+      
+      Date: Sat, 27 Feb 1999 14:29:37 -0500 (EST) 
+      From: Ken Williams 
+      To: hwa@press.usmc.net 
+      Subject: ShadowCon October 1999 
+      
+      ShadowCon October 1999
+      
+      
+      Preliminary Announcement and Call for Proposals
+      ShadowCon Oct 26 - 27 1999
+      Naval Surface Warfare Center, Dahlgren Va
+      
+      
+      http://www.nswc.navy.mil/ISSEC/CID/
+      
+      
+      Please mark your calendars for this DoD sponsored Intrusion Detection
+      and Information Assurance conference and workshop. There will be no  
+      charge for attendees, but even though it is free we will make sure it
+      is a high-value two days. Please pass this one to people who would be
+      interested.
+      
+      
+      Oct 26 will be a vendor show and high quality talks by experts in the
+      field. If you are interested in presenting, please send email to:
+      shadow@nswc.navy.mil
+      
+      
+      On Oct 27 we will have a workshop from 0800 - 1600. It is entitled
+      "Where's the depth?". This will explore the "last mile" problem in
+      implementing a defense in depth strategy focusing on issues related to  
+      instrumenting and protecting desktop computer systems. Once an attacker  
+      is inside a facility either by circumventing a firewall, using insider   
+      access, or exploiting a backdoor there is little chance they will be    
+      stopped or even detected. There are a number of approaches including    
+      personal firewalls and host based intrusion detection systems. Even so,    
+      we have a long way to go before our desktops are truly a sensor network,  
+      or before we can actually protect these systems. Workshop topics will be  
+      divided between pragmatic and research solutions and challenges. The      
+      workshop is invitation only. There will be a limited number of observer   
+      seats for funding agencies, but this is primarily for active participants.
+      If you wish to particpate send a proposal describing what you can bring
+      to the table to shadow@nswc.navy.mil
+      
+      
+      There may also be a workshop for issues facing Information System
+      Security Managers.
+      
+      Hope to see you there!
+      
+      
+      The Shadow Team
+      
+      
+      Packet Storm Security                 http://packetstorm.genocide2600.com/
+      Trinux: Linux Security Toolkit http://www.trinux.org/ ftp://ftp.trinux.org
+      PGP DH/DSS/RSA Public Keys     http://packetstorm.genocide2600.com/pgpkey/
+      E.H.A.P. VP & Head of Operations http://www.ehap.org/   tattooman@ehap.org
+      NCSU Computer Science      http://www.csc.ncsu.edu/  jkwilli2@csc.ncsu.edu   
+      
+      @HWA
+     
+     
+ 02.3 Another gem from Phiregod
+      ~~~~~~~~~~~~~~~~~~~~~~~~~
+    
+     From: "liquid phire" <liquidphire@hotmail.com> 
+     To: cruciphux@dok.org 
+     Subject: Re: intel 
+     Date: Fri, 26 Feb 1999 17:28:11 PST 
+     
+          
+     febuary 28th 1999 is the end of personal privacy on the internet as we 
+     know it. a false sense of freedom will envelope every person who buys a 
+     new pentium III processor, for with this purchase we will no longer be 
+     private citizens.
+     
+     
+     anyone who uses this processor can and will be monitored by any 
+     interested third party, for whatever reason. this unconsulted move by 
+     the intel corporation toward the consumer is the first step towards a 
+     world in which the individual will no longer exsist.
+     
+     
+     we can not let this happen, by boycott or by ballot this encroachment 
+     upon our values must not go unnoticed. the very words that the founders 
+     of this nation fought for will soon be twisted into mottos reminiscent 
+     of nightmares.
+     
+     
+     war is peace
+     freedom is slavery
+     ignorance is strength
+     
+     
+     spread the word of this flagrant violation against the citizens of the 
+     free and imprisioned world. if this mistake is incorporated blindly into 
+     our lives there will be no turning back, and there will be no way to 
+     correct this horrible disregard for our personal lives.
+     
+     
+     this another wrong that must be righted if not by laws then by the 
+     people they are supposed to protect. i am not one who would like my 
+     movements or the contents of my computer open to public view, and i'm 
+     sure no one else does either so with this i leave you.
+     
+     
+     america is an empire, and like all great empires it will fall. it is 
+     just a question of by whom and when.
+     
+     
+     phiregod
+     liquidphire@hotmail.com
+     please excuse any punctuation and/or spelling errors
+     
+
+          
+     Kewl, thanks again for sharing Phiregod, I hope to see more in the future...;)
+     - Ed 
+     
+    
+     @HWA
+      
+                   
+ 03.0 News from the UK by Qubik
+      ~~~~~~~~~~~~~~~~~~~~~~~~~
+ 
+ 
+      Spotlight on - ???
+      ~~~~~~~~~~~~~~~~~~
+      
+      Would you like to have yoursite featured in an issue of Hackerz Without
+      Attitudez? If so, just send an e-mail to qubik@bikkel.com, with a breif
+      description of yourself and your site.
+      
+      Mail me at qubik@bikkel.com.
+      
+      
+      UK Hackers and Phreaks Panal at this years Def Con..?
+      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      
+      Live in the UK? Going to Def Con? I'm interested in hearing from all you
+      folks from the UK underground, lets discuss the possibilities of a UK
+      hack/phreak panal. You'll need a good understanding of the UK
+      underground and your specialised area, be able to talk to a crowd, and
+      preferably have spoken at a Con before. Interested? I'll be at the 2600
+      meeting in London on Friday the 5th of March, why not talk face-to-face?
+      Or mail me at qubik@bikkel.com.
+       
+          
+      @HWA
+      
+      
+ 03.1 Hackers Reportedly Seize British Military Satellite 
+      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      
+      Contributed by FProphet via: webcrawler top headlines/reuters
+      
+      LONDON (Reuters) - Hackers have seized control of one of
+     Britain's military communication satellites and issued blackmail
+     threats, The Sunday Business newspaper reported.
+
+     The newspaper, quoting security sources, said the intruders altered
+     the course of one of Britain's four satellites that are used by
+     defense planners and military forces around the world.
+
+     The sources said the satellite's course was changed just over two
+     weeks ago. The hackers then issued a blackmail threat, demanding
+     money to stop interfering with the satellite.
+
+     "This is a nightmare scenario," said one intelligence source. Military
+     strategists said that if Britain were to come under nuclear attack,
+     an aggressor would first interfere with military communications
+     systems.
+
+     "This is not just a case of computer nerds mucking about. This is
+     very, very serious and the blackmail threat has made it even more
+     serious," one security source said.
+
+     Police said they would not comment as the investigation was at too
+     sensitive a stage. The Ministry of Defense made no comment.
+
+     @HWA
+      
+ 04.0 Cracker makes off with $100k
+      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   
+       Eftpos scam nets crafty expert a sizeable refund 
+       By GARRY BARKER - TECHNOLOGY REPORTER 
+       Contributed by Spikeman
+          
+          Somewhere on the run from police, a computer-smart criminal 
+          is spending $100,000 stolen from the National Bank of 
+          Australia through Eftpos terminals.
+          The fraud, part of a complex scam, was first discovered 
+          late last year when bogus refunds on debit card purchases 
+          began to appear, according to the bank's corporate 
+          relations manager, Mr Hayden Park.
+          On 4January, the bank withdrew refund facilities through 
+          Eftpos terminals for debit cards.
+          Further fraud, involving credit cards, appeared in January, 
+          and on 12February all refund facilities through Eftpos terminals were
+          withdrawn.
+          ``The customer still gets the money back, but the refund 
+          has to be done manually, not electronically through the 
+          terminal,'' Mr Park said. ``We expect to have fixed the 
+          problem - closed the door - and have automatic refunds back 
+          on the terminals in six to eight weeks.''
+          The fraud involved a small family business.
+          How did they do it? ``In one case, the crooks pinched a 
+          terminal; physically removed it. Then they linked it back 
+          into the merchant's system, in effect hacked into his link 
+          with the bank, and issued themselves with credits, paid to 
+          a variety of real bank accounts in branches all over the place,'' Mr
+          Park said.
+          ``In a couple of other cases the merchant's terminal had 
+          been tampered with. That may indicate a lack of security on 
+          the part of the merchant. Or maybe he was in cahoots with 
+          the crooks, but we don't think so.
+          ``So we know who got the money or, at least, the identity 
+          of the person for whom the bank account was established. 
+          But when we go to that account, there's no money in it.
+          ``We tell the police, but when they go to the address we 
+          have recorded, there's no one there.''
+          Obviously, he said, the criminals were computer literate, 
+          and prepared to take risks.
+          ``You always have to keep upgrading your security, whether 
+          it is for cheques, robberies or electronic fraud,'' Mr Park 
+          said. ``We'll fix this problem, restore the refund facility 
+          on our Eftpos terminals, and wait for the next crook to try something.''
+          Automatic teller machines have also been targets for 
+          criminals. In Melbourne some years ago criminals used a 
+          frontend loader or a bulldozer to wrench an automatic 
+          teller machine out of a bank wall and made off with it. But 
+          one of the neatest ``stings'' took place in the United 
+          States recently. A criminal gang set up a phony automatic 
+          teller machine in a big shopping mall. The machine would 
+          not dispense cash, but readily accepted deposits with 
+          which, at the end of a week, the criminals absconded.
+ 
+      @HWA
+ 
+ 04.1 SANS WEB BRIEFING ;WHAT THE HACKERS KNOW ABOUT YOUR SITE III;
+      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      
+      Date: Fri, 19 Feb 1999 15:41:35 -0700 (MST) 
+      From: mea culpa <jericho@dimensional.com> 
+      To: InfoSec News <isn@repsec.com> 
+      Subject: [ISN] SANS Web briefing: ``What the Hackers Know About Your Site, III'' 
+      Message-ID: <Pine.SUN.3.96.990219154105.13984e-100000@flatland.dimensional.com> 
+      X-NoSpam: You do not have consent to spam me. 
+      X-Attrition: Attrition is only good when forced. http://www.attrition.org 
+      X-Copyright: This e-mail copyright 1998 by jericho@dimensional.com where applicable 
+      X-Encryption: rot26 
+      MIME-Version: 1.0 
+      Content-Type: TEXT/PLAIN; charset=US-ASCII 
+      Sender: owner-isn@repsec.com 
+      Precedence: bulk 
+      Reply-To: mea culpa <jericho@dimensional.com> 
+      x-unsubscribe: echo "unsubscribe isn" | mail majordomo@repsec.com 
+      x-infosecnews: x-loop, procmail, etc 
+      
+      
+      
+      
+      iii) WEB BRIEFING: March 2, 1999
+      
+      
+      This note announces the March 2 SANS web-based briefing on security:
+      ``What the Hackers Know About Your Site, III''.  For one hour, Rob
+      Kolstad and Steven Northcutt will interview H. D. Moore (developer of
+      nlog, the database interface to nmap) and John Green, member of the
+      Shadow Intrusion Detection Team (John discovered the multi-national
+      attack reported by CNN and ABC).
+      
+      
+      As with all SANS web-based briefings, you don't have to leave your office
+      or home, and can tap in at any time 24 hours a day (though only at the
+      time below will the presentation be live!).  Participants during the
+      live briefing can e-mail questions to be answered during the broadcast
+      (time permitting, of course).
+      
+      
+      When:     Tuesday, March 2, 1999  (and later for `reruns')
+            10 am Pacific Time, 11 am Mountain, noon Central,
+            1 pm Eastern, 18:00 GMT
+      Duration: 60 minutes
+      Cost:     Free
+      How:      Register at  http://www.sans.org/mar2.htm
+      
+      
+      The website should reply within a minute or two with some background
+      literature from our sponsor and the URL and password for the free
+      broadcast.  If you don't get a reply, please let me know at
+      <sans@clark.net>.
+      
+      
+      Feel free to share this announcement with any potentially interested
+      parties.
+      
+      
+      
+      -o-
+      Subscribe: mail majordomo@repsec.com with "subscribe isn".
+      Today's ISN Sponsor: Internet Security Institute [www.isi-sec.com]     
+      
+      @HWA
+      
+      
+      
+ 05.0 Copyrights on security advisories?
+      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            
+      Subject:      OT: Copyright on Security advisories 
+      To: BUGTRAQ@netspace.org       
+      
+      
+      I'm sorry for this off topic message, but I think others share my
+      opinion on this.
+      
+      
+      My message is directed mainly at H.E.R.T (Hacker Emergency Response
+      Team) and at ISS Alert, but also to all bugtraq subscribers.
+      I'm writing behalf of a small group of people, operating a security
+      portal page (www.SecuriTeam.com), where we try to write about important
+      security issues and security news. Our site is non-commercial and
+      totally advetisement free, and we see it as a service to the security
+      community (just like many other free services offered to the security
+      community by others).
+      Naturally, we don't discover all the security holes ourselves, and we
+      rely heavily on mailing lists such as the Microsoft alert, ISS alert,
+      CERT alert, bugtraq, NTBugtraq and other helpful mailing lists and web
+      site that deal with security.
+      
+      
+      The problem starts with advisories that contain:
+      "Permission is granted to reproduce and distribute HERT advisories in
+      their
+      entirety, provided the HERT PGP signature is included and provided the
+      alert is used for noncommercial purposes and
+      with the intent of increasing the aware-
+      ness of the Internet community"
+      
+      
+      (this is taken from a HERT advisory. ISS have a similar policy).
+      
+      
+      So what are my options (mine, and all the other folks who want to
+      publish this information)? The way I see it, I can only do copy & paste
+      of this information into an html page (including the PGP signature!!!),
+      and put it on-line.
+      I agree that this advisory has a very nice design to it, but it's way
+      different from the design of our web pages. The content is also
+      different. The target audience is different. These advisories are
+      usually long, and very technical. Our articles are short, and less
+      technical.
+      
+      
+      On the bottom line, my options shrink to one: Wait until someone else
+      publishes it, and paraphrase them. (now they're the "offenders").
+      
+      
+      I don't want to take the credit away from the authors. Every article we
+      publish contains explicit mentions of who found the bug, who reported
+      the bug, who published the fix, etc. We don't want to take credit for
+      things we didn't do, but we *do* want to provide good service to the
+      people who come to our web site! And this good service cannot include
+      "It is not to be edited in any way without express consent of X-Force"
+      (taken from the ISS alert advisories). I can't wait to get ISS's
+      permission for every exploit they find! Doing so will make the whole
+      concept of "security news" pointless.
+      
+      
+      I can only see two roads from here. The first road means the gradual
+      disappearance of non-commercial security information centers. Security
+      information will not be shared in forums such as bugtraq/ntbugtraq,
+      security newsgroups and web sites. You'll have to pay security
+      consultants to get information . (Actually, this doesn't sound that bad.
+      It means we'll make a lot of money)
+      The second road leads to totally free and open sharing of information.
+      ISS and HERT: If this is what you would like to see when you look at the
+      future, please loosen your restrictions from the security advisories you
+      publish.
+      
+      
+      I really want to emphasize one important point. We *really* don't want
+      the credit. We believe that if a someone discovered a bug or exploit
+      they should have all the credit they deserve (hell, they could name the
+      bug after themselves if they wish. Am I right, Mr. Cuartango?). It seems
+      to me, they get more recognition when information about their exploit
+      spreads. But the actual text they wrote about the bug/exploit should not
+      be the main issue here, and putting a copyright on the full text misses
+      the point entirely.
+      
+      
+      I apologize for boring to death some (most?) of you on this list, but I
+      believe this is important enough to share with you, and I would really
+      like to hear what you all have to say about this issue.
+      
+      
+      --
+      -------------------------
+      Aviram Jenik
+      
+      
+      "Addicted to Chaos"
+      
+      
+      -------------------------
+      Today's quote:
+      Service to others is the rent you pay for your room here on earth.
+                               - Muhammad Ali, in "Time", 1978     
+      
+      
+      Do what we do: take what you can and publish it however you feel like, if
+      someone doesn't like what you're doing you will hear from them if they don't
+      mind you won't. Problem #1. .com insinuates a commercial entity, (non profit
+      commercial entity?) a .org site might get more leeway... - Ed
+      
+      
+      @HWA      
+      
+ 06.0 Book review: "Top Secret Intranet", Fredrick Thomas Martin, 1999, 0-13-080898-9,
+      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 
+       BKTPSCIN.RVW   990117
+      
+      
+      "Top Secret Intranet", Fredrick Thomas Martin, 1999, 0-13-080898-9,
+      U$34.99/C$49.95
+      %A   Fredrick Thomas Martin
+      %C   One Lake St., Upper Saddle River, NJ   07458
+      %D   1999
+      %G   0-13-080898-9
+      %I   Prentice Hall
+      %O   U$34.99/C$49.95 800-576-3800, 416-293-3621
+      %P   380 p.
+      %S   Charles F. Goldfarb Series on Open Information Management
+      %T   "Top Secret Intranet"
+      
+      
+      Does anyone else think it is ironic that this book is part of a series on
+      *open* information management?  No, I didn't think so. 
+      
+      
+      Part one is an introduction to Intelink, the intranet connecting the
+      thirteen various agencies involved in the US intelligence community.
+      Chapter one is a very superficial overview of some basics: who are the
+      departments, packet networks, layered protocols, and so forth.  The
+      description of Intelink as a combination of groupware, data warehouse, and
+      help desk, based on "commercial, off-the-shelf" (COTS) technology with
+      Internet and Web protocols, in chapter two, should come as no big
+      surprise. 
+      
+      
+      Part two looks at the implementation (well, a rather high level design,
+      anyway) of Intelink.  Chapter three reviews the various government
+      standards used as reference materials for the system, which boil down to
+      open (known) standards except for the secret stuff, for which we get
+      acronyms.  There is a quick look at electronic intruders, encryption, and
+      security policy in chapter four.  Various security practices used in the
+      system are mentioned in chapter five, but even fairly innocuous details
+      are lacking.  For example, "strong authentication" is discussed in terms
+      of certificates and smartcards, but a challenge/response system that does
+      not send passwords over the net, such as Kerberos, is not, except in the
+      (coded?) word "token." Almost all of chapter six, describing tools and
+      functions, will be immediately familiar to regular Internet users. 
+      Chapter seven takes a return look at standards.  The case studies in
+      chapter eight all seem to lean very heavily on SGML (Standard Generalized
+      Markup Language)  for some reason. 
+      
+      
+      Part three is editorial in nature.  Chapter nine stresses the importance
+      of information.  (Its centerpiece, a look at statements from some of the
+      Disney Fellows from the Imagineering division is somewhat paradoxically
+      loose with the facts.)  The book closes with an analysis of intelligence
+      service "agility," using technology as an answer to everything except
+      interdepartmental rivalries. 
+      
+      
+      Probably the most interesting aspect of the book is the existence of
+      Intelink at all, and the fact that it uses COTS components and open
+      standard protocols.  (Of course, since it was defence money that seeded
+      the development of the Internet in the first place, one could see Intelink
+      simply as a belated recognition of the usefulness of the product.)  For
+      those into the details of the US government's more secretive services
+      there is some mildly interesting information in the book.  For those
+      charged with building secure intranets there is some good pep talk
+      material, but little assistance. 
+      
+      
+      copyright Robert M. Slade, 1999 BKTPSCIN.RVW 990117
+      
+      
+      -o-
+      Subscribe: mail majordomo@repsec.com with "subscribe isn".
+      Today's ISN Sponsor: Internet Security Institute [www.isi-sec.com]      
+      
+      @HWA
+      
+ 07.0 MCI Worldcom joins security force
+      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+
+      http://www.news.com/News/Item/0,4,32590,00.html
+      MCI Worldcom joins security force
+      By Tim Clark
+      February 18, 1999, 12:35 p.m. PT
+      
+      
+           Add MCI WorldCom to the parade of companies entering the security
+      services and outsourcing market. 
+      
+      
+           Knitting together pieces from its many acquisitions, MCI WorldCom's
+      new security unit will compete with GTE Internetworking, Pilot Network
+      Services, IBM, the Big Five accounting and consulting firms, and Lucent
+      Technologies, which entered the security fray last week. 
+      
+      
+           "We can bring together networking, security, and Internet hosting," 
+      said Jason Comstock, general manager of the new security unit. The service
+      includes offerings from CompuServe Network Services, ANS, UUNet, and
+      GridNet, all WorldCom acquisitions. "We see security as a core offering
+      for MCI WorldCom, especially security consulting." 
+      
+      
+           As corporations move toward Internet commerce and sharing corporate
+      information with partners on so-called extranets, network security has
+      become a growing concern.  Even the largest corporations are having
+      trouble hiring scarce talent in the field, so security outsourcing has
+      boomed. 
+      
+      
+           "When you look at security as an enabling technology that allows you
+      to make money safely, then it starts to make sense to outsource," said Jim
+      Balderston, security analyst at Zona Research. 
+      
+      
+           Matthew Kovar, an industry analyst at the Yankee Group, likes MCI's
+      move. "MCI WorldCom has made a great stride to catch up to the leader in
+      this area, which has been GTE Internetworking," he said. 
+      
+      
+           MCI WorldCom's new security service comes barely a week after the
+      company's complex, $17 billion deal to sell its MCI Systemhouse computer
+      services unit and 12,000 employees to Electronic Data Systems.
+      
+      
+          The security services unit is far smaller than Systemhouse, with about
+      170 people, a data center in Reston, Virginia, and a limited range of
+      outsourcing options. 
+      
+      
+          Housed within MCI WorldCom's Advanced Networks unit, the managed
+      security services' menu includes outsourcing or installation of Virtual
+      Private Networks (VPNs); firewalls; authentication services; security
+      training; and security assessment. The SecureSweep service, which checks
+      networks for holes intruders might exploit, is handled by independent
+      contractors. 
+      
+      
+          "Security outsourcing is a subset of the larger market moving toward
+      application service providers, or ASPs,"  Balderston said. The ASP
+      movement, which emerged last year, involves an ISP or other service
+      provider hosting e-commerce, enterprise resource planning, or other
+      applications for customers.
+      
+      
+          Comstock said MCI WorldCom will add managed authentication, broader
+      training programs, and partnerships with certificate authorities for using
+      digital IDs for security on corporate networks or extranets. 
+      
+      
+          In addition to offering managed security directly to multinational
+      corporations worldwide, MCI WorldCom plans a "private label" version that
+      resellers can market to smaller U.S.  companies and in Latin America.
+      
+      
+          The service will use internally developed firewall software as well as
+      products from Check Point Software, authentication servers and tokens from
+      Security Dynamics and Secure Computing, and scanning tools from Internet
+      Security Systems     
+      
+      @HWA
+      
+ 08.0 "15yr old sets up a new EFNet server"      
+      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      
+      From OPERLIST ... somewhat interesting I thought, perhaps not to all but we all
+     started somewhere and everyone grows up. I recall running a BBS and having some
+     "12yr old wannabe hacker" try breaking into the board or harassing me voice when
+     I tried to verify one of his multiple accounts for tradewars, well that kid now
+     works for IBM and me? well the board is long dead but the point is the same, we
+     all go thru phases, some last longer than others, you can't judge someone by their
+     age and we all grow up, some faster than others.. - Ed
+           
+     Date: Sat, 27 Feb 1999 08:25:53 EST 
+     To: operlist@the-project.org 
+     Subject: about irc.globalized.net 
+     Content-type: text/plain; charset=US-ASCII 
+     Content-transfer-encoding: 7bit 
+     X-Mailer: AOL 4.0 for Windows 95 sub 13 
+     Resent-Message-ID: <"Dz7baD.A.6-E.RJ_12"@the-project.org> 
+     Resent-From: operlist@the-project.org 
+     X-Mailing-List: <operlist@the-project.org> archive/latest/639 
+     X-Loop: operlist@the-project.org 
+     Precedence: list 
+     Resent-Sender: operlist-request@the-project.org 
+     
+     
+     well irc.globalized.net is run by a 15 year old former packet kiddie
+     (AaronWL)who also used to be an ircop for irc02.irc.aol.com, does that make
+     him reputable? lets look at the AOL profile for the screenname
+     PositivePI@aol.com 
+     
+     
+     Member Name:    Aaron W. LaFramboise
+     Location:   Lafayette, Louisiana, United States
+     Birthdate:  06/19/1983
+     Sex:    Male
+     Hobbies:    Running, Biking, Internet, Computer Programming
+     Computers:  Pentium 233MHz MMX with 24MB of RAM
+     Occupation: Student at Lafayette High School
+     
+     
+     Ok, so this 15 year old kid aaronwl doesnt actually work for globalized (fake
+     company) he just knows the owner of the domain/box and said 'hey lets start an
+     efnet server'
+     
+     
+     now my question is, is everyone aware that this server irc.globalized.net is
+     actually linked to efnet with a 15 year old packet kiddie admin and what
+     exactly is globalized, is it an isp? No. is an internet backbone? nope. aaron?
+     what is this wonderful company that you dont work for and why does their
+     webpage have about 3 words total, work with me baby?
+     
+     
+     ill be sending in my efnet application shortly, im 14 and the server will be
+     on my norweigan dialup but i once had tcm access on dalnet so i should be able
+     to slide in
+     
+     
+     
+     ------------------  [ operlist@the-project.org ]  -------------------------
+     To unsub: operlist-request@the-project.org with unsub operlist in the subject
+     List Maintainer: Matthew Ramsey <mjr@blackened.com>
+     Web Archives: http://www.the-project.org/operlist/current
+     ---------------------------------------------------------------------------      
+     
+     a Rebuttal;
+     
+     X-Authentication-Warning: cdy.wwiv.com: cyarnell owned process doing -bs 
+     Date: Sat, 27 Feb 1999 11:32:19 -0800 (PST) 
+     From: Chris Yarnell <cyarnell@wwiv.com> 
+     To: Showmount@aol.com 
+     cc: OprahsLust <operlist@the-project.org> 
+     Subject: Re: about irc.globalized.net 
+     In-Reply-To: <742668fe.36d7f261@aol.com> 
+     Precedence: list 
+     Resent-Sender: operlist-request@the-project.org 
+     
+     
+     > well irc.globalized.net is run by a 15 year old former packet kiddie
+     > (AaronWL)who also used to be an ircop for irc02.irc.aol.com, does that make
+     > him reputable? lets look at the AOL profile for the screenname
+     > PositivePI@aol.com 
+     
+     
+     What does his age have to do with anything?  I know several teens (both
+     online and IRL) who are much more mature than some >30something people I
+     know.
+     
+     
+     Also, what, exactly, do you hope to accomplish by posting this to Oprahslust?
+     
+     
+     Here are my questions for you:
+     
+     
+     Did you know about application was pending before it was linked?
+     
+     
+     -> If yes, did you bring your concerns to the routing secretary so that
+     the voting routing admins could be made aware of them?
+     
+     
+     -> If no, have you NOW brought your concerns to the routing secretary and
+     Aaron's uplinks so that they can review and evaluate them?  There is a
+     probationary period -- if your concerns are valid, and there are problems
+     with the server, it shouldn't be a problem to have it removed at the end
+     of probation.
+     
+     
+     Posting to this list will accomplish nothing.  In fact, I doubt many of
+     the voting routing admins are even on this list anymore.
+     
+     
+     I had a few concerns about the globalized link as well.  I didn't bother
+     to bring them to the routing secretary (I don't much care about EFnet
+     politics anymore), so I'm not going to whine now that it's linked.  If
+     someone screws up, or it's unreliable, it will be removed. 
+     
+     
+     
+     ------------------  [ operlist@the-project.org ]  -------------------------
+     To unsub: operlist-request@the-project.org with unsub operlist in the subject
+     List Maintainer: Matthew Ramsey <mjr@blackened.com>
+     Web Archives: http://www.the-project.org/operlist/current
+     ---------------------------------------------------------------------------
+     
+     
+     From: PositivePi@aol.com 
+     Message-ID: <4426de93.36d834ba@aol.com> 
+     Date: Sat, 27 Feb 1999 13:08:58 EST 
+     To: operlist@the-project.org 
+     Mime-Version: 1.0 
+     Subject: Re: about irc.globalized.net 
+     X-Mailer: AOL 4.0 for Windows 95 sub 219 
+     Precedence: list 
+     Resent-Sender: operlist-request@the-project.org 
+     
+     
+     whoo an operlist post about me and my aol account .. famous aaronwl =)
+     
+     
+       I'm curious....  what exactly does Showmount@aol.com want from me?  Was
+     there any kind of constructive change he was trying to suggest?
+       Yes, I work for Globalized.
+       No, as later posts bring up, I do not know everything about the complexities
+     of BGP etc.  But lets take your standard ISP...
+       Does every person in the company know how to operate every program and do
+     every task that it is demanded that the company must do?  No, of course not.
+     Every person has their own job to take care of.
+       As administrator of the IRC server, I know how to keep it running at top
+     preformance. I know how to fix problems if they arise (and they have, and they
+     will).  And I know how to deal with the wonder DOS attacks that we keep
+     getting.  And for everything I don't know, there is someone else who does.
+       I'll do my best to run irc.globalized.net.  I'll admit, I'm not perfect, and
+     I have my flaws.  I am *always* open to comments, suggestions, and
+     constructive critism.  And I guess that is all I can do :)
+     
+     
+     Thanks..
+     
+     
+     Aaron W. LaFramboise
+     (aaronwl@zealth.net)
+     
+     
+     
+     In a message dated 2/27/99 7:27:43 AM Central Standard Time, Showmount@aol.com
+     writes:
+     
+     
+     > well irc.globalized.net is run by a 15 year old former packet kiddie
+     >  (AaronWL)who also used to be an ircop for irc02.irc.aol.com, does that make
+     >  him reputable? lets look at the AOL profile for the screenname
+     >  PositivePI@aol.com 
+     
+     
+     
+     ------------------  [ operlist@the-project.org ]  -------------------------
+     To unsub: operlist-request@the-project.org with unsub operlist in the subject
+     List Maintainer: Matthew Ramsey <mjr@blackened.com>
+     Web Archives: http://www.the-project.org/operlist/current
+     ---------------------------------------------------------------------------     
+     
+     
+     @HWA
+     
+     
+    
+           
+  09.0 DISA WEB RISK ASSESSMENT TEAM
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+       contributed by erewhon via HHN
+       Secretary of Defense William S. Cohen has approved the creation of the the
+       Joint Web Risk Assessment Cell (JWRAC) This 22-member Reserve component team
+       has been established to monitor and evaluate Department of Defense Web sites
+       to ensure the sites do not compromise national security. This team will be
+       comprised of two full-time Reservists and 20 drilling Reserve and National
+       Guard personnel. The Defense Information Systems Agency (DISA) will start up
+       the cell on March 1, 1999. 
+
+      
+      @HWA
+      
+  10.0  Next Up: 10-Gbps Ethernet
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+        http://www.techweb.com/wire/story/TWB19990224S0008
+        (02/24/99, 10:43 a.m. ET)
+        By Christine Zimmerman, Data Communications 
+
+        With the bulk of the work on the Gigabit Ethernet standard done,
+        engineers and  vendors already have their sights on higher speeds. 
+
+        Tony Lee, product-line manager at Extreme Networks, in Cupertino,
+        Calif., and chair of the Gigabit Ethernet Alliance, said the IEEE
+        802 committee will begin to assess interest in 10-gigabit-per-second
+        Ethernet on March 9. And based on what he's seen so far, Lee said he
+        predicts a standard for fiber-based 10-Gbps Ethernet in the next 3yrs.
+        
+        "I know there are companies concept-proving the speed right now," he
+         said. "There's nothing to prevent them from seeking 10 times the
+         performance of Gigabit Ethernet." 
+
+         He said he believes once 1,000-BaseT is in place, Gigabit Ethernet to
+         the desktop will become a reality. As that occurs, network managers 
+         will need more bandwidth in the backbone. 
+
+         But there is at least one challenge. While engineers developing the
+         physical layer of Fast Ethernet borrowed from FDDI, and those developing
+         Gigabit Ethernet turned to Fibre Channel, there's really no physical-layer
+         technology that will serve as a suitable base for 10-Gbps Ethernet.      
+         
+       @HWA
+
+   11.0  Thieves Trick Crackers Into Attacking Networks
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+               
+        (02/16/99, 12:10 p.m. ET)
+        By Lee Kimber, Network Week 
+
+        Corporate networks are coming under attack from an army of amateur crackers
+        working unwittingly for professional thieves, security experts have warned. 
+
+        They have identified signs that organized criminals and "professional" 
+        crackers are using trick software that lets teenage enthusiasts -- known as
+        "script kiddies" -- attack networks for amusement. The software then secretly
+        sends the findings of these surveys to experienced crackers. 
+
+        Professional gangs could use this trick to build massive databases of network
+        insecurities for thieves to exploit. Consultants cited the hacking group New 
+        Order's Aggressor network-attack software, which invites amateurs to register
+        for a full copy on the promise that they will receive hidden tools to mount 
+        stronger attacks on their victims. 
+      
+        "We could be looking at half a dozen teenagers doing cracking on behalf of
+         New Order," warned Internet Security Systems security expert Kevin Black.
+         "It's: 'Here's a toy to play with,' then: 'Thank you, soldier.' " The growth
+         of Java programming skills lies behind another new trick, where crackers build
+         Java cracking software into websites. When surfers browse the site, the program
+         returns the surfer's IP address to network security tools' logs, leaving the 
+         cracker's real location a secret. 
+
+         Canadian hacking group HackCanada is encouraging crackers to rewrite the Python
+         network-scanning script Phf in Java so it can be loaded into Web surfers'
+         browsers during a visit to an innocuous-looking site. 
+
+          HackCanada adopted the tactic after a cracker received a warning from a corporate
+          network administrator who detected him using the Phf script in its native Python
+          form. And in a gloomy warning for network administrators, Axent security consultant
+          David Butler warned teenagers and students who collected cracking tools to impress
+          their peers would quickly try them out. 
+
+          "Cracking attempts rise by a factor or three or four during school holidays," 
+          Butler told a joint Toshiba-Inflo  security presentation earlier this month. 
+
+          The news came shortly after security experts learned the freely available 
+          password authenticator Tcpwrapper had been rewritten and redistributed in a
+          form that sends passwords it finds to an anonymous Hotmail address. 
+
+          "It's a shift in the mentality of cracking," said Black. "It's the difference
+          between the men and the boys." 
+          
+          "We have been under constant attack by hackers since Christmas," said Nokia
+          Telecommunications' Europe, Middle East, and Africa marketing director Bob 
+          Brace. The company had detected 24,000 cracking attempts since October last
+          year, he said. 
+
+           Nokia runs IP440 firewall and NAT with log  analysis, so Brace could see the
+           hackers first tried to ping every IP address, then probed for specific ports
+           such as the default ports for Back Orifice (31337 and 1234) and port 80. (Back
+           Orifice lets crackers gain control of a remote PC and is often hidden as a trojan
+           in games.) 
+
+           "I believe much of the probing is automated and some of the more serious attacks 
+           are spread out so they are  not easy to identify in a trace," Brace said.  
+           
+        @HWA
+
+
+   12.0 How Nokia Guards Against Crackers
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        
+        (02/24/99, 10:34 a.m. ET)
+        By Lee Kimber, Network Week 
+
+        Faced with 24,000 attempted network attacks in the past six months, 
+        Finnish telecommunications leader Nokia has developed a smart strategy
+        to protect itself:
+        
+                 Follow the network security rule book to the
+                 letter. 
+
+        Marketing manager Bob Brace said the policy started at the ICMP level 
+        -- by disallowing pings. 
+
+        "The hackers first try do things like ping every IP address on a class C
+        subnet," he said. "So they will try for x.x.x.1 to x.x.x.254. We do not 
+        allow pings." 
+
+        He said Nokia protected its networks with an integrated firewall/router 
+        -- the IP1440 -- providing logs showing the attacks came from different 
+        types of crackers -- amateurs that tried to scan ports sequentially and 
+        professionals that carried out long-term port scanning from different IP
+        addresses. The logs proved the crackers' attempts to find a service on 
+        1234 -- the default port used by the remote-control Trojan  Back Orifice,
+        Brace said. (erhm whups??? thats netbus ... - Ed) 
+        
+        The firewall also offered NAT, which could be configured to drop ICMP
+        packets regardless of the packet filtering set up on the firewall. 
+
+        That won the approval of Integralis security expert Tony Rowan: "If you've
+        got NAT," he said, "you're almost there." He said the ICMP suite contained
+        commands most people had forgotten -- unless they were crackers. 
+
+        "Router redirect lets you make a router hand requests to someone else.
+         This is an ICMP request, and you can get packet shapers that let you set
+         these up," he said. When setting up a CheckPoint firewall for an Integralis
+         customer, he recommended they turn on the "stealth rule" -- any packet from
+         anywhere to the firewall is dropped, rather than rejected, which would give
+         them feedback. Log it with a long log, he said. Nokia runs an internal U.K.
+         Web server and a public Web server in Helsinki, and Brace said he saw port 80
+         scans of the U.K. intranet all the time. 
+
+         "Our intranet server here in the U.K. cannot be seen from the outside; 
+         the IP440 keeps these hackers at arm's length. They can see we are here, but
+         they don't know what is on the other side of the firewall." The last weapon 
+         is encryption. Given Nokia's firewall logs have proved some of its attempted
+         cracks are by extremely knowledgeable people, the company said remote-access
+         services are the biggest vulnerability in its network. (gee whiz)
+
+         Remote users dialed in using encrypted VPNs over the Internet, it said. Nokia
+         then authenticated them again if they tried to access key resources. 
+
+         So Brace had strong advice for governments (better listen up! <sic>) that
+         wanted to impose key escrow. "Key escrow weakens authentication and threatens 
+         the whole issue of e-commerce," he said.  
+ 
+      @HWA
+
+  13.0 BILL H.R 514 COULD BAN PERSONAL "ACTION" FREQUENCY MONITORING
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+       
+      Well, they tried banning oral sex, they'd probably tax fucking and
+      shitting if they could attach a meter to your cock or ass and now
+      they are preventing the pleasurable experience of monitoring fun
+      radio channels by introducing this bill. I'd personally like to roll
+      the bill up into a tight wad and stuff it in various orifices of the
+      people that thought this up and as an addendum to this i'd also like
+      to say "why don't you just fuck off?" anyone in the know can modify
+      or build a fucking scanner to bypass anything that they come up with
+      they are just making it more difficult for people to do so. I am a
+      licensed ham radio operator and because of this bill i'll have to pay
+      MORE money to get my gear from countries that don't have such rediculous
+      restrictions like I dunno bumfuck Egypt or somewhere, I really just want
+      to piss down these peoples throats and shit down their necks. Ok enough
+      of the hack journalism i'm too pissed off to continue... read the bill
+      then mailbomb your local house representative as to why this is a stupid
+      idea...
+      
+      Just some reasons this bill sucks:
+      
+      1) Citizens have helped out law enforcement officers by monitoring local
+         action bands
+      2) Citizens that are volunteer fire-fighters or emergency volunteers will
+         have to spend extra money to locate and run exotic non-american made
+         gear
+      3) Licensed radio enthusiasts will have to pay even more for their gear and
+         these fellas (and gals) help out with emergency nets out of their own
+         pockets.
+          
+      4) The equipment already exists in abundance and will just make black market
+         versions available to the masses en masse
+         
+      5) You can build your own scanner or convert any existing one using a transverter
+         are they going to ban basic discreet components next??? 
+       
+      The Bull erh. Bill, in its entirety follows:
+      
+       
+      Wireless Privacy Enhancement Act of 1999 (Introduced in the House)
+
+      HR 514 IH 
+                                                       106th CONGRESS
+
+                                                          1st Session
+
+                                                          H. R. 514
+
+      To amend the Communications Act of 1934 to strengthen and clarify
+      prohibitions on electronic eavesdropping, and for other purposes. 
+
+                                        IN THE HOUSE OF REPRESENTATIVES
+
+                                                      February 3, 1999
+
+     Mrs. WILSON (for herself, Mr. TAUZIN, Mr. MARKEY, Mr. OXLEY,
+     Ms. ESHOO, Mr. DEAL of Georgia, Mr. WYNN, Mrs. CUBIN, Mr. LUTHER, 
+     Mr. ROGAN, Mr. SAWYER, Mr. PICKERING, and Mr. GILLMOR) introduced 
+     the following bill; which was referred to the Committee on Commerce 
+
+
+
+                                                           A BILL
+
+     To amend the Communications Act of 1934 to strengthen and clarify 
+     prohibitions on electronic eavesdropping, and for other purposes. 
+
+     Be it enacted by the Senate and House of Representatives of the United
+     States of America in Congress assembled,
+
+     SECTION 1. SHORT TITLE.
+
+     This Act may be cited as the `Wireless Privacy Enhancement Act of 1999'.
+
+     SEC. 2. COMMERCE IN ELECTRONIC EAVESDROPPING DEVICES.
+
+     (a) PROHIBITION ON MODIFICATION- Section 302(b) of the Communications Act
+     of 1934 (47 U.S.C. 302a(b)) is amended by inserting before the period at 
+     the end thereof the following: `, or modify any such device, equipment, or
+     system in any manner that causes such device, equipment, or system to fail
+     to comply with such regulations'.
+
+     (b) PROHIBITION ON COMMERCE IN SCANNING RECEIVERS- Section 302(d) of such 
+     Act (47 U.S.C. 302a(d)) is amended to read as follows:
+
+     `(d) EQUIPMENT AUTHORIZATION REGULATIONS-
+
+          `(1) PRIVACY PROTECTIONS REQUIRED- The Commission shall prescribe 
+          regulations, and review and revise such regulations as necessary in
+          response to subsequent changes in technology or behavior, denying 
+          equipment authorization (under part 15 of title 47, Code of Federal
+          Regulations, or any other part of that title) for any scanning receiver
+          that is capable of--
+
+          `(A) receiving transmissions in the frequencies that are allocated to 
+               the domestic cellular radio telecommunications service or the personal
+               communications service;
+
+          `(B) readily being altered to receive transmissions in such frequencies;
+
+          `(C) being equipped with decoders that--
+
+                    `(i) convert digital domestic cellular radio 
+                         telecommunications service, personal communications
+                         service, or protected specialized mobile radio service
+                         transmissions to analog voice audio; or
+                
+                   `(ii) convert protected paging service transmissions to
+                         alphanumeric text; or
+                         
+          `(D) being equipped with devices that otherwise decode encrypted radio 
+               transmissions for the purposes of unauthorized interception.
+
+          `(2) PRIVACY PROTECTIONS FOR SHARED FREQUENCIES- The Commission shall, 
+               with respect to scanning receivers capable of receiving 
+               transmissions in frequencies that are used by commercial mobile 
+               services and that are shared by public safety users, examine 
+               methods, and may prescribe such regulations as may be necessary,
+               to enhance the privacy of users of such frequencies.
+
+          `(3) TAMPERING PREVENTION- In prescribing regulations pursuant to 
+               paragraph (1), the Commission shall consider defining `capable of
+               readily being altered' to require scanning receivers to be 
+               manufactured in a manner that effectively precludes alteration of
+               equipment features and functions as necessary to prevent commerce
+               in devices that may be used unlawfully to intercept or divulge 
+               radio communication.
+
+          `(4) WARNING LABELS- In prescribing regulations under paragraph (1), 
+               the Commission shall consider requiring labels on scanning receivers
+               warning of the prohibitions in Federal law on intentionally intercepting 
+               or divulging radio communications.
+
+          `(5) DEFINITIONS- As used in this subsection, the term `protected' means 
+               secured by an electronic method that is not published or disclosed except
+               to authorized users, as further defined by Commission regulation.'.
+
+     (c) IMPLEMENTING REGULATIONS- Within 90 days after the date of enactment of
+         this Act, the Federal Communications Commission shall prescribe amendments to
+         its regulations for the purposes of implementing the amendments made by this 
+         section.
+
+     SEC. 3. UNAUTHORIZED INTERCEPTION OR PUBLICATION OF COMMUNICATIONS.
+
+     Section 705 of the Communications Act of 1934 (47 U.S.C. 605) is amended--
+
+          (1) in the heading of such section, by inserting `interception or' after `unauthorized';
+
+          (2) in the first sentence of subsection (a), by striking `Except as authorized by chapter 119, title 18, United States Code, no person' and inserting `No
+          person';
+
+          (3) in the second sentence of subsection (a)--
+
+               (A) by inserting `intentionally' before `intercept'; and
+
+               (B) by striking `and divulge' and inserting `or divulge';
+
+          (4) by striking the last sentence of subsection (a) and inserting the following: `Nothing in this subsection prohibits an interception or disclosure of a
+          communication as authorized by chapter 119 of title 18, United States Code.';
+
+          (5) in subsection (e)(1)--
+
+               (A) by striking `fined not more than $2,000 or'; and
+
+               (B) by inserting `or fined under title 18, United States Code,' after `6 months,'; and
+
+          (6) in subsection (e)(3), by striking `any violation' and inserting `any receipt, interception, divulgence, publication, or utilization of any communication in
+          violation';
+
+          (7) in subsection (e)(4), by striking `any other activity prohibited by subsection (a)' and inserting `any receipt, interception, divulgence, publication, or
+          utilization of any communication in violation of subsection (a)'; and
+
+          (8) by adding at the end of subsection (e) the following new paragraph:
+
+     `(7) Notwithstanding any other investigative or enforcement activities of any other Federal agency, the Commission shall investigate alleged violations of this
+     section and may proceed to initiate action under section 503 of this Act to impose forfeiture penalties with respect to such violation upon conclusion of the
+     Commission's investigation.'.
+
+
+     @HWA
+
+  14.0 Linux autofs overflow in 2.0.36+
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+      Date: Fri, 19 Feb 1999 00:09:29 -0500
+      From: Brian Jones <balif@SHELL.NACS.NET>
+      Subject: Linux autofs overflow in 2.0.36+
+      To: BUGTRAQ@NETSPACE.ORG
+      Reply-to: Brian Jones <balif@SHELL.NACS.NET>
+      
+      
+      - -----BEGIN PGP SIGNED MESSAGE-----
+      
+      
+                            Overflow in Autofs - Feb 18 1999
+      _____________________________________________________________________________
+      Affected: Linux autofs kernel module in linux-2.0.36 to 2.2.1
+      Type of Problem: Buffer overflow in kernel module.
+      Effects: Denial of Service, potential root exploit
+      
+      
+      By:           Brian Jones <balif@nacs.net>
+      Contributors: Patrick Lewis <patrick@apk.net>,
+                    phazer <phazer@battlemech.nws.net>
+      _____________________________________________________________________________
+      
+      
+                                        Summary
+      
+      
+      
+          The autofs kernel module does not check the size of the directory names
+      it receives. It is passed the name and the names length through
+      dentry->d_name.name and dentry->d_name.len respectively. Later on it
+      memcpy()'s the name into a 256 byte buffer, using dentry->d_name.len as the
+      number of bytes to copy, without checking its size. A nonprivilaged user may
+      attempt to cd to a directory name exceeding 255 characters. This overwrites
+      memory, probably the kernel stack and anything beyond it, and causes kernel
+      errors or makes the machine reboot.
+      
+      
+      
+                                  Overview of Automount
+      
+      
+      
+      drwxr-xr-x   3 root     root            0 Feb 18 17:40 misc
+      
+      
+          The autofs module provides support for the automount filesystem, as
+      well as the interface between the kernel and the automountd daemon, which is
+      responsible for the actual mounting. Calls such as chdir() executed in the
+      automount directory are handled by the module, and if the desired directory
+      is defined in the configuration files, automountd then mounts that
+      directory/device.
+      
+      
+      
+                                         Details
+      
+      
+      
+          When a chdir() or similar function is called in the autofs directory,
+      by a user doing something along the lines of "cd xxxx", the function
+      fs/autofs/root.c:autofs_root_lookup() is called.
+      
+      
+          autofs_root_lookup() receives the name of the directory through
+      "dentry->d_name.name", and it's length through "dentry->d_name.len". The
+      dentry structure is passed via pointer through two functions, each performing
+      various operations along the way.
+      
+      
+          It eventually reaches waitq:autofs_wait(). The name, length, and other
+      bits of information are copied into a 'wq' structure, which stands for
+      waiting queue. "wq.name" is "char *name", a pointer to the dentry pointer
+      that refers back to the filename somewhere in the kernel.
+      
+      
+          autofs_wait() then passes 'wq' to autofs_notify_daemon(), which copies
+      the information into a structure called 'pkt'. This is passed to
+      autofs_write(), which write()'s the packet down the pipe connecting the
+      module with automountd.
+      
+      
+      
+                                      The Overflow
+      
+      
+      
+          The problem occurs when 'wq' is copied to 'pkt'. Before this point,
+      the path name was shuffled around via pointers. 'pkt' is defined as:
+      
+      
+              struct autofs_packet_missing pkt;
+      
+      
+          struct autofs_packet_missing {
+                  struct autofs_packet_hdr hdr;
+                  autofs_wqt_t wait_queue_token;
+                  int len;
+                  char name[NAME_MAX+1];
+          };
+      
+      
+          NAME_MAX is 255, making pkt.name a 256 byte buffer.
+      
+      
+          pkt.name is copied using this method:
+      
+      
+              pkt.len = wq->len;
+              memcpy(pkt.name, wq->name, pkt.len);
+              pkt.name[pkt.len] = '\0';
+      
+      
+          Remember that wq->len and wq->name are directly copied from the dentry
+      structure. The len and name were never checked to ensure they would fit
+      inside pkt's buffer. If you attempt to cd to a directory name over 255
+      characters, you will overflow this buffer.
+      
+      
+          Because this is running in the kernel, a large enough value can
+      overwrite as much memory as you want, over top any process you want. No
+      bounds checking is done, and the code makes no check to see if
+      dentry->d_name.len is under 255.
+      
+      
+      
+                                        Examples
+      
+      
+      
+      [balif@localhost misc]# cd `perl -e 'print "x" x 255'`
+      bash: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx:
+      No such file or directory
+      
+      
+      [balif@localhost misc]# cd `perl -e 'print "x" x 256'`
+      invalid operand: 0000
+      CPU:    0
+      EIP:    0010:[<c0155b00>]
+      EFLAGS: 00010282
+      eax: 00000000   ebx: c2a90c20   ecx: c265904c   edx: c0000000
+      esi: c29d3b00   edi: c2928000   ebp: c260d940   esp: c26c5ee8
+      ds: 0018   es: 0018   ss: 0018
+      Process bash (pid: 360, process nr: 21, stackpage=c26c5000)
+      Stack: 00000000 00000000 c260d940 c260d900 00000286 c0154c58 c0154ca8
+      c2928000 c260d940 c2928000 c260d900 c2659d50 c26cd3a0 00000286 c0154def
+      c260d900 c029c000 c2928000 c2659d9c c260d900 c2659d50 c0154ef7 c260d900
+      c260d900 c029c000 c2928000 c2659d9c c260d900 c2659d50 c0154ef7 c260d900
+      c260d900
+      Call Trace: [<c0154c58>] [<c0154ca8>] [<c0154def>] [<c0154ef7>] [<c0128759>]
+      [<c0128912>] [<c01289e9>] [<c012126e>] [<c0107a40>]
+      Code: fe ff ff 83 c4 08 eb 03 ff 43 1c 8b 7c 24 1c 83 7f 0c 00 74
+      - - -{Shell dies}-
+      
+      
+      /var/log/messages
+      Feb 16 23:09:13 localhost automount[1361]: attempting to mount entry
+      /misc/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxq%^D^HH#
+      
+      
+                  ^_ buffer has been exceeded
+      
+      
+      Very large numbers will cause various kernel errors, or a reboot as giant
+      chunks of memory are being clobbered.
+      
+      
+      
+                                         The Fix
+      
+      
+      
+          This quick fix limits the length of a directory name to 255
+      characters, and patches /usr/src/linux-2.2.1/fs/autofs/root.c. I contacted
+      the author, who said he was going to fix this at a different point in the
+      code. This seems to work for the time being.
+      
+      
+      [---cut here---]
+      - - --- root.c.orig Thu Feb 18 20:26:23 1999
+      +++ root.c      Thu Feb 18 20:26:17 1999
+      @@ -217,6 +217,11 @@
+              DPRINTK(("autofs_root_lookup: name = "));
+              autofs_say(dentry->d_name.name,dentry->d_name.len);
+      
+      
+      +     /* quick patch by balif@nacs.net 2-18-99 */
+      +     /* Prevents overflow of pkt.name in waitq.c:autofs_notify_daemon() */
+      +        if (dentry->d_name.len > 255)
+      +               return -ENAMETOOLONG;
+      +
+              if (!S_ISDIR(dir->i_mode))
+                      return -ENOTDIR;
+      [---cut here---]
+      
+      
+      
+      - -----BEGIN PGP SIGNATURE-----
+      Version: 2.6.3a
+      Charset: noconv
+      
+      
+      iQB1AwUBNszxXSMC9wnJPLr1AQEvOQMAgeWVliqaW0CrM0NMsybSmw/a4yKdEJ4V
+      QkzVY+E9bb7wwMGxmC4nxJyhiUn9f9I4f0S19LMON0g7rBRQqlUi3rfgVOsBa18g
+      wBfY1bF3iwV7zYph08Tqd7So31j/ux7S
+      =88Co
+      - -----END PGP SIGNATURE-----
+      
+      
+      - ---
+      Balif@Nacs.Net - http://setiathome.ssl.berkeley.edu/ - Get ready in April
+                                N = N* fp ne fl fi fc fL
+                                
+                                
+     @HWA                           
+                          
+  15.0 Linux RedHat sysklogd vulnerability
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        
+      Date: Tue, 16 Feb 1999 02:22:56 -0500
+      From: Cory Visi <visi@CMU.EDU>
+      Subject: RedHat sysklogd vulnerability
+      To: BUGTRAQ@NETSPACE.ORG
+      Reply-to: Cory Visi <visi@CMU.EDU>
+      
+      
+      I'd like to apologize for being so late with this e-mail as I have known
+      about this problem for months. The vulnerability was discussed in a Thu, 10
+      Sep 1998 BugTraq e-mail by Michal Zalewski (lcamtuf@IDS.PL). I replied to it
+      with a quick patch. Here are some lines from my e-mail:
+      
+      
+      > I'm not completely happy with this, as it modifies the reference parameter,
+      > ptr, but it will solve the problem. However, later on:
+      >
+      > ExpandKadds(line, eline)
+      >
+      > Where eline is the same size as line. I think the real solution is to make
+      > sure the buffer is larger (LOG_LINE_LENGTH) like Michal said, and make sure
+      > modules and programs don't generate obsurdly long messages,  because you
+      > can't be certain how much room is necessary for the expanded symbols. It
+      > would be nice if ExpandKadds() allocated memory dynamically, but it doesn't.
+      
+      
+      RedHat immediately issued a "fix" to their current package: sysklogd-1.3-26
+      This "fix" is merely my patch (and nothing more). My patch DOES NOT fix the
+      problem. As discussed by the package co-maintainer (Martin Schulze
+      (joey@FINLANDIA.INFODROM.NORTH.DE)) the bug is fixed in the latest sysklogd
+      package (1.3-30). In fact, the bug was fixed in 1996. What this comes down
+      to is that any Linux distribution running an old sysklogd package (namely
+      RedHat all versions) STILL has a potential (rather obscure) buffer overflow.
+      They need to upgrade to the latest version ASAP. I e-mailed
+      bugzilla@redhat.com and got no response.
+      
+      
+      Thank you,
+      
+      
+           .-.        ,~~-.      .-~~-.
+      ~._'_.'        \_   \    /      `~~-
+         |              `~- \  /
+         `.__.-'ory          \/isi
+
+
+
+      @HWA
+
+  16.0 Microsoft Security Bulletin (MS99-007) Taskpads Scripting Vulnerability
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        
+      Approved-By: secnotif@MICROSOFT.COM 
+      Date:         Mon, 22 Feb 1999 19:08:01 -0800 
+      Sender: Microsoft Product Security Notification Service <MICROSOFT_SECURITY@ANNOUNCE.MICROSOFT.COM> 
+      From: Microsoft Product Security <secnotif@MICROSOFT.COM> 
+      Subject:      Microsoft Security Bulletin (MS99-007) 
+      To: MICROSOFT_SECURITY@ANNOUNCE.MICROSOFT.COM 
+      
+      
+      The following is a Security  Bulletin from the Microsoft Product Security
+      Notification Service.
+      
+      
+      Please do not  reply to this message,  as it was sent  from an unattended
+      mailbox.
+                          ********************************
+      
+      
+      Microsoft Security Bulletin (MS99-007)
+      --------------------------------------
+      
+      
+      Patch Available for Taskpads Scripting Vulnerability
+      
+      
+      Originally Posted: February 22, 1999
+      
+      
+      Summary
+      =======
+      Microsoft has released a patch that eliminates a vulnerability in the
+      Taskpads feature, which is provided as part of the Microsoft(r) Windows(r)
+      98 Resource Kit, Windows 98 Resource Kit Sampler, and BackOffice(r) Resource
+      Kit, second edition. The vulnerability could allow a malicious web site
+      operator to run executables on the computer of a visiting user. Only
+      customers who have installed one of the affected products and who surf the
+      web using the machine on which it is installed are at risk from this
+      vulnerability.
+      
+      
+      A fully supported patch is available to remove the Taskpads functionality,
+      and Microsoft recommends that affected customers download and install it.
+      
+      
+      Issue
+      =====
+      Taskpads is a feature provided by several Microsoft Windows Resource Kit
+      products, as detailed below in Affected Software Versions. It is part of the
+      Resource Kits' Tools Management Console Snap-in, and allows users to view
+      and run Resource Kit Tools via an HTML page rather than through the standard
+      Large Icon, Small, Icon, List, and Detailed Views. A vulnerability exists
+      because certain methods provided by Taskpads are incorrectly marked as "safe
+      for scripting" and can be misused by a web site operator to invoke
+      executables on a visiting user's workstation without their knowledge or
+      permission.
+      
+      
+      The affected products are, by default, not installed on Windows 95, Windows
+      98 or Windows NT®. The Windows 98 Resource Kit and Resource Kit Sampler can
+      only be installed on Windows 98. The BackOffice Resource Kit can be
+      installed on Windows 95, Windows 98 or Windows NT, but is most commonly
+      installed on Windows NT servers, which, per recommended security practices,
+      usually will not be used for web surfing.
+      
+      
+      While there have not been any reports of customers being adversely affected
+      by these problems, Microsoft is releasing a patch to proactively address
+      this issue. The patch for this issue works by removing the Taskpads
+      functionality, which is rarely used. It does not affect any other features
+      of the affected products.
+      
+      
+      Affected Software Versions
+      ==========================
+      - Microsoft Windows 98 Resource Kit, Microsoft Windows 98
+      - Resource Kit Sampler (included as part of Windows 98 but
+         not installed by default)
+      - Microsoft BackOffice Resource Kit, second edition
+      
+      
+      What Microsoft is Doing
+      =======================
+      Microsoft has released patches that fix the problem identified. The patches
+      are available for download from the sites listed below in What Customers
+      Should Do.
+      
+      
+      Microsoft also has sent this security bulletin to customers
+      subscribing to the Microsoft Product Security Notification Service.
+      See (http://www.microsoft.com/security/services/bulletin.asp)
+      for more information about this free customer service.
+      
+      
+      Microsoft has published the following Knowledge Base (KB) article on this
+      issue:
+      - Microsoft Knowledge Base (KB) article Q218619,
+         Taskpads Lets Web Sites Invoke Executables from a User's Computer.
+         http://support.microsoft.com/support/kb/articles/Q218/6/19.ASP
+         (Note: It might take 24 hours from the original posting of this
+         bulletin for the KB article to be visible in the Web-based
+         Knowledge Base.)
+      
+      
+      What Customers Should Do
+      ========================
+      Microsoft highly recommends that all affected customers download the
+      appropriate patch to protect their computers. The patches can be found at:
+      - Windows 98 Resource Kit, Windows 98 Resource Kit Sampler,
+         and BackOffice, second Edition for Windows 95 and 98
+         ftp://ftp.microsoft.com/reskit/win98/taskpads/tmcpatch.exe
+      - Microsoft BackOffice Resource Kit, second edition for Windows NT
+         x86 version: ftp://ftp.microsoft.com/reskit/nt4/x86/
+           taskpads/itmcpatch.exe
+         Alpha version: ftp://ftp.microsoft.com/reskit/nt4/
+           alpha/taskpads/atmcpatch.exe
+         (Note: URLs have been word-wrapped)
+      
+      
+      More Information
+      ================
+      Please see the following references for more information related to this
+      issue.
+      - Microsoft Security Bulletin MS99-007,
+         Patch Available for Taskpads Scripting Vulnerability
+         (the Web-posted version of this bulletin),
+         http://www.microsoft.com/security/bulletins/ms99-007.asp.
+      - Microsoft Knowledge Base (KB) article Q218619,
+         Taskpads Lets Web Sites Invoke Executables from a User's Computer.
+         http://support.microsoft.com/support/kb/articles/Q218/6/19.ASP
+         (Note: It might take 24 hours from the original posting of this
+         bulletin for the KB article to be visible in the Web-based
+         Knowledge Base.)
+      
+      
+      Obtaining Support on this Issue
+      ===============================
+      If you require technical assistance with this issue, please
+      contact Microsoft Technical Support. For information on
+      contacting Microsoft Technical Support, please see
+      http://support.microsoft.com/support/contact/default.asp.
+      
+      
+      Acknowledgments
+      ===============
+      Microsoft would like to acknowledge Adrian O'Neill for discovering this
+      issue and bringing it to our attention.
+      
+      
+      Revisions
+      =========
+      - February 22, 1999: Bulletin Created
+      
+      
+      
+      For additional security-related information about Microsoft
+      products, please visit http://www.microsoft.com/security
+      
+      
+      
+      ------------------------------------------------------------
+      
+      
+      THE INFORMATION PROVIDED IN THE MICROSOFT KNOWLEDGE BASE IS PROVIDED "AS IS"
+      WITHOUT WARRANTY OF ANY KIND. MICROSOFT DISCLAIMS ALL WARRANTIES, EITHER
+      EXPRESS OR IMPLIED, INCLUDING THE WARRANTIES OF MERCHANTABILITY AND FITNESS
+      FOR A PARTICULAR PURPOSE. IN NO EVENT SHALL MICROSOFT CORPORATION OR ITS
+      SUPPLIERS BE LIABLE FOR ANY DAMAGES WHATSOEVER INCLUDING DIRECT, INDIRECT,
+      INCIDENTAL, CONSEQUENTIAL, LOSS OF BUSINESS PROFITS OR SPECIAL DAMAGES, EVEN
+      IF MICROSOFT CORPORATION OR ITS SUPPLIERS HAVE BEEN ADVISED OF THE
+      POSSIBILITY OF SUCH DAMAGES. SOME STATES DO NOT ALLOW THE EXCLUSION OR
+      LIMITATION OF LIABILITY FOR CONSEQUENTIAL OR INCIDENTAL DAMAGES SO THE
+      FOREGOING LIMITATION MAY NOT APPLY.
+      
+      
+      (c) 1999 Microsoft Corporation. All rights reserved. Terms of Use.
+      
+      
+         *******************************************************************
+      You have received  this e-mail bulletin as a result  of your registration
+      to  the   Microsoft  Product  Security  Notification   Service.  You  may
+      unsubscribe from this e-mail notification  service at any time by sending
+      an  e-mail  to  MICROSOFT_SECURITY-SIGNOFF-REQUEST@ANNOUNCE.MICROSOFT.COM
+      The subject line and message body are not used in processing the request,
+      and can be anything you like.
+      
+      
+      For  more  information on  the  Microsoft  Security Notification  Service
+      please    visit    http://www.microsoft.com/security/bulletin.htm.    For
+      security-related information  about Microsoft products, please  visit the
+      Microsoft Security Advisor web site at http://www.microsoft.com/security.      
+      
+      
+      @HWA
+
+ 17.0 Security risk with Computer Associates' (CA) ARCserveIT backup software
+      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 
+ 
+       Approved-By: mark@NTSHOP.NET 
+      Received: from frog ([207.174.103.85] (may be forged)) by sys (2.5 Build 2640 
+                (Berkeley 8.8.6)/8.8.4) with SMTP id JAA00304 for 
+                <ntsd@listserv.ntsecurity.net>; Tue, 23 Feb 1999 09:07:57 -0600 
+      MIME-Version: 1.0 
+      Content-Type: text/plain; charset="iso-8859-1" 
+      Content-Transfer-Encoding: 7bit 
+      X-Priority: 1 (Highest) 
+      X-MSMail-Priority: High 
+      X-Mailer: Microsoft Outlook 8.5, Build 4.71.2173.0 
+      X-MimeOLE: Produced By Microsoft MimeOLE V4.72.3110.3 
+      Importance: High 
+      Message-ID:  <00b801be5f4f$62ff82c0$5567aecf@frog.dev.nul> 
+      Date:         Tue, 23 Feb 1999 10:10:18 -0700 
+      Reply-To: security@NTSHOP.NET 
+      From: three <three@ONELIGHT.ORG> 
+      Subject:      [ SECURITY ALERT ] ARCserve Exposes Passwords 
+      To: NTSD@LISTSERV.NTSECURITY.NET 
+      
+      
+      ============== SPONSORED BY AELITA SOFTWARE ===============
+           Want to know what going on with your NT Network?
+                      Download NT Manage NOW!
+         http://www.lanware.net/products/ntmanage/overview.asp
+      ===========================================================
+      
+      
+      February 23, 1999 - NTSD - A person using the pseudonym "Elvis" has
+      reported a security risk with Computer Associates' (CA) ARCserveIT
+      backup software, where usernames and passwords are transmitted over
+      the network in clear text.
+      
+      
+      CA has been informed of this risk. Their response to the issue is
+      unknown at this time.
+      
+      
+      For information on how to test this vulnerability,
+      please visit the following Web page:
+      
+      
+      http://www.ntsecurity.net/scripts/load.asp?iD=/security/arcserve.htm
+      
+      
+      Thanks for subscribing to NTSD!
+      Please tell your friends about this list.
+      
+      
+      Sincerely,
+      The NTSD Team
+      http://www.ntsecurity.net
+      
+      
+      To SUBSCRIBE to this newsletter and alert list DO NOT REPLY, instead send
+      e-mail to listserv@listserv.ntsecurity.net with the words "subscribe ntsd"
+      in the body of the message without the quotes --
+      
+      
+      To UNSUBSCRIBE, send e-mail to the same address listed above with the words
+      "unsubscribe ntsd" in the body of the message.
+      
+      
+      ===========================================
+      NTSD is powered by LISTSERV(R) software.
+      http://www.lsoft.com/LISTSERV-powered.html
+      ===========================================
+      
+      
+      Copyright (c) 1996-99 M.E. - ALL RIGHTS RESERVED
+      Forwarding NTSD Alerts is permitted, as long as the entire
+      message body, the mail header, and this notice are included.
+
+      
+      @HWA
+       
+ EF.F (Effluent)
+      ~~~~~~~~~~
+      
+      Seen on the DC-STUFF list:
+      
+      From: bingo <bingo@ZAJIL.NET>
+      To: Multiple recipients of list HACKPROJ <HACKPROJ@UTKVM1.UTK.EDU>
+      Date: Thu, 18 Feb 1999 00:09:16 +0300
+      Reply-To: Hacker Project <HACKPROJ@UTKVM1.UTK.EDU>
+      Subject: THANK YOU
+      
+      
+      WoW guys,
+      i like this highly speed co-operation so much, but the problem is that i
+      am dump in hacking and i am looking for a guidelines to start with. i
+      had a hackerz CD at a time in the past but i couldn't run any!! do i
+      have to learn more about C and C++ to achieve it like you, or what?
+      anyway, i have some poor knowledge about "firwall", "wingate", "cracking
+      tools" and ...
+      very very poor!
+      in brief, i want to know more about hacking and how to perform it and
+      also the new hacking programs and alike.
+      
+      
+      P.S: i don't have internet yet!
+      P.S.S: i have heard of a program which can download a site to your
+      account!! is it true? can anyone thankfully send it over?
+      
+      
+      YOURS
+      bingo
+      
+      @HWA
+ 
+ AD.S  ADVERTISING.           The HWA black market                    ADVERTISEMENTS.
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+       
+       $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+       
+            *** IT HAS BEEN FOUR YEARS! *** F R E E  M I T N I C K  **NOW!**
+            
+       $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$     
+       
+       www.2600.com www.freekevin.com www.kevinmitnick.com www.2600.com www.freekevi
+       n.com www.kevinmitnick.com www.2600.com www.freekevin.com www.kevinmitnick.co
+       m www.2600.com ########################################ww.2600.com www.freeke
+       vin.com www.kev#  Support 2600.com and the Free Kevin #.com www.kevinmitnick.
+       com www.2600.co#  defense fund site, visit it now! .  # www.2600.com www.free
+       kevin.com www.k#           FREE KEVIN                 #in.com www.kevinmitnic
+       k.com www.2600.########################################om www.2600.com www.fre
+       ekevin.com www.kevinmitnick.com www.2600.com www.freekevin.com www.kevinmitnic
+       k.com www.2600.com www.freekevin.com www.kevinmitnick.com www.2600.com www.fre
+       
+       * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+       * www.csoft.net webhosting, shell, unlimited hits bandwidth ... www.csoft.net *
+       *   www.csoft.net www.csoft.net www.csoft.net www.csoft.net www.csoft.net     *
+       * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+       
+       * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+       * WWW.BIZTECHTV.COM/PARSE WEDNESDAYS AT 4:30PM EST, HACK/PHREAK CALL-IN WEBTV *
+       * JOIN #PARSE FOR LIVE PARTICIPATION IN SHOW CHAT OR THE WEBCHAT, AND WEBBOARD*
+       * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+       
+       * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+       * WWW.2600.COM OFF THE HOOK LIVE NETCAST'S TUESDAY SIMULCAST ON WBAI AT 8PM *
+       * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+     
+     
+       Freebie:    
+     
+     
+       I am Alle Computer( http://www.cybershop.co.kr/computer) in Korea manager.
+       First, I thank for your concern about our Site.
+       e prepare small EVENT!! we give game software guest who buy our hardware more 
+       than $100. Please invite our site and give me your good advice.
+
+     
+     
+     
+       
+         //////////////////////////////////////////////////////////////////////////////
+        //  To place an ad in this section simply type it up and email it to        // 
+       //        hwa@press,usmc.net, put AD! in the subject header please. - Ed    // 
+      //////////////////////////////////////////////////////////////////////////////  
+                                                                                  
+        
+     @HWA
+       
+          
+  H.W  Hacked websites Feb 20th-27th
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+       
+     Note: The hacked site reports stay, especially with some cool hits by
+           groups like *H.A.R.P, go get em boyz racism is a mugs game! - Ed
+     
+         * Hackers Against Racist Propaganda (See issue #7)
+     
+         
+     MASS HACK
+     From help net security; http://net-security.org/ 
+     by BHZ, Sunday 28th Feb 1999 on 2:32 am
+     
+     Cyrus and MagicFX, hacked 112 domains earlier this day. Main page that was
+     hacked is http://www.intensive.net. Hacked page can be described with 
+     following sentence:"These sites were compromised to expose Carolyn Meinel
+     for the fraud she is".
+     Archived at 
+     http://net-security.org/spec/hack/www_intensive_net.htm
+
+     
+     CHANNEL 5 HACKED
+     by BHZ, Sunday 28th Feb 1999 on 1:10 am
+     From help net security; http://net-security.org/ 
+     
+     "Earlier I hacked the St. Paul Library, but it didn't seem to get noticed. 
+     So I thought this'd work better". Kon is back.... This time he hacked
+     site of Channel 5 News. He reprinted the text he wrote on hacked Library yesterday
+     . See archive of the hack here;.http://net-security.org/spec/hack/www_kstp_com.htm
+
+     DAILY HACK #2
+     by BHZ, Friday 26th Feb 1999 on 3:29 pm
+     Another hack by Dutch hackers. This time http://www.hanbit.com was hacked. Hacker
+     (Xoloth1), identifies himself as member of Dutch Threat, Dutch hacking group. I was
+      contacted by Acos Thunder, real member of Dutch Threat, and he says that this guys
+      hasn't got anything to do with them. 
+      BTW you can see hacked page here.http://net-security.org/spec/hack/www_hanbit_com.htm
+
+
+      MASS HACK BY HCV
+      by BHZ, Friday 26th Feb 1999 on 12:29 pm
+      It seems that HcV is back on rampage. I got several mails stating that
+      http://www.calweb.com and 200 more servers were hacked "/* HcV kapasa mexicana 
+      style'e ( r00ted ) by sizc4l *\ p1mp the sySt3m- Greetz to Hcv , Hp4 , and all 
+      that want their name on this 0wnedserver.Werd to I-L ... No damage was preformed 
+      - sizc4l - in0de (c) 99 ' n shit. W3 kn0w Yew lub Uz. D1z wAz a Qu1ck1e- opt1muz 
+      meet the real estate (inside Info)". Hack is archived on http://206.107.119.63.
+
+
+      DAILY HACK
+      by BHZ, Friday 26th Feb 1999 on 12:09 pm
+      Website for Cross, Gunter, Witherspoon & Galchus (http://www.cgwg.com) company
+      has been hacked earlier. This time hacker told:"If there was a competition for
+      sites with bad security you would have lost. I did not root or administrate you
+      in any kind of way.. but still i was able to alter this p4ge... Guess how? ". 
+      See hacked page here. http://net-security.org/spec/hack/www_cgwg_com.htm
+
+     
+     
+     
+     Z-Rock 106.7 Cracked [ contributed by cassa33 via HNN Feb 26th]
+
+     www.z-rock.com a local California branch of "Z-rock, the worlds rock 
+     superstation" was recently cracked. The perpetrators of the crack claim
+     that the site was only hacked to prove the point that their "security sucks".
+
+     The crack was claimed to have been done by Nightmare, Shadow, Screeching 
+     Demon, and some credit to Zonis Teqneek. They claim that no files were 
+     deleted  and that the original index.html was backed up. 
+
+     Z-Rock -> http://www.z-rock.com/
+     Cracked Pages Archive -> http://www.hackernews.com/archive/crackarch.html
+     
+     [ Contributed by Anonymous  HNN Feb 26th ]
+     We have recieved reports that the following sites have  been cracked:
+      http://www.cgwg.com
+      http://www.eroticwishes.com 
+      http://calweb.com 
+      http://www.hanbit.com 
+      http://www.mundoeletronico.com.br
+
+     [ Contributed by Everybody (HHN) ]
+     Cracked
+     We recieved reports that the following sites had been cracked over the weekend:
+                                      
+      http://www.babyspice.co.uk
+      http://www.per.nl 
+      http://www.diningma.org/
+      http://www.wachterhaus.com 
+      http://www.200cigarettes.com 
+      http://www.ukip.co.uk/
+      http://www.comdex.com/
+      http://hollywoodbookstore.com 
+      http://www.ipswitch.com/
+      http://www.wsftp.com 
+      http://www.mre.gov.br 
+      http://www.swiss-web.com 
+      http://www.des-con-systems.com 
+      http://www.boscoenterprises.com/
+      http://jamco.smn.co.jp 
+      http://wgendai.smn.co.jp 
+      http://broadia.smn.co.jp 
+      http://sun122.smn.co.jp
+     
+     
+       
+      @HWA
+       
+       _________________________________________________________________________
+                 
+  A.0                              APPENDICES
+       _________________________________________________________________________
+        
+  
+  
+  A.1  PHACVW, sekurity, security, cyberwar links
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     
+       The links are no longer maintained in this file, there is now a 
+      links section on the http://welcome.to/HWA.hax0r.news/ url so check
+      there for current links etc.
+    
+      The hack FAQ (The #hack/alt.2600 faq)
+      http://www-personal.engin.umich.edu/~jgotts/underground/hack-faq.html
+    
+      Hacker's Jargon File (The quote file)
+      http://www.lysator.liu.se/hackdict/split2/main_index.html
+    
+   
+
+      International links:(TBC)
+      ~~~~~~~~~~~~~~~~~~~~~~~~~
+      
+      Foreign correspondants and others please send in news site links that
+      have security news from foreign countries for inclusion in this list
+      thanks... - Ed
+      
+      Netherlands...: http://security.pine.nl/
+      Russia........: http://www.tsu.ru/~eugene/
+      Indonesia.....: http://www.k-elektronik.org/index2.html
+                      http://members.xoom.com/neblonica/
+      Brasil........: http://www.psynet.net/ka0z
+                      http://www.elementais.cjb.net           
+
+    Got a link for this section? email it to hwa@press.usmc.net and i'll 
+    review it and post it here if it merits it. 
+    
+    @HWA
+
+  -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-  
+    --EoF-HWA-EoF--EoF-HWA-EoF--EoF-HWA-EoF--EoF-HWA-EoF--EoF-HWA-EoF--       
+       
+    © 1998, 1999 (c) Cruciphux/HWA.hax0r.news
+    (r) Cruciphux is a trade mark of Hairy White Armpitz
+    
+
+  -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-
+  
+     Hackers Without Attitudes Information Warfare Alliance Website
+     Opening soon:
+                          www.hwa-iwa.org
+                         
+    
+     --EoF-HWA-EoF--EoF-HWA-EoF--EoF-HWA-EoF--EoF-HWA-EoF--EoF-HWA-EoF--
+  -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-
+   [ 28 63 29 20 31 39 39 39 20 63 72 75 63 69 70 68 75 78 20 68 77 61 ]
+       [45:6E:64]-[28:63:29:31:39:39:38:20:68:77:61:20:73:74:65:76:65]     

