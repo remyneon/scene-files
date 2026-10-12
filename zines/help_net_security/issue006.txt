@@ -1,0 +1,122 @@
+Net-Sec mini letter 
+Issue 6 - 02.04.2000 
+http://net-security.org 
+
+
+1) Security news 
+2) Security issues 
+3) HNS and Default 
+
+
+1) Security news 
+
+
+MEANING OF THE WORD "HACKER" 
+"For many, the term "hacker" conjures up images of a precocious troublemaker smirking as he toys with the technologically challenged. Indeed, sometimes what the hacker underground sees as exploring, companies call trespassing. But hackers see a difference between their love of exploration and computer showmanship and recent attempts to shut down Web sites and steal credit-card information". - Simple Nomad speaks. 
+Link: http://www.nandotimes.com/technology/story/0,1643,500185952-500248285-501250243-0,00.html 
+
+
+REPORT ON CURADOR 
+Securitywatch.com has filtered through the news to deliver a summary of the important facts and rumors reported on Curador to date. 
+Link: http://www.securitywatch.com/scripts/news/list.asp?AID=2353 
+
+
+PROTEST 
+About 20 Washington-area Linux users and administrators showed up Tuesday morning in front of the Capitol building to protest a controversial federal law called the Digital Millennium Copyright Act. 
+Link: http://www.wired.com/news/politics/0,1283,35178,00.html 
+
+
+HACKING SCHOOL 
+More than 20 students recently sat in a room on the 12th floor of a New York office building to learn how to hack into Microsoft Windows NT and Linux systems. But it wasn't an underground session run by computer criminals; instead, these students hoped to learn how to protect their computer systems and E-commerce Web sites from attack. 
+Link: http://www.techweb.com/se/directlink.cgi?IWK20000327S0051 
+
+
+US PRIVACY PLAN 
+The U.S. has become the first country outside of the European Union to have its data-privacy rules based on safe-harbor principles accepted by the European Commission as providing "adequate" standards of protection for personal data, the commission announced in a statement today. 
+Link: http://www.computerworld.com/home/print.nsf/all/000329CF76 
+
+
+PIRATED STEVEN KING 
+The Stephen King novella "Riding the Bullet" may have been even more popular online than was previously thought. Len Kawell, president of Glassbook Inc., one of the e-book publishers distributing the story, confirmed that attackers had attacked the encryption technology used to protect the story from copyright violations. 
+Link: http://www.zdnet.com/intweek/stories/news/0,4164,2487101,00.html 
+
+
+EUROPEANS AND ECHELON 
+The European Parliament has decided to put off until April 6 a decision on whether to set up a special Committee of Inquiry into allegations that Echelon, the U.S.-backed satellite surveillance system, is spying on European industry. 
+Link: http://www.idg.net/idgns/2000/03/30/EuropeanParliamentDelaysDecisionOnEchelo.shtml 
+
+
+DEMON SETTLES NET LIBEL CASE 
+Laurence Godfrey will be paid L15,000 plus legal costs - which could top L200,000 - by Demon Internet after allegedly defamatory postings about him appeared in newsgroups 
+Link: http://news.bbc.co.uk/hi/english/sci/tech/newsid_695000/695596.stm 
+
+
+
+2) Security Issues (as posted to BugTraq mailing list) 
+
+
+Cobalt apache configuration exposes .htaccess 
+Posted @ April 1, 2000 
+Following some discussion on the cobalt-users list, it seems that this problem affects both the Raq2 and Raq3. It likely affects other cobalt products. 
+Link: http://www.net-security.org/cgi-bin/bugs/fullnews.cgi?newsid954542016,12913, 
+
+
+Ircii buffer overflow 
+Posted @ April 1, 2000 
+A buffer overflow exists in ircii's dcc chat capability. An attacker could use this overflow to execute code as the user of ircii. 
+Link: http://www.net-security.org/cgi-bin/bugs/fullnews.cgi?newsid954541779,50943, 
+
+
+Microsoft Security bulletin #21 
+Posted @ March 31, 2000 
+Microsoft has released a patch that eliminates a security vulnerability in the TCP/IP Printing Services for Microsoft(r) Windows NT(r) 4.0 and Windows(r) 2000. If this service is installed,the vulnerability could allow a malicious user to disrupt printingservices. 
+Link: http://www.net-security.org/cgi-bin/bugs/fullnews.cgi?newsid954457601,96671, 
+
+
+USSR Advisory #37 
+Posted @ March 31, 2000 
+Ussr Labs found a heap memory problem in TCP/IP Print Server, if anyone perform a atack with specially-malformed information to port (515 Print Server), could cause the process containing the service to crash. 
+Link: http://www.net-security.org/cgi-bin/bugs/fullnews.cgi?newsid954457423,412, 
+
+
+Microsoft Security bulletin #19 
+Posted @ March 31, 2000 
+Microsoft has released a patch that eliminates a security vulnerability in Microsoft(r) Internet Information Server and products based on it. Under certain fairly unusual conditions, the vulnerability could cause a web server to send the source code of .ASP and other files to a visiting user . 
+Link: http://www.net-security.org/cgi-bin/bugs/fullnews.cgi?newsid954457215,28986, 
+
+
+Citrix ICA Basic Encryption 
+Posted @ March 29, 2000 
+The ICA (Independent Computing Architecture) protocol used in various Citrix products (Winframe, Metaframe) relies on a trivially cracked encryption scheme to protect user authentication. 
+Link: http://www.net-security.org/cgi-bin/bugs/fullnews.cgi?newsid954358482,31446, 
+
+
+Privacy problems with HTTP cache-control 
+Posted @ March 29, 2000 
+HTTP cache-control headers such as If-Modified-Since allow servers to track individual users in a manner similar to cookies, but with less constraints. This is a problem for user privacy against which browsers currently provide little protection. 
+Link: http://www.net-security.org/cgi-bin/bugs/fullnews.cgi?newsid954358199,31758, 
+
+S&P ComStock multiCSP security issue 
+Posted @ March 28, 2000 
+Standard & Poor's ComStock provides stock quotes and news as a real-time feed on dedicated circuits (ISDN, 56K, T1). ComStock offers a 'Client Site Processor' as a means of receiving their data feed, the MultiCSP I tested against is shipped as a PC running Red Hat Linux 5.1, with version 4.2.4 of 'mcsp', the MultiCSP application software. 
+Link: http://www.net-security.org/cgi-bin/bugs/fullnews.cgi?newsid954250881,88440, 
+
+
+
+3) HNS and Default 
+
+New forum: 
+http://www.net-security.org/various/discussion 
+
+#Security: 
+http://www.net-security.org/various/irc 
+
+Bookstore: 
+http://www.net-security.org/various/bookstore 
+
+Misc: 
+http://www.net-security.org/text/misc/ 
+
+
+HNS Staff 
+staff@net-security.org

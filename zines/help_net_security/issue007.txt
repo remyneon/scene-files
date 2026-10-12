@@ -1,0 +1,139 @@
+Net-Sec mini letter 
+Issue 7 - 10.04.2000 
+http://net-security.org 
+
+
+1) Security news 
+2) Security issues 
+3) HNS and Default 
+
+
+1) Security news 
+
+
+USER TRACKING 
+"HTTP cache-control headers such as If-Modified-Since allow servers to track individual users in a manner similar to cookies, but with less constraints. This is a problem for user privacy against which browsers currently provide little protection." 
+Link: http://www.linuxcare.com.au/mbp/meantime 
+
+
+MIXTER SENTENCED 
+The 21-year-old hacker with the alias "Mixter", whose name was connected with DDoS attacks in February (he was a creator of one of the programs that were used the attacks), was sentenced late Friday by the Hanover regional court to a 6-month youth prison sentence. Sentence isn't in any way connected with DDoS attacks. 
+Link: http://www.internetnews.com/intl-news/article/0,2171,6_332571,00.html 
+
+
+FIGHT SPAM WITH SPAM 
+Cisco Systems is urging victims of spam to take the law into their own hands and deliver their own form of vengeance to combat unwanted e-mails. This was taken from booklet 'The Easy Guide to Network Security', which could be downloaded from their UK site. 
+Link: http://www.theregister.co.uk/000404-000001.html 
+
+
+CRYPTO REGULATIONS 
+Privacy advocates won a preliminary victory when for the second time a federal appeals court questioned restrictions on data-scrambling encryption software. 
+Link: http://www.wired.com/news/politics/0,1283,35425,00.html 
+
+
+CYBERPATROL BLOCK LIST 
+Our affiliates at Security Watch wrote that a list of thousands of hosts, websites and Usenet groups blocked by Microsystems Software Inc.'s CyberPatrol software has been published on the web. 
+Link: http://www.securitywatch.com/scripts/news/list.asp?AID=2423 
+
+
+SECURE E-MAIL SERVICE 
+The Royal Mail has launched a secure e-mail service through its secure technology service, ViaCode. 
+Link: http://www.silicon.com/public/door?REQUNIQ=955114071&6004REQEVENT=&REQINT1=36827&REQSTR1=newsnow 
+
+
+SECURITY ADDITIONS 
+Cisco Systems next week plans to ramp up its VPN security with a new addition to its PIX firewall line as well as an updated version of its Secure Policy Manager software for enterprise users. 
+Link: http://www.infoworld.com/articles/en/xml/00/04/06/000406enciscofirewall.xml 
+
+
+STOLEN ACCOUNTS 
+"Malicious hackers" from overseas have been racking up surfing bills for unsuspecting SingNet customers by using their Internet accounts, The Straits Times has found out. 
+Link: http://www.straitstimes.asia1.com/singapore/sin20_0407.html 
+
+
+
+2) Security Issues (as posted to BugTraq mailing list) 
+
+Note: If you are following the links below, be sure to add "," on the end of each URL (If you don't, 404 error will be heading your way:) 
+PS: All added vulnerabilities could be found on : http://www.net-security.org/text/misc/bugs 
+
+
+BeOS Networking DOS 
+Posted @ 9.4.2000 
+The BeOS networking stack crashes when certain malformed packets are sent to it. This document explains two such packets. The first is an IP packet with the protocol field set to TCP. If theIP length field is set to be shorter than 40, it will crash the networking process on reception 
+Link: http://www.net-security.org/cgi-bin/bugs/fullnews.cgi?newsid955244343,92461, 
+
+
+PcAnywhere weak password encryption 
+Posted @ 7.4.2000 
+PcAnywhere 9.0.0 set to its default security value uses a trivial encryption method so user names and password are not sent directly in clear. Since most users have the encryption methods set to either "none" or "PcAnyWhere", their password are sent with weak encryption. 
+Link: http://www.net-security.org/cgi-bin/bugs/fullnews.cgi?newsid955117228,48342, 
+
+
+IBM HTTPD and /usr/bin/ikeyman issue 
+Posted @ 7.4.2000 
+Summary: /usr/bin/ikeyman is a shell script installed with setuid rootpermissions by the IBMHSSSB package on Solaris. The script does not seem to work very well in a Solaris 2.6 environment because of dynamic linker issues; if they are resolved, however, an unprivileged user may then be able to use ikeyman to run commands of their choice as root. 
+Link: http://www.net-security.org/cgi-bin/bugs/fullnews.cgi?newsid955117140,7397, 
+
+
+SilverBack Security Advisory: Nbase-Xyplex DoS 
+Posted @ 7.4.2000 
+SilverBack Technologies has discovered a Denial of Service attack against Nbase-Xyplex EdgeBlaster router. The router tested will stop passing traffic when scanned for the FormMail CGI vulnerability. The test was preformed from both linux, and NT devices running NAI's CyberCop scanning software. 
+Link: http://www.net-security.org/cgi-bin/bugs/fullnews.cgi?newsid955116798,7811, 
+
+
+Win32 Realplayer 6/7 Buffer Overflow 
+Posted @ 4.4.2000 
+There is a buffer overflow in the Win32 RealPlayer Basic client, versions 6 and 7. This appears to occur when >299 characters are entered as a 'location' to play, such as http://aaaaa..... with 300 a's. I have tested the MacOS and Linux Realplayer clients and have as yet not found such a vulnerability. 
+Link: http://www.net-security.org/cgi-bin/bugs/fullnews.cgi?newsid954828462,32898, 
+
+
+
+3) HNS and Default 
+
+Trojan advisories added 
+----------------------------------- 
+
+In association with Dark Eclipse Software (www.dark-e.com), we have added new section to HNS - trojan advisories. The main point of our new section is that you could read about latest trojans on one place, and that you could always be informed what could be causing problems to your computer. Plus all information about trojan servers, easy instructions for manually deleting them are also presented in the each separate advisory. 
+
+URL with all advisories > http://www.net-security.org/text/misc/trinfo 
+
+Present advisories: 
+
+phAse zero version 1.0 
+Invisible FTP 
+Host Control version 1.0 
+PsychWard big 
+PsychWard small 
+@!#$ Heep version 1.00 beta 
+Tapiras 
+The Infector version 1.3 
+Yahoo Pager Thief 
+WinPC 
+Fatal Network Error 
+Firehotcker version 1.03 
+Transmission Scout version 1.1 
+SubSeven version 1.0 
+NokNok version 6.0 
+Deep Throat version 3.0 
+Deep Throat version 2.1 
+Deep Throat version 2.0 
+Deep Throat version 1.0 
+Back Orifice 1.20 
+Back Orifice 2000 
+TRuVa Atl version 1.2 
+
+
+HNS forum: 
+http://www.net-security.org/various/discussion 
+
+#Security: 
+http://www.net-security.org/various/irc 
+
+Bookstore: 
+http://www.net-security.org/various/bookstore 
+
+
+
+HNS Staff 
+staff@net-security.org

@@ -1,0 +1,190 @@
+Net-Sec mini letter 
+Issue 5 - 27.03.2000 
+http://net-security.org 
+
+
+1) Security news 
+2) Default article 
+2) Help Net Security 
+
+
+1) Security news 
+
+
+CODE FOR THE NEXT VERSION OF WINDOWS 
+Computer code for an early version of the next consumer release of the Windows system, codenamed Whistler, found its way onto several websites earlier this week. Whistler is the codename for the first fully-fledged upgrade to Windows 2000. It will be based on the Windows NT kernel, rather than the Windows 9x kernel 
+Link: http://linuxtoday.com/stories/18815.html 
+
+
+CRIME FIGHTING LAB 
+With an eye toward cracking down on cyber crime, officials at the College of DuPage on Monday unveiled a new state-of-the-art computer lab at the college's Suburban Law Enforcement Academy. 
+Link: http://www.chicagotribune.com/news/metro/dupage/printedition/article/0,2669,SAV-0003210202,FF.html 
+
+
+MICROSOFT OFFICE PATCHES 
+Microsoft posted Service Release 1 (SR-1) to the Web for download. It is the first collection of patches and fixes for Office 2000 since the product began shipping last June. 
+Link: http://officeupdate.microsoft.com/default.asp 
+
+
+ATTACKS COST RISES 
+In an annual survey issued on Wednesday, the FBI and the San Francisco-based Computer Security Institute showed just how pressing: total verifiable losses in 1999 more than doubled to up to top $265 million, while more than 90 percent of respondents reported detecting some form of security breach. 
+Link: http://cnnfn.com/2000/03/22/technology/wires/hackers_losses_wg/ 
+
+
+FEDERAL CIO NEEDED 
+Former Senate Year 2000 Committee Chairman Sen. Robert Bennett, said Thursday that the numerous legislative and agency efforts to address cyber security may need the guidance of a single "chief information officer" to coordinate the government's cross agency and trans-industry security measures. 
+Link: http://www.currents.net/newstoday/00/03/24/news16.html 
+
+
+ATTRITION INTERVIEW 
+WHiTe VaMPiRe from ProjectGamma.com did an IRC interview with the staff of well known underground resource Attrition. Interview focuses on various topic related to Attrition. 
+
+<snip> 
+<WHiTe_VaMPiRe> The technical projects, what do you have planned in that regard? 
+<modify> I would like to see more technical documents and programs released by Attrition and its Staff 
+<punkis> I have some ideas for some security related tools I want to put together and a couple of real interesting research ideas 
+<cOmega> I'm working on a full PGP guide that will walk users through the command line and gui versions; installation and usage, as well as caveats. 
+<cOmega> I also have a big-ass proposal I'm working on and will be hopefully releasing under the attrition banner. 
+<cOmega> I'm leaving my government job. 
+</snip> 
+
+http://www.projectgamma.com/news/interviews/attrition.shtml 
+
+
+
+2) Default article 
+
+
+We currently received 5 texts for 9th issue of Default. Just for subscribers of HNS mailing list, here is Thejian's article about buffer overflows. Enjoy: 
+
+
+Smashing the what?? 
+
+An introduction to the memory buffers and a explanation of their possible uses as weaknesses -- by Thejian 
+
+
+Introduction 
+
+A survey held amongst readers of the security/vulnerability report list "Bugtraq" a few months ago approximately 2/3 of the respondents thought the so-called "buffer overflows" to be the dominating security problem. (http://immunix.org/SlackGuard/discex00.pdf) When you troll through the messages and advisories on this same list, you indeed get the impression this might not be to far from the truth since the lil' boogers are mentioned everywhere. In the following article I'll try to explain a bit more about the way memory is handled on a system and how these buffer problems can be used to exploit it. Most of the various files floating around out there however require quite a background in programming etc to understand, I'll try to make this understandable even for those of you who do not exactly meet that requirement (maybe particularly those of you). I hope to make "simplify" not "dumbify" however, but still this is just a basic approach, useful as an introduction to the more technical texts by individuals as dr Mudge, Elias Levy (Aleph One) and many others (see bibliography). So if you were born with pure ASM running through your veins you might want to look elsewhere, if however you're just the average enthusiast wanting to know what all those "elite" people are talking about, do read on :) 
+
+
+What are these "buffers" you keep talking about? 
+
+A computer program basically is a set of instructions and requests. This can easiest be illustrated in form of the famous "if-then-else" loop. An instruction is run, resulting in variables which decide the course of the program while the follow-up instructions are ran. A buffer (in programming) is an area in the memory shared by 
+
+different processes on the system. Basically a buffer makes it possible to make different processes run simultaneously without holding each other up or to hold data in a place where it can be manipulated before its moved to a file. The program also needs a way to "remember" how to follow-up when the current instruction is done, what to do next. This is where the "Stack" comes in. 
+
+
+The what?? 
+
+The Stack (or "push-down list") is a (dynamicly) growable area of the memory where when a program is executed, it dumps its data (variables, memory addresses etc), which gets manipulated by whatever rules and algorithms are present/appliable and then continues. Then the "next to-do" instruction is taken from the top of the Stack and executed. "From the top" might give you the impression this process is defined by means of a predestined orderly list of any kind. The way how this actually works however, is that the last instruction passed on to the system to be executed ends up on top of the stack, so you could say it works in a "last in - first out" manner. 
+
+
+The top and bottom of the stack are defined by the Stack pointer (which holds the memory address to where the top of the Stack can be found) and the Base pointer (which obviously is the other one, pointing at the bottom or base of the Stack). Contrary to what might seem logical, the number associated with the memory addresses start at the bottom of the stack (hence the "base") and start counting up. Because of this, generally programs refer to the BP for the location of their data. This means the start of an 10 character instruction is not called as SP + 1 but as BP -11 (or actually BP +11 because of the numbers counting up "backwards"). 
+
+
+The Buffer Overflow 
+
+As said before, a buffer is an area shared by different processes. Obviously there is a need for a certain flexibility here, to allow this changing of different processes to actually happen and to allow it to be called from different positions in the program. These buffers are subject to certain rules though and overflowing them is nothing more than the word says, breaking those rules by filling up a buffer by putting more in it than fits in. (think of trying to hammer the triangle into the mold of a circle :) 
+
+
+An example: (part of in the bibliography mentioned doc on the writing of Buffer Overflows by dr. Mudge of L0pht Heavy Industries) 
+
+
+--------syslog_test_1.c------------ 
+
+#include 
+
+char buffer[4028]; 
+
+void main() { 
+
+int i; 
+
+for (i=0; i<=4028; i++) 
+
+buffer[i]='A'; 
+
+syslog(LOG_ERR, buffer); 
+
+} 
+
+--------end syslog_test_1.c---------- 
+
+
+
+
+What happens here is that the buffer, which is set to contain 4028 characters is filled with A's as long as the amount of A's is smaller than or equals 4028. Obviously the set buffer size eventually is exceeded, causing the buffer to "overflow". The system returns: 
+
+
+Program received signal 11, Segmentation fault 
+
+0x1273 in vsyslog (0x41414141, 0x41414141, 0x41414141, 0x41414141) 
+
+
+or pops up something like the following:[ (when in Windows) 
+
+
+"The Instruction at '0x1273' referenced memory at '0x41414141'. The memory could not be read." 
+
+
+Here the second line tells us a number of things as the location where it crashed. The 41's you see are the hex equivallent for the ascii character 'A'. 
+
+
+Gee that's nice.. but what can I do with it? 
+
+
+Most network/server systems manage a variety of different accounts to keep track of which user is where doing what and to make sure no user could have access to things (be it files or processes/services) he or she shouldn't have. Obviously the accounts with the higher privileges are the ones the most interesting because they give access to and allow manipulation/execution of a lot more things. What you'd want to do is to exploit an Buffer Overflow in something (program/service/etc) ran by one of these accounts, allowing you to change the position indicating the "next-to-do" instruction and possibly allowing you to execute your own code. By overwriting this pointer with (enough of) the value you use to overflow the buffer, the program is redirected to (when using the A's mentioned in the above example) address 0x41414141 and executing the instructions it finds there. The beauty of this all is that these instructions are run with the privileges of the account which process you interrupted. This way you could pop up a command prompt as root or run code you wrote/uploaded on another account with the privileges of the administrator. Imagine the possibilities :) So as Mudge says, "put on those warp refraction eye-goggles and on we go" ! 
+
+
+The more technical side (or: Bibliography) 
+
+Now you have a bit of an understanding as to what buffer overflows actually are and how they work, or at least so I hope. If you got the taste for it now, or just want to experiment, you now might want to move on to the next mentioned files: 
+
+"Smashing The Stack For Fun And Profit", Elias Levy(Aleph One) 
+http://www.phrack.com/search.phtml?view&article=p49-14 
+
+"How to write Buffer Overflows", dr. Mudge 
+ftp://ftp.technotronic.com/rfc/bufferoverflows.html 
+
+"The Tao of the Windows Buffer Overflow", Dildog 
+http://www.cultdeadcow.com/cDc_files/cDc-351/index.html 
+
+"Exploiting Windows NT4 Bufferoveruns; a case study: RASMAN.EXE", David Litchfield 
+http://packetstorm.securify.com/9905-exploits/ntbufferoveruns.txt 
+
+"W00w00 on Heap Overflows", w00w00 security 
+http://packetstorm.securify.com/docs/infosec/buffer-overflows/w00w00-heap-overflows.txt 
+
+
+
+3) Help Net Security 
+
+HNS bookstore has now over 200 books. They are divided in this cathegories: 
+
+* Security And Administration 
+* Operating Systems 
+* Network Security 
+* Networking 
+* Programming 
+* Cryptography 
+* Cyber Culture 
+* Free E-Books 
+
+< http://www.net-security.org/various/bookstore > 
+
+HNS download zone was updated with 3 new categories: 
+
+* Anti spam tools 
+* Anti cookies tools 
+* Encryption 
+
+< http://www.net-security.org/various/download > 
+
+If you would like to submit any news, ideas, comments, articles or critics please use: 
+
+http://www.net-security.org/news/submit 
+or staff@net-security.org 
+
+
+HNS Staff

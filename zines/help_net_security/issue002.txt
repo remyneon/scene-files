@@ -1,0 +1,108 @@
+Net-Sec mini letter 
+Issue 2 - 28.02.2000 
+
+
+1) Security news roundup 
+2) Security issues 
+3) HNS and Default 
+
+1) Security news roundup 
+
+Internet Security Alliance started [22.02.2000] 
+The Alliance for Internet Security, founded by ICSA.net, is an organization of Internet service providers (ISPs), industry professionals and corporations committed to the widespread adoption of security measures to address recent Distributed Denial of Service Attacks (DDoS). 
+
+Link: http://www.icsa.net/html/press_related/2000/02_22_00_alliance.shtml 
+
+
+Microsoft attacked [23.02.2000] 
+Microsoft said on that cyber vandals had tried to topple its corporate Web site, but the they said the assault, the latest in a string of crippling attacks on major Internet operations, had done little damage. 
+
+Link: http://www.wired.com/news/business/0,1367,34540,00.html 
+
+
+NDB.com attacked [24.02.2000] 
+National Discount Brokers Group said its stock trading Web site was down for more than an hour today, due to an apparent computer hacker attack. National Discount, a brokerage and share dealer, said its NDB.com's Web site froze early in the afternoon after it was flooded with information requests from two Internet addresses. 
+
+Link: http://news.cnet.com/news/0-1007-200-1557619.html?tag=st.ne.ron.lthd.1007-200-1557619 
+
+
+FBI was also attacked [25.02.2000] 
+The FBI acknowledged that electronic vandals shut down its own Internet site for hours last week in the same type of attack that disrupted some of the Web's major commercial sites. The bureau's Web site, www.fbi.gov, remained inaccessible for more than three hours Feb. 18. 
+
+Link: http://www.apbnews.com/newscenter/internetcrime/2000/02/25/fbihack0225_01.html 
+
+
+Smart cards [26.02.2000] 
+Serge Humpich, the 36 year-old engineer who discovered flaws in the chip-based security of French credit cards, was sentenced yesterday in Paris. Under the ruling issued by the 13th correctional chamber, he was sentenced to a suspended prison sentence of 10 months, 12,000 francs (approx. L1,200) in fines, and one symbolic franc in damages to the Groupement des Cartes Bancaires. His computer equipment has been seized, as well as the document that he had filed with the INPI (France's patents and trademarks office), detailing his findings 
+
+Link: http://www.theregister.co.uk/000226-000001.html 
+
+
+Japan tightens up security [27.02.2000] 
+Japan's science chiefs vowed Monday to tighten security on government Internet sites amid reports that a Chinese group is waging a cyber war. "What is imperative for us with regard to security is to do away with security holes to fight further attacks and that is what we are doing," said Science and Technology Agency official Yuichi Sakamoto 
+
+Link: http://www.insidechina.com/news.php3?id=134051 
+
+
+
+2) Security issues 
+
+Outblaze problems 
+By using authentication strings in the URL after logging in to a mailbox, 
+Outblaze-powered e-mail accounts are left vulnerable to unauthorized access. 
+Anyone who discovers that string before a login session expires can gain full 
+access to any Outblaze-powered e-mail account. 
+
+Link: http://www.net-security.org/misc/bugtraq/2402outblaze.txt 
+
+
+Georgi Guninski advisory #7 
+There is a vulnerability in Wordpad which allows executing arbitrary 
+programs without warning the user after activating an embedded or linked 
+object. This may be also exploited in IE for Win9x 
+
+Link: http://www.net-security.org/misc/bugtraq/2402guninski.txt 
+
+
+MS back door? 
+MS signed software seems to have very special privileges with regard to software signed by other publishers. 
+This demo is intended to demonstrate that MS signed code has the power of override IE security settings . 
+I have only tested IE 5.01 , IE 4.01 and IE 5 with all the security fixes . Note that the back door I am describing can also be used by HTML e-mail messages. 
+
+Link: http://www.angelfire.com/ab/juan123/iengine.html 
+
+
+
+3) HNS and Default 
+
+You could expect compiled articles from Default newsletter in a day or two. 
+Last article submitted was : 
+
+"A guide to backdooring Unix systems" by airwalk [28.02.2000 -- Default 08-08] 
+http://net-security.org/default/08/default-08-08.txt 
+
+Older copies could be fetched from: 
+http://net-security.org/default/issues 
+
+Current active mirrors: 
+
+http://www.nwo.net/default 
+http://www.attrition.org/~modify/texts/zines/default 
+http://www.projectgamma.com/archives/zines/default 
+http://www.dark-e.com/default 
+http://ech0.zort.org/default 
+http://www.deepquest.pf/default 
+http://hns.crolink.net/default 
+http://packetstorm.securify.com/mag/default 
+
+If you are mirroring Default newsletter or if you want to write for it please do e-mail me at bhz@net-security.org 
+
+
+HNS backend - http://www.net-security.org/backend 
+HNS forum - http://net-security.org/webboard.htm 
+HNS mailing list - http://net-security.org/info/list 
+
+
+Berislav Kucan - BHZ 
+bhz@net-security.org 
+http://net-security.org

@@ -1,0 +1,1203 @@
+HNS Newsletter
+Issue 64 - 21.05.2001
+http://net-security.org
+http://security-db.com
+
+This is a newsletter delivered to you by Help Net Security. It covers weekly 
+roundups of security events that were in the news the past week. Visit Help 
+Net Security for the latest security news - http://www.net-security.org.
+
+Subscribe to this weekly digest on:
+http://www.net-security.org/text/newsletter
+
+Archive of the newsletter in TXT and PDF format is available here:
+http://www.net-security.org/news/archive/newsletter
+
+Current subscriber count to this digest: 2430
+
+Table of contents:
+ 
+1) General security news
+2) Security issues
+3) Security world
+4) Featured products
+5) Security software
+6) Defaced archives
+
+
+========================================================
+Help Net Security T-Shirt available
+========================================================
+Thanks to our affiliate Jinx Hackwear we are offering you the opportunity 
+to wear a nifty HNS shirt :) The image speaks for itself so follow the link 
+and get yourself one, summer is just around the corner.
+Get one here: http://207.21.213.175:8000/ss?click&jinx&3af04db0
+========================================================
+
+
+General security news
+---------------------
+ 
+----------------------------------------------------------------------------
+
+ARIZONA GOVERNOR VETOES CYBER-SECURITY BILL
+Arizona Gov. Jane Hull, R, vetoed legislation approved by the state legislature 
+that would have established a critical infrastructure protection plan for the 
+state. Although the legislature approved the bill, a veto appeared all but 
+certain once state Chief Information Officer Rick Zelznak signaled his 
+opposition last week.
+Link: http://www.net-security.org/cgi-bin/news.cgi?url=http://www.computeruser.com/news/01/05/14/news9.html
+
+
+ROLLING BLACKOUTS ROLL INTO A PROVIDER NEAR YOU
+On May 8th, 2001, the hosting service provider Exodus was temporarily 
+knocked offline by an explosion in a generating electric company, underneath 
+the provider's building. No one intended for this to happen, and by all accounts 
+it was an "accident" due to the problems that the state is currently facing with 
+its power supply. Was this to be considered a Denial of Service? Many would 
+argue that since this was more an "Act of God" than a malicious attack, then 
+No, it shouldn't be something for security professionals to concern themselves 
+with. There are, however, some inherent risks that are compounded when 
+something unfortunate happens such as this.
+Link: http://www.net-security.org/cgi-bin/news.cgi?url=http://www.securityportal.com/articles/blackouts20010514.html
+
+
+DEFENSE IN DEPTH: CRON
+A few days ago an exploit was released for crontab that allows local users 
+to get root access. Of course almost every Linux (and for that matter UNIX) 
+system comes with crontab installed and enabled, so for the vendors affected 
+virtually every installed machine is vulnerable. Some vendors have already 
+started to issue updates, but of course this does nothing for the people 
+already exploited or the people who's vendors have not yet issued updates. 
+This is where defense in depth comes in.
+Link: http://www.net-security.org/cgi-bin/news.cgi?url=http://www.securityportal.com/articles/cron20010514.html
+
+
+SOUTH KOREA FALLS VICTIM TO THE ATTACKS
+A South Korean government computer security agency said 164 cases of 
+hacking of sites run by universities, companies, research and private groups 
+had been blamed on the China-US cyber war since May 4. According to the 
+posts to Incidents mailing list, the number of penetrated Korean hosts is 
+much bigger, because literally there isn't a system administrator that wasn't 
+probed by someone on .kr domain.
+Link: http://www.theage.com.au/cgi-bin/print_article.pl?path=/frontpage/2001/05/14/FFXBLXA4PMC.html
+
+
+TEEN SUSPENDED FOR HACKING COMMITS SUICIDE
+13 year old Shinjan Majumder commited suicide after he got suspended from 
+school for 10 days for hacking into the school district's computer system.
+Link: http://www.nj.com/news/times/index.ssf?/news/times/05-13-CCQR1VHB.html
+Link: http://slashdot.org/article.pl?sid=01/05/14/0129236&mode=thread
+
+
+WORM TURNS ON CHEGGERS SITE
+Keith Chegwin's latest project, cheggersbedroom.com, a live webcast show 
+straight from the bedroom of the man himself, has fallen foul of the site
+defacing worm sadmind/IIS. But white hat hackers have pointed out that the 
+site still has more holes than a sieve. Any of the 4,000,000 users the site 
+claims to have logging on this morning would have been greeted by the 
+message "Fuck USA Government, Fuck Poizonbox", the trademark message 
+of the worm.
+Link: http://www.net-security.org/cgi-bin/news.cgi?url=http://www.vnunet.com/News/1121644
+
+
+FBI LAUNCHES COMPUTER SECURITY REVIEW
+The FBI is conducting an overview of its computer security policies and 
+practices in the wake of spying accusations against Robert Hanssen, 
+according to a senior FBI information technology official.
+Link: http://www.net-security.org/cgi-bin/news.cgi?url=http://www.usatoday.com/life/cyber/tech/fcw2.htm
+
+
+MOB PHREAKERS RULE VEGAS PHONE NETWORK
+Do hackers control sin city? Adult entertainment operators, private eyes, a 
+bail bondsman and his bounty hunter all say they've felt the pinch from a 
+shady cyberpunk syndicate. Now the state has launched an investigation, 
+and there could be millions on the line.
+Link: http://www.net-security.org/cgi-bin/news.cgi?url=http://www.theregister.co.uk/content/8/18950.html
+
+
+HOT 100: SECURITY
+In these uncertain economic times, security has maintained its strong popularity 
+as a viable investment area for venture capitalists. A host of managed security 
+service providers (MSSPs) and companies addressing the notorious distributed 
+denial-of-service attacks are among the most recent to receive substantial 
+venture funding.
+Link: http://www.upside.com/texis/mvm/hardwareSoftware/story?id=3af2f5391
+
+
+STUDYING NORMAL TRAFFIC, PART THREE: TCP HEADERS
+This is the final article in Karen Frederick's three-part series devoted to studying 
+normal traffic. The first two articles in this series showed how to capture packets 
+using WinDump and reviewed some of the basics of normal TCP/IP traffic. In this 
+article, we will be looking at two other aspects of normal TCP traffic: the structure 
+of TCP packets and the use of TCP options.
+Link: http://www.net-security.org/cgi-bin/news.cgi?url=http://www.securityfocus.com/focus/ids/articles/normaltraf3.html
+
+
+USERS MOLD SECURITY BENCHMARK
+The problem with IT security benchmarks is that the reference point is a 
+constantly shifting target as new technologies and threats emerge. And 
+that's an especially difficult problem to overcome, said corporate security 
+systems managers. They are examining the fruits of a relatively new 
+cooperative effort that this week will yield the near-final version of a 
+systems security benchmark for Sun Microsystems Inc.'s Solaris. But 
+despite concern about the benchmark's continued usefulness, end-user 
+members of the Center for Internet Security said the organization's 
+technical benchmark for securing Solaris systems will be key to their 
+security efforts.
+Link: http://www.net-security.org/cgi-bin/news.cgi?url=http://www.computerworld.com/cwi/story/0%2C1199%2CNAV47_STO60526%2C00.html
+
+
+MS GETS PRIVACY-HAPPY WITH NEW IE
+Microsoft's Internet Explorer 6, due to roll out this fall with the Windows XP 
+operating system, will provide users with new tools to protect their privacy. 
+Using a new standard protocol called the Platform for Privacy Preferences 
+(P3P), the browser will automatically be able to read the privacy policies 
+associated with cookies, which will be blocked or allowed through settings 
+that users select.
+Link: http://www.net-security.org/cgi-bin/news.cgi?url=http://www.wired.com/news/privacy/0,1848,43686,00.html
+
+
+GERMAN BANKS GIVE CHIP CARDS
+German savings banks are to give chip cards embedded with electronic 
+signatures to up to 20m customers in an attempt to kick-start their use 
+for online security.
+Link: http://news.ft.com/ft/gx.cgi/ftc?pagename=View&c=Article&cid=FT3PT3SIQMC&live=true&tagid=ZZZZV1CYA0C&subheading=financial%20services
+
+
+E-MAIL WORM PRETENDS TO BE FRIENDLY VIRUS WARNING
+Symantec has issued a real warning about a fake virus alert that looks like an 
+e-mail bulletin from the Cupertino, Calif., company. The big problem with the 
+bogus e-mail, Symantec says, is that it comes with a new Internet worm 
+attached. The worm, written as a Microsoft Visual Basic script, is designed 
+to probe the address book of recipients who use the Outlook Express e-mail 
+application and send copies of itself to the contacts it finds there.
+Link: http://www.net-security.org/cgi-bin/news.cgi?url=http://www.newsbytes.com/news/01/165729.html
+
+
+SECURE VPNs
+Seems everyone who has deployed a virtual private network has a war story to 
+tell. The gateway is difficult to configure correctly. Or, conflicts between NAT 
+and IPSec cause legitimate packets to be refused or dropped. Or, there's no 
+way to efficiently manage the security of a remote client. Bottom line: VPNs 
+solve some security problems, but in doing so they often introduce others. 
+Here's one real-life war story from a network analyst at a Midwest-based 
+insurance company. The analyst--we'll call him Bill--agreed to speak to 
+Information Security about his firm's VPN problems on condition of anonymity.
+Link: http://www.net-security.org/cgi-bin/news.cgi?url=http://www.infosecuritymag.com/articles/may01/cover.shtml
+
+
+NEW ISSUE OF CRYPTO-GRAM RELEASED
+This month's crypto-gram discusses Defense Options: What Military History Can
+Teach Network Security, Part 2, The Futility of Digital Copy Prevention, Microsoft 
+and the Window of Vulnerability, security standards, relevant news, and more.
+Link: http://www.net-security.org/cgi-bin/news.cgi?url=http://www.counterpane.com/crypto-gram-0105.html
+
+
+BREAKING INTO INFOSEC
+Information security, as a discipline, is replete with quirky ironies. "Trusted" 
+internal users pose a greater threat than external malicious users. Virus alerts 
+and vulnerability warnings help black hats refine their attacks. Considering 
+these ironies, it should come as no surprise that the rise in "hacking" has 
+also increased the interest in infosec as a professional career.
+Link: http://www.net-security.org/cgi-bin/news.cgi?url=http://www.infosecuritymag.com/articles/may01/features_career_advice.shtml
+
+
+IIS BACKDOOR, YAHOO AND THE REG
+Eric S. Raymond (via LinuxToday): "Today, Yahoo is carrying the news that 
+Microsoft has admitted the existence of a backdoor in its IIS webserver that 
+could affect hundreds of thousands of websites worldwide". The Register 
+promptly answered with article titled "Yahoo buys ancient WSJ FrontPage 
+'backdoor' report". Article on the Yahoo Business News site was pulled off...
+
+
+ISSUE #17 OF HACK IN THE BOX'S E-ZINE IS OUT
+"We've got a varied number of topics in this issue including Remote Host 
+Discovery with Portscanning, an Introduction to Packet sniffers, Password 
+recovery, Scene Whores, and lots more."
+Link: http://www.hackinthebox.org/article.php?sid=2164
+
+
+CHEESE WORM
+System administrators worldwide reported signs Wednesday that another 
+worm had started to infect Linux systems. This worm appears to be different, 
+however: Dubbed the Cheese worm (it was found in /tmp/.cheese/), the 
+program is basically a self-spreading patch. It enters servers that have 
+already have been compromised by 1i0n worm and closes the back door 
+behind it.
+Link: http://www.net-security.org/cgi-bin/news.cgi?url=http://news.cnet.com/news/0-1003-200-5949401.html
+
+
+ECHELON FLOODING WORM
+VBS/LoveLet-CL is a variant of the Love Letter worm. The worm makes two 
+copies of itself, using the filenames command.vbs and WinVXD.vbs. These 
+files are executed each time the computer boots up. The worm's code 
+contains a list of almost 300 terms that could trigger surveillance systems--
+such as the much-theorized Echelon system--that scan for e-mails whose 
+content could affect national security. Words such as toxin, detonator, 
+conspiracy, uzi, grenades and assassination all appear in the body of the 
+virus.
+Link: http://www.net-security.org/cgi-bin/news.cgi?url=http://www.zdnet.com/zdnn/stories/news/0,4586,5083050,00.html
+
+
+IT CONSULTANT DENIES L25M WEB SITE BLACKMAIL
+IT consultant Graham Browne is to be tried at the Old Bailey in September for 
+attempting to blackmail an unidentified financial institution for L25 million over 
+weak security, Private Eye reports. Browne denies an alleged threat to 
+compromise the security of Barclays' Barclaycard operation. The blackmail 
+demands were made between March and September last year. Barclays' 
+online banking service - the largest in Britain - was cracked in July last 
+year and collapsed again in February this year.
+Link: http://www.net-security.org/cgi-bin/news.cgi?url=http://www.theregister.co.uk/content/8/19022.html
+
+
+CRACKING E-SECURITY
+If the governments of the world are to be believed, Public Key Infrastructure 
+(PKI) is playing straight into the hands of the criminal underworld. According 
+to some, it is just too strong, which means that Big Brother finds it very 
+difficult to keep his beady eyes locked onto our every movement. This may 
+well be true, but whether that is a valid enough reason for certain government 
+departments to want access to private keys - as was once mooted - is 
+debatable. The fact is that PKI does a job and does it very well.
+Link: http://www.net-security.org/cgi-bin/news.cgi?url=http://www.vnunet.com/Features/1121766
+
+
+SOLARIS AND IP FILTER
+IP Filter is not only an excellent perimeter defense mechanism for networks, it 
+is also a great way for the security-minded to teach themselves firewalling and 
+NAT concepts. This article will examine the ways in which IP Filter can be used 
+for Network Address Translation on a Solaris system. Specifically, it will discuss 
+NAT functionality in IP Filter, Configuring IP Filter for NAT, and some advantages 
+and disadvantages of using IP Filter for NAT.
+Link: http://www.net-security.org/cgi-bin/news.cgi?url=http://www.securityfocus.com/focus/sun/articles/ipfilternat.html
+
+
+HACKERS CASH IN ON E-COMMERCE BUG
+In April, a devastating bug was found in shopping cart software called "PDG" that 
+exposed all customer records on about 4,000 Web sites. The FBI issued a public 
+warning directed at the software's customers, but a small e-commerce Web site 
+named SawyerDesign.com didn't notice.
+Link: http://www.net-security.org/cgi-bin/news.cgi?url=http://www.zdnet.com/zdnn/stories/news/0,4586,2761859,00.html
+
+
+E-MAIL SECURITY
+For more than 10 years, secure e-mail has been a standard topic of discussion 
+in the corporate IT and computer security community. Subscribe to any IT, 
+networking or security magazine, and you're bound to read an article on the 
+subject every few issues. Browse through the brochure of any infosecurity 
+conference, and you'll almost always come across at least one session or 
+workshop on the topic. Surf the Web sites of the industry's prominent vendors, 
+and you're sure to come across a white paper or product related to this ever
+present consumer and corporate need. Despite this preponderance of information, 
+advice and technology solutions, only a fraction of corporate and consumer 
+'Netizens actually use some type of e-mail security. Problems with protocol 
+and product interoperability, scalability and usability have left many users 
+wondering if protecting their e-mail is really worth the headache. That's the 
+bad news.
+Link: http://www.net-security.org/cgi-bin/news.cgi?url=http://www.infosecuritymag.com/articles/may01/features_email_security.shtml
+
+
+LINUX SECURITY ADVICE: SUID PROGRAMS
+This is not going to be another article on inetd.conf, or even firewalling your 
+Linux box. Those are both great security measures, but they've been done to 
+death. Instead, I'm going to talk about protecting your box from your own 
+users. Here's the scenario. You've got a Linux server, and of course you've: 
+gotten rid of unneeded services, you only installed the packages you needed, 
+and you've patched them to the most current version. For whatever reason, 
+you have users on your system, with shell access. But you want to make 
+sure they can't do anything more than what you allow them to.
+Link: http://www.linux.com/enhance/newsitem.phtml?sid=1&aid=12286
+
+
+ASP SECURITY AND DISPUTE RESOLUTION GUIDELINES RELEASED
+New global procedures for improved security and efficient dispute resolution for 
+application service providers (ASP) were announced today to help solidify the 
+future of the emerging industry. After a year's work, the Wakefield, Mass.
+based ASP Industry Consortium (ASPIC) and the World Intellectual Property 
+Organization (WIPO) today released final recommendations and guidelines 
+that will be used by WIPO's Arbitration and Mediation Center to resolve 
+disputes between ASPs around the world.
+Link: http://www.net-security.org/cgi-bin/news.cgi?url=http://www.computerworld.com/cwi/stories/0,1199,NAV47-68-84-88_STO60694,00.html
+
+
+PENTAGON: WE'RE UNDER HEAVY ATTACK
+Unidentified hackers have been trying to break into Defense Department 
+computer networks in a constant push to disrupt U.S. military forces, the 
+Pentagon's chief information officer said.
+Link: http://www.net-security.org/cgi-bin/news.cgi?url=http://www.zdnet.com/zdnn/stories/news/0%2C4586%2C2761949%2C00.html
+
+
+HACKERS CRACK A&B SITE
+Internet shoppers surfing A&B Sound's online store early Friday were surprised 
+to find customer names, credit-card numbers and expiry dates on the Web site 
+before the company discovered the security breach and shut it down. The 
+breach affected only shoppers with outstanding orders at the online store. A&B 
+Sound was contacting those customers Friday, warning them to contact their 
+credit-card issuer. Customers at the company's regular retail outlets were not 
+affected.
+Link: http://www.net-security.org/cgi-bin/news.cgi?url=http://www.vancouversun.com/newsite/business/010519/5020497.html
+
+----------------------------------------------------------------------------
+
+
+
+
+Security issues
+---------------
+
+All vulnerabilities are located at:
+http://net-security.org/text/bugs
+
+
+----------------------------------------------------------------------------
+
+RED HAT 7.0 - MAN LOCAL GID 15 (MAN) EXPLOIT
+Due to a slight error in a length check, the -S option to man can cause a buffer 
+overflow on the heap, allowing redirection of execution into user supplied code.
+Link: http://www.net-security.org/text/bugs/989834511,95749,.shtml
+
+
+INCREDIMAIL FILE OVERWRITE VULNERABILITY
+Users can specify the filename of the skin, notifyer, animation etc This is 
+specified in a text file called Content.ini, which is found in the compressed 
+skin or animation. By appending the traditional dot dot to the filename, 
+malicious users can easily over write any files on the same partition as 
+Incredimail is intalled to. The file is automatically downloaded and copied 
+to the client machine when it accesses a site or e-mail which starts a 
+download for the Incredimail file. If the file already exists it tries to over 
+write it.
+Link: http://www.net-security.org/text/bugs/989834627,93894,.shtml
+
+
+VULNERABILITY IN PHPROJEKT GROUPWARE SUITE
+By adding the famous ".." string to the url one can have access to other 
+directories than the one which is specified in the config.
+Link: http://www.net-security.org/text/bugs/989842022,81025,.shtml
+
+
+JANA WEBSERVER VULNERABILITY
+It has a hex-encoded dot dot bug and a denial of service.
+Link: http://www.net-security.org/text/bugs/989842113,58373,.shtml
+
+
+LINUX-MANDRAKE: VIXIE-CRON UPDATE
+A recent security fix to cron introduced a new problem with giving up
+privileges before invoking the editor. A malicious local user could 
+exploit this to gain root acces.
+Link: http://www.net-security.org/text/bugs/989877174,36057,.shtml
+
+
+LINUX-MANDRAKE: ZOPE ZCLASSES PROBLEM
+Another problem was discovered in Zope that fixes a problem with
+ZClasses. Any user can visit a ZClass declaration and change the
+ZClass permission mappings for methods and other objects defined within
+the ZClass, possibly allowing for unauthorized access within the Zope
+instance. The Zope Hotfix 2001-05-01 corrects this problem.
+Link: http://www.net-security.org/text/bugs/989877224,94704,.shtml
+
+
+LINUX-MANDRAKE: CUPS UPDATE
+The version of cups shipped with Linux-Mandrake 8.0 has a problem where 
+when a user prints a multi-page PostScript file with embedded pictures, the 
+pages following the first with the picture are all printed on the same page, 
+one on top of the other. From multi-page Abiword files (only text) only the 
+last page is printed. This update resolves this bug. As well, the upstream 
+1.1.7 release of cups fixes some security issues.
+Link: http://www.net-security.org/text/bugs/989877293,61690,.shtml
+
+
+CARELLO E-COMMERCE VULNERABILITY
+A malicious user can execute arbitrary commands on the E-Commerce server
+with the privileges of the web server.
+Link: http://www.net-security.org/text/bugs/989925063,569,.shtml
+
+
+BECKY! 2.00.05 BUFFER OVERFLOW
+If the message includes over 65536 bytes without new line characters, the 
+buffer will be overflowed. Buffer overflow also occurs when attempt to reply 
+or forward to the message included over 8188 bytes without new line 
+characters. Successful exploitation of this vulnerability could allow remote 
+attackers to execute arbitrary commands.
+Link: http://www.net-security.org/text/bugs/989925114,49410,.shtml
+
+
+NETPROWLER 3.5.X PASSWORD RESTRICTIONS NOTES
+The latest version of the NetProwler intrusion detection product comes as a 
+three-tiered architecture, consisting of agents, a management component, 
+and a console. Access between the components is achieved via channels 
+that are protected by passwords, which have several weak defaults and 
+unnecessary restrictions.
+Link: http://www.net-security.org/text/bugs/989925134,98857,.shtml
+
+
+NETPROWLER 3.5.X DATABASE CONFIG. VULNERABILITY
+The latest version of the NetProwler intrusion detection product comes as a 
+three-tiered architecture, consisting of agents, a management component, 
+and a console. Both configuration and auditing information is stored within a 
+MySQL database hosted locally on the management tier of the product. This 
+database is exposed unnecessarily to potential network scrutiny due to being 
+configured by default to listen to all local IP addresses.
+Link: http://www.net-security.org/text/bugs/989925168,45581,.shtml
+
+
+MICROSOFT IIS CGI FILENAME DECODE ERROR
+NSFOCUS Security Team has found a vulnerability in filename processing of CGI 
+program in MS IIS4.0/5.0. CGI filename is decoded twice by error. Exploitation 
+of this vulnerability, intruder may run arbitrary system command.
+Link: http://www.net-security.org/text/bugs/989925251,91881,.shtml
+
+
+PERSONAL WEB SHARING REMOTE STOP (MACOS 9)
+Personal Web Sharing extension, which ships with MacOS 9, can\'t handle a 
+request longer than 6000 characters. A request, which contains 6000 or more 
+characters seems to stop the file sharing, probably to avoid a system freeze. 
+Web sharing can easily be started up again in seconds.
+Link: http://www.net-security.org/text/bugs/989936069,71661,.shtml
+
+
+3COM OFFICECONNECT DSL ROUTER VULNERATIBILITIES
+Yesterday night I discovered a vulnerabilty. The router is a 3COM OfficeConnect 
+812 and the vulnerability is on the HTTP server, on port 80. When you enter 
+with a browser on one of this router, you are asked for user/password, if you 
+fail, you can see a web page telling you that is a protected object, but you 
+have a .GIF file you have access to and you don't need to put the .GIF.
+Link: http://www.net-security.org/text/bugs/989966143,41364,.shtml
+
+
+NETSCAPE ENTERPRISE WEB PUBLISHER BUFFER OVERFLOW
+The Web Publisher feature in Netscape Enterprise 4.1 is vulnerable to a buffer 
+overflow. By sending a large buffer containing executable code and a new 
+Instruction Pointer, an attacker is able to gain remote system shell access 
+to the vulnerable server.
+Link: http://www.net-security.org/text/bugs/990042393,45546,.shtml
+
+
+OMNIHTTPD PRO DENIAL OF SERVICE VULNERABILITY
+The OmniHTTPd Pro web server is susceptible to a DoS through a lengthy POST 
+request. If such a request is made to the server which exceeds 4111 bytes in 
+size the server process will die. Neither the request or the crash are recorded 
+in the server logfiles.
+Link: http://www.net-security.org/text/bugs/990042411,72473,.shtml
+
+
+SUSE SECURITY ANNOUNCEMENT: CRON-3.0
+The crontab program is running setuser-id root and invokes the editor
+specified in the EDITOR environment variable, usually vi. If crontab discovers 
+that the format of the edited file is incorrect, it executes the editor again but 
+fails to drop its root privileges before. Therefore it is possible to execute 
+arbitrary commands as root. Sebastian Krahmer has found the bug. It has 
+been fixed by properly dropping the privileges before executing the editor.
+Link: http://www.net-security.org/text/bugs/990042461,46055,.shtml
+
+
+DCFORUM PASSWORD FILE MANIPULATION VULNERABILITY
+It is vulnerable to an attack which will grant a remote attacker the status of 
+DCForum administrator, which can then be used to execute arbitrary commands 
+on the server.
+Link: http://www.net-security.org/text/bugs/990042478,65100,.shtml
+
+
+RUMPUS FTP DENIAL OF SERVICE
+If you try to make a directory which name is 65 characters long, the Rumpus 
+FTP service and the computer freezes. You can try to force Rumpus to quit, 
+but it never worked for me(always crashed when I pressed the \'Force quit\' 
+button). Also, the passwords are stored in plain text(in prefs folder, a file 
+called \'Rumpus User Database\'), as in most macintosh programs, Maxum 
+Support said to think about encrypting passwords in newer versions.
+Link: http://www.net-security.org/text/bugs/990042495,76360,.shtml
+
+
+IRIX REMOTE BUFFER OVERFLOW VULNERABILITY
+There is a buffer overflow in “rpc.espd” that may allow remote attackers to 
+execute arbitrary commands on a vulnerable host. A local account is not 
+required to exploit this vulnerability.
+Link: http://www.net-security.org/text/bugs/990042512,9954,.shtml
+
+
+CABLE-ROUTER AR220E PORTMAPPER FLAW
+Device: Allied Telesyn AT-AR220e, Firmware 1.08a RC14, combined DSL/Cable
+Router, NAT, Firewall, HTML-Config. This Device is equipped with the function 
+'Virtual Server', which is a portmapper WAN -> LAN. The 'Virtual Server'
+functionality can be disabled completely and single portmappings can be 
+disabled each, too.
+Link: http://www.net-security.org/text/bugs/990042530,55641,.shtml
+
+
+REMOTE DESKTOP 3.0 DENIAL OF SERVICE
+Remote desktop agent listens on ports 5044 and 5045. 5044 is to send data 
+and 5045 is to receive data. After a session is started a 3rd system can be 
+used to send data to port 5045 of the agent and crash the session. The 
+agent will then not respond for roughly a minute, and in some cases not 
+respond until restarted.
+Link: http://www.net-security.org/text/bugs/990106221,70037,.shtml
+
+
+SNIFFING LOGITECH WIRELESS DEVICES
+The receiver waits for 30 minutes after initialising a connect for new devices to 
+sync on them. An attacker is able to sniff the connect-sequence of a victim's 
+device from far and to lock-in to the pair of frequencies / codes of the victim's 
+devices or to take control of a victim's devices.
+Link: http://www.net-security.org/text/bugs/990106300,21851,.shtml
+
+
+LINUX-MANDRAKE: PINE UPDATE
+Versions of the Pine email client prior to 4.33 have various temporary
+file creation problems, as does the pico editor. These issues allow
+any user with local system access to cause any files owned by any
+other user, including root, to potentially be overwritten if the
+conditions were right.
+Link: http://www.net-security.org/text/bugs/990106798,20612,.shtml
+
+
+RED HAT LINUX: UPDATED GNUPG PACKAGES
+Updated gnupg packages are now available for Red Hat Linux 6.2, 7, and 7.1.
+These updates address a potential vulnerability which could allow an
+attacker to compute a user's secret key.
+Link: http://www.net-security.org/text/bugs/990118304,44271,.shtml
+
+
+RED HAT LINUX: UPDATED KERBEROS 5 PACKAGES
+Updated Kerberos 5 packages are now available for Red Hat Linux 6.2, 7,
+and 7.1. These updates close a potential vulnerability present in the
+gssapi-aware ftpd included in the krb5-workstation package.
+Link: http://www.net-security.org/text/bugs/990118384,10713,.shtml
+
+
+IIS WEBDAV LOCK METHOD MEMORY LEAK DoS
+The WebDav extensions for Internet Information Server 5.0 contain a flaw that 
+could allow a malicious user to consume all available memory on the server.
+Link: http://www.net-security.org/text/bugs/990118638,74563,.shtml
+
+
+CISCO CSS 11000 SERIES FTP VULNERABILITY
+The Cisco Content Service Switch (CSS) 11000 series switches do not enforce 
+the correct restrictions for a non privileged user opening an FTP connection to 
+them. All users with valid accounts can use the GET and PUT commands to read 
+and write any file on the system. This vulnerability results in users gaining access 
+to secure data.
+Link: http://www.net-security.org/text/bugs/990178795,23328,.shtml
+
+
+MULTIPLE SECURITY PROBLEMS IN EEYE SECUREIIS
+Alliance Security Labs found multiple security problems in SecureIIS v1.0.2. 
+These problems can expose users to security holes that SecureIIS was designed 
+to protect. The problems found span several aspects in the product and can be 
+attributed to design flaws in SecureIIS, as well as some conceptual oversight in 
+the product specs.
+Link: http://www.net-security.org/text/bugs/990290885,76253,.shtml
+
+
+TRENDMICRO INTERSCAN VIRUSWALL REGGO.DLL BOF
+This is a Buffer Overflow vulneravility in Trend Micro InterScan VirusWall 
+for NT 3.5.
+Link: http://www.net-security.org/text/bugs/990290969,37408,.shtml
+
+
+CALDERA LINUX - SAMBA /TMP PROBLEMS
+The previous Samba update fixed several places within the samba server code 
+that allowed local attackers to gain root access. Unfortunately the patch used 
+was slightly incorrect and did not fix the problem completely. The Samba 2.0.9 
+release fixes this problem, this security update backports it to our released 
+Samba packages
+Link: http://www.net-security.org/text/bugs/990291609,98976,.shtml
+
+
+SUSE SECURITY ANNOUNCEMENT - KERNEL
+The SuSE Linux kernel is a standard kernel, enhanced with a set of additional 
+drivers and other improvements, to suit the end-user's demand for a great 
+variety of drivers for all kind of hardware. Multiple security vulnerabilities have 
+been found in all Linux kernels of version 2.2 before version 2.2.19. Most of 
+the found errors allow a local attacker to gain root privileges. None of the 
+found errors in the v2.2 linux kernel make it possible for a remote attacker to
+gain access to the system or to elevate privileges from the outside of the 
+system. 
+Link: http://www.net-security.org/text/bugs/990291669,3044,.shtml
+
+----------------------------------------------------------------------------
+
+
+
+
+Security world
+--------------
+
+All press releases are located at:
+http://net-security.org/text/press
+
+
+----------------------------------------------------------------------------
+
+SYMANTEC RATES IIS WORM A ONE IN SEVERITY - [14.05.2001]
+
+Symantec Corp. announced its award-winning security solutions protect 
+customers against a highly sophisticated hacking effort that uses a worm 
+to exploit a known vulnerability. Symantec's NetProwler, Enterprise Security 
+Manager (ESM) and Norton AntiVirus provide detection for and protection 
+against the Sadmind/IIS worm.
+
+Press release:
+< http://www.net-security.org/text/press/989836377,96168,.shtml >
+
+----------------------------------------------------------------------------
+
+I/O SOFTWARE RELEASES SECURESUITE SDK - [14.05.2001]
+
+I/O Software Inc., a leading developer of information security software, 
+announced that it is making its SecureSuite Software Developer's Kit (SDK) 
+available to Microsoft Windows developers and integrators. The tool kit, called 
+SecureSDK, will enable ISVs, software developers and integrators to incorporate 
+the most advanced authentication technologies into their applications with 
+minimal development effort.
+
+Press release:
+< http://www.net-security.org/text/press/989836528,23713,.shtml >
+
+----------------------------------------------------------------------------
+
+BINDVIEW ANNOUNCES BV-CONTROL FOR UNIX 2.0 - [15.05.2001]
+
+BindView Corporation, a leading provider of IT administration and security 
+management solutions, announced at the SANS 2001 security conference, 
+the general availability of the bv-Control for UNIX 2.0 and bv-Control for 
+Internet Security 3.0 solutions. The bv-Control for UNIX product helps 
+secure cross-platform UNIX networks by enabling system administrators 
+to report on and administer many aspects of Sun Solaris, HP-UX, or Red 
+Hat Linux operating systems. The bv-Control for Internet solution scans 
+IT infrastructures for all security risks included on the SANS Top Ten 
+Vulnerabilities List and performs more than 650 vulnerability tests in 
+order to help ensure complete network security.
+
+Press release:
+< http://www.net-security.org/text/press/989878448,92143,.shtml >
+
+----------------------------------------------------------------------------
+
+"CARDMAN DESKTOP FINGERPRINT" BY OMNIKEY - [15.05.2001]
+
+OMNIKEY, an innovative supplier of cross-technology smart card readers for 
+business use, will, for the first time, present a read/write-device including a f
+ingerprint sensor at CardTech/SecurTech (May 14 to 17, 2001) in Las Vegas. 
+By combining biometric identification processes with market-proven CardMan 
+smart card technology, CardMan Desktop fingerprint does not only improve 
+security conditions - it also allows a much easier handling of smart cards in 
+the many areas where they have come to be used.
+
+Press release:
+< http://www.net-security.org/text/press/989878542,7882,.shtml >
+
+----------------------------------------------------------------------------
+
+BIONETRIX PLATFORM INTEGRATES WITH GEMSAFE - [15.05.2001]
+
+BioNetrix Systems Corporation, a leading provider of authentication management 
+solutions for enterprise and Internet security, announced that the company will 
+extend its authentication software platform, the BioNetrix Authentication Suite, 
+to support Gemplus' GemSAFE family of smart card solutions. Once the integration 
+is completed next month, organizations will be able to implement and centrally 
+manage GemSAFE smart cards along with other authentication technologies to 
+enhance their enterprise and Web application security.
+
+Press release:
+< http://www.net-security.org/text/press/989879319,859,.shtml >
+
+----------------------------------------------------------------------------
+
+SONERA OFFERS E-MAIL VIRUS PROTECTION SERVICE - [15.05.2001]
+
+At the beginning of June, Sonera starts to offer its Internet corporate 
+customers an e-mail virus protection service. The new value-added service 
+enables outsourcing of e-mail virus protection service. Sonera is responsible 
+for service maintenance, which means that the customer does not have to 
+allocate personnel resources, system acquisitions, make software installations 
+or virus database updates regarding the service.
+
+Press release:
+< http://www.net-security.org/text/press/989925858,85439,.shtml >
+
+----------------------------------------------------------------------------
+
+BALTIMORE TECHNOGIES SECURE ITALIAN GOVERNMENT - [15.05.2001]
+
+Baltimore Technologies, a global leader in e-security, announced that the 
+Ministry of the Interior, in cooperation with Getronics Italy, have chosen 
+Baltimore UniCERT, the award winning PKI (Public Key Infrastructure) system, 
+to issue and manage digital certificates as part of the Government's plans to 
+issue Electronic Identity cards to all Italian citizens over a five year period. 
+The first 100,000 cards will be issued by June 2001 and a further one million 
+cards will be issued by the first Quarter of 2002. It's estimated that over 60 
+million new cards containing digital certificates will be issued over the period 
+of the project.
+
+Press release:
+< http://www.net-security.org/text/press/989926021,34060,.shtml >
+
+----------------------------------------------------------------------------
+
+POINTSEC PROTECTING U.S. NAVY COMPUTERS - [15.05.2001]
+
+Pointsec Mobile Technologies, Inc, a leading developer of security control 
+software for PCs, mobile computers, and PDAs, announced today that a 
+Naval Research program and divisions within the Army will secure their 
+desktop and mobile computers using Pointsec 4.0, a full disk encryption 
+product that provides device access control and user authentication.
+
+Press release:
+< http://www.net-security.org/text/press/989926161,76779,.shtml >
+
+----------------------------------------------------------------------------
+
+PC-CILLIN FOR WIRELESS VERSION 2.0 FOR PALM OS - [16.05.2001]
+
+Trend Micro Inc., a worldwide leader in network antivirus and Internet content 
+security solutions, today unveiled a new version of its free antivirus software 
+for the Palm OS. PC-cillin for Wireless Version 2.0 for Palm OS now provides 
+automatic real-time launch scanning to prevent viruses that enter the device 
+from every possible entrypoint - beaming, synching, email and Internet 
+downloading. Real-time launch scanning activates whenever applications on 
+the device are launched and prevents viruses from activating on the device. 
+Now users of the most popular handheld mobile and wireless device platforms, 
+including Palm OS, Microsoft Pocket PC (Windows CE), and Symbian EPOC all 
+have free and easy-to-use virus protection at their fingertips from the leader 
+in enterprise Internet virus protection.
+
+Press release:
+< http://www.net-security.org/text/press/990043112,20882,.shtml >
+
+----------------------------------------------------------------------------
+
+OFFERING ENTERPRISE LINUX E-COMMERCE SOLUTIONS - [16.05.2001]
+
+Today, SuSE Linux, the international technology leader and provider of Open 
+Source solutions, and intraDAT international, a leader in developing e-commerce 
+sites on Linux announced a partnership agreement through SuSE Business Partner 
+Program. As SuSE's new Business Partner, IntraDAT takes part in SuSE's worldwide 
+co-marketing and support programs to expand VShop, IntraDAT's powerful 
+e-commerce development platform for Linux. SuSE Business Partner Program
+encourages SuSE customers to interact with existing SuSE VARs and integrators.
+The program also invites new VARs and integrators to take advantage of SuSE's 
+excellent business opportunities.
+
+Press release:
+< http://www.net-security.org/text/press/990043173,43889,.shtml >
+
+----------------------------------------------------------------------------
+
+SRI LANKIAN PATRIOTS ENTER THE FRAY OF VIRUS WRITING - [17.05.2001]
+
+Kaspersky Labs, an international data-security software-development company, 
+warns users about the detection of the latest Internet worm, "Mawanella", that 
+was created by someone utilizing the virus writing kit VBS Worm Generator, 
+which is better known as having been used to spawn the "Kournikova" virus 
+epidemic at the beginning of this year. Our technical support department has 
+received several reports of this worm being detected "in the wild."
+
+Press release:
+< http://www.net-security.org/text/press/990105719,47834,.shtml >
+
+----------------------------------------------------------------------------
+
+IT MANAGERS AND ONLINE SECURITY BEST PRACTICE - [17.05.2001]
+
+A new survey by Idetica, a leading independent IT consultancy, shows that 
+most large UK companies are unaware of best practice approaches to managing 
+the security of their online IT systems and business assets. This is despite 
+estimates that the global cost of security breaches is over $15 billion a year 
+(Source: Datamonitor). The survey of IT Managers at FTSE 500 companiesi 
+shows that, although 91% of firms have invested, or are planning to invest in 
+online security technologies, only 34% are aware of the UK Government 
+sponsored British Standard (BS) 7799 Code of Practice for Information 
+Security Management.
+
+Press release:
+< http://www.net-security.org/text/press/990105917,7836,.shtml >
+
+----------------------------------------------------------------------------
+
+HP VIRTUALVAULT AWARDED FIRST BITS TESTED MARK - [17.05.2001]
+
+The BITS Financial Services Security Lab announced today that Hewlett
+Packard Company's HP Virtualvault 4.0 product has successfully passed all 
+testing criteria and has been awarded the first BITS Tested Mark certification.
+The interactive testing process required HP to respond to identified potential 
+challenges and make recommended improvements to its product as part of the 
+rigorous evaluation of security features, functionality, usability and scalability.
+
+Press release:
+< http://www.net-security.org/text/press/990106508,71430,.shtml >
+
+----------------------------------------------------------------------------
+
+F-SECURE CORPORATION: MAWANELLA E-MAIL WORM - [17.05.2001]
+
+F-Secure Corporation is alerting computer users worldwide about a new, rapidly 
+spreading e-mail worm called Mawanella. This worm is also known as VBSWG.Z.
+The worm was found in the wild in USA just after midnight GMT on Thursday, 
+May 17th. After that the worm has been spreading globally. In addition of USA, 
+infections have been reported in Asia, Australia and Europe but especially in 
+Northern Europe and Scandinavian area.
+
+Press release:
+< http://www.net-security.org/text/press/990119238,19270,.shtml >
+
+----------------------------------------------------------------------------
+
+ENCRYPTION DEVICES FOR GLOBALSTAR PHONES - [18.05.2001]
+
+Globalstar, the global mobile satellite telecommunications service, and CopyTele, 
+Inc., a developer and provider of multi-functional encryption products, jointly 
+announced the introduction of the CopyTele DCS-1200, an encryption device 
+that attaches to Globalstar phones to provide end-to-end security for satellite 
+voice and data calls.
+
+Press release:
+< http://www.net-security.org/text/press/990141909,41881,.shtml >
+
+----------------------------------------------------------------------------
+
+F-SOS TECHNOLOGY ADDED TO CROSSPORT'S PIVIO - [18.05.2001]
+
+Crossport Systems of Bellevue, Washington, and F-Secure Online Solutions of 
+Helsinki, Finland and Los Angeles, California, announced today that the two 
+companies will jointly offer a system of products and monitoring services to 
+comprehensively address the network security needs of small businesses in 
+the US.
+
+Press release:
+< http://www.net-security.org/text/press/990142016,87371,.shtml >
+
+----------------------------------------------------------------------------
+
+ATOMICTANGERINE RECEIVES $12.63 MILLION - [18.05.2001]
+
+AtomicTangerine (www.atomictangerine.com), a company that specializes in 
+providing cutting edge information security solutions to its clients, announced 
+that it recently closed a $12.63 investment from a series of investors that 
+includes T.A Associates and Sienna Ventures.
+
+Press release:
+< http://www.net-security.org/text/press/990142155,66212,.shtml >
+
+----------------------------------------------------------------------------
+
+TRINTECH LAUNCHES ONLINE FRAUD REDUCTION SOLUTION - [18.05.2001]
+
+Trintech Group plc a global provider of secure electronic payment infrastructure 
+solutions for real world, Internet and wireless environments, announced the 
+release of its evolutionary PayWare Guardian, an umbrella payment security 
+architecture. The PayWare Guardian security suite is interoperable with 
+Trintech's eIssuer product suite and encompasses a range of powerful 
+security modules that verify cardholder identity and authenticate their 
+transactions.
+
+Press release:
+< http://www.net-security.org/text/press/990143035,81479,.shtml >
+
+----------------------------------------------------------------------------
+
+GUARDENT OPENS STATE-OF-THE-ART R&D FACILITY IN ATLANTA - [18.05.2001]
+
+Guardent Inc., the leading provider of security and privacy programs for Global 
+2000 organizations, announced that it opened a new, state-of-the-art research 
+and development facility in Atlanta, Georgia, called Guardent Labs. The 
+innovation engine that powers the rapidly growing company, Guardent 
+Labs develops new security management and infrastructure technologies 
+that boost the company's comprehensive array of consulting and managed 
+services.
+
+Press release:
+< http://www.net-security.org/text/press/990143144,73519,.shtml >
+
+----------------------------------------------------------------------------
+
+WARNING: TROJAN PICKS THE POCKETS OF WEBMONEY - [18.05.2001]
+
+Kaspersky Labs, an international data-security software-development company, 
+warns users about the detection of the new, exceptionally dangerous Trojan, 
+"Eurosol." This Trojan steals a user's personal account information from the 
+international finance system "WebMoney."
+
+Press release:
+< http://www.net-security.org/text/press/990178420,61856,.shtml >
+
+----------------------------------------------------------------------------
+
+IVEA GETS 2001 AEA HIGH TECH AWARD - [19.05.2001]
+
+Rainbow iVEA, a Rainbow Technologies company and a leading provider of 
+high-performance security solutions for the Internet and eCommerce, has 
+captured its second consecutive AeA High Tech Award for the CryptoSwift 
+family of eCommerce acceleration solutions. The CryptoSwift HSM (Hardware 
+Security Module) which provides physical security and fast online transactions 
+in high-assurance environments was awarded "Outstanding Hardware 
+Technology" at last night's 2001 Orange County AeA High Tech Awards in 
+Santa Ana, Calif. The CryptoSwift 600 was a winner in this category last 
+year and a winner of Network Computing Magazine's Well Connected Award 
+at last week's Networld+Interop trade show in Las Vegas.
+
+Press release:
+< http://www.net-security.org/text/press/990274717,78233,.shtml >
+
+----------------------------------------------------------------------------
+
+
+========================================================
+Advertisement - HNS Security Database
+========================================================
+HNS Security Database consists of a large database of security related 
+companies, their products, professional services and solutions. HNS 
+Security Database will provide a valuable asset to anyone interested in 
+implementing security measures and systems to their companies' networks.
+Visit us at http://www.security-db.com
+========================================================
+
+
+Featured products
+-------------------
+
+The HNS Security Database is located at:
+http://www.security-db.com
+
+Submissions for the database can be sent to: staff@net-security.org
+
+
+----------------------------------------------------------------------------
+
+KEYTRONIC SECURE SCANNER KEYBOARD
+
+Key Tronic Corporation has long been a leading innovator in state-of-the-art 
+computer input devices. The company has been on the forefront of nearly 
+every keyboard innovation, including fingerprint recognition, smart-card 
+reader capability, infrared wireless and Universal Serial Bus (USB) technology. 
+Key Tronic´s Secure line of products has been designed to increase both 
+network and desktop security. Gone is the hassle of remembering and 
+administering scores of passwords.
+
+Read more:
+< http://www.security-db.com/product.php?id=262 >
+
+This is a product of Identix Incorporated, for more information:
+< http://www.security-db.com/info.php?id=50 >
+
+----------------------------------------------------------------------------
+
+NETRADAREWS
+
+The NetRadarEWS (Early Warning System) greatly reduces an organization's 
+exposure to risks such as insecure software, malicious hackers, viruses and 
+cyberattacks by delivering custom security alerts over the Web, e-mail and 
+mobile devices. The system employs SecurityBot software and expert security 
+analysts to monitor over 600 Internet sources (including vendor, hacker, news, 
+government and other security sites) in real time.
+
+Read more:
+< http://www.security-db.com/product.php?id=676 >
+
+This is a product of Atomic Tangerine, for more information:
+< http://www.security-db.com/info.php?id=151 >
+
+----------------------------------------------------------------------------
+
+PAYWARE MACCESS
+
+Addressing the payment requirements of the wireless market, PayWare mAccess 
+provides card issuers, telephone operating companies (telcos), wireless carriers 
+and manufacturers with a server-based product that seamlessly and securely 
+authenticates the user and transfers payment details from wireless devices 
+through to the payment processor for settlement.
+
+Read more:
+< http://www.security-db.com/product.php?id=437 >
+
+This is a product of Trinitech, for more information:
+< http://www.security-db.com/info.php?id=98 >
+
+----------------------------------------------------------------------------
+
+
+
+
+Security Software
+-------------------
+
+All programs are located at:
+http://net-security.org/various/software
+
+----------------------------------------------------------------------------
+
+VSHELL SERVER 1.1 BETA 3
+
+VShell Server is a secure access server for Windows NT and Windows 2000, 
+supporting the Secure Shell protocol (SSH2). VShell can be used for secure 
+network access, system administration, and file transfer. In conjunction with 
+an SSH2 client such as SecureCRT, VShell provides an encrypted session that 
+includes a command shell and TCP/IP data tunneling using port forwarding. 
+SFTP and SCP support allows secure FTP applications, such as SecureFX, to 
+connect for secure file transfers. System administrators can use any SSH2 
+client, such as SecureCRT or Linux and Unix clients, to access the server PC 
+through the secure command shell. Using NT and DOS utilities, you can start 
+and stop the server, add and remove users, copy files, and even reboot the 
+machine.
+
+Info/Download:
+< http://www.net-security.org/various/software/990370171,95618,windows.shtml >
+
+----------------------------------------------------------------------------
+
+ACTIVITY MONITOR 2001 2.3
+
+This application allows the real-time monitoring of users' activities on network 
+computers and the tracking of employees' work time. An administrator, when 
+connected to the remote computer by TCP/IP, can view typed keystrokes in 
+real time, view a screen remotely, monitor a list of running programs, and 
+copy files from the remote PC.
+
+Info/Download:
+< http://www.net-security.org/various/software/990370323,52782,windows.shtml >
+
+----------------------------------------------------------------------------
+
+WINTERROGATE 0.12
+
+Winterrogate recurses directory structure obtaining the following information 
+according to filemask: File Name, Complete Path, Directory, File Size, Creation 
+Time, Last Access Time, Last Write Time, and MD5 Checksum. Extra information 
+Gathered on *.DLL, *.VBX, *.DRV, *.EXE, *.OCX, *.BIN, *.SCR (IF THE 
+DEVELOPER ADDED IT) includes CompanyName, FileDescription, FileVersion, 
+InternalName, LegalCopyright, OriginalFilename, ProductName, ProductVersion, 
+Comments, LegalTrademarks, PrivateBuild, and SpecialBuild.
+
+Info/Download:
+< http://www.net-security.org/various/software/990370514,70417,windows.shtml >
+
+----------------------------------------------------------------------------
+
+IPTABLES-FIREWALL V1.2B2
+
+iptables-firewall, like its older cousin ipchains-firewall, is an easily-configurable 
+shell script to establish NAT and firewalling rules using iptables. The script 
+self-configures out of the box for IP addresses, netmasks, and interfaces. All 
+that is needed is a commandline specification of external and internal interface 
+names. It automatically determines type of firewall to set up (standalone, 
+routing, or NAT) based on interface IP addresses. The distribution also includes 
+a copy of midentd, to enable identd over the masqueraded network.
+
+Info/Download:
+< http://www.net-security.org/various/software/990370710,54133,linux.shtml >
+
+----------------------------------------------------------------------------
+
+
+
+
+Defaced archives
+------------------------
+
+[14.05.2001]
+
+Original: http://www.chevrolet.co.za/
+Defaced: http://defaced.alldas.de/mirror/2001/05/14/www.chevrolet.co.za/
+OS: Windows
+
+Original: http://www.hackingworld.com/
+Defaced: http://defaced.alldas.de/mirror/2001/05/14/www.hackingworld.com/
+OS: Windows
+
+
+[15.05.2001]
+
+Original: http://www.citibank.be/
+Defaced: http://defaced.alldas.de/mirror/2001/05/15/www.citibank.be/
+OS: Windows
+
+Original: http://www.jfmip.gov/
+Defaced: http://defaced.alldas.de/mirror/2001/05/15/www.jfmip.gov/
+OS: Windows
+
+
+[16.05.2001]
+
+Original: http://www.ferrari.com/
+Defaced: http://defaced.alldas.de/mirror/2001/05/16/www.ferrari.com/
+OS: Windows
+
+Original: http://www.unity.edu/
+Defaced: http://defaced.alldas.de/mirror/2001/05/16/www.unity.edu/
+OS: Windows
+
+
+[17.05.2001]
+
+Original: http://www.ford.com/
+Defaced: http://defaced.alldas.de/mirror/2001/05/17/www.ford.com/
+OS: Windows
+
+Original: http://www.fr3ak.com/
+Defaced: http://defaced.alldas.de/mirror/2001/05/17/www.fr3ak.com/
+OS: Windows
+
+
+[18.05.2001]
+
+Original: http://www.microsoft.ro/
+Defaced: http://defaced.alldas.de/mirror/2001/05/18/www.microsoft.ro/
+OS: Windows
+
+Original: http://www.web.com/
+Defaced: http://defaced.alldas.de/mirror/2001/05/18/www.web.com/
+OS: Windows
+
+
+[19.05.2001]
+
+Original: http://www.asia.philips.com/
+Defaced: http://defaced.alldas.de/mirror/2001/05/19/www.asia.philips.com/
+OS: Windows
+
+Original: http://auction.europe.creative.com/
+Defaced: http://defaced.alldas.de/mirror/2001/05/19/auction.europe.creative.com/
+OS: Windows
+
+Original: http://www.sony.ch/
+Defaced: http://defaced.alldas.de/mirror/2001/05/19/www.sony.ch/
+OS: Windows
+
+
+[20.05.2001]
+
+Original: http://www.quantum.com/
+Defaced: http://defaced.alldas.de/mirror/2001/05/20/www.quantum.com/
+OS: Windows
+
+Original: http://customerrelations.real.com/
+Defaced: http://defaced.alldas.de/mirror/2001/05/20/customerrelations.real.com/
+OS: Windows
+
+Original: http://www.asia.philips.com/ (Redefacement)
+Defaced: http://defaced.alldas.de/mirror/2001/05/20/www.asia.philips.com/
+OS: Windows
+
+----------------------------------------------------------------------------
+
+========================================================
+Advertisement - HAL 2001
+========================================================
+Between 10th and 12th August, thousands of hackers will populate the 
+green fields of the campus of the University of Twente, converting it into 
+a large doubleplus-extrawired campsite. When not visiting lectures or 
+workshops, we'll be engaged in technical or political discussions, or 
+maybe just relaxing somewhere in the grass.
+
+If you can truly celebrate the Internet and embrace new technologies, 
+without forgetting your responsibility to tell others that new technologies 
+come with new risks to the individual and to society as a whole, then this 
+is the place to be this summer. To be sure of an entrance ticket, register 
+now! Visit us at http://www.hal2001.org
+========================================================
+
+Questions, contributions, comments or ideas go to:
+ 
+Help Net Security staff
+ 
+staff@net-security.org
+http://net-security.org
+http://security-db.com

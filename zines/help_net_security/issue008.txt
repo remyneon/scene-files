@@ -1,0 +1,78 @@
+Net-Sec mini letter 
+Issue 8 - 16.04.2000 
+http://net-security.org 
+
+This time, mini letter is not standard security roundup, but a quick information on two events that happened in past 2 days. You could expect security roundup for the week behind us, on monday. 
+
+
+1) Webfringe 
+2) Microsoft back door? 
+
+
+
+1) Webfringe 
+
+The Fringe of the Web (Webfringe) is back on-line. After problems with the domain, White Vampire from Project Gamma (www.projectgamma.com) with help from some others, has once again started the popular site. This time the meaning and plans are totally different then the previous FOTW (you could read the press release below). 
+Thanks to HNS visitors and good comments from Webfringe moderators, Help Net Security is currently ranked 1st on the list. 
+Do visit Webfringe web site at the following URL: 
+
+http://www.webfringe.com/?net-sec 
+
+------------------------------------------------------------------------ 
+Press release: 
+
+The Fringe of the Web, after shutting down for the second time in September 1999, has returned once again. 
+
+The Fringe of the Web first started in 1994 by Bronc Buster and Silicon Toad as the second Webring to be created. It was a ring of only the best, or 'fringe,' underground and computer security sites. After administrative tasks became too much, Bronc Buster decided to shut down the Fringe. 
+
+In 1998 RSnake came into contact with Bronc Buster and they both worked to bring back the Fringe of the Web as a Top100 list. Their theory was that people would vote, bringing the quality sites to the top, and the lacking sites would be eliminated. This worked for a while, until RSnake started to become busy with other tasks and was unable to maintain the Fringe. After the list began to degrade, he decided to shut it down. 
+
+White Vampire contacted RSnake shortly thereafter expressing interest in continuing the Fringe of the Web, as he considered it a worthy project. After problems with Network Solutions, the new server, and a few other minor problems, things began to fall into place. 
+
+Code, primary developer for the Fringe, commented on the development process, "We lost many a man fighting the number one pragmatic law (that anything that has a chance to fail, will), but we came out victorious." 
+
+With the assistance of Code, White Vampire re-thought the concept behind the Fringe of the Web. They designed it to have some elements of the Top100 yet keeping the quality of the Webring, and improving upon both concepts in the process. This time, it will be fully moderated, and once again, contain only the Fringe of the Web. 
+
+"I am happy to announce the opening, and return, of the Fringe of the Web," said White Vampire, Webmaster of the Fringe. He continued saying, "We will have a fully moderated system under regular development. We will also be quite open to any user-contributed recommendations, to continue the quality of the project. Webfringe.com will truly contain the Fringe of the Web." 
+
+The Fringe of the Web will have moderators reviewing Web sites before being accepted onto the list. There will be a commenting/rating system, and much more. All community input towards the Fringe is encouraged, and appreciated. The Fringe is by the community, for the community. 
+------------------------------------------------------------------------ 
+
+
+
+2) Microsoft back door? 
+
+--------------------------------------- 
+The NT 4 Option Pack ships with a particular ISAPI .dll in /_vti_bin/_vti_aut/ named dvwssr.dll, which is mixed in with the Microsoft FrontPage extensions (the version I have is 3.0.2.1105). This particular .dll allows you to read .asp (and .asa) files under the web root, 
+providing you know the 'password' (obfuscated encoding scheme) of which to ask it. And, as implied by the title, the constant key used in the encoding is "Netscape engineers are weenies!". - rain forest puppy 
+--------------------------------------- 
+Microsoft acknowledged its engineers included a secret password in some of its Internet software that could be used to gain access to websites globally, the Wall Street Journal said Friday. - Wired News 
+--------------------------------------- 
+
+Quick links: 
+
+MS Servers Leave Back Door Open 
+http://www.wirednews.com/news/technology/0,1282,35682,00.html 
+
+Microsoft moves to fix security flaw, but calls it less serious than feared 
+http://www.msnbc.com/news/394810.asp 
+
+Secret Code in Microsoft Software 
+http://www.worldnews.com/?action=display&article=1710407&template=worldnews/search.txt 
+
+Report: Microsoft engineers placed security flaw in some software 
+http://www.miamiherald.com/content/today/business/brkdocs/040215.htm 
+
+Microsoft Responds to Reports of Web Server Vulnerability 
+http://www.microsoft.com/misc/data/servervulnerability.htm 
+
+Procedure Available to Eliminate "Link View Server-Side Component" Vulnerability 
+http://www.net-security.org/cgi-bin/bugs/fullnews.cgi?newsid955810581,12760, (note: "," on the end is a part of the URL) 
+
+A back door in Microsoft FrontPage extensions/authoring components 
+http://net-security.org/cgi-bin/bugs/fullnews.cgi?newsid955853149,33108, (note: "," on the end is a part of the URL) 
+
+
+HNS staff 
+staff@net-security.org 
+http://net-security.org

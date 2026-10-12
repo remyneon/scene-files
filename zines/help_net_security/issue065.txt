@@ -1,0 +1,986 @@
+HNS Newsletter
+Issue 65 - 28.05.2001
+http://net-security.org
+http://security-db.com
+
+This is a newsletter delivered to you by Help Net Security. It covers weekly 
+roundups of security events that were in the news the past week. Visit Help 
+Net Security for the latest security news - http://www.net-security.org.
+
+Subscribe to this weekly digest on:
+http://www.net-security.org/text/newsletter
+
+Archive of the newsletter in TXT and PDF format is available here:
+http://www.net-security.org/news/archive/newsletter
+
+Current subscriber count to this digest: 
+
+Table of contents:
+ 
+1) General security news
+2) Security issues
+3) Security world
+4) Featured products
+5) Featured article
+6) Security software
+7) Defaced archives
+
+
+========================================================
+Help Net Security T-Shirt available
+========================================================
+Thanks to our affiliate Jinx Hackwear we are offering you the opportunity 
+to wear a nifty HNS shirt :) The image speaks for itself so follow the link 
+and get yourself one, summer is just around the corner.
+Get one here: http://207.21.213.175:8000/ss?click&jinx&3af04db0
+========================================================
+
+
+General security news
+---------------------
+ 
+----------------------------------------------------------------------------
+
+ENCRYPTED TUNNELS USING SSH AND MINDTERM
+Businesses, schools, and home users need more secure network services now 
+more than ever. As online business increases, more people continue to access 
+critical company information over insecure networks. Companies are using the 
+Internet as a primary means to communicate with travelling employees in their 
+country and abroad, sending documents to various field offices around the 
+world, and sending unencrypted email; this communication can contain a 
+wealth of information that any malicious person can potentially intercept 
+and sell or give to a rival company. Good security policies for both users 
+and network administrators can help to minimize the problems associated 
+with a malicious person intercepting or stealing critical information within 
+their organization. This paper will discuss using Secure Shell (SSH) and 
+MindTerm to secure organizational communication across the Internet.
+Link: http://www.net-security.org/cgi-bin/news.cgi?url=http://www.linuxsecurity.com/feature_stories/feature_story-88.html
+
+
+IIS: TIME TO JUST SAY NO
+It's been a difficult year for IIS (Internet Information Server), Microsoft's 
+flagship Web sever. The most import question that needs to be asked 
+regarding IIS is, "Why are so many large corporations still using this highly 
+insecure, flawed product?"
+Link: http://www.net-security.org/cgi-bin/news.cgi?url=http://securityportal.com/articles/iis20010521.html
+
+
+THE FIRST ANNIVERSARY OF INDIA’S CYBERLAW
+May 17, 2000 is an important landmark in the legislative history of India - 
+that was the day Parliament passed India’s first cyberlaw, the Information 
+Technology Act 2000. It’s one year after the event which was greeted with 
+tremendous enthusiasm and vigour.
+Link: http://www.net-security.org/cgi-bin/news.cgi?url=http://www.economictimes.com/today/20know02.htm
+
+
+HOW SLACKERS HELP VIRUS HACKERS
+The latest attempt to bring the Bleeding Edge computer system to its knees 
+came, as usual, from an unexpected source - this time, an electrical products 
+manufacturer in Keysborough. We can't recall having bought anything from this 
+company and we have not the slightest interest in its financial activities, which 
+is why we were surprised to receive an e-mail attachment purporting to be a 
+worksheet of its debenture activities. In fact, it contained a copy of the 
+W32.Magistr virus. The person who runs the computers at Keysborough, for 
+instance, had taken the precaution of installing a virus checker on the in-house 
+system. But he failed to make any arrangements for the laptops used by staff 
+on company business.
+Link: http://www.net-security.org/cgi-bin/news.cgi?url=http://it.mycareer.com.au/news/2001/05/17/FFXB5F5ZRMC.html
+
+
+WANTED: A FIREWALL TO PROTECT OPEN DOORS
+There has been another security bug found in IIS - a nasty one. A buffer 
+overrun allows you to execute your own code on the server, which can 
+include such delicious things as running a remote command prompt. Applying 
+the Microsoft fix is not hard - it just installs and away you go. Naturally the 
+Linux Taliban have been hooting, saying that it proves Microsoft can't be 
+trusted for internet-facing services. That's if we ignore the recent BIND 
+disaster or the current crop of Linux worms which are causing havoc.
+Link: http://www.net-security.org/cgi-bin/news.cgi?url=http://www.vnunet.com/Features/1121832
+
+
+SCHOLARSHIP PLAN RECRUITS SECURITY WORKERS
+The U.S. government said Tuesday it would provide $8.6 million in scholarships 
+for a "cybercorps" of 200 computer security students who would agree to take 
+government jobs upon graduating.
+Link: http://www.net-security.org/cgi-bin/news.cgi?url=http://news.cnet.com/news/0-1003-200-6008345.html
+
+
+FIREWALLING
+Firewalling: everybody does it. Some because of concern for their networks, 
+others because of peer pressure. Most of us have carefully chosen our 
+firewalling technology, ensuring that it can not be tricked by wily hackers 
+using packet fragmentation or other dirty tricks to slip data past it. Then, 
+carefully crafting our networks, we have created chokepoints and placed 
+firewalls in-between various networks. We have made up our rule list, and 
+checked it twice (or more in some cases) and carefully implemented these 
+rules on our firewalls. At this point many people sit back with a sigh of relief 
+and move on to other tasks. Unfortunately, there are a number of issues 
+considered all too rarely by firewall administrators.
+Link: http://www.net-security.org/cgi-bin/news.cgi?url=http://securityportal.com/closet/closet20010523.html
+
+
+HARDENING WINDOWS 2000, PART ONE
+This is the first article in a three part series by SecurityFocus writer Tim 
+Mullen devoted to hardening Windows 2000 across the enterprise, as 
+opposed to focusing on single units, such as isolated servers or workstations. 
+In this installment, the author discusses some of the security-enhancing tools 
+that Windows 2000 offers, such as: Active Directory, Organizational Units, 
+Security and Group Policies, and Security Configuration and Analysis.
+Link: http://www.net-security.org/cgi-bin/news.cgi?url=http://www.securityfocus.com/focus/microsoft/2k/harden2k.html
+
+
+A 'WHITE HAT' GOES TO JAIL
+Max Butler lived three lives for five years. As "Max Vision," he was an incredibly 
+skilled hacker and security expert who boasted that he'd never met a computer 
+system he couldn't crack. As "The Equalizer," he was an FBI informant, reporting 
+on the activities of hackers who considered him a colleague and, in some cases, 
+a friend. As Max Butler, he was a family man in Santa Clara, California who ran 
+a Silicon Valley security firm. At Max Vision Network Security, he specialized in 
+running "penetration tests," attempting to break into corporate networks to 
+prove that their security wasn't as good as it could be. And now Max is a 
+number in the federal prison system.
+Link: http://www.net-security.org/cgi-bin/news.cgi?url=http://www.wired.com/news/politics/0,1283,44007,00.html
+
+
+APACHE 1.3.20 RELEASED
+The Apache Software Foundation and The Apache Server Project announced 
+the release of version 1.3.20 of the Apache HTTP server. This version of 
+Apache is principally a security fix release which closes a problem under the 
+Windows and OS2 ports that would segfault the server in response to a 
+carefully constructed URL.
+Link: http://www.net-security.org/cgi-bin/news.cgi?url=http://httpd.apache.org/dist/httpd/
+
+
+RUNNING MACROS WITHOUT WARNING
+By embedding a macro in a template, and providing another user with an RTF 
+document that links to it, an attacker could cause a macro to run automatically 
+when the RTF document was opened. The macro would be able to take any 
+action that the user herself could take. This could include disabling the user’s 
+Word security settings so that subsequently-opened Word documents would 
+no longer be checked for macros.
+Link: http://www.net-security.org/cgi-bin/news.cgi?url=http://www.microsoft.com/technet/security/bulletin/MS01-028.asp
+
+
+U.S.'S DEFENSELESS DEPARTMENT
+When the U.S. government created the National Infrastructure Protection 
+Center in February 1998 to thwart "cyber criminals," officials couldn't stop 
+talking about how the feds were finally fighting back against the hacker 
+menace. Former Attorney General Janet Reno said at the time that the new 
+agency would "pursue criminals who attack or employ global networks" -- 
+and that without the NIPC, "the nation will be at peril." Three years later, 
+it's the NIPC that's in peril -- of being dubbed a poorly-organized, ill-
+conceived bureaucracy that more established agencies routinely ignore 
+and that has not lived up to the promises its proponents once made.
+Link: http://www.net-security.org/cgi-bin/news.cgi?url=http://www.wired.com/news/politics/0,1283,44019,00.html
+
+
+KGB VET HELPS PUT NEW LIGHT ON WEB SECURITY
+The one-time head of KGB overseas code scrambling and an ex-director of 
+the CIA released what they called a revolutionary way of hiding Internet 
+communications from prying eyes and would-be intruders. The new system 
+can change the IP addresses on a network faster than once a second, 
+cloaking them from all but authorized parties, said Victor Sheymov, chief 
+executive of Invicta Networks.
+Link: http://www.net-security.org/cgi-bin/news.cgi?url=http://www.zdnet.com/zdnn/stories/news/0,4586,2763770,00.html
+
+
+CERT WEBSITE HIT BY DoS
+A denial of service attack was launched on the CERT Coordination Center at 
+Carnegie Mellon University at about 11:30 a.m. Tuesday. The connection 
+between the Internet service provider and www.cert.org was clogged with 
+data until about 4 p.m. Wednesday. Access to the Web site, which provides 
+reports about the latest security holes and viruses to affect government 
+agencies, was slowed down and e-mail was also affected. The site was not 
+defaced and no data was stolen, Carpenter said. "We get attacked every day. 
+This is just another attack," said Richard D. Pethia, director of Carnegie Mellon's 
+Networked Systems Survivability Program. "The lesson to be learned here is 
+that no one is immune to these kinds of attacks. They cause operational 
+problems, and it takes time to deal with them."
+Link: http://www.worldtechnews.com/?action=display&article=7370140&template=technology/stories.txt&index=recent
+
+
+SURVEILLANCE IN THE WORKPLACE
+The issue of surveillance of employee Internet and e-mail activity continues 
+to be a source of great debate in the Internet community. This article by Ben 
+Malisow will take a look at the debate, including a brief overview of employers' 
+concerns, different philosophies on monitoring of activities, and the necessity 
+of finding a mutually-acceptable, practical solution.
+Link: http://www.net-security.org/cgi-bin/news.cgi?url=http://www.securityfocus.com/focus/ih/articles/wpprivacy.html
+
+
+VIRUSES? FEH! FEAR THE TROJAN
+There may be a ghost in your machine - a hidden program known as a Trojan 
+horse - that allows a malicious hacker to spy on you, ruin your data and 
+computer and, in extreme cases, wreck your business or your life. Attackers 
+have used Trojans to surreptitiously observe the users of infected machines 
+over their webcams, and can also listen to conversations transmitted via the 
+infected computer's microphone.
+Link: http://www.net-security.org/cgi-bin/news.cgi?url=http://www.wired.com/news/technology/0,1282,43981,00.html
+
+
+BUILDING ELECTRONIC CITADEL
+The Software & Information Industry Association (SIIA) is working on a concept 
+called Electronic Citadel. They say that many of the ideas in the approach are 
+taken from the builders of military fortifications in the 1800s. The Electronic 
+Citadel method is very much in draft stage, even though many of the 
+cryptographic techniques it applies are well-established.
+Link: http://www.net-security.org/cgi-bin/news.cgi?url=http://www.theregister.co.uk/content/8/19180.html
+
+
+FBI'S "OPERATION CYBER LOSS"
+Assistant Director Ruben Garcia, FBI, and Deputy Attorney General Larry D. 
+Thompson, DOJ, were joined by the National White Collar Crime Center (NW3C) 
+to announce that criminal charges have been brought against approximately 90 
+individuals and companies as part of a nationwide series of investigations into 
+Internet fraud, code named "Operation Cyber Loss". The fraud schemes exposed 
+as part of this operation represent over 56,000 victims who suffered cumulative 
+losses in excess of $117 million.
+Link: http://www.net-security.org/cgi-bin/news.cgi?url=http://www.fbi.gov/cyberlossconf.htm
+
+
+THERE'S A VIRUS IN MY WINXP SYSTEM, PART TWO
+The Office XP virus has now been successfully captured and identified, thanks 
+to Menache Eliazer of Finjan Software's Malicious Code Research Center, who 
+also came up with some useful information for those of you worried about the 
+block settings of Outlook 2002 interfering with your distribution of attachments.
+Link: http://www.net-security.org/cgi-bin/news.cgi?url=http://www.theregister.co.uk/content/4/19192.html
+
+
+RUSSIAN HACKERS ARRESTED
+The group of about five people used Internet cafes in Moscow to steal around 
+300 credit card numbers from people in Western countries, the chief of Moscow 
+police's computer crime unit said. Dmitry Chepchugov, quoted by The Associated 
+Press, said they then used the cards to make false purchases through an online 
+company they had created.
+Link: http://www.net-security.org/cgi-bin/news.cgi?url=http://europe.cnn.com/2001/TECH/internet/05/24/russia.hackers/index.html
+
+
+REMOTE-OFFICE FIREWALLS
+If you're supporting telecommuters or moving to broadband for remote small
+office sites, you need a firewall to protect the network. You can't count on 
+"security by obscurity" to protect you, nor can you lean on the old belief that 
+your network is too small to be of interest. The data on your network may not 
+be important to an attacker, but your network could be very useful for 
+obscuring a hacker's tracks on the way to his or her final destination.
+Link: http://www.net-security.org/cgi-bin/news.cgi?url=http://www.nwc.com/1211/1211buyers2.html
+
+
+TEMPORARY COMMITTEE ON ECHELON
+Working document in preparation for a report on the existence of a global 
+system for intercepting private and commercial communications - the 
+Echelon interception system. This working document summarises the 
+findings from the hearings in committee, private discussions with experts 
+and systematic consideration of the available material by the rapporteur.
+Link: http://www.net-security.org/cgi-bin/news.cgi?url=http://cryptome.org/echelon-ep.htm
+
+
+NEW WORM - "NOPED" - TAKES ON KIDDIE PORN
+A new e-mail worm that's just beginning to wiggle its way across the Internet 
+scours infected computers for image files containing child pornography, and 
+alerts government agencies if any suspicious files are discovered. The alert 
+e-mail contains an attached copy of one of the files that allegedly contain 
+child pornography discovered during the worm's search of infected hard drives, 
+and also identifies the porn possessor's e-mail address. Vigilinx, a security 
+assessment firm, said in a statement that the specific criteria Noped uses to 
+identify the .jpg and .jpeg files as child pornography is not yet known.
+Link: http://www.net-security.org/cgi-bin/news.cgi?url=http://www.wired.com/news/technology/0,1282,44112,00.html
+
+
+THE WEEK IN REVIEW: HACK ATTACKS AND HANDHELD WARS
+Just when you thought it was safe to surf the Internet, hackers and scammers 
+are nipping at sites and surfers alike to make the experience somewhat less 
+than a day at the beach.
+Link: http://www.net-security.org/cgi-bin/news.cgi?url=http://www.zdnet.com/zdnn/stories/news/0,4586,2765370,00.html
+
+
+INTERNET ARCHITECTS ZERO IN ON RELIABILITY, SECURITY
+As the architects of the future Internet struggle to define underlying 
+technologies for providing a range of new network services, reliability and 
+security are again moving to the top of the agenda. According to experts 
+at a meeting here this week sponsored by the Global Internet Project and 
+the Cross-Industry Working Team, the reliability issue lends itself to market
+driven technology solutions. However, network security on a future Internet 
+carrying everything from voice to video raises difficult architectural and policy 
+questions that will take longer to resolve.
+Link: http://www.net-security.org/cgi-bin/news.cgi?url=http://www.eetimes.com/story/OEG20010525S0086
+
+
+TWO NEW SITES ALLOW PEOPLE TO ESCAPE NET TRACKING
+Under pressure to protect privacy better, the advertising industry has set up 
+two new Web sites that let computer users refuse to have their personal data 
+collected and profiled when they visit popular commercial Internet sites. In the 
+past, users typically would have had to visit each Web site individually and 
+"opt out" of the profiling, a growing practice that has been criticized by 
+privacy advocates and some lawmakers.
+Link: http://www.net-security.org/cgi-bin/news.cgi?url=http://www.cnn.com/2001/TECH/internet/05/25/internetprivacy.ap/index.html
+
+
+A COMMON LANGUAGE FOR SECURITY VULNERABILITIES
+When hackers want to breach your systems, they typically look for well-known 
+security flaws and bugs to exploit. In the past, vendors and hackers gave 
+different names to the same vulnerabilities. One company might package a 
+group of five vulnerabilities into a patch or service pack and call it by one 
+name, while another vendor might call the same group by five separate names. 
+This confused IT decision makers who evaluated security products. It was 
+difficult to compare scanning and intrusion detection tools because the 
+vulnerabilities and exposures that they checked for had different names 
+depending on the vendor's naming conventions. Fortunately, MITRE is 
+changing that.
+Link: http://www.net-security.org/cgi-bin/news.cgi?url=http://www.zdnet.com/enterprise/stories/main/0,10228,2765107,00.html
+
+
+DoS ATTACKS HIT ANYONE, NOT JUST CORPORATIONS
+DoS attacks against big Internet players like Amazon.com draw media attention, 
+but according to a new study, these assaults frequently are targeted against 
+individual personal computers. Attackers attempt to hide their tracks by using 
+false source addresses. Network researchers at the University of California, San 
+Diego's Jacobs School of Engineering, and the San Diego Supercomputer Center 
+performed the study which measured three one-week periods with short breaks 
+between the monitoring times. The researchers counted over 12,000 DoS 
+attacks against 5,000 targets during the study period. Some attackers 
+directed more than 600,000 message packets per second at their victims.
+Link: http://www.net-security.org/cgi-bin/news.cgi?url=http://www.computeruser.com/news/01/05/25/news6.html
+
+
+OPEN SOURCE AND IT SECURITY
+This is a presentation converted to HTML, it has over 35 pages. If you're 
+curious about security issues businesses face, this is an interesting overview 
+that covers network sniffing (with screenshots of ethereal in action against 
+a hypothetical CEO's POP client) and other internal threats and offers some 
+resources for where to start looking for open source security tools.
+Link: http://www.net-security.org/cgi-bin/news.cgi?url=http://www.aeonxe.com/scspresentation
+
+----------------------------------------------------------------------------
+
+
+
+
+Security issues
+---------------
+
+All vulnerabilities are located at:
+http://net-security.org/text/bugs
+
+
+----------------------------------------------------------------------------
+
+NETSCAPE ENTERPRISE SERVER 4 VULNERABILITY
+By sending an invalid method or URI request of 4022 bytes Netscape Enterprise
+Server will stop responding to requests.
+Link: http://www.net-security.org/text/bugs/990444164,22079,.shtml
+
+
+SPYANYWHERE AUTHENTICATION VULNERABILITIES
+The SpyAnywhere application allows a user to remotely control a system 
+through a HTTP daemon listening on a user-defined port. The problem lies 
+in the authentication of such a session, where the authentication data is 
+not correctly validated. During login the user is presented with a form which 
+submits the variables "loginpass", "redirect" and "submit" to the function "pass".
+Link: http://www.net-security.org/text/bugs/990624387,52686,.shtml
+
+
+LINUX-MANDRAKE: OPENSSH UPDATE
+A problem was introduced with a patch applied to the OpenSSH packages
+released in the previous update. This problem was due to the keepalive patch 
+included, and it broke interoperability with older versions of OpenSSH and SSH.
+This update removes the patch, and also provides the latest version of OpenSSH
+which provides a number of new features and enhancements.
+Link: http://www.net-security.org/text/bugs/990624483,1464,.shtml
+
+
+UNIXWARE 5.X - VI AND CRONTAB -E /TMP ISSUES
+vi makes poor use of /tmp. File names are very predictable. as a user 
+ln -s /etc/passwd /tmp/Ex04161 wait for root to run vi and viola when 
+he does he will clobber /etc/passwd with a null file.
+Link: http://www.net-security.org/text/bugs/990624516,13854,.shtml
+
+
+UNIXWARE 5.X - SCOADMIN /TMP ISSUES
+scoadmin makes poor use of /tmp. File names are very predictable. As a user: 
+ln -s /etc/passwd /tmp/tclerror.1195.log Wait for root to run scoadmin from 
+xwindows and viola! When he does, he will clobber /etc/passwd with a garbage 
+file. In order to get the /tmp/tclerror.pid.log you need for root to have an 
+improper term or cause some other error to happen. A good way to force an 
+error is to stop xm_vtcld from opening... kindly leave a file where it wants its 
+socket and it will complain.
+Link: http://www.net-security.org/text/bugs/990624537,88881,.shtml
+
+
+ORACLE E-BUSINESS SUITE ADE VULNERABILITY
+A potential security vulnerability has been discovered in Applications Desktop 
+Integrator (ADI) version 7.X for Oracle E-Business Suite Release 11i. A debug 
+version of the FNDPUB11I.DLL was inadvertently released with a patch to 
+Applications Desktop Integrator (ADI) version 7.X. This DLL writes a debug 
+file to the client machine that includes the clear text APPS schema password. 
+A malicious user could use this DLL to obtain the APPS schema password and 
+thereby gain elevated privileges.
+Link: http://www.net-security.org/text/bugs/990624992,53623,.shtml
+
+
+HP OPENVIEW NNM V6.1 BUFFER OVERFLOW
+HP OpenView NNM v6.1 has a buffer overflow in the suid-root file ecsd located 
+in the /opt/OV/bin/ directory. ecsd is not used in NNM, but is shipped and 
+installed suid-root as default.
+Link: http://www.net-security.org/text/bugs/990649162,82033,.shtml
+
+
+VULNERABILITY IN VIEWSRC.CGI
+A vulnerability exists which allows a remote user to view any file on the server.
+Link: http://www.net-security.org/text/bugs/990699222,79829,.shtml
+
+
+LINUX-MANDRAKE: SAMBA VULNERABILITY
+A vulnerability found by Marcus Meissner exists in Samba where it was not 
+creating temporary files safely which could allow local users to overwrite files 
+that they may not have access to. This happens when a remote user queried 
+a printer queue and samba would create a temporary file in which the queue's 
+data was written. Because Samba created the file insecurely and used a 
+predictable filename, a local attacker could cause Samba to overwrite files 
+that the attacker did not have access to. As well, the smbclient "more" and 
+"mput" commands also created temporary files insecurely.
+Link: http://www.net-security.org/text/bugs/990699271,74902,.shtml
+
+
+3COM NETBUILDER II SNMP ILMI COMMUNITY
+It seems to exist an undocumented read-only SNMP community in 3Com 
+Netbuilder II Routers. The same happens in cisco and olicom routers. I 
+checked this feature in Netbuilder II with CEC20 processor. CPU version 
+9.3 and serial card firmware is 2.5 Its really an old router.
+Link: http://www.net-security.org/text/bugs/990699746,38100,.shtml
+
+
+IPC@CHIP SECURITY VULNERABILITIES
+Sentry Research Labs did a security audit on the IPC@Chip (developed by 
+Beck GmbH) using a DK40 Evaluation Board. Their conclusion: Warnings: 8 
+and Flaws: 3.
+Link: http://www.net-security.org/text/bugs/990733767,69798,.shtml
+
+
+NORTON ANTIVIRUS 2000 POPROXY.EXE PROBLEM
+While messing around with this i crashed the server by sending it too many 
+characters (269 or more). Once the program crashes the user is unable to 
+receive email until the next reboot (or poproxy.exe is run again)
+Link: http://www.net-security.org/text/bugs/990733863,94186,.shtml
+
+
+WIN2K ELEVATION OF PRIVILEGES WITH DEBUG REGISTERS
+If someone can execute programs on a target Win2K system then he may 
+elevate his privileges at least to extent which gives him write access to 
+C:\WINNT\SYSTEM32 and HKCR.
+Link: http://www.net-security.org/text/bugs/990734134,3636,.shtml
+
+----------------------------------------------------------------------------
+
+
+
+
+Security world
+--------------
+
+All press releases are located at:
+http://net-security.org/text/press
+
+
+----------------------------------------------------------------------------
+
+"INTRODUCTION TO COMPUTER & NETWORK SECURITY" COURSE - [20.05.2001]
+
+Network Security Corp., a premier provider of Internet security solutions for 
+business, has teamed with Element K Learning Center, Rochester, New York's 
+premier computer training facility, to offer a course in computer security, 
+"Introduction to Computer & Network Security." The three-day security course 
+is scheduled for June 20-22 from 8:30 a.m. to 5:00 p.m. each day at Element 
+K Learning Center, 140 Canal View Blvd, Rochester, NY. A representative of 
+Network Security Corp. will teach the course, which is open to all information 
+technology (IT) professionals. 
+
+Press release:
+< http://www.net-security.org/text/press/990369589,56820,.shtml >
+
+----------------------------------------------------------------------------
+
+TELEHUBLINK WILL FOCUS ON WIRELESS ENCRYPTION - [21.05.2001]
+
+TeleHubLink Corporation, a pioneering company in wireless encryption and 
+broadband secure communications, announced today that the company is 
+modifying its strategy. The Company will focus the resources on its core 
+wireless encryption business and close the WorldWide Assist division. 
+WorldWide Assist was involved with internet customer resource management 
+and located in Montreal Canada. The Company will continue with the Telecom 
+business, which provided over $10 million in net revenue during fiscal 2001.
+
+Press release:
+< http://www.net-security.org/text/press/990443883,26480,.shtml >
+
+----------------------------------------------------------------------------
+
+VIGILANTE AND UNISYS PARTNER - [21.05.2001]
+
+VIGILANTe, a pioneer and leader in security assurance services, and Unisys 
+Corporation, a leading provider of full life cycle, integrated security solutions, 
+announced a strategic alliance. Under the terms of this agreement, Unisys will 
+include SecureScan(TM), VIGILANTe's award-winning automated vulnerability 
+assessment service, in the Unisys Security Management Solution. Unisys will 
+offer SecureScan to clients on a subscription basis, enabling proactive risk 
+mitigation through ongoing vulnerability testing.
+
+Press release:
+< http://www.net-security.org/text/press/990444070,54114,.shtml >
+
+----------------------------------------------------------------------------
+
+DEVELOPING SECURE TRANSACTION SERVICES - [23.05.2001]
+
+Cyota, a leading payment security company, announced today a cross-licensing 
+agreement with Microsoft Corp., giving Cyota a license to Microsoft patents in 
+the area of proxy number technology. The companies will also be working 
+together to develop secure transaction services, based on Microsoft .NET 
+technologies, designed to help businesses deliver a new, richer customer 
+experience. 
+
+Press release:
+< http://www.net-security.org/text/press/990619177,54391,.shtml >
+
+----------------------------------------------------------------------------
+
+CLEARTRUST SECURECONTROL WINS NC AWARD - [23.05.2001]
+
+Securant Technologies - the company that secures e-business - announced that 
+its Web access management system, ClearTrust SecureControl, has earned the 
+coveted Editor's Choice award from Network Computing magazine. In a review of 
+Web-based policy management products that will appear in the May 28 issue, 
+ClearTrust SecureControl was judged to be the best access management solution 
+in a head-to-head comparison with products from Baltimore Technologies, 
+Entegrity Solutions, Entrust Technologies, and OpenNetwork Technologies. 
+Netegrity declined to participate; telling the magazine its product is too complex 
+to be accurately tested in a competitive review. 
+
+Press release:
+< http://www.net-security.org/text/press/990619273,74419,.shtml >
+
+----------------------------------------------------------------------------
+
+RESEARCH ON WORLDWIDE MAGNITUDE OF DoS ATTACKS - [23.05.2001]
+
+Asta Networks, a network reliability company, announced today research that 
+provides a breakthrough for understanding the scope and dimensions of the 
+problem of Denial-of-Service (DoS) attacks plaguing the global Internet. Over 
+the course of a three-week period, the study showed that 12,805 attacks 
+were launched against more than 5,000 distinct targets, representing a 
+conservative glimpse into the actual number of DoS attacks that occur on 
+the Internet. The targets ranged from well-known companies such as 
+Amazon.com and AOL to small foreign ISPs and broadband users.
+
+Press release:
+< http://www.net-security.org/text/press/990621990,56505,.shtml >
+
+----------------------------------------------------------------------------
+
+SK TELECOM SELECTS UNISECURITY - [23.05.2001]
+
+UniSecurity Inc., a rapidly emerging technology company in the Internet security 
+industry, has announced that SK Telecom, Korea's largest telecommunications 
+company with over 15 million subscribers, will adopt UniSecurity's SecuForce
+Security Suite to secure its e-Procurement System for e-business between SK 
+Telecom and its suppliers. 
+
+Press release:
+< http://www.net-security.org/text/press/990622031,13625,.shtml >
+
+----------------------------------------------------------------------------
+
+INTERNET SECURITY SYSTEMS SHIPS REALSECURE 6.0 - [23.05.2001]
+
+Internet Security Systems (ISS), a leading provider of security management 
+solutions for the Internet, announced a significant new version of its leading 
+network and server-based intrusion detection solution, RealSecure 6.0. 
+Delivering powerful new scalability capabilities critical to securing digital 
+assets and ensuring business continuity, the latest version of RealSecure 
+sets a new standard in enterprise intrusion protection.
+
+Press release:
+< http://www.net-security.org/text/press/990622653,42197,.shtml >
+
+----------------------------------------------------------------------------
+
+NEW SUPERSCOUT WEB FILTER ANNOUNCED - [24.05.2001]
+
+SurfControl, The Internet Filtering Company, today announced a new version of 
+SuperScout Web Filter as part of the continued development and enhancement 
+of its patented filtering technology that has kept SurfControl at the leading 
+edge of the filtering market. SuperScout for VPN-1/FireWall-1 Solaris version 2.0 
+seamlessly integrates with Check Point Software Technologies' industry-leading 
+VPN-1/FireWall-1.
+
+Press release:
+< http://www.net-security.org/text/press/990659724,16367,.shtml >
+
+----------------------------------------------------------------------------
+
+FOURTH HOPE CONFERENCE CONFIRMED - [24.05.2001]
+
+H2K2 will take place July 12, 13, and 14 2002 at the Hotel Pennsylvania in New 
+York City - with one major difference. While we will once again have the entire 
+18th floor for speakers and presentations, we have secured an additional 35,000 
+square feet on the ground floor for the network and related activities. To give 
+you an idea of just what this means, the entire conference area for our previous 
+event (H2K) was approximately 12,000 square feet. We now have this PLUS the 
+additional space which gives us nearly 50,000 square feet to play with.
+
+Press release:
+< http://www.net-security.org/text/press/990693161,33299,.shtml >
+
+----------------------------------------------------------------------------
+
+FORRMING INFORMATION SECURITY POWERHOUSE - [24.05.2001]
+
+AtomicTangerine, a leading provider of information security services, announced 
+that it has joined with SecurityPortal, Inc., to form the most comprehensive 
+solution available to help companies stay ahead of evolving security risks. The 
+combined companies provide complementary services, tools and resources in the 
+security marketplace, forming - under the name AtomicTangerine - a unique 
+provider of end-to-end solutions, from vulnerability assessment to monitoring of, 
+and responses to, security threats both from the inside and the outside.
+
+Press release:
+< http://www.net-security.org/text/press/990712414,8736,.shtml >
+
+----------------------------------------------------------------------------
+
+SOPHOS WARNS OF RTF FILES VULNERABILITY - [25.05.2001]
+
+Sophos Anti-Virus, a world leader in corporate anti-virus protection, is warning 
+users of a recently discovered security vulnerability in Microsoft Word. The flaw 
+can allow viral macros to execute automatically simply by opening Rich Text 
+Format documents, something which was not thought to be possible until now.
+
+Press release:
+< http://www.net-security.org/text/press/990789586,84882,.shtml >
+
+----------------------------------------------------------------------------
+
+SECURE WAP GATEWAY POWERED BY RSA BSAFE - [25.05.2001]
+
+RSA Security Inc., the most trusted name in e-security, announced that Ajaxo 
+Inc., a leading provider of WAP development tools for enterprise applications, 
+has chosen RSA BSAFE WTLS-C and RSA BSAFE SSL-C encryption software for 
+inclusion in its Ajaxo Secure WAP Gateway. This wireless gateway is designed to 
+provide users with end-to-end secure communication when using WAP mobile 
+applications. By adopting RSA Security's software, Ajaxo is able to offer its 
+clients complete WAP-based security, while delivering high performance and 
+scalability.
+
+Press release:
+< http://www.net-security.org/text/press/990790435,14352,.shtml >
+
+----------------------------------------------------------------------------
+
+SONICWALL EXPANDS SSL ACCELERATION PRODUCT LINE - [25.05.2001]
+
+SonicWALL, Inc., a leading provider of Internet security solutions, announced 
+the expansion of its Secure Sockets Layer (SSL) acceleration product line with 
+the introduction of the SSL-R3 and SSL-R6 products. Offloading up to 1200 
+secure transactions per second, these new products offer greater web server 
+performance for data centers, large web server farms and application service 
+providers.
+
+Press release:
+< http://www.net-security.org/text/press/990790547,42233,.shtml >
+
+----------------------------------------------------------------------------
+
+
+
+
+Featured products
+-------------------
+
+The HNS Security Database is located at:
+http://www.security-db.com
+
+Submissions for the database can be sent to: staff@net-security.org
+
+
+----------------------------------------------------------------------------
+
+EXTRACTOR
+
+Extractor is another weapon that investigators and forensic scientists can 
+use to help recover important data and evidence deleted by savvy criminals.
+
+Read more:
+< http://www.security-db.com/product.php?id=9 >
+
+This is a product of WetStone Technologies, Inc., for more information:
+< http://www.security-db.com/info.php?id=3 >
+
+----------------------------------------------------------------------------
+
+F-SECURE SSH
+
+F-Secure SSH Client and Server enable remote systems administrators and 
+telecommuters to access corporate network resources without revealing 
+passwords and confidential data to possible eavesdroppers. It protects 
+TCP/IP-based terminal connections in UNIX, Windows and Macintosh 
+environments.
+
+Read more:
+< http://www.security-db.com/product.php?id=56 >
+
+This is a product of F-Secure, for more information:
+< http://www.security-db.com/info.php?id=12 >
+
+----------------------------------------------------------------------------
+
+GLOBAL SECURE TECHNICAL SERVICES LIMITED
+
+Global Secure Technical Services Limited (GSTS) offers monitored and 
+managed IT Security Services. Organisations today recognise the need 
+for improved communications through the Internet, they also realise 
+that they do not have the technical expertise to implement a secure 
+connection.
+
+Read more:
+< http://www.security-db.com/product.php?id=501 >
+
+This is a product of Global Technology Associates Limited, for more information:
+< http://www.security-db.com/info.php?id=109 >
+
+----------------------------------------------------------------------------
+
+
+
+
+Featured article
+----------------
+
+All articles are located at:
+http://www.net-security.org/text/articles
+
+Articles can be contributed to staff@net-security.org
+
+
+----------------------------------------------------------------------------
+
+THE ATTRITION.ORG DEFACEMENT MIRROR IS NO MORE
+
+The Attrition staff has decided to stop updating their defacement mirror. 
+There's a lot of reasons for this, you can read their statement below. 
+Alldas will continue working on the mirroring, along with the cooperation 
+from the Attrition staff.
+
+Read more:
+< http://www.net-security.org/text/articles/attrition-evolution.shtml >
+
+----------------------------------------------------------------------------
+
+
+
+
+Security Software
+-------------------
+
+All programs are located at:
+http://net-security.org/various/software
+
+----------------------------------------------------------------------------
+
+FAENA MYID 1.1.43
+
+Faena MyID is a super high security user ID and password keeping program. 
+Encrypt your usernames and passwords. Even if hacker gets your password 
+file, without your PIN in your mind, nobody can decrypt the data. Supports 
+multi-user if you are using Windows NT4/2000/Xp. Transfer your ID password 
+lists between home and work by email, using Export/Import function. AutoHide 
+to tasktray. This is a full function free demo version.
+
+Info/Download:
+< http://www.net-security.org/various/software/991039142,23894,windows.shtml >
+
+----------------------------------------------------------------------------
+
+PASSWORD 2000 2.6.1
+
+E-mail at work, e-mail at home, the alarm to the house, log-on at the office, 
+all these things require PASSWORDS. How can you remember them all? Well, 
+it is not always easy. You could make them all the same password. But then 
+it would be just that much easy for any nosey parties to gain access to all 
+of you personal information. Instead, you can use the Password 2000.
+
+Info/Download:
+< http://www.net-security.org/various/software/991039251,65686,windows.shtml >
+
+----------------------------------------------------------------------------
+
+SAMHAIN V.1.1.12
+
+Samhain (development branch) is a file system integrity checker that can be 
+used as a client/server application for centralized monitoring of networked 
+hosts. Databases and configuration files can be stored on the server. In 
+addition to forwarding reports to the log server via authenticated TCP/IP 
+connections, several other logging facilities (e-mail, console, tamper-resistant 
+log file, and syslog) are available. Tested on Linux, AIX 4.1, HP-UX 10.20, 
+Unixware 7.1.0, and Solaris 2.6. The devel version has more advanced features, 
+but not all options are thoroughly tested yet. Changes: Now detects Linux LKM 
+rootkits. Problems with repetitive reports by the daemon have been fixed, the 
+installation has been streamlined, init scripts for Linux (SuSE, Redhat, and 
+Debian) have been added, and the docs have been revised.
+
+Info/Download:
+< http://www.net-security.org/various/software/991039413,81505,linux.shtml >
+
+----------------------------------------------------------------------------
+
+NEW MOD_SSL PACKAGE
+
+mod_ssl provides provides strong cryptography for the Apache 1.3 webserver 
+via the Secure Sockets Layer (SSL v2/v3) and Transport Layer Security (TLS 
+v1). It is based on the SSL/TLS toolkit OpenSSL and supports all SSL/TLS 
+related functionality, including RSA and DSA/DH cipher support, X.509 CRL 
+checking, etc. Additionally it provides special Apache related facilities like 
+DBM and shared memory based inter-process SSL session caching. per-URL 
+SSL session renegotiations, DSO support, etc. Changes: Updated to work 
+with Apache 1.3.20.
+
+Info/Download:
+< http://www.net-security.org/various/software/991039519,17500,linux.shtml >
+
+----------------------------------------------------------------------------
+
+
+
+
+Defaced archives
+------------------------
+
+[21.05.2001]
+
+Original: http://www.toshiba.com.mx/
+Defaced: http://defaced.alldas.de/mirror/2001/05/21/www.toshiba.com.mx/
+OS: Windows
+
+Original: http://www.as/
+Defaced: http://defaced.alldas.de/mirror/2001/05/21/www.as/
+OS: Windows
+
+Original: http://www.cinemaxx.de/
+Defaced: http://defaced.alldas.de/mirror/2001/05/21/www.cinemaxx.de/
+OS: Windows
+
+Original: http://www.soccer.com/
+Defaced: http://defaced.alldas.de/mirror/2001/05/21/www.soccer.com/
+OS: Windows
+
+
+[22.05.2001]
+
+Original: http://www.fm/
+Defaced: http://defaced.alldas.de/mirror/2001/05/22/www.fm/
+OS: Windows
+
+Original: http://www.daewoo.com.pe/
+Defaced: http://defaced.alldas.de/mirror/2001/05/22/www.daewoo.com.pe/
+OS: Windows
+
+Original: http://www.sfpc.gov.cn/
+Defaced: http://defaced.alldas.de/mirror/2001/05/22/www.sfpc.gov.cn/
+OS: Windows
+
+
+[23.05.2001]
+
+Original: http://www.don-imit.navy.mil/
+Defaced: http://defaced.alldas.de/mirror/2001/05/23/www.don-imit.navy.mil/
+OS: Windows
+
+Original: http://www.ecgd.gov.uk/
+Defaced: http://defaced.alldas.de/mirror/2001/05/23/www.ecgd.gov.uk/
+OS: Windows
+
+Original: http://www.yoko.npmoc.navy.mil/
+Defaced: http://defaced.alldas.de/mirror/2001/05/23/www.yoko.npmoc.navy.mil/
+OS: Windows
+
+
+[24.05.2001]
+
+Original: http://www.in.nrcs.usda.gov/
+Defaced: http://defaced.alldas.de/mirror/2001/05/24/www.in.nrcs.usda.gov/
+OS: Windows
+
+Original: http://www.kashmir.net/
+Defaced: http://defaced.alldas.de/mirror/2001/05/24/www.kashmir.net/
+OS: Unknown
+
+Original: http://palmspring.org/
+Defaced: http://defaced.alldas.de/mirror/2001/05/24/palmspring.org/
+OS: Windows
+
+
+[25.05.2001]
+
+Original: http://www.mazda.com.sg/
+Defaced: http://defaced.alldas.de/mirror/2001/05/25/www.mazda.com.sg/
+OS: Windows
+
+Original: http://www.serverattack.com/
+Defaced: http://defaced.alldas.de/mirror/2001/05/25/www.serverattack.com/
+OS: Solaris
+
+Original: http://www.sdny.gov.cn/
+Defaced: http://defaced.alldas.de/mirror/2001/05/25/www.sdny.gov.cn/
+OS: Windows
+
+Original: http://www.reikicenter.dk/
+Defaced: http://defaced.alldas.de/mirror/2001/05/25/www.reikicenter.dk/
+OS: Linux
+
+
+[26.05.2001]
+
+Original: http://www.tv3.dk/
+Defaced: http://defaced.alldas.de/mirror/2001/05/26/www.tv3.dk/
+OS: Windows
+
+Original: http://www.delmar.cec.eu.int/
+Defaced: http://defaced.alldas.de/mirror/2001/05/26/www.delmar.cec.eu.int/
+OS: Windows
+
+Original: http://republican.assembly.ca.gov/
+Defaced: http://defaced.alldas.de/mirror/2001/05/26/republican.assembly.ca.gov/
+OS: Windows
+
+
+[27.05.2001]
+
+Original: http://animalscience.ucdavis.edu/
+Defaced: http://defaced.alldas.de/mirror/2001/05/27/animalscience.ucdavis.edu/
+OS: Windows
+
+Original: http://www-isds.jpl.nasa.gov/
+Defaced: http://defaced.alldas.de/mirror/2001/05/27/www-isds.jpl.nasa.gov/
+OS: Windows
+
+Original: http://www.printer.ch/
+Defaced: http://defaced.alldas.de/mirror/2001/05/27/www.printer.ch/
+OS: Windows
+
+----------------------------------------------------------------------------
+
+========================================================
+Advertisement - HNS Security Database
+========================================================
+HNS Security Database consists of a large database of security related 
+companies, their products, professional services and solutions. HNS 
+Security Database will provide a valuable asset to anyone interested in 
+implementing security measures and systems to their companies' networks.
+Visit us at http://www.security-db.com
+========================================================
+
+Questions, contributions, comments or ideas go to:
+ 
+Help Net Security staff
+ 
+staff@net-security.org
+http://net-security.org
+http://security-db.com

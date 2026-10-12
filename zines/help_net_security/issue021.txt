@@ -1,0 +1,526 @@
+Net-Sec newsletter 
+Issue 21 - 10.07.2000 
+http://net-security.org 
+
+Net-Sec is a newsletter delivered to you by Help Net Security. It covers weekly 
+roundups of security events that were in the news the past week. 
+Visit Help Net Security for the latest security news - http://www.net-security.org. 
+
+
+Subscribe to this weekly digest on: 
+http://www.net-security.org/text/newsletter 
+
+Table of contents: 
+
+1) General security news 
+2) Security issues 
+3) Security world 
+4) Featured articles 
+5) Defaced archives 
+
+
+============================================================ 
+Sponsored by VeriSign - The Internet Trust Company 
+============================================================ 
+Protect your servers with 128-bit SSL encryption! 
+
+Get VeriSign's FREE guide, "Securing Your Web Site 
+for Business." You will learn everything you need to 
+know about using SSL to encrypt your e-commerce transactions 
+for serious online security. Click here! 
+http://www.verisign.com/cgi-bin/go.cgi?a=n016010570008000 
+============================================================ 
+
+
+
+General security news 
+--------------------- 
+
+
+---------------------------------------------------------------------------- 
+
+KAIST CONTEST FINISHED 
+The Information Security Education Research Center of the Korean Advanced 
+Institute of Science and Technology said Sunday that no hackers among the 
+3,664 teams worldwide managed to conquer its third level server. KAIST paid 
+two teams $30,000 for entering the second level. 
+Link: http://www.chosun.com/w21data/html/news/200007/200007020212.html 
+
+
+WEB SITE WORM 
+Kaspersky Lab announced today the discovery of a new Internet-worm (called 
+"Jer"), which has an ability to penetrate computers at the moment users visit 
+"infected" web pages. While surfing to the web site containing the worm, a 
+security box opens and if you click on yes, you'll get infected. 
+Link: http://www.kasperskylab.ru/eng/news/press/20000702-1.asp 
+
+
+SECURING PALM PILOTS 
+"In order to add satisfactory security to your PalmPilot, you must search out 
+3rd party software to add the necessary components" - Jim Reavis from Security 
+Portal writes. 
+Link: http://www.securityportal.com/ 
+
+
+HACKERS AS CRIMINALS 
+"Stop blaming Microsoft - it's the hackers who are the guilty ones" - is a final 
+comment from Andrew Tomas, journalist from The Register UK. The writer 
+blames hackers and call them criminals, because in the article the big companies 
+out their are just to make money and not ready to protect their customers. 
+Contributed by Apocalyse Dow. 
+Link: http://www.theregister.co.uk/content/1/11763.html 
+
+
+SOPHOS ANTI-VIRUS FOR EXCHANGE 
+Sophos has made available a beta version of Sophos Anti-Virus for Exchange 
+for download. New features include scanning inside compressed and archived 
+files, and detection of Apple Macintosh viruses. 
+Link: http://www.sophos.com/downloads/beta/ 
+
+
+NSI AUTHENTIFICATION FAQ 
+With all this domain hijackings, the following FAQ on Network Solutions's web 
+site comes very useful. It deals with all questions regarding authentification at NSI. 
+Link: http://www.networksolutions.com/help/guardian.html 
+
+
+OPENHACK.COM DEFACED 
+"Web site successfully defaced, details upcoming" - there are some news from 
+eWEEK hacking contest. According to the rules, this was not a successful 
+compromise, but Attrition has the mirror. 
+Link: http://www.attrition.org/mirror/attrition/2000/07/03/www.openhack.com/ 
+
+
+SPECIAL FEATURE: ECHELON 
+ZDNet United Kingdom has a special feature on their site - and the topic is 
+Echelon. It has a variety of aricles, comments and multimedia files on the world 
+wide privacy risk. 
+Link: http://www.zdnet.co.uk/news/specials/2000/06/echelon/ 
+
+
+LEGAL FACTS 
+Wired also did a report on Lee Ashurst who is accused of pentrating into systems 
+of Arab ISP named "Emirates Internet and Multimedia". Article focuses mostly on 
+legal facts of computer crime law in UAE. 
+Link: http://www.wired.com/news/politics/0,1283,37401,00.html 
+
+
+ACCESS DENIED TO FBI WEB SITE 
+"You can't access fbi.gov if you have a Freedom 'nym' running," confirmed Dov 
+Smith, spokesman for Zero-Knowledge Systems who created software called 
+Freedom, which lets you use the Internet anonymously. 
+Link: http://www.wired.com/news/technology/0,1282,37425,00.html 
+
+
+E-COMMERCE SECURITY REPORT 
+Deloitte Touche Tohmatsu and the Information Systems Audit and Control 
+Foundation have published a report entitled "E-commerce Security Enterprise 
+Best Practices." The report is the result of worldwide survey of professionals 
+in 46 locations, including Hong Kong, over a period of six months. The report 
+is an effort to address the security, control and audit issues involved in 
+e-commerce. 
+Link: http://www.computeruser.com/news/00/07/07/news5.html 
+
+
+SECURITY IS NOT A LUXURY ANYMORE 
+This article by Andrew Kaufman talks about shortsighted thinking that is 
+prevalent in many companies that do not put in place effective security 
+measures. 
+Link: http://linuxsecurity.com/feature_stories/feature_story-58.html 
+
+
+CELLULARS, FRAUDS AND PROBLEMS 
+"With the GSM standard, fraud cannot be easily detected and when back-end 
+infrastructure/logistics are not completely in place networks are especially 
+vulnerable" - said Gary Bernstein, UK-based fraud management consultancy 
+Praesidium Services Ltd managing partner. 
+Link: http://www.financialexpress.com/fe/daily/20000707/fco07003.html 
+
+
+"HACKER" INSURANCE 
+Lloyd's of London will offer up to $100 million in insurance coverage to clients 
+of computer security management firm Counterpane Security against hacker 
+losses to their business or their customers. 
+Link: http://news.cnet.com/news/0-1005-200-2232221.html?tag=st.ne.1430735..ni 
+
+
+OPENHACK.COM DEFACED, PART DEUX 
+OpenHack.com was defaced for the second time. After "al and mei" penatrated 
+the server and changed its index page, Jfs did it also. BTW if you remember, 
+Jfs also hacked into last year's PC Week hacking contest server. 
+
+
+OpenHack defaced again 
+https://www.openhack.com/index_cracked_2.html 
+
+Info on lats year's PC Week hack 
+http://hispahack.ccc.de/en/mi019en.htm 
+
+
+---------------------------------------------------------------------------- 
+
+
+
+
+Security issues 
+--------------- 
+
+All vulnerabilities are located at: 
+http://net-security.org/text/bugs 
+
+
+---------------------------------------------------------------------------- 
+
+REMOTE DOS ATTACK IN REAL NETWORKS REAL SERVER 
+The Ussr Labs team has recently discovered a memory problem in the RealServer 
+7 Server (patched and non-patched). What happens is, by performing an attack 
+sending specially-malformed information to the RealServer HTTP Port(default is 
+8080), the process containing the services will stop responding. 
+Link: http://www.net-security.org/text/bugs/962751695,46694,.shtml 
+
+
+ORACLE WEB LISTENER FOR AIX DOS 
+By issuing a malformed URL (variations on "..") it is possible to cause a Denial of 
+Service situation where the Oracle_Web_Listener will no longer accept HTTP 
+requests and the service needs to be restarted. 
+Link: http://www.net-security.org/text/bugs/962846668,98024,.shtml 
+
+
+VULNERABILITY IN POLL_IT CGI V2.0 
+Because the CGI initializes it's internal variables before parsing any form data, 
+and the method it uses to parse form data overwrites internal variables (in this 
+case, $data_dir), it is possible to retrieve any files readable by the webserver. 
+http://www.net-security.org/text/bugs/962976911,43476,.shtml 
+
+
+PATCHING "STORED PROCEDURE PERMISSIONS" VULNERABILITY 
+Microsoft has released a patch that eliminates a security vulnerability in 
+Microsoft SQL Server 7.0. The vulnerability could allow a malicious user to run 
+a database stored procedure without proper permissions. 
+Link: http://www.net-security.org/text/bugs/963135822,65666,.shtml 
+
+
+COBALT LINUX PROBLEMS 
+There are two major problems with Cobalt Linux, used to drive the Cobalt RaQ 
+series of hardware (used by thousands of ISPs). Both problems were tested 
+against a Cobalt RaQ 3 with OS Update 3.0, which was released on the 15th 
+of June. No updates have been released. 
+Link: http://www.net-security.org/text/bugs/963135955,96589,.shtml 
+
+
+FLOWERFIRE SAWMILL VULNERABILITIES PATCH 
+"We have just shipped a new version of Flowerfire Sawmill (5.0.22) which 
+corrects both of the vulnerabilities mentioned on your web site (Flowerfire 
+Sawmill File Access Vulnerability and Flowerfire Sawmill Weak Password 
+Encryption Vulnerability). The update is free. " 
+Link: http://www.net-security.org/text/bugs/963136068,19952,.shtml 
+
+
+NOVELL BORDER MANGER PROBLEM 
+To provide SSO-like capabilities for customers using BorderManger proxy server 
+and the NetWare client, Novell uses a small program, ClientTrust, typically run 
+from the user's login script. Once run, ClientTrust listens indefinitely on port 
+3024 for requests. Upon a user's initial attempt to access the web through 
+BorderManager, BorderManager sends a "request" to the user's box in the 
+form of UDP packets on port 3024. 
+Link: http://www.net-security.org/text/bugs/963136348,87288,.shtml 
+
+
+[MANDRAKE] BITCHX UPDATE 
+A denial of service vulnerability exists in BitchX. Improper handling of incoming 
+invitation messages can crash the client. Any user on IRC can send the client 
+an invitation message that causes BitchX to segfault. 
+Link: http://www.net-security.org/text/bugs/963228702,20509,.shtml 
+
+---------------------------------------------------------------------------- 
+
+
+
+
+Security world 
+-------------- 
+
+All press releases are located at: 
+http://net-security.org/text/press 
+
+---------------------------------------------------------------------------- 
+
+SECURECRT OPENS UP SSH TO OPEN-SOURCE SERVERS - [04.07.2000] 
+
+The OpenSSH server, currently version 2.1.1, implements both SSH1 and SSH2 
+protocols on BSD and Linux, as well as several commercial UNIX platforms. 
+OpenSSH was developed by a group of programmers under the OpenBSD project. 
+The server supports SSH2 features such as multiple authentication methods, 
+including public key authentication with up to 1024-bit DSA security. 
+
+Press release: 
+< http://www.net-security.org/text/press/962675746,58806,.shtml > 
+
+---------------------------------------------------------------------------- 
+
+SOPHOS TOP TEN LIST FOR JUNE - [04.07.2000] 
+
+Top ten viruses reported to Sophos Anti-Virus in June 2000This is the latest in 
+a series of monthly charts counting down the ten most frequently occurring 
+viruses as compiled by Sophos, worldwide leaders in anti-virus protection. 
+
+Press release: 
+< http://www.net-security.org/text/press/962676094,48520,.shtml > 
+
+---------------------------------------------------------------------------- 
+
+INTRUSION.COM ACQUIRES MIMESTAR - [05.07.2000] 
+
+Intrusion.com, a global provider of enterprise security solutions, today 
+announced the acquisition of MimeStar, Inc., developer of the advanced network 
+intrusion detection software, SecureNet Pro. 
+
+Press release: 
+< http://www.net-security.org/text/press/962804485,13519,.shtml > 
+
+---------------------------------------------------------------------------- 
+
+VERISIGN PROVIDING INTERNET TRUST SERVICES FOR E-DOCS - [06.07.2000] 
+
+e-DOCS.net, the medical e-document company, announced today VeriSign has 
+been selected to provide Internet trust services for e-DOCS.net's new 
+professional portal, the e-DOCS Physician Network. VeriSign's Web site digital 
+certificate services are used by all of the Fortune 500 companies with a Web 
+presence. 
+
+Press release: 
+< http://www.net-security.org/text/press/962879584,17494,.shtml > 
+
+---------------------------------------------------------------------------- 
+
+COSTAR SELECTS RSA SECURITY AS ITS SECURITY PROVIDER - [06.07.2000] 
+
+CoStar Group, Inc., the leading provider of information services to the U.S. 
+commercial real estate industry announced it has integrated premium high-tech 
+security features from RSA Security Inc., the most trusted name in e-security, 
+into CoStar Exchange, a Web-based interactive marketplace for commercial 
+properties for sale. 
+
+Press release: 
+< http://www.net-security.org/text/press/962879876,52670,.shtml > 
+
+---------------------------------------------------------------------------- 
+
+FREE SECURITY LINUX MANAGEMENT SOLUTION FROM SOLSOFT - [06.07.2000] 
+
+Solsoft, Inc., the leading provider of policy management for e-Business security, 
+today announced a free security management solution for the Linux community. 
+To facilitate distribution the company has entered into a worldwide partnership 
+with MandrakeSoft, one of the world's leading Linux publishers. Called Solsoft 
+NP-Lite, the software is included with the Linux-Mandrake PowerPack or 
+Deluxe 7.1 operating system released last month. 
+
+Press release: 
+< http://www.net-security.org/text/press/962908184,62401,.shtml > 
+
+---------------------------------------------------------------------------- 
+
+MAIL.COM ANTI-VIRUS INTERCEPTIONS INCREASE 580% - [06.07.2000] 
+
+Mail.com, Inc., a leading global provider of Internet Messaging services for 
+businesses, announced today that its leading anti-virus service, MailWatch, 
+formerly MailZone, intercepted 51,510 viruses in the second quarter. That figure 
+represents a 580 percent increase over the first quarter's virus interception 
+activity, and is due largely to the "I Love You" (AKA "Love Letter") virus in May, 
+the "Stages" virus in June, and an increase in corporate customers using the 
+MailWatch service. 
+
+Press release: 
+< http://www.net-security.org/text/press/962908037,90908,.shtml > 
+
+---------------------------------------------------------------------------- 
+
+AUTHORIZOR INC. ANNOUNCES AUTHORIZOR 2000 - [09.07.2000] 
+
+Authorizor Inc., an internet security software provider announced today that its 
+new Authorizor 2000 software product, which is designed to provide fail-safe 
+website security, is now available. This new version enhances ease-of-use for 
+customers and offers increased Internet security and access management 
+functionality. 
+
+Press release: 
+< http://www.net-security.org/text/press/963137242,35553,.shtml > 
+
+---------------------------------------------------------------------------- 
+
+NETSCREEN ADDS RSA SECURITY SOFTWARE TO IA OS - [09.07.2000] 
+
+RSA Security Inc. today announced that NetScreen Technologies Inc., 
+a leading developer of ASIC-based Internet security appliances and systems, 
+has licensed RSA BSAFE® Crypto-C software. NetScreen has added the RSA 
+Security product to NetScreen ScreenOS 2.0, the operating system that powers 
+the company's line of integrated security appliances. By adopting RSA Security 
+software, NetScreen has been able to add encryption and authentication 
+functions enabled by RSA BSAFE Crypto-C software - one of the world's best 
+selling cryptography engines - to the NetScreen operating system. 
+
+
+Press release: 
+< http://www.net-security.org/text/press/963142839,13266,.shtml > 
+
+---------------------------------------------------------------------------- 
+
+CLICKNET FORGES ALLIANCE WITH CISCO SYSTEMS - [10.07.2000] 
+
+ClickNet and Cisco to Develop Intrusion Detection Solution for Securing 
+E-Business Operations Throughout the Corporate NetworkClickNet Software 
+Corp., the premier provider of anti-hacking e-server security solutions, today 
+announced an alliance with networking giant Cisco Systems, Inc. to develop a 
+complete intrusion detection solution for securing vulnerable e-business 
+environments. 
+
+Press release: 
+< http://www.net-security.org/text/press/963228079,34377,.shtml > 
+
+---------------------------------------------------------------------------- 
+
+
+
+
+Featured articles 
+----------------- 
+
+All articles are located at: 
+http://www.net-security.org/text/articles 
+Articles could be contributed to staff@net-security.org 
+
+Listed below are some of the recently added articles. 
+
+---------------------------------------------------------------------------- 
+
+COMMON SYSTEM INTRUSION METHODS by Craig H. Rowland 
+
+"I've done a large amount of system auditing and network attack tool 
+programming in the past and here is what I consider the most common methods 
+for gaining access to a target host." 
+
+Article: 
+< http://www.net-security.org/text/articles/common.shtml > 
+
+---------------------------------------------------------------------------- 
+
+TECHNIQUES ADOPTED BY 'SYSTEM CRACKERS' WHEN ATTEMPTING TO BREAK 
+INTO CORPORATE OR SENSITIVE PRIVATE NETWORKS - by the consultants of 
+the Network Security Solutions Ltd. Front-line Information Security Team 
+
+This white paper was written to help give systems administrators and network 
+operations staff an insight into the tactics and methodologies adopted by 
+typical system crackers when targeting large networks. 
+
+Article: 
+< http://www.net-security.org/text/articles/techniques.shtml > 
+
+---------------------------------------------------------------------------- 
+
+STRUCTURAL VERSUS OPERATIONAL INTRUSION DETECTION - by John Kozubik 
+
+"Structural IDS will be defined as identifying and monitoring unusual actions and 
+objects in the network and computers participating on the network." 
+
+Article: 
+< http://www.net-security.org/text/articles/ids.shtml > 
+
+---------------------------------------------------------------------------- 
+
+SECURITY FOR THE HOME NETWORK - by JC Pollman and Bill Mote 
+
+"Security for the home network is your responsibility. With all the tools available 
+to the crackers and script kiddies, it is not a matter of IF but rather WHEN you 
+will be probed and possibly attacked. I have personally been connected via 
+modem for less than 5 minutes and been port scanned! Your ISP really does not 
+care if you are being attacked by "x" because if they shut down "x", tomorrow it 
+will be "y" attacking you. Fortunately there are several things you can do to 
+greatly increase the security of your network." 
+
+Article: 
+< http://www.net-security.org/text/articles/homenetwork.shtml > 
+
+---------------------------------------------------------------------------- 
+
+
+
+
+Defaced archives 
+------------------------ 
+
+[02.07.2000] - Medical School, UCLA 
+Original: http://www.pathnet.medsch.ucla.edu/ 
+Defaced: http://www.attrition.org/mirror/attrition/2000/07/02/www.pathnet.medsch.ucla.edu/ 
+
+[02.07.2000] - Icron Systems Inc. 
+Original: http://www.icron.com/ 
+Defaced: http://www.attrition.org/mirror/attrition/2000/07/02/www.icron.com/ 
+
+[03.07.2000] - DTS Software 
+Original: http://www.dtssoftware.com/ 
+Defaced: http://www.attrition.org/mirror/attrition/2000/07/03/www.dtssoftware.com/ 
+
+[03.07.2000] - #1 Openhack - eWEEK Hacking Challenge 
+Original: https://www.openhack.com/cgi-bin/eweekorcl 
+Defaced: http://www.attrition.org/mirror/attrition/2000/07/03/www.openhack.com/ 
+
+[04.07.2000] - Verbatim 
+Original: http://www.verbatim.com/ 
+Defaced: http://www.attrition.org/mirror/attrition/2000/07/04/www.verbatim.com/ 
+
+[05.07.2000] - Spokane Police Department 
+Original: http://www.spokanepolice.org/ 
+Defaced: http://www.attrition.org/mirror/attrition/2000/07/05/www.spokanepolice.org/ 
+
+[05.07.2000] - NOAA, U.S. Department of Commerce 
+Original: http://www.nauticalcharts.gov/ 
+Defaced: http://www.attrition.org/mirror/attrition/2000/07/05/www.NauticalCharts.gov/ 
+
+[.07.2000] - Kingdom of Saudi Arabia, Ministery of Information 
+Original: http://www.spa.gov.sa/ 
+Defaced: http://www.attrition.org/mirror/attrition/2000/07/05/www.spa.gov.sa/ 
+
+[06.07.2000] - Ministry of Transportation and Navigation Italy 
+Original: http://www.trasportinavigazione.it/ 
+Defaced: http://www.attrition.org/mirror/attrition/2000/07/06/www.trasportinavigazione.it/ 
+
+[06.07.2000] - Bulgarian Government 
+Original: http://www.mjeli.government.bg/ 
+Defaced: http://www.attrition.org/mirror/attrition/2000/07/06/www.mjeli.government..bg/ 
+
+[08.07.2000] - CRA Gov (CO) 
+Original: http://www.cra.gov.co/ 
+Defaced: http://www.attrition.org/mirror/attrition/2000/07/08/www.cra.gov.co/ 
+
+[08.07.2000] - Electronic Display Industrial Research Association 
+Original: http://www.edirak.or.kr/ 
+Defaced: http://www.attrition.org/mirror/attrition/2000/07/08/www.edirak.or.kr/ 
+
+[08.07.2000] - Department of Health and Human Services 
+Original: http://vault1.acf.dhhs.gov/ 
+Defaced: http://www.attrition.org/mirror/attrition/2000/07/08/vault1.acf.dhhs.gov/ 
+
+[08.07.2000] - American Social Health Association 
+Original: http://www.ashastd.org/ 
+Defaced: http://www.attrition.org/mirror/attrition/2000/07/08/www.ashastd.org/ 
+
+[08.07.2000] - #2 Openhack - eWEEK Hacking Challenge 
+Original: http://www.openhack.com/ 
+Defaced: http://www.attrition.org/mirror/attrition/2000/07/08/www.openhack.com/ 
+
+[09.07.2000] - www.anticorrupcion.gov.co 
+Original: http://www.anticorrupcion.gov.co/ 
+Defaced: http://www.attrition.org/mirror/attrition/2000/07/09/www.anticorrupcion.gov.co/ 
+
+[09.07.2000] - US Small Business Classroom 
+Original: http://classroom.sba.gov/ 
+Defaced: http://www.attrition.org/mirror/attrition/2000/07/09/classroom.sba.gov/ 
+
+
+
+Questions, contributions, comments or ideas go to: 
+
+Help Net Security staff 
+
+staff@net-security.org 
+http://net-security.org

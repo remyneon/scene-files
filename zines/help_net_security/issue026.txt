@@ -1,0 +1,698 @@
+Net-Sec newsletter 
+Issue 26 - 21.08.2000 
+http://net-security.org 
+
+Net-Sec is a newsletter delivered to you by Help Net Security. It covers weekly 
+roundups of security events that were in the news the past week. 
+Visit Help Net Security for the latest security news - http://www.net-security.org. 
+
+
+Subscribe to this weekly digest on: 
+http://www.net-security.org/text/newsletter 
+
+Table of contents: 
+
+1) General security news 
+2) Security issues 
+3) Security world 
+4) Featured articles 
+5) Security books 
+6) Defaced archives 
+
+
+
+
+============================================================ 
+Sponsored by VeriSign - The Internet Trust Company 
+============================================================ 
+Pinpoint the right security solution for your company - FREE 
+Guide from industry leader VeriSign gives you all the facts. 
+Learn how to: 
+* Add the most powerful online encryption - 128-bit 
+* Quickly authenticate your site 
+Get your FREE Guide now at: 
+http://www.verisign.com/cgi-bin/go.cgi?a=n061110570013000 
+============================================================ 
+
+Advertising inquiries - e-mail advertise@net-security.org 
+
+
+
+General security news 
+--------------------- 
+
+
+---------------------------------------------------------------------------- 
+
+ANTI-VIRUS SOFTWARE FOR FUTURE PHONES RELEASED 
+Anti-virus company F-Secure revealed software designed to protect Symbian's 
+EPOC operating system. The EPOC operating system is licensed by major mobile 
+phone companies including Ericsson, Nokia, Motorola, Panasonic and Sony and is 
+expected to power future mobile Internet devices from these companies. 
+Link: http://www.net-security.org/cgi-bin/news.cgi?url=http://www.zdnet.co.uk/news/2000/32/ns-17258.html 
+
+
+EPA'S WEB SECURITY STILL VULNERABLE TO ATTACKERS 
+A report released today by the General Accounting Office, the investigative arm 
+of Congress, found that the agency's system continues to be "riddled with security 
+weaknesses" that could allow attackers to tamper with data, view sensitive 
+information or attack other agencies using the EPA system. 
+Link: http://www.net-security.org/cgi-bin/news.cgi?url=http://news.cnet.com/news/0-1005-200-2497497.html 
+
+
+CREDIT CARD INFORMATION EXPOSED ON WOOLWORTHS SITE 
+The personal information of two Woolworths customers, including their credit 
+card numbers, was inadvertently published on one of the company's Web pages, 
+according to a spokesman. The spokesman says that the information was up for 
+a few minutes and to Woolworths' knowledge no one has made fraudulent use of 
+the customer's credit card details. 
+Link: http://www.net-security.org/cgi-bin/news.cgi?url=http://www.zdnet.co.uk/news/2000/31/ns-17267.html 
+
+
+ANOTHER MASSIVE NET ATTACK LOOMING? 
+Six months after devastating attacks took down the Web's biggest sites, MSNBC 
+has learned of new evidence that indicates it could easily happen again: A security 
+researcher has found 125,000 networks with the same flaw that allowed the attacks. 
+Link: http://www.net-security.org/cgi-bin/news.cgi?url=http://www.msnbc.com/news/444815.asp 
+
+
+SAFEWAY SHOPPERS HIT BY E-MAIL HOAX 
+Safeway has become the latest company to suffer an Internet security breach 
+when customers were sent an e-mail appearing to come from the supermarket chain 
+advising them to shop elsewhere. Up to 1,000 customers telephoned to complain 
+Saturday after a hacker appeared to have accessed a Safeway database containing 
+details on 25,000 shoppers, The Sunday Times reported. The hoax e-mail - signed 
+"from the Safeway team'' and headed with the company's e-mail address - 
+announced a 25 percent price increase and told customers that if they were 
+unhappy they should shop at rivals Tesco or Sainsbury, the newspaper said. 
+Link: http://www.net-security.org/cgi-bin/news.cgi?url=http://www.mercurycenter.com/svtech/news/breaking/internet/docs/302771l.htm 
+
+
+VERIZON SITE EXPOSED CUSTOMER DATA 
+Verizon Communications had to pull down a new customer service Web site 
+over the weekend when a private researcher discovered a security hole. 
+According to a report by SecurityFocus.com, users could gain access to personal 
+data simply by entering a customers' phone numbers. A Verizon spokesman said 
+few, if any, records were compromised and that the actual exposed information 
+was minimal. 
+Link: http://www.net-security.org/cgi-bin/news.cgi?url=http://www.msnbc.com/news/445991.asp 
+
+
+EDMONTON-BASED SERVICE PROVIDER ATTACKED (DoS) 
+RCMP are working with the FBI to track down computer hackers who overloaded 
+an Edmonton-based Internet service provider yesterday, denying access to some 
+customers. Edmonton RCMP found the "denial of service" attack on OA Group Inc.'s 
+server that barred subscribers from logging on to their Internet accounts originated 
+in Chicago and they were working with the FBI to zero in on the culprit, said RCMP 
+Cpl. Gibson Glavin. 
+Link: http://www.net-security.org/cgi-bin/news.cgi?url=http://www.canoe.ca/TechNews0008/15_hackers.html 
+
+
+NEW ‘LOVE BUG’ TARGETS SWISS BANK 
+The virus, known as “VBS/Loveletter.bd,” is a variant of the original Love Letter 
+virus that circulated in May, and many versions have been created using the original 
+as a template.Computer virus variant steals bank passwords also. 
+Link: http://www.net-security.org/cgi-bin/news.cgi?url=http://www.msnbc.com/news/447320.asp 
+
+
+HACKER DEFACES SITES IN NAPSTER'S NAME 
+Pro-Napster hacker "Pimpshiz" said Wednesday he has exploited a bug in Windows 
+NT to deface five dozen Web sites in the past two weeks, including NASA and the 
+French national library. 
+Link: http://www.net-security.org/cgi-bin/news.cgi?url=http://www.zdnet.com/zdnn/stories/news/0,4586,2616266,00.html 
+
+
+SSH-AGENT - A TUTORIAL 
+"Security is best when it is handy. ssh-agent is pretty darn handy. Ssh-agent can 
+authenticate you to a remote machine via keypairs, rather than the traditional 
+hand-typed username/password combination, with no loss of security." 
+Link: http://www.net-security.org/cgi-bin/news.cgi?url=http://www.deadman.org/ssh-tut.html 
+
+
+CONFIGURE LINUX TO PRESENT PRE-LOGIN SECURITY WARNINGS 
+User ignorance continues to be a thorn in the side of Linux system administrators 
+trying to maintain a secure network. In this article, learn how to configure three 
+distributions, with or without KDE and GNOME, to display pre-login messages via 
+virtual consoles and over the network. 
+Link: http://www.net-security.org/cgi-bin/news.cgi?url=http://www.linuxworld.com/linuxworld/lw-2000-08/lw-08-login.html 
+
+
+CONTEST 
+Attackers may be able to change the NetworkDoc Inc. site, but the only way 
+they'll get their hands on the cash prize is if they can defeat the company's 
+"anti-hacking" software and keep any changes made on the page until the end 
+of a 36-hour period. It's offering to pay them 1 million yen in cash if they can do it. 
+Contributed by Apocalyse Dow. 
+Link: http://www.net-security.org/cgi-bin/news.cgi?url=http://www.mainichi.co..jp/english/news/archive/200008/19/news08.html 
+
+
+UPDATE ON BOHTTPD 
+Alexey Yarovinsky posted a patch for Netscape Communicator Java Security 
+bug (known trought BOHTTPD issue). Also, Deepquest posted that Brown Orifice 
+is patched by Netscape 4.75 that is available on Netscape web site. 
+Link: http://www.net-security.org/cgi-bin/news.cgi?url=http://www.netscape.com/computing/download/index.html 
+
+
+CHARGES DROPPED AGAINST LOVE LETTER CREATOR 
+Prosecutors dismissed all charges filed against a former computer college student 
+accused of having released the "I Love You" computer virus that crippled email 
+systems worldwide. 
+Link: http://www.net-security.org/cgi-bin/news.cgi?url=http://news.cnet.com/news/0-1005-200-2574585.html?tag=st.ne.1430735..ni 
+
+
+---------------------------------------------------------------------------- 
+
+
+
+
+Security issues 
+--------------- 
+
+All vulnerabilities are located at: 
+http://net-security.org/text/bugs 
+
+
+---------------------------------------------------------------------------- 
+
+
+[TRUSTIX SECURE LINUX] PERL AND MAILX 
+We have now made availible updated perl and mailx packages that fix a local 
+security hole. The hole is the same as announced by Red Hat and others earlier. 
+Link: http://www.net-security.org/text/bugs/966786899,47817,.shtml 
+
+
+SOMETHING FOR WINDOWS NT/2000 ADMINISTRATORS 
+While this is not WindowsNT only related list, following relates to any of us, 
+because ignorancy of some webmasters running IIS (Internet Information Server) 
+4.0/5.0 is somehow exceeding acceptable level. 
+Link: http://www.net-security.org/text/bugs/966786981,97960,.shtml 
+
+
+RAPIDSTREAM VPN APPLIANCES ROOT COMPROMISE 
+RapidStream has hard-coded the 'rsadmin' account into the sshd binary in the 
+appliance OS. The account has been given a 'null' password in which password 
+assignment and authentication was expected to be handled by the RapidStream 
+software itself. The vendor failed to realize that arbitrary commands could be 
+appended to the ssh string when connecting to the SSH server on the remote vpn. 
+This in effect could lead to many things, including the ability to spawn a remote 
+root shell on the vpn. 
+Link: http://www.net-security.org/text/bugs/966787075,91011,.shtml 
+
+
+IRIX TELNETD VULNERABILITY 
+We've found a very severe vulnerability in the IRIX telnetd service that upon 
+successful exploitation can give remote root access to any IRIX 6.2-6.5.8[m,f] 
+system. 
+Link: http://www.net-security.org/text/bugs/966787254,79791,.shtml 
+
+
+HOTMAIL/MS INSTANT MESSENGER ISSUE 
+If you use a Hotmail account to log in to Instant Messenger, and your Hotmail 
+account gets cancelled, your contact (or 'buddy') list does not get cleaned. If 
+another person creates a Hotmail account using that name, they will have access 
+to your contact list, and will show up on any contact list you're a part of. 
+Link: http://www.net-security.org/text/bugs/966787305,704,.shtml 
+
+
+[MICROSOFT] "SPECIALIZED HEADER" VULNERABILITY 
+Microsoft has released a patch that eliminates a security vulnerability in 
+Internet Information Server that ships with Microsoft Windows 2000. Under 
+certain conditions, the vulnerability could cause a web server to send the 
+source code of certain types of web files to a visiting user. 
+Link: http://www.net-security.org/text/bugs/966787401,47490,.shtml 
+
+
+WATCHGUARD FIREBOX AUTHENTICATION DOS 
+Tested on the newest version of the Watchguard Firebox II (that was on the 
+22nd of June), but it is very likely that this bug exists in all prior versions that 
+include the authentication service (TCP port 4100). 
+Link: http://www.net-security.org/text/bugs/966787477,32791,.shtml 
+
+
+OS/2 WARP 4.5 FTP SERVER DOS 
+The FTP server that comes with OS/2 Warp 4.5 TCP/IP can be brought down 
+by a malicious connection attempt. 
+Link: http://www.net-security.org/text/bugs/966787531,9223,.shtml 
+
+
+A STATEFUL INSPECTION OF FIREWALL-1 
+At the Black Hat Briefings 2000, we presented an analysis of Check Point 
+FireWall-1 vulnerabilities resulting from protocol design flaws, problems in 
+stateful inspection, common or default misconfigurations, and minor 
+implementation errors discovered over the past few months in the lab, and 
+verified in real-world penetration tests. 
+Link: http://www.net-security.org/text/bugs/966787823,38015,.shtml 
+
+
+IMAIL WEB SERVICE REMOTE DOS ATTACK V.2 
+The following is a simple DoS we found while working on Retina's CHAM 
+(Common Hacking Attack Methods) HTTP auditing module which should be 
+released within the next two weeks within the new Retina 2.5. 
+Link: http://www.net-security.org/text/bugs/966788042,59933,.shtml 
+
+
+---------------------------------------------------------------------------- 
+
+
+
+
+Security world 
+-------------- 
+
+All press releases are located at: 
+http://net-security.org/text/press 
+
+---------------------------------------------------------------------------- 
+
+LOCKSTEP ANNOUNCES NEW U.K. DISTRIBUTOR - [08.08.2000] 
+
+Lockstep Systems, Inc. today announced it has signed an agreement with 
+Brilaw International Ltd. to distribute WebAgain, its patent-pending Windows 
+utility that automatically fixes vandalized web sites.Brilaw International, located 
+in Stockport, England, will offer the WebAgain technology to its clients, providing 
+these companies with web site protection at a reasonable cost and considerable 
+ease of use. WebAgain is designed to solve the problems associated with web 
+site defacement by automating content verification, alteration discovery and the 
+correction process. It can detect any type of alteration, whether obvious or 
+subtle, and correct it without any need for user involvement. 
+
+Press release: 
+< http://www.net-security.org/text/press/965695799,32455,.shtml > 
+
+---------------------------------------------------------------------------- 
+
+ANTIGEN CHOSEN FOR AV PROTECTION BY STATE OF MONTANA - [09.08.2000] 
+
+Sybari Software, Inc., the premier antivirus and security specialist for groupware 
+solutions today announced that Antigen for Microsoft Exchange was chosen to 
+protect the State of Montana's 10,000 Exchange users from the attackof harmful 
+email viruses. "In the three months that we've been running Antigen for Exchange, 
+we've been entirely pleased." said Hunter Coleman, ISD end user support, 
+State of Montana. 
+
+Press release: 
+< http://www.net-security.org/text/press/965772695,58042,.shtml > 
+
+---------------------------------------------------------------------------- 
+
+ISSA SOUTH FLORIDA CHAPTER MEETING - [09.08.2000] 
+
+The South Florida Chapter of the Information Systems Security Association 
+(ISSA) will hold an afternoon seminar on Virtual Private Networks (VPN's) on 
+August 10th in Fort Lauderdale. VPN's allow an organization to take advantage 
+of the Internet's cost savings while maintaining the confidentiality of sensitive 
+information. The seminar runs from 3 to 6 PM and reservations are required. 
+The featured speaker for the seminar is Eric Henriksen, Senior Engineering 
+Manager for Red Creek Communications. He will discuss the landscape of the 
+evolving VPN marketplace, provide an overview of the IPSEC standard, and 
+discuss Red Creek's products. 
+
+Press release: 
+< http://www.net-security.org/text/press/965772851,13027,.shtml > 
+
+---------------------------------------------------------------------------- 
+
+iDEFENSE OFFERS SECURITY EXPERTISE TO BULKREGISTER.COM - [10.08.2000] 
+
+iDEFENSE, a global cyber intelligence and risk management company, announced 
+an exclusive relationship with BulkRegister.com to provide the domain name 
+registrar cyber threat intelligence services as well as security policy and 
+procedure consulting. BulkRegister.com, the leading provider of wholesale domain 
+name registration services, will utilize iDEFENSE to enhance its overall security 
+awareness, both internally and with its rapidly growing client base. 
+
+Press release: 
+< http://www.net-security.org/text/press/965867583,18955,.shtml > 
+
+---------------------------------------------------------------------------- 
+
+HOSTED ANTIVIRUS SERVICES FOR MICROSOFT EXCHANGE - [10.08.2000] 
+
+Trend Micro, Inc. (Nasdaq:TMIC), a leading provider of enterprise antivirus and 
+content security software for the Internet age, and Critical Path Inc., a global 
+provider of advanced Internet messaging solutions, today announced a 
+technology licensing agreement enabling Critical Path to offer its Hosted 
+Exchange customers email virus scanning as a value-added component of its 
+messaging service offering. In addition, both Critical Path and Trend Micro have 
+been working closely with Microsoft to deliver a secure hosted Exchange 2000 
+solution. Trend Micro and Critical Path intend that, as a result of this relationship, 
+organizations will be able to outsource their Exchange and Exchange 2000 
+messaging needs to Critical Path without having to worry about the threat of 
+computer viruses. 
+
+Press release: 
+< http://www.net-security.org/text/press/965867778,24068,.shtml > 
+
+---------------------------------------------------------------------------- 
+
+SONICWALL WINS BLUE RIBBON AWARD - [10.08.2000] 
+
+SonicWALL, Inc., a leading provider of Internet security for broadband access 
+customers, today announced that its SonicWALL SOHO has earned Network 
+World Magazine's highest honor, the Blue Ribbon Award. SonicWALL SOHO 
+provides comprehensive protection from Internet security threats for 
+telecommuters, branch offices and small-office networks using always-on 
+broadband connections such as DSL and cable. SonicWALL SOHO outperformed 
+products from eSoft, Fortress Technologies, Global Technology Associates and 
+WatchGuard. 
+
+Press release: 
+< http://www.net-security.org/text/press/965867936,25567,.shtml > 
+
+---------------------------------------------------------------------------- 
+
+DFI INVESTIGATES BIOMETRICS - [20.08.2000] 
+
+Will biometrics provide the answer to jangling key rings and password lists a 
+page long, or will it pave the way to letting "Big Brother" in at the doorstep? 
+DFI, in conjunction with SwannStreet Ventures analyzes the case for biometrics 
+in the latest report in their emerging technology market series. Biometrics, the 
+use of human physical or behavioral traits for identification, is gaining a high 
+profile as a possible solution for a variety of identification and authentication 
+needs, from computer to security to PIN-less ATMs. Analysts estimate the 
+authentication and biometrics market will grow to more than $4 billion by 2002, 
+from $1.3 billion in 1999. 
+
+Press release: 
+< http://www.net-security.org/text/press/966789752,28760,.shtml > 
+
+---------------------------------------------------------------------------- 
+
+RAINBOW SIGNS NEW AGREEMENT FOR CRYPTOSWIFT - [20.08.2000] 
+
+Rainbow Technologies Inc., a leading provider of high-performance security 
+solutions for the Internet and e-commerce, Friday signed a new OEM agreement 
+to provide high-speed security acceleration for the next-generation Internet and 
+intranet server switches produced by a leading network equipment provider. 
+These network switches are used in a variety of business-to-business (B2B) and 
+business-to-consumer (B2C) e-commerce environments. The initial value of the 
+order is $5 million. 
+
+Press release: 
+< http://www.net-security.org/text/press/966789858,66257,.shtml > 
+
+---------------------------------------------------------------------------- 
+
+
+
+
+Featured articles 
+----------------- 
+
+All articles are located at: 
+http://www.net-security.org/text/articles 
+
+Articles can be contributed to staff@net-security.org 
+
+Listed below are some of the recently added articles. 
+
+---------------------------------------------------------------------------- 
+
+JAY BEALE AND THE BASTILLE LINUX PROJECT by Dave Wreski 
+
+Recently I got an opportunity to speak with Jay Beale, the Lead Developer of 
+the Bastille Project. Jay is the author of several articles on Unix/Linux security, 
+along with the upcoming book "Securing Linux the Bastille Way," to be published 
+by Addison Wesley. At his day job, Jay is a security admin working on Solaris 
+and Linux boxes. 
+
+Article: 
+< http://www.net-security.org/text/articles/lg_5.shtml > 
+
+---------------------------------------------------------------------------- 
+
+AN OVERVIEW OF LINUX MAIL SOFTWARE by Jim Dennis 
+
+There are many packages that can supply standard mail services under Linux. 
+Basically the UNIX/Linux e-mail model involves MTA (mail transport agents), 
+MSA (mail storage/access agents) and MUAs (mail user agents). There are also 
+a variety of utilities that don't really quite fit in any of these categories... 
+
+Article: 
+< http://www.net-security.org/text/articles/lg_6.shtml > 
+
+---------------------------------------------------------------------------- 
+
+YET ANOTHER "LOVELETTER" VARIATION PRETENDS TO BE A RESUME 
+by Kaspersky Lab 
+
+The virus, known under the name "I-Worm.LoveLetter.bd" is found in the wild. 
+To date Kaspersky Lab has received several reports about infections in 
+Switzerland and Russia. The virus uses a well-known psychological trick to make 
+the user open the infected file RESUME.TXT.VBS attached to an e-mail message 
+by offering the opportunity to view the resume of a Swiss Internet company, 
+which is looking for an Internet programmer. 
+
+Article: 
+< http://www.net-security.org/text/articles/viruses/resume.shtml > 
+
+---------------------------------------------------------------------------- 
+
+
+
+
+Featured books 
+---------------- 
+
+The HNS bookstore is located at: 
+http://net-security.org/various/bookstore 
+
+Suggestions for books to be included into our bookstore 
+can be sent to staff@net-security.org 
+
+---------------------------------------------------------------------------- 
+
+THE ART OF INFORMATION WARFARE: INSIGHT INTO THE KNOWLEDGE 
+WARRIOR PHILOSOPHY 
+
+Information is a two edged sword that can both help and hinder modern society. 
+The Art of Information Warfare is the first common-sense primer on the subject 
+written for those interested in or requiring a practical orientation to the threats 
+and issues associated with today's Information Society from military, corporate, 
+and technical perspectives. Unlike many other publications and reports on the 
+subject, The Art of Information Warfare is written in plain, simple English and 
+avoids sensationalizing an already "hot" topic in the media today by accurately 
+presenting the facts and issues that affect everyone... not just the technoratti 
+or power users. 
+
+Book: 
+< http://www.amazon.com/exec/obidos/ASIN/1581128576/netsecurity > 
+
+---------------------------------------------------------------------------- 
+
+DATABASE: PRINCIPLES, PROGRAMMING, AND PERFORMANCE, SECOND EDITION 
+
+A standard text for database designers and programmers, Database: Principles, 
+Programming, and Performance is out in a new edition. This latest version of the 
+detailed work of the O'Neils includes a new chapter on Object-Relational SQL 
+and its implementations in Oracle and Informix products. On top of that, the 
+authors have revised their chapters on basic and advanced SQL, and added 
+product-specific details (particularly having to do with Oracle, Informix, and I 
+BM DB2 database products) to most areas of their coverage. As a result of 
+these revisions, this book does a great job of balancing academic material 
+with practical examples. 
+
+Book: 
+< http://www.amazon.com/exec/obidos/ASIN/1558604383/netsecurity > 
+
+---------------------------------------------------------------------------- 
+
+MCSE WINDOWS 2000 ACCELERATED STUDY GUIDE EXAM 70-240 
+(WINDOWS 2000 CERTIFICATION) 
+
+Provides detailed coverage of all the technical objectives require to pass the 
+Microsoft approved 2000 exam for current NT 4.0 MCSEs. Network Professionals 
+learn installing, configuring, and troubleshooting techniques. Increased annotated 
+visual screen shots, line art illustrates critical study points, photographs describe 
+complex points. CD-ROM contains tons of video clips for easier learning, Skill 
+Builder Software with more than 300 knowledge and scenario-based TEST 
+YOURSELF Personal Testing Center questions, simulation exam that completely 
+look and feel like the real exam. 
+
+Book: 
+< http://www.amazon.com/exec/obidos/ASIN/0072125004/netsecurity > 
+
+---------------------------------------------------------------------------- 
+
+WINDOWS 2000 ACTIVE DIRECTORY 
+
+A typical section has to do with Replication Monitor, a diagnostic and observation 
+program that's part of the Windows 2000 Resource Kit. In this section, the 
+author first provides a quick statement of where Replication Monitor is and what 
+it does, then gives steps for using it. The author then goes through options - 
+synchronizing with a replication partner, checking Update Sequence Number 
+(USN), and so on - before listing a replication log and commenting a bit on it. 
+He repeats the strategy for scores of other features, capabilities, and utilities, 
+the result being a detailed document that assumes little on the part of the 
+reader. Topics covered: An overview of Active Directory's purpose and 
+architecture, followed by detailed guides to each of its features and capabilities. 
+Coverage deals with replication, security, users and groups, and systems 
+administration issues, such as installation. 
+
+Book: 
+< http://www.amazon.com/exec/obidos/ASIN/0072123230/netsecurity > 
+
+---------------------------------------------------------------------------- 
+
+WINDOWS 2000 MAC SUPPORT LITTLE BLACK BOOK 
+
+When Windows people write about networking their computers, they often 
+forget the Macintosh entirely or relegate Mac connectivity to an afterthought 
+chapter. Not only is Windows 2000 Mac Support Little Black Book dedicated to 
+the issue of interoperability between Windows and the Mac, but it addresses 
+the connectivity problem from both ends of the wire. Gene Steinberg and Pieter 
+Paulson go into detail on what needs to be done to your Macs, as well as your 
+Windows NT 4 and Windows 2000 boxes, in order to bring about file sharing, 
+printer sharing, cross-platform database access, and application sharing. It's a 
+complete and carefully researched statement of configuration strategies, and 
+perfect for advertising houses, Web development shops, and other environments 
+in which large parts of the staff use the Mac. 
+
+Book: 
+< http://www.amazon.com/exec/obidos/ASIN/1576103889/netsecurity > 
+
+---------------------------------------------------------------------------- 
+
+WINDOWS NT/2000 THIN CLIENT SOLUTIONS: IMPLEMENTING TERMINAL 
+SERVICES AND CITRIX METAFRAME 
+
+Windows NT, Terminal Server Edition is an extension to NT Server that allows 
+applications to run one centralized location while being presented on multiple 
+client devices. Designed to decrease total cost of ownership, when used in 
+conjunction with Citrix's MetaFrame product. TSE has also resulted in dramatic 
+(500% or more) performance increase in standard NT administration tools and 
+some database applications. A new edition is necessary to document this new 
+functionality, and also the challenges that system architects will have to address 
+as they design their W2K networks and then transition from Windows NT to W2K. 
+This edition follows the organization of the previous edition, but includes changes 
+to discussions affected by W2K's release, including coverage of scalability and 
+security. 
+
+Book: 
+< http://www.amazon.com/exec/obidos/ASIN/1578702399/netsecurity > 
+
+---------------------------------------------------------------------------- 
+
+
+
+
+Defaced archives 
+------------------------ 
+
+[06.08.2000] - Odeon Networking 
+Original: http://odeon.net/ 
+Defaced: http://www.attrition.org/mirror/attrition/2000/08/06/odeon.net/ 
+
+[06.08.2000] - Malaysian Housing and Development Commission 
+Original: http://hdc.gov.my/ 
+Defaced: http://www.attrition.org/mirror/attrition/2000/08/06/hdc.gov.my/ 
+
+[06.08.2000] - The Korean Society of Pathologists 
+Original: http://www.pathology.or.kr/ 
+Defaced: http://www.attrition.org/mirror/attrition/2000/08/06/www.pathology.or.kr/ 
+
+[06.08.2000] - Internet Business Ireland 
+Original: http://feynman.ibi.ie/ 
+Defaced: http://www.attrition.org/mirror/attrition/2000/08/06/feynman.ibi.ie/ 
+
+[06.08.2000] - World Wide Web Associates 
+Original: http://www.wwwa.com/ 
+Defaced: http://www.attrition.org/mirror/attrition/2000/08/06/www.wwwa.com/ 
+
+[07.08.2000] - Instituto Nacional de Investigación y Capacitación de Telecomunicaciones 
+Original: http://dep.inictel.gob.pe/ 
+Defaced: http://www.attrition.org/mirror/attrition/2000/08/07/dep.inictel.gob.pe/ 
+
+[07.08.2000] - Deesan Infotech 
+Original: http://www.deesan.com/ 
+Defaced: http://www.attrition.org/mirror/attrition/2000/08/07/www.deesan.com/ 
+
+[07.08.2000] - Centrum pro Demokracii a Svobodne Podnikani 
+Original: http://www.cdfe.cz/ 
+Defaced: http://www.attrition.org/mirror/attrition/2000/08/07/www.cdfe.cz/ 
+
+[08.08.2000] - CERN - European Laboratory for Particle Physics 
+Original: http://vsnhd1.cern.ch/ 
+Defaced: http://www.attrition.org/mirror/attrition/2000/08/08/vsnhd1.cern.ch/ 
+
+[09.08.2000] - Involved ISP 
+Original: http://www.involved.com/ 
+Defaced: http://www.attrition.org/mirror/attrition/2000/08/09/www.involved.com/ 
+
+[09.08.2000] - National Library of Medicine SIS5 Server, NIH 
+Original: http://sis5.nlm.nih.gov/ 
+Defaced: http://www.attrition.org/mirror/attrition/2000/08/09/sis5.nlm.nih.gov/ 
+
+[09.08.2000] - Application Design Consultants 
+Original: http://www.appdc.com/ 
+Defaced: http://www.attrition.org/mirror/attrition/2000/08/09/www.appdc.com/ 
+
+[11.08.2000] - @!#$ Microsoft 
+Original: http://www.fuckmicrosoft.net/ 
+Defaced: http://www.attrition.org/mirror/attrition/2000/08/11/www.fuckmicrosoft.net/ 
+
+[11.08.2000] - Global Aviation India 
+Original: http://www.globalaviationindia.com/ 
+Defaced: http://www.attrition.org/mirror/attrition/2000/08/11/www.globalaviationindia.com/ 
+
+[13.08.2000] - Armenian Drug and Medical Technology Agency 
+Original: http://www.pharm.am/ 
+Defaced: http://www.attrition.org/mirror/attrition/2000/08/13/www.pharm.am/ 
+
+[14.08.2000] - US Office of Surface Mining 
+Original: http://cdrnet.osmre.gov/ 
+Defaced: http://www.attrition.org/mirror/attrition/2000/08/14/cdrnet.osmre.gov/ 
+
+[14.08.2000] - Mitsubishi Electric Automation, Inc. 
+Original: http://www.meau.com/ 
+Defaced: http://www.attrition.org/mirror/attrition/2000/08/14/www.meau.com/ 
+
+[14.08.2000] - U.S. Mobile Services Inc. 
+Original: http://www.usmobile.com/ 
+Defaced: http://www.attrition.org/mirror/attrition/2000/08/14/www.usmobile.com/ 
+
+[15.08.2000] - Honda (UK) 
+Original: http://www.honda.co.uk/ 
+Defaced: http://www.attrition.org/mirror/attrition/2000/08/15/www.honda.co.uk/ 
+
+[16.08.2000] - Comision Nacional de Bancos y Seguros 
+Original: http://www.cnbs.gov.hn/ 
+Defaced: http://www.attrition.org/mirror/attrition/2000/08/16/www.cnbs.gov.hn/ 
+
+[17.08.2000] - Inside AOL, ill-networking 
+Original: http://www.inside-aol.com/ 
+Defaced: http://www.attrition.org/mirror/attrition/2000/08/17/www.inside-aol.com/ 
+
+[17.08.2000] - Indiana State Government 
+Original: http://lotus.doe.state.in.us/ 
+Defaced: http://www.attrition.org/mirror/attrition/2000/08/18/lotus.doe.state.in.us/ 
+
+[18.08.2000] - Indiana State Government 
+Original: http://lotus.doe.state.in.us/ 
+Defaced: http://www.attrition.org/mirror/attrition/2000/08/18/lotus.doe.state.in.us/ 
+
+[19.08.2000] - www.nasjax.navy.mil 
+Original: http://www.nasjax.navy.mil/ 
+Defaced: http://www.attrition.org/mirror/attrition/2000/08/19/www.nasjax.navy.mil/ 
+
+[19.08.2000] - Commonwealth Telecommunications Organisation 
+Original: http://www.cto.int/ 
+Defaced: http://www.attrition.org/mirror/attrition/2000/08/19/www.cto.int/ 
+
+[19.08.2000] - www.pravos.hr 
+Original: http://www.pravos.hr/ 
+Defaced: http://www.attrition.org/mirror/attrition/2000/08/19/www.pravos.hr/ 
+
+[20.08.2000] - toyota.gsfc.nasa.gov/ 
+Original: http://toyota.gsfc.nasa.gov/ 
+Defaced: http://www.attrition.org/mirror/attrition/2000/08/20/toyota.gsfc.nasa.gov/ 
+
+---------------------------------------------------------------------------- 
+
+
+
+Questions, contributions, comments or ideas go to: 
+
+Help Net Security staff 
+staff@net-security.org 
+http://net-security.org

@@ -1,0 +1,641 @@
+Net-Sec newsletter 
+Issue 25 - 07.08.2000 
+http://net-security.org 
+
+Net-Sec is a newsletter delivered to you by Help Net Security. It covers weekly 
+roundups of security events that were in the news the past week. 
+Visit Help Net Security for the latest security news - http://www.net-security.org. 
+
+
+Subscribe to this weekly digest on: 
+http://www.net-security.org/text/newsletter 
+
+Table of contents: 
+
+1) General security news 
+2) Security issues 
+3) Security world 
+4) Featured articles 
+5) Security books 
+6) Defaced archives 
+
+
+
+============================================================ 
+Sponsored by VeriSign - The Internet Trust Company 
+============================================================ 
+Which security solution is right for your Web site? Before 
+you decide, request your FREE guide, "Securing Your Web Site 
+For Business," to learn the facts. 
+
+In the guide, find solutions for: 
+* Encrypting online transactions 
+* Securing corporate intranets 
+* Authenticating your Web site 
+
+Get your FREE guide today at: 
+http://www.verisign.com/cgi-bin/go.cgi?a=n042410570013000 
+============================================================ 
+
+
+
+
+General security news 
+--------------------- 
+
+
+---------------------------------------------------------------------------- 
+
+BARCLAYS SLAMMED OVER INTERNET SECURITY FLAW 
+Barclays came under fire from customers and consumer groups today after a 
+security breach exposed confidential account details. The bank was forced to 
+shut down its online banking service yesterday evening after a Saturday night 
+upgrade to the online transaction software left user data accessible to other 
+account holders. 
+Link: http://www.uk.internet.com/Article/100360 
+
+
+NORTON PATCHES FIREWALL HOLES 
+Symantec has quietly modified its Norton Personal Firewall and Norton Internet 
+Security 2000 products to block advertising programs that are sometimes dubbed 
+"spyware." The programs, called adbots, fetch banner ads over the Internet, but 
+they also transmit encrypted data about the user back to the advertising 
+companies. This function has earned them the "spyware" label among privacy 
+and security advocates. 
+Link: http://www.pcworld.com/pcwtoday/article/0,1510,17880,00.html 
+
+
+250 LINUX SERVERS INFECTED 
+Some 250 Linux servers were found to have been infected with a program used 
+in denial of service attacks, raising serious security concerns with the popular 
+open source code servers. 
+Link: http://www.koreaherald.co.kr/news/2000/08/__10/20000801_1026.htm 
+
+
+STOP CARNIVORE WEB SITE LAUNCHED 
+A new site devoted to shutting down the FBI's Carnivore email surveillance system 
+has launched - "Stop Carnivore". The site explains what Carnivore is, why it is 
+wrong, what you can do, and how it hurts the Internet. 
+Link: http://cipherwar.com/news/00/stop_carnivore.htm 
+
+
+SNOOPING IN NETHERLANDS 
+Dutch newspaper De Volkskrant said Monday that the Internal Security Service 
+(Binnenlandse Veiligheidsdienst) had monitored e-mail messages between an 
+unnamed Dutch software company and an Iranian customer. 
+Link: http://www.infoworld.com/articles/hn/xml/00/08/01/000801hndutch.xml 
+
+
+LINUXSECURITY.COM WINS SOURCE OF THE MONTH FOR JULY 
+"This month's LinuxLock.Org Security Source of the Month goes to a group of 
+individuals dedicated to bringing security to the fore-front of the linux 
+community; this is the staff of LinuxSecurity.Com. Since we started following 
+the site in January 2000, it has evolved into one of the internet's premiere 
+sources of Linux Security Information." 
+Link: http://www.linuxlock.org/features/somjuly00.html 
+
+
+BARCLAYS, AGAIN 
+Troubled online bank Barclays admitted to another security blunder that again 
+led to Internet accounts being compromised. 
+Link: http://www.zdnet.co.uk/news/2000/30/ns-17040.html 
+
+
+STEALING DATA FROM LOS ALAMOS 
+Hackers suspected of working for a Chinese government institute in Beijing 
+broke into a computer system at Los Alamos National Laboratory and pilfered 
+large amounts of sensitive information, including documents containing the 
+word "nuclear," The Washington Times has learned. 
+Link: http://www.washingtontimes.com/national/default-20008321179.htm 
+
+
+MYANMAR MILITARY SITE DEFACED 
+Myanmar telecommunications engineers were trying Thursday to restore the 
+military government’s Web site after hackers shut it down, a military 
+intelligence officer said. 
+Link: http://www.msnbc.com/news/441508.asp?cp1=1 
+
+
+"MAFIABOY" FACES 64 NEW CHARGES 
+A Canadian youth pleads innocent to accusations that he orchestrated denial 
+of service attacks on Yahoo!, eBay and other high-profile Web sites. 
+Link: http://www.zdnet.com/zdnn/stories/news/0,4586,2611672,00.html 
+
+
+AOL HIT WITH CREDIT CARD SCAM 
+According to an AOL member who contacted CNET News.com, over the past 
+24 hours some AOL Instant Messenger subscribers have received a message 
+informing them of credit card problems. The scam directs members to a site 
+on AOL's Hometown service, a personal Web site builder, and requests credit 
+card information to update customer records. 
+Link: http://news.cnet.com/news/0-1005-200-2435585.html 
+
+
+BROWN ORIFICE SECURITY HOLE 
+From Dan Brumleve homepage - "I've discovered a pair of new capbilities in 
+Java, one residing in the Java core and the other in Netscape's Java distribution. 
+The first (exploited in BOServerSocket and BOSocket) allows Java to open a 
+server which can be accessed by arbitrary clients. The second (BOURLConnection 
+and BOURLInputStream) allows Java to access arbitrary URLs, including local files. 
+As a demonstration, I've written Brown Orifice HTTPD for Netscape Communicator. 
+BOHTTPD is a browser-resident web server and file-sharing tool that demonstrates 
+these two problems in Netscape Communicator. BOHTTPD will serve files from a 
+directory of your choice, and will also act as an HTTP/FTP proxy server." 
+Link: http://www.brumleve.com/BrownOrifice/BOHTTPD.cgi 
+
+
+EXCITE@HOME IP FLAW EXPOSED 
+Excite@Home has warned it will take action against anybody who attempts utilise 
+an IP vulnerability that allows a single user to block up to 127 IP addresses, 
+effectively shutting people out of the service. 
+Contributed by Apocalyse Dow. 
+Link: http://www.zdnet.com.au/zdnn/stories/zdnn_display/au0004627.html 
+
+
+ICAT - SEARCHABLE INDEX OF SECURITY ISSUES 
+The U.S. government has created a searchable index of computer 
+vulnerabilities called ICAT. ICAT links users into a variety of publicly available 
+vulnerability databases and patch sites, thus enabling one to find and fix the 
+vulnerabilities existing on their systems 
+Link: http://csrc.nist.gov/icat 
+
+---------------------------------------------------------------------------- 
+
+
+
+
+Security issues 
+--------------- 
+
+All vulnerabilities are located at: 
+http://net-security.org/text/bugs 
+
+
+---------------------------------------------------------------------------- 
+
+
+[MANDRAKE LINUX] PAM UPDATE 
+There is a problem with the pam_console module that incorrectly identifies 
+remote X logins for displays other than :0 (for example, :1, :2, etc.) as being 
+local displays, thus giving control of the console to the remote user 
+Link: http://www.net-security.org/text/bugs/965226007,4809,.shtml 
+
+
+[MANDRAKE LINUX] KON2 UPDATE 
+There is a vulnerable suid program called fld. This program accepts option input 
+from a text file and it is possible to input arbitrary code into the stack, thus 
+spawning a root shell. 
+Link: http://www.net-security.org/text/bugs/965226086,20677,.shtml 
+
+
+[TURBOLINUX] CVSWEB-1.90 UPDATE 
+A security hole was discovered in the cvsweb-1.90 package. Current and 
+previous version of cvsweb allow remote users to access/write files as the 
+default web user via the cvsweb.cgi script. 
+Link: http://www.net-security.org/text/bugs/965226233,73749,.shtml 
+
+
+MS WINDOWS 2000 PIPE IMPERSONATION VULNERABILITY 
+A vulnerability in the way Windows 2000 handles named pipes allows any 
+non-privileged user to elevate his or her current security context to that of 
+an arbitrary service (started by the service control manager). By exploiting 
+this bug, a non-privileged local user can gain privileged access to the system. 
+Link: http://www.net-security.org/text/bugs/965262176,1136,.shtml 
+
+
+MS WINDOWS 2000 PIPE IMPERSONATION VULNERABILITY PATCHED 
+Microsoft has released a patch that eliminates a security vulnerability in 
+Microsoft Windows 2000. The vulnerability could allow a user logged onto a 
+Windows 2000 machine from the keyboard to become an administrator on the 
+machine. 
+Link: http://www.net-security.org/text/bugs/965262270,2600,.shtml 
+
+
+CISCO SECURITY ADVISORY - GIGABIT SWITCH ROUTER 
+A defect in Cisco IOS(tm) Software running on all models of Gigabit Switch 
+Routers (GSRs) configured with Gigabit Ethernet or Fast Ethernet cards may 
+cause packets to be forwarded without correctly evaluating configured access 
+control lists (ACLs). In addition to circumventing the access control lists, it is 
+possible to stop an interface from forwarding any packets, thus causing a 
+denial of service. 
+Link: http://www.net-security.org/text/bugs/965352730,637,.shtml 
+
+
+FTP SERV-U 2.5E VULNERABILITY 
+Sending FTP Serv-U a string containing a large number of null bytes will cause 
+it to stack fault. The system Serv-U is running on may become sluggish/unstable 
+and eventually bluescreen. A valid user/pass combination is not required to take 
+advantage of this vulnerability. 
+Link: http://www.net-security.org/text/bugs/965608002,70838,.shtml 
+
+
+---------------------------------------------------------------------------- 
+
+
+
+
+Security world 
+-------------- 
+
+All press releases are located at: 
+http://net-security.org/text/press 
+
+---------------------------------------------------------------------------- 
+
+CYBERCASH PROVIDES ONLIONE FRAUD DETECTION SERVICES - [02.08.2000] 
+
+CyberCash, Inc., the world's leading provider of electronic payment technologies 
+and services, announced it will offer integrated online payment and fraud 
+detection support for Microsoft Commerce Server 2000. Merchants who use 
+Microsoft's Commerce Server 2000 to create Internet storefronts will be able to 
+easily configure their storefronts with real-time payment processing and 
+CyberCash's new Internet fraud detection service by simply installing CyberCash's 
+components. 
+
+Press release: 
+< http://www.net-security.org/text/press/965182044,72105,.shtml > 
+
+---------------------------------------------------------------------------- 
+CERTIFICATES IN WEBTRENDS ENHANCED LOG FORMAT PROGRAM - [02.08.2000] 
+
+Further enhancing its position as the standard in eBusiness Systems management 
+and reporting solutions, WebTrends Corporation announced that 12 leading firewall 
+vendors have been certified in the WebTrends Enhanced Log Format program, 
+ensuring that their firewall products are compatible with WebTrends Firewall 
+Suite 3.0. Released today, Firewall Suite 3.0 manages, monitors and reports on 
+irewall activity, alerting IT and security managers to issues with incoming and 
+outgoing activity, protocol usage, security problems, employee Internet activity 
+and bandwidth consumption. 
+
+Press release: 
+< http://www.net-security.org/text/press/965182212,13233,.shtml > 
+
+---------------------------------------------------------------------------- 
+
+BINDVIEW'S BV-CONTROL SELECTED BY BUY.COM - [02.08.2000] 
+
+BindView Corporation, a provider of IT risk management solutions, announced 
+that Internet retailer buy.com has selected BindView's bv-Control for Windows 
+2000 software to provide further security for its Web servers. The Internet 
+superstore will use bv-Control to administer and secure their Windows 
+enterprise. bv-Control is an administration and security management solution 
+that pinpoints and corrects risks to the safety and integrity of a network. 
+BindView's relationship with buy.com further establishes the company's 
+expertise in working with dot com companies to provide IT risk management 
+solutions. 
+
+Press release: 
+< http://www.net-security.org/text/press/965182290,73090,.shtml > 
+
+---------------------------------------------------------------------------- 
+
+NETWORK-1 SECURITY SOLUTIONS SELECTED BY BMC - [02.08.2000] 
+
+Network-1 Security Solutions, Inc., a leader in distributed intrusion prevention 
+solutions for e-Business networks, today announced the signing of an 
+enterprise-wide site license agreement with BMC Software, Inc., the leading 
+provider of e-Business systems management. The agreement enables BMC 
+Software to deploy Network-1's unique CyberwallPLUS-WS software - a 
+distributed, workstation-resident firewall and intrusion prevention product - on 
+all of its enterprise users' Windows NT/2000 computers. This will provide BMC 
+Software's employees with protection against hacking and unauthorized 
+network intrusions. 
+
+Press release: 
+< http://www.net-security.org/text/press/965182394,59788,.shtml > 
+
+---------------------------------------------------------------------------- 
+
+NEW ABILITIES IN CHECK POINT REALSECURE 5.0 - [02.08.2000] 
+
+Check Point Software Technologies Ltd., the worldwide leader in securing the 
+Internet, and Internet Security Systems, a leading provider of security 
+management solutions for the Internet, introduced the next level in advanced 
+network intrusion detection capabilities with Check Point RealSecure 5.0. 
+The new version of Check Point RealSecure includes: 
+- X-Press Updates for real-time notification of newly identified cyber attack 
+signatures, including the over 500 attack signatures already cataloged in Check 
+Point RealSecure 5.0 
+- The ability to reassemble fragmented packets to provide defense against 
+attackers using split up attack signatures 
+- New detection logic to improve performance and greatly reduce the number of 
+"false positives," or legitimate network traffic that is misdiagnosed as an attack. 
+
+Press release: 
+< http://www.net-security.org/text/press/965182530,80729,.shtml > 
+
+---------------------------------------------------------------------------- 
+
+FREE INTRODUCTORY OFFER BY IVERIFY.COM - [03.08.2000] 
+
+iVerify.com launches its verified Internet identification service, iV-Caller, with a 
+free introductory offer to companies who agree to try the service for three 
+months. Trial offer winners will receive customization, turnkey installation and up 
+to 1000 free verifications. Insuring that web users provide a valid phone number 
+where they can actually be reached, iV-Caller is an Internet application and 
+service that incorporates quickly and easily into virtually any web site. IV-Caller 
+can be used in an endless variety of web scenarios including the verification of 
+credit card purchases, auction buyers and sellers, sales leads, e-groups, chat 
+rooms and much more. 
+
+Press release: 
+< http://www.net-security.org/text/press/965310705,2208,.shtml > 
+
+---------------------------------------------------------------------------- 
+
+EVIRUS BUYS 51% IN VIRTUAL AIR-GAP TECHNOLOGY - [03.08.2000] 
+
+eVirus announces that it has completed the acquisition of a 51% interest in 
+CIPLOCKS Inc., a Canadian computer security company. The acquisition gives 
+eVirus exclusive rights to CIPLOCKS' revolutionary computer security technology. 
+CIPLOCKS Inc. has created an innovative 'anti-hacking' software architecture 
+known as Virtual Air-Gap Technology that is a means of keeping computers 
+secure from Internet based attacks by controlling the link to the outside world. 
+
+Press release: 
+< http://www.net-security.org/text/press/965310780,25330,.shtml > 
+
+---------------------------------------------------------------------------- 
+
+CYLINK AND METRICOM TEAM FOR WIRELESS SECURITY - [03.08.2000] 
+
+Cylink Corporation today announced that it will participate in Metricom's Alliance 
+Partner Program and is planning to provide its security solution for resale through 
+Ricochet Authorized Service Providers. By combining Metricom's Ricochet 
+technology and Cylink's award-winning PrivateWire software, customers can 
+receive a fast, easy-to-use mobile access solution that incorporates strong 
+encryption, authentication and auditing capabilities to prevent unauthorized 
+access to applications that are used during wireless-to-Internet communications. 
+
+Press release: 
+< http://www.net-security.org/text/press/965310833,49198,.shtml > 
+
+---------------------------------------------------------------------------- 
+
+PENTASAFE ACQUIRES BRAINTREE SECURITY SOFTWARE - [03.08.2000] 
+
+PentaSafe Security Technologies, Inc., a leading developer of IT auditing 
+and security software, today announced that it has acquired privately held 
+BrainTree Security Software. BrainTree Security Software is a leading 
+international developer of Oracle , Sybase, and SQL Server database security 
+software solutions. This acquisition supports PentaSafe's strategy to offer its 
+customers a broad portfolio of security solutions across all facets of their IT 
+operations. 
+
+Press release: 
+< http://www.net-security.org/text/press/965312120,48220,.shtml > 
+
+---------------------------------------------------------------------------- 
+
+
+
+Featured articles 
+----------------- 
+
+All articles are located at: 
+http://www.net-security.org/text/articles 
+
+Articles can be contributed to staff@net-security.org 
+
+Listed below are some of the recently added articles. 
+
+---------------------------------------------------------------------------- 
+
+INTERVIEW WITH LANCE BROWN 
+
+Lance Brown is the creator of StopCarnivore.org. Already a veteran political 
+activist at age 27, Mr. Brown plans a life of dedicated service to the causes of 
+freedom. Among other things he is Candidate for President (of the U.S.) in 2008. 
+
+Article: 
+< http://www.net-security.org/text/articles/interviews/lance.shtml > 
+
+---------------------------------------------------------------------------- 
+
+MOBILE PHONES HAVE BECOME THE NEW TARGET FOR VIRUS WRITERS 
+
+In the past few months, mobile phones and their users have had increasing 
+attention paid to them by virus writers who have found a new playground in 
+which they can cause chaos. 
+
+Article: 
+< http://www.net-security.org/text/articles/viruses/mobile.shtml > 
+
+---------------------------------------------------------------------------- 
+
+SMART DOWNLOAD IS SPYWARE 
+
+"Unbeknownst to the members of the Class, and without their authorization, 
+defendants have been spying on their Internet activities." Mr. Joshua Rubin of 
+ABBEY, GARDY & SQUITIERI, LLP, who is representing Christophter Specht and 
+others in a privacy related case against Netscape Communications Corporation 
+and AOL, sent us copy of the Amended Complaint. According to Reuters article, 
+AOL plans to remove a feature in its SmartDownload product that can be 
+categorized as spyware. 
+
+Article: 
+< http://www.net-security.org/text/articles/netscapeaol.shtml > 
+
+---------------------------------------------------------------------------- 
+
+
+
+
+Featured books 
+---------------- 
+
+The HNS bookstore is located at: 
+http://net-security.org/various/bookstore 
+
+Suggestions for books to be included into our bookstore 
+can be sent to staff@net-security.org 
+
+---------------------------------------------------------------------------- 
+
+E-COMMERCE SECURITY : WEAK LINKS, BEST DEFENSES 
+
+Online security investigator and research scientist Anup Ghosh takes a realistic 
+look at the state of security for electronic commerce. He feels that some levels 
+of security are excessive. But he emphasizes that any security system is only 
+as strong as its weakest point. If you're going to trust your money to online 
+transactions, you need to know where your weaknesses lie and how to correct 
+them. To that end, Ghosh discusses real-life security failures, how they occurred, 
+and how recurrences can be prevented. He then takes a systematic look at the 
+areas of risk. One chapter deals with potential problems in active Web content, 
+such as Java applets, ActiveX controls, and push technology. He examines data 
+protocols to secure transactions with the warning that the data can be 
+vulnerable before and after the secure transmission. The weaknesses of server 
+hardware and software come under scrutiny as well. Ghosh calls for greater 
+attention to security as software is being developed and looks at what 
+advances are likely to be coming down the road. 
+
+Book: 
+< http://www.amazon.com/exec/obidos/ASIN/0471192236/netsecurity > 
+
+---------------------------------------------------------------------------- 
+
+HACK PROOFING YOUR NETWORK: INTERNET TRADECRAFT 
+
+Systems and software packages are being connected to the internet at an 
+astounding rate. Many of these systems and packages were not designed with 
+security in mind. IT professionals need to keep their systems secure: this book 
+shows them how to make a meaningful security assessment of their own 
+systems, by thinking like a hacker. Using forensics-based analysis this book 
+gives the reader insight to the mind of a hacker. About the Author - Ryan 
+Russell is MIS Manager at SecurityFocus.com. He has served as an expert 
+witness on security topics and has done internal security investigation for a 
+major software vendor. Ryan has contributed to three Syngress Media books, 
+on networking topics. He has a degree in computer science from San Francisco 
+State University. 
+
+Book: 
+< http://www.amazon.com/exec/obidos/ASIN/1928994156/netsecurity > 
+
+---------------------------------------------------------------------------- 
+
+INTRUSION DETECTION: AN INTRODUCTION TO INTERNET SURVEILLANCE, 
+CORRELATION, TRACE BACK, TRAPS, AND RESPONSE 
+
+The book presents the details and methodologies associated with intrusion 
+detection technology to control cracking activity on the Internet. Topics 
+include commercial tools, strategies for processing security audit trails, 
+correlation techniques and algorithms, intruder trace back techniques, 
+deception-based honey pots and traps, and incident response and disaster 
+recovery. 
+
+Book: 
+< http://www.amazon.com/exec/obidos/ASIN/0966670078/netsecurity > 
+
+---------------------------------------------------------------------------- 
+
+IPSEC: THE NEW SECURITY STANDARD FOR THE INTER- NET, INTRANETS, 
+AND VIRTUAL PRIVATE NETWORKS 
+
+Authors Doraswamy and Harkins first treat IPSec as a system, explaining how 
+its component parts work together to provide flexible security. Their approach 
+to this task makes sense: They first explain why standard IP packets aren't 
+secure; then they show how the IPSec improvements make secure transactions 
+possible. Readers get full descriptions of how various network entities talk to 
+one another. Where appropriate, concepts that aren't specific to IPSec are 
+explained, including IPv4 and IPv6 packet structures and addressing schemes. 
+There's some information on cryptography too. IPSec's parts are explained 
+individually: the Authentication Header (AH), Encapsulating Security Payload 
+(ESP), Internet Key Exchange (IKE), and ISAKMP/Oakley protocols are detailed 
+with lots of prose, supplemented with a smattering of packet diagrams and 
+conceptual sketches. Sections on implementing IPSec protocols on networks 
+remain fairly abstract and don't mention actual products, but should prove 
+useful to programmers designing their own network security products around 
+the IPSec specifications. 
+
+Book: 
+< http://www.amazon.com/exec/obidos/ASIN/0130118982/netsecurity > 
+
+---------------------------------------------------------------------------- 
+
+PROGRAMMING WINDOWS SECURITY 
+
+Topics covered include: COM(+) security, from the ground up IIS security How 
+the file system redirector works and why developers should care The RPC 
+security model Kerberos, NTLM, and SSL authentication protocols and SSPI 
+Services and the Trusted Computing Base Logon sessions and tokens Window 
+stations, desktops, and user profiles The Windows 2000 ACL model, including 
+the new model of inheritance Using private security descriptors to secure 
+objects Accounts, groups, aliases, privileges, and passwords Comparison of 
+three strategies for performing access control - impersonation, role-centric, 
+and object-centric - and their impact on the design of a distributed application 
+Programming Windows Security provides the most comprehensive coverage of 
+COM(+) security available in one place, culled from the author's extensive 
+experience in diagnosing COM security problems in the lab and via 
+correspondence on the DCOM mailing list. 
+
+Book: 
+< http://www.amazon.com/exec/obidos/ASIN/0201604426/netsecurity > 
+
+---------------------------------------------------------------------------- 
+
+PROTECTING NETWORKS WITH SATAN 
+
+This book describes how to install & use SATAN & how to extend its modular 
+structure to adapt it to local requirements & increase its knowledge of specific 
+security vulnerabilities. It further discusses how you can defend your site 
+against potential abuse by SATAN by configuring your computers to detect 
+when a potential intruder employs the program against your host & network. 
+
+Book: 
+< http://www.amazon.com/exec/obidos/ASIN/1565924258/netsecurity > 
+
+---------------------------------------------------------------------------- 
+
+
+
+Defaced archives 
+------------------------ 
+
+[01.8.2000] - The Free Matrix Network 
+Original: http://www.freematrix.net/ 
+Defaced: http://www.attrition.org/mirror/attrition/2000/08/01/www.freematrix.net/ 
+
+[01.08.2000] - Renault do Brasil S/A 
+Original: http://www.renault.com.br/ 
+Defaced: http://www.attrition.org/mirror/attrition/2000/08/01/www.renault.com.br/ 
+
+[01.08.2000] - Continente 
+Original: http://www.continente.pt/ 
+Defaced: http://www.attrition.org/mirror/attrition/2000/08/01/www.continente.pt/ 
+
+[01.08.2000] - UNIQCOM 
+Original: http://www.myanmar.com/ 
+Defaced: http://www.attrition.org/mirror/attrition/2000/08/01/www.myanmar.com/ 
+
+[02.08.2000] - Universidad Francisco Gavidia 
+Original: http://www.ufg.edu/ 
+Defaced: http://www.attrition.org/mirror/attrition/2000/08/02/www.ufg.edu/ 
+
+[02.08.2000] - Southeastern Minnesota Emergency Medical Services 
+Original: http://www.seems.com/ 
+Defaced: http://www.attrition.org/mirror/attrition/2000/08/02/www.seems.com/ 
+
+[02.08.2000] - Bayern Live 
+Original: http://www.bayern-live.com/ 
+Defaced: http://www.attrition.org/mirror/attrition/2000/08/02/www.bayern-live.com/ 
+
+[02.08.2000] - Lawyer Magazine 
+Original: http://www.thelawyer.co.uk/ 
+Defaced: http://www.attrition.org/mirror/attrition/2000/08/02/www.thelawyer.co.uk/ 
+
+[02.08.2000] - CQICC ISP 
+Original: http://www.cqicc.com/ 
+Defaced: http://www.attrition.org/mirror/attrition/2000/08/02/www.cqicc.com/ 
+
+[02.08.2000] - AP Telecom 
+Original: http://www.ap-telecom.gov.in/ 
+Defaced: http://www.attrition.org/mirror/attrition/2000/08/02/www.ap-telecom.gov.in/ 
+
+[03.08.2000] - NLMOC Navy 
+Original: http://jf.nlmoc.navy.mil/ 
+Defaced: http://www.attrition.org/mirror/attrition/2000/08/03/jf.nlmoc.navy.mil/ 
+
+[05.08.2000] - The Satanic Network 
+Original: http://www.satannet.org/ 
+Defaced: http://www.attrition.org/mirror/attrition/2000/08/05/www.satannet.org/ 
+
+[05.08.2000] - Certified Marketing Services International 
+Original: http://www.cmsiworld.com/ 
+Defaced: http://www.attrition.org/mirror/attrition/2000/08/05/www.cmsiworld.com/ 
+
+[05.08.2000] - National Transportation Safety Board 
+Original: http://www.ntsb.gov/ 
+Defaced: http://www.attrition.org/mirror/attrition/2000/08/05/www.ntsb.gov/ 
+
+[05.08.2000] - U.S. Fish and Wildlife Service 
+Original: http://www.fws.gov/ 
+Defaced: http://www.attrition.org/mirror/attrition/2000/08/05/www.fws.gov/ 
+
+
+
+Questions, contributions, comments or ideas go to: 
+
+Help Net Security staff 
+
+staff@net-security.org 
+http://net-security.org
