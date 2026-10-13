@@ -1,0 +1,332 @@
+                                THE MWP FILES
+                                -------------
+                                 File #7 of
+                                  Issue #2
+
+                                Summer of '97
+                                -------------
+
+Article by:Tekno-Buzz
+Dat:7-30-97
+
+                            "Various boxes."
+
+
+***********************************************************
+                                                          *
+    MEMBER NAME: BLACK                                    *
+                                                          *
+***********************************************************
+
+
+                               BLACK BOX PLANS
+
+  HERE IS HOW YOU CONSTRUCT A BLACK BOX.
+
+    WHEN YOUR PHONE IS JUST SITTING THERE DOING NOTHING THE
+  VOLTAGE THROUGH THE PHONE LINE IS ZERO. THEN IF SOMEONE CALLS
+  YOU (FOR SOME STRANGE REASON) AND THE PHONE IS RINGING. THE
+  VOLTAGE JUMPS TO 48 VOLTS WHICH TELLS MA BELL TO STAND BY IF YOU
+  SHOULD PICK UP SO SHE CAN BILL YOU. WHEN YOU EVENTUALLY PICK UP
+  THE PHONE, THE VOLTAGE DROPS TO 10 VOLTS AND THE BILLING STARTS.
+  WHAT A BLACK BOX DOES IS KEEPS THE THE VOLTAGE AS 36 VOLTS,
+  THEREFORE THE INCOMING CALLER NEVER GETS BILLED (INGEINIOUS)
+
+    THE ORIGINAL BLACK BOX WAS CREATED BY AN EX-BELL EMPLOYEE WHO
+  WENT BY THE NAME "CAPTAIN CRUNCH". HE GOT HIS NAME FROM THOSE
+  LITTLE WHISLES YOU GOT IN BOXES OF CAPTAIN CRUNCH BECAUSE THEY
+  EMITED A TONE THAT WAS EQUAL TO A COIN.CAPTAIN CRUNCH JUST
+  ANNOUNCED  HIS RETIREMENT FROM PHREAKING WHEN HE WAS RELEASED
+  FROM A CALIFORNIA JAIL. HE WAS CAUGHT WITH A BLUE BOX.
+
+   CONSTRUCTION OF A
+    BLACK BOX
+
+    1] A 36 VOLT ZENER DIODE.
+    2] A CERAMIC OR MYLAR CAPACITOR OF 0.1 MICROFARAD.
+    3] A ELECTROLYTIC CAPACITOR OF 1.0 MICROFARAD.
+
+   YOU CAN GET THESE AT YOUR LOCAL RADIO SHACK DEALER.
+
+  FIRST YOU HAVE TO OPEN UP YOUR PHONE.YOU SHOULD NOTICE THREE
+  WIRES COMING IN FROM THE BACK OF THE PHONE, A GREEN, RED, AND
+  YELLOW. MOST OF THE TIME THEY CAN DIFFER.DON'T WORRY ABOUT THE
+  YELLOW WIRE, WE WILL NOT BE USING THIS.YOU WILL NEED TO FIND THE
+  MOST POSITIVE OF THE REMAINING TWO WIRES.(ALMOST ALWAYS THE
+  GREEN WIRE). NOW CONNECT THE BANDED END OF THE ZENER DIODE TO
+  THE MORE POSITIVE OF THESE TWO WIRES. "IN SERIES". YOU HAVE JUST
+  COMPLETED THE FIRST STEP.  FOR THE SECOND STEP YOU NEED A
+  CERAMIC OR MYLAR CAPACITOR OF 0.1 MICROFARAD. YOU CONNECT THIS
+  "IN PARRALLEL" ACROSS THE DIODE. THIS IS NEEDED TO ALLOW THE
+  DIODE TO PASS VOICE SIGNALS.  NOW FOR THE FINAL STEP TAKE YOUR
+  ELECTROLYTIC CAPACITOR OF UP TO ONE MICROFARAD WITH ITS '+' END
+  CONNECTED TO THE BANDED END OF THE DIODE AND THE OTHER END
+  SHOULD BE CONNECTED TO THE ANODE END OF THE DIODE. MA BELL IS
+  NOT TOTALLY OBLIVIOUS TO THIS.IF THE PHONE RINGS FOR ABOUT A
+  HALF-HOUR THEY WILL THINK SOMETHING IS WRONG AND BILL YOU
+  ANYWAY.  WHEN USING A BLACK BOX,YOUR PHONE WILL CONTINUE RING
+  EVEN THOUGH YOU PICKED IT UP. YOU HAVE TO MAKE A SWITCH TO
+  CONNECT ONE OF THE RINGER WIRES.THAT WILL SHUT IT OFF. THAT'S
+  IT! HAVE PHUN!!!!!!!!!!!!!!!!
+  <><><><><><><><><><><><><><><><><><><><><><><><><><<><>
+
+***********************************************************
+                                                          *
+    MEMBER NAME: BLACK2                                   *
+                                                          *
+***********************************************************
+
+
+                           /-/-/-/-/-/-\-\-\-\-\-\
+                          <:-\-Black Box Plans-/-:>
+                           \-\-\-\-\-\-/-/-/-/-/-/
+
+
+  (>Introduction<)
+
+             What is a BLACK BOX? A BLACK BOX is a device that is hooked up
+  to your phone that fixes your phone so that when you get a call, the
+  caller doesn't get charged for the call. This is good for calls up to 1/2
+  hour, after 1/2  hour the Gestapo (the you can guess what happens.
+
+             What this little beauty does is keep the line voltage from
+  dropping  to 10v when you answer your phone. The line is insted kept at
+  36v and it will make the phone think that it is still ringing while your
+  talking. The reason for the 1/2 hour time limit is that the Gestapo thinks
+  that something is wrong after 1/2 an hour of ringing. (I mean, come on)
+
+  (>Phone Modification Instructions<)
+
+       All parts are available  Radio Shack. Using the least possible parts
+  and arrangement, the cost is $0.98; and that is parts for two  of them!
+  Talk  about a deal! If you  want  to splurge then you can get a board, and
+  a switch. There are two s
+
+
+                      **  Schematic 1 for most fones  **
+                      **         LED ON: BOX ON       **
+
+                    FROM >--------------------GREEN->  TO
+                    LINE >--!   1.8k  LED  !---RED--> FONE
+                            !--/\/\/\--!>--!
+                            !              !
+                            ------>/<-------
+                                 SPST
+
+
+
+    Parts:  1 1.8k 1/2 watt resistor
+            1 1.5v LED
+            1 SPST switch
+
+   *You may just have two wires which you connect together for the switch.
+
+
+                       **  Schematic 2 for all fones  **
+                       **        LED ON: BOX OFF      **
+                     FROM >---------------GREEN->  TO
+                     LINE >-------      ---RED--> FONE
+                                 !  LED !
+                               ---->/<--!>--
+                               !         !
+                               ---/\/\/---
+                                  1.8k
+
+    Parts:  1 1.8k 1/2 watt resistor
+            1 1.5v LED
+            1 DPST switch
+
+
+         Here is the PC board layout that I recommend using. It is neat and is
+  very easy to hook up:
+
+                      Schematic #1        Schematic #2
+
+                     **************     ****************
+                     *            *     *  -------     *
+                     * --<LED>--- *     *  !     !     *
+                     * !        ! *     *  ! <SWITCH>  *
+                     * RESISTOR ! *     *  ! !      !  *
+                     *        ! ! *     *  ! !      /  *
+                     * -------- ! *     *  ! !      \  *
+                     * !        ! *     *  ! <LED>! /  *
+                     * --SWITCH-- *     *  !      ! \  *
+                     *  !      !  *     *  !      ! /  *
+                   L *  !      !  * F L *  !      ! !  * F
+                   I>RED-      -RED>O I>RED-      ---RED>O
+                   N>-----GREEN---->N N>-----GREEN------>N
+                   E * h          * E E *              * E
+                     **************     ****************
+
+
+             Once you have hooked up all the parts, you must figure out what
+  set of wires go to the line and which go to the fone. This is because of
+  the fact that LED's must be put in, in a certain direction.  Depending  on
+  which way you put the LED is what controls what wires are for the line &
+  fone.
+
+             In order to find out, hook up the box in one  direction using
+  one set of wires for line and the other for phone.
+
+             *NOTE*  For Model I switch should be OFF.
+             *NOTE*  For Model ][ switch  should  be
+                    set to side connecting the LED.
+
+       Once  you have hooked it up,  then pick up the fone and see if the
+  LED  is on.  If it is, the LED will be lit.  If is  doesn't light then
+  switch the wires and try again.  Once you know which are which  then label
+  them.   *NOTE*  - If neither  directions  worked  then  your switch was in
+  the wrong position.   Now lable   the   switch  in  its   current position
+  as BOX ON.
+
+  (>Black Box Usage<)
+
+       The purpose of this box is not  to people  who  call you so it would
+  make sense  that  it  can only  be  used  to recieve calls.   When the box
+  is  *ON* then you may only recieve calls. Your phone will ring like normal
+  and the  LED light on the box will flash. When you answer the fone the LED
+  will light and the caller will not be charged. Hang up the fone after you
+  are done like normal. 
+------------------------------------------
+***********************************************************
+                                                          *
+    MEMBER NAME: BLOTOBOX                                 *
+                                                          *
+***********************************************************
+
+                           %+%+%+%+%+%+%+%+%+%+%+%+%+
+                           %HOW TO BUILD A BLOTO BOX+
+                           %+%+%+%+%+%+%+%+%+%+%+%+%+
+
+   Finally, it is here! What was first conceived as a joke to fool the inncoent
+  phreakers around America has finally been concieved by the one phreak who is
+  the expert on lines and voltage: The Traveler. Other boxes by the Traveler
+  include the White Gold Box, the Aqua Box, The Diverti Box, and the Cold Box.
+  All of those plans will soon be available in a BBS/AE near you!
+
+   Well, for you people who are unenlightened about the Blotto Box, here is a
+  brief summery of a legend.
+
+  --*-=> The Blotto Box <=-*--
+
+     For years now every pirate has dreamed of the Blotto Box. It was at first
+  made as a joke to mock more ignorant people into thinking that the function
+  of it actually was possible. Well, if you are The Voltage Master, it is
+  possible. Originally conceived by King Blotto of much fame, the Blotto Box is
+  finally available to the public.
+
+     NOTE: The Traveler can not be responcable for the information disclosed in
+  the file! This file is strictly for informational purposes and should not be
+  actually built and used! Usage of this electronical impulse machine could have
+  the severe results listed below and could result in high federal prosecution!
+
+     All right, now that that is cleared up, here is the basis of the box and
+  it's function.
+     The Blotto Box is every phreaks dream... you could hold AT&T down on it's
+  knee's with this device. Because, quite simply, it can turn off the phone
+  lines everywhere. Nothing. Blotto. No calls will be allowed out of an area
+  code, and no calls will be allowed in. No calls can be made inside it for that
+  matter. As long as the switchhing system stays the same, this box will not
+  stop at a mere area code. It will stop at nothing. The electrical impulses
+  that emit from this box will open every line. Every line will ring and ring
+  and ring... the voltage will never be cut off until the box/ generator is
+  stopped. This is no 200 volt job, here. We are talking GENERATOR. Every phone
+  line will continue to ring, and people close to the box may be electricuted if
+  they pick up the phone.
+
+     But, the Blotto Box can be stopped by merely cutting of the line or
+  generator. If they are cut off then nothing will emit any longer. It will take
+  a while for the box to calm back down again, but that is merely a superficial
+  aftereffect. Once again: Construction and use of this box is not advised! The
+  Blotto Box will continue as long as thee is electricity to continue with.
+
+     OK, that is what it does, now, here are some interesting things for you to
+  do with it...
+
+  --*-=> The Blotto Box Functions and Installation <=-*--
+
+     Once you have installed your Blotto, there is no turning back. The
+  following are the instructions for construction and use of this box. Please
+  read and heed all warnings in the above section before you attempt to
+  construct this box.
+
+     Materials:
+               - A Honda portable generator or a main power outlet like in a
+                 stadium or some such place.
+               - A radio shack cord set for 400 volts that splices a female
+                 plug into a phone line jack.
+               - A meter of voltage to attach to the box itself.
+               - A green base (i.e. one of the nice boxes about 3' by 4' that
+                 you see around in your neighborhood. They are the main switch
+                 boards and would be a more effective line to start with.
+                 or: A regular phone jack (not your own, and not in your area
+                     code!
+               - A soudering iron and much souder.
+               - A remote control or long wooden pole.
+
+     Now. You must have guessed the construction from that. If not, here goes,
+  I will explain in detail. Take the Honda Portable Generator and all of the
+  other listed equiptment and go out and hunt for a green base. Make sure it is
+  one on the ground or hanging at head level from a pole, not the huge ones at
+  the top of telephone poles. Open it up with anything convienent, if you are
+  two feeble that fuck don't try this. Take a look inside... you are hunting
+  for color-coordinating lines of green and red. Now, take out your radio shack
+  cord and rip the meter thing off. Replace it with the voltage meter about. A
+  good level to set the voltage to is about 1000 volts. Now, attach the voltage
+  meter to the cord and set the limit for one thousand. Plug the other end of
+  the cord into the generator. Take the phone jack and splice the jack part
+  off. Open it up and match the red and green wires with the other red and green
+  wires. NOTE: If you just had the generator on and have done this in the
+  correct order, you will be a crispy critter. Keep the generator off until you
+  plan to start it up. Now, sauder those lines together carefully. Wrap duck
+  tape or insultation tape around all of the wires. Now, place the remote
+  control right on to the startup of the generator. If you have the long pole,
+  make sure it is very long and stand back as far away as you can get and reach
+  the pole over. NOTICE: If you are going right along with this without reading
+  the file first, you sill realize now tHat your area code is about to become
+  null! Then, getting back, twitch the pole/remote control and run for your
+  damn life. Anywhere, just get away from it. It will be generating so much
+  electricity that if you stand to close you will kill yourself. The generator
+  will smoke, etc. but will not stop. You are now killing your area code,
+  because all of that energy is spreading through all of the phone lines around
+  you in every direction.
+
+     Have a nice day!
+
+  --*-=> The Blotto Box: Aftermath <=-*--
+
+  Original Idea: King Blotto.
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+***********************************************************
+                                                          *
+    MEMBER NAME: GREEN                                    *
+                                                          *
+***********************************************************
+
+  :%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%:
+  :%                                                                          %:
+  :%                              THE GREEN BOX                               %:
+  :%                                                                          %:
+  :%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%:
+
+
+     The Green Box generates useful tonessuch as COIN COLLECT, COIN RETURN, and
+  RINGBACK.  These are the tones that ACTS or the TSPS operator would send to
+  the CO when appropriate.  Unfortunately, the green box cannot be used at a
+  fortress station, but must be used by the CALLED party.  The tones (hz) are:
+
+     COIN COLLECT      700  +  1100
+     COIN RETURN      1100  +  1700
+     RINGBACK          700  +  1700
+
+     Before the called party sends any of these tones, an operator released
+  signal should be sent to alert the MF detectors at the CO.  This can be done
+  by sending 900 + 1500 Hz or a single 2600 Hz wink (90 ms) followed by a 60 ms
+  gap and then the appropriate signal for at least 900 ms.  Also, do not forget
+  that the initial rate is collected shortly before the 3 minute period is up.
+
+  :-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-::-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:
+                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+                                                                                                                                                                                                                                                                   

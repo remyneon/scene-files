@@ -1,0 +1,955 @@
+                                THE MWP FILES
+                                -------------
+                                 File #2 of
+                                  Issue #2
+
+                                Summer of '97
+                                -------------
+                                
+
+                            By StealthChip[MWP]
+                                  6-10-97
+
+                        "Protocols and Port Attacks."
+                        -----------------------------
+The TCP/IP suite, are trust worthy protocols. Meaning, they're easily lied to.
+One common attack based off of TCP/IP suite is, "IP-Spoofing." Daemon9 |
+route | infinity, wrote an article in Phrack about that very subject. If you
+wish to see the article visit our www page-links section. But, in this article
+speaking on protocols, I felt it important to skim the surface of IP-Spoofing.
+You will get a glimse of how it works in this article. The rest of this paper
+contains information about protocols and ports. This article was meant to
+arouse the interest of the reader about the very subject. I do not go into
+detail on seperate attacks.
+
+Also Note:This is directed to novice areas of hacking, using protocols and
+ports.
+
+Excerpt of RFC #1060
+The following is a list of protocols.
+
+ip           IP       // Internet protocol
+icmp         ICMP     // Internet control message protocol
+ggp          GGP      // Gateway-gateway protocol
+tcp          TCP      // Transmission control protocol*
+egp          EGP      // Exterior gateway protocol
+pup          PUP      // PARC universal packet protocol
+udp          UDP      // User datagram protocol*
+hmp          HMP      // Host monitoring protocol
+xns-idp      XNS-IDP  // Xerox NS IDP
+rdp          RDP      // "reliable datagram" protocol
+rvd          RVD      // MIT remote virtual disk
+
+A "conversation" between two protocols.
+---------------------------------------
+Protocols "speak" to eachother in packets. Packets can be assembled by us,
+therefor resembling a 2-way connection when really there is only a 1-way
+connection.
+Situation:Site 1 wants to access site 2. Site 2 is checking if they have a
+valid account on the system. They check the packet to see if they're from
+a valid site, and they see the packet says they're from a valid site and
+have access to root. So site 2 lets Site 1 access the system as root. 
+
+The following are protocol MAN files. The purpose of these are to give you
+an idea of how they work. The man files can do a far better job of that than
+I can.
+
+IP
+--
+SYNOPSIS
+     #include <sys/socket.h>
+     #include <netinet/in.h>
+ 
+     s = socket(AF_INET, SOCK_RAW, proto);
+ 
+     t = t_open ("/dev/rawip", O_RDWR);
+ 
+DESCRIPTION
+     IP is the internetwork datagram delivery  protocol  that  is
+     central  to  the Internet protocol family.  Programs may use
+     IP through higher-level protocols such as  the  Transmission
+     Control  Protocol (TCP) or the User Datagram Protocol (UDP),
+     or may interface directly to IP.  See tcp(7P)  and  udp(7P).
+     Direct  access may be via the socket interface (using a "raw
+     socket") or the Transport Level Interface (TLI).  The proto-
+     col  options  defined  in the IP specification may be set in
+     outgoing datagrams.
+ 
+     The STREAMS driver /dev/rawip is the TLI transport  provider
+     that provides raw access to IP.
+ 
+     Raw IP sockets are connectionless and are normally used with
+     the   sendto()   and  recvfrom()  calls  (see  send(3N)  and
+     recv(3N)), although the connect(3N) call may also be used to
+     fix  the destination for future datagrams (in which case the
+     read(2) or recv(3N) and write(2) or send(3N)  calls  may  be
+     used).   If proto is IPPROTO_RAW or IPPROTO_IGMP, the appli-
+     cation is expected to include  a  complete  IP  header  when
+     sending.   Otherwise,  that  protocol  number will be set in
+     outgoing datagrams and used to filter incoming datagrams and
+     an  IP header will be generated and prepended to each outgo-
+     ing  datagram.   In  either  case,  received  datagrams  are
+     returned with the IP header and options intact.
+ 
+     The socket options supported at the IP level are:
+ 
+     IP_OPTIONS               IP options for outgoing  datagrams.
+                              This  socket  option may be used to
+                              set IP options to  be  included  in
+                              each outgoing datagram.  IP options
+                              to  be  sent  are  set  with   set-
+                              sockopt()   (see   getsockopt(3N)).
+                              The getsockopt(3N) call returns the
+                              IP  options  set  in  the last set-
+                              sockopt()  call.   IP  options   on
+                              received  datagrams  are visible to
+                              user programs  only  using  raw  IP
+                              sockets.   The format of IP options
+                              given in setsockopt() matches those
+                              defined  in  the  IP  specification
+                              with one exception:   the  list  of
+                              addresses  for  the  source routing
+                              options must include the  first-hop
+                              gateway  at  the  beginning  of the
+                              list of  gateways.   The  first-hop
+                              gateway  address  will be extracted
+                              from the option list and  the  size
+                              adjusted  accordingly  before  use.
+                              IP options may  be  used  with  any
+                              socket type in the Internet family.
+ 
+     IP_ADD_MEMBERSHIP        Join a multicast group.
+ 
+     IP_DROP_MEMBERSHIP       Leave a multicast group.
+ 
+     These options take a struct ip_mreq as the  parameter.   The
+     structure  contains  a multicast address which has to be set
+     to the  CLASS-D  IP  multicast  address,  and  an  interface
+     address. Normally the interface address is set to INADDR_ANY
+     which causes the kernel to choose the interface to join on.
+ 
+     IP_MULTICAST_IF          The outgoing interface  for  multi-
+                              cast  packets.  This option takes a
+                              struct in_addr as an  argument  and
+                              it  selects that interface for out-
+                              going IP multicast packets.  If the
+                              address  specified is INADDR_ANY it
+                              will use the unicast routing  table
+                              to  select  the  outgoing interface
+                              (which is the default behavior).
+ 
+     IP_MULTICAST_TTL         Time   to   live   for    multicast
+                              datagrams.   This  option  takes an
+                              unsigned character as an  argument.
+                              Its  value  is the TTL that IP will
+                              use    on    outgoing     multicast
+                              datagrams.  The default is 1.
+ 
+     IP_MULTICAST_LOOP        Loopback for  multicast  datagrams.
+                              Normally  multicast  datagrams  are
+                              delivered to members on the sending
+                              host.  Setting the unsigned charac-
+                              ter argument to 0  will  cause  the
+                              opposite behavior.
+ 
+     The multicast socket options can be used with  any  datagram
+     socket type in the Internet family.
+ 
+     At the socket level, the socket option SO_DONTROUTE  may  be
+     applied.   This option forces datagrams being sent to bypass
+     routing and forwarding by forcing the IP Time To Live  field
+     to  1  (meaning  that  the  packet  will not be forwarded bu
+     routers).
+ 
+     Raw IP datagrams can also be sent and received using the TLI
+     connectionless primitives.
+ 
+     Datagrams flow through the IP layer in two directions:  from
+     the  network  up  to  user processes and from user processes
+     down to the network.  Using this orientation, IP is  layered
+     above  the network interface drivers and below the transport
+     protocols such as UDP and TCP. The Internet Control  Message
+     Protocol (ICMP) is logically a part of IP. See icmp(7P).
+ 
+     IP provides for a checksum of the header part, but  not  the
+     data  part  of the datagram.  The checksum value is computed
+     and set in the process of sending datagrams and checked when
+     receiving datagrams.
+ 
+     IP options in received datagrams are  processed  in  the  IP
+     layer  according  to  the protocol specification.  Currently
+     recognized IP options include:  security, loose  source  and
+     record  route (LSRR), strict source and record route (SSRR),
+     record route, and internet timestamp.
+ 
+     The IP layer will  normally  act  as  a  router  (forwarding
+     datagrams that are not addressed to it etc) when the machine
+     has two or more interfaces that are up. This behavior can be
+     overridden  by  using ndd(1M) to to set the /dev/ip variable
+     ip_forwarding.  The value 0 means do not  forward,  1  means
+     forward  and  2 gives you the default behavior of forwarding
+     when there are two or more "up" interfaces.
+ 
+     The IP layer will send an ICMP message back  to  the  source
+     host  in many cases when it receives a datagram that can not
+     be handled.  A "time exceeded" ICMP message will be sent  if
+     the  "time  to live" field in the IP header drops to zero in
+     the  process  of  forwarding  a  datagram.   A  "destination
+     unreachable"  message  will be sent if a datagram can not be
+     forwarded because there is no route to  the  final  destina-
+     tion,  or  if  it can not be fragmented.  If the datagram is
+     addressed to the local host but is destined for  a  protocol
+     that is not supported or a port that is not in use, a desti-
+     nation unreachable message will also be sent.  The IP  layer
+     may  send an ICMP "source quench" message if it is receiving
+     datagrams too quickly.  ICMP messages are only sent for  the
+     first  fragment  of  a  fragmented  datagram  and  are never
+     returned in response to errors in other ICMP messages.
+ 
+     The  IP  layer  supports   fragmentation   and   reassembly.
+     Datagrams are fragmented on output if the datagram is larger
+     than the maximum transmission  unit  (MTU)  of  the  network
+     interface.  Fragments of received datagrams are dropped from
+     the reassembly queues if the complete datagram is not recon-
+     structed within a short time period.
+ 
+     Errors in sending discovered at the network interface driver
+     layer are passed by IP back up to the user process.
+ 
+SEE ALSO
+     ndd(1M),  read(2),  write(2),  connect(3N),  getsockopt(3N),
+     recv(3N),   send(3N),   routing(4),   icmp(7P),  if_tcp(7P),
+     inet(7P) tcp(7P), udp(7P)
+ 
+     Postel, Jon, Internet Protocol - DARPA Internet Program Pro-
+     tocol  Specification,  RFC  791, Network Information Center,
+     SRI International, Menlo Park, Calif., September 1981.
+ 
+DIAGNOSTICS
+     A socket operation may fail with one of the following errors
+     returned:
+ 
+     EACCES              An IP broadcast destination address  was
+                         specified  and  the  caller  was not the
+                         privileged user.
+ 
+     EISCONN             An attempt was made to establish a  con-
+                         nection  on  a  socket which already had
+                         one, or to send a datagram with the des-
+                         tination   address   specified  and  the
+                         socket was already connected.
+ 
+     EMSGSIZE            An attempt was made to send  a  datagram
+                         that was too large for an interface, but
+                         was not allowed to be  fragmented  (such
+                         as broadcasts).
+ 
+     ENETUNREACH         An attempt was made to establish a  con-
+                         nection  or send a datagram, where there
+                         was no matching  entry  in  the  routing
+                         table,   or   if  an  ICMP  "destination
+                         unreachable" message was received.
+ 
+     ENOTCONN            A datagrem was sent, but no  destination
+                         address  was  specified,  and the socket
+                         had not been connected.
+ 
+     ENOBUFS             The system ran out of memory  for  frag-
+                         mentation buffers or other internal data
+                         structure.
+ 
+     EADDRNOTAVAIL       An attempt was made to create  a  socket
+                         with  a local address that did not match
+                         any  network   interface,   or   an   IP
+                         broadcast destination address was speci-
+                         fied and the network interface does  not
+                         support broadcast.
+ 
+ERRORS
+     The following errors may occur when setting  or  getting  IP
+     options:
+ 
+     EINVAL         An unknown socket option name was given.
+ 
+     EINVAL         The IP option field was improperly formed; an
+                    option  field  was  shorter  than the minimum
+                    value or longer than the option  buffer  pro-
+                    vided.
+ 
+NOTES
+     Raw sockets should receive ICMP error  packets  relating  to
+     the protocol; currently such packets are simply discarded.
+ 
+     Users of higher-level protocols such as TCP and  UDP  should
+     be able to see received IP options.
+
+TCP
+---
+NAME
+     tcp, TCP - Internet Transmission Control Protocol
+ 
+SYNOPSIS
+     #include <sys/socket.h>
+ 
+     #include <netinet/in.h>
+ 
+     s = socket(AF_INET, SOCK_STREAM, 0);
+ 
+     t = t_open("/dev/tcp", O_RDWR);
+ 
+DESCRIPTION
+     TCP is the virtual circuit protocol of the Internet protocol
+     family.   It  provides  reliable, flow-controlled, in order,
+     two-way transmission of data.  It is a byte-stream  protocol
+     layered  above the Internet Protocol (IP), the Internet pro-
+     tocol family's internetwork datagram delivery protocol.
+ 
+     Programs can access TCP using  the  socket  interface  as  a
+     SOCK_STREAM socket type, or using the Transport Level Inter-
+     face  (TLI)  where  it  supports   the   connection-oriented
+     (T_COTS_ORD) service type.
+ 
+     TCP uses IP's host-level addressing and adds  its  own  per-
+     host collection of "port addresses."  The endpoints of a TCP
+     connection are  identified  by  the  combination  of  an  IP
+     address  and  a  TCP port number.  Although other protocols,
+     such as the User Datagram Protocol (UDP), may use  the  same
+     host and port address format, the port space of these proto-
+     cols is distinct.  See inet(7P) for details  on  the  common
+     aspects of addressing in the Internet protocol family.
+ 
+     Sockets utilizing TCP  are  either  "active"  or  "passive".
+     Active  sockets  initiate  connections  to  passive sockets.
+     Both types of sockets must have their local IP  address  and
+     TCP  port  number  bound with the bind(3N) system call after
+     the socket is created.  By default, TCP sockets are  active.
+     A passive socket is created by calling the listen(3N) system
+     call after binding the socket with bind().  This establishes
+     a  queueing  parameter  for the passive socket.  After this,
+     connections to the passive socket can be received  with  the
+     accept(3N)  system call.  Active sockets use the connect(3N)
+     call after binding to initiate connections.
+ 
+     By using the special value INADDR_ANY, the local IP  address
+     can  be left unspecified in the bind() call by either active
+     or passive TCP sockets.  This feature is usually used if the
+     local  address  is  either  unknown  or irrelevant.  If left
+     unspecified, the local IP address will be bound  at  connec-
+     tion  time  to  the address of the network interface used to
+     service the connection.
+ 
+     Once  a  connection  has  been  established,  data  can   be
+     exchanged using the read(2) and write(2) system calls.
+ 
+     TCP supports one  socket  option  which  is  set  with  set-
+     sockopt()  and  tested with getsockopt(3N).  Under most cir-
+     cumstances, TCP sends data when it is presented.  When  out-
+     standing  data  has  not  yet  been acknowledged, it gathers
+     small amounts of output to be sent in a single  packet  once
+     an  acknowledgement  is  received.   For  a  small number of
+     clients, such as window systems that send a stream of  mouse
+     events  which  receive  no  replies,  this packetization may
+     cause significant delays.
+ 
+     Therefore,  TCP  provides  a  boolean  option,   TCP_NODELAY
+     (defined in <netinet/tcp.h>), to defeat this algorithm.  The
+     option level for  the  setsockopt()  call  is  the  protocol
+     number for TCP, available from getprotobyname(3N).
+ 
+     Options at the IP level may be used with TCP. See ip(7P).
+ 
+     TCP provides an urgent data mechanism, which may be  invoked
+     using  the  out-of-band  provisions of send(3N).  The caller
+     may mark one byte as  "urgent"  with  the  MSG_OOB  flag  to
+     send(3N).   This  sets  an "urgent pointer" pointing to this
+     byte in the TCP stream.  The receiver on the other  side  of
+     the  stream  is notified of the urgent data by a SIGURG sig-
+     nal.  The SIOCATMARK ioctl() request returns a  value  indi-
+     cating  whether  the  stream is at the urgent mark.  Because
+     the system never returns data across the urgent  mark  in  a
+     single read(2) call, it is possible to advance to the urgent
+     data in a simple loop which reads data, testing  the  socket
+     with  the  SIOCATMARK  ioctl() request, until it reaches the
+     mark.
+ 
+     Incoming connection requests that include an IP source route
+     option  are  noted,  and the reverse source route is used in
+     responding.
+ 
+     A checksum over all data helps  TCP  implement  reliability.
+     Using  a  window-based flow control mechanism that makes use
+     of  positive  acknowledgements,  sequence  numbers,  and   a
+     retransmission   strategy,  TCP  can  usually  recover  when
+     datagrams are damaged, delayed, duplicated or delivered  out
+     of order by the underlying communication medium.
+ 
+     If the local TCP receives no acknowledgements from its  peer
+     for  a  period  of  time, as would be the case if the remote
+     machine crashed, the connection is closed and  an  error  is
+     returned to the user.  If the remote machine reboots or oth-
+     erwise loses state information about a TCP  connection,  the
+     connection is aborted and an error is returned to the user.
+ 
+SEE ALSO
+     read(2),  write(2),   accept(3N),   bind(3N),   connect(3N),
+     getprotobyname(3N),  getsockopt(3N),  listen(3N),  send(3N),
+     inet(7P), ip(7P)
+ 
+     Postel, Jon, Transmission Control Protocol - DARPA  Internet
+     Program Protocol Specification, RFC 793, Network Information
+     Center, SRI International,  Menlo  Park,  Calif.,  September
+     1981.
+ 
+DIAGNOSTICS
+     A socket operation may fail if:
+ 
+     EISCONN             A connect() operation was attempted on a
+                         socket  on  which  a connect() operation
+                         had already been performed.
+ 
+     ETIMEDOUT           A connection was dropped due  to  exces-
+                         sive retransmissions.
+ 
+     ECONNRESET          The remote peer forced the connection to
+                         be  closed  (usually  because the remote
+                         machine has lost state information about
+                         the connection due to a crash).
+ 
+     ECONNREFUSED        The remote peer actively refused connec-
+                         tion  establishment  (usually because no
+                         process is listening to the port).
+ 
+     EADDRINUSE          A bind() operation was  attempted  on  a
+                         socket  with a network address/port pair
+                         that has already been bound  to  another
+                         socket.
+ 
+     EADDRNOTAVAIL       A bind() operation was  attempted  on  a
+                         socket  with a network address for which
+                         no network interface exists.
+ 
+     EACCES              A bind() operation was attempted with  a
+                         "reserved" port number and the effective
+                         user ID  of  the  process  was  not  the
+                         privileged user.
+ 
+     ENOBUFS             The system ran out of memory for  inter-
+                         nal data structures.
+ 
+UDP
+---
+NAME
+     udp, UDP - Internet User Datagram Protocol
+ 
+SYNOPSIS
+     #include <sys/socket.h>
+ 
+     #include <netinet/in.h>
+ 
+     s = socket(AF_INET, SOCK_DGRAM, 0);
+ 
+     t = t_open("/dev/udp", O_RDWR);
+ 
+DESCRIPTION
+     UDP is a simple datagram protocol which is layered  directly
+     above  the  Internet Protocol (IP).  Programs may access UDP
+     using the socket interface, where it supports the SOCK_DGRAM
+     socket  type,  or using the Transport Level Interface (TLI),
+     where it supports the connectionless (T_CLTS) service type.
+ 
+     Within the socket interface, UDP is normally used  with  the
+     sendto(),  sendmsg(),  recvfrom(),  and recvmsg() calls (see
+     send(3N) and recv(3N)).  If the connect(3N) call is used  to
+     fix the destination for future packets, then the recv(3N) or
+     read(2) and send(3N) or write(2) calls may be used.
+ 
+     UDP address formats are  identical  to  those  used  by  the
+     Transmission  Control  Protocol (TCP).  Like TCP, UDP uses a
+     port number along with an IP address to  identify  the  end-
+     point  of  communication.   The  UDP  port  number  space is
+     separate from the TCP port number space (that is, a UDP port
+     may  not  be  "connected" to a TCP port).  The bind(3N) call
+     can be used to set the local address and port  number  of  a
+     UDP socket.  The local IP address may be left unspecified in
+     the bind() call by using the special value  INADDR_ANY.   If
+     the  bind()  call  is  not done, a local IP address and port
+     number will be assigned  to  the  endpoint  when  the  first
+     packet is sent.  Broadcast packets may be sent (assuming the
+     underlying  network  supports  this)  by  using  a  reserved
+     "broadcast  address";  This  address  is  network  interface
+     dependent.  Broadcasts may only be sent  by  the  privileged
+     user.
+ 
+     Options at the IP level may be used with UDP; see ip(7P).
+ 
+     There are a variety of ways that a UDP packet can be lost or
+     corrupted,  including a failure of the underlying communica-
+     tion mechanism.  UDP implements a  checksum  over  the  data
+     portion of the packet.  If the checksum of a received packet
+     is in error, the packet will be dropped with  no  indication
+     given  to the user.  A queue of received packets is provided
+     for each UDP socket.  This queue  has  a  limited  capacity.
+     Arriving  datagrams which will not fit within its high-water
+     capacity are silently discarded.
+ 
+     UDP processes Internet Control Message Protocol (ICMP) error
+     messages  received  in  response to UDP packets it has sent.
+     See icmp(7P).  ICMP "source quench"  messages  are  ignored.
+     ICMP "destination unreachable," "time exceeded" and "parame-
+     ter problem" messages disconnect the socket from its peer so
+     that  subsequent  attempts to send packets using that socket
+     will return an error.  UDP will not guarantee  that  packets
+     are  delivered in the order they were sent.  As well, dupli-
+     cate packets may be generated in the communication process.
+ 
+SEE ALSO
+     read(2),   write(2),   bind(3N),   connect(3N),    recv(3N),
+     send(3N), icmp(7P), inet(7P), ip(7P), tcp(7P)
+ 
+     Postel, Jon, User Datagram Protocol, RFC 768, Network Infor-
+     mation Center, SRI International, Menlo Park, Calif., August
+     1980
+ 
+DIAGNOSTICS
+     A socket operation may fail if:
+ 
+     EISCONN             A connect() operation was attempted on a
+                         socket  on  which  a connect() operation
+                         had  already  been  performed,  and  the
+                         socket could not be successfully discon-
+                         nected before making the new connection.
+ 
+     EISCONN             A sendto() or sendmsg() operation speci-
+                         fying  an  address  to which the message
+                         should be sent was attempted on a socket
+                         on   which  a  connect()  operation  had
+                         already been performed.
+ 
+     ENOTCONN            A send()  or  write()  operation,  or  a
+                         sendto()   or  sendmsg()  operation  not
+                         specifying an address to which the  mes-
+                         sage  should be sent, was attempted on a
+                         socket on which  a  connect()  operation
+                         had not already been performed.
+ 
+     EADDRINUSE          A bind() operation was  attempted  on  a
+                         socket  with a network address/port pair
+                         that has already been bound  to  another
+                         socket.
+ 
+     EADDRNOTAVAIL       A bind() operation was  attempted  on  a
+                         socket  with a network address for which
+                         no network interface exists.
+ 
+     EINVAL              A sendmsg() operation  with  a  non-NULL
+                         msg_accrights was attempted.
+ 
+     EACCES              A bind() operation was attempted with  a
+                         "reserved" port number and the effective
+                         user ID  of  the  process  was  not  the
+                         privileged user.
+ 
+     ENOBUFS             The system ran out of memory for  inter-
+                         nal data structures.
+ 
+ICMP
+----
+NAME
+     icmp, ICMP - Internet Control Message Protocol
+ 
+SYNOPSIS
+     #include <sys/socket.h>
+ 
+     #include <netinet/in.h>
+ 
+     #include <netinet/ip_icmp.h>
+ 
+     s = socket(AF_INET, SOCK_RAW, proto);
+ 
+     t = t_open("/dev/icmp", O_RDWR);
+ 
+DESCRIPTION
+     ICMP is the error and control message protocol used  by  the
+     Internet  protocol family.  It is used by the kernel to han-
+     dle and report errors in protocol processing.  It  may  also
+     be  accessed  by  programs using the socket interface or the
+     Transport Level Interface (TLI) for network  monitoring  and
+     diagnostic  functions.  When used with the socket interface,
+     a "raw socket" type is used.  The protocol number for  ICMP,
+     used  in  the  proto  parameter  to  the socket call, can be
+     obtained from getprotobyname(3N).  ICMP file descriptors and
+     sockets  are  connectionless, and are normally used with the
+     t_sndudata / t_rcvudata and the sendto() / recvfrom() calls.
+ 
+     Outgoing packets automatically  have  an  Internet  Protocol
+     (IP)  header  prepended  to them.  Incoming packets are pro-
+     vided to the user with the IP header and options intact.
+ 
+     ICMP is an datagram protocol layered above IP.  It  is  used
+     internally  by the protcol code for various purposes includ-
+     ing  routing,  fault  isolation,  and  congestion   control.
+     Receipt  of  an ICMP "redirect" message will add a new entry
+     in the routing table, or modify an existing one.  ICMP  mes-
+     sages  are  routinely  sent  by the protocol code.  Received
+     ICMP messages may be reflected back to users of higher-level
+     protocols  such  as  TCP or UDP as error returns from system
+     calls.  A copy of all ICMP message received by the system is
+     provided  to  every  holder  of  an  open ICMP socket or TLI
+     descriptor.
+ 
+SEE ALSO
+     getprotobyname(3N),  recv(3N),   send(3N),   t_rcvudata(3N),
+     t_sndudata(3N), routing(4), inet(7P), ip(7P)
+ 
+     Postel, Jon,  Internet  Control  Message  Protocol  -  DARPA
+     Internet  Program  Protocol  Specification, RFC 792, Network
+     Information Center, SRI International, Menlo  Park,  Calif.,
+     September 1981.
+
+DIAGNOSTICS
+     A socket operation may fail with one of the following errors
+     returned:
+ 
+     EISCONN             An attempt was made to establish a  con-
+                         nection  on  a  socket which already has
+                         one, or when trying to send  a  datagram
+                         with  the  destination address specified
+                         and the socket is already connected.
+ 
+     ENOTCONN            An attempt was made to send a  datagram,
+                         but no destination address is specified,
+                         and the socket has not been connected.
+ 
+     ENOBUFS             The system ran  out  of  memory  for  an
+                         internal data structure.
+ 
+     EADDRNOTAVAIL       An attempt was made to create  a  socket
+                         with a network address for which no net-
+                         work interface exists.
+ 
+NOTES
+     Replies to ICMP "echo" messages which are source routed  are
+     not  sent  back  using inverted source routes, but rather go
+     back through the normal routing mechanisms.
+ 
+Importance of host files.
+-------------------------
+Consider the following. Your quite popular on BBSes and various machines. You
+constantly rlogin-Remote Login-to remote systems daily. But there appears to
+be a very annoying Login daemon popping up whenever you login to the remote
+system. So, in response you add to your .rhosts file and make it so no
+more Login Daemons pop up on remote systems.(Expecting your Username and
+Password are the same on all systems your logging into. AND, the system allows
+you to rlogin without verification.)
+As mentioned above, it's possible to use the *r commands without Login Daemons
+popping up. But, in order to due so, the host your logging into MUST have
+your account information saved in the /etc/hosts.equiv file.
+When IP-Spoofing a system(remember, we're not going into detail here, just
+skimming the surface)your attack relies in forging packets.
+
+.rhosts file--The .rhosts file is setup so users don't always have to put in
+their login and password. It lets them straight onto the system.
+
+/etc/hosts.equiv file--This file is used by all the users on the system. It
+contains login information about users on friendly hosts. In some cases an
+account is setup for use by users of a friendly network.
+This file is like giving your friend a key to your house.
+
+ 
+ 
+Ports.
+------
+Ports are set up areas for daemons. When using Telnet, you can connect
+to a certain port by typing the following,
+
+Prompt>telnet (domainname or IP address) (port)
+
+Open ports or channels leave backdoors available for us. Most ports are
+left off, or run certain daemon programs on them. Making a "backdoor" is done
+when you get root and then leave another port-that's being unused or is just
+sharing the port with another daemon- open for later use by us.
+
+The command "netstat" contains information about ports. ie, on or off. You
+can turn a port back on when logged on as root; therefor leaving it open for
+later use by yourself.
+
+Some commonly used port attacks are the sendmail bug, rdist, and Protocol
+-Spoofing techniques. These attacks may still work today but are quickly
+becoming unused due to the CERT-Computer Emergency Response Team-.(But like
+always, lazy sysadmins do not always follow these warnings.)
+
+The best port attacks come from remote commands, ie rdist, rlogin, rmail, etc.
+
+The following is a list of ports and their service/protocol being used on
+it.
+
+Format:
+<service name>  <port number>/<protocol> <program/server> <//comment>  
+*=Very useful.
+
+echo                7/tcp
+echo                7/udp
+discard             9/tcp    
+discard             9/udp    
+systat             11/tcp
+systat             11/tcp    
+daytime            13/tcp
+daytime            13/udp
+netstat            15/tcp
+qotd               17/tcp    
+qotd               17/udp    
+chargen            19/tcp    
+chargen            19/udp    
+ftp-data           20/tcp
+ftp                21/tcp
+telnet             23/tcp                  //Connects you to Login daemon.
+smtp               25/tcp    mail          //Mail port.
+time               37/tcp    timserver
+time               37/udp    timserver
+rlp                39/udp    resource      //resource location
+name               42/tcp    nameserver
+name               42/udp    nameserver
+whois              43/tcp    nicname       //usually to sri-nic
+domain             53/tcp    nameserver    //name-domain server
+domain             53/udp    nameserver
+nameserver         53/tcp    domain        //name-domain server
+nameserver         53/udp    domain
+mtp                57/tcp                  //deprecated
+bootp              67/udp                  //boot program server
+tftp               69/udp
+rje                77/tcp    netrjs
+finger             79/tcp
+link               87/tcp    ttylink
+supdup             95/tcp
+hostnames         101/tcp    hostname      //usually from sri-nic
+iso-tsap          102/tcp
+dictionary        103/tcp    webster
+x400              103/tcp                  //ISO Mail
+x400-snd          104/tcp
+csnet-ns          105/tcp
+pop               109/tcp    postoffice
+pop2              109/tcp                  //Post Office
+pop3              110/tcp    postoffice
+portmap           111/tcp
+portmap           111/udp
+sunrpc            111/tcp
+sunrpc            111/udp
+auth              113/tcp    authentication
+sftp              115/tcp
+path              117/tcp
+uucp-path         117/tcp
+nntp              119/tcp    usenet        //Network News Transfer
+ntp               123/udp    ntpd ntp      //network time protocol (exp)
+nbname            137/udp
+nbdatagram        138/udp
+nbsession         139/tcp
+NeWS              144/tcp    news
+sgmp              153/udp    sgmp
+tcprepo           158/tcp    repository    //PCMAIL
+snmp              161/udp    snmp
+snmp-trap         162/udp    snmp
+print-srv         170/tcp                  //network PostScript
+vmnet             175/tcp
+load              315/udp
+vmnet0            400/tcp
+sytek             500/udp
+biff              512/udp    comsat
+exec              512/tcp
+login             513/tcp
+who               513/udp    whod
+shell             514/tcp    cmd           //no passwords used*
+syslog            514/udp
+printer           515/tcp    spooler       //line printer spooler
+talk              517/udp
+ntalk             518/udp
+efs               520/tcp                  //for LucasFilm
+route             520/udp    router routed
+timed             525/udp    timeserver
+tempo             526/tcp    newdate
+courier           530/tcp    rpc
+conference        531/tcp    chat
+rvd-control       531/udp    MIT disk
+netnews           532/tcp    readnews
+netwall           533/udp                  //-for emergency broadcasts
+uucp              540/tcp    uucpd         //uucp daemon*
+klogin            543/tcp                  //Kerberos authenticated rlogin
+kshell            544/tcp    cmd           //and remote shell****
+new-rwho          550/udp    new-who       //experimental
+remotefs          556/tcp    rfs_server rfs//Brunhoff remote filesystem
+rmonitor          560/udp    rmonitord     //experimental
+monitor           561/udp                  //experimental
+garcon            600/tcp
+maitrd            601/tcp
+busboy            602/tcp
+acctmaster        700/udp
+acctslave         701/udp
+acct              702/udp
+acctlogin         703/udp
+acctprinter       704/udp
+elcsd             704/udp                  //errlog*
+acctinfo          705/udp
+acctslave2        706/udp
+acctdisk          707/udp
+kerberos          750/tcp    kdc           //Kerberos authentication--tcp
+kerberos          750/udp    kdc           //Kerberos authentication--udp
+kerberos_master   751/tcp                  //Kerberos authentication
+kerberos_master   751/udp                  //Kerberos authentication
+passwd_server     752/udp                  //Kerberos passwd server*
+userreg_server    753/udp                  //Kerberos userreg server*
+krb_prop          754/tcp                  //Kerberos slave propagation
+erlogin           888/tcp                  //Login and environment passing*
+kpop             1109/tcp                  //Pop with Kerberos
+phone            1167/udp
+ingreslock       1524/tcp
+maze             1666/udp
+nfs              2049/udp                  //sun nfs
+knetd            2053/tcp                  //Kerberos de-multiplexor
+eklogin          2105/tcp                  //Kerberos encrypted rlogin*****
+rmt              5555/tcp    rmtd
+mtb              5556/tcp    mtbd          //mtb backup
+man              9535/tcp                  //remote man server*
+w                9536/tcp
+mantst           9537/tcp                  //remote man server, testing
+bnews           10000/tcp
+rscs0           10000/udp
+queue           10001/tcp
+rscs1           10001/udp
+poker           10002/tcp
+rscs2           10002/udp
+gateway         10003/tcp
+rscs3           10003/udp
+remp            10004/tcp
+rscs4           10004/udp
+rscs5           10005/udp
+rscs6           10006/udp
+rscs7           10007/udp
+rscs8           10008/udp
+rscs9           10009/udp
+rscsa           10010/udp
+rscsb           10011/udp
+qmaster         10012/tcp
+qmaster         10012/udp
+
+RFC 1140 SunOS Network style.
+tcpmux          1/tcp
+echo            7/tcp
+echo            7/udp
+discard         9/tcp           sink null
+discard         9/udp           sink null
+systat          11/tcp          users
+daytime         13/tcp
+daytime         13/udp
+netstat         15/tcp
+chargen         19/tcp          ttytst source
+chargen         19/udp          ttytst source
+ftp-data        20/tcp
+ftp             21/tcp
+telnet          23/tcp
+smtp            25/tcp          mail
+time            37/tcp          timserver
+time            37/udp          timserver
+name            42/udp          nameserver
+whois           43/tcp          nicname         //usually to sri-nic
+domain          53/udp
+domain          53/tcp
+hostnames       101/tcp         hostname        //usually to sri-nic
+sunrpc          111/udp         rpcbind
+sunrpc          111/tcp         rpcbind
+ident           113/tcp         auth     tap
+netbios-ssn     139/tcp
+netbios-ns      137/udp
+tftp            69/udp
+rje             77/tcp
+finger          79/tcp
+link            87/tcp          ttylink
+supdup          95/tcp
+iso-tsap        102/tcp
+x400            103/tcp                         //ISO Mail
+x400-snd        104/tcp
+csnet-ns        105/tcp
+pop-2           109/tcp                         //Post Office
+pop3            110/tcp                         //Post Office 3
+uucp-path       117/tcp
+nntp            119/tcp         usenet          //Network News Transfer
+ntp             123/tcp                         //Network Time Protocol
+ntp             123/udp                         //Network Time Protocol
+NeWS            144/tcp         news            //Window System
+exec            512/tcp
+login           513/tcp
+shell           514/tcp         cmd             //no passwords used
+printer         515/tcp         spooler         //line printer spooler
+courier         530/tcp         rpc             //experimental
+uucp            540/tcp         uucpd           //uucp daemon
+biff            512/udp         comsat
+who             513/udp         whod
+syslog          514/udp
+talk            517/udp
+ntalk           518/udp
+route           520/udp         router routed
+new-rwho        550/udp         new-who         //experimental
+rmonitor        560/udp         rmonitord       //experimental
+monitor         561/udp                         //experimental
+pcserver        600/tcp                     //ECD Integrated PC board srvr
+kerberos        750/udp         kdc             //Kerberos key server
+kerberos        750/tcp         kdc             //Kerberos key server
+ufsd            1008/tcp        ufsd            //UFS-aware server
+ufsd            1008/udp        ufsd
+ingreslock      1524/tcp
+radacct         1646/udp                        //more RADIUS
+listen          2766/tcp                        //System V listener port
+nfsd            2049/udp        nfs             //NFS server daemon (clts)
+nfsd            2049/tcp        nfs             //NFS server daemon (cots)
+lockd           4045/udp                        //NFS lock daemon/manager
+lockd           4045/tcp
+dtspc           6112/tcp                        //CDE subprocess control
+fs              7100/tcp                        //Font server
+pmd             1642/tcp
+hylafax         4559/tcp                //HylaFAX client-server protocol
+snpp            444/tcp         //Simple Network Paging Protocol
+noclog          5354/udp
+hostmon         5355/tcp
+radius          1645/udp
+------------------------
+TCP and UDP are like delivery service. They carry things around the network to
+perform tasks and make sure things are delivered on time and to the right
+place. But they do not worry if anyones there to recieve their message. They
+just drop it off where they were told to and leave.
+
+Best Ports to attack are r* commands. They answer back to eachother based
+on trust-relationship's. Meaning, they're easily lied to. You can forge
+packets to (R)emote your way around systems. It's good to have root on the
+system your attacking from.
+
+An example of a port exploit.
+-----------------------------
+Telnet to port 25 of the machine you want to send mail from, and type,
+
+ HELO <host name>(The name you want the mail to appear from.)
+ MAIL FROM:<handle@hostname>
+ RCPT TO:<person@hostname>*The person you want to mail.
+ DATA
+     <You write what you want to appear.>
+ .   (Make sure the period is on a line by itself.)
+ QUIT
+
+*That exploit is quite old and may not work on *all systems.
+
+Books you should get up and get now.
+------------------------------------
+TCP/IP Illustrated volume(s) 1, 2, 3.
+TCP/IP Administration hand book.
+
+Now that you have a list of ports and possible attack ideas, I suggest you use
+your coding skills and write up some exploits on ports and protocols.
+If I would've given you my code for port exploits you wouldn't truly be a
+hacker, you'd just be a nobody using StealthChip's(my) code.
+
+StealthChip@juno.com
+
+EOF
+
+
+
+
+
+
