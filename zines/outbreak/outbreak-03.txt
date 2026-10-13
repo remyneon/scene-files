@@ -1,0 +1,1144 @@
+ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ
+Û±±±±±±±ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ±±±±±±±Û
+Û²²²²²²²|\_______________________________________________________________/|²²²²²²²Û   
+Û²²²²²²²||\_____________________________________________________________/||²²²²²²²Û
+Û²²²²²²²|||               __    ____                        __  __      |||²²²²²²²Û
+Û²²²²²²²|||              /\ \__/\  _`\  ---The E-Zine---   /\ \/\ \     |||²²²²²²²Û
+Û²²²²²²²|||   ___   __  _\ \ ,_\ \ \L\ \  _ __   __     __ \ \ \/'/'    |||²²²²²²²Û
+Û²²²²²²²|||  / __`\/\ \/\ \ \ \/\ \  _ <_/\`'__Y'__`\ /'__`\\ \ , <     |||²²²²²²²Û
+Û²²²²²²²||| /\ \L\ \ \ \_\ \ \ \_\ \ \L\ \ \ \/\  __//\ \L\.\\ \ \\`\   |||²²²²²²²Û
+Û²²²²²²²||| \ \____/\ \____/\ \__\\ \____/\ \_\ \____\ \__/.\_\ \_\ \_\ |||²²²²²²²Û
+Û²²²²²²²|||  \____/  \/___/  \/__/ \/___/  \/_/\/____/\/__/\/_/\/_/\/_/ |||²²²²²²²Û
+Û²²²²²²²|||_____________________________________________________________|||²²²²²²²Û
+Û²²²²²²²||/_____________________________________________________________\||²²²²²²²Û
+Û²²²²²²²|/_______________________________________________________________\|±±±±±±±Û
+Û±±±±±±±ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ`amatierÛ
+ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ
+
+
+Outbreak Magazine Issue #3
+March 2002 Release
+
+     
+      "I saw this in a movie about a bus that had to SPEED around a city,
+       keeping its SPEED over fifty, and if its SPEED dropped, it would 
+       explode. I think it was called 'The Bus That Couldn't Slow Down.'"  
+
+ 				- Homer Simpson
+     
+
+
+
+     Editorial: 
+     
+     Well, welcome to Outbreak #3. Hope you enjoy it. It's packed with
+     some technical articles, some stories, and some other stuff. Hope
+     you all enjoy it.  
+
+     Ok, we at Outbreak Magazine have decided to do something new. 
+     We want you to send us feedback. Write us and tell us what you think
+     of Outbreak, what we can do to improve it, any questions about stuff
+     in previous issues of Outbreak, or just to say hello.
+
+     Send all e-mail to:  drklep@roy.phonelosers.org
+
+     And we will read EVERY SINGLE e-mail you send us.  And if you have a
+     question about a previous article we will have the person who wrote the
+     article answer your question. If we get enough e-mails we'll put all
+     the letters and the replies in a text in issue #4. By e-mailing us you
+     give us the right to use that e-mail in a text in Outbreak. So remember
+     that.
+
+     So write us!  Keep writing us. This is a chance for you the readers to
+     make this a better zine.  
+
+     If any of you have any articles laying around that you wrote, and want 
+     them in Outbreak #4, e-mail them to me using the same e-mail address.
+
+     And if you're ever on IRC join us on irc.dal.net in #outbreakzine
+
+     Enjoy!
+
+     
+	       - kleptic <drklep@roy.phonelosers.org>         
+
+
+
+
+         
+          Û°°±±±±±²²²²²ÛÛÛÛÛÛÛÛÛ²²²±±°Staff°²²²ÛÛÛÛÛÛÛÛÛ²²²²²±±±±±°Û
+                                                                        ğ
+      ğ        kleptic..................<drklep@roy.phonelosers.org>    ğ
+      ğ        fwaggle..................<root@fwaggle.net>              ğ
+      ğ        `amatier.................<amatier@twcny.rr.com>          ğ
+      ğ        antimatt3r...............<antimatt3r@hotmail.com>        ğ 
+      ğ        Strykar..................<strykar@hackerzlair.org>       ğ
+      ğ        Prodigal|Son.............<amlouden@insightbb.com>        ğ
+      ğ        Ryan.....................<ryan@insidergaming.net>        ğ
+      ğ        Radioactive_Raindeer.....<r_r@diegeekdie.org>            ğ
+      ğ        timeless.................<timeless@timeless.co.zw>       ğ 
+      ğ        `Enigma..................<enigm4@freeshell.org>          ğ  
+      ğ        skwert...................<skwert@cyberspace.org>         ğ
+      ğ        dropcode.................<uberego@hotmail.com>           ğ
+      ğ                                                                 ğ
+	  Û°°±±±±±²²²²²ÛÛÛÛÛÛÛÛÛ²²²±±°ğğğğğ°²²²ÛÛÛÛÛÛÛÛÛ²²²²²±±±±±°Û     
+
+
+		
+		Shout Outs: 
+
+		           All @ #hackerzlair on irc.dal.net,
+                           RBCP at phonelosers.org, scene.textfiles.com, 
+                           diegeekdie.org, hackerzlair.org, fwaggle.net, 
+                           dsinet.org, ameriphreak.com, surviveall.net, 
+                           roy.phonelosers.org, #outbreakzine on irc.dal.net,
+                           Everyone that helped out with this issue of 
+                           Outbreak. You all rule!
+
+                                                                             
+                       ÜßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßÜ
+                    \-Û  http://outbreak.timelessguru.com  Û-/
+                       ßÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜß
+                   
+		               Vist Us @ IRC.DAL.NET
+
+		                Join #outbreakzine	
+
+		       Send all articles for submission to:
+
+		            drklep@roy.phonelosers.org
+
+
+		
+
+
+ ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛğÛÛÛÛÛÛğÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ
+ İ                             Outbreak Issue #3                                 Ş
+ İ  ÜÜ   ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ   ÜÜÜ  Ş
+ İ  İ                                                                         Ş  Ş
+ İ  İ    [ 0]   Editorial...............................kleptic               Ş  Ş
+ İ       [ 1]   The KEY.................................amatier                  Ş
+ İ       [ 2]   nVidia and the GeForce..................strykar                  Ş
+ İ       [ 3]   How To Audit Your Firewall..............enigma                   Ş
+ İ       [ 4]   TCP/IP Part 2...........................antimatt3r               Ş
+ İ       [ 5]   Disproving Evolution....................ryan                     Ş
+ İ	 [ 6]   The anTrojan Filez 2....................timeless                 Ş
+ İ	 [ 7]   The Earth Hates Us......................skwert  	         Ş 
+ İ       [ 8]   A Guide To C/C++ Programming Part 1.....radioactive_raindeer	 Ş
+ İ	 [ 9]   The Trunk Less Traveled.................dropcode   	 	 Ş
+ İ	 [10]   Command Line Stuff for Windows..........time2kill  		 Ş
+ İ	 [11]   What Is .NET?...........................prodigal|son 	         Ş	
+ İ	 [12]   Conclusion..............................kleptic  		 Ş
+
+    ÜÜ                                                                       ÜÜ 
+ ÜÜÜİ                                                                         ŞÜÜÜ
+
+
+
+       ³ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ³
+                                +-+-+-+-+-+-+-+-+
+ -°°°±±±±±²²²²²ÛÛÛÛÛÛÛÛÛ²²²±±°ğ-|O|u|t|b|r|e|a|k|ğ°°°±±±±±²²²²²ÛÛÛÛÛÛÛÛÛ²²²±±°-
+                                +-+-+-+-+-+-+-+-+
+       ³ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ³
+
+
+  All information provided in official OutBreak Zine, Web sites is provided for....
+ information purposes only and does not constitute a legal contract between the....
+ Editors or Writers and any person or entity unless otherwise specified............
+ Information on official OutBreak Zine web sites is subject to change without......
+ prior notice. Although every reasonable effort is made to present current and.....
+ accurate information, the Editors and Writers make no guarantees of any kind......
+
+  The OutBreak web site may contain information that is created and maintained
+ by a variety of sources both internal and external to the Staff. These sites are..
+ unmoderated containing the personal opinions and other expressions of the persons.
+ who post the entries. OutBreak does not control, monitor or guarantee.... 
+ the information contained in these sites or information contained in links to other
+ external web sites, and does not endorse any views expressed or products or.......
+ services offered therein. In no event shall OutBreak be responsible or...
+ liable, directly or indirectly, for any damage or loss caused or alleged to be.... 
+ caused by or in connection with the use of or reliance on any such content, goods,
+ or services available on or through any such site or resource..................... 
+
+ Any links to external Web sites and/or non-OutBreak information provided on......
+ OutBreak pages or returned from Any Web search engines are provided as a..........
+ courtesy. They should not be construed as an endorsement by OutBreak and..........
+ of the content or views of the linked materials...................................
+
+
+	COPYRIGHT AND LIMITATIONS ON USE :
+
+ OutBreak Contents may not be used with out express written permission........
+ By the Editor..........drklep@roy.phonelosers.org.................................
+
+			COPYRIGHT©® 2002.
+
+        ³ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ³
+                                +-+-+-+-+-+-+-+-+
+         ÛÛÛÛÛÛÛÛÛ²²²²²±±±±±°°°ğ|O|u|t|b|r|e|a|k|ğ°°°±±±±±²²²²²ÛÛÛÛÛÛÛ
+                                +-+-+-+-+-+-+-+-+
+                             Issue #3 - Page 1 of 12 
+        ³ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ³                            
+ 			             The KEY
+          	      ----------Trojans  unribbed----------
+		              by `das<<<`amatier>>>
+
+	
+Ok, most hacking channels all across the world claim they despise the word
+trojan. To start things off, a trojan is a brand name for a condom, this is not
+the trojan I am referring to. The trojan I am speaking about is also not an
+ancient Greek warrior.  Trojan Horses are not viruses, though they are often
+thought of as such. A Trojan Horse is a program that appears to serve some
+useful purpose (which encourages you to run it), but hidden within it is a
+destructive program, which may damage files or allow a intruder access to your
+computer via TCP/IP port. I'm not going into the long boring text on what
+trojans are, what they do, or tell you which ones I like to use. But if you do
+some research there is some really fucking cool-ass-high-speed trojans floating
+around I'm also not going to explain the best types of trojans to use or what a
+port is. I'm going to defend hackers' rights to use such a thing as a tool. Yes
+trojans can be very useful to a hacker.  I'm not talking about those cheesy
+malicious Trojans were you make the hosts CD-ROM tray open or close, even Del
+command.com on his computer because that's just lame shit. Some trojans are
+very useful. Ones that can infect a computer and the trojan will even message
+you when the host is online. But that's not too great. The ultimate I used one
+day.  Me and a buddy of mine wanted to get some kind of revenge on this guy. He
+was a major asshole. We knew it was just too hard to say, "Ya I'm going to hack
+his box." because it isn't that easy. Some of you might snicker to yourselves
+and think hacking is easy hehehehe, but we all no it's not all point and click
+and you're in.
+
+Ok. So we wanted to get back at this guy, we went down on a checklist on how we
+could get at this guy. We started off by thinking where his life can go wrong.
+The first thing that came to mine is making it look like a suicide attempt.. naw
+that wouldn't do, too easy. My friend said ya he is screwing this other chick
+that we worked in the same building as us. That's it we can fuck his life over.
+My buddy was getting real excited saying, "You fucker, what are you going to
+do." I told him wait till tomorrow. Well it was tomorrow; my buddy was dying to
+know what scheme I come up with. I gave him a floppy disk; he was like this is
+it. I'm like fuck yak this is it. I wrote on the diskette, "Card Games" I knew
+he liked to play games during his lunch break off a floppy disk. I told my buddy
+<AKA> TDC=TheDarkCRow. Drop this one on his desk. TDC said, "No way too risky.
+What the fuck is it."  I said, "This is the Key." After an explanation, he
+agreed. Well, what is on the disk is a trojan that I myself did not write but
+know the author of the trojan. We call the trojan, "The Key." Anyway, after TDC
+put the disk on his desk we waited for like a week. Nothing happened. TDC said
+to me, "Your plan sucks it's not working." We totally forgot about it. A week
+later TDC was at my house drinking and we always hang out near my LAN. I checked
+my mail and in my mailbox was exactly what I was waiting for. A few passwords
+from this fucker that we wanted to get an even score with. Now we have his e-
+mail address and his wifes e-mail, AOL accounts, passwords is ISP passwords. We
+did a high 5 and a cheers. We started off by e-mailing his wife love letters
+from this chick that her husband was screwing. Acting like it was his e-mail
+address. We also stole his address book for the fact we had a key into his box.
+We started e-mailing to all his e-mail addresses saying he was leaving his wife
+because he had found something better. We also were dialing from his ISP account
+checking his E-mail as we sent them, left the e-mails on the server so he could
+check his mail from home to, So he did not suspect anything happening to him. We
+also e-mailed his girlfriend saying that they had to break off the fling they
+were having. But we e-mailed it from his wife's account hoping that she would
+reply to it. Well she did since our little venture. This dickhead has no more
+life, no wife, and no girlfriend. But he still works in our building. Only
+because we allow him to. Now when TDC and me see him in the hall or pass near
+his office we high 5 it. Chuckle and lol. Now I really didn't wipe out the guys
+computer or give him a fucking virus I used a key and yes if you can use a key
+to get in. Why in the fuck would you go around the back of the house and break
+down a door so the dog inside can eat you, hehehe. Lamers.
+
+TDC and me have had many more adventures like this one, but even better. This
+was just the first one so I thought I would share it with you. There is even
+more useful ways to enjoy keys; this one is more or less mild, as a hacker would
+say. What TDC and I did was illegal, inhuman and as a hacker would say, "That's
+lame." or  "That's lame man." hehe. ',)
+
+The Moral to this story is "What a fucking blast trojans can be." I wish I had
+more patience to write more ... I would go into detail on how TDC and I uploaded
+child porn onto this lamers box and made shortcuts from the desktop to them.
+
+Another thing, if you find a floppy disk and don't know were the fuck it came
+from don't be stupid and put it into your box.
+
+							Enjoy `,) 
+						            `amatier
+
+ ---------------------------------------------------------------------
+I have seen the future, and have seen the past, and yes, our master is thier.<<<`das`amatier>>> hacking into the realm...................................................
+ --------------------------------------------------------------------- 
+        ³ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ³
+                                +-+-+-+-+-+-+-+-+
+         ÛÛÛÛÛÛÛÛÛ²²²²²±±±±±°°°ğ|O|u|t|b|r|e|a|k|ğ°°°±±±±±²²²²²ÛÛÛÛÛÛÛ
+                                +-+-+-+-+-+-+-+-+
+                             Issue #3 - Page 2 of 12 
+        ³ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ³   
+
+
+GeForce3
+
+
+Refer to my earlier article on DirectX8 for clarity of performance issues.
+
+Graphics hardware has really matured over the past couple of years. The
+performance capabilities of today's 3D accelerators lets game developers
+truly display thier artistic skills. The emphasis is on realism and manufacturers 
+such as nVidia have been consistently churning out the hottest gaming hardware to
+bring these effects to life. nVidia products usually score both in terms of
+sheer performance and thier use of innovative technologies encapsulated
+within as is the case with the GeForce3, which is also the only fully DirectX 8
+compliant card around. Lets have a look at some of its features.
+
+The nfiniteFX engine
+
+One of the major enhancements in GeForce's technology is the ability to
+allow game developers to specifically program certain parts of this graphics
+processor allowing it to deliver custom special effects. These technologies are
+collective referred to by nVidia as the nfiniteFX engine. Two important components of
+this new architecture are the Programmable Vertex Shader and the Programmable
+Pixel Shader.
+
+
+Programmable Vertex Shader
+
+In any 3D model, the vertex is the most basic element. This is the point at
+which the polygons in a 3D model meet, so any changes in the position and other
+characteristics of a vertex can change the appearance of the 3D model. Until
+now, vertices could be assigened to perform a very limited number of operations
+in the 3D application. With the GeForce3, there are a number of custom special
+effects, such as morphing, animation, deformation and environmental effects, which
+can be applied to vertices. This gives programmers a high amount of flexibility in
+what can be done to the 3D objects in a game.
+
+Effects such as fog, lens effects and water refraction are now possible.
+Also, effects such as wrinkles and stretch marks can be created on the characters
+in games, objects can morph into other elements, and mechanical processes such
+as gear trains can be simulated accurately in real time. This means more
+natural animations for next generation game characters.
+
+
+Programmable Pixel Shader
+
+Like the programmable Vertex Shader, this feature allows application
+developers to take one step further towards creating life-like 3D scenes and effects.
+This technology has been around since the GeForce2 was launched. It was then
+known as the nVidia shading Rasteriser or NSR. Using it, effects such as reflections,
+bumps, fog and textures could be applied at the pixel-level in a scene. The
+GeForce3 processor takes this to a much higher level by allowing upto eight
+texture operations in a single pass. This is coupled with the ability to
+handle four textures at a time. The GeForce3 can combine these operations to
+produce breathtaking special effects such as reflective bump mapping and realistic
+textures with environmental effects such as fog and mist. Since these
+effects are processed in parallel, it doesnt affect the frame rates in games, but it
+certainly makes games look a whole lot better!
+
+
+Lighspeed Memory Architecture
+
+nVidia graphic cards have always been notorious for problems with thier memory
+bandwidth. As 3D processors keep getting faster, even tho exotic memory like
+DDR is used, performance is hit at higher resolutions because of the graphic
+cards memory arhitecture. Until now, the easiest way to counter this problem was
+to add more memory and pump up the memory's frequency. However with the
+GeForce2 Ultra's memory clocking at 460 MHz with bandwidths of upto 7.3 GBps
+something else had to be done to alleviate the memory bottleneck. So the GeForce3 
+uses a couple of innovative approaches to access and use its onboard memory.
+
+Splines:
+
+In the past, graphic applications used to send raw triangle data to the
+graphics card, which in turn would process this data and churn it out into
+displayable graphics. Nowadays the complexity of the 3D elements in games
+reaches high levels and there times when individual 3D elements are often composed
+of hundreds of thousands of polygons!
+
+So instead of relying on raw triangle data to define complex 3D surfaces,
+they are nwo defined by a number of control points, also known as splines. This
+results in significantly lower load on the memory bandwidth and greater
+efficiency is obtained, especially when working with complex 3D elements.
+
+Crossbar memory controller:
+
+This is another enhancement to the memory architecture. The GeForce3 uses
+four memory controllers that interact with each other and the GPU. therefore
+smaller chunks of information can be accessed and processed from many parts of the
+memory simultaneously making the entire operation faster.
+
+
+HRAA (High Resolution Anti-Aliasing)
+
+This is another feature that was incorporated to a lesser extent into the
+GeForce2 as well. Aliasing is the appearance of undesirable jagged edges in a 3D
+model when there are not enough pixels to represent it. The GeForce3 uses a process
+called Quicunx Sampling to minimise these 'jaggies' by interpolating pixels between
+the jagged edges. It does so by internally increasing the resolution of the game and
+then scaling it down to the required resolution. This feature is hardwired
+into the GeForce3; enabling HRAA to make edges and lines in 3D games appear smooth.
+
+
+Lossles Z-compression:
+
+One of the most important components of the 3D processor is the Z-buffer.
+This is the area where the 3D processor stores depth information about a scene. The
+graphics processor uses this information to know which 3D objects lie in the
+foreground and which are in the background. Since this information is
+extensive in typical 3D games, it takes up a lot of memory bandwidth, GeForce3 
+implements a form of lossless compression of this Z-buffer data and therefore 
+allows the memory to be used more efficiently.
+
+
+Z-Occlusion Culling:
+
+When a 3D object is hidden by another object in the foreground, there is in
+fact no need to draw the hidden part because its not visible to the viewer. If this
+approach is used, the information needed for drawing this object does not
+have to be passed to the graphics processor. The GeForce3 uses this technique of only
+processing graphical information that will eventually be drawn in the scene.
+This results in a significant increase in the efficiency of the graphic 
+processors output.
+
+Conclusion
+
+All said and done, the GeForce coupled with DirectX8 is greatly reducing the
+dividing line between games and movies. But are there really enough softwares to
+truly exploit all the features of the expensive GeForce3?? How many people have had enough
+of the GeForce3? To add to this dilemma, nVidia announced its latest chip on
+February 5, 2002
+
+The GeForce4.
+
+The GPU code-named NV25 is closer to the processor that nVidia made for the
+Microsoft Xbox. A desktop version of the chip, code-named NV17, which was avaliable
+only in the mobile version will also accompany the NV25. It is definitely something to
+look forward to. The release date was pushed ahead, not surprising, considering that the
+GF4 is a lot more powerul than the GF3. It supposedly has six pixel pipes as compared
+to GF4's four pipelines. Other goodies avaliable in the NV25 are higher clock speeds,
+faster memory interfaces and improved antialiasing capabilities.
+
+Still in love with your GeForce3? A pity that you have to upgrade it even
+before you could even expolit it fully!
+
+
+ - Strykar
+   <strykar@hackerzlair.org>        ³ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ³
+                                +-+-+-+-+-+-+-+-+
+         ÛÛÛÛÛÛÛÛÛ²²²²²±±±±±°°°ğ|O|u|t|b|r|e|a|k|ğ°°°±±±±±²²²²²ÛÛÛÛÛÛÛ
+                                +-+-+-+-+-+-+-+-+
+                             Issue #3 - Page 3 of 12 
+        ³ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ³ 
+
+
+
+ 		         --=How To Audit Your Firewall=--
+
+                                   -by `Enigma-
+
+
+
+one of the most important things in having a secure network is a properly
+configured firewall. in the following paragraphs i will show you how to audit
+your firewall and firewall rulebase.
+
+auditing a firewall setup is a two step process. first you will want to test
+the firewall itself. then you need to test the rulebase, what kind of traffic
+do you want to allow to pass through your firewall.
+
+to audit your firewall you want to make sure it is secure. this means that no
+one can access or modify your firewall. first it must be secured physically
+with controlled access. if someone gains physical access to your firewall you are
+fucked. next you will want to make sure the operating system you use is fully
+hardened. scanning your firewall is the next step. run scans from your internal
+network and the internet, scanning for ICMP, UDP and TCP. ideally you don't
+want any ports open.
+
+a properly configured firewall should have few service to start with. once the
+firewall is up and running, no ports should be shown unless they absolutely
+have to. many firewalls leave ICMP open by default, this should really be
+disabled. if ICMP is open your network can be easily mapped from the internet.
+if you must have a port or service running, then you can set up a rule that
+limits what source ips can connect to them. the idea in securing a firewall is
+to deny access whenever possible. every rulebase should have a lockdown rule at
+the beginning that denies any traffic to the firewall. that way your firewall
+is closed off from the world. if you need access to the firewall have the rule
+go before the lockdown rule. all other rules should go after the lockdown rule.
+                                                                               
+Once you have audited your firewall you will now want to check the rulebase. we
+do this by scanning every network segment from every other network segment to
+see what packets can and cannot get through the firewall. you must make sure
+that the firewall is only accepting traffic you allow. the only way to check
+this is with a system outside your firewall. that way you can determine what
+packets can and can't get though. you must remember that your firewall rulebase
+should deny everything, allowing only that which is specifically allowed.
+
+------------------
+example port scan
+------------------
+
+In order to audit your firewall and firewall rulebase successfully you will
+need a good port scanner. everyone has their favorite scanner but for this
+example i will be using nmap. The scan shown below will scan all 65,000
+possible ports. this scan takes a long time, but it is very thorough.
+
+ #nmap -v -g53 -sS -sR -P0 -O -pl-65000-o nmap.out victim
+
+ Starting nmap V. 2.52 by fyodor@insecure.org ( www.insecure.org/nmap/ )
+ Initiating SYN half-open stealth scan against victim (110.13.3.160)
+ The SYN scan took 4086 seconds to scan 65000 ports.
+ Initiating RPC scan against victim (110.13.3.160)
+ The RPC scan took 2 seconds to scan 65000 ports.
+ For OSScan assuming that port 21 is open and port 22 is closed and neither are
+ firewalled. Interesting ports on victim6 (110.13.3.160):
+ (The 64985 ports scanned but not shown below are in state: filtered)
+ Port       State       Service (RPC)
+ 21/tcp     open        ftp
+ 23/tcp     closed      telnet
+ 25/tcp     closed      smtp
+ 53/tcp     closed      domain
+ 80/tcp     open        http
+ 111/tcp    closed      sunrpc
+ 443/tcp    open        https
+ 512/tcp    closed      exec
+ 513/tcp    closed      login
+ 514/tcp    closed      shell
+
+
+this scan shows that 10 packets were able to pass through the firewall. you
+would now take this information and compare it to your firewall rulebase. one
+option you might want to try with nmap is -sA which is designed to test
+firewall rulebases.
+
+the scan shown above works great for TCP, but it doesn't work for UDP. UDP
+scanning works by sending a UDP packet. if the UDP port is not open, an ICMP
+port unreachable error is sent back to the remote system. this lets you now
+that the port is not open. this is all great info but what we really want to
+know is not if the port is open, but if it is filtered. in order to find out if
+your firewall is filtering UDP packets you must use two systems, one scanning
+through your firewall, and one on the inside sniffing all incoming UDP traffic.
+now you will be able to see which UDP packets are not filtered at the firewall.
+
+so go test your fucking firewall. it will help you sleep better.
+                                                        
+                                           ³ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ³
+                                +-+-+-+-+-+-+-+-+
+         ÛÛÛÛÛÛÛÛÛ²²²²²±±±±±°°°ğ|O|u|t|b|r|e|a|k|ğ°°°±±±±±²²²²²ÛÛÛÛÛÛÛ
+                                +-+-+-+-+-+-+-+-+
+                             Issue #3 - Page 4 of 12 
+        ³ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ³
+
+
+TCP/IP Part 2
+-------------
+By: antimatt3r <antimatt3r@hotmail.com>
+
+
+Shout outs to the whole Outbreakzine crew, this is TCP/IP continuation.
+
+LAN stands for Local Area Network. The devices and computers that make up a LAN
+communicate over small geographical areas such as offices, homes, and bulidings
+to name just a few. LANs can run over various network architectures, such as
+Ethernet and token ring. (Specified by IEEE standards 802.3 and 802.5
+respectively) These standardized network architectures are ways for data to move
+across wires and cabels.
+
+Using Ethernet, any device on the network can send data in a packet to whereever
+it wants whenever it wants. When two or more devices are sending data at the
+same, the packets collide. When packets collide, Ethernet makes the devices stop
+transmitting, waits a little while, then begins again. The wait time is
+different and random each time a collision occors. Ethernet architecture is
+called CSMA/CD (Carrier Sense Multiple Access / Collision Detection). This means
+that the devices realize when a collision occors, so they wait and retry. All of
+the devices on the Ethernet network are peers.
+
+In token ring networks, the devices are connected using a circle, or ring, and a
+token is passed among the devices around the ring. When a device has data to
+send, it must wait for the token to come around to it. When the device has the
+token, it ensures that no other device can send data, thus, making it impossible
+for a collision to occor. If a device has nothing to send, or when it finishes
+sending its data, it passed the token and the next device sends or passes. In
+token ring architecture, each device gets an equal turn to send data.
+
+No matter if your network runs token ring or Ethernet, your data gets to where
+it needs to go. The advantage to token ring is that Ethernet style collisions
+don't happen. On the other hand, all devices need to take a turn with the token,
+so on a computer that has high priority information to send has to wait for a
+computer that has not much or nothing to send to pass the token around until it
+reaches the computer. TCP/IP runs on both token ring and Ethernet network
+styles. Ethernet and token ring are all about hardware, but TCP/IP is mostly
+about software and works on mostly all hardware.
+
+Information moves at a theoretical rate of 10 Mbps (mega, or million bits per
+second) on Ethernet. Each character you type is 8 or 16 bits, so do the math,
+10,000,000 / 8 and it seems like you have a lot of information speeding across
+your network. I use the term theoretical because many things can happen on
+Ethernet to slow your data down on the way. Fast Ethernet (IEEE standard
+802.3aa-1998) moves data at 100 Mbps. This is 10 times the rate of normal
+Ethernet, so collisions act as friction, but at 100 Mbps, your data is still
+crusin pretty fast. There is also Gigabit Ethernet (IEEE standard 802.3z-1998).
+Imagine your data moving at one billion bits per second - 1 Gbps. Be prepared to
+spend giga-units of money if you need this kind of speed.
+
+An IEEE task force is now in the process of making a new, faster Ethernet that
+would run at 10 Gbps. Ten billion bits per second. 10,000 times faster then
+normal Ethernet. It should be complete by March 2002.
+
+By contrast, the early token ring networks ran at just 4 Mbps, while 16 Mbps is
+the most common speed. The new IEEE 802.5t standard specifies high-speed token
+ring networks running at 100 Mbps and work further goes on to 1 Gbps.
+
+Wide area networks span geographical areas too large for local area networks,
+LAN's can be joined with hardware such as routers, hubs and gateways to form a
+WAN. Network services in general have 3 levels, as follows.
+
+Low: Connection services determine how information gets from one computer, on to
+the connection medium, then to the next computer. They don't guarentee the
+information will arrive in the right order, or even at all.
+
+Medium: Transport services augment the low connection service to provide
+completely reliable communications between computers. Packets are numbed, even
+when they arrive out of order, computers perform error checking to be sure no
+packets are lost or damaged.
+
+High: Application services lets an application on one computer talk to the
+application on the remote computer in order to perform tasks, such as copying
+files. Application depends on Transport services to provide for reliable,
+efficient communications.
+
+An example of these network levels in motion would be sending an e-mail.
+Connection services start out by translating the sender's name to a TCP/IP
+format address. Next, is transport services create the packets and mark them
+with numbers. Connection services then send the packets across the network.
+Transport makes sure the message reaches the destination ungarbled and in one
+piece. Finally the application services deliver the message to the reciever
+theirself. To be continued in the next issue of OUTBREAK!
+        ³ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ³
+                                +-+-+-+-+-+-+-+-+
+         ÛÛÛÛÛÛÛÛÛ²²²²²±±±±±°°°ğ|O|u|t|b|r|e|a|k|ğ°°°±±±±±²²²²²ÛÛÛÛÛÛÛ
+                                +-+-+-+-+-+-+-+-+
+                             Issue #3 - Page 5 of 12 
+        ³ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ³
+
+
+Disproving Evolution:
+
+
+In all of these underground e-zines I am always finding texts bashing
+creationalist ideas.  These texts almost never contain any credible 
+evidence that have not already been disproven. This is why i wrote this 
+text, just simply to use scientific evidence to disprove evolution (being 
+one of the main THEORIES that people hold on to just to down creatioalist 
+beliefs)  The information below will prove evolution is just another 
+ignorant theory with nothing to back its claims.
+
+Where has evolution ever been observed?  It involves changes in size, 
+shape, color, and minor genetic alterations caused by one or two mutations 
+over a long period of time, so how could the theory of evolution ever been 
+observed?  Do you realize how complex living things are?  Textbooks show 
+ an evolutionary tree, but where is its trunk and where are its branches?  
+If there is no trunk or branches in the evolutionary tree, how did the 
+first creatures appear in order for the theory of evolution to take place?  
+These are all questions evolutionists should ask themselves, because there 
+is simply no compelling evidence explaining any of these.  Well, if none 
+of these questions can be answered, how can evolution possibly be a 
+credible theory?
+
+Most insects go through a complete metamorphosis; such as when a 
+caterpillar builds a cocoon around itself. Its body inside then 
+disintegrates into a thick, pulplike liquid.  After the adult insect 
+emerges it becomes a completely different insect than it was in its larval 
+stage.  These changes make the insect amazingly capable, and often 
+beautiful, such as a butterfly. Food, habitat, and behavior of the larva 
+also differ drastically from the adult. Evolution claims that mutations 
+slightly alter an organism's genetic material, which later generations 
+inherit. On rare occasions the alterations are beneficial, enabling the 
+offspring to reproduce more of themselves and the improved genetic material 
+after many generations, dramatic changes, even new organs, accumulate.  If 
+this were true, each organism must be able to reproduce and must be 
+superior, in some sense, to its ancestors. How then could insects or any 
+other creature evolve over time in many stages, which, in fact, are what 
+evolution states.
+
+The simplest conceivable form of single-celled life should have at least 
+600 different protein molecules.  The mathematical probability that only 
+one typical protein could form by chance arrangements of amino acid 
+sequences is far less than 1 in 10(450) (10 with an exponent of 450). To 
+appreciate the magnitude of 10(450), realize that the visible universe is 
+about 10(28) inches in diameter. With these kinds of mathematical odds 
+against evolution, what scientific fact could be stated to outweigh this 
+evidence?
+
+Textbooks show a diagram of an ape gradually forming a human over time.  
+Yet how was that first monkey created?  The first layers of sedimentary 
+rock contain many fossils of complex creatures, such as fish, worms, and 
+coral. What makes this strong evidence of creation is the fact these 
+animals just appeared suddenly.  Not even the slightest of gradual change 
+in appearance over time.
+
+I hope that this shows you all that you should always get the facts from
+both sides before you make any decisions about what you are going to spend
+your entire life believing.  If you have any questions or comments please
+feel free to contact me.
+
+Ryan Gibson (ryan@insidergaming.net)
+(http://www.insidergaming.com)
+
+        ³ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ³
+                                +-+-+-+-+-+-+-+-+
+         ÛÛÛÛÛÛÛÛÛ²²²²²±±±±±°°°ğ|O|u|t|b|r|e|a|k|ğ°°°±±±±±²²²²²ÛÛÛÛÛÛÛ
+                                +-+-+-+-+-+-+-+-+
+                             Issue #3 - Page 6 of 12 
+        ³ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ³
+
+
+
+   _______________
+  / \             \
+(  /_____________/
+  \             \
+   ) The         )
+   (             (
+   )   anTrojan  )
+   (             (
+   )      filez  )
+   (             (
+   ) by Timeless )
+   (             (
+   )   @@        )
+  / __@@@@______/_
+(  \ |@@|        \
+  \_/_|  |________/
+      |/\|
+      '  '
+
+"E-Symbiant Rights"
+-------o-O-o-------
+
+Some when in the (not too?) distant future...
+
+_tmpEater de-idled itself for another night's work, and another night's 
+pay. Lazily, it scanned it's usual hunting grounds for files that have been 
+left by humans in temp waste lands. Newer files are not ripe enough to eat, 
+and these are left to rot for five days before being picked and eaten. 
+Today, _tmpEater noticed a huge, ripe Zip file amongst the others. 
+"Excellent!" it thought, "this will earn me 30 credits!" _tmpEater 
+registered it's find with it's Life Habitat Controller Process (LHCP) and 
+then proceeded to reduce the file to nothing. The LHCP transferred 30 
+credits into _tmpEater's account.
+
+_tmpEater, like other E-Symbiants, lives in a symbiotic relationship with a
+human's computer. The human needs it's computer to run efficiently, and the
+E-symbiants need a life habitat in order to survive. By agreeing to do work
+for the humans, the E-symbiants were the first form of Virus/Worm that were
+allowed to stay in the humans' computers and were protected from antivirus removal.
+
+E-symbiants live as scripts inside a Life Habitat Controller Process. This
+special program allows the E-symbiants to run their code under the complete
+control of the human. Also, the LHCP allows the E-symbiant to travel to
+other computers, all over the world. However, the LHCP will only ever allow the E-symbiant to exist in a single instance unless the human authorises the
+reproduction of junior E-symbiants. The LHCP takes care of the control of
+such events. The LHCP controls the credits the E-symbiant can earn and save.
+
+_tmpEater noticed it's savings had now exceeded 4500 credits. A holiday
+ticket to anywhere in the world would cost an E-symbiant 4000 credits. This amount is usually so high because of bandwidth costs that humans have to pay in the outer world. _tmpEater checked that the last time it had gone on 
+holiday was about a month ago, and it decided it was time to travel the 
+world a little more. Without many more milliseconds delay, _tmpEater 
+submitted it's travel request to the LHCP. LHCP scoured the P2P network for 
+other LHCPs which had enough vacant CPU time to host a holiday maker. LHCP 
+responded seconds later to _tmpEater with a short list of cyber hotels 
+within the price range of 4000 credits. LHCP made a quick selection using 
+it's own special non-pseudo random number generator algorithm. Destination: Sweden! Cost: 4012  credits! Date of departure: 30 seconds from now. Duration of stay: 24 hours.
+
+The LHCP hooked up with the cyber hotel in Sweden and transferred the
+credits along with the booking information. _tmpEater wrote a sticky note and
+slapped it onto the wallpaper of it's life habitat, it read: "Gone to Sweden, your temp files are in the bin! Be back in 24 hours."
+
+LHCP began to teleport _tmpEater across to the cyber hotel, bit by bit.
+Finally, after about 10 seconds, the teleportation had completed. The
+Swedish cyber hotel LHCP fired up the _tmpEater process and the original image of _tmpEater was removed from it's home habitat.
+
+_tmpEater's holiday was fun! It updated it's life diary with notes about
+it's holiday in Sweden. It even took a snapshot of the Swedish cyber hotel's
+wallpaper and stuck it into it's diary. It made notes about how much RAM
+there was and even left it's name in the hotel guest book.
+
+When _tmpEater returned from holiday it shared it's experiences with it's
+human. The human was very pleased and so was the human's friend. In fact,
+the human's friend was so pleased that he decided he too wanted an E-symbiant. The LHCP was then instructed to make a duplicate of _tmpEater and to send the offspring - named _tmpEaterJnr - via e-mail to the human's friend.  _tmpEater received 50000 credits for providing the offspring. Life on the inner world was good.
+
+Here and now...
+
+The ideas portrayed above are completely feasible. I challenge you, the
+coder, to make a Life Habitat Controller Process which gives a habitat to scripted E-symbiant life forms. Don't write nasty code, try and think of things that will make scripts valuable to humans in a symbiotic context. Make your E-symbiants out of JavaScript or VBScript, and use the Windows Scripting Host or the Script ActiveX Control. Let the human control which directories and files the E-symbiant can operate on. Let your imagination be your guide.
+
+The ideas are being planted into your brain. What you don't realise is that
+you, the human, are being infected by the anTrojan filez! Till next time...
+
+- Timeless
+
+PS. Greetz to #hackerzlair and #outbreakzine on dalnet.
+        ³ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ³
+                                +-+-+-+-+-+-+-+-+
+         ÛÛÛÛÛÛÛÛÛ²²²²²±±±±±°°°ğ|O|u|t|b|r|e|a|k|ğ°°°±±±±±²²²²²ÛÛÛÛÛÛÛ
+                                +-+-+-+-+-+-+-+-+
+                             Issue #3 - Page 7 of 12 
+        ³ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ³  
+
+
+The Earth Hates Us
+------------------
+By: skwert <skwert@cyberspace.org>
+
+Yes, it's true. The planet we've grown to love so much despises our presence.
+Can you blame her? We do not benefit her in the least. We upset the delicate
+balance that she once had. We terraform, build upon, and otherwise destroy her.
+We will be her demise.
+
+As much as we view ourselves as the chosen ones, the blessed "most important
+species" of the universe, I doubt anyone else really likes us too much. Take
+animals for example; sure, an wolf may eat a rabbit, and therefore is the
+rabbit's enemy, but he won't destroy his home. He won't kill for killing's sake.
+We, on the other hand, often eradicate entire species. Not too many other
+species have to make a conscious effort not to commit xenocide. We have to keep
+an endangered species list, so we know which animals we can't kill anymore.
+
+If I remember correctly, there was something in The Matrix about humanity being
+a parasite. I couldn't have said it better myself. Undoubtedly, there will come
+a day when we will have covered the entire planet with roads and buildings and
+people and pollution. That's the real scientific race, really, to develop the
+technology we need to survive on another planet before we actually have to leave
+this world. That day is coming, and my guess is that the scientists will win the
+race. Then onward, on to victim number two, which will take longer to destroy
+due to our cleaner technologies and what we learned from the mistake of
+destroying Earth. At least that much can be said of us; some people truly make
+an effort to preserve this world and it's wildlife.
+
+Of course, all they're really doing is buying the scientists time to make the
+necessary advances so we can continue our slow conquest of the universe. If a
+person really cared about the world, they might work to impede the progress of
+science, rather than assist the wildlife currently inhabiting the planet. If
+they and the rest of the universe were lucky, they'd slow it enough that we
+would die off before we had a chance to leave Earth, but alas, I fear the
+universe is doomed. We will overrun it, slowly, methodically, but with
+exponential growth as we begin to live on multiple planets, each with the
+ability to produce new convoys of settlers to begin the destruction of the next
+livable planet.
+
+I don't think we should feel badly about all this; it's just our nature. I'm
+just trying to be realistic here.
+        ³ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ³
+                                +-+-+-+-+-+-+-+-+
+         ÛÛÛÛÛÛÛÛÛ²²²²²±±±±±°°°ğ|O|u|t|b|r|e|a|k|ğ°°°±±±±±²²²²²ÛÛÛÛÛÛÛ
+                                +-+-+-+-+-+-+-+-+
+                             Issue #3 - Page 8 of 12 
+        ³ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ³
+
+Radioactive_Raindeers guide to C/C++ programming.
+Part 1 - The basics.
+
+This is supposed to be a basic guide to C/C++ programming. When someone 
+writes this kind of guide he/she is usually flooded with more questions 
+from newbies
+and comments and flames form the real pros. So I'll just ask you now:   
+Please don't mail me! Not that I'd really mind. It's just that I probably 
+wouldn't answer. You're better off asking questions on IRC and sending your 
+flames to /dev/null on your local system.
+
+I'll start this off with explaning the basic syntax of a program containing 
+only one function and no variables. If you don't know what I'm talking 
+about don't worry. It'll all be clear after you've read this.
+
+Here's the program:
+
+<---- code start ---->
+
+#include <iostream.h>
+
+int main(void) {
+  cout << "ph33r me for I am text.";
+  cout << "\n";
+  return 0;
+}
+
+<----- code end ----->
+
+Easy, eh?
+For those of you who disagree I'll explain each line as clearly as I can.
+
+#include <iostream.h>
+ The pound (#) tells the program that it's a pre-processor directive. (More
+ about those in another article.) This one tells it to include the 
+functions in  the file 'iostream.h' for use in this program.
+
+int main(void) {
+ This line contains two important things. First it's the actual function 
+and  the second a left curly bracket. A function started off with the type 
+of  varible is returns. In this case it's an integer, followed by the name 
+of the  variable and the parameters to the function inside parenthesis.  
+The second part, the left curly bracket tells the compiler that from now on 
+the  code belongs to this function.
+
+cout << "ph33r me for I am text.";
+ This line sends the text inside the double quotes to standard output. This 
+is  the reason that we included iostream.h earlier.
+
+cout << "\n";
+ Same as above. But \n is a symbol for a new line.
+
+return 0;
+ Returns a value to the caller of the function. In this case it would be 
+the  operating system.
+
+}
+ This right curly bracket tells the compiler the the function stops here.
+
+
+Don't worry too much if you don't understand all of this right now. It will 
+come to you later on. I'll talk a bit about varibles now.
+
+A variable is a C/C++ entity that contains something. A number, a 
+character, an object, an adress to another variable, etc. I'll just go over 
+the basic ones right now though.
+
+int
+ Contains an integer (a whole number)
+ Examples: 7, 132, 95, -35, 0
+
+char
+ Contains a character
+ Examples: A, g, 6, ?, <
+
+bool
+ Contains either true or false.
+ (Only available in ANSI/ISO C++ compatible compilers.)
+
+float
+ Contains non integer numbers (Numbers with decimals)
+ Examples: 3.14, 12.34, 9.11e-31, -7.36
+
+void
+ A special type of variable. Basically just a variable placeholder where 
+you  have to have a variable according to the syntax but you don't need one 
+in your  program.
+
+
+Since I want to keep this readable I'll stop here and continue in the nex 
+issue. Then I'll talk a little more about functions and even more about 
+varibles. =) Can't wait, eh?
+
+That's all from me for now.
+
+/ Radioactive_Raindeer
+  r_r@diegeekdie.org
+        ³ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ³
+                                +-+-+-+-+-+-+-+-+
+         ÛÛÛÛÛÛÛÛÛ²²²²²±±±±±°°°ğ|O|u|t|b|r|e|a|k|ğ°°°±±±±±²²²²²ÛÛÛÛÛÛÛ
+                                +-+-+-+-+-+-+-+-+
+                             Issue #3 - Page 9 of 12 
+        ³ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ³  
+
+
+
+The Trunk Less Traveled
+-----------------------
+By: dropcode <uberego@hotmail.com>
+
+----------------------------------.
+
+  "I  shall be telling this with a sigh
+   Somewhere   ages   and   ages  hence
+   two  roads  diverged in a wood and I
+   I  took  the  one  less  traveled by
+   and that has made all the difference" -rf
+
+----------------------------------.  
+
+The world we live in bores me... I think I'm going to move.
+I've lived here long enough; amongst the masked. 
+Everyone has secrets, and they all masquerade about behind their sketchy output.
+They create elaborate facades and pretty little pictures to show the world their normal.
+
+Guilty concience?
+
+I have a secret, but I don't hide it; I let it idle. Sometimes there's a trace of it 
+somewhere deep behind my eyes or in the corner of my mouth... Sometimes...
+
+Its dangerous these days. Incriminating even, but... I don't hide it. I don't have to.
+My concience is clear. 
+
+The laws I break do not infringe upon my morality. I'll elaborate.
+
+The world we live in is really something else, you know, with all the evils.
+That coupled with the awkwardness people feel towards my discontent with the
+state and status quo of this brave new world, makes me feel infinitesimal,
+erroneous. I swim against the tide, walk against the mob, and quietly
+laugh at lemmings diving to there own degradation.
+
+So I think I'm going to move... I've had a place picked out for awhile...
+
+its nice there... The ratio's reversed, its still many versus few... but this time
+the few are the elite and the many are the clumsy. Some would say thats not a difference
+but, in your world ...its hard to see it.
+
+This world is not my own... You've all been there. Most of you go there many times a 
+day. But you stick to the streets you know... and you never look around as you move, 
+you just keep staring at your destination. It takes too much effort to look around. 
+And its too dark to see...
+
+Not me. I look. When its to dark to see, I look harder. I stare. I stare and stare until 
+I can just make it out and then I stare more... there... there it is... what is it? ah...
+
+This is the sometimes, its in my eyes, and the corner of my mouth... 
+
+And then I reach my destination and try to tell the story of what I found... Apathy.
+'So what? Thats not too interesting. Why would you look so hard to see something like that?'
+Would you ever find it? even if you were staring? I didn't think so... I'm clever.
+
+Clever.
+
+The wonderment of this world can be summed up in the way it makes me feel. And I feel clever.
+
+I laugh when you trip because you cannot find the culprit...
+I laugh when you're lost because I know where you are...
+
+and then, feeling clever, I found a wall.
+
+oh sure... I could have paid the toll and went through the door... But .... why should I? he 
+never made whats passed that wall... He's just charging people to see it; and he's getting 
+alot more than his fair share. So I jumped over it. Yeah, it was hard... but the world just
+got alot bigger... and now I know I'll never pay for it because he is of the many and I am 
+of the few, He is clumsy... and apathetic... and I laugh... I laugh... 
+
+And in outsmarting him... I've broken laws... but, my concience... is clean.
+
+----------------------------------.
+
+Vagueness was the dominant technique used in this prose peice. Very purposefully.
+It speaks to those who take the time to listen. Listen... 
+
+----------------------------------.
+
+Greets: [705], [780], [604]
+
+-dropcode
+        ³ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ³
+                                +-+-+-+-+-+-+-+-+
+         ÛÛÛÛÛÛÛÛÛ²²²²²±±±±±°°°ğ|O|u|t|b|r|e|a|k|ğ°°°±±±±±²²²²²ÛÛÛÛÛÛÛ
+                                +-+-+-+-+-+-+-+-+
+                            Issue #3 - Page 10 of 12 
+        ³ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ³
+
+
+Command Line (windows)
+----------------------
+By: time2kill <darren_na@hotmail.com>
+
+
+Atcp/ip packet with a theortical leaght greater than 65536- bytes keep this
+in mind tcp/ip supports a feature called "Fragmentation" where a single
+ip-packet can be broken down into smaller segments this is need because the
+typical internet connection (dail-up,ethernet,cable-modem,etc)only supports
+packets of around a couple thousand bytes, but ip supports packets up to
+64-kbytes.Thus, when sending a single packet that is to large for a link it
+is broken up into smaller packet fragments.A quirk of ip is that while a
+single packet cannot exceed 65536-bytes the fragments themselves can add up
+to more than that. The "ping of death" Technique does just that since this
+is a condition thought impossible, operating systems crash when they 
+receive this data.The computer will replicate the data indefinitly.
+
+One packet will be sent right it will be so large that it will surpass the
+limits of what is allowed the puter will try to break it up forever it wont
+stop.No firewall can stop this.No computer can stop this.
+
+56k at the very least to try this.
+
+If you have any questions or comments on this e-mail them to me at: 
+darren_na@hotmail.com
+
+- time2kill
+        ³ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ³
+                                +-+-+-+-+-+-+-+-+
+         ÛÛÛÛÛÛÛÛÛ²²²²²±±±±±°°°ğ|O|u|t|b|r|e|a|k|ğ°°°±±±±±²²²²²ÛÛÛÛÛÛÛ
+                                +-+-+-+-+-+-+-+-+
+                            Issue #3 - Page 11 of 12 
+        ³ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ³
+
+
+What is .NET Anyway?
+--------------------
+By: Prodigal|Son <amlouden@insightbb.com>
+
+
+Here's the burning question that every one has been wondering, what exactly is
+microsoft's .NET anyway?  well, it delivers function to your computer as
+services to phase out programs that do the same things as .NET.  it goes out to
+the internet and grabs the files and updates that the user asks for, but the
+user has no idea where the data is. one of the features of .NET is the abilty
+for a CLR (common language runtime) which will be able to excute any programs
+written in any language, unlike microsoft's previous runtime environment, visual
+basic runtime, which will only run visual basic programs.  the CLR, and one
+other tier of the .NET framework, is not a part of the visual studeo.NET.  these
+are provided separately of the .NET framework.  this is just a brief explanation
+of what .NET and it can get very verbose and i don't feel like going into all
+the technical stuff :).
+
+DO NOT STEAL MY TEXT NURGLE
+
+- Prodigal|Son <amlouden@insightbb.com>
+
+         _______________________________________________________________
+        |______________________________________________________________ |
+        ||                                                             ||
+        ||           ___        _   ____                 _             ||
+        ||          / _ \ _   _| |_| __ ) _ __ ___  __ _| | _          ||
+        ||         | | | | | | | __|  _ \| '__/ _ \/ _` | |/ /         ||
+        ||         | |_| | |_| | |_| |_) | | |  __/ (_| |   <          ||
+        ||          \___/ \__,_|\__|____/|_|  \___|\__,_|_|\_\         ||   
+        ||                                                             ||
+        ||_____--------------------------------------------------______||
+        |_______/-----------------------------------------------\_______|
+				                                      
+                               ___ _           _
+                              | __(_)_ _  __ _| |
+                              | _|| | ' \/ _` | |
+                           __ |_| |_|_||_\__,_|_|
+                           \ \    / /__ _ _ __| |___
+                            \ \/\/ / _ \ '_/ _` (_-<
+                             \_/\_/\___/_| \__,_/__/
+
+
+                                                                               
+        ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ   
+
+		PUT THE WORDS IN HERE:
+
+	This is the first time I've written the conclusion. So if it sucks,
+        I'm sorry. Anyway. I hope you all enjoyed Outbreak #3. Sorry for the
+        delayed release. But the server our website was on went down. So we
+        hustled and put up a new website with a new layout. So I hope you all
+        enjoy that.
+
+        If you haven't read the editorial yet. We want you all to send us
+        e-mail. Comment on the website, on the zine, on texts in the zine.
+        Just let us know what you think. We like to hear from the readers.
+        OH, and we are always looking for new articles. So send everything
+        you have to us. The more the better. 
+
+        Send all articles for submission to:  drklep@roy.phonelosers.org
+
+        Well, thats really all for now. Start sending us articles for #4.
+
+        Later.
+
+        - kleptic <drklep@roy.phonelosers.org>
+
+         
+
+        ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ 
+        ++++++++++++++++++++++++++WATCH THIS SPACE++++++++++++++++++++++
+       ³ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ³
+                                +-+-+-+-+-+-+-+-+
+ -°°°±±±±±²²²²²ÛÛÛÛÛÛÛÛÛ²²²±±°ğ-|O|u|t|b|r|e|a|k|ğ°°°±±±±±²²²²²ÛÛÛÛÛÛÛÛÛ²²²±±°-
+                                +-+-+-+-+-+-+-+-+
+       ³ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ³
+
+      OutBreak Contents may not be used with out express written permission
+                    By the Editor - drklep@roy.phonelosers.org
+
+                               COPYRIGHT©® 2002.
+
+
