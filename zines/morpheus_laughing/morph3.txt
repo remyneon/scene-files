@@ -1,0 +1,1294 @@
+<=-------------------------------------------------------------------------=>
+,%$+:      =++%-                          -+-
+.+##@      H##H,                         ;@#=
+  H##-    ,##@.                          ,H#=           ISSUE03 OCTOBER 1999
+  X##/    ;##H                            +#=
+  X@#H    $H#H                            /#=
+  X+##,   H+#H             .,    ,-       /#=                           .
+  H=##;  -%/#@.   ./%%=    ++:+,:H%:%%;   /#=-+%=    =%%:  -;:. ,;;-  -%%+-  
+  @,H#X  /;;#M.   XH=%M-  /M$@#%M#M@M#M:  /#+H@#@,  =@/%M: =HM= =X#+ .H+:M$  
+  @,/##. H.;#M.  +#-  @@.-@#M@#=+#$  $#@. /#X, /#; .@X .@@. /#=  -#% ;#  ;H  
+  @.,##:,H :#M.  @M.  $#: ;#X-; -#%  -##= /#:  -#+ :#$==@#= /#=  -#% +#= .$  
+  @  @#$;+ :#M. -#@.  +#+ =#%   -#%   H#/ /#=  -#% +#@XXH#: /#=  -#% +#@+,.  
+  #  +##H= :#M. =#H.  /#$ -#+   -#%   X#+ /#=  -#% $#/      /#=  -#% -####;  
+  #  =##M. :##. =#H.  /#$ -#+   -#%   $#/ /#=  -#% $#%      /#=  -#%  /M##M  
+  #   M#$  :##. -#@.  +#+ -#+   -#%   $#: /#=  -#% %#X      /#=  -#% -.-/##- 
+  #   $#/  :##.  @#,  $#= -#+   -#%   HM, /#=  -#% =##:  -. /#:  :#% /+  ;#- 
+ =#=  :#-  /##=  /#: .@H. =#%   -#H  =#%  /#=  -#% .@#@//H, :#$,=$#X,;@. ;#. 
+:@#@: ,M. %M##@: .$@;$M= ,X#M+. -#M%/@H, :@#@-,H#M: :###M;  .@#@X:#@=-#X;@+  
+---=-  -  =---=-   :+/.  ,:-=;. -#%:+/.  ,:-=..:---  ,++,    .+/ .:   ,/+=   
+                                -#%
+                                -#%
+                                -#%   L    A    U    G    H    I    N    G 
+                                =#%
+                               -H#M;
+                               =;;//
+<=-------------------------------------------------------------------------=>
+            Presented By: ALOC - Australias Legion of Cyberpunkz
+
+       ,/               =:                    /%,                .+XXX
+      /#X              ,#.                  %@.XX              .@$
+     HXXX              @/                 ,M=  :#             %@.
+   .M; X+     .//     /@          -/,     X+  .@/    .//     -#,         -/,
+  -#///@/     @#X    .#,         ;##,     /M $@.     @#X      #/        ;##,
+ .X.   X,            %XXXXX%              .XX,                ,XXX%
+
+                         Web:/ http://www.aloc.cc
+                      Email:/ phrost_byte@hotmail.com
+<=-------------------------------------------------------------------------=>
+                 'visiting time is over, so we walk away'
+
+                               -= The Cure =-
+<=-------------------------------------------------------------------------=>
+
+ Contents
+ --------
+
+  1.0 -[ Welcome ]-
+    1.1 - Introduction......................................Phrost Byte
+    1.2 - About ALOC
+
+  2.0 -[ News ]-
+    2.1 - Enough is Enough Telstra!.............................^OpTix^ 
+
+  3.0 -[ Hacking ]-
+    3.1 - .bash_history.......................................anonymous
+    3.2 - grep..............................................Phrost Byte
+
+  4.0 -[ Phreaking ]-
+    4.1 - Breaking into Telstra Exchanges...................Epic Target
+    4.2 - Sydney Exchange Locations..........................Lord Hades
+    4.3 - Superlink.........................................Phrost Byte
+  
+  5.0 -[ Anarchy ]-
+    5.1 - Fun With Security Tags..................................Ikari
+    5.2 - Sending Fake Email.....................................[R]yde
+   
+  6.0 -[ Challenge ]-
+    6.1 - JavaScript Password Box Continued.................Phrost Byte
+ 
+  7.0 -[ Conclusion ]-
+
+<=-------------------------------------------------------------------------=>
+
+  1.0 -[ Welcome ]-
+  -----------------
+
+  1.1 - Introduction
+
+  Issue 3... finally. An issue that I didnt write more than 70% of the
+  articles.
+
+  Morpheus will not be released on a set date, it will be released when I 
+  receive enough info to compile another issue. If you have something you
+  would like printed please send it in.. or if I have contained something
+  in a previous issue that you feel you should have credit for, or it is
+  incorrect, please let me know and i will make the due alterations.
+
+  Enjoy the rest of the e-zine.
+
+            - Phrost Byte
+
+
+  1.2 - About ALOC / Morpheus
+
+  ALOC started off as a group, but it didnt work out. So I went back to my
+  original idea.. and that was to create a place where australian hackers and
+  phreakers could meet together, trade information, and learn. So that is
+  what ALOC has become, a place to get information and talk to others of
+  similar interests. In general it has become a Network.
+
+  Morpheus is part of the above, and it compiles alot of what would be 
+  little texts into one large one, which would otherwise be quite time 
+  consuming to write seperate small files on.
+
+  This magazine in its electronic form can not be sold without prior 
+  permission from the authors. It also may not be spread via any sort of 
+  Public Domain, Shareware or CD-ROM package.
+  
+<=-------------------------------------------------------------------------=>
+
+  2.0 -[ News ]-
+  --------------
+
+  2.1 - Enough Is Enough Telstra by  OpTiX^
+
+  I am absolutly sick of seeing headlines like this "Telstra denies EasyCall
+  hard sell." Well of course they're going to deny it. Would you admit that
+  your employees have been signing up thousands of unsuspecting customers for
+  easycall options they didn't select. Basiclly Telstra don't give a fuck
+  what you think so long as they have your hard earned money in their
+  pockets. Telstra are ripping you off and most of you don't even know it.
+  For example 8 Number Abbreviated Dialling costs $3 a month. To the best of
+  my knowledge all it takes to set this up is to send someone down to the
+  exchange and set that option to enabled on the computer. Or take payphones
+  for example, I'm not exactly sure how much they cost to produce but the
+  C4's (Goldphones) used to sell for under $1000. As reported by Phrost last
+  issue, some X1/X2's ("Smart" Phones) have recorded 1 - 2 million dollars
+  worth of calls being made since installation. And Telstra throw a big
+  temper tantrum when they find out they've lost a couple of dollars from
+  vandals or phreakers (there is a big difference between phreaking and petty
+  vandalism). That just goes to show how much Telstra wants your money. Well
+  enough is enough, It's high time that Telstra learned that we're not as
+  stupid as they think we are. Do anything that you think will help make them
+  learn that we can not be bullied anymore. One point to consider though is
+  that the easiest way of being caught by the AFP is bragging about what
+  you've done to everyone. If you're going to brag then at least brag to
+  people you trust, that way there's less chance of being caught.
+
+  BTW In case anyone is wondering where DataKing found those Phreaking laws
+  in Neurocactus 7, those laws are listed in the Crimes Act 1914, Part VIIB,
+  Sections 85ZB to 85ZKB.
+
+  This is my version of the article I read (the headline one i was talking
+  about earlier in this article). Telstra recieved thousands of complaints
+  when people opened their bills to see that they'd been charged for easycall
+  options that they did not want. Telstra claims that they've only sacked
+  one employee (at the time of writing) but the Union (god bless them) claim
+  30 employees have been given the sack over this incident. The employees of
+  the Burwood call centre in Melbourne have been told to increase their
+  productivity by 400% which is an impossible figure to reach. The secretary
+  of the CEPU's communications division, Len Cooper, said "This is a case of
+  management scapegoating its workers in the most brutal and blatant
+  fashion." Telstra, of course, deny this but have said the sales staff have
+  been told to become "more sales focused" in the tougher, competitive
+  environment. Well I'd say Telstra has a lot of explaining to do. As the
+  motto of telstra.is.lame.nu says "Making Life Sleasier." I'd say that's
+  100% true. So next time you ring Telstra try to remember this, most
+  employees are actually nice people who are being overworked by their
+  superiors. The only real assholes in Telstra are the ones sitting upstairs
+  in the corporate headquarters counting our money or the ones who are trying
+  to hunt us down (you know who you are).
+
+<=-------------------------------------------------------------------------=>
+
+  3.0 -[ Hacking ]-
+  -----------------
+
+  3.1 - .bash_history by anonymous
+
+  A simple way of getting accounts, even though its unpratical and should be
+  used as a last resort, is to look at users .bash_history and .history files
+  that are stored in their $HOME. It is suprising how easy it is to access other
+  people's private information by looking at their logs. By default any file 
+  thats been created by the user is set chmod 744, this lets anyone read the 
+  file if they have the same group privledges as that user. Same goes when a
+  new user first logs in, the /etc/skel files are copied to their home and 
+  .bash_history will be created when the user logs in next time, assuming its
+  a bash shell (Bourne Again). Inside the .bash_history you might be lucky 
+  enough to find some typo's of passwords, heres some examples of what you
+  might want to look for:
+
+    aloc:/home/victom# cat .bash_history
+    tenlet whitehouse.gov /* mis spelt */
+    telnet whitehouse.gov
+      :
+    cat /etc/passwd
+    ls
+    cd ..
+    more /var/log/messages
+      :
+    login Lewinsk1        /* login as user Lewinsk1 */
+
+  If there are many users on the system you may want to use grep:
+
+    aloc:~# grep telnet /home/*/.bash_history | more
+    /home/victom1/.bash_history:telnet whitehouse.gov
+    /home/victom2/.bash_history:telnet
+    /home/victom3/.bash_history:telnet fed.gov.au
+
+  If your looking for some 0 GID or even root you look for:
+
+    aloc:~# grep su /home/*/.bash_history /root/.bash_history | more
+
+  or even:
+
+    aloc:~# grep passwd /home/*/.bash_history /root/.bash_history | more
+
+  It may be a good choice if you find some that look promising enough then
+  have a look at the file, it may take a while to find anything but its up to
+  you if you want to trade time for accounts. It's a good idea to check out
+  the /etc/passwd to have an idea of where the home directories are located
+  and what type of shells they use because they may very from system to
+  system. Also you may need to pissfart round with the login or passwd but
+  its up to you depending how desperate you need the accounts. To fix this if
+  your a user then a simple "chmod 000 .bash_history" will do the trick. or
+  even "ln -s ~/.bash_history /dev/null" does a better job. If your an admin
+  then do the following:
+
+    touch /etc/skel/.bash_history /etc/skel/.history
+    chmod 700 /etc/skel/.*history
+    chmod 700 /home/*/.*history
+
+  (depending on where your users home is placed) This maybe considered as a
+  lame method of gaining accounts but I belive its worth a mention. Posted
+  in by a Spaceman from outer space that wants to stay Anonymous.
+  
+  
+  3.2 - grep by Phrost Byte
+  
+  All I will say is that it depends on your definition of 'hacking'. The
+  following will increase your power in working with a Unix based system.
+  
+  Grep is from a family of commands: grep, egrep, and fgrep. They all search 
+  the named input files (or standard input if no files are named) for lines
+  containing a match to the given pattern. Each of the grep commands are
+  basically the same, the only real difference is that egrep uses a slightly
+  different syntax for its pattern matching, whereas fgrep uses fixed
+  strings. There is also another member to the grep family, and that is
+  zgrep. Zgrep is used to search compressed files and is invoked the same way
+  as grep. In this text I will be detailing grep, and I feel that it is easier
+  to learn and understand by seeing examples, so I hope to provide alot of
+  usefull ones :)
+  
+  For examples I will be using a list of Bauhaus songs. Just cut and paste
+  the following to a file and name it bauhaus.txt
+  
+  ----cut here----
+  The passion of lovers
+  Bela Lugosi's dead
+  She's in parties
+  Ziggy stardust
+  Wasp
+  Hope
+  King Volcano
+  The sanity assassin
+  Terror couple hill colonel
+  ----cut here----
+  
+  The syntax for grep is as follows:
+  
+    grep [options] pattern [file]
+    
+  Usefull options:
+  
+    -c counts number of matching lines
+    -i ignore caps
+    -n includes the line number
+    -s suppress error messages
+    -v lines NOT mattching the pattern
+    
+  A simple example:
+  
+    #grep -c Z bauhaus.txt
+    1
+    
+  The above statement counts how many lines contain the letter Z (case
+  sensitive) and displays the result. If I typed the following, it will
+  display the lines:
+  
+    #grep Z bauhaus.txt
+    Ziggy stardust
+
+  With the added option -v, lines NOT matching will be counted:
+  
+    #grep -vc Z bauhaus.txt
+    8
+    
+  and displayed:
+  
+    #grep -v Z bauhaus.txt
+    The passion of lovers
+    Bela Lugosi's dead
+    She's in parties
+    Wasp
+    Hope
+    King Volcano
+    The sanity assassin
+    Terror couple hill colonel
+    
+  displayed and line numbered:
+  
+    #grep -vn Z bauhaus.txt
+    1:The passion of lovers
+    2:Bela Lugosi's dead
+    3:She's in parties
+    5:Wasp
+    6:Hope
+    7:King Volcano
+    8:The sanity assassin
+    9:Terror couple hill colonel
+    
+  Options can be mixed like any other command.
+    
+  Regular expressions are used to provide grep with expressions whcih set
+  locations of patterns and ranges of characters (all regular expressions
+  must be quoted). The hat (^) means start of line, and the dollar ($) means
+  the end of the line.
+  
+  To display lines ending with 's'
+  
+    #grep 's$' bauhaus.txt
+    The passion of lovers
+    She's in parties
+  
+  To display lines not ending in 's' and also number them:
+  
+    #grep -vn 's$' bauhaus.txt
+    2:Bela Lugosi's dead
+    4:Ziggy stardust
+    5:Wasp
+    6:Hope
+    7:King Volcano
+    8:The sanity assassin
+    9:Terror couple hill colonel
+  
+  The full stop (.) represents a single character wildcard. eg the following
+  will display any line that has any character before the 'e':
+  
+    #grep '.e' bauhaus.txt
+    The passion of lovers
+    Bela Lugosi's dead
+    She's in parties
+    Hope
+    The sanity assassin
+    Terror couple hill colonel
+    
+  More examples:
+  
+    #grep -i '.L' bauhaus.txt     - any case, with any character/s before 'L'
+    #grep 'V.....o' bauhaus.txt   - V, any 7 characters, then o
+  
+  The square brackets ([]) specify any one of the characters enclosed. eg, to
+  display the lines beginning with 'T', 'W' or 'Z':
+  
+    #grep '^[TWZ]' bauhaus.txt
+    The passion of lovers
+    Ziggy stardust
+    Wasp
+    The sanity assassin
+    Terror couple hill colonel
+    
+  For a range of characters, use a hyphen:
+  
+    #grep '^[A-J] bauhaus.txt
+    Bela Lugosi's dead
+    Hope
+    
+  More examples:
+  
+    #grep '^[A-Za-z0-9] bauhaus.txt - all letters / numbers
+    #grep '[0-9]$' bauhaus.txt - ending with a number
+    #grep -v '[a-m]$' bauhaus.txt - lines that dont end with a-m
+    
+  When the hat (^) is used in the square brackets it means 'not'. eg the 
+  following will show lines not beginning with 'A' to 'G':
+  
+    #grep '^[^A-G]' bauhaus.txt
+    The passion of lovers
+    She's in parties
+    Ziggy stardust
+    Wasp
+    King Volcano
+    The sanity assassin
+    Terror couple hill colonel
+    
+  A wildcard can also be used (*). eg the following will display lines
+  beginning with 'T' and ending with 's'
+  
+    #grep '^T.*s$' bauhaus.txt
+    The passion of lovers
+
+  The following will display lines beginning with 'M' to 'Z' and ending
+  in 's' or 't':
+  
+    #grep '^[M-Z].*[st]$' bauhaus.txt
+    The passion of lovers
+    She's in parties
+    Ziggy stardust
+
+
+  The above was just an introduction to grep, there is a myrid of other 
+  statements, redirections (>>) and piping (|) that can be done using it.
+  From the above, you should now be able to do alot of sorting, extracting,
+  and removing from logs ALOT easier now ;) 
+
+  (grep -v <ip> /var/log/messages >> /var/log/messages.2)
+
+  
+<=-------------------------------------------------------------------------=>
+
+  4.0 -[ Phreaking ]-
+  -------------------
+
+  4.1 - Breaking into Telstra Exchanges by Epic Target
+
+  I had a problem trying to decide whether to put this article in Anarchy or
+  Phreaking, or whether to include it at all, given the nature of it. But
+  since it was written to aid the Phreaker in his/her pursuit of knowledge,
+  I have placed it in this section. I know that the techniques will be used 
+  for wrong doing, and I hope you get caught >:| But to all phreaks who use
+  it to aid themselves in the pursuit of knowledge.. good luck! (see attached
+  file breakex.txt)
+
+						- Phrost Byte
+
+
+  4.2 - Sydney Exchange Locations by Lord Hades
+  
+  Lord Hades - L_Hades@hotmail.com
+
+  This List of Exchange Locations is an official Tel$tra list. It has most
+  locations on here. However there are a few that are missing. Blame Tel$tra.
+  If anyone can get numbers for these Exchanges, I would greatly apreciate it.
+  Many of these Exchanges are fully Automated and have no personell looking
+  after them. However the major exchanges have alot of people and Bins to
+  Trash.
+
+  Exchange Name     |     LRD       |     Exchange Address
+  ---------------------------------------------------------------------
+  Arndell Park      |     ARDK      |     Lot 6 Kenoma PL
+  Ashfield          |     ASHF      |     11 Hercules ST
+  Austral                 AUST            4th and 12 AVE
+  Avalon                  AVAL            15th Old Barrenjoey RD
+  Balgowlah               BALG            Sydney Rd and Woodlands St
+  Balmain                 BALM            Montague and Dowling ST
+  Bankstown               BANK            18 Kitchener PDE
+  Bankstown Airport       BAKA            Lot 4 Marion ST
+  Baulkahm Hills          BAUL            Russel and Windsor RD
+  Berambering Park        BMBG
+  Berkshire Park          BKPK
+  Berowra                 BERO            CNR Berwora Waters
+  Bilpin                  BLPN            Bells line of Road
+  Birralee                BIRR            CNR Mccallums and Chilcott
+  Blackheath              BLKH            Wentworth ST
+  Blacktown               BLAC            69 Fluscombe DR
+  Blakehurst              BLAK            507 Princess Highway
+  Blaxland's Ridge        BLAX
+  Bondi                   BOND            16 Roscoe ST
+  Botany                  BOTA            38 Tenderson RD
+  Bringelly               BRGY            Lot 1 Badgery's Creek RD
+  Brooklyn                BROO
+  Burwoood                BURD            32 Railway PDE
+  Campsie                 CAMP            395 Canterbury RD
+  Canoelands              CALD
+  Carlingford             CARL            413 North Rocks RD
+  Carramar                CARR            6 The Horsley DRV
+  Castle Hill             CAST            Old Northern RD
+  Castlereagh             CRGH
+  Catai                   CATI
+  Chatswood               CHAT            Victoria AVE
+  Chipping Norton         CHIP            23 Earnest RD
+  City East               EAST            330 Liverpool ST Darlinghurst
+  City South              CYSH
+  Colo                    COLO
+  Colo Heights            CHTS            219 Putty RD
+  Como                    COMO            11 Ortona PDE
+  Concord                 CONC            35 Yarralla ST
+  Coogee                  COOG            56 Dolphin ST
+  Cranebrook              CNBK            Lot 111 Borrowdale Way
+  Cremorne                CREM            219 Military RD
+  Cronulla                CRON            4 Wilbar AVE
+  Dalley                  DALL
+  Dee Why                 DEEW            1/7 Cumberland ST
+  Drummoyne               DRUM            60 Lyons RD
+  Dural                   DURA            969 Old Northern RD
+  Eaglevale               EGVL            Lot 54 Cornelian AVE
+  Eastwood                EWOO            101-105 Chatham  RD
+  Ebenezer                EBEN            Wilberforce and Wisemans
+  Edensor Park            ERPK            8 Bonnyrigg AVE
+  Edgecliff               EDGE            369 Edgecliff RD
+  Emu Plains              EUPS            Lot 1 Russle ST
+  Engadine                ENGA            1091 Princess HWY
+  Epping                  EPPI            3 Oxford ST
+  Erskine Park            ESPK            Altham PL
+  Fiddletown              FIDD            Hollands RD
+  Five Dock               FIVE            192 Great North RD
+  Freeman's Reach         FRCH            Lot 19 Creek Ridge RD
+  Frenchs Forest          FREN            510 Warringah RD
+  Galston                 GALS            47 Schools RD
+  Glebe                   GLEB            ST Johns RD
+  Glenbrook               GLBK            Glenbrook and Haynet ST
+  Glenorie                GLEN            Old Northern RD and Harrison
+  Granville               GRAN            Maud and Hutchinson ST
+  Grosse Vale             GVLE            Grossewold RD
+  Guildford               GUIL            2 Guildford RD
+  Gunderman               GDMN            Wisemans Ferry RD
+  Harboard                HARB            375 Oliver ST
+  Haymarket               HMKT
+  Hazelbrook              HZBK            16 Great Western HWY
+  Holsworthy              HOLS            Labuan RD
+  Homebush                HOME            68 Beresford RD
+  Hornsby                 HORN            290 Pacific HWY
+  Horsley Park            HORS
+  Hunters Hill            HUHL            3 John ST
+  Hurstville              HURS            39 Bridge ST
+  Ingleburn               INGL            29 Albert ST
+  Katoomba                KTBA            144 Katoomba ST
+  Kelly Ville             KELL            Old Windsor RD and Windsor RD
+  Kemps Creek             KEMP            Elizabeth DRV
+  Kensington              KENS            113 Todman AVE
+  Kent Street             KNST
+  Kenthurst               KENT            Kenthurst and Volunteer RD
+  Kenthurst North         KNTH            Blue Gum RD
+  Killara                 KILL            637 Pacific HWY
+  Kingsgrove              KING            107 Wolli ST
+  Kograh                  KOGA            Belgrave ST and Post Office LN
+  Kurajong                KURG            Burralow RD
+  Kurajong Heights        KRJH            Douglas ST
+  Kurnell                 KURN            4 Bridges ST
+  Lakemba                 LAKE            Croydon RD
+  Lane Cove               LANE            Lot 46 Burns Bay RD
+  Lawson                  LWSN            4 Honour AVE
+  Leppington              LEPP            Heath and Dickson ST
+  Leura                   LERA            Leura Mall
+  Lidcombe                LIDC            1 Taylor ST
+  Linden                  LNDN            Great Western HWY
+  Lindfield               LIND            Beaconsfield PDE
+  Liverpool               LIVE            40 Terminus ST
+  Llandilo                LLDO            Lot 31 Northern RD
+  Lower Portland          LPTD            Lot 2 River RD
+  Lundenham               LUDM            Lot 1 Northern RD
+  Manly                   MANL            Lot 21 Belgrave ST
+  Marayla                 MRYA
+  Maroota                 MRTA
+  Maroota South           MRTS            Wisemans Ferry and Sackville
+  Maroubra                MARO            Loch Maree and Story ST
+  Mascot                  MASC            904 Botany RD
+  Matraville              MATR            1 Romani RD
+  Medlow Bath             MDWB            ST Albians and Railway PDE
+  Menai                   MENA            Menai RD
+  Miller                  MILL            87 Cartwright AVE
+  Minto                   MINT            Kent ST
+  Miranda                 MIRA            576 The Kingsway
+  Mona Vale               MONA            1763 Pittwater RD
+  Mooney Mooney           MOON            Pacific HWY
+  Mosman                  MOSM            850 Military
+  MT Ku-Rin-Gai           MTKU            Lot 1 Pacific HWY
+  MT Wilson               MTWN            Queen RD
+  Mulgoa                  MGOA            Allan RD
+  Narrabeen               NARR            7 Windsor RD
+  Newtown                 NEWT            2 Mary ST
+  North Parramatta        NPAR            GLadstone and Sorrell
+  North Richmond          NHRD            Beaumont RD
+  North Ryde              NRYD            165 Lane Cove RD
+  North Sydney            NSYD            Mount and William ST
+  Northbridge             NBRI            Eastern Valley Way
+  Orchard Hills           ORHS            Bringelly RD
+  Palm Beach              PALM            856 Barrenjoey  RD
+  Parramatta              PARR            21A George ST
+  Peakhurst               PEAK            41 Beaumans RD
+  Pendle Hill             PENN            18 Pennant Hills RD
+  Penrith                 PNTH            90 Henry ST
+  Pitt Street             PITT
+  Pitt Town               PITN            Off Bathurst ST
+  Potts Point             POTT            Mcleay and Greenknowne
+  Pymble                  PYMB            Lot 1 Bungalow RD
+  Quakers Hill            QUAK            3-5 Railway RD
+  Ramsgate                RAMS            28 Alice ST
+  Randwick                RAND            206 Allison RD
+  Redfern                 REDF            101 George ST
+  Regentville             REVL            Lot 1 Lutrell ST
+  Revesby                 REVE            2 Doyle RD
+  Richmond                RCHD            314 Windsor RD
+  Riverstone              RIVE            80 Riverstone RD
+  Rockdale                ROCK            395 Princes RD
+  Roodty Hill             ROOT            115 Rooty Hill RD
+  Rose Bay                ROSE            64 Dover RD
+  Rouse Hill              ROUS            Lot 180 Edwards RD
+  Rydalmere               RYDA            431 Victoria
+  Ryde                    RYDE            124 Blaxland RD
+  Sackville Reach         SRCH            Sackville RD
+  Sefton                  SEFT            93 Carlinford RD
+  Seven Hills             SEVE            33 Brahms RD
+  Shavely                 SHAL            Lot 306 Noumea ST
+  Silverwater             SILV            Parramatta RD Nth Lidcombe
+  South Strathfield       SSTR            481 Liverpool RD
+  Springwood              SPWD            143 MacQuarie RD
+  ST Albans               STAL            MacDonald River
+  ST Leonards             STLE            524 Pacific HWY
+  ST Marys                STMA            Queen ST
+  Sutherland              SUTH            40 Auburn ST
+  Sylvania                SYLV            96 Princess HWY
+  Tennyson                TNYN
+  Terry Hills             TERR            Mona Vale and Aumona RD
+  Turnbull                TNBL            East Kurrajong RD
+  Undercliffe             UNDE            Hill ST and Livingstone RD
+  Vaulcluse               VAUC            4 Olphert AVE
+  Wharoonga               WAHR            33 Goonambarra RD
+  Warragamba              WGBA            Fourth ST
+  Warrimoo                WMOO            Great Western HWY
+  Waverly                 WAVE            112 Bronte RD
+  Wentworth Falls         WFAL            8 Cascade ST
+  West Wetherill Park     WWPK            10 Metters PL
+  Wetherill Park          WETH            8 Kings RD Fairfield
+  Willberforce            WFCE            22 Kings ST
+  Willoughby              WILL            370 Eastern Valley RD
+  Windsor                 WSOR            Lot A MacQuarie
+  Winmalee                WNML            4 Singles Ridge RD
+  Wisemans Ferry          WFRY
+
+  
+  4.3 - Superlink by Phrost Byte
+
+  Thanks goes to Imortal for this information. He found it while on one of
+  his regular trashing runs :). I typed it out.
+
+  Superlink is, as Telstra say 'a new interactive free-call telephone
+  information serivce for TSS and TPSS members'. It provides Telstra
+  employees with an estimate of the value of their superanuation at a date
+  selected for:  retirement, retrenchment, or invalidity / death. It also
+  provides a phreaker who has an employee (AGS) number and PAC (Personal
+  Access Code), with the above information, it not much use in the way of
+  gaining free calls.. but it's information all the same. :P
+
+  To recieve a quote, phone Superlink on 1800 620 232, and it operates from
+  7:00am to 7:00pm EST (Eastern Standard Time).
+
+  Menu Map:
+
+                         1   8 0 0   6 2 0   2 3 2
+                                     |
+                                     |
+                                -----------
+                                | Welcome |
+                                -----------
+                                     |
+ _                                   |
+|                                   [1]
+|                                    |  Name of Scheme
+|                          __________|__________   
+|                         |          |          |          
+|                        [1] TSS    [2] TPSS   [3]OTCSSS
+|                         |__________|__________|
+|                                    |
+|                                    |
+| Press 0 to          -------------------------------
+| speak to a          |   Employee (AGS) Number     |
+| Client Services     | Enter your 8-digit Employee |
+| Officer during      |    Number, then press #     |
+| any of these        -------------------------------
+| steps.                             |
+|                      ------------------------------
+|                      |   Personal Access Code     |
+|                      |    Enter your 4-digit      |
+|                      | Personal Access Code (PAC) |
+|                      ------------------------------
+|                                    |  Benefit Quote
+|   _________________________________|________________
+|  |               |                |             |   |            
+| [1] ???         [2] Resignation  [3] Retirement |  [4] Invalidity / Death
+|_                                                |
+                                                  |
+                         ------------------------- eg, press 010796 
+                         |    Date of Quote      | for 1st, July, 96
+                         | Enter the date of the | for todays date
+                         |     benefit quote     | press *
+                         -------------------------
+                                     |
+                                     |
+                     ---------------------------------- 
+                     |       Recorded Message         |
+                     |   You will now hear details    |
+                     |        of the benefit.         |
+                     | This message will be repeated. |
+                     ---------------------------------- 
+                                     |
+                              _______|_______
+                             |               |
+                            [0]             [H]
+                     Press 0 to          To end the
+                     exit message and    call, just
+                     speak to a Client   hang up.
+                     Services Officer.
+
+<=-------------------------------------------------------------------------=>
+
+  5.0 -[ Anarchy ]-
+  -----------------
+
+  5.1 - Fun With Security Tags by Ikari (ikari_@hotmail.com)
+
+  If there is one small thing that can be used for a quick laugh, it is an
+  adhesive security tag. What is this useful device? I here some of you ask.
+  Well, it's like this.
+
+  The tag itself is nondescript, you will find them most often on CDs and
+  electrical products at your local Big W. I have often found them inside
+  plastic wrapped CDs that I bought from Grace Bros or other stores. It is a
+  small square about 40mm on each side. The tag has a thin pink border which
+  cuts across one corner to form a larger pink area. There is a trail as
+  thick as the border leading from that corner to the centre, where it
+  becomes a 13mm-edged square. Between the border and centre square is a
+  spiral of thin, flat silver wire, less than a millimetre wide, which
+  circles seven times starting from attached to the border before it meets
+  the centre pink square.
+
+  I'm not precisely certain how it works, but I believe it is a modification
+  of the magnetic induction principle. When one of these squares passes
+  through a special detector (you'll most often see them at the exits of the
+  store or electrical department) the detector registers an alteration in the
+  magnetic field it is generating, caused by the wire spirals. This sets of a
+  generally loud, high pitched squealing alarm, as you can imagine it is very
+  annoying. Occasionally pushing a trolley through has a similar effect,
+  although Big W employees are lectured that only a security tag can set off
+  the alarms.
+
+  Already you should be beginning to see the potential for mischief that such
+  an innovative anti-theft device can play. The icing on the cake for me is
+  that these labels are adhesive. In their pristine form, they often come on
+  a slip of anti-stick sheeting, complete with barcode, which the
+  shelf-stackers peel off when they stack the CDs in those annoyingly large
+  plastic boxes that chain stores love so much. Simply obtain one of these
+  squares, and just like the famous 'Kick-Me' note, attach it to a friend or
+  loved one's back and observe the mayhem when they enter the store. Better
+  yet, smuggle the label into the store (more on this later) and attach it to
+  an unsuspecting passer-by. As they didn't beep on their way in, that poor
+  person will become an immediate shoplifting suspect. Try to get some
+  nervous fool who'll run away and get chased by security, or a boneheaded
+  meatbrain who is as likely to hit the guard as talk to him.
+
+  How does one first get the tag into the store to do this, though? Would it
+  not immediately go off when you enter the store? Well, no. I made this
+  discovery accidentally the first time I tested one of these tags. I went
+  down to my local Big W with the tag in my left pocket, wallet in my right.
+  As I walked through the entrance, the alarm went off, as expected. I did my
+  best to look perplexed, and the door lady asked if I'd just made that go
+  off. I shrugged, and she asked me if I had a wallet, which was where the
+  problems began. See, as the problem was expected to be my wallet, if I'd
+  had the tag in there there'd be no worries. But because it was, stupidly,
+  in my left pocket, when I left my wallet outside I'd still set the alarm
+  off. Luckily for me the lady turned at that second to briefly address a
+  bystander so I whipped out the tag and jammed it into my wallet. Then, when
+  I didn't set off the alarm, we put my wallet through, and surprise, the
+  alarm still didn't go off. I surmised that because I'd put the tag next to
+  something metallic in my wallet (car key) that the pattern the alarm was
+  looking for was disturbed and didn't qualify for an alarm. If anyone has a
+  better theory, or knows more about these things, please e-mail me
+
+  So you see it is quite easy to hide one of these things and use it later..
+  The chick at the department store asked if I had any cards on me, so
+  obviously there's some expectation that they may set off alarms (despite
+  what they tell the employees). If you can conceal a tag inside a real or
+  mock card, or make some bullshit about the tag being part of your exclusive
+  bank smartcard's circuitry, you can then hide the tag more effectively
+  (though I don’t know why you’d do that, concealing a slip of paper is
+  pretty easy anyway).
+
+  Be creative! What am I supposed to do, spoonfeed you? Anyone is creative
+  enough to come up with more complex schemes than I've put in here, but
+  remember, the more complex the scheme, the higher the chance of failure.
+  The best laughs come from simple pranks that pay off highly.
+
+  If you know where a person can buy these tags wholesale, or you're a store
+  employee with access to them, e-mail me and I'll repost the information to
+  anybody who mails me requesting it. They come in big fat rolls just like
+  tape, with hundreds of tags on them. These tags, while useful, are hard to
+  obtain, but one may get lucky. For instance, in Grace Bros in Sydney's Pitt
+  Street Mall there's "bargain bins" of the shockingest 80s music ever, but
+  they're all plastic wrapped with tags inside presumably, and the prices
+  range from $1.50 all the way down to 10c.
+
+  [You get an unstuck security sticker when u buy a box of those 50 disks
+  from big-w .. ie the sticker still has the backing on it.. its not stuck
+  to anything. - ED]
+
+  When you carry off these exploits or if you have any better ones, feel free
+  to e-mail the details to me at ikari_@hotmail.com, where I will collect
+  them and keep them for good laughs, or perhaps repost them to anybody who
+  requests them.
+
+  So for now, keep on stickin' it to those who deserve it most, and remember:
+  "The only good teenybopper is a dead teenybopper." Keep on listening to
+  Triple J, all across the nation!
+
+
+  5.2 - Sending Fake Email by [R]yde
+
+  INTRODUCTION
+
+  Have you ever got spam mail and when you tried to reply to them or
+  Unsubscribe from the list you thought you might have been accidentally
+  added to, you find out that it was not a real e-mail address? The reason
+  for that is forgery of e-mail. Forging e-mail is commonly done by spammers
+  and 'make money now' companies who's tactics are not all the legitiment
+  and are too shifty to actually send real e-mail.
+
+  I decided to write this because i wanted to show ppl how easy it is to
+  forge e-mail. Forging e-mail, once you get to know the commands, is just as
+  easy as logging into hotmail and it comes in very handy when you do not
+  have access to a commercial anonymous mail program.
+
+  WHAT YOU NEED
+
+  - TELNET CLIENT
+
+  If you run Linux or UNIX then you have to type....
+
+    telnet <this.is.the.server.org> <port>
+
+  If you run Windows 9x then you go to 'Accessories' and click on 'Telnet'
+  [OR: click, start, run, type telnet, press enter - ED :)] *Telnet is a
+  program that lets you log into remote computers around the world*, you may
+  also have a different telnet client you wish to use.
+
+  - THIS DOCUMENT
+
+  and ummmmm....... thats all
+
+  LETS GET STARTED
+
+  Now you have to pick a server. The server is the computer you log into to
+  send this fake mail **NOTE** The server you log into e.g Micro$oft.com,
+  does not mean that your e-mail will be username@Micro$oft.com, you specify
+  your e-mail address once inside the computer** You have set in the
+  preferences box in telnet 'Local Echo on' So that you can read the text
+  inside the computer.
+
+  O.k a good server is usually a big university or something like that, a
+  place that gets hundreds of people logging into it a day so it won't notice
+  one little person ;) O.k once you have picked a server you telnet to it on
+  port 25 (Port 25 is the SMTP port which controls the sending of mail from
+  computer to computer) In this example i logged onto the computer Madx.com
+  on port 25 I got:
+
+    220 markus.tcit.net ESMTPSendmail8.8.8/8.8.8;Fri,11Jun1999 02:05:16-0400
+    (EDT)
+    214-This is Sendmail version 8.8.8
+
+
+  This tells you that the computer is markus.tcit.net and it is running
+  Sendmail version 8.8.8 on port 25. You then type the command 
+  'HELO <domain>' to tell them what computer you are connecting from. It 
+  usually does not matter what you type in because it will get your IP from 
+  your dial-up connection. [use a wingate to avoid IP detection - ED]
+
+    helo does.not.matter.com
+    250 markus.tcit.net Hello 56-ascend.madfish.com [203.161.118.4],
+    pleased to meet you
+
+  Now we have identified ourself it is time to create havoc. Type
+  'Mail from:<address>' to set the fake address you want your mail to be
+  sent from:
+
+    mail from: ryde@ryde.aloc.cc
+    250 ryde@ryde.aloc.cc... Sender ok
+
+  Now we type in the recipient that we want the mail to be sent to. To do
+  this you type the command "Rctp to:<address>':
+
+    rcpt to: Ronald@McDonalds.com
+    250 Ronald@McDonalds.com... Recipient ok
+
+  Now we type in the word 'Data' to start the body of the mail.
+
+    data
+
+    354 Enter mail, end with "." on a line by itself
+
+    Dear Mr McDonald,
+    I am writing to complain about you cheese, quite frankly
+    i feel that it tastes like plastic.
+    Yours nauseously
+                    [R]YDE
+    .
+
+    250 CAA13112 Message accepted for delivery
+
+  DA DAAAA! it's that simple, all you have to do is remember those commands.
+
+  Mail from: <The address you want your anonymous mail to be from>
+  Rcpt to: <The address that you want to send the anonymous mail to>
+  Data "Starts the message"
+  .    "Ends and sends the message"
+
+  For completness, here is what 'help <command>' displays for the above:
+
+  214-MAIL FROM: <sender> [ <parameters> ]
+  214-    Specifies the sender.  Parameters are ESMTP extensions.
+  214-    See "HELP DSN" for details.
+
+  214-RCPT TO: <recipient> [ <parameters> ]
+  214-    Specifies the recipient.  Can be used any number of times.
+  214-    Parameters are ESMTP extensions.  See "HELP DSN" for details.
+
+  214-DATA
+  214-    Following text is collected as the message.
+  214-    End with a single dot.
+
+  **NOTE** There are some mail programs that could show your IP in the e-mail
+  message. Ways around this is too test all your mail progs by sending an
+  anonymous msg to yourself and checking the header for your IP. Another way
+  around it is too use an Ident Spoofer that spoofs ident request and masks
+  your server. Free web e-mails such as Hotmail and yahoo don't show your ip
+  in the header so send away to them ;)
+
+  I hope that this helps at least one person discover the marvels of sending
+  fake mail.
+
+<=-------------------------------------------------------------------------=>
+
+  6.0 -[ Challenge ]-
+  -------------------
+
+  6.1 - JavaScript Password Box Continued by Phrost Byte
+
+  Most of you would have tried the challenge from the previous issue, and a
+  couple of people I know have gotten pretty far with it. Although they have
+  come across a problem which I did not see, ie there are far too many
+  possible combinations that are acceptable, yet only one of them is the
+  right password, since the password makes up the link to the html file. I
+  didnt see this, as I only figured out how to reverse it in theory (which
+  worked).. but I didnt realise that there were more than one possible
+  combination of characters that can be accepted :( In the following, I will
+  detail how the obfuscation process works, and how the JavaScript itself
+  works. This should help alot of you out there who are stuck. I have also
+  included a program that calculates the 'code' for a given combination of
+  characters.. so you can use it if you wish to easily add restriction to
+  certain parts of your site (see attached crtcode.cpp). Basic knowledge of
+  JavaScript is assumed in the explanation, ie, each line wont be described
+  in detail in what it does. The text is written in a way that if you are 
+  stuck on a particular section you can just jump to that section, read it, 
+  and hopefully get 'un-stuck'..  if you just want some hints, just read up 
+  to the section on where you are stuck, and dont read further.
+
+  Getting The Source:
+  -------------------
+  Firstly, to be able to break the code, you must have the source (unless
+  you want to brute force it, which some people have tried). To get to the
+  source, just un-enable JavaScript (in Netscape, click Edit/Preferences/
+  Advanced, then un-check the enable JavaSript checkbox). Then load up the
+  page that has the script in it, and the password prompt box should not pop
+  up, then click on view source (ctrl-u in Netscape).
+
+  The Script:
+  -----------
+  The JavaScript is simple, yet an effective and easy method of passwording
+  off a visible link. It basically works by prompting the user for a password
+  in a pop-up box, which has a limited number of trys to get it correct (in
+  this case 4, change the variable fraCounter for more). Once the user has
+  entered a password, it is then encrypted, and compared to the one defined
+  in the script (similar to loging in on a Unix system, although the
+  JavaScript is reversable.. to an extent, unlike the current implementation 
+  of DES in Unix, Crypt(3)).
+
+  JavaScript password schemes all work on the same idea of adding .html to 
+  the password entered by the user. The users password is the name of the .html
+  file. If the password is 'phrost123', then the html file that will be 
+  retrieved after entering the password, would be 'phrost123.html', the name
+  of the html file could be viewed by viewing the source and looking for the 
+  password check statement (which in this case is 'if (pass=="phrost123")'):
+
+  <SCRIPT LANUGAGE="JavaScript">
+    pass = prompt("Enter Password","") /* prompt for password */
+    if(pass==null || pass=="")  /* check to make sure something has been */
+      history.go(-1)            /* entered, if not, go back a page */
+    else {
+      if (pass=="phrost123")  /* checking.. with password in clear view */
+        location.href=pass+".html"; /* goto phrost123.html */
+      else
+        history.go(-1)
+    }
+  </SCRIPT>
+
+  ** The above script is used on many lame sites to 'password protect' an area.
+  
+  But since Fravia+ obfuscates the name of the html file, it is not written in
+  the script, the password checking is as follows:
+
+    if (code==278015) 
+      go()
+    else
+      inc()
+
+    function go(){
+      location.href=pass+".html";
+    }
+
+  As mentioned beforehand, the password entered by the user is encrypted
+  and compared to the 'code' in the script. Which in this case is 278015,
+  therefore, if you entered phrost123 and when encrypted if it is equal to
+  278015, then you are taken to the passworded .html file, which would
+  be 'phrost123.html', otherwise a counter is decremented, and you are given
+  another chance. 
+
+  Read on to learn how to calculate the 'code'
+    
+  The Obfuscation:
+  ----------------
+  Each numeric and character are given an integer value, which is used to
+  calculate the code with. Firstly a base set is created, an array containing
+  0 to 9, A to Z, and a to z:
+
+    var base=new Array("0", "1", "2", "3", "4", .... etc ... "x", "y", "z")
+ 
+  A second array 'f' contains all the respective values given to each
+  character contained in the array 'base'. ie, f[10] contains the value for
+  the character at base[10] (f[10]=12, and base[10]=A, therefore 'A' has the
+  value 12)
+
+  Array 'f' is calculated by performing a set of different math functions
+  for each different set of characters. ie one set of functions for 0 to 9,
+  another for A to Z, and one for a to z. Hense, the first for loop in the
+  JavaScript calculates the values for 0 to 9:
+
+    for (x=0; x<10; x++) {
+      f[x]=x<<9
+      f[x]+=23
+    }
+
+  This is a loop from x = 0 until x < 10, and assigns the calculated values
+  to f[0] to f[9]. f[x] is calculated by multipling x by 2^9 (2 to the power
+  of 9), then adding 23 to it. eg, the first value of x is 0, therefore:
+
+    f[x]=x<<9  results in f[0]=0<<9 => f[0]=0*2^9 => f[0]=0
+    f[x]+=23   results in f[0]+=23 => f[0]=23
+
+  And the resulting values will be:
+
+    f[0]=23             => 0
+    f[1]=535            => 1
+    f[2]=1047           => 2
+    f[3]=1559           => 3
+      :
+      :
+    f[9]=4631           => 4
+
+  The second for loop calculates the values for A to Z and is slightly more
+  complicated:
+
+    for (x=10; x<36; x++) {
+      y=y<<1;
+      v=Math.sqrt(y)
+      v=parseInt(v,16)
+      v=+5
+      f[x]=v
+      y++
+    }
+
+  As mentioned before hand, this calculates the values for A to Z, which is
+  positions 10 to 35 in the array 'f'. Keep in mind that 'y' has been defined
+  ealier with a value of 28. Assign y with y*2^1, assign v the sqare root of
+  y (this is assigned to v, and not y, since y is used again to calculate
+  the next value), change v into base 16 (this is a simple method of rounding
+  off the given value.. ie removing anything after the decimal point), add 5
+  to it, then assign it to f[x] and increment y, eg for x=10:
+
+    y=y<<1  results in y=28*2^1 => y=56
+    v=Math.sqrt(y) results in v=Math.sqrt(56) => v=7.483315
+    v=parseInt(v,16) results in v=parseInt(v,16) => v=7
+    v=+5 results in v=12
+    f[x]=v results in [10]=12
+    y++ results in y=57
+
+  And the resulting values will be:
+
+    f[10]=12            => A
+    f[11]=21            => B
+    f[12]=26            => C
+    f[13]=38            => D
+      :
+      :
+    f[35]=278810        => Z
+
+  The last loop which calculates the values for a to z is the same as above,
+  except instead of adding 5 to v, it adds 74, and uses z inplace of y which
+  has been defined with the value of 23.
+
+    f[36]=80		=> a
+    f[37]=83		=> b
+    f[38]=93		=> c
+    f[39]=99		=> d
+      :
+      :
+    f[61]=262524		=> z
+
+  The Obfuscation 2:
+  ------------------
+  The next part to be described is the obfuscation of the password which has
+  been entered by the user. The following code of the JavaScript performs
+  this:
+
+    var lpass=(pass.length)+1
+    for (l=1; l<lpass; l++) {
+      K[l]=pass.charAt(l)
+    }
+    var code=0;
+    for (y=1; y<lpass; y++) {
+      for (x=0; x<62; x++) {
+        if (K[y] ==base[x]) {
+          code+=f[x];
+          code*=y;
+        }
+      }
+    }
+
+  Firstly, 'lpass' is assigned the length of the password the user entered +
+  1. eg, if I entered 'phrost', 'lpass' would be assigned 7. Then a for loop
+  puts each character from the password entered into an array 'K' (but doent
+  start at possition 0).
+
+    K[1] = h
+    K[2] = r
+    K[3] = o
+    K[4] = s
+    K[5] = t
+    K[6] = ? <- Could be anything, depends what is in memory at that position
+
+  ** K[6] = ? seems to me to be an error on the programmers behalf, (lpass
+  didnt need +1) If anyone else can see otherwise, please let me know. All I
+  can see that it does is waste a byte of memory, and an extra 63 loops are
+  performed later due to it.
+                 
+  As you can see, the first letter 'p' is not used when calculating the 'code'
+  This creates another 62 valid passwords, but only one is technically valid,
+  since it is the name of the .html file. eg if the password was 'phrost',
+  1hrost, 2hrost, 3hrost, Ahrost, ghrost, Ohrost, Ahrost are all valid.
+
+  Following putting the characters into an array, the variable 'code' is
+  assigned the value 0, then two for loops calculate the new value for 'code'
+  which will be used to compare against the obfuscated password. The first for
+  loop loops until all characters have been tested, and the second loops
+  through the array 'base' until the character is found. Once the character is
+  found in 'base', the respective value is then added to 'code', and 'code' is
+  then multiplied by the position the character is in the password. The
+  pseudocode may help you to understand it:
+
+    loop from y=1 to y=6 (ie, test h, r, o, s, t, _) {
+      loop from x=0 to x=61 (ie test all 'base' values) {
+        if K[y] is equal to base[x] then {
+          code = code + f[x] (the value in array f)
+          code = code * y (the position of the character)
+        }
+      }
+    }
+
+  And a worked through example, keeping with above, 'phrost' will be used as
+  the entered password:
+
+    lpass=7 and K[1-6]=hrost?
+
+    ** y starts at 1 and not 0, since anything multiplied by 0 results in 0,
+    also, the entered password is entered into an array starting at position 1.
+
+    y=1, x=0, is K[1]==base[0].. no, (is h = 0)
+         x=1, is K[1]==base[1].. no, (is h = 1)
+         x=2, is K[1]==base[2].. no, (is h = 2)
+         x=3, is K[1]==base[3].. no, (is h = 3)
+           :
+           :
+         x=43, is k[1]==base[43].. yes! (is h = h)
+           code = code + f[43] => code = 0+194 = 194
+           code = code * y => code = 194*1 = 194
+    y=2, x=0, is K[2]==base[0].. no, (is r = 0)
+         x=1, is K[2]==base[1].. no, (is r = 1)
+         x=2, is K[2]==base[2].. no, (is r = 2)
+         x=3, is K[2]==base[3].. no, (is r = 3)
+           :
+           :
+         x=53, is k[2]==base[53].. yes! (is r = r)
+           code = code + f[53] => code = 194+9554 = 9764
+           code = code * y => code = 9764*2 = 19576
+    y=3, x=0, is k[3]==base[0].. no, (is o = 0)
+         x=1, is K[3]==base[1].. no, (is o = 1)
+         x=2, is K[3]==base[2].. no, (is o = 2)
+         x=3, is K[3]==base[3].. no, (is o = 3)
+           :
+           :
+         x=50, is k[3]==base[50].. yes! (is o = o)
+           code = code + f[50] => code = 19576+2256 = 21752
+           code = code * y => code = 21752*3 = 65256
+    y=4, x=0, is k[4]==base[0].. no, (is s = 0)
+         x=1, is K[4]==base[1].. no, (is s = 1)
+         x=2, is K[4]==base[2].. no, (is s = 2)
+         x=3, is K[4]==base[3].. no, (is s = 3)
+           :
+           :
+         x=54, is k[4]==base[54].. yes! (is s = s)
+           code = code + f[54] => code = 65256+13713 = 78969
+           code = code * y => code = 78969*4 = 315876
+    y=5, x=0, is k[5]==base[0].. no, (is t = 0)
+         x=1, is K[5]==base[1].. no, (is t = 1)
+         x=2, is K[5]==base[2].. no, (is t = 2)
+         x=3, is K[5]==base[3].. no, (is t = 3)
+           :
+           :
+         x=55, is k[5]==base[55].. yes! (is t = t)
+           code = code + f[55] => code = 315876+20576 = 336452
+           code = code * y => code = 336452*5 = 1682260
+    y=6, x=0, is k[6]==base[0].. no, (is ? = 0)
+         x=1, is K[6]==base[1].. no, (is ? = 1)
+         x=2, is K[6]==base[2].. no, (is ? = 2)
+         x=3, is K[6]==base[3].. no, (is ? = 3)
+           :
+           :
+         x=61, is k[6]==base[61].. no, (is ? = z)
+
+    Therefore the code for 'phrost' is 1682260 (but remember, 1hrost, 2hrost,
+    etc can also be entered, and be valid.)
+
+  Conclusion
+  ----------
+  Hopefully that helped you understand the JavaScript. You should now be able
+  to implement it in your own html, and try your hand at cracking it. Feel
+  free to email me with any queries, or alterations. Next issue, I will detail
+  how to crack it.
+
+<=-------------------------------------------------------------------------=>
+
+  7.0 -[ Conclusion ]-
+  --------------------
+
+  "People annoy the shit outta me that are willing to let u carry it on your
+  back, then complain if the content is not to their liking, so here's my
+  contribution. enjoy :) "
+                               -  Imortal
+
+  Thats all I have to say.
+
+                               - Phrost Byte
+
+<=-------------------------------------------------------------------------=>
+
+  b el8 & dr1nk ->
+                                          #MMMMMMMMMMMMMMMMMMM#            
+                                          M@@@@@@@@@@@@@@MMMM#             
+                                         M@@@@@@@@@@@@@@MMMM               
+                                        M@@@@@@@@@@@@@MMMMM                
+                                       M@@@@@@@@@@@@@MMMM#                 
+                                      M@@@@@@@@@@@@@MMMMM                  
+                                     #@@@@@@@@@@@@@MMMM#                   
+                                    M@@@@@@@@@@@@@MMMM#                    
+                                   M@@@@@@@@@@@@@MMMMM##                   
+                                  M@@@@@@@@@@@@@@@@MMM#            #M%#    
+                                 #@@@@M@@@@@@@@@@@MMM#        #H-.   .MM   
+                                MMMMMM@@@@@@@@@@@MMMM        #H      =MM   
+                                  M#M@MHHHMMMMMMMMMM    #M%=         /MM   
+                                   M@M         :MM##M:               HMM   
+                                  M@M%       .%%=                    MMM   
+                                 M@MH        /.                    ,HMMM   
+                                M@@H         %                :MMMMMMM##   
+              #                M@@@@@M.      %                 MM#         
+         ##M,  MM#     #MMH/::/HMM@@@M       H    .:MH         :M#         
+     #M/       ,MM# #M-            ,HM       MHMMMMMMM-         MM#        
+     #%         /MM/                 :        .MM#---#M         %MM        
+     #%          M.                  /        .MM#----#%         MM#       
+     #%        ,M                    %        .MM#-----M,        -MM       
+     #/        M         HM@@@@@M.   H        .MM#######M         HM#      
+     #%:M=    .-       ,MM@@@@@@@M   H                ,MM         .M#      
+       #MM    /        MM@@@@@@@@@M. H               .MMM/         %M#     
+         #M   %        M@@@@@@@@@@M: M               MMM#M.         MM  ## 
+          #%  /      .M@@@@@@@@@@MM%HM              /MM# #M       ./MM#### 
+           #  ,     ,M@@@@@@@@@@@@M/ HHHMHMMMMMMHHHHMM#   #: =HMMMMMMM#    
+            :  H   =M@@MMMM@@@@@@M,%/     MMM#########     #MMMM##         
+      MH   #   -H  MH,MMMM@@@@@@MMM      =MM#                              
+    #/          .M   .  M@@@@@@MMM      HMM#    #$++$          ,.=         
+   #              ==   M@@@@@@MM:     :MMM#  +   ,;;.H        = .#         
+ #M                %MM:@@@@@MMM    .%MMMM  #.  $     =  .    ;  -. ,,      
+   M             ,MMMMM@@@@MMM=/HMMMMM#   #   H    #  =--=  H  ,#H=.   $   
+    #M%,      -MMMMM#M@@@@MMMMMMMM##      @   @   #@  ,H=  M  .= ,H+  ,;   
+       #MMMMMMMMM# #M@@@MMM                H      ;  #MM        M#  M      
+                  #M@@@MM#                                                 
+                  M@@@MM                                                   
+                 MM@@MM                                                    
+                #M@MM#                                                     
+               #M@MM                                                       
+               M@MM                                                        
+              MMM#                                                         
+             MMM                                                           
+            MM#                                                            
+           #M#                                                             
+          #M                                                               
+         ##                                                                
+                                                                           
+<=-------------------------------------------------------------------------=>
