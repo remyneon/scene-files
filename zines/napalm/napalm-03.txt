@@ -1,0 +1,867 @@
+           /\  /^/_ _ __  __ _|^|_ __ ___
+          /  \/ / _` '_ \/ _` | | '_ ` _ \
+         / /\  / (_| |_)  (_| | | | | | | |
+        /_/  \/ \__, .__/\__,_|_|_| |_| |_|
+                   |_|
+
+
+Issue 3 (Jan 31, 2000)
+___________________________________________________________________________
+The gh0st.net project:                     http://www.gh0st.net/index.html
+FireSt0rm's homepage:                  http://www.firest0rm.org/index.html
+URL of the day:                     http://napalm.firest0rm.org/index.html
+All content copyright ©2000 by the individual authors, All Rights Reserved
+___________________________________________________________________________
+
+- Editor's Comments
+- URLs
+- Building a HERF Gun (2 parts)
+- AI Security
+- C++ Tutorial
+- Future Issues
+- Credits
+
+***********************************************************************
+      *** Editor's Comments : Kynik
+***********************************************************************
+
+The webserver for gh0st.net has been bouncing around lately, and will
+stabilize soon at its new hosted home.  You will be able to see Napalm at
+its own subdomain http://napalm.gh0st.net/ and eventually at
+http://napalm.firest0rm.org/ when I get around to setting up the box,
+domain name, and configuring some crap.  The gh0st.net and FireSt0rm lads
+are all helping me put together a damn good whitepaper that will probably
+appear as a special edition of Napalm as soon as everything gets finalized.
+Keep an eye out!
+
+During the review process, our good friend Snock decided he had enough
+comments on the HERF article to make a followup/clarification of his own.
+Enjoy!
+
+***********************************************************************
+      *** Random good URLs : Kynik, Blakboot, Hubbo
+***********************************************************************
+
+FAQ on Neural Nets
+ftp://ftp.sas.com/pub/neural/FAQ.html
+
+Good Code Security Guidelines from OpenBSD
+http://www.openbsd.org/porting.html
+
+GNU Coding Standards
+http://www.gnu.ai.mit.edu/prep/standards.html
+
+Review unsigned bands (Use cynic@execpc.com as your referrer)
+http://www.garageband.com/
+
+A primer on prime numbers
+http://mindsong.net/science/primes.txt
+
+CoreWars? Not the programming game - a (dead?) hacker wargame
+http://www.corewars.net/
+
+Secure Remote Streaming - a secure replacement for syslog
+http://www.w00w00.org/files/SRS/
+
+***********************************************************************
+      *** Building a HERF Gun (part 1) : c_routine
+***********************************************************************
+
+Introduction
+------------
+I certainly hope that you enjoy this small slice of high energy physics
+and if you find any error, don't hesitate to email me and correct me.
+
+c_routine()
+routine@gh0st.net
+
+Dr. I. Fuxom
+fuxom@go-away-I-hate-you.mil
+
+Disclaimer
+----------
+The author(s) of this article are not responsible for any damage caused by
+the knowledge gained within the confines of this article, whether they be
+damage of persons, property, or any other entities, living, dead, or
+otherwise.  The information contained herein is designed to be used for
+informational or entertainment uses only.  The reader assumes all
+responsibility for the usage of the information contained within.
+
+[ Aww c'mon, routine... you know you want people to blow stuff up {kynik} ]
+
+Part One
+--------
+
+  This article assumes that you have some working knowledge of RF theory
+and of the concept of HERF. It also assumes basic electronics knowledge.
+
+[ And for those of you that don't: RF=Radio Frequency & HERF=High Energy
+  Radio Frequency {kynik} ]
+
+HERF pulse cannon inventory
+---------------------------
+
+There are several parts to a HERF pulse cannon:
+
+1) Energy
+2) Magnetron
+3) Focusing device
+4) Micro$hit building (also known as: Target)
+
+First: Energy
+-------------
+  The energy requirements of a HERF pulse cannon are quite great.  You'll
+need approximately 10,000 Farads to get a decent pulse. The best way of
+storing and releasing this much energy is in the form of a capacitor.  You
+should realize that capicitors are not generally built with ratings of
+10,000F. If anyone knows of an industrial electronics company that does
+manufacture high-rating capacitors, please let me know. Of course, they do
+make caps with ratings of pF and uF.
+
+[ That's putting it mildly.  A 10kF cap would be, shall we say, a little
+  unwieldly.  I've been considering scavenging some 1000uF caps from old
+  power supplies for a very-low-power HERF device; 1000uF = .1F. {ajax} ]
+
+Please observe the following:
+
+-------
+Sum of capacitance when connected in parallel.
+C = C1 + C2 + C3....
+-------
+
+  Therefore, the best way is to parallel enough capacitors together in
+order to create a rating of about 10,000F.
+
+  Being familiar with capacitors, you should know that when you discharge
+a capacitor, the whole amount discharges at once. This is your pulse.
+Unfortunately, this is only DC power and what you want is RF.  Enter the
+magnetron.
+
+Second: Magnetron
+-----------------
+
+  The magnetron is the actual RF generator.  It takes the high power DC
+pulse and turns it into a big RF pulse.  It's a high power oscillator,
+basically.
+
+  In order to get power out of the tube (and it is a tube) just apply the
+proper heater voltage for the tube (carefully measure the voltage on the
+existing transformer, without the HV connected of course) then apply
+about 5kV to the anode (cathode/heater negative, anode positive) from a
+big cap.  Most standard oven tubes can take about 1kW/Sec without going
+into meltdown.  The result is a huge pulse of RF coming out of the
+waveguide coupler.
+
+  Note: Do NOT do this with the tube just laying on a table!  That much
+RF, if you expose yourself to it can cause sterility, cataracts, or
+literally cook you inside.  It only takes a fraction of a second at high
+power to do that.  Really, take a LOT of precautions when you experiment
+with that much power.
+
+[ Yeah, think how nervous you'd be if you sat in a microwave for a moment
+  while it was on. Scary stuff. Though it did work in Gremlins. {kynik} ]
+
+[ The Gremlins were so cute... Actually, one guy got a Darwin Award for
+  something similar, like falling asleep in front of a microwave dish.
+  Like routine says, we are not responsible for anything you do to
+  yourself. {ajax} ]
+
+[ Brings a whole new meaning to "You snooze, you lose." {kynik} ]
+
+Third: Focusing Device
+----------------------
+
+  A parabolic dish would be the easiest way.  Procure a book with the
+design info for a parabolic dish, just go by the frequency of the tube
+(usually around 7 Gig or so) to get the focus point and minimum diameter.
+
+Fourth: Target
+--------------
+
+  As of yet, this is an untested method, but as soon as I fully assemble
+a HERF pulse cannon, I'll be taking a drive up to Redmond to see how well
+it really works.  On the Micro$hit building!
+
+More information (along with this article archived online) on this subject 
+can be found at my HERF website: http://www.gh0st.net/~routine/
+
+[ Or rather, might be found; as of my review this site is empty. {ajax} ]
+
+[ Yeah, probably have to wait for the full webserver move. {kynik} ]
+
+***********************************************************************
+      *** Building a HERF Gun (part 2) : Snock
+***********************************************************************
+
+Disclaimer
+----------
+
+  I'm not responsible for your use or misuse of this information, yadda
+yadda yadda.
+
+Introduction
+------------
+
+  HERF, or high energy radio frequency devices are classified as HPMs, or
+high powered microwave.  It works by pushing very high current pulses which
+last only a small fraction of a second into a magnetron tube which then
+releases a burst of microwave energy upon excitation.  The output from this
+system is quite "ragged".  The microwave energy induces current into nearby
+objects in its path causing them to possibly malfunction.  Magnetrons can
+also be used to remotely power devices as well.  The circuit below is just
+a rough idea of one might to do create a small scale high power pulsed
+microwave "gun".  In normal operation the magnetron's output is much more
+clean than the circuit below provides.  The "clean" continuous output of
+the magnetron creates much more surface heating.
+
+[ I'd be interested in hearing more about how this technology can be used
+  to remotely power something. There's been some minor discussion on the
+  topic on the L0pht BBS, but nothing in-depth. Interested, Snock? Perhaps
+  a Part 3 to this? {kynik} ]
+
+Main parts involved
+-------------------
+
+Magnetron: This is the device that produces the microwave RF energy.  In
+           microwave ovens this is the (usually) square finned object
+           that it attached to the chassis on the upper right side near
+           the rear of the unit.  It is a vacuum tube that has heater
+           filament connections and the high voltage connections as well
+           as an output waveguide/antenna.  Microwave ovens operate at
+           roughly 2.5GHz. The filaments generally require about 3-4
+           volts for operation.
+
+Capacitor: A capacitor is an electrical storage device.  The most simple
+           implementation of a capacitor is simply two conductors
+           separated by a dielectric.  The dielectric is the material
+           between the conductors and has an impact on the storage
+           capacity.  Surface area also increases capacitance and this is
+           why flat plates are used in their design.
+
+Sparkgap:  This is nothing more than two or more electrodes seperated at
+           a certain distance.  Sparkgaps serve as high voltage switches.
+           When a certain voltage threshold is reached the material
+           (usually air) breaks down  and a conductive channel is formed,
+           ie a spark. Several methods may be employed to help the gap
+           operate, or "quench" more effectively.  Parallel electrodes,
+           forced air flow, and gaps which physically rotate are some of
+           the methods that may be used to decrease spark dwell times and
+           excessive arcing at the gap.
+
+Schematic
+---------
+
+               T1*  ~4000Vrms      .01uF (experiment)
+                ||(---|<|---+------||----------+
+    ~AC--------)||(         |                  |     /
+               )||(         o                 Magne |  /|/|/|/|/|/|/|-->>  
+   120VAC      )||(         o                 tron   \  Microwave pulses
+               )||(         |                  |
+    ~AC--------)||(---------+------------------+
+                ||(--------> ~3VAC to filament
+                ||(--------> ~3VAC to filament
+
+
+  In microwave ovens the high voltage capacitor serves its function in a
+voltage doubler circuit.  The magnetron itself actually runs off of roughly
+5000V compared to the ~2000Vrms output of the large transformer.
+  I don't recommend the transformer that is in the microwave oven to be
+used as it is quite deadly... especially to the careless.  Rather than
+that, try to find an old neon sign transformer (T1) with a rating of around
+4000VAC at 30-60mA.  Neon shops will often give them away if you ask.  The
+rectifier diode in the above circuit is the one that is found in the oven.
+These diodes are typically rated to withstand about 12-15kV peak inverse
+voltage.  The capacitor is typically a homebuilt unit.  You can make these
+quite easily from beer bottles, foil, salt water, and long bolts.  Using
+glass bottles makes it quite easy to experiment with the capacitance of the
+circuit since you can add and remove as you please.  If you don't use the
+bottles, then use capacitors of the appropriate rating (two times the RMS
+output of the transformer *at least*) and make sure it will withstand pulse
+discharging.  Capacitors may burn up or explode if the ratings are ignored.
+The sparkgap can be constructed with two carriage bolts with the bolt heads
+as the electrode faces (where the sparks make contact).  You can take
+advantage of the threads on the bolts as a way to fine tune the gap
+spacing.  Try to get the gap as wide as possible while still allowing spark.
+The filament windings on the original microwave oven transformer are
+typically 3VAC at around 10-15A.  You can also subsitute this with a
+transformer of similar voltage/current capacity.  RF chokes before the
+sparkgap on each leg of the transformer may also be a good idea to help
+keep noise out of the building electrical system.
+
+Operation
+---------
+
+  Operation is fairly straight forward.  A parabolic reflector will provide
+a greater distance and effectiveness of the device.  You should keep good
+distance and always keep away from the antenna of the magnetron. Distance
+is a good way to minimalize exposure to radiation.  Never touch any of the
+components on the circuit during operation.  While the current from the
+transformer to the sparkgap may only be 30-60mA, the current past that is
+quite deadly.  After shutting it off you should discharge the capacitors.
+If the are film type capacitors they should be stored shorted to prevent
+bad shocks from static buildup on the plates.  The magnetrons generate
+quite a bit of heat as they are only about 50% efficient, so they should
+also be cooled. This circuit also generates a *hell* of a lot of noise
+(both AF and RF) and will more than likely cause your neighbors to become
+pissed.
+
+Related links/more info:
+
+http://www.zdnet.com/zdnn/stories/news/0,4586,2331772,00.html?chkpt=hpqs014
+http://www.house.gov/jec/hearings/radio/schriner.htm
+
+***********************************************************************
+      *** AI Security - Detection and Prevention : Blakboot
+***********************************************************************
+
+Introduction
+  Credit goes to the following people (A-Z): Ajax, Echo8, Kp2, Kynik, and 
+everyone who helped from #osuny. With Kp2's consent, I'd like to develop
+some of this for Gh0stOS, though other things mentioned herein are
+hypothetical.
+
+  In this paper I will discuss a few security concepts which are related
+to artifical intelligence. My next paper will be a thorough explanation
+of examining nonlinear data with neural nets; in it I'll include new and
+original source code. All of this was originally written for the PSS
+Storm Chaser 2000 contest, hence its whitepaper look and "wordyness".
+Please excuse that shit.
+
+Vulnerability Scanning and Automated Patching
+
+"A system can be made secure, but the problem lies in change - when new
+ software is taken into the system."
+
+  Security breaches are often the result of the adoption of new software
+with exploitable vulnerabilities. The author proposes two methods:  1.
+Vulnerability scanning and 2. Automated patching.  Vulnerability scanning
+is the more theoretical area of defence; the author considers automated
+patching the most feasible option.
+
+Automated Patching
+  The security daemon will take it upon itself to contact the providers of
+the software via a secure protocol, and/or connect to the provider's
+patch-protocol to automatically receive fixes on a timely basis. This
+protocol is a security issue itself, though with proper encryption and
+certification, patches can be transfered confidently. This patch
+installation technique will solve many problems because often
+administrators do not install patches soon after they are developed. This
+proactive patching of vulnerablities can a powerful tool, preventing many
+intrusions by staying one step ahead of those who await the development
+of exploits. Most intrusions today are the result of attackers taking
+advantage of exploits released to the public and automated patching is
+the solution for systems that are to remain secure against ever-evolving 
+intrusion techniques.  It will put security patches in place or at the
+feet of decision-making administrators.
+
+  Due to the possibilty of program patches changing the functionality of
+these programs, the system could be crippled. Thus, programs sent from
+the providers' protocol must be flagged ready to be patched with no
+changes in the functionality, or flagged as a change in functionality
+standards.  If it has considerable changes, the security daemon will still
+accept the patch, but will not install it. The next step would be to
+notify personnel, and leave it to them to change the program's
+configuration and install the patch.
+
+Vulnerability Scanning
+  The system enters a stage of introspection, examining the source code
+of programs for vulnerabilities.  If the program analysis is expected to
+take away considerable cpu time, it should be conducted a time of least
+usage of system resources.
+
+[ Or it could be done distributed.net style in the computer's idle time
+  all the time. {kynik} ]
+
+  For example, if an exploitable buffer overflow were to be discovered,
+the security daemon would remove any administrative privileges from the
+program (remove suid root) or simply remove execution privileges, notify
+security personnel and attempt to repair the problem by modifying the
+source code. If the patch is unsuccessful, the source code is restored
+and execution is denied to prevent exploitation. All of the results after
+discovery are reported to administration.
+
+  Should the source code for the program be unavailable, the assembler
+code will be analyized. This is still theoretical, but analysis of
+assembly language for a malicious or vulnerable set of instructions is a
+field of research that will yield revolutionary spoils. Analysis of this
+scale would be able to detect viruses, overflows, race conditions --
+threats to security for the last two decades.
+
+[ This could yield way more than simple source code bugs.  It's entirely
+  possible that a compiler has a bug in it's code-emission routines,
+  causing bugs that source-code analysis would miss. {ajax} ]
+
+[ An interesting way to audit and possibly rate compilers by the code they
+  generate. A whole new era of benchmarks :) {kynik} ]
+
+Analysing Nonlinear Data
+"When an attacker gathers information, there is a pattern, and we can
+ detect it."
+
+The Problem
+  The attacker(s) are trying to gather information about a system; this is
+the step prior to an intrusion attempt.  The author assumes they are using
+distributed attacks for anonymity and stealth.
+
+The Solution
+  The author's solution is a security daemon that implements a neural
+network routine. In short time intervals, the pattern of the frequency
+and type of external service requests are compared to two usage pattern
+tables in the neural network.  These two tables are Normal patterns and
+Probing patterns.
+
+[ It's my opinion that you're going to need more than just two pattern
+  tables here, call me crazy. You are probably going to need several
+  tables, broken up into logical groups "Normal" and "Probing". {kynik} ]
+
+[ You may also wish to have this security daemon running across your
+  network, with an NFR-like central analysis point of network traffic.  Or
+  put it in-line between your ethernet hub and your internet connection as
+  an ethernet bridge and monitor traffic for your whole network at once.
+  Interesting. {ajax} ]
+
+  This method of detection is very feasible because these neural networks
+have been used for years to classify nonlinear data, they are effective,
+and they can be used to defend computer systems.  If the neural network
+determines the system is being probed, the following actions may be
+taken:
+
+ * Notify personnel
+ * Selectively deny connections
+ * Close the services
+ * System shutdown.
+
+I'm sure there are many more actions that can be taken.
+
+  Work for this neural network is in the works; after programming for it
+is completed, the neural net will need to be "trained" so that the two
+tables for normal and probing patterns can be defined. This will simply
+involve defining the table to be wrote to, and executing the actions which
+fall under the table type upon the system. Once training is complete, the
+daemon will be able to grade the intervals of service queries with a
+percentage. So as an example, 10% Normal and 90% Probing results would be
+(if the NN was trained properly) obvious signs of probing behavior.
+
+***********************************************************************
+      *** C++ Tutorial : Kynik
+***********************************************************************
+
+[ I had this laying around and figured someone out there may want to know
+  some of this stuff.  If not, skip it and life goes on.  This was a rough
+  draft of my application to become the Happy Hacker UNIX Editor, so if it
+  seems elementary, accept my apologies.  I also know that certain
+  gh0st.net/FS/#osuny people are going to want to flay me alive for some of
+  the comments I make about C. Be gentle ;) {kynik} ]
+
+Q:
+Why is C++ interesting?
+
+A:
+While it was C that most UNIX-based utilities were written in (not to
+mention the UNIX kernel itself), C++ is (at least in my opinion) simpler
+to code than C, and thus easier to pick up on than C.  I'll try to show
+the equivalent C code (if different) when I give code examples later to
+illustrate this issue.  My point is, C++ is interesting since it offers a
+good way to get programming, and gives you a lot of functionality for a lot
+less trouble than C. (and can be used easily by those of you that already
+know C)
+
+Q:
+Is C++ portable?
+
+A:
+While there is an ANSI C++ standard, it's new and not as well-implemented
+as the ANSI C standard in most cases.  I would argue though, that for the
+most part, it is fast, stable, and portable.  My reason for this is that
+I've written a fairly advanced port scanner using C++, and only minor
+modification was needed to use it on a Sun machine after compiling it in
+Windows. (Took me all of 10 minutes)
+
+[ Yeah, routine, perl probably would have been simpler yet... {kynik} ] 
+
+Q:
+I think this C++ thing is just a fad, and will drift away like so much
+milkweed. What do you think?
+
+A:
+I have a feeling that if C++ was a 'fad' that it would have died out by
+now.  The Java programming language modeled its syntax after C++, so Bjarne
+Stroustrup (the creator) must have been doing something right.  Yes,
+anything you write in C++ can be written in C, but you can do it in a more
+readable fashion, and more legibly.  I know all you hardcore C programmers
+are firing up your mailbombers at me, but keep in mind this is not the word
+of the gods... it's just my opinion, which I tend to feel rather strongly
+about.
+
+[ Not that Java is anything terribly great {kynik} ]
+
+Now, a little introduction.
+
+C++ was designed to be a language with (mostly) clearly defined parts, like
+your liver, heart, spleen... you get the picture.  Each part has its own
+particular function that it is very good at.  Your liver filters out the
+toxins in your body, your heart pumps blood, for example.  This is usually
+called "Object Oriented Programming" (or OOP for short).  As one of my
+professors so nicely put it, "C++ is a number of good languages."  And
+you'll begin to understand why as you get deeper and deeper into the guts
+of the language.  I'll try to analyze the major focal points of
+Object-Oriented programming and C++ here, and give you some more detail
+later.
+
+<RUST> (random useless string of trivia)
+C++ is an offshoot of the C programming language, so instead of giving it
+an entirely new name, Bjarne Stroustrup (the creator) decided on the name
+C++.  And it's appropriate since the ++ operator in C (and C++) increases
+something by one.  So you can think of C++ as "C plus one".
+</RUST>
+
+The 7.5 steps to programming:
+
+[ Ok, looking back on this, I'm chuckling to myself. I encourage all of
+  you to laught with/at me too. {kynik} ]
+
+Step 1: Get a computer
+If you're reading this document, this step is pretty well taken care of.
+
+Step 2: Get an idea
+You must want your computer to do something neat, right? Well, figure out
+what that something is.  You may want to write it down.
+
+Step 3: Get a compiler
+A compiler is a program that allows the computer to take the C++ program
+and change it into something it understands, namely binary. (lots of 1s
+and 0s) If you have Linux, great!  Chances are you have a C++ compiler
+already installed on your computer.  The cool thing about a C++ compiler
+is that you can compile C programs with it too!  The most common C++
+compiler on a Linux-based computer is g++, the GNU C++ compiler. If you
+have a different OS, chances are that g++ supports it as well.  Most
+UNIX-based operating systems have a version of g++ available, and the
+various Windows OSs are supported as well.  Check out the following link
+to the g++ FAQ:
+
+http://www.cygnus.com/misc/g++FAQ.html
+
+If your OS isn't represented here, either contact the OS manufacturer or
+do a quick web search (using altavista.com, for example) for C++ and the
+name of your OS.
+
+Step 4: Get a clue
+Learn what you can about the progamming language of your choice (in this
+case, C++)  This tutorial should be a good starting ground for you, but
+definitely should not be the last thing you read, if you're interested
+in programming. (Hopefully it's not the first, either ;) It is a very good
+idea to read the documentation that came with your compiler, too.  (To do
+this on a Linux box, type man g++)  Buy a book or two, or read some free
+ones at http://www.mcp.com/personal/
+
+Step 5: Get some time
+A program is not something that just will happen by itself. It takes a
+certain amount of work.  But I'm confident all of you are up to it.  Then
+you know you have to work for it ;)
+
+Step 6: Crank out the code
+Lock yourself in a room with a 12 pack of your beverage of choice and start
+writing.
+
+Step 7: Debug
+Is the code exactly as it should be?  If not, return to step 6. If so, then
+look at it again and try to compile.  Return to Step 6 when you find an
+error.  NOTE: The second time you reach Step 6, you may want to switch to
+or from a caffeinated beverage, depending on what you started with.
+
+Step .5: Get a Life
+Insert this step liberally between all of the others.  No, seriously, it's
+very important to take an occasional break to avoid frying your brain.
+(Graduate with a degree in Comp Sci or work fulltime as a programmer and
+you'll understand)
+
+My first C++ program
+--------------------
+// This is my first C++ program
+
+#include <iostream.h>
+
+main()
+{
+  cout << "Goodbye world!";
+}
+
+Copy these few lines starting at the line with the two slashes "//" and
+ending at the right brace "}" into a file named goodbye.cc using your
+favorite editor.  Try pico if you don't know much about editors and you're
+using Linux. If you're using Windows, try notepad. The following would be
+what you'd use if you were writing this in C. (Not too much difference at
+this point)
+
+/* This is my first C++ program (C Style) */
+
+#include <stdio.h>
+
+main()
+{
+  printf("Goodbye, world!");
+}
+
+Ok, let's go through this program line by line.
+
+// This is my first C++ program
+
+This line is called a comment.  The computer doesn't do anything with this
+-- it's entirely for the programmer's benefit. Anything that's on a line
+after the double forward slashes is ignored by the compiler.  Feel free to
+write whatever the heck you want in this space after the //. As a matter of
+fact, make a couple more lines of comments if you so desire.
+
+#include <iostream.h>
+
+This is a line that tells the compiler (well, the preprocessor, but that's
+not important right now) to insert the contents of the specified file.
+This allows you to use pieces of code that have already been created for
+your own programs.  In this case, the file iostream.h lets us use the
+"cout" in a following line of code.  Other 'header files', as these are
+called, allow you to use different functions, or chunks of code.  This
+particular header file lets us use things relating to I/O (Input/Output)
+streams to display and read text.
+
+main()
+
+This is what is called the main function. This is the place that the
+computer starts running the program.  The parentheses show that it is a
+function, or a block of code for a certain purpose.  main's purpose is to
+be the starting point for the rest of the program.
+
+{
+
+The left brace shows the beginning of the code in a function.
+
+cout << "Goodbye, world!" << endl;
+
+This simply prints out the string "Goodbye, world!" to the screen.
+(without the quotes) "cout" starts everything out, and more or less means
+"C output". The double less-than is then used to show that the next part
+should be displayed to the screen, which in this case is "Goodbye, world!".
+Again, we see the double less-than, but now following them is "endl". This
+tells the computer to end the line. (like hitting the Enter key) The
+semicolon (;) at the end tells the computer that the line of code is done
+and to move on to the next line.
+
+}
+
+The right brace shows the end of the code in a function.  Makes sense,
+right?
+
+Now, you're not quite done yet.  The computer has yet to change this into a
+form that it can use.  At the moment, the code is really only good for you,
+the programmer.
+
+Structs
+-------
+
+Ok, I'll admit it, structs aren't unique to C++, they're in C too, but I
+thought it was a good place to start this out. struct is short for
+structure, which may help you visualize what we're doing a little better.
+These structures can contain various data inside.  What kind of data, you
+ask?  Here's a quick example of how to define a struct in C/C++.
+
+struct body
+{
+  arm leftArm;
+  arm rightArm;
+  leg leftLeg;
+  leg rightLeg;
+  head myHead;
+};
+
+No need to panic...we'll get to all of this in time.  Basically I just
+created an object that works as a container for 5 other objects, in this
+case, 2 arms, 2 legs, and a head. (Think Voltron and the lions if you're
+old enough to remember it)
+
+struct body
+
+This line creates a struct of type body, so if I ever need a 'body'
+object, it's defined here.
+
+{ and }
+
+The braces act as the container for what's inside the 'body' struct.
+
+arm leftArm;
+arm rightArm;
+:
+:
+head myHead;
+
+These lines create the actual objects inside the 'body' struct. The first
+word there tells what kind of object we have. In the first 2 cases, it's
+an arm. (on a side note, the computer must somehow know what an arm, leg
+or head is already for this to work) The second word gives the actual name
+for this object.  This name, also referred to as an identifier, is how we
+will access this object when we need to.
+
+The trailing semicolons signify the end of a struct definition, or the end
+of a line of code.
+
+So now, if we wanted to create a body object, we would type something like
+the following line:
+
+body x;
+
+This creates a body called 'x' in C++.  Ok, now the question that pops
+into all of your minds at this point is, "How can I get to x's arms, legs
+and head."  Good question!  You do that like this:
+
+x.leftArm
+
+Just add a period and then the name of the object.  You could have just as
+easily made it x.rightArm or x.myHead, too.
+
+Object Oriented Programming lets us create very modular programs, and
+makes it pretty easy to reuse code.  But I digress.
+
+Classes
+-------
+
+No, this section doesn't mean you have to go back to school.  A class is
+very much like a struct with a few notable differences. (Ok, there's only
+actually one, but that's not important right now)  A class can have what
+are called 'member functions' which allow you to embed code specific to
+that object right inside.  A function is simply a piece of code that
+performs, get this... some action or function.  Classes also bring up
+another topic: public members and private members.  In a struct, all the
+data items you create are 'public'.  That is, anyone from the outside can
+access them.  Picture an open field with data objects lying around.
+Anyone can walk in and play with them there.  In a class, you have the
+option of making a member 'private' so only certain things can play with
+it.  Now imagine a locked building in the middle of that field.  Anyone
+can play with the class' public members, but nothing except something
+inside the class can access a private member.  (Well, this isn't entirely
+true either, but for right now it will work)
+
+[ Not entirely true, he says... structs can have member functions, too.
+  Like he said, there's only one actual difference, which is that *by
+  default* members of structs are public, whereas in classes by default
+  members are private.  Structs can have private members, too, you just
+  have to make that explicit.  If this confused you, move on. {ajax} ]
+
+[ I was actually leaving out the details of friends, something that I'm
+  not terribly interested in exploring right now. {kynik} ]
+
+Here is a sample class:
+
+class book
+{
+public:
+  section GetChapter(int);
+  section tableOfContents;
+
+private:
+  section GetIndex();
+  section chapter1;
+  section chapter2;
+  section chapter3;
+  section index;
+}
+
+See, that's not too much different from the struct I showed above.
+
+class book
+
+This is how we create a class, just like we did with a struct.
+
+{ and }
+
+Same as before.
+
+public:
+
+This says that until further notice, treat everything as a public member.
+
+section GetChapter(int whichOne);
+
+This is a function declaration.  The first word is the 'return type'.  This
+shows what kind of object you're going to get back when you use this
+function.  The second part is the function name.  This is how you'll use
+the function.  The part in the parentheses is called the parameter list.
+This is where you input something into the function to modify its
+behavior.  In this case, we have one parameter of type 'int'.  ('int' is
+short for 'integer', which is a non-decimal round number like 1, 56, or
+-2) If we had more than one parameter, we would separate them with commas.
+In this case, we want the function to return the section object depending
+on what we give as the parameter.  So if we give the function 1, we want
+it to give us chapter1 back, and chapter 2 if we give it a 2, and so on.
+We can call a function within a class by using much the same notation as
+accessing data.
+
+book z;
+z.GetChapter(1);
+
+The second line there would give us the section object chapter1, if we
+wrote the function correctly.
+
+section tableOfContents;
+
+This is a public data member.  Anyone can play with this.
+
+private:
+
+Just like public:, this specifies that until further notice, all members
+are private and overrides the previous public:.
+
+section GetIndex();
+
+This is a private member function and cannot be called outside of the
+class. So z.GetIndex() will not work.  Also, notice that functions are
+allowed to not have parameters.  The parentheses must still be included,
+however.
+
+section chapter1;
+:
+:
+section index;
+
+These are private data members and can only be accessed from within the
+member functions of this class.
+
+If you're a C programmer already, this is probably not too far to stretch
+for you right now. The rest of you, rest assured that I will elaborate
+more on this in another post. Future topics include inheritance,
+templates, streams, and useful coding in C++.
+
+Author's note:
+I really don't have much intention of doing any more with this.  If there's
+anybody out there that thinks they might benefit from me doing more on the
+topic, let me know.  If not, I'll let this beast die quietly.  I promise my
+contribution to Napalm 4 won't suck as badly.
+
+***********************************************************************
+      *** Future Issues
+***********************************************************************
+
+Creating Restricted ("Sandboxed") User Accounts : Fict
+                       Firewalls and Censorship : Kynik
+
+***********************************************************************
+      *** Credits
+***********************************************************************
+
+               Editor:  Kynik     <kynik@firest0rm.org>
+            Co-Editor:  ajax      <ajax@firest0rm.org>
+Article Contributions:  c_routine <c_routine@gh0st.net>
+                        snock     <snock@snock.raex.com>
+                        Blakboot  <blakboot@firest0rm.org>
+      URL Submissions:  hubbo     <root@mindsong.net>
+
+***********************************************************************
+      *** Subscription
+***********************************************************************
+
+To subscribe to this 'zine:
+  email napalm@firest0rm.org with a subject of SUBSCRIBE
+To unsubscribe:
+  email napalm@firest0rm.org with a subject of UNSUBSCRIBE
+
+Submissions, questions, comments, and constructive chaos may also be
+directed to kynik@firest0rm.org or any of the other contributors.
+
+***********************************************************************

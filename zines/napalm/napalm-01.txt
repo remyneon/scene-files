@@ -1,0 +1,414 @@
+           /\  /^/_ _ __  __ _|^|_ __ ___
+          /  \/ / _` '_ \/ _` | | '_ ` _ \
+         / /\  / (_| |_)  (_| | | | | | | |
+        /_/  \/ \__, .__/\__,_|_|_| |_| |_|
+                   |_|
+
+
+Issue 1 (Sep. 29, 1999)
+___________________________________________________________________________
+The gh0st.net project:                      http://www.gh0st.net/index.html
+URL of the day:        (Computer geek cartoons) http://www.userfriendly.org
+All content copyright © 1999 by the individual authors, All Rights Reserved
+___________________________________________________________________________
+
+- Editor's Comments
+- URLs
+- News
+- My Life As A Happy Hacker
+- Onion Routing
+- The gh0st.net Project
+- Violence, Censorship, & Our Rights
+- Future Issues
+- Credits
+
+***********************************************************************
+      *** Editor's Comments : Kynik
+***********************************************************************
+
+For now, I'm just going to borrow the layout I used while I was HH editor.
+(Which I am no more.)  I'll try to make it a little bit more freeform than
+this first issue, but we'll have to see.  I'd like to see this zine
+diverge a little from the standard 'security info' theme and get into
+music, news and whatever tickles everyone's fancy.  Email me at
+kynik@gh0st.net for damn near anything.  Oh, and send me good links, too.
+
+NOTE: Due to the gh0st.net webserver and mailserver's owner moving very
+far away soon, the website may be inaccessible for quite some time.  You
+can contact us at napalmzine@hotmail.com until we get everything back up
+again.  Thanks to TF for actually hosting all the web pages and mail
+server!
+
+***********************************************************************
+      *** Random good URLs : Kynik
+***********************************************************************
+
+The Roskilde music festival in Copenhagen, Denmark
+http://www.roskilde-festival.dk/
+
+The OSKit - build your own OS
+http://www.cs.utah.edu/flux/oskit/
+
+gh0stOS
+http://www.gh0st.net/gh0stOS/
+
+Good source code for neural networks
+http://www.geocities.com/CapeCanaveral/1624/
+
+Irish pop-punk
+http://www.iol.ie/~brooder
+
+***********************************************************************
+      *** My Life As A Happy Hacker : Kynik
+***********************************************************************
+
+A long time ago (probably 3-4 years) on a computer lab workstation far,
+far away (ok, it was the Midwest) I discovered the Happy Hacker in my
+quest for knowledge of the computer sort.  I found it after sifting
+through search engine results of the keyword 'hacker'.  I had been
+inspired by such movies as "Wargames" and "Sneakers" and realized that
+there was a lot more to this computer thing than Doom and Microsoft Word.
+Having realized this, I dove headfirst into the web, trying to find a
+place that suited my wants and actually had an air of intelligence.
+
+Many of the sites I found were crude and obviously created by
+middle-school-aged kids looking to mess with their friends on AOL.  Two
+things I found caught my attention immediately: Silicon Toad and The Happy
+Hacker mailing list.  I proceeded to download a whole pile of programs
+from Silicon Toad's site, and played with them on my computer at home, but
+beyond that, didn't do too much.  I checked in on it every once in awhile,
+until the site disappeared.  I kept on getting the happy hacker
+newsletter, and found out how to do some neat, trivial things such as
+changing my Windows 95 splash screen for startup and shutdown.
+
+Then I began to read about some of the things that people had done with
+their computers, and against the list founder, Carolyn Meinel.  I didn't
+think too much about this at the time, but kept my interested fascination
+with the whole 'hacker culture' as I progressed with my Computer Science
+degree.  I continued to receive the digest, and towards the end of 1998, I
+got a Happy Hacker digest with a request for a new UNIX editor.  Having
+read most of the info out there about Carolyn Meinel and the general
+consensus about her, I thought about it carefully before I sent in an
+application.  I realized the stigma that currently goes along with CPM and
+the Happy Hacker name, but after consideration, I thought I'd try to keep
+alive the idea that got me into the Happy Hacker in the first place:
+Knowledge and Ethics.  Granted, CPM is currently more interested in money
+and promoting herself than educating and instilling ethics, from what I've
+seen.
+
+I emailed her, and asked if the position was still available.  She asked
+me to write a Guide to (Mostly) Harmless Hacking (GTMHH) on any topic I
+chose.  I chose to write a beginner's guide to C++, since there already
+was one for C.  Well, I sent her a small piece of what I had written, and
+she advised me that Guide submissions are generally much longer.  So I set
+off to flesh it out and expand on the parts she said were somewhat
+lacking.  I got about 2/3 of the way through it, and grad school and work
+took precedence.  A few weeks later, totally to my surprise, I got an
+email from Carolyn asking me if I wanted the position.  I said yes, we
+exchanged our PGP keys, I got the passwords to the unixeditor POP account,
+and I started reading submissions and putting them together to form the
+Happy Hacker UNIX digest.  To see the digests, as they were submitted to
+Carolyn, go to the following URL:
+
+http://fire.gh0st.net/hh/index.html
+
+The first few digests were pretty weak, as most of the questions I got
+were rather bland, and I was still getting the feel of the position.  I
+got very few flames, and a lot of praise.  I realized that I might
+actually be making a difference to some people, trying to help them
+understand the basics (and some details) of UNIX and computer security.
+When I heard that Carolyn had moved the HH mailserver over to an
+AntiOnline computer, I wasn't thrilled, but I really didn't care all that
+much at the moment.  Keydet89, the windows editor, apparently left because
+of this, which was rather sad, because he always had good perl snippets in
+his digests.  (Send me an email keydet, if you wanna tell about your
+experience, or write some articles :)
+
+Then I thought about it.  I looked back at AntiOnline's features section,
+and I thought about JP's article on "Hacker Profiling".  Pieces started to
+fit together.  I thought about the possibility that JP was making copies
+of any mails that I received as a submission and adding them to his pile
+of material to be filtered and info to be added to the 'hacker database'.
+See, a lot of times I'll be sent an email claiming to have broken into a
+site and wanting to know what to do from there.  (Or, someone requests me
+to break into a site for them -- which I'd consider doing, provided you're
+paying me and the site is yours.)  In the second-last HH digest, I
+included a link to my PGP key, and an alternate email address that people
+could write to.  I'd say about half of the respondents used the other
+email address... and 2 or 3 used the PGP key.  I realized that I needed a
+bit more creative freedom, without eyes peeking over my shoulders.
+
+So, I teamed up with some people I had met online, and had been working
+with for a little while, and offered to create a new zine, with an
+emphasis on computers, security, and music.  I wanted to give the people
+that needed a certain amount of mentoring a chance to get some people to
+talk to if they needed help.  I found out that there was a similar group
+of people working on a project similar to the Happy Hacker wargames, but
+cooler, and I started hanging out with them as well.  So, here ends my
+Happy Hacker story.  I know I've left out some minor details, but don't
+worry, they weren't that important.  Let's have a big round of applause
+for the gh0st.net and FireStorm guys!  Hopefully the projects will pick up
+soon, and there will be more to see on both the fire.gh0st.net and
+www.gh0st.net sites.
+
+  -Kynikeren
+
+***********************************************************************
+      *** Onion Routing : Kynik
+***********************************************************************
+
+While it seems that the term "Onion Routing" may be copyrighted, I feel
+that it is a good description of the technology.  Onion Routing is an
+Internet-based system to prevent eavesdropping and traffic analysis. The
+name "Onion Routing" is appropriate, since it is based upon adding several
+layers of encryption to a message (and removing them) as it is passed
+along the network, as one might remove the layers of an onion.  (I suppose
+one could also call it 'artichoke routing' too ;)  This is essential to a
+network where privacy and anonymity is important.
+
+"Well, so what about privacy, everything I'm sending to that site is
+encrypted with SSL, anyways", you may say.  That's all fine and dandy, but
+chances are, anybody monitoring you knows at least that you've been there,
+since the destination address is plainly readable in the IP header.
+That's where the anonymity portion comes in.  Someone between you and the
+website you're visiting is _not_ able to tell (easily) where you're going,
+or even where you're coming from.  There are two notable systems in
+use/development today (at least what I've initially found).  They are:
+
+Freedom - "Internet Identity Management System"
+http://www.zeroknowledge.com/products/
+
+The Onion Router Project (US Naval Research Lab)
+http://www.onion-router.net/
+
+There are some differences between the two, but I'm not going to analyze
+them.  Now, how does this all work, you ask?  The scheme is built upon
+public-key encryption (of varying strengths) and a 'private' network of
+routers.  Basically, your packet doesn't take the direct route across the
+net like you'd expect it to.  Instead, it is sent to a specialized
+computer which runs the 'onion routing software'.  That 'onion router'
+(OR) hands the packet off to the next designated OR, which continues to
+forward it on, until the last OR designated finally delivers it to the
+true destination.  I don't want to get into the mechanics for establishing
+routes and vendor-specific details like Freedom's Anonymous Mail Proxy,
+but instead I will explain the generic mechanism that allows you to send
+anonymous, private traffic across the internet via onion routing.
+
+A fairly good paper, by Goldschlag, Reed and Syverson, entitled, "Onion
+Routing for Anonymous and Private Internet Connections," does a thorough
+job of explaining this technology:
+
+http://www.onion-router.net/Publications/CACM-1999.pdf
+
+From the paper:
+
+  Onion Routing operates by dynamically building anonymous connections
+  within a network of real-time Chaum Mixes.  A Mix is a store and forward
+  device that accepts a number of fixed-length messages from numerous
+  sources, performs cryptographic transformations on the messages, and
+  then forwards the messages to the next destination in a random order.
+  A single Mix makes tracking of a particular message either by specific
+  bit-pattern, size, or ordering with respect to other messages difficult.
+  By routing through numerous Mixes in the network, determining who is
+  talking to whom becomes even more difficult.  Onion Routing's network of
+  core onion-routers (Mixes) is distributed, fault-tolerant, and under
+  the control of multiple administrative domains, so no single onion-
+  router can bring down the network or compromise a user's privacy, and
+  cooperation between compromised onion-routers is thereby confounded.
+
+Freedom's system might be slightly different in implementation, but again,
+I'm ignoring details, and loving every minute of it!  When a specific
+message needs to be sent through the onion-routed network, several layers
+of encryption are placed on the message, along with sufficient information
+to describe the path on a step-by-step basis.  This way, each onion router
+along the way uses its own public key to decrypt the whole 'onion', at
+which point it recognizes the next onion router in the route, and forwards
+the partially-decrypted message to it.  When the enveloped message
+eventually reaches the final onion router, it is decrypted to cleartext,
+and the message is passed to the destination, not too differently from if
+the source host had simply connected in the clear over the Internet,
+except for the fact that it was made virtually untraceable for the
+duration of its trip from end to end.
+
+Feel free to send me questions and commentary on anything I may have
+screwed up (or done well).
+
+kynik@gh0st.net
+
+***********************************************************************
+      *** The gh0st.net Project (Part 1 of 2): Phatal
+***********************************************************************
+
+  Gh0stnet in its simplest and most basic form is a security model.  As a
+security model, gh0stnet's integrity is maintained by the fact that it
+protects access, whether this be access to data or some other resource
+makes no difference.  Complication occurs when we examine gh0stnet's
+purpose.
+
+  The theme is not necessarily to provide an ultra-secure network... it's
+simply to provide security.  Whether the provision of security is done
+well or even in a rational manner is up to us as developers.  Further
+complicating this matter is the concept of providing a security challenge
+or novelty to the public.  Are we targeting a specific group of people to
+benefit from gh0stnet?  As far as I'm concerned, no.  While we are all
+obviously aware that gh0stnet's existence specifically caters to a certain
+type of computer user, there's been no real intention to do so.  By virtue
+of not being funded by a corporation or the government and also by the
+virtue of being conceptualized by someone who spends the better part of
+his day immersed in computer security, the compsec underground will
+inevitably be an integral part of gh0stnet.  Hopefully this will be one of
+its greatest assets.
+
+  Although the physical establishment of gh0stnet is still in the works, I
+have a feeling that's going to be the easy part.  I'm putting energy into
+gh0stnet with the intention that it will long surpass my interest.  As a
+field of study and a science, computer security is an evolving subject.
+If gh0stnet is to ever provide anything substantial to its public, it will
+have to reflect this.
+
+Development:
+  This is the area that gh0stnet should be the most active in.  If there's
+one thing I hate it's purposeless work.  What I hate more than purposeless
+work is being bored.  From my perspective, I would prefer to do more than
+set up a number of boxes to let people hammer into the ground.  It would
+be fun to look at the logs for a while, but ultimately it would become
+boring.
+
+  I'm interested in using gh0stnet as a testbed for alternative,
+ingenuitive, and challenging security concepts.  This would provide tons
+of fun for us, something interesting to give to the users besides boxen to
+break into, and more than likely create some very interesting offspring.
+Software or hardware, it's all a matter of what contributions we as
+individual developers have to offer.
+
+Participation:
+  This is an area that I tend to give a lot of thought to. As "developers"
+we really do more than just develop.  We maintain and administer gh0stnet.
+This is not a job. Participation is totally interest-based.  I'm not one
+to force people into doing something that they don't want to.  If it
+appears that the role you're taking in this project is not quite what you
+want or what you expect, it's important that you speak up.  I sacrifice a
+lot of my free time for this but I don't neccessarily expect others to.
+The project does have a well-defined vision/goal that I may be relatively
+inflexible about, but not unapproachable.  What I will be very wary of is
+the inclusion of other individuals outside of my sphere of influence.
+This is a delicate project from my standpoint, so I'm a little touchy as
+to who deals with it.  To have one person on board who doesn't quite see
+the goal or has some other motives besides the prosperity of gh0stnet
+would have a negative impact on the project.  Stating this here serves no
+other purpose than for you folks to be aware that I want a shiny, happy,
+rosey environment in which I deal with people who I know and trust.  Not
+that I don't like contributions, but network management and planning
+should pretty much be kept between us developers.
+
+  The most important part of getting this off the ground will be the
+communication that goes on between all of us.  Hopefully most of the
+communication will be occurring on the gh0st.net box, courtesy of TF.
+Toxy has also been threatening to start a mailing list and that sounds
+kick ass to me.  Natas, kp2, and I live in the same state and hopefully
+we'll all be getting drunk together soon ; ).
+
+<Next issue = Basic network structure && games>
+
+***********************************************************************
+      *** Violence, Censorship, & Our Rights : Blakboot
+***********************************************************************
+
+[Editor's note: I've taken the liberty to publish this article by Fire
+Storm's founding member in his absence. This article was (and still is)
+available at <http://fire.gh0st.net/vcr.html>. It has not been edited from
+its original form, except for formatting to fit the page, and minor
+spelling corrections.]
+
+  To most of the people whom will read this, I have no credibility - why
+should you listen to me?  Well, because if you read any farther, I'm sure
+you will find that I'm not writing about anything extreme; these are our
+rights.
+
+  Recently, in retaliation to school violence, people are working to
+suppress information pertaining to explosives; keep it out of the hands of
+youngsters.  Although, this movement is not focusing on just that, rather
+make an exception to our rights, and quiet what we don't want people to
+hear.  You see, this country is based on tolerance.  Some may be
+prejudiced, but we as a whole, in this country, don't just go off destroy
+the minority.  We tolerate it, because if one day our rights are
+threatened, we can count on other people to fight with us.  It's about
+power of people, and not everyone can get what they want - so we must be
+tolerant, even if we don't totally agree with it.
+
+  The movement is contradicting itself.  People want to educate the masses
+into an objective whole, yet want to shut out information, and take the
+philosophy, "Ignorance is bliss".  We should work towards happiness,
+because anyone can learn to KILL; bombs, guns, knives, etc. are beside
+the point.  People kill because of many reasons, and "now they can" isn't
+it.
+
+  The general public is quick to say that bombs, guns, and "outcasts"  are
+the reason for this school violence problem.  Wrong.  Students don't kill
+just because they _can_, it's because, perhaps they're miserable?  Perhaps
+they're implementing the violence many students just think about?  My
+opinion is yes; I've even tempted to say majority by far think about
+violence as an outlet.
+
+  "Wackos" just don't think about violence; everyone does and sometimes we
+actually do what we plan.  I'm not trying to justify what these people do,
+but I'm saying this isn't just some isolated cases.  Something is wrong.
+I personally think it's new presures in society today and the school
+enviroment.  Keep in mind that the basic idea/concept of how school works
+has never changed.  This "concept" isn't education, it's the enviroment,
+which is stressful and obviously causes violence.  You may say something
+to the effect, "Stress is a natural part of life".  I agree with you, but
+these are CHILDREN we're talking about, and they obviously can't cope.
+
+  Back on the subject of unalienable rights. If we make an exception,
+we'll find ourselves taking away our own rights, _one_by_one_.  There is
+NO exception, these are our RIGHTS!  There will always be someone you
+disagree with, but you'd better respect THEIR freedom, if you want them to
+respect YOUR freedom.  Because one day, your thoughts may not fit in with
+the majority.
+
+End points:
+
+  People in the Untied States of America have the right of press; we can
+write about anything and everything.  If you dont like it, leave. See how
+other goverments deal with these things, and tell me how much you hate
+liberalism.
+
+  Leave and go to a country where you can't say jack, and tell me how much
+you'd like to shut up those boisterous protestants.  This issue isn't
+something new.  Censorship itself is an exception we've made, and it's
+wrong.
+
+***********************************************************************
+      *** Future Issues
+***********************************************************************
+
+            The gh0st.net Project (Part 2 of 2) : Phatal
+Creating Restricted ("Sandboxed") User Accounts : Fict
+
+***********************************************************************
+      *** Credits
+***********************************************************************
+
+               Editor:  Kynik <kynik@gh0st.net>
+            Co-editor:  Ajax <ajax@gh0st.net>
+Article Contributions:  Phatal <phatal@gh0st.net>
+                        Blakboot <blakboot@discussion.org>
+
+***********************************************************************
+      *** Subscription
+***********************************************************************
+
+To subscribe to this 'zine:
+  email kynik@gh0st.net or napalmzine@hotmail.com with a subject of
+  SUBSCRIBE
+To unsubscribe:
+  email kynik@gh0st.net or napalmzine@hotmail.com with a subject of
+  UNSUBSCRIBE
+
+Submissions, questions, comments, and constructive chaos may also be
+directed to kynik@gh0st.net, napalmzine@hotmail.com or any of
+the contributors
+
+***********************************************************************
+

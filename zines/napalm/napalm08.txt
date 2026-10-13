@@ -1,0 +1,1388 @@
+
+           /\  /^/_ _ __  __ _|^|_ __ ___
+          /  \/ / _` '_ \/ _` | | '_ ` _ \
+         / /\  / (_| |_)  (_| | | | | | | |
+        / /  \/ \__, .__/\__,_|_|_| |_| |_|
+                   |_|
+
+.                                 .                      . ..n8: 2000.11.28
+---------------------------------------------------------------------------
+all content copyright © 2000 by the individual authors. all rights reserved
+---------------------------------------------------------------------------
+
+# prtvtoc
+. . . .....................................................................
+0x00  Editor's Comments
+0x01  URLs
+0x02  Subscriber Emails
+0x03  Fun with Nortel M1231 Millennium Payphones
+0x04  AT&T Assembly Syntax
+0x05  IPSEC Bridging Under OpenBSD
+0x06  Security Holes in Sun Cluster 2.x
+0x07  Music Reviews
+0x08  Credits
+..................................................................... . . .
+
+_________________________________
+------------------------- - kynik
+[=] 0x00: Editor's Comments
+
+Of course this issue is not as long as the previous one, but we've got a
+decent spread of articles this time, and no music review. See that section
+for details. For those of you writing articles for Napalm, please keep
+these guidelines in mind, not that these are problems, just for the simple
+fact that I need to write them down somewhere:
+
+1) Spell check
+
+I do correct any spelling errors I find, and Ajax does the same on his
+second pass. We also correct grammar mistakes, but those are more
+acceptable, since there's many many free spell checkers out there. 
+
+2) Spaces after periods
+
+One space after a period. I remove doubles by hand because I don't like
+it. Two spaces messes up the linebreaking and makes the whole issue
+longer.
+
+3) No tabs
+
+Some people read these issues in their mail readers, and in various
+browsers. Don't use tabs to align columns and such. Use plain spaces, even
+if it seems wasteful to do so. I'd rather have the issues a little larger
+than have something look messed up on 10% of people's machines.
+
+4) Line length
+
+Try not to make your lines longer than 75 characters or so. Some people
+read the issues in small windows. I personally hate having to stretch a
+window to read a file, or to have lines wrapping that only have a single
+word on them. You know what I mean.
+
+5) Two space indentation
+
+This is just a personal preference of mine, so it overrides yours. And
+besides, it gives indentation without taking too much space. See #2.
+
+6) You can submit anonymously
+
+If you have something cool you'd like to write, but you don't want to be
+recognized for whatever reason, we'll be more than happy to keep your
+email address unlisted or post the whole article anonymously.
+
+If anybody has any questions, you know where to reach me:
+kynik@firest0rm.org
+
+____________________
+------------ - kynik
+[=] 0x01: URLs
+
+Free Software Developer's Community
+http://advogato.org/
+
+Q&A about the Freedom of Information Act (FOIA)
+http://cpsr.org/cpsr/foia/foia_q&a.txt
+
+Good listing of commonly-scanned ports
+http://www.sans.org/y2k/ports.htm
+
+_________________________________
+------------------------- - kynik
+[=] 0x02: Subscriber Emails
+
+BlackOP007 <HELLSCREAM612@prodigy.net> writes:
+
+hey there,
+    im a 17 year old in need of some answers.  i plan on attending
+college soon and would like to know what classes to take to help with my
+interest in becoming a network security analyst.  I am fascinated with
+the world of computers and security and would greatly appreciate any help
+you can give me.
+                                                        BlackOP007
+
+[ I'd suggest anything that interests you, but that's a cop out, so here's
+  a list of what I'd recommend: Intro to Networking, (covers transport
+  protocols, hardware, media, routing, etc.) C/C++ programming, (gotta
+  write your personal utilities in something) Intro to Operating Systems,
+  maybe Artificial Intelligence and if they have a class for it, Data
+  Security. Not all schools will have the same selection as others (I was
+  fortunate enough to graduate from a larger state school, so I had a
+  broad range to choose from. It all depends on what interests you. Don't
+  take classes just to get a certain job. You will change your mind before
+  you're out of school. Take the classes that you like the most, and let
+  it go from there. {kynik} ]
+
+***********************************
+
+Javier Llamas <jllamas@tab1.bal.com.mx> wrote:
+
+Hi:
+
+    I've checked out your articles for the 1st time and I think they're
+really cool. Thing is that I didn't understand as much as I would've
+liked to. So my question is... could you give me some sort of reference
+to get started on learning the VERY basics? I'm not intrested in
+cracking systems, but on fixing security holes (although I'm intrested
+on learning mostly anything... Thanks, bye
+
+[ Unfortunately, many people get this same question every day. You need to
+  be more specific as to what you mean by the basics. Do you want to know
+  more about a particular operating system, or maybe about how the web
+  pages in your browser get to you? If you find something that you don't
+  understand, dig around (google.com is good) first to find what
+  information you can, then if you run into trouble understanding
+  something, feel free to ask a specific question. For good places to
+  start online, check out securityfocus.com or hackernews.com. {kynik} ]
+
+__________________________________________________________________________
+-------------------------------------------------- - Flame0ut/PrussianSnow
+[=] 0x03: Fun with Nortel M1231 Millennium Payphones
+
+             Toll Signalling And Collection Technology
+                on Nortel M1231 Millennium Payphones
+                              ........
+                   And The Circumvention Thereof
+         (Or, "How We Didn't Pay For A Couple Of Phone Calls")
+
+      A self-aggrandizing account by Flame0ut and PrussianSnow
+
+              Published Around Late 2000 Or Something
+
+                              ********
+
+[ Standard disclaimer applies here: You use this for criminal activities,
+  and you will probably be punished. We won't bail you out, nor do we take
+  any responsibility for your use of this information. Knowledge is good.
+  All hail the giant pulsing brain. {kynik} ]
+
+  One of the most common questions asked by young telephone enthusiasts
+in Canada is, "Can I red box Millennium phones?"
+
+The answer, my friend, is no.
+
+But some background first. The Millennium phone (model M1231) is an
+advanced payphone manufactured by Northern Telecom. A good deal of
+documentation concerning these phones is available on the Internet and
+through Northern Telecom (1-800-4-NORTEL), but to quickly list some of
+their "features":
+
+- They have an LED screen displaying the current time, date, and a
+    programmable message.
+- They accept (in Canada) nickels, dimes, quarters and loonies, as well
+    as magnetic cards such as Bell Calling Cards and smartcards such as
+    Bell Quickchange Cards.
+- The dialing system is multi-layered and involves several firmware
+    systems; that is to say, the dialpad itself isn't responsible in any
+    way for making DTMF, but rather requesting another system to do so.
+    Note that if DTMF tones are played loudly into the microphone, they
+    will be displayed on the LED screen.
+- ACTS does NOT listen to these lines. Millennium Phones produce no tones
+    when coins are deposited - the line an M1231 sits on is free for
+    dialing out anywhere in the world with no blocking by an Automated
+    Coin Toll System. The only thing blocking you from dialing out on
+    these lines is the payphone itself, which does not actually pick up
+    the line and enable the microphone until it determines that a  
+    sufficient amount has been deposited. Note that the dialtone you hear
+    when you pick up the phone is internally generated, and the numbers
+    you "dial" are only actually dialled after the money is collected.
+    This, of course, is significant for our purposes.
+- When a long-distance number is dialed from the payphone, it displays a
+    message along the lines of "Getting Rates, please wait..." While
+    this message is displayed, a modem in the payphone is dialing an
+    internally-stored number to another modem, presumably at the
+    telephone company, from which it gets the rate for the number you
+    have dialed. In my area, this number is in the 416 area code, and it
+    can easily be gleaned by tapping the payphone line and recording then
+    decoding the DTMF. One could even, theoretically, record the exchange
+    between the modems and then play it into a modem that is in "silent
+    answer" mode to observe what happens during the connection, and
+    possibly figure out the protocol/commands used. Which, of course,
+    would be immoral and wrong.
+
+But I digress.
+
+  Millennium Payphones, and indeed, most payphones out there, store any
+coins you deposit in a temporary area until the line called is actually
+answered. As long as it is ringing or you get a busy signal or an error
+message, your money is not taken, and if you hang up before the line is
+actually answered you get your money back. It occurred one day to
+PrussianSnow and I to wonder how this happens - that is, how the payphone
+knows that the line was answered.
+
+  We'd heard of payphones in which the toll signalling was done with
+tones generated by the CO - on a payphone line, the central office would
+generate tones telling the phone to return or take your coins depending
+on the circumstances; however, we've never directly observed this method.
+
+  Fortuitously, PrussianSnow some time later discovered from Northern
+Telecom's website that one of the requirements for installing an M1231
+was "a phone line capable of current reversal". This is, of course, how
+the tolling is signalled.
+
+Making a call from an M1231 works as such:
+- You dial a number, which is then stored internally.
+- The payphone waits for, collects, and verifies your money.
+- When a sufficient amount is deposited, the payphone goes off-hook and
+    dials the number you entered. At this point your money is in the
+    temporary area.
+- The microphone is enabled (which is also significant).
+- While the number you've called is ringing, the line current is positive
+  on ring and negative on tip, as is standard.
+- The line is answered. The CO detects this and flashes a voltage reversal
+  down the payphone line - for a moment, it is negative on ring and
+  positive on tip.
+- The payphone detects this flash, swallows your money, and enables the
+  dialpad. The voltage is normal (positive ring, negative tip) for the
+  rest of the call.
+
+  There are a few alternatives - for instance, when a toll-free number is
+dialed, no voltage flash occurs so the dialpad must be enabled as soon as
+the number is dialed. Note that you can make tones while an 800 number is
+ringing, but not during a local one.
+
+  The circumvention of this is obvious, and an example of the futility of
+placing the bulk of your security within reach of the end user (to be
+pedantic for a moment). You do not need to stop this voltage flash from
+happening, but rather, simply to stop the payphone from detecting it.
+Once this is done, the payphone will never receive a signal to swallow
+your money (or debit your Quickchange Card, as it were), and it will
+simply think that the line is ringing for the duration of your call. The
+CO will know better, but that is irrelevant.
+
+  Four diodes, when hooked together so as to convert AC to DC, are
+collectively referred to as a full-wave rectifier (which can be purchased
+as a single component). Quite simply, a rectifier has 2 inputs and 2
+outputs, and its purpose is to force the polarity of the outputs to be
+constant no matter what the polarity of the inputs.
+
+  Hence, when a rectifier is wired between the line and the payphone, the
+polarity can be forced to always be positive on ring and negative on tip.
+
+[ I nominate that this be called a Flame Box, after its inventor, but
+  nobody probably cares what I think. (Or maybe a Snow Box?) {kynik} ]
+
+  Right, enough theory. It's time to get For Educational Purposes Only on
+your ass, and talk about some application and installation.
+
+  Our prototype of this fingle was a full-wave rectifier of an unknown
+rating (which happily proved to be enough - these things are generally
+used on house current AC so many handle up to 110V or 220V with 2 or 4
+amps, or more), wired up to a DPDT switch with 3 states -- unrectified,
+no flow at all (broken line -- no real reason for this one), and rectified
+polarity.
+
+  It took PrussianSnow 40 minutes with his head stuck in the top of an
+M1231 booth off the side of a highway at midnight to get this thing wired
+up, but it worked the first time much to our orgasmic delight.
+(Educational purposes only)  It shouldn't really take that long to hook
+up, but this was the first one ever made so nyah. In our example, we'll
+be using just a rectifier with no DPDT.
+
+  Installation is simple, and I'll list it in little steps with numbers
+beside so you don't accidentally do them out of order and hurt yourself.
+
+Stuff to bring:
+- 1 pair of pliers
+- 1 full-wave rectifier
+
+[ Flame box! Flame box! {kynik} ]
+
+- 1 slot-head screwdriver
+- a couple of quarters or something
+- A flashlight couldn't hurt
+- And neither could some strippers
+- Some gloves would be nice, so you don't get any small shocks
+- And some biscuits, perhaps some Saltines or something of the like -
+    anything crunchy and delicious will do.
+- Alligator clips or crimpers would be nice.
+
+1. Locate the phone box for the payphone, or anywhere in the line where
+   you can easily cut it and splice in the rectifier. The phone box, of
+   course, is preferable. In a standard Millennium phonebooth, the
+   plastic "ceiling" is hinged on one side and latched in at the other
+   with 2 "tamper-proof" screws, which can be coerced out with a
+   slot-head screwdriver. You need only turn them about half a revolution.
+2. Once the ceiling is swung down, you will have access to the phone box
+   as well as the 110-volt outlet which powers the lightbulb and the
+   payphone. Some booths have a power switch for the payphone. Don't
+   touch anything you don't have to, unless you want to. And you should
+   want to. You can make funny things happen. Note that the light takes
+   a long time to power up once unplugged and plugged back in.
+3. Look at the phone box and eat a biscuit. Be contemplative. Note that
+   there are two main terminals - the one on the right has the ring  
+   wires; a red one going to the phone, and a blue one coming from the
+   line. The left terminal, tip, will have a green wire going to the
+   phone and a white wire going to the line. If these should vary,
+   just trust that the right terminal is ring, and positive. In some
+   phones it's actually the red and green that go to the phone line
+   rather than the phone - just figure out where the wires go, christ,
+   it's not all that hard. Geez. Whiner.
+4. Loosen the nuts on the terminal bolts with the pliers you so
+   fortuitously brought along. Try not to let the green or red wires
+   come off the bolts, as that would be a pain you don't need. Pull out
+   the blue and white wires.
+5. Run the blue wire (or whatever wire was on the right terminal) to an
+   AC input for the rectifier, and run the white wire (or whatever) to
+   the other AC input. You can attach them with gator clips,  
+   clothing-pins, crimpers or whatever. Maybe you could bring a
+   soldering iron and some solder, unplug the phone, plug your iron in,
+   wait a couple of minutes while it heats up, then solder the wires
+   together, unplug your iron, wait for it to cool down, put it away, and
+   plug the phone back in. That would be a story to tell.
+6. Run the positive output to the right terminal and the negative output
+   to the left terminal. You can attach them by putting them behind the
+   nuts and tightening them again.
+7. If the phone is still working, that's a good sign. Pick it up and
+   dial a number local to you. It will ask for a quarter. Deposit one.
+8. If the number is dialed and the call goes through, you haven't broken
+   anything. If the number is dialed and you just hear silence, or the
+   LED screen declares "Phone Not In Service", check all your rectifier
+   connections and, as a last resort, assume that I've completely
+   forgotten whether ring is positive or negative and flip your output
+   polarity. Sorry.
+9. Hold your breath. When the line is answered, the CO will send the
+   polarity-flip-flash. When it hits your rectifier, it will turn into
+   normal polarity and nothing will happen. So, when the line is
+   answered, the payphone won't take your money. At this point you may
+   jump around shouting gleefully.
+10.Hang up the phone. Your money will fall into the coin-return slot.
+
+Clink.
+
+And that's that. The payphone is now, quite simply, free to use. Flip the
+ceiling back up and screw the latches back in.
+
+Let's talk, now, about caveats.
+
+- You need to have the money that the call would cost you or, for a long-
+  distance call, the money for the first minute (the timer will never
+  actually begin). A Quickchange card would be nice in this case.
+  You'll get it all back in the end, and the card will simply never get
+  debited.
+- Since the phone receives no polarity flash, and since the dialpad only
+  activates when it receives one, you may not use the dialpad while on
+  local or long-distance calls. Bring your tone generator if you want to
+  use a VMB or anything. Since toll-free calls produce no polarity flip,
+  the payphone must enable the dialpad as soon as it dials the number, as
+  mentioned before (pay attention!).
+- The M1231 may disconnect a call if it goes too long without being
+  answered to the payphone's knowledge. I have no example of this
+  happening, but it would only make sense. At any rate, you have at
+  LEAST 5 minutes. Probably more. Quite possibly this doesn't happen at
+  all, and I'm just a paranoid fuck.
+- This will likely work on any Millennium phone (M1231, M1232, and so on)
+  as well as any other payphone that uses this signalling.
+- Oddly enough, if you dial "0" from the phone, the operator will not be
+  able to hear you. We've yet to determine why this is, since there are
+  no other issues with microphone enabling.
+- Your rectifier may well get diked out when the phone company sees that
+  the payphone in question has made $0.00 in revenue for the last month
+  and a half. (Um, this seems to have been an understatement - note the
+  "update" at the bottom of this document!) For this reason, you may want
+  to make your rectifier togglable. Let's discuss this.
+
+  To date, we've not determined a really good way to toggle the
+rectification. Ours had a DPDT switch but we have to pull down the
+ceiling to get at it, so gah. We've considered things such as a mercury
+switch sitting on the plastic ceiling so that you can toggle it by giving
+the ceiling a good thump (Fonzie-style), a relay in the circuit with part
+of the circuit going into the booth and the other going into a wire that
+we could hang through a corner of the ceiling, so that one could toggle
+the rectification by holding the wire against the side of the booth...
+we've even considered drilling a hole through the back of the booth and
+sticking a switch through it.
+
+Whatever.
+
+At any rate, I've gone on long enough and I'm tired. So, this is, of
+course, all for educational purposes only, and neither PrussianSnow nor I
+(Flame0ut) take any responsibility for anything this document may cause
+anyone to do.
+
+Note that if NorTel would just make the microphone not activate until the
+voltage flash, this method would be moot.
+
+It's a shame, really.
+
+Enjoy!
+
+----
+
+Update, about six months later:
+Yes, we wrote this document a long time ago and doddled about publishing
+it.
+
+Some things have happened since which we feel are worth noting. Firstly:
+- Nortel no longer owns the M123X payphone line, it's been sold to a
+    company called Quortech who seems very twitchy about sending out
+    manuals (can't imagine why?)
+- Our prototype device and payphone have been removed. Both of them.
+    Completely.  Our proof-of-concept phone was loaded into a truck and
+    taken away for good. It took them five months, but the first ever
+    creation of this device is now in the hands of Bell Canada, godspeed
+    to it.
+
+That's about all.
+
+-------
+Questions?  Concerns?
+PrussianSnow and Flame0ut can be reached at the l0pht bbs at
+bbs.l0pht.com
+That is all.
+-------
+
+[ Or I can relay messages to them if you send to napalm@firest0rm.org or
+  kynik@firest0rm.org {kynik} ]
+
+_____________________________________
+---------------------------- - Orbitz
+[=] 0x04: AT&T Assembly Syntax 
+
+  If you are like me, you thought it would be an awesome idea to mix ASM
+in with your C/C++ programs, using gcc or DJGPP. There is only one
+catch: gcc uses AT&T style syntax. Anyways, you have two choices. One,
+you can give up on inline ASM in gcc and go download NASM. NASM compiles
+Intel syntax Assembly into an object file format which gcc can read and
+then you can compile it into the rest of your C code. Your other choice
+is to learn AT&T syntax. It isn't all that hard, really. This article
+will give you the limited knowledge you will need in order to do basic
+inline ASM. It should also be known, I suck at writing. I'm no fan of dry
+material, but it seems it is the only thing I am capable of - read at your
+own risk.
+
+Prerequisites: 
+You need to know how to write at least some x86 Architecture Assembly.
+This is a must. You can get some x86 ASM help at  
+http://www.firest0rm.org/asm/
+
+In The Beginning There Was The Syntax...:
+First, the syntax. Most of the operations are almost identical to their
+Intel counterparts. Lets imagine you want to put ax into bx. 
+
+Intel style:
+mov bx, ax
+
+AT&T Style:
+movw %ax, %bx
+
+  You'll notice at first those %'s. A % designates the operand a register.
+A $ is put before immediates. That includes user defined variables as
+well as numbers. Also notice the order. AT&T goes opcode src, dest while
+Intel goes opcode dest, src. Last, notice the w hitched onto mov. The 'w'
+means 'word'. If I wanted to put eax into ebx it would look like:
+
+movl %eax, %ebx
+
+(The 'l' meaning 'long')
+
+Now say you want to put the value 2 into ax.
+
+Intel:
+mov ax, 2
+
+AT&T:
+movw $2, %ax
+
+Some misc. examples:
+
+xorl %eax, %eax
+movw $myword, %ax
+movb $1, %ah
+
+There are a few operations which are completely different. Here is a
+list:
+
+ AT&T                   Intel
+------------------------------------------------------------
+ movswl %ax, %ebx       movsx ebx, ax
+ cwtd                   cwd
+ cwtl                   cwde
+ cltd                   cdq
+ lret $X                ret far X
+ ljmp $S,$O             jump far S:O
+ lcall $S,$O            call far S:O
+
+  The movswl line may need some further explanation. Intel has the movsx,
+and movzx operations while AT&T has movs and movz with a minor difference.
+In the example I am moving ax, a word, into ebx, a long. The size of the
+source and destination are on the operation. If I were moving al into
+ebx I would have done movsbl %al, %ebx.  
+
+Operations such as rep stosd should be on SEPARATE lines, with stosd
+following the rep. That goes for all operations that have a prefix.
+
+The Allmighty Memory References:
+Memory references are, of course very, important to assembly. AT&T and
+Intel's syntax are pretty different. Intel's resembles:
+
+segment:[base + index * scale + disp]
+
+and in AT&T:
+
+segment:disp(base, index, scale)
+
+Pretty weird, huh?
+
+Some examples:
+
+ AT&T                            Intel
+--------------------------------------------------------------------
+ movl 10(%edp), %ecx            mov ecx, [edp+10]
+ addl (%eax, %eax, 10), %ecx    add ecx, [eax + eax*10]
+ movb $10, %fs:(%eax)           mov fs:eax, 10
+ movl 4(,%eax,10), %eax         mov eax, [10*eax + 4]
+
+Notice that 4 doesn't have a $ infront of it. In memory references you do 
+not use the $ before constants.
+
+  With jumps you should use byte displacement most of the time. If a byte 
+displacement won't do, then a long is used, which is 32-bits. There are
+some opcodes which are only byte displacements.
+
+The list: 
+jcxz
+jecxz
+loop
+loopz
+loope
+loopnz
+loopne
+
+Here is an example of 'jcxz foo', from the gas (gnu assembler) manual:
+
+    jcxz cx_zero
+    jmp cx_nonzero
+cx_zero: 
+    jmp foo
+cx_nonzero:
+
+I Couldn't Think of a Clever Name For This Section:
+  I think that is all the AT&T Syntax you need to know for now; time for
+inline ASM in gcc. The function you'll use for inline ASM (well, sorta
+function. It doesn't quite follow standard C/C++ syntax, but whatever)
+looks like 
+
+__asm__(asm statements : outputs : inputs : registers-modified);
+
+  What does all this mean, you are asking yourself? Well, 'asm statements'
+is your code. 'outputs' is a constraint followed by a name in
+parentheses, separated by commas. Same for 'inputs'. 'registers-modified'
+are separated by commas as well. You do not have to use all of these,
+just as you need them. I'll get around to each one, but first...
+
+Here is a simple inline ASM example for you:
+
+__asm__("
+     pushl %eax\n
+     popl %eax"
+     );
+
+[ For me? You shouldn't have! {kynik} ]
+
+  This is fairly straight forward example. All it does is push eax to the
+stack, then pop it off again. Notice that the operations are surrounded
+by a pair of quotes. Also, the \n after each operation except the last
+where it is not needed. I found that in newer versions of gcc the \n was
+not necessary, however I recommend using it for style.
+
+Yet another example, using the input field.
+
+int yousuck = 1;
+
+__asm__("
+     pushl %%eax\n
+     movl %0, %%eax\n
+     addl $50, %%eax\n
+     movl %%eax, %0\n
+     popl %%eax"
+     :
+     : "g" (yousuck)
+     );
+
+  Pretty insane isn't it? Let me explain. First I'm making an integer
+'yousuck', which equals 1. Then in my ASM I'm saving eax, so I don't
+lose whatever wonderful data was in there. Why does eax have a %% in
+front of it, and what is this %0, you ask? Well, since we are inputting a
+variable, gcc makes %0 through %however-many-you-input the input
+variables, then to easily distinguish between your input variables and
+registers, registers now take two %'s and the input variables take a %.
+Not too confusing if you think about it. Let's say you had 5 input
+variables, they would be %0, %1, %2, %3, and %4. Ok, so then I move the
+value of yousuck into eax, add 50 to it and move it back to yousuck. 
+Finally I pop eax, restoring its original value. 
+
+  What is this "g" (yousuck) stuff? "g" is our constraint, and yousuck is
+the variable we are inputting. The "g" tells gcc that we don't care
+where it puts our variable yousuck, just as long as we have access to it.
+I'm told gcc might even optimize, if you are lucky. If you want to tell
+gcc where to put your variable, there are other constraints.  
+
+The list:
+Constraint      Meaning
+-------------------------------------------------------
+r               load into any available register
+a               put it into eax
+b               put it into ebx
+c               put it into ecx
+d               put it into edx
+D               put it into edi
+S               put it into esi
+
+  This list works for all the fields in the __asm__ function that take 
+constraints. Here is an example which uses three inputs.
+
+int yousuck = 1, yousmell = 2, alot = 3;
+
+__asm__("
+     pushl %%eax\n
+     movl %0, %%eax\n
+     addl %1, %%eax\n
+     addl %2, %%eax\n
+     movl %%eax, %0\n
+     popl %%eax"
+     :
+     : "g" (yousuck), "g" (yousmell), "g" (a lot)
+     );
+
+  This simple example puts yousuck into eax, then adds the other two
+inputs to it then moves it back into yousuck. yousuck should now equal
+the sum of 1+2+3, which is 6.
+
+  The next step is the output field of the __asm__ function. The truth
+is, I have yet to find much of a difference between the two fields, but
+whatever. You should know how to use it anyways. Here is an example
+using the output:
+
+int yousuck = 1;
+
+__asm__("
+     pushl %%eax\n
+     movl %0, %%eax\n
+     addl $1337, %%eax\n
+     movl %%eax, %0\n
+     popl %%eax"
+     : "=g" (yousuck)
+     );
+
+  Basically, the only difference is you need to add a = in the constraint.
+In the tests I have done, I can use output basically exactly as input.
+If anyone has any idea what the difference is, please let me know. Next
+step, output and input at the same time. You are probably wondering how
+this will work. If output field uses the same numbering system (%0, %1,
+%2, etc) as input, won't they overwrite each other and all? No. It goes
+like this %0 through %however-many-in-the-output-field correspond to your
+variables for the output field, and %however-many-in-the-output-field+1 to
+%however-many-in-the-input-field + %however-many-in-the-output-field. I
+should chose shorter fake variable names, but oh well. Here is an
+example:
+
+int yousuck = 0, yousmell = 2, youaredumb = 3;
+
+__asm__("
+     pushl %%eax\n
+     movl %1, %%eax\n
+     addl %2, %%eax\n
+     movl %%eax, %0\n
+     popl %%eax"
+     : "=g" (yousuck)
+     : "g" (yousmell), "g" (youaredumb)
+     );
+
+What's this do? It puts the value of yousmell into eax, adds the value of 
+youaredumb to it, then puts it into yousuck.  For further clarification, 
+%0 = yousuck, %1 = yousmell, %2 = youaredumb. Simple, right?
+
+  The part of the __asm__ function we need to address is the
+registers-modified part. This is to handle whatever registers we are
+destroying. I rarely use this due to the fact I'm man enough to handle
+the pushing and popping of the registers I'm modifying on my own. If I
+weren't pushing and popping eax, my examples would look more like:
+
+int yousuck = 1;
+
+__asm__("
+     movl %0, %%eax\n
+     addl $1, %%eax\n
+     movl %%eax, %0"
+     :
+     : "g" (yousuck)
+     : "eax", "memory"
+     );
+
+  As you can see, I put eax in as the register we modified. This mean that
+if necessary, gcc will take care of eax so we don't demolish it. The
+memory keyword after that is used since we are modifying the register.
+You should use that almost 100% of the time, unless you don't use the
+registers-modified field.
+
+  One thing you should be made aware of is the __volatile__ addition to
+__asm__. With a normal __asm__ declaration, gcc will change, and optimize
+your inline ASM as it sees fit. You most likely do not want gcc to touch
+your code; this is what __volatile__ does. __volatile__ will tell gcc
+that this is your code and not to touch it. Here is an example:
+
+int yousuck = 1;
+
+__asm__ __volatile__("
+     pushl %%eax\n
+     movl %0, %%eax\n
+     addl $1, %%eax\n
+     movl %%eax, %0\n
+     popl %%eax"
+     :
+     : "g" (yousuck)
+     );
+
+Now gcc won't modify your code in the slightest, which is a nice feature.  
+All that worked in a standard __asm__ function will work with __volatile__.  
+
+  If you name locations in your code numbers, then in order for gcc to
+know if you are giving it a specific memory area, or a user defined
+location, you need to add an 'f' or 'b' postfix. The postfix indicates
+forward or backwards in the code. An example:
+
+__asm__ __volatile__("
+     1:\n
+     jmp 2f\n
+     2:\n
+     jmp 1b"
+     );
+
+  As you can see, when I jumped forward to the 2, I put an 'f' after and
+when I jumped back words to the 1, I put a 'b' in. As far as I have been
+able to see, you only run into this problem with numeric jump locations.
+If I were to name them Start, and End instead of 1 and 2, I would not
+need the f or b.
+
+  That is all I have been able to think of over the past few weeks. I
+would like to thank www.linuxassembly.org for their awesome tutorials,
+and The QuickASM Programming Guide (linked off the linuxassembly page).
+These sites taught me how to do AT&T syntax and inline. gcc -S myfile.c
+was also a big help.
+
+  Questions and nice comments should be send to orbitz@firest0rm.org
+Bitches should be directed towards IDon'tCare@firest0rm.org
+
+Orbitz
+
+[ Orbitz, I've set up the alias IDon'tCare to point to you, if that's okay
+  with you ;) {kynik} ]
+
+_____________________________________________
+------------------------------------ - _azure
+[=] 0x05: IPSEC Bridging Under OpenBSD
+
+IPSEC Bridging Under OpenBSD (or: Plugging Holes With Your Fingers)  
+
+Intro
+
+  In a previous article I outlined one method for integrating Windows  
+networks into a secure VPN with IPSEC and Samba. This time around I'm
+going to demonstrate an alternative method of achieving what is  
+essentially the same functionality in a completely different way.  
+
+  Your mileage may have varied in trying to juggle separate subnets,
+identical/different Domains, and NetBIOS integrity across your VPN.
+In this instance the connection we'll create is not tied to any
+particular proprietary protocols or services; yet may actually end
+up serving your purposes in a more ideal fashion. It is also a much
+simpler method of joining remote Local Area Networks that may not need 
+to be functionally separated at all.  
+        
+Cutting directly to the chase:
+
+  IPSEC bridging is essentially the same as the traditional interface
+bridging you are already familiar with. One minor exception is that
+the OSI layer-2 information is propagated across the VPN instead of
+merely across your physical hardware. Generally however: As above, 
+so below.
+
+For our purposes in this example we will bridge two remote LANs; each with
+physically separate internal and external interfaces.
+
+
+  [Net-1]----> [bridge1/IPF] <--------> [bridge2/IPF] <----[Net-2]
+
+        
+  An interface on Net-1 is bridged to an interface on Net-2. Ethernet
+  frames are encapsulated and sent across the VPN where they are stripped
+  out and placed back on the wire by the bridging code itself.
+       
+  The OpenBSD boxes will be serving only as hardware bridging devices - we
+will not concern ourselves with how users gain access to the Internet in
+general. It is not even necessary for the client machines to know the
+bridges exist (or to have normal Internet connectivity at all, for that
+matter). Unlike in the previous article, this time OpenBSD is *completely*
+transparent to endusers.
+
+
+.Configuring OpenBSD's Implementation
+
+  This will differ depending on your particular installation of OpenBSD.
+The syntax for ipsecadm(8) has changed with every release since its
+integration into the base operating system. The examples included in this
+document will assume OpenBSD 2.8-RELEASE. Leaving aside the politics of
+our multi-party system (*BSD, Linux, etc.), OpenBSD is a robust player in
+the UNIX game; and also includes all the tools we need in its default
+install.
+
+
+..Customizing and Patching the Kernel for Load
+
+However, customizing the kernel to fit specific hardware is always a good
+idea. It cuts down the size of the file that is loaded into memory; thus
+increasing system performance. There are also changes you can make to
+maximize networking performance. Some additional options you'll want to
+include in your config before recompiling are:
+
+option IPFORWARDING
+option IPFILTER
+option IPFILTER_LOG
+option NMBCLUSTERS = 8192
+
+
+For additional information on tuning, see the OpenBSD performance tuning
+FAQ:
+
+[ http://www.openbsd.org/faq/faq11.html#11.1 ]
+
+
+Patches should also be applied accordingly. At the time of this writing,
+no patches have been issued for OpenBSD 2.8. Information on versions
+prior to 2.8 is available at:
+
+[ http://www.openbsd.org/errata.html ]
+
+[ And you don't want to be running 2.7 or previous, a lot of IPsec bugs
+  have been fixed in 2.8.  Besides which, I'm pretty sure some of the
+  syntax to brconfig and ipsecadm changed, so this article might not
+  work at all. {ajax} ]
+
+You will need to edit /etc/rc.conf to activate IPFILTER and IPNAT at boot
+time.
+
+You will also need to have net.inet.ip.forwarding=1 in your  
+/etc/sysctl.conf file.
+
+Reboot and rinse.
+
+
+..IFCONFIG, BRCONFIG and IPSECADM
+
+  An IPSEC bridge is configured using standard command line tools. An ENC
+interface is added to the bridge with brconfig(8), and associated with
+existing SAs using ifconfig(8). ipsecadm is used to create the relevant
+IPSEC flows. Finally, all interfaces are brought up and layer-2
+information begins to travel across the VPN.
+
+An example configuration is provided below.
+
+
+First of all we'll need to generate keys for the IPSEC transactions:
+
+# openssl rand 20 | hexdump -e '20/1 "%02x"' > KEYFILE_LOCATION
+# openssl rand 20 | hexdump -e '20/1 "%02x"' > AUTHKEYFILE_LOCATION
+
+
+Then we construct a two-node IPSEC bridge as follows:
+
+        
+On both OpenBSD boxes:
+
+# brconfig bridge0 add ENC_INTERFACE PRIVATE_INTERFACE
+
+# brconfig bridge0 blocknonip   (to block non-ip traffic)
+        
+# brconfig bridge0 link1         (to block ip multicasts)
+
+# ipsecadm new esp -spi SPI1 -dst BRIDGE2_PUBLIC_IP -src \
+  BRIDGE1_PUBLIC_IP -enc blf -auth sha1 -keyfile \
+  KEYFILE_LOCATION -authkeyfile AUTHKEYFILE_LOCATION
+
+# ipsecadm new esp -spi SPI2 -dst BRIDGE1_PUBLIC_IP -src \
+  BRIDGE2_PUBLIC_IP -enc blf -auth sha1 -keyfile \
+  KEYFILE_LOCATION -authkeyfile AUTHKEYFILE_LOCATION
+
+
+On BRIDGE1:
+
+# ipsecadm flow -dst BRIDGE2_PUBLIC_IP -in -transport etherip \
+  -require -addr BRIDGE1_PUBLIC_IP 255.255.255.255 \
+  BRIDGE2_PUBLIC_IP 255.255.255.255 
+
+# ifconfig ENC_INTERFACE dstsa BRIDGE2_PUBLIC_IP/SPI1/esp
+
+# ifconfig ENC_INTERFACE srcsa BRIDGE1_PUBLIC_IP/SPI2/esp
+
+# ifconfig PRIVATE_INTERFACE up         (if not already up)
+
+# ifconfig ENC_INTERFACE up
+
+# brconfig bridge0 up
+
+
+On BRIDGE2:
+
+# ipsecadm flow -dst BRIDGE1_PUBLIC_IP -in -transport etherip \
+  -require -addr BRIDGE2_PUBLIC_IP 255.255.255.255 \
+  BRIDGE1_PUBLIC_IP 255.255.255.255
+
+# ifconfig ENC_INTERFACE dstsa BRIDGE1_PUBLIC_IP/SPI2/esp
+
+# ifconfig ENC_INTERFACE srcsa BRIDGE2_PUBLIC_IP/SPI1/esp
+
+# ifconfig PRIVATE_INTERFACE up         (if not already up)
+
+# ifconfig ENC_INTERFACE up
+        
+# brconfig bridge0 up
+
+
+It is not strictly necessary for INTERNAL_INTERFACE to have an IP address
+on either side of the VPN. 
+
+
+..Viewing Stats and Turning the Bridge Off
+
+To view a table of MAC addresses functioning on your bridge at any time,
+use:
+
+
+# brconfig -a
+
+
+which produces results similar to:
+
+  bridge0: flags=0<>
+          Interfaces:
+          Addresses (max cache: 100, timeout: 240):
+  bridge1: flags=0<>
+          Interfaces:
+          Addresses (max cache: 100, timeout: 240):
+
+
+To disable the bridge and remove the IPSEC SAs, use:
+
+# brconfig bridge0 delete ENC_INTERFACE
+
+# brconfig bridge0 delete INTERNAL_INTERFACE
+
+# brconfig bridge0 down
+
+# ifconfig ENC_INTERFACE down
+        
+# ifconfig ENC_INTERFACE clearsa 0.0.0.0/0/0
+
+
+This will return your system to normal (pre-bridge) status.
+        
+
+...Too Lazy To Type 
+
+I have again written a short perl utility to construct ifconfig(8), 
+brconfig(8) and ipsecadm(8) rules against user-supplied network 
+information. ipsec_bridge_2.8.pl can be retrieved from:
+
+
+[ http://azure.gh0st.net/perl/ipsec_bridge_2.8.pl ]
+
+
+[ Or it can be grabbed from napalm's main page, under addenda. {kynik} ]
+
+
+  You can run the output of this utility on both ends of your would-be VPN
+to initialize an IPSEC bridge between private interfaces (as is described
+in detail above).
+
+  Specific information on the mechanics of IPSEC and bridging themselves  
+are beyond the scope of this article, but can be gleaned from relevant  
+man pages and freely available reference elsewhere on the Internet.
+
+
+..Filtering For Bandwidth's Sake
+
+  It all sounds great until you realize that broadcast information on your
+LAN is also going to be transmitted across your limited bandwidth VPN
+connection. With Windows-based machines on your network this can quickly
+spell disaster. Fortunately, the ancient ones have sprinkled the golden
+dust of their approval upon our efforts: IPF.
+
+
+...IPF
+
+  Stateful packet filtering with IPF can protect the bridge from external
+'influence' while keeping the frames passing across the VPN from
+overwhelming both upstream connections. In this example we will filter
+broadcasts as they come in on the INTERNAL_INTERFACE before they are
+handed off to the bridge. Keep in mind that a separate filtering rule
+will have to be added for each network that touches the bridging
+interface.
+
+  Other possibilities include filtering on the bridge interface itself.
+(See brconfig(8) for details on filtering at the bridge level.)
+
+
+Included below is a sample template for configuring IPF:
+        
+
+  xxx.xxx.xxx = relevant portion of the external IP on BRIDGE1
+  yyy.yyy.yyy = relevant portion of the internal IP on BRIDGE1
+  aaa.aaa.aaa = relevant portion of the external IP on BRIDGE2
+  bbb.bbb.bbb = relevant portion of the internal IP on BRIDGE2
+
+        
+on BRIDGE1:
+
+# /etc/ipf.rules
+#
+
+# block everything by default unless another rule says otherwise
+block in log level local0.info on EXTERNAL_INTERFACE
+
+# block spoofed traffic on external interfaces
+block in quick on EXTERNAL_INTERFACE from 127.0.0.0/8 to any
+block in quick on EXTERNAL_INTERFACE from 10.0.0.0/8 to any
+block in quick on EXTERNAL_INTERFACE from 172.16.0.0/12 to any
+block in quick on EXTERNAL_INTERFACE from 192.168.0.0/24 to any
+block in quick on EXTERNAL_INTERFACE from any to xxx.xxx.xxx.0/32
+block in quick on EXTERNAL_INTERFACE from any to xxx.xxx.xxx.255/32
+        
+# block broadcast traffic from the internal network
+block in quick on INTERNAL_INTERFACE from any to yyy.yyy.yyy.0/32
+block in quick on INTERNAL_INTERFACE from any to yyy.yyy.yyy.255/32
+
+# pass traffic out from EXTERNAL_INTERFACE and from INTERNAL_NETWORK
+pass out quick on EXTERNAL_INTERFACE proto tcp/udp from \
+BRIDGE1_EXTERNAL_IP/32 to any keep state
+pass out quick on EXTERNAL_INTERFACE proto icmp from \
+BRIDGE1_EXTERNAL_IP/32 to any keep state
+pass out quick on EXTERNAL_INTERFACE proto tcp/udp from \
+BRIDGE1_INTERNAL_NETWORK/24 to any keep state
+
+# pass IPSEC traffic for bridge0 and enc1
+pass in quick proto esp from BRIDGE2_EXTERNAL_IP/32 to \
+BRIDGE1_EXTERNAL_IP/32
+pass out quick proto esp from BRIDGE1_EXTERNAL_IP/32 to \
+BRIDGE2_EXTERNAL_IP/32
+pass in quick on enc1 from BRIDGE2_INTERNAL_NETWORK/24 to \
+BRIDGE1_INTERNAL_NETWORK/24
+
+        
+on BRIDGE2:
+
+# /etc/ipf.rules
+#
+# block everything by default unless another rule says otherwise
+block in log level local0.info on EXTERNAL_INTERFACE
+
+# block spoofed traffic on external interfaces
+block in quick on EXTERNAL_INTERFACE from 127.0.0.0/8 to any
+block in quick on EXTERNAL_INTERFACE from 10.0.0.0/8 to any
+block in quick on EXTERNAL_INTERFACE from 172.16.0.0/12 to any
+block in quick on EXTERNAL_INTERFACE from 192.168.0.0/24 to any
+block in quick on EXTERNAL_INTERFACE from any to aaa.aaa.aaa.0/32
+block in quick on EXTERNAL_INTERFACE from any to aaa.aaa.aaa.255/32
+       
+# block broadcast traffic from the internal network
+block in quick on INTERNAL_INTERFACE from any to bbb.bbb.bbb.0/32
+block in quick on INTERNAL_INTERFACE from any to bbb.bbb.bbb.255/32
+
+# pass traffic out from EXTERNAL_INTERFACE and from INTERNAL_NETWORK
+pass out quick on EXTERNAL_INTERFACE proto tcp/udp from \
+BRIDGE2_EXTERNAL_IP/32 to any keep state
+pass out quick on EXTERNAL_INTERFACE proto icmp from \
+BRIDGE2_EXTERNAL_IP/32 to any keep state
+pass out quick on EXTERNAL_INTERFACE proto tcp/udp from \
+BRIDGE2_INTERNAL_NETWORK/24 to any keep state
+
+# pass IPSEC traffic for bridge0 and enc1
+pass in quick proto esp from BRIDGE1_EXTERNAL_IP/32 to \
+BRIDGE2_EXTERNAL_IP/32
+pass out quick proto esp from BRIDGE2_EXTERNAL_IP/32 to \
+BRIDGE1_EXTERNAL_IP/32
+pass in quick on enc1 from BRIDGE1_INTERNAL_NETWORK/24 to \
+BRIDGE2_INTERNAL_NETWORK/24
+
+
+After configuring both bridges use the following command to flush
+IPF and restart it with the current ruleset:
+       
+# ipf -Fa -f /etc/ipf.rules
+
+
+.Benefits of this Technique
+
+  If you've stuck with the examples this far, you're likely to have a
+functioning IPSEC bridge on your hands. As far as client machines on  
+either internal network know; they are on a LAN with every machine on the
+network (including machines remotely located on the other side of the
+VPN). You should find arp entries for all client machines on each bridge
+box.
+        
+  It should now be possible to install a WINS server (or Samba acting as 
+WINS) on either side of the VPN and have all machines connect to it (thus
+establishing Network Neighborhood for all machines involved).  
+
+  Any IP-based protocol should function provided that said protocol does
+not mandate passing broadcast traffic (hence the use of WINS to establish
+NetBIOS ease-of-use).
+
+
+.Drawbacks not Readily Apparent
+
+You may have realized that all the machines on both sides of the VPN will
+need to share the same address space to route IP. As with a normal
+physical bridge; normal routing applies.
+
+Non-IP protocols *will* be transmitted across the VPN unless you include
+the 
+
+    brconfig blocknonip
+
+
+line in your configurations. The provided perl utility does *not* filter
+non-IP traffic by default. 
+
+[ Note that if you do this, obviously, non-IP (v4, v6, ARP and RARP)
+  traffic gets dropped, so if you want to get your IPX/AppleTalk/foo
+  traffic to pass, you need some tunnelling.  OpenBSD's GRE support
+  would be perfect for this, if only it understood non-IP protocols.
+  tipxd (http://tipxd.sourceforge.net/) will tunnel IPX.  Good luck with
+  anything else.  Really, brconfig should let you filter by ethernet
+  packet type.  Oh well. {ajax} ]
+
+In Closing
+
+Enjoy. Pampering Windows clients is, of course; only one use for an IPSEC
+bridge.   
+
+
+.Further Reading/Bibliography
+
+  brconfig(8)
+  vpn(8)
+  ipf(5)
+  Transparent Network Security Policy Enforcement
+    [ http://www.thought.net/jason/bridgepaper ]
+  Using IPSEC and Samba to Integrate Windows Networks 
+    [ http://napalm.firest0rm.org/issue7.html#integ ]
+
+
+Signed
+
+  azure@gh0st.net 
+  http://azure.gh0st.net, http://www.nsacom.net
+
+_________________________________________________
+----------------------------------------- - echo8
+[=] 0x06: Security Holes in Sun Cluster 2.x
+
+Hole #1
+-------
+                
+Summary 
+-------
+
+Sun Cluster 2.x (Sun Microsystems' commercial high-availability product
+for Solaris) leaks potentially sensitive information to local or remote
+users.
+
+Specifics
+---------
+
+In a standard Sun Cluster install, there is a service called clustmon
+that runs on port 12000. It is used by the cluster's administrative tool
+(hastat) for the exchange of information between cluster nodes. However,
+the service doesn't do any kind of authentication whatsoever, and can be
+used by any host which can connect to it to gain access to some fairly
+sensitive data. It also has some amusing undocumented features. The
+syntax used interactively is very similar to sendmail's help syntax, but
+if you can't figure it out, the service will happily hold your hand:
+
+echo8:{501} telnet foobar 12000
+Trying 192.168.0.1...
+Connected to foobar.
+Escape character is '^]'.
+220  foobar Monitor server version SC 2.1 (98/5/13 V2.1+) (Debug) ready.
+help
+214- The following commands are recognized:
+214- NOOP                       - does nothing
+214- QUIT                       - closes this connection
+214- PORT inetaddr port         - data addr/port as a sequence of 6
+                                  numbers
+214- DATE BEGINNING             - start at beginning of time
+214- DATE NEW                   - start now
+214- DATE CURRENT               - start with current logfile
+214- DATE AFTER <datespec>      - specify a starting date
+214- DATE AFTER <datespec> LOOP - wait for new entries to be appended to
+                                  logfile
+214- OPEN servicename           - initiate a data stream
+214- CLOS servicename           - shut down a data stream
+214- HELP                       - show this list
+214  Direct comments to cluster-help@sun.com.
+
+"open syslog" will echo out the entire contents of /var/adm/messages.
+
+"open haconfig" will provide a listing of all of the other cluster nodes,
+the names of each registered data service and logical host, full paths to
+your start and stop methods, and the current state of your data services
+and logical hosts.
+
+Because in.mond runs as root out of inetd, both commands will succeed
+regardless of the local permissions on /var/adm/messages or the CCD
+database. Even if you choose NOT to make this information available to
+local users by putting restrictive permissions on the relevant files,
+remote users can still access it.
+
+"open hastat" will provide all of the information usually provided to
+local superusers via /opt/SUNWcluster/bin/hastat, including:
+
+* uptime of hosts
+* status of public and private networks
+* names and current locations of logical hosts
+* state of HA monitoring on each logical host
+* States of NAFO groups, including times of most recent failovers
+
+It's interesting to note that the (local) hastat command is restricted to
+the superuser. However, the network service is universally accessible.
+
+"open sesame" will tell you that the cave is still blocked (I'm serious,
+try it). 
+
+All of this information is available to ANY host which can connect to the
+aforementioned port with a telnet client. While none of this really
+constitutes a compromise, it is the sort of information leakage which can
+be useful intelligence for a would-be attacker.
+
+Workaround
+----------
+
+One could trivially use tcp wrappers to keep unauthorized hosts away from
+the port in question. 
+
+[ One could also (probably) create a 'mond' user and run in.mond as that
+  instead of as root.  You'll probably have to chown lots of files to keep
+  some of the functionality, but, price you pay. {ajax} ]
+
+Vendor Response 
+---------------
+
+The vendor was notified on October 31, 2000. When I contacted Sun and
+opened a case, the individual who responded to my case dismissed the
+problem by saying that "the product was not intended for use in hostile
+environments or on networks that have untrusted users." Sun also
+suggested that perhaps they will remove the help functions from upcoming
+versions.
+
+
+Hole #2
+-------
+
+Summary 
+-------
+
+The HA-NFS data service (a component of Sun Cluster 2.x) has a security
+hole that can allow local users to read any file on the system, regardless
+of the permissions on that file. In order to exploit the hole, a clustered
+system must be using HA-NFS, and the attacker must have a local account.
+
+Specifics
+---------
+
+On a host running HA-NFS, the file called
+/var/opt/SUNWcluster/fm/fmstatus/nfs/<logicalhostname>/status is created
+by Sun Cluster with permissions set to 666.
+
+The directory above it
+(/var/opt/SUNWcluster/fm/fmstatus/nfs/<logicalhostname>) is created mode
+777.
+
+The status file is read by in.mond to display the status of the HA-NFS
+service. in.mond follows symbolic links. in.mond is most commonly
+executed when called by the hastat utility, which can only be run by the
+superuser. However, as described in hole #1, any remote user can connect
+directly to in.mond and make full use of it from a telnet client.
+
+To exploit this hole to view a file to which he does not have read access,
+a local (unprivileged) user can do the following:
+
+$ cd /var/opt/SUNWcluster/fm/fmstatus/nfs/<logicalhostname>
+$ rm status
+$ ln -s /etc/shadow status
+$ telnet localhost 12000
+<once connected to the in.mond service>
+open hastat
+
+... and watch as the shadow file is read out to stdout ...
+
+Workaround
+----------
+
+Change the permissions on the files in question. Use tcp wrappers to keep
+unauthorized hosts away from in.mond.
+
+Vendor Response
+---------------
+
+Sun was notified on November 22, 2000. As yet, there has been no response.
+
+Comments
+--------
+
+High-availability products should not weaken the security of the systems
+on which they run. Despite what Sun may say, giving out your system logs
+and configuration specifics to unauthorized remote users weakens the
+security of a system. Removing the help features amounts to security
+through obscurity. I was able to very trivially discover at least one
+completely undocumented feature in in.mond ("open sesame"), so I have no
+reason to believe there are not others.
+
+The more recent discovery of the second hole only reaffirms the idea that
+there are no small vulnerabilities. Some minor holes can be leveraged to
+cause further harm or gain additional access. The two described above are
+a textbook illustration of this concept.
+
+Please address comments to echo8@firest0rm.org. 
+
+[ Wow, zero-day 'sploits! {kynik} ]
+
+_____________________________
+--------------------- - kynik
+[=] 0x07: Music Reviews
+
+This space for rent.
+
+No, seriously, I haven't been able to get enough response from the core
+contributors to review any more music. If you have a good grasp of the
+english language (spelling and grammar) and love music, drop me a line.
+I've got a pile of miscellaneous stuff I'd like other people to review,
+and nobody seems to be interested. If worse comes to worse, I'll do the
+reviews entirely on my own. (But we don't want that, do we?)
+
+[ In fact, you don't even need a good grasp of English. We'll take random
+  street lunatics if their review is funny enough. {ajax} ]
+
+_________________
+-----------------
+[=] 0x09: Credits
+
+               Editor:  Kynik    <kynik@firest0rm.org>
+            Co-Editor:  ajax     <ajax@firest0rm.org>
+Article Contributions:  Flame0ut <napalm@firest0rm.org>
+                        Orbitz   <orbitz@firest0rm.org>
+                        _azure   <azure@gh0st.net>
+                        echo8    <echo8@firest0rm.org>
+
+To subscribe to this 'zine:
+  email napalm@firest0rm.org with a subject of SUBSCRIBE
+
+To unsubscribe:
+  email napalm@firest0rm.org with a subject of UNSUBSCRIBE
+
+Or find us online at:
+  http://napalm.firest0rm.org/
+
+Submissions, questions, comments, and constructive chaos may also be
+directed to kynik@firest0rm.org or any of the contributors
+
+.n8! - eof

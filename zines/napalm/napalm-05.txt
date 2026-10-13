@@ -1,0 +1,1083 @@
+           /\  /^/_ _ __  __ _|^|_ __ ___
+          /  \/ / _` '_ \/ _` | | '_ ` _ \
+         / /\  / (_| |_)  (_| | | | | | | |
+        /_/  \/ \__, .__/\__,_|_|_| |_| |_|
+                   |_|
+
+
+Issue 5 (May 16, 2000)
+___________________________________________________________________________
+The gh0st.net project:                      http://www.gh0st.net/index.html
+FireSt0rm homepage:                     http://www.firest0rm.org/index.html
+URL of the day:                    http://www.cs.wisc.edu/condor/index.html
+All content copyright © 2000 by the individual authors, All Rights Reserved
+___________________________________________________________________________
+
+- Editor's Comments
+- URLs
+- Readers' Questions
+- Readers' Comments
+- Contemporary Telenet I
+- Ethernet - The Bottom Two Layers
+- Music Reviews
+- Future Issues
+- Credits
+
+***********************************************************************
+      *** Editor's Comments : Kynik
+***********************************************************************
+
+I'm glad to see that some readers are actually submitting questions and
+comments. If you send us something, and it's coherent and topical, we'll
+probably include it in the next issue. If we can't answer a question you
+have, it's pretty likely that someone reading out there will be able to
+point you in the right direction. I've also increased the number of songs
+that are reviewed to 2, just because it looks more competitive that way,
+and you're not bored with a single choice. We got very lucky on the last
+issue, as we were posted on HNN on a Friday (which means we'd have
+exposure for the whole weekend) and the L0pht (pronounced /loft/ dammit!)
+guys didn't do any updates on it until Wednesday. Ok, so I'm easily
+amused. We're still looking for interesting articles on damn near
+everything, so if you'd like to help us out and get read by a thousand or
+so people, this is how you can do it pretty easily. Also, if you submit
+something to us, and you'd like to remain anonymous, just indicate this in
+your email and we won't include your name or address or both. I'd also
+like to give thanks to my co-editor ajax, who's been very helpful in
+proofreading and reformatting awkward parts, as well as doing commentary.
+
+[ /me blushes.  Heh, I remember way back when an old associate first
+  showed me the l0pht homepage.  He insisted on calling it "low-fat".
+  I dunno where that extra vowel came from.  Did we mention being easily
+  amused? {ajax} ]
+
+***********************************************************************
+      *** Random good URLs : Kynik
+***********************************************************************
+
+The Open Server Architecture Project: The Win32 solution for Apache
+http://www.opensa.com/
+
+Lance Spitzner's "Passive Fingerprinting" article
+http://www.enteract.com/~lspitz/finger.html
+
+A 'handmade' crypto challenge
+http://www.jdueck.org/challenge.html
+
+Keep an eye on security incidents, maybe report your own
+http://www.sans.org/giac.htm
+
+An interesting article about cyborgs
+http://home.fuse.net/mllwyd/cyborgs.html
+
+***********************************************************************
+      *** Readers' Questions
+***********************************************************************
+
+Lockdown <llh@student-net.co.uk> wrote:
+
+I'd like to find out more about you ghost net project..is it a vpn, or what?
+I've also got a few crap articles I could give ya.
+
+Cheers,
+Lee 'Lockdown' Hughes
+
+[ Well, technically, it's not 'my' gh0st.net project. It's something I
+  stumbled into, and am starting to get more involved in. The gh0st.net
+  URL is posted at the top of every issue so far, and the most complete
+  information is there. If you have specific questions, you can send them
+  to phatal@gh0st.net - he's the guy running the show and cracking the
+  whip. And as for 'crap articles' - no thanks. The world has enough noise
+  already. Quality articles are acceptable though. {kynik} ]
+
+[ And just to pre-answer some questions: gh0st.net is primarily about
+  security research.  This is a pretty wide spec, and more than a few
+  things would be considered "in the scope".  Among them might be code
+  auditing, VPN setups, capture-the-flag games... basically, if in doing
+  it, we learn a concept about security that we can apply, it counts.
+  Current projects in the pipeline include setting up various VPN
+  implementations (possibly using IPv6), the various open boxes (tulkas,
+  english) that are up for intrusion attempts, probably some others I'm
+  forgetting.  Of course, we all have lives too (well, *I* don't, but
+  everyone else claims to), so progress may seem a little slow at times;
+  in fact, I partly wrote this whole description to save phatal from a
+  deluge of email about it - we'd all rather be doing than talking anyway.
+  Not An Official Gh0st Net Statement, but probably close.  {ajax} ]
+
+-----------------------------------------------------------------------
+
+Jason Holt <jason@community.net> wrote:
+
+  Your just intonation article was *great*. It's by far the clearest
+article I've ever read on the mathematics and actualities of music.  I
+wondered about it for years, and finally worked out the x*2^(n/12) formula
+on my own - then this article filled in all the gaps.
+
+  One thing I'm still wondering, though. I've heard that baroque 
+instruments were tuned slightly differently than they are today.
+Something about even tempering vs. some other kind of tempering.  Any
+idea why that was, or what the differences were?
+
+Thanks for a great article.
+
+[ Baroque instruments were tuned to just scales.  That's why a lot of
+  pieces written before the piano and harpsichord were in one key; or,
+  some say, when they modulated, they still sounded like they were in the
+  old key, lending a different tone to the piece.  Hope this answers your
+  question. {ajax} ]
+
+***********************************************************************
+      *** Readers' Comments
+***********************************************************************
+
+NIBLE <n1bl3@yahoo.com> wrote:
+
+The article on AI Security has good points in preventing some of the root
+problems on system security. One alteration that we could make to improve
+performance of inspection would be to assign one host as the trusted
+inspecting station where all new patches for a domain/cluster would be  
+inspected and tested before installed on other internal systems. This
+method will accomplish the following:
+
+a) Isolate performance degradation of inspecting updates on one host
+   versus all participating hosts.
+
+b) Detect possible malicious code prior to installing on all machines
+   thus allowing early isolation.
+
+c) Provide a single point for maintaining new methods of inspection versus
+   updating all participating hosts.
+
+Although the argument of "How much can you trust this one host?" can be
+raised, there are some answers.
+
+The primary assumption was that the distribution host was trusted.
+
+Another approach would be to set up two hosts that both receive the
+updates, verifying the updates between them for possible infection upon
+transition, and after all checks have been completed designate one host
+to be the primary distributor and the other the backup, thus resolving
+redundancy as well. :-)
+
+Regards
+D' n1bl3 (nible)  
+
+[ Thanks for your input. Soon I'll be releasing AI security II--don't miss
+  it! A traffic monitor daemon using a backprop neural net is currently in
+  the works. I think it'll be interesting to see if I can train and
+  release a set-weight neural network that's effective in detecting
+  probing and intrusion attempts. I'm confident that article will raise
+  from eyebrows. {Blakboot} ]
+
+
+***********************************************************************
+      *** Contemporary Telenet I : blakboot
+***********************************************************************
+
+Introduction
+-------------
+ 
+  Security awareness and exploitation is a fast game on the Internet.
+Staying on top, whether it be for intrusion or consultation, requires
+onerous research; research that never ends. Before I came into this
+scene, most of my experience came from esoteric networks, BBSing,
+wardialing spoils, et cetera. Regardless, nothing has sharpened my
+knowledge and awareness of computer systems more than this vast network
+of hustle and bustle. If we could look back in in time, what wonders;
+what system vulnerabilities would we laugh about?  If we could step back
+in time a bit, what things could we get into?  What industries never
+quite caught up with the future, and what would their ignorance allow us
+to plunder?
+ 
+  Please excuse me, I have left out a lot of information for sake of time 
+(our favorite editor wants results), and file size. There will be an
+article forthcoming that will cover much more on contemporary usage. This
+is a primer. 
+
+[ Yeah, working under a pseudo-deadline sucks, eh? Turns out that we're
+  already over my target per-issue size even without this article, but
+  that's ok. I'm confident that this is quality. {kynik} ]
+
+Enter Telenet
+-------------
+ 
+  Telenet, commercially known as Sprintnet, but forever referred to as
+otherwise, is an X.25 network. Dialups nationwide are still active, and
+systems still lie sparsely about it. Herein I have provided a working scan
+script, and some of the spoils from that. 
+ 
+
+- What systems can you find on Telenet?                                     
+ 
+  This isn't a definitive list by far, but what I've been: VMS, Primenet, 
+assorted unix clones, Lantronix type deals, arbitrary systems/databases.
+ 
+- How do you get on Telenet?
+ 
+  Anyone with  basic telecommunications knowledge doesn't have to read
+this. First, get a terminal emulator. These programs allow you to receive 
+relatively protocol-free data. It's nothing like your damned PPP/SLIP 
+connection; raw data (with the exception of emulation) is displayed from
+the remote computer. I suggest Telemate, Telix; anything but 
+hyperterminal.
+ 
+  For the connection to be possible and coherent, set your baud rate to
+1200bps (some dialups support 14.4) and data bits to 7. Most connections 
+to remote computers are 8 bits, although X.25 networks are an exception. 
+You should know that the possible combination of 8 bits is 256; it means
+that on an 8 bit connection, we can take advantage of 256 characters.
+Telenet can only send and receive data consisting of one of the 127
+bytes, combinations of 7 bits.  
+
+[ Correct me if I'm wrong here, but won't most modern modems auto-set
+  their baud rate depending on how the dialup handshakes? {kynik} ]
+
+[ We'd like to think so. Some old modems don't like to talk to newer ones
+  though.  Backwards combatibility.  And besides, it can't hurt. {ajax} ]
+ 
+With that said, know that if you want to transfer binary files over 
+Telenet, you have to use the kermit protocol, because zmodem, ymodem,
+xmodem, etc. are 8 bit protocols. Kermit is a slow bastard and time has
+blessed us with its death in modern file transfers. My suggestion for
+transfering files over a 7 bit connection is to use uuencoding (unix to
+unix encoding). This will break down those extended ascii characters
+into plaintext, and then all you have to do is uudecode on the remote
+system.
+ 
+  Once you've configured your terminal program with the two
+specifications above, it's time to connect to Telenet. The toll free
+Telenet dialup is 1-800-546-2000.
+
+[ When dialed from some area codes, you may receive a message saying "You
+  have entered a number that can not be reached within your calling area."
+  then a unique number code, in my case "47530" I don't exactly know what
+  the numbers there stand for, but it is interesting that it looks quite
+  like a zip code :-/ {Reverse Corruption} ]
+
+  Once you've connected, press enter two times; it will ask you for what
+type of terminal to use. Just type in D1, vt100, whatever. From here, 
+you've a @ prompt. To get your local dialup, type "mail". It'll enter a 
+login procedure. Use the login/password: phones/phones; this will execute
+a script which allows you to list all local dialups. 
+        
+- Connecting to computers
+ 
+  This is easy, and the article shouldn't cover it, although I'm going 
+to get past it, and open up into more dynamic aspects of the network in 
+Contemporary Telenet II.
+
+  From the @ prompt, you can connect to systems hosted by sprintnet, 
+and other X.25 networks. To connect to a system on the current network,
+just type the NUA (Network User Address); if you want to connect to a
+computer on another network, you'll have to provide a DNIC. (Data Network
+Idenification Code). An NUA consists of two things. An NPA (area code)
+and an address, which can be any floating point number greater than 1
+(there's a limit - that i do not know). Decimal places of an NUA usually
+indicate something similar to ports in TCP/IP.
+
+  So, if I wanted to connect to a system in Tallahassee, FL. An example
+session would be something like:
+ 
+@ c 90423
+ 
+904 23 CONNECTED
+ 
+Username:
+ 
+  To disconnect from the system or interrupt a pending connection, press
+@ followed by a carriage return; complete the disconnect by typing D from
+your pad.
+ 
+  Now, if you wanted to connect to a system on Tymnet (another X.25
+network), you would type an NUA something like:
+ 
+@ c 0310690423
+ 
+Where 03106 is your DNIC, 904 the area code, 23 the address. Easy pie.
+ 
+ 
+  Here's the NUA scanner script. It's for Telemate (IMO, one of the best 
+emulators), and you need TMS.EXE, the script compiler. I also highly 
+recommend this scripting language; I learned it in under 30min and it's 
+quite useful, taking the hassle out of communication routines. 
+
+  The scanner works well on my dialup, though I suspect the different 
+nodes sometimes will act strangely; causing the scanner to get off beat.
+That's just speculation though; I believe I'd gotten all the bugs out.
+it's sensitive and will reconnect to telenet with the smallest signs of
+what it suspects as a frozen node; and so, sometimes it disconnects
+unnecessarily. Please excuse that. Otherwise, it's sleek and records
+connections better than the old NUA Attacker program by Docter Dissector,
+which was good, but somewhere along the line Telenet return messages may
+have changed, causing NUAA to record unwanted connection attempts. If I
+remember correctly, it would record network congestion (which you will
+get frequently these days).
+ 
+; NUA SCANNER v1.0 : TMscript 
+; Compiled & tested w/ Telemate v4.20
+; Blakboot [FS] '00
+; BUG: 
+;       Only in applied scan mode, it doesn't increment the NUA 
+;       when the pad freezes on a pending connection.
+ 
+integer nua,dialtelenet,t1,t2,cw,npa,max,pending,float,c,aspm,odata,obaud
+string telenet,past,present,tmp1,tmp2,filename,i
+ 
+; ---- configuration ----
+filename = "C:\TERMINAL\SCAN\N.TXT"; Full path
+telenet = "1-800-546-2000"         ; You can add any prefixes you want
+npa = 305                          ; Area code and
+nua = 22                           ; NUA to scan
+max = 1000                         ; NUA to stop at
+cw = 10                            ; Time in seconds to wait for connect
+aspm = 0                           ; Applied Scan Mode [1/0]
+;-------------------------
+ 
+procedure esc
+inputch i
+if success
+    if i="^[" 
+        print "^M^MTerminating scan."                                
+        close
+        put "@"                          
+        put "hang"
+        hangup                                                                
+        set baud,obaud
+        set data,odata
+        stop
+        endif
+endif
+endproc
+ 
+ 
+query data,odata
+query baud,obaud
+set baud,1200
+set data,7
+put "ats11=40"
+delay 5
+ 
+clear text
+print "Press escape at any time to terminate the scan."
+print "Opening NUA log file: ",filename
+append filename
+if not success
+    print "Error opening ",filename,"^MTerminating script."
+    stop
+endif       
+ 
+date tmp2
+time past
+strset tmp1,"-",1,79
+write
+write "Scan session started on ",tmp2,", ",past
+if aspm
+    write "* Applied Scanning."
+endif
+write "NPA/NUA: ",npa,nua,"  -  ", npa,max
+write tmp1
+ 
+print "Dialing Telenet..."
+repeat
+    repeat
+        dialtelenet=0
+        put "atdt",telenet
+        time past  
+        prob=0
+        while not connected   
+            esc
+            time present   
+            substr present,4,5,tmp1   
+            substr past,4,5,tmp2      
+            atoi tmp1,t1
+            atoi tmp2,t2                      
+            waitfor "busy","no carrier","voice",1
+            if found
+                prob=1
+                exit
+            endif
+            if (t1-t2)>= 2  
+                prob=1
+                exit        
+            endif              
+        endwhile 
+        if prob
+            print "^M^MRedialing..."
+            put "^M~~"
+        endif        
+    until not prob
+    delay 20
+    put "^M^MD1"
+    delay 20
+    clear com        
+    repeat
+        esc
+        itoa npa,tmp1
+        itoa nua,tmp2
+        concat tmp1,tmp2
+        clear com        
+        if c
+            concat tmp1, "."
+            itoa float, tmp2
+            concat tmp1, tmp2
+        endif
+        put tmp1
+        waitfor " connected","not","dis","81","00","BB","D4",cw
+        if not found
+            clear com
+            put "@"
+            waitfor "telenet","@",5
+            if not found
+                dialtelenet=1
+                errmsg="Node froze."
+                exit
+            else                        
+                clear com
+                put "d"                                         
+                waitfor "@",10
+                if not found                                                      
+                    dialtelenet=1
+                    errmsg="Node froze when trying to abort."
+                    exit
+                endif                                            
+            endif
+        else
+            clear com
+            switch found
+                case 1: 
+                    clear com
+                    if c
+                        write "  ", 
+                    endif
+                    write tmp1
+                    close
+                    append filename                                                                 
+                    delay 10
+                    put "@"                    
+                    put "d"                    
+                    if aspm      
+                        if not c
+                            float=0
+                            cw=cw+10
+                            c=1    
+                        endif
+                    endif    
+                    waitfor "disconnected",5
+                case 5:
+            endswitch                   
+                                                    
+            if not found=1         ; if not connected
+                waitfor "@",5
+            endif
+            clear com
+       
+            if not found        ; found could = "@",
+                dialtelenet=1
+                t1=nua
+                if c                   
+                    nua=nua+float
+                endif    
+                print "PENDING: ",pending,"  NUA: ",nua,"   T1: ",t1
+                if pending=nua
+                    nua=nua+1
+                else 
+                    pending=nua
+                endif
+                nua=t1
+                errmsg="Node froze when pending another connection"
+                exit                        
+            endif
+ 
+            clear com
+        endif
+        if c
+            if float=9
+                c=0
+                cw=cw-10
+                nua=nua+1
+                float=0
+            else
+                float=float+1
+            endif
+        else
+            nua=nua+1
+        endif
+    until nua>max        
+    print errmsg        
+    print "Reconnecting to Telenet..."
+    hangup
+until not dialtelenet  
+ 
+ 
+; [SNIP--end of code] 
+ 
+  Here are some scan results. No commenting 'cus I was lazy; this is
+basically just some spoil I'm grabbing out of my archive. These are not
+very old. Maybe a few months.
+ 
+NPA/NUA: 30556  -  3051000
+-------------------------------------------------------------------------------
+30559
+  30559.1
+  30559.2
+  30559.3
+  30559.4
+  30559.5
+  30559.6
+  30559.7
+  30559.8
+  30559.9
+ 
+NPA/NUA: 7160  -  7167000
+-------------------------------------------------------------------------------
+71623
+  71623.1
+  71623.2
+  71623.3
+  71623.4
+  71623.5
+  71623.6
+  71623.7
+  71623.8
+  71623.9
+71625
+  71625.1
+  71625.2
+  71625.3
+  71625.4
+  71625.5
+  71625.6
+  71625.7
+  71625.8
+  71625.9
+
+***********************************************************************
+      *** Ethernet - The Bottom Two Layers : bobtfish
+***********************************************************************
+
+  There are lots and lots of articles about TCP/IP, how it works and how
+to hack it, however there is very little information (for the poor hacker
+who cannot afford text books) about actual ethernet itself, where it came
+from and how it works. I hope to go some way to correct that in this
+article.
+
+  Using the OSI (Open Systems Interconnection) networking reference model
+ethernet takes the bottom two layers, the data link layer and the
+physical layer. I intend to talk about both of these layers in detail
+however first I will give a brief introduction to the ethernet system.
+
+Introduction
+------------
+
+  Ethernet was invented by Xerox, DEC and Intel. It grew from a system
+researched ar Xerox PARC (Where such things as mice and GUIs came from)
+where they built a 2.94Mbps system. (Mbps = Million bits per second) This
+system was the son of a system called ALOHA constructed to allow radio
+communication between the Hawaiian Islands.
+
+[ The great thing was, this was rounded up to 3Mbps for marketing.  Some
+  people objected to a roundoff error greater than the entire bandwidth
+  of ARPANET at the time... {ajax} ]
+ 
+Ethernet is sometimes called IEEE 802.3 however this is wrong. IEEE
+802.3 is *very* similar to actual ethernet except 802.3 describes a whole
+slew of systems running from 1-10Mbps on various media (more than
+ethernet) and a field in the packet header is differs between ethernet
+and 802.3. Now, you're thinking, there is an 802.3, but what happened to
+802.1 and 802.2? Well, 802.1 is an introduction to the 802 standards and
+defines a set of primitives and 802.2 describes the upper part of the data
+link layer (which we don't give a toss about right now). Additional info
+ref #1
+
+  Ok, back to ethernet then. Ethernet is a CSMA/CD protocol, which stands
+for Carrier Sense Multiple Access with Collision Detection. Don't worry,
+I didn't understand it first time either so I'll run through it bit by
+bit:
+
+Carrier Sense - The system looks at the cable to see if anything is
+                transmitting before it does. (So that two machines are not
+                trying to send data down the same wire at the same time.)
+
+Multiple Access - Multiple machines can access the same communication
+                  channel to send data. Ergo there is only one set of
+                  wires no matter how many machines you have.
+
+Collision Detection - If a station is transmitting and two stations are
+                      waiting then when the first station stops they will
+                      both try to transmit at once, meaning the data will
+                      be garbled. Collision detection means they detect
+                      this and sort it out somehow. (More on this later)
+
+  Note that Ethernet does *not* guarantee reliable delivery of the data -
+even if it is sent correctly without problems the receiving machine may be
+so loaded that it does not have spare buffers to put the data in so it may
+be erased.
+
+Types of ethernet - The boring stuff.
+-------------------------------------
+
+  Since Ethernet refers to the 'ether' ie the medium the signal passes
+through we may as well start our discussion on cables.
+
+Name		Cable		Max segment Nodes/seg  Comments
+-------------------------------------------------------------------------
+10Base5         Thick coax      500m        100        Old - Not used
+10Base2	        Thin coax       200m        30	       Cheap
+10BaseT	        Twisted Pair    100m        1024       Standard
+10BaseF	        Fibre           2000m       1024       Building<>Building
+100BaseTX       Twisted Pair    100m        1024       Fast
+100BaseFX       Fibre           2000m       1024       Expensive
+
+I will deal with these in order in the table.
+
+  10base5 is the oldest (and obsolete in anywhere but the poorest 
+universities). It is called thick ethernet because it is yellow and 
+resembles a garden hose with markings every 2.5 meters. (The 802.3
+standard suggests the cable should be yellow but does not require it ;) )
+Connections are made using vampire taps in which a pin is forced 1/2 way
+into the core which are then connected to a transceiver. This transceiver
+invariably connects to the host computer using AUI which if you see it on
+a hub or network card look like parallel ports (D shaped connector)
+
+  10base2 is known as thin ethernet and in contrast to 10base5 bends
+easily. Connections are made using BNC type connectors to form T
+junctions in the cable. Thin ethernet is MUCH cheaper and easier to
+install than 10base5 but can only run 200 meters and can handle only 30
+machines per segment. Both of these systems have a big problem: any bad
+connection, wonky BNC connector or cable break will cause the entire
+network to fall apart. The only reliable way to find these breaks is to
+pull out each cable and T-piece and replace them one by one (which means
+quite a long network downtime with 30 machines) or to use an expensive
+machine called a 'time domain reflectometer' which injects a specially
+shaped pulse into the cable and waits for it to echo back (the echo is
+caused by the fault). This allows the fault to be pin-pointed. The phreaks
+amongst you will know that a time domain reflectometer can also tell you
+if someone is tapping your phone. Well, before it gets to the exchange
+that is...
+
+  These types of problems prompted the development of 10baseT which uses
+a different kind of wiring pattern with every machine going to a central
+hub which receives and re-transmits the signals to every other connected
+station meaning that a cable break will disable one machine, not the
+whole network. A large hub for many stations costs a lot of money but it
+means that adding or removing a station can be done without halting the
+network.
+
+  Another option is 10BaseF which uses fibre optics. This is expensive
+due to the cost of fibre and the connectors and terminators but has
+excellent noise (and tempest) immunity and is the connection of choice
+for low speed links between buildings.
+
+[ There are sub-standards 10BaseFB, for inter-repeater links, and
+  10BaseFL, for links to workstations.  As far as I can tell, this was
+  done simply to aggravate people.  You may also run into an older
+  standard called Fiber Optic Inter-Repeater Link, or FOIRL.  If so,
+  good luck to you. {ajax} ]
+
+  A quick note about repeaters - 10base5, 10base2 and 10baseT all have
+quite small maximum segment lengths so to allow larger networks segments
+can be connected with repeaters. These are a physical layer device which
+take the signal, amplify it and send it on its way. As far as the
+network is concerned there is no difference (other than electronic delay
+introduced by the repeater) A network can contain as many segments and
+repeaters as required as long as no two machines are > 2.5km apart and no
+path between two machines has more than 4 repeaters. (Why these
+restrictions are present will be discussed later.)
+
+  100baseTX is now quickly becoming the standard for new installations and
+is almost the same as 10baseT technically. (coax cables were dropped due
+to the overwhelming advantages of a hub-based design) Another good feature
+for the network engineer is that the same wires are used for the same
+thing meaning you don't need different cables. (However some poor-quality
+cables that work at 10Mb/s will not work at 100Mb/s.
+
+  A coding scheme called 4B5B is used at 125MHz with 5 clock periods
+transmitting 4 bits of data. 100baseFX uses two strands of multimode
+fibre, one for each direction and has the same advantages discussed with
+10baseF. This is all this paper will say about fast ethernet. Readers are
+referred to ref #2 if interested.
+
+Manchester encoding - The interesting stuff
+-------------------------------------------
+
+  Ethernet does not use straight binary encoding with 0 volts for 0 and 5
+volts for 1 as it would lead to ambiguities because stations would not be
+able to tell the difference between an idle sender (0 volts) and a zero
+bit (0 volts).
+
+  What is needed is a system that lets receivers tell the start, middle
+and end of each bit with no reference to an external clock. A system
+called manchester encoding is used where binary 1 is sent by having the
+voltage high during the 1st half of the bit and low during the second. A
+binary 0 is sent as a low during the first 1/2 of the bit and a high
+during the second. This means every bit has a transition in the middle
+making it easier for the receiver to synchronize with the sender. The
+disadvantage of Manchester encoding is it requires twice as much
+bandwidth as straight binary encoding because the pulses are 1/2 the
+width. It is shown below:
+
+Bit stream: 1 0 0 0 0 1 0 1 1 1 1
+Binary    : --________--__--------
+Manchester: -__-_-_-_--__--_-_-_-_
+
+[ Hey bobtfish - did Manchester encoding actually come from Manchester in
+  the UK, or was it arbitrarily named? {kynik} ]
+
+  The high signal in ethernet is +0.85V and the low signal is -0.85V. This
+gives a DC value of 0V.
+
+The MAC sublayer protocol - The really interesting bit.
+-------------------------------------------------------
+
+Bytes:
+    7     1      6          6    2 0-1500  0-46     4
+|Preamble| |Destination| Source | | Data | Pad | Checksum |
+|        | |  address  |address | |      |     |          |
+
+
+  Each frame starts with a preamble of 7 bytes, each containing the bit
+pattern 10101010. This, when manchester encoded produces a 10MHz square
+wave for 5.6usec to allow the receiver's clock to synchronize to the
+transmitter's. Next comes a start of frame byte containing 10101011. The
+source and destination addresses come next. The address containing all 1
+bits is reserved for broadcast which is delivered to all stations on the
+network. The minimum frame length is 64 bytes, from destination address to
+checksum and so if the data is less than 46 bytes then the pad field is
+used to pad the data to 64 bytes. This stops a station that is
+transmitting a short frame from completing before the first bit has
+reached the other end of the cable, where it may collide with another
+frame. (Remember we can have 2.5km of cable and 4 repeaters in there -
+quite a large delay).
+
+  If a station detects a collision (by sensing more power on the cable
+than it is putting out) then is aborts its transmission and transmits
+48bits of noise to warn all the other stations. It then waits a random
+amount of time before sensing the cable to try and transmit again. If the
+frame was too short then if a collision occurs the sender could conclude
+that it was successful as the noise burst does not get back before it has
+stopped transmitting.
+
+  As network speed increases the minimum frame length must go up or the
+maximum cable length must come down. For a 1Gbps LAN the minimum frame
+size would be 6400bytes with a 2.5Km maximum distance. This is called the
+long fat pipe problem. (Which if you do any studies of high-speed
+communication you will come across quite often)
+
+  The final field is called the checksum. It is a 32bit hash code of the
+data using a cyclic redundancy check. If some of the data is wrong then
+the checksum will almost certainly be wrong.
+
+Binary Exponential Backoff (And other things with no amusing acronym)
+---------------------------------------------------------------------
+
+  We now know how ethernet stops two machines transmitting at the same
+time, however how does it arbitrate between them? Well since there is no
+designated 'master' machine, (which is why receivers have to synchronize
+their clock to the sender - there is no master clock), the two stations
+must perform this arbitration between themselves.
+
+  After a collision stations divide time up into discrete slots of length
+512 bit times, or 51.2usec.
+
+  After the first collision, each station waits either 0 or 1 slot times
+before trying to transmit again. If they collide again each station picks
+0, 1, 2 or 3 at random and waits that number of slot times. If a third
+collision occurs then the next time the number of slots to wait is chosen
+at random from 0 to (2^3)-1. This random time is increased exponentially
+until ten collisions have happened, at this point the randomization is
+stopped at a maximum of 1023 slots. After 16 collisions the controller
+gives up, goes for a beer and reports failure to transmit.
+
+[ Ethernet beer? Sounds like an IPO! ;) {kynik} ]
+
+  This is called binary exponential back off (and has with and without
+beer options ;) ) and was chosen to dynamically adapt to the number of
+stations trying to send. If the randomization interval was fixed at 1023
+the chance of 2 stations colliding a second time would be greatly reduced
+but the average delay would be 100s of slots. However if each station
+always delayed 0 or 1 slots then if 100 stations were waiting to transmit
+then they would collide until 99 picked 0 and 1 picked 1 or vice versa..
+
+  By having the random time grow exponentially the system gets the lowest
+delay at low load but enables the collision to be resolved when lots of
+stations want to transmit.
+
+Switching
+---------
+
+  As you add more stations to an Ethernet the traffic (naturally) goes up.
+Eventually the system will saturate (And with lots of machines waiting to
+send efficiency goes down the toilet). There are a number of ways to
+resolve this. First one could increase the speed of the LAN. (ie rip out
+all the 10BaseT cards and put 100BaseT cards in) however this is not
+necessarily practical. Another route to go is to segment groups of
+machines that communicate a lot onto different physical networks and use a
+bridge or router to connect them. The way we will look at here is a
+switch.
+
+  A switch is like a hub except that it has inside it a microprocessor and
+a very fast internal bus. When a station sends a frame the switch checks
+where it is destined for and copies it across its internal bus then
+sends it out to the other station. If the internal bus is busy then the
+switch buffers the packet in internal ram and then forwards it when the
+bus is available. This means that (since the internal bus is many times
+faster than the ethernet) you can theoretically get an aggregate bandwidth
+of number of stations * speed of network. This is because each port forms
+it's own collision domain. This also gives that added advantage that
+full-duplex operation can be supported. (ie A station, if its ethernet
+card supports it, can be both transmitting and recieving a frame at the
+same time)
+
+  However, if all stations on the switch are trying to contend to send to
+one particular station there can be problems. If one machine is a server
+and the rest are clients, all of which are making requests (Using all the
+10Mb/s bandwidth on their port) then you have an aggregate of 120Mb/s (on
+a 12 port switch) which can never get through. How a switch handles this
+situation is manufacturer dependent.
+
+  Nowadays a common item is a switch with one or two 100baseT ports and
+10 or so 10baseT ports. This goes some way to solve the above problem as
+few workstations need more than 10Mb/s however a server can easily use
+100Mb/s to serve it's clients.. So with 10 clients at 10Mb/s and a server
+at 100Mb/s then each client can get a full (and both ways) 10Mb/s of
+throughput. And you can happily boot over the network and run all your X
+applications on the remote machine at 10Mb/s. (Ok I wouldn't like to try
+remote Quake 3... But hey...)
+
+  Another advantage of a switch (to a network administrator) and
+disadvantage (to a black-hat) is that any machine connected to the switch
+will only see traffic destined for that machine. That is, an ethernet
+sniffer will catch no more than local users accounts and passwords.
+
+[ Not entirely true.  Most switches have a MAC (ethernet) address table
+  in internal memory, with possibly multiple MAC addresses associated
+  with a single port.  Some switches will forget MAC addresses after a
+  period of inactivity.  Occasionally, a host will have the MAC address
+  of another host in its ARP cache, but since the switch no longer knows
+  what port the destination host is on, it will be forced to broadcast
+  the packet.  Oops.  Of course, some switches are even smarter and have
+  their own MAC address, and can do ARP queries for machines they forget
+  about.  Not a major problem, but don't trust switches to protect you
+  from sniffing; besides all this, some are just buggy. {ajax} ]
+
+End notes
+---------
+
+  I hope this article has given you a few clues about how Ethernet
+actually works if you didn't know already, and even if you did it might
+have told you some interesting history, but maybe not.
+
+Just a couple of (well 4) quick notes:
+
+1) When transmitting IP over ethernet there is a system called arp for
+   matching IP addresses and physical network addresses. (Look in
+   /proc/net/arp under linux I believe for the arp of the rest of your
+   network or ifconfig for that of your ethernet adaptor.)
+
+2) Ethernet hardware addresses are meant to be unique - I know of
+   multiple instances of people having 2 cards with the same address.
+
+3) Microsoft Office products embed your hardware address in documents.
+   This is a pretty unique identifier. (And how they got the dude who
+   wrote Melissa). Get vi now.
+
+4) Microsoft Windows 95 (I believe but I'm not sure - its one of them) is
+   dumb. If you make an ethernet packet addressed to FFFFFFFFFFFF  
+   (broadcast) but with the station's IP address then it will accept it
+   as arriving at the station's IP address, not by broadcast. (This would
+   work for any ethernet address but the hardware in the ethernet card
+   filters out packets not for the machine or broadcast.)
+
+References
+----------
+#1 - Stallings, W - Local and Metropolitan Area Networks. 4th Ed.
+      Macmillan 1993
+#2 - Johnson, H. W. - Fast Ethernet-Dawn of a new network, Prentice Hall
+      1996
+
+***********************************************************************
+      *** Music Reviews : kynik, bobtfish, ajax, orbitz
+***********************************************************************
+
+We have two songs this issue from fairly different genres. The first is
+"One Day" by the Pinkerton Thugs. They can be found online at:
+
+http://www.pinkertonthugs.org/
+
+BobtFish's review
+-----------------
+Originality - 2
+Talent      - 4.5
+Production  - 4
+I like it   - 3.5
+
+What can I say about this song, it's a 1:56 long, speedy punk song about
+hating the world with a dodgy sample at the start.
+
+However whilst it isn't anything that ground breaking here it is a good
+song, the riffs are solid and the drumming is interesting. The vocals
+are good and appropriate and you can hear all the parts individually so
+it's reasonably well mixed. The thing that I really liked about this song
+is it's catchy, very catchy, makes you want to bounce out the house and
+throw bricks through the neighbors' windows :) Which is what good punk is
+all about.
+
+I don't think I'd run out and buy an album by these guys, or even be able
+to listen to an album all the way through, but as a single song I rather
+enjoy it and would probably dance to it if I heard it in a club and was
+stood up.
+
+Kynik's Review
+--------------
+Originality - 2.5
+Talent      - 3
+Production  - 4.5
+I Like It   - 4
+
+I'll admit, I'm a big punk fan, and this song makes me yearn for the days
+of oldschool hardcore. Straightforward, to the point, and undoubtedly
+punk. Unfortunately this particular song is a bit bland, even for punk.
+The vocals are good, and it sounds like the singer (unlike many punk
+bands) might actually have the ability to sing if he wanted to. I would
+have brought the level of the bass guitar up a bit (being a bassist, I
+want to be able to hear it) and the drums down just a touch. Nothing
+new here, but good punk if you like punk.
+
+ajax's Review
+--------------
+Originality - 1.5
+Talent      - 4
+Production  - 4.5
+I Like It   - 3
+
+Here's the thing about punk rock: there's very little room for
+creativity. Watch, I shall demonstrate.  The verse and instrumental bits
+consist of a I-V-vi-IV chord progression.  The chorus runs "Your so-called
+order amounts to inequality / One day, we'll make the bastards pay / Oi!".
+The chorus goes iii-IV-V-I.  It runs for one minute and fifty-six seconds.  
+See? You now know exactly what this song sounds like.
+
+Maybe I'm disillusioned, but punk still hasn't changed the world, and
+neither have punk rock kids.  To its credit, the song sounds very well
+produced, and the band sounds tight and doesn't drag for a second.
+Punk's got its place, and every once in a while I enjoy it.  Every once in
+a while I like hip-hop, too.  And while I'd certainly see these guys live
+- I'd like to know what the rhythm guy is using for his distortion, nice
+and crunchy - I can't see myself spending money for punk CDs.  I like a
+little creativity in my guitar rock, and most of this "revolutionary",
+idealistic punk sounds like a broken record.  I'm amazed the groove hasn't
+worn through yet.
+
+
+The other is "Preacher" by My Ruin. My Ruin's homepage is unsurprisingly
+at:
+
+http://www.myruin.com/
+
+ajax's Review
+--------------
+Originality - 3.5
+Talent      - 4
+Production  - 3.5
+I Like It   - 4
+
+Okay, so I'm biased in favor of female vocalists.  Sue me.  This song is
+downright creepy, while still rocking.  The rhythm guitar line is not
+terribly original, but the lead makes up for it by being un-obvious, and
+the bass counterpoints it well.
+
+The singer's got a better-than-decent voice; it's a shame she hides it
+behind that stereo chorus effect.  Maybe if she turned the intensity down
+a notch, the difference between the right and left is a little harsh.  Of
+course, I only listened to it in headphones, so this probably isn't a
+problem.  The drummer, on the other hand, sounds like he's kicking a
+cereal box, and the snare drum sounds basically the same but with more
+reverb.  A shame, since it makes him sound terribly untalented, and the
+treble on the drums takes sonic space away from the vocals.
+
+Overall, though, turn up the bass and scare your neighbors.
+
+Kynik's Review
+--------------
+Originality - 3.5
+Talent      - 3
+Production  - 3
+I Like It   - 4
+
+This is a pretty decent song. I thought at first it was something new by
+the Genitorturers, as the sounds are VERY close. (I'm actually not sure
+who came first, My Ruin or Genitorturers) If you like one, you'll probably
+like the other. I'm a fan of female-fronted rock bands (ask any of my
+friends) and while I like this one, I'm not really impressed as much as I
+have been before. I tend to go for more extreme vocal ranges, such as very
+pure almost operatic singing to screaming or screeching. While the singer
+does hit on both of those, it's not used to its fullest "wake up boy!"
+potential. It's good guitar-driven industrial-ish music, and with a better
+producer (the mix was weak at times) this song would have a bigger public
+appeal.
+
+Orbitz's review
+-----------------
+Originality - 4
+Talent      - 3.5
+Production  - 4
+I Like It   - 1
+
+I did not care much for this song. Hence the 1.0 on 'I Like It'.  I
+thought the opening bass was pretty nice.  I am not much into goth type
+music.  Talent got a 3.5 because I did not much care for the lyrics but I
+liked the opening bass a lot so the song got points for that.  Tune
+sounded like it was mixed together pretty good.  Originality is up
+because I haven't heard much music like that. Overall I did not like this
+song and found the lyrics to be weak.
+
+Overall Rating, "One Day"
+-------------------------
+Originality - 2.00
+Talent      - 3.83
+Production  - 4.33
+I Like It   - 3.50
+Total       - 13.67/20.00 (68.35%)
+
+Overall Rating, "Preacher"
+-------------------------
+Originality - 3.67
+Talent      - 3.50
+Production  - 3.50
+I Like It   - 3.00
+Total       - 13.67/20.00 (68.35%)
+
+[ I swear I did not plan for that tie to happen. {kynik} ]
+
+***********************************************************************
+      *** Future Issues
+***********************************************************************
+
+Contemporary Telenet II
+
+***********************************************************************
+      *** Credits
+***********************************************************************
+
+               Editor:  Kynik      <kynik@firest0rm.org>
+            Co-Editor:  ajax       <ajax@firest0rm.org>
+Article Contributions:  Blakboot   <blakboot@firest0rm.org>
+                        bobtfish   <bobtfish@firest0rm.org>
+        Music Reviews:  orbitz     <orbitz@firest0rm.org>
+           Commentary:  revcorrupt <revcrupt@firest0rm.org>
+
+***********************************************************************
+      *** Subscription
+***********************************************************************
+
+To subscribe to this 'zine:
+  Email napalm@firest0rm.org with a subject of SUBSCRIBE
+To unsubscribe:
+  Email napalm@firest0rm.org with a subject of UNSUBSCRIBE
+or find us online at:
+  http://napalm.firest0rm.org/
+
+Submissions, questions, comments, and constructive chaos may also be
+directed to kynik@firest0rm.org or any of the contributors
+
+***********************************************************************
+

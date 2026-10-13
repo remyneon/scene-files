@@ -1,0 +1,777 @@
+           /\  /^/_ _ __  __ _|^|_ __ ___
+          /  \/ / _` '_ \/ _` | | '_ ` _ \
+         / /\  / (_| |_)  (_| | | | | | | |
+        / /  \/ \__, .__/\__,_|_|_| |_| |_|
+                   |_|
+
+.                                 .                     . ..n10: 2001.03.30
+---------------------------------------------------------------------------
+all content copyright © 2001 by the individual authors. all rights reserved
+---------------------------------------------------------------------------
+
+# prtvtoc
+. . . .....................................................................
+0x00  Editor's Comments
+0x01  Subscriber Emails
+0x02  BBS List, Revised
+0x03  Chaffing as an Alternative to Encryption (Part I)
+0x04  How I Got Myself Into The Comp-Sec World
+0x05  Security Hole in Shareplex 2.x
+0x06  Intro to Cryptographic Filesystems
+0x07  Music Reviews
+0x08  Credits
+..................................................................... . . .
+
+___________________________________
+--------------------------- - kynik
+[=] 0x00: Editor's Comments
+
+A chunk of my commentary that I included in the last issue was published 
+in Information Security magazine. (See "Hacker 'Zines and Information 
+Security Magazine" in issue 9) You can see it online at
+
+http://www.infosecuritymag.com/articles/february01/departments_talk_back.shtml
+
+Not much new with the Napalm crew here, except that this issue is bound to 
+be considerably smaller than usual. Everybody's submissions just started 
+slowing down over New Year's Day and many of our contributors' winter 
+breaks. On the personal front, I've quit my job and started a security 
+consulting company for small businesses in my corner of the world. If 
+you're interested, check out Deus Security at:
+
+http://www.deusec.com/
+
+___________________________
+---------------------------
+[=] 0x01: Subscriber Emails
+
+Shawn Moyer <shawn@net-connect.net> wrote:
+
+I have one addition to Azure's article on IP hijacking on cable modem
+networks... This generally won't work if you don't answer to an ARP
+request for the additional IP's you're doing static NAT for. 
+
+There are two ways to make that happen:
+
+1) Static ARP:
+
+arp -s IP.you.want.to.snag [MAC address of your outside interface]
+
+2) IP aliasing:
+
+ifconfig (adapter) alias IP.you.want.to.snag
+
+The better of the two would be static arp, since 'ifconfig alias blah'
+will cause services on your firewall to start listening on that address
+as well, depending on your setup.
+
+
+--shawn 
+
+--------------------------------------------------------
+
+Coney <coney@thehelm.com> wrote:
+
+Your e-zine rocks! (more than Phrack)
+
+[ That's always nice to hear. Phrack does have two things that we don't: 
+  bigger issues and more famous people. (Assuming they release an issue) I 
+  wouldn't call us nearly as big, either, with only 600 subscribers. It's 
+  like comparing Be and Microsoft ;) {kynik} ]
+
+[ There's an old joke about OS/2 being better than Windows. I think that's
+  called a "backhanded compliment". Still, thanks, we try. {ajax} ]
+
+--------------------------------------------------------
+
+crypt@mailtag.com wrote:
+
+Sorry that this is about such an old article but I found your 
+Contemporary Telenet I article in the May 16th issue quite interesting.  
+I had been wondering if it was still alive because it seemed like some 
+really cool shit to dig into. I got my city's dialup number and 
+connected, I realized that...I had nowhere to go. After about 4 
+alternations of me looking up numbers and then connecting again, the 
+gateway booted me. What I am asking is: When is the next Telenet article 
+coming out and could you include some numbers for us to fool around with?
+
+     Crypt-0-Knight
+
+[ I'll pester blakboot about it, but I'm not sure he's even thought about 
+  doing a follow-up in a long time. {kynik} ]
+
+[ Yes. Telenet lives. Kinda like X.25 and OSI, it just won't die. I
+  plugged "telenet access numbers" into google and got back a whole buncha
+  hits, http://www.undergroundnews.com/kbase/underground/hacking/basic.htm
+  among them, which seemed pretty authoritative. Play around. {ajax} ]
+
+--------------------------------------------------------
+
+John Kozubik <john@kozubik.com> wrote:
+
+Hello,
+
+I realize that this article is quite old, however I only recently 
+discovered and started reading Napalm.
+
+I wanted to discuss one small point with you concerning your quantum
+cryptography article - I realize it is very likely that in the 1.5 years
+since you wrote this that you have already considered this fact. I think
+it is very important though, so just in case I am bringing it up here.
+
+An excerpt from your article:
+
+  It will happen eventually. Somebody will figure out a way to factor
+  large prime numbers, and, if you didn't know already, will break a 
+  decent number of the 'military-grade' cryptographic algorithms out  
+  there today.
+
+I would like to put forth that at the present time, there is no
+mathematical _proof_ that factoring large prime numbers is a so-called
+"hard" problem. This is what you are talking about above. Therefore, as
+you are suggesting, someone could come along and prove that it is an
+_easy_ problem.
+
+[ Quite right. {kynik} ]
+
+[ By definition, factoring large prime numbers (or any prime number) is 
+  not NP-hard, it's impossible. Period. If a number has positive factors 
+  other than one and itself, it isn't prime. {echo8} ]
+
+[ Ok, now I feel silly. I was quoted as predicting that people would be 
+  able to factor large primes. I meant to say "large numbers", where 
+  someone would factor them to try to _determine_ if they are prime. Of 
+  course you can't factor primes, and I think the subscriber followed my 
+  semantic misstep. My apologies, all. {kynik} ]
+
+However, given what we know up to this point regarding this problem, it 
+is equally as likely that someone could come up with a mathematical 
+_proof_ that it _is_ a hard problem.
+
+[ For those readers out there who are interested in knowing what the 
+  difference between a "hard" and an "easy" problem, plug "NP hard" into 
+  your favorite search engine. For those of you masochists, try this URL:
+  http://hissa.nist.gov/dads/HTML/nphard.html  {kynik} ]
+
+[ The issue of proof is also unclear. Nobody has yet proved that P != NP. 
+  There are also problems which are provably non-computable. Number  
+  theory is like that. {echo8} ]
+
+[ Interesting things come up when you try to apply parallel computation to 
+  problems that can't be solved in polynomial time serially. The little 
+  bit of number theory I got into in grad school didn't really touch on 
+  this, besides saying that everything gets more complex, as you'd 
+  probably expect. {kynik} ]
+
+That is, insofar as the security of XYZ cryptosystem relies on factoring
+large primes being a "hard" problem, it is possible that we could someday
+_prove_ that the cryptosystem is secure against a non-brute-force attack.  
+It is, of course, equally possible that we could _prove_ that it is _not_ 
+an easy problem, at which point XYZ cryptosystem would be secure until 
+they figured out how to solve that "easy" problem (which would probably 
+happen simultaneously as they discover that it is an "easy" problem).
+
+I am enjoying your magazine as I catch up on the back issues.
+
+--john
+
+--------------------------------------------------------
+
+sycotik69@hotmail.com wrote:
+ 
+I've been getting interested in DNS spoofing recently but have no idea at
+all how to do it. Can you explain it a little to me please?
+ 
+sycotik
+
+[ Perhaps one of our more motivated readers or contributors would be 
+  willing to go in-depth on the topic. Stay tuned! {kynik} ]
+
+____________________________
+------------------ - _azure
+[=] 0x02: BBS List, Revised
+
+[ This BBS list is current as of 2/8/01 {kynik} ]
+
++-----------------------------------------------------------------------+
+| BBS Name                 | Connect With      | Number / Address       |
++-----------------------------------------------------------------------+
+| Digital Decay            | Modem             | (741) 871-2057         |
+| Firest0rm BBS            | SSH               | bbs.firest0rm.org      |
+| Glenside's Cup of CoCo   | Modem             | (847) 428-0436         |
+| L0pht BBS                | Telnet            | bbs.l0pht.com          |
+| OSUNY                    | Telnet/SSH        | osuny.inri.net         |
+| Postcards From The Edge  | Telnet            | luna.iirg.org          |
+| Sacrificial Lamb         | SSH               | english.gh0st.net      |
+| Technocratic Sanctuary   | SSH               | ts.darktech.org        |
+| The Upper Deck           | SSH               | bbs.vistech.net        |
+| Uncensored!              | Telnet/SSH        | uncensored.citadel.org |
++-----------------------------------------------------------------------+
+
+[ L0pht bbs is part of history, last time I checked. Someone at @stake
+  probably clued them that there might be legal ramifications to hosting
+  a hacking bbs. Capitalism sucks that way. {ajax} ]
+
+[ For the sake of correctness, we might want to point out that c0re *is*
+  technically still up -- but there appears to be a routing and/or 
+  hardware issue that has slowed the system to a crawl. It is still 
+  occasionally possible to login (though it's very difficult to 
+  navigate). Regardless of the other areas in which L0pht seems to have 
+  slacked (removing their website, etc.), they don't appear to have 
+  purposely removed the BBS. As history has shown, they haven't (and 
+  continue not to) pay much attention to the board. {_azure} ]
+
+___________________________________________________________________
+----------------------------------------------------------- - kynik
+[=] 0x03: Chaffing as an Alternative to Encryption (Part I)
+
+  I remember reading Rivest's paper on chaffing[1] and being blown away 
+by the simplicity of the idea, not to mention the practical applications. 
+I told myself, "Self, you can write this, and it'd make a damn fine 
+secure file transfer method." So I thought about it, scribbled some stuff 
+down on a sheet of paper and forgot about it for about 6 months. I 
+noticed the copy of Rivest's paper in an abandoned directory and the 
+wheel started turning again. During my visit to San Francisco, I managed 
+to write almost all of the enchaffing and dechaffing pieces. I'm at a 
+point right now where I just need to debug and the libraries are done. 
+So let me explain what all of this babbling of mine is about.
+
+  Chaffing is the insertion of fake pieces into a message, so that anyone 
+eavesdropping on the message won't know which part is legitimate and which 
+is the chaff. Let's say we wanted to enchaff a simple message. This 
+example is from Rivest's paper. The enchaffed message might look something 
+like this:
+
+    (1,Hi Larry,532105)
+    (1,Hi Bob,465231)
+    (2,Meet me at,782290)
+    (2,I'll call you at,793122)
+    (3,6PM,891231)
+    (3,7PM,344287)
+    (4,Yours-Susan,553419)
+    (4,Love-Alice,312265) 
+
+  You can't really be sure what the entire message is supposed to be 
+without knowing what's going on. The first number is a sequence number, 
+which basically allows the receiver to put the message pieces in the right 
+order, if they happen to be deliberately mixed. The third field is a keyed
+hash, which basically means, "Append the secret key to the message and get 
+the [MD5 or whichever] hash." This way, only someone who knows the secret 
+key can easily determine which hash is correct, and thus, what the real 
+message is. Standard key-exchange algorithms such as Diffie-Hellman can be 
+used to transmit this key.
+  You can get even more complicated here by throwing a variable number of 
+chaff pieces into the message, perhaps with a probability of extra chaffed 
+packets. I added this functionality into my preliminary file enchaffing 
+and dechaffing routines. (I think I'm going to wait until Napalm 11 to 
+actually release the code, as I'd rather it be in a more complete state 
+before anybody tried to do anything with it.)
+  The biggest problem I've discovered is that generating chaff from 
+/dev/random or other random sources only works if your message looks 
+pseudo-random. While testing out my enchaffing functions on a text file, 
+and skimming through the resulting output, it's pretty clear which part is 
+the message and which part is the chaff. The strength of the enchaffing 
+program depends directly on how good the chaff-generation function is.
+  This problem can be somewhat avoided by using another of Rivest's 
+suggestions. He suggests that before the entire message is enchaffed, a 
+'package transform' or 'all-or-nothing transform' is applied. This 
+transform makes it impossible to retrieve the original message unless the 
+entire transformed message is received. Presumably, (I haven't 
+actually implemented this yet, though that's next in my priority list 
+on this project) this transform would make a text file look pseudo-random 
+and therefore it'd be much harder to determine what was chaff and what was 
+part of the real message. It would also be possible and not a bad idea to 
+compress the file before it's package transformed, to reduce the amount of 
+data that needs to be sent, and to remove the plaintext componenets of the 
+message.
+  So what, right? This is basically encryption. It sure seems like it, but 
+it's technically not, which is the beauty of it. The package transform is 
+not encryption. Rivest explains this:
+
+    The packaging operation can be undone by anyone who receives the 
+    packaged message; as noted, packaging is not encryption and there are 
+    no shared secret keys involved in the packaging operation.  
+
+The chaffing operation also is not encryption, since the sender is only 
+transmitting authenticated packets, with the important message part sent 
+in the clear. (Well, in a packaged form in the clear) Since these methods 
+do not involve encryption, a user can sidestep many laws regarding 
+encryption while still having a certain degree of confidentiality. Rivest 
+explains this sidestepping in greater detail in his paper than I will 
+here.
+
+Expect to have a working file-enchaffer by Napalm 11. Hopefully I can 
+include a package transform and a compression component with it. I'm very 
+interested in hearing what you all think about this, and any ideas that 
+would improve or possibly defeat this. Feel free to email me at 
+kynik@firest0rm.org
+
+
+[1] "Chaffing and Winnowing: Confidentiality without Encryption", 
+    http://theory.lcs.mit.edu/~rivest/chaffing.txt
+
+______________________________________________________________
+-------------------------------------------------- - anonymous
+[=] 0x04: How I Got Myself Into The Comp-Sec World
+
+[ This article is from a subscriber who wishes to remain anonymous. Any 
+  commentary on this may be sent to kynik@firest0rm.org and I can forward 
+  it on. {kynik} ]
+
+How I Got Myself into the Comp-Sec World
+or
+It May Sound Funny, but I Learned Hacking at School
+
+
+  I don't post to Bugtraq. I don't release stuff on Packetstorm (either 
+the code is too dumb or too cool to make it public). I'm not a member of 
+a crew. You don't know me. If you know my handle, forget it, tomorrow 
+it's different. I'm not kewl nor 31337. I'm not a wordclass-hacker (in 
+fact I settle myself somewhere between a cracker and a hacker), nor am I 
+a member of the "Underground" (if it still exists). I'm not perfect, I'm 
+no wizard; there are kids that are younger than me who know more than 
+twice as much as I do.
+
+  The better days of my all too short youth I spend in a top-notch  
+boarding school somewhere in Europe. It was quite a traditional one, 
+yeah, one with church every Sunday and ultrasmartasses learning all day. 
+But there were also different people, people like me. Dudes who did their 
+own stuff and didn't care a lot about what parents or teachers told us. 
+Well, we went to school, did our homework, smoked when it was possible, 
+drank ourselves near delirium every other weekend. School didn't matter, 
+we had good grades and when we had problems we helped each other (the 
+kind of guys that fuck the prom queen).
+
+  My buddies and I had a lot of different hobbies (rugby, drama, art,  
+etc.) but we had one hobby we all shared: computer games. We were addicted 
+to all sorts of games. Many I have forgotten since then, but some, like 
+Doom, or all the Sid Meier games are burned into my brain forever. 
+Computers weren't widely distributed at that time - it was '94. The masses
+hadn't realised there were computer networks or people like "hackers". 
+1995 was the year that would change a lot. Windows 95 came out, changed 
+the world (and then crashed). Suddenly there were ads for internet service 
+providers like CompuServe, the school got a LAN "for educational purposes" 
+and we realised that computers could be serious fun when connected 
+together. A serial connection was ok, if we did nothing special but for 
+file sharing a real LAN would be better. Articles in computer magazines 
+encouraged us, there was no discussion, we installed one (expensive 
+10Mbit-ISA-cards and BNC-Cable).
+
+  It was all too fascinating, a new world for us to play with. A few 
+months all ran well, but after the summer, someone nearly slipped from the 
+roof of our main dormitory (if the roof had been wet he'd been straight 
+dead). The authorities thought about it, then they budgeted 10000$ to 
+install a LAN in the complete school and dorm buildings.
+
+  In '96 my buddies and I were absolute power users in networking (in our
+opinions). We knew everything there was to know about setting up ethernet 
+networks. From the box of our minix-dude we learned that there were
+strange OS's out there and finally came into contact with Linux. It was 
+strange because our world was totally dominated by M$ (and 4dos + some 
+other enhancements). I hated it. Some loved it because of the anti-MS 
+aspect - they weren't able to handle their Win 3.x and 95 stuff right. 
+(They weren't so leet in M$ than I was, hehehe). Well, most of these 
+Linux-tryers don't use it anymore. It was too shitty then. Now they don't 
+touch it because they think it's still crap.
+
+  With the growth of the internet, finally the school got the idea that
+internet-access would be a cool thing for a elite boarding school. Well, 
+guess who were the morons that had to work out that NAT/proxy/cable/
+internet stuff? Yep, it was me and two of my friends plus a strange guy 
+who was known as a hardcore Linux user in our school (he always laughed at 
+our windows problems). I thought I knew a lot about networking.  *doh*.  
+That router installation was a real kick in the ass for me and a wake-up 
+call not to be so arrogant. It was hard work, but finally linux ran on 
+that box (I think it was Redhat 4.x (or 5.x?)). It ran Linux because the 
+school didn't want to buy another NetWare license. I would have preferred 
+NT 3.51, but no one would listen to me. That protocol stuff was strange - 
+yeah, packets cool - I know about packets, sir.
+
+  We started with a 33.6 connection, which was fine if you used it on  
+your own, what you only could to at night. So I stayed up and surfed the 
+net in the early mornings, my monitor killing my eyes, my body yearning 
+for sleep. After a week I found the first DoS tool (note: on 
+www.genocide2600.com/~tattooman/ which would later develop into 
+Packetstorm). Well, came there by accident, I was happy I had found 
+something mighty. "...will crash your computer....OOB....bluescreen".
+Wait a minute, this is cool, I can crash other peoples boxes so I get the
+connection to the net for myself. Cool. In the following week, many people 
+came to the conclusion that blue wasn't a pretty colour in the end.
+
+  In the next edition of our favourite computer magazine all was discussed 
+and soon after that patches were released. Finally, tools were released 
+that could even kick my beloved NT in the ass. One day I was in a VERY bad 
+mood (because of a girl ;). I flooded and DoS'd our gateway to death. I 
+tried every tool I had and after a while the box didn't answer my pings 
+anymore. I don't know why I actually did it. I simply did (and it worked).
+
+  Just to see the bluescreen (if it was blue on linux) I went with the 
+admin (the hardcore Linux user) to the gateway. Our admin had a very old 
+box - it was rumoured it was a 486 (very slow compared to our PII's; in 
+fact, it was a p100) and ran on Linux devel-kernel-code only (which was 
+like a area52 to us M$-Users). He was someone who knew how to use gdb and 
+gcc perfectly, my Linux friends "feared" him and I didn't get a clue out 
+of him.
+
+  He, a guy with glasses and too much pizza-muscles on his hips, showed me 
+the box: no bluescreen. He logged himself in, did some crazy shit, well 
+and we were back on the internet in less than a minute.
+
+  Utilising strange commands I had never seen like "ifconfig -a" and
+"ps faux" he checked the box.
+
+"Hey, wait a minute, what's that?" I asked.
+"That would be a task manager in your eyes, but this is Linux, this is a 
+ better world."
+"Hmm. What is the most extreme shit you can do with Linux?"
+"You can code a world, man. Source code, FREE source code, you can code 
+ your own kernel, YOUR stuff. You can make the computer do exactly what 
+ YOU want."
+"It sounds interesting, but I won't use it. I don't wanna format my HD."
+
+He turned around and looked in my eyes.
+"Do you know the word 'multi-user'?"
+
+  Seconds later I was on my first telnet session ever, exploring the 
+admin's box from a user account.
+"This is cool. It's so different. Is this DOS? What's the most extreme 
+ you can do with remote boxes? Crash them?"
+
+The admin grinned.
+"No...you can hack them. Break into them. Make them give you admin 
+ rights, so you have god-like control."
+"Show me. Now."
+"No, you gotta learn for yourself. But if you have good questions I will 
+ maybe answer them."
+I begged and asked again. He refused.
+
+  From that day on I was logged on to that admins box daily. My best 
+friend was "man", afterwards came "less" to read the RFC's (which was 
+really hard work the first time). In my senior year I took a computer 
+science class in school, which was a good decision because the teacher (a 
+new one) taught us about algorithms and C. Together with a few books and 
+advice from our admin, a lot of time, caffeine and long nights in front of 
+my box I learned to hack. The school's LAN was my playground where I 
+could test everything I wanted without fear. A few months before 
+graduation we got a E1 (2Mbit) and a Cisco. Protected by NAT and not 
+existing log files about internet usage I explored the Internet and had a
+very good time. The time I finished school I was familiar with Linux, NT 
+and Netware and had a deep understanding of TCP/IP Networking.
+
+  I'm very happy someone introduced me to the world of Linux and free 
+software, else I'd perhaps still be a DoS-Kiddie. I've been to university 
+for a while now (and I've found another LAN to mess with) and sometimes 
+miss the time I had at school. NT and Win2000 are my "research field" at 
+the moment, but I plan to sell some stufff so I can afford a whole box for 
+*BSD, which didn't get enough attention by me in the past.
+
+[ Good man...I'm a BSD fan myself. {kynik} ]
+
+Yes, I can say, I really learned something at school.
+
+________________________________________________
+---------------------------------------- - echo8
+[=] 0x05: Security Hole in Shareplex 2.x
+
+Summary 
+-------
+
+  Shareplex (Quest Software's product for Oracle database replication)
+contains a security hole which can allow local users to read any file on
+the system, effectively bypassing the permissions set at the OS level. 
+
+Details
+-------
+
+  One of the scripts called when the product is installed (root.post)
+contains the following block of code: 
+
+update_permissions()
+{
+    if  get_mark marker OPT DIR; then
+        :
+    else
+        get_mark marker OPT.$ORAVER DIR
+    fi
+    OD=$MARK
+
+    chown root $OD/bin/sp_cop
+    chmod 4555 $OD/bin/sp_cop
+
+    chown root $OD/bin/CleanSP
+    chmod 4550 $OD/bin/CleanSP
+
+    chown root $OD/bin/qview
+    chmod 4555 $OD/bin/qview
+
+    ...
+
+    chown root $OD/install/splex_remove_script
+    chmod 4555 $OD/install/splex_remove_script
+
+    get_mark rootpre SPLEX GROUP
+    SPLEX_GROUP=$MARK
+    chgrp $SPLEX_GROUP $MARKERFILE
+    chown root $MARKERFILE
+    chmod o-w $MARKERFILE
+}
+
+  This assigns ownership of several application binaries to root, and 
+then sets permissions on them to read & execute by everyone, and suid to 
+root. The qview utility, which is used for cleaning out queues among 
+other things, is one of the tools which is installed mode 4555. It has a 
+feature which can compromise system security when executed with superuser
+privileges.
+
+  qview's cmd command (which is used to execute qview commands stored in 
+a file) opens any user-specified file and attempts to execute each line 
+the file contains. Any errors encountered are echoed to standard output. 
+A user who can execute qview can use this behavior to read files on the
+system to which they do not legitimately have access. As the target file
+will contain data other than qview commands, that data will be echoed out
+to stdout along with error messages.
+
+  I did not attempt a comprehensive audit of this product. There are a 
+lot of utilities installed suid-root, and this may not be the only one 
+that contains vulnerabilities. 
+
+Demonstration 
+-------------
+
+$ id
+uid=500(foo) gid=200(bar)
+$ cd <path to shareplex binaries>
+$ ./qview
+qdump> cmd /etc/shadow
+Executing: root:xDmyz1K9xRKRo:11236::::::
+invalid command root:xDmyz1K9xRKRo:11236::::::
+...
+Executing: splex:BdJCfh1D32hzo:11290::::::
+invalid command splex:BdJCfh1D32hzo:11290::::::
+Executing: foo:2MQXUgAcnOcEU:11344::::::
+invalid command foo:2MQXUgAcnOcEU:11344::::::
+qdump> quit
+$ 
+
+Vulnerable Versions
+-------------------
+
+  The same version of root.post is shipped for each of the supported 
+unixes (Solaris 2.6, HP/UX 10.20 & 11.00, AIX 3 and OSF/1 4.0). I would 
+expect qview to display the same behavior on each of these OSes, but I 
+tested only on Solaris 2.6.  
+
+I tested Shareplex 2.1.3.9 and 2.2.2 (Beta, 11/02/00). 
+
+Workaround
+----------
+
+  As currently implemented, qview needs to run as root in order to 
+operate correctly. However, the risk can be somewhat mitigated by 
+changing the permissions on qview to 4550, and making it group-owned by a 
+group containing only highly-trusted users. This is not a complete 
+solution to the problem, as any user who is still allowed to run qview 
+can still access files to which they should not have access under any 
+circumstances (such as the shadow file). 
+
+Vendor Notification/Patches
+---------------------------
+
+The vendor was notified on 2/2/2001.
+
+The issue is patched in SharePlex 2.1.3.21 and above. The patched version of
+qview seems to remove the offending fuctionality completely. 
+
+[ This, and most of echo8's previous bug reports goes to show you that 
+  just because something is expensive (I'm assuming that SharePlex is 
+  expensive, and I know Sun Clustering is) doesn't mean it's received the 
+  sort of scrutiny you'd expect for your money. Buyer beware! {kynik} ]
+
+__________________________________________________
+-------------------------------------------- - kp2
+[=] 0x06: Intro to Cryptographic Filesystems
+
+  This document is meant to provide a basic introduction to the facilities
+provided by the crypto support in the Linux kernel.
+
+  For those of you who might be a bit daunted by the words "Encryption" 
+and "Filesystem", I present you an introduction to the linux crypto 
+support.
+
+Part 1 -- What Is It?
+
+Encryption is the act of concealing from view the data stored on the  
+disk. 
+
+  Most filesystems do not encrypt the data stored on them. The best reason 
+for not encrypting data is the "why?" factor. Encrypting and decrypting 
+data consume valuble processor cycles. If there is no reason to encrypt 
+the data, there's equally no reason to waste the cycles. This argument is 
+a bit similar to data compression, but that is outside the scope of this 
+article.
+
+  But suppose there is a reason to encrypt the data. On an unencrypted
+filesystem, the data may be read directly. Essentially, whatever is on 
+the disk is available to anyone who might get their stinking paws on it. 
+Your letters to Aunt Sally might not be all too important, but our friends 
+at Los Alamos are singing quite a different tune when it comes to 
+sensitive data. 
+
+Part 2 -- How Does Linux do It?
+
+[ The actual Crypto API is the subject of my second article, so hang with 
+  me you prime number and hash table freaks. {kp2} ]
+
+  Linux uses a loopback filesystem (there's a HOWTO on these at
+linuxdoc.org) for its crypto chores. A loopback filsystem is basically a 
+file that contains its own filesystem. Linux provides the facility to 
+associate this file with a block device named /dev/loop<x>. Once the file 
+is looped, it may be mounted and treated like a regular filesystem. That's 
+where the crypto comes in. With crypto support compiled in, linux can 
+encrypt the blocks that compose the filesystem and its files. This means 
+that the looped file is completely unreadable without the key.
+
+Part 3 -- That's Cool, How do I do it?
+
+Actually using an encrypted fs is so simple, it will blow your mind. 
+Here's a quick starter:
+
+First, you need to head over to www.kerneli.org and grab the patch
+appropriate for your kernel.
+
+Run patch -p1 < <patch name goes here> in the kernel source directory.
+
+Remeber to gunzip that baby first!
+
+Now head back over to kerneli.org and grab a copy of the HOWTO and (!!) 
+read it. Remember that Documentation/crypto in the kernel source dir has 
+some useful info.
+
+You will need to recompile losetup and mount from utils-linux after 
+applying a patch to that source (detailed instructions are in the HOWTO). 
+You will also need to recompile your kernel with crypto support built in 
+either as a module or into the kernel.
+
+Part 4 -- Kp2, you're so cool, where can I find out more?
+
+kerneli.org is a great start. If you're interested in algorithms, check 
+out Mastering C (or Perl)  Algorithms from your local library or whatever.
+Applied Cryptography is another great book, but a little much for the
+weekend hacker. I'm also aware that google.com is always an excellent 
+source of info.
+
+Part 5 -- Epilogue
+
+This is a preliminary article. The next one will begin to introduce the
+actual Crypto API (with... drumroll please... examples!). Depending on 
+the interest in the subject, I just might end up writing a cryptology 
+tutorial. You never know :P
+
+_______________________________
+----------------------- - kynik
+[=] 0x07: Music Reviews
+
+kynik's Rating, "Digimortal"
+----------------------------
+Originality - 4
+Talent      - 4
+Production  - 4.5
+I Like It   - 4.5
+Total       - 17/20 (85%)
+
+I managed to get my hands on a few songs from Fear Factory's upcoming 
+album "Digimortal", since I'm a huge fan. If any of you know about the 
+band, this release sits somewhere between Obsolete and Demanufacture. It's 
+much heavier than the last album, but it's got some quirks. I think the 
+guys from FF have been in the spotlight too much, though, and there's 
+little hints of new metal in there, even more than there were before. 
+I don't want to say that the songs sound formulaic, because the songs I 
+have are very unique from each other. It's just that you can sorta tell 
+when he's going to start screaming or break down into a lighter melodic 
+part. I won't spoil it too much more for you, but if you're a metal fan, 
+buy this when it comes out in April. (A single should be out by the time 
+this issue is released.)
+
+Find out more at http://www.fearfactory.com/
+
+kynik's Rating, "Black Seeds of Vengeance"
+------------------------------------------
+Originality - 4
+Talent      - 4.5
+Production  - 4
+I Like It   - 5
+Total       - 17.5/20 (87.5%)
+
+Nile's second full-length CD, "Black Seeds of Vengeance" is death metal. 
+I'm not using that as a derogatory term, either. I like death metal quite 
+a lot. Unfortunately, most of it that I've heard over the past year or so 
+has been recycled-sounding and not terribly interesting. In order for 
+death metal bands to make it nowadays, they have to have some sort of 
+gimmick to be recognized. Nile's gimmick is an ancient-Egyptian theme, 
+in full force with strange sounding percussion, tribal-sounding chants and 
+(presumably) some ancient egyptian lyrics. You would never have thought 
+that they were just four guys from South Carolina. I've seen Nile twice 
+live, and everybody except the drummer contributes to vocals, which helps 
+to make it quite intense. This second CD seems to be faster than their 
+first, and it's still enjoyable and doesn't sound like the same tracks as 
+the previous. If you're not into death metal, you probably won't like 
+this, but who knows, maybe they'll play Lilith Fair this year.
+
+For more info, check out http://www.nile-catacombs.com/
+
+
+ajax's Rating, "Farstucker"
+---------------------------
+Originality - 4
+Talent      - 4
+Production  - 4.5
+I Like It   - 4.5
+Overall     - 17/20 (85%)
+
+"Farstucker" is the new album from the incorrigible Lords of Acid, who
+have a bit of a reputation for being, let's say, overt. Hey, when the 
+name of your last album was "Pussy", people infer things. (And I'm sure 
+you've all figured out what Farstucker is a mutation of.) That proud 
+tradition continues on their new CD; songs with names like "Pain and 
+Pleasure Concerto", "Stripper", "Scrood Bi U" and "Lick My Chakra" and 
+lyrics that would make your parents uncomfortable are the rule here. 
+However, the Lords stretch out musically on this album, and it's a nice 
+break from the porno-house of "Sit On My Face" or "Crablouse". The first 
+few tracks sound like L7 (if they were mixed by, say, Lunatic Calm). 
+"Slave To Love" fools you into thinking it's a hard house track before 
+sliding into an extremely laid back groove. And "Get Up, Get High" is 
+destined to become a jock rock anthem (which is not an insult in this 
+case). If you've heard the Lords before, you'll be impressed by their 
+range on this one. If you haven't, you'll almost certainly find something 
+you like. Hell, if it weren't a song about cross-dressing and casual 
+threesomes, "I Like It" could play on the radio. Get this one.
+
+Check it out at http://www.lordsofacid.com/
+
+_________________
+-----------------
+[=] 0x08: Credits
+
+               Editor:  Kynik    <kynik@firest0rm.org>
+           Co-Editors:  ajax     <ajax@firest0rm.org>
+                        rsquared <rsquared@firest0rm.org>
+Article Contributions:  echo8    <echo8@gh0st.net>
+                        _azure   <azure@gh0st.net>
+                        Kp2      <kp2@firest0rm.org>
+                        Anonymous
+                        
+
+To subscribe to this 'zine:
+  email napalm@firest0rm.org with a subject of SUBSCRIBE
+
+To unsubscribe:
+  email napalm@firest0rm.org with a subject of UNSUBSCRIBE
+
+Or find us online at:
+  http://napalm.firest0rm.org/
+
+Submissions, questions, comments, and constructive chaos may also be
+directed to kynik@firest0rm.org or any of the contributors.
+
+.n10! - eof
+

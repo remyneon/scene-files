@@ -1,0 +1,691 @@
+           /\  /^/_ _ __  __ _|^|_ __ ___
+          /  \/ / _` '_ \/ _` | | '_ ` _ \
+         / /\  / (_| |_)  (_| | | | | | | |
+        /_/  \/ \__, .__/\__,_|_|_| |_| |_|
+                   |_|
+
+
+Issue 4 (Apr 5, 2000)
+__________________________________________________________________________
+The gh0st.net project:                     http://www.gh0st.net/index.html
+FireSt0rm homepage:                    http://www.firest0rm.org/index.html
+Napalm homepage:                    http://napalm.firest0rm.org/index.html
+URL of the day:                    http://mowse.ne.mediaone.net/index.html
+All content copyright ©2000 by the individual authors, All Rights Reserved
+__________________________________________________________________________
+
+- Editor's Comments
+- URLs
+- Just Intonation
+- Securing Solaris 2.x
+- Music Review
+- Future Issues
+- Credits
+
+***********************************************************************
+      *** Editor's Comments : Kynik
+***********************************************************************
+
+  We got some amazing press from the Hacker News Network, and through
+them, and PacketStorm, we managed to get over a thousand hits within 24
+hours of Issue 3's release. We're also up to 70 or so subscribers, and
+more trickling in every day. I've heard lots of good feedback from all of
+you readers, and I really appreciate it. What I would ike to see even
+more, though, is questions from all of you about things you need clarified
+or can't figure out. As long as it's topical (see Napalm's main page for
+what is topical) and we know the answer, we'll try to help out.
+Speaking of topical, as it is mentioned on the main page, we deal with
+music here, too, so starting with this issue, we're doing some music
+reviews, as well as a music-related article now and then. Also, if any of
+you have ideas for topics we should write about, feel free to email us at
+napalm@firest0rm.org. If you have articles that you've written and would
+like them included in the 'zine, those can also be sent to  
+napalm@firest0rm.org. Again, thanks for all of the great feedback!
+
+***********************************************************************
+      *** Random good URLs : Kynik, Dogcow
+***********************************************************************
+
+Packetstorm's archive of Napalm
+http://packetstorm.securify.com/mag/napalm/
+
+An Australian mirror of software, text files and misc. security info
+http://www.wiretapped.net/
+
+black.box e-zine
+http://black.box.sk/
+
+A huge collection of text files on many topics (Napalm's in there!)
+http://www.textfiles.com/
+
+A Milwaukee metal band
+http://www.atomicnumber9.com/
+
+***********************************************************************
+      *** Just Intonation : ajax
+***********************************************************************
+
+Everything You Never Wanted To Know About Just Intonation
+                         or
+           Western Scales Ate My Brain
+
+First, some introduction: according to napalm.firest0rm.org:80, "Napalm
+is an e-zine devoted to computer security, with a healthy dose of music,
+news, and ethics." Well, maybe we oughtta live up to that, so here's some
+music theory in your ear. (Or your eye, unless you're text-to-speeching
+this.)
+
+Generally speaking, a scale is a progression of notes that takes you from
+one octave to the next.  (Although it can actually be much larger than
+just one octave, generally we don't do that.)  Notes have pitches, which
+can be measured in oscillations per second, or hertz.  The human ear can
+perceive from about 20Hz at the low end to around 20,000Hz at the high
+end.  Now, it turns out that the human ear differentiates pitch
+logarithmically, and that doubling any given pitch raises it an
+octave.  Thus the human ear has a range of a little under ten octaves.
+
+Now it also turns out that when the ear hears any two notes in
+combination, the interval, whether major or minor, is perceived to be in
+tune when the ratio between the two notes approaches a ratio of two low
+integers.  The degenerate case would be a 1:1 ratio, which would be two
+notes in unison; a 2:1 ratio, as above, is an octave.  Roughly, the
+intervals for the twelve-tone scale used in western music are:
+
+1:1	unison
+21:20	half step / minor second
+9:8	whole step / major second
+6:5	minor third
+5:4	major third
+4:3	perfect fourth
+7:5	tritone / augmented fourth / diminished fifth
+3:2	perfect fifth
+8:5	minor sixth
+5:3	major sixth
+9:5	dominant seventh / flat seventh
+17:9	major seventh / natural seventh
+2:1	octave
+
+The note that a scale centers around is called the tonic.  A scale in
+which the ratio of any note to the tonic is an integer ratio is called a
+scale of just intonation.  These scales have a very natural-sounding
+quality to them.
+
+The problem is, they're murder to implement in any stopped or fretted
+instrument.  The difficulty is subtle, but it means big headaches.  It's
+hard to explain, though, so I'll give an example.
+
+For purposes of tuning we need a reference pitch, something all the
+instruments can agree on.  Usually a 440hz sine wave is used as the
+reference pitch, as an A natural.  Now, according to our table above, we
+can calculate the pitch of any other note by setting up a simple ratio
+relationship.  For example, if I wanted to calculate the pitch of a
+perfect fifth from an A440, I would write:
+    (X / 440) = (3 / 2)
+and solve for X.  Simple algebra, right?  In the above, X comes to 660.
+Let's calculate two more:
+    (X / 440) = (9 / 8); major second = 495
+    (X / 440) = (5 / 4); major third = 550
+Now, assume that what you know about scale theory is right and that the
+second of a second (of a tonic) is the same note (and pitch) as the major
+third of the tonic.  If that were true, then in:
+    (X / 495) = (9 / 8)
+X should equal 550.  This is the subtle bit, so make sure you understand
+it.  The above equation takes the second of 440 (495) and finds the note a
+second up from it (9 / 8).  I'll let you all punch that into xcalc and see
+what happens.
+
+Didn't work, did it?  You got 556.875, right?
+This is the problem.  Any given scale of just intonation must be tuned to
+a tonic, which is fine if you only want to play in one key.  However, you
+have to retune the instrument every time you modulate keys.  As many
+classical composers (and pop ballad writers) will tell you, this has a way
+of limiting your expressive power.
+
+So what's a keyboard manufacturer to do?  Tha answer is simple: make one
+note in tune, and space all the other notes equally (logarithmically
+equally, anyway).  This is what happens on most fretted instruments and
+keyboard instruments.  Now, instead of calculating pitch with integer
+ratios, we just plug an interval into the following equation:
+    P = 440 * 2 ^ (n / 12)
+where n is the number of half steps sharp you want to go (and hey, guess
+what, negative numbers work as expected; (n == -3) finds the pitch of the
+major sixth below A440).  This is called a scale of even (or equal)
+temperament, since the distance to any other note is independent of (and
+consistent across) key centers.
+
+Now, waitasec, doesn't this put everything out of tune?  Well, yes it
+does, but not by very much.  Observe:
+
+Note    Just Pitch      E.T. Pitch (approx.)    Error (%)
+A       440             440                     0.0
+Bb      462             466.16                  +0.9
+B       495             493.88                  -0.2
+C       528             523.25                  -0.8
+C#      550             554.37                  +0.7
+D       586.6-          587.33                  +0.1
+D#      616             622.25                  +1.0
+E       660             659.26                  -0.1
+F       704             698.46                  -0.7
+F#      733.3-          739.99                  +0.9
+G       792             783.99                  -1.0
+Ab      831.1-          830.61                  -0.1
+
+As you can see, we're never more than 1% out of pitch, which most people
+can't hear.  However, you *are* out of tune inherently, so when your
+instrument then goes further out of tune you sound *really* bad.  The
+advantage, though, is that you get stopped instruments, which makes
+composition and playing much easier.
+
+(Of course, you'll notice I cheated, and listed a just intonation scale
+that happens to be close to the 12-step equal temperament scale.  Sue
+me.  There are also Indian raga scales and other non-standard scales that
+are "just intonation" scales, but I wanted to present something
+understandable.)
+
+***********************************************************************
+      *** Securing Solaris 2.x : echo8
+***********************************************************************
+
+Files relevant to this article are located at:
+
+  echo8's Solaris-securing script
+  http://napalm.firest0rm.org/extra/sol.secure
+
+Solaris is Sun's proprietary UNIX operating system, based on SVR4. It's
+currently one of the most, if not the most, popular flavors of commercial
+unix. While source code is available under various educational
+arrangements, it is not freely distributed. Solaris has a long and
+distinguished history of security problems. It's not the worst of the
+commercial OSes in this regard, but it does not, in my opinion, rival many
+freely available OSes in terms of "out of the box" security. Nonetheless,
+as Solaris is very popular in the corporate world, many sysadmins find
+themselves called upon to deploy it into applications where security is
+important.
+
+What follows is an attempt to summarize what I have read and learned
+through practical experience with regards to how to make Solaris useable
+in an environment which is less than fully trusted. I make no pretense of
+being able to address all of the problems: I can't. I'm also not an expert
+programmer, and I don't have access to Solaris source. However, it is my
+belief that if one must use Solaris, the bar can be raised high enough to
+maintain a tolerable level of security in some applications. 
+
+Start off with a minimal OS install and Use the Most Current Version
+--------------------------------------------------------------------
+
+When you install Solaris, choose to do a custom install. After selecting
+the distribution set to use, pick and choose exactly which packages you
+want to install. What to install will obviously depend on your
+application, and you may discover later that you left out something
+important. You can often add the necessary packages from the CD at a later
+date without reinstalling if you find this to be the case.
+
+The second point is a little more contentious. My opinion is that the best
+course of action is to use the most current release whenever possible.
+While it's true that new releases often include new bugs, it's also the
+case that Sun tends to be more reponsive to holes in the newest versions,
+and that the newest versions tend to incorporate more fixes for known
+problems (ie. there is less ground to cover from the beginning). 
+
+Install the Recommended Patches
+-------------------------------
+
+I can't stress this enough. While they may take their time about it, Sun
+does fix holes. It's not at all uncommon for Sun to fix a hole without
+documenting it (I can think of at least two examples that I'd be happy to
+share upon request). While installing patch clusters on large numbers of
+systems in a production enviroment is time consuming, the benefits are
+obvious. If you need to remain secure, patch frequently, period. The patch
+clusters seem to be updated very frequently; it's not a bad idea to
+download a fresh copy whenever you do a new install. While patch clusters
+are still available for all released versions of Solaris, it's often the
+case that holes are fixed first in the most current releases.
+
+[ They're also nowhere near as bad as some nameless, non-unix-making
+  companies in terms of releasing patches. {ajax} ]
+
+Turn off Any Services You Don't Need
+------------------------------------
+
+Like many commercial OSes, Solaris comes out of the box with just about
+every service imagineable enabled. At least the following are enabled, by
+default:
+
+ftp
+telnet
+name
+shell
+login
+exec
+comsat
+talk
+uucp
+finger
+time
+echo
+discard
+chargen
+daytime
+sadmind
+rquotad
+rusersd
+sprayd
+walld
+rstatd
+kcms_server
+cachefsd
+kerbd
+in.lpd
+xaudio
+rpc.cmsd
+dtspc
+rpc.ttdbserverd
+keyserv
+sendmail
+snmp (various utilities)
+
+The vast majority of these do not need to be running in most environments. 
+Many have known security holes, and many more give out information about
+your system that you really don't need to be giving away. Start by going
+through /etc/inet/inetd.conf and commenting out everything that you don't
+need. If you find that you don't need anything there, disable inetd
+entirely. If you don't need rpcbind running, shut it off too. If you need
+either one, you should consider installing Wietse Venema's version of
+rpcbind [1] (which restricts connections by IP address or range, which is
+better than nothing) and xinetd. [2] Both of these allow more control over
+who is allowed to connect than the default Sun versions, and the source
+code for both is freely distributed and actively maintained. 
+
+Do the same thing for the services started from /etc/r*.d. A lot of
+systems don't need to have a lot of these running. Look at disabling at
+least the following: 
+
+In /etc/rc2.d:
+
+S74autofs
+S80lp
+S88sendmail
+
+In /etc/rc3.d:
+
+S76snmpdx
+S77dmi 
+
+Read your rc scripts carefully. If you don't need it, don't run it.
+
+NFS/NIS 
+------- 
+
+If you don't absolutely need to use NFS or NIS, do not enable them. The
+security implications of NFS/NIS are beyond the scope of this document,
+but suffice it to say that both present serious issues. If you absolutely
+need NFS, look into using secure-RPC. NIS+ is preferrable to NIS, but it
+is still best not to use either service if possible. Thankfully, Solaris
+2.x (unlike SunOS 4.x) will work just fine with naming services other than
+NIS. It's also worth pointing out that Sun has plans to drop NIS+ support
+in the near future. If you choose to roll it out because of its improved
+security, you may find yourself on your own as far as "official" support
+goes before too long.
+
+[ Note that NIS and NIS+ share no code and have very different database
+  setups, so if you do end up having to convert, life will not be fun.
+  However, back when Solaris 2.4 was released, Sun dropped server-side
+  support for NIS from the OS and made plans to throw all their weight
+  behind NIS+.  Look how far *that* got them.  Like echo8 says, if you
+  don't have to, don't. {ajax} ]
+
+If you must use NFS, be aware that even if you manage to use AUTH_DES or
+AUTH_KERB for authentication, NFS traffic still traverses the network in
+plaintext. [3] If you need to use NFS, be very careful about which hosts
+you export filesystems to.  Export read-only where possible, and consider
+using fsirand to install random inode numbers on the filesystems you're
+exporting (to make filehandle guessing harder).
+
+[ How would one go about guessing file handles and then using that
+  information to gain unauthorized access? (NFS is pretty foreign to me
+  at the moment) {kynik} ]
+
+[ It's like TCP sequence number guessing.  NFS uses an amalgam of
+  information in constructing filehandles, including inode numbers.  This
+  is used as a token to determine which file is being operated on.  Now,
+  most of the time NFS uses UDP, which has no sequence numbers, so if you
+  can get the filehandle you can spoof NFS operations, like corrupting or
+  unlinking files and such.  This is why NFS over TCP and Secure RPC are
+  Good Things; now if only they worked... {ajax} ]
+
+[ As an addition, file handles can be constructed without the assistance
+ of the mount daemon, which enforces access control in the Secure RPC
+ scheme. In this situation, the client can communicate with nfsd directly
+ and proceed to operate with exported files. This bug is relevant
+ specifically to the Sun Microsystem's "Secure NFS"/ SecureRPC
+ implementation and has been patched. -phatal]
+
+Remove as many SUID bits as Possible 
+------------------------------------
+
+Solaris comes out of the box with about 100 utilities installed setuid to
+root. While many of them need to be suid root in order to have all of the
+functionality Sun intended, there's a good chance that any given
+installation doesn't need all of that functionality. Furthermore, many of
+these programs have a history of bounds-checking problems that can enable
+local users to gain root privileges. Without the suid bit set, such buffer
+overflow attacks don't often yield as interesting a result. Use the find
+command to locate all of the setuid and setgid programs on your system. 
+Remove the suid bits from the ones you are sure will only be run by root,
+or where you don't need the functionality that requires the suid bit to be
+set. It's also a good idea to make a list of all of the programs that you
+leave suid/sgid, and to store that list someplace other than on your
+system. It's an even better idea to use a utility such as tripwire [4] to
+keep tabs on ALL of your binaries, suid/sgid or not.
+
+Casper Dik's fix-modes program [5] can be useful for changing permissions
+to increase security. Sun's aset utility is also useful in this regard. 
+
+Kernel and IP Stack Defaults 
+---------------------------- 
+
+Configuration changes can be made to the Solaris kernel and to the tcp/ip
+stack to somewhat improve its security. Adding the following lines to
+/etc/system will make the stack non-executable (providing some protection
+against buffer overflow attacks):
+
+* make the stack non-executable
+set noexec_user_stack = 1
+* this logs attempts
+set noexec_user_stack_log = 1
+
+[ Note that you can patch the Linux kernel to do the same thing. Solar
+  Designer's patch is at http://www.openwall.com/linux/ {kynik} ]
+
+[ Programs which map the stack executable will have problems running
+  in this environment. See notes on the Sparc v8 ABI vs. the v9 ABI for
+  more detail. -phatal]
+
+You can deny access to NFS exports by non-privileged clients by adding the
+following to /etc/system:
+
+set nfssrv:nfs_portmon = 1 (for 2.5 and above)
+or
+set nfs:nfs_portmon = 1 (for older releases)
+
+To keep from being smurfed, configure your IP stack NOT to respond to ICMP
+echo requests from broadcast addresses, or to forward them:
+
+/usr/sbin/ndd -set /dev/ip ip_forward_directed_broadcasts 0 
+/usr/sbin/ndd -set /dev/ip ip_respond_to_echo_broadcast 0
+
+Configure your IP stack to drop source routed frames: 
+
+/usr/sbin/ndd -set /dev/ip ip_forward_src_routed 0
+
+You might also want to disallow routing between interfaces (if you have
+more than one):
+
+/usr/sbin/ndd -set /dev/ip ip_strict_dst_multihoming 1 
+
+All of the ndd commands can be added to the end of an rc script so that
+they run at every boot.
+
+EEPROM Security
+---------------
+
+It's nearly impossible to effectively secure a machine which is in a
+phyically insecure location. That said, taking some basic precautions is
+worthwhile.
+
+Either at the OK> prompt, or using the eeprom command, set the following
+parameters:
+
+security-mode=command
+security-password=<password>
+security-#badlogins=<however many>
+
+The first two will restrict the command set available at the firmware
+prompt until a password is entered. A user with unrestricted access to the
+firmware state can, for example, boot from alternate devices, change
+device aliases or change the uid on running processes. [6] The third
+parameter defines the number of times the user is allowed to attempt to
+supply a password to enter the unrestricted mode.
+
+[ You Solaris people running on the Intel x86 platform need to set a BIOS
+  password to avoid the headaches described above. Granted, one could pop
+  the case open and clear it with a jumper, but I imagine there's a way to
+  do that on a Sun box as well. Anybody know? {kynik} ]
+
+Process Auditing
+----------------
+
+Solaris ships with a fairly robust and configurable facility for process
+auditing. The interface is not particularly intuitive, but the package
+allows a extensive logging of kernel and user-level events. The Basic
+Security Module is installed by default if you install the full
+distribution. If you do a minimal, selective install, make sure you
+include the following packages: SUNWcsr, SUNWcsu, SUNWhea, SUNWman. While
+configuration of auditing is beyond the scope of this document, you should
+probably consider logging at least the following event-types: network,
+process, administrative, login_logout, application, exec, other, and
+non_attrib. If you really want a closer look at what's going on, you can
+also enable the file_creation, file_deletion, file_attr_mod, file_write
+file_read and file_close classes. More extensive auditing (down to the
+system call level, for certain calls) is available.
+
+Process auditing can impose a serious performance penalty, depending on
+the extent to which you choose to audit. Make sure that you have the
+necessary storage space and cpu cycles, especially if the application is
+performance-intensive. Thought should also be given to how to secure,
+replicate, and store your audit records to prevent their being corrupted
+if your system is compromised. Full documentation on process auditing is
+to be found in the SunSHIELD Basic Security Module Guide, which is part of
+the System Administration Answerbook (Vol. I).
+
+Other Add-Ons
+-------------
+
+In addition to the third-party products I've already mentioned, the
+following products are not part of Solaris, but can be very helpful when
+it comes to increasing the security of a Sun system:
+
+* Secure Shell (ssh) - a replacement for the r* utilities for remote
+  logins and file transfers, which provides strong authentication and
+  encryption. At least two viable implementations for unix currently
+  exist. [8][9]
+
+* Super User DO (sudo) - a utility which allows an admin to give specified
+  users access to specific commands with root privileges. In conjuction
+  with inventive programming, this can almost always preclude having to
+  provide root passwords to anyone other than a qualified, trusted admin.
+  [10]
+
+* TCP Wrappers - Allows an admin to restrict access to inet services by
+  IP, and provides logging of all accepted and denied connections. [11]
+
+* IP Filter - A free packet filter, suitable for use for firewalling. [12]
+
+* nmap - The premier port scanner. Very useful for auditing systems. [13]
+
+* anonftpd - Dan Bernstein's read-only anonymous ftp daemon. Useful if you
+  must allow anonymous ftp downloads. [14]
+
+* tcpdump - a packet sniffer. Yes, I know that Solaris comes with snoop.
+  Use tcpdump and like it. [15]
+
+* qmail - Bernstein's mail transfer agent. A good way to be rid of
+  sendmail. [16]
+
+* argus - a free intrusion-detection tool. [17]
+
+[ I hear tripwire is good {blakboot} ]
+
+Conclusion
+----------
+
+If all of these steps are taken, I believe that it is possible to "raise
+the bar" sufficiently that most compromises of Solaris servers can be
+prevented. This is obviously not a recipe for total security. Most of the
+advice in this paper consists of removing functionality from the OS in
+order to increase its security. This is not possible in all applications,
+so the kind of host-based security described here should always be
+implemented as part of a broader plan, which includes carefully-written
+policies and operating procedures. Other mechanisms for increasing a
+site's overall security (eg. firewalls, IDS, vulnerability scanning,
+careful user education) should not be neglected. 
+
+[ And DO subscribe to mailing lists. {kynik} ]
+
+Appendix
+--------
+
+The accompanying code is an example of a semi-automated way to implement
+some of the modifications advocated here. It is just that: an example.
+It was not meant to be a comprehensive or extensible piece of software. I
+am aware that products like Dan Farmer's TITAN [7] are available, and they
+are probably more suitable for intensive use. 
+
+References
+----------
+
+[1] ftp://ftp.win.tue.nl/pub/security/rpcbind_1.1.tar.Z
+[2] ftp://qiclab.scn.rain.com/pub/security
+[3] http://www.sunworld.com/common/security-faq.html
+[4] ftp://coast.cs.purdue.edu//pub/COAST/Tripwire
+[5] http://www.fwi.uva.nl./pub/comp/solaris/fix-modes.tar.gz
+[6] http://www.2600.com/phrack/p53-09.html
+[7] http://www.fish.com/titan
+[8] ftp.cs.hut.fi/pub/ssh
+[9] www.openssh.org
+[10] http://www.courtesan.com/sudo/sudo.html
+[11] ftp://ftp.porcupine.org/pub/security/ **
+[12] http://coombs.anu.edu.au/~avalon/ip-filter.html
+[13] www.insecure.org
+[14] ftp://koobera.math.uic.edu/pub/software
+[15] ftp://ftp.ee.lbl.gov
+[16] www.qmail.org
+[17] ftp://ftp.sei.cmu.edu/pub/argus
+
+The Solaris 2 FAQ - http://www.wins.uva.nl/pub/solaris/solaris2.html
+The L0pht - www.l0pht.com
+Packet Storm Security - packetstorm.securify.com
+The Bugtraq Archives - www.securityfocus.com
+
+Please address comments to echo8@firest0rm.org. Copyright 1/2000,
+Firest0rm Security/Gh0st.net. 
+
+A big thanks to everyone who read this for me and sent comments. You know 
+who you are.
+
+***********************************************************************
+      *** Music Review : Kynik
+***********************************************************************
+
+I plan on doing at least one music review per article, with bands being
+chosen by different people, and getting reviewed by at least 2 others.
+Each reviewer will give the song a ranking from 1 to 5 in 4 categories:
+Originality, Talent, Production (how well the song was put together
+and/or recorded), and a fourth category ranking how much the reviewer
+liked the song. Thus, a score of a 20 is perfect. Observe:
+
+Since this is the first one, I'm choosing a band I found on garageband.com
+called "Regrets". We reviewed their song "Hate This" this issue. Their
+homepage can be found here:
+
+http://www.angelfire.com/co2/Regret/index.html
+
+Kynik's review
+--------------
+Originality - 3
+Talent      - 4.5
+Production  - 3
+I Like It   - 4.5
+
+I was immediately impressed by the drummer in this track. He's tight,
+relatively complex, and mixed rather well. The band tends to stick with
+the tried and true "hardcore" sound, but with a drummer like that, they're
+liable to get real big real quick. The vocalist is mediocre, and could
+liven up the song by adding a bit more melody. The guitars sound far too
+fuzzy for my tastes, and it's hard to distinguish if they're playing one
+chord or another. The 3 riffs they do play are decent, but similar enough
+that it seems a touch repetitive. (Then again, what song isn't, to a
+certain degree) The track could have been mixed better, as the vocals
+tended to fade to the background. All in all, I would pay for a ticket to
+see Regrets play live.
+
+Druid's review
+--------------
+Originality - 2.5
+Talent      - 4.5
+Production  - 3
+I Like It   - 3.5
+
+"Hate This" by Regrets certainly does its job well.  It's a heavy
+aggressive, ear pleasing (if you like metal, that is) track.  However, its
+real job seems to be that of filling a niche. "Hate This" is good to the
+point that you *swear* Regrets is a popular band.  You *swear* you've
+heard "Hate This" before.  They're not, and you probably haven't, but
+that's the niche "Hate This" fills.  
+
+The guitars in "Hate This" are good (where have i heard that riff
+before?), and the lyrics very angry, and very distorted (maybe a bit
+much - slightly hard to understand.) the song flows really well, and
+the background sounds blend in well. Not a bad song - in fact, I like it.
+Just sad that they don't apply thier obvious talent more, instead of
+sticking behind the "safe" metal front.
+
+Euchlid's review
+--------------
+Originality - 2.5
+Talent      - 4
+Production  - 3
+I Like It   - 3.5
+
+Originality only got a 2.5 out of 5 because I think I've heard it before.
+Talent was not quite 5 due to singer being a bit crass but points for
+kickass factor. Drums were a bit hollow sounding and the intro went on a
+bit too long. All in all, a good rockin' tune, lacking slightly in
+originality but making up for it in aggression. Vocals sounded a bit raw
+in a tinny way but the drums kicked ass and the song really hit the spot. 
+
+Overall rating
+--------------
+Originality - 2.67
+Talent      - 4.33
+Production  - 3.00
+I Like It   - 3.83
+Total       - 13.83/20.00 (69.15%)
+
+***********************************************************************
+      *** Future Issues
+***********************************************************************
+
+Contemporary Telenet : Blakboot
+
+***********************************************************************
+      *** Credits
+***********************************************************************
+
+               Editor:  Kynik    <kynik@firest0rm.org>
+            Co-Editor:  ajax     <ajax@firest0rm.org>
+Article Contributions:  echo8    <echo8@firest0rm.org>
+        Music Reviews:  Druid    <druid@firest0rm.org>
+                        Euchlid  <euchlid@firest0rm.org>
+           Commentary:  Blakboot <blakboot@firest0rm.org
+                        Phatal   <phatal@gh0st.net>
+      URL Submissions:  Dogcow   <gbayley@ausmac.net>
+
+***********************************************************************
+      *** Subscription
+***********************************************************************
+
+To subscribe to this 'zine:
+  Email napalm@firest0rm.org with a subject of SUBSCRIBE
+To unsubscribe:
+  Email napalm@firest0rm.org with a subject of UNSUBSCRIBE
+or find us online at:
+  http://napalm.firest0rm.org/
+
+Submissions, questions, comments, and constructive chaos may also be
+directed to kynik@firest0rm.org or any of the contributors
+
+***********************************************************************
+
+
+
